@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latin Authors Tier List</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title"><a href="index.html">Latin Authors Tier List</a></h1>
+      <p class="site-subtitle">From Livius Andronicus to Boethius - a reader's guide to Roman literature and its difficulty</p>
+      <nav class="era-menu" id="era-menu" aria-label="Eras"></nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="era-panel" id="era-panel" aria-live="polite">
+      <div class="era-panel-header">
+        <h2 class="era-panel-title" id="era-panel-title">Archaic Era</h2>
+        <span class="era-panel-toggle" id="era-panel-toggle" aria-hidden="true">&minus;</span>
+      </div>
+      <div class="era-panel-body" id="era-panel-body"></div>
+    </section>
+
+    <h2 class="section-label" id="grid-label">Authors</h2>
+    <section class="author-grid" id="author-grid"></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">An interactive companion to the Latin Authors writing project.</div>
+  </footer>
+
+  <script src="js/content.js"></script>
+  <script src="js/markdown.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>
