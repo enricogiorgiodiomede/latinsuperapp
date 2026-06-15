@@ -6,7 +6,27 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
-## [0.3.0] - 2026-06-14
+## [0.3.1] - 2026-06-16
+
+Recalibrated difficulty for fragmentary authors.
+
+### Changed
+- Lowered the overall evaluation of the fragmentary authors, since translating a
+  handful of short, isolated fragments is a far smaller task than translating a
+  complete continuous text:
+  - Livius Andronicus, Gnaeus Naevius, Quintus Ennius, and Pacuvius & Accius: now
+    **Manageable** (were Very Difficult / Difficult).
+  - Pomponius & Novius: now **Good Exercise** (was Difficult).
+  - Caecilius Statius: lowered only to **Difficult** (was Very Difficult), thanks to
+    the one long continuous fragment from the *Plocium*.
+- Scaled each lowered author's criteria bars down to match the new evaluation.
+- Marked Naevius and Ennius as fragmentary (they were flagged as complete-text), so
+  their evaluation now carries the "scaled to the sparse surviving fragments" note.
+- Kept Lucilius at **Very Difficult**: his satire also survives only in fragments, but
+  the surviving body is comparatively large and the Latin stays genuinely hard (the
+  *Virtus* excerpt is one of the easier passages).
+
+## [0.3.0] - 2026-06-16
 
 Repurposed the site from a tier-list reflection into a tool for exploring authors
 and practising translation.

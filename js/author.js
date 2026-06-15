@@ -145,7 +145,7 @@
     if (rating.fragments) {
       var note = document.createElement('span');
       note.className = 'eval-note';
-      note.textContent = 'difficulty of the surviving fragments';
+      note.textContent = 'scaled to the sparse surviving fragments';
       wrap.appendChild(note);
     }
     return wrap;

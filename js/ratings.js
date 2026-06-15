@@ -7,9 +7,11 @@
  *
  * Fractional values are intentional: bars sit a little above/below the level
  * lines rather than snapping to them. Authored with the latin-tier-list rubric
- * (Lexicon, Syntax, Style, Density) and mirroring the project's existing tiers;
- * fragmentary authors get the difficulty of translating their surviving
- * fragments rather than a "not comparable" note.
+ * (Lexicon, Syntax, Style, Density). Fragmentary authors are scaled down: what
+ * survives is sparse and often isolated, so the practical task of translating
+ * them is much smaller than the per-line difficulty of a complete text like
+ * Plautus would suggest. Caecilius is scaled down only slightly thanks to the
+ * one long continuous Plocium fragment.
  */
 (function (global) {
   'use strict';
@@ -43,16 +45,16 @@
   // Per-author ratings, keyed by the same slugs the rest of the app uses.
   var AUTHOR_RATINGS = {
     'livius-andronicus': {
-      lexicon: 3.7, syntax: 2.9, style: 2.6, density: 2.7,
-      evaluation: 'very-difficult', fragments: true
+      lexicon: 2.6, syntax: 2.0, style: 1.8, density: 1.9,
+      evaluation: 'manageable', fragments: true
     },
     'gnaeus-naevius': {
-      lexicon: 3.1, syntax: 2.8, style: 2.6, density: 2.7,
-      evaluation: 'difficult', fragments: false
+      lexicon: 2.4, syntax: 2.1, style: 1.9, density: 2.0,
+      evaluation: 'manageable', fragments: true
     },
     'quintus-ennius': {
-      lexicon: 3.3, syntax: 3.1, style: 3.0, density: 3.0,
-      evaluation: 'difficult', fragments: false
+      lexicon: 2.7, syntax: 2.4, style: 2.2, density: 2.3,
+      evaluation: 'manageable', fragments: true
     },
     'titus-maccius-plautus': {
       lexicon: 3.8, syntax: 2.3, style: 3.4, density: 2.1,
@@ -63,24 +65,24 @@
       evaluation: 'manageable', fragments: false
     },
     'caecilius-statius': {
-      lexicon: 3.4, syntax: 2.5, style: 2.8, density: 2.3,
-      evaluation: 'very-difficult', fragments: true
+      lexicon: 2.9, syntax: 2.4, style: 2.5, density: 2.2,
+      evaluation: 'difficult', fragments: true
     },
     'publius-terentius-afer': {
       lexicon: 2.4, syntax: 2.5, style: 2.7, density: 2.8,
       evaluation: 'difficult', fragments: false
     },
     'marcus-pacuvius-and-lucius-accius': {
-      lexicon: 3.6, syntax: 3.3, style: 3.4, density: 3.3,
-      evaluation: 'very-difficult', fragments: true
+      lexicon: 2.6, syntax: 2.3, style: 2.4, density: 2.3,
+      evaluation: 'manageable', fragments: true
     },
     'gaius-lucilius': {
       lexicon: 3.5, syntax: 2.9, style: 3.1, density: 3.2,
       evaluation: 'very-difficult', fragments: false
     },
     'pomponius-bononiensis-and-quintus-novius': {
-      lexicon: 3.2, syntax: 2.1, style: 2.2, density: 1.9,
-      evaluation: 'difficult', fragments: true
+      lexicon: 2.0, syntax: 1.5, style: 1.6, density: 1.4,
+      evaluation: 'good-exercise', fragments: true
     }
   };
 

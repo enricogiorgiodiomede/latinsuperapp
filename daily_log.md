@@ -102,4 +102,28 @@ Focus shifted from writing to tooling: a self-contained web app was built to tur
 - `.gitignore`, `.claude/launch.json` (created) -- project tooling config.
 - Git repository initialized; two commits made ("Initial commit: Latin Authors Tier List web app" and "Add CHANGELOG documenting today's work") and pushed to `origin/main`.
 
-**Progress:** Archaic Era content is now viewable as an interactive web app. The other four eras remain placeholders in the UI, pending their written drafts. No author writing or other work was recorded on 06-15 or 06-16.
+**Progress:** Archaic Era content is now viewable as an interactive web app. The other four eras remain placeholders in the UI, pending their written drafts. No author writing or other work was recorded on 06-15.
+
+---
+
+## 2026-06-16
+
+*(End-of-day log, 23:55.)*
+
+Two pieces of web-app work today; no author content was changed.
+
+**Repurposed the app into an explore-and-translate tool (v0.3.0):**
+- Removed all tier-list framing: deleted the tier badge and the "Why this tier" section, removed tier parsing from `js/data.js`, and renamed the site to "Latin Authors: Explore & Translate" (header, page titles, home subtitle).
+- Added a per-criterion difficulty bar chart on each author page (`js/chart.js`, inline SVG): Lexicon / Syntax / Style / Density against four equally spaced levels (Straightforward / Manageable / Challenging / Complex); bars are coloured green / yellow / orange / red by the level they reach.
+- Added an overall evaluation badge (`js/ratings.js`) in place of the tier badge: it mirrors the old tiers but reframed, with the maximum renamed "START PRAYING, BOY"; fragmentary authors get the difficulty of their surviving fragments instead of a "Not Comparable" verdict.
+- Added a render-time scrubber in `js/data.js` that strips tier / ranking language from displayed prose (the source `archaic_era_draft.md` is never modified).
+- Updated `README.md` and `CHANGELOG.md`; committed and pushed (commit at 01:29).
+
+**Recalibrated fragmentary-author difficulty (v0.3.1):**
+- Lowered the evaluations of the fragmentary authors, since a few short isolated fragments are a far smaller task than a complete continuous text: Livius Andronicus, Naevius, Ennius and Pacuvius / Accius are now Manageable; Pomponius / Novius is now Good Exercise; Caecilius was lowered only to Difficult, thanks to the long continuous *Plocium* fragment.
+- Scaled each lowered author's criteria bars down to match, and marked Naevius and Ennius as fragmentary.
+
+**Housekeeping:**
+- Corrected the v0.3.0 date in `CHANGELOG.md` from 2026-06-14 to 2026-06-16 (its actual day) and added a v0.3.1 entry.
+
+**Progress:** The web app is now an explore-and-translate tool with per-author difficulty charts, and the fragmentary authors are ranked appropriately lower (Lucilius kept at Very Difficult, since his surviving body is larger and the Latin stays hard). A nightly scheduled task (`daily-log-updater`, ~23:51 local) now appends end-of-day entries to this log automatically.
