@@ -1,7 +1,8 @@
 /*
- * author.js - author detail page. Reads ?era= & ?id= from the URL and
- * renders biography, main works, style/difficulty and a tier badge, plus a
- * "Practice translation" button. The excerpt itself lives on practice.html.
+ * author.js - author detail page. Reads ?era= & ?id= from the URL and renders
+ * biography, main works, style, a per-criterion difficulty bar chart, and an
+ * overall evaluation, plus a "Practice translation" button. The Latin excerpt
+ * itself lives on practice.html.
  */
 (function () {
   'use strict';
@@ -28,7 +29,7 @@
         '<a class="back-link" href="index.html">&larr; Back to all authors</a>';
       return;
     }
-    document.title = author.name + ' - Latin Authors Tier List';
+    document.title = author.name + ' - Latin Authors: Explore & Translate';
     render(author);
   }).catch(function (err) {
     UI.showError(root, err.message);
@@ -49,8 +50,9 @@
 
   function render(author) {
     root.innerHTML = '';
+    var rating = Ratings.forAuthor(author.slug);
 
-    // --- Hero: portrait(s), name, dates, tier badge, actions ---
+    // --- Hero: portrait(s), name, dates, overall evaluation, actions ---
     var hero = document.createElement('section');
     hero.className = 'detail-hero';
 
@@ -74,8 +76,8 @@
       heading.appendChild(dates);
     }
 
-    if (author.tier && author.tier.letter) {
-      heading.appendChild(buildTierBadge(author.tier));
+    if (rating) {
+      heading.appendChild(buildEvaluation(rating));
     }
 
     var actions = document.createElement('div');
@@ -96,9 +98,9 @@
     addSection('Main Works', author.works);
     addSection('Style and Difficulty', author.style);
 
-    // --- Tier rationale (the Final Rating prose, minus the tier line) ---
-    if (author.tierRationale) {
-      addSection('Why this tier', author.tierRationale);
+    // --- Difficulty profile: the criteria bar chart ---
+    if (rating) {
+      root.appendChild(buildDifficultyProfile(rating));
     }
 
     var back = document.createElement('a');
@@ -121,17 +123,63 @@
     root.appendChild(sec);
   }
 
-  function buildTierBadge(tier) {
-    var badge = document.createElement('div');
-    badge.className = 'tier-badge tier-' + tier.letter;
-    var letter = document.createElement('span');
-    letter.className = 'tier-letter';
-    letter.textContent = tier.letter;
+  // The overall evaluation, shown as a coloured badge (with a note for
+  // authors known only from fragments).
+  function buildEvaluation(rating) {
+    var evalDef = Ratings.evaluation(rating.evaluation);
+    var wrap = document.createElement('div');
+    wrap.className = 'eval-wrap';
+
     var label = document.createElement('span');
-    label.className = 'tier-label';
-    label.textContent = tier.label || '';
-    badge.appendChild(letter);
-    badge.appendChild(label);
-    return badge;
+    label.className = 'eval-caption';
+    label.textContent = 'Overall difficulty';
+    wrap.appendChild(label);
+
+    var badge = document.createElement('div');
+    badge.className = 'eval-badge';
+    badge.style.backgroundColor = evalDef.color;
+    badge.style.color = rating.evaluation === 'manageable' ? '#2b2622' : '#fff';
+    badge.textContent = evalDef.label;
+    wrap.appendChild(badge);
+
+    if (rating.fragments) {
+      var note = document.createElement('span');
+      note.className = 'eval-note';
+      note.textContent = 'difficulty of the surviving fragments';
+      wrap.appendChild(note);
+    }
+    return wrap;
+  }
+
+  // The "Difficulty profile" section: the bar chart plus a short legend.
+  function buildDifficultyProfile(rating) {
+    var sec = document.createElement('section');
+    sec.className = 'content-section';
+
+    var h = document.createElement('h2');
+    h.textContent = 'Difficulty profile';
+    sec.appendChild(h);
+
+    var lead = document.createElement('p');
+    lead.className = 'profile-lead';
+    lead.textContent = 'How hard each aspect is to translate. Bars are coloured by the level they reach.';
+    sec.appendChild(lead);
+
+    var chartWrap = document.createElement('div');
+    chartWrap.className = 'chart-wrap';
+    Chart.renderCriteria(chartWrap, rating);
+    sec.appendChild(chartWrap);
+
+    var legend = document.createElement('ul');
+    legend.className = 'criteria-legend';
+    Ratings.CRITERIA.forEach(function (c) {
+      var li = document.createElement('li');
+      li.innerHTML = '<strong>' + Markdown.escapeHtml(c.label) + '</strong> ' +
+        Markdown.escapeHtml(c.blurb);
+      legend.appendChild(li);
+    });
+    sec.appendChild(legend);
+
+    return sec;
   }
 })();

@@ -6,6 +6,38 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.3.0] - 2026-06-14
+
+Repurposed the site from a tier-list reflection into a tool for exploring authors
+and practising translation.
+
+### Added
+- **Per-criterion difficulty bar chart** on each author page (`js/chart.js`, inline
+  SVG): four bars - Lexicon, Syntax, Style, Density - against equally spaced difficulty
+  levels (Straightforward / Manageable / Challenging / Complex). Bars are coloured by the
+  level they reach (green / yellow / orange / red) and may sit slightly above or below a
+  level line.
+- **Overall evaluation** badge derived from the criteria, replacing the tier badge. It
+  mirrors the old tiers but reframed, with the maximum renamed to "START PRAYING, BOY".
+  Fragmentary authors now get the difficulty of translating their surviving fragments
+  instead of a "Not Comparable" verdict (noted on the badge).
+- **`js/ratings.js`**: per-author difficulty data, the four-criteria definitions, the
+  difficulty levels, and the evaluation scale.
+
+### Changed
+- Renamed the site to **"Latin Authors: Explore & Translate"** (title, header, page
+  titles) and updated the home subtitle to match the new purpose.
+- Author pages now show a "Difficulty profile" section (chart + a short criteria legend)
+  in place of the tier badge and the "Why this tier" section.
+
+### Removed
+- All tier-list ranking from the app: the tier badge, the tier rationale section, and the
+  tier parsing in `js/data.js`.
+- Tier / ranking language is now stripped from displayed prose at render time (a scrubber
+  in `js/data.js`): inline "**Lexicon: HIGH**"-style scoring callouts and any sentence
+  mentioning a tier, an NC / "Not Comparable" verdict, or an uppercase HIGH/MEDIUM/LOW
+  score. The source `archaic_era_draft.md` is never modified.
+
 ## [0.2.0] - 2026-06-14
 
 Navigation pass: make the app browsable from anywhere, not just the home page.

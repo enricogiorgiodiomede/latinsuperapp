@@ -40,15 +40,6 @@
     'pomponius-bononiensis-and-quintus-novius': ['pomponius-bononiensis.jpg', 'quintus-novius.jpeg']
   };
 
-  var TIER_LABELS = {
-    S: 'GOD PLEASE HELP',
-    A: 'Very Difficult',
-    B: 'Difficult',
-    C: 'Manageable',
-    D: 'Good Exercise',
-    NC: 'Not Comparable'
-  };
-
   // ------------------------------------------------------------------
   // Loading
   // ------------------------------------------------------------------
@@ -131,6 +122,33 @@
       .join('\n')
       .replace(/^\n+/, '')
       .replace(/\n+$/, '');
+  }
+
+  // Strip tier-list / ranking language from displayed prose. The source
+  // markdown is never modified; this only affects what the app renders.
+  // Removes inline "**Lexicon: HIGH**"-style scoring callouts, and drops any
+  // sentence mentioning a tier, an NC / "Not Comparable" verdict, or an
+  // uppercase HIGH/MEDIUM/LOW criterion score.
+  function scrubRanking(text) {
+    if (!text) return text;
+    // 1) strip bold scoring callouts that contain HIGH/MEDIUM/LOW.
+    var t = text.replace(/\s*\*\*[^*]*\b(?:HIGH|MEDIUM|LOW)\b[^*]*\*\*/g, '');
+    // 2) per paragraph, drop sentences that carry ranking markers.
+    var markerCI = /\btiers?\b|not comparable|GOD PLEASE HELP|START PRAYING/i;
+    // Uppercase tier idioms not already covered by "tier" (case-sensitive so
+    // ordinary prose like "touch a nerve" is not affected).
+    var markerCS = /\bNC\b|\btouch(?:es|ing)?\s+S\b|\bhigh\s+A\b|\bborderline\s+[SAB]\b/;
+    var scored = /\b(?:HIGH|MEDIUM|LOW)\b/; // uppercase criterion scores
+    var out = t.split(/\n{2,}/).map(function (para) {
+      // Leave structural blocks (lists, quotes, headings) untouched.
+      if (/^\s*(?:[-*>#]|\d+\.)/.test(para.trim())) return para;
+      var sentences = para.split(/(?<=[.!?])\s+(?=["'“*A-Z])/);
+      var kept = sentences.filter(function (s) {
+        return !markerCI.test(s) && !markerCS.test(s) && !scored.test(s);
+      });
+      return kept.join(' ').trim();
+    }).filter(function (p) { return p.replace(/\s/g, '').length > 0; });
+    return out.join('\n\n');
   }
 
   // ------------------------------------------------------------------
@@ -217,24 +235,6 @@
   }
 
   // ------------------------------------------------------------------
-  // Tier extraction
-  // ------------------------------------------------------------------
-  function parseTier(body) {
-    var letter = '';
-    var line = '';
-    var lines = body.split('\n');
-    for (var i = 0; i < lines.length; i++) {
-      var m = lines[i].match(/\*\*Tier:\s*(NC|S|A|B|C|D)\b/i);
-      if (m) {
-        letter = m[1].toUpperCase();
-        line = lines[i].replace(/^\s*\*\*/, '').replace(/\*\*\s*$/, '').trim();
-        break;
-      }
-    }
-    return { letter: letter, label: TIER_LABELS[letter] || '', line: line };
-  }
-
-  // ------------------------------------------------------------------
   // Top-level parse
   // ------------------------------------------------------------------
   function parseArchaic(markdown) {
@@ -256,7 +256,7 @@
         if (/^\s*---\s*$/.test(lines[j])) break;
         introLines.push(lines[j]);
       }
-      intro = cleanBody(introLines.join('\n'));
+      intro = scrubRanking(cleanBody(introLines.join('\n')));
     }
 
     // Author blocks: each subsequent H1 to the next H1 (or EOF).
@@ -324,18 +324,6 @@
       dates = datesFromText(subheadLine);
     }
 
-    var ratingBody = cleanBody(sections.rating || '');
-    var tier = parseTier(ratingBody);
-
-    // Rationale prose = the Final Rating body minus the "**Tier: ...**" line
-    // (the badge already conveys the tier itself).
-    var tierRationale = ratingBody
-      .split('\n')
-      .filter(function (l) { return !/\*\*Tier:/i.test(l); })
-      .join('\n')
-      .replace(/^\n+/, '')
-      .replace(/\n+$/, '');
-
     return {
       slug: slug,
       name: name,
@@ -344,13 +332,13 @@
         return { src: 'images/' + file };
       }),
       combined: images.length > 1,
-      biography: cleanBody(sections.biography || ''),
-      works: cleanBody(sections.works || ''),
-      style: cleanBody(sections.style || ''),
-      ratingBody: ratingBody,
-      tierRationale: tierRationale,
-      tier: tier,
-      excerpts: parseExcerpts(cleanBody(sections.excerpt || ''))
+      biography: scrubRanking(cleanBody(sections.biography || '')),
+      works: scrubRanking(cleanBody(sections.works || '')),
+      style: scrubRanking(cleanBody(sections.style || '')),
+      excerpts: parseExcerpts(cleanBody(sections.excerpt || '')).map(function (g) {
+        g.analysis = scrubRanking(g.analysis);
+        return g;
+      })
     };
   }
 
@@ -405,7 +393,6 @@
     getEras: getEras,
     getEra: getEra,
     getAuthors: getAuthors,
-    getAuthor: getAuthor,
-    TIER_LABELS: TIER_LABELS
+    getAuthor: getAuthor
   };
 })(window);

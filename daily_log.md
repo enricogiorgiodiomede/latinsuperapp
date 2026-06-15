@@ -68,3 +68,38 @@
 - `images/` (folder created, 11:36) -- placeholder directory created to hold character illustrations referenced in the draft (pomponius.jpg, novius.jpg). Folder is currently empty; images not yet populated.
 
 **Progress:** Archaic Era draft fully revised. Pomponius entry is now a grouped entry (Pomponius + Novius), consistent with the Pacuvius + Accius grouping pattern used earlier. No new authors added. Next era awaits permission.
+
+---
+
+## 2026-06-14
+
+Focus shifted from writing to tooling: a self-contained web app was built to turn the Archaic Era draft into a browsable, interactive site. No new author content was added; the app reads `archaic_era_draft.md` as its single source of truth.
+
+**Web app initial build (v0.1.0):**
+- `index.html` (created) -- home page: five-era menu bar, expandable era-description panel (Archaic open by default, the other four eras marked "Coming soon"), and a responsive author-card grid built from the draft, preserving file order.
+- `author.html` (created) -- author detail page: portrait(s), Biography, Main Works, Style and Difficulty, a colored tier badge (S / A / B / C / D / NC), and a "Practice translation" button.
+- `practice.html` (created) -- translation practice page: Latin excerpt shown prominently, a textarea to attempt a translation (no grading), and hidden-by-default "Show Italian / Show English / Show analysis" reveal toggles.
+- `js/data.js` (created) -- loads and parses `archaic_era_draft.md` at runtime; exposes an era/author API. Handles combined entries (two authors render two portraits and two excerpts), varying section headings, stripping of embedded image/caption lines, and tier extraction.
+- `js/markdown.js` (created) -- compact Markdown-to-HTML renderer (headings, paragraphs, bold/italic, bullet lists, block quotes).
+- `js/ui.js` (created) -- shared DOM helpers: portrait rendering with a styled initials placeholder fallback (a missing image never shows a broken icon) and query-string parsing.
+- `js/content.js` (generated) -- embedded JSON copy of the markdown so the app works when opened directly via `file://` (where `fetch` is blocked). Over http the app fetches the live draft instead, keeping it the single source of truth.
+- `js/home.js`, `js/author.js`, `js/practice.js` (created) -- per-page logic.
+- `css/styles.css` (created) -- restrained ancient-Rome palette (warm stone, terracotta, deep red, muted gold), serif for Latin excerpts, fully responsive layout.
+- Image lookup added, mapping each author slug to the real portrait filename(s) in `images/` (handling the `.jpg`/`.jpeg` mix and the two combined entries with two portraits each).
+
+**Navigation pass (v0.2.0):**
+- `js/menu.js` (created) -- persistent era menu extracted into a shared module so home, author detail, and practice pages reuse the same buttons. Era-button rendering moved out of `js/home.js`.
+- Sticky header: the header now stays pinned to the top of the viewport while scrolling.
+- Breadcrumbs added on inner pages via a new `UI.renderBreadcrumb()` helper: author detail shows `Home / <Era> / <Author>`; practice shows `Home / <Era> / <Author> / Practice` (author segment links back to the detail page).
+- Deep-linkable eras: the home page reads `?era=<id>` from the URL so an era can be opened from any inner page.
+- Combined-author detail pages now show both authors' dates (e.g. `c. 220-130 BC · 170-86 BC`) instead of only the first.
+- Tier section ("Why this tier") no longer repeats the tier line already shown in the badge; display names render a single dash instead of `--`.
+- On narrow screens the header subtitle is hidden and padding trimmed so the pinned bar stays compact.
+
+**Supporting files:**
+- `README.md` (created) -- how to run the app (double-click for `file://` mode, or `python -m http.server` for live markdown) and how `js/content.js` is regenerated.
+- `CHANGELOG.md` (created) -- documents the v0.1.0 and v0.2.0 builds.
+- `.gitignore`, `.claude/launch.json` (created) -- project tooling config.
+- Git repository initialized; two commits made ("Initial commit: Latin Authors Tier List web app" and "Add CHANGELOG documenting today's work") and pushed to `origin/main`.
+
+**Progress:** Archaic Era content is now viewable as an interactive web app. The other four eras remain placeholders in the UI, pending their written drafts. No author writing or other work was recorded on 06-15 or 06-16.

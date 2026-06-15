@@ -1,9 +1,10 @@
-# Latin Authors Tier List - Web App
+# Latin Authors: Explore & Translate - Web App
 
-A small, self-contained educational web app about Roman (Latin) authors. It is the
-interactive front end for the writing project in this folder: it reads
-`archaic_era_draft.md` and turns it into a browsable site with an era menu, an author
-grid, per-author detail pages, and a translation practice tool.
+A small, self-contained educational web app for exploring Roman (Latin) authors and
+practising translating them. It is the interactive front end for the writing project
+in this folder: it reads `archaic_era_draft.md` and turns it into a browsable site with
+an era menu, an author grid, per-author detail pages (with a per-criterion difficulty
+chart and an overall evaluation), and a translation practice tool.
 
 Built with **plain HTML, CSS and vanilla JavaScript** - no frameworks, no build step,
 no npm, no external dependencies.
@@ -52,7 +53,8 @@ only the offline fallback.)
 - `index.html` - home: five-era menu bar, an expandable era description panel (Archaic
   open by default; the other four eras show "Coming soon"), and a responsive author grid.
 - `author.html?era=archaic&id=<slug>` - author detail: portrait(s), biography, main
-  works, style & difficulty, and a colored tier badge, with a "Practice translation" button.
+  works, style & difficulty, a per-criterion difficulty bar chart (Lexicon / Syntax /
+  Style / Density) and an overall evaluation, with a "Practice translation" button.
 - `practice.html?era=archaic&id=<slug>` - practice: the Latin excerpt with a textarea to
   attempt a translation and reveal buttons for the Italian, English, and analysis.
 
@@ -65,8 +67,11 @@ index.html        author.html       practice.html
 css/styles.css
 js/content.js     (generated offline fallback copy of the markdown)
 js/markdown.js    (minimal Markdown -> HTML renderer)
-js/ui.js          (shared DOM helpers: portraits, placeholders, query params)
-js/data.js        (loads + parses archaic_era_draft.md; exposes the data API)
+js/ui.js          (shared DOM helpers: portraits, placeholders, query params, breadcrumb)
+js/menu.js        (shared era menu bar)
+js/data.js        (loads + parses archaic_era_draft.md; scrubs ranking language; data API)
+js/ratings.js     (per-author difficulty data + evaluation scale)
+js/chart.js       (renders the criteria bar chart as inline SVG)
 js/home.js  js/author.js  js/practice.js   (per-page logic)
 ```
 
