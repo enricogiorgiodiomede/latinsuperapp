@@ -20,6 +20,11 @@ Pages:
 - `practice.html` - practice: **one fragment at a time** + a **"Next fragment ->"** button.
 - `practice-select.html` - comedy/text chooser (only for Plautus, Terence, Caecilius).
 
+**Languages:** a **flag toggle** in the red header switches the whole interface EN<->IT
+(persisted in `localStorage`, applied on reload; Latin excerpts never translated). Author
+biography/works/style + era intro switch too (from `italian_translations_archaic.md`). The
+fragments' `title`/`description`/`analysis` are still **English-only** - the planned follow-up.
+
 ## Architecture / where things live
 
 - `js/data.js` - loads + parses `archaic_era_draft.md` (fetch over http, embedded fallback
@@ -33,6 +38,12 @@ Pages:
   practice content. This is the active work area.**
 - `js/markdown.js`, `js/ui.js` (DOM helpers + breadcrumb), `js/menu.js` (era menu), `js/home.js`,
   `js/author.js`, `js/practice.js`, `js/select.js`. `css/styles.css` - all styles.
+- **`js/i18n.js` (`window.I18n`) - the EN/IT string dictionary, persisted language state, `t()`
+  lookup (English fallback), and the header flag toggle. Every module pulls user-facing strings
+  from `I18n.t(...)`; the HTML pages tag static text with `data-i18n`.** `js/content-it.js` -
+  GENERATED Italian biography/works/style + era intro (run `node build_content_it.js` to
+  regenerate from the Italian working file; `data.js` overlays + scrubs it via `scrubRankingIt`
+  when lang=it).
 - `archaic_era_draft.md` - the long-form reference doc (the user edits this to add prose/excerpts
   and asks me to wire it up; don't reformat it unprompted). `italian_translations_archaic.md` -
   the user's Italian working file. `practice_fragments_reference.md` - record of selected
@@ -45,7 +56,7 @@ Pages:
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=9`.**
+   whenever you change a JS/CSS file. **Currently `v=11`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis }`.
