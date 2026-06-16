@@ -194,6 +194,42 @@
               "analysis": "A messenger-speech in miniature, shifting register from farce to wonder. The narrative present (*devolant, pergunt, exilit*) makes it race, and the archaic colour is thick - *vorsum* for *versum*, *circumvisere* (\"to look all around\"). Amphitruo’s two short cries (*Ei mihi* ... *Mira memoras*) frame the report like an onstage audience: Plautus stages the miracle through someone else’s eyes."
             }
           ]
+        },
+        {
+          "id": "aulularia",
+          "label": "Aulularia",
+          "fragments": [
+            {
+              "title": "The miser drives out his prying old slave",
+              "citation": "(Aulularia, Act I, Scene 1, vv. 40-51)",
+              "source": "The Latin Library (thelatinlibrary.com)",
+              "description": "This paragraph is about our first sight of the miser Euclio, frantic over the pot of gold he has hidden indoors. He shoves the old slave-woman Staphyla out of the house and threatens her, terrified she has spotted his treasure - the paranoia that drives the whole play (and, two thousand years on, Molière’s Harpagon).",
+              "latin": "> EVCLIO Exi, inquam. age exi. exeundum hercle tibi hinc est foras,\n> circumspectatrix cum oculis emissiciis.\n> STAPHYLA Nam cur me miseram verberas? EVCLIO Vt misera sis,\n> atque ut te dignam mala malam aetatem exigas.\n> STAPHYLA Nam qua me nunc causa extrusisti ex aedibus?\n> EVCLIO Tibi ego rationem reddam, stimulorum seges?\n> illuc regredere ab ostio. illuc sis vide,\n> ut incedit. at scin quo modo tibi res se habet?\n> si hercle hodie fustem cepero aut stimulum in manu,\n> testudineum istum tibi ego grandibo gradum.\n> STAPHYLA Vtinam me divi adaxint ad suspendium\n> potius quidem quam hoc pacto apud te serviam.",
+              "italian": "> EUCLIONE Esci, ti dico. Su, esci. Devi proprio uscire di qui, per Ercole,\n> ficcanaso con quegli occhi da spia.\n> STAFILA Ma perché mi picchi, povera me? EUCLIONE Perché tu sia ben misera,\n> e passi, come meriti, una mala vecchiaia da malvagia.\n> STAFILA Ma per quale motivo ora mi hai cacciata di casa?\n> EUCLIONE Devo rendere conto a te, semenzaio di frustate?\n> Torna indietro, via dalla porta. Ma guardala un po',\n> come cammina. Lo sai come ti mettono le cose?\n> Se oggi, per Ercole, mi prendo in mano un bastone o un pungolo,\n> te lo allungo io quel tuo passo da tartaruga.\n> STAFILA Magari gli dèi mi spingessero a impiccarmi,\n> piuttosto che servirti a questo modo.",
+              "english": "> EUCLIO Get out, I say. Go on, out. You really must get out of here, by Hercules,\n> you snoop with your spying eyes.\n> STAPHYLA But why do you beat me, poor wretch? EUCLIO So you'll be wretched,\n> and live out, as you deserve, an evil old age, you wicked thing.\n> STAPHYLA But for what reason have you just thrown me out of the house?\n> EUCLIO Am I to render you an account, you seed-bed of whippings?\n> Get back, away from the door. Just look at her,\n> the way she struts. Do you know how things stand for you?\n> If today, by Hercules, I get a cudgel or a goad in my hand,\n> I'll quicken that tortoise-pace of yours.\n> STAPHYLA I wish the gods would drive me to hang myself,\n> rather than serve you in this fashion.",
+              "analysis": "Euclio is all suspicion and abuse before we even learn why. The colour is pure Plautine insult: *circumspectatrix cum oculis emissiciis* (\"snoop with spying eyes\"), *stimulorum seges* (\"a seed-bed for whippings\"), the *testudineum gradum* (\"tortoise-pace\") he threatens to speed up. The comedy is that his frenzy is real while its cause - a hidden pot of gold - is still a secret to everyone but us."
+            },
+            {
+              "title": "If the rich married poor brides, the city would be happier",
+              "citation": "(Aulularia, Act III, Scene 5, vv. 475-484)",
+              "source": "The Latin Library (thelatinlibrary.com)",
+              "description": "This paragraph is about the wealthy bachelor Megadorus, who has chosen to marry Euclio’s dowryless daughter. Here he argues that if rich men generally took poor wives without dowries, the whole city would be more harmonious, less wasteful and less envious - a startling piece of social criticism slipped into a farce about a miser.",
+              "latin": "> Narravi amicis multis consilium meum\n> de condicione hac. Euclionis filiam\n> laudant. sapienter factum et consilio bono.\n> nam meo quidem animo si idem faciant ceteri\n> opulentiores, pauperiorum filias\n> ut indotatas ducant uxores domum,\n> et multo fiat civitas concordior,\n> et invidia nos minore utamur quam utimur,\n> et illae malam rem metuant quam metuont magis,\n> et nos minore sumptu simus quam sumus.",
+              "italian": "> Ho esposto a molti amici il mio proposito\n> su questo matrimonio. La figlia di Euclione\n> la lodano: una scelta saggia, dicono, e un buon piano.\n> Ché, almeno a mio parere, se facessero lo stesso anche gli altri\n> più ricchi - prendere in casa come mogli\n> le figlie dei poveri, senza dote -\n> la città sarebbe molto più concorde,\n> proveremmo assai meno invidia di quanta ne proviamo,\n> quelle temerebbero il castigo più di quanto lo temano,\n> e noi avremmo meno spese di quante ne abbiamo.",
+              "english": "> I have told many friends my plan\n> about this match. Euclio's daughter\n> they praise: wisely done, they say, on a good principle.\n> For, to my mind at least, if the rest of the richer sort\n> did the same - took the daughters of the poor\n> into their homes as wives, without a dowry -\n> the city would be far more harmonious,\n> we'd suffer less of the envy we now suffer,\n> the wives would fear a scolding more than they do,\n> and we'd be at less expense than we are.",
+              "analysis": "A genuinely serious idea in a comic mouth. Megadorus builds his case as a rising chain of *et... et... et...* clauses, each one a payoff of dowryless marriage - concord, less envy, more biddable wives, lower cost. The irony we feel is sharp: the bride’s own father, Euclio, is so consumed by his secret gold that this generous, dowry-free offer terrifies him instead of delighting him."
+            },
+            {
+              "title": "\"I’m finished!\" - the miser finds the gold gone",
+              "citation": "(Aulularia, Act IV, Scene 9, vv. 714-717)",
+              "source": "The Latin Library (thelatinlibrary.com)",
+              "description": "This fragment is about the comic climax: Euclio discovers his pot of gold has been stolen and erupts onto the stage in total meltdown - running nowhere, suspecting the audience, begging anyone to name the thief. Molière reworked it for Harpagon, and it is still the definitive portrait of the panicking miser.",
+              "latin": "> Perii interii occidi. quo curram? quo non curram? tene, tene. quem? quis?\n> nescio, nil video, caecus eo atque equidem quo eam aut ubi sim aut qui sim\n> nequeo cum animo certum investigare. obsecro ego vos, mi auxilio,\n> oro obtestor, sitis et hominem demonstretis, quis eam abstulerit.",
+              "italian": "> Sono morto, sono finito, sono spacciato! Dove corro? Dove non corro? Fermalo, fermalo! Chi? Chi è?\n> Non lo so, non vedo nulla, vado avanti come un cieco, e dove io vada, o dove sia, o chi sia\n> non riesco a stabilirlo con certezza nella mente. Vi supplico, voi, datemi aiuto,\n> vi prego, vi scongiuro: ditemi chi me l'ha portata via.",
+              "english": "> I'm dead, I'm done for, I'm finished! Where shall I run? Where shall I not run? Stop him, stop him! Whom? Who?\n> I don't know, I see nothing, I go on blind, and where I'm going, or where I am, or who I am\n> I cannot make out for certain in my mind. I beg you, all of you, give me help,\n> I implore and beseech you: tell me who has carried it off.",
+              "analysis": "The most famous lines in the play, and a masterclass in staged panic: the staccato questions (*quo curram? quo non curram? tene, tene! quem? quis?*) leave no room to breathe. Catch the deeper joke in the rush - *qui sim ... nequeo investigare*, \"I can’t even work out who I am\": Euclio has so fused himself with his gold that, losing it, he loses his own identity. Then he wheels on the audience for help, breaking the frame entirely."
+            }
+          ]
         }
       ]
     },
@@ -371,7 +407,6 @@
       var a = AUTHORS[slug];
       return !!(a && a.needsSelection);
     },
-    // Works that actually have fragments (used by the selection page).
     works: function (slug) {
       var a = AUTHORS[slug];
       if (!a) return [];
@@ -382,7 +417,6 @@
       if (!a) return null;
       return a.works.filter(function (w) { return w.id === workId; })[0] || null;
     },
-    // Flat list of every fragment for an author (across works).
     allFragments: function (slug) {
       var a = AUTHORS[slug];
       if (!a) return [];

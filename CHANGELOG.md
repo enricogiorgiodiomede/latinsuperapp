@@ -6,6 +6,15 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.6.2] - 2026-06-16
+
+### Added
+- **Aulularia** added to the Plautus chooser with 3 fragments drawn from different acts:
+  Euclio driving out the slave Staphyla (Act I), Megadorus's "rich men should wed poor brides"
+  speech (Act III), and the famous "Perii! interii!" miser's meltdown that Molière reworked for
+  Harpagon (Act IV). Verbatim Latin verified against The Latin Library, with original IT + EN,
+  short tailored analyses, Act/Scene citations, and source.
+
 ## [0.6.1] - 2026-06-16
 
 ### Changed
