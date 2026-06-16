@@ -1,8 +1,8 @@
 /*
- * practice.js - translation practice page. For the chosen author it shows
- * each Latin excerpt prominently, a textarea to attempt a translation, and
- * reveal toggles for the Italian, English and analysis. Combined entries
- * (two excerpts) render both blocks stacked.
+ * practice.js - translation practice. Shows ONE fragment at a time from the
+ * PracticeBank, optionally scoped to a chosen work via ?work=<id>. A
+ * "Try another fragment" button swaps in a different random fragment from the
+ * same pool. Reveal buttons show the Italian, English, and analysis.
  */
 (function () {
   'use strict';
@@ -11,6 +11,7 @@
   var crumbEl = document.getElementById('breadcrumb');
   var era = UI.getParam('era') || 'archaic';
   var slug = UI.getParam('id');
+  var workId = UI.getParam('work');
 
   // The era menu is always present; clicking an era jumps to its home listing.
   Menu.render(document.getElementById('era-menu'), { activeEra: era, onClick: Menu.goToEra });
@@ -29,7 +30,7 @@
         '<a class="back-link" href="index.html">&larr; Back to all authors</a>';
       return;
     }
-    document.title = 'Practice: ' + author.name + ' - Latin Authors Tier List';
+    document.title = 'Practice: ' + author.name + ' - Latin Authors: Explore & Translate';
     render(author);
   }).catch(function (err) {
     UI.showError(root, err.message);
@@ -54,8 +55,20 @@
     });
   }
 
+  // The fragment pool: a chosen work, or the author's whole set.
+  function poolFor(slug, workId) {
+    if (workId) {
+      var w = PracticeBank.getWork(slug, workId);
+      return { fragments: (w && w.fragments) || [], workLabel: w ? w.label : null };
+    }
+    return { fragments: PracticeBank.allFragments(slug), workLabel: null };
+  }
+
   function render(author) {
     root.innerHTML = '';
+
+    var pool = poolFor(author.slug, workId);
+    var fragments = pool.fragments;
 
     var head = document.createElement('div');
     head.innerHTML =
@@ -63,16 +76,37 @@
       '<p class="detail-dates">Translate the Latin, then reveal the answers to check yourself.</p>';
     root.appendChild(head);
 
-    var excerpts = author.excerpts || [];
-    if (excerpts.length === 0) {
+    // For selection authors, offer a link back to the comedy/text chooser.
+    if (PracticeBank.needsSelection(author.slug)) {
+      var choose = document.createElement('a');
+      choose.className = 'back-link choose-link';
+      choose.href = 'practice-select.html?era=' + encodeURIComponent(era) +
+        '&id=' + encodeURIComponent(author.slug);
+      choose.innerHTML = '&larr; Choose another text';
+      root.appendChild(choose);
+    }
+
+    if (!fragments.length) {
       var none = document.createElement('p');
       none.className = 'coming-soon';
-      none.textContent = 'No excerpt is available for this author.';
+      none.textContent = 'No fragment is available here yet.';
       root.appendChild(none);
     } else {
-      excerpts.forEach(function (ex, idx) {
-        root.appendChild(buildExcerpt(ex, idx, author.slug));
-      });
+      var holder = document.createElement('div');
+      root.appendChild(holder);
+      var state = { idx: Math.floor(Math.random() * fragments.length) };
+      var show = function () {
+        holder.innerHTML = '';
+        holder.appendChild(buildFragment(fragments[state.idx], pool.workLabel, state.idx, fragments.length, function () {
+          if (fragments.length < 2) return;
+          var n = state.idx;
+          while (n === state.idx) n = Math.floor(Math.random() * fragments.length);
+          state.idx = n;
+          show();
+          holder.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }));
+      };
+      show();
     }
 
     var back = document.createElement('a');
@@ -83,69 +117,59 @@
     root.appendChild(back);
   }
 
-  function buildExcerpt(ex, idx, slug) {
+  function buildFragment(frag, workLabel, idx, total, onAnother) {
     var box = document.createElement('section');
     box.className = 'practice-excerpt';
 
-    var meta = ExcerptMeta.forExcerpt(slug, idx);
+    var counter = document.createElement('p');
+    counter.className = 'fragment-counter';
+    counter.textContent = 'Fragment ' + (idx + 1) + ' of ' + total + (workLabel ? '  ·  ' + workLabel : '');
+    box.appendChild(counter);
 
-    // Authored headline + citation + context, shown before the Latin so the
-    // reader knows what the passage is about before attempting it.
-    var titleText = (meta && meta.title) || ex.title;
-    if (titleText) {
+    if (frag.title) {
       var title = document.createElement('h2');
-      title.innerHTML = Markdown.renderInline(titleText);
+      title.innerHTML = Markdown.renderInline(frag.title);
       box.appendChild(title);
     }
-
-    if (meta && meta.citation) {
+    if (frag.citation) {
       var cite = document.createElement('p');
       cite.className = 'excerpt-citation';
-      cite.textContent = meta.citation;
+      cite.textContent = frag.citation;
       box.appendChild(cite);
     }
-
-    if (meta && meta.description) {
+    if (frag.description) {
       var desc = document.createElement('p');
       desc.className = 'excerpt-description';
-      desc.textContent = meta.description;
+      desc.textContent = frag.description;
       box.appendChild(desc);
     }
 
-    // Latin text, prominent.
     var latin = document.createElement('div');
     latin.className = 'latin-text';
-    latin.innerHTML = Markdown.render(ex.latin || '');
+    latin.innerHTML = Markdown.render(frag.latin || '');
     box.appendChild(latin);
 
-    // Attempt area.
     var label = document.createElement('label');
     label.className = 'practice-label';
     label.textContent = 'Your translation';
-    label.setAttribute('for', 'attempt-' + idx);
     box.appendChild(label);
 
     var area = document.createElement('textarea');
     area.className = 'practice-area';
-    area.id = 'attempt-' + idx;
     area.placeholder = 'Type your translation here...';
     box.appendChild(area);
 
-    // Reveal buttons.
     var row = document.createElement('div');
     row.className = 'reveal-row';
-    if (ex.italian) row.appendChild(makeRevealButton('Show Italian', 'Hide Italian'));
-    if (ex.english) row.appendChild(makeRevealButton('Show English', 'Hide English'));
-    if (ex.analysis) row.appendChild(makeRevealButton('Show analysis / hints', 'Hide analysis / hints'));
+    var defs = [];
+    if (frag.italian) defs.push(['Show Italian', 'Hide Italian', 'Italian translation', frag.italian]);
+    if (frag.english) defs.push(['Show English', 'Hide English', 'English translation', frag.english]);
+    if (frag.analysis) defs.push(['Show analysis / hints', 'Hide analysis / hints', 'Analysis', frag.analysis]);
+    defs.forEach(function (d) { row.appendChild(makeRevealButton(d[0], d[1])); });
     box.appendChild(row);
 
-    // Reveal blocks (hidden by default), wired to the buttons by order.
-    var blocks = [];
-    if (ex.italian) blocks.push(makeRevealBlock('Italian translation', ex.italian));
-    if (ex.english) blocks.push(makeRevealBlock('English translation', ex.english));
-    if (ex.analysis) blocks.push(makeRevealBlock('Analysis', ex.analysis));
-
-    blocks.forEach(function (block, i) {
+    defs.forEach(function (d, i) {
+      var block = makeRevealBlock(d[2], d[3]);
       box.appendChild(block);
       var btn = row.children[i];
       btn.addEventListener('click', function () {
@@ -153,6 +177,15 @@
         btn.textContent = hidden ? btn.dataset.show : btn.dataset.hide;
       });
     });
+
+    if (total > 1) {
+      var another = document.createElement('button');
+      another.type = 'button';
+      another.className = 'btn btn-primary try-another';
+      another.textContent = 'Try another fragment';
+      another.addEventListener('click', onAnother);
+      box.appendChild(another);
+    }
 
     return box;
   }

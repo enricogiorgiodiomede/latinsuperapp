@@ -6,6 +6,26 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.5.0] - 2026-06-16
+
+Reworked the practice page into a fragment trainer (system; content batches follow).
+
+### Added
+- The practice page now shows **one fragment at a time** with a **"Try another fragment"**
+  button that pulls a different random fragment from the same text (no immediate repeats) and a
+  "fragment N of M" counter.
+- A new **comedy/text selection page** (`practice-select.html`): authors with several works
+  (Plautus, Terence, Caecilius) route through it first, picking a text via **deep-red buttons**
+  (the header hue) before practising; everyone else goes straight to practice.
+- New **`js/fragments.js`** practice bank (`window.PracticeBank`) - the single source for
+  practice fragments, grouped by author and work. The existing ~13 fragments were migrated in.
+
+### Changed
+- `js/practice.js` reads from the bank (with an optional `?work=` scope) instead of the draft +
+  `excerpts-meta.js`. Retired `js/excerpts-meta.js` (its data moved into the bank).
+- The author detail "Practice translation" button routes to the selection page for
+  multi-work authors.
+
 ## [0.4.2] - 2026-06-16
 
 ### Added

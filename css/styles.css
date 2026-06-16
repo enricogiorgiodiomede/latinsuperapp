@@ -531,6 +531,54 @@ blockquote {
   line-height: 1.6;
 }
 
+.fragment-counter {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--gray);
+  margin: 0 0 6px;
+}
+
+.try-another { margin-top: 20px; }
+
+.choose-link { display: inline-block; margin: 0 0 10px; }
+
+/* ------------------------------------------------------- Text-selection page */
+.select-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 24px 0 32px;
+}
+
+.btn-comedy {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 180px;
+  padding: 16px 22px;
+  border-radius: 10px;
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--parchment);
+  background: linear-gradient(180deg, var(--deep-red), var(--terracotta-deep));
+  border: 1px solid var(--gold);
+  text-decoration: none;
+  box-shadow: var(--shadow);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn-comedy:hover { transform: translateY(-3px); box-shadow: var(--shadow-lift); }
+
+.btn-comedy-count {
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--gold-soft);
+}
+
 .latin-text {
   font-family: var(--font-serif);
   font-size: 1.25rem;

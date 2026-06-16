@@ -84,8 +84,10 @@
     actions.className = 'detail-actions';
     var practiceBtn = document.createElement('a');
     practiceBtn.className = 'btn btn-primary';
-    practiceBtn.href = 'practice.html?era=' + encodeURIComponent(era) +
-      '&id=' + encodeURIComponent(author.slug);
+    // Authors with several works (Plautus, Terence, Caecilius) choose a text first.
+    var needsSelection = (typeof PracticeBank !== 'undefined') && PracticeBank.needsSelection(author.slug);
+    practiceBtn.href = (needsSelection ? 'practice-select.html?era=' : 'practice.html?era=') +
+      encodeURIComponent(era) + '&id=' + encodeURIComponent(author.slug);
     practiceBtn.textContent = 'Practice translation';
     actions.appendChild(practiceBtn);
     heading.appendChild(actions);
