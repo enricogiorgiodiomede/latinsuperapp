@@ -71,7 +71,7 @@
       root.appendChild(none);
     } else {
       excerpts.forEach(function (ex, idx) {
-        root.appendChild(buildExcerpt(ex, idx));
+        root.appendChild(buildExcerpt(ex, idx, author.slug));
       });
     }
 
@@ -83,14 +83,33 @@
     root.appendChild(back);
   }
 
-  function buildExcerpt(ex, idx) {
+  function buildExcerpt(ex, idx, slug) {
     var box = document.createElement('section');
     box.className = 'practice-excerpt';
 
-    if (ex.title) {
+    var meta = ExcerptMeta.forExcerpt(slug, idx);
+
+    // Authored headline + citation + context, shown before the Latin so the
+    // reader knows what the passage is about before attempting it.
+    var titleText = (meta && meta.title) || ex.title;
+    if (titleText) {
       var title = document.createElement('h2');
-      title.innerHTML = Markdown.renderInline(ex.title);
+      title.innerHTML = Markdown.renderInline(titleText);
       box.appendChild(title);
+    }
+
+    if (meta && meta.citation) {
+      var cite = document.createElement('p');
+      cite.className = 'excerpt-citation';
+      cite.textContent = meta.citation;
+      box.appendChild(cite);
+    }
+
+    if (meta && meta.description) {
+      var desc = document.createElement('p');
+      desc.className = 'excerpt-description';
+      desc.textContent = meta.description;
+      box.appendChild(desc);
     }
 
     // Latin text, prominent.

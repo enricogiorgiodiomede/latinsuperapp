@@ -510,7 +510,25 @@ blockquote {
 .practice-excerpt h2 {
   font-family: var(--font-serif);
   color: var(--terracotta-deep);
+  margin: 0 0 4px;
+}
+
+.excerpt-citation {
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: var(--gray);
+  font-size: 0.95rem;
   margin: 0 0 12px;
+}
+
+.excerpt-description {
+  margin: 0 0 18px;
+  padding: 12px 16px;
+  background: var(--stone);
+  border-radius: 8px;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
 
 .latin-text {

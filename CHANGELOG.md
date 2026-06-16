@@ -6,6 +6,20 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.4.0] - 2026-06-16
+
+Began revamping the translation practice page.
+
+### Added
+- Each excerpt on the practice page now opens with context shown before the Latin:
+  - an authored **title** summarizing the passage,
+  - a **citation** in the form `(Work, location, verses/fragments)` — e.g.
+    `(Pseudolus, Act I, scene 1, vv. 22-36)`; fragmentary works that survive only
+    through a later author cite that preserving source,
+  - a short **"This paragraph/fragment is about…"** blurb on what the passage is about.
+- New `js/excerpts-meta.js` holding this per-excerpt metadata (title / citation /
+  description) for all 12 Archaic excerpts, keyed by author slug and excerpt order.
+
 ## [0.3.2] - 2026-06-16
 
 ### Added
