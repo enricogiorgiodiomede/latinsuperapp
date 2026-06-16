@@ -110,7 +110,7 @@ Focus shifted from writing to tooling: a self-contained web app was built to tur
 
 *(End-of-day log, 23:55.)*
 
-Two pieces of web-app work today; no author content was changed.
+A long day of web-app work, spanning v0.3.0 through v0.6.3. The early morning repurposed the app and recalibrated difficulty; the afternoon and evening reworked the practice page into a fragment trainer and filled it with Plautus material, alongside two small additions to the author drafts.
 
 **Repurposed the app into an explore-and-translate tool (v0.3.0):**
 - Removed all tier-list framing: deleted the tier badge and the "Why this tier" section, removed tier parsing from `js/data.js`, and renamed the site to "Latin Authors: Explore & Translate" (header, page titles, home subtitle).
@@ -122,6 +122,35 @@ Two pieces of web-app work today; no author content was changed.
 **Recalibrated fragmentary-author difficulty (v0.3.1):**
 - Lowered the evaluations of the fragmentary authors, since a few short isolated fragments are a far smaller task than a complete continuous text: Livius Andronicus, Naevius, Ennius and Pacuvius / Accius are now Manageable; Pomponius / Novius is now Good Exercise; Caecilius was lowered only to Difficult, thanks to the long continuous *Plocium* fragment.
 - Scaled each lowered author's criteria bars down to match, and marked Naevius and Ennius as fragmentary.
+
+**Marked Lucilius fragmentary while keeping its rating (v0.3.2):**
+- Added a note on fragmentary authors' detail pages explaining that, beyond their small quantity, the surviving fragments are often cut off from their original context, which can make passages harder than the difficulty bars suggest (illustrated with Lucilius's lines on Lentulus's gluttony).
+- Marked Lucilius as fragmentary while keeping its Very Difficult evaluation, and introduced a separate `scaledDown` flag so the "scaled to the sparse surviving fragments" note only shows on authors whose rating was actually lowered, not on Lucilius.
+
+**Began revamping the translation practice page (v0.4.0):**
+- Each practice excerpt now opens with context shown before the Latin: an authored title, a citation in the form `(Work, location, verses/fragments)`, and a short "this paragraph is about..." blurb. Fragmentary works that survive only through a later author cite that preserving source.
+- Added `js/excerpts-meta.js` holding this per-excerpt metadata (title / citation / description) for all 12 Archaic excerpts, keyed by author slug and excerpt order.
+
+**Added a second Naevius excerpt (v0.4.1):**
+- Added the *Bellum Poenicum* fragment (Book I, fr. 8) on the Trojan wives leaving Troy by night, shown before the existing self-epitaph. Latin, Italian, English, and analysis were added to `archaic_era_draft.md` and `italian_translations_archaic.md`; title / citation / context went into `js/excerpts-meta.js`, and `js/content.js` was regenerated.
+
+**Expanded the Plautus biography (v0.4.2):**
+- Added a paragraph on the Saturnalia, framing Plautine comedy and the *servus callidus* as a licensed, temporary inversion of the Roman social order. Added to `archaic_era_draft.md` and `italian_translations_archaic.md`; `js/content.js` regenerated.
+
+**Reworked the practice page into a fragment trainer (v0.5.0):**
+- The practice page now shows one fragment at a time with a "Try another fragment" button (a different random fragment from the same text, no immediate repeats) and a "fragment N of M" counter.
+- Added a comedy/text selection page (`practice-select.html`): authors with several works (Plautus, Terence, Caecilius) route through it first, picking a text via deep-red buttons before practising; everyone else goes straight to practice.
+- Added `js/fragments.js` (`window.PracticeBank`) as the single source for practice fragments, grouped by author and work, and migrated the existing ~13 fragments in. `js/practice.js` now reads from the bank (with an optional `?work=` scope); retired `js/excerpts-meta.js` (its data moved into the bank).
+
+**Source attribution and cache-busting (v0.5.1 to v0.5.2):**
+- Each practice fragment now records a `source` field (the website/edition the Latin came from), shown as a small "Latin text from..." attribution line; backfilled for existing fragments and required for new ones.
+- Added cache-busting `?v=` query strings to all JS/CSS includes so a freshly loaded page never runs a stale, mismatched script (resolving the transient "ExcerptMeta is not defined" error).
+
+**Filled the trainer with Plautus material (v0.6.0 to v0.6.3):**
+- First batch of new fragments: Mostellaria (3) and Amphitruo (3), each with original Italian and English, a short tailored analysis, and a title, citation, and source. Difficulty is varied within each comedy. Added `practice_fragments_reference.md` as a working record of every selected passage.
+- Standardised every comedy citation to "[Comedy], Act N, Scene N, vv. start-end" and changed the "Try another fragment" button to "Next fragment ->", which now steps through a text's fragments in order rather than at random. Reworked the Amphitruo set to spread across the play (Prologue, Act I identity dispute, Act II "my dowry is my virtue", Act V Bromia's report).
+- Added Aulularia with 3 fragments from different acts (Euclio driving out Staphyla, Megadorus's "rich men should wed poor brides" speech, and the "Perii! interii!" miser's meltdown that Moliere reworked for Harpagon). Verbatim Latin verified against The Latin Library.
+- Proofreading pass on Aulularia: corrected v.48 `stimulum in manu` to `stimulum in manum`, fixed the meltdown citation (vv. 713-720, not 714-717) and v.715 word order to `obsecro vos ego`, and extended that fragment through v.720 so Euclio's fourth-wall breakdown carries to its end (Italian, English, description, and analysis extended to match).
 
 **Housekeeping:**
 - Corrected the v0.3.0 date in `CHANGELOG.md` from 2026-06-14 to 2026-06-16 (its actual day) and added a v0.3.1 entry.
