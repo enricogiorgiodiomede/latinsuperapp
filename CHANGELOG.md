@@ -6,6 +6,18 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.6.0] - 2026-06-16
+
+### Added
+- First batch of new practice fragments: Plautus's **Mostellaria** (3) and **Amphitruo** (3),
+  each with original Italian + English, a short analysis tailored to the passage, and a title,
+  citation, and source. Difficulty is varied within each comedy (e.g. the colloquial door-quarrel
+  vs. the harder house-metaphor monologue in Mostellaria; the long periodic prologue sentence vs.
+  the snappier passages in Amphitruo). The comedy-selection page now lists Pseudolus, Mostellaria,
+  and Amphitruo.
+- New `practice_fragments_reference.md` - a working record of every selected passage (source URL,
+  line references, notes) to guide selection and future expansion.
+
 ## [0.5.2] - 2026-06-16
 
 ### Fixed
