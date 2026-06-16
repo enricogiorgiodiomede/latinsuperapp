@@ -6,6 +6,20 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.3.2] - 2026-06-16
+
+### Added
+- A note on fragmentary authors' detail pages explaining that, beyond their small
+  quantity, the surviving fragments are often cut off from their original context,
+  which can make passages harder to understand than the difficulty bars suggest (for
+  Lucilius, with the example of his lines on Lentulus's gluttony).
+
+### Changed
+- Marked Lucilius as fragmentary (it survives only in fragments) while keeping its
+  **Very Difficult** evaluation. Introduced a separate `scaledDown` flag so the "scaled
+  to the sparse surviving fragments" badge note only appears on authors whose rating was
+  actually lowered for sparsity, not on Lucilius.
+
 ## [0.3.1] - 2026-06-16
 
 Recalibrated difficulty for fragmentary authors.

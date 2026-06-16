@@ -7,11 +7,16 @@
  *
  * Fractional values are intentional: bars sit a little above/below the level
  * lines rather than snapping to them. Authored with the latin-tier-list rubric
- * (Lexicon, Syntax, Style, Density). Fragmentary authors are scaled down: what
- * survives is sparse and often isolated, so the practical task of translating
- * them is much smaller than the per-line difficulty of a complete text like
- * Plautus would suggest. Caecilius is scaled down only slightly thanks to the
- * one long continuous Plocium fragment.
+ * (Lexicon, Syntax, Style, Density). Most fragmentary authors are scaled down
+ * (`scaledDown: true`): what survives is sparse and often isolated, so the
+ * practical task of translating them is much smaller than the per-line difficulty
+ * of a complete text like Plautus would suggest. Caecilius is scaled down only
+ * slightly thanks to the one long continuous Plocium fragment.
+ *
+ * Fragmentation cuts both ways, though: it also strips passages of their context,
+ * which can make them harder to read. So `fragments: true` (is fragmentary) is
+ * separate from `scaledDown` - Lucilius survives only in fragments yet stays Very
+ * Difficult, because the loss of context keeps it hard.
  */
 (function (global) {
   'use strict';
@@ -46,15 +51,15 @@
   var AUTHOR_RATINGS = {
     'livius-andronicus': {
       lexicon: 2.6, syntax: 2.0, style: 1.8, density: 1.9,
-      evaluation: 'manageable', fragments: true
+      evaluation: 'manageable', fragments: true, scaledDown: true
     },
     'gnaeus-naevius': {
       lexicon: 2.4, syntax: 2.1, style: 1.9, density: 2.0,
-      evaluation: 'manageable', fragments: true
+      evaluation: 'manageable', fragments: true, scaledDown: true
     },
     'quintus-ennius': {
       lexicon: 2.7, syntax: 2.4, style: 2.2, density: 2.3,
-      evaluation: 'manageable', fragments: true
+      evaluation: 'manageable', fragments: true, scaledDown: true
     },
     'titus-maccius-plautus': {
       lexicon: 3.8, syntax: 2.3, style: 3.4, density: 2.1,
@@ -66,7 +71,7 @@
     },
     'caecilius-statius': {
       lexicon: 2.9, syntax: 2.4, style: 2.5, density: 2.2,
-      evaluation: 'difficult', fragments: true
+      evaluation: 'difficult', fragments: true, scaledDown: true
     },
     'publius-terentius-afer': {
       lexicon: 2.4, syntax: 2.5, style: 2.7, density: 2.8,
@@ -74,15 +79,16 @@
     },
     'marcus-pacuvius-and-lucius-accius': {
       lexicon: 2.6, syntax: 2.3, style: 2.4, density: 2.3,
-      evaluation: 'manageable', fragments: true
+      evaluation: 'manageable', fragments: true, scaledDown: true
     },
     'gaius-lucilius': {
       lexicon: 3.5, syntax: 2.9, style: 3.1, density: 3.2,
-      evaluation: 'very-difficult', fragments: false
+      evaluation: 'very-difficult', fragments: true,
+      fragmentExample: "Lucilius's lines on Lentulus's gluttony, for example, are hard to place without the lost setting around them."
     },
     'pomponius-bononiensis-and-quintus-novius': {
       lexicon: 2.0, syntax: 1.5, style: 1.6, density: 1.4,
-      evaluation: 'good-exercise', fragments: true
+      evaluation: 'good-exercise', fragments: true, scaledDown: true
     }
   };
 

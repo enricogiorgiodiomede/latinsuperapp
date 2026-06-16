@@ -364,6 +364,17 @@ a { color: var(--terracotta-deep); }
 
 .criteria-legend strong { color: var(--ink); }
 
+.fragment-caveat {
+  margin: 16px 0 0;
+  padding: 12px 16px;
+  background: var(--stone);
+  border-left: 4px solid var(--gold);
+  border-radius: 0 8px 8px 0;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
 /* ------------------------------------------------------------- Detail page */
 .detail-hero {
   display: flex;

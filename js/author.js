@@ -142,7 +142,7 @@
     badge.textContent = evalDef.label;
     wrap.appendChild(badge);
 
-    if (rating.fragments) {
+    if (rating.scaledDown) {
       var note = document.createElement('span');
       note.className = 'eval-note';
       note.textContent = 'scaled to the sparse surviving fragments';
@@ -179,6 +179,19 @@
       legend.appendChild(li);
     });
     sec.appendChild(legend);
+
+    // Caveat for fragmentary authors: lost context adds difficulty regardless of
+    // how much survives (this is partly why Lucilius stays Very Difficult).
+    if (rating.fragments) {
+      var caveat = document.createElement('p');
+      caveat.className = 'fragment-caveat';
+      var text = 'Only fragments of this author survive. Beyond their small quantity, the ' +
+        'surviving text is often cut off from its original context, which can make ' +
+        'individual passages harder to understand than the bars alone suggest.';
+      if (rating.fragmentExample) text += ' ' + rating.fragmentExample;
+      caveat.textContent = text;
+      sec.appendChild(caveat);
+    }
 
     return sec;
   }
