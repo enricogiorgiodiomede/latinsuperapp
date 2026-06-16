@@ -3,40 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Latin Authors: Explore &amp; Translate</title>
-  <link rel="stylesheet" href="css/styles.css?v=10">
+  <title data-i18n="title.index">Latin Authors: Explore &amp; Translate</title>
+  <link rel="stylesheet" href="css/styles.css?v=11">
 </head>
 <body>
   <header class="site-header">
     <div class="container">
-      <h1 class="site-title"><a href="index.html">Latin Authors: Explore &amp; Translate</a></h1>
-      <p class="site-subtitle">Explore Roman authors and practise translating them, from Livius Andronicus to Boethius</p>
-      <nav class="era-menu" id="era-menu" aria-label="Eras"></nav>
+      <div class="lang-toggle" id="lang-toggle"></div>
+      <h1 class="site-title"><a href="index.html" data-i18n="site.title">Latin Authors: Explore &amp; Translate</a></h1>
+      <p class="site-subtitle" data-i18n="subtitle.index">Explore Roman authors and practise translating them, from Livius Andronicus to Boethius</p>
+      <nav class="era-menu" id="era-menu" data-i18n-attr="aria-label:aria.eras" aria-label="Eras"></nav>
     </div>
   </header>
 
   <main class="container">
     <section class="era-panel" id="era-panel" aria-live="polite">
       <div class="era-panel-header">
-        <h2 class="era-panel-title" id="era-panel-title">Archaic Era</h2>
+        <h2 class="era-panel-title" id="era-panel-title" data-i18n="era.archaic">Archaic Era</h2>
         <span class="era-panel-toggle" id="era-panel-toggle" aria-hidden="true">&minus;</span>
       </div>
       <div class="era-panel-body" id="era-panel-body"></div>
     </section>
 
-    <h2 class="section-label" id="grid-label">Authors</h2>
+    <h2 class="section-label" id="grid-label" data-i18n="section.authors">Authors</h2>
     <section class="author-grid" id="author-grid"></section>
   </main>
 
   <footer class="site-footer">
-    <div class="container">An interactive companion to the Latin Authors writing project.</div>
+    <div class="container" data-i18n="footer.index">An interactive companion to the Latin Authors writing project.</div>
   </footer>
 
-  <script src="js/content.js?v=10"></script>
-  <script src="js/markdown.js?v=10"></script>
-  <script src="js/ui.js?v=10"></script>
-  <script src="js/data.js?v=10"></script>
-  <script src="js/menu.js?v=10"></script>
-  <script src="js/home.js?v=10"></script>
+  <script src="js/content.js?v=11"></script>
+  <script src="js/content-it.js?v=11"></script>
+  <script src="js/i18n.js?v=11"></script>
+  <script src="js/markdown.js?v=11"></script>
+  <script src="js/ui.js?v=11"></script>
+  <script src="js/data.js?v=11"></script>
+  <script src="js/menu.js?v=11"></script>
+  <script src="js/home.js?v=11"></script>
 </body>
 </html>

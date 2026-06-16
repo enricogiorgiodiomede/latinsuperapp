@@ -22,14 +22,17 @@
   'use strict';
 
   // The four y-axis difficulty levels, low to high, with their band colours.
+  // `label` is the English fallback; the display label is resolved at render
+  // time via I18n.t('level.<key>') (see chart.js).
   var DIFFICULTY_LEVELS = [
-    { level: 1, label: 'Straightforward', color: '#5f8a3a' }, // green
-    { level: 2, label: 'Manageable',      color: '#d6a328' }, // yellow
-    { level: 3, label: 'Challenging',     color: '#cf6a2a' }, // orange
-    { level: 4, label: 'Complex',         color: '#b22f2a' }  // red
+    { level: 1, key: 'straightforward', label: 'Straightforward', color: '#5f8a3a' }, // green
+    { level: 2, key: 'manageable',      label: 'Manageable',      color: '#d6a328' }, // yellow
+    { level: 3, key: 'challenging',     label: 'Challenging',     color: '#cf6a2a' }, // orange
+    { level: 4, key: 'complex',         label: 'Complex',         color: '#b22f2a' }  // red
   ];
 
-  // The four bar criteria, in display order, with short explanations.
+  // The four bar criteria, in display order. `label`/`blurb` are English
+  // fallbacks; display text is resolved via I18n.t('criteria.<key>.label/blurb').
   var CRITERIA = [
     { key: 'lexicon', label: 'Lexicon', blurb: 'Vocabulary load: archaic, rare or hapax forms, technical terms.' },
     { key: 'syntax',  label: 'Syntax',  blurb: 'Sentence structure: concinnitas, brevitas, word order. Poetry is usually harder.' },

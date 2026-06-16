@@ -15,14 +15,17 @@
 (function (global) {
   'use strict';
 
-  // --- The five eras, in display order. Only Archaic has content today. ---
+  // --- The five eras, in display order. Only Archaic has content today.
+  // `nameKey` resolves to the localized display name via I18n at call time. ---
   var ERAS = [
-    { id: 'archaic', name: 'Archaic Era', available: true },
-    { id: 'caesar', name: "Caesar's Age", available: false },
-    { id: 'augustus', name: "Augustus' Age", available: false },
-    { id: 'early-imperial', name: 'Early Imperial Era', available: false },
-    { id: 'late-imperial', name: 'Late Imperial Era', available: false }
+    { id: 'archaic', nameKey: 'era.archaic', available: true },
+    { id: 'caesar', nameKey: 'era.caesar', available: false },
+    { id: 'augustus', nameKey: 'era.augustus', available: false },
+    { id: 'early-imperial', nameKey: 'era.earlyImperial', available: false },
+    { id: 'late-imperial', nameKey: 'era.lateImperial', available: false }
   ];
+
+  function eraName(e) { return I18n.t(e.nameKey); }
 
   // --- Explicit author-slug -> real image filename(s) lookup (the table
   // wins over anything derived or written in the markdown). Mind the three
@@ -52,10 +55,7 @@
       .catch(function () {
         // file:// or fetch unavailable -> use the embedded fallback.
         if (global.__ARCHAIC_MD__) return global.__ARCHAIC_MD__;
-        throw new Error(
-          'Could not load archaic_era_draft.md. Open the app through a local ' +
-          'server, or make sure js/content.js is present.'
-        );
+        throw new Error(I18n.t('error.loadFailed'));
       });
   }
 
@@ -149,6 +149,55 @@
       return kept.join(' ').trim();
     }).filter(function (p) { return p.replace(/\s/g, '').length > 0; });
     return out.join('\n\n');
+  }
+
+  // Italian counterpart of scrubRanking: the Italian source mirrors the same
+  // tier scoring the English app hides (uppercase ALTO/MEDIO/BASSO callouts,
+  // "Livello S/A/B/C", "NC", "Non Comparabile/Classificabile"). Keyed only on
+  // those unambiguous markers - the ordinary word "livello" is never a trigger.
+  function scrubRankingIt(text) {
+    if (!text) return text;
+    var scoreWords = '(?:ALTO|ALTA|ALTI|ALTE|MEDIO|MEDIA|MEDI|MEDIE|BASSO|BASSA|BASSI|BASSE|HIGH|MEDIUM|LOW)';
+    // 1) strip bold scoring callouts containing an uppercase score word.
+    var t = text.replace(new RegExp('\\s*\\*\\*[^*]*\\b' + scoreWords + '\\b[^*]*\\*\\*', 'g'), '');
+    // 2) per paragraph, drop sentences carrying ranking markers.
+    var markerCI = /\btiers?\b|non comparabil|non classificabil|GOD PLEASE|START PRAYING|INIZIA A PREGARE/i;
+    var markerCS = /\bNC\b|\b[Ll]ivello\s+(?:S|A|B|C|D|NC)\b|soglia del [Ll]ivello|all['’]?\s*[ABCS]\s+alto|toccar\w*\s+(?:l['’]\s*)?[ABCS]\b|toccano?\s+[ABCS]\b/;
+    var scored = new RegExp('\\b' + scoreWords + '\\b'); // bare uppercase scores
+    var out = t.split(/\n{2,}/).map(function (para) {
+      if (/^\s*(?:[-*>#]|\d+\.)/.test(para.trim())) return para;
+      var sentences = para.split(/(?<=[.!?])\s+(?=["'“*A-Z])/);
+      var kept = sentences.filter(function (s) {
+        return !markerCI.test(s) && !markerCS.test(s) && !scored.test(s);
+      });
+      return kept.join(' ').trim();
+    }).filter(function (p) { return p.replace(/\s/g, '').length > 0; });
+    return out.join('\n\n');
+  }
+
+  // When the language is Italian, overlay the Italian biography / works / style
+  // (from content-it.js) onto an English-parsed author object, scrubbing ranking
+  // language the same way. Name, dates, images and excerpts stay as-is.
+  function localizeAuthor(a) {
+    if (!a || I18n.lang !== 'it') return a;
+    var it = (global.__AUTHORS_IT__ || {})[a.slug];
+    if (!it) return a;
+    var pick = function (field) {
+      return it[field] && it[field].trim()
+        ? scrubRankingIt(cleanBody(it[field]))
+        : a[field];
+    };
+    return Object.assign({}, a, {
+      biography: pick('biography'),
+      works: pick('works'),
+      style: pick('style')
+    });
+  }
+
+  function localizeIntro(intro) {
+    if (I18n.lang !== 'it') return intro;
+    var raw = (global.__ERA_INTRO_IT__ || {}).archaic;
+    return raw && raw.trim() ? scrubRankingIt(cleanBody(raw)) : intro;
   }
 
   // ------------------------------------------------------------------
@@ -356,7 +405,7 @@
 
   function getEras() {
     return Promise.resolve(ERAS.map(function (e) {
-      return { id: e.id, name: e.name, available: e.available };
+      return { id: e.id, name: eraName(e), available: e.available };
     }));
   }
 
@@ -364,28 +413,28 @@
     var base = ERAS.filter(function (e) { return e.id === id; })[0] || null;
     if (!base) return Promise.resolve(null);
     if (id !== 'archaic') {
-      return Promise.resolve({ id: base.id, name: base.name, available: false });
+      return Promise.resolve({ id: base.id, name: eraName(base), available: false });
     }
     return getArchaic().then(function (data) {
       return {
         id: base.id,
-        name: base.name,
+        name: eraName(base),
         available: true,
-        intro: data.intro,
-        authors: data.authors
+        intro: localizeIntro(data.intro),
+        authors: data.authors.map(localizeAuthor)
       };
     });
   }
 
   function getAuthors(eraId) {
     if (eraId !== 'archaic') return Promise.resolve([]);
-    return getArchaic().then(function (data) { return data.authors; });
+    return getArchaic().then(function (data) { return data.authors.map(localizeAuthor); });
   }
 
   function getAuthor(eraId, slug) {
     if (eraId !== 'archaic') return Promise.resolve(null);
     return getArchaic().then(function (data) {
-      return data.authors.filter(function (a) { return a.slug === slug; })[0] || null;
+      return localizeAuthor(data.authors.filter(function (a) { return a.slug === slug; })[0] || null);
     });
   }
 

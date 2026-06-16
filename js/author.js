@@ -16,7 +16,7 @@
   Menu.render(document.getElementById('era-menu'), { activeEra: era, onClick: Menu.goToEra });
 
   if (!slug) {
-    UI.showError(root, 'No author specified.');
+    UI.showError(root, I18n.t('error.noAuthor'));
     renderBreadcrumb(era, null);
     return;
   }
@@ -25,11 +25,11 @@
     renderBreadcrumb(era, author);
     if (!author) {
       root.innerHTML =
-        '<div class="error-box">Author not found in this era.</div>' +
-        '<a class="back-link" href="index.html">&larr; Back to all authors</a>';
+        '<div class="error-box">' + Markdown.escapeHtml(I18n.t('error.authorNotFound')) + '</div>' +
+        '<a class="back-link" href="index.html">' + Markdown.escapeHtml(I18n.t('link.backAuthors')) + '</a>';
       return;
     }
-    document.title = author.name + ' - Latin Authors: Explore & Translate';
+    document.title = I18n.t('title.authorNamed', { name: author.name });
     render(author);
   }).catch(function (err) {
     UI.showError(root, err.message);
@@ -40,7 +40,7 @@
     LatinData.getEras().then(function (eras) {
       var match = eras.filter(function (e) { return e.id === eraId; })[0];
       var items = [
-        { label: 'Home', href: 'index.html' },
+        { label: I18n.t('crumb.home'), href: 'index.html' },
         { label: match ? match.name : eraId, href: 'index.html?era=' + encodeURIComponent(eraId) }
       ];
       if (author) items.push({ label: author.name });
@@ -88,7 +88,7 @@
     var needsSelection = (typeof PracticeBank !== 'undefined') && PracticeBank.needsSelection(author.slug);
     practiceBtn.href = (needsSelection ? 'practice-select.html?era=' : 'practice.html?era=') +
       encodeURIComponent(era) + '&id=' + encodeURIComponent(author.slug);
-    practiceBtn.textContent = 'Practice translation';
+    practiceBtn.textContent = I18n.t('btn.practice');
     actions.appendChild(practiceBtn);
     heading.appendChild(actions);
 
@@ -96,9 +96,9 @@
     root.appendChild(hero);
 
     // --- Content sections ---
-    addSection('Biography', author.biography);
-    addSection('Main Works', author.works);
-    addSection('Style and Difficulty', author.style);
+    addSection(I18n.t('section.biography'), author.biography);
+    addSection(I18n.t('section.works'), author.works);
+    addSection(I18n.t('section.style'), author.style);
 
     // --- Difficulty profile: the criteria bar chart ---
     if (rating) {
@@ -108,7 +108,7 @@
     var back = document.createElement('a');
     back.className = 'back-link';
     back.href = 'index.html';
-    back.innerHTML = '&larr; Back to all authors';
+    back.textContent = I18n.t('link.backAuthors');
     root.appendChild(back);
   }
 
@@ -134,20 +134,20 @@
 
     var label = document.createElement('span');
     label.className = 'eval-caption';
-    label.textContent = 'Overall difficulty';
+    label.textContent = I18n.t('eval.caption');
     wrap.appendChild(label);
 
     var badge = document.createElement('div');
     badge.className = 'eval-badge';
     badge.style.backgroundColor = evalDef.color;
     badge.style.color = rating.evaluation === 'manageable' ? '#2b2622' : '#fff';
-    badge.textContent = evalDef.label;
+    badge.textContent = I18n.t('eval.' + rating.evaluation);
     wrap.appendChild(badge);
 
     if (rating.scaledDown) {
       var note = document.createElement('span');
       note.className = 'eval-note';
-      note.textContent = 'scaled to the sparse surviving fragments';
+      note.textContent = I18n.t('eval.scaledNote');
       wrap.appendChild(note);
     }
     return wrap;
@@ -159,12 +159,12 @@
     sec.className = 'content-section';
 
     var h = document.createElement('h2');
-    h.textContent = 'Difficulty profile';
+    h.textContent = I18n.t('section.difficultyProfile');
     sec.appendChild(h);
 
     var lead = document.createElement('p');
     lead.className = 'profile-lead';
-    lead.textContent = 'How hard each aspect is to translate. Bars are coloured by the level they reach.';
+    lead.textContent = I18n.t('profile.lead');
     sec.appendChild(lead);
 
     var chartWrap = document.createElement('div');
@@ -176,8 +176,8 @@
     legend.className = 'criteria-legend';
     Ratings.CRITERIA.forEach(function (c) {
       var li = document.createElement('li');
-      li.innerHTML = '<strong>' + Markdown.escapeHtml(c.label) + '</strong> ' +
-        Markdown.escapeHtml(c.blurb);
+      li.innerHTML = '<strong>' + Markdown.escapeHtml(I18n.t('criteria.' + c.key + '.label')) + '</strong> ' +
+        Markdown.escapeHtml(I18n.t('criteria.' + c.key + '.blurb'));
       legend.appendChild(li);
     });
     sec.appendChild(legend);
@@ -187,9 +187,7 @@
     if (rating.fragments) {
       var caveat = document.createElement('p');
       caveat.className = 'fragment-caveat';
-      var text = 'Only fragments of this author survive. Beyond their small quantity, the ' +
-        'surviving text is often cut off from its original context, which can make ' +
-        'individual passages harder to understand than the bars alone suggest.';
+      var text = I18n.t('fragment.caveat');
       if (rating.fragmentExample) text += ' ' + rating.fragmentExample;
       caveat.textContent = text;
       sec.appendChild(caveat);

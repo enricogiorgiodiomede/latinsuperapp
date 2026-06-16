@@ -48,6 +48,30 @@ node -e "const fs=require('fs');fs.writeFileSync('js/content.js','window.__ARCHA
 (If you only ever use the local-server mode above, you can ignore this - the file is
 only the offline fallback.)
 
+## Languages (English / Italian)
+
+A flag toggle in the header switches the whole interface between **English** (default) and
+**Italian**; the choice is saved in `localStorage` and applied on reload. The Latin excerpts
+are never translated.
+
+- `js/i18n.js` (`window.I18n`) holds the English/Italian UI string dictionary, the language
+  state, the `t()` lookup (with English fallback), and the flag toggle. Every module reads its
+  user-facing strings from `I18n.t(...)`; the HTML pages tag static text with `data-i18n`.
+- The author **biography / works / style** and the **era intro** come from the Italian working
+  file `italian_translations_archaic.md`, extracted into the generated `js/content-it.js`.
+  `js/data.js` overlays that prose when the language is Italian (scrubbing tier language the
+  same way it does for English).
+
+### `js/content-it.js` is generated
+If you edit `italian_translations_archaic.md`, regenerate the Italian content bundle:
+
+```
+node build_content_it.js
+```
+
+(`build_content_it.js` anchors on author names because the Italian file's heading levels are
+inconsistent; it reads the markdown and never modifies it.)
+
 ## Pages
 
 - `index.html` - home: five-era menu bar, an expandable era description panel (Archaic
@@ -63,16 +87,20 @@ Only the **Archaic Era** has content today; the other four eras are placeholders
 ## File layout
 
 ```
-index.html        author.html       practice.html
+index.html        author.html       practice.html     practice-select.html
 css/styles.css
 js/content.js     (generated offline fallback copy of the markdown)
+js/content-it.js  (generated Italian biography/works/style + era intro)
+js/i18n.js        (English/Italian dictionary, language state, flag toggle)
 js/markdown.js    (minimal Markdown -> HTML renderer)
 js/ui.js          (shared DOM helpers: portraits, placeholders, query params, breadcrumb)
 js/menu.js        (shared era menu bar)
 js/data.js        (loads + parses archaic_era_draft.md; scrubs ranking language; data API)
+js/fragments.js   (practice fragment bank, with per-fragment Italian + English)
 js/ratings.js     (per-author difficulty data + evaluation scale)
 js/chart.js       (renders the criteria bar chart as inline SVG)
-js/home.js  js/author.js  js/practice.js   (per-page logic)
+js/home.js  js/author.js  js/practice.js  js/select.js   (per-page logic)
+build_content_it.js   (one-off generator for js/content-it.js)
 ```
 
 `archaic_era_draft.md`, `CLAUDE.md`, and the `images/` folder are existing project files

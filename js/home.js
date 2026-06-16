@@ -64,10 +64,11 @@
   function renderPanelBody(eraId) {
     if (eraId !== 'archaic') {
       panelBodyEl.innerHTML =
-        '<p class="coming-soon">Coming soon<small>This era has not been written yet. Check back later.</small></p>';
+        '<p class="coming-soon">' + Markdown.escapeHtml(I18n.t('home.comingSoon')) +
+        '<small>' + Markdown.escapeHtml(I18n.t('home.eraNotWritten')) + '</small></p>';
       return;
     }
-    panelBodyEl.innerHTML = '<div class="loading">Loading...</div>';
+    panelBodyEl.innerHTML = '<div class="loading">' + Markdown.escapeHtml(I18n.t('loading.generic')) + '</div>';
     LatinData.getEra('archaic').then(function (era) {
       panelBodyEl.innerHTML = Markdown.render(era.intro);
     }).catch(function (err) {
@@ -79,12 +80,14 @@
     if (eraId !== 'archaic') {
       gridLabelEl.style.display = 'none';
       gridEl.innerHTML =
-        '<p class="coming-soon" style="grid-column:1/-1">Coming soon<small>Authors for this era will appear here once written.</small></p>';
+        '<p class="coming-soon" style="grid-column:1/-1">' + Markdown.escapeHtml(I18n.t('home.comingSoon')) +
+        '<small>' + Markdown.escapeHtml(I18n.t('home.authorsComingSoon')) + '</small></p>';
       return;
     }
     gridLabelEl.style.display = '';
-    gridLabelEl.textContent = 'Authors of the Archaic Era';
-    gridEl.innerHTML = '<div class="loading" style="grid-column:1/-1">Loading authors...</div>';
+    var eraObj = state.eras.filter(function (e) { return e.id === eraId; })[0];
+    gridLabelEl.textContent = I18n.t('home.authorsOf', { era: eraObj ? eraObj.name : '' });
+    gridEl.innerHTML = '<div class="loading" style="grid-column:1/-1">' + Markdown.escapeHtml(I18n.t('loading.authors')) + '</div>';
 
     LatinData.getAuthors('archaic').then(function (authors) {
       gridEl.innerHTML = '';

@@ -14,7 +14,7 @@
   Menu.render(document.getElementById('era-menu'), { activeEra: era, onClick: Menu.goToEra });
 
   if (!slug) {
-    UI.showError(root, 'No author specified.');
+    UI.showError(root, I18n.t('error.noAuthor'));
     renderBreadcrumb(era, null);
     return;
   }
@@ -23,11 +23,11 @@
     renderBreadcrumb(era, author);
     if (!author) {
       root.innerHTML =
-        '<div class="error-box">Author not found in this era.</div>' +
-        '<a class="back-link" href="index.html">&larr; Back to all authors</a>';
+        '<div class="error-box">' + Markdown.escapeHtml(I18n.t('error.authorNotFound')) + '</div>' +
+        '<a class="back-link" href="index.html">' + Markdown.escapeHtml(I18n.t('link.backAuthors')) + '</a>';
       return;
     }
-    document.title = 'Choose - ' + author.name + ' - Latin Authors: Explore & Translate';
+    document.title = I18n.t('title.selectNamed', { name: author.name });
     render(author);
   }).catch(function (err) {
     UI.showError(root, err.message);
@@ -38,7 +38,7 @@
     LatinData.getEras().then(function (eras) {
       var match = eras.filter(function (e) { return e.id === eraId; })[0];
       var items = [
-        { label: 'Home', href: 'index.html' },
+        { label: I18n.t('crumb.home'), href: 'index.html' },
         { label: match ? match.name : eraId, href: 'index.html?era=' + encodeURIComponent(eraId) }
       ];
       if (author) {
@@ -46,7 +46,7 @@
           label: author.name,
           href: 'author.html?era=' + encodeURIComponent(eraId) + '&id=' + encodeURIComponent(author.slug)
         });
-        items.push({ label: 'Choose' });
+        items.push({ label: I18n.t('crumb.choose') });
       }
       UI.renderBreadcrumb(crumbEl, items);
     });
@@ -57,19 +57,23 @@
 
     var heading = document.createElement('h2');
     heading.className = 'detail-name';
-    heading.textContent = PracticeBank.selectHeading(author.slug);
+    // English keeps the bank's nicely specific heading ("Choose a comedy by
+    // Plautus"); Italian uses a generic template.
+    heading.textContent = I18n.lang === 'it'
+      ? I18n.t('select.heading', { author: author.name })
+      : PracticeBank.selectHeading(author.slug);
     root.appendChild(heading);
 
     var lead = document.createElement('p');
     lead.className = 'detail-dates';
-    lead.textContent = 'Pick a text to practise. Each one has several fragments you can cycle through.';
+    lead.textContent = I18n.t('select.lead');
     root.appendChild(lead);
 
     var works = PracticeBank.works(author.slug);
     if (!works.length) {
       var none = document.createElement('p');
       none.className = 'coming-soon';
-      none.textContent = 'No texts are available here yet.';
+      none.textContent = I18n.t('select.noTexts');
       root.appendChild(none);
     } else {
       var grid = document.createElement('div');
@@ -80,8 +84,8 @@
         btn.href = 'practice.html?era=' + encodeURIComponent(era) +
           '&id=' + encodeURIComponent(author.slug) + '&work=' + encodeURIComponent(w.id);
         btn.innerHTML = Markdown.renderInline(w.label) +
-          '<span class="btn-comedy-count">' + w.fragments.length +
-          (w.fragments.length === 1 ? ' fragment' : ' fragments') + '</span>';
+          '<span class="btn-comedy-count">' +
+          Markdown.escapeHtml(I18n.t('select.fragmentsCount', { n: w.fragments.length })) + '</span>';
         grid.appendChild(btn);
       });
       root.appendChild(grid);
@@ -91,7 +95,7 @@
     back.className = 'back-link';
     back.href = 'author.html?era=' + encodeURIComponent(era) +
       '&id=' + encodeURIComponent(author.slug);
-    back.innerHTML = '&larr; Back to ' + Markdown.escapeHtml(author.name);
+    back.textContent = I18n.t('link.backTo', { name: author.name });
     root.appendChild(back);
   }
 })();

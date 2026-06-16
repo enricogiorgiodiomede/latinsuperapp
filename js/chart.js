@@ -41,7 +41,7 @@
       viewBox: '0 0 ' + W + ' ' + H,
       class: 'criteria-chart',
       role: 'img',
-      'aria-label': 'Difficulty by criterion: lexicon, syntax, style, density'
+      'aria-label': I18n.t('chart.aria')
     });
 
     // Horizontal gridlines + y-axis difficulty labels.
@@ -54,7 +54,7 @@
       svg.appendChild(el('text', {
         x: plotLeft - 12, y: y + 4,
         class: 'chart-ylabel', 'text-anchor': 'end'
-      }, lvl.label));
+      }, I18n.t('level.' + lvl.key)));
       // a small colour swatch by each level label
       svg.appendChild(el('rect', {
         x: plotLeft - 8, y: y - 4, width: 6, height: 8, rx: 1,
@@ -79,8 +79,9 @@
       var yTop = yFor(value);
       var color = Ratings.bandColor(value);
 
+      var critLabel = I18n.t('criteria.' + crit.key + '.label');
       var g = el('g', { class: 'chart-bar' });
-      g.appendChild(el('title', {}, crit.label + ': ' + crit.blurb));
+      g.appendChild(el('title', {}, critLabel + ': ' + I18n.t('criteria.' + crit.key + '.blurb')));
       g.appendChild(el('rect', {
         x: x, y: yTop, width: barW, height: Math.max(0, plotBottom - yTop),
         rx: 4, fill: color, class: 'chart-bar-rect'
@@ -89,7 +90,7 @@
       g.appendChild(el('text', {
         x: cx, y: plotBottom + 22,
         class: 'chart-xlabel', 'text-anchor': 'middle'
-      }, crit.label));
+      }, critLabel));
       svg.appendChild(g);
     });
 

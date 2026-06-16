@@ -17,7 +17,7 @@
   Menu.render(document.getElementById('era-menu'), { activeEra: era, onClick: Menu.goToEra });
 
   if (!slug) {
-    UI.showError(root, 'No author specified.');
+    UI.showError(root, I18n.t('error.noAuthor'));
     renderBreadcrumb(era, null);
     return;
   }
@@ -26,11 +26,11 @@
     renderBreadcrumb(era, author);
     if (!author) {
       root.innerHTML =
-        '<div class="error-box">Author not found in this era.</div>' +
-        '<a class="back-link" href="index.html">&larr; Back to all authors</a>';
+        '<div class="error-box">' + Markdown.escapeHtml(I18n.t('error.authorNotFound')) + '</div>' +
+        '<a class="back-link" href="index.html">' + Markdown.escapeHtml(I18n.t('link.backAuthors')) + '</a>';
       return;
     }
-    document.title = 'Practice: ' + author.name + ' - Latin Authors: Explore & Translate';
+    document.title = I18n.t('title.practiceNamed', { name: author.name });
     render(author);
   }).catch(function (err) {
     UI.showError(root, err.message);
@@ -41,7 +41,7 @@
     LatinData.getEras().then(function (eras) {
       var match = eras.filter(function (e) { return e.id === eraId; })[0];
       var items = [
-        { label: 'Home', href: 'index.html' },
+        { label: I18n.t('crumb.home'), href: 'index.html' },
         { label: match ? match.name : eraId, href: 'index.html?era=' + encodeURIComponent(eraId) }
       ];
       if (author) {
@@ -49,7 +49,7 @@
           label: author.name,
           href: 'author.html?era=' + encodeURIComponent(eraId) + '&id=' + encodeURIComponent(author.slug)
         });
-        items.push({ label: 'Practice' });
+        items.push({ label: I18n.t('crumb.practice') });
       }
       UI.renderBreadcrumb(crumbEl, items);
     });
@@ -73,7 +73,7 @@
     var head = document.createElement('div');
     head.innerHTML =
       '<h2 class="detail-name">' + Markdown.escapeHtml(author.name) + '</h2>' +
-      '<p class="detail-dates">Translate the Latin, then reveal the answers to check yourself.</p>';
+      '<p class="detail-dates">' + Markdown.escapeHtml(I18n.t('practice.instruction')) + '</p>';
     root.appendChild(head);
 
     // For selection authors, offer a link back to the comedy/text chooser.
@@ -82,14 +82,14 @@
       choose.className = 'back-link choose-link';
       choose.href = 'practice-select.html?era=' + encodeURIComponent(era) +
         '&id=' + encodeURIComponent(author.slug);
-      choose.innerHTML = '&larr; Choose another text';
+      choose.textContent = I18n.t('link.chooseAnother');
       root.appendChild(choose);
     }
 
     if (!fragments.length) {
       var none = document.createElement('p');
       none.className = 'coming-soon';
-      none.textContent = 'No fragment is available here yet.';
+      none.textContent = I18n.t('practice.noFragment');
       root.appendChild(none);
     } else {
       var holder = document.createElement('div');
@@ -110,7 +110,7 @@
     back.className = 'back-link';
     back.href = 'author.html?era=' + encodeURIComponent(era) +
       '&id=' + encodeURIComponent(author.slug);
-    back.innerHTML = '&larr; Back to ' + Markdown.escapeHtml(author.name);
+    back.textContent = I18n.t('link.backTo', { name: author.name });
     root.appendChild(back);
   }
 
@@ -120,7 +120,8 @@
 
     var counter = document.createElement('p');
     counter.className = 'fragment-counter';
-    counter.textContent = 'Fragment ' + (idx + 1) + ' of ' + total + (workLabel ? '  ·  ' + workLabel : '');
+    counter.textContent = I18n.t('practice.counter', { n: idx + 1, total: total }) +
+      (workLabel ? '  ·  ' + workLabel : '');
     box.appendChild(counter);
 
     if (frag.title) {
@@ -149,26 +150,26 @@
     if (frag.source) {
       var src = document.createElement('p');
       src.className = 'fragment-source';
-      src.textContent = 'Latin text from ' + frag.source;
+      src.textContent = I18n.t('practice.latinFrom', { source: frag.source });
       box.appendChild(src);
     }
 
     var label = document.createElement('label');
     label.className = 'practice-label';
-    label.textContent = 'Your translation';
+    label.textContent = I18n.t('practice.yourTranslation');
     box.appendChild(label);
 
     var area = document.createElement('textarea');
     area.className = 'practice-area';
-    area.placeholder = 'Type your translation here...';
+    area.placeholder = I18n.t('practice.placeholder');
     box.appendChild(area);
 
     var row = document.createElement('div');
     row.className = 'reveal-row';
     var defs = [];
-    if (frag.italian) defs.push(['Show Italian', 'Hide Italian', 'Italian translation', frag.italian]);
-    if (frag.english) defs.push(['Show English', 'Hide English', 'English translation', frag.english]);
-    if (frag.analysis) defs.push(['Show analysis / hints', 'Hide analysis / hints', 'Analysis', frag.analysis]);
+    if (frag.italian) defs.push([I18n.t('reveal.showItalian'), I18n.t('reveal.hideItalian'), I18n.t('reveal.italianHeading'), frag.italian]);
+    if (frag.english) defs.push([I18n.t('reveal.showEnglish'), I18n.t('reveal.hideEnglish'), I18n.t('reveal.englishHeading'), frag.english]);
+    if (frag.analysis) defs.push([I18n.t('reveal.showAnalysis'), I18n.t('reveal.hideAnalysis'), I18n.t('reveal.analysisHeading'), frag.analysis]);
     defs.forEach(function (d) { row.appendChild(makeRevealButton(d[0], d[1])); });
     box.appendChild(row);
 
@@ -186,7 +187,7 @@
       var another = document.createElement('button');
       another.type = 'button';
       another.className = 'btn btn-primary try-another';
-      another.textContent = 'Next fragment →';
+      another.textContent = I18n.t('practice.next');
       another.addEventListener('click', onAnother);
       box.appendChild(another);
     }

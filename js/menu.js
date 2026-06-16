@@ -21,7 +21,7 @@
         btn.dataset.era = era.id;
         btn.innerHTML = era.available
           ? Markdown.escapeHtml(era.name)
-          : Markdown.escapeHtml(era.name) + ' <span class="lock">(soon)</span>';
+          : Markdown.escapeHtml(era.name) + ' <span class="lock">' + Markdown.escapeHtml(I18n.t('menu.soon')) + '</span>';
         if (opts.activeEra && era.id === opts.activeEra) {
           btn.classList.add('active');
         }
