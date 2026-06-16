@@ -6,6 +6,14 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.5.2] - 2026-06-16
+
+### Fixed
+- Added cache-busting `?v=` query strings to all JS/CSS includes so a freshly loaded page
+  never runs a stale, mismatched script. This resolves the transient "ExcerptMeta is not
+  defined" error that could appear from a browser tab cached before `excerpts-meta.js` was
+  retired (no live code references it).
+
 ## [0.5.1] - 2026-06-16
 
 ### Added
