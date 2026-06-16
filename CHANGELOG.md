@@ -6,6 +6,18 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.6.1] - 2026-06-16
+
+### Changed
+- The "Try another fragment" button is now **"Next fragment →"** and steps through a text's
+  fragments **in order** (1/N → 2/N → … → wrap), instead of jumping at random.
+- Every comedy fragment citation now uses the format **"[Comedy], Act N, Scene N, vv. start-end"**
+  (the Prologue is the one exception). Fixed the Mostellaria fragments and standardised Pseudolus.
+- Reworked the **Amphitruo** set to spread across the play: the *tragicomoedia* (Prologue), the
+  Mercury-as-Sosia identity dispute (Act I), Alcmena's "my dowry is my virtue" (Act II), and
+  Bromia's report of the infant Hercules and the serpents (Act V) - replacing the earlier
+  beginning-heavy passages.
+
 ## [0.6.0] - 2026-06-16
 
 ### Added

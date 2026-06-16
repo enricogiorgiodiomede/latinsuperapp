@@ -14,14 +14,17 @@ Difficulty is varied on purpose within each text (some passages harder than othe
 Source for all: The Latin Library, https://www.thelatinlibrary.com/plautus/<play>.shtml
 
 ### Mostellaria (`mostellaria`)
-- **vv. 1-10** - opening quarrel, Grumio vs Tranio ("Exi e culina sis foras, mastigia"). Medium; colloquial abuse.
-- **vv. 84-92** - Philolaches' house metaphor ("novarum aedium esse arbitror similem ego hominem"). Harder; extended moral allegory.
-- **vv. 348-353** - Tranio's panic at the master's return ("erus advenit peregre, periit Tranio"). Medium; personified abstractions, mock-epic.
+- **Act I, Sc. 1, vv. 1-10** - opening quarrel, Grumio vs Tranio. Medium; colloquial abuse.
+- **Act I, Sc. 2, vv. 84-92** - Philolaches' house metaphor. Harder; extended moral allegory.
+- **Act II, Sc. 1, vv. 348-353** - Tranio's panic at the master's return. Medium; personified abstractions, mock-epic.
 
-### Amphitruo (`amphitruo`)
-- **Prologue vv. 1-16** - Mercury's mercantile request for a fair hearing. Harder; one long periodic sentence, commercial vocabulary.
-- **Prologue vv. 50-63** - the "tragicomoedia" passage. Medium; metatheatrical, genre-by-class joke.
-- **Act I.1, vv. 153-163** - Sosia's night monologue ("quasi incudem me miserum"). Medium; colloquial fear, vivid imagery.
+### Amphitruo (`amphitruo`) - deliberately spread across acts
+- **Prologue, vv. 50-63** - the "tragicomoedia" passage. Medium; metatheatrical, genre-by-class joke.
+- **Act I, Sc. 1, vv. 342-350** - Mercury (as Sosia) vs the real Sosia: the identity dispute. Medium; rapid stichomythia.
+- **Act II, Sc. 2, vv. 839-842** - Alcmena: "my true dowry is my virtue". Harder; dense moral abstractions, dramatic irony.
+- **Act V, Sc. 1, vv. 1107-1116** - Bromia reports the infant Hercules strangling the serpents. Medium; messenger-speech, archaic forms.
+
+(Citation format for comedy fragments: "[Comedy], Act N, Scene N, vv. start-end"; the Prologue is the one exception.)
 
 ### Pseudolus (`pseudolus`)
 - **I.i, vv. 22-36** - the illegible love-letter (migrated; "a love-letter only a chicken could have written"). +2 more to add.

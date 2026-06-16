@@ -94,14 +94,11 @@
     } else {
       var holder = document.createElement('div');
       root.appendChild(holder);
-      var state = { idx: Math.floor(Math.random() * fragments.length) };
+      var state = { idx: 0 };
       var show = function () {
         holder.innerHTML = '';
         holder.appendChild(buildFragment(fragments[state.idx], pool.workLabel, state.idx, fragments.length, function () {
-          if (fragments.length < 2) return;
-          var n = state.idx;
-          while (n === state.idx) n = Math.floor(Math.random() * fragments.length);
-          state.idx = n;
+          state.idx = (state.idx + 1) % fragments.length; // step in order, wrap around
           show();
           holder.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }));
@@ -189,7 +186,7 @@
       var another = document.createElement('button');
       another.type = 'button';
       another.className = 'btn btn-primary try-another';
-      another.textContent = 'Try another fragment';
+      another.textContent = 'Next fragment →';
       another.addEventListener('click', onAnother);
       box.appendChild(another);
     }
