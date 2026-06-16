@@ -6,6 +6,23 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.6.3] - 2026-06-16
+
+### Fixed
+- Proofreading corrections to the **Aulularia** practice fragments (re-verified against The
+  Latin Library):
+  - Fragment 1 (Act I, Sc. 1): v.48 `stimulum in manu` corrected to `stimulum in manum`.
+  - Fragment 3 (the "Perii! interii!" meltdown): the citation was numbered one verse too high
+    (the passage is vv. 713-720, not 714-717), and v.715 `obsecro ego vos` is corrected to the
+    transmitted word order `obsecro vos ego`.
+
+### Changed
+- Extended the **Aulularia** "Perii! interii!" fragment from vv. 713-716 to **vv. 713-720**,
+  carrying Euclio's breakdown through to its end: he breaks the fourth wall, rounds on the
+  spectators ("quid ridetis?"), and accuses the well-dressed members of the audience of being
+  the thieves who took his gold. The Italian, English, description, and analysis were extended
+  to match.
+
 ## [0.6.2] - 2026-06-16
 
 ### Added

@@ -26,10 +26,10 @@ Source for all: The Latin Library, https://www.thelatinlibrary.com/plautus/<play
 
 (Citation format for comedy fragments: "[Comedy], Act N, Scene N, vv. start-end"; the Prologue is the one exception.)
 
-### Aulularia (`aulularia`) - spread across acts; verbatim verified from TLL
-- **Act I, Sc. 1, vv. 40-51** - Euclio drives out the slave Staphyla ("oculis emissiciis"). Medium; colloquial abuse.
+### Aulularia (`aulularia`) - spread across acts; verbatim verified from TLL; proofread against TLL/Splash
+- **Act I, Sc. 1, vv. 40-51** - Euclio drives out the slave Staphyla ("oculis emissiciis"). Medium; colloquial abuse. (Proofread fix: v.48 `in manu` -> `in manum`.)
 - **Act III, Sc. 5, vv. 475-484** - Megadorus: rich men should marry poor brides dowryless. Medium; social satire, anaphora.
-- **Act IV, Sc. 9, vv. 714-717** - Euclio's "Perii! interii!" lament (the famous one; Molière's Harpagon). Medium; staged panic.
+- **Act IV, Sc. 9, vv. 713-720** - Euclio's "Perii! interii!" lament (the famous one; Molière's Harpagon), now extended through his fourth-wall accusation of the audience ("quid ridetis?", calling the spectators thieves). Medium; staged panic. (Proofread fixes: citation was off by one - it's vv.713-720, not 714-717; v.715 `obsecro ego vos` -> `obsecro vos ego`.)
 
 ### Pseudolus (`pseudolus`)
 - **Act I, Sc. 1, vv. 22-36** - the illegible love-letter (migrated; "a love-letter only a chicken could have written"). +2 more to add.
