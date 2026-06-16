@@ -539,6 +539,13 @@ blockquote {
   margin: 0 0 6px;
 }
 
+.fragment-source {
+  margin: -8px 0 16px;
+  font-size: 0.82rem;
+  font-style: italic;
+  color: var(--gray);
+}
+
 .try-another { margin-top: 20px; }
 
 .choose-link { display: inline-block; margin: 0 0 10px; }

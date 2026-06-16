@@ -149,6 +149,13 @@
     latin.innerHTML = Markdown.render(frag.latin || '');
     box.appendChild(latin);
 
+    if (frag.source) {
+      var src = document.createElement('p');
+      src.className = 'fragment-source';
+      src.textContent = 'Latin text from ' + frag.source;
+      box.appendChild(src);
+    }
+
     var label = document.createElement('label');
     label.className = 'practice-label';
     label.textContent = 'Your translation';

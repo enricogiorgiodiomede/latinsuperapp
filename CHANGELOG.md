@@ -6,6 +6,14 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.5.1] - 2026-06-16
+
+### Added
+- Each practice fragment now records a **`source`** field in `js/fragments.js` (the
+  website/edition the Latin was taken from), shown on the practice page as a small
+  "Latin text from …" attribution line. Backfilled for the existing fragments and required
+  for every new one.
+
 ## [0.5.0] - 2026-06-16
 
 Reworked the practice page into a fragment trainer (system; content batches follow).
