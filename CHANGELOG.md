@@ -6,6 +6,14 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.4.2] - 2026-06-16
+
+### Added
+- Expanded the Plautus biography with a paragraph on the **Saturnalia**, framing Plautine
+  comedy and the *servus callidus* as a licensed, temporary inversion of the Roman social
+  order. Added to `archaic_era_draft.md` and `italian_translations_archaic.md`; the embedded
+  markdown copy (`js/content.js`) was regenerated.
+
 ## [0.4.1] - 2026-06-16
 
 ### Added
