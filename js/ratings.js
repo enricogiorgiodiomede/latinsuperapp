@@ -87,7 +87,8 @@
     'gaius-lucilius': {
       lexicon: 3.5, syntax: 2.9, style: 3.1, density: 3.2,
       evaluation: 'very-difficult', fragments: true,
-      fragmentExample: "Lucilius's lines on Lentulus's gluttony, for example, are hard to place without the lost setting around them."
+      fragmentExample: "Lucilius's lines on Lentulus's gluttony, for example, are hard to place without the lost setting around them.",
+      fragmentExampleIt: "I versi di Lucilio sulla gola di Lentulo, per esempio, sono difficili da collocare senza il contesto perduto che li circondava."
     },
     'pomponius-bononiensis-and-quintus-novius': {
       lexicon: 2.0, syntax: 1.5, style: 1.6, density: 1.4,

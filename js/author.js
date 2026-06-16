@@ -188,7 +188,8 @@
       var caveat = document.createElement('p');
       caveat.className = 'fragment-caveat';
       var text = I18n.t('fragment.caveat');
-      if (rating.fragmentExample) text += ' ' + rating.fragmentExample;
+      var example = (I18n.lang === 'it' && rating.fragmentExampleIt) ? rating.fragmentExampleIt : rating.fragmentExample;
+      if (example) text += ' ' + example;
       caveat.textContent = text;
       sec.appendChild(caveat);
     }
