@@ -21,6 +21,11 @@
     ],
     'gnaeus-naevius': [
       {
+        title: 'Veiled and weeping, the Trojan wives flee by night',
+        citation: '(Bellum Poenicum, Book I, fr. 8)',
+        description: 'This fragment is about the flight from Troy in Naevius’s Bellum Poenicum, the first Latin epic. By night, with veiled heads and many tears, the wives of Aeneas and Anchises slip out of the fallen city. It is Naevius’s mythological prelude to the war with Carthage, written two centuries before Virgil’s Aeneid told the same story.'
+      },
+      {
         title: 'Naevius writes his own epitaph',
         citation: '(Epitaphium Naevii, fr. 67)',
         description: 'This fragment is about Naevius himself, in a gloriously arrogant self-epitaph. It claims that if the gods were allowed to weep for mortals, the divine Camenae would weep for the poet Naevius, and that ever since he died, Rome has forgotten how to speak the Latin tongue.'

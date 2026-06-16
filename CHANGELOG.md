@@ -6,6 +6,15 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.4.1] - 2026-06-16
+
+### Added
+- A second practice excerpt for Gnaeus Naevius: the *Bellum Poenicum* fragment (Book I,
+  fr. 8) on the Trojan wives leaving Troy by night, shown before the existing self-epitaph.
+  The Latin, Italian, English, and analysis were added to `archaic_era_draft.md` and
+  `italian_translations_archaic.md`; its title / citation / context were added to
+  `js/excerpts-meta.js`, and the embedded markdown copy (`js/content.js`) was regenerated.
+
 ## [0.4.0] - 2026-06-16
 
 Began revamping the translation practice page.

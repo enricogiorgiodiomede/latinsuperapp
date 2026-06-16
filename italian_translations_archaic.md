@@ -84,7 +84,24 @@ Il *Bellum Poenicum* usa il metro saturnio, con tutte le difficoltà che questo 
 
 Le principali difficoltà sono le stesse di Livio: lessico arcaico, metro saturnio, contesto frammentario. Nevio aggiunge una complicazione propria: il contenuto politico e satirico richiede familiarità con i personaggi pubblici e gli eventi della Roma di metà III secolo a.C., molti dei quali sono oscuri anche per gli specialisti.
 
-### Testo latino e traduzione
+### Testi latini e traduzioni
+
+#### Bellum Poenicum -- Libro I, Frammento 8
+
+**Testo latino:**
+> amborum uxores
+> noctu Troiad exibant capitibus opertis,
+> flentes ambae, abeuntes lacrimis cum multis.
+> *(Bellum Poenicum, Liber I, frammento 8)*
+
+**Traduzione italiana:**
+> Le mogli di entrambi
+> uscivano di notte da Troia col capo velato,
+> piangendo entrambe, partendo tra molte lacrime.
+
+---
+
+#### Epitaphium Naevii -- Frammento 67
 
 **Testo latino:**
 > immortales mortales si foret fas flere,

@@ -104,7 +104,41 @@ The *Bellum Poenicum* uses the Saturnian meter, with all the usual difficulty th
 
 The main difficulties are the same as for Livius: archaic lexicon, Saturnian meter, and fragmentary context. Naevius adds one complication of his own: his political and satirical content requires familiarity with the Roman public figures and events of the mid-third century BC, many of whom are obscure even to specialists.
 
-## Latin Excerpt, Translation and Analysis
+## Latin Excerpts, Translations and Analyses
+
+### Bellum Poenicum -- Book I, Fragment 8
+
+**Latin text** *(The Latin Library, thelatinlibrary.com)*
+
+> amborum uxores
+> noctu Troiad exibant capitibus opertis,
+> flentes ambae, abeuntes lacrimis cum multis.
+
+*(Bellum Poenicum, Liber I, fragment 8)*
+
+**Italian translation** *(original)*
+
+> Le mogli di entrambi
+> uscivano di notte da Troia col capo velato,
+> piangendo entrambe, partendo tra molte lacrime.
+
+**English translation** *(original)*
+
+> The wives of both
+> went out from Troy at night with covered heads,
+> both weeping, departing with many tears.
+
+**Analysis**
+
+This fragment comes from Book I of the *Bellum Poenicum*, where Naevius connected the Punic War narrative back to the fall of Troy and the departure of Aeneas -- an innovation that shaped all subsequent Roman epic, and that Virgil would develop into the *Aeneid*. The subject of *amborum* (of both) is disputed: most scholars read it as the wives of Anchises and Aeneas, departing together from the burning city.
+
+What is striking is how much Naevius achieves in three short lines. The midnight departure (*noctu*), the covered heads (*capitibus opertis* -- a Roman mourning gesture any contemporary audience would recognize), and the careful doubling of *amborum* / *ambae* (both/both) across the passage create a quietly devastating effect. This is not the heroic register of departure: it is the register of grief and displacement, and it belongs to the women left to walk out while the men steer the ships. It is also the most cinematic moment in archaic Latin epic.
+
+Metrically, this is Saturnian verse. The archaic form *Troiad* (from Troy -- an old ablative construction) and the adverb *noctu* (at night) are characteristic of the register; *capitibus opertis* is an ablative absolute. The syntax is clean and paratactic: three images in sequence, no subordination. This is Naevius at his most direct, and his most human.
+
+---
+
+### Epitaphium Naevii -- Fragment 67
 
 **Latin text** *(The Latin Library, thelatinlibrary.com)*
 
