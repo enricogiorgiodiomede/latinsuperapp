@@ -608,7 +608,7 @@ All six comedies survive complete:
 
 - **Andria** (166 BC) -- The Woman from Andros. His first play; the one he read to Caecilius. A young man in love with an unsuitable girl, a scheming slave, a father who eventually comes around.
 - **Hecyra** (165 and 160 BC) -- The Mother-in-Law. Notoriously flopped twice in a row at its first performances -- the audience left to watch a tightrope walker, and then a gladiatorial show -- and succeeded only on its third staging. A comedy about a marriage that almost didn't happen for reasons nobody will explain.
-- **Heauton Timorumenos** (163 BC) -- The Self-Tormentor. A father who punishes himself for driving his son away. Contains *homo sum*.
+- **Heautontimorumenos** (163 BC) -- The Self-Tormentor. A father who punishes himself for driving his son away. Contains *homo sum*.
 - **Eunuchus** (161 BC) -- The Eunuch. His biggest commercial success; reportedly earned more money on its first day than any previous Latin comedy.
 - **Phormio** (161 BC) -- the scheming parasite Phormio manipulates two fathers into accepting their sons' unsuitable attachments.
 - **Adelphoe** (160 BC) -- The Brothers. Two contrasting fathers, one strict and one permissive, and what their sons turn out to be. Performed at the funeral games of Aemilius Paullus, almost certainly at the direct request of the Scipionic circle.
@@ -633,7 +633,7 @@ From a difficulty standpoint, Terence is more controlled than any other archaic 
 
 ## Latin Excerpt, Translation and Analysis
 
-**Latin text** *(Terence, Heauton Timorumenos, I.i, vv. 75-87, www.thelatinlibrary.com)*
+**Latin text** *(Terence, Heautontimorumenos, I.i, vv. 75-87, www.thelatinlibrary.com)*
 
 > ME. Chreme, tantumne ab re tuast oti tibi
 > aliena ut cures ea quae nil ad te attinent?

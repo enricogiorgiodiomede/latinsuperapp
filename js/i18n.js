@@ -144,11 +144,11 @@
       'subtitle.index': 'Esplora gli autori romani e allenati a tradurli, da Livio Andronico a Boezio',
       'subtitle.author': 'Profilo dell’autore',
       'subtitle.practice': 'Pratica di traduzione',
-      'subtitle.select': 'Scegli cosa esercitare',
+      'subtitle.select': 'Scegli su cosa esercitarti',
       'footer.index': 'Un compagno interattivo del progetto di scrittura sugli autori latini.',
       'footer.author': 'Un compagno interattivo del progetto di scrittura sugli autori latini.',
       'footer.practice': 'Prova prima a tradurre il latino da solo, poi rivela le traduzioni per controllarti.',
-      'footer.select': 'Scegli una commedia o un testo, poi allenati a tradurne i frammenti.',
+      'footer.select': 'Scegli un’opera tra quelle proposte e allenati a tradurne gli estratti proposti.',
       'aria.eras': 'Epoche',
       'aria.breadcrumb': 'Percorso',
 
@@ -175,11 +175,11 @@
       'era.lateImperial': 'Tarda età imperiale',
 
       // --- era menu ---
-      'menu.soon': '(presto)',
+      'menu.soon': '(N.D.)',
 
       // --- home ---
-      'home.comingSoon': 'Presto disponibile',
-      'home.eraNotWritten': 'Quest’epoca non è ancora stata scritta. Torna più avanti.',
+      'home.comingSoon': 'Non disponibile',
+      'home.eraNotWritten': 'Quest’epoca non è ancora stata scritta. Torna in un momento successivo.',
       'home.authorsComingSoon': 'Gli autori di quest’epoca compariranno qui una volta scritti.',
       'home.authorsOf': function (p) { return 'Autori dell’' + p.era; },
       'section.authors': 'Autori',
@@ -194,7 +194,7 @@
       'section.works': 'Opere principali',
       'section.style': 'Stile e difficoltà',
       'section.difficultyProfile': 'Profilo di difficoltà',
-      'btn.practice': 'Pratica la traduzione',
+      'btn.practice': 'Esercitati a tradurre',
       'eval.caption': 'Difficoltà complessiva',
       'eval.scaledNote': 'adattata ai pochi frammenti superstiti',
       'profile.lead': 'Quanto è difficile da tradurre ciascun aspetto. Le barre sono colorate in base al livello che raggiungono.',
@@ -228,7 +228,7 @@
       'chart.aria': 'Difficoltà per criterio: lessico, sintassi, stile, densità',
 
       // --- practice page ---
-      'practice.instruction': 'Traduci il latino, poi rivela le risposte per controllarti.',
+      'practice.instruction': 'Traduci il testo in latino, poi confronta la tua traduzione con quella proposta.',
       'link.chooseAnother': '← Scegli un altro testo',
       'practice.noFragment': 'Qui non è ancora disponibile alcun frammento.',
       'practice.counter': function (p) { return 'Frammento ' + p.n + ' di ' + p.total; },
@@ -248,7 +248,7 @@
       'link.backTo': function (p) { return '← Torna a ' + p.name; },
 
       // --- select page ---
-      'select.lead': 'Scegli un testo da esercitare. Ognuno ha diversi frammenti che puoi scorrere.',
+      'select.lead': 'Scegli un testo su cui esercitarti. Ognuno di essi ha diversi frammenti che puoi provare a tradurre.',
       'select.noTexts': 'Qui non è ancora disponibile alcun testo.',
       'select.heading': function (p) { return 'Scegli un testo di ' + p.author; },
       'select.fragmentsCount': function (p) { return p.n + (p.n === 1 ? ' frammento' : ' frammenti'); }

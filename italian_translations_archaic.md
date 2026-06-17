@@ -185,10 +185,10 @@ Una piccola nota biografica che dice tutto sull'uomo: secondo la tradizione anti
 
 ### Opere principali
 
-- **Menaechmi** -- due gemelli, identita' scambiate, caos. La *Commedia degli errori* di Shakespeare si basa su questa. [Completa]
+- **Menecmi** -- due gemelli, identita' scambiate, caos. La *Commedia degli errori* di Shakespeare si basa su questa. [Completa]
 - **Anfitrione** -- Giove si finge il marito di una donna mortale; Mercurio si traveste da schiavo Sosia. L'unica commedia romana su soggetto mitologico, e il primo testo latino a usare la parola *tragicomoedia*. [Completa]
 - **Miles Gloriosus** -- il soldato fanfarone, uno dei personaggi piu' imitati della commedia occidentale. [Completa]
-- **Pseudolus** -- la preferita di Plauto stesso; lo schiavo astuto frega un lenone, un soldato e il proprio padrone in un solo pomeriggio. Rappresentata al funerale di Plauto. [Completa]
+- **Pseudolo** -- la preferita di Plauto stesso; lo schiavo astuto frega un lenone, un soldato e il proprio padrone in un solo pomeriggio. Rappresentata al funerale di Plauto. [Completa]
 - **Aulularia** -- il taccagno e la pentola d'oro. Modello diretto dell'*Avaro* di Moliere. [Completa, con lacuna finale]
 
 Sopravvivono in totale ventuno commedie.
@@ -426,7 +426,7 @@ Tutte e sei le commedie sopravvivono complete:
 
 - **Andria** (166 a.C.) -- La ragazza di Andro. Prima commedia; quella che lesse a Cecilio.
 - **Hecyra** (165 e 160 a.C.) -- La suocera. Falli' due volte di fila alle prime rappresentazioni -- il pubblico se ne ando' per vedere un funambolo, poi per vedere uno spettacolo di gladiatori -- e trionfo' solo alla terza messa in scena.
-- **Heauton Timorumenos** (163 a.C.) -- Il punitore di se stesso. Contiene *homo sum*.
+- **Heautontimorumenos** (163 a.C.) -- Il punitore di se stesso. Contiene *homo sum*.
 - **Eunuchus** (161 a.C.) -- L'eunuco. Il suo maggior successo commerciale.
 - **Phormio** (161 a.C.) -- il parassita intrigante Formione manipola due padri.
 - **Adelphoe** (160 a.C.) -- I fratelli. Messo in scena ai giochi funebri di Emilio Paolo, quasi certamente su richiesta diretta del circolo scipionico.

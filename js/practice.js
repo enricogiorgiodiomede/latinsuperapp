@@ -59,7 +59,8 @@
   function poolFor(slug, workId) {
     if (workId) {
       var w = PracticeBank.getWork(slug, workId);
-      return { fragments: (w && w.fragments) || [], workLabel: w ? w.label : null };
+      var label = w ? ((I18n.lang === 'it' && w.labelIt) ? w.labelIt : w.label) : null;
+      return { fragments: (w && w.fragments) || [], workLabel: label };
     }
     return { fragments: PracticeBank.allFragments(slug), workLabel: null };
   }

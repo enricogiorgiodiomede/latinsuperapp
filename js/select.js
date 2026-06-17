@@ -83,7 +83,7 @@
         btn.className = 'btn-comedy';
         btn.href = 'practice.html?era=' + encodeURIComponent(era) +
           '&id=' + encodeURIComponent(author.slug) + '&work=' + encodeURIComponent(w.id);
-        btn.innerHTML = Markdown.renderInline(w.label) +
+        btn.innerHTML = Markdown.renderInline((I18n.lang === 'it' && w.labelIt) ? w.labelIt : w.label) +
           '<span class="btn-comedy-count">' +
           Markdown.escapeHtml(I18n.t('select.fragmentsCount', { n: w.fragments.length })) + '</span>';
         grid.appendChild(btn);

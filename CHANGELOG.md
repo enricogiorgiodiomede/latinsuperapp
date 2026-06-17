@@ -6,6 +6,29 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.7.3] - 2026-06-17
+
+### Changed
+- **Italian polish pass** (Italian mode only unless noted):
+  - Reworded several interface phrases for naturalness: the practice button
+    ("Esercitati a tradurre"), the chooser subtitle/lead/footer, the on-passage
+    instruction ("Traduci il testo in latino, poi confronta la tua traduzione con quella
+    proposta"), and the locked-era message ("Non disponibile", "Torna in un momento
+    successivo"). The locked-era button badge is now "(N.D.)".
+  - Italianized character names in the fragment descriptions and analyses where they read
+    more naturally: Mostellaria (Grumione, Tranione, Filolachete, Teopropide), Pseudolus
+    (Pseudolo, Calidoro), and the Novius/Pomponius stock clown (Macco). Latin excerpts,
+    English text, and Latin play titles/quotations (e.g. *Maccus Exul*, *periit Tranio*)
+    are left unchanged.
+  - Italianized the Plautus comedy titles **Amphitruo → Anfitrione**, **Pseudolus →
+    Pseudolo** and **Menaechmi → Menecmi** in Italian mode only (the Main Works list and
+    the chooser buttons; "Miles Gloriosus" is kept). English is unchanged.
+  - Fixed the Italian Cato title to "Perché l'agricoltura batte il commercio e l'usura"
+    (added the missing articles).
+- Compacted **Heauton Timorumenos → Heautontimorumenos** (Terence) everywhere, in **both**
+  languages: the Main Works lists, the chooser/counter, the citation, and the description.
+- Cache version bumped v14 → v15; regenerated js/content.js and js/content-it.js.
+
 ## [0.7.2] - 2026-06-17
 
 ### Added
