@@ -59,7 +59,7 @@ translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=18`.**
+   whenever you change a JS/CSS file. **Currently `v=19`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis }`.
@@ -94,7 +94,7 @@ translation pass is **DONE**.
 | Livius Andronicus | Odusia (1) |
 | Gnaeus Naevius | Bellum Poenicum (1) + Epitaph (1) |
 | Quintus Ennius | Annales (1) |
-| **Plautus** *(needsSelection)* | Pseudolus (1) · Mostellaria (3) · Amphitruo (4) · Aulularia (3) |
+| **Plautus** *(needsSelection)* | Pseudolus (1) · Mostellaria (3) · Amphitruo (4) · Aulularia (3) · Miles Gloriosus (3) |
 | Cato the Elder | De Agri Cultura (1) |
 | **Caecilius Statius** *(needsSelection)* | Plocium (1) [+ empty "Other"] |
 | **Terence** *(needsSelection)* | Heauton Timorumenos (1) |

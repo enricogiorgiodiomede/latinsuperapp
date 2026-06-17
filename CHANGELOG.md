@@ -6,6 +6,22 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.8.0] - 2026-06-18
+
+### Added
+- **Miles Gloriosus** added to the Plautus chooser with 3 practice fragments spread across the
+  play (Latin verified against The Latin Library), each with original Italian + English
+  translations, a short analysis, and full Italian metadata:
+  - Act I, Sc. 1 (vv. 1-18) - the braggart Pyrgopolynices and his flatterer Artotrogus (the
+    shield brighter than the sun; legions blown away "like wind through leaves"; the fantasy
+    general Bumbomachides Clutomistaridysarchides).
+  - Act III, Sc. 1 (vv. 678-689) - Periplectomenus's comic defence of bachelorhood
+    ("liberae sunt aedis, liber sum").
+  - Act V, Sc. 1 (vv. 1424-1437) - the humiliating finale (the `carebis testibus` castration
+    pun and the closing moral, ending on `plaudite`).
+  - The title "Miles Gloriosus" is kept untranslated in Italian (as agreed for that one).
+- Cache version bumped v18 → v19.
+
 ## [0.7.6] - 2026-06-18
 
 ### Fixed

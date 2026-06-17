@@ -31,15 +31,21 @@ Source for all: The Latin Library, https://www.thelatinlibrary.com/plautus/<play
 - **Act III, Sc. 5, vv. 475-484** - Megadorus: rich men should marry poor brides dowryless. Medium; social satire, anaphora.
 - **Act IV, Sc. 9, vv. 713-720** - Euclio's "Perii! interii!" lament (the famous one; Molière's Harpagon), now extended through his fourth-wall accusation of the audience ("quid ridetis?", calling the spectators thieves). Medium; staged panic. (Proofread fixes: citation was off by one - it's vv.713-720, not 714-717; v.715 `obsecro ego vos` -> `obsecro vos ego`.)
 
+### Miles Gloriosus (`miles-gloriosus`) - spread across acts; verbatim from TLL (curl); label kept untranslated
+- **Act I, Sc. 1, vv. 1-18** - the braggart Pyrgopolynices + the parasite Artotrogus (shield brighter than the sun; legions blown away "like wind through leaves"; fantasy general Bumbomachides Clutomistaridysarchides). Medium; mock-heroic, comic names. (v.8 obelised crux trimmed.)
+- **Act III, Sc. 1, vv. 678-689** - Periplectomenus's bachelor speech ("liberae sunt aedis, liber sum"; the liber/liberi pun; a wife only ever asks for money). Medium-hard; domestic/colloquial lexicon (oblatratrix).
+- **Act V, Sc. 1, vv. 1424-1437** - the humiliating finale: Pyrgopolynices beaten/fined, the `carebis testibus` castration pun, the closing moral, ending on `plaudite`. Medium; quick, savage.
+
 ### Pseudolus (`pseudolus`)
-- **Act I, Sc. 1, vv. 22-36** - the illegible love-letter (migrated; "a love-letter only a chicken could have written"). +2 more to add.
+- **Act I, Sc. 1, vv. 22-36** - the illegible love-letter (migrated; "a love-letter only a chicken could have written").
+- *(to add this batch)* **Act I, Sc. 3, vv. 357-369** - Pseudolus + Calidorus hurl the insult-litany at Ballio, who tops every insult ("Fateor"). **Act V, Sc. 2, vv. 1294-1306** - the drunken finale (Pseudolus belching in Simo's face).
 
 ### To add later
-- Miles Gloriosus (≥3). Pseudolus +2.
+- Pseudolus +0 once this batch lands (Miles done).
 
-NOTE on sourcing: from here on, Latin is verified against The Latin Library in small chunks
-(the fetch tool refuses long continuous quotes); famous lines cross-checked. Worth a final
-proofread against a printed edition before recording.
+NOTE on sourcing: Latin pulled from The Latin Library via curl (whole page, then exact lines
+by canonical numbering). Famous lines cross-checked. Worth a final proofread against a printed
+edition before recording.
 
 ---
 
