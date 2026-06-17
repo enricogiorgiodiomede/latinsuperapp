@@ -121,6 +121,31 @@
     return (I18n.lang === 'it' && frag[key]) ? frag[key] : frag[field];
   }
 
+  // Roman numeral for small values (act/scene numbers).
+  function toRoman(n) {
+    var map = [[10, 'X'], [9, 'IX'], [5, 'V'], [4, 'IV'], [1, 'I']];
+    var out = '';
+    map.forEach(function (p) { while (n >= p[0]) { out += p[1]; n -= p[0]; } });
+    return out;
+  }
+
+  // Italianize a citation's English structural words (Act / Scene / Prologue /
+  // Book(s) / fragment / "and" and the "in Cicero/Gellius" tags). Scene numbers
+  // become Roman numerals to match the act style (Scene 1 -> Scena I). Latin work
+  // titles and scholarly tags (fr., vv., Krenkel, Ribbeck, Praefatio) stay as-is.
+  function localizeCitation(cit) {
+    return cit
+      .replace(/\bScene\s+(\d+)\b/gi, function (_, n) { return 'Scena ' + toRoman(parseInt(n, 10)); })
+      .replace(/\bAct\b/g, 'Atto')
+      .replace(/\bPrologue\b/g, 'Prologo')
+      .replace(/\bBooks\b/g, 'Libri')
+      .replace(/\bBook\b/g, 'Libro')
+      .replace(/\bfragment\b/g, 'frammento')
+      .replace(/\bin Cicero\b/g, 'in Cicerone')
+      .replace(/\bin Gellius\b/g, 'in Gellio')
+      .replace(/\band\b/g, 'e');
+  }
+
   function buildFragment(frag, workLabel, idx, total, onAnother) {
     var box = document.createElement('section');
     box.className = 'practice-excerpt';
@@ -140,7 +165,7 @@
     if (frag.citation) {
       var cite = document.createElement('p');
       cite.className = 'excerpt-citation';
-      cite.textContent = frag.citation;
+      cite.textContent = I18n.lang === 'it' ? localizeCitation(frag.citation) : frag.citation;
       box.appendChild(cite);
     }
     var fDesc = L(frag, 'description');

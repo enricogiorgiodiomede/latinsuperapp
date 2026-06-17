@@ -6,6 +6,17 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.7.2] - 2026-06-17
+
+### Added
+- In Italian mode the practice-fragment **citations** are now localized too: the structural
+  words translate (Act -> Atto, Scene -> Scena, Prologue -> Prologo, Book(s) -> Libro/Libri,
+  fragment -> frammento, "in Cicero/Gellius" -> "in Cicerone/Gellio", "and" -> "e"), and the
+  scene number is shown as a Roman numeral to match the act (e.g. `(Aulularia, Act I, Scene 1,
+  vv. 40-51)` -> `(Aulularia, Atto I, Scena I, vv. 40-51)`). Latin work titles and scholarly
+  tags (`fr.`, `vv.`, `Krenkel`, `Ribbeck`, `Praefatio`) are left untouched. Done as a
+  render-time transform in `js/practice.js`. Cache bumped v13 -> v14.
+
 ## [0.7.1] - 2026-06-17
 
 ### Added
