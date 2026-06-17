@@ -175,19 +175,40 @@
     return out.join('\n\n');
   }
 
-  // When the language is Italian, overlay the Italian biography / works / style
-  // (from content-it.js) onto an English-parsed author object, scrubbing ranking
-  // language the same way. Name, dates, images and excerpts stay as-is.
+  // Italian display names, keyed by the app slugs (combined entries carry both).
+  var AUTHOR_NAMES_IT = {
+    'livius-andronicus': 'Livio Andronico',
+    'gnaeus-naevius': 'Gneo Nevio',
+    'quintus-ennius': 'Quinto Ennio',
+    'titus-maccius-plautus': 'Tito Maccio Plauto',
+    'marcus-porcius-cato': 'Marco Porcio Catone - Catone il Vecchio',
+    'caecilius-statius': 'Cecilio Stazio',
+    'publius-terentius-afer': 'Publio Terenzio Afro - Terenzio',
+    'marcus-pacuvius-and-lucius-accius': 'Marco Pacuvio e Lucio Accio',
+    'gaius-lucilius': 'Gaio Lucilio',
+    'pomponius-bononiensis-and-quintus-novius': 'Pomponio Bononiense e Quinto Novio'
+  };
+
+  // "BC"/"AD" -> Italian "a.C."/"d.C." in the date strings.
+  function localizeDates(dates) {
+    if (!dates) return dates;
+    return dates.replace(/\bBC\b/g, 'a.C.').replace(/\bAD\b/g, 'd.C.');
+  }
+
+  // When the language is Italian, localize the display name and dates, and
+  // overlay the Italian biography / works / style (from content-it.js), scrubbing
+  // ranking language the same way. Images and excerpts stay as-is.
   function localizeAuthor(a) {
     if (!a || I18n.lang !== 'it') return a;
-    var it = (global.__AUTHORS_IT__ || {})[a.slug];
-    if (!it) return a;
+    var it = (global.__AUTHORS_IT__ || {})[a.slug] || {};
     var pick = function (field) {
       return it[field] && it[field].trim()
         ? scrubRankingIt(cleanBody(it[field]))
         : a[field];
     };
     return Object.assign({}, a, {
+      name: AUTHOR_NAMES_IT[a.slug] || a.name,
+      dates: localizeDates(a.dates),
       biography: pick('biography'),
       works: pick('works'),
       style: pick('style')

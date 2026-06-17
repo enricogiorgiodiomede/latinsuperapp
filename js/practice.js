@@ -114,6 +114,13 @@
     root.appendChild(back);
   }
 
+  // Pick the Italian variant of a fragment field when the site is in Italian
+  // (titleIt / descriptionIt / analysisIt), falling back to English.
+  function L(frag, field) {
+    var key = field + 'It';
+    return (I18n.lang === 'it' && frag[key]) ? frag[key] : frag[field];
+  }
+
   function buildFragment(frag, workLabel, idx, total, onAnother) {
     var box = document.createElement('section');
     box.className = 'practice-excerpt';
@@ -124,9 +131,10 @@
       (workLabel ? '  ·  ' + workLabel : '');
     box.appendChild(counter);
 
-    if (frag.title) {
+    var fTitle = L(frag, 'title');
+    if (fTitle) {
       var title = document.createElement('h2');
-      title.innerHTML = Markdown.renderInline(frag.title);
+      title.innerHTML = Markdown.renderInline(fTitle);
       box.appendChild(title);
     }
     if (frag.citation) {
@@ -135,10 +143,11 @@
       cite.textContent = frag.citation;
       box.appendChild(cite);
     }
-    if (frag.description) {
+    var fDesc = L(frag, 'description');
+    if (fDesc) {
       var desc = document.createElement('p');
       desc.className = 'excerpt-description';
-      desc.textContent = frag.description;
+      desc.textContent = fDesc;
       box.appendChild(desc);
     }
 
@@ -169,7 +178,7 @@
     var defs = [];
     if (frag.italian) defs.push([I18n.t('reveal.showItalian'), I18n.t('reveal.hideItalian'), I18n.t('reveal.italianHeading'), frag.italian]);
     if (frag.english) defs.push([I18n.t('reveal.showEnglish'), I18n.t('reveal.hideEnglish'), I18n.t('reveal.englishHeading'), frag.english]);
-    if (frag.analysis) defs.push([I18n.t('reveal.showAnalysis'), I18n.t('reveal.hideAnalysis'), I18n.t('reveal.analysisHeading'), frag.analysis]);
+    if (frag.analysis) defs.push([I18n.t('reveal.showAnalysis'), I18n.t('reveal.hideAnalysis'), I18n.t('reveal.analysisHeading'), L(frag, 'analysis')]);
     defs.forEach(function (d) { row.appendChild(makeRevealButton(d[0], d[1])); });
     box.appendChild(row);
 

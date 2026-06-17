@@ -22,8 +22,11 @@ Pages:
 
 **Languages:** a **flag toggle** in the red header switches the whole interface EN<->IT
 (persisted in `localStorage`, applied on reload; Latin excerpts never translated). Author
-biography/works/style + era intro switch too (from `italian_translations_archaic.md`). The
-fragments' `title`/`description`/`analysis` are still **English-only** - the planned follow-up.
+biography/works/style + era intro switch too (from `italian_translations_archaic.md`). Author
+**names** switch to Italian forms and dates show **"a.C."** (data.js `AUTHOR_NAMES_IT` +
+`localizeDates`). Every practice fragment now also has `titleIt`/`descriptionIt`/`analysisIt`
+in `js/fragments.js` (shown in IT mode; practice.js falls back to English). The full Italian
+translation pass is **DONE**.
 
 ## Architecture / where things live
 
@@ -56,7 +59,7 @@ fragments' `title`/`description`/`analysis` are still **English-only** - the pla
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=12`.**
+   whenever you change a JS/CSS file. **Currently `v=13`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis }`.

@@ -6,6 +6,24 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.7.1] - 2026-06-17
+
+### Added
+- **Completed the Italian translation** (the follow-up promised in 0.7.0):
+  - **Author names** now switch to their Italian forms in Italian mode (Livio Andronico,
+    Gneo Nevio, Tito Maccio Plauto, Cecilio Stazio, Publio Terenzio Afro - Terenzio,
+    Marco Pacuvio e Lucio Accio, Pomponio Bononiense e Quinto Novio, ...), everywhere they
+    appear (author grid, detail pages, breadcrumbs, page titles, practice pages).
+  - **Every practice fragment** now carries Italian `titleIt` / `descriptionIt` /
+    `analysisIt` (all 23 fragments), shown in Italian mode; `practice.js` falls back to the
+    English field if a variant is missing. The Latin excerpts and the existing Italian/English
+    self-check reveals are unchanged.
+
+### Changed
+- In Italian mode the author dates render **"a.C."** (avanti Cristo) instead of "BC"
+  (and "d.C." for "AD"), via a small transform in `js/data.js`.
+- Cache version bumped v12 -> v13.
+
 ## [0.7.0] - 2026-06-17
 
 ### Added
