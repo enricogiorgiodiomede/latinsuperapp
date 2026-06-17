@@ -147,7 +147,7 @@
       'subtitle.select': 'Scegli su cosa esercitarti',
       'footer.index': 'Un compagno interattivo del progetto di scrittura sugli autori latini.',
       'footer.author': 'Un compagno interattivo del progetto di scrittura sugli autori latini.',
-      'footer.practice': 'Prova prima a tradurre il latino da solo, poi rivela le traduzioni per controllarti.',
+      'footer.practice': 'Prova prima a tradurre il latino da solo, poi rivela la traduzione e confrontala con la tua versione.',
       'footer.select': 'Scegli un’opera tra quelle proposte e allenati a tradurne gli estratti proposti.',
       'aria.eras': 'Epoche',
       'aria.breadcrumb': 'Percorso',

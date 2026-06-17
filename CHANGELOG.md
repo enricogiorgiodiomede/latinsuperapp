@@ -6,6 +6,17 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.7.4] - 2026-06-18
+
+### Changed
+- Two more Italian fixes from proofreading:
+  - Reworded the practice-page footer to "Prova prima a tradurre il latino da solo, poi
+    rivela la traduzione e confrontala con la tua versione."
+  - In Lucilius's *virtus* fragment, translated the repeated "virtus" in the Italian
+    **excerpt translation** to "(la) virtu'" (all six occurrences). The Latin text and the
+    analyses, which discuss *virtus* as a term, are left unchanged.
+- Cache version bumped v15 → v16.
+
 ## [0.7.3] - 2026-06-17
 
 ### Changed

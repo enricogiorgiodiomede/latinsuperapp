@@ -59,7 +59,7 @@ translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=13`.**
+   whenever you change a JS/CSS file. **Currently `v=16`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis }`.
