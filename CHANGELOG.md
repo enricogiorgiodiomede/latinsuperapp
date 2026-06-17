@@ -6,6 +6,13 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.7.6] - 2026-06-18
+
+### Fixed
+- Corrected a source typo in the Caecilius biography: "si sette' a confrontare" →
+  "si sedette a confrontare" (Gellius sat down to compare the *Plocium* with Menander).
+  Regenerated `js/content-it.js`; cache v17 → v18.
+
 ## [0.7.5] - 2026-06-18
 
 ### Changed

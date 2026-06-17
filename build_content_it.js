@@ -42,7 +42,7 @@ function classify(headingText) {
 // Skips *...* (Latin) spans, elisions (apostrophe + letter), truncated
 // imperatives / po', closing-quote words, and one known source typo.
 var ACC_SKIP = { po: 1, fa: 1, va: 1, da: 1, di: 1, sta: 1, mo: 1, be: 1, to: 1,
-  estraneo: 1, fratello: 1, sorella: 1, me: 1, temano: 1, sto: 1, sette: 1 };
+  estraneo: 1, fratello: 1, sorella: 1, me: 1, temano: 1, sto: 1 };
 var ACC_E = { e: 'è', cioe: 'cioè', ahime: 'ahimè', ohime: 'ohimè', pie: 'piè',
   caffe: 'caffè', te: 'tè', perche: 'perché', purche: 'purché', anziche: 'anziché',
   finche: 'finché', poiche: 'poiché', benche: 'benché', giacche: 'giacché',
