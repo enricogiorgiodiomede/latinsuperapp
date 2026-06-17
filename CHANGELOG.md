@@ -6,6 +6,18 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.8.1] - 2026-06-18
+
+### Added
+- **Pseudolus** gains 2 more practice fragments (now 3), spread across the play (Latin verified
+  against The Latin Library), each with original Italian + English, a short analysis, and full
+  Italian metadata:
+  - Act I, Sc. 3 (vv. 357-369) - the famous insult-litany: Calidorus and Pseudolus pelt the pimp
+    Ballio with abuse and he gleefully tops every one ("Sacrilege!" "I confess.").
+  - Act V, Sc. 2 (vv. 1293-1306) - the drunken finale: Pseudolus reels in garlanded and belches
+    in old Simo's face.
+- Cache version bumped v19 → v20.
+
 ## [0.8.0] - 2026-06-18
 
 ### Added

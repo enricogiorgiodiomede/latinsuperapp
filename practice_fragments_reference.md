@@ -36,12 +36,13 @@ Source for all: The Latin Library, https://www.thelatinlibrary.com/plautus/<play
 - **Act III, Sc. 1, vv. 678-689** - Periplectomenus's bachelor speech ("liberae sunt aedis, liber sum"; the liber/liberi pun; a wife only ever asks for money). Medium-hard; domestic/colloquial lexicon (oblatratrix).
 - **Act V, Sc. 1, vv. 1424-1437** - the humiliating finale: Pyrgopolynices beaten/fined, the `carebis testibus` castration pun, the closing moral, ending on `plaudite`. Medium; quick, savage.
 
-### Pseudolus (`pseudolus`)
+### Pseudolus (`pseudolus`) - spread across acts; verbatim from TLL (curl)
 - **Act I, Sc. 1, vv. 22-36** - the illegible love-letter (migrated; "a love-letter only a chicken could have written").
-- *(to add this batch)* **Act I, Sc. 3, vv. 357-369** - Pseudolus + Calidorus hurl the insult-litany at Ballio, who tops every insult ("Fateor"). **Act V, Sc. 2, vv. 1294-1306** - the drunken finale (Pseudolus belching in Simo's face).
+- **Act I, Sc. 3, vv. 357-369** - Pseudolus + Calidorus hurl the insult-litany at Ballio, who tops every insult ("Fateor"; "occidi quoque"). Medium; lexical (insult-nouns + interjections). Speakers abbreviated CAL./PS./BAL.
+- **Act V, Sc. 2, vv. 1293-1306** - the drunken finale (Pseudolus garlanded, belching in Simo's face; the celox onusta belly metaphor). Medium; colloquial. Speakers PS./SIM.
 
-### To add later
-- Pseudolus +0 once this batch lands (Miles done).
+### Plautus - all done for now
+- Miles Gloriosus (3), Pseudolus (3), Mostellaria (3), Amphitruo (4), Aulularia (3).
 
 NOTE on sourcing: Latin pulled from The Latin Library via curl (whole page, then exact lines
 by canonical numbering). Famous lines cross-checked. Worth a final proofread against a printed
