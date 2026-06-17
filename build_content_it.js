@@ -37,8 +37,43 @@ function classify(headingText) {
   return null;
 }
 
+// Normalize Italian apostrophe-style accents (e' -> è, perche' -> perché,
+// virtu' -> virtù, citta' -> città, mando' -> mandò, ...) to proper accents.
+// Skips *...* (Latin) spans, elisions (apostrophe + letter), truncated
+// imperatives / po', closing-quote words, and one known source typo.
+var ACC_SKIP = { po: 1, fa: 1, va: 1, da: 1, di: 1, sta: 1, mo: 1, be: 1, to: 1,
+  estraneo: 1, fratello: 1, sorella: 1, me: 1, temano: 1, sto: 1, sette: 1 };
+var ACC_E = { e: 'è', cioe: 'cioè', ahime: 'ahimè', ohime: 'ohimè', pie: 'piè',
+  caffe: 'caffè', te: 'tè', perche: 'perché', purche: 'purché', anziche: 'anziché',
+  finche: 'finché', poiche: 'poiché', benche: 'benché', giacche: 'giacché',
+  sicche: 'sicché', nonche: 'nonché', ne: 'né', se: 'sé', combatte: 'combatté',
+  pote: 'poté', dove: 'dové', batte: 'batté', crede: 'credé' };
+var ACC_OVERRIDE = { elogi: 'elogiò' };
+var ACC_GRAVE = { a: 'à', i: 'ì', o: 'ò', u: 'ù' };
+var accUnknown = {};
+function accCap(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
+function normalizeAccents(text) {
+  if (!text) return text;
+  return text.split(/(\*[^*]+\*)/).map(function (seg, i) {
+    if (i % 2 === 1) return seg; // italic Latin span -> untouched
+    return seg.replace(/([A-Za-zàèéìòùÀÈÉÌÒÙ]+)'(?=[^A-Za-zàèéìòùÀÈÉÌÒÙ]|$)/g, function (m, word) {
+      var low = word.toLowerCase();
+      if (ACC_SKIP[low]) return m;
+      var isCap = word.charAt(0) !== low.charAt(0);
+      if (ACC_OVERRIDE[low]) return isCap ? accCap(ACC_OVERRIDE[low]) : ACC_OVERRIDE[low];
+      var last = low.charAt(low.length - 1);
+      if (ACC_GRAVE[last]) return word.slice(0, -1) + ACC_GRAVE[last];
+      if (last === 'e') {
+        if (ACC_E[low]) return isCap ? accCap(ACC_E[low]) : ACC_E[low];
+      }
+      accUnknown[low] = (accUnknown[low] || 0) + 1;
+      return m;
+    });
+  }).join('');
+}
+
 function clean(lines) {
-  return lines
+  return normalizeAccents(lines
     .filter(function (l) {
       if (/^\s*---\s*$/.test(l)) return false;                 // hr separators
       if (/^\s*!\[.*\]\(.*\)\s*$/.test(l)) return false;       // images
@@ -46,7 +81,7 @@ function clean(lines) {
     })
     .join('\n')
     .replace(/^\n+/, '')
-    .replace(/\n+$/, '');
+    .replace(/\n+$/, ''));
 }
 
 function isHeading(line) { return /^#{1,6}\s+\S/.test(line); }
@@ -130,3 +165,5 @@ Object.keys(authors).forEach(function (slug) {
   console.log(slug, '| bio', x.biography.length, '| works', x.works.length, '| style', x.style.length);
 });
 console.log('authors found:', Object.keys(authors).length, '/ 10');
+var accLeft = Object.keys(accUnknown);
+console.log(accLeft.length ? 'apostrophe tokens left unconverted (review): ' + accLeft.map(function (k) { return k + "'x" + accUnknown[k]; }).join(', ') : 'all apostrophe-accents normalized');

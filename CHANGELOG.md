@@ -6,6 +6,27 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.7.5] - 2026-06-18
+
+### Changed
+- **Italian accent normalization.** Converted the apostrophe-style accents (a trailing
+  apostrophe standing in for a final accent) to proper accented letters throughout the
+  displayed Italian: `e'` → è, `perche'` → perché, `virtu'` → virtù, `citta'` → città,
+  `piu'` → più, and the many passato-remoto verbs (`mando'` → mandò, morì, continuò, ...).
+  Applied to the practice-fragment Italian fields (excerpt translation / title /
+  description / analysis) and to the author biography / works / style + era intro. Latin
+  text and quotations (e.g. `*usu'*`, `*opu'*`), English text, elisions (`l'`, `d'`,
+  `cos'è`) and truncated imperatives (`fa'`, `va'`, `po'`) are left unchanged. The
+  normalization is built into `build_content_it.js`, so future regenerations of
+  `js/content-it.js` stay accented.
+- Cache version bumped v16 → v17.
+
+### Notes
+- One source phrase ("si sette' a confrontare", in the Caecilius bio) looks like a typo
+  for "si sedé / sedette" and was left unchanged pending confirmation.
+- The working file `italian_translations_archaic.md` keeps its apostrophe style; the
+  accents are applied when the embedded `content-it.js` is generated from it.
+
 ## [0.7.4] - 2026-06-18
 
 ### Changed
