@@ -6,6 +6,13 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.8.4] - 2026-06-18
+
+### Changed
+- Shortened the Italian comedy-chooser heading for Plautus and Terence to use the short author
+  name: "Scegli una commedia di **Plauto**" and "...di **Terenzio**" (instead of the full
+  "Tito Maccio Plauto" / "Publio Terenzio Afro - Terenzio"). Caecilius is unchanged. Cache v22 → v23.
+
 ## [0.8.3] - 2026-06-18
 
 ### Changed

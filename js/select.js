@@ -58,9 +58,14 @@
     var heading = document.createElement('h2');
     heading.className = 'detail-name';
     // English keeps the bank's nicely specific heading ("Choose a comedy by
-    // Plautus"); Italian uses a generic template.
+    // Plautus"). Italian uses a short author name (the full display name is too
+    // long here), falling back to the full name for anyone not in the map.
+    var IT_SHORT = {
+      'titus-maccius-plautus': 'Plauto',
+      'publius-terentius-afer': 'Terenzio'
+    };
     heading.textContent = I18n.lang === 'it'
-      ? I18n.t('select.heading', { author: author.name })
+      ? I18n.t('select.heading', { author: IT_SHORT[author.slug] || author.name })
       : PracticeBank.selectHeading(author.slug);
     root.appendChild(heading);
 
