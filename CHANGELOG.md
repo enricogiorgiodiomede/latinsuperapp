@@ -6,6 +6,18 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.9.0] - 2026-06-18
+
+### Added
+- Began **Terence**: **Andria** added to the Terence chooser with 3 practice fragments across
+  acts (Latin verified against The Latin Library), each with original Italian + English, a short
+  analysis, and full Italian metadata:
+  - Act I, Sc. 1 (vv. 115-126) - the funeral narration ending in "hinc illae lacrumae".
+  - Act I, Sc. 2 (vv. 185-195) - the Simo/Davus duel: "Davus sum, non Oedipus".
+  - Act III, Sc. 3 (vv. 550-555) - "amantium irae amoris integratiost".
+  The Terence comedies in the chooser are now ordered chronologically.
+- Cache version bumped v23 → v24.
+
 ## [0.8.4] - 2026-06-18
 
 ### Changed
