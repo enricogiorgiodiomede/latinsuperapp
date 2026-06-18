@@ -62,7 +62,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=28`.**
+   whenever you change a JS/CSS file. **Currently `v=29`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -117,7 +117,7 @@ The full Italian translation pass is **DONE**.
 | **Plautus** *(needsSelection)* | Pseudolus (3) · Mostellaria (3) · Amphitruo (4) · Aulularia (3) · Miles Gloriosus (3) |
 | Cato the Elder | De Agri Cultura (1) |
 | **Caecilius Statius** *(needsSelection)* | Plocium (1) [+ empty "Other"] |
-| **Terence** *(needsSelection)* | Andria (3) · Hecyra (3) · Heautontimorumenos (3) · Eunuchus (3) · Phormio (3) |
+| **Terence** *(needsSelection)* | Andria (3) · Hecyra (3) · Heautontimorumenos (3) · Eunuchus (3) · Phormio (3) · Adelphoe (3) |
 | Pacuvius & Accius | Niptra (1) + Atreus (1) |
 | Gaius Lucilius | Saturae (1) |
 | Pomponius & Novius | Fullones (1) + Maccus Exul (1) |
@@ -125,10 +125,9 @@ The full Italian translation pass is **DONE**.
 ## What remains (the plan)
 
 - **Plautus**: DONE (Pseudolus 3 + Mostellaria 3 + Amphitruo 4 + Aulularia 3 + Miles Gloriosus 3).
-- **Terence** (current task, agreed: 3 fragments per comedy, 6 plays): **5 of 6 DONE** - Andria,
-  Hecyra, Heautontimorumenos (+2 added), Eunuchus, Phormio. **NEXT: Adelphoe (see resume block
-  below).** After Adelphoe, Terence is complete. The user said they'll decide later whether to add
-  more than 3 per play.
+- **Terence** (agreed: 3 fragments per comedy, 6 plays): **DONE - all 6 of 6** - Andria, Hecyra,
+  Heautontimorumenos, Eunuchus, Phormio, Adelphoe (3 each). The user said they'll decide later
+  whether to add more than 3 per play.
 - **Caecilius**: split `Plocium` into the 3 passages Gellius quotes (NA II.23); fill `Other` with
   1-2 fragments from his other plays.
 - **Fragmentary authors**: Livius +1-2 (Odusia), Naevius +3-4 (Bellum Poenicum), Ennius +3-4
@@ -142,34 +141,26 @@ analysisIt, proper accents), short tailored analysis, title, citation; spread ac
 commit + push; update `CHANGELOG.md`, `practice_fragments_reference.md`, and this file (table +
 cache `v=`).
 
-### >>> RESUME HERE: Adelphoe (Terence comedy #6, 3 fragments) <<<
+### >>> RESUME HERE: Caecilius split + fragmentary authors <<<
 
-Source `ter.adel.html` (curl; **no line numbers, no act/scene markers** - canonical numbers below,
-FLAG for proofread). Speaker labels in this file are `MI.` (Micio) / `DE.` (Demea). Add a new work
-`{ id:'adelphoe', label:'Adelphoe', fragments:[...] }`, then the chronological reorder. Theme of
-the play: the great debate on **upbringing** - lenient Micio vs strict Demea (Terence's
-*humanitas*); the ending is famously ambiguous (Demea's "conversion" may be sincere or a sarcastic
-revenge that exposes lenience's costs). Chosen passages (verify exact lines against the printed
-edition / re-curl and read context):
+Terence is **DONE** (all 6 comedies, 3 fragments each). The remaining content work, in priority order:
 
-- **Ad1 - I.i, ~vv. 64-77: Micio's lenient-fatherhood philosophy.** Thesis (cite in analysis):
-  *pudore et liberalitate liberos retinere satius esse credo quam metu* (vv.57-58, in file ~lines
-  125-126). Core to excerpt: the fear-vs-affection argument (one ruled by fear behaves only while
-  watched; one bound by kindness acts *ex animo*) ending in *hoc patriumst, potius consuefacere
-  filium sua sponte recte facere quam alieno metu* (vv.74-75, file ~lines 142-143). Famous; medium-hard.
-- **Ad2 - I.ii (DEMEA MICIO scene), ~vv. 98-130: the strict-vs-lenient clash.** Demea storms in
-  about Aeschinus (broke into a house, beat people, abducted a girl); Micio coolly defends:
-  *non est flagitium, mihi crede, adulescentulum scortari, neque potare* and *tuom filium dedisti
-  adoptandum mihi: is meus est factus: siquid peccat... mihi peccat ... scortatur, potat...? de meo;
-  fores ecfregit? restituentur*. (File ~lines 174-200.) Pick a ~12-line chunk. Medium.
-- **Ad3 - V.iv, ~vv. 855-876: Demea's volte-face soliloquy.** Thesis *facilitate nihil esse homini
-  melius neque clementia* (v.856); self-portrait *ego ille agrestis saeuos tristis parcus
-  truculentus tenax* (v.861); resolution *age age nunc porro experiamur contra ecquid ego possiem
-  blande dicere aut benigne facere* + *ego quoque a meis me amari et magni pendi postulo* (vv.872-874).
-  Suggest excerpt ~vv. 861-874 (14 lines). (File ~lines 1098-1120.) Famous; medium.
+1. **Caecilius** (`needsSelection`): currently `Plocium (1)` + an empty `Other`. Split the migrated
+   *Plocium* monologue into the **3 separate passages Gellius quotes side by side** (Noctes Atticae
+   II.23, comparing Caecilius's *Plocium* with Menander's original); then fill the `Other` work with
+   1-2 fragments from his other plays (titles survive via Ribbeck; pull Latin from PHI / Ribbeck like
+   Pomponius/Novius were). Empty works are hidden in the chooser, so `Other` must get >=1 fragment or
+   be removed.
+2. **Fragmentary authors** (single-work, non-needsSelection): Livius +1-2 (Odusia), Naevius +3-4
+   (Bellum Poenicum), Ennius +3-4 (Annales), Cato +4-5 (other De Agri Cultura chapters),
+   Pacuvius / Accius / Pomponius / Novius +1-2 each. Latin from TLL for Cato; PHI / Ribbeck for the
+   verse fragmentists (see the Pomponius/Novius entries for the source-note format used when neither
+   TLL nor Splash has a page).
 
-After Adelphoe lands: it becomes work #6 in the Terence chooser; update the table row to add
-`Adelphoe (3)`, the reference sheet, CHANGELOG (bump to e.g. 0.9.5), and cache `v=29`.
+Per-fragment checklist is unchanged (see "What remains" above): verified Latin + source, original
+IT+EN, IT metadata (titleIt/descriptionIt/analysisIt, proper accents), short tailored analysis,
+title, citation; vary difficulty; >=1 famous passage per comedy; chronological order; bump cache;
+verify in preview; commit + push; update CHANGELOG + reference sheet + this file.
 
 ## How to run / verify
 

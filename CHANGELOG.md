@@ -6,6 +6,27 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.9.5] - 2026-06-18
+
+### Added
+- **Adelphoe** added to the Terence chooser with 3 practice fragments (Latin from The Latin
+  Library), each fully bilingual. This completes Terence: all 6 comedies now have 3 fragments each.
+  - Act I, Sc. 1 (vv. 64-77) - Micio's lenient-fatherhood philosophy: bind a son with affection,
+    not fear ("hoc pater ac dominus interest"). The play's thesis and a manifesto of humanitas.
+  - Act I, Sc. 2 (vv. 112-121) - the strict-vs-lenient clash: Demea storms in over Aeschinus's
+    latest outrage and Micio coolly defends ("siquid peccat, mihi peccat ... de meo").
+  - Act V, Sc. 4 (vv. 866-879) - Demea's volte-face soliloquy: the six-adjective self-portrait
+    ("ego ille agrestis saeuos tristis parcus truculentus tenax") and the turn to charm
+    ("age age nunc porro experiamur contra"); trochaic septenarii.
+- Cache version bumped v28 → v29.
+
+### Notes
+- The Adelphoe source page (`ter.adel.html`) has no line numbers and no inline act/scene markers.
+  The verse numbers were derived from canonical numbering (anchored on Micio's monologue, vv. 26-81,
+  so Act I Scene 2 begins at v. 82, and Demea's soliloquy at v. 855). A stray transcription artifact
+  in the source (a leading "o " on v. 65, "o et errat longe...") was normalized to "et errat longe...".
+  All Adelphoe Latin is flagged for the user's final proofread against a printed edition.
+
 ## [0.9.4] - 2026-06-18
 
 ### Added

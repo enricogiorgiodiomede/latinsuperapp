@@ -57,7 +57,10 @@ Works ordered chronologically in the chooser (Andria, Hecyra, Heautontimorumenos
 - **Heautontimorumenos** (`heauton-timorumenos`) DONE (3): I.i vv.75-87 ("homo sum", migrated); IV.ii vv.668-678 (Syrus, "nil tam difficilest..."); V.i vv.915-923 (Menedemus turns "homo sum" back on Chremes - "foris sapere, tibi non posse te auxiliarier"). Speakers ME./CH./SY.
 - **Eunuchus** (`eunuchus`) DONE: II.ii vv.247-254 (Gnatho's flattery manifesto, the "Gnathonici"); IV.v vv.727-732 ("sine Cerere et Libero friget Venus"); V.ix vv.1084-1094 (the cynical finale - keeping Thraso to fleece him). Speakers GN./PA./CH.(Chremes)/PY./PH./CHAE.(Chaerea, relabelled)/TH.
 - **Phormio** (`phormio`) DONE: II.iv vv.447-459 (the advisors, "quot homines tot sententiae"); III.ii vv.317-328 (Phormio's bravado, "accingere"); V.ix vv.1040-1055 (the Nausistrata finale - "unam amicam... uxores duas"). TLL `{Sp.}` braces rendered as plain labels (DE./HE./CRA./CRI./PH./GE./CH./NA.).
-- **Adelphoe**: pending (3), passages chosen in the plan.
+- **Adelphoe** (`adelphoe`) DONE: I.i vv.64-77 (Micio's lenient-fatherhood philosophy, "hoc pater ac dominus interest" - humanitas); I.ii vv.112-121 (the strict-vs-lenient clash, "siquid peccat, mihi peccat ... de meo"); V.iv vv.866-879 (Demea's volte-face soliloquy, the six-adjective asyndeton "ego ille agrestis saeuos tristis parcus truculentus tenax" + the turn "age age nunc porro experiamur contra"; trochaic septenarii). Speakers DE./MI. **`ter.adel.html` has NO line numbers and NO act/scene markers**: verse numbers derived from canonical numbering (Micio's monologue = vv.26-81, so I.ii starts at v.82; Demea's soliloquy "Numquam ita quisquam..." = v.855). Source artifact normalized: v.65 "o et errat longe" -> "et errat longe". FLAG all Adelphoe Latin for final proofread.
+
+### Terence - all done
+All 6 comedies complete, 3 fragments each: Andria, Hecyra, Heautontimorumenos, Eunuchus, Phormio, Adelphoe.
 
 ## Caecilius (needsSelection)
 - Plocium (migrated long fragment, Gellius NA II.23) - split / add the other 2 Gellius passages. "Other": 1-2 from other plays.
