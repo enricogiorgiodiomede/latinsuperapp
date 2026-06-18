@@ -56,7 +56,8 @@ Works ordered chronologically in the chooser (Andria, Hecyra, Heautontimorumenos
 - **Hecyra** (`hecyra`) DONE: Prologue vv.33-45 (Ambivius Turpio - the twice-failed premieres); IV.ii vv.585-595 (Sostrata offers to retire to the country); V.i vv.750-760 (Bacchis's noble oath). Speakers SO./PA./BA./LA.
 - **Heautontimorumenos** (`heauton-timorumenos`) DONE (3): I.i vv.75-87 ("homo sum", migrated); IV.ii vv.668-678 (Syrus, "nil tam difficilest..."); V.i vv.915-923 (Menedemus turns "homo sum" back on Chremes - "foris sapere, tibi non posse te auxiliarier"). Speakers ME./CH./SY.
 - **Eunuchus** (`eunuchus`) DONE: II.ii vv.247-254 (Gnatho's flattery manifesto, the "Gnathonici"); IV.v vv.727-732 ("sine Cerere et Libero friget Venus"); V.ix vv.1084-1094 (the cynical finale - keeping Thraso to fleece him). Speakers GN./PA./CH.(Chremes)/PY./PH./CHAE.(Chaerea, relabelled)/TH.
-- **Phormio, Adelphoe**: pending (3 each), passages chosen in the plan.
+- **Phormio** (`phormio`) DONE: II.iv vv.447-459 (the advisors, "quot homines tot sententiae"); III.ii vv.317-328 (Phormio's bravado, "accingere"); V.ix vv.1040-1055 (the Nausistrata finale - "unam amicam... uxores duas"). TLL `{Sp.}` braces rendered as plain labels (DE./HE./CRA./CRI./PH./GE./CH./NA.).
+- **Adelphoe**: pending (3), passages chosen in the plan.
 
 ## Caecilius (needsSelection)
 - Plocium (migrated long fragment, Gellius NA II.23) - split / add the other 2 Gellius passages. "Other": 1-2 from other plays.

@@ -6,6 +6,17 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.9.4] - 2026-06-18
+
+### Added
+- **Phormio** added to the Terence chooser with 3 practice fragments (Latin verified against The
+  Latin Library), each fully bilingual:
+  - Act II, Sc. 4 (vv. 447-459) - the council of legal advisors: "quot homines tot sententiae".
+  - Act III, Sc. 2 (vv. 317-328) - the parasite Phormio psyching himself up for the con.
+  - Act V, Sc. 9 (vv. 1040-1055) - the triumphant finale: Nausistrata learns of Chremes's second
+    wife ("one girlfriend for the son, two wives for the father").
+- Cache version bumped v27 → v28.
+
 ## [0.9.3] - 2026-06-18
 
 ### Added
