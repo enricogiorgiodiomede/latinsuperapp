@@ -6,6 +6,18 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.9.3] - 2026-06-18
+
+### Added
+- **Eunuchus** added to the Terence chooser with 3 practice fragments (Latin verified against The
+  Latin Library), each fully bilingual:
+  - Act II, Sc. 2 (vv. 247-254) - Gnatho the parasite's manifesto on the art of flattery (the
+    "Gnathonici").
+  - Act IV, Sc. 5 (vv. 727-732) - the tipsy Chremes: "sine Cerere et Libero friget Venus".
+  - Act V, Sc. 9 (vv. 1084-1094) - the cynical finale: keeping the braggart Thraso around to
+    fleece him, ending on "plaudite".
+- Cache version bumped v26 → v27.
+
 ## [0.9.2] - 2026-06-18
 
 ### Added
