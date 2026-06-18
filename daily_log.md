@@ -191,3 +191,39 @@ A full day given over to internationalization: the app gained an English/Italian
 - Updated `PROGRESS.md` twice (the language-toggle handoff and the recorded cache version).
 
 **Progress:** The explore-and-translate app is now fully bilingual. The interface, the Archaic Era author prose, and all 23 practice fragments switch cleanly between English and Italian, with author names, dates, citations, and difficulty vocabulary all localized. The other four eras remain placeholders pending their drafts.
+
+---
+
+## 2026-06-18
+
+*(End-of-day log.)*
+
+A long, productive day on the practice trainer. The morning finished an Italian proofreading pass and added the rest of Plautus's headline comedies, and the evening was given over to Terence: all six of his comedies now have three practice fragments each. Work spanned v0.7.4 through v0.9.5. No new full author drafts were written; all changes were to the web app, its fragment bank, and supporting files.
+
+**Italian proofreading and accent fixes (v0.7.4 to v0.7.6):**
+- Two more proofreading fixes (v0.7.4): reworded the practice-page footer, and translated the repeated "virtus" in the Italian excerpt translation of Lucilius's *virtus* fragment to "(la) virtu'" (all six occurrences), leaving the Latin and the analyses untouched.
+- Italian accent normalization (v0.7.5): converted the apostrophe-style accents (a trailing apostrophe for a final accent) to proper accented letters throughout the displayed Italian (`e'` to è, `perche'` to perché, `virtu'` to virtù, `piu'` to più, and the passato-remoto verbs like `mando'` to mandò). Built into `build_content_it.js` so future regenerations stay accented. Latin text, English, elisions, and truncated imperatives left unchanged.
+- Fixed a source typo in the Caecilius biography (v0.7.6): "si sette' a confrontare" to "si sedette a confrontare". Regenerated `js/content-it.js`.
+
+**Completed Plautus's main comedies (v0.8.0 to v0.8.2):**
+- **Miles Gloriosus** added with 3 fragments spread across the play (v0.8.0): the braggart Pyrgopolynices and Artotrogus (I.i), Periplectomenus's defence of bachelorhood (III.i), and the humiliating finale ending on `plaudite` (V.i). The title is kept untranslated in Italian, as agreed.
+- **Pseudolus** brought up to 3 fragments (v0.8.1): the insult-litany against the pimp Ballio (I.iii) and the drunken garlanded finale (V.ii).
+- Proofread fix (v0.8.2): restored Miles Gloriosus I.i v.8 as transmitted and reframed the analysis note (EN + IT) to explain the tilde as a metrical pause, not a textual error.
+
+**Chooser heading wording (v0.8.3 to v0.8.4):**
+- The comedy-chooser heading now references "comedy" for all three comedy authors: "Choose a comedy by [Author]" / "Scegli una commedia di [Autore]" (v0.8.3).
+- Shortened the Italian chooser heading for Plautus and Terence to the short author name ("...di Plauto", "...di Terenzio"); Caecilius unchanged (v0.8.4).
+
+**Added all six Terence comedies (v0.9.0 to v0.9.5):**
+- **Andria** (v0.9.0), which began Terence: the funeral narration ending in "hinc illae lacrumae" (I.i), the Simo/Davus duel "Davus sum, non Oedipus" (I.ii), and "amantium irae amoris integratiost" (III.iii). The Terence comedies in the chooser are now ordered chronologically.
+- **Hecyra** (v0.9.1): Ambivius Turpio's prologue on the play's twice-failed premieres, Sostrata the blameless mother-in-law (IV.ii), and Bacchis's noble oath (V.i).
+- **Heautontimorumenos** brought up to 3 fragments (v0.9.2): the slave Syrus scheming out loud (IV.ii) and the great reversal paying off the "homo sum" scene (V.i).
+- **Eunuchus** (v0.9.3): Gnatho's manifesto on flattery (II.ii), the tipsy Chremes "sine Cerere et Libero friget Venus" (IV.v), and the cynical finale ending on "plaudite" (V.ix).
+- **Phormio** (v0.9.4): the council of legal advisors "quot homines tot sententiae" (II.iv), the parasite psyching himself up (III.ii), and the triumphant finale (V.ix).
+- **Adelphoe** (v0.9.5), which completes Terence: Micio's lenient-fatherhood philosophy (I.i), the strict-vs-lenient clash with Demea (I.ii), and Demea's volte-face soliloquy in trochaic septenarii (V.iv). All Latin from The Latin Library, each fragment fully bilingual with original Italian and English, a short analysis, and Italian metadata. Cache version bumped across the day, finishing at v29.
+
+**Notes and housekeeping:**
+- The Adelphoe source page has no line numbers or act/scene markers, so verse numbers were derived from canonical numbering and a stray transcription artifact ("o " on v.65) was normalized; all Adelphoe Latin is flagged for the user's final proofread against a printed edition.
+- `js/fragments.js` was reworked, `practice_fragments_reference.md` updated, and `PROGRESS.md` refreshed with a Terence handoff and resume block.
+
+**Progress:** All three Archaic-era comedy authors (Plautus, Caecilius, Terence) now have a full practice set, with Terence's six comedies each carrying three bilingual fragments. The fragment bank has grown substantially since yesterday. The other four eras remain placeholders pending their drafts.

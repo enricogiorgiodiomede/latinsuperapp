@@ -62,7 +62,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=29`.**
+   whenever you change a JS/CSS file. **Currently `v=30`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -116,7 +116,7 @@ The full Italian translation pass is **DONE**.
 | Quintus Ennius | Annales (1) |
 | **Plautus** *(needsSelection)* | Pseudolus (3) · Mostellaria (3) · Amphitruo (4) · Aulularia (3) · Miles Gloriosus (3) |
 | Cato the Elder | De Agri Cultura (1) |
-| **Caecilius Statius** *(needsSelection)* | Plocium (1) [+ empty "Other"] |
+| **Caecilius Statius** *(needsSelection)* | Plocium (3) · Other plays (2) |
 | **Terence** *(needsSelection)* | Andria (3) · Hecyra (3) · Heautontimorumenos (3) · Eunuchus (3) · Phormio (3) · Adelphoe (3) |
 | Pacuvius & Accius | Niptra (1) + Atreus (1) |
 | Gaius Lucilius | Saturae (1) |
@@ -128,8 +128,8 @@ The full Italian translation pass is **DONE**.
 - **Terence** (agreed: 3 fragments per comedy, 6 plays): **DONE - all 6 of 6** - Andria, Hecyra,
   Heautontimorumenos, Eunuchus, Phormio, Adelphoe (3 each). The user said they'll decide later
   whether to add more than 3 per play.
-- **Caecilius**: split `Plocium` into the 3 passages Gellius quotes (NA II.23); fill `Other` with
-  1-2 fragments from his other plays.
+- **Caecilius**: DONE. `Plocium` now has the 3 passages Gellius quotes (NA II.23.10/13/21); `Other`
+  is now "Other plays" with 2 fragments (old age, *De Senectute* 25; *Synephebi*, *Tusc.* I.31).
 - **Fragmentary authors**: Livius +1-2 (Odusia), Naevius +3-4 (Bellum Poenicum), Ennius +3-4
   (Annales), Cato +4-5 (other De Agri Cultura chapters), Pacuvius / Accius / Pomponius / Novius
   +1-2 each.
@@ -141,21 +141,25 @@ analysisIt, proper accents), short tailored analysis, title, citation; spread ac
 commit + push; update `CHANGELOG.md`, `practice_fragments_reference.md`, and this file (table +
 cache `v=`).
 
-### >>> RESUME HERE: Caecilius split + fragmentary authors <<<
+### >>> RESUME HERE: fragmentary authors <<<
 
-Terence is **DONE** (all 6 comedies, 3 fragments each). The remaining content work, in priority order:
+Terence (all 6 comedies x3) and Caecilius (Plocium 3 + Other plays 2) are both **DONE**. The
+remaining content work is the single-work, non-needsSelection **fragmentary authors** - currently
+1 fragment each, to be expanded:
 
-1. **Caecilius** (`needsSelection`): currently `Plocium (1)` + an empty `Other`. Split the migrated
-   *Plocium* monologue into the **3 separate passages Gellius quotes side by side** (Noctes Atticae
-   II.23, comparing Caecilius's *Plocium* with Menander's original); then fill the `Other` work with
-   1-2 fragments from his other plays (titles survive via Ribbeck; pull Latin from PHI / Ribbeck like
-   Pomponius/Novius were). Empty works are hidden in the chooser, so `Other` must get >=1 fragment or
-   be removed.
-2. **Fragmentary authors** (single-work, non-needsSelection): Livius +1-2 (Odusia), Naevius +3-4
-   (Bellum Poenicum), Ennius +3-4 (Annales), Cato +4-5 (other De Agri Cultura chapters),
-   Pacuvius / Accius / Pomponius / Novius +1-2 each. Latin from TLL for Cato; PHI / Ribbeck for the
-   verse fragmentists (see the Pomponius/Novius entries for the source-note format used when neither
-   TLL nor Splash has a page).
+- **Livius Andronicus** - Odusia: +1-2 (more Homeric renderings; Latin via PHI / Warmington).
+- **Gnaeus Naevius** - Bellum Poenicum: +3-4 (Saturnian fragments; PHI / Warmington). [Epitaph is separate.]
+- **Quintus Ennius** - Annales: +3-4 (the famous lines: "moribus antiquis res stat Romana", the
+  dream of Homer, "unus homo nobis cunctando restituit rem"; PHI / Warmington / Skutsch numbering).
+- **Cato the Elder** - De Agri Cultura: +4-5 other chapters (full continuous text on TLL `cato/cato.agri.html`).
+- **Pacuvius / Accius / Pomponius / Novius**: +1-2 each (tragic/Atellan fragments; PHI / Ribbeck -
+  see the existing Pomponius/Novius entries for the source-note format when neither TLL nor Splash
+  has a page).
+
+Method reminder: for verse fragmentists with no TLL page, use PHI Latin Texts / Ribbeck and add the
+*Source note:* prefix in the `latin` field (as the Pomponius *Fullones* / Novius *Maccus Exul*
+fragments do). Pick famous-but-translatable lines, vary difficulty, keep each entry short (these are
+lesser-known authors).
 
 Per-fragment checklist is unchanged (see "What remains" above): verified Latin + source, original
 IT+EN, IT metadata (titleIt/descriptionIt/analysisIt, proper accents), short tailored analysis,

@@ -6,6 +6,24 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.9.6] - 2026-06-19
+
+### Added
+- **Caecilius Statius** expanded from 1 fragment to 5, across both chooser entries:
+  - **Plocium** now has all **3** passages Gellius quotes side by side with Menander's original in
+    *Noctes Atticae* II.23: the husband's monologue on his rich wife (§10, already present, citation
+    tightened); the "fasting-breath kiss" dialogue, where the wife kisses him to smell whether he has
+    been drinking (§13); and the slave's lines on how a poor man's troubles cannot be hidden (§21).
+  - **"Other plays"** (was an empty "Other") now has **2** fragments from his other comedies, both
+    preserved by Cicero: Caecilius's grimmest lines on old age (*De Senectute* 25, which Cicero quotes
+    in order to refute), and the famous *Synephebi* line "serit arbores, quae alteri saeclo prosint"
+    ("he plants trees for another age", *Tusculanae* I.31). The work is relabelled "Other plays" /
+    "Altre commedie" so it appears in the chooser (empty works are hidden).
+  - Each new fragment is fully bilingual (original IT + EN, short analysis, IT metadata) and records
+    its source. A through-line surfaces across the set: we have Caecilius almost only because Gellius
+    and Cicero quoted him to disagree with him.
+- Cache version bumped v29 → v30.
+
 ## [0.9.5] - 2026-06-18
 
 ### Added

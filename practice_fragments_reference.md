@@ -62,8 +62,16 @@ Works ordered chronologically in the chooser (Andria, Hecyra, Heautontimorumenos
 ### Terence - all done
 All 6 comedies complete, 3 fragments each: Andria, Hecyra, Heautontimorumenos, Eunuchus, Phormio, Adelphoe.
 
-## Caecilius (needsSelection)
-- Plocium (migrated long fragment, Gellius NA II.23) - split / add the other 2 Gellius passages. "Other": 1-2 from other plays.
+## Caecilius (needsSelection) - DONE (Plocium 3 + Other plays 2)
+Source: The Latin Library (Gellius `gellius/gellius2.shtml`; Cicero `cicero/senectute.shtml`, `cicero/tusc1.shtml`).
+- **Plocium** (`plocium`) - the 3 passages Gellius quotes side by side with Menander in *Noctes Atticae* II.23:
+  - §10: the husband's monologue on his rich, domineering wife ("is demum miser est... dum eius mortem inhio, egomet vivo mortuus") - migrated; v.5 is a transmitted crux. Medium-hard.
+  - §13: the "fasting-breath kiss" dialogue (A./B.) - wife kisses him to smell if he drank out ("ut devomas, vult, quod foris potaveris"). Gellius: Caecilius "ridiculus magis quam aptus". Easy/colloquial.
+  - §21: the slave on the poor man whose troubles can't be hidden ("is demum infortunatus est homo... opulento famam facile occultat factio"). Gellius: "trunca... ex Menandro... verba tragici tumoris". Medium, sententious.
+- **Other plays** (`other`, labelIt "Altre commedie") - 1-2 from his other comedies, both via Cicero:
+  - *Incertae fabulae* on old age (Cicero, *De Senectute* 25): "Edepol senectus... multa quae non volt videt" + "Tum equidem in senecta hoc deputo miserrimum, sentire ea aetate eumpse esse odiosum alteri." Cicero quotes both to refute them.
+  - *Synephebi* (Cicero, *Tusc.* I.31): "serit arbores, quae alteri saeclo prosint" - the famous one-liner on planting for a future generation.
+- Through-line for the whole entry: Caecilius survives mostly because Gellius and Cicero quoted him to disagree with him.
 
 ## Fragmentary authors - to add per the plan
 - Livius +2 (Odusia), Naevius +3-4 (Bellum Poenicum), Ennius +3-4 (Annales), Cato +4-5 (De Agri Cultura),
