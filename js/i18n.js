@@ -134,7 +134,7 @@
       // --- select page ---
       'select.lead': 'Pick a text to practise. Each one has several fragments you can cycle through.',
       'select.noTexts': 'No texts are available here yet.',
-      'select.heading': function (p) { return 'Choose a text by ' + p.author; },
+      'select.heading': function (p) { return 'Choose a comedy by ' + p.author; },
       'select.fragmentsCount': function (p) { return p.n + (p.n === 1 ? ' fragment' : ' fragments'); }
     },
 
@@ -250,7 +250,7 @@
       // --- select page ---
       'select.lead': 'Scegli un testo su cui esercitarti. Ognuno di essi ha diversi frammenti che puoi provare a tradurre.',
       'select.noTexts': 'Qui non è ancora disponibile alcun testo.',
-      'select.heading': function (p) { return 'Scegli un testo di ' + p.author; },
+      'select.heading': function (p) { return 'Scegli una commedia di ' + p.author; },
       'select.fragmentsCount': function (p) { return p.n + (p.n === 1 ? ' frammento' : ' frammenti'); }
     }
   };

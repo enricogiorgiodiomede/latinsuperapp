@@ -6,6 +6,14 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.8.3] - 2026-06-18
+
+### Changed
+- The comedy-chooser heading now references "comedy" for all three comedy authors (Plautus,
+  Caecilius, Terence): English **"Choose a comedy by [Author]"** (Caecilius previously read
+  "...a text by...") and Italian **"Scegli una commedia di [Autore]"** (previously "Scegli un
+  testo di..."). Cache v21 → v22.
+
 ## [0.8.2] - 2026-06-18
 
 ### Changed

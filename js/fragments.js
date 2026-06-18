@@ -379,7 +379,7 @@
     },
     "caecilius-statius": {
       "needsSelection": true,
-      "selectHeading": "Choose a text by Caecilius",
+      "selectHeading": "Choose a comedy by Caecilius",
       "works": [
         {
           "fragments": [
