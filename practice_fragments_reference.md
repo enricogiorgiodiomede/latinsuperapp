@@ -54,7 +54,7 @@ edition before recording.
 Works ordered chronologically in the chooser (Andria, Hecyra, Heautontimorumenos, Eunuchus, Phormio, Adelphoe).
 - **Andria** (`andria`) DONE: I.i vv.115-126 ("hinc illae lacrumae", funeral narration); I.ii vv.185-195 ("Davo' sum, non Oedipus"); III.iii vv.550-555 ("amantium irae amoris integratiost"). Speakers SI./SO./DA./CH.
 - **Hecyra** (`hecyra`) DONE: Prologue vv.33-45 (Ambivius Turpio - the twice-failed premieres); IV.ii vv.585-595 (Sostrata offers to retire to the country); V.i vv.750-760 (Bacchis's noble oath). Speakers SO./PA./BA./LA.
-- **Heautontimorumenos** (`heauton-timorumenos`): I.i vv.75-87 ("homo sum", migrated). +2 pending: IV.ii ("nil tam difficilest...") and V.i (Menedemus turns "homo sum" back on Chremes).
+- **Heautontimorumenos** (`heauton-timorumenos`) DONE (3): I.i vv.75-87 ("homo sum", migrated); IV.ii vv.668-678 (Syrus, "nil tam difficilest..."); V.i vv.915-923 (Menedemus turns "homo sum" back on Chremes - "foris sapere, tibi non posse te auxiliarier"). Speakers ME./CH./SY.
 - **Eunuchus, Phormio, Adelphoe**: pending (3 each), passages chosen in the plan.
 
 ## Caecilius (needsSelection)

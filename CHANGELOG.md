@@ -6,6 +6,17 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.9.2] - 2026-06-18
+
+### Added
+- **Heautontimorumenos** gains 2 more practice fragments (now 3), joining the migrated "homo sum"
+  exchange (Latin verified against The Latin Library), each fully bilingual:
+  - Act IV, Sc. 2 (vv. 668-678) - the clever slave Syrus thinking up a new scheme out loud:
+    "nil tam difficilest quin quaerendo investigari possiet".
+  - Act V, Sc. 1 (vv. 915-923) - the great reversal: Menedemus hands Chremes's own wisdom back
+    ("foris sapere, tibi non posse te auxiliarier"), paying off the "homo sum" scene.
+- Cache version bumped v25 → v26.
+
 ## [0.9.1] - 2026-06-18
 
 ### Added
