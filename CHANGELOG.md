@@ -6,6 +6,18 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.9.1] - 2026-06-18
+
+### Added
+- **Hecyra** added to the Terence chooser with 3 practice fragments (Latin verified against The
+  Latin Library), each with original Italian + English, a short analysis, and full Italian metadata:
+  - Prologue (vv. 33-45) - Ambivius Turpio on the play's twice-failed premieres (boxers, a
+    tightrope-walker, then a rumour of gladiators emptied the seats).
+  - Act IV, Sc. 2 (vv. 585-595) - Sostrata, the blameless mother-in-law, offers to retire to the
+    country so her daughter-in-law can return.
+  - Act V, Sc. 1 (vv. 750-760) - Bacchis the courtesan's noble oath that untangles the plot.
+- Cache version bumped v24 → v25.
+
 ## [0.9.0] - 2026-06-18
 
 ### Added

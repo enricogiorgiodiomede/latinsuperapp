@@ -53,8 +53,9 @@ edition before recording.
 ## Terence (needsSelection) - building out all 6 plays, 3 each; verbatim from TLL (curl, ter.*.html)
 Works ordered chronologically in the chooser (Andria, Hecyra, Heautontimorumenos, Eunuchus, Phormio, Adelphoe).
 - **Andria** (`andria`) DONE: I.i vv.115-126 ("hinc illae lacrumae", funeral narration); I.ii vv.185-195 ("Davo' sum, non Oedipus"); III.iii vv.550-555 ("amantium irae amoris integratiost"). Speakers SI./SO./DA./CH.
+- **Hecyra** (`hecyra`) DONE: Prologue vv.33-45 (Ambivius Turpio - the twice-failed premieres); IV.ii vv.585-595 (Sostrata offers to retire to the country); V.i vv.750-760 (Bacchis's noble oath). Speakers SO./PA./BA./LA.
 - **Heautontimorumenos** (`heauton-timorumenos`): I.i vv.75-87 ("homo sum", migrated). +2 pending: IV.ii ("nil tam difficilest...") and V.i (Menedemus turns "homo sum" back on Chremes).
-- **Hecyra, Eunuchus, Phormio, Adelphoe**: pending (3 each), passages chosen in the plan.
+- **Eunuchus, Phormio, Adelphoe**: pending (3 each), passages chosen in the plan.
 
 ## Caecilius (needsSelection)
 - Plocium (migrated long fragment, Gellius NA II.23) - split / add the other 2 Gellius passages. "Other": 1-2 from other plays.
