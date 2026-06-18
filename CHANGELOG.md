@@ -6,6 +6,14 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.8.2] - 2026-06-18
+
+### Changed
+- Proofread fix (Miles Gloriosus I.i, v. 8): restored the line as transmitted,
+  "quae misera gestit ~ et fartem facere ex hostibus", and reframed the analysis note (EN + IT)
+  to explain that the tilde marks a pause kept for the rhythm of the metre, not a textual error.
+  Cache v20 → v21.
+
 ## [0.8.1] - 2026-06-18
 
 ### Added
