@@ -73,6 +73,14 @@ Source: The Latin Library (Gellius `gellius/gellius2.shtml`; Cicero `cicero/sene
   - *Synephebi* (Cicero, *Tusc.* I.31): "serit arbores, quae alteri saeclo prosint" - the famous one-liner on planting for a future generation.
 - Through-line for the whole entry: Caecilius survives mostly because Gellius and Cicero quoted him to disagree with him.
 
-## Fragmentary authors - to add per the plan
-- Livius +2 (Odusia), Naevius +3-4 (Bellum Poenicum), Ennius +3-4 (Annales), Cato +4-5 (De Agri Cultura),
-  Pacuvius/Accius/Pomponius/Novius +1-2 each.
+## Cato the Elder - DONE (De Agri Cultura, 5 fragments)
+Source: The Latin Library, `cato/cato.agri.html` (full continuous text; chapters bracketed [N]).
+- **Praefatio** (migrated): farming vs trade/usury ("bonum agricolam bonumque colonum"). Medium.
+- **cap. 1**: how to choose a farm - inspect repeatedly, judge by the neighbors, the land-checklist, buy where sellers regret selling ("eos pigeat vendidisse"). Medium; asyndeton, archaic siet/habeto/advertito.
+- **cap. 5**: vilicus duties ("Haec erunt vilici officia... dominus inpune ne sinat esse") - discipline + humane treatment + downward accountability. Medium; jussive subjunctives.
+- **cap. 141**: the suovetaurilia / lustratio agri - the Mars prayer. Hardest; archaic carmen (sies, prohibessis, servassis, siris, duis, duonam, averruncesque). Excerpt uses one [...] to drop the Janus/Jupiter praefatio instruction; keeps TLL spelling "suovitaurilia". FLAG for proofread.
+- **cap. 156**: De brassica - cabbage surpasses all vegetables + the pre-party hangover hack. Medium/easy; rapid imperatives (esto, intinguito, comesto). "lotium... salubre" = the cabbage-eater's urine (Cato's urine-therapy, noted in analysis).
+
+## Fragmentary authors - remaining per the plan
+- Livius +1-2 (Odusia), Naevius +3-4 (Bellum Poenicum), Ennius +3-4 (Annales),
+  Pacuvius/Accius/Pomponius/Novius +1-2 each. (Cato DONE above.)

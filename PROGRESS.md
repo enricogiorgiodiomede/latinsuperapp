@@ -62,7 +62,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=30`.**
+   whenever you change a JS/CSS file. **Currently `v=31`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -115,7 +115,7 @@ The full Italian translation pass is **DONE**.
 | Gnaeus Naevius | Bellum Poenicum (1) + Epitaph (1) |
 | Quintus Ennius | Annales (1) |
 | **Plautus** *(needsSelection)* | Pseudolus (3) · Mostellaria (3) · Amphitruo (4) · Aulularia (3) · Miles Gloriosus (3) |
-| Cato the Elder | De Agri Cultura (1) |
+| Cato the Elder | De Agri Cultura (5) |
 | **Caecilius Statius** *(needsSelection)* | Plocium (3) · Other plays (2) |
 | **Terence** *(needsSelection)* | Andria (3) · Hecyra (3) · Heautontimorumenos (3) · Eunuchus (3) · Phormio (3) · Adelphoe (3) |
 | Pacuvius & Accius | Niptra (1) + Atreus (1) |
@@ -131,8 +131,7 @@ The full Italian translation pass is **DONE**.
 - **Caecilius**: DONE. `Plocium` now has the 3 passages Gellius quotes (NA II.23.10/13/21); `Other`
   is now "Other plays" with 2 fragments (old age, *De Senectute* 25; *Synephebi*, *Tusc.* I.31).
 - **Fragmentary authors**: Livius +1-2 (Odusia), Naevius +3-4 (Bellum Poenicum), Ennius +3-4
-  (Annales), Cato +4-5 (other De Agri Cultura chapters), Pacuvius / Accius / Pomponius / Novius
-  +1-2 each.
+  (Annales), Pacuvius / Accius / Pomponius / Novius +1-2 each. (**Cato DONE**: De Agri Cultura now 5.)
 - Optional: mirror the new practice Italians into `italian_translations_archaic.md`.
 
 Per new fragment: verified Latin + source, original IT+EN + IT metadata (titleIt/descriptionIt/
@@ -151,7 +150,7 @@ remaining content work is the single-work, non-needsSelection **fragmentary auth
 - **Gnaeus Naevius** - Bellum Poenicum: +3-4 (Saturnian fragments; PHI / Warmington). [Epitaph is separate.]
 - **Quintus Ennius** - Annales: +3-4 (the famous lines: "moribus antiquis res stat Romana", the
   dream of Homer, "unus homo nobis cunctando restituit rem"; PHI / Warmington / Skutsch numbering).
-- **Cato the Elder** - De Agri Cultura: +4-5 other chapters (full continuous text on TLL `cato/cato.agri.html`).
+- **Cato the Elder** - DONE: De Agri Cultura now has 5 (Praefatio + cap. 1, 5, 141 suovetaurilia, 156 cabbage).
 - **Pacuvius / Accius / Pomponius / Novius**: +1-2 each (tragic/Atellan fragments; PHI / Ribbeck -
   see the existing Pomponius/Novius entries for the source-note format when neither TLL nor Splash
   has a page).

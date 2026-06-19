@@ -6,6 +6,23 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.9.7] - 2026-06-19
+
+### Added
+- **Cato the Elder** expanded from 1 *De Agri Cultura* fragment to **5**, chosen to show the range
+  of his philosophy and his terse, imperative style (Latin from The Latin Library):
+  - **cap. 1** - how to choose a farm: don't buy in haste, inspect repeatedly, judge by the
+    neighbors, and buy land whose former owners regret selling ("eos pigeat vendidisse").
+  - **cap. 5** - the duties of the overseer (vilicus): discipline, keep the holidays, a household
+    neither cold nor hungry but kept hard at work; accountability flows down to the master.
+  - **cap. 141** - the **suovetaurilia**: the field-lustration prayer to Mars (pig, sheep, bull led
+    around the land), one of the oldest Roman prayers, in full carmen style with archaic forms
+    (sies, prohibessis, averruncesque, duonam).
+  - **cap. 156** - in praise of cabbage: Cato's wonder-drug, complete with the ancient
+    eat-cabbage-before-the-party hangover hack.
+  - Each new fragment is fully bilingual (original IT + EN, short analysis, IT metadata) with source.
+- Cache version bumped v30 → v31.
+
 ## [0.9.6] - 2026-06-19
 
 ### Added
