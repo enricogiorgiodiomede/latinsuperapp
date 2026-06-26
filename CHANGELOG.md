@@ -6,6 +6,25 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.9.9] - 2026-06-19
+
+### Added
+- **The remaining lesser-known fragmentists** expanded (Latin from The Latin Library unless noted):
+  - **Pacuvius** now has 3: Niptra (existing) + two from the *Chryses* (both in Cicero, *De Div.*
+    I.131) - the rationalist mockery of bird-diviners ("magis audiendum quam auscultandum") and the
+    grand cosmic-principle fragment ("Quidquid est hoc, omnia animat... omniumque idemst pater").
+  - **Accius** now has 3: Atreus (existing, "oderint dum metuant") + two from the *Brutus*
+    (Cicero, *De Div.* I.44-45) - Tarquinius Superbus's dream (the sun reversing course) and the
+    soothsayer's reply foretelling the king's fall and "rem Romanam publicam summam fore".
+  - **Novius** now has 3: Maccus Exul (existing) + two Atellan jokes Cicero quotes in *De Oratore*
+    II - the gallows-humour "Mirum ni cantem: condemnatus sum" (II.279) and the Stoic-puncturing
+    "sapiens si algebis, tremes" (II.285).
+  - **Pomponius** now has 2: Fullones (existing) + the *Galli Transalpini* soldier's vow to Mars
+    ("Mars, tibi voveo facturum, si unquam rediero, bidente verre"), preserved by Macrobius
+    (*Saturnalia* VI.9), text from the LacusCurtius edition.
+- Each new fragment is fully bilingual (original IT + EN, analysis, IT metadata) with source.
+- Cache version bumped v32 → v33. **This completes the Archaic Era practice bank.**
+
 ## [0.9.8] - 2026-06-19
 
 ### Added

@@ -877,6 +877,38 @@
         "label": "Pacuvius - Niptra"
       },
       {
+        "id": "pacuvius-chryses",
+        "label": "Pacuvius - Chryses",
+        "fragments": [
+          {
+            "title": "Bird-readers: hear them out, don't obey them",
+            "citation": "(Chryses, in Cicero, De Divinatione I.131)",
+            "source": "The Latin Library (thelatinlibrary.com)",
+            "description": "This fragment puts a strikingly rationalist thought into a tragedy. In Pacuvius's Chryses a character whom Cicero calls a 'physicus' (a natural philosopher) mocks the professional diviners who claim to read the future from birdsong and the entrails of sacrificed animals. Such men, he says, deserve a polite hearing but not obedience.",
+            "latin": "> nam isti qui linguam avium intellegunt\n> plusque ex alieno iecore sapiunt quam ex suo\n> magis audiendum quam auscultandum censeo.",
+            "italian": "> Quanto a costoro che capiscono il linguaggio degli uccelli\n> e sanno più dal fegato altrui che dal proprio,\n> io ritengo che si debbano udire, più che ascoltare.",
+            "english": "> As for those men who understand the language of birds\n> and are wiser from another creature's liver than from their own,\n> I think they ought to be heard rather than heeded.",
+            "analysis": "Pacuvius's Chryses smuggles an almost Enlightenment thought onto the tragic stage. The barb turns on an untranslatable pun: audiendum quam auscultandum - you may audire these diviners (give them a hearing) but should not auscultare them (listen-and-obey). English \"heard but not heeded\" comes close. The jab at men who \"are wiser from another's liver than from their own\" (ex alieno iecore sapiunt quam ex suo) targets the haruspices who read sacrificial entrails. Cicero quotes it in De Divinatione, his own dialogue on whether divination is real, and treats this Pacuvian \"physicus\" as a sceptic after his own heart. Iambic senarii, clean and argumentative.",
+            "titleIt": "I lettori di uccelli: sentirli sì, dargli retta no",
+            "descriptionIt": "Questo frammento mette in bocca a una tragedia un pensiero sorprendentemente razionalista. Nel Chryses di Pacuvio un personaggio che Cicerone chiama 'physicus' (un filosofo della natura) si fa beffe degli indovini di professione che pretendono di leggere il futuro nel canto degli uccelli e nelle viscere degli animali sacrificati. Costoro, dice, meritano un cortese ascolto, ma non obbedienza.",
+            "analysisIt": "Il Chryses di Pacuvio introduce sulla scena tragica un pensiero quasi illuminista. La stoccata gioca su un bisticcio intraducibile: audiendum quam auscultandum - questi indovini si possono audire (dare loro udienza) ma non si devono auscultare (ascoltare-e-obbedire). L'italiano \"udirli, non dargli retta\" ci si avvicina. La frecciata contro chi \"è più saggio dal fegato altrui che dal proprio\" (ex alieno iecore sapiunt quam ex suo) colpisce gli aruspici che leggono le viscere sacrificali. Cicerone lo cita nel De Divinatione, il suo dialogo sull'esistenza della divinazione, e tratta questo \"physicus\" pacuviano come uno scettico a lui congeniale. Senari giambici, limpidi e argomentativi."
+          },
+          {
+            "title": "Whatever this is, it is the father of all things",
+            "citation": "(Chryses, in Cicero, De Divinatione I.131)",
+            "source": "The Latin Library (thelatinlibrary.com)",
+            "description": "A few lines later in the same play, the same character sets out a grand vision of the universe as a single divine power: whatever it is, it makes and unmakes everything and is the father of all, and from it the same things are forever born again and die. It is Stoic-flavoured natural philosophy dramatized for the Roman stage.",
+            "latin": "> Quidquid est hoc, omnia animat, format, alit, auget creat,\n> sepelit recipitque in sese omnia omniumque idemst pater,\n> indidemque eadem aeque oriuntur de integro atque eodem occidunt.",
+            "italian": "> Qualunque cosa sia questo, tutto anima, plasma, nutre, accresce, crea,\n> seppellisce e riprende in sé ogni cosa, ed è il padre di tutte;\n> e dal medesimo principio le stesse cose rinascono da capo, e nel medesimo tramontano.",
+            "english": "> Whatever this is, it animates, shapes, nourishes, increases, and creates all things;\n> it buries and takes back into itself all things, and is the father of all;\n> and from that same source the same things arise anew, and into the same they sink.",
+            "analysis": "From the same Chryses, a few verses on, the diviner-mocking sceptic delivers the positive counterpart to his scorn: a sweeping picture of the cosmos as one divine principle. Whatever \"this\" is (Quidquid est hoc - he refuses even to name it), it does everything, in a rushing asyndeton of creation-verbs (animat, format, alit, auget creat) answered by destruction (sepelit recipitque), the whole cycle returning to its origin (indidem... eodem). It is essentially Stoic pantheism - the universe as god, omnium pater - put on the tragic stage. Antiquity called Pacuvius the doctus poeta, the \"learned poet\"; this is why, since he folded Greek natural philosophy into Latin tragedy. Dense and abstract, in the long trochaic/iambic line.",
+            "titleIt": "Qualunque cosa sia, è il padre di tutte le cose",
+            "descriptionIt": "Pochi versi più avanti, nello stesso dramma, il medesimo personaggio espone una grandiosa visione dell'universo come un'unica potenza divina: qualunque cosa sia, fa e disfa ogni cosa ed è il padre di tutto, e da essa le stesse cose rinascono per sempre e muoiono. È filosofia naturale di sapore stoico, drammatizzata per la scena romana.",
+            "analysisIt": "Dallo stesso Chryses, pochi versi dopo, lo scettico che derideva gli indovini offre il risvolto positivo del suo disprezzo: un'ampia raffigurazione del cosmo come un solo principio divino. Qualunque cosa sia \"questo\" (Quidquid est hoc - si rifiuta perfino di nominarlo), fa tutto, in un incalzante asindeto di verbi di creazione (animat, format, alit, auget creat) a cui risponde la distruzione (sepelit recipitque), e l'intero ciclo torna alla sua origine (indidem... eodem). È in sostanza panteismo stoico - l'universo come dio, omnium pater - portato sulla scena tragica. L'antichità chiamava Pacuvio il doctus poeta, il \"poeta dotto\"; ecco perché: perché fece confluire la filosofia naturale greca nella tragedia latina. Denso e astratto, nel lungo verso trocaico/giambico."
+          }
+        ]
+      },
+      {
         "fragments": [
           {
             "title": "Accius: ‘Let them hate, so long as they fear’",
@@ -894,6 +926,38 @@
         ],
         "id": "accius-atreus",
         "label": "Accius - Atreus"
+      },
+      {
+        "id": "accius-brutus",
+        "label": "Accius - Brutus",
+        "fragments": [
+          {
+            "title": "Tarquin's dream",
+            "citation": "(Brutus, in Cicero, De Divinatione I.44)",
+            "source": "The Latin Library (thelatinlibrary.com)",
+            "description": "Accius also wrote praetextae, tragedies on Roman historical subjects. In his Brutus - on the overthrow of the last king and the birth of the Republic - the tyrant Tarquinius Superbus recounts a nightmare: a shepherd drove him a splendid flock, he sacrificed the finer of two rams, the other ram charged and knocked him flat, and as he lay wounded he saw the sun reverse its course across the sky.",
+            "latin": "> Quoniam quieti corpus nocturno impetu\n> dedi, sopore placans artus languidos,\n> visust in somnis pastor ad me appellere\n> pecus lanigerum eximia pulchritudine;\n> duos consanguineos arietes inde eligi\n> praeclarioremque alterum immolare me;\n> deinde eius germanum cornibus conitier,\n> in me arietare, eoque ictu me ad casum dari;\n> exim prostratum terra, graviter saucium,\n> resupinum in caelo contueri maxumum ac\n> mirificum facinus: dextrorsum orbem flammeum\n> radiatum solis liquier cursu novo.",
+            "italian": "> Poiché ho consegnato il corpo al riposo, nell'assalto della notte,\n> placando col sonno le membra stanche,\n> mi è parso in sogno che un pastore spingesse verso di me\n> un gregge lanuto di straordinaria bellezza;\n> e che di lì venissero scelti due arieti consanguinei,\n> e che io immolassi il più splendido dei due;\n> poi che il fratello di quello mi cozzasse contro con le corna,\n> mi caricasse, e che da quel colpo io fossi gettato a terra;\n> quindi, disteso al suolo, gravemente ferito, supino,\n> contemplassi in cielo un fatto immenso e prodigioso:\n> il globo fiammeggiante e raggiante del sole\n> spostarsi verso destra con un corso nuovo.",
+            "english": "> Since I gave my body to rest at the onset of night,\n> soothing my weary limbs with sleep,\n> there seemed in my dreams a shepherd to drive toward me\n> a wool-bearing flock of outstanding beauty;\n> and from it two consanguine rams were chosen,\n> and I sacrificed the finer of the two;\n> then that one's brother butted at me with his horns,\n> charged into me, and by that blow I was thrown down;\n> then, stretched on the ground, gravely wounded, on my back,\n> I beheld in the sky a great and marvellous thing:\n> the flaming, radiant orb of the sun\n> gliding to the right on a new course.",
+            "analysis": "The dream of Rome's last king, staged by Accius in a rare praetexta (a tragedy on Roman history) and preserved by Cicero. Tarquinius Superbus dreams of a shepherd's flock, two rams, a botched sacrifice, and - the climax - the sun veering onto a new course (dextrorsum orbem flammeum radiatum solis liquier cursu novo). The verse is grand and deliberately archaic: visust (= visus est), the old passive infinitives conitier and liquier (for coniti, liqui), arietare scanned with consonantal i. The two rams are the king's two nephews; the duller ram who fells him is Lucius Junius Brutus, who feigned stupidity (hence the name Brutus, \"dimwit\") before leading the revolution. It is a tyrant's nightmare of his own fall - and the audience knew exactly how the story ended. Iambic senarii.",
+            "titleIt": "Il sogno di Tarquinio",
+            "descriptionIt": "Accio scrisse anche praetextae, tragedie di argomento storico romano. Nel suo Brutus - sulla cacciata dell'ultimo re e sulla nascita della Repubblica - il tiranno Tarquinio il Superbo racconta un incubo: un pastore gli spinge davanti uno splendido gregge, lui immola il più bello di due arieti, l'altro ariete lo carica e lo stende a terra, e mentre giace ferito vede il sole invertire il proprio corso nel cielo.",
+            "analysisIt": "Il sogno dell'ultimo re di Roma, messo in scena da Accio in una rara praetexta (tragedia di storia romana) e conservato da Cicerone. Tarquinio il Superbo sogna il gregge di un pastore, due arieti, un sacrificio andato storto e - culmine - il sole che devia su un corso nuovo (dextrorsum orbem flammeum radiatum solis liquier cursu novo). Il verso è solenne e volutamente arcaico: visust (= visus est), gli antichi infiniti passivi conitier e liquier (per coniti, liqui), arietare scandito con la i consonantica. I due arieti sono i due nipoti del re; l'ariete più ottuso che lo abbatte è Lucio Giunio Bruto, che finse la stupidità (di qui il nome Brutus, \"ottuso\") prima di guidare la rivoluzione. È l'incubo di un tiranno sulla propria caduta - e il pubblico sapeva benissimo come finiva la storia. Senari giambici."
+          },
+          {
+            "title": "The soothsayer reads the dream",
+            "citation": "(Brutus, in Cicero, De Divinatione I.45)",
+            "source": "The Latin Library (thelatinlibrary.com)",
+            "description": "The reply to the king's dream. A diviner first reassures Tarquin that dreams usually just recycle waking cares, then turns the knife: beware the man you take for a brute, for he hides great wisdom and will drive you from your throne; and the sun's strange new course foretells an imminent change for the people - which, read most favourably, means the Roman state will rise to supremacy.",
+            "latin": "> Rex, quae in vita usurpant homines, cogitant curant vident,\n> quaeque agunt vigilantes agitantque, ea si cui in somno accidunt,\n> minus mirandum est; sed in re tanta haud temere visa se offerunt.\n> Proin vide ne, quem tu esse hebetem deputes aeque ac pecus,\n> is sapientia munitum pectus egregium gerat\n> teque regno expellat; nam id, quod de sole ostentum est tibi,\n> populo commutationem rerum portendit fore\n> perpropinquam. Haec bene verruncent populo! Nam quod ad dexteram\n> cepit cursum ab laeva signum praepotens, pulcherrume\n> auguratum est rem Romanam publicam summam fore.",
+            "italian": "> Re, le cose che gli uomini trattano nella vita, che pensano, di cui si curano, che vedono,\n> e ciò che fanno e rimuginano da svegli, se a qualcuno càpitano nel sonno,\n> non c'è molto da stupirsi; ma in una cosa tanto grande non si presentano a caso.\n> Perciò bada che colui che tu giudichi ottuso al pari di una bestia\n> non porti in petto una mente egregia, fortificata di saggezza,\n> e non ti cacci dal regno; perché ciò che ti è stato mostrato sul sole\n> predice che per il popolo ci sarà un mutamento delle cose,\n> imminente. Che ciò riesca bene per il popolo! Perché il fatto che verso destra\n> abbia preso il corso, da sinistra, quel segno potentissimo,\n> è stato presagito, in modo bellissimo, che lo Stato romano sarà sommo.",
+            "english": "> King, the things men deal with in life - that they think, worry over, see,\n> and what they do and turn over while awake - if these befall someone in sleep,\n> it is little to wonder at; but in a matter so great they do not appear by chance.\n> So beware lest the man you reckon as dull as a beast\n> carry in his breast an outstanding mind, fortified with wisdom,\n> and drive you from your kingdom; for what was shown to you about the sun\n> foretells that a change of affairs is coming for the people,\n> and very soon. May it turn out well for the people! For since to the right\n> that all-powerful sign took its course from the left, it has been\n> most beautifully augured that the Roman state shall be supreme.",
+            "analysis": "The interpreter's reply, and a piece of patriotic stagecraft. He first calms the king with common sense (dreams usually only replay waking cares) - then drops the blade: beware the man you take for a brute (hebetem... aeque ac pecus), for he is wise and will expel you from your kingdom. That man is Brutus. The sun's reversal portends commutationem rerum - regime change - and the prophecy swells into the play's real message: rem Romanam publicam summam fore, \"the Roman commonwealth shall be supreme.\" Accius, writing under that Republic, puts its founding myth on stage and has a seer bless it. Note the archaic optative verruncent (\"may they turn out\") and the augural language of left and right (the favourable sign moving rightward). Iambic and trochaic, rising to a national prophecy.",
+            "titleIt": "L'indovino interpreta il sogno",
+            "descriptionIt": "La risposta al sogno del re. Un indovino prima rassicura Tarquinio che i sogni di solito non fanno che riproporre i pensieri della veglia, poi affonda il colpo: bada all'uomo che credi un bruto, perché nasconde una grande saggezza e ti caccerà dal trono; e lo strano corso nuovo del sole predice un mutamento imminente per il popolo - che, letto nel modo più favorevole, significa che lo Stato romano salirà al sommo.",
+            "analysisIt": "La risposta dell'interprete, e un pezzo di teatro patriottico. Prima calma il re con il buon senso (i sogni di solito non fanno che riproporre i pensieri della veglia) - poi cala la lama: bada all'uomo che prendi per un bruto (hebetem... aeque ac pecus), perché è saggio e ti caccerà dal regno. Quell'uomo è Bruto. L'inversione del sole presagisce commutationem rerum - il cambio di regime - e la profezia si gonfia fino al vero messaggio del dramma: rem Romanam publicam summam fore, \"lo Stato romano sarà sommo.\" Accio, che scrive sotto quella Repubblica, ne porta in scena il mito di fondazione e fa sì che un veggente la benedica. Si noti l'arcaico ottativo verruncent (\"riescano bene\") e il linguaggio augurale della sinistra e della destra (il segno favorevole che si muove verso destra). Giambo e trocheo, che si innalzano a profezia nazionale."
+          }
+        ]
       }
     ]
   },
@@ -944,6 +1008,25 @@
         "label": "Pomponius - Fullones"
       },
       {
+        "id": "pomponius-galli-transalpini",
+        "label": "Pomponius - Galli Transalpini",
+        "fragments": [
+          {
+            "title": "A soldier's bargain with Mars",
+            "citation": "(Galli Transalpini, in Macrobius, Saturnalia VI.9)",
+            "source": "Macrobius, Saturnalia VI.9 (LacusCurtius, penelope.uchicago.edu)",
+            "description": "This fragment of Pomponius's Atellan farce The Transalpine Gauls is a frightened soldier's vow on campaign: he promises Mars a sacrifice if he ever makes it home. The grammarian Macrobius preserved it for the odd phrase 'a two-toothed boar'.",
+            "latin": "*Source note: Neither The Latin Library nor Splash Latino has a Pomponius page. The Latin is preserved by Macrobius (Saturnalia VI.9.4), who quotes it to discuss the ritual word* bidens; *the text here follows the LacusCurtius edition of Macrobius.*\n\n> Mars, tibi voveo facturum, si unquam rediero,\n> bidente verre.",
+            "italian": "> Marte, ti faccio voto, se mai tornerò,\n> di sacrificarti un verro di due denti.",
+            "english": "> Mars, I vow to you to make sacrifice, if ever I return,\n> with a two-toothed boar.",
+            "analysis": "A coward's prayer, and a grammarian's treasure. In Pomponius's Atellan farce Galli Transalpini (\"The Transalpine Gauls\"), some soldier on campaign promises Mars a sacrifice \"if ever I return\" (si unquam rediero) - that unquam (\"ever\") quietly betraying how little he rates his chances. The phrase Macrobius cared about is bidente verre, \"a two-toothed boar\": bidens (\"two-toothed\") was the solemn ritual term for a proper sacrificial victim, and pinning it on a verres (a hog) is part of the farce's mock-solemnity - a frightened conscript fumbling the language of religion. Macrobius (Saturnalia VI.9) quotes the line precisely to debate the word. Since no official text site carries Pomponius, the Latin here follows the LacusCurtius edition of Macrobius.",
+            "titleIt": "Il patto di un soldato con Marte",
+            "descriptionIt": "Questo frammento dell'atellana di Pomponio I Galli Transalpini è il voto di un soldato spaventato in campagna: promette a Marte un sacrificio se mai riuscirà a tornare a casa. Il grammatico Macrobio lo conservò per la curiosa espressione 'un verro di due denti'.",
+            "analysisIt": "La preghiera di un vigliacco, e un tesoro per i grammatici. Nell'atellana di Pomponio Galli Transalpini (\"I Galli Transalpini\"), un soldato in campagna promette a Marte un sacrificio \"se mai tornerò\" (si unquam rediero) - quell'unquam (\"mai\") tradisce in sordina quanto poco stimi le proprie probabilità. L'espressione che interessava a Macrobio è bidente verre, \"un verro di due denti\": bidens (\"di due denti\") era il termine rituale solenne per una vittima sacrificale a regola d'arte, e appiccicarlo a un verres (un maiale) fa parte della falsa solennità della farsa - una recluta spaventata che pasticcia il linguaggio della religione. Macrobio (Saturnalia VI.9) cita il verso proprio per discutere la parola. Poiché nessun sito ufficiale riporta Pomponio, il latino qui segue l'edizione di Macrobio di LacusCurtius."
+          }
+        ]
+      },
+      {
         "fragments": [
           {
             "title": "Novius: Maccus the fool and the head-cracking doorway",
@@ -961,6 +1044,38 @@
         ],
         "id": "novius-maccus-exul",
         "label": "Novius - Maccus Exul"
+      },
+      {
+        "id": "novius-atellanae",
+        "label": "Novius - Atellanae",
+        "fragments": [
+          {
+            "title": "No wonder I'm not singing",
+            "citation": "(Atellanae, in Cicero, De Oratore II.279)",
+            "source": "The Latin Library (thelatinlibrary.com)",
+            "description": "A one-line exchange from Novius, quoted by Cicero as a model of gallows humour: someone asks a condemned man the obvious question, and gets a bitterly sarcastic answer.",
+            "latin": "> \"Quid ploras, pater?\" \"Mirum ni cantem: condemnatus sum.\"",
+            "italian": "> \"Perché piangi, padre?\" \"Ci mancherebbe solo che mi mettessi a cantare: sono stato condannato!\"",
+            "english": "> \"Why are you weeping, father?\" \"It would be a wonder if I were singing: I have just been condemned!\"",
+            "analysis": "Gallows humour, literally. Cicero quotes this exchange from Novius (De Oratore II.279) as a model of the \"peevish\" joke (stomachosa ridicula): someone asks the obvious - \"Why are you crying, father?\" - and the condemned man snaps back Mirum ni cantem, \"it would be a marvel if I were singing instead\" - what did you expect, a song? The wit is the sarcastic understatement, condemnatus sum (\"I've been condemned\") tossed off as if it were a minor irritation. Cicero calls Novius plenus, \"full,\" of jokes like this. It is Atellan farce - the rough improvised comedy of country Italy - quoted by Rome's greatest orator as a lesson in comic timing.",
+            "titleIt": "Ci mancherebbe che mi metta a cantare",
+            "descriptionIt": "Uno scambio di una sola battuta di Novio, citato da Cicerone come modello di umorismo nero: qualcuno rivolge a un condannato la domanda più ovvia, e ne riceve una risposta amaramente sarcastica.",
+            "analysisIt": "Umorismo nero, alla lettera. Cicerone cita questo scambio di Novio (De Oratore II.279) come modello della battuta \"stizzosa\" (stomachosa ridicula): qualcuno chiede l'ovvio - \"Perché piangi, padre?\" - e il condannato ribatte secco Mirum ni cantem, \"sarebbe un prodigio se invece mi mettessi a cantare\" - che ti aspettavi, una canzone? L'arguzia sta nell'understatement sarcastico, condemnatus sum (\"sono stato condannato\") buttato lì come se fosse una seccatura da poco. Cicerone dice che Novio è plenus, \"pieno,\" di battute così. È l'atellana - la rozza commedia improvvisata dell'Italia contadina - citata dal più grande oratore di Roma come lezione di tempismo comico."
+          },
+          {
+            "title": "Even the wise man shivers",
+            "citation": "(Atellanae, in Cicero, De Oratore II.285)",
+            "source": "The Latin Library (thelatinlibrary.com)",
+            "description": "Cicero calls this Novius's stock joke - four words that puncture the grand Stoic claim that the wise man is untouched by the world: get him cold, and he shivers like anyone else.",
+            "latin": "> sapiens si algebis, tremes.",
+            "italian": "> Sapiente, se avrai freddo, tremerai.",
+            "english": "> Wise man: if you get cold, you will shiver.",
+            "analysis": "Four words that deflate a whole philosophy. Cicero calls this Novius's iocus familiaris - his stock joke - and lists it among gags that work \"against expectation\" (De Oratore II.285). It parodies the lofty Stoic paradox that the sapiens, the wise man, is immune to externals: Novius retorts that the sage, like everybody else, will tremes (\"shiver\") the instant he algebis (\"gets cold\"). The cold does not care how wise you are. This is Atellan farce doing what it did best - dragging philosophy back down to the shivering body, in the plainest possible Latin. A whole future condition (si algebis... tremes) pared to the bone.",
+            "titleIt": "Anche il saggio trema dal freddo",
+            "descriptionIt": "Cicerone la definisce la battuta abituale di Novio: quattro parole che bucano la grande pretesa stoica secondo cui il saggio è insensibile al mondo: fagli venire freddo, e tremerà come chiunque altro.",
+            "analysisIt": "Quattro parole che sgonfiano un'intera filosofia. Cicerone la chiama lo iocus familiaris di Novio - la sua battuta abituale - e la elenca fra le facezie che funzionano \"contro ogni aspettativa\" (De Oratore II.285). Parodia l'altezzoso paradosso stoico secondo cui il sapiens, il saggio, è immune dalle cose esterne: Novio ribatte che il saggio, come tutti, tremerà (tremes) nell'istante in cui avrà freddo (algebis). Al freddo non importa quanto tu sia saggio. È l'atellana al suo meglio - che riporta la filosofia giù, al corpo che trema, nel latino più semplice possibile. Un intero periodo ipotetico del futuro (si algebis... tremes) ridotto all'osso."
+          }
+        ]
       }
     ]
   }

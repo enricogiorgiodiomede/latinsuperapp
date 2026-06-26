@@ -87,6 +87,13 @@ Latin from The Latin Library. Bundled entries were split (one distinct fragment 
 - **Gnaeus Naevius** (3 total): Bellum Poenicum fr. 8 (Trojan wives) + **fr. 40 the Malta raid** (NEW; `naevius.html`: "transit Melitam Romanus exercitus, insulam integram urit populatur vastat, rem hostium concinnat", 3 lines - numbered 40 on TLL, = fr. 32 in some editions; FLAG) + Epitaph fr. 67.
 - **Quintus Ennius** (`annales`, 3): **Ilia's dream** (NEW; Annales I, 17 lines, in Cicero De Div. I.40-41, `cicero/divinatione1.shtml` - the page is UTF-16, strip nulls; nested quotes; archaic ecfatus/postilla/exim, dactylic hexameter); the Cunctator "Unus homo nobis cunctando restituit rem" (split, Book IX); the Rudiae self-portrait "Nos sumus Romani qui fuimus ante Rudini" (split, Book XVIII).
 
-## Fragmentary authors - remaining
-- Pacuvius / Accius / Pomponius / Novius +1-2 each (tragic/Atellan; PHI / Ribbeck, source-note format).
-  (Cato, Livius, Naevius, Ennius all DONE.)
+## Pacuvius / Accius / Pomponius / Novius - DONE
+Combined entries. Pacuvius=3, Accius=3, Novius=3, Pomponius=2.
+- **Pacuvius & Accius** (`marcus-pacuvius-and-lucius-accius`):
+  - Pacuvius: Niptra (existing, Cic. Tusc. II.50) + **Chryses** ×2 (both Cic. De Div. I.131): birds/diviners "nam isti qui linguam avium intellegunt... magis audiendum quam auscultandum"; cosmology "Quidquid est hoc, omnia animat... omniumque idemst pater".
+  - Accius: Atreus (existing, "oderint dum metuant", Cic. De Off. I.97) + **Brutus** ×2 (Cic. De Div. I.44-45): Tarquin's dream (12 lines, sun reverses course) + the soothsayer's interpretation (10 lines, "rem Romanam publicam summam fore").
+- **Pomponius & Novius** (`pomponius-bononiensis-and-quintus-novius`):
+  - Pomponius: Fullones (existing, PHI/Ribbeck) + **Galli Transalpini** "Mars, tibi voveo facturum, si unquam rediero, bidente verre" (Macrobius Sat. VI.9, via LacusCurtius `penelope.uchicago.edu/Thayer/L/Roman/Texts/Macrobius/Saturnalia/6*.html`). Pomponius kept at 2 (sourcing-limited; a 2nd Macrobius fragment - Kalendae Martiae "Vocem deducas oportet, ut mulieris videantur", Sat. VI.4 - is available if a 3rd is ever wanted).
+  - Novius: Maccus Exul (existing) + **Atellanae** ×2 (Cic. De Oratore II): "Quid ploras, pater? Mirum ni cantem: condemnatus sum" (II.279); "sapiens si algebis, tremes" (II.285).
+
+Note: De Divinatione / De Oratore TLL pages are UTF-16 (strip nulls: `tr -d '\000'`). LacusCurtius Macrobius is plain HTML, curl-able (URLs literally contain `*`). **The Archaic Era practice bank is now complete.**
