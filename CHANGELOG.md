@@ -6,6 +6,27 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.9.8] - 2026-06-19
+
+### Added
+- **The "big three" archaic poets** now have 3 fragments each (Latin from The Latin Library):
+  - **Livius Andronicus** - the bundled Odusia entry was split into its two separate verses
+    (the Odyssey opening "Virum mihi, Camena, insece versutum"; the Charybdis fear "Igitur demum
+    Ulixi cor frixit prae pavore"), and a third added: the "Morta" line on fated death
+    (in Gellius, NA III.16.11).
+  - **Gnaeus Naevius** - added the **Malta raid** (Bellum Poenicum fr. 40): the Roman army crosses
+    to Malta and burns, plunders, lays waste, "rem hostium concinnat" (3 lines). Joins the
+    Trojan-wives fragment and the self-epitaph.
+  - **Quintus Ennius** - the bundled Annales entry was split into the Cunctator fragment (Book IX)
+    and the Rudiae self-portrait (Book XVIII), and **Ilia's dream** (Annales Book I, 17 lines,
+    quoted by Cicero in De Divinatione I.40-41) was added as the centrepiece.
+- Each new fragment is fully bilingual (original IT + EN, analysis, IT metadata) with source.
+- Cache version bumped v31 → v32.
+
+### Notes
+- The Naevius Malta fragment is numbered **40** on the source (The Latin Library, matching the
+  existing "fr. 8" numbering); it appears as **fr. 32** in some editions. Flagged in the analysis.
+
 ## [0.9.7] - 2026-06-19
 
 ### Added

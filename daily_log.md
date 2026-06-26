@@ -227,3 +227,27 @@ A long, productive day on the practice trainer. The morning finished an Italian 
 - `js/fragments.js` was reworked, `practice_fragments_reference.md` updated, and `PROGRESS.md` refreshed with a Terence handoff and resume block.
 
 **Progress:** All three Archaic-era comedy authors (Plautus, Caecilius, Terence) now have a full practice set, with Terence's six comedies each carrying three bilingual fragments. The fragment bank has grown substantially since yesterday. The other four eras remain placeholders pending their drafts.
+
+---
+
+## 2026-06-19
+
+*(End-of-day log, compiled 2026-06-26.)*
+
+A shorter but focused day, spent rounding out two more Archaic-era authors in the practice trainer. Both of the day's two commits expanded a one-fragment author into a full five-fragment set, taking the app from v0.9.5 to v0.9.7. No new full author drafts were written; all changes were to the web app, its fragment bank, and the supporting files.
+
+**Caecilius Statius brought up to 5 fragments (v0.9.6):**
+- *Plocium* now shows all three passages Gellius preserves side by side with Menander's original in *Noctes Atticae* II.23: the husband's monologue on his rich wife (§10, already present, citation tightened), the "fasting-breath kiss" dialogue where the wife kisses him to smell whether he has been drinking (§13), and the slave's lines on how a poor man's troubles cannot be hidden (§21).
+- The previously empty "Other" work became "Other plays" / "Altre commedie" (empty works are hidden from the chooser) and gained two fragments, both preserved by Cicero: Caecilius's grimmest lines on old age (*De Senectute* 25, which Cicero quotes in order to refute) and the famous *Synephebi* line "serit arbores, quae alteri saeclo prosint" ("he plants trees for another age", *Tusculanae* I.31).
+- Each new fragment is fully bilingual (original Italian + English, short analysis, Italian metadata) with its source recorded. A nice through-line surfaces across the set: we have Caecilius almost only because Gellius and Cicero quoted him in order to disagree with him. Cache version bumped v29 to v30.
+
+**Cato the Elder brought up to 5 fragments (v0.9.7):**
+- *De Agri Cultura* expanded from 1 fragment to 5, chosen to show the range of his philosophy and his terse, imperative style (Latin from The Latin Library): cap. 1, how to choose a farm (don't buy in haste, inspect repeatedly, judge by the neighbors, prefer land whose former owners regret selling, "eos pigeat vendidisse"); cap. 5, the duties of the overseer (vilicus); cap. 141, the suovetaurilia field-lustration prayer to Mars in full carmen style with archaic forms (sies, prohibessis, averruncesque, duonam); and cap. 156, in praise of cabbage, complete with the ancient eat-cabbage-before-the-party hangover hack.
+- Each new fragment is fully bilingual (original Italian + English, short analysis, Italian metadata) with source. Cache version bumped v30 to v31.
+
+**Housekeeping:**
+- `CHANGELOG.md`, `PROGRESS.md`, and `practice_fragments_reference.md` were updated, `js/fragments.js` was extended, and the page assets (`index.html`, `author.html`, `practice.html`, `practice-select.html`) were cache-busted to the new versions.
+
+**Progress:** Caecilius Statius and Cato the Elder now each carry a full five-fragment practice set, deepening the Archaic-era bank beyond the comedy authors finished the day before. The other four eras remain placeholders pending their drafts.
+
+*(No work recorded 2026-06-20 through 2026-06-26; those days are skipped per the daily-log rule.)*

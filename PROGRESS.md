@@ -62,7 +62,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=31`.**
+   whenever you change a JS/CSS file. **Currently `v=32`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -111,9 +111,9 @@ The full Italian translation pass is **DONE**.
 
 | Author (slug) | Works (fragment count) |
 |---|---|
-| Livius Andronicus | Odusia (1) |
-| Gnaeus Naevius | Bellum Poenicum (1) + Epitaph (1) |
-| Quintus Ennius | Annales (1) |
+| Livius Andronicus | Odusia (3) |
+| Gnaeus Naevius | Bellum Poenicum (2) + Epitaph (1) |
+| Quintus Ennius | Annales (3) |
 | **Plautus** *(needsSelection)* | Pseudolus (3) · Mostellaria (3) · Amphitruo (4) · Aulularia (3) · Miles Gloriosus (3) |
 | Cato the Elder | De Agri Cultura (5) |
 | **Caecilius Statius** *(needsSelection)* | Plocium (3) · Other plays (2) |
@@ -130,8 +130,8 @@ The full Italian translation pass is **DONE**.
   whether to add more than 3 per play.
 - **Caecilius**: DONE. `Plocium` now has the 3 passages Gellius quotes (NA II.23.10/13/21); `Other`
   is now "Other plays" with 2 fragments (old age, *De Senectute* 25; *Synephebi*, *Tusc.* I.31).
-- **Fragmentary authors**: Livius +1-2 (Odusia), Naevius +3-4 (Bellum Poenicum), Ennius +3-4
-  (Annales), Pacuvius / Accius / Pomponius / Novius +1-2 each. (**Cato DONE**: De Agri Cultura now 5.)
+- **Fragmentary authors**: Pacuvius / Accius / Pomponius / Novius +1-2 each. (**DONE**: Cato (5),
+  Livius (3), Naevius (3), Ennius (3) - the "big three" now have 3 each, with bundled entries split.)
 - Optional: mirror the new practice Italians into `italian_translations_archaic.md`.
 
 Per new fragment: verified Latin + source, original IT+EN + IT metadata (titleIt/descriptionIt/
@@ -140,25 +140,28 @@ analysisIt, proper accents), short tailored analysis, title, citation; spread ac
 commit + push; update `CHANGELOG.md`, `practice_fragments_reference.md`, and this file (table +
 cache `v=`).
 
-### >>> RESUME HERE: fragmentary authors <<<
+### >>> RESUME HERE: Pacuvius / Accius / Pomponius / Novius <<<
 
-Terence (all 6 comedies x3) and Caecilius (Plocium 3 + Other plays 2) are both **DONE**. The
-remaining content work is the single-work, non-needsSelection **fragmentary authors** - currently
-1 fragment each, to be expanded:
+Terence, Caecilius, Cato, and the "big three" (Livius, Naevius, Ennius - now 3 fragments each, with
+the old bundled entries split into one fragment per entry) are all **DONE**. The only Archaic content
+left is the two combined lesser-known fragmentist entries, each currently with 1 fragment per author:
 
-- **Livius Andronicus** - Odusia: +1-2 (more Homeric renderings; Latin via PHI / Warmington).
-- **Gnaeus Naevius** - Bellum Poenicum: +3-4 (Saturnian fragments; PHI / Warmington). [Epitaph is separate.]
-- **Quintus Ennius** - Annales: +3-4 (the famous lines: "moribus antiquis res stat Romana", the
-  dream of Homer, "unus homo nobis cunctando restituit rem"; PHI / Warmington / Skutsch numbering).
-- **Cato the Elder** - DONE: De Agri Cultura now has 5 (Praefatio + cap. 1, 5, 141 suovetaurilia, 156 cabbage).
-- **Pacuvius / Accius / Pomponius / Novius**: +1-2 each (tragic/Atellan fragments; PHI / Ribbeck -
-  see the existing Pomponius/Novius entries for the source-note format when neither TLL nor Splash
-  has a page).
+- **Pacuvius & Accius** (`marcus-pacuvius-and-lucius-accius`): currently Niptra (1) + Atreus (1).
+  Tragic fragments - add +1-2 (e.g. more Pacuvius *Niptra* / *Chryses*; Accius *Atreus* "oderint dum
+  metuant", *Brutus* the dream). Tragic Latin is hard - flag difficulty.
+- **Pomponius & Novius** (`pomponius-and-novius`): currently Fullones (1) + Maccus Exul (1). Atellan
+  farce - add +1-2 more Atellan titles.
 
-Method reminder: for verse fragmentists with no TLL page, use PHI Latin Texts / Ribbeck and add the
-*Source note:* prefix in the `latin` field (as the Pomponius *Fullones* / Novius *Maccus Exul*
-fragments do). Pick famous-but-translatable lines, vary difficulty, keep each entry short (these are
-lesser-known authors).
+Method: these verse fragmentists have **no TLL page**, so source from PHI Latin Texts / Ribbeck and
+put the *Source note:* prefix in the `latin` field (see the existing Pomponius *Fullones* / Novius
+*Maccus Exul* entries for the exact format). Pick famous-but-translatable lines, vary difficulty,
+keep each entry short. After this, the Archaic Era practice bank is complete.
+
+Sourcing notes from this session: some TLL pages are **UTF-16** (Cicero *De Divinatione*, Gellius) -
+`curl ... -o f.raw` then `tr -d '\000' < f.raw | sed 's/<[^>]*>//g' ...` to read them. TLL does have
+a `naevius.html` page. Edition numbering varies (Naevius Malta = fr. 40 on TLL, fr. 32 elsewhere) -
+note variants in the analysis. When an entry bundles 2+ distinct fragments, split them (one fragment
+per practice entry), as was just done for Livius (Odusia I.1 / V.297) and Ennius (Cunctator / Rudiae).
 
 Per-fragment checklist is unchanged (see "What remains" above): verified Latin + source, original
 IT+EN, IT metadata (titleIt/descriptionIt/analysisIt, proper accents), short tailored analysis,

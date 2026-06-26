@@ -81,6 +81,12 @@ Source: The Latin Library, `cato/cato.agri.html` (full continuous text; chapters
 - **cap. 141**: the suovetaurilia / lustratio agri - the Mars prayer. Hardest; archaic carmen (sies, prohibessis, servassis, siris, duis, duonam, averruncesque). Excerpt uses one [...] to drop the Janus/Jupiter praefatio instruction; keeps TLL spelling "suovitaurilia". FLAG for proofread.
 - **cap. 156**: De brassica - cabbage surpasses all vegetables + the pre-party hangover hack. Medium/easy; rapid imperatives (esto, intinguito, comesto). "lotium... salubre" = the cabbage-eater's urine (Cato's urine-therapy, noted in analysis).
 
-## Fragmentary authors - remaining per the plan
-- Livius +1-2 (Odusia), Naevius +3-4 (Bellum Poenicum), Ennius +3-4 (Annales),
-  Pacuvius/Accius/Pomponius/Novius +1-2 each. (Cato DONE above.)
+## The "big three" archaic poets - DONE (3 fragments each)
+Latin from The Latin Library. Bundled entries were split (one distinct fragment per practice entry).
+- **Livius Andronicus** (`odusia`, 3): fr. I.1 "Virum mihi, Camena, insece versutum" (split); fr. V.297 "Igitur demum Ulixi cor frixit prae pavore" (split); the Morta line "quando dies adveniet, quem profata Morta est" (NEW; in Gellius NA III.16.11, `gellius/gellius3.shtml`). All Saturnian, 1 line each.
+- **Gnaeus Naevius** (3 total): Bellum Poenicum fr. 8 (Trojan wives) + **fr. 40 the Malta raid** (NEW; `naevius.html`: "transit Melitam Romanus exercitus, insulam integram urit populatur vastat, rem hostium concinnat", 3 lines - numbered 40 on TLL, = fr. 32 in some editions; FLAG) + Epitaph fr. 67.
+- **Quintus Ennius** (`annales`, 3): **Ilia's dream** (NEW; Annales I, 17 lines, in Cicero De Div. I.40-41, `cicero/divinatione1.shtml` - the page is UTF-16, strip nulls; nested quotes; archaic ecfatus/postilla/exim, dactylic hexameter); the Cunctator "Unus homo nobis cunctando restituit rem" (split, Book IX); the Rudiae self-portrait "Nos sumus Romani qui fuimus ante Rudini" (split, Book XVIII).
+
+## Fragmentary authors - remaining
+- Pacuvius / Accius / Pomponius / Novius +1-2 each (tragic/Atellan; PHI / Ribbeck, source-note format).
+  (Cato, Livius, Naevius, Ennius all DONE.)
