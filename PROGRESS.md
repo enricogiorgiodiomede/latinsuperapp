@@ -62,7 +62,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=33`.**
+   whenever you change a JS/CSS file. **Currently `v=34`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -120,7 +120,7 @@ The full Italian translation pass is **DONE**.
 | **Terence** *(needsSelection)* | Andria (3) · Hecyra (3) · Heautontimorumenos (3) · Eunuchus (3) · Phormio (3) · Adelphoe (3) |
 | Pacuvius & Accius | Niptra (1) + Chryses (2) · Atreus (1) + Brutus (2) |
 | Gaius Lucilius | Saturae (1) |
-| Pomponius & Novius | Fullones (1) + Galli Transalpini (1) · Maccus Exul (1) + Atellanae (2) |
+| Pomponius & Novius | Fullones (1) + Galli Transalpini (1) + Kalendae Martiae (1) · Maccus Exul (1) + Atellanae (2) |
 
 ## What remains (the plan)
 
@@ -131,7 +131,8 @@ The full Italian translation pass is **DONE**.
 - **Caecilius**: DONE. `Plocium` now has the 3 passages Gellius quotes (NA II.23.10/13/21); `Other`
   is now "Other plays" with 2 fragments (old age, *De Senectute* 25; *Synephebi*, *Tusc.* I.31).
 - **Fragmentary authors**: ALL DONE. Cato (5); Livius (3), Naevius (3), Ennius (3); Pacuvius (3),
-  Accius (3), Novius (3), Pomponius (2). The Archaic Era practice bank is complete.
+  Accius (3), Novius (3), Pomponius (3). The Archaic Era practice bank is complete (3 per author,
+  except Cato 5 and the multi-comedy authors Plautus/Terence).
 - Optional: mirror the new practice Italians into `italian_translations_archaic.md`.
 
 Per new fragment: verified Latin + source, original IT+EN + IT metadata (titleIt/descriptionIt/
@@ -146,9 +147,8 @@ cache `v=`).
 Nothing in the Archaic practice bank is outstanding. Possible next directions (ask the user):
 
 1. **Optional polish on the Archaic bank**: mirror the new practice Italians into
-   `italian_translations_archaic.md`; or add a 3rd Pomponius fragment (Macrobius *Sat.* VI.4,
-   *Kalendae Martiae*: "Vocem deducas oportet, ut mulieris videantur") to bring it to 3 like the
-   rest; or add more fragments per Plautus/Terence play (the user said they'd decide later).
+   `italian_translations_archaic.md`; or add more fragments per Plautus/Terence play (the user said
+   they'd decide later). (Pomponius is now at 3 - the *Kalendae Martiae* fragment was added.)
 2. **A new era** (Caesar's / Augustan / Imperial / Late): per `CLAUDE.md`, the draft + ratings +
    chart + content pipeline only cover the Archaic Era. Starting another era is a much larger task
    (new `*_draft.md`, ratings, content-it, etc.) and **requires explicit user permission**.

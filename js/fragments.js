@@ -1027,6 +1027,25 @@
         ]
       },
       {
+        "id": "pomponius-kalendae-martiae",
+        "label": "Pomponius - Kalendae Martiae",
+        "fragments": [
+          {
+            "title": "Soften your voice to pass for a woman",
+            "citation": "(Kalendae Martiae, in Macrobius, Saturnalia VI.4)",
+            "source": "Macrobius, Saturnalia VI.4 (LacusCurtius, penelope.uchicago.edu)",
+            "description": "A single line from Pomponius's Atellan farce The Kalends of March - the date of the Matronalia, the Roman women's festival. Someone is being coached to disguise his voice: lower it, soften it, so the words will pass for a woman's. It is the cross-dressing, voice-faking comedy the Atellana loved.",
+            "latin": "*Source note: Neither The Latin Library nor Splash Latino has a Pomponius page. The Latin is preserved by Macrobius (Saturnalia VI.4.13), who quotes it for the phrase* vocem deducere; *the text here follows the LacusCurtius edition of Macrobius.*\n\n> Vocem deducas oportet, ut mulieris videantur.",
+            "italian": "> Devi abbassare la voce, perché [le parole] sembrino di una donna.",
+            "english": "> You must lower your voice, so that the words may seem a woman’s.",
+            "analysis": "One coaching line, and a peek at how Atellan farce worked. The play's title, Kalendae Martiae, is the date of the Matronalia, the festival of Roman wives and mothers - so a man being taught to fake a woman's voice (vocem deducas... ut mulieris videantur) points straight at the gender-disguise plots the genre adored (Pomponius even wrote a Maccus Virgo, \"Maccus the Maiden\"). Macrobius (Saturnalia VI.4) quotes the line not for the joke but for the idiom: vocem deducere, to \"draw down\" the voice into something thin and soft, which he traces from Pomponius through Afranius and Cornificius all the way to Virgil's deductum... carmen (\"finely-spun song\"). A scrap of farce, preserved because it taught a great poet a turn of phrase. Iambic; with no Latin Library page available, the text follows the LacusCurtius Macrobius.",
+            "titleIt": "Ammorbidisci la voce per sembrare una donna",
+            "descriptionIt": "Un verso isolato dall'atellana di Pomponio Le Calende di Marzo - la data dei Matronalia, la festa delle donne romane. Qualcuno viene istruito a camuffare la voce: abbassarla, ammorbidirla, così che le parole passino per quelle di una donna. È la comicità del travestimento e della voce contraffatta che l'atellana amava.",
+            "analysisIt": "Una battuta di istruzioni, e uno spiraglio su come funzionava l'atellana. Il titolo del dramma, Kalendae Martiae, è la data dei Matronalia, la festa delle mogli e delle madri romane - quindi un uomo a cui si insegna a contraffare la voce di donna (vocem deducas... ut mulieris videantur) rimanda dritto alle trame di travestimento che il genere adorava (Pomponio scrisse perfino un Maccus Virgo, \"Macco fanciulla\"). Macrobio (Saturnalia VI.4) cita il verso non per la battuta ma per il modo di dire: vocem deducere, \"tirar giù\" la voce fino a renderla sottile e morbida, che fa risalire da Pomponio attraverso Afranio e Cornificio fino al deductum... carmen (\"canto sottilmente filato\") di Virgilio. Uno spezzone di farsa, conservato perché insegnò a un grande poeta una movenza di stile. Verso giambico; non essendo disponibile una pagina di The Latin Library, il testo segue il Macrobio di LacusCurtius."
+          }
+        ]
+      },
+      {
         "fragments": [
           {
             "title": "Novius: Maccus the fool and the head-cracking doorway",

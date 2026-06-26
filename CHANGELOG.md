@@ -6,6 +6,16 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.9.10] - 2026-06-19
+
+### Added
+- **Pomponius** gains a 3rd fragment, bringing every Archaic author to 3 (except where corpus is
+  thinner): the *Kalendae Martiae* line "Vocem deducas oportet, ut mulieris videantur" - a man
+  coached to soften his voice to pass for a woman, fitting a farce named for the Matronalia
+  (the women's festival). Preserved by Macrobius (*Saturnalia* VI.4), text from the LacusCurtius
+  edition; fully bilingual with original IT + EN, analysis, and IT metadata.
+- Cache version bumped v33 → v34.
+
 ## [0.9.9] - 2026-06-19
 
 ### Added
