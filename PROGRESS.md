@@ -62,7 +62,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=34`.**
+   whenever you change a JS/CSS file. **Currently `v=35`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -114,7 +114,7 @@ The full Italian translation pass is **DONE**.
 | Livius Andronicus | Odusia (3) |
 | Gnaeus Naevius | Bellum Poenicum (2) + Epitaph (1) |
 | Quintus Ennius | Annales (3) |
-| **Plautus** *(needsSelection)* | Pseudolus (3) · Mostellaria (3) · Amphitruo (4) · Aulularia (3) · Miles Gloriosus (3) |
+| **Plautus** *(needsSelection)* | Pseudolus (3) · Mostellaria (3) · Amphitruo (4) · Aulularia (3) · Miles Gloriosus (3) · Menaechmi (3) |
 | Cato the Elder | De Agri Cultura (5) |
 | **Caecilius Statius** *(needsSelection)* | Plocium (3) · Other plays (2) |
 | **Terence** *(needsSelection)* | Andria (3) · Hecyra (3) · Heautontimorumenos (3) · Eunuchus (3) · Phormio (3) · Adelphoe (3) |
@@ -124,7 +124,9 @@ The full Italian translation pass is **DONE**.
 
 ## What remains (the plan)
 
-- **Plautus**: DONE (Pseudolus 3 + Mostellaria 3 + Amphitruo 4 + Aulularia 3 + Miles Gloriosus 3).
+- **Plautus**: DONE - 6 comedies (Pseudolus 3 + Mostellaria 3 + Amphitruo 4 + Aulularia 3 +
+  Miles Gloriosus 3 + Menaechmi 3). Menaechmi added as the 6th (prologue, Peniculus, the Act V
+  madness scene).
 - **Terence** (agreed: 3 fragments per comedy, 6 plays): **DONE - all 6 of 6** - Andria, Hecyra,
   Heautontimorumenos, Eunuchus, Phormio, Adelphoe (3 each). The user said they'll decide later
   whether to add more than 3 per play.
@@ -147,8 +149,10 @@ cache `v=`).
 Nothing in the Archaic practice bank is outstanding. Possible next directions (ask the user):
 
 1. **Optional polish on the Archaic bank**: mirror the new practice Italians into
-   `italian_translations_archaic.md`; or add more fragments per Plautus/Terence play (the user said
-   they'd decide later). (Pomponius is now at 3 - the *Kalendae Martiae* fragment was added.)
+   `italian_translations_archaic.md`; or add more comedies/fragments to Plautus or Terence (the user
+   said they'd decide later). (Pomponius is at 3; Plautus now has a 6th comedy, Menaechmi, at 3.)
+   To add a Plautus comedy: new work with `label` (Latin) + `labelIt` (e.g. Menaechmi -> "Menecmi")
+   appended to the Plautus `works` array; Latin from TLL `plautus/<play>.shtml` (UTF-8, curl-able).
 2. **A new era** (Caesar's / Augustan / Imperial / Late): per `CLAUDE.md`, the draft + ratings +
    chart + content pipeline only cover the Archaic Era. Starting another era is a much larger task
    (new `*_draft.md`, ratings, content-it, etc.) and **requires explicit user permission**.

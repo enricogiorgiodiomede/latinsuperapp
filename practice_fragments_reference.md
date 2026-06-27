@@ -41,8 +41,13 @@ Source for all: The Latin Library, https://www.thelatinlibrary.com/plautus/<play
 - **Act I, Sc. 3, vv. 357-369** - Pseudolus + Calidorus hurl the insult-litany at Ballio, who tops every insult ("Fateor"; "occidi quoque"). Medium; lexical (insult-nouns + interjections). Speakers abbreviated CAL./PS./BAL.
 - **Act V, Sc. 2, vv. 1293-1306** - the drunken finale (Pseudolus garlanded, belching in Simo's face; the celox onusta belly metaphor). Medium; colloquial. Speakers PS./SIM.
 
-### Plautus - all done for now
-- Miles Gloriosus (3), Pseudolus (3), Mostellaria (3), Amphitruo (4), Aulularia (3).
+### Menaechmi (`menaechmi`, labelIt "Menecmi") - the 6th comedy
+- **Prologue, vv. 17-28** - the twin premise (identical twins, one lost, both named Menaechmus). Medium; narrative senarii.
+- **Act I, Sc. 1, vv. 77-95** - Peniculus the parasite: food binds better than chains ("apud mensam plenam homini rostrum deliges"). Medium; extended food conceit.
+- **Act V, Sc. 2, vv. 829-852** - THE mistaken-identity scene (user-requested, long): the Syracusan twin, taken for the husband by the wife (MAT.) + her father (SEN.), feigns madness - Bacchus/Apollo turned into jokes (Apollo "orders" him to burn the wife's eyes). Speakers MEN.(=Sosicles, the traveling twin)/MAT./SEN. One corrupt line (the goat-insult against the father) omitted, marked [...]. Verse nums approx (TLL annotations 831/835/840/845/850).
+
+### Plautus - all done (6 comedies)
+- Pseudolus (3), Mostellaria (3), Amphitruo (4), Aulularia (3), Miles Gloriosus (3), Menaechmi (3).
 
 NOTE on sourcing: Latin pulled from The Latin Library via curl (whole page, then exact lines
 by canonical numbering). Famous lines cross-checked. Worth a final proofread against a printed

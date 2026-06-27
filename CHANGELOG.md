@@ -6,6 +6,21 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.9.11] - 2026-06-19
+
+### Added
+- **Menaechmi** added to the Plautus chooser as the sixth comedy, with 3 practice fragments (Latin
+  from The Latin Library), each fully bilingual ("Menecmi" in Italian mode):
+  - Prologue (vv. 17-28) - the premise: identical twin boys so alike not even their mother could
+    tell them apart, the setup for the whole mistaken-identity machine (Shakespeare's Comedy of Errors).
+  - Act I, Sc. 1 (vv. 77-95) - the parasite Peniculus on why food, not chains, is the surest way to
+    keep a man from running off ("tie his snout to a full table").
+  - Act V, Sc. 2 (vv. 829-852) - the long set-piece: the traveling twin, cornered by his brother's
+    wife and her father who take him for the husband, feigns madness, turning Bacchus and Apollo into
+    punch-lines (Apollo "orders" him to burn out the wife's eyes). Showcases Plautine style and
+    mythological references turned into jokes; one textually corrupt line is omitted, marked [...].
+- Cache version bumped v34 → v35.
+
 ## [0.9.10] - 2026-06-19
 
 ### Added

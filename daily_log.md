@@ -250,4 +250,32 @@ A shorter but focused day, spent rounding out two more Archaic-era authors in th
 
 **Progress:** Caecilius Statius and Cato the Elder now each carry a full five-fragment practice set, deepening the Archaic-era bank beyond the comedy authors finished the day before. The other four eras remain placeholders pending their drafts.
 
-*(No work recorded 2026-06-20 through 2026-06-26; those days are skipped per the daily-log rule.)*
+*(No work recorded 2026-06-20 through 2026-06-25; those days are skipped per the daily-log rule.)*
+
+---
+
+## 2026-06-26
+
+*(End-of-day log.)*
+
+The day that finished the Archaic Era practice bank. Three commits took the app from v0.9.7 to v0.9.10 (cache v31 to v34), bringing every remaining Archaic author up to a full set of practice fragments. No new full author drafts were written; all changes were to the web app, its fragment bank, and the supporting files. (The CHANGELOG headers for these releases carry a 2026-06-19 date label, but the commits themselves landed on 2026-06-26.)
+
+**The "big three" archaic poets brought to 3 fragments each (v0.9.8, cache v32):**
+- **Livius Andronicus**: the bundled *Odusia* entry was split into its two separate verses (the Odyssey opening "Virum mihi, Camena, insece versutum" and the Charybdis-fear line "Igitur demum Ulixi cor frixit prae pavore"), and a third was added: the "Morta" line on fated death, preserved by Gellius (*NA* III.16.11). All Saturnian, one line each.
+- **Gnaeus Naevius**: added the Malta raid (*Bellum Poenicum* fr. 40), in which the Roman army crosses to Malta and burns, plunders, lays waste, "rem hostium concinnat" (3 lines). It joins the Trojan-wives fragment and the self-epitaph. The fragment is numbered 40 on The Latin Library but appears as fr. 32 in some editions; that is flagged in the analysis.
+- **Quintus Ennius**: the bundled *Annales* entry was split into the Cunctator fragment (Book IX) and the Rudiae self-portrait (Book XVIII), and Ilia's dream (Annales Book I, 17 lines, quoted by Cicero in *De Divinatione* I.40-41) was added as the centrepiece.
+
+**The remaining lesser-known fragmentists expanded (v0.9.9, cache v33):**
+- **Pacuvius** to 3: Niptra (existing) plus two from the *Chryses*, both in Cicero *De Div.* I.131, the rationalist mockery of bird-diviners ("magis audiendum quam auscultandum") and the cosmic-principle fragment ("Quidquid est hoc, omnia animat... omniumque idemst pater").
+- **Accius** to 3: Atreus (existing, "oderint dum metuant") plus two from the *Brutus*, Cicero *De Div.* I.44-45, Tarquinius Superbus's dream of the sun reversing course and the soothsayer's reply foretelling "rem Romanam publicam summam fore".
+- **Novius** to 3: Maccus Exul (existing) plus two Atellan jokes Cicero quotes in *De Oratore* II, the gallows-humour "Mirum ni cantem: condemnatus sum" (II.279) and the Stoic-puncturing "sapiens si algebis, tremes" (II.285).
+- **Pomponius** to 2: Fullones (existing) plus the *Galli Transalpini* soldier's vow to Mars ("Mars, tibi voveo facturum, si unquam rediero, bidente verre"), preserved by Macrobius (*Saturnalia* VI.9), text from the LacusCurtius edition.
+
+**Pomponius rounded out to 3 (v0.9.10, cache v34):**
+- Added the *Kalendae Martiae* line "Vocem deducas oportet, ut mulieris videantur", a man coached to soften his voice to pass for a woman, fitting a farce named for the Matronalia (the women's festival). Preserved by Macrobius (*Saturnalia* VI.4), text from the LacusCurtius edition. This brings Pomponius level with Pacuvius, Accius, and Novius at 3 fragments each.
+
+**Notes and housekeeping:**
+- Every new fragment is fully bilingual (original Italian and English, a short analysis, and Italian metadata) with its source recorded. The *De Divinatione* and *De Oratore* source pages on The Latin Library are UTF-16 (nulls stripped); the LacusCurtius Macrobius pages are plain HTML.
+- `CHANGELOG.md`, `PROGRESS.md`, and `practice_fragments_reference.md` were updated, `js/fragments.js` was extended, and the page assets (`index.html`, `author.html`, `practice.html`, `practice-select.html`) were cache-busted across the three releases.
+
+**Progress:** The Archaic Era practice bank is now complete. Every Archaic author carries a full set of practice fragments (the comedy authors and Cato/Caecilius at 5 each from earlier days, the big-three poets and the four fragmentists at 3 each as of today). The other four eras remain placeholders pending their drafts.
