@@ -62,7 +62,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=35`.**
+   whenever you change a JS/CSS file. **Currently `v=36`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -125,8 +125,8 @@ The full Italian translation pass is **DONE**.
 ## What remains (the plan)
 
 - **Plautus**: DONE - 6 comedies (Pseudolus 3 + Mostellaria 3 + Amphitruo 4 + Aulularia 3 +
-  Miles Gloriosus 3 + Menaechmi 3). Menaechmi added as the 6th (prologue, Peniculus, the Act V
-  madness scene).
+  Miles Gloriosus 3 + Menaechmi 3). Menaechmi: prologue, Peniculus, and the Act V.1 mistaken-identity
+  quarrel (vv.701-752; replaced an earlier draft that used the V.2 madness scene).
 - **Terence** (agreed: 3 fragments per comedy, 6 plays): **DONE - all 6 of 6** - Andria, Hecyra,
   Heautontimorumenos, Eunuchus, Phormio, Adelphoe (3 each). The user said they'll decide later
   whether to add more than 3 per play.

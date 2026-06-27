@@ -6,6 +6,17 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.9.12] - 2026-06-19
+
+### Changed
+- Replaced the third **Menaechmi** fragment: swapped the Act V.2 feigned-madness scene for the
+  Act V, Sc. 1 quarrel (vv. 701-752, abridged with [...]) - the scene originally intended. The
+  resident Menaechmus's wife mistakes his visiting twin for her husband and rails at him over the
+  stolen mantle, while he, a baffled stranger, answers with mythological jabs: Hecuba the abuse-
+  hurling "dog", and knowing her and her father "as well as Porthaon / Calchas" (i.e. not at all).
+  A purer example of the look-alike confusion and of Plautine mythology-as-punchline. Fully bilingual.
+- Cache version bumped v35 → v36.
+
 ## [0.9.11] - 2026-06-19
 
 ### Added
