@@ -6,6 +6,15 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.9.13] - 2026-06-19
+
+### Added
+- Re-added the **Menaechmi** Act V, Sc. 2 feigned-madness scene (vv. 829-852) as a 4th fragment, so
+  it sits right after the V.1 quarrel it continues: the wife fetches her father, and the cornered
+  visiting twin escalates to feigned divine possession, turning Bacchus and Apollo into punch-lines
+  (Apollo "orders" him to burn out the wife's eyes). Menaechmi now has 4 fragments. The analysis
+  cross-references the V.1 scene. Cache version bumped v36 → v37.
+
 ## [0.9.12] - 2026-06-19
 
 ### Changed

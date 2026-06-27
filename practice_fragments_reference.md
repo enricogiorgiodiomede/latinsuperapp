@@ -44,10 +44,11 @@ Source for all: The Latin Library, https://www.thelatinlibrary.com/plautus/<play
 ### Menaechmi (`menaechmi`, labelIt "Menecmi") - the 6th comedy
 - **Prologue, vv. 17-28** - the twin premise (identical twins, one lost, both named Menaechmus). Medium; narrative senarii.
 - **Act I, Sc. 1, vv. 77-95** - Peniculus the parasite: food binds better than chains ("apud mensam plenam homini rostrum deliges"). Medium; extended food conceit.
-- **Act V, Sc. 1, vv. 701-752** - THE mistaken-identity quarrel (user-specified; abridged with [...]): the wife (MAT.) mistakes the visiting Syracusan twin (MEN. = Sosicles) for her husband and rails at him over the stolen palla; he, a baffled stranger, answers with mythological jokes - Hecuba the "dog" (canes), and knowing her/her father "as well as Porthaon / Calchas". Speakers MEN./MAT. (the father enters only at V.ii, after this excerpt). Verse 700 = TLL file line 1056; <o>/<esse me> supplements normalized. (Earlier draft used the V.ii madness scene vv.829-852; replaced per user.)
+- **Act V, Sc. 1, vv. 701-752** - the mistaken-identity quarrel (user-specified; abridged with [...]): the wife (MAT.) mistakes the visiting Syracusan twin (MEN. = Sosicles) for her husband and rails at him over the stolen palla; he, a baffled stranger, answers with mythological jokes - Hecuba the "dog" (canes), and knowing her/her father "as well as Porthaon / Calchas". Speakers MEN./MAT. Verse 700 = TLL file line 1056; <o>/<esse me> supplements normalized.
+- **Act V, Sc. 2, vv. 829-852** - the feigned-madness scene (continues V.1): the wife fetches her father (SEN.), and the cornered twin feigns possession - Bacchus/Apollo turned into jokes (Apollo "orders" him to burn the wife's eyes). One corrupt line (the goat-insult against the father) omitted, marked [...]. Verse nums approx (TLL annotations 831/835/840/845/850). Analysis cross-refs the V.1 Hecuba/Calchas jabs.
 
 ### Plautus - all done (6 comedies)
-- Pseudolus (3), Mostellaria (3), Amphitruo (4), Aulularia (3), Miles Gloriosus (3), Menaechmi (3).
+- Pseudolus (3), Mostellaria (3), Amphitruo (4), Aulularia (3), Miles Gloriosus (3), Menaechmi (4).
 
 NOTE on sourcing: Latin pulled from The Latin Library via curl (whole page, then exact lines
 by canonical numbering). Famous lines cross-checked. Worth a final proofread against a printed

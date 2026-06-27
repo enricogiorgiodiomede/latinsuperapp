@@ -62,7 +62,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=36`.**
+   whenever you change a JS/CSS file. **Currently `v=37`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -114,7 +114,7 @@ The full Italian translation pass is **DONE**.
 | Livius Andronicus | Odusia (3) |
 | Gnaeus Naevius | Bellum Poenicum (2) + Epitaph (1) |
 | Quintus Ennius | Annales (3) |
-| **Plautus** *(needsSelection)* | Pseudolus (3) · Mostellaria (3) · Amphitruo (4) · Aulularia (3) · Miles Gloriosus (3) · Menaechmi (3) |
+| **Plautus** *(needsSelection)* | Pseudolus (3) · Mostellaria (3) · Amphitruo (4) · Aulularia (3) · Miles Gloriosus (3) · Menaechmi (4) |
 | Cato the Elder | De Agri Cultura (5) |
 | **Caecilius Statius** *(needsSelection)* | Plocium (3) · Other plays (2) |
 | **Terence** *(needsSelection)* | Andria (3) · Hecyra (3) · Heautontimorumenos (3) · Eunuchus (3) · Phormio (3) · Adelphoe (3) |
@@ -125,8 +125,8 @@ The full Italian translation pass is **DONE**.
 ## What remains (the plan)
 
 - **Plautus**: DONE - 6 comedies (Pseudolus 3 + Mostellaria 3 + Amphitruo 4 + Aulularia 3 +
-  Miles Gloriosus 3 + Menaechmi 3). Menaechmi: prologue, Peniculus, and the Act V.1 mistaken-identity
-  quarrel (vv.701-752; replaced an earlier draft that used the V.2 madness scene).
+  Miles Gloriosus 3 + Menaechmi 4). Menaechmi: prologue, Peniculus, the Act V.1 mistaken-identity
+  quarrel (vv.701-752), and the Act V.2 feigned-madness scene (vv.829-852) - the only work with 4.
 - **Terence** (agreed: 3 fragments per comedy, 6 plays): **DONE - all 6 of 6** - Andria, Hecyra,
   Heautontimorumenos, Eunuchus, Phormio, Adelphoe (3 each). The user said they'll decide later
   whether to add more than 3 per play.
