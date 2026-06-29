@@ -11,7 +11,7 @@
 
   var VERSIONS = [
     {
-      v: '1.0.0', date: '2026-06-29',
+      v: '0.9.14', date: '2026-06-29',
       en: {
         added: [
           'A brand-new "What’s New" scroll, right here on the home page, so you can always see what just changed.',

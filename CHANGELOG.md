@@ -6,10 +6,10 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
-## [1.0.0] - 2026-06-29
+## [0.9.14] - 2026-06-29
 
-A milestone release: the Archaic Era is feature-complete, and the site gains its first in-app,
-reader-friendly changelog.
+The site gains its first in-app, reader-friendly changelog. (v1.0.0 is being held back to mark the
+launch of Caesar's Age.)
 
 ### Added
 - **"What's New" parchment panel** on the home page. A CSS-drawn parchment scroll (warm aged
@@ -18,7 +18,7 @@ reader-friendly changelog.
   release: title, version, then Added / Changed / Deleted in that fixed order (with a
   "Nothing was added/changed/deleted." fallback), and the release date as DD/MM/YYYY CEST.
 - **Full version history modal** behind a "See previous versions" button: a scrollable parchment
-  sheet listing every release from v1.0.0 back to v0.1.0, each rewritten in plain, friendly,
+  sheet listing every release from the current one back to v0.1.0, each rewritten in plain, friendly,
   non-technical language. Closes via the × button, a backdrop click, or the Esc key.
 - Both the panel and the modal are fully bilingual (EN/IT) and follow the flag toggle.
 - New `js/changelog.js` (bilingual version data) and `js/whatsnew.js` (renders the panel + modal);
@@ -28,7 +28,7 @@ reader-friendly changelog.
 - The home page now wraps the era intro and the new scroll in a two-column layout on desktop
   (`.home-two-column`, switching to a single column below 880px); the author grid stays full-width
   below. The existing 560px breakpoint is untouched.
-- Cache version bumped v37 → v38.
+- Cache version bumped v37 → v39.
 
 ## [0.9.13] - 2026-06-19
 
