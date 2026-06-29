@@ -748,3 +748,183 @@ blockquote {
   .site-subtitle { display: none; }
   .era-menu { margin-top: 12px; }
 }
+
+/* ============================================================ What's New
+   A CSS-drawn parchment scroll on the home page (#changelog-panel), filling
+   the empty band beside the era intro, plus the full-history modal. No image
+   assets - the parchment, fibres and wooden roller caps are all drawn here. */
+
+/* Two-column home layout: era intro + parchment scroll. Single column below
+   880px (the existing 560px query is untouched). The author grid stays full
+   width, after this wrapper. */
+.home-two-column {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 22px;
+  margin: 22px 0;
+  align-items: start;
+}
+.home-two-column .era-panel { margin: 0; }
+
+@media (min-width: 880px) {
+  .home-two-column {
+    grid-template-columns: minmax(0, 1.65fr) minmax(264px, 1fr);
+    align-items: stretch; /* parchment matches the intro's height */
+  }
+}
+
+/* Shared aged-parchment background (panel + modal sheet). */
+.changelog-panel,
+.cl-modal {
+  background:
+    radial-gradient(120% 70% at 50% 0%, rgba(216, 184, 120, 0.20), transparent 62%),
+    radial-gradient(120% 70% at 50% 100%, rgba(143, 61, 32, 0.12), transparent 62%),
+    repeating-linear-gradient(90deg, rgba(120, 90, 40, 0.04) 0 2px, transparent 2px 7px),
+    linear-gradient(180deg, var(--parchment), var(--stone));
+}
+
+.changelog-panel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: var(--shadow), inset 0 0 42px rgba(120, 80, 40, 0.08);
+  padding: 26px 22px;
+  color: var(--ink-soft);
+}
+
+/* Wooden roller caps top & bottom -> reads as a scroll, no image needed. */
+.changelog-panel::before,
+.changelog-panel::after {
+  content: "";
+  position: absolute;
+  left: -6px;
+  right: -6px;
+  height: 15px;
+  border-radius: 9px;
+  background: linear-gradient(180deg, #c6915520 0%, #c69155 8%, #884e26 55%, #5c3719 100%);
+  box-shadow: var(--shadow);
+}
+.changelog-panel::before { top: -7px; }
+.changelog-panel::after { bottom: -7px; }
+
+.cl-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+}
+.cl-title {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  color: var(--deep-red);
+}
+.cl-version {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--terracotta-deep);
+}
+.cl-body { display: flex; flex-direction: column; gap: 11px; }
+.cl-cat {
+  margin: 0 0 3px;
+  font-weight: 700;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: var(--gold);
+}
+.cl-list { margin: 0; padding-left: 18px; }
+.cl-item { margin: 0 0 5px; }
+.cl-item:last-child { margin-bottom: 0; }
+.cl-empty { margin: 0; font-style: italic; color: var(--gray); }
+.cl-date {
+  margin: 6px 0 0;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--gray);
+}
+.cl-more-btn {
+  align-self: flex-start;
+  margin-top: 10px;
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--parchment);
+  background: var(--deep-red);
+  border: 1px solid var(--terracotta-deep);
+  border-radius: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+  transition: background 0.18s ease, transform 0.18s ease;
+}
+.cl-more-btn:hover { background: var(--terracotta-deep); transform: translateY(-1px); }
+
+/* ---- full-history modal ---- */
+.cl-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: none;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 6vh 16px;
+  background: rgba(43, 38, 34, 0.55);
+  overflow-y: auto;
+}
+.cl-modal-overlay.is-open { display: flex; }
+body.cl-modal-open { overflow: hidden; }
+
+.cl-modal {
+  position: relative;
+  width: 100%;
+  max-width: 680px;
+  max-height: 88vh;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: var(--shadow-lift);
+  overflow: hidden;
+}
+.cl-modal-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 20px;
+  background: var(--stone-deep);
+  border-bottom: 1px solid var(--line);
+}
+.cl-modal-title {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  color: var(--deep-red);
+}
+.cl-modal-close {
+  font-size: 1.7rem;
+  line-height: 1;
+  background: none;
+  border: none;
+  color: var(--ink-soft);
+  cursor: pointer;
+  padding: 0 4px;
+}
+.cl-modal-close:hover { color: var(--deep-red); }
+.cl-modal-list {
+  overflow-y: auto;
+  padding: 4px 24px 24px;
+  color: var(--ink-soft);
+}
+.cl-modal-entry {
+  padding: 18px 0;
+  border-bottom: 1px solid var(--line);
+}
+.cl-modal-entry:last-child { border-bottom: none; }
+.cl-modal-entry .cl-version { font-size: 1.15rem; margin-bottom: 2px; }
+.cl-modal-entry .cl-date { margin: 0 0 10px; }
+.cl-modal-entry .cl-body { gap: 9px; }

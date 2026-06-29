@@ -135,7 +135,21 @@
       'select.lead': 'Pick a text to practise. Each one has several fragments you can cycle through.',
       'select.noTexts': 'No texts are available here yet.',
       'select.heading': function (p) { return 'Choose a comedy by ' + p.author; },
-      'select.fragmentsCount': function (p) { return p.n + (p.n === 1 ? ' fragment' : ' fragments'); }
+      'select.fragmentsCount': function (p) { return p.n + (p.n === 1 ? ' fragment' : ' fragments'); },
+
+      // --- what's new (changelog scroll) ---
+      'whatsNew.title': 'What’s New',
+      'whatsNew.version': 'Version v{version}',
+      'whatsNew.released': 'Released {date} CEST',
+      'whatsNew.cat.added': 'Added',
+      'whatsNew.cat.changed': 'Changed',
+      'whatsNew.cat.deleted': 'Deleted',
+      'whatsNew.nothing.added': 'Nothing was added.',
+      'whatsNew.nothing.changed': 'Nothing was changed.',
+      'whatsNew.nothing.deleted': 'Nothing was deleted.',
+      'whatsNew.seePrevious': 'See previous versions',
+      'whatsNew.historyTitle': 'Full version history',
+      'whatsNew.close': 'Close'
     },
 
     it: {
@@ -251,7 +265,21 @@
       'select.lead': 'Scegli un testo su cui esercitarti. Ognuno di essi ha diversi frammenti che puoi provare a tradurre.',
       'select.noTexts': 'Qui non è ancora disponibile alcun testo.',
       'select.heading': function (p) { return 'Scegli una commedia di ' + p.author; },
-      'select.fragmentsCount': function (p) { return p.n + (p.n === 1 ? ' frammento' : ' frammenti'); }
+      'select.fragmentsCount': function (p) { return p.n + (p.n === 1 ? ' frammento' : ' frammenti'); },
+
+      // --- what's new (changelog scroll) ---
+      'whatsNew.title': 'Novità',
+      'whatsNew.version': 'Versione v{version}',
+      'whatsNew.released': 'Pubblicato il {date} CEST',
+      'whatsNew.cat.added': 'Aggiunte',
+      'whatsNew.cat.changed': 'Modifiche',
+      'whatsNew.cat.deleted': 'Rimozioni',
+      'whatsNew.nothing.added': 'Nessuna aggiunta.',
+      'whatsNew.nothing.changed': 'Nessuna modifica.',
+      'whatsNew.nothing.deleted': 'Nessuna rimozione.',
+      'whatsNew.seePrevious': 'Vedi le versioni precedenti',
+      'whatsNew.historyTitle': 'Cronologia completa delle versioni',
+      'whatsNew.close': 'Chiudi'
     }
   };
 
