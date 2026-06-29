@@ -27,6 +27,10 @@
 
   function eraName(e) { return I18n.t(e.nameKey); }
 
+  // Folder holding the Archaic-era portraits (they were moved out of the old
+  // flat images/ dir into per-era folders; Caesar's Age will use images_caesar/).
+  var IMAGE_DIR = 'images_archaic/';
+
   // --- Explicit author-slug -> real image filename(s) lookup (the table
   // wins over anything derived or written in the markdown). Mind the three
   // .jpeg files. Combined entries carry two portraits. ---
@@ -399,7 +403,7 @@
       name: name,
       dates: dates,
       images: images.map(function (file) {
-        return { src: 'images/' + file };
+        return { src: IMAGE_DIR + file };
       }),
       combined: images.length > 1,
       biography: scrubRanking(cleanBody(sections.biography || '')),

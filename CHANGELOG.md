@@ -6,6 +6,29 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [0.9.15] - 2026-06-29
+
+### Added
+- **Bacchides** added to the Plautus chooser as the seventh comedy (3 fragments, Latin from The
+  Latin Library; "Le Bacchidi" in Italian mode), each fully bilingual:
+  - Act I, Sc. 1 (vv. 44-72) - the opening scene: the two Bacchis sisters set their trap for
+    Pistoclerus. Analysis highlights the sisters as malicious, unscrupulous and seductive, and the
+    cluster of metaphors (bird-lime / one dove, the bacchae pun, "mala bestia", the barbed-words
+    tricolon, and the palaestra catalogue ending in "scortum pro scuto"). Trimmed from the full
+    vv. 35-93 to ~29 continuous lines (two editorially suspect lines kept; flag for proofread).
+  - Act IV, Sc. 9 (vv. 925-945) - Chrysalus's mock-epic "Troy" canticum (the letter-tablets as the
+    wooden horse, the old man renamed Ilium, the arx/arca pun), abridged with [...].
+  - Act V, Sc. 2 (vv. 1121-1151) - the finale: the sisters mock the two old fathers as "sheep" and
+    coolly split them to lure them inside, abridged with [...].
+- A v0.9.15 entry in the in-app "What's New" scroll.
+
+### Changed
+- **Fixed the author portraits.** The archaic-era images had been moved from `images/` to
+  `images_archaic/`, so the author cards and profile pages were falling back to the orange
+  initials placeholder. `js/data.js` now resolves portraits from `images_archaic/` (via a new
+  `IMAGE_DIR` constant), and that folder is committed; the obsolete `images/` copies are removed.
+- Cache version bumped v39 → v40.
+
 ## [0.9.14] - 2026-06-29
 
 The site gains its first in-app, reader-friendly changelog. (v1.0.0 is being held back to mark the

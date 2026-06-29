@@ -11,6 +11,27 @@
 
   var VERSIONS = [
     {
+      v: '0.9.15', date: '2026-06-29',
+      en: {
+        added: [
+          'Plautus gains a seventh comedy, the Bacchides, with three scenes - the two scheming sisters who lay a honeyed trap for a young man in the opening, a slave who brags about his swindle as if he had sacked Troy, and a finale where the sisters fleece two old fathers like sheep.'
+        ],
+        changed: [
+          'Fixed the author portraits: the real photos are back on the author cards (and profile pages), replacing the orange initials placeholders that had crept in.'
+        ],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Plauto guadagna una settima commedia, le Bacchidi, con tre scene: le due sorelle intriganti che tendono una trappola melliflua a un giovane nell’apertura, uno schiavo che si vanta della sua truffa come se avesse saccheggiato Troia, e un finale in cui le sorelle tosano due vecchi padri come pecore.'
+        ],
+        changed: [
+          'Sistemati i ritratti degli autori: le foto vere sono tornate sulle schede degli autori (e sulle pagine dei profili), al posto dei segnaposto arancioni con le iniziali che erano comparsi.'
+        ],
+        deleted: []
+      }
+    },
+    {
       v: '0.9.14', date: '2026-06-29',
       en: {
         added: [
