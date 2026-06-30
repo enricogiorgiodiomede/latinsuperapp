@@ -11,7 +11,8 @@ Repo: `github.com/enricogiorgiodiomede/latinsuperapp` (branch `main`).
 ## What the project is
 
 A static, **no-build web app** (plain HTML/CSS/vanilla JS, no frameworks) for exploring Roman
-(Latin) authors and practising translation. Only the **Archaic Era** has content so far.
+(Latin) authors and practising translation. The **Archaic Era** and **Caesar's Age** are both live
+(as of v1.0.0, 2026-06-30); the other three eras are placeholders.
 
 Pages:
 - `index.html` - home: 5-era menu (only Archaic live), era intro panel, author grid.
@@ -33,9 +34,13 @@ The full Italian translation pass is **DONE**.
 
 ## Architecture / where things live
 
-- `js/data.js` - loads + parses `archaic_era_draft.md` (fetch over http, embedded fallback
-  `js/content.js` for `file://`); **scrubs tier/ranking language** from displayed prose; exposes
-  `LatinData` (eras, authors, bio/works/style).
+- `js/data.js` - **era-aware**: an `ERA_CONFIG` registry maps each available era (archaic, caesar)
+  to its markdown file, image folder (`images_archaic/` / `images_caesar/`), and slug→portrait
+  lookup. Loads + parses the per-era draft (fetch over http, embedded fallback `js/content.js` for
+  `file://`, which now holds `__ARCHAIC_MD__` + `__CAESAR_MD__`); **scrubs tier/ranking language**
+  from displayed prose; exposes `LatinData` (eras, authors, bio/works/style). To add an era: add an
+  `ERA_CONFIG` entry, flip its `ERAS` `available:true`, drop its images in the folder, regenerate
+  content.js + content-it.js, add ratings + fragments.
 - `js/content.js` - GENERATED embedded copy of the draft (regenerate when the draft changes; see
   README for the node one-liner).
 - `js/ratings.js` - per-author difficulty data (4 criteria + overall evaluation). `js/chart.js` -
@@ -62,7 +67,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=37`.**
+   whenever you change a JS/CSS file. **Currently `v=44`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -122,6 +127,25 @@ The full Italian translation pass is **DONE**.
 | Gaius Lucilius | Saturae (1) |
 | Pomponius & Novius | Fullones (1) + Galli Transalpini (1) + Kalendae Martiae (1) · Maccus Exul (1) + Atellanae (2) |
 
+**Caesar's Age (live as of v1.0.0)** - all `needsSelection:false`, fragments cycle on the practice page:
+
+| Author (slug) | Eval | Fragment(s) |
+|---|---|---|
+| Marcus Terentius Varro | Manageable | De Re Rustica I.1 (1) |
+| Cornelius Nepos | Good Exercise | Epaminondas (1) |
+| Quintus Hortensius Hortalus | **NC (no chart)** | Cicero, Brutus 6 (1) |
+| Publius Nigidius Figulus | **NC (no chart)** | Gellius, NA X.9 (1) |
+| Marcus Tullius Cicero | Very Difficult | In Catilinam I.1-2 · Ad Atticum I.16 · De Amicitia 20 (3) |
+| Gaius Julius Caesar | Good Exercise | BG VI.13-14 Druids · BC I.7 Rubicon speech (2) |
+| Aulus Hirtius | Manageable | BG VIII praef. · Bellum Alexandrinum 1-2 (2) |
+| Titus Lucretius Carus | Very Difficult | DRN I.80-101 Iphigenia (1) |
+| Gaius Sallustius Crispus | START PRAYING, BOY | Cat. 5 portrait · Iug. 85 Marius (2) |
+| Gaius Valerius Catullus | Manageable | carmina 3 · 101 · 64.1-7 (3) |
+
+Caesar images live in `images_caesar/` (Figulus's portrait is Pythagoras - no ancient likeness of
+Nigidius survives). Caesar fragments carry no `analysisIt` from the docs (the IT excerpt sections
+have only the translation), so Italian analyses were authored fresh during the v1.0.0 build.
+
 ## What remains (the plan)
 
 - **Plautus**: DONE - 6 comedies (Pseudolus 3 + Mostellaria 3 + Amphitruo 4 + Aulularia 3 +
@@ -143,19 +167,44 @@ analysisIt, proper accents), short tailored analysis, title, citation; spread ac
 commit + push; update `CHANGELOG.md`, `practice_fragments_reference.md`, and this file (table +
 cache `v=`).
 
-### >>> RESUME HERE: Archaic practice bank COMPLETE - next steps <<<
+### >>> CAESAR'S AGE IS LIVE IN THE APP (v1.0.0, 2026-06-30) -- Next: Augustan Era (awaiting permission) <<<
 
-**Every Archaic author now has a full set of practice fragments** (see the content table above).
-Nothing in the Archaic practice bank is outstanding. Possible next directions (ask the user):
+**The Caesar's Age web-app build is DONE**: era-aware `data.js`, the 10-author grid + profiles
+(scrubbed bio/works/style + chart + evaluation, EN & IT), 17 practice fragments (EN & IT), images,
+regenerated content.js/content-it.js, ratings, changelog v1.0.0. Verified in the browser preview in
+both languages (no console errors; tier language scrubbed; NC authors chart-less; dates single-dash;
+verbatim Latin validated against the drafts). Committed + pushed.
 
-1. **Optional polish on the Archaic bank**: mirror the new practice Italians into
-   `italian_translations_archaic.md`; or add more comedies/fragments to Plautus or Terence (the user
-   said they'd decide later). (Pomponius is at 3; Plautus now has a 6th comedy, Menaechmi, at 3.)
-   To add a Plautus comedy: new work with `label` (Latin) + `labelIt` (e.g. Menaechmi -> "Menecmi")
-   appended to the Plautus `works` array; Latin from TLL `plautus/<play>.shtml` (UTF-8, curl-able).
-2. **A new era** (Caesar's / Augustan / Imperial / Late): per `CLAUDE.md`, the draft + ratings +
-   chart + content pipeline only cover the Archaic Era. Starting another era is a much larger task
-   (new `*_draft.md`, ratings, content-it, etc.) and **requires explicit user permission**.
+**Archaic Era practice bank is complete. Caesar's Era writing was COMPLETE as of 2026-06-29; the app
+integration completed 2026-06-30.**
+
+**Caesar's Era draft state (COMPLETE):**
+
+| Entry | Tier | Status |
+|---|---|---|
+| Era Introduction | -- | Done |
+| Marcus Terentius Varro | C | Done |
+| Cornelius Nepos | D | Done |
+| Quintus Hortensius Hortalus | NC | Done |
+| Publius Nigidius Figulus | NC | Done |
+| Marcus Tullius Cicero | A Low End | Done (2026-06-28) |
+| Gaius Julius Caesar | D | Done (2026-06-28) |
+| Aulus Hirtius | C | Done (2026-06-28) |
+| Titus Lucretius Carus | A High End | Done (2026-06-29) |
+| Gaius Sallustius Crispus | S | Done (2026-06-29) |
+| Gaius Valerius Catullus (+ neoteric sidebar) | C | Done (2026-06-29) |
+
+Both `caesar_era_draft.md` (English) and `italian_translations_caesar.md` (Italian) are fully in sync. All legacy sections present. Italian file headers standardised to "Eredità e Impatto" throughout.
+
+**Catullus entry summary (2026-06-29):**
+- Three excerpts: carmina 3 (full, 18 lines -- sparrow), carmina 101 (full, 10 lines -- brother's grave), carmina 64.1-7 (epyllion opening, shows carmina docta difficulty).
+- Neoteric circle sidebar: Calvus, Bibaculus, Helvius Cinna, Cornificius -- all NC.
+- Legacy includes Petrarch's 14th-century study of the *Codex Veronensis* and the Catullan model behind the *Canzoniere*.
+- Tier C (Manageable): polymetrics/epigrams D-to-C, carmina docta low B.
+
+**Next step:** request permission to start the **Augustan Era (44 BC -- 14 AD)**. Authors: Cornelius Gallus, Livy, Virgil, Tibullus, Vitruvius, Propertius, Horace, Ovid (mainstream); Hyginus, Grattius (lesser known). Confirm permission before starting per CLAUDE.md.
+
+**Optional (Archaic bank)**: mirror new practice fragment Italians into `italian_translations_archaic.md`; or add more Plautus/Terence fragments (user deferred this decision).
 
 Sourcing notes worth keeping: some TLL pages are **UTF-16** (Cicero *De Divinatione* / *De Oratore*,
 Gellius) - `curl ... -o f.raw` then `tr -d '\000' < f.raw | sed 's/<[^>]*>//g' ...` to read them.

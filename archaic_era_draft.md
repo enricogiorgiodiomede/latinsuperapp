@@ -49,12 +49,6 @@ The main sources of difficulty are: archaic lexicon with pre-classical morpholog
 > Igitur demum Ulixi cor frixit prae pavore.
 > *(Odusia V, 297 -- rendering of Odyssey 5.297)*
 
-**Italian translation** *(original)*
-
-> Raccontami, o Camena, dell'uomo dall'ingegno molteplice.
-
-> E allora, finalmente, il cuore di Ulisse si gelò di terrore.
-
 **English translation** *(original)*
 
 > Tell me, O Camena, of the man of manifold cunning.
@@ -116,12 +110,6 @@ The main difficulties are the same as for Livius: archaic lexicon, Saturnian met
 
 *(Bellum Poenicum, Liber I, fragment 8)*
 
-**Italian translation** *(original)*
-
-> Le mogli di entrambi
-> uscivano di notte da Troia col capo velato,
-> piangendo entrambe, partendo tra molte lacrime.
-
 **English translation** *(original)*
 
 > The wives of both
@@ -148,13 +136,6 @@ Metrically, this is Saturnian verse. The archaic form *Troiad* (from Troy -- an 
 > obliti sunt Romae loquier lingua Latina.
 
 *(Epitaphium Naevii -- fragment 67)*
-
-**Italian translation** *(original)*
-
-> Se fosse lecito agli immortali piangere i mortali,
-> le divine Camenae piangerebbero il poeta Nevio.
-> Dacché fu consegnato al tesoro di Orco,
-> a Roma hanno dimenticato di parlare in lingua latina.
 
 **English translation** *(original)*
 
@@ -218,14 +199,6 @@ That said, archaic vocabulary remains the core difficulty, with morphological fo
 > Nos sumus Romani qui fuimus ante Rudini.
 >
 > *(Annales XVIII -- de se ipso)*
-
-**Italian translation** *(original)*
-
-> Un solo uomo, con il suo indugiare, ci ha restituito la patria.
-> Non anteponeva le voci di popolo alla salvezza.
-> E così la gloria di quell'uomo ora splende sempre di più.
-
-> Noi siamo Romani, noi che fummo un tempo di Rudiae.
 
 **English translation** *(original)*
 
@@ -327,31 +300,6 @@ The *sermo cotidianus* constitutes its own genre burden: it demands cultural imm
 >
 > *(Pseudolus I.i, vv. 22-36)*
 
-**Italian translation** *(original)*
-
-> PSEUDOLO: Come vuoi. Ma cos'e' questo, di grazia?
-> CALIDORO: Cosa c'e'?
-> PS: A mio parere, queste lettere cercano dei figli:
-> l'una si arrampica sull'altra.
-> CAL: Gia' a fare il tuo solito gioco?
-> PS: Per Polluce, ci credo: se non e' la Sibilla a leggerle,
-> nessun altro ci riuscirebbe.
-> CAL: Come puoi parlare cosi' male di belle lettere,
-> scritte su belle tavolette da una bella mano?
-> PS: Ma, per Ercole, le galline hanno forse le mani?
-> Perche' questa l'ha scritta una gallina.
-> CAL: Sei insopportabile.
-> Leggile o ridammele.
-> PS: No, no, le leggo fino in fondo.
-> Fa' attenzione.
-> CAL: Non ci sono.
-> PS: Allora sforzati.
-> CAL: No, sto' zitto io; tirala fuori tu dalla cera;
-> perche' il mio animo e' la', non nel petto.
-> PS: Vedo la tua amica, Calidoro.
-> CAL: Dov'e'? Ti prego.
-> PS: Eccola, distesa sulle tavolette: giace nella cera.
-
 **English translation** *(original)*
 
 > PSEUDOLUS: As you wish. But what in the world is this?
@@ -445,10 +393,6 @@ By the criteria: lexicon is MEDIUM (agricultural technical vocabulary plus archa
 >
 > *(De Agri Cultura, Praefatio)*
 
-**Italian translation** *(original)*
-
-> A volte conviene guadagnarsi da vivere col commercio, se non fosse tanto rischioso; e col prestito a interesse, se non fosse tanto disonorevole. I nostri antenati la pensavano cosi' e cosi' l'hanno messo per legge: il ladro si condanna al doppio, il prestatore al quadruplo. Quanto considerassero peggiore il prestatore del ladro, lo si puo' capire da questo. E quando lodavano un uomo virtuoso, lo lodavano cosi': buon agricoltore e buon coltivatore; chi veniva lodato in questi termini era considerato il piu' elogiato di tutti. Il mercante lo considero anch'io attivo e dedito al guadagno, ma, come ho gia' detto, e' una vita rischiosa e soggetta a disgrazie. Dagli agricoltori nascono invece gli uomini piu' forti e i soldati piu' tenaci; il guadagno che ne viene e' il piu' onesto, il piu' stabile, il meno invidiato; e chi si dedica a questa occupazione e' il meno portato a pensare male.
-
 **English translation** *(original)*
 
 > Sometimes it pays better to seek profit through trade -- if only the life were not so risky -- or through lending at interest, if that were not so dishonorable. Our ancestors thought as much, and wrote it into law: a thief to be fined double, a moneylender fourfold. How much worse they judged a moneylender than a thief, you can judge from this. And when they praised a virtuous man, they praised him thus: good farmer and good tiller of the soil; whoever was praised in those terms was held to be praised in the highest possible way. I consider the merchant vigorous and keen in pursuit of profit -- but, as I said above, the life is risky and prone to ruin. From farmers come the strongest men and the most capable soldiers; the profit earned from the land is the most honorable, the most stable, the least resented; and those devoted to this pursuit are the least inclined to think ill.
@@ -532,23 +476,6 @@ Beyond this, reliable assessment is impossible. The NC criteria are met precisel
 > impetrarit suo, quod ego anus modo
 > effeci, paelice ut meum privarem virum?"
 > haec erunt concilia hodie, differor sermone miser.
-
-**Italian translation** *(original)*
-
-> Davvero infelice e' colui che non sa tenere nascosta la propria miseria:
-> mia moglie, con il suo aspetto e i suoi modi, mi denuncia anche quando taccio.
-> Salvo la dote, ha tutto cio' che non vorresti: chi e' saggio impara da me,
-> io che, uomo libero, servo come un prigioniero di guerra mentre citta' e rocca sono salve.
-> Qualunque cosa mi piaccia, lei me ne priva con la forza, nel mio interesse.
-> Mentre aspetto bramosamente la sua morte, io stesso vivo da morto in mezzo ai vivi.
-> Ha detto che avevo un'intesa segreta con la mia schiava, mi ha accusato,
-> e mi ha tanto logorato con pianti, suppliche, insistenze e rimproveri
-> che l'ho venduta. Ora immagino che stia riferendo alle sue coetanee
-> e parenti: "quale di voi, nel fiore degli anni,
-> ha mai ottenuto dal proprio marito
-> cio' che io, vecchia com'ero, sono riuscita a ottenere --
-> privare mio marito della sua concubina?"
-> Questi saranno i discorsi di oggi, e io, povero me, sono fatto a pezzi dai pettegolezzi.
 
 **English translation** *(original)*
 
@@ -649,21 +576,6 @@ From a difficulty standpoint, Terence is more controlled than any other archaic 
 > aut consolando aut consilio aut re iuvero.
 > ME. scire hoc vis? CH. hac quidem causa qua dixi tibi.
 
-**Italian translation** *(original)*
-
-> ME. Chreme, hai davvero cosi' tanto tempo libero da occuparti delle faccende altrui, che non ti riguardano per niente?
-> CH. Sono un uomo: non considero nulla di umano estraneo a me.
-> Prendila come un avvertimento o come una semplice curiosita':
-> fare questa cosa e' giusto per me; non e' che voglia dissuaderti.
-> ME. Le mie abitudini sono queste; tu fa' come ti conviene.
-> CH. Ma esiste qualcuno a cui faccia bene tormentarsi cosi'? ME. A me.
-> CH. Se c'e' qualche dolore, ne sono dispiaciuto. Ma qual e' questo male?
-> Dimmi, cos'hai fatto di tanto grave a te stesso? ME. Ahime'!
-> CH. Non piangere -- qualunque cosa sia, fammi sapere:
-> non stare in silenzio, non aver paura, credimi:
-> ti aiutero' con parole di conforto, con un consiglio, o con i fatti.
-> ME. Vuoi davvero saperlo? CH. Per il motivo che ti ho detto.
-
 **English translation** *(original)*
 
 > ME. Chremes, have you really got so much free time that you concern yourself with other people's affairs, things that have nothing to do with you?
@@ -748,11 +660,6 @@ Neither is assessable for difficulty in any reliable way. The fragments are suff
 > Conqueri fortunam adversam, non lamentari decet.
 > Id viri est officium, fletus muliebri ingenio additus.
 
-**Italian translation** *(original)*
-
-> Lamentarsi della sorte avversa e' lecito; piangere su di essa, no.
-> Questo e' il compito di un uomo; le lacrime appartengono all'animo femminile.
-
 **English translation** *(original)*
 
 > To complain of adverse fortune is fitting; to lament it is not.
@@ -773,10 +680,6 @@ The gendered framing -- weeping as feminine, controlled complaint as masculine -
 **Latin text** *(Accius, Atreus, fr. preserved in Cicero, De Officiis I.97, www.thelatinlibrary.com)*
 
 > oderint, dum metuant.
-
-**Italian translation** *(original)*
-
-> Mi odino pure, purche' mi temano.
 
 **English translation** *(original)*
 
@@ -852,10 +755,6 @@ Horace modeled his entire satirical career on Lucilius. He also could not stop p
 > hos magni facere, his bene velle, his vivere amicum,
 > commoda praeterea patriai prima putare,
 > deinde parentum, tertia iam postremaque nostra.
-
-**Italian translation** *(original)*
-
-> Virtus, Albino, e' poter pagare il giusto prezzo nelle cose in cui ci muoviamo, nelle cose in cui viviamo; virtus e' per l'uomo conoscere cio' che ogni cosa ha in se stessa; virtus e' conoscere per l'uomo cio' che e' retto, utile, onesto; quali cose siano buone, quali parimenti malvagie, inutili, turpi, disoneste; virtus e' conoscere il fine e la misura del cercare; virtus e' poter dare il giusto valore alle ricchezze; virtus e' dare cio' che in realta' e' dovuto all'onore; essere nemico e avversario degli uomini e dei costumi malvagi, e al contrario difensore degli uomini e dei costumi buoni; tenere costoro in grande stima, voler loro bene, vivere come loro amico; e poi ritenere i vantaggi della patria al primo posto, poi quelli dei genitori, e al terzo posto, infine, i nostri.
 
 **English translation** *(original)*
 
@@ -964,12 +863,6 @@ The main difficulty for a modern student is vocabulary. The rustic and colloquia
 > Mi frater, salueto! -- O soror, salue, mea!
 > Facite ut ignis feruat, ligna insipite, far concidite.
 
-**Italian translation** *(original)*
-
-> Su allora, visto che e' il momento, abbracciatevi!
-> Fratello mio, salve! -- Oh sorella mia, salve!
-> Fate in modo che il fuoco bolla, mettete dentro i legni, tritate il farro.
-
 **English translation** *(original)*
 
 > Come on then, since it is the right moment, go ahead and embrace!
@@ -999,12 +892,6 @@ Line 3: The comedy lands back in the workshop: *facite ut ignis feruat* (see to 
 > Em: díxin itúrum hominem in Túscos tolútim?
 > Límen superum, quód mei misero saépe confregít caput,
 > Ínferum autem, dígitos omnis úbi ego diffregí meos.
-
-**Italian translation** *(original)*
-
-> Eccolo! Non l'avevo detto che quell'uomo se ne sarebbe andato in Toscana di gran carriera?
-> La soglia di sopra, che mi ha cosi' spesso sfondato la testa, povero me,
-> e quella di sotto, dove mi sono rotto tutte le dita dei piedi.
 
 **English translation** *(original)*
 

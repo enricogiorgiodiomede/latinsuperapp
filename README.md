@@ -82,7 +82,7 @@ inconsistent; it reads the markdown and never modifies it.)
 - `practice.html?era=archaic&id=<slug>` - practice: the Latin excerpt with a textarea to
   attempt a translation and reveal buttons for the Italian, English, and analysis.
 
-Only the **Archaic Era** has content today; the other four eras are placeholders.
+The **Archaic Era** and **Caesar's Age** have content today; the other three eras are placeholders.
 
 ## File layout
 

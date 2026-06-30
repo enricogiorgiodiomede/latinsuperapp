@@ -93,6 +93,44 @@
     'pomponius-bononiensis-and-quintus-novius': {
       lexicon: 2.0, syntax: 1.5, style: 1.6, density: 1.4,
       evaluation: 'good-exercise', fragments: true, scaledDown: true
+    },
+
+    // --- Caesar's Age (100-44 BC) ---
+    // Tiers are taken from the finalized era draft. NC authors (Hortensius,
+    // Figulus) have NO entry here on purpose: with no complete text surviving,
+    // they are "Not Comparable", so author.js shows their profile without a
+    // difficulty badge or chart. Bars follow the draft's per-criterion notes.
+    'marcus-terentius-varro': {
+      lexicon: 2.9, syntax: 2.4, style: 2.2, density: 2.7,
+      evaluation: 'manageable', fragments: false
+    },
+    'cornelius-nepos': {
+      lexicon: 1.6, syntax: 1.5, style: 1.5, density: 1.6,
+      evaluation: 'good-exercise', fragments: false
+    },
+    'marcus-tullius-cicero': {
+      lexicon: 3.2, syntax: 3.6, style: 3.5, density: 3.3,
+      evaluation: 'very-difficult', fragments: false
+    },
+    'gaius-julius-caesar': {
+      lexicon: 1.9, syntax: 2.2, style: 1.6, density: 1.7,
+      evaluation: 'good-exercise', fragments: false
+    },
+    'aulus-hirtius': {
+      lexicon: 2.1, syntax: 2.3, style: 1.9, density: 2.0,
+      evaluation: 'manageable', fragments: false
+    },
+    'titus-lucretius-carus': {
+      lexicon: 3.7, syntax: 3.3, style: 3.3, density: 3.6,
+      evaluation: 'very-difficult', fragments: false
+    },
+    'gaius-sallustius-crispus': {
+      lexicon: 3.4, syntax: 3.8, style: 3.7, density: 3.4,
+      evaluation: 'praying', fragments: false
+    },
+    'gaius-valerius-catullus': {
+      lexicon: 2.4, syntax: 2.3, style: 2.7, density: 2.6,
+      evaluation: 'manageable', fragments: false
     }
   };
 

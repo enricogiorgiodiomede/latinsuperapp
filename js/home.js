@@ -61,15 +61,20 @@
     panelToggleEl.innerHTML = state.expanded ? '&minus;' : '+';
   }
 
+  function isAvailable(eraId) {
+    var e = state.eras.filter(function (x) { return x.id === eraId; })[0];
+    return !!(e && e.available);
+  }
+
   function renderPanelBody(eraId) {
-    if (eraId !== 'archaic') {
+    if (!isAvailable(eraId)) {
       panelBodyEl.innerHTML =
         '<p class="coming-soon">' + Markdown.escapeHtml(I18n.t('home.comingSoon')) +
         '<small>' + Markdown.escapeHtml(I18n.t('home.eraNotWritten')) + '</small></p>';
       return;
     }
     panelBodyEl.innerHTML = '<div class="loading">' + Markdown.escapeHtml(I18n.t('loading.generic')) + '</div>';
-    LatinData.getEra('archaic').then(function (era) {
+    LatinData.getEra(eraId).then(function (era) {
       panelBodyEl.innerHTML = Markdown.render(era.intro);
     }).catch(function (err) {
       UI.showError(panelBodyEl, err.message);
@@ -77,7 +82,7 @@
   }
 
   function renderGrid(eraId) {
-    if (eraId !== 'archaic') {
+    if (!isAvailable(eraId)) {
       gridLabelEl.style.display = 'none';
       gridEl.innerHTML =
         '<p class="coming-soon" style="grid-column:1/-1">' + Markdown.escapeHtml(I18n.t('home.comingSoon')) +
@@ -89,20 +94,20 @@
     gridLabelEl.textContent = I18n.t('home.authorsOf', { era: eraObj ? eraObj.name : '' });
     gridEl.innerHTML = '<div class="loading" style="grid-column:1/-1">' + Markdown.escapeHtml(I18n.t('loading.authors')) + '</div>';
 
-    LatinData.getAuthors('archaic').then(function (authors) {
+    LatinData.getAuthors(eraId).then(function (authors) {
       gridEl.innerHTML = '';
       authors.forEach(function (author) {
-        gridEl.appendChild(buildCard(author));
+        gridEl.appendChild(buildCard(eraId, author));
       });
     }).catch(function (err) {
       UI.showError(gridEl, err.message);
     });
   }
 
-  function buildCard(author) {
+  function buildCard(eraId, author) {
     var card = document.createElement('a');
     card.className = 'author-card';
-    card.href = 'author.html?era=archaic&id=' + encodeURIComponent(author.slug);
+    card.href = 'author.html?era=' + encodeURIComponent(eraId) + '&id=' + encodeURIComponent(author.slug);
 
     var portraits = document.createElement('div');
     portraits.className = 'card-portraits';

@@ -279,3 +279,136 @@ The day that finished the Archaic Era practice bank. Three commits took the app 
 - `CHANGELOG.md`, `PROGRESS.md`, and `practice_fragments_reference.md` were updated, `js/fragments.js` was extended, and the page assets (`index.html`, `author.html`, `practice.html`, `practice-select.html`) were cache-busted across the three releases.
 
 **Progress:** The Archaic Era practice bank is now complete. Every Archaic author carries a full set of practice fragments (the comedy authors and Cato/Caecilius at 5 each from earlier days, the big-three poets and the four fragmentists at 3 each as of today). The other four eras remain placeholders pending their drafts.
+
+---
+
+## 2026-06-27
+
+*(End-of-day log.)*
+
+A day split between finishing Plautus in the practice trainer and opening the Caesar's Era. Three commits took the app from v0.9.10 to v0.9.13, adding Menaechmi as Plautus's sixth comedy and then immediately revising the fragment selection. Separately, the Caesar's Era was started: the project instructions were updated and the first full draft entry (Varro) was written.
+
+**Menaechmi added to the Plautus chooser (v0.9.11, cache v35):**
+- Plautus's Menaechmi added as a sixth comedy ("Menecmi" in Italian mode), with 3 bilingual practice fragments (Latin from The Latin Library): the Prologue (vv. 17-28, the identical-twins premise that underlies the whole mistaken-identity farce and inspired Shakespeare's *Comedy of Errors*); Act I.1 (vv. 77-95, the parasite Peniculus on why food binds better than chains); and Act V.2 (vv. 829-852, the set-piece the user requested: the traveling twin cornered by his brother's wife and her father, feigning madness and turning Bacchus and Apollo into punch-lines). Cache bumped v34 to v35.
+
+**Third fragment replaced, then re-added (v0.9.12-0.9.13):**
+- The Act V.2 feigned-madness scene was swapped out (v0.9.12, cache v36) in favor of the Act V.1 quarrel (vv. 701-752, abridged with [...]): the wife mistakes the visiting Syracusan twin for her husband and rails at him over a stolen mantle; he, a baffled stranger, parries with mythological jabs (Hecuba the "dog", knowing her "as well as Porthaon / Calchas"). A purer example of the look-alike confusion and Plautine mythology-as-punchline.
+- The Act V.2 madness scene was then re-added as a fourth fragment (v0.9.13, cache v37), sitting right after the V.1 quarrel it continues. Menaechmi is now the only work in the bank with 4 fragments; the analysis cross-references the V.1 Hecuba/Calchas jabs.
+
+**Caesar's Era project instructions updated (CLAUDE.md):**
+- The Caesar's Era author list was reorganized into chronological order by birth.
+- Aulus Hirtius (c. 90-43 BC) added as a mainstream author, to be handled as a paired entry with Caesar.
+- A drafting order was specified: Varro, Nepos, Hortalus + Figulus (as a pair), then the Big 5 (Cicero, Caesar + Hirtius paired, Lucretius, Sallust, Catullus).
+- A note added for the Catullus entry: include a sidebar section on neoteric poets in his circle (Calvus, Bibaculus), brief biographical mentions only, NC tier, no full entries.
+
+**Caesar's Era draft opened (caesar_era_draft.md, italian_translations_caesar.md):**
+- `caesar_era_draft.md` (created) -- Era introduction and the first full author entry:
+  - Era introduction covering historical context (Social War through Caesar's assassination), the arrival of Greek philosophy in Rome (Cicero/Philo of Larissa), the two literary registers of the era (Cicero/Caesar/Sallust vs. the neoteric poets), the Atticist/Ciceronian prose debate, and the coinage of *qualitas*.
+  - **Marcus Terentius Varro (116-27 BC)**: full entry -- biography (Jerome's count of 620 books, the *corona rostrata*, Antony's proscription, the joke about packing his bags at eighty and then living nine more years), main works (*De Re Rustica* complete, *De Lingua Latina* partially surviving, Menippean Satires lost, Antiquitates lost), style and difficulty, Latin excerpt (*De Re Rustica* I.1, the opening dedication to Fundania and the agricultural-gods invocation), analysis, and tier ranking. **Tier: C (Manageable)**.
+- `italian_translations_caesar.md` (created) -- Italian translations file for the Caesar's Era. Contains the Italian translation of the Varro *De Re Rustica* I.1 excerpt.
+
+**Files modified on 2026-06-27:**
+- `CHANGELOG.md` -- three new release entries (v0.9.11, v0.9.12, v0.9.13).
+- `PROGRESS.md` -- updated with Menaechmi handoff and the Varro entry.
+- `js/fragments.js` -- Menaechmi fragments added and revised across the three commits.
+- `author.html`, `index.html`, `practice.html`, `practice-select.html` -- cache bumped v35, v36, v37 across the three commits.
+- `practice_fragments_reference.md` -- Menaechmi passages recorded.
+- `CLAUDE.md` -- Caesar's Era reorganized (see above).
+- `caesar_era_draft.md` (created, untracked -- not yet committed).
+- `italian_translations_caesar.md` (created, untracked -- not yet committed).
+
+**Progress:** Plautus now has six comedies in the trainer (Pseudolus, Mostellaria, Amphitruo, Aulularia, Miles Gloriosus, Menaechmi), completing the Archaic Era practice bank. The Caesar's Era has been opened with its introduction and one full entry (Varro, Tier C). Next author: Cornelius Nepos.
+
+---
+
+## 2026-06-28
+
+The Cicero entry was written and added to both Caesar's Era files. It is the longest single entry in the project so far.
+
+**Files modified:**
+
+- `caesar_era_draft.md` (updated) -- Cicero entry appended after Nigidius Figulus. Sections:
+  - **Biography**: full life from birth in Arpinum (106 BC) through execution (43 BC). Anecdotes: the chickpea name etymology (*cicer*), discovering Archimedes' tomb in Syracuse, the mortification of being forgotten by the Sicilians, the notorious self-congratulatory consulship poem (*O fortunatam natam me consule Romam*), the Bona Dea / Clodius scandal and exile (58 BC), recall (57 BC), divorcing Terentia, the brief Publilia marriage, Tullia's death (45 BC), the Philippics against Antony, the execution (Fulvia and the pin through his tongue), and his son Marcus's revenge as consul.
+  - **Main Works**: Orations (58 surviving: Verrine orations, four Catilinarians, Pro Milone, 14 Philippics); Philosophical Works (*De Re Publica*, *De Legibus*, *De Finibus*, *Tusculanae Disputationes*, *De Natura Deorum*, *De Officiis*, *De Amicitia*, *De Senectute*); Letters (~900 surviving: *Ad Atticum*, *Ad Familiares*, *Ad Quintum Fratrem*, *Ad Brutum*).
+  - **Style and Difficulty**: periodic sentence (*oratio perpetua*), hypotaxis vs. Caesar's coordination, amplificatio, synonymia, anaphora, tricolon crescens; per-genre difficulty breakdown (letters C, orations B to low-A, philosophical works A); the puzzle analogy ("translating Cicero is like assembling a puzzle where every piece is guaranteed to fit and fall into the correct position -- if you are slow and careful").
+  - **Three Latin Excerpts**:
+    1. *In Catilinam* I.1-2 (oration, medium-long) -- Source: thelatinlibrary.com/cicero/cat1.shtml. Triple anaphora opening, the seven *nihil...moverunt* clauses, *O tempora, o mores*.
+    2. *Ad Atticum* I.16 excerpt (letter, short) -- Source: thelatinlibrary.com/cicero/att1.shtml. Clodius jury-bribery passage: the gladiator's slave fixer, 25 honest vs 31 corrupt jurors, *fames / fama* alliteration, Catulus's joke.
+    3. *De Amicitia* 20 (philosophical, short) -- Source: thelatinlibrary.com/cicero/amic.shtml. The famous friendship definition (*Est enim amicitia nihil aliud nisi omnium divinarum humanarumque rerum cum benevolentia et caritate consensio*).
+  - Each excerpt has an original Italian translation, original English translation, and analysis.
+  - **Legacy and Impact**: letters as a literary genre Cicero essentially created; philosophical vocabulary coinages (*qualitas*, *essentia*, *beatitudo*, *moralis*, *humanitas*); Petrarch's discovery of *Ad Atticum* in Verona (1345) and its role in founding humanism; Erasmus's *Ciceronianus* (1528).
+  - **Final Tier: A (Very Difficult) -- Low End**. Letters alone would be B/low-A; the philosophical works push the overall ceiling to A.
+
+- `italian_translations_caesar.md` (updated) -- Full Italian version of the Cicero entry appended: biography, works, style, Italian translations of all three excerpts, legacy, and final rating.
+
+**Progress:** Caesar's Era draft now contains: Era introduction + Varro (C) + Nepos (D) + Hortalus (NC) + Nigidius Figulus (NC) + Cicero (A Low End). Five entries complete. Next in drafting order: **Caesar + Hirtius** (paired entry) -- awaiting permission.
+
+---
+
+## 2026-06-28 (evening session)
+
+The morning log above (Cicero) was written at 15:42. A substantial second push followed in the evening and was not yet recorded. Two new author entries were drafted, the Archaic English draft was cleaned up to enforce the language-separation rule, and two further Italian entries were drafted ahead of their English counterparts.
+
+**Files modified:**
+
+- `archaic_era_draft.md` (updated, 19:31) -- Format cleanup: all remaining Italian translation blocks were stripped out of the English draft (113 lines removed), bringing the Archaic Era file into line with the English-draft format rule (Latin + English only, no Italian blocks). Affected entries include Livius Andronicus, Naevius, Ennius, Plautus, Cato, and Caecilius Statius. No content was lost -- the Italian lives in `italian_translations_archaic.md`.
+
+- `caesar_era_draft.md` (updated, 19:31) -- Two new English entries appended after Cicero, completing the paired military-prose block:
+  - **Gaius Julius Caesar (100--44 BC)**: full entry -- biography, most important works (*Bellum Gallicum* complete in 7 books + Hirtius's 8th; *Bellum Civile* in 3 books, unfinished), writing style and difficulty (controlled vocabulary, clean syntax, third-person narration as a political device), Latin excerpts, legacy (the BG as the template for politically engaged self-narration running through Sallust and Tacitus), and final rating. **Tier: D (Good Exercise)** -- the *Bellum Gallicum* anchors the D as the most pedagogically accessible extended classical prose; the *Bellum Civile* alone would sit at a low C.
+  - **Aulus Hirtius (c. 90--43 BC)**: full entry -- biography (Caesar's officer and literary executor, died as consul fighting Antony at Mutina in 43 BC), works (*Bellum Gallicum* Book VIII; the attributed *Bellum Alexandrinum*), style and difficulty, Latin excerpts, and final rating. **Tier: C (Manageable)** -- BG Book VIII sits at the easy end of C, close to Caesar's D; the *Bellum Alexandrinum* (siege vocabulary, Alexandrian geography, Hellenistic court politics, *in medias res* structure) earns the C more decisively. Running joke: Hirtius was the perennial excellent second-in-command who finished other people's campaigns, military and literary alike.
+
+- `italian_translations_caesar.md` (updated, 21:47) -- Italian versions added for four authors, running ahead of the English draft:
+  - **Gaio Giulio Cesare** -- full Italian mirror of the new Caesar entry.
+  - **Aulo Irzio** -- full Italian mirror of the new Hirtius entry.
+  - **Tito Lucrezio Caro (c. 99--55 BC)** -- full Italian entry (biography drafted: the radical obscurity of his life, Jerome's hostile love-potion/madness/suicide story, the Memmius dedication, the unfinished state of the *De Rerum Natura*). English entry not yet drafted.
+  - **Gaio Sallustio Crispo (86--35 BC)** -- full Italian entry (biography drafted: the irony of the great anatomist of Roman corruption being himself spectacularly corrupt, the Numidia governorship and the *Horti Sallustiani*). English entry not yet drafted.
+
+**Progress:** Caesar's Era English draft = Era intro + Varro (C) + Nepos (D) + Hortalus (NC) + Figulus (NC) + Cicero (A Low End) + Caesar (D) + Hirtius (C). Seven entries complete in English. Italian additionally covers Lucretius and Sallust. Next in drafting order: write the English entries for **Lucretius** and **Sallust**, then **Catullus** (with the neoteric sidebar).
+
+**Files modified:**
+
+- `archaic_era_draft.md` (updated, 19:31) -- Format cleanup: all remaining Italian translation blocks were stripped out of the English draft (113 lines removed), bringing the Archaic Era file into line with the English-draft format rule (Latin + English only, no Italian blocks). Affected entries include Livius Andronicus, Naevius, Ennius, Plautus, Cato, and Caecilius Statius. No content was lost -- the Italian lives in `italian_translations_archaic.md`.
+
+- `caesar_era_draft.md` (updated, 19:31) -- Two new English entries appended after Cicero, completing the paired military-prose block:
+  - **Gaius Julius Caesar (100--44 BC)**: full entry -- biography, most important works (*Bellum Gallicum* complete in 7 books + Hirtius's 8th; *Bellum Civile* in 3 books, unfinished), writing style and difficulty (controlled vocabulary, clean syntax, third-person narration as a political device), Latin excerpts, legacy (the BG as the template for politically engaged self-narration running through Sallust and Tacitus), and final rating. **Tier: D (Good Exercise)** -- the *Bellum Gallicum* anchors the D as the most pedagogically accessible extended classical prose; the *Bellum Civile* alone would sit at a low C.
+  - **Aulus Hirtius (c. 90--43 BC)**: full entry -- biography (Caesar's officer and literary executor, died as consul fighting Antony at Mutina in 43 BC), works (*Bellum Gallicum* Book VIII; the attributed *Bellum Alexandrinum*), style and difficulty, Latin excerpts, and final rating. **Tier: C (Manageable)** -- BG Book VIII sits at the easy end of C, close to Caesar's D; the *Bellum Alexandrinum* (siege vocabulary, Alexandrian geography, Hellenistic court politics, *in medias res* structure) earns the C more decisively. Running joke: Hirtius was the perennial excellent second-in-command who finished other people's campaigns, military and literary alike.
+
+- `italian_translations_caesar.md` (updated, 21:47) -- Italian versions added for four authors, running ahead of the English draft:
+  - **Gaio Giulio Cesare** -- full Italian mirror of the new Caesar entry.
+  - **Aulo Irzio** -- full Italian mirror of the new Hirtius entry.
+  - **Tito Lucrezio Caro (c. 99--55 BC)** -- full Italian entry (biography drafted: the radical obscurity of his life, Jerome's hostile love-potion/madness/suicide story, the Memmius dedication, the unfinished state of the *De Rerum Natura*). English entry not yet drafted.
+  - **Gaio Sallustio Crispo (86--35 BC)** -- full Italian entry (biography drafted: the irony of the great anatomist of Roman corruption being himself spectacularly corrupt, the Numidia governorship and the *Horti Sallustiani*). English entry not yet drafted.
+
+- `CLAUDE.md` (touched, 19:34) -- Caesar's Era reorganization (chronological order, Hirtius added, drafting order, Catullus neoteric sidebar note). Substantively this was already recorded in the 2026-06-27 log; the file was re-saved in this session.
+
+**State note:** The Caesar's Era English draft now runs through Hirtius (7 entries: Varro, Nepos, Hortalus, Figulus, Cicero, Caesar, Hirtius). The Italian file runs two authors further, with Lucretius and Sallust already translated but their English entries still pending. `PROGRESS.md` (last updated 15:42) still lists Caesar + Hirtius as NEXT and so is now stale; it should be refreshed to mark Caesar (D) and Hirtius (C) as done and Lucretius/Sallust as Italian-drafted, English-pending.
+
+**Progress:** Caesar's Era English draft = Era intro + Varro (C) + Nepos (D) + Hortalus (NC) + Figulus (NC) + Cicero (A Low End) + Caesar (D) + Hirtius (C). Seven entries complete in English. Italian additionally covers Lucretius and Sallust. Next in drafting order: write the English entries for **Lucretius** and **Sallust**, then **Catullus** (with the neoteric sidebar).
+
+---
+
+## 2026-06-29
+
+A session focused on completing the Caesar's Era draft. All three remaining entries were finalised in both `caesar_era_draft.md` and `italian_translations_caesar.md`. The legacy section header in the Italian file was also standardised across all entries.
+
+**Files modified:**
+
+- `caesar_era_draft.md` (updated) -- Four additions this session:
+  1. **Legacy and Impact section for Lucretius** -- posthumous publication mystery, Virgil's debt (the Georgics as the most Lucretian text after the DRN), near-loss of the manuscript (only Carolingian copies survived), Poggio Bracciolini's 1417 rediscovery at a German monastery (probably Fulda), Montaigne and the Enlightenment reception, Jefferson as self-described Epicurean.
+  2. **Legacy and Impact section for Sallust** -- Livy, Quintilian's "Latin Thucydides," Tacitus as the fullest realization of the Sallustian method ("Sallustianus Crispus"), the *Horti Sallustiani* surviving into the 410 AD Visigothic sack, medieval survival, Machiavelli, DCC as standard advanced-curriculum text.
+  3. **Full Catullus entry** -- see summary below.
+  4. **Petrarch paragraph added to Catullus legacy** -- his 14th-century study of the *Codex Veronensis*, the Catullan DNA of the *Canzoniere* (366 poems to a single idealized, largely unattainable beloved), the downstream effect on all European Renaissance love poetry and every Elizabethan sonnet sequence.
+
+- `italian_translations_caesar.md` (updated) -- Italian mirrors of all four additions above. Plus: all legacy section headers in the file standardised from "Lascito e impatto *(italiano)*" to "Eredità e Impatto" (proper accent, no apostrophe, no language tag) across every entry (Varro, Nepos, Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus).
+
+**Catullus entry summary:**
+
+- **Biography**: Verona origins (father hosted Caesar), the Roman literary scene, Lesbia identified as Clodia Metelli (Cicero's "Palatine Medea"), brother's death in the Troad, Bithynia trip in 57 BC under the same Memmius who received the DRN dedication, death at ~30. Character note: Catullus is the friend who, if a mosquito brushes him, sets it on fire in eleven-syllable lines within the hour (carmina 16, 36, 37, 39).
+- **Most Important Works**: *Liber Catulli*, 116 carmina in three groups -- polymetrics 1-60 (Phalecian hendecasyllable), carmina docta 61-68 (Alexandrian learned poetry; carme 64 a 408-line epyllion on Peleus and Thetis), elegiac epigrams 69-116.
+- **The Neoteroi**: Callimachus's "big book = big evil" (*mega biblion mega kakon*); rejection of epic; *cacata carta* (carme 36 vs. Volusius); Cinna's *Zmyrna* praised for nine years of refinement; the core argument: every subject deserves poetry's full attention -- everyday life has the same dignity as epic grandeur.
+- **Style and Difficulty**: three reading experiences -- polymetrics (among the most accessible poetry in Latin; the hendecasyllable is almost conversational), epigrams (similar), carmina docta (dense periodic syntax, Alexandrian allusion, approaches low B). Language range from elevated diction to tender diminutives (*ocelli*, *miselle*, *pipiabat*) to Greek coinages to explicit obscenity; carme 16 as poetic manifesto.
+- **Three excerpts**: carmina 3 (full, 18 lines -- sparrow; neoteric dignity argument in miniature; *turgiduli* and *ocelli* in the final couplet), carmina 101 (full, 10 lines -- brother's grave; grief contained in strict elegiac form; *atque in perpetuum, frater, ave atque vale*), carmina 64.1-7 (opening of the epyllion; seven lines, main verb at line 6; *Aeetaeos* unexplained; shows why carmina docta are a different country).
+- **Neoteric circle sidebar**: Calvus (NC -- best friend, almost nothing survives), Bibaculus (NC -- fragments only), Helvius Cinna (NC -- *Zmyrna* author, killed in post-assassination mob confusion; Shakespeare's "I am Cinna the poet"), Cornificius (NC).
+- **Tier: C (Manageable)** -- polymetrics/epigrams D-to-C, carmina docta low B, averaged C. "Come for carme 3. Stay for carme 64."
+
+**Progress:** THE CAESAR'S ERA IS COMPLETE. Both `caesar_era_draft.md` and `italian_translations_caesar.md` contain full entries for all 11 slots (Era introduction + Varro C + Nepos D + Hortalus NC + Figulus NC + Cicero A-Low + Caesar D + Hirtius C + Lucretius A + Sallust S + Catullus C + Neoteric sidebar). Next era: **Augustan Era (44 BC -- 14 AD)** -- awaiting permission.

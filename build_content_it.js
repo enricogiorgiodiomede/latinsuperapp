@@ -1,30 +1,52 @@
 /*
- * build_content_it.js - ONE-OFF generator. Parses italian_translations_archaic.md
- * (the user's Italian working file, left untouched) and emits js/content-it.js
- * with the Italian biography / works / style per author + the era intro, keyed
- * by the SAME slugs the app uses. The Italian file's heading levels are
- * inconsistent, so we anchor on author NAMES rather than heading depth. Run with
- * `node build_content_it.js`, then delete this file.
+ * build_content_it.js - generator. Parses the per-era Italian working files
+ * (the user's, left untouched) and emits js/content-it.js with the Italian
+ * biography / works / style per author + each era intro, keyed by the SAME
+ * slugs the app uses. The Italian files' heading levels are inconsistent, so we
+ * anchor on author NAMES rather than heading depth. Run with
+ * `node build_content_it.js` after editing any Italian working file.
  */
 'use strict';
 var fs = require('fs');
 
-var SRC = 'italian_translations_archaic.md';
 var OUT = 'js/content-it.js';
 
-// Author anchors in file order: first heading line matching `re` (whose slug is
-// not yet located) starts that author's span.
-var ANCHORS = [
-  { slug: 'livius-andronicus', re: /livio andronico/i },
-  { slug: 'gnaeus-naevius', re: /gneo nevio/i },
-  { slug: 'quintus-ennius', re: /quinto ennio/i },
-  { slug: 'titus-maccius-plautus', re: /tito maccio plauto/i },
-  { slug: 'marcus-porcius-cato', re: /marco porcio catone/i },
-  { slug: 'caecilius-statius', re: /caecilius statius/i },
-  { slug: 'publius-terentius-afer', re: /publius terentius afer|terenzio/i },
-  { slug: 'marcus-pacuvius-and-lucius-accius', re: /marco pacuvio/i },
-  { slug: 'gaius-lucilius', re: /gaio lucilio/i },
-  { slug: 'pomponius-bononiensis-and-quintus-novius', re: /pomponio bononiense/i }
+// One entry per era: the source file + its author anchors, in file order. The
+// first heading line matching `re` (whose slug is not yet located) starts that
+// author's span. Author slugs are unique across eras, so __AUTHORS_IT__ is flat.
+var ERAS = [
+  {
+    id: 'archaic',
+    src: 'italian_translations_archaic.md',
+    anchors: [
+      { slug: 'livius-andronicus', re: /livio andronico/i },
+      { slug: 'gnaeus-naevius', re: /gneo nevio/i },
+      { slug: 'quintus-ennius', re: /quinto ennio/i },
+      { slug: 'titus-maccius-plautus', re: /tito maccio plauto/i },
+      { slug: 'marcus-porcius-cato', re: /marco porcio catone/i },
+      { slug: 'caecilius-statius', re: /caecilius statius/i },
+      { slug: 'publius-terentius-afer', re: /publius terentius afer|terenzio/i },
+      { slug: 'marcus-pacuvius-and-lucius-accius', re: /marco pacuvio/i },
+      { slug: 'gaius-lucilius', re: /gaio lucilio/i },
+      { slug: 'pomponius-bononiensis-and-quintus-novius', re: /pomponio bononiense/i }
+    ]
+  },
+  {
+    id: 'caesar',
+    src: 'italian_translations_caesar.md',
+    anchors: [
+      { slug: 'marcus-terentius-varro', re: /marco terenzio varrone/i },
+      { slug: 'cornelius-nepos', re: /cornelio nepote/i },
+      { slug: 'quintus-hortensius-hortalus', re: /quinto ortensio ortalo/i },
+      { slug: 'publius-nigidius-figulus', re: /publio nigidio figulo/i },
+      { slug: 'marcus-tullius-cicero', re: /marco tullio cicerone/i },
+      { slug: 'gaius-julius-caesar', re: /gaio giulio cesare/i },
+      { slug: 'aulus-hirtius', re: /aulo irzio/i },
+      { slug: 'titus-lucretius-carus', re: /tito lucrezio caro/i },
+      { slug: 'gaius-sallustius-crispus', re: /gaio sallustio crispo/i },
+      { slug: 'gaius-valerius-catullus', re: /gaio valerio catullo/i }
+    ]
+  }
 ];
 
 function classify(headingText) {
@@ -87,40 +109,8 @@ function clean(lines) {
 function isHeading(line) { return /^#{1,6}\s+\S/.test(line); }
 function headingText(line) { return line.replace(/^#{1,6}\s+/, '').trim(); }
 
-var text = fs.readFileSync(SRC, 'utf8').replace(/\r\n/g, '\n');
-var lines = text.split('\n');
-
-// 1) Locate author anchors + the intro heading.
-var located = {};        // slug -> line index
-var order = [];          // [{ slug, idx }]
-var introIdx = -1;
-for (var i = 0; i < lines.length; i++) {
-  if (!isHeading(lines[i])) continue;
-  var h = headingText(lines[i]);
-  if (introIdx === -1 && /introduzione/i.test(h)) { introIdx = i; continue; }
-  for (var a = 0; a < ANCHORS.length; a++) {
-    if (ANCHORS[a].re.test(h) && !(ANCHORS[a].slug in located)) {
-      located[ANCHORS[a].slug] = i;
-      order.push({ slug: ANCHORS[a].slug, idx: i });
-      break;
-    }
-  }
-}
-order.sort(function (x, y) { return x.idx - y.idx; });
-
-// 2) Era intro: body under the intro heading up to the first author anchor.
-var firstAuthorIdx = order.length ? order[0].idx : lines.length;
-var introLines = [];
-if (introIdx !== -1) {
-  for (var j = introIdx + 1; j < firstAuthorIdx; j++) {
-    if (/^\s*---\s*$/.test(lines[j])) break;  // intro ends at first hr
-    introLines.push(lines[j]);
-  }
-}
-var eraIntro = { archaic: clean(introLines) };
-
-// 3) Each author span -> biography / works / style.
-function extractAuthor(startIdx, endIdx) {
+// Each author span -> biography / works / style (over a given era's `lines`).
+function extractAuthor(lines, startIdx, endIdx) {
   var section = null;
   var buf = { biography: [], works: [], style: [] };
   for (var k = startIdx + 1; k < endIdx; k++) {
@@ -135,19 +125,65 @@ function extractAuthor(startIdx, endIdx) {
   };
 }
 
-var authors = {};
-for (var o = 0; o < order.length; o++) {
-  var startIdx = order[o].idx;
-  var endIdx = o + 1 < order.length ? order[o + 1].idx : lines.length;
-  authors[order[o].slug] = extractAuthor(startIdx, endIdx);
-}
+var authors = {};   // slug -> { biography, works, style }  (flat across eras)
+var eraIntro = {};  // eraId -> intro prose
+
+ERAS.forEach(function (era) {
+  var ANCHORS = era.anchors;
+  var text = fs.readFileSync(era.src, 'utf8').replace(/\r\n/g, '\n');
+  var lines = text.split('\n');
+
+  // 1) Locate author anchors + the intro heading.
+  var located = {};        // slug -> line index
+  var order = [];          // [{ slug, idx }]
+  var introIdx = -1;
+  for (var i = 0; i < lines.length; i++) {
+    if (!isHeading(lines[i])) continue;
+    var h = headingText(lines[i]);
+    if (introIdx === -1 && /introduzione/i.test(h)) { introIdx = i; continue; }
+    for (var a = 0; a < ANCHORS.length; a++) {
+      if (ANCHORS[a].re.test(h) && !(ANCHORS[a].slug in located)) {
+        located[ANCHORS[a].slug] = i;
+        order.push({ slug: ANCHORS[a].slug, idx: i });
+        break;
+      }
+    }
+  }
+  order.sort(function (x, y) { return x.idx - y.idx; });
+
+  // 2) Era intro: body under the intro heading up to the first author anchor.
+  var firstAuthorIdx = order.length ? order[0].idx : lines.length;
+  var introLines = [];
+  if (introIdx !== -1) {
+    for (var j = introIdx + 1; j < firstAuthorIdx; j++) {
+      if (/^\s*---\s*$/.test(lines[j])) break;  // intro ends at first hr
+      introLines.push(lines[j]);
+    }
+  }
+  eraIntro[era.id] = clean(introLines);
+
+  // 3) Each author span -> biography / works / style.
+  for (var o = 0; o < order.length; o++) {
+    var startIdx = order[o].idx;
+    var endIdx = o + 1 < order.length ? order[o + 1].idx : lines.length;
+    authors[order[o].slug] = extractAuthor(lines, startIdx, endIdx);
+  }
+
+  // Per-era coverage report.
+  console.log('\n[' + era.id + '] intro chars:', eraIntro[era.id].length);
+  order.forEach(function (e) {
+    var x = authors[e.slug];
+    console.log('  ' + e.slug, '| bio', x.biography.length, '| works', x.works.length, '| style', x.style.length);
+  });
+  console.log('  authors found:', order.length, '/', ANCHORS.length);
+});
 
 // 4) Emit.
 var header =
   '/*\n' +
   ' * content-it.js - GENERATED by build_content_it.js. Italian author prose\n' +
-  ' * (biography / works / style) + era intro, extracted from\n' +
-  ' * italian_translations_archaic.md and keyed by the app slugs. Do NOT edit by\n' +
+  ' * (biography / works / style) + each era intro, extracted from the per-era\n' +
+  ' * italian_translations_*.md files and keyed by the app slugs. Do NOT edit by\n' +
   ' * hand: change the markdown and regenerate. data.js scrubs ranking language\n' +
   ' * from this at render time (scrubRankingIt), as it does for the English text.\n' +
   ' */\n';
@@ -158,12 +194,6 @@ var body =
 
 fs.writeFileSync(OUT, header + body);
 
-// Console report so we can eyeball coverage.
-console.log('intro chars:', eraIntro.archaic.length);
-Object.keys(authors).forEach(function (slug) {
-  var x = authors[slug];
-  console.log(slug, '| bio', x.biography.length, '| works', x.works.length, '| style', x.style.length);
-});
-console.log('authors found:', Object.keys(authors).length, '/ 10');
+console.log('\ntotal authors:', Object.keys(authors).length);
 var accLeft = Object.keys(accUnknown);
 console.log(accLeft.length ? 'apostrophe tokens left unconverted (review): ' + accLeft.map(function (k) { return k + "'x" + accUnknown[k]; }).join(', ') : 'all apostrophe-accents normalized');

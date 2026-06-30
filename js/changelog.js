@@ -11,6 +11,29 @@
 
   var VERSIONS = [
     {
+      v: '1.0.0', date: '2026-06-30',
+      en: {
+        added: [
+          'Caesar’s Age is here - a whole new era to explore, with ten author profiles, from Varro and Cicero to Caesar, Lucretius, Sallust and Catullus.',
+          'Seventeen new passages to practise on, each with the Latin, an Italian and an English translation, and a short analysis - among them Cicero facing down Catiline, Caesar on the edge of the Rubicon, and Catullus’s little sparrow.'
+        ],
+        changed: [
+          'The app now holds two eras side by side, so the era menu finally opens a second door.'
+        ],
+        deleted: []
+      },
+      it: {
+        added: [
+          'È arrivata l’Età di Cesare - un’intera nuova epoca da esplorare, con dieci profili d’autore, da Varrone e Cicerone a Cesare, Lucrezio, Sallustio e Catullo.',
+          'Diciassette nuovi brani su cui esercitarsi, ognuno con il latino, una traduzione italiana e una inglese e una breve analisi - tra cui Cicerone che affronta Catilina, Cesare sul ciglio del Rubicone e il passerotto di Catullo.'
+        ],
+        changed: [
+          'L’app ora contiene due epoche affiancate, così il menu delle epoche apre finalmente una seconda porta.'
+        ],
+        deleted: []
+      }
+    },
+    {
       v: '0.9.15', date: '2026-06-29',
       en: {
         added: [

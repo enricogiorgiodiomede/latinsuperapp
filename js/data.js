@@ -1,25 +1,25 @@
 /*
- * data.js - loads and parses archaic_era_draft.md, then exposes a small
+ * data.js - loads and parses the per-era draft markdown, then exposes a small
  * Promise-based API the pages use:
  *
- *   LatinData.getEras()                -> [ { id, name, available }, ... ]
- *   LatinData.getEra(id)               -> era object (with intro + authors for archaic)
- *   LatinData.getAuthors('archaic')    -> [ author, ... ] in file order
- *   LatinData.getAuthor(era, slug)     -> author | null
+ *   LatinData.getEras()              -> [ { id, name, available }, ... ]
+ *   LatinData.getEra(id)            -> era object (with intro + authors when available)
+ *   LatinData.getAuthors(eraId)     -> [ author, ... ] in file order
+ *   LatinData.getAuthor(era, slug)  -> author | null
  *
- * The markdown file is the single source of truth. When served over http
+ * Each era's markdown file is the single source of truth. When served over http
  * we fetch() it live; when the page is opened from disk (file://) fetch is
  * blocked, so we fall back to the embedded copy in js/content.js
- * (window.__ARCHAIC_MD__).
+ * (window.__ARCHAIC_MD__ / window.__CAESAR_MD__).
  */
 (function (global) {
   'use strict';
 
-  // --- The five eras, in display order. Only Archaic has content today.
+  // --- The five eras, in display order. Archaic + Caesar have content today.
   // `nameKey` resolves to the localized display name via I18n at call time. ---
   var ERAS = [
     { id: 'archaic', nameKey: 'era.archaic', available: true },
-    { id: 'caesar', nameKey: 'era.caesar', available: false },
+    { id: 'caesar', nameKey: 'era.caesar', available: true },
     { id: 'augustus', nameKey: 'era.augustus', available: false },
     { id: 'early-imperial', nameKey: 'era.earlyImperial', available: false },
     { id: 'late-imperial', nameKey: 'era.lateImperial', available: false }
@@ -27,38 +27,66 @@
 
   function eraName(e) { return I18n.t(e.nameKey); }
 
-  // Folder holding the Archaic-era portraits (they were moved out of the old
-  // flat images/ dir into per-era folders; Caesar's Age will use images_caesar/).
-  var IMAGE_DIR = 'images_archaic/';
-
-  // --- Explicit author-slug -> real image filename(s) lookup (the table
-  // wins over anything derived or written in the markdown). Mind the three
-  // .jpeg files. Combined entries carry two portraits. ---
-  var IMAGE_LOOKUP = {
-    'livius-andronicus': ['livius-andronicus.jpg'],
-    'gnaeus-naevius': ['gnaeus-naevius.jpeg'],
-    'quintus-ennius': ['quintus-ennius.jpg'],
-    'titus-maccius-plautus': ['titus-maccius-plautus.jpg'],
-    'marcus-porcius-cato': ['marcus-porcius-cato.jpg'],
-    'caecilius-statius': ['caecilius-statius.jpg'],
-    'publius-terentius-afer': ['publius-terentius-afer.jpg'],
-    'marcus-pacuvius-and-lucius-accius': ['marcus-pacuvius.jpg', 'lucius-accius.jpg'],
-    'gaius-lucilius': ['gaius-lucilius.jpeg'],
-    'pomponius-bononiensis-and-quintus-novius': ['pomponius-bononiensis.jpg', 'quintus-novius.jpeg']
+  // --- Per-era configuration. `imageDir` is the portrait folder; `imageLookup`
+  // maps author slug -> real image filename(s) (the table wins over anything
+  // derived or written in the markdown; combined entries carry two portraits).
+  // `embeddedKey` is the window global holding the offline-fallback markdown. ---
+  var ERA_CONFIG = {
+    archaic: {
+      mdFile: 'archaic_era_draft.md',
+      imageDir: 'images_archaic/',
+      embeddedKey: '__ARCHAIC_MD__',
+      imageLookup: {
+        'livius-andronicus': ['livius-andronicus.jpg'],
+        'gnaeus-naevius': ['gnaeus-naevius.jpeg'],
+        'quintus-ennius': ['quintus-ennius.jpg'],
+        'titus-maccius-plautus': ['titus-maccius-plautus.jpg'],
+        'marcus-porcius-cato': ['marcus-porcius-cato.jpg'],
+        'caecilius-statius': ['caecilius-statius.jpg'],
+        'publius-terentius-afer': ['publius-terentius-afer.jpg'],
+        'marcus-pacuvius-and-lucius-accius': ['marcus-pacuvius.jpg', 'lucius-accius.jpg'],
+        'gaius-lucilius': ['gaius-lucilius.jpeg'],
+        'pomponius-bononiensis-and-quintus-novius': ['pomponius-bononiensis.jpg', 'quintus-novius.jpeg']
+      }
+    },
+    caesar: {
+      mdFile: 'caesar_era_draft.md',
+      imageDir: 'images_caesar/',
+      embeddedKey: '__CAESAR_MD__',
+      imageLookup: {
+        'marcus-terentius-varro': ['marcus-terentius-varro.jpg'],
+        'cornelius-nepos': ['cornelius-nepos.png'],
+        'quintus-hortensius-hortalus': ['quintus-hortensius-hortalus.jpg'],
+        // Figulus has no ancient portrait; the image is Pythagoras, whose
+        // tradition Nigidius tried to revive (noted in the entry).
+        'publius-nigidius-figulus': ['publius-nigidius-figulus.jpg'],
+        'marcus-tullius-cicero': ['marcus-tullius-cicero.jpeg'],
+        'gaius-julius-caesar': ['gaius-julius-caesar.jpeg'],
+        'aulus-hirtius': ['aulus-hirtius.jpg'],
+        'titus-lucretius-carus': ['titus-lucretius-carus.png'],
+        'gaius-sallustius-crispus': ['gaius-sallustius-crispus.png'],
+        'gaius-valerius-catullus': ['gaius-valerius-catullus.png']
+      }
+    }
   };
+
+  function isAvailable(id) {
+    return !!ERA_CONFIG[id];
+  }
 
   // ------------------------------------------------------------------
   // Loading
   // ------------------------------------------------------------------
-  function loadArchaicMarkdown() {
-    return fetch('archaic_era_draft.md')
+  function loadMarkdown(eraId) {
+    var cfg = ERA_CONFIG[eraId];
+    return fetch(cfg.mdFile)
       .then(function (res) {
         if (!res.ok) throw new Error('HTTP ' + res.status);
         return res.text();
       })
       .catch(function () {
         // file:// or fetch unavailable -> use the embedded fallback.
-        if (global.__ARCHAIC_MD__) return global.__ARCHAIC_MD__;
+        if (global[cfg.embeddedKey]) return global[cfg.embeddedKey];
         throw new Error(I18n.t('error.loadFailed'));
       });
   }
@@ -100,27 +128,34 @@
       .join('');
   }
 
+  // Normalize a date range's dash: some drafts write "116--27 BC" (double),
+  // others "284-204 BC" (single). Show a single regular dash either way.
+  function normalizeDateDash(s) {
+    return s.replace(/\s*--\s*/g, '-');
+  }
+
   // Pull a "(dates)" parenthetical out of a heading line, if present.
   function datesFromText(text) {
     var m = text.match(/\(([^)]*\d[^)]*)\)/);
-    return m ? m[1].trim() : '';
+    return m ? normalizeDateDash(m[1].trim()) : '';
   }
 
   // All date parentheticals (combined entries carry one per author).
   function allDatesFromText(text) {
     var re = /\(([^)]*\d[^)]*)\)/g, m, out = [];
-    while ((m = re.exec(text)) !== null) out.push(m[1].trim());
+    while ((m = re.exec(text)) !== null) out.push(normalizeDateDash(m[1].trim()));
     return out;
   }
 
-  // Remove embedded image lines and their malformed caption lines so the
-  // renderer never sees them.
+  // Remove embedded image lines and their caption lines so the renderer never
+  // sees them. Captions appear as either "*Name *(imaginary reconstruction)**"
+  // (Archaic) or "*Name (imaginary reconstruction)*" (Caesar); match both.
   function cleanBody(text) {
     return text
       .split('\n')
       .filter(function (line) {
         if (/^\s*!\[.*\]\(.*\)\s*$/.test(line)) return false; // image
-        if (/^\s*\*.*\(imaginary reconstruction\)\*\*\s*$/.test(line)) return false; // caption
+        if (/^\s*\*+.*\(imaginary reconstruction\)\*+\s*$/.test(line)) return false; // caption
         return true;
       })
       .join('\n')
@@ -128,29 +163,46 @@
       .replace(/\n+$/, '');
   }
 
+  // Tidy orphan punctuation left behind after callouts / sentences are removed
+  // (e.g. "anchoring. ; ; ." -> "anchoring."). Applied per paragraph.
+  function tidyPunct(s) {
+    return s
+      .replace(/\(\s*\)/g, '')                    // empty ()
+      .replace(/\(\s*[;,]\s*/g, '(')              // "( ;" -> "("
+      .replace(/\s*[;,]\s*(?=[.;,!?])/g, '')      // a ; or , hugging another punctuation mark
+      .replace(/([.!?])[\s;,]*(?=[.!?])/g, '$1')  // collapse ".;." / ". ; ." -> "."
+      .replace(/\.{2,}/g, '.')                    // ".." -> "."
+      .replace(/\s+([.;,!?])/g, '$1')             // space before punctuation
+      .replace(/\s{2,}/g, ' ')                    // double spaces
+      .replace(/^[\s;,.]+/, '')                   // leading orphan punctuation
+      .trim();
+  }
+
   // Strip tier-list / ranking language from displayed prose. The source
   // markdown is never modified; this only affects what the app renders.
-  // Removes inline "**Lexicon: HIGH**"-style scoring callouts, and drops any
-  // sentence mentioning a tier, an NC / "Not Comparable" verdict, or an
-  // uppercase HIGH/MEDIUM/LOW criterion score.
+  // Removes inline "**Lexicon: HIGH**"-style scoring callouts (plus any score
+  // gloss in parentheses right after one), and drops any sentence mentioning a
+  // tier, an NC / "Not Comparable" verdict, or an uppercase score word.
   function scrubRanking(text) {
     if (!text) return text;
-    // 1) strip bold scoring callouts that contain HIGH/MEDIUM/LOW.
-    var t = text.replace(/\s*\*\*[^*]*\b(?:HIGH|MEDIUM|LOW)\b[^*]*\*\*/g, '');
-    // 2) per paragraph, drop sentences that carry ranking markers.
+    // 1) strip bold scoring callouts (+ an immediately following parenthetical gloss).
+    var t = text.replace(/\*\*[^*]*\b(?:HIGH|MEDIUM|LOW)\b[^*]*\*\*\s*(?:\([^)]*\))?/g, '');
+    // 2) per paragraph, drop sentences that carry ranking markers, then tidy.
     var markerCI = /\btiers?\b|not comparable|GOD PLEASE HELP|START PRAYING/i;
     // Uppercase tier idioms not already covered by "tier" (case-sensitive so
     // ordinary prose like "touch a nerve" is not affected).
     var markerCS = /\bNC\b|\btouch(?:es|ing)?\s+S\b|\bhigh\s+A\b|\bborderline\s+[SAB]\b/;
     var scored = /\b(?:HIGH|MEDIUM|LOW)\b/; // uppercase criterion scores
     var out = t.split(/\n{2,}/).map(function (para) {
-      // Leave structural blocks (lists, quotes, headings) untouched.
-      if (/^\s*(?:[-*>#]|\d+\.)/.test(para.trim())) return para;
+      // Leave true structural blocks (lists, quotes, headings) untouched. A
+      // bullet needs a marker FOLLOWED BY whitespace, so "**bold**"/"*italic*"
+      // lead-ins are still scrubbed.
+      if (/^\s*(?:[-*+]\s|\d+\.\s|#{1,6}\s|>)/.test(para.trim())) return para;
       var sentences = para.split(/(?<=[.!?])\s+(?=["'“*A-Z])/);
       var kept = sentences.filter(function (s) {
         return !markerCI.test(s) && !markerCS.test(s) && !scored.test(s);
       });
-      return kept.join(' ').trim();
+      return tidyPunct(kept.join(' ').trim());
     }).filter(function (p) { return p.replace(/\s/g, '').length > 0; });
     return out.join('\n\n');
   }
@@ -162,25 +214,26 @@
   function scrubRankingIt(text) {
     if (!text) return text;
     var scoreWords = '(?:ALTO|ALTA|ALTI|ALTE|MEDIO|MEDIA|MEDI|MEDIE|BASSO|BASSA|BASSI|BASSE|HIGH|MEDIUM|LOW)';
-    // 1) strip bold scoring callouts containing an uppercase score word.
-    var t = text.replace(new RegExp('\\s*\\*\\*[^*]*\\b' + scoreWords + '\\b[^*]*\\*\\*', 'g'), '');
-    // 2) per paragraph, drop sentences carrying ranking markers.
+    // 1) strip bold scoring callouts (+ a following parenthetical gloss).
+    var t = text.replace(new RegExp('\\*\\*[^*]*\\b' + scoreWords + '\\b[^*]*\\*\\*\\s*(?:\\([^)]*\\))?', 'g'), '');
+    // 2) per paragraph, drop sentences carrying ranking markers, then tidy.
     var markerCI = /\btiers?\b|non comparabil|non classificabil|GOD PLEASE|START PRAYING|INIZIA A PREGARE/i;
     var markerCS = /\bNC\b|\b[Ll]ivello\s+(?:S|A|B|C|D|NC)\b|soglia del [Ll]ivello|all['’]?\s*[ABCS]\s+alto|toccar\w*\s+(?:l['’]\s*)?[ABCS]\b|toccano?\s+[ABCS]\b/;
     var scored = new RegExp('\\b' + scoreWords + '\\b'); // bare uppercase scores
     var out = t.split(/\n{2,}/).map(function (para) {
-      if (/^\s*(?:[-*>#]|\d+\.)/.test(para.trim())) return para;
+      if (/^\s*(?:[-*+]\s|\d+\.\s|#{1,6}\s|>)/.test(para.trim())) return para;
       var sentences = para.split(/(?<=[.!?])\s+(?=["'“*A-Z])/);
       var kept = sentences.filter(function (s) {
         return !markerCI.test(s) && !markerCS.test(s) && !scored.test(s);
       });
-      return kept.join(' ').trim();
+      return tidyPunct(kept.join(' ').trim());
     }).filter(function (p) { return p.replace(/\s/g, '').length > 0; });
     return out.join('\n\n');
   }
 
   // Italian display names, keyed by the app slugs (combined entries carry both).
   var AUTHOR_NAMES_IT = {
+    // Archaic Era
     'livius-andronicus': 'Livio Andronico',
     'gnaeus-naevius': 'Gneo Nevio',
     'quintus-ennius': 'Quinto Ennio',
@@ -190,7 +243,18 @@
     'publius-terentius-afer': 'Publio Terenzio Afro - Terenzio',
     'marcus-pacuvius-and-lucius-accius': 'Marco Pacuvio e Lucio Accio',
     'gaius-lucilius': 'Gaio Lucilio',
-    'pomponius-bononiensis-and-quintus-novius': 'Pomponio Bononiense e Quinto Novio'
+    'pomponius-bononiensis-and-quintus-novius': 'Pomponio Bononiense e Quinto Novio',
+    // Caesar's Age
+    'marcus-terentius-varro': 'Marco Terenzio Varrone',
+    'cornelius-nepos': 'Cornelio Nepote',
+    'quintus-hortensius-hortalus': 'Quinto Ortensio Ortalo',
+    'publius-nigidius-figulus': 'Publio Nigidio Figulo',
+    'marcus-tullius-cicero': 'Marco Tullio Cicerone',
+    'gaius-julius-caesar': 'Gaio Giulio Cesare',
+    'aulus-hirtius': 'Aulo Irzio',
+    'titus-lucretius-carus': 'Tito Lucrezio Caro',
+    'gaius-sallustius-crispus': 'Gaio Sallustio Crispo',
+    'gaius-valerius-catullus': 'Gaio Valerio Catullo'
   };
 
   // "BC"/"AD" -> Italian "a.C."/"d.C." in the date strings.
@@ -219,9 +283,9 @@
     });
   }
 
-  function localizeIntro(intro) {
+  function localizeIntro(intro, eraId) {
     if (I18n.lang !== 'it') return intro;
-    var raw = (global.__ERA_INTRO_IT__ || {}).archaic;
+    var raw = (global.__ERA_INTRO_IT__ || {})[eraId];
     return raw && raw.trim() ? scrubRankingIt(cleanBody(raw)) : intro;
   }
 
@@ -311,7 +375,8 @@
   // ------------------------------------------------------------------
   // Top-level parse
   // ------------------------------------------------------------------
-  function parseArchaic(markdown) {
+  function parseEra(eraId, markdown) {
+    var cfg = ERA_CONFIG[eraId];
     var text = markdown.replace(/\r\n/g, '\n');
     var lines = text.split('\n');
 
@@ -339,19 +404,19 @@
       var blockStart = h1[k];
       var blockEnd = k + 1 < h1.length ? h1[k + 1] : lines.length;
       var blockLines = lines.slice(blockStart, blockEnd);
-      var author = parseAuthorBlock(blockLines);
+      var author = parseAuthorBlock(blockLines, cfg);
       if (author) authors.push(author);
     }
 
     return { intro: intro, authors: authors };
   }
 
-  function parseAuthorBlock(blockLines) {
+  function parseAuthorBlock(blockLines, cfg) {
     var headingLine = blockLines[0].replace(/^#\s+/, '').trim();
     var slug = slugFromHeading(headingLine);
 
-    // The canonical IMAGE_LOOKUP is authoritative for slug + images.
-    var images = IMAGE_LOOKUP[slug] || [];
+    // The canonical imageLookup is authoritative for slug + images.
+    var images = cfg.imageLookup[slug] || [];
 
     var name = displayNameFromHeading(headingLine);
     var dates = datesFromText(headingLine);
@@ -403,7 +468,7 @@
       name: name,
       dates: dates,
       images: images.map(function (file) {
-        return { src: IMAGE_DIR + file };
+        return { src: cfg.imageDir + file };
       }),
       combined: images.length > 1,
       biography: scrubRanking(cleanBody(sections.biography || '')),
@@ -417,15 +482,17 @@
   }
 
   // ------------------------------------------------------------------
-  // Public API (cached single parse)
+  // Public API (cached single parse per era)
   // ------------------------------------------------------------------
-  var _archaicPromise = null;
+  var _eraPromises = {};
 
-  function getArchaic() {
-    if (!_archaicPromise) {
-      _archaicPromise = loadArchaicMarkdown().then(parseArchaic);
+  function getParsedEra(eraId) {
+    if (!_eraPromises[eraId]) {
+      _eraPromises[eraId] = loadMarkdown(eraId).then(function (md) {
+        return parseEra(eraId, md);
+      });
     }
-    return _archaicPromise;
+    return _eraPromises[eraId];
   }
 
   function getEras() {
@@ -437,28 +504,28 @@
   function getEra(id) {
     var base = ERAS.filter(function (e) { return e.id === id; })[0] || null;
     if (!base) return Promise.resolve(null);
-    if (id !== 'archaic') {
+    if (!isAvailable(id)) {
       return Promise.resolve({ id: base.id, name: eraName(base), available: false });
     }
-    return getArchaic().then(function (data) {
+    return getParsedEra(id).then(function (data) {
       return {
         id: base.id,
         name: eraName(base),
         available: true,
-        intro: localizeIntro(data.intro),
+        intro: localizeIntro(data.intro, id),
         authors: data.authors.map(localizeAuthor)
       };
     });
   }
 
   function getAuthors(eraId) {
-    if (eraId !== 'archaic') return Promise.resolve([]);
-    return getArchaic().then(function (data) { return data.authors.map(localizeAuthor); });
+    if (!isAvailable(eraId)) return Promise.resolve([]);
+    return getParsedEra(eraId).then(function (data) { return data.authors.map(localizeAuthor); });
   }
 
   function getAuthor(eraId, slug) {
-    if (eraId !== 'archaic') return Promise.resolve(null);
-    return getArchaic().then(function (data) {
+    if (!isAvailable(eraId)) return Promise.resolve(null);
+    return getParsedEra(eraId).then(function (data) {
       return localizeAuthor(data.authors.filter(function (a) { return a.slug === slug; })[0] || null);
     });
   }

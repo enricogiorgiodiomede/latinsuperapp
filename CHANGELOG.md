@@ -6,6 +6,46 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.0.0] - 2026-06-30
+
+Caesar's Age goes live - the app's second era, and the milestone v1.0.0 release that the
+v1.0.0 version number was being held back for.
+
+### Added
+- **Caesar's Age (100-44 BC)** is now a fully browsable era: an era intro, a 10-author grid, and
+  per-author profiles (biography, main works, style & difficulty, plus the difficulty bar chart and
+  overall evaluation). Authors and their ratings: Marcus Terentius Varro (Manageable), Cornelius
+  Nepos (Good Exercise), Quintus Hortensius Hortalus (NC - no chart), Publius Nigidius Figulus
+  (NC - no chart), Marcus Tullius Cicero (Very Difficult), Gaius Julius Caesar (Good Exercise),
+  Aulus Hirtius (Manageable), Titus Lucretius Carus (Very Difficult), Gaius Sallustius Crispus
+  (START PRAYING, BOY), Gaius Valerius Catullus (Manageable).
+- **17 practice fragments** across the 10 authors, each fully bilingual (verbatim Latin + original
+  Italian + original English + analysis, with Italian title/description/analysis): Varro 1 (*De Re
+  Rustica* I.1), Nepos 1 (Epaminondas), Hortensius 1 (Cicero, *Brutus* 6), Figulus 1 (Gellius,
+  *Noctes Atticae* X.9), Cicero 3 (*In Catilinam* I.1-2; *Ad Atticum* I.16; *De Amicitia* 20),
+  Caesar 2 (*De Bello Gallico* VI.13-14, the Druids; *De Bello Civili* I.7, the Rubicon speech),
+  Hirtius 2 (*De Bello Gallico* VIII praef.; *Bellum Alexandrinum* 1-2), Lucretius 1 (*De Rerum
+  Natura* I.80-101, Iphigenia), Sallust 2 (*De Coniuratione Catilinae* 5; *Bellum Iugurthinum* 85,
+  Marius), Catullus 3 (carmina 3, 101, 64.1-7).
+- `js/data.js` is now **era-aware**: an `ERA_CONFIG` registry drives the per-era markdown file,
+  image folder (`images_caesar/`), and slug→portrait lookup; `getEra`/`getAuthors`/`getAuthor`
+  work for any configured era. `js/home.js` renders any *available* era (not just Archaic).
+- Per-author ratings for the 8 rankable Caesar authors added to `js/ratings.js`. The two NC authors
+  (Hortensius, Figulus) deliberately have no rating entry, so their profiles show no chart or badge.
+
+### Changed
+- Tier-list language is scrubbed from the displayed Caesar prose exactly as for the Archaic era.
+  The scrubber (`scrubRanking`/`scrubRankingIt`) was improved to also drop the parenthetical gloss
+  after a score callout, tidy the orphaned punctuation that leaves behind, and stop skipping
+  paragraphs that merely open with `**bold:**` or `*italic*` (so `NC`/score sentences in those
+  paragraphs are now removed too). Benefits both eras.
+- `js/content.js` now embeds **both** era drafts (`__ARCHAIC_MD__` + `__CAESAR_MD__`) for the
+  offline `file://` fallback; `build_content_it.js` + `js/content-it.js` now cover both eras.
+- Author dates display with a single dash ("106-43 BC") regardless of the draft's dash style.
+- The Figulus portrait is Pythagoras (no ancient likeness of Nigidius survives; he tried to revive
+  the Pythagorean tradition) - noted in `js/data.js`.
+- Cache version bumped v41 → v44.
+
 ## [0.9.15] - 2026-06-29
 
 ### Added

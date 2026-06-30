@@ -43,18 +43,23 @@ The project targets an intermediate Latin student audience (Liceo Scientifico le
 
 ### Caesar's Era (100--44 BC)
 
-**Mainstream**
+**Mainstream** (chronological order by birth)
 - Marcus Terentius Varro (116--27 BC)
-- Titus Lucretius Carus (c. 99--55 BC)
-- Gaius Valerius Catullus (c. 84--54 BC)
-- Gaius Julius Caesar (100--44 BC)
-- Gaius Sallustius Crispus -- Sallust (86--35 BC)
 - Cornelius Nepos (c. 110--24 BC)
 - Marcus Tullius Cicero (106--43 BC)
+- Gaius Julius Caesar (100--44 BC)
+- Aulus Hirtius (c. 90--43 BC)
+- Titus Lucretius Carus (c. 99--55 BC)
+- Gaius Sallustius Crispus -- Sallust (86--35 BC)
+- Gaius Valerius Catullus (c. 84--54 BC)
 
-**Lesser Known**
+**Lesser Known** (chronological order by birth)
 - Quintus Hortensius Hortalus (114--50 BC)
 - Publius Nigidius Figulus (c. 98--45 BC)
+
+**Drafting order:** Varro, Nepos, Hortalus + Figulus (as a pair), then the Big 5: Cicero, Caesar + Hirtius (paired), Lucretius, Sallust, Catullus.
+
+**Note on Catullus entry:** include a sidebar section on other neoteric poets in his circle (e.g. Gaius Licinius Calvus, Marcus Furius Bibaculus) -- brief biographical mentions with NC tier, no full entries.
 
 ### Augustan Era (44 BC -- 14 AD)
 
