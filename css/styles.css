@@ -447,7 +447,6 @@ a { color: var(--terracotta-deep); }
   display: flex;
   gap: 12px;
   flex: 0 0 auto;
-  flex-wrap: wrap; /* lets an image note wrap below the portrait */
 }
 
 .detail-portraits .portrait {
@@ -457,14 +456,14 @@ a { color: var(--terracotta-deep); }
   border: 3px solid var(--gold-soft);
 }
 
-/* Caption under a portrait (e.g. "this image is actually Pythagoras"). */
+/* Note about the portrait (e.g. Figulus's image is Pythagoras). Sits in the
+   heading column with the name/dates/badge, so the portrait keeps its size. */
 .portrait-note {
-  flex: 1 0 100%;
-  max-width: 312px;
-  margin: 6px 0 0;
-  font-size: 0.74rem;
+  margin: 14px 0 0;
+  max-width: 46ch;
+  font-size: 0.78rem;
   font-style: italic;
-  line-height: 1.4;
+  line-height: 1.45;
   color: var(--gray);
 }
 

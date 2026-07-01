@@ -59,12 +59,6 @@
     var portraits = document.createElement('div');
     portraits.className = 'detail-portraits';
     UI.renderPortraits(portraits, author.images, author.name);
-    if (author.imageNote) {
-      var pnote = document.createElement('p');
-      pnote.className = 'portrait-note';
-      pnote.textContent = author.imageNote;
-      portraits.appendChild(pnote);
-    }
     hero.appendChild(portraits);
 
     var heading = document.createElement('div');
@@ -97,6 +91,15 @@
     practiceBtn.textContent = I18n.t('btn.practice');
     actions.appendChild(practiceBtn);
     heading.appendChild(actions);
+
+    // Optional portrait caption (e.g. Figulus's image is Pythagoras). Placed in
+    // the heading column so the portrait stays the usual size, like every entry.
+    if (author.imageNote) {
+      var pnote = document.createElement('p');
+      pnote.className = 'portrait-note';
+      pnote.textContent = author.imageNote;
+      heading.appendChild(pnote);
+    }
 
     hero.appendChild(heading);
     root.appendChild(hero);

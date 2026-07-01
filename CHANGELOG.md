@@ -37,7 +37,9 @@ Fixes and refinements to Caesar's Age, from a user review pass.
   inside the style section as well as on the practice page).
 - Replaced the Caesar and Hortensius portraits with re-cropped versions (`.jpeg`->`.jpg`,
   `.jpg`->`.png`; `IMAGE_LOOKUP` updated).
-- Cache version bumped v44 → v45.
+- The Figulus portrait caption moved into the heading column (with the name/dates/badge), so the
+  portrait keeps its normal size and the entry matches the layout of every other author page.
+- Cache version bumped v44 → v46.
 
 ## [1.0.0] - 2026-06-30
 
