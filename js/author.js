@@ -59,6 +59,12 @@
     var portraits = document.createElement('div');
     portraits.className = 'detail-portraits';
     UI.renderPortraits(portraits, author.images, author.name);
+    if (author.imageNote) {
+      var pnote = document.createElement('p');
+      pnote.className = 'portrait-note';
+      pnote.textContent = author.imageNote;
+      portraits.appendChild(pnote);
+    }
     hero.appendChild(portraits);
 
     var heading = document.createElement('div');
@@ -100,8 +106,9 @@
     addSection(I18n.t('section.works'), author.works);
     addSection(I18n.t('section.style'), author.style);
 
-    // --- Difficulty profile: the criteria bar chart ---
-    if (rating) {
+    // --- Difficulty profile: the criteria bar chart (skipped for NA authors,
+    // who carry an evaluation badge but no per-criterion bars) ---
+    if (rating && rating.lexicon != null) {
       root.appendChild(buildDifficultyProfile(rating));
     }
 

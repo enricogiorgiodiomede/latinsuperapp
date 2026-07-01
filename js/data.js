@@ -56,12 +56,12 @@
       imageLookup: {
         'marcus-terentius-varro': ['marcus-terentius-varro.jpg'],
         'cornelius-nepos': ['cornelius-nepos.png'],
-        'quintus-hortensius-hortalus': ['quintus-hortensius-hortalus.jpg'],
+        'quintus-hortensius-hortalus': ['quintus-hortensius-hortalus.png'],
         // Figulus has no ancient portrait; the image is Pythagoras, whose
-        // tradition Nigidius tried to revive (noted in the entry).
+        // tradition Nigidius tried to revive (see IMAGE_NOTE / the caption).
         'publius-nigidius-figulus': ['publius-nigidius-figulus.jpg'],
         'marcus-tullius-cicero': ['marcus-tullius-cicero.jpeg'],
-        'gaius-julius-caesar': ['gaius-julius-caesar.jpeg'],
+        'gaius-julius-caesar': ['gaius-julius-caesar.jpg'],
         'aulus-hirtius': ['aulus-hirtius.jpg'],
         'titus-lucretius-carus': ['titus-lucretius-carus.png'],
         'gaius-sallustius-crispus': ['gaius-sallustius-crispus.png'],
@@ -257,6 +257,15 @@
     'gaius-valerius-catullus': 'Gaio Valerio Catullo'
   };
 
+  // Optional caption shown under an author's portrait (EN + IT), for cases where
+  // the image is not actually a likeness of the author.
+  var IMAGE_NOTE = {
+    'publius-nigidius-figulus': {
+      en: 'The portrait shown is Pythagoras, not Figulus - no accurate likeness of Nigidius Figulus survives. He is shown here because he tried to revive the Pythagorean tradition in Rome.',
+      it: 'Il ritratto raffigura Pitagora, non Figulo - non sopravvive alcuna immagine fedele di Nigidio Figulo. È mostrato qui perché cercò di far rivivere a Roma la tradizione pitagorica.'
+    }
+  };
+
   // "BC"/"AD" -> Italian "a.C."/"d.C." in the date strings.
   function localizeDates(dates) {
     if (!dates) return dates;
@@ -277,6 +286,7 @@
     return Object.assign({}, a, {
       name: AUTHOR_NAMES_IT[a.slug] || a.name,
       dates: localizeDates(a.dates),
+      imageNote: (IMAGE_NOTE[a.slug] && IMAGE_NOTE[a.slug].it) || a.imageNote,
       biography: pick('biography'),
       works: pick('works'),
       style: pick('style')
@@ -463,10 +473,18 @@
       dates = datesFromText(subheadLine);
     }
 
+    // Some entries (Catullus) place their Latin excerpts as "### Excerpt N:"
+    // blocks inside the style section; those are duplicated by the practice
+    // page, so drop them from the displayed style prose.
+    if (sections.style) {
+      sections.style = sections.style.replace(/\n?#{3}\s+Excerpt[\s\S]*$/, '');
+    }
+
     return {
       slug: slug,
       name: name,
       dates: dates,
+      imageNote: (IMAGE_NOTE[slug] && IMAGE_NOTE[slug].en) || '',
       images: images.map(function (file) {
         return { src: cfg.imageDir + file };
       }),

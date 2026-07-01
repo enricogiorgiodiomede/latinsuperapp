@@ -412,3 +412,32 @@ A session focused on completing the Caesar's Era draft. All three remaining entr
 - **Tier: C (Manageable)** -- polymetrics/epigrams D-to-C, carmina docta low B, averaged C. "Come for carme 3. Stay for carme 64."
 
 **Progress:** THE CAESAR'S ERA IS COMPLETE. Both `caesar_era_draft.md` and `italian_translations_caesar.md` contain full entries for all 11 slots (Era introduction + Varro C + Nepos D + Hortalus NC + Figulus NC + Cicero A-Low + Caesar D + Hirtius C + Lucretius A + Sallust S + Catullus C + Neoteric sidebar). Next era: **Augustan Era (44 BC -- 14 AD)** -- awaiting permission.
+
+---
+
+## 2026-06-30
+
+The big web-app session: Caesar's Age was brought fully online as the app's second era, shipped as the milestone **v1.0.0** release (the version number had been deliberately held back for this launch). The work moved the Caesar's Era content out of the drafts and into the browsable app, and made the whole app era-aware rather than Archaic-only.
+
+**App and data layer:**
+
+- `js/data.js` (updated) -- Introduced an `ERA_CONFIG` registry so each era drives its own markdown file, image folder, and slug-to-portrait lookup; `getEra`/`getAuthors`/`getAuthor` now work for any configured era. Caesar marked available in `ERAS`. The scrubbers (`scrubRanking`/`scrubRankingIt`) were improved to drop the parenthetical gloss after a score callout, tidy the orphaned punctuation left behind, and stop skipping paragraphs that merely open with `**bold:**` or `*italic*` (so NC and score sentences in those paragraphs are now removed too). Single-dash date normalization added ("106-43 BC" regardless of the draft's dash style). Both eras benefit.
+- `js/home.js` (updated) -- Renders any available era's intro and author grid, not just Archaic.
+- `js/content.js` (updated) -- Now embeds both era drafts (`__ARCHAIC_MD__` + `__CAESAR_MD__`) for the offline `file://` fallback.
+- `build_content_it.js` + `js/content-it.js` (updated) -- Now cover both eras' Italian prose.
+- `author.html`, `index.html`, `practice.html`, `practice-select.html` (updated) -- Cache version bumped v41 -> v44.
+
+**Content added to the app:**
+
+- 10 Caesar author profiles (biography, works, style scrubbed of tier language, EN + IT): Varro (Manageable), Nepos (Good Exercise), Hortensius (NC, no chart), Figulus (NC, no chart), Cicero (Very Difficult), Caesar (Good Exercise), Hirtius (Manageable), Lucretius (Very Difficult), Sallust (START PRAYING, BOY / S), Catullus (Manageable).
+- `js/ratings.js` (updated) -- Ratings and difficulty chart for the 8 rankable authors. Hortensius and Figulus are NC by design, so they carry no rating entry and their profiles show no chart or badge.
+- `js/fragments.js` (updated) -- 17 bilingual practice fragments, Latin validated verbatim against the drafts, with original IT + EN translations and fresh Italian analyses: Varro 1 (*De Re Rustica* I.1), Nepos 1 (Epaminondas), Hortensius 1 (Cicero, *Brutus* 6), Figulus 1 (Gellius, *Noctes Atticae* X.9), Cicero 3 (*In Catilinam* I.1-2; *Ad Atticum* I.16; *De Amicitia* 20), Caesar 2 (*De Bello Gallico* VI.13-14, the Druids; *De Bello Civili* I.7, the Rubicon speech), Hirtius 2 (*De Bello Gallico* VIII praef.; *Bellum Alexandrinum* 1-2), Lucretius 1 (*De Rerum Natura* I.80-101, Iphigenia), Sallust 2 (*De Coniuratione Catilinae* 5; *Bellum Iugurthinum* 85, Marius), Catullus 3 (carmina 3, 101, 64.1-7).
+- `images_caesar/` (added) -- Author portraits, including Aulus Hirtius. Figulus uses a Pythagoras likeness (no ancient portrait of Nigidius survives; he tried to revive the Pythagorean tradition), noted in `js/data.js`.
+
+**Housekeeping:**
+
+- `caesar_era_draft.md` + `italian_translations_caesar.md` now tracked in the repo. The Archaic draft's remaining inline Italian blocks were removed (113 lines), kept only in `italian_translations_archaic.md`.
+- `CHANGELOG.md` + `js/changelog.js` (updated) -- v1.0.0 entry added.
+- `PROGRESS.md`, `README.md`, `CLAUDE.md` (updated) -- refreshed to reflect the launch.
+
+**Progress:** Caesar's Age is live in the web app alongside the Archaic era. The app is now era-aware, so adding the next era is primarily a content task. Next era: **Augustan Era (44 BC -- 14 AD)** -- awaiting permission.

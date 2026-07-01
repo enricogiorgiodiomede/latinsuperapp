@@ -109,6 +109,7 @@
       'eval.difficult': 'Difficult',
       'eval.manageable': 'Manageable',
       'eval.good-exercise': 'Good Exercise',
+      'eval.not-assessable': 'Not Assessable (NA)',
       'chart.aria': 'Difficulty by criterion: lexicon, syntax, style, density',
 
       // --- practice page ---
@@ -234,11 +235,12 @@
       'level.manageable': 'Affrontabile',
       'level.challenging': 'Impegnativo',
       'level.complex': 'Complesso',
-      'eval.praying': 'INIZIA A PREGARE, RAGAZZO',
+      'eval.praying': 'IN BOCCA AL LUPO',
       'eval.very-difficult': 'Molto difficile',
       'eval.difficult': 'Difficile',
       'eval.manageable': 'Affrontabile',
       'eval.good-exercise': 'Buon esercizio',
+      'eval.not-assessable': 'Non Valutabile (NA)',
       'chart.aria': 'Difficoltà per criterio: lessico, sintassi, stile, densità',
 
       // --- practice page ---

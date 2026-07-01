@@ -6,6 +6,39 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.0.1] - 2026-07-01
+
+Fixes and refinements to Caesar's Age, from a user review pass.
+
+### Added
+- Caesar's *De Bello Gallico* VI is now **two separate practice fragments** - VI.13 (the druids'
+  judicial power) and VI.14 (oral learning and the transmigration of souls) - each with a longer,
+  grammar-focused analysis. Caesar now has 3 fragments.
+- Hirtius's *Bellum Alexandrinum* is likewise **split into two fragments** (chapters 1 and 2), each
+  with a longer analysis. Hirtius now has 3 fragments.
+- A grey **"Not Assessable (NA)"** evaluation badge (`not-assessable` in `js/ratings.js`) for authors
+  with no rankable surviving text; Hortensius and Figulus now show it (and still no difficulty chart).
+- A portrait caption (`.portrait-note`, via `IMAGE_NOTE` in `js/data.js`) noting that Figulus's image
+  is Pythagoras, since no likeness of Nigidius survives.
+
+### Changed
+- **Varro** excerpt: restored the full invocation of the twelve Consentes gods (Latin + Italian +
+  English), which had been truncated after Jupiter and Tellus.
+- **Sallust** *Bellum Iugurthinum* 85: restored the full Latin (it had been cut to the final section
+  only); the *De Coniuratione Catilinae* citation now reads "5.1-8" (section 9 is omitted).
+- **Nepos** difficulty chart: style and density lowered into the green (plain prose, no tricks);
+  lexicon and syntax kept a low yellow.
+- **Lucretius** difficulty chart: lexicon raised to the maximum (Complex) for its technical/archaic
+  vocabulary, old Greek names (*Iphianassa*), and coined words.
+- **Sallust** overall-difficulty badge is now purple; its Italian label is "IN BOCCA AL LUPO".
+- **Cicero** *In Catilinam*: the Italian of "O tempora, o mores!" is now "Che tempi, che costumi!".
+- **Catullus** carmina citations now name the collection - "Liber, Carmen 3 / 101 / 64, vv.1-7"
+  (singular *Carmen*); the author page no longer duplicates the three carmina (they had rendered
+  inside the style section as well as on the practice page).
+- Replaced the Caesar and Hortensius portraits with re-cropped versions (`.jpeg`->`.jpg`,
+  `.jpg`->`.png`; `IMAGE_LOOKUP` updated).
+- Cache version bumped v44 → v45.
+
 ## [1.0.0] - 2026-06-30
 
 Caesar's Age goes live - the app's second era, and the milestone v1.0.0 release that the

@@ -67,7 +67,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=44`.**
+   whenever you change a JS/CSS file. **Currently `v=45`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -133,11 +133,11 @@ The full Italian translation pass is **DONE**.
 |---|---|---|
 | Marcus Terentius Varro | Manageable | De Re Rustica I.1 (1) |
 | Cornelius Nepos | Good Exercise | Epaminondas (1) |
-| Quintus Hortensius Hortalus | **NC (no chart)** | Cicero, Brutus 6 (1) |
-| Publius Nigidius Figulus | **NC (no chart)** | Gellius, NA X.9 (1) |
+| Quintus Hortensius Hortalus | **NA (grey badge, no chart)** | Cicero, Brutus 6 (1) |
+| Publius Nigidius Figulus | **NA (grey badge, no chart)** | Gellius, NA X.9 (1) |
 | Marcus Tullius Cicero | Very Difficult | In Catilinam I.1-2 · Ad Atticum I.16 · De Amicitia 20 (3) |
-| Gaius Julius Caesar | Good Exercise | BG VI.13-14 Druids · BC I.7 Rubicon speech (2) |
-| Aulus Hirtius | Manageable | BG VIII praef. · Bellum Alexandrinum 1-2 (2) |
+| Gaius Julius Caesar | Good Exercise | BG VI.13 Druids · VI.14 Druids · BC I.7 Rubicon speech (3) |
+| Aulus Hirtius | Manageable | BG VIII praef. · Bellum Alexandrinum 1 · Bellum Alexandrinum 2 (3) |
 | Titus Lucretius Carus | Very Difficult | DRN I.80-101 Iphigenia (1) |
 | Gaius Sallustius Crispus | START PRAYING, BOY | Cat. 5 portrait · Iug. 85 Marius (2) |
 | Gaius Valerius Catullus | Manageable | carmina 3 · 101 · 64.1-7 (3) |

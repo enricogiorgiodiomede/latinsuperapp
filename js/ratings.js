@@ -43,11 +43,14 @@
   // Overall evaluation scale. Mirrors the old tiers (S/A/B/C/D) but reframed,
   // with the maximum renamed. Colours align with the bar bands.
   var EVALUATIONS = {
-    'praying':        { label: 'START PRAYING, BOY', color: '#6e1414', rank: 5 }, // was S
-    'very-difficult': { label: 'Very Difficult',     color: '#b22f2a', rank: 4 }, // was A
-    'difficult':      { label: 'Difficult',          color: '#cf6a2a', rank: 3 }, // was B
-    'manageable':     { label: 'Manageable',         color: '#d6a328', rank: 2 }, // was C
-    'good-exercise':  { label: 'Good Exercise',      color: '#5f8a3a', rank: 1 }  // was D
+    'praying':        { label: 'START PRAYING, BOY',  color: '#6a1b9a', rank: 5 }, // was S (purple)
+    'very-difficult': { label: 'Very Difficult',      color: '#b22f2a', rank: 4 }, // was A
+    'difficult':      { label: 'Difficult',           color: '#cf6a2a', rank: 3 }, // was B
+    'manageable':     { label: 'Manageable',          color: '#d6a328', rank: 2 }, // was C
+    'good-exercise':  { label: 'Good Exercise',       color: '#5f8a3a', rank: 1 }, // was D
+    // For authors whose surviving text is too fragmentary to rank: shown as a
+    // grey badge with NO difficulty chart (was "NC" in the tier system).
+    'not-assessable': { label: 'Not Assessable (NA)', color: '#6b6b6b', rank: 0 }
   };
 
   // Per-author ratings, keyed by the same slugs the rest of the app uses.
@@ -105,9 +108,16 @@
       evaluation: 'manageable', fragments: false
     },
     'cornelius-nepos': {
-      lexicon: 1.6, syntax: 1.5, style: 1.5, density: 1.6,
+      // "Transparent as glass": style + density sit in the green (no tricks,
+      // what you read is what he means); lexicon + syntax are low yellow.
+      lexicon: 1.5, syntax: 1.5, style: 1.3, density: 1.3,
       evaluation: 'good-exercise', fragments: false
     },
+    // Hortensius and Figulus survive only in scraps quoted by others: Not
+    // Assessable. No criteria bars -> author.js shows the grey NA badge and
+    // no difficulty chart.
+    'quintus-hortensius-hortalus': { evaluation: 'not-assessable' },
+    'publius-nigidius-figulus': { evaluation: 'not-assessable' },
     'marcus-tullius-cicero': {
       lexicon: 3.2, syntax: 3.6, style: 3.5, density: 3.3,
       evaluation: 'very-difficult', fragments: false
@@ -121,7 +131,10 @@
       evaluation: 'manageable', fragments: false
     },
     'titus-lucretius-carus': {
-      lexicon: 3.7, syntax: 3.3, style: 3.3, density: 3.6,
+      // Lexicon maxed to Complex: technical + archaic vocabulary, old-school
+      // names (Iphianassa for Iphigenia), and coinages invented on the fly to
+      // render Epicurean physics.
+      lexicon: 4.0, syntax: 3.3, style: 3.3, density: 3.6,
       evaluation: 'very-difficult', fragments: false
     },
     'gaius-sallustius-crispus': {
