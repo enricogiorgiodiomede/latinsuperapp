@@ -441,3 +441,21 @@ The big web-app session: Caesar's Age was brought fully online as the app's seco
 - `PROGRESS.md`, `README.md`, `CLAUDE.md` (updated) -- refreshed to reflect the launch.
 
 **Progress:** Caesar's Age is live in the web app alongside the Archaic era. The app is now era-aware, so adding the next era is primarily a content task. Next era: **Augustan Era (44 BC -- 14 AD)** -- awaiting permission.
+
+---
+
+## 2026-07-01
+*(End-of-day log, 23:55.)*
+
+A polish day on Caesar's Age: a user review pass (v1.0.1), a layout fix for the Figulus hero, and a new bilingual "portrait likeness" note system across every author (v1.0.2).
+
+**v1.0.1 -- Caesar's Age review fixes:**
+
+- **Fragments restored/reworked.** Varro's *De Re Rustica* invocation now carries the full list of the twelve Consentes gods (it had been truncated after Jupiter/Tellus), with fresh IT/EN. Sallust's *Bellum Iugurthinum* 85 Latin was restored (the extractor had cut it to the first blockquote) and the *De Coniuratione Catilinae* citation fixed to "5.1-8". Caesar's *De Bello Gallico* VI was split into two fragments (VI.13 the druids' power; VI.14 oral learning + transmigration) and Hirtius's *Bellum Alexandrinum* into chapters 1 and 2 -- each with longer, grammar-focused analyses, bringing both authors to 3 fragments. Cicero's Italian for "O tempora, o mores!" became "Che tempi, che costumi!". Catullus citations were normalized ("Liber, Carmen 3 / 101 / 64, vv.1-7") and the three carmina de-duplicated off the author page.
+- **Ratings / UI.** Added a grey "Not Assessable (NA)" evaluation for Hortensius and Figulus (badge only, no chart; `author.js` now skips the chart when a rating has no criteria). Tuned the Nepos and Lucretius difficulty charts. Sallust's "START PRAYING, BOY" badge went purple (IT label "IN BOCCA AL LUPO"). Swapped in the user's re-cropped Caesar and Hortensius portraits and updated `IMAGE_LOOKUP`. Regenerated `content.js`; cache v44 -> v45.
+
+**Figulus hero layout fix.** The Pythagoras caption had been living inside `.detail-portraits` with a full-width flex rule that ballooned the portrait column to ~312px and unbalanced the hero. Moved the caption into `.detail-heading` alongside the name/dates/badge/button and dropped the flex-wrap hack, so the portrait keeps its 150px size and the entry matches every other author page. Cache v45 -> v46.
+
+**v1.0.2 -- portrait "invented/uncertain likeness" notes.** Added small bilingual notes (EN/IT) beside author portraits, in their own third hero column filling the empty space to the right of the hero. They flag which images are entirely fictional (Livius, Naevius, Ennius, Plautus, Terence; Varro, Nepos, Hortensius), which may not be accurate (Pacuvius+Accius, Pomponius+Novius, Hirtius), Lucretius's chosen fictional illustration, and Figulus's Pythagoras note (moved into the new column). Text lives in `data.js` `IMAGE_NOTE`; `author.js` renders `.portrait-note` as a third hero column (centered, capped width, wrapping below on narrow screens) so portrait and heading keep their usual size. CHANGELOG + `changelog.js` v1.0.2; PROGRESS and memory updated; cache v46 -> v47.
+
+**Progress:** Caesar's Age is now review-clean and visually consistent with the Archaic era, with honest provenance notes on every author portrait. Cache at v47. Next era: **Augustan Era (44 BC -- 14 AD)** -- awaiting permission.
