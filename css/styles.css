@@ -456,14 +456,17 @@ a { color: var(--terracotta-deep); }
   border: 3px solid var(--gold-soft);
 }
 
-/* Note about the portrait (e.g. Figulus's image is Pythagoras). Sits in the
-   heading column with the name/dates/badge, so the portrait keeps its size. */
+/* Note about the portrait (invented / uncertain / not a real likeness). Its own
+   column filling the empty space to the right of the heading; wraps below on
+   narrow screens. The portrait and heading keep their usual size. */
 .portrait-note {
-  margin: 14px 0 0;
-  max-width: 46ch;
-  font-size: 0.78rem;
+  flex: 1 1 220px;
+  max-width: 340px;
+  align-self: center;
+  margin: 0;
+  font-size: 0.8rem;
   font-style: italic;
-  line-height: 1.45;
+  line-height: 1.5;
   color: var(--gray);
 }
 

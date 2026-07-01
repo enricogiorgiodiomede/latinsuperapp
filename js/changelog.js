@@ -11,6 +11,27 @@
 
   var VERSIONS = [
     {
+      v: '1.0.2', date: '2026-07-01',
+      en: {
+        added: [
+          'Small honesty notes next to the author portraits, telling you when a likeness is invented, uncertain, or (for Figulus) actually someone else - because most of these authors left no real bust behind.'
+        ],
+        changed: [
+          'Those notes sit in the open space to the right of each entry, so the portrait and title keep their usual size.'
+        ],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Piccole note di sincerità accanto ai ritratti degli autori, che segnalano quando un’immagine è inventata, incerta o (per Figulo) in realtà di qualcun altro - perché la maggior parte di questi autori non ha lasciato alcun busto autentico.'
+        ],
+        changed: [
+          'Quelle note stanno nello spazio libero a destra di ogni scheda, così il ritratto e il titolo mantengono le loro dimensioni abituali.'
+        ],
+        deleted: []
+      }
+    },
+    {
       v: '1.0.1', date: '2026-07-01',
       en: {
         added: [

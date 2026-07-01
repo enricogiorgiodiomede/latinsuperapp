@@ -67,7 +67,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=46`.**
+   whenever you change a JS/CSS file. **Currently `v=47`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -143,7 +143,10 @@ The full Italian translation pass is **DONE**.
 | Gaius Valerius Catullus | Manageable | carmina 3 · 101 · 64.1-7 (3) |
 
 Caesar images live in `images_caesar/` (Figulus's portrait is Pythagoras - no ancient likeness of
-Nigidius survives). Caesar fragments carry no `analysisIt` from the docs (the IT excerpt sections
+Nigidius survives). Many portraits carry a small **"this image is invented/uncertain" note** shown in
+its own column on the right of the hero (`IMAGE_NOTE` in data.js, rendered by author.js as
+`.portrait-note`, bilingual; spans both eras - Livius/Naevius/Ennius/Plautus/Terence, Pacuvius+Accius,
+Pomponius+Novius, Varro, Nepos, Hortensius, Hirtius, Lucretius, Figulus). Caesar fragments carry no `analysisIt` from the docs (the IT excerpt sections
 have only the translation), so Italian analyses were authored fresh during the v1.0.0 build.
 
 ## What remains (the plan)

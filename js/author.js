@@ -92,16 +92,17 @@
     actions.appendChild(practiceBtn);
     heading.appendChild(actions);
 
-    // Optional portrait caption (e.g. Figulus's image is Pythagoras). Placed in
-    // the heading column so the portrait stays the usual size, like every entry.
+    hero.appendChild(heading);
+
+    // Optional portrait note (image is invented / uncertain / not a real likeness).
+    // Its own column filling the empty space on the right of the hero.
     if (author.imageNote) {
       var pnote = document.createElement('p');
       pnote.className = 'portrait-note';
       pnote.textContent = author.imageNote;
-      heading.appendChild(pnote);
+      hero.appendChild(pnote);
     }
 
-    hero.appendChild(heading);
     root.appendChild(hero);
 
     // --- Content sections ---

@@ -6,6 +6,26 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.0.2] - 2026-07-01
+
+Small additions: portrait honesty notes.
+
+### Added
+- **Portrait notes** beside the author image, in the space to the right of the heading, flagging when
+  a likeness is invented or uncertain (bilingual EN/IT, driven by `IMAGE_NOTE` in `js/data.js`):
+  - Entirely fictional, no ancient bust survives: Livius Andronicus, Naevius, Ennius, Plautus, Terence.
+  - Entirely fictional, probably no accurate bust/sculpture exists: Varro, Nepos, Hortensius.
+  - May not be accurate, hard to trace: Pacuvius & Accius, Pomponius & Novius, Hirtius.
+  - Lucretius: a fictional illustration chosen over the real bust (which exists, but the illustration
+    is nicer).
+  - Figulus's existing Pythagoras note joins the set.
+
+### Changed
+- The portrait note is now its **own column filling the empty space on the right** of the hero (in
+  v1.0.1 it had briefly sat under the heading), so the portrait and heading keep their usual size; on
+  narrow screens it wraps below.
+- Cache version bumped v46 → v47.
+
 ## [1.0.1] - 2026-07-01
 
 Fixes and refinements to Caesar's Age, from a user review pass.

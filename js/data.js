@@ -257,9 +257,46 @@
     'gaius-valerius-catullus': 'Gaio Valerio Catullo'
   };
 
-  // Optional caption shown under an author's portrait (EN + IT), for cases where
-  // the image is not actually a likeness of the author.
+  // Optional caption shown beside an author's portrait (EN + IT), noting when the
+  // image is invented, uncertain, or not actually a likeness of the author.
+  var NOTE_FICTIONAL = {
+    en: 'The portrait is entirely fictional - no ancient bust of him survives.',
+    it: 'Il ritratto è del tutto immaginario: non sopravvive alcun busto antico di lui.'
+  };
+  var NOTE_UNCERTAIN = {
+    en: 'The portrait may not be accurate - reliable likenesses of him are hard to trace.',
+    it: 'Il ritratto potrebbe non essere fedele: è difficile trovarne tracce attendibili.'
+  };
+  var NOTE_UNCERTAIN_PAIR = {
+    en: 'These portraits may not be accurate - reliable likenesses of these authors are hard to trace.',
+    it: 'Questi ritratti potrebbero non essere fedeli: è difficile trovare tracce attendibili di questi autori.'
+  };
+  var NOTE_NO_BUST = {
+    en: 'The portrait is entirely fictional - it is likely that no accurate bust or sculpture of him exists.',
+    it: 'Il ritratto è del tutto immaginario: probabilmente non esiste alcun busto o scultura fedele di lui.'
+  };
   var IMAGE_NOTE = {
+    // Archaic Era - invented likenesses (no ancient bust survives).
+    'livius-andronicus': NOTE_FICTIONAL,
+    'gnaeus-naevius': NOTE_FICTIONAL,
+    'quintus-ennius': NOTE_FICTIONAL,
+    'titus-maccius-plautus': NOTE_FICTIONAL,
+    'publius-terentius-afer': NOTE_FICTIONAL,
+    // Archaic Era - two-author entries, likeness uncertain.
+    'marcus-pacuvius-and-lucius-accius': NOTE_UNCERTAIN_PAIR,
+    'pomponius-bononiensis-and-quintus-novius': NOTE_UNCERTAIN_PAIR,
+    // Caesar's Age - invented likenesses (probably no accurate bust exists).
+    'marcus-terentius-varro': NOTE_NO_BUST,
+    'cornelius-nepos': NOTE_NO_BUST,
+    'quintus-hortensius-hortalus': NOTE_NO_BUST,
+    // Caesar's Age - likeness uncertain / hard to trace.
+    'aulus-hirtius': NOTE_UNCERTAIN,
+    // Caesar's Age - illustration chosen over a real bust.
+    'titus-lucretius-carus': {
+      en: 'The portrait is entirely fictional - it is an illustration. An accurate bust does exist, but the illustration is nicer.',
+      it: 'Il ritratto è del tutto immaginario: è un\'illustrazione. Un busto fedele esiste, ma l\'illustrazione è più bella.'
+    },
+    // Caesar's Age - the image is actually Pythagoras.
     'publius-nigidius-figulus': {
       en: 'The portrait shown is Pythagoras, not Figulus - no accurate likeness of Nigidius Figulus survives. He is shown here because he tried to revive the Pythagorean tradition in Rome.',
       it: 'Il ritratto raffigura Pitagora, non Figulo - non sopravvive alcuna immagine fedele di Nigidio Figulo. È mostrato qui perché cercò di far rivivere a Roma la tradizione pitagorica.'
