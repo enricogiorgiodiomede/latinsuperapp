@@ -31,7 +31,7 @@
       'footer.index': 'An interactive companion to the Latin Authors writing project.',
       'footer.author': 'An interactive companion to the Latin Authors writing project.',
       'footer.practice': 'Attempt the Latin yourself, then reveal the translations to self-check.',
-      'footer.select': 'Pick a comedy or text, then practise translating its fragments.',
+      'footer.select': 'Pick a work, then practise translating its fragments.',
       'aria.eras': 'Eras',
       'aria.breadcrumb': 'Breadcrumb',
 

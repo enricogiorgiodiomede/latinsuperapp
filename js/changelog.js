@@ -18,7 +18,8 @@
           'Highlights among the new passages: Italy praised as one giant orchard, bees described as a little republic with a king, why a “month” is named after the moon, and Varro’s rules for a good dinner party (never invite a crowd).'
         ],
         changed: [
-          'Small wording fix: the author list now reads “Authors of Caesar’s Age” instead of “Authors of the Caesar’s Age”.'
+          'Small wording fix: the author list now reads “Authors of Caesar’s Age” instead of “Authors of the Caesar’s Age”.',
+          'On the work-chooser page, the footer now says “Pick a work…” instead of “Pick a comedy or text…”, matching the Italian.'
         ],
         deleted: []
       },
@@ -28,7 +29,8 @@
           'Tra i nuovi brani: l’Italia lodata come un unico immenso frutteto, le api descritte come una piccola repubblica con un re, perché il “mese” prende nome dalla luna, e le regole di Varrone per una buona cena (mai invitare una folla).'
         ],
         changed: [
-          'Piccola rifinitura all’etichetta della lista degli autori (in inglese), ora più corretta.'
+          'Piccola rifinitura all’etichetta della lista degli autori (in inglese), ora più corretta.',
+          'Nella pagina di scelta dell’opera, l’invito in inglese ora parla di “opera” (come già in italiano) invece di “commedia o testo”.'
         ],
         deleted: []
       }

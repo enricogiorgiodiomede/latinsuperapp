@@ -31,7 +31,9 @@ pick-a-work chooser.
 - The work-chooser heading is now per-author (`selectHeadingIt` in `js/fragments.js`, read by
   `js/select.js`), so Varro's reads "Choose a work by Varro" / "Scegli un'opera di Varrone" rather
   than the comedy-specific wording kept for Plautus/Terence.
-- Cache version bumped v47 → v48.
+- The chooser page's English footer now reads "Pick a work, then practise translating its fragments"
+  (was "Pick a comedy or text..."), mirroring the Italian's "un'opera".
+- Cache version bumped v47 → v51 (Varro fragment extensions + this wording tweak).
 
 ## [1.0.2] - 2026-07-01
 
