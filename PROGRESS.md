@@ -67,7 +67,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=47`.**
+   whenever you change a JS/CSS file. **Currently `v=48`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -131,7 +131,7 @@ The full Italian translation pass is **DONE**.
 
 | Author (slug) | Eval | Fragment(s) |
 |---|---|---|
-| Marcus Terentius Varro | Manageable | De Re Rustica I.1 (1) |
+| Marcus Terentius Varro | Manageable | **needsSelection** (work chooser): De Re Rustica (5) · De Lingua Latina (3) · Saturae Menippeae (3) = 11 |
 | Cornelius Nepos | Good Exercise | Epaminondas (1) |
 | Quintus Hortensius Hortalus | **NA (grey badge, no chart)** | Cicero, Brutus 6 (1) |
 | Publius Nigidius Figulus | **NA (grey badge, no chart)** | Gellius, NA X.9 (1) |

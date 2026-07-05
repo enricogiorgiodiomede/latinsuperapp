@@ -65,7 +65,8 @@
       'home.comingSoon': 'Coming soon',
       'home.eraNotWritten': 'This era has not been written yet. Check back later.',
       'home.authorsComingSoon': 'Authors for this era will appear here once written.',
-      'home.authorsOf': function (p) { return 'Authors of the ' + p.era; },
+      // Possessive era names ("Caesar's Age") drop the article; "Archaic Era" keeps it.
+      'home.authorsOf': function (p) { return (/'/.test(p.era) ? 'Authors of ' : 'Authors of the ') + p.era; },
       'section.authors': 'Authors',
 
       // --- breadcrumbs ---

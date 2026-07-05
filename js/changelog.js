@@ -11,6 +11,29 @@
 
   var VERSIONS = [
     {
+      v: '1.1.0', date: '2026-07-05',
+      en: {
+        added: [
+          'Varro now has a “pick a work” menu like Plautus and Terence: his practice grows from one passage to eleven, spread across his three surviving works - the farming manual De Re Rustica (5), the language treatise De Lingua Latina (3), and the Menippean satires (3).',
+          'Highlights among the new passages: Italy praised as one giant orchard, bees described as a little republic with a king, why a “month” is named after the moon, and Varro’s rules for a good dinner party (never invite a crowd).'
+        ],
+        changed: [
+          'Small wording fix: the author list now reads “Authors of Caesar’s Age” instead of “Authors of the Caesar’s Age”.'
+        ],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Varrone ha ora un menu “scegli un’opera” come Plauto e Terenzio: i suoi esercizi passano da un solo brano a undici, distribuiti sulle tre opere superstiti - il manuale di agricoltura De Re Rustica (5), il trattato sulla lingua De Lingua Latina (3) e le satire menippee (3).',
+          'Tra i nuovi brani: l’Italia lodata come un unico immenso frutteto, le api descritte come una piccola repubblica con un re, perché il “mese” prende nome dalla luna, e le regole di Varrone per una buona cena (mai invitare una folla).'
+        ],
+        changed: [
+          'Piccola rifinitura all’etichetta della lista degli autori (in inglese), ora più corretta.'
+        ],
+        deleted: []
+      }
+    },
+    {
       v: '1.0.2', date: '2026-07-01',
       en: {
         added: [

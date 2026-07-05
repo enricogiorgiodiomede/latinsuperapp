@@ -6,6 +6,33 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.1.0] - 2026-07-05
+
+Varro grows from one practice fragment to eleven, across his three surviving works, with a
+pick-a-work chooser.
+
+### Added
+- **Varro now has a work chooser** (like Plautus and Terence): the "Practice translation" button opens
+  a menu of his three works, each with its own fragments - *De Re Rustica* (5), *De Lingua Latina* (3),
+  *Saturae Menippeae* (3), 11 in all. `marcus-terentius-varro` is now `needsSelection: true`.
+- **10 new bilingual Varro fragments** (verbatim Latin + original Italian and English + analysis):
+  - *De Re Rustica*: Italy praised as one great orchard (I.2), the ancestors ranking country above
+    city (II praef.), the three branches of villa husbandry (III.3), and bees as a little republic
+    (III.16) - alongside the existing dedication (I.1).
+  - *De Lingua Latina*: the five kinds of land and their etymologies (V.33), why a month is *mensis*
+    (VI.10), and the analogy-vs-usage debate (VIII.26).
+  - *Saturae Menippeae* (Menippean satires, preserved by Gellius): a wife's fault "removed or endured"
+    (NA I.17), and two pieces of the dinner-party satire *Nescis quid vesper serus vehat* - how many
+    guests, and the four ingredients of a perfect dinner (NA XIII.11).
+
+### Changed
+- **Fixed the English author-grid label**: it now reads "Authors of Caesar's Age" (the stray "the" is
+  dropped for possessive era names; "Authors of the Archaic Era" is unchanged).
+- The work-chooser heading is now per-author (`selectHeadingIt` in `js/fragments.js`, read by
+  `js/select.js`), so Varro's reads "Choose a work by Varro" / "Scegli un'opera di Varrone" rather
+  than the comedy-specific wording kept for Plautus/Terence.
+- Cache version bumped v47 → v48.
+
 ## [1.0.2] - 2026-07-01
 
 Small additions: portrait honesty notes.
