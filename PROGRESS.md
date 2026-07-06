@@ -170,13 +170,25 @@ analysisIt, proper accents), short tailored analysis, title, citation; spread ac
 commit + push; update `CHANGELOG.md`, `practice_fragments_reference.md`, and this file (table +
 cache `v=`).
 
-### >>> CAESAR'S AGE IS LIVE IN THE APP (v1.0.0, 2026-06-30) -- Next: Augustan Era (awaiting permission) <<<
+### >>> CAESAR'S AGE IS LIVE (now at v1.1.0, cache ?v=51) -- Next: Augustan Era (awaiting permission) <<<
+
+**Current state (v1.1.0, 2026-07-05):** Archaic + Caesar's Age both live. Since the v1.0.0 launch:
+- **v1.0.1/1.0.2 fixes**: Caesar BG VI split into VI.13/VI.14; Hirtius Bell. Alex. split into 1/2;
+  grey "Not Assessable (NA)" badge for Hortensius/Figulus (no chart); Nepos chart lowered; Lucretius
+  lexicon maxed; Sallust badge purple + IT "IN BOCCA AL LUPO"; Varro full twelve-gods invocation;
+  Sallust BI full Latin; Catullus dup-excerpt removal + "(Liber, Carmen N)" citations; per-portrait
+  invented/uncertain-likeness notes (`IMAGE_NOTE`) in a right-hand hero column (Figulus = Pythagoras).
+- **v1.1.0 (this line)**: **Varro is now `needsSelection:true`** with a 3-work chooser - De Re Rustica
+  (5), De Lingua Latina (3), Saturae Menippeae (3) = 11 fragments (Menippeans from Gellius on TLL,
+  editorial "inquit" removed; De Re Rustica 2-5 later extended to ~0.6-1.1k chars each). Per-author IT
+  chooser heading via `selectHeadingIt` ("Scegli un'opera di Varrone"). EN grid label fixed ("Authors
+  of Caesar's Age", no stray "the"). Chooser footer EN now "Pick a work..." (was "a comedy or text").
+- **Caesar's Age now has 29 practice fragments total.** All verified in the browser (EN & IT), verbatim
+  Latin validated, no console errors. Committed + pushed (latest: `b5d3369`).
 
 **The Caesar's Age web-app build is DONE**: era-aware `data.js`, the 10-author grid + profiles
-(scrubbed bio/works/style + chart + evaluation, EN & IT), 17 practice fragments (EN & IT), images,
-regenerated content.js/content-it.js, ratings, changelog v1.0.0. Verified in the browser preview in
-both languages (no console errors; tier language scrubbed; NC authors chart-less; dates single-dash;
-verbatim Latin validated against the drafts). Committed + pushed.
+(scrubbed bio/works/style + chart + evaluation, EN & IT), images, regenerated content.js/content-it.js,
+ratings, changelog through v1.1.0.
 
 **Archaic Era practice bank is complete. Caesar's Era writing was COMPLETE as of 2026-06-29; the app
 integration completed 2026-06-30.**
