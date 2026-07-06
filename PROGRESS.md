@@ -176,9 +176,9 @@ cache `v=`).
 (that draft isn't written). Instead, extend the Archaic Era practice bank and flesh out Caesar's Age:
 
 - **Plautus**: currently **7 comedies** (Bacchides was the missing 7th). Add 3 more - **Asinaria, Casina,
-  Truculentus** = **10 comedies total** (matches the user's "all 10 comedies"). Target: every comedy has
-  **5 fragments** (bring the existing 3-4 up to 5; author the 3 new ones at 5), works list **ordered
-  alphabetically**. Alphabetical order of the 10: Amphitruo, Asinaria, Aulularia, **Bacchides**, Casina,
+  Truculentus** = **10 comedies total** (matches the user's "all 10 comedies"). Target (**confirmed
+  2026-07-06**): every comedy has **5 fragments** - bring the existing 3-4 up to 5, author the 3 new ones
+  at 5 (= +12 to the existing seven, +15 new). Works list **ordered alphabetically**. Alphabetical order of the 10: Amphitruo, Asinaria, Aulularia, **Bacchides**, Casina,
   Menaechmi, Miles Gloriosus, Mostellaria, Pseudolus, Truculentus.
 - **Caecilius Statius**: +2 Plocium fragments (3 -> 5) and +1 "Other plays" fragment.
 - **Terence**: +2 fragments to **each** of the 6 comedies (3 -> 5 each).
