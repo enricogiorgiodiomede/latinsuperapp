@@ -68,16 +68,19 @@ Works ordered chronologically in the chooser (Andria, Hecyra, Heautontimorumenos
 ### Terence - all done
 All 6 comedies complete, 3 fragments each: Andria, Hecyra, Heautontimorumenos, Eunuchus, Phormio, Adelphoe.
 
-## Caecilius (needsSelection) - DONE (Plocium 3 + Other plays 2)
-Source: The Latin Library (Gellius `gellius/gellius2.shtml`; Cicero `cicero/senectute.shtml`, `cicero/tusc1.shtml`).
-- **Plocium** (`plocium`) - the 3 passages Gellius quotes side by side with Menander in *Noctes Atticae* II.23:
+## Caecilius (needsSelection) - DONE (Plocium 5 + Other plays 3) [v1.1.1, 2026-07-06]
+Source: The Latin Library (Gellius `gellius/gellius2.shtml`; Cicero `cicero/senectute.shtml`, `cicero/tusc1.shtml`, `cicero/tusc3.shtml`). The two non-Gellius Plocium lines are grammarian-transmitted (Donatus, Nonius) - text verified against Wikiquote + a Latin anthology, cited with the Ribbeck fragment number.
+- **Plocium** (`plocium`) - 5 fragments; the first 3 are the passages Gellius quotes side by side with Menander in *Noctes Atticae* II.23:
   - §10: the husband's monologue on his rich, domineering wife ("is demum miser est... dum eius mortem inhio, egomet vivo mortuus") - migrated; v.5 is a transmitted crux. Medium-hard.
   - §13: the "fasting-breath kiss" dialogue (A./B.) - wife kisses him to smell if he drank out ("ut devomas, vult, quod foris potaveris"). Gellius: Caecilius "ridiculus magis quam aptus". Easy/colloquial.
   - §21: the slave on the poor man whose troubles can't be hidden ("is demum infortunatus est homo... opulento famam facile occultat factio"). Gellius: "trunca... ex Menandro... verba tragici tumoris". Medium, sententious.
-- **Other plays** (`other`, labelIt "Altre commedie") - 1-2 from his other comedies, both via Cicero:
+  - **NEW** "Vivas ut possis, quando nec quis ut velis" (Donatus, *Commentum ad Andriam* IV.5 = Ribbeck Plocium fr. 11) - the famous "live as you can, not as you'd wish" maxim; Terence reworked it in the Andria, which is why Donatus preserved it. Short/gnomic; note *possis* (possum) vs *quis* (queo) vs *velis* (volo).
+  - **NEW** "Placere occepit graviter, postquam emortuast" (Nonius 314,21 = Ribbeck Plocium fr. 3) - black-comedy one-liner ("she began to please me deeply, after she had died"); pairs with the §10 "dum eius mortem inhio". *emortuast* = *emortua est* (prodelision). Short.
+- **Other plays** (`other`, labelIt "Altre commedie") - 3 fragments, all via Cicero:
   - *Incertae fabulae* on old age (Cicero, *De Senectute* 25): "Edepol senectus... multa quae non volt videt" + "Tum equidem in senecta hoc deputo miserrimum, sentire ea aetate eumpse esse odiosum alteri." Cicero quotes both to refute them.
   - *Synephebi* (Cicero, *Tusc.* I.31): "serit arbores, quae alteri saeclo prosint" - the famous one-liner on planting for a future generation.
-- Through-line for the whole entry: Caecilius survives mostly because Gellius and Cicero quoted him to disagree with him.
+  - **NEW** *Incertae fabulae* (Cicero, *Tusc.* III.56, verbatim on TLL `cicero/tusc3.shtml`): "Saepe est etiam sub palliolo sordido sapientia" - Caecilius's most-quoted line ("wisdom under a shabby cloak"); s-alliteration + diminutive *palliolum*. Short/gnomic.
+- Through-line for the whole entry: Caecilius survives mostly because Gellius, Cicero, and the grammarians quoted him.
 
 ## Cato the Elder - DONE (De Agri Cultura, 5 fragments)
 Source: The Latin Library, `cato/cato.agri.html` (full continuous text; chapters bracketed [N]).

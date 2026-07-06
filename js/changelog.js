@@ -11,6 +11,25 @@
 
   var VERSIONS = [
     {
+      v: '1.1.1', date: '2026-07-06',
+      en: {
+        added: [
+          'Caecilius Statius gains three new practice passages, all famous one-liners the ancients kept quoting. His Plocium (“The Necklace”) now runs to five: added are “live as you can, since you cannot as you would wish” and a pitch-black joke about a woman who only became dear once she was dead.',
+          'His “other plays” section gains the proverb people still repeat without knowing whose it is: “there is often wisdom even under a shabby cloak” - preserved for us by Cicero.'
+        ],
+        changed: [],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Cecilio Stazio guadagna tre nuovi brani di esercizio, tutti celebri massime che gli antichi continuavano a citare. Il suo Plocium (“La collana”) arriva ora a cinque: si aggiungono “vivi come puoi, dato che non puoi come vorresti” e una battuta nerissima su una donna che divenne cara soltanto da morta.',
+          'La sua sezione “altre commedie” guadagna il proverbio che la gente ripete ancora senza sapere di chi sia: “spesso c’è saggezza anche sotto un mantello liso” - conservato per noi da Cicerone.'
+        ],
+        changed: [],
+        deleted: []
+      }
+    },
+    {
       v: '1.1.0', date: '2026-07-05',
       en: {
         added: [

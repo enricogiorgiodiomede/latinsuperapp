@@ -6,6 +6,23 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.1.1] - 2026-07-06
+
+Caecilius Statius gains three more practice fragments: two for the *Plocium* and one for his
+"other plays".
+
+### Added
+- **3 new Caecilius Statius practice fragments** (verbatim Latin + original Italian and English +
+  analysis, with bilingual metadata):
+  - *Plocium*: **"Vivas ut possis, quando nec quis ut velis"** (preserved by Donatus, *Commentum ad
+    Andriam* IV.5) and **"Placere occepit graviter, postquam emortuast"** (preserved by Nonius
+    Marcellus 314,21). The *Plocium* now has 5 fragments.
+  - *Incertae fabulae*: **"Saepe est etiam sub palliolo sordido sapientia"** (Cicero, *Tusculanae
+    Disputationes* III.56, via The Latin Library). The "Other plays" work now has 3 fragments.
+
+### Changed
+- Cache-busting bumped to `?v=52`.
+
 ## [1.1.0] - 2026-07-05
 
 Varro grows from one practice fragment to eleven, across his three surviving works, with a

@@ -67,7 +67,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=51`.**
+   whenever you change a JS/CSS file. **Currently `v=52`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -121,7 +121,7 @@ The full Italian translation pass is **DONE**.
 | Quintus Ennius | Annales (3) |
 | **Plautus** *(needsSelection)* | 7 comedies: Pseudolus (3) · Mostellaria (3) · Amphitruo (4) · Aulularia (3) · Miles Gloriosus (3) · Menaechmi (4) · Bacchides (3) |
 | Cato the Elder | De Agri Cultura (5) |
-| **Caecilius Statius** *(needsSelection)* | Plocium (3) · Other plays (2) |
+| **Caecilius Statius** *(needsSelection)* | Plocium (5) · Other plays (3) |
 | **Terence** *(needsSelection)* | Andria (3) · Hecyra (3) · Heautontimorumenos (3) · Eunuchus (3) · Phormio (3) · Adelphoe (3) |
 | Pacuvius & Accius | Niptra (1) + Chryses (2) · Atreus (1) + Brutus (2) |
 | Gaius Lucilius | Saturae (1) |
@@ -157,8 +157,10 @@ have only the translation), so Italian analyses were authored fresh during the v
 - **Terence** (agreed: 3 fragments per comedy, 6 plays): **DONE - all 6 of 6** - Andria, Hecyra,
   Heautontimorumenos, Eunuchus, Phormio, Adelphoe (3 each). The user said they'll decide later
   whether to add more than 3 per play.
-- **Caecilius**: DONE. `Plocium` now has the 3 passages Gellius quotes (NA II.23.10/13/21); `Other`
-  is now "Other plays" with 2 fragments (old age, *De Senectute* 25; *Synephebi*, *Tusc.* I.31).
+- **Caecilius**: DONE (extended to 5+3 in v1.1.1, 2026-07-06). `Plocium` now has 5: the 3 Gellius
+  passages (NA II.23.10/13/21) plus "Vivas ut possis..." (Donatus, ad Andriam) and "Placere occepit
+  graviter, postquam emortuast" (Nonius 314,21). `Other plays` now has 3: old age (*De Senectute* 25),
+  *Synephebi* (*Tusc.* I.31), and "Saepe est etiam sub palliolo sordido sapientia" (*Tusc.* III.56).
 - **Fragmentary authors**: ALL DONE. Cato (5); Livius (3), Naevius (3), Ennius (3); Pacuvius (3),
   Accius (3), Novius (3), Pomponius (3). The Archaic Era practice bank is complete (3 per author,
   except Cato 5 and the multi-comedy authors Plautus/Terence).
@@ -170,17 +172,20 @@ analysisIt, proper accents), short tailored analysis, title, citation; spread ac
 commit + push; update `CHANGELOG.md`, `practice_fragments_reference.md`, and this file (table +
 cache `v=`).
 
-### >>> CAESAR'S AGE IS LIVE (now at v1.1.0, cache ?v=51) -- Next: EXTEND ARCHAIC + FLESH OUT CAESAR (NOT Augustan) <<<
+### >>> LIVE at v1.1.1, cache ?v=52 -- IN PROGRESS: EXTEND ARCHAIC + FLESH OUT CAESAR (NOT Augustan) <<<
 
-**Plan set 2026-07-06 (PLAN ONLY - not started).** The user does NOT want to start the Augustan Era yet
-(that draft isn't written). Instead, extend the Archaic Era practice bank and flesh out Caesar's Age:
+**Plan set 2026-07-06.** The user does NOT want to start the Augustan Era yet (that draft isn't written).
+Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caecilius is DONE (v1.1.1).**
+Remaining:
 
 - **Plautus**: currently **7 comedies** (Bacchides was the missing 7th). Add 3 more - **Asinaria, Casina,
   Truculentus** = **10 comedies total** (matches the user's "all 10 comedies"). Target (**confirmed
   2026-07-06**): every comedy has **5 fragments** - bring the existing 3-4 up to 5, author the 3 new ones
   at 5 (= +12 to the existing seven, +15 new). Works list **ordered alphabetically**. Alphabetical order of the 10: Amphitruo, Asinaria, Aulularia, **Bacchides**, Casina,
   Menaechmi, Miles Gloriosus, Mostellaria, Pseudolus, Truculentus.
-- **Caecilius Statius**: +2 Plocium fragments (3 -> 5) and +1 "Other plays" fragment.
+- ~~**Caecilius Statius**: +2 Plocium fragments (3 -> 5) and +1 "Other plays" fragment.~~ **DONE (v1.1.1,
+  2026-07-06)**: Plocium 5 (added Donatus "Vivas ut possis" + Nonius "Placere occepit... postquam
+  emortuast"); Other plays 3 (added Cicero Tusc. III.56 "Saepe est etiam sub palliolo sordido sapientia").
 - **Terence**: +2 fragments to **each** of the 6 comedies (3 -> 5 each).
 - **Cato the Elder**: +5 De Agri Cultura fragments (5 -> 10), maybe a few from other works.
 - **Lucilius**: more fragments - satire manifesto, Lupus/gluttony, a myth parody, voyage to Capo Colonna
