@@ -119,7 +119,7 @@ The full Italian translation pass is **DONE**.
 | Livius Andronicus | Odusia (3) |
 | Gnaeus Naevius | Bellum Poenicum (2) + Epitaph (1) |
 | Quintus Ennius | Annales (3) |
-| **Plautus** *(needsSelection)* | Pseudolus (3) · Mostellaria (3) · Amphitruo (4) · Aulularia (3) · Miles Gloriosus (3) · Menaechmi (4) |
+| **Plautus** *(needsSelection)* | 7 comedies: Pseudolus (3) · Mostellaria (3) · Amphitruo (4) · Aulularia (3) · Miles Gloriosus (3) · Menaechmi (4) · Bacchides (3) |
 | Cato the Elder | De Agri Cultura (5) |
 | **Caecilius Statius** *(needsSelection)* | Plocium (3) · Other plays (2) |
 | **Terence** *(needsSelection)* | Andria (3) · Hecyra (3) · Heautontimorumenos (3) · Eunuchus (3) · Phormio (3) · Adelphoe (3) |
@@ -175,10 +175,10 @@ cache `v=`).
 **Plan set 2026-07-06 (PLAN ONLY - not started).** The user does NOT want to start the Augustan Era yet
 (that draft isn't written). Instead, extend the Archaic Era practice bank and flesh out Caesar's Age:
 
-- **Plautus**: add 3 more comedies - **Asinaria, Casina, Truculentus**. Target: every comedy has **5
-  fragments**, works list **ordered alphabetically**. *(To confirm before starting: user wrote "all 10
-  comedies" but 6 existing + 3 new = 9 - is a 10th intended? And confirm "5 fragments" = 5 per comedy,
-  i.e. bring existing 3-4 up to 5.)* Alphabetical order of the 9: Amphitruo, Asinaria, Aulularia, Casina,
+- **Plautus**: currently **7 comedies** (Bacchides was the missing 7th). Add 3 more - **Asinaria, Casina,
+  Truculentus** = **10 comedies total** (matches the user's "all 10 comedies"). Target: every comedy has
+  **5 fragments** (bring the existing 3-4 up to 5; author the 3 new ones at 5), works list **ordered
+  alphabetically**. Alphabetical order of the 10: Amphitruo, Asinaria, Aulularia, **Bacchides**, Casina,
   Menaechmi, Miles Gloriosus, Mostellaria, Pseudolus, Truculentus.
 - **Caecilius Statius**: +2 Plocium fragments (3 -> 5) and +1 "Other plays" fragment.
 - **Terence**: +2 fragments to **each** of the 6 comedies (3 -> 5 each).
