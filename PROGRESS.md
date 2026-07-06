@@ -180,10 +180,9 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
 **Per-author update scope (user, 2026-07-06)** - how much each author will still grow:
 - **DONE / no more** (enough already): Livius Andronicus, Naevius, Ennius, **Caecilius** (done v1.1.1),
   Pacuvius/Accius, Pomponius/Novius, Hortensius/Figulus.
-- **Small** (a few more, for now): **Terence** (a few), **Lucilius** (a few), **Varro** (more later, not
-  now - already has 11).
-- **Large** (main expansion): **Plautus**, **Cato**, and the rest of Caesar's Age (Nepos, Cicero, Caesar,
-  Hirtius, Lucretius, Sallust, Catullus).
+- **Small** (a few more, for now): **Terence** (a few), **Lucilius** (a few).
+- **Large** (main expansion): **Plautus**, **Cato**, **Varro** (more later, not now - already has 11), and
+  the rest of Caesar's Age (Nepos, Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus).
 
 Remaining work items:
 
