@@ -176,7 +176,16 @@ cache `v=`).
 
 **Plan set 2026-07-06.** The user does NOT want to start the Augustan Era yet (that draft isn't written).
 Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caecilius is DONE (v1.1.1).**
-Remaining:
+
+**Per-author update scope (user, 2026-07-06)** - how much each author will still grow:
+- **DONE / no more** (enough already): Livius Andronicus, Naevius, Ennius, **Caecilius** (done v1.1.1),
+  Pacuvius/Accius, Pomponius/Novius, Hortensius/Figulus.
+- **Small** (a few more, for now): **Terence** (a few), **Lucilius** (a few), **Varro** (more later, not
+  now - already has 11).
+- **Large** (main expansion): **Plautus**, **Cato**, and the rest of Caesar's Age (Nepos, Cicero, Caesar,
+  Hirtius, Lucretius, Sallust, Catullus).
+
+Remaining work items:
 
 - **Plautus**: currently **7 comedies** (Bacchides was the missing 7th). Add 3 more - **Asinaria, Casina,
   Truculentus** = **10 comedies total** (matches the user's "all 10 comedies"). Target (**confirmed
@@ -186,11 +195,12 @@ Remaining:
 - ~~**Caecilius Statius**: +2 Plocium fragments (3 -> 5) and +1 "Other plays" fragment.~~ **DONE (v1.1.1,
   2026-07-06)**: Plocium 5 (added Donatus "Vivas ut possis" + Nonius "Placere occepit... postquam
   emortuast"); Other plays 3 (added Cicero Tusc. III.56 "Saepe est etiam sub palliolo sordido sapientia").
-- **Terence**: +2 fragments to **each** of the 6 comedies (3 -> 5 each).
-- **Cato the Elder**: +5 De Agri Cultura fragments (5 -> 10), maybe a few from other works.
-- **Lucilius**: more fragments - satire manifesto, Lupus/gluttony, a myth parody, voyage to Capo Colonna
-  (Croton / Lacinium).
-- **Caesar's Age**: "flesh out" - specifics TBD by the user.
+- **Terence** *(small)*: a few more **for now** (eventual shape +2/comedy -> 5 each, but only a few now).
+- **Cato the Elder** *(large)*: +5 De Agri Cultura fragments (5 -> 10), maybe a few from other works.
+- **Lucilius** *(small)*: a few **for now** (from: satire manifesto, Lupus/gluttony, myth parody, voyage to
+  Capo Colonna / Croton-Lacinium).
+- **Caesar's Age flesh-out** *(large)*: Nepos, Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus.
+  Varro later (already 11). Specifics per author TBD by the user.
 
 Per-fragment checklist unchanged (see below). Augustan is deferred until the above is done and the user
 gives permission.
