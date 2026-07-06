@@ -170,7 +170,25 @@ analysisIt, proper accents), short tailored analysis, title, citation; spread ac
 commit + push; update `CHANGELOG.md`, `practice_fragments_reference.md`, and this file (table +
 cache `v=`).
 
-### >>> CAESAR'S AGE IS LIVE (now at v1.1.0, cache ?v=51) -- Next: Augustan Era (awaiting permission) <<<
+### >>> CAESAR'S AGE IS LIVE (now at v1.1.0, cache ?v=51) -- Next: EXTEND ARCHAIC + FLESH OUT CAESAR (NOT Augustan) <<<
+
+**Plan set 2026-07-06 (PLAN ONLY - not started).** The user does NOT want to start the Augustan Era yet
+(that draft isn't written). Instead, extend the Archaic Era practice bank and flesh out Caesar's Age:
+
+- **Plautus**: add 3 more comedies - **Asinaria, Casina, Truculentus**. Target: every comedy has **5
+  fragments**, works list **ordered alphabetically**. *(To confirm before starting: user wrote "all 10
+  comedies" but 6 existing + 3 new = 9 - is a 10th intended? And confirm "5 fragments" = 5 per comedy,
+  i.e. bring existing 3-4 up to 5.)* Alphabetical order of the 9: Amphitruo, Asinaria, Aulularia, Casina,
+  Menaechmi, Miles Gloriosus, Mostellaria, Pseudolus, Truculentus.
+- **Caecilius Statius**: +2 Plocium fragments (3 -> 5) and +1 "Other plays" fragment.
+- **Terence**: +2 fragments to **each** of the 6 comedies (3 -> 5 each).
+- **Cato the Elder**: +5 De Agri Cultura fragments (5 -> 10), maybe a few from other works.
+- **Lucilius**: more fragments - satire manifesto, Lupus/gluttony, a myth parody, voyage to Capo Colonna
+  (Croton / Lacinium).
+- **Caesar's Age**: "flesh out" - specifics TBD by the user.
+
+Per-fragment checklist unchanged (see below). Augustan is deferred until the above is done and the user
+gives permission.
 
 **Current state (v1.1.0, 2026-07-05):** Archaic + Caesar's Age both live. Since the v1.0.0 launch:
 - **v1.0.1/1.0.2 fixes**: Caesar BG VI split into VI.13/VI.14; Hirtius Bell. Alex. split into 1/2;
@@ -217,7 +235,10 @@ Both `caesar_era_draft.md` (English) and `italian_translations_caesar.md` (Itali
 - Legacy includes Petrarch's 14th-century study of the *Codex Veronensis* and the Catullan model behind the *Canzoniere*.
 - Tier C (Manageable): polymetrics/epigrams D-to-C, carmina docta low B.
 
-**Next step:** request permission to start the **Augustan Era (44 BC -- 14 AD)**. Authors: Cornelius Gallus, Livy, Virgil, Tibullus, Vitruvius, Propertius, Horace, Ovid (mainstream); Hyginus, Grattius (lesser known). Confirm permission before starting per CLAUDE.md.
+**Next step:** the **Archaic extension + Caesar flesh-out** plan above (set 2026-07-06). Do NOT start the
+Augustan Era yet - the user hasn't written that draft and has deferred it. (Augustan authors, for later:
+Cornelius Gallus, Livy, Virgil, Tibullus, Vitruvius, Propertius, Horace, Ovid; Hyginus, Grattius -
+confirm permission before starting per CLAUDE.md.)
 
 **Optional (Archaic bank)**: mirror new practice fragment Italians into `italian_translations_archaic.md`; or add more Plautus/Terence fragments (user deferred this decision).
 
