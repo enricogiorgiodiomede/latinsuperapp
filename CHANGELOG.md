@@ -21,7 +21,12 @@ Caecilius Statius gains three more practice fragments: two for the *Plocium* and
     Disputationes* III.56, via The Latin Library). The "Other plays" work now has 3 fragments.
 
 ### Changed
-- Cache-busting bumped to `?v=52`.
+- Cache-busting bumped to `?v=53`.
+
+### Fixed
+- Corrected the word counts in two of the new analyses: the *Plocium* "Vivas ut possis..." note now
+  says **eight** words (not six), and the "Saepe est etiam sub palliolo sordido sapientia" note now
+  says **seven** (not eight), in both English and Italian.
 
 ## [1.1.0] - 2026-07-05
 
