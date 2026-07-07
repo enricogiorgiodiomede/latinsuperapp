@@ -67,7 +67,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=55`.**
+   whenever you change a JS/CSS file. **Currently `v=56`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -172,7 +172,7 @@ analysisIt, proper accents), short tailored analysis, title, citation; spread ac
 commit + push; update `CHANGELOG.md`, `practice_fragments_reference.md`, and this file (table +
 cache `v=`).
 
-### >>> LIVE at v1.1.3, cache ?v=55 -- IN PROGRESS: EXTEND ARCHAIC + FLESH OUT CAESAR (NOT Augustan) <<<
+### >>> LIVE at v1.1.4, cache ?v=56 -- IN PROGRESS: EXTEND ARCHAIC + FLESH OUT CAESAR (NOT Augustan) <<<
 
 **Plan set 2026-07-06.** The user does NOT want to start the Augustan Era yet (that draft isn't written).
 Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caecilius is DONE (v1.1.1).**
@@ -208,6 +208,10 @@ Remaining work items:
   Colonna/Lacinium (they run to the Sicilian strait - Messana/Rhegium); the Scipio/lower-classes manifesto
   bit is only Cicero's paraphrase, so it lives in the analysis, not the translatable Latin. All flagged for
   proofread (esp. the reassembled Book-1 and Book-15 fragments).
+  **v1.1.4 (same day):** added, at user request, the Lupus gluttony-death line "Occidunt, Lupe, saperdae
+  te et iura siluri!" (Varro L.L. VI.47; pun on lupus the sea-bass) to the Concilium fragment, and the
+  food-criticism lines "nam mel regionibus illis / incrustatus calix rutai caulis habetur" + "exhalas tum
+  acidos ex pectore ructus" (Charisius/Nonius, Book 3 frr.127-130) to the voyage fragment. Cache -> v56.
 - **Caesar's Age flesh-out** *(large)*: Nepos, Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus.
   Varro later (already 11). Specifics per author TBD by the user.
 

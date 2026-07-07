@@ -11,6 +11,25 @@
 
   var VERSIONS = [
     {
+      v: '1.1.4', date: '2026-07-07',
+      en: {
+        added: [
+          'Two of the new Lucilius passages get extra lines. The council-of-the-gods fragment now ends with a god’s gleeful death-sentence for the glutton Lupus: the salt-fish and sheatfish stews will be the end of him (a joke sharpened by Lupus sharing his name with a greedy fish).',
+          'The travel-satire gains Lucilius grumbling about the food: out in the backwaters a grimy cup and a bitter sprig of rue pass for honey, and the meal comes back up in sour belches.'
+        ],
+        changed: [],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Due dei nuovi brani di Lucilio guadagnano altri versi. Il frammento del concilio degli dèi ora si chiude con la beffarda condanna a morte che un dio pronuncia per il ghiottone Lupo: le sardelle salate e gli intingoli di siluro saranno la sua fine (una battuta resa più pungente dal fatto che Lupus è anche il nome di un pesce vorace).',
+          'La satira di viaggio guadagna Lucilio che si lamenta del cibo: in quei posti sperduti una tazza sudicia e un amaro rametto di ruta valgono quanto il miele, e il pasto torna su in rutti acidi.'
+        ],
+        changed: [],
+        deleted: []
+      }
+    },
+    {
       v: '1.1.3', date: '2026-07-07',
       en: {
         added: [

@@ -6,6 +6,22 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.1.4] - 2026-07-07
+
+Two of the new Lucilius fragments gain extra verbatim lines (at the user's request).
+
+### Added
+- **Concilium Deorum / Lupus** fragment: added the god's death-sentence line **"Occidunt, Lupe, saperdae
+  te et iura siluri!"** ("the salt-fish and sheatfish stews are the death of you, Lupus!"), preserved by
+  Varro, *de Lingua Latina* VI.47 (a pun on *lupus*, the sea-bass). The gluttony theme is now explicit.
+- **Iter Siculum voyage** fragment: added the food-criticism lines **"nam mel regionibus illis /
+  incrustatus calix rutai caulis habetur"** (a grimy cup and a stalk of rue pass for honey) and
+  **"exhalas tum acidos ex pectore ructus"** (sour belches), from Charisius and Nonius (Warmington Book 3,
+  frr. 127-130). Analysis ties the wretched provincial food to Horace's gritty bread in *Satires* I.5.
+
+### Changed
+- Cache-busting bumped to `?v=56`.
+
 ## [1.1.3] - 2026-07-07
 
 Lucilius, the founder of Roman verse satire, grows from 1 practice fragment to 7.
