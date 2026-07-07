@@ -67,7 +67,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=53`.**
+   whenever you change a JS/CSS file. **Currently `v=54`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -122,7 +122,7 @@ The full Italian translation pass is **DONE**.
 | **Plautus** *(needsSelection)* | 7 comedies: Pseudolus (3) · Mostellaria (3) · Amphitruo (4) · Aulularia (3) · Miles Gloriosus (3) · Menaechmi (4) · Bacchides (3) |
 | Cato the Elder | De Agri Cultura (5) |
 | **Caecilius Statius** *(needsSelection)* | Plocium (5) · Other plays (3) |
-| **Terence** *(needsSelection)* | Andria (3) · Hecyra (3) · Heautontimorumenos (3) · Eunuchus (3) · Phormio (3) · Adelphoe (3) |
+| **Terence** *(needsSelection)* | Andria (5) · Hecyra (5) · Heautontimorumenos (5) · Eunuchus (5) · Phormio (5) · Adelphoe (5) |
 | Pacuvius & Accius | Niptra (1) + Chryses (2) · Atreus (1) + Brutus (2) |
 | Gaius Lucilius | Saturae (1) |
 | Pomponius & Novius | Fullones (1) + Galli Transalpini (1) + Kalendae Martiae (1) · Maccus Exul (1) + Atellanae (2) |
@@ -154,9 +154,9 @@ have only the translation), so Italian analyses were authored fresh during the v
 - **Plautus**: DONE - 6 comedies (Pseudolus 3 + Mostellaria 3 + Amphitruo 4 + Aulularia 3 +
   Miles Gloriosus 3 + Menaechmi 4). Menaechmi: prologue, Peniculus, the Act V.1 mistaken-identity
   quarrel (vv.701-752), and the Act V.2 feigned-madness scene (vv.829-852) - the only work with 4.
-- **Terence** (agreed: 3 fragments per comedy, 6 plays): **DONE - all 6 of 6** - Andria, Hecyra,
-  Heautontimorumenos, Eunuchus, Phormio, Adelphoe (3 each). The user said they'll decide later
-  whether to add more than 3 per play.
+- **Terence** (6 plays): **DONE - now 5 fragments per comedy** (was 3; +2 each in v1.1.2, 2026-07-07) -
+  Andria, Hecyra, Heautontimorumenos, Eunuchus, Phormio, Adelphoe (5 each = 30 total). See the v1.1.2
+  entry below for the added passages.
 - **Caecilius**: DONE (extended to 5+3 in v1.1.1, 2026-07-06). `Plocium` now has 5: the 3 Gellius
   passages (NA II.23.10/13/21) plus "Vivas ut possis..." (Donatus, ad Andriam) and "Placere occepit
   graviter, postquam emortuast" (Nonius 314,21). `Other plays` now has 3: old age (*De Senectute* 25),
@@ -172,7 +172,7 @@ analysisIt, proper accents), short tailored analysis, title, citation; spread ac
 commit + push; update `CHANGELOG.md`, `practice_fragments_reference.md`, and this file (table +
 cache `v=`).
 
-### >>> LIVE at v1.1.1, cache ?v=53 -- IN PROGRESS: EXTEND ARCHAIC + FLESH OUT CAESAR (NOT Augustan) <<<
+### >>> LIVE at v1.1.2, cache ?v=54 -- IN PROGRESS: EXTEND ARCHAIC + FLESH OUT CAESAR (NOT Augustan) <<<
 
 **Plan set 2026-07-06.** The user does NOT want to start the Augustan Era yet (that draft isn't written).
 Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caecilius is DONE (v1.1.1).**
@@ -180,7 +180,7 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
 **Per-author update scope (user, 2026-07-06)** - how much each author will still grow:
 - **DONE / no more** (enough already): Livius Andronicus, Naevius, Ennius, **Caecilius** (done v1.1.1),
   Pacuvius/Accius, Pomponius/Novius, Hortensius/Figulus.
-- **Small** (a few more, for now): **Terence** (a few), **Lucilius** (a few).
+- **Small** (a few more, for now): ~~**Terence**~~ **DONE v1.1.2 (now 5/comedy)**, **Lucilius** (a few).
 - **Large** (main expansion): **Plautus**, **Cato**, **Varro** (more later, not now - already has 11), and
   the rest of Caesar's Age (Nepos, Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus).
 
@@ -194,7 +194,12 @@ Remaining work items:
 - ~~**Caecilius Statius**: +2 Plocium fragments (3 -> 5) and +1 "Other plays" fragment.~~ **DONE (v1.1.1,
   2026-07-06)**: Plocium 5 (added Donatus "Vivas ut possis" + Nonius "Placere occepit... postquam
   emortuast"); Other plays 3 (added Cicero Tusc. III.56 "Saepe est etiam sub palliolo sordido sapientia").
-- **Terence** *(small)*: a few more **for now** (eventual shape +2/comedy -> 5 each, but only a few now).
+- ~~**Terence** *(small)*: a few more for now.~~ **DONE (v1.1.2, 2026-07-07)**: +2 to each of the 6
+  comedies -> **5 each** (reached the eventual target early). New: Andria (III.2 "fake birth" 471-480,
+  V.3 reconciliation 889-905); Eunuchus (prologue furtum 23-34, Thraso siege 771-782); Phormio (prologue
+  1-11, "fortis fortuna adiuvat" 201-206); Adelphoe (prologue 6-21, Syrus "patinas" 428-434); Hecyra
+  (Syra 58-70, Bacchis 833-840); Heauton (Menedemus 93-101, Clitipho 213-219). Line refs/act-scene
+  flagged for proofread (Adelphoe has no TLL line numbers; Andria/Phormio/Hecyra act-scene to confirm).
 - **Cato the Elder** *(large)*: +5 De Agri Cultura fragments (5 -> 10), maybe a few from other works.
 - **Lucilius** *(small)*: a few **for now** (from: satire manifesto, Lupus/gluttony, myth parody, voyage to
   Capo Colonna / Croton-Lacinium).

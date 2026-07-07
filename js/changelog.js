@@ -11,6 +11,25 @@
 
   var VERSIONS = [
     {
+      v: '1.1.2', date: '2026-07-07',
+      en: {
+        added: [
+          'Terence doubles up: every one of his six comedies gains two new practice passages, growing from three to five each (twelve new in all).',
+          'Highlights include the three prologues where Terence fights his critics - accused of a "thin" style (Phormio), of plagiarism (Eunuchus), and of both "contamination" and getting secret help from noblemen (Adelphoe) - plus the braggart soldier laying siege to a house with a cook armed only with a sponge (Eunuchus), the proverb "fortune favours the brave" (Phormio), and a courtesan who chooses honour over profit (Hecyra).'
+        ],
+        changed: [],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Terenzio raddoppia: ognuna delle sue sei commedie guadagna due nuovi brani di esercizio, passando da tre a cinque ciascuna (dodici nuovi in tutto).',
+          'Tra i pezzi forti: i tre prologhi in cui Terenzio si difende dai critici - accusato di uno stile "esile" (Phormio), di plagio (Eunuchus), e insieme di "contaminazione" e di farsi aiutare di nascosto da nobili (Adelphoe) - oltre al soldato spaccone che assedia una casa con un cuoco armato solo di spugna (Eunuchus), il proverbio "la fortuna aiuta gli audaci" (Phormio) e una cortigiana che sceglie l\'onore invece del guadagno (Hecyra).'
+        ],
+        changed: [],
+        deleted: []
+      }
+    },
+    {
       v: '1.1.1', date: '2026-07-06',
       en: {
         added: [

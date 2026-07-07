@@ -56,8 +56,9 @@ edition before recording.
 
 ---
 
-## Terence (needsSelection) - building out all 6 plays, 3 each; verbatim from TLL (curl, ter.*.html)
+## Terence (needsSelection) - all 6 plays, now 5 each (v1.1.2, 2026-07-07); verbatim from TLL (curl, ter.*.html)
 Works ordered chronologically in the chooser (Andria, Hecyra, Heautontimorumenos, Eunuchus, Phormio, Adelphoe).
+The lines below marked "DONE" are the original 3 per comedy; the **v1.1.2 additions** (+2 each = 30 total) are listed in their own block after them.
 - **Andria** (`andria`) DONE: I.i vv.115-126 ("hinc illae lacrumae", funeral narration); I.ii vv.185-195 ("Davo' sum, non Oedipus"); III.iii vv.550-555 ("amantium irae amoris integratiost"). Speakers SI./SO./DA./CH.
 - **Hecyra** (`hecyra`) DONE: Prologue vv.33-45 (Ambivius Turpio - the twice-failed premieres); IV.ii vv.585-595 (Sostrata offers to retire to the country); V.i vv.750-760 (Bacchis's noble oath). Speakers SO./PA./BA./LA.
 - **Heautontimorumenos** (`heauton-timorumenos`) DONE (3): I.i vv.75-87 ("homo sum", migrated); IV.ii vv.668-678 (Syrus, "nil tam difficilest..."); V.i vv.915-923 (Menedemus turns "homo sum" back on Chremes - "foris sapere, tibi non posse te auxiliarier"). Speakers ME./CH./SY.
@@ -65,8 +66,18 @@ Works ordered chronologically in the chooser (Andria, Hecyra, Heautontimorumenos
 - **Phormio** (`phormio`) DONE: II.iv vv.447-459 (the advisors, "quot homines tot sententiae"); III.ii vv.317-328 (Phormio's bravado, "accingere"); V.ix vv.1040-1055 (the Nausistrata finale - "unam amicam... uxores duas"). TLL `{Sp.}` braces rendered as plain labels (DE./HE./CRA./CRI./PH./GE./CH./NA.).
 - **Adelphoe** (`adelphoe`) DONE: I.i vv.64-77 (Micio's lenient-fatherhood philosophy, "hoc pater ac dominus interest" - humanitas); I.ii vv.112-121 (the strict-vs-lenient clash, "siquid peccat, mihi peccat ... de meo"); V.iv vv.866-879 (Demea's volte-face soliloquy, the six-adjective asyndeton "ego ille agrestis saeuos tristis parcus truculentus tenax" + the turn "age age nunc porro experiamur contra"; trochaic septenarii). Speakers DE./MI. **`ter.adel.html` has NO line numbers and NO act/scene markers**: verse numbers derived from canonical numbering (Micio's monologue = vv.26-81, so I.ii starts at v.82; Demea's soliloquy "Numquam ita quisquam..." = v.855). Source artifact normalized: v.65 "o et errat longe" -> "et errat longe". FLAG all Adelphoe Latin for final proofread.
 
+### Terence v1.1.2 additions (+2 per comedy -> 5 each; verbatim from TLL via curl)
+User specified Andria(V confrontation), Phormio(prologue), Adelphoe(prologue); Eunuchus/Hecyra/Heauton passages chosen freely; Eunuchus keeps its existing "yes-man" fragment and gets two different passages. Three of the six are the "accusation prologues" (Eunuchus/Phormio/Adelphoe), the rest are famous content scenes.
+- **Andria**: III.ii vv.471-480 (the "fake birth" - Simo dismisses Glycerium's real *Iuno Lucina, fer opem* cry as a staged trick; dramatic irony); V.iii vv.889-905 (father-son reconciliation, *tibi pater me dedo*, closes on Chremes's *pro peccato magno paullum supplici satis est patri*). Speakers SI./PA./CH./GL./DA.
+- **Eunuchus**: **Prologue** vv.23-34 (the *furtum*/plagiarism charge - Colax of Naevius/Plautus; Terence pleads *imprudentia*); IV.vii vv.771-782 (Thraso's mock-siege, trochaic septenarii; Gnatho's *recte/probe/pulchre*, Sanga's sponge *peniculus*; long lines reconstructed from `<br>` markers). Speakers THR./GN./SA.
+- **Phormio**: **Prologue** vv.1-11 (the "thin style" charge *tenui oratione et scriptura levi*; omitted interpolated line 11a); II.i vv.201-206 (**fortis fortuna adiuvat**, Geta bracing the panicking Antipho; PH. here = Phaedria). `{Sp.}` braces rendered plain (AN./GE./PH.).
+- **Adelphoe**: **Prologue** vv.6-21 (contaminatio: Diphilus *Synapothnescontes* / Plautus *Commorientes*; + noble-help charge). Corrected two TLL page typos: `ieripit`->`eripit`, `tabula`->`fabula`; kept archaic u-for-v (uerbum, uobis). IV.ii ~vv.428-434 (drunk Syrus's *tamquam in speculum in patinas* cookery parody). Speakers SY./DE. **No line numbers on TLL** - canonical numbering, FLAG for proofread.
+- **Hecyra**: I.i vv.58-70 (Syra's cynical advice, asyndeton *spolies mutiles laceres*); V.iii vv.833-840 (Bacchis's honour-over-profit monologue, closing sententia *multa ex quo fuerint commoda, eius incommoda aequomst ferre*; trochaic septenarii). Speakers PH.(Philotis)/SY.(Syra).
+- **Heautontimorumenos**: I.i vv.93-101 (Menedemus's self-torment confession, *immo habui... nunc habeam necne incertumst*; sits right after the existing "homo sum" 75-87); II.i vv.213-219 (Clitipho on unjust fathers, *a pueris ilico nasci senes*). Speakers ME./CH./CL.
+- **PROOFREAD FLAGS** (all v1.1.2 Latin flagged, but especially): Adelphoe has no TLL line numbers (canonical); Andria V.iii and Phormio II.i and Hecyra V.iii act/scene numbers to confirm; Adelphoe IV.ii verse numbers approximate.
+
 ### Terence - all done
-All 6 comedies complete, 3 fragments each: Andria, Hecyra, Heautontimorumenos, Eunuchus, Phormio, Adelphoe.
+All 6 comedies complete, **5 fragments each** (30 total) as of v1.1.2: Andria, Hecyra, Heautontimorumenos, Eunuchus, Phormio, Adelphoe.
 
 ## Caecilius (needsSelection) - DONE (Plocium 5 + Other plays 3) [v1.1.1, 2026-07-06]
 Source: The Latin Library (Gellius `gellius/gellius2.shtml`; Cicero `cicero/senectute.shtml`, `cicero/tusc1.shtml`, `cicero/tusc3.shtml`). The two non-Gellius Plocium lines are grammarian-transmitted (Donatus, Nonius) - text verified against Wikiquote + a Latin anthology, cited with the Ribbeck fragment number.

@@ -6,6 +6,31 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.1.2] - 2026-07-07
+
+Terence's practice bank doubles: two new fragments for each of his six comedies (3 -> 5 each, 12 new).
+
+### Added
+- **12 new Terence practice fragments** (verbatim Latin from The Latin Library + original Italian and
+  English + analysis, with bilingual metadata). Two per comedy, inserted in line order:
+  - *Andria*: the Act III "fake birth" scene (Simo dismisses Glycerium's real labour-cry as a trick,
+    vv.471-480) and the Act V father-son reconciliation, Chremes closing with *pro peccato magno paullum
+    supplici satis est patri* (vv.889-905).
+  - *Eunuchus*: the **prologue** answering the *furtum* (plagiarism) charge (vv.23-34) and Thraso's
+    mock-siege of Thais's house (vv.771-782).
+  - *Phormio*: the **prologue** answering the "thin style" charge (vv.1-11) and *fortis fortuna adiuvat*
+    (vv.201-206).
+  - *Adelphoe*: the **prologue** answering the *contaminatio* + noble-help charges (vv.6-21) and the drunk
+    slave Syrus's cookery-school parody, *tamquam in speculum in patinas* (canonical vv.428-434).
+  - *Hecyra*: Syra's cynical opening advice to a courtesan (vv.58-70) and Bacchis's Act V
+    honour-over-profit monologue (vv.833-840).
+  - *Heautontimorumenos*: Menedemus's self-torment confession *immo habui* (vv.93-101) and Clitipho on
+    the injustice of fathers (vv.213-219).
+- Each comedy now has 5 practice fragments; Terence's practice bank goes from 18 to 30.
+
+### Changed
+- Cache-busting bumped to `?v=54`.
+
 ## [1.1.1] - 2026-07-06
 
 Caecilius Statius gains three more practice fragments: two for the *Plocium* and one for his
