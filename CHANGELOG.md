@@ -24,11 +24,16 @@ Two of the new Lucilius fragments gain extra verbatim lines (at the user's reque
   - **"nam mel regionibus illis / incrustatus calix rutai caulis habetur"** (a grimy cup and a stalk of
     rue pass for honey) and **"exhalas tum acidos ex pectore ructus"** (sour belches), from Charisius and
     Nonius. Analysis ties the wretched provincial food to Horace's gritty bread in *Satires* I.5.
-- All lines sourced verbatim from Warmington *ROL* III (Book 1 and Book 3); reassembled scattered
+- **An 8th Lucilius fragment** (his `Saturae` now has 8): **"publicanus vero ut Asiae fiam, ut
+  scripturarius, / pro Lucilio, id ego nolo, et uno hoc non muto omnia"** (Book 26; Nonius 351,6 =
+  Warmington frr. 650-1 = vv. 627-8 Terzaghi-Mariotti) - Lucilius's proud refusal to trade being a poet
+  for the riches of a tax-farmer of Asia. Placed second, right after the manifesto (both Book 26,
+  trochaic septenarii). Bilingual, user-supplied Latin, flagged for proofread.
+- All lines sourced verbatim from Warmington *ROL* III (Books 1, 3 and 26); reassembled scattered
   fragments with gaps marked by ellipses. Flagged for the user's proofread.
 
 ### Changed
-- Cache-busting bumped to `?v=57`.
+- Cache-busting bumped to `?v=58`.
 
 ## [1.1.3] - 2026-07-07
 

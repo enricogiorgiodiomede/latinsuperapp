@@ -67,7 +67,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=57`.**
+   whenever you change a JS/CSS file. **Currently `v=58`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -124,7 +124,7 @@ The full Italian translation pass is **DONE**.
 | **Caecilius Statius** *(needsSelection)* | Plocium (5) · Other plays (3) |
 | **Terence** *(needsSelection)* | Andria (5) · Hecyra (5) · Heautontimorumenos (5) · Eunuchus (5) · Phormio (5) · Adelphoe (5) |
 | Pacuvius & Accius | Niptra (1) + Chryses (2) · Atreus (1) + Brutus (2) |
-| Gaius Lucilius | Saturae (7) |
+| Gaius Lucilius | Saturae (8) |
 | Pomponius & Novius | Fullones (1) + Galli Transalpini (1) + Kalendae Martiae (1) · Maccus Exul (1) + Atellanae (2) |
 
 **Caesar's Age (live as of v1.0.0)** - all `needsSelection:false`, fragments cycle on the practice page:
@@ -172,7 +172,7 @@ analysisIt, proper accents), short tailored analysis, title, citation; spread ac
 commit + push; update `CHANGELOG.md`, `practice_fragments_reference.md`, and this file (table +
 cache `v=`).
 
-### >>> LIVE at v1.1.4, cache ?v=57 -- IN PROGRESS: EXTEND ARCHAIC + FLESH OUT CAESAR (NOT Augustan) <<<
+### >>> LIVE at v1.1.4, cache ?v=58 -- IN PROGRESS: EXTEND ARCHAIC + FLESH OUT CAESAR (NOT Augustan) <<<
 
 **Plan set 2026-07-06.** The user does NOT want to start the Augustan Era yet (that draft isn't written).
 Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caecilius is DONE (v1.1.1).**
@@ -201,7 +201,7 @@ Remaining work items:
   (Syra 58-70, Bacchis 833-840); Heauton (Menedemus 93-101, Clitipho 213-219). Line refs/act-scene
   flagged for proofread (Adelphoe has no TLL line numbers; Andria/Phormio/Hecyra act-scene to confirm).
 - **Cato the Elder** *(large)*: +5 De Agri Cultura fragments (5 -> 10), maybe a few from other works.
-- ~~**Lucilius** *(small)*: a few for now.~~ **DONE (v1.1.3, 2026-07-07): +6 -> 7 total.** Manifesto
+- ~~**Lucilius** *(small)*: a few for now.~~ **DONE (v1.1.3 -> 8 total).** Manifesto
   (Book 26, Iunius Congus line), Concilium Deorum / Lupus (Book 1), Iter Siculum voyage (Book 3, = first
   journey satire, cf. Horace Sat. I.5), Albucius "chaere Tite" (Cic. De Fin. I.9), myth parody
   (Book 15: Cyclops + Lamiae), Roman rat-race (Lactantius). NOTE: surviving Iter frags do NOT name Capo
@@ -216,6 +216,10 @@ Remaining work items:
   not verse-number. Voyage gained the "no delicacies" line ("ostrea nulla fuit, non purpura, nulla peloris
   / asparagi nulli", vv.127-8) before the honey verses, plus the earlier "nam mel..." + "exhalas... ructus"
   (Charisius/Nonius, Book 3). All from Warmington ROL III; scattered, gaps marked "...". Cache -> v57.
+  Also added an **8th fragment** (kept under v1.1.4): poetic pride, "publicanus vero ut Asiae fiam, ut
+  scripturarius, / pro Lucilio, id ego nolo, et uno hoc non muto omnia" (Book 26; Nonius 351,6 = Warmington
+  650-1 = vv.627-8 T-M) - refuses to trade being a poet for a tax-farmer's riches; placed 2nd, after the
+  manifesto (both Book 26). Cache -> v58. Lucilius `Saturae` now = 8.
 - **Caesar's Age flesh-out** *(large)*: Nepos, Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus.
   Varro later (already 11). Specifics per author TBD by the user.
 
