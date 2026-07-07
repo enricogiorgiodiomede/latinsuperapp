@@ -6,6 +6,28 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.1.5] - 2026-07-08
+
+Cato the Elder's *De Agri Cultura* grows from 5 practice fragments to 10, plus a difficulty-chart tweak.
+
+### Added
+- **5 new Cato *De Agri Cultura* fragments** (verbatim Latin from The Latin Library + original Italian
+  and English + analysis, with bilingual metadata):
+  - **cap. 143** - the duties of the *vilica* (housekeeper), placed immediately after the *vilicus*
+    (overseer) chapter it mirrors.
+  - **cap. 38** - how to build and fire a lime-kiln (*fornax calcaria*).
+  - **cap. 64** - how to bring in the olive harvest for good oil.
+  - **cap. 76, 3-4** - the recipe for *placenta*, a layered cheese-and-honey cake.
+  - **cap. 104** - the doctored winter wine brewed for the *familia* (household slaves).
+  - The furnace and wine analyses tie back to the bio's "agricultural cheat-sheet" joke. Cato's
+    `De Agri Cultura` now has 10 fragments.
+
+### Changed
+- **Cato's difficulty chart** (`js/ratings.js`): density lowered `1.6 -> 1.2` (now green - his prose is
+  not dense) and lexicon raised `2.3 -> 2.4` (still yellow - vocabulary is the real hurdle). Syntax,
+  style and the overall evaluation unchanged.
+- Cache-busting bumped to `?v=60`.
+
 ## [1.1.4] - 2026-07-07
 
 Two of the new Lucilius fragments gain extra verbatim lines (at the user's request; user-supplied text).

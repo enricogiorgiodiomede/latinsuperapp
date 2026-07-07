@@ -67,7 +67,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=59`.**
+   whenever you change a JS/CSS file. **Currently `v=60`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -120,7 +120,7 @@ The full Italian translation pass is **DONE**.
 | Gnaeus Naevius | Bellum Poenicum (2) + Epitaph (1) |
 | Quintus Ennius | Annales (3) |
 | **Plautus** *(needsSelection)* | 7 comedies: Pseudolus (3) · Mostellaria (3) · Amphitruo (4) · Aulularia (3) · Miles Gloriosus (3) · Menaechmi (4) · Bacchides (3) |
-| Cato the Elder | De Agri Cultura (5) |
+| Cato the Elder | De Agri Cultura (10) |
 | **Caecilius Statius** *(needsSelection)* | Plocium (5) · Other plays (3) |
 | **Terence** *(needsSelection)* | Andria (5) · Hecyra (5) · Heautontimorumenos (5) · Eunuchus (5) · Phormio (5) · Adelphoe (5) |
 | Pacuvius & Accius | Niptra (1) + Chryses (2) · Atreus (1) + Brutus (2) |
@@ -161,9 +161,9 @@ have only the translation), so Italian analyses were authored fresh during the v
   passages (NA II.23.10/13/21) plus "Vivas ut possis..." (Donatus, ad Andriam) and "Placere occepit
   graviter, postquam emortuast" (Nonius 314,21). `Other plays` now has 3: old age (*De Senectute* 25),
   *Synephebi* (*Tusc.* I.31), and "Saepe est etiam sub palliolo sordido sapientia" (*Tusc.* III.56).
-- **Fragmentary authors**: ALL DONE. Cato (5); Livius (3), Naevius (3), Ennius (3); Pacuvius (3),
+- **Fragmentary authors**: ALL DONE. Cato (10, v1.1.5); Livius (3), Naevius (3), Ennius (3); Pacuvius (3),
   Accius (3), Novius (3), Pomponius (3). The Archaic Era practice bank is complete (3 per author,
-  except Cato 5 and the multi-comedy authors Plautus/Terence).
+  except Cato 10, Lucilius 8, and the multi-comedy authors Plautus/Terence).
 - Optional: mirror the new practice Italians into `italian_translations_archaic.md`.
 
 Per new fragment: verified Latin + source, original IT+EN + IT metadata (titleIt/descriptionIt/
@@ -172,7 +172,7 @@ analysisIt, proper accents), short tailored analysis, title, citation; spread ac
 commit + push; update `CHANGELOG.md`, `practice_fragments_reference.md`, and this file (table +
 cache `v=`).
 
-### >>> LIVE at v1.1.4, cache ?v=59 -- IN PROGRESS: EXTEND ARCHAIC + FLESH OUT CAESAR (NOT Augustan) <<<
+### >>> LIVE at v1.1.5, cache ?v=60 -- IN PROGRESS: EXTEND ARCHAIC + FLESH OUT CAESAR (NOT Augustan) <<<
 
 **Plan set 2026-07-06.** The user does NOT want to start the Augustan Era yet (that draft isn't written).
 Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caecilius is DONE (v1.1.1).**
@@ -200,7 +200,12 @@ Remaining work items:
   1-11, "fortis fortuna adiuvat" 201-206); Adelphoe (prologue 6-21, Syrus "patinas" 428-434); Hecyra
   (Syra 58-70, Bacchis 833-840); Heauton (Menedemus 93-101, Clitipho 213-219). Line refs/act-scene
   flagged for proofread (Adelphoe has no TLL line numbers; Andria/Phormio/Hecyra act-scene to confirm).
-- **Cato the Elder** *(large)*: +5 De Agri Cultura fragments (5 -> 10), maybe a few from other works.
+- ~~**Cato the Elder** *(large)*: +5 De Agri Cultura fragments (5 -> 10).~~ **DONE (v1.1.5, 2026-07-08):
+  10 total.** New: villica (cap.143, placed right after the villicus cap.5), lime-kiln (cap.38), olive
+  harvest (cap.64), placenta cake (cap.76,3-4), winter wine for the slaves (cap.104). Verbatim from TLL,
+  self-proofread (well-preserved). Also **tuned Cato's chart**: density 1.6->1.2 (green), lexicon
+  2.3->2.4 (still yellow). Cato's other works (Origines/Orationes) are fragment-only -> would need user
+  proofread if ever added.
 - ~~**Lucilius** *(small)*: a few for now.~~ **DONE (v1.1.3 -> 8 total).** Manifesto
   (Book 26, Iunius Congus line), Concilium Deorum / Lupus (Book 1), Iter Siculum voyage (Book 3, = first
   journey satire, cf. Horace Sat. I.5), Albucius "chaere Tite" (Cic. De Fin. I.9), myth parody

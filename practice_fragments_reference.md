@@ -93,11 +93,17 @@ Source: The Latin Library (Gellius `gellius/gellius2.shtml`; Cicero `cicero/sene
   - **NEW** *Incertae fabulae* (Cicero, *Tusc.* III.56, verbatim on TLL `cicero/tusc3.shtml`): "Saepe est etiam sub palliolo sordido sapientia" - Caecilius's most-quoted line ("wisdom under a shabby cloak"); s-alliteration + diminutive *palliolum*. Short/gnomic.
 - Through-line for the whole entry: Caecilius survives mostly because Gellius, Cicero, and the grammarians quoted him.
 
-## Cato the Elder - DONE (De Agri Cultura, 5 fragments)
-Source: The Latin Library, `cato/cato.agri.html` (full continuous text; chapters bracketed [N]).
+## Cato the Elder - DONE (De Agri Cultura, 10 fragments) [+5 in v1.1.5, 2026-07-08]
+Source: The Latin Library, `cato/cato.agri.html` (full continuous text; chapters bracketed [N]). Well-preserved -> self-proofread verbatim, NO user proofread. Order: Praef, 1, 5(villicus), 143(villica), 38, 64, 76, 104, 141, 156. Line breaks = one sentence/clause per `>` line (matches the "do this, do that" style). Bio's "agricultural cheat-sheet" joke referenced in the furnace + wine analyses.
 - **Praefatio** (migrated): farming vs trade/usury ("bonum agricolam bonumque colonum"). Medium.
 - **cap. 1**: how to choose a farm - inspect repeatedly, judge by the neighbors, the land-checklist, buy where sellers regret selling ("eos pigeat vendidisse"). Medium; asyndeton, archaic siet/habeto/advertito.
 - **cap. 5**: vilicus duties ("Haec erunt vilici officia... dominus inpune ne sinat esse") - discipline + humane treatment + downward accountability. Medium; jussive subjunctives.
+- **cap. 143 (NEW)**: vilica (housekeeper) duties - placed right after cap.5; the overseer's assigned wife, keep the house clean, mind the household religion, stay in, no rites without the master. Note TLL spelling "Vilicae"/"coenam".
+- **cap. 38 (NEW)**: the lime-kiln (fornax calcaria) - build 10x20 ft, praefurnium/lacuna/fortax, "never let the fire go out". Technical-vocab showcase (cheat-sheet joke).
+- **cap. 64 (NEW)**: olive harvest - pick ripe & fast, tabulatum rots it, leguli vs factores incentives, "nolito credere oleum in tabulato posse crescere".
+- **cap. 76,3-4 (NEW)**: placenta cake - cheese soaked/pounded/sieved + honey (P. IIII S.) layered with tracta on oiled bay-leaves. Excerpt ends at "abusus eris" (before the daggered/corrupt baking line "+ de ve primo +", deliberately excluded).
+- **cap. 104 (NEW)**: winter wine for the familia (slaves) - must + vinegar + sapa + water + old seawater; lasts to the solstice, leftovers -> vinegar. Measures Q./sextarius/dolium (cheat-sheet joke).
+- **Chart tweak (v1.1.5):** ratings.js Cato density 1.6->1.2 (now green), lexicon 2.3->2.4 (still yellow); syntax/style/evaluation unchanged. Color thresholds: green <1.5, yellow <2.5, orange <3.5, red else.
 - **cap. 141**: the suovetaurilia / lustratio agri - the Mars prayer. Hardest; archaic carmen (sies, prohibessis, servassis, siris, duis, duonam, averruncesque). Excerpt uses one [...] to drop the Janus/Jupiter praefatio instruction; keeps TLL spelling "suovitaurilia". FLAG for proofread.
 - **cap. 156**: De brassica - cabbage surpasses all vegetables + the pre-party hangover hack. Medium/easy; rapid imperatives (esto, intinguito, comesto). "lotium... salubre" = the cabbage-eater's urine (Cato's urine-therapy, noted in analysis).
 

@@ -72,7 +72,7 @@
       evaluation: 'very-difficult', fragments: false
     },
     'marcus-porcius-cato': {
-      lexicon: 2.3, syntax: 1.6, style: 1.4, density: 1.6,
+      lexicon: 2.4, syntax: 1.6, style: 1.4, density: 1.2,
       evaluation: 'manageable', fragments: false
     },
     'caecilius-statius': {
