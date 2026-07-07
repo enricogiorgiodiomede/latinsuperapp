@@ -67,7 +67,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=54`.**
+   whenever you change a JS/CSS file. **Currently `v=55`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -124,7 +124,7 @@ The full Italian translation pass is **DONE**.
 | **Caecilius Statius** *(needsSelection)* | Plocium (5) · Other plays (3) |
 | **Terence** *(needsSelection)* | Andria (5) · Hecyra (5) · Heautontimorumenos (5) · Eunuchus (5) · Phormio (5) · Adelphoe (5) |
 | Pacuvius & Accius | Niptra (1) + Chryses (2) · Atreus (1) + Brutus (2) |
-| Gaius Lucilius | Saturae (1) |
+| Gaius Lucilius | Saturae (7) |
 | Pomponius & Novius | Fullones (1) + Galli Transalpini (1) + Kalendae Martiae (1) · Maccus Exul (1) + Atellanae (2) |
 
 **Caesar's Age (live as of v1.0.0)** - all `needsSelection:false`, fragments cycle on the practice page:
@@ -172,7 +172,7 @@ analysisIt, proper accents), short tailored analysis, title, citation; spread ac
 commit + push; update `CHANGELOG.md`, `practice_fragments_reference.md`, and this file (table +
 cache `v=`).
 
-### >>> LIVE at v1.1.2, cache ?v=54 -- IN PROGRESS: EXTEND ARCHAIC + FLESH OUT CAESAR (NOT Augustan) <<<
+### >>> LIVE at v1.1.3, cache ?v=55 -- IN PROGRESS: EXTEND ARCHAIC + FLESH OUT CAESAR (NOT Augustan) <<<
 
 **Plan set 2026-07-06.** The user does NOT want to start the Augustan Era yet (that draft isn't written).
 Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caecilius is DONE (v1.1.1).**
@@ -180,7 +180,7 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
 **Per-author update scope (user, 2026-07-06)** - how much each author will still grow:
 - **DONE / no more** (enough already): Livius Andronicus, Naevius, Ennius, **Caecilius** (done v1.1.1),
   Pacuvius/Accius, Pomponius/Novius, Hortensius/Figulus.
-- **Small** (a few more, for now): ~~**Terence**~~ **DONE v1.1.2 (now 5/comedy)**, **Lucilius** (a few).
+- **Small** (a few more, for now): ~~**Terence**~~ **DONE v1.1.2 (5/comedy)**, ~~**Lucilius**~~ **DONE v1.1.3 (now 7)**.
 - **Large** (main expansion): **Plautus**, **Cato**, **Varro** (more later, not now - already has 11), and
   the rest of Caesar's Age (Nepos, Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus).
 
@@ -201,8 +201,13 @@ Remaining work items:
   (Syra 58-70, Bacchis 833-840); Heauton (Menedemus 93-101, Clitipho 213-219). Line refs/act-scene
   flagged for proofread (Adelphoe has no TLL line numbers; Andria/Phormio/Hecyra act-scene to confirm).
 - **Cato the Elder** *(large)*: +5 De Agri Cultura fragments (5 -> 10), maybe a few from other works.
-- **Lucilius** *(small)*: a few **for now** (from: satire manifesto, Lupus/gluttony, myth parody, voyage to
-  Capo Colonna / Croton-Lacinium).
+- ~~**Lucilius** *(small)*: a few for now.~~ **DONE (v1.1.3, 2026-07-07): +6 -> 7 total.** Manifesto
+  (Book 26, Iunius Congus line), Concilium Deorum / Lupus (Book 1), Iter Siculum voyage (Book 3, = first
+  journey satire, cf. Horace Sat. I.5), Albucius "chaere Tite" (Cic. De Fin. I.9), myth parody
+  (Book 15: Cyclops + Lamiae), Roman rat-race (Lactantius). NOTE: surviving Iter frags do NOT name Capo
+  Colonna/Lacinium (they run to the Sicilian strait - Messana/Rhegium); the Scipio/lower-classes manifesto
+  bit is only Cicero's paraphrase, so it lives in the analysis, not the translatable Latin. All flagged for
+  proofread (esp. the reassembled Book-1 and Book-15 fragments).
 - **Caesar's Age flesh-out** *(large)*: Nepos, Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus.
   Varro later (already 11). Specifics per author TBD by the user.
 

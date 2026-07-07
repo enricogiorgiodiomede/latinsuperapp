@@ -6,6 +6,29 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.1.3] - 2026-07-07
+
+Lucilius, the founder of Roman verse satire, grows from 1 practice fragment to 7.
+
+### Added
+- **6 new Lucilius practice fragments** (verbatim Latin + original Italian and English + analysis, with
+  bilingual metadata). Sourced from Cicero and Pliny on The Latin Library and from Warmington's *Remains
+  of Old Latin* vol. III (which reconstructs the fragments from Nonius, Servius, Gellius, Lactantius, etc.):
+  - **The manifesto on his readers** (Book 26): *Manium Persium haec legere nolo, Iunium Congum volo*
+    (Pliny, *NH* praef. 7; cf. Cicero *De Or.* II.25, *De Fin.* I.7).
+  - **The Council of the Gods / Concilium Deorum** (Book 1): the gods condemning the gluttonous Lupus
+    (Servius, Nonius) - the model for Seneca's *Apocolocyntosis*.
+  - **The voyage / *Iter Siculum*** (Book 3): the first Roman journey-satire and the model for Horace,
+    *Satires* I.5 (Nonius, Gellius XVI.9, Porphyrio, Probus).
+  - **Albucius greeted in Greek**: *chaere, Tite!* (Cicero, *De Finibus* I.9).
+  - **The myth parody** (Book 15): Homer's 200-foot Cyclops + the Lamiae bogeymen (Nonius; Lactantius,
+    *Div. Inst.* I.22).
+  - **Rome as a rat-race of greed** (Lactantius, *Div. Inst.* V.9).
+- Lucilius's `Saturae` now has 7 fragments (the six above plus the existing *virtus* passage).
+
+### Changed
+- Cache-busting bumped to `?v=55`.
+
 ## [1.1.2] - 2026-07-07
 
 Terence's practice bank doubles: two new fragments for each of his six comedies (3 -> 5 each, 12 new).
