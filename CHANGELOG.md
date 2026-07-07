@@ -33,7 +33,13 @@ Two of the new Lucilius fragments gain extra verbatim lines (at the user's reque
   fragments with gaps marked by ellipses. Flagged for the user's proofread.
 
 ### Changed
-- Cache-busting bumped to `?v=58`.
+- **Proofread corrections (user)** to two Lucilius fragments: voyage now reads `susque et deque` (not
+  `susque haec deque`) and is reordered to the standard edition's sequence (propempticon, then the
+  mantica + *susque* block, then the road, then the food); a side-note on the Greek *αἰγίλιποι* added.
+  Lupus: `amphitapi` -> `amphitapae` (agrees with *psilae*/*molles*; commonest transmitted reading), and
+  the ellipsis style normalized (a standalone `...` for skipped lines rather than leading `...` glued to
+  a verse).
+- Cache-busting bumped to `?v=59`.
 
 ## [1.1.3] - 2026-07-07
 
