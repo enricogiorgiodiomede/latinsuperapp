@@ -67,7 +67,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=56`.**
+   whenever you change a JS/CSS file. **Currently `v=57`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -172,7 +172,7 @@ analysisIt, proper accents), short tailored analysis, title, citation; spread ac
 commit + push; update `CHANGELOG.md`, `practice_fragments_reference.md`, and this file (table +
 cache `v=`).
 
-### >>> LIVE at v1.1.4, cache ?v=56 -- IN PROGRESS: EXTEND ARCHAIC + FLESH OUT CAESAR (NOT Augustan) <<<
+### >>> LIVE at v1.1.4, cache ?v=57 -- IN PROGRESS: EXTEND ARCHAIC + FLESH OUT CAESAR (NOT Augustan) <<<
 
 **Plan set 2026-07-06.** The user does NOT want to start the Augustan Era yet (that draft isn't written).
 Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caecilius is DONE (v1.1.1).**
@@ -208,10 +208,14 @@ Remaining work items:
   Colonna/Lacinium (they run to the Sicilian strait - Messana/Rhegium); the Scipio/lower-classes manifesto
   bit is only Cicero's paraphrase, so it lives in the analysis, not the translatable Latin. All flagged for
   proofread (esp. the reassembled Book-1 and Book-15 fragments).
-  **v1.1.4 (same day):** added, at user request, the Lupus gluttony-death line "Occidunt, Lupe, saperdae
-  te et iura siluri!" (Varro L.L. VI.47; pun on lupus the sea-bass) to the Concilium fragment, and the
-  food-criticism lines "nam mel regionibus illis / incrustatus calix rutai caulis habetur" + "exhalas tum
-  acidos ex pectore ructus" (Charisius/Nonius, Book 3 frr.127-130) to the voyage fragment. Cache -> v56.
+  **v1.1.4 (same day, user-supplied verbatim lines):** fleshed out the two fragments. Lupus/Concilium
+  now runs luxury -> gods sizing up Lupus's face ("quae facies, qui vultus viro? / vultus item ut facies,
+  mors cetera, morbus, venenum", vv.43-44) -> a god's dinner-plot ("ad cenam adducam, et primum hisce
+  abdomina tunni / advenientibus priva dabo cephalaeaque acarnae", vv.49-50) -> death punchline ("Occidunt,
+  Lupe, saperdae te et iura siluri!", Varro L.L. VI.47; pun on lupus the sea-bass). Order follows sense,
+  not verse-number. Voyage gained the "no delicacies" line ("ostrea nulla fuit, non purpura, nulla peloris
+  / asparagi nulli", vv.127-8) before the honey verses, plus the earlier "nam mel..." + "exhalas... ructus"
+  (Charisius/Nonius, Book 3). All from Warmington ROL III; scattered, gaps marked "...". Cache -> v57.
 - **Caesar's Age flesh-out** *(large)*: Nepos, Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus.
   Varro later (already 11). Specifics per author TBD by the user.
 

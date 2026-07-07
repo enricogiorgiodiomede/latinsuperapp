@@ -8,19 +8,27 @@ no build step and no dependencies.
 
 ## [1.1.4] - 2026-07-07
 
-Two of the new Lucilius fragments gain extra verbatim lines (at the user's request).
+Two of the new Lucilius fragments gain extra verbatim lines (at the user's request; user-supplied text).
 
 ### Added
-- **Concilium Deorum / Lupus** fragment: added the god's death-sentence line **"Occidunt, Lupe, saperdae
-  te et iura siluri!"** ("the salt-fish and sheatfish stews are the death of you, Lupus!"), preserved by
-  Varro, *de Lingua Latina* VI.47 (a pun on *lupus*, the sea-bass). The gluttony theme is now explicit.
-- **Iter Siculum voyage** fragment: added the food-criticism lines **"nam mel regionibus illis /
-  incrustatus calix rutai caulis habetur"** (a grimy cup and a stalk of rue pass for honey) and
-  **"exhalas tum acidos ex pectore ructus"** (sour belches), from Charisius and Nonius (Warmington Book 3,
-  frr. 127-130). Analysis ties the wretched provincial food to Horace's gritty bread in *Satires* I.5.
+- **Concilium Deorum / Lupus** fragment, three added lines building the gluttony narrative:
+  - the gods sizing up the culprit, **"quae facies, qui vultus viro? / vultus item ut facies, mors cetera,
+    morbus, venenum"** (vv.43-44);
+  - a god's plot to gorge him, **"ad cenam adducam, et primum hisce abdomina tunni / advenientibus priva
+    dabo cephalaeaque acarnae"** (vv.49-50, tuna-bellies and acarna-heads);
+  - the death-sentence punchline **"Occidunt, Lupe, saperdae te et iura siluri!"** (Varro, *de Lingua
+    Latina* VI.47, a pun on *lupus* the sea-bass). Order follows sense, not verse-number.
+- **Iter Siculum voyage** fragment, the food complaint:
+  - **"ostrea nulla fuit, non purpura, nulla peloris / asparagi nulli"** (vv.127-8, no oysters/shellfish/
+    asparagus);
+  - **"nam mel regionibus illis / incrustatus calix rutai caulis habetur"** (a grimy cup and a stalk of
+    rue pass for honey) and **"exhalas tum acidos ex pectore ructus"** (sour belches), from Charisius and
+    Nonius. Analysis ties the wretched provincial food to Horace's gritty bread in *Satires* I.5.
+- All lines sourced verbatim from Warmington *ROL* III (Book 1 and Book 3); reassembled scattered
+  fragments with gaps marked by ellipses. Flagged for the user's proofread.
 
 ### Changed
-- Cache-busting bumped to `?v=56`.
+- Cache-busting bumped to `?v=57`.
 
 ## [1.1.3] - 2026-07-07
 
