@@ -13,6 +13,31 @@
   var slug = UI.getParam('id');
   var workId = UI.getParam('work');
 
+  // Version tracker. Every fragment carries the app version it was first added in.
+  // The single newest version site-wide gets the red "NEW!" VIP banner; every other
+  // fragment gets a papyrus "Added in v.X" tag. Computed from the data, so the VIP
+  // banner moves to the next batch automatically whenever newer excerpts are added.
+  function cmpVersion(a, b) {
+    var pa = String(a).split('.'), pb = String(b).split('.');
+    for (var i = 0; i < 3; i++) {
+      var x = parseInt(pa[i], 10) || 0, y = parseInt(pb[i], 10) || 0;
+      if (x !== y) return x < y ? -1 : 1;
+    }
+    return 0;
+  }
+  var LATEST_VERSION = (function () {
+    var max = '1.0.0';
+    var authors = (window.PracticeBank && PracticeBank.authors) || {};
+    Object.keys(authors).forEach(function (s) {
+      (authors[s].works || []).forEach(function (w) {
+        (w.fragments || []).forEach(function (f) {
+          if (f.version && cmpVersion(f.version, max) > 0) max = f.version;
+        });
+      });
+    });
+    return max;
+  })();
+
   // The era menu is always present; clicking an era jumps to its home listing.
   Menu.render(document.getElementById('era-menu'), { activeEra: era, onClick: Menu.goToEra });
 
@@ -147,9 +172,33 @@
       .replace(/\band\b/g, 'e');
   }
 
+  // The version badge, top-right of the excerpt card: a red "NEW!" VIP banner for
+  // the newest batch, otherwise a papyrus "Added in v.X" tag.
+  function makeVersionBadge(version) {
+    var isVip = cmpVersion(version, LATEST_VERSION) === 0;
+    var badge = document.createElement('div');
+    badge.className = 'excerpt-version-badge ' + (isVip ? 'is-vip' : 'is-papyrus');
+    badge.setAttribute('aria-hidden', 'true');
+    var added = I18n.t('badge.addedIn', { version: version });
+    if (isVip) {
+      badge.innerHTML =
+        '<div class="vip-inner">' +
+          '<span class="vip-new">' + Markdown.escapeHtml(I18n.t('badge.new')) + '</span>' +
+          '<span class="vip-ver">' + Markdown.escapeHtml(added) + '</span>' +
+        '</div>';
+    } else {
+      badge.innerHTML = '<span class="papyrus-text">' + Markdown.escapeHtml(added) + '</span>';
+    }
+    return { el: badge, isVip: isVip };
+  }
+
   function buildFragment(frag, workLabel, idx, total, onAnother) {
     var box = document.createElement('section');
     box.className = 'practice-excerpt';
+
+    var badge = makeVersionBadge(frag.version || '1.0.0');
+    box.classList.add(badge.isVip ? 'has-vip' : 'has-papyrus');
+    box.appendChild(badge.el);
 
     var counter = document.createElement('p');
     counter.className = 'fragment-counter';

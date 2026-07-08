@@ -23,11 +23,18 @@ Cornelius Nepos grows from 1 practice fragment to 8 - the first author of the Ca
   - **Cato III.1-3** - Cato's *industria* and the *Origines* (a companion to our *De Agri Cultura* work).
   - **Atticus VI.1-3** - Atticus's principled neutrality, *neque se civilibus fluctibus committeret.*
 - Nepos's `De Viris Illustribus` now has 8 fragments.
+- **Per-excerpt version tracker** on the practice page. Every fragment in `js/fragments.js` now carries a
+  `version` field (the app version it was first added in). On the practice card, a top-right badge shows
+  it: a CSS-drawn **papyrus scroll** reading "Added in v.X" (text in the What's-New deep-red) for older
+  excerpts, and a CSS-drawn red **"NEW!" VIP banner** (golden text) for the single newest version
+  site-wide. The newest version is computed from the data (`practice.js`), so the VIP banner shifts to the
+  next batch automatically on every future update; right now it marks the 7 new Nepos excerpts (v1.2.0).
+  Adds `badge.addedIn` / `badge.new` i18n strings and the badge styles in `css/styles.css`.
 
 ### Changed
 - **Fixed the Epaminondas citation** to the fuller form **"(De Viris Illustribus, Epaminondas IX.3-4,
   X.1-2)"**, now the citation style for all Nepos excerpts (chapter in Roman numerals, sections in arabic).
-- Cache-busting bumped to `?v=62`.
+- Cache-busting bumped to `?v=63`.
 
 ## [1.1.5] - 2026-07-08
 

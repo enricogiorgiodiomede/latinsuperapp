@@ -131,6 +131,8 @@
       'reveal.analysisHeading': 'Analysis',
       'practice.next': 'Next fragment →',
       'practice.latinFrom': function (p) { return 'Latin text from ' + p.source; },
+      'badge.addedIn': function (p) { return 'Added in v.' + p.version; },
+      'badge.new': 'NEW!',
       'link.backTo': function (p) { return '← Back to ' + p.name; },
 
       // --- select page ---
@@ -262,6 +264,8 @@
       'reveal.analysisHeading': 'Analisi',
       'practice.next': 'Frammento successivo →',
       'practice.latinFrom': function (p) { return 'Testo latino da ' + p.source; },
+      'badge.addedIn': function (p) { return 'Aggiunto in v.' + p.version; },
+      'badge.new': 'NUOVO!',
       'link.backTo': function (p) { return '← Torna a ' + p.name; },
 
       // --- select page ---

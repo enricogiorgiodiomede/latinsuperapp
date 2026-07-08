@@ -942,3 +942,128 @@ body.cl-modal-open { overflow: hidden; }
 .cl-modal-entry .cl-version { font-size: 1.15rem; margin-bottom: 2px; }
 .cl-modal-entry .cl-date { margin: 0 0 10px; }
 .cl-modal-entry .cl-body { gap: 9px; }
+
+/* ============================================================
+   Per-excerpt version tracker (practice page).
+   A papyrus "Added in v.X" tag on the top-right of every excerpt;
+   the single newest batch gets a red "NEW!" VIP banner instead.
+   Both textures are drawn in CSS (no images).
+   ============================================================ */
+.practice-excerpt { position: relative; }
+
+/* keep the header text (counter / title / citation) clear of the badge */
+.practice-excerpt.has-papyrus .fragment-counter,
+.practice-excerpt.has-papyrus h2,
+.practice-excerpt.has-papyrus .excerpt-citation { padding-right: 152px; }
+.practice-excerpt.has-vip .fragment-counter,
+.practice-excerpt.has-vip h2,
+.practice-excerpt.has-vip .excerpt-citation { padding-right: 100px; }
+
+.excerpt-version-badge {
+  position: absolute;
+  right: 18px;
+  z-index: 3;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* ---- papyrus horizontal scroll (older excerpts) ---- */
+.excerpt-version-badge.is-papyrus {
+  top: 20px;
+  height: 30px;
+  padding: 0 13px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #cbb488;
+  background:
+    repeating-linear-gradient(90deg, rgba(120,90,50,0.06) 0 2px, rgba(120,90,50,0) 2px 6px),
+    linear-gradient(180deg, #f0e5d0 0%, #e5d6ba 55%, #dcc9a6 100%);
+  box-shadow: var(--shadow), inset 0 0 6px rgba(150,120,70,0.16);
+}
+/* the two rolled ends of the little scroll */
+.excerpt-version-badge.is-papyrus::before,
+.excerpt-version-badge.is-papyrus::after {
+  content: '';
+  position: absolute;
+  top: -3px; bottom: -3px;
+  width: 9px;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #dcc493 0%, #c4a668 55%, #ad8b52 100%);
+  border: 1px solid #a3813f;
+  box-shadow: inset 0 0 3px rgba(80,55,20,0.45);
+}
+.excerpt-version-badge.is-papyrus::before { left: -6px; }
+.excerpt-version-badge.is-papyrus::after { right: -6px; }
+.papyrus-text {
+  font-family: var(--font-serif);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--deep-red);
+  white-space: nowrap;
+}
+
+/* ---- red VIP banner (the newest batch) ---- */
+.excerpt-version-badge.is-vip {
+  top: 6px;
+  width: 84px;
+  height: 108px;
+  background: linear-gradient(180deg, #f2d789 0%, #c19a45 55%, #a5802f 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 82%, 50% 100%, 0 82%);
+  clip-path: polygon(0 0, 100% 0, 100% 82%, 50% 100%, 0 82%);
+  filter: drop-shadow(0 4px 6px rgba(60,25,25,0.35));
+}
+/* gold roller across the top (the "hanger") */
+.excerpt-version-badge.is-vip::before {
+  content: '';
+  position: absolute;
+  top: -4px; left: -7px; right: -7px;
+  height: 13px;
+  border-radius: 7px;
+  background: linear-gradient(180deg, #f6e0a0 0%, #c8a24d 55%, #a5802f 100%);
+  border: 1px solid #8a6a2a;
+  box-shadow: inset 0 1px 1px rgba(255,244,210,0.7), 0 2px 3px rgba(60,40,10,0.4);
+  z-index: 4;
+}
+/* the red banner cloth, inset so the gold reads as a border */
+.excerpt-version-badge.is-vip .vip-inner {
+  position: absolute;
+  inset: 3px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 81%, 50% 100%, 0 81%);
+  clip-path: polygon(0 0, 100% 0, 100% 81%, 50% 100%, 0 81%);
+  background:
+    repeating-linear-gradient(90deg, rgba(255,255,255,0.05) 0 6px, rgba(0,0,0,0.05) 6px 12px),
+    linear-gradient(180deg, #a12e2a 0%, #7c1f1f 60%, #6a1a1a 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  padding: 12px 5px 16px;
+}
+.vip-new {
+  font-family: var(--font-ui);
+  font-weight: 800;
+  font-size: 0.84rem;
+  letter-spacing: 1.2px;
+  color: #f7db7c;
+  text-shadow: 0 1px 1px rgba(60,18,10,0.7);
+}
+.vip-ver {
+  font-family: var(--font-serif);
+  font-size: 0.62rem;
+  line-height: 1.18;
+  text-align: center;
+  color: #f0cf78;
+  text-shadow: 0 1px 1px rgba(60,18,10,0.55);
+}
+
+@media (max-width: 560px) {
+  .excerpt-version-badge.is-papyrus { height: 26px; padding: 0 9px; }
+  .papyrus-text { font-size: 0.72rem; }
+  .practice-excerpt.has-papyrus .fragment-counter,
+  .practice-excerpt.has-papyrus h2,
+  .practice-excerpt.has-papyrus .excerpt-citation { padding-right: 132px; }
+  .excerpt-version-badge.is-vip { width: 72px; height: 94px; }
+  .vip-new { font-size: 0.74rem; }
+}

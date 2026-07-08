@@ -67,7 +67,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=62`.**
+   whenever you change a JS/CSS file. **Currently `v=63`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -172,7 +172,18 @@ analysisIt, proper accents), short tailored analysis, title, citation; spread ac
 commit + push; update `CHANGELOG.md`, `practice_fragments_reference.md`, and this file (table +
 cache `v=`).
 
-### >>> LIVE at v1.2.0, cache ?v=62 -- IN PROGRESS: FLESH OUT CAESAR'S AGE (Archaic done; NOT Augustan) <<<
+### >>> LIVE at v1.2.0, cache ?v=63 -- IN PROGRESS: FLESH OUT CAESAR'S AGE (Archaic done; NOT Augustan) <<<
+
+**Version tracker (v1.2.0 addition, cache v63):** every fragment in `js/fragments.js` now has a `version`
+field (app version it was first added in). `practice.js` computes the newest version site-wide (max) and
+shows a top-right badge per excerpt: **papyrus scroll** "Added in v.X" (deep-red text) for older ones,
+**red "NEW!" VIP banner** (golden text) for the newest version's fragments. Self-maintaining: the VIP
+moves to the next batch automatically when newer excerpts get a higher version. Badge markup in
+`practice.js` (`makeVersionBadge`), styles in `css/styles.css` (`.excerpt-version-badge.is-papyrus` /
+`.is-vip`, both CSS-drawn, no images), i18n `badge.addedIn`/`badge.new`. Current VIP set = the 7 new
+Nepos (v1.2.0). **When adding a new excerpt batch: tag the new fragments with the new version** (the tag
+script mapped existing ones: launch=1.0.0, Varro-new=1.1.0, Caecilius=1.1.1, Terence=1.1.2, Lucilius=1.1.3/
+1.1.4, Cato=1.1.5, Nepos=1.2.0).
 
 **Plan set 2026-07-06.** The user does NOT want to start the Augustan Era yet (that draft isn't written).
 Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caecilius is DONE (v1.1.1).**
