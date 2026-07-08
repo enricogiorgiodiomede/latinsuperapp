@@ -134,3 +134,19 @@ Not needsSelection (single `Saturae` work, cycles). Lucilius survives only in qu
 - **Myth parody** (Book 15, hexameter): two adjacent frags joined - Homer's Cyclops "Polyphemus ducentos / Cyclops longus pedes" (Nonius) + the Lamiae "Terriculas Lamias, Fauni quas Pompiliique / instituere Numae... veri nil, omnia ficta" (Lactantius *Div. Inst.* I.22). Rationalist debunking of myth/superstition. (User's "vv.511-516 T-M" = Warmington 520-529.)
 - **Roman rat-race** (Lactantius *Div. Inst.* V.9, hexameter, 7 lines): "Nunc vero a mani ad noctem... insidias facere ut si hostes sint omnibus omnes." Negative image of the virtus fragment (both from Lactantius). **My added 6th** (user invited extras). Archaic "a mani" (=a mane), "indu foro" (=in foro).
 - **Virtus** (existing, Lactantius *Div. Inst.* VI.5, Krenkel): unchanged, moved to last.
+
+---
+
+# CAESAR'S AGE
+
+## Cornelius Nepos (`cornelius-nepos`, `de-viris-illustribus`) - now 8 fragments [v1.2.0, 2026-07-09]
+Source: The Latin Library, `nepos/nepos.*.shtml` (each Life its own page; `[N]` = chapter, inline `1. 2. 3.` = sections). Well-preserved -> self-proofread verbatim, NO user proofread. Not needsSelection (cycles). Order = book order, Praefatio first: Praefatio, Themistocles, Alcibiades, Epaminondas, Pelopidas, Hannibal, Cato, Atticus. Blockquotes = one sentence per `>` line.
+**CITATION STYLE (user):** `(De Viris Illustribus, [Name] [chapter-Roman].[section]-[section], [more chapters])`. Chapter in ROMAN numerals, sections in arabic; take a whole `[N]` chapter or a clean run between section marks (never cut mid-section). Epaminondas fixed `(Epaminondas IX.3-4 and X.1-2)` -> `(De Viris Illustribus, Epaminondas IX.3-4, X.1-2)`.
+- **Praefatio 1-3** (`nepos.pr`): defends his method to Atticus; cultural relativism "non eadem omnibus esse honesta atque turpia, sed omnia maiorum institutis iudicari". (No chapter numeral - it's the preface.)
+- **Themistocles IV.1-5** (`nepos.them`): the Salamis ruse (fake message to Xerxes via his slave); ends "victus ergo est magis etiam consilio Themistocli quam armis Graeciae". oratio obliqua in the slave's message.
+- **Alcibiades I.1-4** (`nepos.alc`): the character sketch ("nihil illo fuisse excellentius vel in vitiis vel in virtutibus" ... pivots on `idem` to the vices). Dropped the editorial `[dicendo]` bracket in I.2.
+- **Epaminondas IX.3-4, X.1-2** (existing, `nepos.epam`): "Satis vixi; invictus enim morior" + the Leuctra-as-child retort. Citation fixed this release.
+- **Pelopidas III.1-3** (`nepos.pel`): liberation of Thebes; Archias's "In crastinum differo res severas" (fatal procrastination), then asyndetic rush of the coup.
+- **Hannibal II.3-6** (`nepos.han`): the boyhood oath - direct speech within direct speech (Hannibal quoting Hamilcar; outer `'...'`, inner `"..."`); "numquam me in amicitia cum Romanis fore".
+- **Cato III.1-3** (`nepos.cat`): Cato's industria (agricola/iuris consultus/imperator/orator/litterarum) + the Origines table of contents. Ties to our De Agri Cultura work.
+- **Atticus VI.1-3** (`nepos.att`): principled neutrality "neque se civilibus fluctibus committeret" + the maritime image + staccato refusals (numquam/nullius/neminem).

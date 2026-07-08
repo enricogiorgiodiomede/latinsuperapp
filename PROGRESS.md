@@ -67,7 +67,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=61`.**
+   whenever you change a JS/CSS file. **Currently `v=62`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -132,7 +132,7 @@ The full Italian translation pass is **DONE**.
 | Author (slug) | Eval | Fragment(s) |
 |---|---|---|
 | Marcus Terentius Varro | Manageable | **needsSelection** (work chooser): De Re Rustica (5) · De Lingua Latina (3) · Saturae Menippeae (3) = 11 |
-| Cornelius Nepos | Good Exercise | Epaminondas (1) |
+| Cornelius Nepos | Good Exercise | **De Viris Illustribus (8)**: Praefatio, Themistocles, Alcibiades, Epaminondas, Pelopidas, Hannibal, Cato, Atticus |
 | Quintus Hortensius Hortalus | **NA (grey badge, no chart)** | Cicero, Brutus 6 (1) |
 | Publius Nigidius Figulus | **NA (grey badge, no chart)** | Gellius, NA X.9 (1) |
 | Marcus Tullius Cicero | Very Difficult | In Catilinam I.1-2 · Ad Atticum I.16 · De Amicitia 20 (3) |
@@ -172,7 +172,7 @@ analysisIt, proper accents), short tailored analysis, title, citation; spread ac
 commit + push; update `CHANGELOG.md`, `practice_fragments_reference.md`, and this file (table +
 cache `v=`).
 
-### >>> LIVE at v1.1.5, cache ?v=61 -- IN PROGRESS: EXTEND ARCHAIC + FLESH OUT CAESAR (NOT Augustan) <<<
+### >>> LIVE at v1.2.0, cache ?v=62 -- IN PROGRESS: FLESH OUT CAESAR'S AGE (Archaic done; NOT Augustan) <<<
 
 **Plan set 2026-07-06.** The user does NOT want to start the Augustan Era yet (that draft isn't written).
 Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caecilius is DONE (v1.1.1).**
@@ -231,8 +231,14 @@ Remaining work items:
   reordered to the standard edition (propempticon, then mantica+`susque`, then road, then food) + a
   side-note on the Greek `αἰγίλιποι`; Lupus `amphitapi` -> `amphitapae` (agrees with psilae/molles) +
   ellipsis style normalized (standalone `...` lines for skipped verses, no leading `...` glued to a line).
-- **Caesar's Age flesh-out** *(large)*: Nepos, Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus.
-  Varro later (already 11). Specifics per author TBD by the user.
+- **Caesar's Age flesh-out** *(large)*: ~~Nepos~~ **DONE (v1.2.0, 1->8)**; still to do: Cicero, Caesar,
+  Hirtius, Lucretius, Sallust, Catullus. Varro later (already 11). Specifics per author TBD by the user.
+  - **Nepos (v1.2.0, 2026-07-09):** De Viris Illustribus 1->8. Order (book order, Praefatio first):
+    Praefatio 1-3, Themistocles IV.1-5, Alcibiades I.1-4, Epaminondas (existing, citation fixed),
+    Pelopidas III.1-3, Hannibal II.3-6, Cato III.1-3, Atticus VI.1-3. Verbatim from TLL `nepos/nepos.*.shtml`,
+    self-proofread (well-preserved). **Citation style fixed** to "(De Viris Illustribus, [Name]
+    [chapter-Roman].[section]-[section], ...)" - chapter in Roman numerals, sections arabic; Epaminondas
+    corrected to "IX.3-4, X.1-2". Sentence-per-line blockquotes.
 
 Per-fragment checklist unchanged (see below). Augustan is deferred until the above is done and the user
 gives permission.

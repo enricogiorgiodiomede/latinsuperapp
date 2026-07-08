@@ -504,3 +504,27 @@ A Terence-and-Lucilius day: the Terence practice bank doubled (v1.1.2), then Luc
 **v1.1.4 -- Lucilius extended and proofread (four commits, 16:43 -> 23:34).** Built up over the afternoon and evening in four steps. First, extra verbatim lines were added to two of the new fragments: the Concilium Deorum / Lupus piece gained three gluttony-narrative lines (the gods sizing up the culprit, a god's plot to gorge him with tuna-bellies and acarna-heads, and the *"Occidunt, Lupe, saperdae te et iura siluri!"* death-sentence pun on *lupus* the sea-bass), and the *Iter Siculum* voyage gained the food complaint (no oysters/shellfish/asparagus, a grimy cup and a stalk of rue for honey, sour belches), with the analysis tying the wretched provincial food to Horace's gritty bread in *Satires* I.5. Then user-supplied verbatim lines were folded into those same two fragments. Then an 8th fragment was added (Book 26, *"publicanus vero ut Asiae fiam ... id ego nolo"* -- Lucilius's proud refusal to trade being a poet for the riches of a tax-farmer of Asia), placed right after the manifesto. Finally the user's proofread corrections were applied: the voyage now reads `susque et deque` and is reordered to the standard edition's sequence with a note on the Greek *αἰγίλιποι*; the Lupus fragment fixed `amphitapi` -> `amphitapae` and normalized its ellipsis style. All lines flagged for the user's proofread as they went in. CHANGELOG + `changelog.js` v1.1.4; cache v55 -> v59.
 
 **Progress:** Terence's practice bank is now 5 fragments per comedy across all six, and Lucilius has gone from 1 to 8 fragments, user-proofread. Three versions shipped today (v1.1.2, v1.1.3, v1.1.4); cache at v59. Remaining on the Archaic-extension roadmap: Plautus (to 5 per comedy, all 10) and Cato (+5 *De Agri Cultura*), then the Caesar's-Age flesh-out; Augustan Era still deferred.
+
+---
+
+## 2026-07-08
+*(End-of-day log, compiled 2026-07-09.)*
+
+A Cato day: *De Agri Cultura* grew from 5 practice fragments to 10, with a difficulty-chart tweak and a follow-up pass lengthening three earlier excerpts. Two commits, one shipped version (v1.1.5), cache v59 -> v61.
+
+**v1.1.5 -- Cato *De Agri Cultura* 5 -> 10 (00:56).** Added 5 new bilingual fragments (verbatim Latin from The Latin Library + original IT/EN + analysis + IT metadata): cap. 143 the duties of the *vilica* (housekeeper), placed right after the *vilicus* chapter it mirrors; cap. 38 building and firing a lime-kiln (*fornax calcaria*); cap. 64 bringing in the olive harvest for good oil; cap. 76,3-4 the recipe for *placenta*, the layered cheese-and-honey cake; and cap. 104 the doctored winter wine brewed for the *familia*. The furnace and wine analyses tie back to the bio's "agricultural cheat-sheet" joke. Same commit tuned Cato's difficulty chart (`js/ratings.js`): density lowered 1.6 -> 1.2 (his prose is not dense, now green) and lexicon raised 2.3 -> 2.4.
+
+**Three excerpts extended (17:34).** A verbatim, self-proofread lengthening pass so paired chapters match: the **villicus** (cap. 5) gained the overseer's personal-conduct duties (no wandering, always sober, no rites except the Compitalia) to match the length of the villica chapter; the **olive** excerpt (cap. 64) now runs the whole chapter, ending on drawing off the oil twice a day clear of the *amurca* and *fraces*; the **lime-kiln** (cap. 38) gained the good-white-stone, steep-flue and siting instructions. Translations and analyses extended to match.
+
+**Progress:** Cato's *De Agri Cultura* is now a 10-fragment bank, completing that item on the Archaic-extension roadmap. v1.1.5 shipped; CHANGELOG + `changelog.js`, PROGRESS and the practice reference sheet updated; cache at v61. Remaining Archaic item: Plautus (to 5 per comedy, all 10); then the Caesar's-Age flesh-out. Augustan Era still deferred.
+
+---
+
+## 2026-07-09
+*(End-of-day log, compiled 2026-07-09.)*
+
+Work in progress on the Caesar's-Age flesh-out: Cornelius Nepos jumped from a single practice fragment to eight. Not yet committed or versioned at time of logging.
+
+**Nepos 1 -> 8 fragments (working tree, uncommitted).** Added 7 new bilingual *De Viris Illustribus* fragments (verbatim Latin from The Latin Library + original IT/EN + analysis + IT metadata): the *Praefatio* to Atticus (the "non eadem omnibus esse honesta atque turpia" manifesto of judging Greeks by Greek standards); *Themistocles* IV (the slave-messenger trick that lures Xerxes into the narrows at Salamis); *Alcibiades* I (Nature's experiment in extremes, the virtue-list pivoting on *idem* into the vice-list); *Pelopidas* III (the liberation of Thebes and Archias's proverbial "In crastinum differo res severas"); *Hannibal* II (the boyhood oath at the altar, speech-within-speech); *Cato* III (Cato the polymath and the *Origines*, a neat outside view of our own De Agri Cultura author); and *Atticus* VI (staying out of the civil tides). The existing Epaminondas fragment's citation was normalized to carry the "De Viris Illustribus" prefix like the new ones.
+
+**Progress:** Nepos is now an 8-fragment author, the first piece of the Caesar's-Age flesh-out. The change is still an uncommitted working-tree edit to `js/fragments.js` -- no CHANGELOG entry, version bump, or cache bump yet, and pending the user's proofread. Cache still at v61 (v1.1.5).

@@ -6,6 +6,29 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.2.0] - 2026-07-09
+
+Cornelius Nepos grows from 1 practice fragment to 8 - the first author of the Caesar's-Age flesh-out.
+
+### Added
+- **7 new Cornelius Nepos fragments** from the *De Viris Illustribus* (verbatim Latin from The Latin
+  Library, self-proofread; original Italian and English + analysis, with bilingual metadata). Ordered as
+  in the book, Praefatio first:
+  - **Praefatio 1-3** - the preface to Atticus defending his method (Greeks judged by Greek standards,
+    *omnia maiorum institutis iudicari*).
+  - **Themistocles IV.1-5** - the ruse that lured Xerxes into battle at Salamis.
+  - **Alcibiades I.1-4** - the famous character sketch of nature's experiment in extremes.
+  - **Pelopidas III.1-3** - the liberation of Thebes and Archias's *"in crastinum differo res severas."*
+  - **Hannibal II.3-6** - the boyhood oath at the altar, *numquam me in amicitia cum Romanis fore.*
+  - **Cato III.1-3** - Cato's *industria* and the *Origines* (a companion to our *De Agri Cultura* work).
+  - **Atticus VI.1-3** - Atticus's principled neutrality, *neque se civilibus fluctibus committeret.*
+- Nepos's `De Viris Illustribus` now has 8 fragments.
+
+### Changed
+- **Fixed the Epaminondas citation** to the fuller form **"(De Viris Illustribus, Epaminondas IX.3-4,
+  X.1-2)"**, now the citation style for all Nepos excerpts (chapter in Roman numerals, sections in arabic).
+- Cache-busting bumped to `?v=62`.
+
 ## [1.1.5] - 2026-07-08
 
 Cato the Elder's *De Agri Cultura* grows from 5 practice fragments to 10, plus a difficulty-chart tweak.
