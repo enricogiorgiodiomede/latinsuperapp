@@ -67,7 +67,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=60`.**
+   whenever you change a JS/CSS file. **Currently `v=61`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -172,7 +172,7 @@ analysisIt, proper accents), short tailored analysis, title, citation; spread ac
 commit + push; update `CHANGELOG.md`, `practice_fragments_reference.md`, and this file (table +
 cache `v=`).
 
-### >>> LIVE at v1.1.5, cache ?v=60 -- IN PROGRESS: EXTEND ARCHAIC + FLESH OUT CAESAR (NOT Augustan) <<<
+### >>> LIVE at v1.1.5, cache ?v=61 -- IN PROGRESS: EXTEND ARCHAIC + FLESH OUT CAESAR (NOT Augustan) <<<
 
 **Plan set 2026-07-06.** The user does NOT want to start the Augustan Era yet (that draft isn't written).
 Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caecilius is DONE (v1.1.1).**
@@ -205,7 +205,9 @@ Remaining work items:
   harvest (cap.64), placenta cake (cap.76,3-4), winter wine for the slaves (cap.104). Verbatim from TLL,
   self-proofread (well-preserved). Also **tuned Cato's chart**: density 1.6->1.2 (green), lexicon
   2.3->2.4 (still yellow). Cato's other works (Origines/Orationes) are fragment-only -> would need user
-  proofread if ever added.
+  proofread if ever added. **Also (still v1.1.5, cache v61):** extended 3 excerpts - villicus (cap.5,
+  +personal-conduct duties to match villica length), olive (cap.64, now the full chapter incl. "bis in die
+  depleto" + amurca/fraces), lime-kiln (cap.38, +white-stone/flue/siting).
 - ~~**Lucilius** *(small)*: a few for now.~~ **DONE (v1.1.3 -> 8 total).** Manifesto
   (Book 26, Iunius Congus line), Concilium Deorum / Lupus (Book 1), Iter Siculum voyage (Book 3, = first
   journey satire, cf. Horace Sat. I.5), Albucius "chaere Tite" (Cic. De Fin. I.9), myth parody

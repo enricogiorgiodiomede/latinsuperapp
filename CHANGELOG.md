@@ -21,12 +21,18 @@ Cato the Elder's *De Agri Cultura* grows from 5 practice fragments to 10, plus a
   - **cap. 104** - the doctored winter wine brewed for the *familia* (household slaves).
   - The furnace and wine analyses tie back to the bio's "agricultural cheat-sheet" joke. Cato's
     `De Agri Cultura` now has 10 fragments.
+- **Extended three Cato excerpts** (verbatim, self-proofread): the **villicus** (cap. 5) now includes the
+  overseer's personal-conduct duties (no wandering, always sober, no rites except the Compitalia), so it
+  matches the length of the villica chapter it pairs with; the **olive** excerpt (cap. 64) now runs the
+  whole chapter, ending on drawing off the oil twice a day and getting it clear of the *amurca* and
+  *fraces*; the **lime-kiln** (cap. 38) gains the good-white-stone, steep-flue and siting instructions.
+  Translations and analyses extended to match.
 
 ### Changed
 - **Cato's difficulty chart** (`js/ratings.js`): density lowered `1.6 -> 1.2` (now green - his prose is
   not dense) and lexicon raised `2.3 -> 2.4` (still yellow - vocabulary is the real hurdle). Syntax,
   style and the overall evaluation unchanged.
-- Cache-busting bumped to `?v=60`.
+- Cache-busting bumped to `?v=61`.
 
 ## [1.1.4] - 2026-07-07
 
