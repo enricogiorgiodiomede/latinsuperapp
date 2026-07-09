@@ -6,6 +6,27 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.2.1] - 2026-07-09
+
+Corrects the per-excerpt version tags and restyles the "NEW!" VIP banner.
+
+### Changed
+- **Corrected the `version` field on every Archaic-era practice fragment.** The version tracker was
+  introduced in v1.2.0 and its back-fill script had tagged all pre-1.0.0 fragments as `1.0.0`, so their
+  papyrus badges wrongly read "Added in v.1.0.0". Each fragment now carries the app version it was really
+  first added in, traced through the release history: the 14 launch originals -> `0.1.0`; Naevius's Trojan
+  wives -> `0.4.1`; the Plautus batches -> `0.6.0` (Mostellaria + Amphitruo), `0.6.2` (Aulularia), `0.8.0`
+  (Miles Gloriosus), `0.8.1` (the 2 extra Pseudolus), `0.9.11`/`0.9.12`/`0.9.13` (Menaechmi), `0.9.15`
+  (Bacchides); the Terence originals -> `0.9.0`-`0.9.5`; Caecilius +4 -> `0.9.6`; Cato +4 -> `0.9.7`;
+  the split "big three" poets -> `0.9.8`; the remaining fragmentists -> `0.9.9`/`0.9.10`. 73 fragments
+  re-tagged in `js/fragments.js`; Caesar's-Age fragments (`1.0.0`+) were already correct and are unchanged.
+  The newest version site-wide is still `1.2.0`, so the VIP banner stays on the seven Nepos excerpts.
+- **Restyled the red "NEW!" VIP banner** (`css/styles.css`): the cloth is now a brighter, more saturated
+  red (`#f01818` -> `#e60f0f`) with the diagonal light/dark stripe overlay removed (flat bright red, no dark
+  red); and the banner is nudged up (`top` 6px -> 4px) so its golden top roller touches the top edge of the
+  excerpt card.
+- Cache-busting bumped to `?v=64`.
+
 ## [1.2.0] - 2026-07-09
 
 Cornelius Nepos grows from 1 practice fragment to 8 - the first author of the Caesar's-Age flesh-out.

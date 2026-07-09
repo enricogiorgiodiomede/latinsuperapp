@@ -33,7 +33,7 @@
             "titleIt": "L’inizio dell’Odissea di Omero, rifatto in latino",
             "descriptionIt": "È il primo verso dell'*Odusia*, e di fatto il primo verso della letteratura latina: la riscrittura parola per parola, fatta da Livio Andronico, dell'inizio dell'*Odissea* di Omero. Egli invoca la Musa - qui la Camena italica - perché racconti dell'uomo dai molti volti, Ulisse.",
             "analysisIt": "Il verso d'apertura dell'*Odusia* è il cuore di tutta l'impresa: la resa che Livio fa dell'immortale primo verso di Omero (*“Ἄνδρα μοι ἔννεπε, Μοῦσα, πολύτροπον”*). Ogni parola merita attenzione. *Virum* traduce *ἄνδρα*, anche se la forza enfatica risulta un po' attenuata: in greco “l'uomo” è in assoluto la prima parola del poema, gettata subito in faccia al lettore. *Camena* sostituisce la Musa greca: le Camene erano divinità acquatiche italiche, e la sostituzione è un deliberato atto di traduzione culturale, non una mancanza di fantasia. *Insece* è un'arcaica forma di imperativo di *insequor* (narrare, seguire), già oscura in età classica. *Versutum* rende *πολύτροπον* (“dai molti volti, dalle molte astuzie”): una scelta felice, perché *versutus* porta con sé esattamente la giusta sfumatura di un'intelligenza sfuggente e volpina. Il metro è il saturnio, l'antico verso italico indigeno: Livio non aveva ancora importato l'esametro greco che Ennio avrebbe poi naturalizzato.",
-            "version": "1.0.0"
+            "version": "0.1.0"
           },
           {
             "title": "Ulysses’ heart freezes with dread",
@@ -47,7 +47,7 @@
             "titleIt": "Il cuore di Ulisse si gela di terrore",
             "descriptionIt": "Dal libro 5 dell'*Odusia*: Ulisse, solo sulla sua zattera in mezzo al mare, vede aprirsi davanti a sé il gorgo di Cariddi, e per un attimo il coraggio lo abbandona. Livio coglie l'istante in cui il suo cuore si gela di terrore.",
             "analysisIt": "Questo verso corrisponde al momento in cui Ulisse, solo in mezzo al mare, vede aprirsi davanti a sé il gorgo di Cariddi. *Cor frixit* (“il cuore gli si gelò”) è una vivida espressione arcaica: *frigesco*, raffreddarsi, applicato al cuore per indicare il terrore. La locuzione *prae pavore* (la causa espressa con *prae* + ablativo) è sintassi pienamente classica: uno di quei momenti in cui Livio anticipa la norma invece di restarne indietro. *Ulixi* è il genitivo arcaico di *Ulixes*, il nome latino di Ulisse. Come il verso iniziale, è verso saturnio, e perfino in quattro parole la patina arcaica e la storia greca presa in prestito stanno fianco a fianco.",
-            "version": "1.0.0"
+            "version": "0.1.0"
           },
           {
             "title": "The day that Morta has foretold",
@@ -61,7 +61,7 @@
             "titleIt": "Il giorno che Morta ha predetto",
             "descriptionIt": "Un verso isolato e suggestivo dell'*Odusia*, conservato dal grammatico Aulo Gellio. Parla del giorno fissato dal destino, il giorno che 'Morta ha predetto'. Morta è il nome latino che Livio dà a una delle Parche, la sua resa della greca Moira (il destino).",
             "analysisIt": "Un solo verso, e una finestra su come il primo poeta latino concepiva la traduzione. Gellio lo cita (*Noctes Atticae* III.16.11), riferendo che lo studioso Caesellio Vindice elencava tre Parche - *Nona*, *Decuma* e *Morta* - e prendeva *Morta* per un nome proprio. Gellio lo corregge con garbo: Livio coniò *Morta* per rendere la greca *Moera* (Moira, “il destino assegnato”), non come nome ma come calco - e l'eco di *mors* (la morte) è esattamente il punto. Il verso è di grave semplicità: *quando dies adveniet, quem profata Morta est*, “quando verrà il giorno che Morta ha predetto”. *Profata* (da *profari*, parlare apertamente, profetizzare) è solenne e arcaico; il relativo *quem* si riferisce a *dies*. È la lingua del destino nella sua più antica veste latina. Verso saturnio.",
-            "version": "1.0.0"
+            "version": "0.9.8"
           }
         ],
         "id": "odusia",
@@ -86,7 +86,7 @@
             "titleIt": "Velate e in lacrime, le donne troiane fuggono nella notte",
             "descriptionIt": "Questo frammento parla della fuga da Troia nel *Bellum Poenicum* di Nevio, il primo poema epico latino. Di notte, col capo velato e tra molte lacrime, le mogli di Enea e di Anchise escono di nascosto dalla città caduta. È il preludio mitologico con cui Nevio introduce la guerra contro Cartagine, scritto due secoli prima che l’*Eneide* di Virgilio raccontasse la stessa storia.",
             "analysisIt": "Questo frammento proviene dal libro I del *Bellum Poenicum*, dove Nevio ricollegava il racconto della guerra punica alla caduta di Troia e alla partenza di Enea, un’innovazione che plasmò tutta l’epica romana successiva e che Virgilio avrebbe sviluppato nell’*Eneide*. Il riferimento di *amborum* (di entrambi) è discusso: la maggior parte degli studiosi vi legge le mogli di Anchise e di Enea, che lasciano insieme la città in fiamme.\n\nCiò che colpisce è quanto Nevio riesca a ottenere in tre brevi versi. La partenza nel cuore della notte (*noctu*), il capo velato (*capitibus opertis*, un gesto di lutto romano che qualsiasi spettatore dell’epoca avrebbe riconosciuto) e l’attento sdoppiamento di *amborum* / *ambae* (entrambi/entrambe) lungo il passo creano un effetto sommessamente straziante. Non è il registro eroico della partenza: è il registro del dolore e dello sradicamento, e appartiene alle donne lasciate ad andarsene a piedi mentre gli uomini guidano le navi. È anche il momento più cinematografico di tutta l’epica latina arcaica.\n\nDal punto di vista metrico, si tratta di verso saturnio. La forma arcaica *Troiad* (“da Troia”, un’antica costruzione ablativale) e l’avverbio *noctu* (di notte) sono caratteristici del registro; *capitibus opertis* è un ablativo assoluto. La sintassi è limpida e paratattica: tre immagini in sequenza, senza subordinazione. Questo è Nevio al suo più diretto, e al suo più umano.",
-            "version": "1.0.0"
+            "version": "0.4.1"
           },
           {
             "title": "The Romans land on Malta and wreck everything",
@@ -100,7 +100,7 @@
             "titleIt": "I Romani sbarcano a Malta e radono tutto al suolo",
             "descriptionIt": "Questo frammento del *Bellum Poenicum* riferisce un episodio reale della prima guerra punica: l'incursione romana sull'isola cartaginese di Malta (Melita) nel 256 a.C. In tre versi serrati l'esercito sbarca e brucia, saccheggia e devasta l'intera isola, facendo piazza pulita delle risorse del nemico.",
             "analysisIt": "Nevio cronista di guerra, in tre versi di cupa efficienza. Là dove il frammento delle donne troiane è tutto dolore, questo è tutto movimento e distruzione. L'evento è l'incursione romana su Malta del 256 a.C., durante la prima guerra punica che Nevio stesso aveva combattuto: il *Bellum Poenicum* è in parte un'epica di testimonianza diretta. A fare il lavoro sono i verbi: un tricolon crescente urit populatur vastat (\"brucia, saccheggia, devasta\"), asindetico, ciascuno più pesante del precedente, con la distruzione che monta lungo il verso. La stoccata è la frase finale, rem hostium concinnat: concinnare significa alla lettera \"mettere in ordine, rassettare,\" così l'esercito \"riordina\" cupamente i beni del nemico - humour nero da soldato. Il metro è saturnio, paratattico e martellante. (Il frammento è numerato 40 nel testo qui usato; alcune edizioni lo stampano come fr. 32.)",
-            "version": "1.0.0"
+            "version": "0.9.8"
           }
         ],
         "id": "bellum-poenicum",
@@ -120,7 +120,7 @@
             "titleIt": "Nevio scrive il proprio epitaffio",
             "descriptionIt": "Questo frammento parla di Nevio stesso, in un autoepitaffio di magnifica arroganza. Vi si afferma che, se agli dèi fosse concesso piangere i mortali, le divine Camene piangerebbero il poeta Nevio, e che da quando lui è morto Roma ha dimenticato come si parla la lingua latina.",
             "analysisIt": "Questo epitaffio, scritto da Nevio stesso (cosa che sarebbe del tutto nel suo carattere) oppure da ammiratori poco dopo la sua morte, è uno dei più sorprendenti autoritratti di tutta la letteratura latina. L’arroganza è magnifica e del tutto voluta.\n\nIl periodo ipotetico iniziale, *“si foret fas”*, imposta un rovesciamento dell’ordine cosmico: non sono i mortali a piangere, ma gli immortali. Le *Camene*, le stesse divinità romane che Livio aveva usato per tradurre la Musa di Omero, piangono un poeta, elevandolo al rango di una perdita avvertita dagli dèi stessi. *Orcho traditus thesauro* è l’espressione sorprendente per indicare la morte: Orco (l’oltretomba) trattato come un forziere che ha ricevuto un deposito. La parola *thesauro* lascia intendere che Nevio fosse un tesoro, non una vittima. Poi il colpo finale: dalla sua morte, Roma ha dimenticato come si parla il latino. Non solo come si scrive, ma come si parla.\n\nDal punto di vista metrico, si tratta di verso saturnio, ma relativamente regolare per gli standard di questo metro. I quattro versi mostrano tratti caratteristici: il forte peso in chiusura di ogni verso, lo schema accentuativo lievemente irregolare e l’andamento paratattico (il lavoro lo fanno le congiunzioni, la subordinazione è minima). *Loquier* è la forma arcaica dell’infinito per *loqui*, un utile promemoria del fatto che anche in un brano relativamente curato come questo la patina arcaica è sempre presente.",
-            "version": "1.0.0"
+            "version": "0.1.0"
           }
         ],
         "id": "epitaphium",
@@ -145,7 +145,7 @@
             "titleIt": "Il sogno di Ilia",
             "descriptionIt": "Il sogno più famoso dell'epica latina arcaica. Ilia (Rea Silvia), la vestale che diventerà madre di Romolo e Remo, si sveglia atterrita e racconta alla sorella un sogno profetico: un uomo bellissimo l'ha rapita lungo la riva di un fiume, poi lei ha vagato smarrita cercando la sorella, e infine la voce del padre morto le ha predetto prima sofferenze, ma poi buona sorte dal fiume. I versi di Ennio sopravvivono perché Cicerone li citò nel *De Divinatione*.",
             "analysisIt": "Il primo grande sogno dell'epica romana, e la prova di quanto Ennio abbia spinto in avanti il verso latino. Ilia - la vestale Rea Silvia, futura madre di Romolo e Remo - si sveglia da un incubo profetico e lo riversa alla sorella. Una vecchia nutrice porta un lume (*cita cum tremulis anus... artubus*, la vecchia dalle membra tremanti, un piccolo ritratto vivissimo), e Ilia, *exterrita somno*, racconta. Il sogno ha la vera logica dei sogni: viene afferrata e trascinata lungo la riva del fiume da un uomo bellissimo (il dio Marte, il suo futuro rapitore), poi abbandonata, errante e incapace di ritrovare la sorella - *semita nulla pedem stabilitat*, \"nessun sentiero reggeva il mio piede\"; poi il padre morto le appare, le predice sofferenze seguite dalla fortuna \"dal fiume,\" e svanisce per quanto lei tenda le mani ai *caeli caerula templa* (\"gli azzurri templi del cielo\"). Cicerone conservò il passo nel *De Divinatione* come esempio di sogno profetico. Il latino è grandioso e già virgiliano nella portata: il colore arcaico c'è (*ecfatus* per *effatus*, *postilla* \"poi\", *exim* \"quindi\"), ma c'è anche il nuovo esametro dattilico che Ennio importò dal greco, che scorre oltre la fine del verso come nessun saturnio avrebbe potuto. È il momento in cui l'epica latina diventa adulta.",
-            "version": "1.0.0"
+            "version": "0.9.8"
           },
           {
             "title": "One man saved Rome by waiting",
@@ -159,7 +159,7 @@
             "titleIt": "Un solo uomo salvò Roma temporeggiando",
             "descriptionIt": "Questo frammento celebra Fabio Massimo 'il Temporeggiatore', che salvò Roma con una tattica paziente, evitando la battaglia campale contro Annibale nella seconda guerra punica. Un solo uomo, dice Ennio, restituì lo Stato indugiando, rifiutando di anteporre le chiacchiere del popolo alla salvezza della città, e la sua gloria splende sempre più luminosa.",
             "analysisIt": "Uno dei frammenti più citati della letteratura latina, e la sua forza sta nella concentrazione. *Unus homo*: un solo uomo, l'individuo contro la massa. *Cunctando*: il gerundio ablativo incastona la strategia stessa nella sintassi. *Restituit rem*: tre parole che contengono l'intera impresa: *res* non è solo “la situazione”, ma lo Stato romano, la realtà romana, ciò che conta davvero. Il secondo verso racchiude un giudizio morale in un'antitesi: *rumores* (il chiacchiericcio popolare) contro *salutem* (la sopravvivenza). Nel terzo, *postque magisque*, un'arcaica doppia costruzione per “sempre di più, col tempo”, conferisce alla convalida storica il suo ritmo cumulativo. Fabio Massimo si guadagnò il soprannome di *Cunctator* (il Temporeggiatore) e il disprezzo del popolo per aver rifiutato la battaglia campale con Annibale, finché la sua strategia non si dimostrò vincente. Dal punto di vista metrico sono esametri dattilici, la misura greca che Ennio naturalizzò in latino; si noti il peso spondaico di *Unus homo nobis cunctando restituit rem*: è il ritmo stesso a temporeggiare.",
-            "version": "1.0.0"
+            "version": "0.1.0"
           },
           {
             "title": "From Rudiae to Rome",
@@ -173,7 +173,7 @@
             "titleIt": "Da Rudiae a Roma",
             "descriptionIt": "Un solo verso autobiografico in cui Ennio riflette sulla propria identità: lui, un tempo uomo di Rudiae nell'Italia meridionale, è diventato romano. È la quieta dichiarazione del poeta su quanto pienamente si fosse dato a Roma e alla sua letteratura.",
             "analysisIt": "Un solo verso autobiografico, e uno dei più rivelatori del latino. “Noi siamo romani ora, noi che un tempo fummo uomini di Rudiae.” Ennio lo scrisse verso la fine della vita, guardando indietro dal libro XVIII degli *Annales* al suo cammino da Rudiae, cittadina semigreca della Calabria, fino al cuore della cultura letteraria romana. Aveva passato la carriera a rendere grande Roma in versi; così facendo era diventato lui stesso romano. *Rudini* è la forma arcaica (“uomini di Rudiae”). Ennio diceva celebremente di avere “tre cuori” (*tria corda*) perché parlava osco, greco e latino, e questo verso è quella tripla identità risolta in una sola frase orgogliosa. Esametro dattilico.",
-            "version": "1.0.0"
+            "version": "0.1.0"
           }
         ],
         "id": "annales",
@@ -199,7 +199,7 @@
             "titleIt": "Una lettera d'amore che solo una gallina poteva scrivere",
             "descriptionIt": "Questo paragrafo riguarda l'apertura dello *Pseudolo*, dove lo schiavo dalla lingua tagliente Pseudolo punzecchia il suo giovane padrone Calidoro, malato d'amore. Calidoro piange su una tavoletta di cera, una lettera della sua innamorata, appena venduta a un soldato. Pseudolo la afferra e si fa beffe della scrittura orribile, scherzando sul fatto che a scriverla dev'essere stata una gallina e che solo la Sibilla potrebbe decifrarla.",
             "analysisIt": "Questo passo viene dalla scena iniziale dello *Pseudolo*, il primo scambio esteso tra l'astuto schiavo Pseudolo e il suo giovane padrone Calidoro, malato d'amore. Calidoro se ne va in giro da giorni stringendo una tavoletta di cera (una lettera della sua amata Phoenicium, venduta da un lenone a un soldato) e piangendoci sopra. Pseudolo alla fine prende la tavoletta e prova a leggerla.\n\nDal punto di vista metrico, questi versi sono senari giambici, il registro del dialogo nella commedia romana, relativamente abbordabile per gli standard della poesia latina. Qui il metro non combatte contro il lettore. Tutto il resto sì.\n\nLa prima battuta funziona su due livelli contemporaneamente. *Quaerunt litterae hae sibi liberos: alia aliam scandit*, \"queste lettere cercano dei figli: l'una si arrampica sull'altra.\" Il significato di superficie è visivo: la scrittura è così fitta e aggrovigliata che le singole lettere sembrano accatastate l'una sull'altra. Ma *scandere* è il verbo tecnico per scandire i versi, \"salire\" un metro. Plauto fa una battuta autoreferenziale sul proprio testo scritto. Le lettere della lettera d'amore non si possono scandire; le lettere della commedia che stai guardando sì. Se tutto questo sia intenzionale o casuale è, con Plauto, la domanda sbagliata.\n\n*Sibulla* è la grafia arcaica di *Sibylla*, la profetessa di Cuma. Pseudolo paragona una scrittura illeggibile a un'iscrizione profetica: gli oracoli della Sibilla erano notoriamente scritti su foglie, disperse dal vento, e celebri per la difficoltà di rimetterli insieme. È anche una battuta sulla grandiosità di chiamare interpreti divini per una lettera d'amore adolescenziale.\n\nLa battuta della *gallina*, *An, opsecro hercle, habent quas gallinae manus?*, è costruita come una domanda retorica seguita da un colpo finale: *nam has quidem gallina scripsit*. Il giuramento *opsecro hercle* (\"per Ercole, ti prego\") è un puro tic verbale plautino: *opsecro* (forma arcaica per *obsecro*) e *hercle* compaiono decine di volte in tutte le commedie come riempitivi della conversazione e marcatori enfatici. Sono l'equivalente romano del nostro \"ma dai, andiamo.\"\n\n*Pellegam* (per *perlegam*, \"leggerò fino in fondo\") e *advortito* (per *advertito*, \"fa' attenzione\") sono ulteriori forme arcaiche, banali in Plauto ma invisibili nel latino scolastico.\n\nIl culmine emotivo dello scambio è *nam istic meus animus nunc est, non in pectore*: \"il mio animo è là adesso, non nel petto.\" Calidoro sta dicendo che tutto il suo essere ha seguito Phoenicium dentro la tavoletta di cera che lei ha scritto. È un verso davvero toccante, un autentico momento di sentimento in una scena comica. Pseudolo lo trafigge all'istante: *Eccam in tabellis porrectam: in cera cubat*, \"eccola, distesa sulle tavolette: giace nella cera.\" *Porrectam* (da *porrigo*, \"stendere\") porta con sé anche la connotazione di un cadavere composto per l'esposizione. Pseudolo è insieme affettuoso e spietato, che è tutto il suo personaggio in un solo verso.\n\nNota cosa succede a livello strutturale: quattro registri diversi di umorismo - fisico (la gallina), intellettuale (la Sibilla), metatestuale (la scansione dei versi) ed emotivo (l'animo nella cera) - compaiono in quattordici versi di dialogo. Questa densità non è insolita in Plauto. È il punto di partenza.",
-            "version": "1.0.0"
+            "version": "0.1.0"
           },
           {
             "title": "The pimp who agrees to every insult",
@@ -213,7 +213,7 @@
             "titleIt": "Il lenone che dà ragione a ogni insulto",
             "descriptionIt": "Questo paragrafo riguarda la scena più celebre dello Pseudolo: Calidoro e lo schiavo Pseudolo accerchiano il lenone Ballione e lo seppelliscono sotto un torrente di insulti - e Ballione, lungi dall’esserne ferito, dà allegramente ragione a ognuno e anzi li rilancia, finché i due si arrendono.",
             "analysisIt": "La scena più celebre della commedia, e uno dei grandi pezzi di bravura della commedia romana: Calidoro e Pseudolo prendono in mezzo il lenone Ballione e lo sommergono di insulti - e Ballione, deliziato, dà ragione a ognuno, anzi li migliora. \"Sacrilego!\" \"Lo confesso.\" \"Spergiuro!\" \"Mi racconti cose vecchie.\" La battuta è che l’insulto funziona solo su chi è capace di vergogna, e Ballione non ne ha: accusato di aver picchiato i genitori, aggiunge allegro di averli anche uccisi, \"piuttosto che dar loro da mangiare - ho forse fatto qualcosa di male?\". Pseudolo alla fine si arrende con un proverbio, in pertusum ingerimus dicta dolium (\"versiamo parole in una botte forata\"). Il verso è trocaico e giambico rapido, e la comicità è quasi tutta lessicale: un torrente di nomi-insulto (bustirape \"profanatore di tombe\", furcifer \"avanzo di galera\", legirupa \"violatore di leggi\", sociofraude \"truffatore dei soci\") a cui rispondono interiezioni (babae, bombax). Personaggi: CAL. = Calidoro, PS. = Pseudolo, BAL. = Ballione.",
-            "version": "1.0.0"
+            "version": "0.8.1"
           },
           {
             "title": "Pseudolus, drunk and triumphant",
@@ -227,7 +227,7 @@
             "titleIt": "Pseudolo, ubriaco e trionfante",
             "descriptionIt": "Questo frammento riguarda il finale della commedia. Pseudolo, vinta la scommessa, arriva ubriaco dalla festa della vittoria - inghirlandato, traballante e ruttando in faccia al vecchio padrone Simone - e si rifiuta di tornare sobrio, mentre Simone non può che sbalordirsi del suo stato.",
             "analysisIt": "Pseudolo si è giocato la testa con una scommessa - estorcere il denaro al lenone - e l’ha vinta; ora torna dal festino della vittoria nello stato in cui ogni servo astuto si merita di finire: ubriaco fradicio. Inghirlandato, barcollante, rutta in faccia al vecchio Simone e chiede di essere retto per non cadere. Il rovesciamento è completo: lo schiavo trionfante, il padrone ridotto a meravigliarsi. La comicità è fisica e verbale insieme - \"non vedi come sono fradicio?\" (madide madeam, figura etimologica che accumula \"bagnato\" su \"bagnato\"), il rutto \"dolce\", e la metafora finale del ventre gonfio di vino come una celox onusta, un battello a pieno carico. Metri lirici e recitativi; latino colloquiale e svelto. È la scena finale della commedia (che si chiude poco dopo, con Pseudolo che invita gli spettatori a bere con lui l’indomani). Personaggi: PS. = Pseudolo, SIM. = Simone.",
-            "version": "1.0.0"
+            "version": "0.8.1"
           }
         ],
         "id": "pseudolus",
@@ -250,7 +250,7 @@
             "titleIt": "Due schiavi si scambiano insulti davanti alla porta",
             "descriptionIt": "Questo paragrafo riguarda l'apertura della *Mostellaria*: una sfida a colpi di insulti tra due schiavi. Grumione, il rozzo schiavo di campagna, scaccia dalla cucina il raffinato schiavo di città Tranione, accusandolo di aver rovinato il loro giovane padrone, mentre Tranione lo respinge a spintoni verso la fattoria. La commedia è già in moto prima ancora che si veda una trama.",
             "analysisIt": "Un puro preludio fatto di insulti. La comicità sta nel registro, non nella trama: *mastigia* (pezzo da forca), *nidor* (puzzo di fritto), *dierecte* (va' alla malora) sono parole colloquiali che in Cicerone non incontrerai mai. La minaccia di congedo di Grumione, *sine modo adveniat senex* (\"aspetta solo che torni il vecchio\"), pianta in sordina il motore dell'intera commedia: il padrone è via, e il suo ritorno è il disastro verso cui tutti corrono.",
-            "version": "1.0.0"
+            "version": "0.6.0"
           },
           {
             "title": "A man is like a newly built house",
@@ -264,7 +264,7 @@
             "titleIt": "L'uomo è come una casa appena costruita",
             "descriptionIt": "Questo frammento riguarda il grande monologo a effetto di Filolachete. Il giovane scialacquatore, ubriaco e all'improvviso riflessivo, decide che un essere umano è come una casa nuova: costruita con amore dai genitori, e poi mandata in rovina una volta che lui ci si trasferisce e si lascia andare. È il centro morale della commedia, travestito da analogia da costruttore.",
             "analysisIt": "Plauto affida vera filosofia a un giovanotto ubriaco. La cornice è la battuta - *si est quod mihi cor*, \"se un cuore ce l'ho\" - ma la metafora è costruita con cura, e l'accumulo di verbi deliberativi (*cogitavi, volutavi, disputavi*) fa argomentare Filolachete come un pensatore, solo per arrivare a una conclusione che lo condanna: la casa ben fatta (una buona educazione) viene lodata fino al momento esatto in cui ci entra l'inquilino negligente. Il verso qui è più lento e più astratto della farsa che gli sta intorno, ed è proprio questo il punto.",
-            "version": "1.0.0"
+            "version": "0.6.0"
           },
           {
             "title": "The master is back: Tranio sees doom sail in",
@@ -278,7 +278,7 @@
             "titleIt": "Il padrone è tornato: Tranio vede la rovina entrare in porto",
             "descriptionIt": "Questo frammento riguarda lo snodo cruciale della commedia. Lo schiavo Tranione scopre che il vecchio padrone Teopropide è tornato dall'estero senza preavviso, proprio mentre la casa è stata colta in piena baldoria. In una raffica di astrazioni personificate guarda la catastrofe entrare in porto - e decide all'istante di cavarsela con la storia della casa infestata che dà il titolo alla commedia.",
             "analysisIt": "Tranione trasforma la propria rovina in parodia epica. Le astrazioni con la maiuscola - *Spes, Confidentia, Salus* - sfilano come dèi che lo abbandonano, e *maeroris montem maximum* (\"una montagna di sciagura\") allittera il disastro fino a renderlo quasi grandioso. Il colpo cade nelle ultime due parole, *periit Tranio*: nomina se stesso in terza persona, già intento a redigere il proprio necrologio mentre la mente comincia a cercare una via di fuga.",
-            "version": "1.0.0"
+            "version": "0.6.0"
           }
         ]
       },
@@ -298,7 +298,7 @@
             "titleIt": "Plauto conia la parola \"tragicommedia\"",
             "descriptionIt": "Questo paragrafo riguarda il momento più citato del prologo. Vedendo il pubblico storcere il naso alla parola \"tragedia\", Mercurio si offre di trasformarla in commedia, poi opta per una via di mezzo, perché la commedia ha re e dèi (la tragedia) e uno schiavo impertinente (la commedia). È la prima attestazione superstite della parola *tragicomoedia*.",
             "analysisIt": "La celebre coniazione nasconde una teoria del genere basata sulla classe sociale: la tragedia è per i *reges* e i *di*, la commedia ha bisogno di un *servus*, quindi un'opera che li contenga entrambi deve essere un ibrido. Il provocatorio *deus sum, commutavero* (\"sono un dio, la cambierò\") di Mercurio ostenta il pieno controllo del commediografo mentre finge di indire una votazione. Tutto il discorso è Plauto che strizza l'occhio al pubblico riguardo a ciò che sta per vedere.",
-            "version": "1.0.0"
+            "version": "0.6.0"
           },
           {
             "title": "Mercury, disguised as Sosia, denies Sosia his own name",
@@ -312,7 +312,7 @@
             "titleIt": "Mercurio, travestito da Sosia, nega a Sosia il suo stesso nome",
             "descriptionIt": "Questo frammento riguarda il cuore della comicità dell'opera: lo schiavo Sosia, mandato a casa di notte, trova la soglia sbarrata da Mercurio, che ha assunto l'aspetto esatto di Sosia. Il dio maltratta e interroga il vero Sosia e si rifiuta di lasciarlo essere chi è, l'incubo dell'identità su cui ruota tutta l'opera.",
             "analysisIt": "Pura sticomitia, verso per verso, e un buon banco di prova per il latino colloquiale veloce: *verbero* (\"pezzo da frusta\", insulto di repertorio), *argutarier* (un infinito passivo arcaico, \"cavillare\"), la battuta sulla sua lingua \"casta\". Sotto lo scherzo si nasconde il vero orrore dell'opera: uno schiavo non possiede quasi nulla, e Mercurio gli sta togliendo l'ultima cosa che ha, il suo nome e il suo stesso io.",
-            "version": "1.0.0"
+            "version": "0.6.0"
           },
           {
             "title": "Alcmena: my true dowry is my virtue",
@@ -326,7 +326,7 @@
             "titleIt": "Alcmena: la mia vera dote è la mia virtù",
             "descriptionIt": "Questo frammento riguarda Alcmena che, accusata ingiustamente di infedeltà, risponde al marito con sobria dignità. Si rifiuta di considerare la dote in denaro come la sua vera ricchezza: la sua vera dote, dice, sono la castità, la modestia, la pietà e la lealtà, uno dei discorsi più nobili che Plauto abbia mai scritto, incastonato dentro una farsa.",
             "analysisIt": "Quattro versi, quasi ogni parola un sostantivo astratto: *pudicitia, pudor, sedatus cupido, deum metus, concordia*. Alcmena ridefinisce la *dos* (dote) allontanandola dal denaro per orientarla verso il carattere, un'idea sorprendentemente seria affidata alla moglie ingiustamente accusata di una commedia. Il pathos sta nell'ironia drammatica: noi sappiamo che la sua \"infedeltà\" era un dio che indossava il volto del marito, e così la sua difesa della propria purezza è al tempo stesso perfettamente vera e impossibile da dimostrare.",
-            "version": "1.0.0"
+            "version": "0.6.0"
           },
           {
             "title": "The infant Hercules strangles the serpents",
@@ -340,7 +340,7 @@
             "titleIt": "Il piccolo Ercole strangola i serpenti",
             "descriptionIt": "Questo frammento riguarda il prodigio finale dell'opera, riferito dalla serva Bromia: due enormi serpenti crestati piombano dentro casa e puntano alla culla dei gemelli appena nati. Mentre lei, terrorizzata, trascina indietro la culla, il piccolo Ercole ne salta fuori e afferra un serpente in ciascuna mano. La farsa si chiude nello stupore.",
             "analysisIt": "Una rhesis del messaggero in miniatura, che passa di registro dalla farsa alla meraviglia. Il presente narrativo (*devolant, pergunt, exilit*) la rende incalzante, e la patina arcaica è fitta: *vorsum* per *versum*, *circumvisere* (\"guardarsi intorno\"). Le due brevi esclamazioni di Amphitruo (*Ei mihi* ... *Mira memoras*) incorniciano il racconto come un pubblico in scena: Plauto mette in scena il miracolo attraverso gli occhi di qualcun altro.",
-            "version": "1.0.0"
+            "version": "0.6.0"
           }
         ],
         "labelIt": "Anfitrione"
@@ -361,7 +361,7 @@
             "titleIt": "L'avaro caccia di casa la vecchia serva ficcanaso",
             "descriptionIt": "Questo paragrafo riguarda la nostra prima immagine dell'avaro Euclione, in preda al panico per la pentola d'oro che ha nascosto in casa. Spinge fuori dalla porta la vecchia serva Stafila e la minaccia, terrorizzato all'idea che lei abbia scoperto il suo tesoro: è la paranoia che muove l'intera commedia (e, duemila anni dopo, l'Harpagon di Molière).",
             "analysisIt": "Euclione è tutto sospetto e insulti ancora prima che ne capiamo il motivo. Il colore è puro turpiloquio plautino: *circumspectatrix cum oculis emissiciis* (\"ficcanaso con occhi da spia\"), *stimulorum seges* (\"semenzaio di frustate\"), il *testudineum gradum* (\"passo da tartaruga\") che minaccia di accelerare. Il comico sta nel fatto che la sua frenesia è reale, mentre la causa - una pentola d'oro nascosta - resta un segreto per tutti tranne che per noi.",
-            "version": "1.0.0"
+            "version": "0.6.2"
           },
           {
             "title": "If the rich married poor brides, the city would be happier",
@@ -375,7 +375,7 @@
             "titleIt": "Se i ricchi sposassero spose povere, la città sarebbe più felice",
             "descriptionIt": "Questo paragrafo riguarda il ricco scapolo Megadoro, che ha scelto di sposare la figlia senza dote di Euclione. Qui sostiene che, se i ricchi prendessero in genere mogli povere e senza dote, l'intera città sarebbe più armoniosa, meno spendacciona e meno invidiosa: una sorprendente critica sociale infilata in una farsa che parla di un avaro.",
             "analysisIt": "Un'idea davvero seria messa in bocca a un personaggio comico. Megadoro costruisce la sua tesi come una catena ascendente di proposizioni *et... et... et...*, ciascuna un vantaggio del matrimonio senza dote: concordia, meno invidia, mogli più docili, spese minori. L'ironia che avvertiamo è pungente: il padre stesso della sposa, Euclione, è talmente divorato dal suo oro segreto che questa offerta generosa, libera da dote, anziché rallegrarlo lo terrorizza.",
-            "version": "1.0.0"
+            "version": "0.6.2"
           },
           {
             "title": "\"I’m finished!\" - the miser finds the gold gone",
@@ -389,7 +389,7 @@
             "titleIt": "\"Sono spacciato!\" - l'avaro scopre che l'oro è sparito",
             "descriptionIt": "Questo frammento riguarda il culmine comico: Euclione scopre che la sua pentola d'oro è stata rubata e irrompe sulla scena in totale crollo nervoso - corre senza meta, poi si volta contro gli spettatori stessi, accusandoli di essere i ladri e pretendendo che gliela restituiscano. Molière lo rielaborò per Harpagon, e resta ancora il ritratto definitivo dell'avaro in preda al panico.",
             "analysisIt": "I versi più celebri della commedia, e una lezione magistrale di panico messo in scena: le domande a raffica (*quo curram? quo non curram? tene, tene! quem? quis?*) non lasciano spazio per respirare. Coglietela, nella corsa, la battuta più profonda - *qui sim ... nequeo investigare*, \"non riesco nemmeno a capire chi sono\": Euclione si è talmente fuso con il suo oro che, perdendolo, perde la propria identità. Poi la scena rompe completamente la finzione: si rivolge agli spettatori (*quid ridetis?*, \"perché ridete?\"), li accusa di essere i ladri - bricconi ben vestiti che si nascondono dietro toghe pulite e gesso (*vestitu et creta*) - poi ne sceglie uno, lo lusinga come faccia onesta, e nello stesso respiro sospetta anche di lui. La quarta parete non si limita a incrinarsi: Euclione ci passa attraverso e comincia a perquisire il pubblico.",
-            "version": "1.0.0"
+            "version": "0.6.2"
           }
         ]
       },
@@ -409,7 +409,7 @@
             "titleIt": "Il soldato fanfarone e il suo adulatore",
             "descriptionIt": "Questo paragrafo riguarda la celebre apertura del Miles Gloriosus. Il soldato Pirgopolinice ordina che il suo scudo sia lucidato fino a brillare più del sole e si vanta delle proprie imprese, mentre il parassita Artotrogo lo adula spudoratamente: Marte stesso non oserebbe competere, e con un solo soffio il soldato avrebbe un tempo spazzato via intere legioni, come il vento le foglie.",
             "analysisIt": "È l’apertura del Miles Gloriosus e la nascita di un archetipo comico: il soldato fanfarone, tutto boria e amor proprio, in coppia con il parassita che lo adula per la cena. Pirgopolinice (\"espugnatore di rocche\") vuole lo scudo lucidato per accecare il nemico e teme che la sua spada sia avvilita dall’ozio, mentre Artotrogo (\"rosicchiapane\") giura che Marte stesso non oserebbe competere. La comicità sta nell’iperbole: un soffio che ha disperso intere legioni \"come il vento tra le foglie\", e l’assurdo generale immaginario Bombomachide Clutomistaridisarchide, \"nipote di Nettuno\", salvato nelle pianure dei Punteruoli (campi Curculionii, da curculio, \"punteruolo\"). Senari giambici, il registro del dialogo; il latino è abbordabile, ma i nomi comici e il lessico mock-eroico (machaera, bellator) sono dove vive il colore. (La tilde al v. 8 non è un errore: segnala una pausa, mantenuta qui per conservare il ritmo del metro.)",
-            "version": "1.0.0"
+            "version": "0.8.0"
           },
           {
             "title": "The bachelor’s case against marriage",
@@ -423,7 +423,7 @@
             "titleIt": "Le ragioni dello scapolo contro il matrimonio",
             "descriptionIt": "Questo frammento riguarda Periplectomeno, l’arzillo vecchio scapolo della porta accanto, che spiega perché non si è mai sposato. Abbastanza ricco da prendere in moglie qualsiasi donna ricca di dote, preferisce tenersi la libertà piuttosto che farsi entrare in casa una \"brontolona\" - perché una moglie, dice, non si offre mai di comprarti un mantello caldo; chiede soltanto denaro.",
             "analysisIt": "Periplectomeno, l’arzillo vecchio scapolo della porta accanto, spiega perché non si è mai sposato, e Plauto gli affida una delle grandi difese comiche della vita da scapolo. Il nocciolo è un gioco di parole che il latino fa senza sforzo: liberae sunt aedis, liber sum (\"la casa è libera, e io sono libero\"), con procreare liberos (\"mettere al mondo figli\" - ma liberi vale anche \"persone libere\") contrapposto a liberum esse (\"essere libero\"). La battuta che segue è acuta osservazione sociale: una moglie, insiste, non direbbe mai la cosa premurosa (\"comprati un mantello caldo\"); chiede solo denaro. Il passo prosegue in un virtuosistico catalogo delle sue pretese - regali per la madre, per l’indovina, la levatrice, la nutrice - che qui abbiamo tagliato. Senari giambici; il lessico è domestico e colloquiale (oblatratrix, \"cagna che abbaia\", per una moglie brontolona è puro Plauto).",
-            "version": "1.0.0"
+            "version": "0.8.0"
           },
           {
             "title": "The braggart soldier gets what he deserves",
@@ -437,7 +437,7 @@
             "titleIt": "Il soldato fanfarone ha quel che si merita",
             "descriptionIt": "Questo frammento riguarda il finale della commedia. Sorpreso in casa del vicino come presunto adultero, il fanfarone Pirgopolinice viene bastonato, multato e minacciato di evirazione, poi lasciato andare - solo per scoprire che il \"marinaio\" che ha portato via la sua concubina era da sempre il suo amante, e che tutto era una macchinazione del suo stesso schiavo. Ammette di aver avuto quel che meritava, e la commedia finisce.",
             "analysisIt": "La commedia finisce come ogni miles gloriosus dovrebbe: con il soldato bastonato, derubato e cacciato dalla scena tra le risate. Sorpreso in casa del vicino come aspirante adultero, Pirgopolinice viene picchiato, multato e lasciato andare con uno dei giochi di parole più sboccati di Plauto - carebis testibus, \"resterai senza testimoni\", dove testes significa sia \"testimoni\" sia \"testicoli\", sicché la minaccia è l’evirazione. Poi il coltello gira ancora: il \"marinaio\" che ha portato via la sua concubina era da sempre il suo amante, e l’intero intrigo era opera dello schiavo Palestrione. Le battute finali del soldato sono sorprendentemente lucide - ammette che le botte erano iure factum, \"giustamente date\", e pronuncia la morale della commedia, che se a tutti gli adulteri toccasse lo stesso ce ne sarebbero meno - prima del saluto romanissimo, plaudite (\"applaudite!\"), l’ultima parola della commedia. Versi giambici e trocaici; rapidi, colloquiali e feroci.",
-            "version": "1.0.0"
+            "version": "0.8.0"
           }
         ]
       },
@@ -458,7 +458,7 @@
             "titleIt": "Gemelli così uguali che la loro stessa madre non li distingueva",
             "descriptionIt": "Il prologo espone la premessa su cui ruota tutta la commedia: un mercante siracusano ha due gemelli identici, così uguali che nemmeno la balia o la madre riescono a distinguerli. Un gemello viene perduto da bambino e cresce a Epidamno; il nonno allora dà al gemello rimasto a casa il nome di quello perduto, così i due fratelli finiscono per avere lo stesso nome e lo stesso volto - la macchina perfetta per lo scambio di persona.",
             "analysisIt": "La premessa dei Menecmi, esposta da chi recita il prologo, e il seme di ogni battuta a venire: due gemelli identici, così uguali che nemmeno la balia - né la loro stessa madre - riescono a distinguerli. (Chi parla non resiste a una battuta tutta plautina: io non li ho mai visti di persona, perché nessuno di voi se lo immagini.) Un gemello viene perduto da bambino a Taranto e finisce a Epidamno; il nonno allora ribattezza Menecmo il bambino rimasto a casa, col nome di quello perduto - così i due fratelli condividono un solo nome e un solo volto. Quando il gemello siracusano arriva a cercarlo, l'intera città lo scambia per il Menecmo del posto e la farsa si muove da sé. Plauto sapeva di avere una macchina perfetta: è la commedia che Shakespeare rielaborò ne La commedia degli equivoci. Il latino è un limpido senario giambico narrativo, una porta d'ingresso facile a Plauto - anche se il prologo altrove si diverte con verbi inventati (graecissat, sicilicissitat, \"fa il greco, fa il siciliano\") e con il celebre promemoria che questa città è Epidamno solo \"finché si recita questa commedia.\"",
-            "version": "1.0.0"
+            "version": "0.9.11"
           },
           {
             "title": "The parasite bound by food, not chains",
@@ -472,7 +472,7 @@
             "titleIt": "Il parassita legato dal cibo, non dalle catene",
             "descriptionIt": "Il parassita Peniculo si presenta con una battuta sul proprio nome e una lunga teoria comica sul cibo. Si chiama Peniculo (\"Spazzola\") perché, quando mangia, ripulisce la tavola; e il modo più sicuro per impedire a un uomo di scappare, sostiene, non sono le catene ma una tavola imbandita: legagli il muso al pranzo e non fuggirà mai.",
             "analysisIt": "Un parassita plautino da manuale, che si presenta con un gioco di parole sul proprio nome e un'ampia trovata comica sul cibo. Peniculo significa \"spazzola\" o \"spugna\": i giovani lo hanno soprannominato così, dice, perché quando mangia ripulisce la tavola. Poi imbastisce un'intera filosofia: le catene sono un modo da sciocchi per trattenere un uomo (tanto le lima), ma legalo con il cibo e la bevanda - \"gli legherai il muso a una tavola imbandita\" (apud mensam plenam homini rostrum deliges) - e non scapperà mai. L'immagine del cibo come il più saldo dei vincoli, che più li tendi più stringono (quam magis extendas, tanto adstringunt artius), è proprio il tipo di metafora prolungata che Plauto ama, costruita con il materiale più basso possibile: la cena. La parola rostrum (\"muso\", detto della bocca di un animale) riduce allegramente il parassita stesso a una bestia che si ingozza - l'autoironia su cui vive il personaggio. Senario giambico, colloquiale e svelto.",
-            "version": "1.0.0"
+            "version": "0.9.11"
           },
           {
             "title": "The wife rages at the wrong twin",
@@ -486,7 +486,7 @@
             "titleIt": "La moglie inveisce contro il gemello sbagliato",
             "descriptionIt": "La scena che tutta la commedia è costruita per produrre. La moglie del Menecmo del posto esce infuriata per affrontare il marito a proposito di una palla che lui ha rubato per l'amante - ma l'uomo che mette alle strette è il suo gemello identico di Siracusa, appena arrivato in cerca del suo schiavo, che non l'ha mai vista prima in vita sua. La furia di moglie di lei si scontra con lo sconcerto da estraneo di lui, e Plauto infarcisce il litigio di battute mitologiche (la paragona a Ecuba che rovescia insulti, che i Greci soprannominarono 'la cagna').",
             "analysisIt": "La scena che definisce i Menecmi, quella che tutta questa commedia degli equivoci è congegnata per produrre. La moglie del Menecmo residente (MAT.) esce a sgridare il marito per averle sgraffignato la palla - e capita sul gemello sbagliato. L'uomo che mette alle strette è Menecmo di Siracusa (qui MEN.), il fratello viaggiatore, appena arrivato in cerca del suo schiavo Messenione, che non l'ha mai vista in vita sua. Tutto poggia su questo scarto: lei attacca con tutta la furia di una moglie, lui ribatte con la calma sconcertata e pungente di un estraneo. Poi Plauto fa il suo gioco preferito - tirare la mitologia giù in una battuta. Incalzato, l'estraneo le spiega 'premurosamente' perché i Greci chiamavano cagna Ecuba (canes): anche lei 'rovesciava insulti su chiunque le capitasse sotto gli occhi'. Sostiene di conoscere questa presunta moglie più o meno quanto conosce Portaone, e suo padre quanto Calcante - grandi nomi eroici buttati lì per dire esattamente 'per niente' (e aggiunge che dirà lo stesso del nonno di lei). Le figure imponenti del mito e della tragedia diventano spallucce sarcastiche. Il latino è giambo rapido e colloquiale (muttire 'borbottare', o hominis impudentem audaciam!, lo splendido monstra quod bibam, 'prescrivimi qualcosa da bere per poterti sopportare'). Il tratto centrale qui omesso, segnalato con [...], comprende la sua scrollata di spalle alla minaccia di lei di lasciarlo - 'vivi pure da vedova finché Giove tiene il trono, per quel che mi importa'. È la macchina dei sosia a pieno regime, l'antenata diretta di ogni commedia di scambio di gemelli venuta dopo, compresa quella di Shakespeare.",
-            "version": "1.0.0"
+            "version": "0.9.12"
           },
           {
             "title": "The wrong twin plays the madman",
@@ -500,7 +500,7 @@
             "titleIt": "Il gemello sbagliato fa la parte del pazzo",
             "descriptionIt": "La continuazione della scena precedente, e il momento più famoso della commedia. La moglie ha ormai chiamato il padre (SEN.); ancora convinti che il gemello viaggiatore di Siracusa (MEN.) sia il marito, i due lo accerchiano. Sinceramente sconcertato - non ha idea di chi siano - decide che, visto che continuano a dargli del pazzo, tanto vale fare il pazzo, e si lancia in un delirio di finta possessione divina per spaventarli e mandarli via.",
             "analysisIt": "La continuazione del litigio con la moglie, e la scena più famosa dei Menecmi - una vetrina di tutto ciò che Plauto sa fare meglio, sempre fondata interamente sullo scambio dei sosia. La moglie (MAT.) ha chiamato il padre (SEN.), e i due accerchiano il gemello viaggiatore (qui \"MEN.\", Menecmo di Siracusa). Sinceramente sbalordito - non ha mai incontrato queste persone - escogita un piano: visto che insistono nel dirlo pazzo, farà il pazzo. Ne segue il rovesciamento della più solenne macchina della tragedia in farsa. Recita l'eroe posseduto, ma gli dèi che invoca diventano battute: risponde alla chiamata di Bacco alla caccia (Euhoe Bacche, Bromie!) ma si lamenta di non potersene andare perché una \"cagna rabbiosa di donna\" - la sua presunta moglie - lo tiene in gabbia sulla sinistra (e, nel verso qui omesso, un vecchio caprone puzzolente, il padre di lei, sulla destra); poi \"Apollo\" gli ordina premurosamente di bruciare gli occhi alla moglie e di prendere a pugni il vecchio. La solennità mitologica è tirata giù di peso nella baruffa - esattamente la trovata, e lo stesso gioco delle frecciate su Ecuba e Calcante della scena precedente. Il metro si rompe in concitati versi lirici; il terrore della moglie (Perii... minatur mihi oculos exurere) e la sua fuga la chiudono. (Un verso testualmente corrotto, l'insulto contro il padre, è omesso e segnalato con [...].) È il motore della commedia degli equivoci occidentale, colto nel pieno dell'esplosione.",
-            "version": "1.0.0"
+            "version": "0.9.13"
           }
         ]
       },
@@ -521,7 +521,7 @@
             "titleIt": "Due sorelle tendono la trappola a Pistoclero",
             "descriptionIt": "La scena d'apertura delle Bacchidi superstiti. Le due sorelle cortigiane (entrambe di nome Bacchide) lavorano insieme sul giovane Pistoclero: una lo vuole come guardia del corpo contro il soldato che l'ha ingaggiata, e lo adesca con la promessa di un bicchiere e di un bacio. Pistoclero fiuta la trappola e resiste con una raffica di metafore argute, ma l'astuzia e il fascino delle sorelle stanno già vincendo.",
             "analysisIt": "La scena d'apertura delle Bacchidi superstiti (l'inizio vero e proprio della commedia è perduto), e una lezione magistrale su come Plauto disegna la seduttrice. Le due sorelle cortigiane - entrambe di nome Bacchide - lavorano in coppia sul giovane Pistoclero, che una delle due vuole come guardia del corpo contro il soldato che l'ha ingaggiata. L'esca è gettata con disarmante dolcezza: vieni da noi, bevi qualcosa, e \"quando avrai bevuto, ti darò un bacio\" (ubi biberis, savium). Pistoclero fiuta subito la trappola, e la sua resistenza è uno spettacolo pirotecnico di metafore. Le loro lusinghe sono viscus merus, \"pania pura\"; le sorelle sono due uccellatrici a caccia di un solo palumbes (colombo) e lui è l'uccello a cui la canna batte già le ali. Gioca sul loro stesso nome - bacchas metuo et bacchanal tuom, \"temo le tue baccanti e il tuo baccanale\" - e chiama Bacchide una mala bestia, una \"bestia malvagia,\" le cui parole sono aculeata, spinose: \"pungono il cuore, sperperano i beni, feriscono la condotta e il buon nome\" (animum fodicant, bona distimulant, facta et famam sauciant). Il pezzo forte è la metafora della palestra: il giovane che entra in questa \"palestra\" baratta ogni emblema di virtù militare e atletica con uno di dissolutezza - la spada con una tortora, l'elmo con una coppa, la lancia con i dadi, la corazza con un morbido mantello, e la battuta finale scortum pro scuto, \"una sgualdrina invece dello scudo.\" Quando la sua resistenza tiene, è la sorella stessa (Bacchide II) a intervenire - \"bisogna ammorbidirlo,\" Malacissandus es - e Bacchide corona il gioco di squadra pretendendo che lui la abbracci appena arriva il soldato. Eppure tutta la sua arguzia è inutile: la malizia delle sorelle è avvolta in un fascino tale che cederà nel giro di una dozzina di versi. Il loro linguaggio è insieme spregiudicato e carezzevole, e l'aura seduttiva è totale. Versi giambici e trocaici rapidi, fitti di giochi di parole.",
-            "version": "1.0.0"
+            "version": "0.9.15"
           },
           {
             "title": "A slave's sack of Troy",
@@ -535,7 +535,7 @@
             "titleIt": "Il saccheggio di Troia di uno schiavo",
             "descriptionIt": "Crisalo, il geniale schiavo-imbroglione della commedia, ha appena scroccato una fortuna al vecchio Nicobulo. Invece di un semplice vanto, rimette in scena l'intera guerra di Troia come un mock-epico con sé stesso nei panni dell'eroe: le tavolette sigillate che porta sono il cavallo di legno, la scrittura al loro interno i soldati nascosti, e il vecchio viene ribattezzato Troia.",
             "analysisIt": "Crisalo, il geniale schiavo-imbroglione della commedia, che celebra la sua truffa nel più grandioso mock-epico di Plauto. Dopo aver scroccato una fortuna al vecchio Nicobulo, non si limita a vantarsi: rimette in scena la guerra di Troia con sé stesso nei panni dell'eroe. Ai figli di Atreo servirono mille navi e dieci anni per prendere Troia; lui saccheggerà il suo padrone \"senza flotta, senza esercito.\" Le tavolette sigillate che porta \"non sono tavolette, ma il cavallo di legno che mandarono gli Achei\" (non sunt tabellae, sed equos... ligneum), la scrittura al loro interno sono i soldati armati, e il vecchio stesso viene ribattezzato Ilio. Il gioiello è il gioco di parole: il cavallo \"caricherà non la rocca, ma la cassaforte\" - non in arcem, verum in arcam - una sola lettera che trasforma la caduta di Troia nell'assalto a uno scrigno. È la mossa-firma di Plauto al suo massimo: la mitologia più alta tirata giù a servire la truffa di uno schiavo, e il pubblico invitato a godersi insieme la grandiosità e la sua presa in giro. Il verso è un canticum lirico cantato, di registro mock-eroico, carico di lessico epico e sacrale (divina moenitum manu; exitium excidium exlecebra) sfruttato interamente per far ridere.",
-            "version": "1.0.0"
+            "version": "0.9.15"
           },
           {
             "title": "Fleecing the old sheep",
@@ -549,7 +549,7 @@
             "titleIt": "Tosare le vecchie pecore",
             "descriptionIt": "Il finale, e uno specchio malizioso dell'inizio. I due vecchi padri, Nicobulo e Filosseno, irrompono davanti al bordello per trascinare a casa i figli - e le due sorelle Bacchidi, che hanno contribuito a spennare quei figli, si rifiutano di prenderli sul serio, trattandoli come un paio di pecore smarrite. Poi, in un freddo a parte, si spartiscono i due vecchi e adescano dentro anche loro.",
             "analysisIt": "Il finale della commedia, e uno specchio malizioso del suo inizio. Le due sorelle Bacchidi, dopo aver contribuito a rovinare i figli dei due vecchi, ora si rivoltano contro i padri stessi - e conquistano anche loro. Nicobulo e Filosseno irrompono davanti al bordello per riprendersi i ragazzi, e le sorelle, serene, si rifiutano di prenderli sul serio, trattandoli come un paio di pecore smarrite: lucide e appena tosate (attonsae usque, cioè spennate del loro denaro), che belano lontano dal gregge. I vecchi stanno al gioco e raccolgono la metafora - i loro figli sono \"agnelli\" chiusi dentro, e loro diventeranno \"arieti feroci\" e caricheranno - ma è spacconata, e le sorelle lo sanno. La scena si chiude con le due che si spartiscono il bottino in un freddo a parte: \"ti affido quello più in là, ammansiscilo; io prendo l'arrabbiato\" (senem illum tibi dedo... lepide ut lenitum reddas), coronato dalla chiusa magnificamente cinica quamquam odiost mortem amplexari, \"anche se è disgustoso abbracciare un cadavere.\" Il fascino predatorio e spregiudicato della primissima scena ha semplicemente allargato la rete dai figli ai padri. Verso lirico cantato, con la metafora animalesca sostenuta fino all'ultimo verso.",
-            "version": "1.0.0"
+            "version": "0.9.15"
           }
         ]
       }
@@ -572,7 +572,7 @@
             "titleIt": "Perché l'agricoltura batte il commercio e l’usura",
             "descriptionIt": "Questo paragrafo riguarda la difesa morale dell'agricoltura fatta da Catone, l'unico momento del suo manuale di agricoltura in cui si ferma a ragionare sui valori. Contrappone il commercio e il prestito a interesse, che gli antenati punivano duramente, all'agricoltura, che a suo dire produce gli uomini più tenaci e i migliori soldati, e il guadagno più onesto, sicuro e meno invidiato di tutti.",
             "analysisIt": "Questo è l'unico passo del *De Agri Cultura* in cui Catone si allontana dall'istruzione pratica e propone qualcosa di simile a un argomento morale. Vale la pena leggerlo con attenzione, perché rivela come vada inteso l'intero libro: non semplicemente un manuale tecnico, ma una dichiarazione di valori romani.\n\nLa struttura è tipicamente catoniana: tre brevi frasi dichiarative che impostano l'accusa contro commercio e usura; poi la legge citata come autorità. Si notino *posiverunt* (forma arcaica per *posuerunt*) e *foeneratorem* - la patina arcaica compare subito, già nel primo paragrafo. Poi l'osservazione decisiva è formulata come un invito anziché come un'affermazione: *hinc licet existimare*, \"da questo si può giudicare\". Catone non esplicita la conclusione. Lascia che sia l'argomento a fare il suo lavoro.\n\n*Quom laudabant, ita laudabant* - \"quando lodavano, lodavano così\" - è il vertice retorico: una costruzione raddoppiata che imita il peso dell'abitudine ereditata. La catena di superlativi che chiude il passo - *fortissimi... strenuissimi... stabilissimusque... minimeque invidiosus... minimeque male cogitantes* - è quasi l'unico abbellimento esteso del prologo, ed è meritato. Catone ci è arrivato accumulando frasi brevi. Quando i superlativi arrivano, colpiscono con forza cumulativa proprio perché tutto ciò che li precede era così compresso.\n\nSul piano sintattico, questo è quanto di più accessibile possa offrire il latino arcaico. Le frasi sono autonome, la logica è sequenziale, e il lessico, pur includendo forme arcaiche (*quom*, *posiverunt*, *foenerari*), non pone richieste tecniche oltre il contesto agricolo. Uno studente con un glossario e un pomeriggio di preparazione può leggere questo passo senza difficoltà. Ciò che ne ricava è, come sempre con Catone, qualcosa che non si aspettava necessariamente.",
-            "version": "1.0.0"
+            "version": "0.1.0"
           },
           {
             "title": "How to choose a farm",
@@ -586,7 +586,7 @@
             "titleIt": "Come scegliere un podere",
             "descriptionIt": "È il primissimo capitolo del manuale, la lista di controllo di Catone per comprare un podere. Non comprare di fretta; vai a vederlo, e ancora, perché un buon terreno piace di più a ogni visita. Giudica la zona da come prosperano i vicini, e cerca buon clima e buon suolo, un versante esposto a mezzogiorno, abbondanza di manodopera, acqua, una città forte vicina e il mare, un fiume o una buona strada per i trasporti - e, meglio di tutto, una terra i cui ex proprietari si pentono di averla venduta.",
             "analysisIt": "Il capitolo d'apertura, e un campione perfetto di come Catone pensa e scrive. Non c'è preambolo: il libro comincia già in corsa, con un futuro (cogitabis) e una sequenza di congiuntivi esortativi e imperativi arcaici - habeto, advertito, il ripetuto siet (forma arcaica per sit). Il consiglio è scaltro e del tutto privo di sentimentalismo. Il gnomico quotiens ibis, totiens magis placebit quod bonum erit (\"quante più volte ci vai, tanto più ti piacerà ciò che è buono\") è quanto di più vicino al lirismo arrivi Catone, e perfino questo è in realtà un monito contro la fretta. La lista che segue è puro asindeto - clima, suolo, esposizione, manodopera, acqua, città, trasporti - sparata senza connettivi, e la prosa imita il rapido inventario mentale di un uomo che percorre un fondo. La stoccata è nella coda: compra dove i proprietari precedenti si pentono di aver venduto (eos pigeat vendidisse). Metà saggezza popolare, metà freddo calcolo: che è esattamente Catone.",
-            "version": "1.0.0"
+            "version": "0.9.7"
           },
           {
             "title": "The duties of the overseer",
@@ -600,7 +600,7 @@
             "titleIt": "I doveri del fattore",
             "descriptionIt": "Qui Catone delinea il carattere del vilicus ideale, lo schiavo-fattore che manda avanti il podere quando il padrone è assente. Deve mantenere una buona disciplina e rispettare le feste, tenere le mani lontane da ciò che non è suo e custodire ciò che lo è, comporre le liti e punire con giustizia. La servitù non deve patire freddo né fame, ma va tenuta a lavorare sodo - e se il fattore stesso non vuole fare il male, nessuno sotto di lui lo farà.",
             "analysisIt": "È il cuore morale del manuale: il podere come piccola comunità, e il vilicus come suo magistrato. L'etica di Catone qui è bruscamente a doppio taglio. Da un lato, una vera umanità - familiae male ne sit, ne algeat, ne esuriat (\"la servitù non stia male, non patisca freddo né fame\") - e l'intuizione pratica che una servitù occupata è una servitù che si comporta bene (opere bene exerceat, facilius malo... prohibebit). Dall'altro, una responsabilità totale che scorre verso il basso: Vilicus si nolet male facere, non faciet (\"se il fattore non vuole che si faccia il male, non si farà\"), e il padrone deve punire il fattore che lo tollera. Catone poi mette dei paletti alla condotta personale del fattore esattamente come farà con la governante nel cap. 143: niente giri a vuoto (ne sit ambulator), sempre sobrio, niente cene fuori, e nessun rito religioso se non ai Compitali - la religione domestica, come per lei, è affare del padrone, non del servo. Lo stile è il famoso telegrafese catoniano: congiuntivi esortativi (utatur, serventur, abstineat) con ogni connettivo eliminato, ogni dovere un comando secco a sé. Si legge come un elenco di leggi perché in sostanza è proprio questo: la gestione del podere come legislazione.",
-            "version": "1.0.0"
+            "version": "0.9.7"
           },
           {
             "title": "The duties of the housekeeper",
@@ -684,7 +684,7 @@
             "titleIt": "La suovetaurilia: la benedizione dei campi",
             "descriptionIt": "È il passo più famoso del libro e una delle più antiche preghiere romane che possediamo: il rito per purificare la terra (lustratio agri). Un maiale, una pecora e un toro - la suovetaurilia - vengono condotti in processione intorno ai campi, e il contadino prega Marte di tenere lontani malattie, rovina e maltempo, di far crescere i raccolti e le greggi, e di mantenere al sicuro la sua famiglia. Poi i tre animali vengono sacrificati.",
             "analysisIt": "La pagina più celebre del libro, e un pezzo di religione arcaica ancora viva. La suovetaurilia (sus + ovis + taurus: maiale, pecora, toro) viene condotta in cerchio intorno al podere - la lustratio, un confine magico di purificazione - e poi sacrificata a Marte, qui non il dio della guerra ma l'antico protettore italico dei campi. La preghiera è costruita come un carmen, un incantesimo: funziona per coppie e triadi esaustive e allitteranti che cercano di non lasciare scappatoie - morbos visos invisosque (\"malattie viste e non viste\"), prohibessis defendas averruncesque (\"tieni lontano, difendi, allontana\"), fruges frumenta vineta virgultaque. Il latino è splendidamente arcaico: sies (= sis), prohibessis e servassis (antichi congiuntivi-ottativi), siris (= siveris), duis (= des), duonam (= bonam), il raro averruncesque (\"allontanare\"). Colpisce la precisione giuridica - il contadino indica perfino a Marte quali parti del fondo, e autorizza il suo schiavo Manio a stabilire il percorso - come se si stipulasse un contratto con il dio. (La grafia catoniana suovitaurilia è la forma manoscritta della parola di solito riportata come suovetaurilia.) Nulla mostra meglio l'abitudine romana di trattare la religione come una procedura scrupolosa e vincolante.",
-            "version": "1.0.0"
+            "version": "0.9.7"
           },
           {
             "title": "In praise of cabbage",
@@ -698,7 +698,7 @@
             "titleIt": "Elogio del cavolo",
             "descriptionIt": "Lo splendido attacco con cui Catone tratta del cavolo, che considerava una medicina quasi universale. Il cavolo, dichiara, supera tutti gli altri ortaggi; mangialo cotto o crudo, intinto nell'aceto; favorisce mirabilmente la digestione ed è salutare in ogni modo. Ed ecco il rimedio antico contro la sbornia: se vuoi bere di gusto e cenare con piacere a un banchetto, mangia cavolo crudo nell'aceto prima di cena e qualche foglia dopo, e ti sembrerà di non aver mangiato nulla - e potrai bere quanto vuoi.",
             "analysisIt": "Catone enciclopedista al suo più simpatico e più eccentrico. Per lui il podere era una farmacia autosufficiente, e la brassica (il cavolo) ne era il farmaco miracoloso: i capitoli che seguono lo raccomandano per le articolazioni, l'intestino e le ferite, e - in un passo famigerato - prescrivono l'orina di chi mangia cavolo abitualmente come tonico e come bagnetto per i neonati (di qui il lotium... salubre di questo passo). Qui, però, il tono è puro entusiasmo pratico: Brassica est quae omnibus holeribus antistat (\"il cavolo è quello che supera tutti gli ortaggi\"), seguito dallo splendido consiglio da banchetto in cui ogni lettore moderno riconoscerà un rimedio romano contro la sbornia. Lo stile è il consueto imperativo a raffica del manuale (esto, intinguito, comesto) - \"mangialo\", \"intingilo\", \"mangiane circa cinque foglie\" - ma il soggetto rivela l'altro Catone: non il cupo moralista della Praefatio, ma l'instancabile e un po' bisbetico padrone di casa convinto di aver trovato nel proprio orto la risposta a ogni cosa.",
-            "version": "1.0.0"
+            "version": "0.9.7"
           }
         ],
         "id": "de-agri-cultura",
@@ -724,7 +724,7 @@
             "titleIt": "Incatenato a una moglie ricca e prepotente",
             "descriptionIt": "Questo paragrafo riguarda il lamento di un marito succube nella commedia *Plocium* di Cecilio. Sposato con una moglie ricca e dispotica, la cui dote lo tiene in pugno, il protagonista borbotta di vivere come un prigioniero di guerra in attesa che lei muoia, e racconta che le sue insistenze lo hanno costretto a vendere una giovane schiava con cui lei lo sospettava, cosa di cui poi si è vantata con tutte le amiche.",
             "analysisIt": "Questo passo è il monologo del marito tratto dal *Plocium* di Cecilio, citato per intero da Gellio nelle *Noctes Atticae* II.23, subito accanto alla sezione corrispondente dell'originale greco di Menandro. Gellio preferisce Menandro. Un lettore che incontri Cecilio da solo, senza il confronto, potrebbe ritrovarsi meno deluso di Gellio.\n\nIl verso iniziale -- *is demum miser est, qui aerumnam suam nescit occultare* -- circolava nell'antichità come massima a sé stante e veniva citato in modo indipendente per la sua concisione e precisione. \"Davvero infelice è solo colui che non sa nascondere la propria infelicità\" è insieme un'osservazione morale e un consiglio pratico per sopravvivere a un matrimonio infelice.\n\nLe immagini si caricano fino a un'iperbole comica che però sfiora qualcosa di reale. *Quasi ad hostes captus liber servio salva urbe atque arce* -- \"servo come un prigioniero di guerra mentre città e rocca sono salve\" -- descrive la condizione domestica di un uomo romano sposato con una donna facoltosa la cui dote le dà un potere che lui non può eguagliare. Cecilio lo rende esplicito: *Quae nisi dotem, omnia, quae nolis, habet* -- \"salvo la dote, ha tutto ciò che non vorresti\". La *dos* è la trappola.\n\n*Dum ego eius mortem inhio, egomet vivo mortuus inter vivos* -- \"mentre aspetto bramosamente la sua morte, io stesso vivo da morto in mezzo ai vivi\" -- è probabilmente il miglior verso che ci resti di Cecilio. Il rovesciamento è netto: l'uomo che aspetta la morte della moglie è già morto lui per primo, in quell'attesa.\n\nSi noti il quinto verso -- *Quae mihi, quidquid placet, eo privatu vim me servatum* -- metricamente e sintatticamente problematico. Gli editori hanno proposto delle correzioni; il testo tramandato è probabilmente corrotto. Questo non è insolito per gli autori frammentari giunti a noi tramite citazione, ed è un promemoria delle condizioni in cui leggiamo Cecilio: attraverso lo spiraglio stretto dei libri altrui, su un testo che ha accumulato danni nel corso di secoli di copiatura.\n\nLa forma metrica è dall'inizio alla fine il settenario trocaico -- il verso trocaico di sette piedi che sia Plauto sia Cecilio usavano per le scene di forte intensità emotiva. Il ritmo è rapido e incalzante, adatto al frenetico inventario interiore che il marito fa della propria situazione domestica.",
-            "version": "1.0.0"
+            "version": "0.1.0"
           },
           {
             "title": "She kisses me to smell my breath",
@@ -738,7 +738,7 @@
             "titleIt": "Mi bacia per sentirmi il fiato",
             "descriptionIt": "Questo frammento è lo stesso marito succube del Plocium, ora a confidarsi con un vecchio vicino a proposito della moglie ricca e gelosa. La battuta: appena rincasa e si siede, lei gli stampa un bacio - non per affetto ma, come spiega il vicino, per fiutargli il fiato a digiuno e controllare se è stato a bere fuori. Gellio lo cita per mostrare come Cecilio abbia reso più volgare il più delicato originale di Menandro.",
             "analysisIt": "La comicità verbale di Cecilio al suo più sguaiato - e proprio il passo che Gellio usa per condannarlo. In Menandro, i versi corrispondenti (anch'essi citati da Gellio) hanno il marito succube che lamenta con sobrietà la tirannia della moglie ereditiera, che spadroneggia su casa, terre e ogni cosa. Cecilio butta via tutto questo e mette al suo posto una battuta sul bere: il bacio della moglie è in realtà un etilometro, e il suo \"fiato a digiuno\" (ieiuna anima) annusa in cerca di vino. Il verdetto di Gellio è severo: qui Cecilio \"preferì sembrare buffo piuttosto che appropriato\" (ridiculus magis quam... aptus). Ma è esattamente l'istinto comico romano: Cecilio vuole la risata, come Plauto ha sempre fatto, e lo scambio è rapido e davvero spassoso. Semplice senario giambico, due vecchi che si rimbalzano le battute (si noti il secco Va! e il rapido Qui tandem?).",
-            "version": "1.0.0"
+            "version": "0.9.6"
           },
           {
             "title": "The poor man's troubles can't be hidden",
@@ -752,7 +752,7 @@
             "titleIt": "I guai del povero non si possono nascondere",
             "descriptionIt": "Questo frammento è la riflessione di un bravo schiavo nel Plocium, che rende i versi di Menandro sulla miseria di un uomo povero che alleva dei figli. Il povero è due volte sfortunato, dice chi parla: non solo è povero, ma ogni sua disgrazia è subito visibile a tutti, mentre gli scandali di un ricco si mettono facilmente a tacere. Gellio lo cita come ultimo, e più severo, esempio di Cecilio che resta al di sotto di Menandro.",
             "analysisIt": "Il cupo contraltare del frammento 1, e una finestra su come lavorava Cecilio. Là dove il monologo iniziale diceva \"davvero infelice è colui che non sa nascondere la propria pena\" (is demum miser est, qui aerumnam suam nescit occultare), qui il pensiero è rivolto ai poveri: is demum infortunatus est homo... cui fortuna... continuo patet - la vita del povero è semplicemente troppo esposta per poter nascondere alcunché, mentre opulento famam facile occultat factio, \"la reputazione di un ricco la copre facilmente la sua cricca\". La coppia inquadra il vero soggetto della commedia: denaro, segretezza e vergogna. Gellio non è impressionato: li definisce \"certi brani tronchi presi da Menandro e rappezzati con parole di gonfiezza tragica\" (trunca quaedam ex Menandro... consarcinantis verba tragici tumoris) - e la pesante allitterazione (fortuna... famam facile... factio) suona in effetti più solenne del modesto pensiero. Ma è proprio quella gravità a rendere il verso citabile. Senario giambico, sentenzioso e con pausa di fine verso.",
-            "version": "1.0.0"
+            "version": "0.9.6"
           },
           {
             "title": "Live as you can, not as you would",
@@ -800,7 +800,7 @@
             "titleIt": "La vecchiaia, l'ospite che ti mostra troppo",
             "descriptionIt": "Questi due brevi passi, da commedie non identificate, sono i versi più cupi di Cecilio sulla vecchiaia - entrambi citati da Cicerone nel suo De Senectute proprio per poterli confutare. Nel primo, alla vecchiaia non serve nessun altro difetto se non questo: che, vivendo a lungo, vedi molto che preferiresti non vedere. Nel secondo, la cosa peggiore dell'invecchiare è sentire di essere diventato un peso per qualcun altro.",
             "analysisIt": "Due istantanee della visione cupa che la scena comica ha della vecchiaia - e una lezione su come Cecilio sia arrivato fino a noi. Cicerone, costruendo la tesi di Catone secondo cui la vecchiaia è un bene, ricorre a Cecilio come all'avversario da demolire: concede ai primi versi una certa verità ma subito ribatte, \"e molto, forse, che invece desidera - e anche la giovinezza spesso incappa in cose che non vorrebbe\" (Et multa fortasse, quae volt...), poi liquida il secondo come vitiosius, \"ancora più difettoso\". Il latino è tagliente e proverbiale - edepol è un'imprecazione quotidiana (\"per Polluce\"), e la forma gnomica di multa, quae non volt, videt ha fatto sì che il verso restasse impresso. Il pessimismo è reale, ma lo è anche l'ironia della sua sopravvivenza: i versi più tetri di Cecilio sull'invecchiare sono durati solo perché il grande ottimista della vecchiaia romana aveva bisogno di qualcosa con cui dissentire. Il lessico è colloquiale (eumpse = ipse, un arcaico rafforzativo).",
-            "version": "1.0.0"
+            "version": "0.9.6"
           },
           {
             "title": "He plants trees for another age",
@@ -814,7 +814,7 @@
             "titleIt": "Pianta alberi per un'altra età",
             "descriptionIt": "Questo celebre verso isolato proviene dalla commedia Synephebi (I coetanei) di Cecilio, conservato da Cicerone nelle Tusculanae Disputationes e ripreso ancora nel suo De Senectute. L'immagine è quella del vecchio contadino che pianta alberi di cui non vedrà mai i frutti - un piccolo gesto generoso che, per Cicerone, dimostra come ci stiano a cuore, per istinto, le generazioni che verranno.",
             "analysisIt": "Sei parole che sono sopravvissute alla loro commedia. I Synephebi ci sono giunti quasi interamente tramite Cicerone, e questo verso ne è il monumento: serit arbores, quae alteri saeclo prosint, \"pianta alberi che siano utili a un'altra età\". Cicerone lo amava - lo cita nelle Tusculanae come prova che persino un indaffarato vecchio contadino pensa oltre la propria vita (quid spectans nisi etiam postera saecula ad se pertinere?, \"in vista di che cosa, se non che anche le età future lo riguardano?\"), e ne riprende con approvazione la stessa idea nel De Senectute. Il pensiero è il rovescio caldo e civile della cupezza di Cecilio sull'invecchiare: il vecchio che vede troppo di ciò che non gli piace è anche quello che pianta per un raccolto che non vivrà per cogliere. Il latino è compatto e limpido - una relativa finale (quae... prosint, congiuntivo) appesa a un solo verbo casalingo, serit. È, meritatamente, il verso più citato che Cecilio abbia scritto.",
-            "version": "1.0.0"
+            "version": "0.9.6"
           },
           {
             "title": "Wisdom under a shabby cloak",
@@ -857,7 +857,7 @@
             "titleIt": "Ecco da dove quelle lacrime",
             "descriptionIt": "Questo paragrafo riguarda il celebre momento nel racconto di un funerale fatto da Simone. Il vecchio racconta al suo liberto Sosia come, al funerale della cortigiana Criside, avesse notato tra le donne in lutto una ragazza di straordinaria modestia e bellezza; scoprendo che era la sorella di Criside, capì all’improvviso perché suo figlio Panfilo avesse pianto tanto - e nacque il modo di dire \"hinc illae lacrimae\".",
             "analysisIt": "Uno dei versi più citati della commedia romana è nascosto in un tranquillo racconto. Simone narra al suo liberto come, al funerale della cortigiana Criside, avesse osservato suo figlio Panfilo piangere - e ne fosse stato contento, scambiandolo per ordinaria gentilezza umana (l’aveva chiamato misericordia, \"compassione\"). Solo quando scorge la ragazza modesta e bella che piange \"più di tutte le altre\" e scopre che è la sorella di Criside, la verità lo colpisce: il ragazzo è innamorato. percussit ilico animum, \"mi trafisse l’animo all’istante\", e poi la celebre formula, hinc illae lacrumae, \"ecco da dove quelle lacrime\". Cicerone e Orazio la ripresero entrambi, e sopravvive in italiano e in inglese come il gesto verso una vera causa nascosta. Il latino è limpida narrazione terenziana - senari giambici, grafie arcaiche (lacrumae, eiu’), un’espressiva sospensione (forma...). Lo stesso discorso, poco prima, offre un altro proverbio: obsequium amicos, veritas odium parit (\"l’arrendevolezza procura amici, la verità odio\", v.68).",
-            "version": "1.0.0"
+            "version": "0.9.0"
           },
           {
             "title": "I’m Davus, not Oedipus",
@@ -871,7 +871,7 @@
             "titleIt": "Sono Davo, non Edipo",
             "descriptionIt": "Questo frammento riguarda il primo duello tra il vecchio Simone e il suo schiavo Davo. Sospettando che Davo aiuterà suo figlio a sottrarsi a un matrimonio combinato, Simone lo mette in guardia con allusioni velate; Davo fa il finto tonto, rifiutandosi di decifrarle con la celebre battuta \"Davus sum, non Oedipus\" - \"sono Davo, non Edipo\", non risolvo indovinelli.",
             "analysisIt": "Lo schiavo astuto (servus callidus) e il padrone sospettoso aprono le ostilità. Simone non dice mai apertamente \"non aiutare mio figlio a far saltare le nozze\"; ci gira intorno con pesanti allusioni a cattivi \"maestri\" e \"animi malati\". Davo para fingendo che le allusioni siano troppo oscure per lui: Davus sum, non Oedipus - \"sono Davo, non Edipo\", non risolvo indovinelli, la Sfinge non è cosa per me. È una posa comica perfetta: lo schiavo che è palesemente la mente più acuta sulla scena insiste di essere troppo sempliciotto per seguire. Senari giambici che scivolano in versi più lunghi; il latino è discorsivo, con lo scambio serrato (non? hem. non:) che Terenzio fa meglio di chiunque. Appena oltre il nostro estratto la scena si fa cupa: Simone lascia gli indovinelli e promette a Davo il mulino e le botte fino alla morte se si immischia.",
-            "version": "1.0.0"
+            "version": "0.9.0"
           },
           {
             "title": "The 'fake' birth that is entirely real",
@@ -899,7 +899,7 @@
             "titleIt": "Le liti degli amanti rinnovano l’amore",
             "descriptionIt": "Questo frammento riguarda un proverbio nato dentro un intrigo. Il vecchio Simone, spingendo il matrimonio del figlio con la figlia di Cremete, assicura al riluttante Cremete che gli amanti (Panfilo e Glicerio) hanno litigato di brutto e si lasceranno. Cremete, poco convinto, liquida la cosa con il verso immortale \"amantium irae amoris integratiost\" - le liti degli amanti sono il rinnovarsi dell’amore.",
             "analysisIt": "Sei versi, un proverbio immortale. Simone è in piena macchinazione: cerca di riportare il cauto Cremete al matrimonio sostenendo che gli amanti hanno rotto per sempre. Cremete, più anziano e più esperto di cuore, non ci casca: fabulae! (\"sciocchezze!\"), e poi amantium irae amoris integratiost - \"le liti degli amanti sono il rinnovarsi dell’amore\". Il verso è sopravvissuto del tutto alla sua commedia; è citato, messo in musica, proverbiale in mezza dozzina di lingue. Si noti la compressione che Terenzio ama: integratiost = integratio est, l’est inghiottito nel sostantivo (prodelisione), così che la massima si posa in un solo respiro. Senario giambico; il lessico è semplice, la saggezza no.",
-            "version": "1.0.0"
+            "version": "0.9.0"
           },
           {
             "title": "Father and son, with Chremes to break the deadlock",
@@ -933,7 +933,7 @@
             "titleIt": "La commedia che continuava a essere soffocata",
             "descriptionIt": "Questo paragrafo riguarda un celebre frammento di storia del teatro romano. In questo secondo prologo, recitato dal capocomico Ambivio Turpione per conto di Terenzio, si racconta come l’Hecyra fallì due volte: alla prima messa in scena il pubblico corse via per un incontro di pugilato e un funambolo, e alla seconda una voce di gladiatori svuotò le gradinate - e supplica gli spettatori di concedere finalmente alla commedia un ascolto leale.",
             "analysisIt": "È il più celebre documento \"dietro le quinte\" della commedia romana. L’Hecyra (\"La suocera\") fallì due volte, e al terzo tentativo il capocomico Ambivio Turpione - portavoce di Terenzio - spiega al pubblico esattamente perché: la prima volta alla folla erano stati promessi pugili e un funambolo, e se ne andò; la seconda lo spettacolo procedeva bene finché una voce di gladiatori non svuotò la sala. È uno sguardo prezioso su ciò contro cui doveva lottare un autore romano, in concorrenza con gli sport cruenti per un pubblico che poteva semplicemente andarsene. Il tono è ironico e un po’ ferito - turba (\"ressa\"), tumultuantur, pugnant de loco (\"si azzuffano per un posto\") - e la supplica è dignitosa: ora c’è silentium, concedete dunque alla commedia un ascolto leale. Senari giambici; latino limpido, pubblico, oratorio.",
-            "version": "1.0.0"
+            "version": "0.9.1"
           },
           {
             "title": "A courtesan's cynical rule: spare no lover",
@@ -961,7 +961,7 @@
             "titleIt": "La suocera che nessuno avrebbe dovuto incolpare",
             "descriptionIt": "Questo frammento riguarda il cuore della silenziosa rivoluzione dell’Hecyra. Tutti danno per scontato che la nuora Filumena se ne sia andata a causa di una suocera malvagia; ma Sostrata, la suocera, sa di essere innocente e si offre di ritirarsi in campagna perché la sua presenza non impedisca a Filumena di tornare. Suo figlio Panfilo si rifiuta di lasciarla diventare il capro espiatorio.",
             "analysisIt": "L’Hecyra è costruita per smontare uno stereotipo: la suocera malvagia (socrus) di mille barzellette. Tutta la città dà per scontato che Sostrata abbia cacciato la nuora Filumena - e Sostrata, benché del tutto innocente, non combatte la calunnia; semplicemente si fa da parte, offrendosi di lasciare la città per la campagna perché il matrimonio possa risanarsi. È un discorso straordinariamente generoso e di umile abnegazione, e il figlio Panfilo le risponde allo stesso modo, rifiutando di lasciarle addossare la colpa (\"non la tua discrezione, ma la mia ostinazione\"). Terenzio dà una vita interiore partecipe proprio alla figura che la commedia di solito appiattisce. Il latino è il registro sobrio ed emotivamente preciso per cui Terenzio è amato - si noti pertinacia (\"ostinazione\") contrapposto a modestia (\"ritegno, discrezione\"), i due modi in cui lo stesso gesto si potrebbe leggere.",
-            "version": "1.0.0"
+            "version": "0.9.1"
           },
           {
             "title": "The courtesan with more honour than expected",
@@ -975,7 +975,7 @@
             "titleIt": "La cortigiana più nobile del previsto",
             "descriptionIt": "Questo frammento riguarda il secondo stereotipo che l’Hecyra rovescia: la cortigiana avida (meretrix). Sospettata di aver trattenuto Panfilo lontano dalla moglie, la cortigiana Bacchide giura al vecchio Lachete di aver lasciato Panfilo il giorno stesso in cui si sposò - e poi accetta di giurarlo anche alle donne di casa, cosa che una donna del suo mestiere di norma rifiuterebbe, perché non vuole lasciare che un innocente sia incolpato per una falsa diceria.",
             "analysisIt": "L’altro bersaglio di repertorio della commedia era la meretrix, la cortigiana venale che spenna i giovani. La Bacchide di Terenzio ne è l’opposto. Accusata di aver trattenuto Panfilo lontano dalla moglie, non solo giura di averlo lasciato il giorno stesso delle nozze, ma si offre di ripetere il giuramento alle donne di casa - proprio quell’esposizione umiliante che una donna \"del mestiere\" (ex hoc quaestu) di norma eviterebbe - perché non vuole che un innocente subisca una falsa diceria. Il suo ragionamento è morale, non interessato: meritus de me est, \"ha ben meritato da me\". È uno dei discorsi più sommessamente umani della commedia romana, ed è ciò che dipana l’intera trama. Versi giambici e trocaici; il latino è semplice e sincero, e il lessico legale del credito e dei giuramenti (fidem, iusiurandum, crimine) è piegato a un gesto di dignità. Personaggi: BA. = Bacchide, LA. = Lachete.",
-            "version": "1.0.0"
+            "version": "0.9.1"
           },
           {
             "title": "The courtesan who chose honour over profit",
@@ -1007,7 +1007,7 @@
             "titleIt": "'Sono un uomo: nulla di umano mi è estraneo'",
             "descriptionIt": "Questo paragrafo riguarda l'apertura dell'*Heautontimorumenos* di Terenzio, dove Cremete indaga sul perché il suo ricco e anziano vicino Menedemo si stia punendo con un durissimo lavoro nei campi. Invitato a farsi gli affari suoi, Cremete risponde con il celebre *homo sum, humani nil a me alienum puto*, 'sono un uomo; non considero nulla di umano estraneo a me', e con garbo spinge il vicino a confidargli il suo dolore.",
             "analysisIt": "La scena si apre con Menedemo -- un vicino che Cremete conosce appena -- che svolge un pesante lavoro manuale nei suoi campi, pur essendo un ricco vecchio di sessant'anni. Cremete non riesce a lasciar perdere. La sua giustificazione, quando Menedemo gli chiede perché si immischi: *homo sum: humani nil a me alienum puto.*\n\nIl verso è un senario giambico -- il metro per eccellenza del dialogo terenziano, che imita le naturali cadenze d'accento del latino parlato abbastanza bene da spingere Cicerone a citare Terenzio come prova che la buona prosa e il buon verso giambico condividono gli stessi istinti ritmici. La sintassi è limpida e diretta. Non c'è vocabolario difficile, né iperbato, né ellissi. Persino il compresso *nil* per *nihil* è normale latino colloquiale, non una forma arcaica. Questo è, per gli standard del periodo arcaico, latino eccezionalmente leggibile.\n\nIl contenuto, però, sta svolgendo un lavoro filosofico. *Humani nil a me alienum puto* non è solo l'espressione di una curiosità invadente. È un'affermazione sull'ampiezza dell'attenzione morale: tutto ciò che un essere umano prova è, in virtù di quell'umanità condivisa, anche qualcosa che io sono in grado di comprendere e quindi qualcosa verso cui ho un certo obbligo di interessarmi. Il fondamento stoico -- che tutti gli uomini condividono una comune natura razionale che li rende reciprocamente comprensibili e reciprocamente responsabili -- circolava già nell'ellenismo romano del circolo degli Scipioni. Terenzio lo mette in bocca a un personaggio di commedia per giustificare il fatto che sta assillando un uomo conosciuto la settimana prima.\n\nSi noti che la risposta di Menedemo non è una confutazione. Si limita a dire *mihi sic est usu'* -- \"queste sono le mie abitudini\". Non sta sostenendo che Cremete sbagli a preoccuparsi; sta rivendicando il diritto alla propria riservatezza. La commedia che segue -- la sua storia di aver allontanato il figlio e di punirsi per questo lavorando come uno schiavo -- dà ragione a Cremete che aveva fatto bene a chiedere. Il principio della *humanitas* vince.\n\nLa scena è anche un modello del dialogo terenziano: due voci, ciascuna grammaticalmente completa, che si scambiano il controllo della conversazione in brevi battute. Non è il torrenziale fluire verbale di Plauto. È misurato, quasi socratico. L'effetto è che i personaggi sembrano persone che pensano in tempo reale, anziché attori che recitano materiale preparato in anticipo.",
-            "version": "1.0.0"
+            "version": "0.1.0"
           },
           {
             "title": "'I had a son': the self-tormentor explains himself",
@@ -1049,7 +1049,7 @@
             "titleIt": "Niente che uno schiavo astuto non sappia scovare",
             "descriptionIt": "Questo frammento riguarda lo schiavo astuto Siro all’opera. Il suo primo piano per spillare denaro ai vecchi è appena crollato, e in questo monologo si convince da sé, ad alta voce e di gran fretta, a inventarne uno nuovo di zecca - perché, come dice lui, \"niente è così difficile da non potersi scovare cercando\".",
             "analysisIt": "Il servus callidus che pensa al volo, messo in scena come soliloquio. Il primo piano di Siro è fallito, e Terenzio ci fa assistere alla nascita del successivo in tempo reale: gli inizi scartati (quid si sic? ... non potest), lo scatto improvviso (immo optume! euge!), l’autocompiacimento. Al centro c’è il credo professionale dello schiavo, nil tam difficilest quin quaerendo investigari possiet - \"niente è così difficile da non potersi scovare cercando\" - che suona come saggezza proverbiale ed è in realtà il vanto di un imbroglione a cui non mancano mai i piani. Il lessico è vivido e fisico: il denaro è un bolum, un \"boccone\" strappato e faucibus, \"dalle fauci\", e \"fuggitivo\" (fugitivom) come uno schiavo evaso - lo schiavo truffatore che dipinge il contante come il fuggitivo. Settenari trocaici, rapidi e colloquiali.",
-            "version": "1.0.0"
+            "version": "0.9.2"
           },
           {
             "title": "Wise for everyone but himself",
@@ -1063,7 +1063,7 @@
             "titleIt": "Saggio con tutti tranne che con sé",
             "descriptionIt": "Questo frammento riguarda il grande rovesciamento della commedia. Nel primo atto Cremete aveva mitemente fatto la predica al suo vicino Menedemo, che si tormentava da solo, dicendogli che nulla di umano gli era estraneo; ora Cremete scopre che il suo stesso figlio Clitifone è l’amante della cortigiana Bacchide, ed esplode di rabbia. Menedemo gli ritorce con calma la sua stessa saggezza: non è una vergogna consigliare gli altri, essere saggi in pubblico, e non essere di alcun aiuto a se stessi?",
             "analysisIt": "È la battuta verso cui l’intera commedia è andata costruendosi, e ripaga direttamente la scena dell’\"homo sum\". Nel primo atto Cremete era il saggio vicino che sosteneva che nulla di umano gli fosse estraneo e che si intrometteva nel dolore di Menedemo. Ora Cremete scopre che suo figlio tiene una cortigiana sotto il proprio tetto, e l’uomo dell’universale simpatia umana perde completamente le staffe. Menedemo - il padre un tempo distrutto, ora riconciliato col figlio - gli restituisce la saggezza pari pari: non tibi ego exempli sati’ sum? (\"non ti basto io come esempio?\") e il verso fulminante, foris sapere, tibi non posse te auxiliarier - \"essere saggio fuori, ma incapace di aiutare se stesso\". Qui c’è il tema comico più profondo di Terenzio: la humanitas è facile da predicare e difficile da praticare sulla propria famiglia. Versi giambici e trocaici, spezzati e rapidi (i trattini, i mezzi versi) per reggere la rabbia di Cremete.",
-            "version": "1.0.0"
+            "version": "0.9.2"
           }
         ],
         "id": "heauton-timorumenos",
@@ -1099,7 +1099,7 @@
             "titleIt": "L’arte del sì",
             "descriptionIt": "Questo paragrafo riguarda il parassita Gnatone, che ha appena inventato un’intera filosofia dell’adulazione. Vantandosi tra sé (e udito dallo schiavo Parmenone), spiega la sua \"nuova arte\": cercare gli uomini vanitosi, dar ragione assolutamente a tutto ciò che dicono, lodarlo sia che affermino sia che neghino - perché dire sì a tutto è ormai il mestiere più redditizio di tutti. I suoi imitatori, dice, vengono persino chiamati \"Gnatonici\".",
             "analysisIt": "Il discorso di parassita più celebre della commedia romana, e l’origine di una parola. Gnatone non è lo scroccone servile e bastonato della commedia antica; è un professionista che si è fatto da sé, con una teoria, e la espone con gusto: trovare i vanitosi (gli uomini che vogliono essere primos, \"i primi\", in tutto) e dar ragione letteralmente a tutto - negat quis: nego; ait: aio, \"uno dice no, io dico no; dice sì, io dico sì\". È l’adulazione elevata a sistema, e così efficace che, sostiene, i suoi seguaci si chiamano Gnatonici, come le scuole filosofiche prendono il nome dal fondatore. Terenzio mette alla berlina il cortigiano e il leccapiedi di ogni tempo. L’inciso di Parmenone coglie il punto: quest’arte trasforma gli sciocchi comuni in pazzi. Versi giambici e trocaici; il latino è svelto e citabile, costruito sull’antitesi (laudo / nego, aio / nego).",
-            "version": "1.0.0"
+            "version": "0.9.3"
           },
           {
             "title": "No love without food and wine",
@@ -1113,7 +1113,7 @@
             "titleIt": "Niente amore senza cibo e vino",
             "descriptionIt": "Questo frammento riguarda un giovane brillo e un proverbio. Cremete, mandato a tenere d’occhio le cose a una cena, ha bevuto troppo; uscendo a fatica, trova la serva Pizia all’improvviso più bella di prima, e riassume l’effetto con il celebre verso \"sine Cerere et Libero friget Venus\" - senza Cerere (il cibo) e Libero (il vino), Venere (l’amore) si raffredda.",
             "analysisIt": "Un piccolo gioiello comico e un proverbio sopravvissuto alla sua scena. Il giovane Cremete è stato riempito di vino alla cena di Taide e ne esce felicemente a pezzi - \"né il piede né la mente fanno il loro dovere\" - e pronto a trovare bellissima la servetta Pizia. La sua autodiagnosi è diventata uno dei versi più citati del latino: sine Cerere et Libero friget Venus, \"senza Cerere e Libero, Venere si raffredda\", cioè l’amore ha bisogno di cibo e bevanda per scaldarsi. Gli dèi stanno per ciò che governano (metonimia): Cerere per il pane, Libero (Bacco) per il vino, Venere per il desiderio. È leggero, ubriaco e perfettamente cesellato. Versi giambici e trocaici; il latino è colloquiale e svelto, col barcollare di un uomo brillo incorporato nel senso stesso (neque pes neque mens).",
-            "version": "1.0.0"
+            "version": "0.9.3"
           },
           {
             "title": "The braggart soldier lays siege to a house",
@@ -1141,7 +1141,7 @@
             "titleIt": "Tenersi lo sciocco per spennarlo",
             "descriptionIt": "Questo frammento riguarda il finale più cinico di Terenzio. Anziché cacciare il soldato fanfarone Trasone, il parassita Gnatone convince i due giovani, Fedria e Cherea, a tenerselo - è ricco, stupido e generoso, il bersaglio perfetto. Gnatone si fa ammettere anche lui nella loro cerchia, consegna loro Trasone \"da mangiare e da deridere\", e il soldato ignaro, appena adulato, ringrazia tutti. La commedia finisce su \"plaudite\".",
             "analysisIt": "Il finale più crudele e più astuto di Terenzio. Qui non c’è una vera punizione: il soldato fanfarone Trasone, perdente naturale della commedia, non viene cacciato ma tenuto - perché, come argomenta freddamente Gnatone, uno sciocco ricco, stupido e generoso è troppo utile per sprecarlo. Gnatone si fa strada nella cerchia dei giovani (\"è un pezzo che giro questo masso\" - il parassita come Sisifo), poi consegna Trasone hunc comedendum... et deridendum, \"da divorare e deridere\". Trasone, appena adulato, non sospetta nulla e se la gode. È un finale sorprendentemente moderno e disincantato: ognuno ottiene quel che vuole sfruttando lo sciocco, e nessuno si emenda. Il plaudite (\"applaudite!\") del cantore chiude la commedia sulla nota consueta sopra una morale assai inconsueta. Versi giambici e trocaici; latino svelto e \"transazionale\" (recipimus, propino, impetravi).",
-            "version": "1.0.0"
+            "version": "0.9.3"
           }
         ]
       },
@@ -1189,7 +1189,7 @@
             "titleIt": "Quanti uomini, tante opinioni",
             "descriptionIt": "Questo paragrafo riguarda un consiglio di esperti legali che non aiuta nessuno. Il vecchio Demifone, sperando di annullare un matrimonio che il figlio ha contratto durante la sua assenza, convoca tre consiglieri per un parere - e ne ottiene tre diversi: annullarlo, lasciar correre, rifletterci ancora. Finisce, come dice lui stesso, assai più incerto di quando ha cominciato. Da qui nasce il verso \"quot homines tot sententiae\".",
             "analysisIt": "Un piccolo capolavoro di esasperazione comica, e la patria di un proverbio. Demifone vuole una copertura legale per annullare il matrimonio del figlio, così convoca tre consiglieri - e Terenzio mette in scena l’eterna commissione: Cratino dice annullalo, Egione dice lascialo, Critone dice rifletti ancora, e Demifone resta \"molto più incerto di prima\". La celebre formula cade dalle labbra di Egione: quot homines tot sententiae: suo’ quoique mos, \"quanti uomini, tante opinioni; ognuno ha il suo modo\". Sopravvive non tradotta in italiano e come proverbio ovunque. Il verso è giambico, la dizione asciutta e legale (restitui in integrum, \"ripristinare allo stato originario\", è latino da tribunale), e la comicità è strutturale: tre esperti, tre risposte, aiuto zero.",
-            "version": "1.0.0"
+            "version": "0.9.4"
           },
           {
             "title": "It all comes down to me now",
@@ -1203,7 +1203,7 @@
             "titleIt": "Ora tutto dipende da me",
             "descriptionIt": "Questo frammento riguarda il parassita Formione, la rara commedia il cui eroe-intrigante non è uno schiavo ma uno scroccone imbroglione di cause legali. Saputo che il giovane Antifone, preso dal panico, è fuggito lasciando la sposa esposta a un padre furioso, Formione si rimbocca le maniche: ora tutto dipende da lui solo, i suoi piani sono pronti e - si vanta - ne ha affrontate di ben peggiori, avendo \"pestato a morte una quantità di uomini\", tanto stranieri quanto cittadini.",
             "analysisIt": "Il Formione è insolito: l’intrigante che muove la trama non è uno schiavo astuto ma il personaggio che dà il titolo, un parassita che vive di faccia tosta e di abilità nei tribunali. Questo è il suo vero ingresso in azione, e Terenzio gli dà la spavalderia di un generale prima della battaglia: tibi omnest exedendum: accingere (\"devi mangiartelo tutto: cingiti i fianchi\"), iam instructa sunt mi in corde consilia omnia (\"ho ormai tutti i piani schierati nel cuore\" - i consilia schierati come truppe). L’amico Geta teme che la spavalderia lo porti nel nervom, i ceppi; Formione si limita a vantarsi delle botte a cui è sopravvissuto. È fanfaronata comica, ma Formione poi mantiene davvero - ed è questo che fa del parassita di questa commedia un eroe e non uno zimbello. Versi giambici e trocaici, rapidi e combattivi.",
-            "version": "1.0.0"
+            "version": "0.9.4"
           },
           {
             "title": "One mistress for the son, two wives for the father",
@@ -1217,7 +1217,7 @@
             "titleIt": "Una amante per il figlio, due mogli per il padre",
             "descriptionIt": "Questo frammento riguarda il finale trionfale di Formione. Ha smascherato un segreto: il rispettabile vecchio Cremete tempo fa prese una seconda moglie a Lemno e vi ebbe una figlia. Ora la moglie di Cremete, Nausistrata, scopre la verità e si scaglia contro il marito: il loro figlio ha una sola amante e tu hai due mogli? Si rifiuta di perdonare, rimette il verdetto al figlio, e Formione se ne va vittorioso, facendosi invitare a cena per fare dispetto a Cremete. La commedia finisce su \"plaudite\".",
             "analysisIt": "Il giro d’onore di Formione, e uno dei finali più appaganti della commedia romana. L’imbroglione ha scoperto il segreto a lungo sepolto del rispettabile Cremete - una seconda moglie e una figlia a Lemno - e lo fa esplodere davanti alla formidabile moglie di Cremete, Nausistrata. La sua battuta è il pugnale della commedia: il figlio ha unam amicam, \"una sola amante\", e il padre uxores duas, \"due mogli\" - nil pudere! (\"nessuna vergogna!\"). Non si infuria e perdona alla maniera consueta; con freddezza rimette l’intero verdetto al figlio, il che lascia Formione del tutto al sicuro (pulchre discedo et probe, \"me ne esco proprio bene e a dovere\"). La sua mossa finale è pura sfacciataggine: si fa invitare a cena dalla moglie proprio \"per far dolere gli occhi a tuo marito\". Di solito a vincere la commedia è lo schiavo astuto; qui vince un parassita, e vince completamente. Versi giambici e trocaici, rapidi e trionfanti, fino al plaudite di chiusura del cantore.",
-            "version": "1.0.0"
+            "version": "0.9.4"
           }
         ]
       },
@@ -1251,7 +1251,7 @@
             "titleIt": "Meglio legare a sé un figlio con l'affetto che con la paura",
             "descriptionIt": "Questo passo è il cuore del grande dibattito di Terenzio sull'educazione dei figli. Il mite Micione, che ha adottato il figlio del fratello e lo ha cresciuto con mano larga, difende il proprio metodo contro il fratello severo Demea. L'autorità fondata sulla forza, sostiene, dura solo finché qualcuno sta a guardare; un figlio legato dall'affetto fa la cosa giusta da sé. È una delle formulazioni più limpide della humanitas terenziana.",
             "analysisIt": "La tesi della commedia, pronunciata dal fratello che si rivelerà solo a metà nel giusto. Micione costruisce una netta antitesi: l'imperium che si fonda sulla ui (la forza) contro il legame creato dall'amicitia (l'affetto). La sua psicologia è acuta: il ragazzo tenuto a freno dalla paura si comporta bene solo dum id rescitum iri credit (\"finché crede che sarà scoperto\") e per il resto rursum ad ingenium redit (\"torna alla sua vera natura\"), mentre quello legato dalla gentilezza agisce ex animo, \"di cuore\". La distinzione culminante - hoc pater ac dominus interest, \"questa è la differenza tra un padre e un padrone\" - ridefinisce l'essere genitore come qualcosa di diverso dal possesso, ed è quanto di più vicino a un manifesto della humanitas ci sia nella commedia romana. Il punto debole, che il finale mette alla prova, è se la permissività di Micione funzioni davvero. Il latino è in senari giambici, il lessico astratto e quasi filosofico (imperium, ratio, ingenium), l'argomentazione costruita su coppie bilanciate.",
-            "version": "1.0.0"
+            "version": "0.9.5"
           },
           {
             "title": "If he sins, he sins against me",
@@ -1265,7 +1265,7 @@
             "titleIt": "Se sbaglia, sbaglia contro di me",
             "descriptionIt": "Questo passo mette in scena lo scontro su cui è costruita tutta la commedia. Demea irrompe furioso per l'ultimo scandalo: il suo figlio naturale Eschino (ora adottato da Micione) ha fatto irruzione in una casa, ha picchiato la gente e ha portato via una ragazza. Dove Demea si aspetta indignazione, Micione risponde con una calma esasperante: il ragazzo ormai è suo, dunque ogni danno è a suo carico, e tutto ciò che si è rotto si può semplicemente pagare e riparare.",
             "analysisIt": "I due padri, in dieci versi. Demea è tutto esclamazioni - Pro Iuppiter!, l'appello al flagitium (\"vergogna\") - mentre Micione è tutto contabilità imperturbabile. La sua difesa è un piccolo capolavoro di logica giuridico-commerciale: il ragazzo è meus (\"mio\") per adozione, quindi siquid peccat, mihi peccat (\"se sbaglia, sbaglia contro di me\"), e il resto sono solo spese - de meo (\"a spese mie\"), restituentur, resarcietur (\"sarà rimessa, sarà ricucita\"), ogni danno saldato da un futuro passivo come se leggesse una fattura. L'asindeto scortatur, potat, olet unguenta (\"va a donne, beve, profuma d'unguenti\") condensa in tre verbi tutta l'accusa di Demea, che Micione poi liquida con un gesto. Se questa sia tolleranza illuminata o l'indulgenza di un ricco scapolo è esattamente la domanda che Terenzio si rifiuta di risolvere. Senario giambico, svelto e colloquiale, con rapidi cambi di battuta a metà verso.",
-            "version": "1.0.0"
+            "version": "0.9.5"
           },
           {
             "title": "The drunk slave's cookery-school philosophy",
@@ -1293,7 +1293,7 @@
             "titleIt": "Proviamo per una volta a fare il contrario",
             "descriptionIt": "Questo passo è lo sbalorditivo voltafaccia di Demea verso la fine della commedia. Il padre severo, parsimonioso e arcigno fa i suoi conti: il fratello accomodante è amato da tutti, mentre lui, che si è consumato per mantenere i figli, viene da loro evitato. Decide allora di battere Micione sul suo stesso terreno e di diventare affabile: una conversione che può essere sincera, oppure una vendetta astuta pensata per mostrare quanto costi davvero l'indulgenza.",
             "analysisIt": "Il perno della commedia, e il suo discorso più discusso. L'autoritratto di Demea è uno dei grandi asindeti del latino: ego ille agrestis saeuos tristis parcus truculentus tenax - sei aggettivi, nessun connettivo, un uomo che si accusa da sé in un solo verso senza respiro. La contabilità che segue è amara e bilanciata (illum amant, me fugitant ... a me la miseria, a lui la gioia), l'antitesi tra i due fratelli ribadita frase dopo frase. Poi la svolta: age age nunc porro experiamur contra (\"su, proviamo ora a fare il contrario\"), con quel rivelatore experiamur: la gentilezza la metterà alla prova, non l'abbraccerà. La chiusa ego quoque a meis me amari ... postulo (\"anch'io pretendo di essere amato\") conserva il verbo di un uomo abituato a comandare. Se Demea si sia davvero convertito o stia tendendo una trappola per mostrare a Micione che la facile affabilità si compra a troppo poco prezzo resta volutamente aperto: la cosa più moderna di tutta la commedia. Il metro passa ai settenari trocaici, più lunghi e incalzanti dei senari del dibattito, e dà al monologo uno slancio impetuoso, quasi da sfogo.",
-            "version": "1.0.0"
+            "version": "0.9.5"
           }
         ]
       }
@@ -1316,7 +1316,7 @@
             "titleIt": "Pacuvio: lamentarsi della sorte, ma non piangere",
             "descriptionIt": "Questo frammento riguarda l'Ulisse ferito nella tragedia *Niptra* di Pacuvio, abbattuto da una lancia scagliata dal proprio figlio. I due versi enunciano un severo ideale romano: è giusto dar voce alla protesta contro la sorte crudele, ma non piangerle sopra, perché la protesta misurata è dovere di un uomo, mentre le lacrime appartengono alla natura di una donna.",
             "analysisIt": "Questi due versi chiudono la *Niptra* -- \"Il Lavacro\" o \"La Lavanda dei Piedi\", nome che si riferisce alla scena in cui Ulisse, ferito da una lancia scagliata dal proprio figlio Telegono (che non conosceva l'identità del padre), viene trasportato dai servitori. Il dramma rielaborava una storia tratta dalla perduta tradizione epica greca. Cicerone cita il passo nelle *Tusculanae Disputationes* II per illustrare la corretta risposta filosofica al dolore: non il silenzio stoico, non il pianto teatrale, ma l'articolazione controllata del lamento senza cedere allo sconforto.\n\nI versi sono in senari giambici. La sintassi è limpida -- una costruzione parallela (*conqueri... non lamentari*) risolta da due affermazioni definitorie. Il linguaggio è inequivocabile, quasi aforistico. È proprio per questo che Cicerone li trovò citabili: enunciano una posizione morale romana in versi drammatici romani con assoluta economia.\n\nL'impostazione legata al genere -- il pianto come femminile, il lamento controllato come maschile -- è del tutto convenzionale per l'epoca e per la tragedia romana in generale. Ciò che è pacuviano è la precisione: *conqueri* (lamentarsi, dar voce a una doglianza) è esplicitamente consentito; *lamentari* (piangere, abbandonarsi al dolore) no. La distinzione è abbastanza sottile da risultare filosoficamente interessante, anziché semplicemente machista.",
-            "version": "1.0.0"
+            "version": "0.1.0"
           }
         ],
         "id": "pacuvius-niptra",
@@ -1338,7 +1338,7 @@
             "titleIt": "I lettori di uccelli: sentirli sì, dargli retta no",
             "descriptionIt": "Questo frammento mette in bocca a una tragedia un pensiero sorprendentemente razionalista. Nel Chryses di Pacuvio un personaggio che Cicerone chiama 'physicus' (un filosofo della natura) si fa beffe degli indovini di professione che pretendono di leggere il futuro nel canto degli uccelli e nelle viscere degli animali sacrificati. Costoro, dice, meritano un cortese ascolto, ma non obbedienza.",
             "analysisIt": "Il Chryses di Pacuvio introduce sulla scena tragica un pensiero quasi illuminista. La stoccata gioca su un bisticcio intraducibile: audiendum quam auscultandum - questi indovini si possono audire (dare loro udienza) ma non si devono auscultare (ascoltare-e-obbedire). L'italiano \"udirli, non dargli retta\" ci si avvicina. La frecciata contro chi \"è più saggio dal fegato altrui che dal proprio\" (ex alieno iecore sapiunt quam ex suo) colpisce gli aruspici che leggono le viscere sacrificali. Cicerone lo cita nel De Divinatione, il suo dialogo sull'esistenza della divinazione, e tratta questo \"physicus\" pacuviano come uno scettico a lui congeniale. Senari giambici, limpidi e argomentativi.",
-            "version": "1.0.0"
+            "version": "0.9.9"
           },
           {
             "title": "Whatever this is, it is the father of all things",
@@ -1352,7 +1352,7 @@
             "titleIt": "Qualunque cosa sia, è il padre di tutte le cose",
             "descriptionIt": "Pochi versi più avanti, nello stesso dramma, il medesimo personaggio espone una grandiosa visione dell'universo come un'unica potenza divina: qualunque cosa sia, fa e disfa ogni cosa ed è il padre di tutto, e da essa le stesse cose rinascono per sempre e muoiono. È filosofia naturale di sapore stoico, drammatizzata per la scena romana.",
             "analysisIt": "Dallo stesso Chryses, pochi versi dopo, lo scettico che derideva gli indovini offre il risvolto positivo del suo disprezzo: un'ampia raffigurazione del cosmo come un solo principio divino. Qualunque cosa sia \"questo\" (Quidquid est hoc - si rifiuta perfino di nominarlo), fa tutto, in un incalzante asindeto di verbi di creazione (animat, format, alit, auget creat) a cui risponde la distruzione (sepelit recipitque), e l'intero ciclo torna alla sua origine (indidem... eodem). È in sostanza panteismo stoico - l'universo come dio, omnium pater - portato sulla scena tragica. L'antichità chiamava Pacuvio il doctus poeta, il \"poeta dotto\"; ecco perché: perché fece confluire la filosofia naturale greca nella tragedia latina. Denso e astratto, nel lungo verso trocaico/giambico.",
-            "version": "1.0.0"
+            "version": "0.9.9"
           }
         ]
       },
@@ -1370,7 +1370,7 @@
             "titleIt": "Accio: 'Mi odino pure, purché mi temano'",
             "descriptionIt": "Questo frammento riguarda la tirannia in tre parole. Pronunciato da Atreo, che uccise i figli del fratello e glieli servì a banchetto, *oderint, dum metuant* ('mi odino pure, purché mi temano') divenne il motto proverbiale del tiranno. Cicerone lo cita come segno del potere illegittimo, e l'imperatore Caligola ne fece in seguito il suo detto preferito.",
             "analysisIt": "Tre parole. Una delle frasi di tre parole più gravide di conseguenze della letteratura latina.\n\nCicerone la cita nel *De Officiis* I.97 mentre discute del decoro teatrale: sarebbe scandaloso, dice, sentire un sovrano giusto come Eaco o Minosse pronunciarla. Ma detta da Atreo -- l'assassino dei figli del fratello, che li cucinò e li servì a banchetto -- è perfettamente azzeccata. Il verso si adatta al personaggio, che è ciò che Accio voleva. La tragedia non è tenuta a mettere buoni pensieri in bocca a persone malvagie.\n\nIl verso divenne celebre molto prima di Caligola. Circolava come definizione del governo tirannico per tutta la tarda Repubblica. Cicerone lo tratta come palesemente sbagliato: un sovrano che governa attraverso la paura anziché l'amore ha già fallito come figura politica e come essere umano. L'argomento stoico è che *metuant* produce obbedienza, non lealtà, e che l'obbedienza fondata sulla paura crolla nel momento in cui la fonte della paura viene meno. *Oderint, dum metuant* non è una filosofia di governo; è la confessione di non avere alcuna legittimità.\n\nPoi, circa due secoli dopo che Accio l'aveva scritto, Caligola ne fece il suo detto preferito. Svetonio lo riferisce nel *Caligula* 30. Lo scherzo che la storia non smise di giocare -- che la più esplicita formulazione teatrale di come suoni un tiranno sarebbe stata adottata con entusiasmo da un vero imperatore romano -- probabilmente non avrebbe sorpreso Accio. In fondo, lui si era rifiutato di alzarsi in piedi davanti a un magistrato. Capiva benissimo che genere di uomini finisse nelle posizioni di potere.",
-            "version": "1.0.0"
+            "version": "0.1.0"
           }
         ],
         "id": "accius-atreus",
@@ -1392,7 +1392,7 @@
             "titleIt": "Il sogno di Tarquinio",
             "descriptionIt": "Accio scrisse anche praetextae, tragedie di argomento storico romano. Nel suo Brutus - sulla cacciata dell'ultimo re e sulla nascita della Repubblica - il tiranno Tarquinio il Superbo racconta un incubo: un pastore gli spinge davanti uno splendido gregge, lui immola il più bello di due arieti, l'altro ariete lo carica e lo stende a terra, e mentre giace ferito vede il sole invertire il proprio corso nel cielo.",
             "analysisIt": "Il sogno dell'ultimo re di Roma, messo in scena da Accio in una rara praetexta (tragedia di storia romana) e conservato da Cicerone. Tarquinio il Superbo sogna il gregge di un pastore, due arieti, un sacrificio andato storto e - culmine - il sole che devia su un corso nuovo (dextrorsum orbem flammeum radiatum solis liquier cursu novo). Il verso è solenne e volutamente arcaico: visust (= visus est), gli antichi infiniti passivi conitier e liquier (per coniti, liqui), arietare scandito con la i consonantica. I due arieti sono i due nipoti del re; l'ariete più ottuso che lo abbatte è Lucio Giunio Bruto, che finse la stupidità (di qui il nome Brutus, \"ottuso\") prima di guidare la rivoluzione. È l'incubo di un tiranno sulla propria caduta - e il pubblico sapeva benissimo come finiva la storia. Senari giambici.",
-            "version": "1.0.0"
+            "version": "0.9.9"
           },
           {
             "title": "The soothsayer reads the dream",
@@ -1406,7 +1406,7 @@
             "titleIt": "L'indovino interpreta il sogno",
             "descriptionIt": "La risposta al sogno del re. Un indovino prima rassicura Tarquinio che i sogni di solito non fanno che riproporre i pensieri della veglia, poi affonda il colpo: bada all'uomo che credi un bruto, perché nasconde una grande saggezza e ti caccerà dal trono; e lo strano corso nuovo del sole predice un mutamento imminente per il popolo - che, letto nel modo più favorevole, significa che lo Stato romano salirà al sommo.",
             "analysisIt": "La risposta dell'interprete, e un pezzo di teatro patriottico. Prima calma il re con il buon senso (i sogni di solito non fanno che riproporre i pensieri della veglia) - poi cala la lama: bada all'uomo che prendi per un bruto (hebetem... aeque ac pecus), perché è saggio e ti caccerà dal regno. Quell'uomo è Bruto. L'inversione del sole presagisce commutationem rerum - il cambio di regime - e la profezia si gonfia fino al vero messaggio del dramma: rem Romanam publicam summam fore, \"lo Stato romano sarà sommo.\" Accio, che scrive sotto quella Repubblica, ne porta in scena il mito di fondazione e fa sì che un veggente la benedica. Si noti l'arcaico ottativo verruncent (\"riescano bene\") e il linguaggio augurale della sinistra e della destra (il segno favorevole che si muove verso destra). Giambo e trocheo, che si innalzano a profezia nazionale.",
-            "version": "1.0.0"
+            "version": "0.9.9"
           }
         ]
       }
@@ -1527,7 +1527,7 @@
             "titleIt": "Cos'è davvero la virtù, e a chi si deve lealtà",
             "descriptionIt": "Questo paragrafo riguarda il significato della virtù: è il brano più filosofico che ci sia rimasto della satira di Lucilio, rivolto a un amico di nome Albino. Battendo e ribattendo sulla parola *virtus*, definisce il vero valore come saper distinguere il bene dal male, vivere onestamente e mettersi al servizio della comunità, e stila una graduatoria dei nostri doveri: prima la patria, poi i genitori, e noi stessi soltanto per ultimi.",
             "analysisIt": "Questo è il frammento sulla *virtus*, il passo filosoficamente più consistente sopravvissuto dei trenta libri di Lucilio, e uno dei testi più discussi di tutto il latino arcaico. Lo conserva Lattanzio nelle sue *Divinae Institutiones* (VI.5), che lo cita come modello di definizione pagana della virtù prima di sostenere che non regge il confronto con quella cristiana. Se Lattanzio l'ha tramandato è il solo motivo per cui lo possediamo. Né The Latin Library né Splash Latino dispongono di una pagina dedicata a Lucilio; il testo qui riportato segue l'edizione scientifica di riferimento di Krenkel (1970), che ricostruisce i frammenti a partire dalle loro fonti antiche.\n\nIl frammento si apre con un'allocuzione diretta ad \"Albine\", quasi certamente un amico o collaboratore di Lucilio, forse un membro del circolo degli Scipioni. La cornice colloquiale è caratteristica: la satira come filosofia da tavola tra pari, non come orazione pubblica. Siamo nel mezzo di un ragionamento, non davanti a un leggio.\n\nLa figura retorica dominante è l'anafora: *virtus* ripetuto sei volte, ogni volta ad aprire una nuova frase in quella che diventa una definizione a catalogo. La struttura è grosso modo tripartita: la *virtus* come conoscenza pratica (vv. 1-5), la *virtus* come condotta pratica (vv. 6-8) e la *virtus* come dovere sociale e civile (vv. 9-13).\n\nLa sintassi dei versi iniziali è già un indice della difficoltà. Il v. 2 -- *quis in versamur, quis vivimus rebus, potesse* -- è uno dei più compressi del frammento: *quis* qui è il locativo/dativo plurale del pronome relativo (equivalente a *in quibus*), e *potesse* è l'infinito arcaico di *posse*. La frase significa \"poter [pagare il giusto prezzo] nelle cose in cui ci muoviamo, nelle cose per cui viviamo\" -- ma arrivare a questa lettura richiede di riconoscere la forma arcaica dell'infinito, di sciogliere l'ellissi trascinata dal v. 1 e di intendere *versamur* nel suo senso idiomatico di \"essere impegnati in, muoversi in un ambito\". Nessuno di questi scogli è fatale da solo; tutti insieme, in due versi, senza contesto attorno, danno la misura di ciò che il resto dei frammenti ti riserverà.\n\n*Patriai* al v. 12 è il genitivo arcaico di *patria* (-ai per -ae), ereditato dai più antichi schemi della declinazione latina e condiviso con Lucrezio. È un deliberato marcatore di registro: antiquato, solenne, romano nel senso più profondo della parola.\n\nGli ultimi tre versi consegnano il climax. Dopo il lungo catalogo di virtù intellettuali e sociali, Lucilio chiude con una scala di priorità: prima la patria (*patriai prima*), poi i genitori (*parentum*), i nostri interessi per ultimi (*postremaque nostra*). La compressione del verso finale -- *tertia iam postremaque nostra* -- cade con una forza fuori dal comune. *Iam* è qui idiomatico (\"e in effetti\", \"sì, e\"), e *postremaque* (ultimo di tutti) raddoppia il peso di *tertia* (terzo). Lucilio non sta inventando una nuova etica; sta articolando, con notevole precisione, la gerarchia romana ereditata degli obblighi -- e mettendo del tutto in chiaro dove si collochi l'individuo rispetto a essa.",
-            "version": "1.0.0"
+            "version": "0.1.0"
           }
         ],
         "id": "saturae",
@@ -1552,7 +1552,7 @@
             "titleIt": "Pomponio: un equivoco nella bottega dei follatori",
             "descriptionIt": "Questo frammento riguarda una scena dell'atellana *Fullones* di Pomponio, ambientata tra i follatori di stoffe. Un suggeritore invita due personaggi ad abbracciarsi e a salutarsi, ma uno saluta l'altro come 'fratello' e si sente rispondere 'sorella', con un'allusione a un travestimento, prima che la scena scatti in rapidi ordini da bottega: ravvivare il fuoco, alimentare la legna e macinare il farro.",
             "analysisIt": "La commedia è la *Fullones* -- i Follatori di stoffe. Un *fullo* era un operaio della lavanderia che puliva e rifiniva i tessuti di lana pestandoli in grandi vasche piene d'acqua, argilla e urina stantia (il cui contenuto di ammoniaca era essenziale al procedimento). Le botteghe di follatura erano un elemento fisso della vita cittadina romana; i follatori di Pompei erano abbastanza famosi da dipingere slogan elettorali sui muri. Sceglierli come soggetto di un'atellana è caratteristico: è commedia che nasce dal mondo del lavoro manuale, fisico e puzzolente, esattamente l'ambiente in cui Macco e Bucco si sentirebbero più a loro agio.\n\nIl frammento si è conservato perché Nonio Marcello aveva bisogno di citare la forma imperativa *conplectite* -- seconda persona plurale del presente di *complecti* (abbracciare). Si è salvato non come monumento letterario, ma come esempio grammaticale.\n\nVerso 1: *Quin ergo, quando conuenit, conplectite?* La particella *quin* con un imperativo diretto è un costrutto colloquiale e incalzante -- \"su, allora\", \"perché non vai avanti e\". *Quando conuenit* significa \"quando è il momento opportuno\" -- qualcuno sta spronando due personaggi a salutarsi, come se osservasse la scena dall'esterno.\n\nVerso 2: il saluto è la battuta. Un personaggio dice *mi frater, salueto* (\"fratello mio, salve\"), usando la forma arcaica del saluto *salueto* (più antiquata del semplice *salue*). L'altro risponde *o soror, salue, mea* (\"oh sorella mia, salve\"). Uno dice \"fratello\"; l'altro dice \"sorella\". Questa asimmetria è il nocciolo comico. Nell'atellana, la confusione di genere rimanda quasi certamente a uno scenario di travestimento -- *Maccus Virgo* è un'intera commedia -- o a quel tipo di assurdità voluta che il genere tratta come un pregio, non come un difetto.\n\nVerso 3: la comicità riatterra nella bottega: *facite ut ignis feruat* (badate che il fuoco bolla), *ligna insipite* (alimentate la legna), *far concidite* (tritate il farro). Tre imperativi in rapida sequenza, senza alcuna cornice esplicativa. Il farro sorprende per una bottega di follatura -- è cibo, non parte del procedimento -- e fa pensare che la scena si svolga in parte in una cucina, oppure che Pomponio si stia semplicemente godendo l'incongruenza. Il verso finisce e la scena prosegue da qualche parte che non possiamo seguire.",
-            "version": "1.0.0"
+            "version": "0.1.0"
           }
         ],
         "id": "pomponius-fullones",
@@ -1574,7 +1574,7 @@
             "titleIt": "Il patto di un soldato con Marte",
             "descriptionIt": "Questo frammento dell'atellana di Pomponio I Galli Transalpini è il voto di un soldato spaventato in campagna: promette a Marte un sacrificio se mai riuscirà a tornare a casa. Il grammatico Macrobio lo conservò per la curiosa espressione 'un verro di due denti'.",
             "analysisIt": "La preghiera di un vigliacco, e un tesoro per i grammatici. Nell'atellana di Pomponio Galli Transalpini (\"I Galli Transalpini\"), un soldato in campagna promette a Marte un sacrificio \"se mai tornerò\" (si unquam rediero) - quell'unquam (\"mai\") tradisce in sordina quanto poco stimi le proprie probabilità. L'espressione che interessava a Macrobio è bidente verre, \"un verro di due denti\": bidens (\"di due denti\") era il termine rituale solenne per una vittima sacrificale a regola d'arte, e appiccicarlo a un verres (un maiale) fa parte della falsa solennità della farsa - una recluta spaventata che pasticcia il linguaggio della religione. Macrobio (Saturnalia VI.9) cita il verso proprio per discutere la parola. Poiché nessun sito ufficiale riporta Pomponio, il latino qui segue l'edizione di Macrobio di LacusCurtius.",
-            "version": "1.0.0"
+            "version": "0.9.9"
           }
         ]
       },
@@ -1594,7 +1594,7 @@
             "titleIt": "Ammorbidisci la voce per sembrare una donna",
             "descriptionIt": "Un verso isolato dall'atellana di Pomponio Le Calende di Marzo - la data dei Matronalia, la festa delle donne romane. Qualcuno viene istruito a camuffare la voce: abbassarla, ammorbidirla, così che le parole passino per quelle di una donna. È la comicità del travestimento e della voce contraffatta che l'atellana amava.",
             "analysisIt": "Una battuta di istruzioni, e uno spiraglio su come funzionava l'atellana. Il titolo del dramma, Kalendae Martiae, è la data dei Matronalia, la festa delle mogli e delle madri romane - quindi un uomo a cui si insegna a contraffare la voce di donna (vocem deducas... ut mulieris videantur) rimanda dritto alle trame di travestimento che il genere adorava (Pomponio scrisse perfino un Maccus Virgo, \"Macco fanciulla\"). Macrobio (Saturnalia VI.4) cita il verso non per la battuta ma per il modo di dire: vocem deducere, \"tirar giù\" la voce fino a renderla sottile e morbida, che fa risalire da Pomponio attraverso Afranio e Cornificio fino al deductum... carmen (\"canto sottilmente filato\") di Virgilio. Uno spezzone di farsa, conservato perché insegnò a un grande poeta una movenza di stile. Verso giambico; non essendo disponibile una pagina di The Latin Library, il testo segue il Macrobio di LacusCurtius.",
-            "version": "1.0.0"
+            "version": "0.9.10"
           }
         ]
       },
@@ -1612,7 +1612,7 @@
             "titleIt": "Novio: Maccus lo sciocco e la porta spaccateste",
             "descriptionIt": "Questo frammento riguarda il clown di repertorio Macco mandato in esilio nell'atellana *Maccus Exul* di Novio. Chi parla si vanta di aver previsto che quel tale sarebbe schizzato via di gran carriera verso la Toscana, poi attacca una litania di lamenti su una porta il cui architrave continua a spaccargli il cranio e la cui soglia continua a fracassargli le dita dei piedi: gli infortuni a ripetizione sono tutta la battuta.",
             "analysisIt": "La commedia è la *Maccus Exul* -- Macco l'Esule. Il titolo suggerisce uno scenario in cui Macco è stato cacciato da qualche luogo, presumibilmente a seguito di quel genere di disastro su vasta scala che definisce il suo personaggio. L'esilio -- da casa, dalla città o dalla famiglia -- era un tipico punto di partenza comico, che collocava lo sciocco in una situazione sconosciuta e senza rete di protezione.\n\nVerso 48: *Em: díxin itúrum hominem in Túscos tolútim?* Il frammento si apre con la particella dimostrativa *em* -- \"eccolo!\" o \"guarda!\" -- che è proprio ciò che Nonio Marcello voleva illustrare citandolo. *Dixin* è una forma sincopata di *dixine* (= *dixistine*, \"non l'avevo detto...?\"), una contrazione colloquiale attestata anche altrove in Plauto. *Tolutim* significa muoversi al trotto o al galoppo, preso in prestito dal vocabolario delle andature equine e usato qui per descrivere una partenza rapida e poco dignitosa. La Toscana -- l'Etruria -- portava con sé, nell'immaginario comico romano, l'idea di una provincialità straniera. Se sia divertente di per sé la destinazione, oppure se la battuta stia nella velocità della partenza, dipende da un contesto che non possediamo più.\n\nVersi 49-50: la scena passa a un monologo di lamentela fisica. *Limen superum* è la soglia superiore -- l'architrave sopra una porta, all'altezza della testa per un uomo alto e poco sopra per chiunque si muova di corsa. *Limen inferum* è la pietra rialzata alla base dello stipite, dove i piedi inciampano. Il rapporto di Macco con questa porta è riassunto da una sola parola: *saepe* -- spesso. Ha spesso battuto la testa contro la soglia superiore. Si è rotto tutte le dita dei piedi su quella inferiore. Non è un incidente isolato; è uno schema ricorrente. La comicità sta proprio nel *saepe*: Macco è un uomo che, dopo molteplici incontri con la stessa porta, non ha ancora imparato ad abbassarsi o a fare attenzione. La maschera esagerata dello sciocco, con i suoi tratti marcati, avrebbe reso l'immagine immediatamente evidente a qualunque spettatore conoscesse il personaggio.\n\nIl frammento si è conservato non per l'immagine o per la battuta, ma perché Nonio aveva bisogno di una citazione per *em*. La cronica battaglia di Macco con il proprio stipite è sopravvissuta duemila anni come nota a piè di pagina di una particella. È la versione che l'atellana ha dell'immortalità letteraria.",
-            "version": "1.0.0"
+            "version": "0.1.0"
           }
         ],
         "id": "novius-maccus-exul",
@@ -1634,7 +1634,7 @@
             "titleIt": "Ci mancherebbe che mi metta a cantare",
             "descriptionIt": "Uno scambio di una sola battuta di Novio, citato da Cicerone come modello di umorismo nero: qualcuno rivolge a un condannato la domanda più ovvia, e ne riceve una risposta amaramente sarcastica.",
             "analysisIt": "Umorismo nero, alla lettera. Cicerone cita questo scambio di Novio (De Oratore II.279) come modello della battuta \"stizzosa\" (stomachosa ridicula): qualcuno chiede l'ovvio - \"Perché piangi, padre?\" - e il condannato ribatte secco Mirum ni cantem, \"sarebbe un prodigio se invece mi mettessi a cantare\" - che ti aspettavi, una canzone? L'arguzia sta nell'understatement sarcastico, condemnatus sum (\"sono stato condannato\") buttato lì come se fosse una seccatura da poco. Cicerone dice che Novio è plenus, \"pieno,\" di battute così. È l'atellana - la rozza commedia improvvisata dell'Italia contadina - citata dal più grande oratore di Roma come lezione di tempismo comico.",
-            "version": "1.0.0"
+            "version": "0.9.9"
           },
           {
             "title": "Even the wise man shivers",
@@ -1648,7 +1648,7 @@
             "titleIt": "Anche il saggio trema dal freddo",
             "descriptionIt": "Cicerone la definisce la battuta abituale di Novio: quattro parole che bucano la grande pretesa stoica secondo cui il saggio è insensibile al mondo: fagli venire freddo, e tremerà come chiunque altro.",
             "analysisIt": "Quattro parole che sgonfiano un'intera filosofia. Cicerone la chiama lo iocus familiaris di Novio - la sua battuta abituale - e la elenca fra le facezie che funzionano \"contro ogni aspettativa\" (De Oratore II.285). Parodia l'altezzoso paradosso stoico secondo cui il sapiens, il saggio, è immune dalle cose esterne: Novio ribatte che il saggio, come tutti, tremerà (tremes) nell'istante in cui avrà freddo (algebis). Al freddo non importa quanto tu sia saggio. È l'atellana al suo meglio - che riporta la filosofia giù, al corpo che trema, nel latino più semplice possibile. Un intero periodo ipotetico del futuro (si algebis... tremes) ridotto all'osso.",
-            "version": "1.0.0"
+            "version": "0.9.9"
           }
         ]
       }

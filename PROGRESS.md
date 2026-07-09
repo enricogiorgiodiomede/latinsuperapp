@@ -67,7 +67,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=63`.**
+   whenever you change a JS/CSS file. **Currently `v=64`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -172,18 +172,30 @@ analysisIt, proper accents), short tailored analysis, title, citation; spread ac
 commit + push; update `CHANGELOG.md`, `practice_fragments_reference.md`, and this file (table +
 cache `v=`).
 
-### >>> LIVE at v1.2.0, cache ?v=63 -- IN PROGRESS: FLESH OUT CAESAR'S AGE (Archaic done; NOT Augustan) <<<
+### >>> LIVE at v1.2.1, cache ?v=64 -- IN PROGRESS: FLESH OUT CAESAR'S AGE (Archaic done; NOT Augustan) <<<
 
-**Version tracker (v1.2.0 addition, cache v63):** every fragment in `js/fragments.js` now has a `version`
-field (app version it was first added in). `practice.js` computes the newest version site-wide (max) and
+**Version tracker (v1.2.0 addition; tags corrected in v1.2.1, cache v64):** every fragment in
+`js/fragments.js` has a `version` field (app version it was first added in). `practice.js` computes the
+newest version site-wide (max over fragment `version` fields, floor 1.0.0 - NOT the release number) and
 shows a top-right badge per excerpt: **papyrus scroll** "Added in v.X" (deep-red text) for older ones,
 **red "NEW!" VIP banner** (golden text) for the newest version's fragments. Self-maintaining: the VIP
 moves to the next batch automatically when newer excerpts get a higher version. Badge markup in
-`practice.js` (`makeVersionBadge`), styles in `css/styles.css` (`.excerpt-version-badge.is-papyrus` /
-`.is-vip`, both CSS-drawn, no images), i18n `badge.addedIn`/`badge.new`. Current VIP set = the 7 new
-Nepos (v1.2.0). **When adding a new excerpt batch: tag the new fragments with the new version** (the tag
-script mapped existing ones: launch=1.0.0, Varro-new=1.1.0, Caecilius=1.1.1, Terence=1.1.2, Lucilius=1.1.3/
-1.1.4, Cato=1.1.5, Nepos=1.2.0).
+`practice.js` (`makeVersionBadge` + `LATEST_VERSION`), styles in `css/styles.css`
+(`.excerpt-version-badge.is-papyrus` / `.is-vip`, both CSS-drawn, no images), i18n `badge.addedIn`/
+`badge.new`. Current VIP set = the 7 Nepos excerpts (v1.2.0, the max). **When adding a new excerpt batch:
+tag the new fragments with the new version** (the version-tracker floor is `1.0.0`, so anything you leave
+untagged shows as 1.0.0 - always set it).
+**v1.2.1 correction:** the v1.2.0 back-fill script had wrongly tagged ALL pre-1.0.0 fragments as `1.0.0`.
+Every Archaic fragment is now tagged with its real historical version, traced through the CHANGELOG:
+launch originals=**0.1.0** (the 14 first fragments), Naevius Trojan wives=0.4.1, Plautus
+Mostellaria+Amphitruo=0.6.0 / Aulularia=0.6.2 / Miles=0.8.0 / +2 Pseudolus=0.8.1 /
+Menaechmi=0.9.11-0.9.13 / Bacchides=0.9.15, Terence originals=0.9.0-0.9.5, Caecilius +4=0.9.6, Cato
++4=0.9.7, split big-three poets=0.9.8, rest of fragmentists=0.9.9-0.9.10; Caesar's-Age (1.0.0+),
+Varro-new=1.1.0, Caecilius-new=1.1.1, Terence-new=1.1.2, Lucilius=1.1.3/1.1.4, Cato-new=1.1.5,
+Nepos-new=1.2.0 were already correct. Re-tag done by a scratch Node script (walk AUTHORS, set `version`,
+re-emit via `head + JSON.stringify(AUTHORS,null,2) + ';' + tail` - the file round-trips byte-identical, so
+the diff is only the changed version lines). Also v1.2.1: **VIP banner restyle** (brighter flat red
+`#f01818->#e60f0f`, stripes removed, `top: -1px` so the gold roller straddles the card's top edge).
 
 **Plan set 2026-07-06.** The user does NOT want to start the Augustan Era yet (that draft isn't written).
 Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caecilius is DONE (v1.1.1).**
@@ -197,11 +209,12 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
   **Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
 **=== SESSION HANDOFF (end of 2026-07-09) ===**
-Current: **v1.2.0, cache ?v=63**, pushed (`80df615`). Archaic bank complete except **Plautus** (still 7
+Current: **v1.2.1, cache ?v=64**, pushed. Archaic bank complete except **Plautus** (still 7
 comedies at 3-4 frags; the plan is +3 comedies -> 10, all at 5 each). Caesar's-Age flesh-out STARTED:
-**Nepos done (1->8)**. **NEXT options (user picks):** (a) rest of Caesar's Age - Cicero, Caesar, Hirtius,
-Lucretius, Sallust, Catullus; (b) the big Plautus job. Always confirm which author + how many fragments
-before a batch. Per-batch workflow: source verbatim (well-preserved -> self-proofread, no user proofread;
+**Nepos done (1->8)**. v1.2.1 was a no-content maintenance release (corrected every Archaic fragment's
+version tag to its real historical version; restyled the VIP banner). **NEXT options (user picks):** (a)
+rest of Caesar's Age - Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus; (b) the big Plautus job.
+Always confirm which author + how many fragments before a batch. Per-batch workflow: source verbatim (well-preserved -> self-proofread, no user proofread;
 fragment-only -> flag + ask user); **tag new fragments with the new app version** (version-tracker);
 bilingual IT+EN + analysis + IT metadata; bump cache; verify in browser; commit+push; update CHANGELOG +
 in-app What's New + this file + practice_fragments_reference.md + memory.
