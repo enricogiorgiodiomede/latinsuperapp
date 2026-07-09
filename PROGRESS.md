@@ -192,8 +192,20 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
 - **DONE / no more** (enough already): Livius Andronicus, Naevius, Ennius, **Caecilius** (done v1.1.1),
   Pacuvius/Accius, Pomponius/Novius, Hortensius/Figulus.
 - **Small** (a few more, for now): ~~**Terence**~~ **DONE v1.1.2 (5/comedy)**, ~~**Lucilius**~~ **DONE v1.1.3 (now 7)**.
-- **Large** (main expansion): **Plautus**, **Cato**, **Varro** (more later, not now - already has 11), and
-  the rest of Caesar's Age (Nepos, Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus).
+- **Large** (main expansion): **Plautus** (still to do), ~~Cato~~ **DONE v1.1.5**, **Varro** (more later,
+  not now - already has 11), and the rest of Caesar's Age: ~~Nepos~~ **DONE v1.2.0**; still to do =
+  **Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus**.
+
+**=== SESSION HANDOFF (end of 2026-07-09) ===**
+Current: **v1.2.0, cache ?v=63**, pushed (`80df615`). Archaic bank complete except **Plautus** (still 7
+comedies at 3-4 frags; the plan is +3 comedies -> 10, all at 5 each). Caesar's-Age flesh-out STARTED:
+**Nepos done (1->8)**. **NEXT options (user picks):** (a) rest of Caesar's Age - Cicero, Caesar, Hirtius,
+Lucretius, Sallust, Catullus; (b) the big Plautus job. Always confirm which author + how many fragments
+before a batch. Per-batch workflow: source verbatim (well-preserved -> self-proofread, no user proofread;
+fragment-only -> flag + ask user); **tag new fragments with the new app version** (version-tracker);
+bilingual IT+EN + analysis + IT metadata; bump cache; verify in browser; commit+push; update CHANGELOG +
+in-app What's New + this file + practice_fragments_reference.md + memory.
+**=== end handoff ===**
 
 Remaining work items:
 
