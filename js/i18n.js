@@ -28,10 +28,12 @@
       'subtitle.author': 'Author profile',
       'subtitle.practice': 'Translation practice',
       'subtitle.select': 'Choose what to practise',
+      'subtitle.version': 'Update history',
       'footer.index': 'An interactive companion to the Latin Authors writing project.',
       'footer.author': 'An interactive companion to the Latin Authors writing project.',
       'footer.practice': 'Attempt the Latin yourself, then reveal the translations to self-check.',
       'footer.select': 'Pick a work, then practise translating its fragments.',
+      'footer.version': 'Every excerpt added in this update. Click one to practise it.',
       'aria.eras': 'Eras',
       'aria.breadcrumb': 'Breadcrumb',
 
@@ -41,9 +43,11 @@
       'title.practice': 'Practice - ' + SITE_EN,
       'title.select': 'Choose a text - ' + SITE_EN,
       // templated titles
+      'title.version': 'Update - ' + SITE_EN,
       'title.authorNamed': function (p) { return p.name + ' - ' + SITE_EN; },
       'title.practiceNamed': function (p) { return 'Practice: ' + p.name + ' - ' + SITE_EN; },
       'title.selectNamed': function (p) { return 'Choose - ' + p.name + ' - ' + SITE_EN; },
+      'title.versionNamed': function (p) { return 'Added in v' + p.version + ' - ' + SITE_EN; },
 
       // --- loading placeholders ---
       'loading.author': 'Loading author...',
@@ -133,6 +137,7 @@
       'practice.latinFrom': function (p) { return 'Latin text from ' + p.source; },
       'badge.addedIn': function (p) { return 'Added in v.' + p.version; },
       'badge.new': 'NEW!',
+      'badge.linkLabel': function (p) { return 'See all excerpts added in v.' + p.version; },
       'link.backTo': function (p) { return '← Back to ' + p.name; },
 
       // --- select page ---
@@ -141,10 +146,19 @@
       'select.heading': function (p) { return 'Choose a comedy by ' + p.author; },
       'select.fragmentsCount': function (p) { return p.n + (p.n === 1 ? ' fragment' : ' fragments'); },
 
+      // --- version list page (reached from the excerpt version badges) ---
+      'version.heading': function (p) { return 'Excerpts added in v' + p.version; },
+      'version.latestNote': 'the newest update',
+      'version.count': function (p) { return p.n + (p.n === 1 ? ' excerpt' : ' excerpts'); },
+      'version.prev': 'Previous update',
+      'version.next': 'Next update',
+      'version.empty': 'No excerpts were added in this version.',
+      'version.notFound': 'No such version.',
+
       // --- what's new (changelog scroll) ---
       'whatsNew.title': 'What’s New',
       'whatsNew.version': 'Version v{version}',
-      'whatsNew.released': 'Released {date} CEST',
+      'whatsNew.released': 'Released {date}, {time} {tz}',
       'whatsNew.cat.added': 'Added',
       'whatsNew.cat.changed': 'Changed',
       'whatsNew.cat.deleted': 'Deleted',
@@ -163,10 +177,12 @@
       'subtitle.author': 'Profilo dell’autore',
       'subtitle.practice': 'Pratica di traduzione',
       'subtitle.select': 'Scegli su cosa esercitarti',
+      'subtitle.version': 'Cronologia degli aggiornamenti',
       'footer.index': 'Un compagno interattivo del progetto di scrittura sugli autori latini.',
       'footer.author': 'Un compagno interattivo del progetto di scrittura sugli autori latini.',
       'footer.practice': 'Prova prima a tradurre il latino da solo, poi rivela la traduzione e confrontala con la tua versione.',
       'footer.select': 'Scegli un’opera tra quelle proposte e allenati a tradurne gli estratti proposti.',
+      'footer.version': 'Tutti i brani aggiunti in questo aggiornamento. Clicca su uno per esercitarti.',
       'aria.eras': 'Epoche',
       'aria.breadcrumb': 'Percorso',
 
@@ -175,9 +191,11 @@
       'title.author': 'Autore - ' + SITE_IT,
       'title.practice': 'Pratica - ' + SITE_IT,
       'title.select': 'Scegli un testo - ' + SITE_IT,
+      'title.version': 'Aggiornamento - ' + SITE_IT,
       'title.authorNamed': function (p) { return p.name + ' - ' + SITE_IT; },
       'title.practiceNamed': function (p) { return 'Pratica: ' + p.name + ' - ' + SITE_IT; },
       'title.selectNamed': function (p) { return 'Scegli - ' + p.name + ' - ' + SITE_IT; },
+      'title.versionNamed': function (p) { return 'Aggiunti in v' + p.version + ' - ' + SITE_IT; },
 
       // --- loading placeholders ---
       'loading.author': 'Caricamento autore...',
@@ -266,6 +284,7 @@
       'practice.latinFrom': function (p) { return 'Testo latino da ' + p.source; },
       'badge.addedIn': function (p) { return 'Aggiunto in v.' + p.version; },
       'badge.new': 'NUOVO!',
+      'badge.linkLabel': function (p) { return 'Vedi tutti i brani aggiunti in v.' + p.version; },
       'link.backTo': function (p) { return '← Torna a ' + p.name; },
 
       // --- select page ---
@@ -274,10 +293,19 @@
       'select.heading': function (p) { return 'Scegli una commedia di ' + p.author; },
       'select.fragmentsCount': function (p) { return p.n + (p.n === 1 ? ' frammento' : ' frammenti'); },
 
+      // --- version list page (reached from the excerpt version badges) ---
+      'version.heading': function (p) { return 'Brani aggiunti in v' + p.version; },
+      'version.latestNote': 'l’aggiornamento più recente',
+      'version.count': function (p) { return p.n + (p.n === 1 ? ' brano' : ' brani'); },
+      'version.prev': 'Aggiornamento precedente',
+      'version.next': 'Aggiornamento successivo',
+      'version.empty': 'Nessun brano è stato aggiunto in questa versione.',
+      'version.notFound': 'Versione inesistente.',
+
       // --- what's new (changelog scroll) ---
       'whatsNew.title': 'Novità',
       'whatsNew.version': 'Versione v{version}',
-      'whatsNew.released': 'Pubblicato il {date} CEST',
+      'whatsNew.released': 'Pubblicato il {date}, ore {time} {tz}',
       'whatsNew.cat.added': 'Aggiunte',
       'whatsNew.cat.changed': 'Modifiche',
       'whatsNew.cat.deleted': 'Rimozioni',

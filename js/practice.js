@@ -12,6 +12,7 @@
   var era = UI.getParam('era') || 'archaic';
   var slug = UI.getParam('id');
   var workId = UI.getParam('work');
+  var fragParam = UI.getParam('frag'); // optional 1-based deep-link into the pool (from version.html)
 
   // Version tracker. Every fragment carries the app version it was first added in.
   // The single newest version site-wide gets the red "NEW!" VIP banner; every other
@@ -120,7 +121,10 @@
     } else {
       var holder = document.createElement('div');
       root.appendChild(holder);
-      var state = { idx: 0 };
+      // Honour an optional ?frag=N deep-link (1-based) from the version-list page.
+      var startIdx = parseInt(fragParam, 10);
+      if (!(startIdx >= 1 && startIdx <= fragments.length)) startIdx = 1;
+      var state = { idx: startIdx - 1 };
       var show = function () {
         holder.innerHTML = '';
         holder.appendChild(buildFragment(fragments[state.idx], pool.workLabel, state.idx, fragments.length, function () {
@@ -176,9 +180,11 @@
   // the newest batch, otherwise a papyrus "Added in v.X" tag.
   function makeVersionBadge(version) {
     var isVip = cmpVersion(version, LATEST_VERSION) === 0;
-    var badge = document.createElement('div');
+    // The badge is a link to the version-list page for this excerpt's version.
+    var badge = document.createElement('a');
     badge.className = 'excerpt-version-badge ' + (isVip ? 'is-vip' : 'is-papyrus');
-    badge.setAttribute('aria-hidden', 'true');
+    badge.href = 'version.html?v=' + encodeURIComponent(version);
+    badge.setAttribute('aria-label', I18n.t('badge.linkLabel', { version: version }));
     var added = I18n.t('badge.addedIn', { version: version });
     if (isVip) {
       badge.innerHTML =

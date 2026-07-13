@@ -19,8 +19,8 @@
     return e;
   }
 
-  // ISO "2026-06-29" -> "29/06/2026". The timezone label (CEST) is baked into
-  // the i18n "released" template (all dates fall in summer time).
+  // ISO "2026-06-29" -> "29/06/2026". Time-of-day and timezone come per-entry
+  // (entry.time / entry.tz), passed into the i18n "released" template.
   function fmtDate(iso) {
     var p = String(iso).split('-');
     if (p.length !== 3) return iso;
@@ -51,7 +51,11 @@
     return global.I18n.t('whatsNew.version', { version: entry.v });
   }
   function dateLabel(entry) {
-    return global.I18n.t('whatsNew.released', { date: fmtDate(entry.date) });
+    return global.I18n.t('whatsNew.released', {
+      date: fmtDate(entry.date),
+      time: entry.time || '',
+      tz: entry.tz || 'CEST'
+    });
   }
 
   // ---- the side parchment (latest version) ----

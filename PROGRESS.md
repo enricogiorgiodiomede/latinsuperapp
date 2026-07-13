@@ -48,7 +48,8 @@ The full Italian translation pass is **DONE**.
 - **`js/fragments.js` - THE PRACTICE FRAGMENT BANK (`window.PracticeBank`). Single source for
   practice content. This is the active work area.**
 - `js/markdown.js`, `js/ui.js` (DOM helpers + breadcrumb), `js/menu.js` (era menu), `js/home.js`,
-  `js/author.js`, `js/practice.js`, `js/select.js`. `css/styles.css` - all styles.
+  `js/author.js`, `js/practice.js`, `js/select.js`, `js/version-list.js` (the `version.html?v=X`
+  excerpt-list page). `css/styles.css` - all styles.
 - **`js/i18n.js` (`window.I18n`) - the EN/IT string dictionary, persisted language state, `t()`
   lookup (English fallback), and the header flag toggle. Every module pulls user-facing strings
   from `I18n.t(...)`; the HTML pages tag static text with `data-i18n`.** `js/content-it.js` -
@@ -67,7 +68,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=64`.**
+   whenever you change a JS/CSS file. **Currently `v=65`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -172,7 +173,19 @@ analysisIt, proper accents), short tailored analysis, title, citation; spread ac
 commit + push; update `CHANGELOG.md`, `practice_fragments_reference.md`, and this file (table +
 cache `v=`).
 
-### >>> LIVE at v1.2.1, cache ?v=64 -- IN PROGRESS: FLESH OUT CAESAR'S AGE (Archaic done; NOT Augustan) <<<
+### >>> LIVE at v1.2.2, cache ?v=65 -- IN PROGRESS: FLESH OUT CAESAR'S AGE (Archaic done; NOT Augustan) <<<
+
+**v1.2.2 (2026-07-14, EEST):** the version badges are now **clickable links** (`makeVersionBadge` builds an
+`<a href="version.html?v=<version>">`; CSS restores `pointer-events` + hover). New page **`version.html` +
+`js/version-list.js`**: lists every excerpt of one version (`?v=X`), sorted by author name then work/subject
+(Nepos sub-sorted by the character parsed from the citation), each row deep-linking to the exact excerpt via
+a new **`?frag=N`** param on `practice.js` (1-based pool index); prev/next arrows walk the versions that
+actually added excerpts (distinct fragment versions). VIP badge -> newest version, papyrus -> its own. The
+**What's New log now shows a release time**: every `js/changelog.js` entry has `time` (HH:MM, from the git
+commit that shipped it) + `tz`; `whatsNew.released` template is now "Released {date}, {time} {tz}". Historical
+= CEST, v1.2.2 = EEST (user in Greece). (Caveat: the 0.9.8-0.9.13 entries keep their approximate dates - real
+commits were 06-26/27 - but carry real commit times.)
+
 
 **Version tracker (v1.2.0 addition; tags corrected in v1.2.1, cache v64):** every fragment in
 `js/fragments.js` has a `version` field (app version it was first added in). `practice.js` computes the
@@ -209,7 +222,7 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
   **Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
 **=== SESSION HANDOFF (end of 2026-07-09) ===**
-Current: **v1.2.1, cache ?v=64**, pushed. Archaic bank complete except **Plautus** (still 7
+Current: **v1.2.2, cache ?v=65**, pushed. Archaic bank complete except **Plautus** (still 7
 comedies at 3-4 frags; the plan is +3 comedies -> 10, all at 5 each). Caesar's-Age flesh-out STARTED:
 **Nepos done (1->8)**. v1.2.1 was a no-content maintenance release (corrected every Archaic fragment's
 version tag to its real historical version; restyled the VIP banner). **NEXT options (user picks):** (a)

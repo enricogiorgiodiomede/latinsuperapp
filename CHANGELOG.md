@@ -6,6 +6,36 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.2.2] - 2026-07-14
+
+Makes the per-excerpt version badges clickable (a new version-list page), and adds release times to
+the What's New log.
+
+### Added
+- **New page `version.html?v=<version>` + `js/version-list.js`.** Lists every practice excerpt of one
+  app version, sorted alphabetically by author name, then by work/subject. For Cornelius Nepos (whose
+  8 excerpts sit under the single work *De Viris Illustribus*) the sub-sort/label is the **character**,
+  parsed from the citation (Alcibiades, Atticus, Cato, ...). Each row deep-links to that exact excerpt
+  on the practice page. Prev/next arrows step between the versions that actually added excerpts (built
+  from the distinct fragment `version`s, so no-content releases like 0.9.14 / 1.2.1 / 1.2.2 are skipped).
+  The page has breadcrumbs (Home / What's New / v{X}) and the standard header/era menu; it is bilingual.
+- **The excerpt version badges are now links.** In `js/practice.js` `makeVersionBadge` builds an `<a>`
+  (was an inert `<div>`) pointing to `version.html?v=<that excerpt's version>` - so the red "NEW!" VIP
+  banner opens the newest version's list and each papyrus "Added in v.X" tag opens its own version's
+  list. `aria-hidden` dropped for an `aria-label`; `css/styles.css` restores `pointer-events` and adds a
+  hover lift. Version-list page styles (`.version-nav`, `.version-item`, ...) added.
+- **`?frag=<N>` deep-link on the practice page** (`js/practice.js`): a 1-based index into the current
+  fragment pool, so the version-list rows can open a specific excerpt rather than always fragment 1.
+
+### Changed
+- **The What's New log now shows a release time** (24-hour) beside the date. Every entry in
+  `js/changelog.js` gains a `time` (HH:MM) and `tz` field; `js/whatsnew.js` `dateLabel` passes them into
+  the `whatsNew.released` template, now "Released {date}, {time} {tz}" (was a hardcoded "... CEST").
+  Times are the git commit time that shipped each version (CEST for all historical releases); **v1.2.2 is
+  stamped EEST** (author travelling in Greece). Note: the retroactively-documented 0.9.8-0.9.13 entries
+  keep their approximate dates (their real commits were 06-26/06-27) but now carry real commit times.
+- Cache-busting bumped to `?v=65`.
+
 ## [1.2.1] - 2026-07-09
 
 Corrects the per-excerpt version tags and restyles the "NEW!" VIP banner.

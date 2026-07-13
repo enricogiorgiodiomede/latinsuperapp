@@ -963,9 +963,15 @@ body.cl-modal-open { overflow: hidden; }
   position: absolute;
   right: 18px;
   z-index: 3;
-  pointer-events: none;
+  pointer-events: auto;
   user-select: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.12s ease, filter 0.12s ease;
 }
+.excerpt-version-badge:hover { transform: translateY(-2px); filter: brightness(1.06); }
+.excerpt-version-badge:focus-visible { outline: 2px solid var(--deep-red); outline-offset: 3px; }
 
 /* ---- papyrus horizontal scroll (older excerpts) ---- */
 .excerpt-version-badge.is-papyrus {
@@ -1065,3 +1071,80 @@ body.cl-modal-open { overflow: hidden; }
   .excerpt-version-badge.is-vip { width: 72px; height: 94px; }
   .vip-new { font-size: 0.74rem; }
 }
+
+/* ===== version-list page (reached from the excerpt version badges) ===== */
+.version-page h2.version-heading {
+  font-family: var(--font-serif);
+  color: var(--deep-red);
+  margin: 0.2em 0 0.1em;
+}
+.version-latest-note {
+  display: inline-block;
+  margin-left: 8px;
+  font-family: var(--font-ui);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--gold);
+  vertical-align: middle;
+}
+.version-count { color: var(--ink-soft); margin: 0 0 18px; }
+
+/* prev / next update arrows */
+.version-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 16px 0 22px;
+}
+.version-nav a,
+.version-nav span {
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--stone);
+  color: var(--deep-red);
+  text-decoration: none;
+  box-shadow: var(--shadow);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.version-nav a:hover { transform: translateY(-1px); box-shadow: var(--shadow-lift); }
+.version-nav .nav-disabled {
+  color: var(--gray);
+  opacity: 0.45;
+  box-shadow: none;
+  cursor: default;
+}
+.version-nav .nav-next { margin-left: auto; }
+
+/* the excerpt list */
+.version-list { list-style: none; margin: 0; padding: 0; }
+.version-item {
+  display: block;
+  padding: 14px 16px;
+  margin: 0 0 10px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--deep-red);
+  border-radius: 10px;
+  background: var(--parchment);
+  box-shadow: var(--shadow);
+  text-decoration: none;
+  color: var(--ink);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.version-item:hover { transform: translateY(-2px); box-shadow: var(--shadow-lift); }
+.version-item:focus-visible { outline: 2px solid var(--deep-red); outline-offset: 2px; }
+.vi-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; margin-bottom: 4px; }
+.vi-author { font-family: var(--font-serif); font-weight: 700; color: var(--deep-red); font-size: 1.05rem; }
+.vi-subject {
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: var(--terracotta-deep);
+}
+.vi-title { display: block; font-family: var(--font-serif); font-style: italic; color: var(--ink-soft); }
