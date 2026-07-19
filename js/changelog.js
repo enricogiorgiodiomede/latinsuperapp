@@ -318,32 +318,32 @@
       }
     },
     {
-      v: '0.9.13', date: '2026-06-19', time: '19:27', tz: 'CEST',
+      v: '0.9.13', date: '2026-06-27', time: '19:27', tz: 'CEST',
       en: { added: ['A fourth scene for the Menaechmi: the visiting twin fakes a fit of madness and drags the gods Bacchus and Apollo into the joke.'], changed: [], deleted: [] },
       it: { added: ['Una quarta scena per i Menecmi: il gemello in visita finge un attacco di follia e trascina nello scherzo gli dèi Bacco e Apollo.'], changed: [], deleted: [] }
     },
     {
-      v: '0.9.12', date: '2026-06-19', time: '19:20', tz: 'CEST',
+      v: '0.9.12', date: '2026-06-27', time: '19:20', tz: 'CEST',
       en: { added: [], changed: ['Swapped one Menaechmi scene for a funnier one: the wife mistakes the wrong twin for her husband and buries him in insults while he plays dumb.'], deleted: [] },
       it: { added: [], changed: ['Sostituita una scena dei Menecmi con una più divertente: la moglie scambia il gemello sbagliato per il marito e lo sommerge di insulti mentre lui fa il finto tonto.'], deleted: [] }
     },
     {
-      v: '0.9.11', date: '2026-06-19', time: '19:08', tz: 'CEST',
+      v: '0.9.11', date: '2026-06-27', time: '19:08', tz: 'CEST',
       en: { added: ['Plautus’s Menaechmi joins the line-up as a sixth comedy, with three scenes built on the famous identical-twins mix-up.'], changed: [], deleted: [] },
       it: { added: ['I Menecmi di Plauto si aggiungono come sesta commedia, con tre scene costruite sul celebre equivoco dei gemelli identici.'], changed: [], deleted: [] }
     },
     {
-      v: '0.9.10', date: '2026-06-19', time: '21:52', tz: 'CEST',
+      v: '0.9.10', date: '2026-06-26', time: '21:52', tz: 'CEST',
       en: { added: ['A third Pomponius fragment: a man being coached to fake a woman’s voice for a festival.'], changed: [], deleted: [] },
       it: { added: ['Un terzo frammento di Pomponio: un uomo a cui si insegna a contraffare la voce di donna per una festa.'], changed: [], deleted: [] }
     },
     {
-      v: '0.9.9', date: '2026-06-19', time: '21:45', tz: 'CEST',
+      v: '0.9.9', date: '2026-06-26', time: '21:45', tz: 'CEST',
       en: { added: ['Rounded out the last lesser-known authors – Pacuvius, Accius, Novius and Pomponius now have several passages each. The Archaic-era practice set is complete!'], changed: [], deleted: [] },
       it: { added: ['Completati gli ultimi autori meno noti – Pacuvio, Accio, Novio e Pomponio ora hanno più brani ciascuno. La raccolta di esercizi dell’Età arcaica è completa!'], changed: [], deleted: [] }
     },
     {
-      v: '0.9.8', date: '2026-06-19', time: '21:13', tz: 'CEST',
+      v: '0.9.8', date: '2026-06-26', time: '21:13', tz: 'CEST',
       en: { added: ['The three giants of early Latin poetry – Livius Andronicus, Naevius and Ennius – each get three passages, including Ennius’s haunting dream of Ilia.'], changed: [], deleted: [] },
       it: { added: ['I tre giganti della poesia latina arcaica – Livio Andronico, Nevio ed Ennio – ricevono tre brani ciascuno, compreso il suggestivo sogno di Ilia di Ennio.'], changed: [], deleted: [] }
     },

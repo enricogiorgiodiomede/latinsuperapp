@@ -32,9 +32,11 @@ the What's New log.
   `js/changelog.js` gains a `time` (HH:MM) and `tz` field; `js/whatsnew.js` `dateLabel` passes them into
   the `whatsNew.released` template, now "Released {date}, {time} {tz}" (was a hardcoded "... CEST").
   Times are the git commit time that shipped each version (CEST for all historical releases); **v1.2.2 is
-  stamped EEST** (author travelling in Greece). Note: the retroactively-documented 0.9.8-0.9.13 entries
-  keep their approximate dates (their real commits were 06-26/06-27) but now carry real commit times.
-- Cache-busting bumped to `?v=65`.
+  stamped EEST** (author travelling in Greece).
+- **Corrected six changelog dates.** The retroactively-documented entries 0.9.8-0.9.10 (dated 2026-06-19)
+  were actually committed **2026-06-26**, and 0.9.11-0.9.13 were committed **2026-06-27**; their dates now
+  match their real commits, so the What's New history reads in true chronological order.
+- Cache-busting bumped to `?v=66`.
 
 ## [1.2.1] - 2026-07-09
 
