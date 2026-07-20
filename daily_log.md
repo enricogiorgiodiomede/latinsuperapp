@@ -521,10 +521,42 @@ A Cato day: *De Agri Cultura* grew from 5 practice fragments to 10, with a diffi
 ---
 
 ## 2026-07-09
-*(End-of-day log, compiled 2026-07-09.)*
+*(End-of-day log, completed 2026-07-10 from the day's commits. The earlier version of this entry was compiled at the start of the day, before the work shipped.)*
 
-Work in progress on the Caesar's-Age flesh-out: Cornelius Nepos jumped from a single practice fragment to eight. Not yet committed or versioned at time of logging.
+A big Caesar's-Age day: Cornelius Nepos went from a single practice fragment to eight, a new per-excerpt version tracker was built, and a same-day follow-up corrected the tracker's back-fill and restyled its banner. Three commits, two shipped versions (v1.2.0 and v1.2.1), cache v61 -> v64.
 
-**Nepos 1 -> 8 fragments (working tree, uncommitted).** Added 7 new bilingual *De Viris Illustribus* fragments (verbatim Latin from The Latin Library + original IT/EN + analysis + IT metadata): the *Praefatio* to Atticus (the "non eadem omnibus esse honesta atque turpia" manifesto of judging Greeks by Greek standards); *Themistocles* IV (the slave-messenger trick that lures Xerxes into the narrows at Salamis); *Alcibiades* I (Nature's experiment in extremes, the virtue-list pivoting on *idem* into the vice-list); *Pelopidas* III (the liberation of Thebes and Archias's proverbial "In crastinum differo res severas"); *Hannibal* II (the boyhood oath at the altar, speech-within-speech); *Cato* III (Cato the polymath and the *Origines*, a neat outside view of our own De Agri Cultura author); and *Atticus* VI (staying out of the civil tides). The existing Epaminondas fragment's citation was normalized to carry the "De Viris Illustribus" prefix like the new ones.
+**v1.2.0 -- Nepos 1 -> 8 fragments (commit 43abf5f).** Added 7 new bilingual *De Viris Illustribus* fragments (verbatim Latin from The Latin Library + original IT/EN + analysis + IT metadata): the *Praefatio* to Atticus (the "judge Greeks by Greek standards" manifesto); *Themistocles* IV (the slave-messenger ruse that lures Xerxes into the narrows at Salamis); *Alcibiades* I (Nature's experiment in extremes, the virtue-list pivoting on *idem* into the vice-list); *Pelopidas* III (the liberation of Thebes and Archias's proverbial line about putting off serious matters till tomorrow); *Hannibal* II (the boyhood oath at the altar, speech-within-speech); *Cato* III (Cato the polymath and the *Origines*, a neat outside view of our own De Agri Cultura author); and *Atticus* VI (principled neutrality, staying out of the civil tides). The existing Epaminondas fragment's citation was normalized to the fuller "(De Viris Illustribus, Epaminondas IX.3-4, X.1-2)" style now shared by all Nepos excerpts.
 
-**Progress:** Nepos is now an 8-fragment author, the first piece of the Caesar's-Age flesh-out. The change is still an uncommitted working-tree edit to `js/fragments.js` -- no CHANGELOG entry, version bump, or cache bump yet, and pending the user's proofread. Cache still at v61 (v1.1.5).
+**v1.2.0 -- per-excerpt version tracker (commit 80df615).** Every fragment in `js/fragments.js` gained a `version` field (the app version it was first added in). On each practice card a top-right badge renders it: a CSS-drawn papyrus scroll reading "Added in v.X" (deep What's-New red) for older excerpts, and a CSS-drawn red "NEW!" VIP banner (golden text) for the single newest version site-wide. The newest version is computed from the data in `practice.js`, so the banner shifts to the next batch automatically on future updates; at launch it marked the 7 new Nepos excerpts. Adds `badge.addedIn` / `badge.new` i18n strings and roughly 125 lines of badge styling in `css/styles.css`.
+
+**v1.2.1 -- version-tag correction + banner restyle (commit 53c0625).** The v1.2.0 back-fill script had wrongly tagged all pre-1.0.0 fragments as `1.0.0`, so their papyrus badges all read "Added in v.1.0.0". Each of 73 fragments was re-traced to the version it was really first added in (the 14 launch originals to 0.1.0; Naevius to 0.4.1; the Plautus batches across 0.6.0-0.9.15; Terence 0.9.0-0.9.5; Caecilius 0.9.6; Cato 0.9.7; the split "big three" poets 0.9.8; remaining fragmentists 0.9.9/0.9.10). Caesar's-Age fragments (1.0.0+) were already correct. The red "NEW!" banner was also restyled: a brighter, flat, more saturated red (diagonal stripe overlay removed) and nudged up (top 6px to 4px) so its golden roller touches the card's top edge.
+
+**Progress:** Nepos is now an 8-fragment author, the first piece of the Caesar's-Age flesh-out, and the practice page has a self-maintaining per-excerpt version tracker. v1.2.0 and v1.2.1 both shipped; CHANGELOG + `changelog.js`, PROGRESS, and the practice reference sheet updated; cache at v64. The VIP banner currently sits on the seven Nepos excerpts (newest site-wide is v1.2.0). Remaining Archaic item: Plautus (to 5 per comedy, all 10); the Caesar's-Age flesh-out continues from here. Augustan Era still deferred.
+
+---
+
+## 2026-07-14
+*(End-of-day log, 23:55.)*
+
+A single late-night commit (00:24) shipped v1.2.2, turning the per-excerpt version tracker from a passive label into a navigable feature and adding release times to the What's New log. One commit, one shipped version, cache v64 -> v65.
+
+**v1.2.2 -- clickable version badges.** The two badge styles built in v1.2.0/v1.2.1 (the red "NEW!" VIP banner and the papyrus "Added in v.X" tag) are now links. `makeVersionBadge` wraps each in an `<a>` pointing to `version.html?v=<that version>`, so a reader can jump straight from any excerpt to everything else that shipped in the same batch.
+
+**New version-list page.** Added `version.html` + `js/version-list.js`: given a version, it lists every excerpt introduced in it, sorted alphabetically by author then work/subject (Cornelius Nepos sub-sorted by the character parsed from the citation). Each row deep-links to the exact excerpt through a new `?frag=N` param now honoured by `practice.js`. Prev/next arrows step only between versions that actually added excerpts, and the page carries the usual breadcrumbs, era menu, and bilingual (IT/EN) chrome.
+
+**Release times in What's New.** Every `changelog.js` entry gained `time` + `tz` fields, and the `whatsNew.released` template became "Released {date}, {time} {tz}" (`js/whatsnew.js`, plus i18n strings in `js/i18n.js`). Times are drawn from the git commit that shipped each version (historical entries stamped CEST); v1.2.2 itself is stamped EEST.
+
+**Progress:** The version tracker is now interactive end to end: badge -> version page -> deep-linked excerpt. v1.2.2 shipped; CHANGELOG + `changelog.js`, PROGRESS, and supporting pages/styles updated; cache at v65. Remaining Archaic item: Plautus (to 5 per comedy, all 10); the Caesar's-Age flesh-out continues (Nepos done). Augustan Era still deferred.
+
+---
+
+## 2026-07-19
+*(End-of-day log, 23:55.)*
+
+A single evening commit (21:12) shipped another v1.2.2 refinement, correcting six changelog dates so the What's New history reads in true chronological order. One commit, cache v65 -> v66.
+
+**Corrected six bunched changelog dates.** The retroactively-documented entries 0.9.8-0.9.13 in `js/changelog.js` had all been dated 2026-06-19, but their real commits landed later: 0.9.8-0.9.10 (the three giants of early Latin poetry; the last lesser-known authors Pacuvius/Accius/Novius/Pomponius; the third Pomponius fragment) were actually committed **2026-06-26**, and 0.9.11-0.9.13 (Plautus's *Menaechmi* joining as a sixth comedy, plus its scene swap and the fourth fake-madness scene) on **2026-06-27**. Each entry's `date` now matches its true commit day; the commit times were already accurate. This unbunches the timeline so the version history no longer shows six releases stacked on a single wrong day.
+
+**Housekeeping.** The date fix rippled through every page that surfaces the changelog history and the release note: CHANGELOG.md gained a "Corrected six changelog dates" line under 1.2.2, PROGRESS.md was updated, and the shared `?v=` cache-bust across `author.html`, `index.html`, `practice.html`, `practice-select.html`, and `version.html` was stepped from v65 to v66.
+
+**Progress:** The What's New log now reads in genuine chronological order, with no artificially bunched dates. Still within v1.2.2; cache at v66. Remaining Archaic item: Plautus (to 5 per comedy, all 10); the Caesar's-Age flesh-out continues (Nepos done). Augustan Era still deferred.
