@@ -54,6 +54,29 @@ NOTE on sourcing: Latin pulled from The Latin Library via curl (whole page, then
 by canonical numbering). Famous lines cross-checked. Worth a final proofread against a printed
 edition before recording.
 
+### Asinaria (`asinaria`) - NEW [v1.3.0, 2026-07-20]; verbatim from TLL `plautus/asinaria.shtml` (curl); well-preserved -> self-proofread
+- **Act I, Sc. 3, vv. 153-166** - Cleareta the bawd on courtesan-economics (nautical *remigio veloque* / financial-toll puns). Medium-hard; lexical.
+- **Act II, Sc. 4, vv. 491-498** - *lupus est homo homini, non homo* (v.495, the merchant distrusting a stranger). FAMOUS. Medium.
+- **Act III, Sc. 3, vv. 591-602** - the lovers' teasing farewell (Argyrippus/Philaenium) + the slaves' Solon joke. Medium; stichomythia.
+- **Act IV, Sc. 1, vv. 746-755** - the mock *syngraphus* (exclusivity contract) read aloud; legal-parody register. Medium. (Ended at 755 to skip the *** lacuna at 758.)
+- **Act V, Sc. 1, vv. 830-841** - the father-son dinner-couch rivalry over Philaenium (*pietas, pater...*). Easy-medium. (Skips the bracketed suspect vv. 828-829.)
+
+### Casina (`casina`) - NEW [v1.3.0, 2026-07-20]; verbatim from TLL `plautus/**cas.shtml**` (NOT casina.shtml). **FLAG: TLL prints NO line numbers -> verse ranges are standard-edition (Lindsay/OCT) approximations**; anchor by first line. u-for-v orthography kept. Citations use "(Casina, Act N, vv. X-Y)" - no scene number (TLL doesn't number Casina scenes).
+- **Act I, vv. 89-96** - the two slaves' rivalry, Chalinus "quasi umbra, quoquo tu ibis" (like a shadow). Medium.
+- **Act II, vv. 217-227** - Lysidamus's *senex libidinosus* love-song (love the *condimentum*; *fel/mel*; "uxor me excruciat, quia uiuit"). HARD (lyric canticum). **Crux: *lituntur* v.219** (for lutantur/linuntur) kept verbatim.
+- **Act II, vv. 357-364** - the *sortitio* (urn + *sortes*/*sitella*; slave insults *stimulus*/*mastigia*). Medium.
+- **Act III, vv. 621-629** - Pardalisca's mock-tragic panic canticum ("Nulla sum, nulla sum..."). HARD (paratragedy, cretic/bacchiac). Normalized OCR *espetam*->*expetam*.
+- **Act V, vv. 937-944** - Olympio's wedding-night narration (shame-words; *operam date* metatheatre); window stops before the play's *** lacunae. Medium-hard. Accepted *tamen*/*tamquam* (bracket supplements).
+
+### Truculentus (`truculentus`) - NEW [v1.3.0, 2026-07-20]; verbatim from TLL `plautus/truculentus.shtml` (curl). **FLAG: notoriously lacunose play**; windows chosen in cleaner stretches; editorial supplements accepted.
+- **Act I, Sc. 1, vv. 22-30** - Diniarchus's programmatic love-as-bankruptcy overture (*summa summarum*; suspended *quot...quot*). HARD. (Ends on the transitional colon at v.30.)
+- **Act II, Sc. 2, vv. 256-263** - Truculentus berating Astaphium (*arietat*; salve/salute/sanior pun; *eiram*=iram). Medium.
+- **Act II, Sc. 5, vv. 447-460** - Phronesium's borrowed-baby scheming (*dolus*; *alienos dolores mihi supposivi*). Medium-hard; **roughest window** (lacunose) - dropped 2 em-dash crux marks, *<nunc>*, final ; -> . **flag.**
+- **Act III, Sc. 2, vv. 668-677** - the reversal, "iam non ego sum truculentus" / "tuam expecto truculentiam". Medium. Accepted *<ego>* and *<quid metuam>*.
+- **Act IV, Sc. 3, vv. 770-779** - Callicles' menacing "gentle master" interrogation (*colubrino ingenio*; *bilinguis*; *tintinnaculos viros*). Medium. (*mitis* v.771 confirmed - the earlier fetch "milis" was an artifact.)
+
+**Scope (user, 2026-07-20):** this was **new comedies only**. The existing 7 comedies were NOT topped up to 5 - deferred to a later update (+12: Amphitruo/Menaechmi +1, the other five +2). Works array reordered alphabetically.
+
 ---
 
 ## Terence (needsSelection) - all 6 plays, now 5 each (v1.1.2, 2026-07-07); verbatim from TLL (curl, ter.*.html)

@@ -6,6 +6,39 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.3.0] - 2026-07-20
+
+Plautus's practice bank completes to all ten of his best-known comedies: Asinaria, Casina and
+Truculentus join, five excerpts each.
+
+### Added
+- **15 new Plautus practice fragments** (verbatim Latin from The Latin Library + original Italian and
+  English + analysis, with bilingual metadata), five per comedy, spread across the acts with varied
+  difficulty and at least one famous passage each:
+  - **Asinaria** (5): Cleareta the bawd on courtesan-economics (I.3); *lupus est homo homini* (II.4); the
+    lovers' teasing farewell (III.3); the mock exclusivity *syngraphus* read aloud (IV.1); and the
+    father-son dinner-couch rivalry over Philaenium (V.1).
+  - **Casina** (5): the two slaves' rivalry, "like a shadow" (I); Lysidamus's *senex libidinosus*
+    love-song (II) and the *sortitio* lot-drawing (II); Pardalisca's mock-tragic panic canticum (III);
+    and Olympio's wedding-night narration (V).
+  - **Truculentus** (5): Diniarchus's programmatic love-as-bankruptcy opening (I.1); Truculentus berating
+    Astaphium (II.2); Phronesium's borrowed-baby scheming (II.5); the reformed "not-Truculentus" reversal
+    (III.2); and Callicles' menacing interrogation (IV.3).
+- The Plautus `works` array is **reordered alphabetically** (the chooser renders array order), so the
+  comedy list now reads: Amphitruo, Asinaria, Aulularia, Bacchides, Casina, Menaechmi, Miles Gloriosus,
+  Mostellaria, Pseudolus, Truculentus. Plautus now has **10 comedies / 38 fragments**.
+- All 15 new fragments are tagged `version: 1.3.0`, so the red "NEW!" VIP badge (and the
+  `version.html?v=1.3.0` list) now cover this batch.
+
+### Changed
+- Cache-busting bumped to `?v=67`.
+
+### Notes
+- **Casina**: The Latin Library's page prints no line numbers, so the Casina verse ranges are
+  standard-edition approximations (flagged for proofread). **Truculentus** is a notoriously lacunose
+  play; the chosen windows sit in cleaner stretches, with a couple of editorial supplements accepted
+  (`<ego>`, `<quid metuam>`, `<nunc>`) and one crux normalized - all flagged for the user's proofread.
+
 ## [1.2.2] - 2026-07-14
 
 Makes the per-excerpt version badges clickable (a new version-list page), and adds release times to

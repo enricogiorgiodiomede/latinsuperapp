@@ -68,7 +68,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=66`.**
+   whenever you change a JS/CSS file. **Currently `v=67`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -120,7 +120,7 @@ The full Italian translation pass is **DONE**.
 | Livius Andronicus | Odusia (3) |
 | Gnaeus Naevius | Bellum Poenicum (2) + Epitaph (1) |
 | Quintus Ennius | Annales (3) |
-| **Plautus** *(needsSelection)* | 7 comedies: Pseudolus (3) · Mostellaria (3) · Amphitruo (4) · Aulularia (3) · Miles Gloriosus (3) · Menaechmi (4) · Bacchides (3) |
+| **Plautus** *(needsSelection)* | **10 comedies (alphabetical), 38 frags** (v1.3.0): Amphitruo (4) · Asinaria (5) · Aulularia (3) · Bacchides (3) · Casina (5) · Menaechmi (4) · Miles Gloriosus (3) · Mostellaria (3) · Pseudolus (3) · Truculentus (5) |
 | Cato the Elder | De Agri Cultura (10) |
 | **Caecilius Statius** *(needsSelection)* | Plocium (5) · Other plays (3) |
 | **Terence** *(needsSelection)* | Andria (5) · Hecyra (5) · Heautontimorumenos (5) · Eunuchus (5) · Phormio (5) · Adelphoe (5) |
@@ -173,7 +173,20 @@ analysisIt, proper accents), short tailored analysis, title, citation; spread ac
 commit + push; update `CHANGELOG.md`, `practice_fragments_reference.md`, and this file (table +
 cache `v=`).
 
-### >>> LIVE at v1.2.2, cache ?v=66 -- IN PROGRESS: FLESH OUT CAESAR'S AGE (Archaic done; NOT Augustan) <<<
+### >>> LIVE at v1.3.0, cache ?v=67 -- IN PROGRESS: FLESH OUT CAESAR'S AGE (Archaic done; NOT Augustan) <<<
+
+**v1.3.0 (2026-07-20, CEST): the big Plautus job (new comedies).** Added 3 comedies at 5 excerpts each -
+**Asinaria, Casina, Truculentus** (15 new fragments, all tagged `version: 1.3.0`, so the VIP badge now
+sits on them) - and **reordered the Plautus `works` array alphabetically** (the chooser renders array
+order; ORDER = Amphitruo, Asinaria, Aulularia, Bacchides, Casina, Menaechmi, Miles Gloriosus, Mostellaria,
+Pseudolus, Truculentus). Plautus is now **10 comedies / 38 fragments**. Built with a throwaway Node script
+(`add_plautus.js`: window-shim + eval, push 3 works, sort by ORDER, re-emit `head + JSON.stringify + tail`).
+**Scope note (user, 2026-07-20):** this round was **new comedies only**; the existing 7 comedies were NOT
+topped up to 5 (Amphitruo & Menaechmi stay 4, the other five stay 3) - that top-up is a **future task**.
+**Proofread flags:** Casina (TLL page has no line numbers -> verse ranges are standard-edition approx) and
+Truculentus (lacunose play; accepted editorial supplements `<ego>`/`<quid metuam>`/`<nunc>`, one crux
+normalized). Asinaria is well-preserved (self-proofread). Citations: Casina uses "(Casina, Act N, vv. X-Y)"
+with no scene number (TLL doesn't number Casina scenes).
 
 **v1.2.2 (2026-07-14, EEST):** the version badges are now **clickable links** (`makeVersionBadge` builds an
 `<a href="version.html?v=<version>">`; CSS restores `pointer-events` + hover). New page **`version.html` +
@@ -221,12 +234,13 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
   not now - already has 11), and the rest of Caesar's Age: ~~Nepos~~ **DONE v1.2.0**; still to do =
   **Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
-**=== SESSION HANDOFF (end of 2026-07-09) ===**
-Current: **v1.2.2, cache ?v=66**, pushed. Archaic bank complete except **Plautus** (still 7
-comedies at 3-4 frags; the plan is +3 comedies -> 10, all at 5 each). Caesar's-Age flesh-out STARTED:
-**Nepos done (1->8)**. v1.2.1 was a no-content maintenance release (corrected every Archaic fragment's
-version tag to its real historical version; restyled the VIP banner). **NEXT options (user picks):** (a)
-rest of Caesar's Age - Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus; (b) the big Plautus job.
+**=== SESSION HANDOFF (updated 2026-07-20) ===**
+Current: **v1.3.0, cache ?v=67**, pushed. **Plautus is now 10 comedies / 38 frags** (v1.3.0 added Asinaria,
+Casina, Truculentus at 5 each, alphabetized). Caesar's-Age flesh-out STARTED: **Nepos done (1->8)**. v1.2.1
+was a no-content maintenance release (version-tag correction + VIP restyle); v1.2.2 added clickable badges +
+the version-list page + release times in What's New. **NEXT options (user picks):** (a) rest of Caesar's Age
+- Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus; (b) **top up the existing 7 Plautus comedies to 5
+each** (Amphitruo & Menaechmi +1, the other five +2 = +12) - deferred from v1.3.0.
 Always confirm which author + how many fragments before a batch. Per-batch workflow: source verbatim (well-preserved -> self-proofread, no user proofread;
 fragment-only -> flag + ask user); **tag new fragments with the new app version** (version-tracker);
 bilingual IT+EN + analysis + IT metadata; bump cache; verify in browser; commit+push; update CHANGELOG +
@@ -235,11 +249,15 @@ in-app What's New + this file + practice_fragments_reference.md + memory.
 
 Remaining work items:
 
-- **Plautus**: currently **7 comedies** (Bacchides was the missing 7th). Add 3 more - **Asinaria, Casina,
-  Truculentus** = **10 comedies total** (matches the user's "all 10 comedies"). Target (**confirmed
-  2026-07-06**): every comedy has **5 fragments** - bring the existing 3-4 up to 5, author the 3 new ones
-  at 5 (= +12 to the existing seven, +15 new). Works list **ordered alphabetically**. Alphabetical order of the 10: Amphitruo, Asinaria, Aulularia, **Bacchides**, Casina,
-  Menaechmi, Miles Gloriosus, Mostellaria, Pseudolus, Truculentus.
+- ~~**Plautus**: add Asinaria, Casina, Truculentus.~~ **NEW COMEDIES DONE (v1.3.0, 2026-07-20):** the 3 new
+  comedies are in at **5 each** and the works list is alphabetized (Amphitruo, Asinaria, Aulularia,
+  Bacchides, Casina, Menaechmi, Miles Gloriosus, Mostellaria, Pseudolus, Truculentus). **STILL TO DO (user
+  deferred to a later update):** top up the existing 7 comedies to 5 each - Amphitruo (4->5) +1, Menaechmi
+  (4->5) +1, and Aulularia/Miles Gloriosus/Mostellaria/Pseudolus/Bacchides (3->5) +2 each = **+12**. Some
+  flagship top-up scenes scouted: Pseudolus (Ballio's entrance I.2; Pseudolus's "architectus doli"
+  monologue), Mostellaria (Tranio's haunted-house con II.1-2), Amphitruo (Sosia vs Mercury I.1),
+  Aulularia (the cross-purposes "confession" IV.10), Miles (Palaestrio's plot-monologue II.1), Menaechmi
+  (the recognition/finale V), Bacchides (the two old men seduced, finale V.2).
 - ~~**Caecilius Statius**: +2 Plocium fragments (3 -> 5) and +1 "Other plays" fragment.~~ **DONE (v1.1.1,
   2026-07-06)**: Plocium 5 (added Donatus "Vivas ut possis" + Nonius "Placere occepit... postquam
   emortuast"); Other plays 3 (added Cicero Tusc. III.56 "Saepe est etiam sub palliolo sordido sapientia").
