@@ -61,7 +61,7 @@ edition before recording.
 - **Act IV, Sc. 1, vv. 746-755** - the mock *syngraphus* (exclusivity contract) read aloud; legal-parody register. Medium. (Ended at 755 to skip the *** lacuna at 758.)
 - **Act V, Sc. 1, vv. 830-841** - the father-son dinner-couch rivalry over Philaenium (*pietas, pater...*). Easy-medium. (Skips the bracketed suspect vv. 828-829.)
 
-### Casina (`casina`) - NEW [v1.3.0, 2026-07-20]; verbatim from TLL `plautus/**cas.shtml**` (NOT casina.shtml). **FLAG: TLL prints NO line numbers -> verse ranges are standard-edition (Lindsay/OCT) approximations**; anchor by first line. u-for-v orthography kept. Citations use "(Casina, Act N, vv. X-Y)" - no scene number (TLL doesn't number Casina scenes).
+### Casina (`casina`) - NEW [v1.3.0, 2026-07-20]; verbatim from TLL `plautus/**cas.shtml**` (NOT casina.shtml). **Well-preserved -> self-proofread, NO user proofread (user confirmed 20/07).** TLL prints NO line numbers -> verse ranges are standard-edition (Lindsay/OCT) approximations; anchor by first line. **Each Casina fragment carries an in-app note (in analysis/analysisIt) that the line numbers are approximate** (added v1.3.0 follow-up, cache v68). u-for-v orthography kept. Citations use "(Casina, Act N, vv. X-Y)" - no scene number (TLL doesn't number Casina scenes).
 - **Act I, vv. 89-96** - the two slaves' rivalry, Chalinus "quasi umbra, quoquo tu ibis" (like a shadow). Medium.
 - **Act II, vv. 217-227** - Lysidamus's *senex libidinosus* love-song (love the *condimentum*; *fel/mel*; "uxor me excruciat, quia uiuit"). HARD (lyric canticum). **Crux: *lituntur* v.219** (for lutantur/linuntur) kept verbatim.
 - **Act II, vv. 357-364** - the *sortitio* (urn + *sortes*/*sitella*; slave insults *stimulus*/*mastigia*). Medium.

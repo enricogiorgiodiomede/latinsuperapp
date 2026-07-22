@@ -31,13 +31,16 @@ Truculentus join, five excerpts each.
   `version.html?v=1.3.0` list) now cover this batch.
 
 ### Changed
-- Cache-busting bumped to `?v=67`.
+- **Casina** fragments now carry a short in-app note (in each analysis, bilingual): The Latin Library's
+  Casina prints no line numbers, so the verse references are approximate, following the standard edition.
+- Cache-busting bumped to `?v=68`.
 
 ### Notes
-- **Casina**: The Latin Library's page prints no line numbers, so the Casina verse ranges are
-  standard-edition approximations (flagged for proofread). **Truculentus** is a notoriously lacunose
-  play; the chosen windows sit in cleaner stretches, with a couple of editorial supplements accepted
-  (`<ego>`, `<quid metuam>`, `<nunc>`) and one crux normalized - all flagged for the user's proofread.
+- **Asinaria** and **Casina** are well-preserved - self-proofread verbatim, no user proofread needed
+  (Casina's verse *numbers* are the only approximation, now noted in-app). **Truculentus** is a
+  notoriously lacunose play; the chosen windows sit in cleaner stretches, with a couple of editorial
+  supplements accepted (`<ego>`, `<quid metuam>`, `<nunc>`) and one crux normalized - **flagged for the
+  user's proofread**.
 
 ## [1.2.2] - 2026-07-14
 
