@@ -560,3 +560,18 @@ A single evening commit (21:12) shipped another v1.2.2 refinement, correcting si
 **Housekeeping.** The date fix rippled through every page that surfaces the changelog history and the release note: CHANGELOG.md gained a "Corrected six changelog dates" line under 1.2.2, PROGRESS.md was updated, and the shared `?v=` cache-bust across `author.html`, `index.html`, `practice.html`, `practice-select.html`, and `version.html` was stepped from v65 to v66.
 
 **Progress:** The What's New log now reads in genuine chronological order, with no artificially bunched dates. Still within v1.2.2; cache at v66. Remaining Archaic item: Plautus (to 5 per comedy, all 10); the Caesar's-Age flesh-out continues (Nepos done). Augustan Era still deferred.
+
+---
+
+## 2026-07-20
+*(End-of-day log, 23:55.)*
+
+A single midday commit (12:57) shipped v1.3.0, the biggest Plautus expansion yet: three new comedies join the practice set, bringing Plautus up to all ten of his best-known plays. One work commit, cache v66 -> v67.
+
+**Three new Plautus comedies, 15 new fragments.** *Asinaria*, *Casina*, and *Truculentus* each gained five bilingual practice fragments (verbatim Latin from The Latin Library plus original Italian/English translations, analysis, and IT metadata), spread across the acts at varied difficulty. Highlights: *Asinaria* covers Cleareta's courtesan-economics, the proverbial "lupus est homo homini," the lovers' farewell, the mock *syngraphus* contract, and the father-son dinner-couch rivalry; *Casina* covers the slaves' "like a shadow" rivalry, Lysidamus's *senex libidinosus* love-song, the *sortitio*, Pardalisca's paratragic panic, and Olympio's wedding night; *Truculentus* covers Diniarchus's love-as-bankruptcy opening, Truculentus vs Astaphium, Phronesium's borrowed baby, the "not Truculentus any more" reversal, and Callicles' interrogation.
+
+**Plautus reorganized and version-tagged.** The Plautus works array was reordered alphabetically (the chooser renders array order), leaving Plautus at 10 comedies / 38 fragments. All 15 new fragments were tagged version 1.3.0, so the "NEW!" VIP badge and `version.html?v=1.3.0` now surface this batch. The change rippled through `js/fragments.js` (the bulk of the diff, +564 lines), `js/changelog.js`, `author.html`, `index.html`, `practice.html`, `practice-select.html`, `version.html`, plus CHANGELOG.md, PROGRESS.md, and `practice_fragments_reference.md`; the shared `?v=` cache-bust stepped from v66 to v67.
+
+**Proofread flags.** These new comedies add scattered-source uncertainties: *Casina* verse ranges are standard-edition approximations (The Latin Library prints no line numbers) and *Truculentus* is lacunose (a few editorial supplements accepted), both flagged for the user's proofread. The existing seven comedies are still to be topped up to five fragments each in a later update.
+
+**Progress:** Plautus now covers all ten best-known comedies (new ones at 5 fragments each; the original seven still to reach 5). App at v1.3.0, cache v67. The last Archaic item is finishing the seven older Plautus comedies; the Caesar's-Age flesh-out (Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus) and the Augustan Era both remain ahead.
