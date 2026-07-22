@@ -37,7 +37,8 @@ Truculentus join, five excerpts each.
 
 ### Fixed
 - **Truculentus proofread corrections (user):** fixed the citations on three excerpts and restored two
-  editorial marks (cache `?v=69`):
+  editorial marks; the now-redundant "flagged for proofreading" line was dropped from the Phronesium
+  analysis (cache `?v=70`):
   - II.5 (Phronesium): citation `447-460` -> **`448-460`**; restored the two em-dashes (`nimio -- minus`,
     `dolorem -- dolus`), moved `dolorem` onto its own verse (matching Splash Latino / The Latin Library),
     and put the conjectural `<nunc>` (v.458) back in angle brackets, now flagged in the analysis as an
