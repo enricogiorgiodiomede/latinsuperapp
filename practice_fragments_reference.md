@@ -68,12 +68,12 @@ edition before recording.
 - **Act III, vv. 621-629** - Pardalisca's mock-tragic panic canticum ("Nulla sum, nulla sum..."). HARD (paratragedy, cretic/bacchiac). Normalized OCR *espetam*->*expetam*.
 - **Act V, vv. 937-944** - Olympio's wedding-night narration (shame-words; *operam date* metatheatre); window stops before the play's *** lacunae. Medium-hard. Accepted *tamen*/*tamquam* (bracket supplements).
 
-### Truculentus (`truculentus`) - NEW [v1.3.0, 2026-07-20]; verbatim from TLL `plautus/truculentus.shtml` (curl). **FLAG: notoriously lacunose play**; windows chosen in cleaner stretches; editorial supplements accepted.
+### Truculentus (`truculentus`) - NEW [v1.3.0, 2026-07-20]; verbatim from TLL `plautus/truculentus.shtml` (curl). Notoriously lacunose play; **PROOFREAD BY THE USER (2026-07-20)** - citation + editorial-mark fixes applied to frags 3-5 (below); frags 1-2 were already fine.
 - **Act I, Sc. 1, vv. 22-30** - Diniarchus's programmatic love-as-bankruptcy overture (*summa summarum*; suspended *quot...quot*). HARD. (Ends on the transitional colon at v.30.)
 - **Act II, Sc. 2, vv. 256-263** - Truculentus berating Astaphium (*arietat*; salve/salute/sanior pun; *eiram*=iram). Medium.
-- **Act II, Sc. 5, vv. 447-460** - Phronesium's borrowed-baby scheming (*dolus*; *alienos dolores mihi supposivi*). Medium-hard; **roughest window** (lacunose) - dropped 2 em-dash crux marks, *<nunc>*, final ; -> . **flag.**
-- **Act III, Sc. 2, vv. 668-677** - the reversal, "iam non ego sum truculentus" / "tuam expecto truculentiam". Medium. Accepted *<ego>* and *<quid metuam>*.
-- **Act IV, Sc. 3, vv. 770-779** - Callicles' menacing "gentle master" interrogation (*colubrino ingenio*; *bilinguis*; *tintinnaculos viros*). Medium. (*mitis* v.771 confirmed - the earlier fetch "milis" was an artifact.)
+- **Act II, Sc. 5, vv. 448-460** - Phronesium's borrowed-baby scheming (*dolus*; *alienos dolores mihi supposivi*). Medium-hard; roughest window (lacunose). **PROOFREAD FIXES:** citation 447->448; restored em-dashes `nimio -- minus` and `dolorem -- dolus`; `dolorem` starts its own verse (per Splash Latino + TLL); `<nunc>` v.458 restored in angle brackets + analysis notes it's a conjectural fill.
+- **Act III, Sc. 2, vv. 669-678** - the reversal, "iam non <ego> sum truculentus" / "tuam expecto truculentiam". Medium. **PROOFREAD FIXES:** citation 668->669(-678); restored angle brackets `<ego>` (v.674) and `qui<d metuam>?` (v.675), now noted in analysis.
+- **Act IV, Sc. 3, vv. 775-784** - Callicles' menacing "gentle master" interrogation (*colubrino ingenio*; *bilinguis*; *tintinnaculos viros*). Medium. **PROOFREAD FIX:** citation 770-779 -> 775-784 (text unchanged). (*mitis* v.776 confirmed - the earlier fetch "milis" was an artifact.)
 
 **Scope (user, 2026-07-20):** this was **new comedies only**. The existing 7 comedies were NOT topped up to 5 - deferred to a later update (+12: Amphitruo/Menaechmi +1, the other five +2). Works array reordered alphabetically.
 

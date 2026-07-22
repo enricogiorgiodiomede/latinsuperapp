@@ -35,12 +35,23 @@ Truculentus join, five excerpts each.
   Casina prints no line numbers, so the verse references are approximate, following the standard edition.
 - Cache-busting bumped to `?v=68`.
 
+### Fixed
+- **Truculentus proofread corrections (user):** fixed the citations on three excerpts and restored two
+  editorial marks (cache `?v=69`):
+  - II.5 (Phronesium): citation `447-460` -> **`448-460`**; restored the two em-dashes (`nimio -- minus`,
+    `dolorem -- dolus`), moved `dolorem` onto its own verse (matching Splash Latino / The Latin Library),
+    and put the conjectural `<nunc>` (v.458) back in angle brackets, now flagged in the analysis as an
+    editor's fill.
+  - III.2 (reformed Truculentus): citation `668-677` -> **`669-678`**; restored the angle-bracketed
+    editorial supplements `<ego>` (v.674) and `qui<d metuam>?` (v.675), now noted in the analysis.
+  - IV.3 (Callicles): citation `770-779` -> **`775-784`** (text unchanged).
+
 ### Notes
 - **Asinaria** and **Casina** are well-preserved - self-proofread verbatim, no user proofread needed
   (Casina's verse *numbers* are the only approximation, now noted in-app). **Truculentus** is a
   notoriously lacunose play; the chosen windows sit in cleaner stretches, with a couple of editorial
-  supplements accepted (`<ego>`, `<quid metuam>`, `<nunc>`) and one crux normalized - **flagged for the
-  user's proofread**.
+  supplements accepted (`<ego>`, `<quid metuam>`, `<nunc>`) and one crux normalized. **The user has now
+  proofread Truculentus** - see the Fixed section below for the corrections applied.
 
 ## [1.2.2] - 2026-07-14
 

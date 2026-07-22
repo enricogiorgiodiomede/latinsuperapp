@@ -68,7 +68,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=68`.**
+   whenever you change a JS/CSS file. **Currently `v=69`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -173,7 +173,7 @@ analysisIt, proper accents), short tailored analysis, title, citation; spread ac
 commit + push; update `CHANGELOG.md`, `practice_fragments_reference.md`, and this file (table +
 cache `v=`).
 
-### >>> LIVE at v1.3.0, cache ?v=68 -- IN PROGRESS: FLESH OUT CAESAR'S AGE (Archaic done; NOT Augustan) <<<
+### >>> LIVE at v1.3.0, cache ?v=69 -- IN PROGRESS: FLESH OUT CAESAR'S AGE (Archaic done; NOT Augustan) <<<
 
 **v1.3.0 (2026-07-20, CEST): the big Plautus job (new comedies).** Added 3 comedies at 5 excerpts each -
 **Asinaria, Casina, Truculentus** (15 new fragments, all tagged `version: 1.3.0`, so the VIP badge now
@@ -186,8 +186,11 @@ topped up to 5 (Amphitruo & Menaechmi stay 4, the other five stay 3) - that top-
 **Proofread status (user, 2026-07-20):** **Asinaria + Casina are well-preserved -> self-proofread, NO user
 proofread.** Casina's verse *numbers* are the only approximation (TLL prints none); each Casina fragment now
 carries an in-app note saying so, appended to its `analysis`/`analysisIt` (added v1.3.0 follow-up, cache
-v68). **Only Truculentus is pending the user's proofread** (lacunose play; accepted editorial supplements
-`<ego>`/`<quid metuam>`/`<nunc>`, one crux normalized). Citations: Casina uses "(Casina, Act N, vv. X-Y)"
+v68). **Truculentus PROOFREAD by the user (2026-07-20, cache v69):** fixes applied - II.5 citation 447->**448**-460
+(+ restored em-dashes `nimio -- minus` / `dolorem -- dolus`, moved `dolorem` to its own verse, `<nunc>` v.458
+back in brackets + noted as an editor's fill); III.2 citation 668->**669**-678 (+ restored `<ego>` v.674 and
+`qui<d metuam>?` v.675, noted); IV.3 citation 770-779 -> **775-784** (text unchanged). Frags 1-2 were already
+fine. **All three new comedies now proofread/confirmed.** Citations: Casina uses "(Casina, Act N, vv. X-Y)"
 with no scene number (TLL doesn't number Casina scenes).
 
 **v1.2.2 (2026-07-14, EEST):** the version badges are now **clickable links** (`makeVersionBadge` builds an
