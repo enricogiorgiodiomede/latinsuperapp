@@ -575,3 +575,20 @@ A single midday commit (12:57) shipped v1.3.0, the biggest Plautus expansion yet
 **Proofread flags.** These new comedies add scattered-source uncertainties: *Casina* verse ranges are standard-edition approximations (The Latin Library prints no line numbers) and *Truculentus* is lacunose (a few editorial supplements accepted), both flagged for the user's proofread. The existing seven comedies are still to be topped up to five fragments each in a later update.
 
 **Progress:** Plautus now covers all ten best-known comedies (new ones at 5 fragments each; the original seven still to reach 5). App at v1.3.0, cache v67. The last Archaic item is finishing the seven older Plautus comedies; the Caesar's-Age flesh-out (Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus) and the Augustan Era both remain ahead.
+
+---
+
+## 2026-07-22
+*(End-of-day log, 23:55.)*
+
+Three commits polished the v1.3.0 Plautus batch shipped two days earlier, all citation and editorial-mark corrections rather than new content. Cache stepped v67 -> v70.
+
+**Casina line numbers flagged as approximate.** The midday commit (12:28) confirmed that *Asinaria* and *Casina* are well-preserved and self-proofread (no user proofread needed), leaving only *Truculentus* pending the user's check. Because The Latin Library's *Casina* text prints no line numbers, each *Casina* fragment gained a short bilingual note in its analysis stating that its verse references are approximate (standard-edition numbering). Cache-bust -> v68.
+
+**Truculentus proofread applied.** The afternoon commit (15:34) folded in the user's *Truculentus* proofread fixes: citation ranges were corrected (II.5 Phronesium 447-460 -> 448-460, III.2 669-678, IV.3 770-779 -> 775-784) and editorial marks were restored. The Phronesium excerpt got back its two em-dashes (nimio -- minus, dolorem -- dolus), had "dolorem" moved onto its own verse, and had the conjectural `<nunc>` (v.458) returned to angle brackets; the reformed-Truculentus scene (III.2) had its bracketed supplements `<ego>` (v.674) and `qui<d metuam>?` (v.675) restored. Fragments 1-2 were already correct. Cache-bust -> v69.
+
+**Redundant proofreading flag dropped.** With *Truculentus* now proofread, the final commit (15:39) removed the now-stale "flagged for proofreading" line from the Phronesium excerpt's analysis in both English and Italian. Cache-bust -> v70.
+
+**Housekeeping.** All three changes rippled through the usual surfaces: `js/fragments.js`, `author.html`, `index.html`, `practice.html`, `practice-select.html`, `version.html`, plus CHANGELOG.md, PROGRESS.md, and `practice_fragments_reference.md`.
+
+**Progress:** The Plautus v1.3.0 batch is now fully proofread and cleanly cited, with *Casina*'s approximate line numbers openly noted. App at v1.3.0, cache v70. The last Archaic item is topping the seven older Plautus comedies up to five fragments each; the Caesar's-Age flesh-out (Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus) and the Augustan Era both remain ahead.
