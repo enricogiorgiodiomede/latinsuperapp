@@ -47,12 +47,20 @@ Source for all: The Latin Library, https://www.thelatinlibrary.com/plautus/<play
 - **Act V, Sc. 1, vv. 701-752** - the mistaken-identity quarrel (user-specified; abridged with [...]): the wife (MAT.) mistakes the visiting Syracusan twin (MEN. = Sosicles) for her husband and rails at him over the stolen palla; he, a baffled stranger, answers with mythological jokes - Hecuba the "dog" (canes), and knowing her/her father "as well as Porthaon / Calchas". Speakers MEN./MAT. Verse 700 = TLL file line 1056; <o>/<esse me> supplements normalized.
 - **Act V, Sc. 2, vv. 829-852** - the feigned-madness scene (continues V.1): the wife fetches her father (SEN.), and the cornered twin feigns possession - Bacchus/Apollo turned into jokes (Apollo "orders" him to burn the wife's eyes). One corrupt line (the goat-insult against the father) omitted, marked [...]. Verse nums approx (TLL annotations 831/835/840/845/850). Analysis cross-refs the V.1 Hecuba/Calchas jabs.
 
-### Plautus - all done (6 comedies)
-- Pseudolus (3), Mostellaria (3), Amphitruo (4), Aulularia (3), Miles Gloriosus (3), Menaechmi (4).
+### v1.4.0 top-ups (2026-08-13): the older 7 comedies -> 5 each (+12)
+Verbatim from TLL via curl; well-preserved -> self-proofread, NO user proofread. Editorial marks kept + noted. Fragments re-sorted by verse within each work. User picks: Amphitruo I.1, Miles II.2 (+ Naevius note), Pseudolus quasi-poeta; the rest chosen for act-spread.
+- **Amphitruo** (4->5): **I.1 vv. 427-440** - the wine-cask proof + "Vbi ego Sosia nolim esse, tu esto sane Sosia" gaslighting. Contiguous, clean.
+- **Miles Gloriosus** (3->5): **II.2 vv. 221-234** - Periplectomenus's mock-military commands (analysis carries the **Naevius allusion note**, vv. 210-212 "os columnatum poetae... barbaro"); prepended "PER."; **vv. 226-228 bracketed** (kept). **IV.2 vv. 991-1004** - Milphidippa's staged flattery reels in the vain braggart.
+- **Pseudolus** (3->5): **I.4 vv. 394-405** - the *quasi poeta* monologue (trimmed from 20; keeps v.401/404; **v.398 bracketed**). **IV.2 vv. 963-977** - Simia (as Harpax) baits Ballio ("illa mea sunt cognomenta"; merged line 969-970).
+- **Aulularia** (3->5): **Prologue vv. 1-12** - the Lar Familiaris + the buried gold (archaic *thensaurum*). **IV.10 vv. 740-752** - the cross-purposes confession (Molière's model; *tango*/*tactio* double meaning).
+- **Mostellaria** (3->5): **II.2 vv. 493-505** - Tranio's invented ghost *Diapontius* (the "Mirum quin vigilanti diceret" banter; **`[...]` gap at v.496**, `<...>`/`[...]` supplements; TLL line-nums wander ±1-2 here). **III.1 vv. 532-543** - the *danista* (moneylender); vv. 537-538 angle-bracket supplements.
+- **Bacchides** (3->5): **II.3 vv. 349-362** - Chrysalus's gloat (nautical + weaving metaphors; the "Crucisalum me ex Chrysalo" name-pun). Clean. **III.1 vv. 368-381** - Lydus's "gate of Orcus" outburst ("Bacchides non Bacchides, sed bacchae"; *gerulifigulos*); **vv. 377-378 bracketed**.
+- **Menaechmi** (4->5): **II.2 vv. 285-298** - Cylindrus the cook greets the wrong (Syracusan) twin (the Cylindrus/Coriendrus pun; "iube te piari"). Lacuna-free window (the scene's *** at v.284 avoided).
+
+**Plautus COMPLETE: 10 comedies, 5 each = 50 fragments.**
 
 NOTE on sourcing: Latin pulled from The Latin Library via curl (whole page, then exact lines
-by canonical numbering). Famous lines cross-checked. Worth a final proofread against a printed
-edition before recording.
+by canonical numbering). Famous lines cross-checked. Well-preserved Plautus is self-proofread verbatim.
 
 ### Asinaria (`asinaria`) - NEW [v1.3.0, 2026-07-20]; verbatim from TLL `plautus/asinaria.shtml` (curl); well-preserved -> self-proofread
 - **Act I, Sc. 3, vv. 153-166** - Cleareta the bawd on courtesan-economics (nautical *remigio veloque* / financial-toll puns). Medium-hard; lexical.

@@ -6,6 +6,42 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.4.0] - 2026-08-13
+
+Plautus is complete: the older seven comedies are topped up so every one of the ten has five practice
+fragments (50 in all).
+
+### Added
+- **12 new Plautus practice fragments** (verbatim Latin from The Latin Library + original Italian and
+  English + analysis, with bilingual metadata), spread across acts, so each of the seven older comedies
+  reaches 5:
+  - **Amphitruo** (+1): I.1 vv. 427-440 - Mercury "proves" he is Sosia (the wine he secretly drank) and
+    gaslights him (*Vbi ego Sosia nolim esse, tu esto sane Sosia*).
+  - **Miles Gloriosus** (+2): II.2 vv. 221-234 - the old man drilling Palaestrio in mock-military terms
+    (the analysis notes the veiled Naevius allusion at vv. 210-212); and IV.2 vv. 991-1004 - Milphidippa's
+    staged flattery reeling in the vain braggart.
+  - **Pseudolus** (+2): I.4 vv. 394-405 - the *quasi poeta* monologue (trimmed to keep the poet conceit);
+    and IV.2 vv. 963-977 - the con where Simia baits Ballio, who claims every insult as his own name.
+  - **Aulularia** (+2): the Prologue (vv. 1-12, the Lar Familiaris and the buried gold); and IV.10 vv.
+    740-752 - the cross-purposes confession (Euclio hears theft, Lyconides means the daughter).
+  - **Mostellaria** (+2): II.2 vv. 493-505 - Tranio invents the haunted-house ghost *Diapontius*; and
+    III.1 vv. 532-543 - the *danista* (moneylender) comes to collect.
+  - **Bacchides** (+2): II.3 vv. 349-362 - Chrysalus gloats over the Ephesus-gold trick
+    (*Crucisalum me ex Chrysalo*); and III.1 vv. 368-381 - the tutor Lydus recoiling from the "Bacchants".
+  - **Menaechmi** (+1): II.2 vv. 285-298 - the cook Cylindrus greets the wrong (Syracusan) twin.
+- Plautus now has **10 comedies / 50 fragments**, each comedy's list ordered by verse (play order). All 12
+  tagged `version: 1.4.0`, so the "NEW!" VIP badge and `version.html?v=1.4.0` cover this batch.
+
+### Changed
+- Cache-busting bumped to `?v=72`.
+
+### Notes
+- All well-preserved Plautus - **self-proofread verbatim, no user proofread**. Editorial marks are kept as
+  The Latin Library prints them and flagged in the relevant analyses: bracketed suspect lines (Miles
+  vv. 226-228, Pseudolus v. 398, Bacchides vv. 377-378), angle-bracket supplements (Mostellaria danista
+  vv. 537-538, ghost scene), and a small transmitted gap in the Mostellaria ghost passage (marked `[...]`;
+  its line numbers can wander a verse or two around it).
+
 ## [1.3.0] - 2026-07-20
 
 Plautus's practice bank completes to all ten of his best-known comedies: Asinaria, Casina and
