@@ -62,9 +62,10 @@ Truculentus join, five excerpts each.
   (Casina's verse *numbers* are the only approximation, now noted in-app). **Truculentus** is a
   notoriously lacunose play; the chosen windows sit in cleaner stretches, with a couple of editorial
   supplements accepted (`<ego>`, `<quid metuam>`, `<nunc>`) and one crux normalized. **The user has
-  proofread the original Truculentus windows** (see the Fixed section); the newly-added lines from this
-  round's extensions (Truculentus I.1 vv. 31-34, incl. the `~` crux at v.33; II.2 vv. 264-268) are **for
-  the user's proofread**. The extended Asinaria and Casina passages were self-proofread verbatim.
+  proofread all of Truculentus**, including this round's extension lines (I.1 vv. 31-34 and II.2 vv.
+  264-268), and confirmed everything is correct. The extended Asinaria and Casina passages were
+  self-proofread verbatim. The user also confirmed the new **Casina V** finale is preferable to the old
+  (lacunose) Olympio-narration window it replaced. All three new comedies are now final.
 
 ## [1.2.2] - 2026-07-14
 
