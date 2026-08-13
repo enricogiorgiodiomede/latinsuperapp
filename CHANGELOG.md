@@ -33,7 +33,17 @@ Truculentus join, five excerpts each.
 ### Changed
 - **Casina** fragments now carry a short in-app note (in each analysis, bilingual): The Latin Library's
   Casina prints no line numbers, so the verse references are approximate, following the standard edition.
-- Cache-busting bumped to `?v=68`.
+- **Lengthened the seven new excerpts that were under 10 verses** to 11-15 (at the user's request):
+  Asinaria II.4 (`491-498` -> `491-503`, the full *Fortasse* refrain + Periphanes name-drop); Casina I
+  (`89-96` -> `89-103`, the town/country slanging match + "go and be hanged"); Casina II sortitio
+  (`357-364` -> `357-369`, adding Lysidamus's give-away slip *Casina ut uxor mihi daretur*); Casina III
+  Pardalisca (`621-629` -> `621-633`, the *Perii!* volley); Truculentus I.1 (`22-30` -> `22-34`, the
+  courtesan's *merces annua* / *bolus*); Truculentus II.2 (`256-263` -> `256-268`, the *truncum lentum*
+  name-pun). Translations and analyses extended to match.
+- **Replaced Casina V** (Olympio's wedding-night narration, only 8 clean verses before the play's text
+  collapses into lacunae) with the clean Act V **forgiveness finale** (`vv. 998-1010`): the exposed old
+  lecher blaming his lust on love and grovelling for pardon - the exact payoff to his Act II love-song.
+- Cache-busting bumped to `?v=71`.
 
 ### Fixed
 - **Truculentus proofread corrections (user):** fixed the citations on three excerpts and restored two
@@ -51,8 +61,10 @@ Truculentus join, five excerpts each.
 - **Asinaria** and **Casina** are well-preserved - self-proofread verbatim, no user proofread needed
   (Casina's verse *numbers* are the only approximation, now noted in-app). **Truculentus** is a
   notoriously lacunose play; the chosen windows sit in cleaner stretches, with a couple of editorial
-  supplements accepted (`<ego>`, `<quid metuam>`, `<nunc>`) and one crux normalized. **The user has now
-  proofread Truculentus** - see the Fixed section below for the corrections applied.
+  supplements accepted (`<ego>`, `<quid metuam>`, `<nunc>`) and one crux normalized. **The user has
+  proofread the original Truculentus windows** (see the Fixed section); the newly-added lines from this
+  round's extensions (Truculentus I.1 vv. 31-34, incl. the `~` crux at v.33; II.2 vv. 264-268) are **for
+  the user's proofread**. The extended Asinaria and Casina passages were self-proofread verbatim.
 
 ## [1.2.2] - 2026-07-14
 

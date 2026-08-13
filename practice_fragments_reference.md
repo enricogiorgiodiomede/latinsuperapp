@@ -56,21 +56,21 @@ edition before recording.
 
 ### Asinaria (`asinaria`) - NEW [v1.3.0, 2026-07-20]; verbatim from TLL `plautus/asinaria.shtml` (curl); well-preserved -> self-proofread
 - **Act I, Sc. 3, vv. 153-166** - Cleareta the bawd on courtesan-economics (nautical *remigio veloque* / financial-toll puns). Medium-hard; lexical.
-- **Act II, Sc. 4, vv. 491-498** - *lupus est homo homini, non homo* (v.495, the merchant distrusting a stranger). FAMOUS. Medium.
+- **Act II, Sc. 4, vv. 491-503** - *lupus est homo homini, non homo* (v.495) + the full *Fortasse* refrain & Periphanes name-drop. FAMOUS. Medium. [extended v71]
 - **Act III, Sc. 3, vv. 591-602** - the lovers' teasing farewell (Argyrippus/Philaenium) + the slaves' Solon joke. Medium; stichomythia.
 - **Act IV, Sc. 1, vv. 746-755** - the mock *syngraphus* (exclusivity contract) read aloud; legal-parody register. Medium. (Ended at 755 to skip the *** lacuna at 758.)
 - **Act V, Sc. 1, vv. 830-841** - the father-son dinner-couch rivalry over Philaenium (*pietas, pater...*). Easy-medium. (Skips the bracketed suspect vv. 828-829.)
 
 ### Casina (`casina`) - NEW [v1.3.0, 2026-07-20]; verbatim from TLL `plautus/**cas.shtml**` (NOT casina.shtml). **Well-preserved -> self-proofread, NO user proofread (user confirmed 20/07).** TLL prints NO line numbers -> verse ranges are standard-edition (Lindsay/OCT) approximations; anchor by first line. **Each Casina fragment carries an in-app note (in analysis/analysisIt) that the line numbers are approximate** (added v1.3.0 follow-up, cache v68). u-for-v orthography kept. Citations use "(Casina, Act N, vv. X-Y)" - no scene number (TLL doesn't number Casina scenes).
-- **Act I, vv. 89-96** - the two slaves' rivalry, Chalinus "quasi umbra, quoquo tu ibis" (like a shadow). Medium.
+- **Act I, vv. 89-103** - the two slaves' rivalry, "quasi umbra, quoquo tu ibis" + town/country slanging match + "abi dierectus". Medium. [extended v71]
 - **Act II, vv. 217-227** - Lysidamus's *senex libidinosus* love-song (love the *condimentum*; *fel/mel*; "uxor me excruciat, quia uiuit"). HARD (lyric canticum). **Crux: *lituntur* v.219** (for lutantur/linuntur) kept verbatim.
-- **Act II, vv. 357-364** - the *sortitio* (urn + *sortes*/*sitella*; slave insults *stimulus*/*mastigia*). Medium.
-- **Act III, vv. 621-629** - Pardalisca's mock-tragic panic canticum ("Nulla sum, nulla sum..."). HARD (paratragedy, cretic/bacchiac). Normalized OCR *espetam*->*expetam*.
-- **Act V, vv. 937-944** - Olympio's wedding-night narration (shame-words; *operam date* metatheatre); window stops before the play's *** lacunae. Medium-hard. Accepted *tamen*/*tamquam* (bracket supplements).
+- **Act II, vv. 357-369** - the *sortitio* (*sortes*/*sitella*) + Lysidamus's give-away slip "Casina ut uxor mihi daretur". Medium. [extended v71]
+- **Act III, vv. 621-633** - Pardalisca's mock-tragic panic ("Nulla sum...") + the *Perii!* volley with Lysidamus. HARD. Normalized OCR *espetam*->*expetam*, *exslluit*->*exsiluit*. [extended v71]
+- **Act V, vv. 998-1010** - the forgiveness finale: the exposed old lecher grovels, wife's "Hector Ilius te oppressit", the *amasso/occepso/admisero* oath. Medium. [v71 REPLACED the old Olympio-narration window 937-944, which could not be extended - text collapses into *** lacunae right after v.944; this finale is clean and pays off his Act II love-song.]
 
 ### Truculentus (`truculentus`) - NEW [v1.3.0, 2026-07-20]; verbatim from TLL `plautus/truculentus.shtml` (curl). Notoriously lacunose play; **PROOFREAD BY THE USER (2026-07-20)** - citation + editorial-mark fixes applied to frags 3-5 (below); frags 1-2 were already fine.
-- **Act I, Sc. 1, vv. 22-30** - Diniarchus's programmatic love-as-bankruptcy overture (*summa summarum*; suspended *quot...quot*). HARD. (Ends on the transitional colon at v.30.)
-- **Act II, Sc. 2, vv. 256-263** - Truculentus berating Astaphium (*arietat*; salve/salute/sanior pun; *eiram*=iram). Medium.
+- **Act I, Sc. 1, vv. 22-34** - Diniarchus's love-as-bankruptcy overture (*summa summarum*) + the *merces annua*/*bolus* ledger. HARD. [extended v71; added vv.31-34 incl. the ~ crux at v.33 -> USER PROOFREAD]
+- **Act II, Sc. 2, vv. 256-268** - Truculentus berating Astaphium (*arietat*; salve/salute/sanior pun) + the *truncum lentum* name-pun. Medium. [extended v71; added vv.264-268 -> USER PROOFREAD]
 - **Act II, Sc. 5, vv. 448-460** - Phronesium's borrowed-baby scheming (*dolus*; *alienos dolores mihi supposivi*). Medium-hard; roughest window (lacunose). **PROOFREAD FIXES:** citation 447->448; restored em-dashes `nimio -- minus` and `dolorem -- dolus`; `dolorem` starts its own verse (per Splash Latino + TLL); `<nunc>` v.458 restored in angle brackets + analysis notes it's a conjectural fill.
 - **Act III, Sc. 2, vv. 669-678** - the reversal, "iam non <ego> sum truculentus" / "tuam expecto truculentiam". Medium. **PROOFREAD FIXES:** citation 668->669(-678); restored angle brackets `<ego>` (v.674) and `qui<d metuam>?` (v.675), now noted in analysis.
 - **Act IV, Sc. 3, vv. 775-784** - Callicles' menacing "gentle master" interrogation (*colubrino ingenio*; *bilinguis*; *tintinnaculos viros*). Medium. **PROOFREAD FIX:** citation 770-779 -> 775-784 (text unchanged). (*mitis* v.776 confirmed - the earlier fetch "milis" was an artifact.)
