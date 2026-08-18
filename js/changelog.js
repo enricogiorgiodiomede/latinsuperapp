@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.5.0', date: '2026-08-18', time: '12:55', tz: 'CEST',
+      v: '1.5.0', date: '2026-08-18', time: '12:48', tz: 'CEST',
       en: {
         added: [
           'Cicero gets a proper practice bank. His speeches now hold five works with three excerpts each (15 in total): In Verrem, In Catilinam, Pro Archia, Pro Milone and the Second Philippic.',
