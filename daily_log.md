@@ -592,3 +592,29 @@ Three commits polished the v1.3.0 Plautus batch shipped two days earlier, all ci
 **Housekeeping.** All three changes rippled through the usual surfaces: `js/fragments.js`, `author.html`, `index.html`, `practice.html`, `practice-select.html`, `version.html`, plus CHANGELOG.md, PROGRESS.md, and `practice_fragments_reference.md`.
 
 **Progress:** The Plautus v1.3.0 batch is now fully proofread and cleanly cited, with *Casina*'s approximate line numbers openly noted. App at v1.3.0, cache v70. The last Archaic item is topping the seven older Plautus comedies up to five fragments each; the Caesar's-Age flesh-out (Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus) and the Augustan Era both remain ahead.
+
+---
+
+## 2026-08-13
+*(End-of-day log, compiled 2026-08-18 from the day's commits.)*
+
+A Plautus-completion day: the seven under-length v1.3.0 excerpts were lengthened, the user finished proofreading *Truculentus*, and by evening the seven older comedies were topped up to five fragments each -- finishing Plautus's practice bank at all ten comedies. Three commits, two shipped versions (a v1.3.0 refinement and v1.4.0), cache v70 -> v72.
+
+**v1.3.0 -- short excerpts lengthened (17:02).** Six of the seven new v1.3.0 excerpts that ran under 10 verses were extended, with the added lines translated and analysed: *Asinaria* II.4 491-498 -> 491-503 (the full *Fortasse* refrain + Periphanes name-drop), *Casina* I 89-96 -> 89-103 (the town/country slanging match, "abi dierectus"), *Casina* II *sortitio* 357-364 -> 357-369 (Lysidamus's give-away slip), *Casina* III Pardalisca 621-629 -> 621-633 (the "Perii!" volley), *Truculentus* I.1 22-30 -> 22-34 (the courtesan's ledger: *merces annua* / *bolus*), *Truculentus* II.2 256-263 -> 256-268 (the *truncum-lentum* name-pun). The seventh, *Casina* V (Olympio's wedding-night narration), only had 8 clean verses before the text collapses into lacunae, so it was swapped for the clean Act V forgiveness finale (vv. 998-1010) -- the exposed old lecher grovelling for pardon, the payoff to his Act II love-song. *Asinaria* and *Casina* self-proofread verbatim; the new *Truculentus* lines (including a crux at v.33) were flagged for the user's proofread. Cache-bust -> v71.
+
+**Truculentus proofread + Casina V confirmed (17:18, docs only).** The user proofread all of *Truculentus*, including the new extension lines, and confirmed the *Casina* V finale swap was the right call over the replaced Olympio narration. Pending-proofread flags cleared in CHANGELOG.md and the practice reference sheet; no code changed.
+
+**v1.4.0 -- Plautus completed, +12 fragments (20:27).** The seven older comedies -- *Amphitruo*, *Miles Gloriosus*, *Pseudolus*, *Aulularia*, *Mostellaria*, *Bacchides*, *Menaechmi* -- were topped up from 3 to 5 fragments each: *Amphitruo* I.1 (the wine-cask proof + Sosia gaslighting), *Miles* II.2 (mock-military commands, with a Naevius allusion noted in the analysis) + IV.2 (Milphidippa's flattery reeling in the braggart), *Pseudolus* I.4 (the *quasi-poeta* monologue) + IV.2 (Simia baits Ballio), *Aulularia* Prologue (the Lar and the buried gold) + IV.10 (the cross-purposes confession), *Mostellaria* II.2 (Tranio invents the ghost Diapontius) + III.1 (the *danista*), *Bacchides* II.3 (Chrysalus gloats: *Crucisalum ex Chrysalo*) + III.1 (Lydus vs the Bacchants), *Menaechmi* II.2 (Cylindrus greets the wrong twin). Each comedy's fragments were re-sorted by verse; all 12 tagged version 1.4.0, so the "NEW!" VIP badge and `version.html?v=1.4.0` now cover this batch. Well-preserved text, self-proofread; existing editorial marks kept and flagged. Cache-bust -> v72.
+
+**Progress:** Plautus's practice bank is now complete: all ten comedies, 50 fragments total, fully proofread (self and user). App at v1.4.0, cache v72. Plautus was the last open Archaic item; the main remaining track is the rest of the Caesar's-Age flesh-out (Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus -- Varro later, already at 11 fragments), with the Augustan Era still deferred pending the user's permission.
+
+---
+
+## 2026-08-18
+*(End-of-day log, 11:35.)*
+
+A single housekeeping commit, no content change.
+
+**Session-handoff date refreshed (11:29).** PROGRESS.md's "SESSION HANDOFF" note was updated to reflect the v1.4.0 end state reached on 2026-08-13 (Plautus fully done, cache v72). No code or content changed; docs-only, one line.
+
+**Progress:** No new fragments today. App remains at v1.4.0, cache v72, with the Caesar's-Age flesh-out (Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus) as the next open item and the Augustan Era still deferred.
