@@ -181,3 +181,59 @@ Source: The Latin Library, `nepos/nepos.*.shtml` (each Life its own page; `[N]` 
 - **Hannibal II.3-6** (`nepos.han`): the boyhood oath - direct speech within direct speech (Hannibal quoting Hamilcar; outer `'...'`, inner `"..."`); "numquam me in amicitia cum Romanis fore".
 - **Cato III.1-3** (`nepos.cat`): Cato's industria (agricola/iuris consultus/imperator/orator/litterarum) + the Origines table of contents. Ties to our De Agri Cultura work.
 - **Atticus VI.1-3** (`nepos.att`): principled neutrality "neque se civilibus fluctibus committeret" + the maritime image + staccato refusals (numquam/nullius/neminem).
+
+## Marcus Tullius Cicero (`marcus-tullius-cicero`) - needsSelection, NESTED chooser [Speeches done, v1.5.0, 2026-08-18]
+First author with a **two-level chooser**: `groups` on the author (Speeches / Letters / Philosophical
+works / Rhetorical works), `group` on each work. `practice-select.html` shows categories, `&group=<id>`
+shows that category's works. Target shape agreed with the user: **4-5 works per category, 3 fragments
+per work**. Release 1 = Speeches (done); release 2 = Letters + the philosophical and rhetorical works.
+
+Source: The Latin Library, `cicero/<file>.shtml` (`cat2`, `cat3`, `verres.2.4`, `verres.2.5`, `arch`,
+`milo`, `phil2`). All five speeches are well-preserved -> **self-proofread verbatim, NO user proofread**;
+every `latin` field was checked programmatically against the stripped page (14/14 exact substring match).
+Note: the Verrines Actio Prima is NOT on TLL (`verres.1`/`verrem` 404), only `verres.2.*`.
+
+Section markers normalised to the app's `[n]` style (Pro Milone prints `2.` / `11.` / `105.` inline).
+Editorial marks kept as printed and explained in the analysis: `<hospitis>` (Verr. II.4.2), `[oratori]`
+(Mil. 1). **Two TLL slips avoided by trimming, not reproduced:** `cognitatione` for `cogitatione`
+(Arch. 14 - fragment ends at `...reliquerunt?`) and `non minis` for `non hominis` (Mil. 11 - fragment
+ends at `...quam iusta repetenda`). `Illias` (Arch. 24) and `inplevit` (Phil. II.63) kept + noted.
+
+### Speeches (`speeches`) - 5 works x 3 = 15, chronological by delivery
+- **In Verrem** (`in-verrem`, labelIt "Verrine") - 70 BC:
+  - **II.4.1-2**: the three names (*studium* / *morbus et insania* / *latrocinium*), the archaic imperative
+    *penditote*, the `Nego`-catalogue of loot, and the joke *Latine me scitote, non accusatorie loqui*.
+  - **II.4.77**: Segesta's Diana carried out of town; the *tum... nunc* mirror (Scipio restores / Verres
+    steals), perfect infinitives *convenisse... unxisse... complesse... prosecutas esse*. Note *complesse*, *negoti*.
+  - **II.5.162-163**: Gavius. Opening imperfect *Caedebatur*, delayed subject *civis Romanus*, *crux, crux inquam*,
+    then the four exclamations of 163 (cut at *...virgis caederetur?*, before the Numitorius/Glabrio coda).
+- **In Catilinam** (`in-catilinam`, labelIt "Catilinarie") - 63 BC, +2 (existing I.1-2 kept, tag 1.0.0):
+  - **II.1**: *Abiit, excessit, evasit, erupit*; the *vel... vel... vel* legal hedge; five-fold *non*.
+  - **III.1-2**: one ~50-word period ending in *videtis*; the Romulus comparison (self-promotion in the 3rd person).
+- **Pro Archia** (`pro-archia`) - 62 BC:
+  - **14**: past-unreal period *nisi... suasissem... numquam... obiecissem*; *pleni omnes sunt libri* tricolon;
+    *imagines* = ancestral wax masks (good line for a *novus homo*).
+  - **16**: the nine-verb asyndeton *haec studia adulescentiam alunt... peregrinantur, rusticantur*; *ceterae*
+    agrees with an unstated *delectationes*; *animi adversionem* = older form of *animadversionem*. The easy one.
+  - **24**: Alexander at Achilles's tomb + the Pompey/Theophanes nudge. Narrative, easiest Latin of the five works.
+- **Pro Milone** (`pro-milone`) - 52 BC:
+  - **1-2**: exordium in the armed forum; *ne non timere quidem sine aliquo timore possimus*; Pompey flattery.
+    Description carries the Massilia red-mullet joke.
+  - **10-11**: *non scripta, sed nata lex*, the two triads (*didicimus/accepimus/legimus* vs
+    *adripuimus/hausimus/expressimus*), *non docti sed facti, non instituti sed imbuti*, *silent enim leges inter arma*.
+  - **104-105**: peroration; sermocinatio (*'Minime, minime,' inquit*), tricolon *beatam/ingratam/miseram*,
+    break-off for tears, closing compliment to Pompey. Milo convicted 38-13.
+- **Philippica II** (`philippica-ii`, labelIt "Seconda Filippica") - 44 BC:
+  - **1**: *Quonam meo fato*; praeteritio; *audacior quam Catilina, furiosior quam Clodius*.
+  - **63**: Antony vomiting on the tribunal; triple contemptuous *iste*; ironic exit *veniamus ad splendidiora*.
+    (Chosen over the §44 sexual invective, which is explicit; §63 carries the same register.)
+  - **118-119**: *Defendi rem publicam adulescens, non deseram senex*; the childbirth metaphor *pariat, quod iam
+    diu parturit*; the two closing wishes.
+
+### Still to build (release 2)
+- **Letters** (`letters`): Ad Atticum (existing I.16 + VII.11 + XII.14), Ad Familiares (XIV.4, V.12, XVI.1),
+  Ad Quintum fratrem (`cicero/fratrem1.shtml`, `fratrem3.shtml`), Ad Brutum (`cicero/adbrutum.shtml` - confirmed 200).
+- **Philosophical works** (`philosophical`): De Amicitia (existing 20 + 2), De Senectute, Somnium Scipionis,
+  Tusculanae (Damocles), De Officiis (Regulus).
+- **Rhetorical works** (`rhetorical`): De Oratore (I.16-18, II.216-219 on wit), Brutus (313-316 - NOT §6, which
+  is Hortensius's fragment), Orator (69), De Optimo Genere Oratorum (14, *non verbum pro verbo*).

@@ -68,7 +68,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=72`.**
+   whenever you change a JS/CSS file. **Currently `v=74`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -136,7 +136,7 @@ The full Italian translation pass is **DONE**.
 | Cornelius Nepos | Good Exercise | **De Viris Illustribus (8)**: Praefatio, Themistocles, Alcibiades, Epaminondas, Pelopidas, Hannibal, Cato, Atticus |
 | Quintus Hortensius Hortalus | **NA (grey badge, no chart)** | Cicero, Brutus 6 (1) |
 | Publius Nigidius Figulus | **NA (grey badge, no chart)** | Gellius, NA X.9 (1) |
-| Marcus Tullius Cicero | Very Difficult | In Catilinam I.1-2 · Ad Atticum I.16 · De Amicitia 20 (3) |
+| **Marcus Tullius Cicero** *(needsSelection, NESTED chooser)* | Very Difficult | **Speeches (15, v1.5.0)**: In Verrem 3 · In Catilinam 3 · Pro Archia 3 · Pro Milone 3 · Philippica II 3. **Letters**: Ad Atticum 1. **Philosophical works**: De Amicitia 1. (17 total) |
 | Gaius Julius Caesar | Good Exercise | BG VI.13 Druids · VI.14 Druids · BC I.7 Rubicon speech (3) |
 | Aulus Hirtius | Manageable | BG VIII praef. · Bellum Alexandrinum 1 · Bellum Alexandrinum 2 (3) |
 | Titus Lucretius Carus | Very Difficult | DRN I.80-101 Iphigenia (1) |
@@ -235,19 +235,29 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
 - **DONE / no more** (enough already): Livius Andronicus, Naevius, Ennius, **Caecilius** (done v1.1.1),
   Pacuvius/Accius, Pomponius/Novius, Hortensius/Figulus.
 - **Small** (a few more, for now): ~~**Terence**~~ **DONE v1.1.2 (5/comedy)**, ~~**Lucilius**~~ **DONE v1.1.3 (now 7)**.
-- **Large** (main expansion): **Plautus** (still to do), ~~Cato~~ **DONE v1.1.5**, **Varro** (more later,
-  not now - already has 11), and the rest of Caesar's Age: ~~Nepos~~ **DONE v1.2.0**; still to do =
-  **Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus**.
+- **Large** (main expansion): ~~**Plautus**~~ **DONE v1.4.0**, ~~Cato~~ **DONE v1.1.5**, **Varro** (more later,
+  not now - already has 11), and the rest of Caesar's Age: ~~Nepos~~ **DONE v1.2.0**; **Cicero IN PROGRESS
+  (Speeches done v1.5.0; Letters + Philosophical + Rhetorical still to build)**; still to do =
+  **Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
-**=== SESSION HANDOFF (updated 2026-08-13) ===**
-Current: **v1.4.0, cache ?v=72**, pushed. **PLAUTUS IS DONE: 10 comedies / 50 frags** (v1.4.0 topped up the
-older 7 to 5 each, +12; v1.3.0 added the 3 new comedies). Caesar's-Age flesh-out STARTED: **Nepos done
-(1->8)**. **NEXT (the main remaining track):** the rest of Caesar's Age - **Cicero, Caesar, Hirtius,
-Lucretius, Sallust, Catullus** (Varro later, already 11). Always confirm which author + how many fragments
-before a batch. Per-batch workflow: source verbatim (well-preserved -> self-proofread, no user proofread;
-fragment-only -> flag + ask user); **tag new fragments with the new app version** (version-tracker);
-bilingual IT+EN + analysis + IT metadata; bump cache; verify in browser; commit+push; update CHANGELOG +
-in-app What's New + this file + practice_fragments_reference.md + memory.
+**=== SESSION HANDOFF (updated 2026-08-18) ===**
+Current: **v1.5.0, cache ?v=74**, pushed. Archaic is complete (Plautus 10 comedies / 50 frags since v1.4.0).
+Caesar's-Age flesh-out in progress: **Nepos done (1->8, v1.2.0)**; **Cicero STARTED (v1.5.0): the Speeches
+category is done, 5 works x 3 = 15 fragments.**
+**NEXT: finish Cicero (release 2) = Letters + Philosophical works + Rhetorical works**, same shape agreed
+with the user - **4-5 works per category, 3 fragments per work**. Candidate passages are listed at the end
+of `practice_fragments_reference.md`. After Cicero: **Caesar, Hirtius, Lucretius, Sallust, Catullus**
+(Varro later, already 11).
+**NEW STRUCTURE (v1.5.0): the chooser can nest.** An author entry may carry a `groups` array
+(`{id,label,labelIt,heading,headingIt}`) and each work a `group` id; `practice-select.html` then shows
+categories first and `&group=<id>` shows that category's works. Only Cicero uses it so far; every other
+`needsSelection` author is unchanged. Helpers: `PracticeBank.groups/hasGroups/getGroup/groupOfWork/
+groupFragmentCount`, and `works(slug, groupId)`.
+Always confirm which author + how many fragments before a batch. Per-batch workflow: source verbatim
+(well-preserved -> self-proofread, no user proofread; fragment-only -> flag + ask user); **tag new
+fragments with the new app version** (version-tracker); bilingual IT+EN + analysis + IT metadata; bump
+cache; verify in browser; commit+push; update CHANGELOG + in-app What's New + this file +
+practice_fragments_reference.md + memory.
 **=== end handoff ===**
 
 Remaining work items:

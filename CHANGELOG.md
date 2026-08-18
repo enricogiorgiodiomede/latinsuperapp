@@ -6,6 +6,55 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.5.0] - 2026-08-18
+
+The Caesar's-Age flesh-out resumes with Cicero. First half of the batch: the **Speeches** category,
+five works at three fragments each. The practice chooser gains a **second level** (category -> work)
+so an author with a huge, many-shaped corpus does not have to sit behind one flat list.
+
+### Added
+- **14 new Cicero practice fragments** (verbatim Latin from The Latin Library + original Italian and
+  English + analysis, with bilingual metadata), tagged `version: 1.5.0`:
+  - **In Verrem** (3, new work): II.4.1-2 - the three names for Verres's habit (*studium* / *morbus et
+    insania* / *latrocinium*) and the sweeping *nego* catalogue; II.4.77 - Segesta's women escorting
+    the stolen Diana out of town, built on the *tum... nunc* antithesis (Scipio restored the statue,
+    Verres takes it); II.5.162-163 - the flogging of Gavius, *civis Romanus sum* and *crux, crux inquam*.
+  - **In Catilinam** (+2, now 3): II.1 - *Abiit, excessit, evasit, erupit* and the three-way hedge on
+    whether Cicero actually expelled him; III.1-2 - the single fifty-word period ending in *videtis*,
+    and Cicero installing himself beside Romulus.
+  - **Pro Archia** (3, new work): 14 - the past-unreal period and *pleni omnes sunt libri*; 16 - the
+    nine-verb asyndeton *haec studia adulescentiam alunt...*; 24 - Alexander at Achilles's tomb, ending
+    in the nudge about Pompey and Theophanes.
+  - **Pro Milone** (3, new work): 1-2 - the exordium in an armed forum (*ne non timere quidem sine
+    aliquo timore possimus*); 10-11 - *non scripta, sed nata lex* and *silent enim leges inter arma*;
+    104-105 - the peroration, *O terram illam beatam* and the break-off for tears.
+  - **Philippica II** (3, new work): 1 - *Quonam meo fato* and the praeteritio; 63 - Antony vomiting on
+    the tribunal; 118-119 - *Defendi rem publicam adulescens, non deseram senex*.
+- **Nested practice chooser.** A bank author may now carry a `groups` array; each work names its
+  `group`. `practice-select.html` lists the categories first, and `?group=<id>` lists the works inside
+  one. New `PracticeBank` helpers: `groups`, `hasGroups`, `getGroup`, `groupOfWork`,
+  `groupFragmentCount`; `works(slug, groupId)` filters by group. New i18n keys `select.leadGroups`,
+  `select.worksCount`, `link.backCategories` (EN + IT).
+
+### Changed
+- **Cicero is now `needsSelection`** with four groups: Speeches, Letters, Philosophical works,
+  Rhetorical works. The three pre-existing fragments moved into `in-catilinam`, `ad-atticum` and
+  `de-amicitia` and keep their historical `1.0.0` version tags, so the "NEW!" banner sits only on the
+  new batch. Work order inside Speeches is chronological by delivery (Verrines 70 BC, Catilinarians 63,
+  Pro Archia 62, Pro Milone 52, Philippic II 44).
+- `practice.js`: the "choose another text" link returns to the work's own category, not the top level.
+- Typo fix in the Italian of the existing *In Catilinam* I.1-2 fragment (*schiviam* -> *schiviamo*).
+
+### Notes on sourcing
+All five speeches are well-preserved -> **self-proofread verbatim, no user proofread**. Each new Latin
+field was checked programmatically against the stripped Latin Library page (14/14 exact). Editorial
+marks kept as printed and flagged in the analyses: `<hospitis>` (Verr. II.4.2), `[oratori]` (Mil. 1).
+Two Latin Library slips were sidestepped by trimming rather than reproduced: *cognitatione* for
+*cogitatione* (Arch. 14, last sentence dropped) and *non minis* for *non hominis* (Mil. 11, fragment
+ends at *quam iusta repetenda*). *Illias* (Arch. 24) and *inplevit* (Phil. II.63) are kept and noted.
+
+Cache-bust: `?v=72` -> `?v=74`.
+
 ## [1.4.0] - 2026-08-13
 
 Plautus is complete: the older seven comedies are topped up so every one of the ten has five practice
