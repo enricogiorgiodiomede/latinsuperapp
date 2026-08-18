@@ -107,8 +107,12 @@
     if (PracticeBank.needsSelection(author.slug)) {
       var choose = document.createElement('a');
       choose.className = 'back-link choose-link';
+      // For grouped authors (Cicero) go back to the category the work sits in,
+      // not all the way up to the category list.
+      var backGroup = workId ? PracticeBank.groupOfWork(author.slug, workId) : null;
       choose.href = 'practice-select.html?era=' + encodeURIComponent(era) +
-        '&id=' + encodeURIComponent(author.slug);
+        '&id=' + encodeURIComponent(author.slug) +
+        (backGroup ? '&group=' + encodeURIComponent(backGroup) : '');
       choose.textContent = I18n.t('link.chooseAnother');
       root.appendChild(choose);
     }

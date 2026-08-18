@@ -120,6 +120,7 @@
       // --- practice page ---
       'practice.instruction': 'Translate the Latin, then reveal the answers to check yourself.',
       'link.chooseAnother': '← Choose another text',
+      'link.backCategories': '← Back to the categories',
       'practice.noFragment': 'No fragment is available here yet.',
       'practice.counter': function (p) { return 'Fragment ' + p.n + ' of ' + p.total; },
       'practice.yourTranslation': 'Your translation',
@@ -142,9 +143,11 @@
 
       // --- select page ---
       'select.lead': 'Pick a text to practise. Each one has several fragments you can cycle through.',
+      'select.leadGroups': 'Pick a category, then choose a text inside it.',
       'select.noTexts': 'No texts are available here yet.',
       'select.heading': function (p) { return 'Choose a comedy by ' + p.author; },
       'select.fragmentsCount': function (p) { return p.n + (p.n === 1 ? ' fragment' : ' fragments'); },
+      'select.worksCount': function (p) { return p.n + (p.n === 1 ? ' text' : ' texts'); },
 
       // --- version list page (reached from the excerpt version badges) ---
       'version.heading': function (p) { return 'Excerpts added in v' + p.version; },
@@ -267,6 +270,7 @@
       // --- practice page ---
       'practice.instruction': 'Traduci il testo in latino, poi confronta la tua traduzione con quella proposta.',
       'link.chooseAnother': '← Scegli un altro testo',
+      'link.backCategories': '← Torna alle categorie',
       'practice.noFragment': 'Qui non è ancora disponibile alcun frammento.',
       'practice.counter': function (p) { return 'Frammento ' + p.n + ' di ' + p.total; },
       'practice.yourTranslation': 'La tua traduzione',
@@ -289,9 +293,11 @@
 
       // --- select page ---
       'select.lead': 'Scegli un testo su cui esercitarti. Ognuno di essi ha diversi frammenti che puoi provare a tradurre.',
+      'select.leadGroups': 'Scegli una categoria, poi scegli un testo al suo interno.',
       'select.noTexts': 'Qui non è ancora disponibile alcun testo.',
       'select.heading': function (p) { return 'Scegli una commedia di ' + p.author; },
       'select.fragmentsCount': function (p) { return p.n + (p.n === 1 ? ' frammento' : ' frammenti'); },
+      'select.worksCount': function (p) { return p.n + (p.n === 1 ? ' testo' : ' testi'); },
 
       // --- version list page (reached from the excerpt version badges) ---
       'version.heading': function (p) { return 'Brani aggiunti in v' + p.version; },

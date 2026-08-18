@@ -2403,11 +2403,13 @@
     ]
   },
   "marcus-tullius-cicero": {
-    "needsSelection": false,
+    "needsSelection": true,
     "works": [
       {
-        "id": "cicero-excerpts",
-        "label": "Cicero",
+        "id": "in-catilinam",
+        "label": "In Catilinam",
+        "labelIt": "Catilinarie",
+        "group": "speeches",
         "fragments": [
           {
             "title": "How long, Catiline, will you abuse our patience?",
@@ -2422,7 +2424,14 @@
             "descriptionIt": "8 novembre 63 a.C. Da console, Cicerone ha scoperto la congiura catilinaria e convoca Catilina davanti al senato nel Tempio di Giove Statore. Catilina si presenta davvero, e Cicerone lo affronta in faccia davanti all'intero senato.",
             "analysisIt": "Le tre parole d'apertura -- *Quo usque tandem* -- sono tra le più celebri della prosa latina. *Quo usque* significa \"fin dove\" o \"fino a quando\"; *tandem*, di solito \"finalmente\", qui intensifica l'idea che la pazienza di Roma sia stata tesa oltre ogni limite ragionevole. La domanda è in realtà un'accusa travestita da interrogativo. La frase cresce attraverso una triplice anafora -- *quo usque... quam diu... quem ad finem* -- tre domande parallele e crescenti, il caratteristico *tricolon crescens* ciceroniano.\n\nIl culmine retorico dell'apertura sono le sette proposizioni con *nihil*, elencate in serie strettamente parallela senza pause e risolte da un solo verbo: *moverunt?* Dopo quell'accumulazione martellante, *O tempora, o mores!* arriva come uno shock di semplicità, un'esclamazione vocativa in due parti rivolta non a Catilina ma all'epoca stessa. Vocabolario chiave: *abutere* (deponente *abutor*, che regge l'ablativo *patientia*); *effrenata* (sfrenata); *coniurationem* (congiura); *particeps* (partecipe, che regge il genitivo *publici consilii*); *pestem* (peste, rovina -- vocabolario politico carico). La stessa lunghezza delle frasi porta la retorica: brevi domande iniziali, medie proposizioni parallele con *nihil*, la minuscola esclamazione, poi il culmine periodico.",
             "version": "1.0.0"
-          },
+          }
+        ]
+      },
+      {
+        "id": "ad-atticum",
+        "label": "Epistulae ad Atticum",
+        "group": "letters",
+        "fragments": [
           {
             "title": "A jury bought in two days",
             "citation": "(Ad Atticum I.16)",
@@ -2436,7 +2445,14 @@
             "descriptionIt": "Giugno/luglio 61 a.C. Clodio è appena stato assolto dall'accusa di sacrilegio -- essersi intrufolato alla festa della Bona Dea travestito da donna -- malgrado la testimonianza contraria di Cicerone, con un'assoluzione ottenuta corrompendo la giuria. Cicerone scrive ad Attico, furioso e sardonicamente divertito, in uno dei più taglienti resoconti antichi di corruzione giudiziaria.",
             "analysisIt": "Il contrasto con l'orazione è quasi violento. Qui Cicerone scrive di getto all'amico più intimo, senza alcuna messa in scena. Le frasi sono brevi e incisive, l'ordine delle parole colloquiale. L'inciso *o di boni, rem perditam!* non è retorica ma un grido privato. Non c'è struttura periodica, né anafora, né clausola -- solo un uomo nel suo studio che racconta all'amico cos'è successo.\n\n*Biduo per unum servum et eum ex ludo gladiatorio*: la compressione è essa stessa l'indignazione -- in due giorni, attraverso un solo schiavo, e per giunta proveniente da un *ludus gladiatorius*. *Confecit totum negotium* applica l'espressione burocratica *negotium conficere* alla corruzione, ironia ciceroniana al suo massimo understatement. Il conteggio dei voti, XXV e XXXI, è esatto e amaro, e la coppia allitterante *fames magis quam fama commoverit* (\"la fame li mosse più della reputazione\") è foneticamente precisa e moralmente devastante -- *fama* quasi autosatirica da parte di un uomo famoso per la sua ossessione per la propria. Note grammaticali: *arcessivit* (perfetto di *arcesso*, convocare); *pro mercedis cumulo* (come supplemento alla ricompensa); *summo discessu bonorum* (ablativo assoluto); *vel perire maluerint quam perdere omnia* (*malo* + infinito); *quos fames... commoverit* (relativa con congiuntivo perfetto che caratterizza i trentuno).",
             "version": "1.0.0"
-          },
+          }
+        ]
+      },
+      {
+        "id": "de-amicitia",
+        "label": "De Amicitia",
+        "group": "philosophical",
+        "fragments": [
           {
             "title": "Friendship: agreement on all things divine and human",
             "citation": "(De Amicitia 20)",
@@ -2452,6 +2468,38 @@
             "version": "1.0.0"
           }
         ]
+      }
+    ],
+    "selectHeading": "Choose a text by Cicero",
+    "selectHeadingIt": "Scegli un testo di Cicerone",
+    "groups": [
+      {
+        "id": "speeches",
+        "label": "Speeches",
+        "labelIt": "Orazioni",
+        "heading": "Choose a speech by Cicero",
+        "headingIt": "Scegli un'orazione di Cicerone"
+      },
+      {
+        "id": "letters",
+        "label": "Letters",
+        "labelIt": "Lettere",
+        "heading": "Choose a collection of letters",
+        "headingIt": "Scegli una raccolta di lettere"
+      },
+      {
+        "id": "philosophical",
+        "label": "Philosophical works",
+        "labelIt": "Opere filosofiche",
+        "heading": "Choose a philosophical work by Cicero",
+        "headingIt": "Scegli un'opera filosofica di Cicerone"
+      },
+      {
+        "id": "rhetorical",
+        "label": "Rhetorical works",
+        "labelIt": "Opere retoriche",
+        "heading": "Choose a rhetorical work by Cicero",
+        "headingIt": "Scegli un'opera retorica di Cicerone"
       }
     ]
   },
@@ -2687,10 +2735,38 @@
       var a = AUTHORS[slug];
       return !!(a && a.needsSelection);
     },
-    works: function (slug) {
+    works: function (slug, groupId) {
       var a = AUTHORS[slug];
       if (!a) return [];
-      return a.works.filter(function (w) { return w.fragments && w.fragments.length; });
+      return a.works.filter(function (w) {
+        if (!(w.fragments && w.fragments.length)) return false;
+        return groupId ? w.group === groupId : true;
+      });
+    },
+    // Optional SECOND chooser level. Authors with a huge, many-shaped corpus
+    // (Cicero) sort their works into groups - Speeches, Letters, Philosophical
+    // works, Rhetorical works - so the chooser goes category -> work -> practice.
+    // Authors without a 'groups' array keep the old single-level chooser.
+    groups: function (slug) {
+      var a = AUTHORS[slug];
+      if (!a || !a.groups) return [];
+      var self = this;
+      return a.groups.filter(function (g) { return self.works(slug, g.id).length; });
+    },
+    hasGroups: function (slug) { return this.groups(slug).length > 0; },
+    getGroup: function (slug, groupId) {
+      var a = AUTHORS[slug];
+      if (!a || !a.groups) return null;
+      return a.groups.filter(function (g) { return g.id === groupId; })[0] || null;
+    },
+    // Which group a work belongs to (used to send 'choose another' back to the
+    // right level of the chooser).
+    groupOfWork: function (slug, workId) {
+      var w = this.getWork(slug, workId);
+      return (w && w.group) || null;
+    },
+    groupFragmentCount: function (slug, groupId) {
+      return this.works(slug, groupId).reduce(function (n, w) { return n + w.fragments.length; }, 0);
     },
     getWork: function (slug, workId) {
       var a = AUTHORS[slug];
