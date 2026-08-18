@@ -239,7 +239,7 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
   not now - already has 11), and the rest of Caesar's Age: ~~Nepos~~ **DONE v1.2.0**; still to do =
   **Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
-**=== SESSION HANDOFF (updated 2026-07-20) ===**
+**=== SESSION HANDOFF (updated 2026-08-13) ===**
 Current: **v1.4.0, cache ?v=72**, pushed. **PLAUTUS IS DONE: 10 comedies / 50 frags** (v1.4.0 topped up the
 older 7 to 5 each, +12; v1.3.0 added the 3 new comedies). Caesar's-Age flesh-out STARTED: **Nepos done
 (1->8)**. **NEXT (the main remaining track):** the rest of Caesar's Age - **Cicero, Caesar, Hirtius,
