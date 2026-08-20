@@ -182,7 +182,7 @@ Source: The Latin Library, `nepos/nepos.*.shtml` (each Life its own page; `[N]` 
 - **Cato III.1-3** (`nepos.cat`): Cato's industria (agricola/iuris consultus/imperator/orator/litterarum) + the Origines table of contents. Ties to our De Agri Cultura work.
 - **Atticus VI.1-3** (`nepos.att`): principled neutrality "neque se civilibus fluctibus committeret" + the maritime image + staccato refusals (numquam/nullius/neminem).
 
-## Marcus Tullius Cicero (`marcus-tullius-cicero`) - needsSelection, NESTED chooser [Speeches done, v1.5.0, 2026-08-18]
+## Marcus Tullius Cicero (`marcus-tullius-cicero`) - needsSelection, NESTED chooser [Speeches: v1.5.0 2026-08-18, split + top-up v1.6.0 2026-08-20]
 First author with a **two-level chooser**: `groups` on the author (Speeches / Letters / Philosophical
 works / Rhetorical works), `group` on each work. `practice-select.html` shows categories, `&group=<id>`
 shows that category's works. Target shape agreed with the user: **4-5 works per category, 3 fragments
@@ -251,14 +251,14 @@ ends at `...quam iusta repetenda`). `Illias` (Arch. 24) and `inplevit` (Phil. II
     diu parturit*; the two closing wishes.
 
 ### Still to build
-**NEXT (v1.7.0), agreed with the user 2026-08-18:** more speeches, still 3 fragments per work.
+**NEXT (v1.7.0), agreed with the user 2026-08-20:** more speeches, still 3 fragments per work.
 - **Pro Caelio** (`cicero/cael.shtml` - confirmed 200): the Appius Claudius Caecus prosopopoeia scolding
   Clodia (33-34), the "young men need some latitude" defence, and the Palatine Medea. 3 fragments.
 - **In Pisonem** (`cicero/piso.shtml` - confirmed 200; NB the speech's opening is fragmentary in the
   transmission): the brow-and-face invective, the Epicurean dinners, one provincial-misgovernment stretch.
 - **Philippics I, IV and XIV** (`phil1`, `phil4`, `phil14` - all confirmed 200), 3 each: the opening of the
   series (still conciliatory), the short one delivered to the people, and the last speech Cicero ever gave.
-- Deliberately NOT split: **In Verrem** stays one work (user's call, 2026-08-18).
+- Deliberately NOT split: **In Verrem** stays one work (user's call, 2026-08-20).
 - Deliberately skipped: **Philippica II.44** (Antony's youth) - explicitly sexual invective; II.63 carries
   the same register. Add only if the user asks.
 

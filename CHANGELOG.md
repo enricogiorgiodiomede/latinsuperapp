@@ -6,7 +6,7 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
-## [1.6.0] - 2026-08-18
+## [1.6.0] - 2026-08-20
 
 Cicero, part two. **In Catilinam is split into its four speeches**, each a separate work in the
 chooser, and each topped up to three fragments. User's reasoning: four speeches delivered to two

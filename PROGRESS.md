@@ -240,12 +240,12 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
   (Speeches done v1.5.0; Letters + Philosophical + Rhetorical still to build)**; still to do =
   **Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
-**=== SESSION HANDOFF (updated 2026-08-18) ===**
+**=== SESSION HANDOFF (updated 2026-08-20) ===**
 Current: **v1.6.0, cache ?v=75**, pushed. Archaic is complete (Plautus 10 comedies / 50 frags since v1.4.0).
 Caesar's-Age flesh-out in progress: **Nepos done (1->8, v1.2.0)**; **Cicero IN PROGRESS: Speeches now
 8 works x 3 = 24 fragments** (v1.5.0 built the category; **v1.6.0 split In Catilinam into its four
 speeches** and topped each to 3).
-**NEXT (v1.7.0), decided with the user 2026-08-18: more speeches** - **Pro Caelio** (3), **In Pisonem** (3),
+**NEXT (v1.7.0), decided with the user 2026-08-20: more speeches** - **Pro Caelio** (3), **In Pisonem** (3),
 and **Philippics I, IV and XIV** (3 each) = +15. Sources confirmed live: `cicero/cael.shtml`,
 `cicero/piso.shtml`, `phil1/phil4/phil14.shtml`. **In Verrem deliberately stays one work** (user's call).
 Passage candidates are in `practice_fragments_reference.md` under "Still to build".

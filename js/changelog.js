@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.6.0', date: '2026-08-18', time: '14:20', tz: 'CEST',
+      v: '1.6.0', date: '2026-08-20', time: '21:20', tz: 'CEST',
       en: {
         added: [
           'The four Catilinarian speeches are now four separate texts in the menu, one for each speech, and each has three excerpts. Nine new passages join the three that were already there.',
