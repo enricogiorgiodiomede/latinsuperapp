@@ -36,6 +36,12 @@ different audiences over four weeks should not sit behind one menu entry.
   citation into their own speech and keep their version tags (I.1-2 = 1.0.0; II.1 and III.1-2 = 1.5.0).
   Fragments inside each speech are ordered by section number; the works sit in delivery order inside
   the Speeches group, between In Verrem and Pro Archia.
+- **In Catilinam I.1-2 harmonised with the Latin Library text.** That fragment came from the era draft
+  and omitted the bracketed supplement the site prints: it now reads *quam tu in nos [omnes iam diu]
+  machinaris*. Its Italian and English were re-rendered to match ("against us all, and for a long time
+  now"), and the analysis gained a closing note on what the square brackets mean. Its `version` field
+  stays `1.0.0` - that field records when an excerpt was first added, not when it was edited, so the
+  "NEW!" banner is unaffected. With this, **all 24 Speeches fragments match the source verbatim (24/24)**.
 
 ### Notes on sourcing
 Self-proofread verbatim from `cicero/cat1.shtml`-`cat4.shtml`; the whole Speeches group was
@@ -43,12 +49,7 @@ re-checked programmatically against the stripped pages (**23/23 exact**). Editor
 printed and flagged in the analyses: `[aris]` and `[omnium]` (Cat. I.33), `[sella curulis]` (Cat. IV.2).
 Archaic spellings kept: `Hisce`, `volneras`, `inberbis`, `inpuri`, `inmanitate`.
 
-**Known discrepancy (not changed):** the pre-existing *In Catilinam* I.1-2 fragment (v1.0.0, taken from
-the era draft rather than from TLL) omits the bracketed supplement `[omnes iam diu]` that the Latin
-Library prints in *quam tu in nos [omnes iam diu] machinaris*. Both readings are defensible; left as
-the draft has it, recorded here and in the reference sheet.
-
-Cache-bust: `?v=74` -> `?v=75`.
+Cache-bust: `?v=74` -> `?v=76` (v75 shipped the split; v76 the I.1-2 harmonisation).
 
 ## [1.5.0] - 2026-08-18
 

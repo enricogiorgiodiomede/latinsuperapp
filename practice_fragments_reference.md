@@ -227,9 +227,12 @@ ends at `...quam iusta repetenda`). `Illias` (Arch. 24) and `inplevit` (Phil. II
     **IV.11** Silanus vs Caesar, then *evidentia*: *videor videre* / *cerno animo* / *versatur ante
     oculos*, *sepulta in patria... insepultos acervos* · **IV.24** nine phrases on *decernite*, then
     *habetis eum consulem*.
-  - **Known discrepancy, NOT changed:** the v1.0.0 I.1-2 fragment (taken from the era draft, not from
-    TLL) omits the bracketed supplement `[omnes iam diu]` that TLL prints in *quam tu in nos [omnes iam
-    diu] machinaris*. Both readings are defensible; flagged for the user rather than silently harmonised.
+  - **I.1-2 harmonised with TLL (v1.6.0, user's call).** The fragment came from the era draft and was
+    missing the bracketed supplement; it now reads *quam tu in nos [omnes iam diu] machinaris*, with the
+    IT/EN re-rendered ("contro tutti noi, e ormai da tempo" / "against us all, and for a long time now")
+    and a closing note in the analysis explaining the square-bracket convention. **`version` deliberately
+    left at `1.0.0`** - that field is "first added", not "last edited", so the VIP badge is unaffected.
+    All 24 Speeches fragments now match TLL verbatim (24/24).
 - **Pro Archia** (`pro-archia`) - 62 BC:
   - **14**: past-unreal period *nisi... suasissem... numquam... obiecissem*; *pleni omnes sunt libri* tricolon;
     *imagines* = ancestral wax masks (good line for a *novus homo*).

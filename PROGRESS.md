@@ -68,7 +68,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=75`.**
+   whenever you change a JS/CSS file. **Currently `v=76`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -241,7 +241,7 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
   **Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
 **=== SESSION HANDOFF (updated 2026-08-20) ===**
-Current: **v1.6.0, cache ?v=75**, pushed. Archaic is complete (Plautus 10 comedies / 50 frags since v1.4.0).
+Current: **v1.6.0, cache ?v=76**, pushed. Archaic is complete (Plautus 10 comedies / 50 frags since v1.4.0).
 Caesar's-Age flesh-out in progress: **Nepos done (1->8, v1.2.0)**; **Cicero IN PROGRESS: Speeches now
 8 works x 3 = 24 fragments** (v1.5.0 built the category; **v1.6.0 split In Catilinam into its four
 speeches** and topped each to 3).
