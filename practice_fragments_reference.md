@@ -199,7 +199,7 @@ Editorial marks kept as printed and explained in the analysis: `<hospitis>` (Ver
 (Arch. 14 - fragment ends at `...reliquerunt?`) and `non minis` for `non hominis` (Mil. 11 - fragment
 ends at `...quam iusta repetenda`). `Illias` (Arch. 24) and `inplevit` (Phil. II.63) kept + noted.
 
-### Speeches (`speeches`) - 5 works x 3 = 15, chronological by delivery
+### Speeches (`speeches`) - 8 works x 3 = 24, chronological by delivery
 - **In Verrem** (`in-verrem`, labelIt "Verrine") - 70 BC:
   - **II.4.1-2**: the three names (*studium* / *morbus et insania* / *latrocinium*), the archaic imperative
     *penditote*, the `Nego`-catalogue of loot, and the joke *Latine me scitote, non accusatorie loqui*.
@@ -207,9 +207,29 @@ ends at `...quam iusta repetenda`). `Illias` (Arch. 24) and `inplevit` (Phil. II
     steals), perfect infinitives *convenisse... unxisse... complesse... prosecutas esse*. Note *complesse*, *negoti*.
   - **II.5.162-163**: Gavius. Opening imperfect *Caedebatur*, delayed subject *civis Romanus*, *crux, crux inquam*,
     then the four exclamations of 163 (cut at *...virgis caederetur?*, before the Numitorius/Glabrio coda).
-- **In Catilinam** (`in-catilinam`, labelIt "Catilinarie") - 63 BC, +2 (existing I.1-2 kept, tag 1.0.0):
-  - **II.1**: *Abiit, excessit, evasit, erupit*; the *vel... vel... vel* legal hedge; five-fold *non*.
-  - **III.1-2**: one ~50-word period ending in *videtis*; the Romulus comparison (self-promotion in the 3rd person).
+- **In Catilinam I-IV** - 63 BC. **SPLIT into four works in v1.6.0** (user's call: four speeches, two
+  different audiences, four weeks apart): `in-catilinam-i` / `-ii` / `-iii` / `-iv`, labelIt
+  "Prima/Seconda/Terza/Quarta Catilinaria". The 3 pre-split fragments were routed by citation and keep
+  their tags (I.1-2 = 1.0.0; II.1 and III.1-2 = 1.5.0); the other 9 are v1.6.0. Sources `cat1`-`cat4`.
+  - **I** (`cat1`): I.1-2 *Quo usque tandem* (existing) · **I.17-18** the *patria* prosopopoeia (the
+    extract starts mid-17 at *Nunc te patria...* so the speaker is named before she speaks; closes on
+    the *si verus / sin falsus* dilemma) · **I.33** the Jupiter Stator prayer (*Stator* pun, future
+    indicatives *arcebis/mactabis*, `[aris]` and `[omnium]` brackets kept). Archaic *Hisce*, *volneras*.
+  - **II** (`cat2`): II.1 *Abiit, excessit, evasit, erupit* (existing) · **II.11** *intus insidiae
+    sunt...*, the unnamed *unius virtute* = Pompey, *sanare*/*resecanda* medical metaphor ·
+    **II.22-23** the sixth class (extract starts at *Postremum autem genus*), *seminarium Catilinarum*,
+    naked-dancing punchline. Archaic *inberbis*, *inpuri*.
+  - **III** (`cat3`): III.1-2 the *videtis* period (existing) · **III.6** the Mulvian Bridge sting -
+    historic presents, *integris signis*, the deadpan Lentulus line; **the easiest Latin in the group** ·
+    **III.26** *nullum praemium... praeterquam huius diei memoriam sempiternam* + the *duos civis* pairing.
+  - **IV** (`cat4`, entirely new): **IV.1-2** six *non* phrases before *fuit*, `[sella curulis]` kept,
+    Lentulus's *fatale* name vs Cicero's *prope fatalem* consulship (the longest fragment, ~1580 chars) ·
+    **IV.11** Silanus vs Caesar, then *evidentia*: *videor videre* / *cerno animo* / *versatur ante
+    oculos*, *sepulta in patria... insepultos acervos* · **IV.24** nine phrases on *decernite*, then
+    *habetis eum consulem*.
+  - **Known discrepancy, NOT changed:** the v1.0.0 I.1-2 fragment (taken from the era draft, not from
+    TLL) omits the bracketed supplement `[omnes iam diu]` that TLL prints in *quam tu in nos [omnes iam
+    diu] machinaris*. Both readings are defensible; flagged for the user rather than silently harmonised.
 - **Pro Archia** (`pro-archia`) - 62 BC:
   - **14**: past-unreal period *nisi... suasissem... numquam... obiecissem*; *pleni omnes sunt libri* tricolon;
     *imagines* = ancestral wax masks (good line for a *novus homo*).
@@ -230,7 +250,19 @@ ends at `...quam iusta repetenda`). `Illias` (Arch. 24) and `inplevit` (Phil. II
   - **118-119**: *Defendi rem publicam adulescens, non deseram senex*; the childbirth metaphor *pariat, quod iam
     diu parturit*; the two closing wishes.
 
-### Still to build (release 2)
+### Still to build
+**NEXT (v1.7.0), agreed with the user 2026-08-18:** more speeches, still 3 fragments per work.
+- **Pro Caelio** (`cicero/cael.shtml` - confirmed 200): the Appius Claudius Caecus prosopopoeia scolding
+  Clodia (33-34), the "young men need some latitude" defence, and the Palatine Medea. 3 fragments.
+- **In Pisonem** (`cicero/piso.shtml` - confirmed 200; NB the speech's opening is fragmentary in the
+  transmission): the brow-and-face invective, the Epicurean dinners, one provincial-misgovernment stretch.
+- **Philippics I, IV and XIV** (`phil1`, `phil4`, `phil14` - all confirmed 200), 3 each: the opening of the
+  series (still conciliatory), the short one delivered to the people, and the last speech Cicero ever gave.
+- Deliberately NOT split: **In Verrem** stays one work (user's call, 2026-08-18).
+- Deliberately skipped: **Philippica II.44** (Antony's youth) - explicitly sexual invective; II.63 carries
+  the same register. Add only if the user asks.
+
+**AFTER the speeches:**
 - **Letters** (`letters`): Ad Atticum (existing I.16 + VII.11 + XII.14), Ad Familiares (XIV.4, V.12, XVI.1),
   Ad Quintum fratrem (`cicero/fratrem1.shtml`, `fratrem3.shtml`), Ad Brutum (`cicero/adbrutum.shtml` - confirmed 200).
 - **Philosophical works** (`philosophical`): De Amicitia (existing 20 + 2), De Senectute, Somnium Scipionis,

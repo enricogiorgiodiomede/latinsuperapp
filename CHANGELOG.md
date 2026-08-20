@@ -6,6 +6,50 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.6.0] - 2026-08-18
+
+Cicero, part two. **In Catilinam is split into its four speeches**, each a separate work in the
+chooser, and each topped up to three fragments. User's reasoning: four speeches delivered to two
+different audiences over four weeks should not sit behind one menu entry.
+
+### Added
+- **9 new Cicero practice fragments** (verbatim Latin from The Latin Library + original Italian and
+  English + analysis, with bilingual metadata), tagged `version: 1.6.0`:
+  - **In Catilinam I** (+2): 17-18 - the *prosopopoeia*, the *patria* speaking as a mother
+    (*discede atque hunc mihi timorem eripe*); 33 - the closing prayer to Jupiter Stator, with the
+    *Stator* = "the one who makes things stand" pun and the future indicatives *arcebis... mactabis*.
+  - **In Catilinam II** (+2): 11 - *intus insidiae sunt, intus inclusum periculum est, intus est
+    hostis*, plus the unnamed *unius virtute* (Pompey) and the medical *sanare*/*resecanda* metaphor;
+    22-23 - the sixth class of conspirators, *seminarium Catilinarum*, ending on the naked-dancing joke.
+  - **In Catilinam III** (+2): 6 - the Mulvian Bridge sting, historic presents, *integris signis*,
+    and the deadpan line about Lentulus staying up late to write letters (the easiest Latin of the set);
+    26 - *nullum praemium... praeterquam huius diei memoriam sempiternam* and the *duos civis* pairing
+    of Cicero with Pompey.
+  - **In Catilinam IV** (3, new work): 1-2 - six *non* phrases before *fuit*, and Lentulus's *fatale*
+    name turned into Cicero's *prope fatalem* consulship; 11 - the Silanus/Caesar debate and the
+    *evidentia* vision (*videor videre* / *cerno animo* / *versatur ante oculos*); 24 - nine phrases
+    hanging on *decernite*, then *habetis eum consulem, qui...*.
+
+### Changed
+- **`in-catilinam` split into `in-catilinam-i` / `-ii` / `-iii` / `-iv`** (labels "In Catilinam I-IV",
+  labelIt "Prima/Seconda/Terza/Quarta Catilinaria"). The three existing fragments were routed by
+  citation into their own speech and keep their version tags (I.1-2 = 1.0.0; II.1 and III.1-2 = 1.5.0).
+  Fragments inside each speech are ordered by section number; the works sit in delivery order inside
+  the Speeches group, between In Verrem and Pro Archia.
+
+### Notes on sourcing
+Self-proofread verbatim from `cicero/cat1.shtml`-`cat4.shtml`; the whole Speeches group was
+re-checked programmatically against the stripped pages (**23/23 exact**). Editorial brackets kept as
+printed and flagged in the analyses: `[aris]` and `[omnium]` (Cat. I.33), `[sella curulis]` (Cat. IV.2).
+Archaic spellings kept: `Hisce`, `volneras`, `inberbis`, `inpuri`, `inmanitate`.
+
+**Known discrepancy (not changed):** the pre-existing *In Catilinam* I.1-2 fragment (v1.0.0, taken from
+the era draft rather than from TLL) omits the bracketed supplement `[omnes iam diu]` that the Latin
+Library prints in *quam tu in nos [omnes iam diu] machinaris*. Both readings are defensible; left as
+the draft has it, recorded here and in the reference sheet.
+
+Cache-bust: `?v=74` -> `?v=75`.
+
 ## [1.5.0] - 2026-08-18
 
 The Caesar's-Age flesh-out resumes with Cicero. First half of the batch: the **Speeches** category,

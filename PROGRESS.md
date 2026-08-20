@@ -68,7 +68,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=74`.**
+   whenever you change a JS/CSS file. **Currently `v=75`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -136,7 +136,7 @@ The full Italian translation pass is **DONE**.
 | Cornelius Nepos | Good Exercise | **De Viris Illustribus (8)**: Praefatio, Themistocles, Alcibiades, Epaminondas, Pelopidas, Hannibal, Cato, Atticus |
 | Quintus Hortensius Hortalus | **NA (grey badge, no chart)** | Cicero, Brutus 6 (1) |
 | Publius Nigidius Figulus | **NA (grey badge, no chart)** | Gellius, NA X.9 (1) |
-| **Marcus Tullius Cicero** *(needsSelection, NESTED chooser)* | Very Difficult | **Speeches (15, v1.5.0)**: In Verrem 3 · In Catilinam 3 · Pro Archia 3 · Pro Milone 3 · Philippica II 3. **Letters**: Ad Atticum 1. **Philosophical works**: De Amicitia 1. (17 total) |
+| **Marcus Tullius Cicero** *(needsSelection, NESTED chooser)* | Very Difficult | **Speeches (24, v1.5.0 + v1.6.0)**: In Verrem 3 · **In Catilinam I 3 · II 3 · III 3 · IV 3** · Pro Archia 3 · Pro Milone 3 · Philippica II 3. **Letters**: Ad Atticum 1. **Philosophical works**: De Amicitia 1. (26 total) |
 | Gaius Julius Caesar | Good Exercise | BG VI.13 Druids · VI.14 Druids · BC I.7 Rubicon speech (3) |
 | Aulus Hirtius | Manageable | BG VIII praef. · Bellum Alexandrinum 1 · Bellum Alexandrinum 2 (3) |
 | Titus Lucretius Carus | Very Difficult | DRN I.80-101 Iphigenia (1) |
@@ -241,13 +241,16 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
   **Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
 **=== SESSION HANDOFF (updated 2026-08-18) ===**
-Current: **v1.5.0, cache ?v=74**, pushed. Archaic is complete (Plautus 10 comedies / 50 frags since v1.4.0).
-Caesar's-Age flesh-out in progress: **Nepos done (1->8, v1.2.0)**; **Cicero STARTED (v1.5.0): the Speeches
-category is done, 5 works x 3 = 15 fragments.**
-**NEXT: finish Cicero (release 2) = Letters + Philosophical works + Rhetorical works**, same shape agreed
-with the user - **4-5 works per category, 3 fragments per work**. Candidate passages are listed at the end
-of `practice_fragments_reference.md`. After Cicero: **Caesar, Hirtius, Lucretius, Sallust, Catullus**
-(Varro later, already 11).
+Current: **v1.6.0, cache ?v=75**, pushed. Archaic is complete (Plautus 10 comedies / 50 frags since v1.4.0).
+Caesar's-Age flesh-out in progress: **Nepos done (1->8, v1.2.0)**; **Cicero IN PROGRESS: Speeches now
+8 works x 3 = 24 fragments** (v1.5.0 built the category; **v1.6.0 split In Catilinam into its four
+speeches** and topped each to 3).
+**NEXT (v1.7.0), decided with the user 2026-08-18: more speeches** - **Pro Caelio** (3), **In Pisonem** (3),
+and **Philippics I, IV and XIV** (3 each) = +15. Sources confirmed live: `cicero/cael.shtml`,
+`cicero/piso.shtml`, `phil1/phil4/phil14.shtml`. **In Verrem deliberately stays one work** (user's call).
+Passage candidates are in `practice_fragments_reference.md` under "Still to build".
+**AFTER that:** Cicero's Letters + Philosophical works + Rhetorical works (same 3-per-work shape), then
+**Caesar, Hirtius, Lucretius, Sallust, Catullus** (Varro later, already 11).
 **NEW STRUCTURE (v1.5.0): the chooser can nest.** An author entry may carry a `groups` array
 (`{id,label,labelIt,heading,headingIt}`) and each work a `group` id; `practice-select.html` then shows
 categories first and `&group=<id>` shows that category's works. Only Cicero uses it so far; every other
