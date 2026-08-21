@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.6.1', date: '2026-08-21', time: '20:35', tz: 'CEST',
+      v: '1.6.1', date: '2026-08-21', time: '20:30', tz: 'CEST',
       en: {
         added: [
           'Four more excerpts from the first Catilinarian, which now has seven. They were picked to follow the speech as it actually unfolds, and they sit in paragraph order alongside the ones already there.',
