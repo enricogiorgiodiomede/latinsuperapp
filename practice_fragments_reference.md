@@ -211,10 +211,29 @@ ends at `...quam iusta repetenda`). `Illias` (Arch. 24) and `inplevit` (Phil. II
   different audiences, four weeks apart): `in-catilinam-i` / `-ii` / `-iii` / `-iv`, labelIt
   "Prima/Seconda/Terza/Quarta Catilinaria". The 3 pre-split fragments were routed by citation and keep
   their tags (I.1-2 = 1.0.0; II.1 and III.1-2 = 1.5.0); the other 9 are v1.6.0. Sources `cat1`-`cat4`.
-  - **I** (`cat1`): I.1-2 *Quo usque tandem* (existing) · **I.17-18** the *patria* prosopopoeia (the
-    extract starts mid-17 at *Nunc te patria...* so the speaker is named before she speaks; closes on
-    the *si verus / sin falsus* dilemma) · **I.33** the Jupiter Stator prayer (*Stator* pun, future
-    indicatives *arcebis/mactabis*, `[aris]` and `[omnium]` brackets kept). Archaic *Hisce*, *volneras*.
+  - **I** (`cat1`) - **the deep one: heading for 10 fragments** (the user's textbook draws its Cicero
+    only from this speech). v1.6.0 base: I.1-2 *Quo usque tandem* (existing) · **I.17-18** the *patria*
+    prosopopoeia (the extract starts mid-17 at *Nunc te patria...* so the speaker is named before she
+    speaks; closes on the *si verus / sin falsus* dilemma) · **I.33** the Jupiter Stator prayer
+    (*Stator* pun, future indicatives *arcebis/mactabis*, `[aris]` and `[omnium]` brackets kept).
+    Archaic *Hisce*, *volneras*.
+    - **v1.6.1 (+4, user-chosen passages 1-4 of 7):**
+      - **I.3** - Scipio/Gracchus + Ahala/Maelius exempla (a minore ad maius), geminatio *Fuit, fuit*,
+        closing *nos, nos, dico aperte, consules desumus*. Tie to the SCU of 21 Oct 63 in the analysis.
+      - **I.5** - *Castra sunt in Italia... in Etruriae faucibus*; *videtis* implicates the Senate;
+        the delay defended with *serius* vs *crudelius*, bare future *interficiere*, and the undefined
+        *certa de causa* (he was waiting for evidence - got it at the Mulvian Bridge, see III.6).
+      - **I.8-9** - Laeca's house *inter falcarios*; parenthesis *non agam obscure*; §9's four
+        unanswered questions + *hic, hic* + the sword/word paradox; then six asyndetic perfects
+        (*distribuisti... dixisti*) and the two knights, *in meo lectulo*. Longest at ~1280 chars.
+        `[esse]` kept. Extract runs from *Recognosce tandem...* to *...pollicerentur.*
+      - **I.10** - five imperatives around *patent portae*, *Manliana castra* taunt, *purga urbem*
+        (medical thread), tricolon *non feram, non patiar, non sinam*. The short one, ~380 chars.
+    - **v1.6.2 (+3, still to build):** I.20-21 (start at *Quid est, Catilina? ecquid attendis...* so it
+      does not repeat I.10's *egredere*; climax *cum tacent, clamant*) · I.27-29 **trimmed** (the
+      *patria* turning on Cicero, *"M. Tulli, quid agis?"*; keep the intro + challenge + the three
+      objections, then `[...]`, then *An, cum bello vastabitur Italia... conflagraturum?*; ~1100 chars)
+      · I.31-32 (the cold-water-on-a-fever metaphor + *secernant se a bonis*).
   - **II** (`cat2`): II.1 *Abiit, excessit, evasit, erupit* (existing) · **II.11** *intus insidiae
     sunt...*, the unnamed *unius virtute* = Pompey, *sanare*/*resecanda* medical metaphor ·
     **II.22-23** the sixth class (extract starts at *Postremum autem genus*), *seminarium Catilinarum*,

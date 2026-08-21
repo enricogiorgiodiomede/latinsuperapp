@@ -6,6 +6,39 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.6.1] - 2026-08-21
+
+First of four small batches deepening the Catilinarians before v1.7.0. The user's textbook takes its
+Cicero excerpts only from the **first** speech, so *In Catilinam I* gets the bulk of the new material
+(3 -> 10 across v1.6.1 and v1.6.2); II, III and IV go to 5 each afterwards. Passages 1-6 for Cat I were
+named by the user; the seventh (I.20-21) was chosen from a shortlist.
+
+### Added
+- **4 new *In Catilinam I* fragments** (verbatim Latin from The Latin Library `cicero/cat1.shtml` +
+  original Italian and English + analysis, with bilingual metadata), tagged `version: 1.6.1`, so the
+  speech now holds 7:
+  - **I.3** - the Scipio/Gracchus and Ahala/Maelius exempla (argument from the smaller case), the
+    geminatio *Fuit, fuit ista quondam... virtus*, and the closing confession-as-threat
+    *nos, nos, dico aperte, consules desumus*, with the *senatus consultum ultimum* of 21 October
+    already in Cicero's hand.
+  - **I.5** - *Castra sunt in Italia contra populum Romanum in Etruriae faucibus conlocata*: the camp,
+    the growing numbers, and its general sitting *intra moenia atque adeo in senatu*; then the defence
+    of the delay, *serius* weighed against *crudelius*, and the bare future *interficiere*.
+  - **I.8-9** - the night at Laeca's house *inter falcarios*: the parenthesis *non agam obscure*, the
+    four unanswered questions of §9 (*ubinam gentium sumus? in qua urbe vivimus?*), *hic, hic*, the
+    sword/word paradox, and the six-verb asyndetic charge-sheet ending with the two knights who
+    promised to kill Cicero *in meo lectulo*. The longest of the four (~1280 chars). `[esse]` kept.
+  - **I.10** - five imperatives (*perge, egredere, proficiscere, educ, purga*) around *patent portae*,
+    the taunt of *Manliana castra*, and the tricolon *non feram, non patiar, non sinam*.
+
+### Notes
+Fragments inside each speech sort by paragraph number automatically (the applier parses the trailing
+number out of the citation), so the new ones slot in between the existing I.1-2, I.17-18 and I.33.
+Self-proofread; the whole Speeches group was re-checked against the stripped source pages, now
+**28/28 verbatim** (the I.1-2 harmonisation of v1.6.0 brought the last outlier into scope).
+
+Cache-bust: `?v=76` -> `?v=77`.
+
 ## [1.6.0] - 2026-08-20
 
 Cicero, part two. **In Catilinam is split into its four speeches**, each a separate work in the
