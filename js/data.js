@@ -77,9 +77,22 @@
   // ------------------------------------------------------------------
   // Loading
   // ------------------------------------------------------------------
+  // The era drafts are fetched at runtime, so they need the same ?v= the
+  // scripts carry: without it a browser can keep serving stale prose after a
+  // draft is edited, even though the JS was cache-busted. Read the version off
+  // whichever script tag has one rather than hard-coding it here.
+  function assetVersion() {
+    try {
+      var s = document.querySelector('script[src*="?v="]');
+      var m = s && s.getAttribute('src').match(/[?&]v=([^&]+)/);
+      return m ? m[1] : null;
+    } catch (e) { return null; }
+  }
+
   function loadMarkdown(eraId) {
     var cfg = ERA_CONFIG[eraId];
-    return fetch(cfg.mdFile)
+    var v = assetVersion();
+    return fetch(cfg.mdFile + (v ? '?v=' + encodeURIComponent(v) : ''))
       .then(function (res) {
         if (!res.ok) throw new Error('HTTP ' + res.status);
         return res.text();

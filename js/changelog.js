@@ -12,6 +12,29 @@
 
   var VERSIONS = [
     {
+      v: '1.6.5', date: '2026-08-22', time: '21:45', tz: 'CEST',
+      en: {
+        added: [
+          'One more excerpt from the fourth Catilinarian, which goes to eight: the legal argument that made the executions possible. A law carried by Gaius Gracchus forbade putting a Roman citizen to death without a vote of the people, and Cicero gets around it by definition rather than by denial - a man who is an enemy of the state cannot be a citizen at all, so the protection never applied to him. He then points out that Gracchus himself was killed without any vote of the people (10).',
+          'Cicero\'s biography gains a passage on the idea he built his whole career on: that Rome was held together not by written law but by the custom of the ancestors, an unwritten constitution designed for a small self-governing city and now being asked to run an empire. It includes his model, Cato the Elder, another outsider from a country town who turned himself into the definition of ancestral virtue - and the irony that the tradition\'s own safeguards were eventually used to drive Cicero out of Italy.'
+        ],
+        changed: [
+          'The notes on the excerpt about Caesar\'s motion (IV.7) now point to Sallust, who rewrote the same Senate debate a generation later and gave Caesar a speech of his own, with much the same arguments.'
+        ],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Un altro brano dalla quarta Catilinaria, che sale a otto: l\'argomento giuridico che rese possibili le esecuzioni. Una legge fatta approvare da Gaio Gracco vietava di mettere a morte un cittadino romano senza un voto del popolo, e Cicerone la aggira per definizione invece che negandola: chi è nemico dello Stato non può essere affatto cittadino, quindi quella tutela non lo ha mai riguardato. Poi fa notare che Gracco stesso fu ucciso senza alcun voto del popolo (10).',
+          'La biografia di Cicerone si arricchisce di un passaggio sull\'idea su cui costruì tutta la sua carriera: che Roma fosse tenuta insieme non dalla legge scritta ma dal costume degli antenati, una costituzione non scritta pensata per una piccola città che governava se stessa e ora chiamata a reggere un impero. Comprende il suo modello, Catone il Vecchio, un altro uomo venuto da fuori, da una cittadina di provincia, che fece di se stesso la definizione della virtù avita; e l\'ironia che le garanzie di quella stessa tradizione furono infine usate per cacciare Cicerone dall\'Italia.'
+        ],
+        changed: [
+          'Le note al brano sulla mozione di Cesare (IV.7) rimandano ora a Sallustio, che riscrisse lo stesso dibattito in senato una generazione più tardi e diede a Cesare un discorso tutto suo, con argomenti molto simili.'
+        ],
+        deleted: []
+      }
+    },
+    {
       v: '1.6.4', date: '2026-08-22', time: '20:48', tz: 'CEST',
       en: {
         added: [

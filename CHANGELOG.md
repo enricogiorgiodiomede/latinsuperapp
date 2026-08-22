@@ -6,6 +6,47 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.6.5] - 2026-08-22
+
+Three user-requested additions, plus a caching bug found while verifying them.
+
+### Added
+- **In Catilinam IV.10** (tagged `version: 1.6.5`), taking Cat IV to **8** and the Catilinarians to
+  **32**. This is the passage flagged in v1.6.4 as the notable omission: the *lex Sempronia*
+  argument, *qui autem rei publicae sit hostis, eum civem esse nullo modo posse* - Cicero does not
+  deny the law protecting citizens, he defines the prisoners out of it - followed by the observation
+  that Gaius Gracchus, who carried that law, was himself killed *iniussu populi*. Also carries the
+  jab at the absent unnamed *popularis* and three syncopated perfects in a row (*decrerit*,
+  *cogitarit*, *iudicarit*). Placed between IV.7 and IV.11, so the debate now runs 7 · 10 · 11.
+- **Two paragraphs on the *mos maiorum* in Cicero's biography**, in `caesar_era_draft.md` and
+  mirrored in `italian_translations_caesar.md`, placed after the "decade of the fifties" paragraph
+  where the theme of a changing republic is already in play. They cover the unwritten ancestral
+  constitution as the core of his politics (with Ennius's *moribus antiquis res stat Romana
+  virisque*, quoted in the *De Re Publica*), the structural problem that it was built for a
+  self-governing city-state and was now asked to govern an empire, and **the Cato the Elder
+  parallel**: another *novus homo* from a country town who made himself the definition of ancestral
+  virtue, whom Cicero lists in the *Pro Archia* and later hands the lead role in the *De Senectute*.
+  Closes on the irony that the tradition's own protections were used to exile him.
+
+### Changed
+- **IV.7's analysis gains a brief nod to Sallust**, *Bellum Catilinae* 51, where Caesar gets a full
+  speech of his own: the shared tropes are that death ends suffering rather than inflicting it, that
+  perpetual imprisonment is the heavier penalty, and that the danger lies in the precedent. Both
+  languages. The fragment's `version` stays `1.6.4` - that field is first-added, not last-edited.
+
+### Fixed
+- **`js/data.js` fetched the era drafts with no cache-buster**, so a returning reader could keep
+  seeing stale biography prose from the HTTP cache after a draft edit, even though every JS and CSS
+  include had been bumped. This was caught in the preview: the new biography paragraphs were in the
+  file served over HTTP but not on the rendered page. `loadMarkdown` now appends the same `?v=`,
+  read off whichever script tag carries one (new `assetVersion()` helper) rather than hard-coded.
+
+### Notes
+Regenerated both offline copies: `js/content.js` (now written from **both** era drafts in one step)
+and `js/content-it.js` via `node build_content_it.js`. Speeches group re-checked, **44/44 verbatim**.
+
+Cache-bust: `?v=80` -> `?v=81`.
+
 ## [1.6.4] - 2026-08-22
 
 Last of the four Catilinarian batches. *In Catilinam IV* goes to **7** (not the 5 originally planned),

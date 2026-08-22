@@ -290,11 +290,16 @@ ends at `...quam iusta repetenda`). `Illias` (Arch. 24) and `inplevit` (Phil. II
       `[hoc]`, `[tantum]` kept. Longest of the batch (~1720).
     - **IV.19 (v1.6.4)** *habetis ducem memorem vestri, oblitum sui* + the *Cogitate* sentence ending
       *una nox paene delerit* (syncopated, indirect question). `[non]` kept. The short one (~680).
-    - **CONSIDERED, NOT USED: IV.10** - the *lex Sempronia* argument (*qui rei publicae sit hostis, eum
-      civem esse nullo modo posse*), plus the jab at the absent *popularis* and the note that Gaius
-      Gracchus himself was killed without the people's order. Historically the most consequential
-      passage in the speech and the basis of Clodius's law that exiled Cicero. **First choice if Cat IV
-      is ever extended to 8.**
+    - **IV.10 (v1.6.5)** - added on the user's request, taking Cat IV to **8**: the *lex Sempronia*
+      argument (*qui autem rei publicae sit hostis, eum civem esse nullo modo posse*), the jab at the
+      absent unnamed *popularis*, the note that Gaius Gracchus himself was killed *iniussu populi*, and
+      three syncopated perfects (*decrerit, cogitarit, iudicarit*). Historically the most consequential
+      passage in the speech and the basis of Clodius's exile law. Sits between IV.7 and IV.11, so the
+      debate reads 7 · 10 · 11.
+    - **v1.6.5 also:** IV.7's analysis (EN + IT) gained a brief cross-reference to **Sallust, *Bellum
+      Catilinae* 51**, where Caesar has a speech of his own - shared tropes: death ends suffering
+      rather than inflicting it, perpetual imprisonment is heavier, the danger is the precedent.
+      IV.7's `version` stayed `1.6.4` (first-added, not last-edited).
     - v1.6.0 base: **IV.1-2** six *non* phrases before *fuit*, `[sella curulis]` kept,
     Lentulus's *fatale* name vs Cicero's *prope fatalem* consulship (the longest fragment, ~1580 chars) ·
     **IV.11** Silanus vs Caesar, then *evidentia*: *videor videre* / *cerno animo* / *versatur ante
