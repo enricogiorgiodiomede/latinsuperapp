@@ -6,6 +6,54 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.6.3] - 2026-08-22
+
+Third Catilinarian batch, **doubled in size at the user's request**: leaving II, III and IV at 5 while
+I stood at 10 felt too thin, so II and III go to **7 each** (+4 apiece) instead of +2. Cicero's
+speeches are also **reordered alphabetically**.
+
+### Added
+- **8 new fragments** (verbatim Latin from `cicero/cat2.shtml` and `cat3.shtml` + original Italian and
+  English + analysis, with bilingual metadata), tagged `version: 1.6.3`.
+- ***In Catilinam II* 3 -> 7:**
+  - **II.7** - *sentina urbis*, the bilge-water metaphor kept alive by *exhausto*, then fourteen *quis*
+    questions sharing one verb (*inveniri potest*): a rogues' gallery by *congeries*. Vocabulary
+    showcase (*testamentorum subiector*, *circumscriptor*, *ganeo*, *nepos* = spendthrift).
+  - **II.12-13** - the answer to the charge of expelling a citizen without trial: three descending
+    courtesies (*appellavit / salutavit / aspexit*) and the benches left *nudam atque inanem*; then
+    sarcasm (*ego vehemens ille consul*) and the inventory ending in Marius's silver eagle and its
+    household shrine. `[ubi fuisset,]` and `[scelerum]` kept. Pairs with I.8-9 (same scene, other side).
+  - **II.25** - the two armies as abstractions: seven *hinc... illinc* pairs with *pugnat* stated once
+    and then understood, widening into massed virtues against massed vices, closing on *bona spes* vs
+    *omnium rerum desperatione*. The cleanest pure-antithesis exercise in the collection.
+  - **II.29** - the peroration: the gods no longer *procul... ab externo hoste* but *hic praesentes*;
+    Cicero disclaims his own *prudentia*; the liturgy *precari, venerari, implorare*.
+- ***In Catilinam III* 3 -> 7:**
+  - **III.9** - the Gauls' testimony, almost entirely *oratio obliqua*: Lentulus convinced by Sibylline
+    prophecy that he was the third Cornelius after Cinna and Sulla, and that 63 BC was the fated year
+    (tenth after the Vestals' acquittal, twentieth after the Capitol fire). Sets up *fatalis* in IV.2.
+  - **III.10** - the seals opened in the Senate; Cethegus's defence that he had always been *bonorum
+    ferramentorum studiosus*; Lentulus's signet ring bearing his grandfather's portrait, which
+    *etiam muta* should have called him back.
+  - **III.15** - the *supplicatio* decreed *meo nomine*, the first ever *togato*; the decree's own
+    wording quoted (*quod urbem incendiis, caede civis, Italiam bello liberassem*, with syncopated
+    *liberassem*); the closing antithesis *bene gesta* vs *conservata re publica*.
+  - **III.20-21** - the statue of Jupiter: the haruspices' specification, the two-year delay
+    (*tanta fuit operis tarditas*), and the payoff, *eo ipso tempore*, as the conspirators crossed the
+    forum. Closing verbs *illustrata et patefacta* echo the prophecy. `[et senatus et vos]` kept.
+
+### Changed
+- **Cicero's speeches are now listed alphabetically** in the chooser, matching how Plautus's comedies
+  are ordered: In Catilinam I, II, III, IV · In Verrem · Philippica II · Pro Archia · Pro Milone.
+  They had been in order of delivery (Verrines 70 BC first). Groups remain contiguous and in their own
+  order; only the Speeches bucket is sorted, by `label`.
+
+### Notes
+Self-proofread; whole Speeches group re-checked against the stripped source pages, **39/39 verbatim**.
+Fragment order inside each speech is still by paragraph number, applied automatically.
+
+Cache-bust: `?v=78` -> `?v=79`.
+
 ## [1.6.2] - 2026-08-22
 
 Second of the four Catilinarian batches. ***In Catilinam I* is now complete at 10 fragments**, the

@@ -12,6 +12,31 @@
 
   var VERSIONS = [
     {
+      v: '1.6.3', date: '2026-08-22', time: '19:40', tz: 'CEST',
+      en: {
+        added: [
+          'Eight new excerpts: the second and third Catilinarian go from three to seven each. Between them the four speeches now hold twenty-seven passages.',
+          'From the second speech: Catiline as the bilge-water of the city, followed by a roll-call of every kind of criminal who turns out to have been a close friend of his (7); the answer to the people who said Cicero had exiled a citizen illegally, with the senators quietly standing up and leaving empty the whole row he had sat down in (12-13); the two sides drawn up as abstract armies, modesty against shamelessness, good faith against fraud (25); and the closing promise that the gods are no longer defending Rome from far away but standing inside their own temples (29).',
+          'From the third speech: the Gauls testify that Lentulus believed prophecy had marked him out as the third Cornelius to rule Rome, after Cinna and Sulla (9); the sealed letters are opened in front of their authors, and Cethegus explains the swords found at his house by saying he had always been keen on good ironmongery (10); the thanksgiving voted in Cicero\'s name, the first ever for a man in a toga rather than in armour (15); and the statue of Jupiter, ordered two years earlier and delayed by slow builders, which was finally hoisted into place at the exact hour the conspirators were marched across the forum (20-21).'
+        ],
+        changed: [
+          'Cicero\'s speeches are now listed alphabetically in the menu, the way Plautus\'s comedies are: In Catilinam I, II, III and IV, then In Verrem, Philippica II, Pro Archia and Pro Milone. They used to be in the order he delivered them.'
+        ],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Otto nuovi brani: la seconda e la terza Catilinaria passano da tre a sette ciascuna. Fra tutte, le quattro orazioni contengono ora ventisette passi.',
+          'Dalla seconda orazione: Catilina come la sentina della città, seguito dall\'appello di ogni specie di criminale che si scopre essere stato suo intimo amico (7); la risposta a chi diceva che Cicerone avesse esiliato illegalmente un cittadino, con i senatori che si alzano in silenzio e lasciano vuota tutta la fila in cui si era seduto (12-13); i due schieramenti disposti come eserciti di astrazioni, il pudore contro l\'insolenza, la lealtà contro la frode (25); e la promessa finale che gli dèi non difendono più Roma da lontano, ma stanno dentro i propri templi (29).',
+          'Dalla terza orazione: i Galli testimoniano che Lentulo credeva di essere, per profezia, il terzo Cornelio destinato a dominare Roma dopo Cinna e Silla (9); le lettere sigillate vengono aperte davanti ai loro autori, e Cetego spiega le spade trovate in casa sua dicendo di essere sempre stato un appassionato di buoni ferri (10); il rendimento di grazie votato a nome di Cicerone, il primo mai concesso a un uomo in toga anziché in armatura (15); e la statua di Giove, ordinata due anni prima e ritardata da lavori lentissimi, issata al suo posto proprio nell\'ora in cui i congiurati venivano condotti attraverso il foro (20-21).'
+        ],
+        changed: [
+          'Le orazioni di Cicerone sono ora elencate in ordine alfabetico nel menu, come le commedie di Plauto: Prima, Seconda, Terza e Quarta Catilinaria, poi Verrine, Seconda Filippica, Pro Archia e Pro Milone. Prima erano nell\'ordine in cui le pronunciò.'
+        ],
+        deleted: []
+      }
+    },
+    {
       v: '1.6.2', date: '2026-08-22', time: '18:58', tz: 'CEST',
       en: {
         added: [

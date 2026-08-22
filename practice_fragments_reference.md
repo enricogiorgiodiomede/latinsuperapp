@@ -199,7 +199,7 @@ Editorial marks kept as printed and explained in the analysis: `<hospitis>` (Ver
 (Arch. 14 - fragment ends at `...reliquerunt?`) and `non minis` for `non hominis` (Mil. 11 - fragment
 ends at `...quam iusta repetenda`). `Illias` (Arch. 24) and `inplevit` (Phil. II.63) kept + noted.
 
-### Speeches (`speeches`) - 8 works x 3 = 24, chronological by delivery
+### Speeches (`speeches`) - 8 works, 39 fragments. **ORDER: ALPHABETICAL by label since v1.6.3** (user's call, the Plautus precedent; was chronological by delivery). In Catilinam I-IV · In Verrem · Philippica II · Pro Archia · Pro Milone. Only the speeches bucket is sorted; groups stay contiguous. Fragments inside a work stay in paragraph order.
 - **In Verrem** (`in-verrem`, labelIt "Verrine") - 70 BC:
   - **II.4.1-2**: the three names (*studium* / *morbus et insania* / *latrocinium*), the archaic imperative
     *penditote*, the `Nego`-catalogue of loot, and the joke *Latine me scitote, non accusatorie loqui*.
@@ -246,13 +246,35 @@ ends at `...quam iusta repetenda`). `Illias` (Arch. 24) and `inplevit` (Phil. II
       - **Tooling note:** `apply_batch.js` now accepts `keys` + `joins` for composed/trimmed
         fragments, and `verify.js` splits a fragment on `[...]` and requires every piece to be
         verbatim **and in source order** - so trimmed passages are still machine-checked.
-  - **II** (`cat2`): II.1 *Abiit, excessit, evasit, erupit* (existing) · **II.11** *intus insidiae
-    sunt...*, the unnamed *unius virtute* = Pompey, *sanare*/*resecanda* medical metaphor ·
-    **II.22-23** the sixth class (extract starts at *Postremum autem genus*), *seminarium Catilinarum*,
-    naked-dancing punchline. Archaic *inberbis*, *inpuri*.
-  - **III** (`cat3`): III.1-2 the *videtis* period (existing) · **III.6** the Mulvian Bridge sting -
-    historic presents, *integris signis*, the deadpan Lentulus line; **the easiest Latin in the group** ·
-    **III.26** *nullum praemium... praeterquam huius diei memoriam sempiternam* + the *duos civis* pairing.
+  - **II** (`cat2`) - **7 fragments.** v1.6.0 base: II.1 *Abiit, excessit, evasit, erupit* (existing) ·
+    **II.11** *intus insidiae sunt...*, the unnamed *unius virtute* = Pompey, *sanare*/*resecanda*
+    medical metaphor · **II.22-23** the sixth class (extract starts at *Postremum autem genus*),
+    *seminarium Catilinarum*, naked-dancing punchline. Archaic *inberbis*, *inpuri*.
+    - **v1.6.3 (+4)** - the user doubled this batch so II and III reach 7, not 5:
+      - **II.7** *sentina urbis* + 14 *quis* questions on one verb (*congeries*). Lexis:
+        *testamentorum subiector*, *circumscriptor*, *ganeo*, *nepos* (= spendthrift). Ends at
+        *...non per illum?*; **§8 deliberately excluded** (explicit sexual invective).
+      - **II.12-13** the empty benches (*nudam atque inanem*) + sarcasm *ego vehemens ille consul* +
+        the military inventory ending in Marius's silver eagle. `[ubi fuisset,]`, `[scelerum]` kept.
+        **Cross-ref: same scene as I.8-9, told to the people instead of the Senate.**
+      - **II.25** seven *hinc... illinc* pairs, *pugnat* stated once then understood; massed virtues vs
+        vices; closes *bona spes* vs *omnium rerum desperatione*. Best pure-antithesis exercise here.
+      - **II.29** peroration: gods *hic praesentes* not *procul*; *precari, venerari, implorare*.
+  - **III** (`cat3`) - **7 fragments.** v1.6.0 base: III.1-2 the *videtis* period (existing) ·
+    **III.6** the Mulvian Bridge sting - historic presents, *integris signis*, the deadpan Lentulus
+    line; **the easiest Latin in the group** · **III.26** *nullum praemium... praeterquam huius diei
+    memoriam sempiternam* + the *duos civis* pairing.
+    - **v1.6.3 (+4):**
+      - **III.9** the Gauls' testimony, **almost entirely oratio obliqua** (best acc.+inf. drill in the
+        Cicero set): Lentulus as the third Cornelius after Cinna and Sulla; the fated-year arithmetic
+        (10th after the Vestals' acquittal, 20th after the Capitol fire of 83). Sets up *fatalis* at IV.2.
+      - **III.10** the seals opened; Cethegus *bonorum ferramentorum studiosus*; Lentulus's grandfather
+        on the signet ring, *etiam muta revocare debuit*. Also: the Saturnalia timetable quarrel.
+      - **III.15** the *supplicatio* *meo nomine*, first ever *togato*; the decree quoted verbatim
+        (syncopated *liberassem*); antithesis *bene gesta* vs *conservata re publica*.
+      - **III.20-21** the Jupiter statue: haruspices' spec, the two-year delay (*tanta fuit operis
+        tarditas*), payoff *eo ipso tempore*; closing *illustrata et patefacta* echoes the prophecy.
+        `[et senatus et vos]` kept.
   - **IV** (`cat4`, entirely new): **IV.1-2** six *non* phrases before *fuit*, `[sella curulis]` kept,
     Lentulus's *fatale* name vs Cicero's *prope fatalem* consulship (the longest fragment, ~1580 chars) ·
     **IV.11** Silanus vs Caesar, then *evidentia*: *videor videre* / *cerno animo* / *versatur ante
