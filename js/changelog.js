@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.6.3', date: '2026-08-22', time: '19:40', tz: 'CEST',
+      v: '1.6.3', date: '2026-08-22', time: '19:38', tz: 'CEST',
       en: {
         added: [
           'Eight new excerpts: the second and third Catilinarian go from three to seven each. Between them the four speeches now hold twenty-seven passages.',
