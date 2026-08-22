@@ -6,6 +6,43 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.6.4] - 2026-08-22
+
+Last of the four Catilinarian batches. *In Catilinam IV* goes to **7** (not the 5 originally planned),
+matching II and III; the user's note on the asymmetry: I stands at 10 "simply because it is very long
+and has a lot of memorable parts". **The Catilinarians are now complete: 10 + 7 + 7 + 7 = 31 fragments.**
+
+### Added
+- **4 new *In Catilinam IV* fragments** (verbatim Latin from `cicero/cat4.shtml` + original Italian and
+  English + analysis, with bilingual metadata), tagged `version: 1.6.4`:
+  - **IV.3** - five imperatives (*consulite, prospicite, conservate, defendite, desinite*), the maxim
+    *neque turpis mors forti viro potest accidere neque immatura consulari nec misera sapienti*, and
+    then the household: Quintus in tears, Terentia fainting, Tullia prostrate, the two-year-old Marcus
+    whom the republic holds *tamquam obsidem consulatus mei*, and Piso the son-in-law waiting outside.
+  - **IV.7** - the two motions summarised in strict *alter... alter* balance: Silanus for death,
+    Caesar for confiscation and perpetual chains. Carries Caesar's Epicurean-sounding view reported
+    without sarcasm (*mortem... non esse supplicii causa constitutam, sed aut necessitatem naturae aut
+    laborum ac miseriarum quietem*), then the practical objection about the Italian towns.
+    **Sets up the existing IV.11**, which weighs the two motions. `[, qui populum Romanum]` kept.
+  - **IV.15-16** - *concordia ordinum* as a crowd scene, read down the social ladder: knights (after
+    years of feuding with the Senate), *tribuni aerarii*, the *scribae* who turned from the morning's
+    allotment at the Treasury, the free-born poor, the freedmen who judge this their fatherland
+    "which certain men born here, and in the highest station, have judged a city of enemies", and
+    finally the slaves, *qui modo tolerabili condicione sit servitutis*. `[hoc]`, `[tantum]` kept.
+    Extract starts mid-15 at *Ceteri vero, di inmortales!*.
+  - **IV.19** - *habetis ducem memorem vestri, oblitum sui* (chiasmus in four words), then the
+    *Cogitate* sentence: three parallel accusatives of what Rome took centuries to build, colliding
+    with *una nox paene delerit* (syncopated *delerit* in an indirect question). `[non]` kept.
+
+### Notes
+Order inside the speech: 1-2 · 3 · 7 · 11 · 15-16 · 19 · 24. Self-proofread; the whole Speeches group
+re-checked against the stripped source pages, **43/43 verbatim**.
+Considered and left out: **IV.10**, the *lex Sempronia* argument (an enemy of the state cannot be a
+citizen, so the law protecting citizens does not apply) - historically the most consequential passage
+in the speech, and the one Clodius would use to exile him. Worth adding if Cat IV is ever extended.
+
+Cache-bust: `?v=79` -> `?v=80`.
+
 ## [1.6.3] - 2026-08-22
 
 Third Catilinarian batch, **doubled in size at the user's request**: leaving II, III and IV at 5 while

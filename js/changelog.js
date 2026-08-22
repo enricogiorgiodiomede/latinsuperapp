@@ -12,6 +12,27 @@
 
   var VERSIONS = [
     {
+      v: '1.6.4', date: '2026-08-22', time: '20:50', tz: 'CEST',
+      en: {
+        added: [
+          'Four excerpts from the fourth Catilinarian, which goes to seven. With this the four speeches against Catiline are finished: thirty-one passages in all, and the first speech alone holds ten.',
+          'Cicero tells the Senate to stop worrying about what this vote will cost him, and then lists everyone waiting on the outcome: his brother in tears beside him, his wife fainting, his daughter prostrate with fear, and his two-year-old son, whom the republic seems to be holding in its arms as a hostage for his consulship (3).',
+          'He lays out the two motions with scrupulous fairness: Silanus wants the death penalty, Caesar wants everything confiscated and the men held in chains for ever, on the grounds that death is not a punishment at all but either nature taking its course or a rest from trouble (7). He then walks through the crowd outside, from the knights down to the slaves, to show a city that agrees for once (15-16). And he sums the whole thing up: an empire built over centuries, a liberty held by courage, a prosperity heaped up by the gods, and a single night that came close to wiping out all three (19).'
+        ],
+        changed: [],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Quattro brani dalla quarta Catilinaria, che sale a sette. Con questo le quattro orazioni contro Catilina sono complete: trentuno passi in tutto, e la sola prima orazione ne contiene dieci.',
+          'Cicerone dice al senato di smettere di preoccuparsi di quanto quel voto costerà a lui, e poi elenca tutti quelli che ne aspettano l\'esito: il fratello in lacrime accanto a lui, la moglie svenuta, la figlia prostrata dal terrore e il figlio di due anni, che la repubblica sembra tenere in braccio come ostaggio del suo consolato (3).',
+          'Espone le due mozioni con scrupolosa correttezza: Silano chiede la pena di morte, Cesare chiede la confisca di tutto e le catene a vita, sostenendo che la morte non è affatto una pena ma o il corso della natura o un riposo dalle fatiche (7). Poi attraversa la folla che sta fuori, dai cavalieri fino agli schiavi, per mostrare una città che per una volta è d\'accordo (15-16). E infine tira le somme: un impero costruito in secoli, una libertà tenuta in piedi dal valore, una prosperità accumulata dagli dèi, e una sola notte che ha rischiato di cancellare tutte e tre le cose (19).'
+        ],
+        changed: [],
+        deleted: []
+      }
+    },
+    {
       v: '1.6.3', date: '2026-08-22', time: '19:38', tz: 'CEST',
       en: {
         added: [

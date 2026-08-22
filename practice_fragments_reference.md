@@ -275,7 +275,27 @@ ends at `...quam iusta repetenda`). `Illias` (Arch. 24) and `inplevit` (Phil. II
       - **III.20-21** the Jupiter statue: haruspices' spec, the two-year delay (*tanta fuit operis
         tarditas*), payoff *eo ipso tempore*; closing *illustrata et patefacta* echoes the prophecy.
         `[et senatus et vos]` kept.
-  - **IV** (`cat4`, entirely new): **IV.1-2** six *non* phrases before *fuit*, `[sella curulis]` kept,
+  - **IV** (`cat4`) - **7 fragments.** v1.6.0 base (3) + **v1.6.4 (+4)**; user set the target at 7 to
+    match II and III, noting Cat I is at 10 "simply because it is very long and has a lot of memorable
+    parts". Order: 1-2 · 3 · 7 · 11 · 15-16 · 19 · 24.
+    - **IV.3 (v1.6.4)** five imperatives; the maxim *neque turpis mors forti viro... nec misera
+      sapienti*; the household - Quintus in tears, Terentia fainting, Tullia prostrate, 2-year-old
+      Marcus as *obses consulatus mei*, Piso the son-in-law outside. The emotional one.
+    - **IV.7 (v1.6.4)** the two motions in *alter... alter* balance; Caesar's Epicurean-sounding view
+      of death reported straight; *vincula... et ea sempiterna*; the practical municipia objection.
+      `[, qui populum Romanum]` kept. **Setup for the existing IV.11** - keep them adjacent.
+    - **IV.15-16 (v1.6.4)** concordia ordinum as a crowd scene down the social ladder (knights,
+      tribuni aerarii, scribae at the Treasury lottery, free-born poor, freedmen, slaves *qui modo
+      tolerabili condicione sit servitutis*). Extract starts mid-15 at *Ceteri vero, di inmortales!*.
+      `[hoc]`, `[tantum]` kept. Longest of the batch (~1720).
+    - **IV.19 (v1.6.4)** *habetis ducem memorem vestri, oblitum sui* + the *Cogitate* sentence ending
+      *una nox paene delerit* (syncopated, indirect question). `[non]` kept. The short one (~680).
+    - **CONSIDERED, NOT USED: IV.10** - the *lex Sempronia* argument (*qui rei publicae sit hostis, eum
+      civem esse nullo modo posse*), plus the jab at the absent *popularis* and the note that Gaius
+      Gracchus himself was killed without the people's order. Historically the most consequential
+      passage in the speech and the basis of Clodius's law that exiled Cicero. **First choice if Cat IV
+      is ever extended to 8.**
+    - v1.6.0 base: **IV.1-2** six *non* phrases before *fuit*, `[sella curulis]` kept,
     Lentulus's *fatale* name vs Cicero's *prope fatalem* consulship (the longest fragment, ~1580 chars) ·
     **IV.11** Silanus vs Caesar, then *evidentia*: *videor videre* / *cerno animo* / *versatur ante
     oculos*, *sepulta in patria... insepultos acervos* · **IV.24** nine phrases on *decernite*, then
