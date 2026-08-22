@@ -12,6 +12,25 @@
 
   var VERSIONS = [
     {
+      v: '1.6.2', date: '2026-08-22', time: '19:05', tz: 'CEST',
+      en: {
+        added: [
+          'Three more excerpts from the first Catilinarian, which is now complete at ten. It is far and away the most thoroughly covered text in the app.',
+          'The Senate has sat in dead silence through the whole speech, and Cicero turns that silence into a verdict: "when they keep still they approve, when they let it pass they decree, when they say nothing they shout" (20-21). Then the fatherland, who earlier rounded on Catiline, turns on Cicero instead and demands to know why he is letting the man walk out alive - and warns him that if Italy burns, he will burn with it (27-29). And he admits something a politician rarely admits: getting rid of Catiline will fix nothing, because the conspiracy is a fever already in the bloodstream, and killing one man is the cold drink that brings relief and then a worse relapse (31-32).'
+        ],
+        changed: [],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Altri tre brani dalla prima Catilinaria, che è ora completa a quota dieci. È di gran lunga il testo più approfondito di tutta l\'app.',
+          'Il senato è rimasto in silenzio assoluto per tutta l\'orazione, e Cicerone trasforma quel silenzio in una sentenza: "quando stanno fermi approvano, quando lasciano fare decretano, quando tacciono gridano" (20-21). Poi la patria, che prima si era rivoltata contro Catilina, si rivolta invece contro Cicerone e pretende di sapere perché stia lasciando uscire vivo quell\'uomo, avvertendolo che se l\'Italia brucerà, brucerà anche lui (27-29). E ammette una cosa che un politico ammette di rado: sbarazzarsi di Catilina non risolverà nulla, perché la congiura è una febbre ormai entrata nel sangue, e uccidere un uomo solo è quel sorso d\'acqua fredda che dà sollievo e poi una ricaduta peggiore (31-32).'
+        ],
+        changed: [],
+        deleted: []
+      }
+    },
+    {
       v: '1.6.1', date: '2026-08-21', time: '20:30', tz: 'CEST',
       en: {
         added: [

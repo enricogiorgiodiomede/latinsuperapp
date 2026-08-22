@@ -229,11 +229,23 @@ ends at `...quam iusta repetenda`). `Illias` (Arch. 24) and `inplevit` (Phil. II
         `[esse]` kept. Extract runs from *Recognosce tandem...* to *...pollicerentur.*
       - **I.10** - five imperatives around *patent portae*, *Manliana castra* taunt, *purga urbem*
         (medical thread), tricolon *non feram, non patiar, non sinam*. The short one, ~380 chars.
-    - **v1.6.2 (+3, still to build):** I.20-21 (start at *Quid est, Catilina? ecquid attendis...* so it
-      does not repeat I.10's *egredere*; climax *cum tacent, clamant*) · I.27-29 **trimmed** (the
-      *patria* turning on Cicero, *"M. Tulli, quid agis?"*; keep the intro + challenge + the three
-      objections, then `[...]`, then *An, cum bello vastabitur Italia... conflagraturum?*; ~1100 chars)
-      · I.31-32 (the cold-water-on-a-fever metaphor + *secernant se a bonis*).
+    - **v1.6.2 (+3): In Catilinam I is now DONE at 10.**
+      - **I.20-21** - extract starts at *Quid est, Catilina? ecquid attendis...*, NOT at the section
+        break, so it does not repeat I.10's *egredere ex urbe*. Tricolon *cum quiescunt, probant, cum
+        patiuntur, decernunt, cum tacent, clamant* (*decernunt* = the Senate's technical verb);
+        Sestius/Marcellus counterfactual; *prosequantur* as a threat in polite clothing.
+      - **I.27-29 trimmed** - the second prosopopoeia (the *patria* vs **Cicero**), answering I.17-18.
+        **Composed from 3 extracted pieces** via the new `keys`/`joins` support: `cat1.27a` +
+        `' [28] '` + `cat1.28a` + `' [...] [29] '` + `cat1.29a`. Kept: intro, challenge, the three
+        objections knocked down with *At*. Cut: the ingratitude-to-the-Roman-people stretch at the end
+        of 28 and the first sentence of 29. Archaic *existumas*.
+      - **I.31-32** - the *ut... sic* fever simile, *in venis atque in visceribus rei publicae*, six
+        jussive subjunctives, four-fold *tantam* anaphora (concordia ordinum), asyndetic *patefacta,
+        inlustrata, oppressa, vindicata*. `[id]` editorial bracket kept.
+      - **Final order:** 1-2 · 3 · 5 · 8-9 · 10 · 17-18 · 20-21 · 27-29 · 31-32 · 33.
+      - **Tooling note:** `apply_batch.js` now accepts `keys` + `joins` for composed/trimmed
+        fragments, and `verify.js` splits a fragment on `[...]` and requires every piece to be
+        verbatim **and in source order** - so trimmed passages are still machine-checked.
   - **II** (`cat2`): II.1 *Abiit, excessit, evasit, erupit* (existing) · **II.11** *intus insidiae
     sunt...*, the unnamed *unius virtute* = Pompey, *sanare*/*resecanda* medical metaphor ·
     **II.22-23** the sixth class (extract starts at *Postremum autem genus*), *seminarium Catilinarum*,

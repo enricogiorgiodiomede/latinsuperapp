@@ -6,6 +6,40 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.6.2] - 2026-08-22
+
+Second of the four Catilinarian batches. ***In Catilinam I* is now complete at 10 fragments**, the
+target the user set for the speech their textbook actually uses.
+
+### Added
+- **3 new *In Catilinam I* fragments** (verbatim Latin from `cicero/cat1.shtml` + original Italian and
+  English + analysis, with bilingual metadata), tagged `version: 1.6.2`:
+  - **I.20-21** - the silence of the Senate read as a verdict. Deliberately started at *Quid est,
+    Catilina? ecquid attendis...* rather than at the section break, so it does not repeat the
+    *egredere ex urbe* already used in I.10. Climax: the tricolon *cum quiescunt, probant, cum
+    patiuntur, decernunt, cum tacent, clamant* (with *decernunt*, the Senate's technical verb for
+    passing a decree, doing quiet work in the middle member); the Sestius/Marcellus counterfactual;
+    and the closing threat dressed as courtesy, *prosequantur*.
+  - **I.27-29 (trimmed)** - the second *prosopopoeia*, the *patria* rounding on Cicero himself
+    (*"M. Tulli, quid agis?"*), answering the one at I.17-18 where she addressed Catiline. Built from
+    three extracted pieces: the intro plus the challenge, the three objections knocked down with *At*
+    (*mosne maiorum? An leges? An invidiam posteritatis times?*), then `[...]`, then the closing
+    *invidiae incendio conflagraturum?*. Archaic *existumas* kept.
+  - **I.31-32** - the fever simile in full *ut... sic* form (*si aquam gelidam biberunt, primo
+    relevari videntur, deinde multo gravius... adflictantur*), *in venis atque in visceribus rei
+    publicae*, then the six jussive subjunctives of §32, the four-fold *tantam* anaphora
+    (*concordia ordinum* in one sentence) and the asyndetic *patefacta, inlustrata, oppressa,
+    vindicata*. `[id]` kept as an editorial supplement.
+
+### Notes
+*In Catilinam I* now runs 1-2 · 3 · 5 · 8-9 · 10 · 17-18 · 20-21 · 27-29 · 31-32 · 33.
+The batch applier gained support for **composed fragments**: an item may carry `keys` + `joins`
+instead of a single `key`, so a trimmed passage is assembled from separately extracted pieces rather
+than retyped. `verify.js` was taught to match trimmed fragments by splitting on `[...]` and requiring
+every piece to appear verbatim **and in order** in the source. Whole Speeches group: **31/31 verbatim**.
+
+Cache-bust: `?v=77` -> `?v=78`.
+
 ## [1.6.1] - 2026-08-21
 
 First of four small batches deepening the Catilinarians before v1.7.0. The user's textbook takes its
