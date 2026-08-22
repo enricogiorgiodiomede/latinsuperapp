@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.6.2', date: '2026-08-22', time: '19:05', tz: 'CEST',
+      v: '1.6.2', date: '2026-08-22', time: '18:58', tz: 'CEST',
       en: {
         added: [
           'Three more excerpts from the first Catilinarian, which is now complete at ten. It is far and away the most thoroughly covered text in the app.',
