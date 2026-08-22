@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.6.5', date: '2026-08-22', time: '21:45', tz: 'CEST',
+      v: '1.6.5', date: '2026-08-22', time: '23:10', tz: 'CEST',
       en: {
         added: [
           'One more excerpt from the fourth Catilinarian, which goes to eight: the legal argument that made the executions possible. A law carried by Gaius Gracchus forbade putting a Roman citizen to death without a vote of the people, and Cicero gets around it by definition rather than by denial - a man who is an enemy of the state cannot be a citizen at all, so the protection never applied to him. He then points out that Gracchus himself was killed without any vote of the people (10).',
