@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.6.4', date: '2026-08-22', time: '20:50', tz: 'CEST',
+      v: '1.6.4', date: '2026-08-22', time: '20:48', tz: 'CEST',
       en: {
         added: [
           'Four excerpts from the fourth Catilinarian, which goes to seven. With this the four speeches against Catiline are finished: thirty-one passages in all, and the first speech alone holds ten.',
