@@ -6,6 +6,59 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.7.0] - 2026-08-23
+
+**Five new speeches**, the first new works since v1.5.0: Pro Caelio, In Pisonem and Philippics I, IV
+and XIV, three fragments each. The Speeches group goes from 8 works to **13**, and Cicero's practice
+bank passes 70 excerpts.
+
+### Added
+- **15 new fragments** (verbatim Latin from The Latin Library + original Italian and English +
+  analysis, with bilingual metadata), tagged `version: 1.7.0`:
+- ***Pro Caelio*** (56 BC, `cicero/cael.shtml`): **32**, the staged slip *cum istius mulieris viro -
+  fratre volui dicere; semper hic erro*, and the closing *amicam omnium potius quam cuiusquam
+  inimicam*; **33-34**, Appius Claudius Caecus raised from the dead to scold Clodia, chosen because
+  *minimum enim dolorem capiet, qui istam non videbit*, ending on the three public works (*ideone ego
+  pacem Pyrrhi diremi... ideo aquam adduxi... ideo viam munivi*); **42**, *detur aliquid aetati; sit
+  adulescentia liberior*, with the long list of limits that follows.
+- ***In Pisonem*** (55 BC, `cicero/piso.shtml`): **ch. I**, the face that won an election and the
+  smoke-blackened *imagines* Piso resembles only in colour; **ch. X**, Gabinius dancing naked while
+  not fearing *fortunae rotam*, then the definition of a consulship ending in the etymology, *rei
+  publicae consulendo*; **ch. XXVIII**, the household Epicurean, the *admissarius* who *adhinnivit*
+  at the word *voluptas*, and the lame man with the ball.
+- ***Philippica I*** (2 Sept 44, `phil1`): **1-2**, the amnesty in the temple of Tellus (Cicero using
+  the Athenian Greek word) and the imperfect-tense portrait of an Antony who still behaved well;
+  **33-34**, *libertate esse parem ceteris, principem dignitate* and the *oderint dum metuant* of
+  Accius's *Atreus* (**cross-links to the Accius fragment in the Archaic era**); **38**, *mihi fere
+  satis est, quod vixi, vel ad aetatem vel ad gloriam*.
+- ***Philippica IV*** (20 Dec 44, `phil4`): **1-2**, *hostis... nondum verbo adpellatus, sed re iam
+  iudicatus*, plus the praise of the 19-year-old Octavian's privately funded army; **8**, the chiastic
+  dilemma *si consul Antonius, Brutus hostis; si conservator rei publicae Brutus, hostis Antonius* -
+  at 250 characters, the shortest fragment in the app; **15**, *scelere par est illi, industria
+  inferior*, the graded Catiline comparison.
+- ***Philippica XIV*** (April 43, `phil14`): **1-2**, the *saga* and the toga, and *confectio autem
+  huius belli est D. Bruti salus*; **12**, *hostium dico; ita, inquam, hostium*, and the ovation the
+  crowd gave Cicero the day before; **31-32**, the monument to the Martian legion, *O fortunata mors,
+  quae naturae debita pro patria est potissimum reddita* and *brevis a natura vita vobis data est, at
+  memoria bene redditae vitae sempiterna*.
+
+### Changed
+- The Speeches group keeps its chronological order with the new works slotted in: In Verrem (70) ·
+  In Catilinam I-IV (63) · Pro Archia (62) · **Pro Caelio (56)** · **In Pisonem (55)** · Pro Milone
+  (52) · **Philippica I (Sept 44)** · Philippica II (autumn 44) · **Philippica IV (Dec 44)** ·
+  **Philippica XIV (Apr 43)**.
+
+### Notes on sourcing
+**The Latin Library prints *In Pisonem* with chapter divisions only, no section numbers**, unlike
+every other Cicero speech in the app. Rather than guess at the section numbers most editions use,
+these three fragments are cited by chapter (`In Pisonem, ch. I`) and the convention is explained in
+the first fragment's analysis. Worth revisiting if a section-numbered text is sourced later.
+`verify.js` gained Roman-numeral chapter-marker stripping so those fragments stay machine-checked.
+Deliberately excluded, on the standing policy: *Pro Caelio* 36 (explicit) - the Appius Claudius
+fragment stops at the end of 34. Self-proofread; whole Speeches group **69/69 verbatim**.
+
+Cache-bust: `?v=83` -> `?v=84`.
+
 ## [1.6.7] - 2026-08-23
 
 **Pro Milone goes to 8**, finishing the pair of releases that deepened the two speeches still sitting

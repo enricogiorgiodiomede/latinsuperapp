@@ -12,6 +12,33 @@
 
   var VERSIONS = [
     {
+      v: '1.7.0', date: '2026-08-23', time: '20:30', tz: 'CEST',
+      en: {
+        added: [
+          'Five new speeches by Cicero, with three excerpts each: the Pro Caelio, the In Pisonem, and the first, fourth and fourteenth Philippics. His practice menu now holds thirteen speeches.',
+          'From the Pro Caelio, the defence of a young man accused by the most powerful woman in Rome: the famous slip of the tongue, "that woman\'s husband - brother, I meant to say; I always make that mistake"; the dead censor Appius Claudius the Blind called up from the grave to scold his own descendant, chosen for the job because being blind he will not have to look at her; and the passage where Cicero argues that a young man who takes no pleasure in anything is a freak, and then lists exactly which pleasures are allowed.',
+          'From the In Pisonem, pure invective: the consul whose face got him elected and who resembles his smoke-blackened ancestral portraits in nothing but the colour; a party where his colleague dances naked without fearing fortune\'s wheel, followed by a definition of what a consul actually is; and the young Piso hearing an Epicurean praise pleasure and deciding, like a stallion, that he had found not a teacher of virtue but a licence.',
+          'And from the Philippics, the arc of Cicero\'s last year: the amnesty after Caesar\'s murder and a portrait of an Antony who was still behaving well (I); the road to glory, with a line from an old Roman tragedy already in this app quoted back at Antony as a warning (I); the sentence that ends the first speech, "what I have lived is almost enough, whether for age or for glory"; the deadlock reduced to one line, "if Antonius is consul, Brutus is a public enemy" (IV); and, from the last speech he ever published, the monument to the soldiers who died at Mutina - "nature gave you a short life, but the memory of a life well given back is everlasting" (XIV).'
+        ],
+        changed: [
+          'The new speeches slot into the chronological order: Pro Caelio and In Pisonem sit between Pro Archia and Pro Milone, and the three new Philippics around the second one.'
+        ],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Cinque nuove orazioni di Cicerone, con tre brani ciascuna: la Pro Caelio, l\'In Pisonem e la prima, la quarta e la quattordicesima Filippica. Il suo menu di esercizi conta ora tredici orazioni.',
+          'Dalla Pro Caelio, la difesa di un giovane accusato dalla donna più potente di Roma: il celebre lapsus, "il marito di quella donna, anzi il fratello, volevo dire; sbaglio sempre su questo punto"; il censore morto Appio Claudio il Cieco richiamato dalla tomba per rimproverare la propria discendente, scelto per l\'incarico perché, essendo cieco, non dovrà guardarla; e il passo in cui Cicerone sostiene che un giovane che non prova piacere per nulla è un fenomeno da baraccone, e poi elenca esattamente quali piaceri siano ammessi.',
+          'Dall\'In Pisonem, invettiva pura: il console che è stato eletto grazie alla faccia e che somiglia ai ritratti anneriti dei suoi antenati soltanto nel colore; una festa in cui il collega balla nudo senza temere la ruota della fortuna, seguita dalla definizione di che cosa sia davvero un console; e il giovane Pisone che, sentendo un epicureo lodare il piacere, decide, come uno stallone, di aver trovato non un maestro di virtù ma un permesso.',
+          'E dalle Filippiche, l\'arco dell\'ultimo anno di Cicerone: l\'amnistia dopo l\'assassinio di Cesare e il ritratto di un Antonio che si comportava ancora bene (I); la via della gloria, con un verso di un\'antica tragedia romana già presente in quest\'app, citato ad Antonio come avvertimento (I); la frase che chiude la prima orazione, "quello che ho vissuto mi basta quasi, sia per l\'età sia per la gloria"; lo stallo ridotto a una riga, "se Antonio è console, Bruto è un nemico pubblico" (IV); e, dall\'ultima orazione che abbia pubblicato, il monumento ai soldati caduti a Modena: "breve è la vita che vi ha dato la natura, ma eterna la memoria di una vita ben restituita" (XIV).'
+        ],
+        changed: [
+          'Le nuove orazioni si inseriscono nell\'ordine cronologico: Pro Caelio e In Pisonem stanno fra Pro Archia e Pro Milone, e le tre nuove Filippiche attorno alla seconda.'
+        ],
+        deleted: []
+      }
+    },
+    {
       v: '1.6.7', date: '2026-08-23', time: '19:32', tz: 'CEST',
       en: {
         added: [

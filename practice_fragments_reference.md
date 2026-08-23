@@ -358,7 +358,27 @@ release version, pause for review after each.
 |---|---|---|
 | ~~v1.6.6~~ DONE | **Pro Archia +5** (1, 18, 25, 28, 32) | 3 -> **8** |
 | ~~v1.6.7~~ DONE | **Pro Milone +5** (28-29, 32, 57, 72, 84) | 3 -> **8** |
-| **v1.7.0** | **Pro Caelio (3) + In Pisonem (3) + Philippics I, IV, XIV (3 each)** = +15 | new works |
+| ~~v1.7.0~~ DONE | **Pro Caelio (3) + In Pisonem (3) + Philippics I, IV, XIV (3 each)** = +15 | 5 new works |
+
+**v1.7.0 passages, for the record.** Pro Caelio (`cael`): **32** the *fratre volui dicere* slip +
+*amicam omnium*; **33-34** Appius Claudius Caecus (the blind-so-he-won't-see-her joke; closes on
+*pacem Pyrrhi / aquam adduxi / viam munivi*); **42** *detur aliquid aetati* + the list of limits.
+**§36 deliberately excluded (explicit).** In Pisonem (`piso`): **ch. I** the face + smoke-blackened
+*imagines*; **ch. X** Gabinius dancing / *fortunae rotam*, then *rei publicae consulendo* etymology;
+**ch. XXVIII** the *admissarius* who *adhinnivit*, the lame man with the ball. Philippica I (`phil1`):
+**1-2** the Tellus amnesty (Athenian Greek word) + imperfects for the Antony who behaved; **33-34**
+*libertate esse parem ceteris, principem dignitate* + *oderint dum metuant* (**cross-ref: the Accius
+Atreus fragment in the Archaic era**); **38** *mihi fere satis est*. Philippica IV (`phil4`): **1-2**
+*verbo* vs *re* + Octavian's private army; **8** the chiasmus (**shortest fragment in the app, 250
+chars**); **15** *scelere par, industria inferior*. Philippica XIV (`phil14`): **1-2** saga/toga;
+**12** *hostium dico; ita, inquam, hostium*; **31-32** the Martian legion monument, *O fortunata
+mors*, *brevis a natura vita... memoria sempiterna*.
+
+**CITATION EXCEPTION - In Pisonem.** TLL prints this speech with **chapter divisions only, no section
+numbers** (unlike every other Cicero speech here), so the app cites it as `(In Pisonem, ch. I)` and
+the first fragment's analysis explains why. If a section-numbered text is sourced later, these three
+citations can be converted. `verify.js` now strips `[IVXLC]`-style chapter markers so they stay
+machine-checked.
 | **v1.7.1** | **more Philippics** (deepen those added in 1.7.0, and/or add further speeches of the 14) | |
 | **v1.7.2 / v1.7.3** | **deepen Pro Caelio and In Pisonem** | to 7-8 each |
 | **v1.7.4 / .5 / (.6)** | **deepen In Verrem.** User's note: it should end up the **longest** of them all, since it is 7 speeches and each book of the *actio secunda* runs to 100+ sections | the biggest work in the app |
