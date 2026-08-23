@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.7.0', date: '2026-08-23', time: '20:30', tz: 'CEST',
+      v: '1.7.0', date: '2026-08-23', time: '20:29', tz: 'CEST',
       en: {
         added: [
           'Five new speeches by Cicero, with three excerpts each: the Pro Caelio, the In Pisonem, and the first, fourth and fourteenth Philippics. His practice menu now holds thirteen speeches.',
