@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.6.6', date: '2026-08-23', time: '18:40', tz: 'CEST',
+      v: '1.6.6', date: '2026-08-23', time: '18:38', tz: 'CEST',
       en: {
         added: [
           'Five new excerpts from the Pro Archia, which goes from three to eight. It is the speech in which Cicero, defending a Greek poet against a technicality about his citizenship, spends most of his time arguing about why literature matters at all.',
