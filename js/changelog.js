@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.6.7', date: '2026-08-23', time: '19:35', tz: 'CEST',
+      v: '1.6.7', date: '2026-08-23', time: '19:32', tz: 'CEST',
       en: {
         added: [
           'Five new excerpts from the Pro Milone, which goes from three to eight. Milo was on trial for killing Clodius on the Appian Way, and Cicero had the difficult job of arguing self-defence for a man whose slaves had finished the job.',
