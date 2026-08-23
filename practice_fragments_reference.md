@@ -331,8 +331,27 @@ ends at `...quam iusta repetenda`). `Illias` (Arch. 24) and `inplevit` (Phil. II
   - **118-119**: *Defendi rem publicam adulescens, non deseram senex*; the childbirth metaphor *pariat, quod iam
     diu parturit*; the two closing wishes.
 
+### ROADMAP (saved on the user's instruction, 2026-08-22)
+
+The Catilinarians are done (32). The rest of the Speeches group gets built out in small patch
+releases, same rules as the v1.6.x batches: 3-5 excerpts per release, self-proofread, tagged with the
+release version, pause for review after each.
+
+| Release | Content | Target |
+|---|---|---|
+| **v1.6.6** | **Pro Archia +5** (1, 18, 25, 28, 32) | 3 -> 8 |
+| **v1.6.7** | **Pro Milone +4/5** | 3 -> 7/8 |
+| **v1.7.0** | **Pro Caelio (3) + In Pisonem (3) + Philippics I, IV, XIV (3 each)** = +15 | new works |
+| **v1.7.1** | **more Philippics** (deepen those added in 1.7.0, and/or add further speeches of the 14) | |
+| **v1.7.2 / v1.7.3** | **deepen Pro Caelio and In Pisonem** | to 7-8 each |
+| **v1.7.4 / .5 / (.6)** | **deepen In Verrem.** User's note: it should end up the **longest** of them all, since it is 7 speeches and each book of the *actio secunda* runs to 100+ sections | the biggest work in the app |
+
+Structural note for the Verrines: `in-verrem` is currently **one** work by the user's decision
+(2026-08-20). If it grows past roughly 8 it is worth revisiting the split into De signis (II.4) and
+De suppliciis (II.5), which is how schools actually read it. **Ask before splitting.**
+
 ### Still to build
-**NEXT (v1.7.0), agreed with the user 2026-08-20:** more speeches, still 3 fragments per work.
+**v1.7.0, agreed with the user 2026-08-20:** more speeches, still 3 fragments per work.
 - **Pro Caelio** (`cicero/cael.shtml` - confirmed 200): the Appius Claudius Caecus prosopopoeia scolding
   Clodia (33-34), the "young men need some latitude" defence, and the Palatine Medea. 3 fragments.
 - **In Pisonem** (`cicero/piso.shtml` - confirmed 200; NB the speech's opening is fragmentary in the

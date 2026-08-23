@@ -12,6 +12,29 @@
 
   var VERSIONS = [
     {
+      v: '1.6.6', date: '2026-08-23', time: '18:40', tz: 'CEST',
+      en: {
+        added: [
+          'Five new excerpts from the Pro Archia, which goes from three to eight. It is the speech in which Cicero, defending a Greek poet against a technicality about his citizenship, spends most of his time arguing about why literature matters at all.',
+          'He opens by telling the court that whatever ability they are listening to belongs to the man on trial, who taught him as a boy (1). He describes Archias improvising polished verse on the events of the day with nothing written down, and then produces the oldest theory of poetry in Europe: everything else can be taught, but a poet works by nature and is breathed into by something divine (18). He recalls Sulla paying off a bad poet at an auction on condition that he never write again (25). He confesses, in open court, that he loves glory and encouraged Archias to finish a poem about his own consulship, then argues that praise is the only wage courage ever gets (28). And he signs off by admitting the whole speech was a digression, adding that he is quite sure the presiding magistrate enjoyed it, who happened to be his brother (32).'
+        ],
+        changed: [
+          'Cicero\'s speeches are back in the order he delivered them, rather than alphabetical: In Verrem, then the four Catilinarians, then Pro Archia, Pro Milone and the Second Philippic.'
+        ],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Cinque nuovi brani dalla Pro Archia, che passa da tre a otto. È l\'orazione in cui Cicerone, difendendo un poeta greco da un cavillo sulla cittadinanza, passa la maggior parte del tempo a sostenere perché la letteratura conti qualcosa.',
+          'Apre dicendo alla corte che qualunque capacità stiano ascoltando appartiene all\'uomo sotto processo, che gli fu maestro da ragazzo (1). Descrive Archia mentre improvvisa versi levigati sui fatti del giorno senza nulla di scritto, e poi formula la più antica teoria della poesia d\'Europa: tutto il resto si può insegnare, ma il poeta vale per natura ed è ispirato da un soffio divino (18). Ricorda Silla che liquida un cattivo poeta a un\'asta a patto che non scriva mai più (25). Confessa, in pubblica udienza, di amare la gloria e di aver incoraggiato Archia a finire un poema sul proprio consolato, e sostiene poi che la lode è l\'unico salario che il valore riceva (28). E si congeda ammettendo che tutta l\'orazione è stata una digressione, aggiungendo di essere certo che al magistrato che presiedeva sia piaciuta: era suo fratello (32).'
+        ],
+        changed: [
+          'Le orazioni di Cicerone sono tornate nell\'ordine in cui furono pronunciate, invece che in ordine alfabetico: Verrine, poi le quattro Catilinarie, poi Pro Archia, Pro Milone e Seconda Filippica.'
+        ],
+        deleted: []
+      }
+    },
+    {
       v: '1.6.5', date: '2026-08-22', time: '23:10', tz: 'CEST',
       en: {
         added: [

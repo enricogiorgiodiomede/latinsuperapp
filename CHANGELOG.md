@@ -6,6 +6,48 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.6.6] - 2026-08-23
+
+**Pro Archia goes to 8**, the first of two releases deepening the two speeches that were still at 3.
+Cicero's speeches also go back to **chronological order**.
+
+### Added
+- **5 new *Pro Archia* fragments** (verbatim Latin from `cicero/arch.shtml` + original Italian and
+  English + analysis, with bilingual metadata), tagged `version: 1.6.6`:
+  - **1** - the exordium, a triple conditional (*si quid est in me ingeni... aut si qua exercitatio
+    dicendi... aut si huiusce rei ratio aliqua*) held in suspense until the credit lands on the
+    defendant; then *haec vox... non nullis aliquando saluti fuit*, and the debt turned back on itself
+    (*opem et salutem*). Genitive *ingeni*.
+  - **18** - Archias improvising finished verse with nothing written down and then redoing it
+    *commutatis verbis atque sententiis*, followed by the theory: *poetam natura ipsa valere, et mentis
+    viribus excitari, et quasi divino quodam spiritu inflari*, and Ennius calling poets *sancti*.
+    The theoretical centre of the speech.
+  - **25** - Sulla and the bad poet at the auction, paid out of the lots on the block on condition he
+    write nothing more. The technical joke is *tantummodo alternis versibus longiusculis* (the elegiac
+    couplet described from the outside, with a sneering diminutive); ironic *credo*.
+  - **28** - the confession of *amor gloriae*, the admission that he told Archias to finish the poem
+    about his consulship, and *nullam enim virtus aliam mercedem laborum periculorumque desiderat,
+    praeter hanc laudis et gloriae*, with the racing metaphor in *vitae curriculo*. `[et tam brevi]` kept.
+  - **32** - the four-line close: *pro mea consuetudine* set against *remota a mea iudicialique
+    consuetudine*, and the graded verbs *confido* / *spero* / *certo scio*, the last aimed at the
+    presiding praetor, who was his brother Quintus.
+- Order in the work: 1 · 14 · 16 · 18 · 24 · 25 · 28 · 32.
+
+### Changed
+- **Cicero's speeches are back in chronological order of delivery**, reversing the alphabetical sort
+  introduced in v1.6.3 at the user's request: In Verrem (70 BC) · In Catilinam I-IV (63) · Pro Archia
+  (62) · Pro Milone (52) · Philippica II (44, written and published rather than delivered). The
+  reorder script now uses an explicit ordered list rather than a computed year, since BC years count
+  downwards and the four Catilinarians share a year while having a fixed internal sequence.
+
+### Notes
+Roadmap for the rest of the Speeches group saved in `practice_fragments_reference.md` (v1.6.7 Pro
+Milone; v1.7.0 Pro Caelio + In Pisonem + Philippics I/IV/XIV; v1.7.1 more Philippics; v1.7.2-3 deepen
+Pro Caelio and In Pisonem; v1.7.4-6 deepen In Verrem, which should end up the largest work of all).
+Self-proofread; whole Speeches group re-checked, **49/49 verbatim**.
+
+Cache-bust: `?v=81` -> `?v=82`.
+
 ## [1.6.5] - 2026-08-22
 
 Three user-requested additions, plus a caching bug found while verifying them.
