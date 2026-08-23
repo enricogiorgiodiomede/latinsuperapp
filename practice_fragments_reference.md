@@ -317,7 +317,24 @@ ends at `...quam iusta repetenda`). `Illias` (Arch. 24) and `inplevit` (Phil. II
   - **16**: the nine-verb asyndeton *haec studia adulescentiam alunt... peregrinantur, rusticantur*; *ceterae*
     agrees with an unstated *delectationes*; *animi adversionem* = older form of *animadversionem*. The easy one.
   - **24**: Alexander at Achilles's tomb + the Pompey/Theophanes nudge. Narrative, easiest Latin of the five works.
-- **Pro Milone** (`pro-milone`) - 52 BC:
+- **Pro Milone** (`pro-milone`) - 52 BC. **8 fragments**; +5 in v1.6.7, order 1-2 · 10-11 · 28-29 · 32 ·
+  57 · 72 · 84 · 104-105.
+  - **28-29 (v1.6.7)** the *narratio*: the two journeys contrasted by inventory (carriage/cloak/wife/
+    *magno et impedito et muliebri ac delicato* retinue vs *expeditus* on horseback), then the ambush in
+    historic presents, then the concession that the slaves did it, insulated by *nec imperante nec
+    sciente nec praesente domino*. Extract starts at *Milo autem cum in senatu fuisset* (skips §27).
+    Analysis flags that **Asconius tells it differently**.
+  - **32 (v1.6.7)** *illud Cassianum 'cui bono fuerit'* (L. Cassius Longinus Ravilla) + the
+    pre-emptive *etsi boni nullo emolumento impelluntur in fraudem, improbi saepe parvo*.
+  - **57 (v1.6.7)** the short one (~330 chars): *Occideritne? occidit. Iure an iniuria?* closing on
+    *facti enim in eculeo quaestio est, iuris in iudicio*; note on slave evidence under torture.
+  - **72 (v1.6.7)** the hypothetical boast *Occidi, occidi* (kept counterfactual by *mentiri*);
+    Maelius + Gracchus dismissed as lesser cases. **Ends at the first *eum qui* item (Bona Dea)** -
+    the catalogue runs on through 73-74, and **§73's incest allegation is deliberately excluded**
+    (same policy as Phil. II.44 and Cat. II.8).
+  - **84 (v1.6.7)** *est, est profecto illa vis*: the you-cannot-see-your-own-mind analogy, and the
+    god who *mentem iniecit* rather than striking directly.
+  - v1.5.0 base:
   - **1-2**: exordium in the armed forum; *ne non timere quidem sine aliquo timore possimus*; Pompey flattery.
     Description carries the Massilia red-mullet joke.
   - **10-11**: *non scripta, sed nata lex*, the two triads (*didicimus/accepimus/legimus* vs
@@ -339,8 +356,8 @@ release version, pause for review after each.
 
 | Release | Content | Target |
 |---|---|---|
-| **v1.6.6** | **Pro Archia +5** (1, 18, 25, 28, 32) | 3 -> 8 |
-| **v1.6.7** | **Pro Milone +4/5** | 3 -> 7/8 |
+| ~~v1.6.6~~ DONE | **Pro Archia +5** (1, 18, 25, 28, 32) | 3 -> **8** |
+| ~~v1.6.7~~ DONE | **Pro Milone +5** (28-29, 32, 57, 72, 84) | 3 -> **8** |
 | **v1.7.0** | **Pro Caelio (3) + In Pisonem (3) + Philippics I, IV, XIV (3 each)** = +15 | new works |
 | **v1.7.1** | **more Philippics** (deepen those added in 1.7.0, and/or add further speeches of the 14) | |
 | **v1.7.2 / v1.7.3** | **deepen Pro Caelio and In Pisonem** | to 7-8 each |

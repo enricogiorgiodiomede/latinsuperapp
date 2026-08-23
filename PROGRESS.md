@@ -68,7 +68,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=82`.**
+   whenever you change a JS/CSS file. **Currently `v=83`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -136,7 +136,7 @@ The full Italian translation pass is **DONE**.
 | Cornelius Nepos | Good Exercise | **De Viris Illustribus (8)**: Praefatio, Themistocles, Alcibiades, Epaminondas, Pelopidas, Hannibal, Cato, Atticus |
 | Quintus Hortensius Hortalus | **NA (grey badge, no chart)** | Cicero, Brutus 6 (1) |
 | Publius Nigidius Figulus | **NA (grey badge, no chart)** | Gellius, NA X.9 (1) |
-| **Marcus Tullius Cicero** *(needsSelection, NESTED chooser)* | Very Difficult | **Speeches (49, v1.5.0-v1.6.6), works CHRONOLOGICAL again**: In Verrem 3 · **In Catilinam I 10 · II 7 · III 7 · IV 8 = 32, COMPLETE** · **Pro Archia 8** · Pro Milone 3 · Philippica II 3. **Letters**: Ad Atticum 1. **Philosophical works**: De Amicitia 1. (51 total) |
+| **Marcus Tullius Cicero** *(needsSelection, NESTED chooser)* | Very Difficult | **Speeches (54, v1.5.0-v1.6.7), works CHRONOLOGICAL**: In Verrem 3 · **In Catilinam I 10 · II 7 · III 7 · IV 8 = 32, COMPLETE** · **Pro Archia 8** · **Pro Milone 8** · Philippica II 3. **Letters**: Ad Atticum 1. **Philosophical works**: De Amicitia 1. (56 total) |
 | Gaius Julius Caesar | Good Exercise | BG VI.13 Druids · VI.14 Druids · BC I.7 Rubicon speech (3) |
 | Aulus Hirtius | Manageable | BG VIII praef. · Bellum Alexandrinum 1 · Bellum Alexandrinum 2 (3) |
 | Titus Lucretius Carus | Very Difficult | DRN I.80-101 Iphigenia (1) |
@@ -241,7 +241,7 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
   **Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
 **=== SESSION HANDOFF (updated 2026-08-20) ===**
-Current: **v1.6.6, cache ?v=82**, pushed. Archaic is complete (Plautus 10 comedies / 50 frags since v1.4.0).
+Current: **v1.6.7, cache ?v=83**, pushed. Archaic is complete (Plautus 10 comedies / 50 frags since v1.4.0).
 Caesar's-Age flesh-out in progress: **Nepos done (1->8, v1.2.0)**; **Cicero IN PROGRESS: Speeches now
 8 works x 3 = 24 fragments** (v1.5.0 built the category; **v1.6.0 split In Catilinam into its four
 speeches** and topped each to 3).
@@ -249,8 +249,8 @@ speeches** and topped each to 3).
 rules as the v1.6.x batches: 3-5 excerpts per patch release, self-proofread, tagged with the release
 version, **pause for review after each**.
 - ~~**v1.6.6**~~ DONE 23/08: **Pro Archia 3 -> 8** (1, 18, 25, 28, 32).
-- **v1.6.7 (NEXT): Pro Milone 3 -> 7/8** (+4/5).
-- **v1.7.0:** **Pro Caelio** (3) + **In Pisonem** (3) + **Philippics I, IV, XIV** (3 each) = +15.
+- ~~**v1.6.7**~~ DONE 23/08: **Pro Milone 3 -> 8** (28-29, 32, 57, 72, 84).
+- **v1.7.0 (NEXT):** **Pro Caelio** (3) + **In Pisonem** (3) + **Philippics I, IV, XIV** (3 each) = +15.
   Sources confirmed live: `cicero/cael.shtml`, `cicero/piso.shtml`, `phil1/phil4/phil14.shtml`.
 - **v1.7.1:** more Philippics (deepen those from 1.7.0 and/or add further speeches of the 14).
 - **v1.7.2 / v1.7.3:** deepen **Pro Caelio** and **In Pisonem** to 7-8 each.

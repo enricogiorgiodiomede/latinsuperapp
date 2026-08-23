@@ -6,6 +6,43 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.6.7] - 2026-08-23
+
+**Pro Milone goes to 8**, finishing the pair of releases that deepened the two speeches still sitting
+at 3. Every work in the Speeches group is now at 7 or more except In Verrem, Philippica II, Pro Caelio
+and In Pisonem, which the v1.7.x roadmap covers.
+
+### Added
+- **5 new *Pro Milone* fragments** (verbatim Latin from `cicero/milo.shtml` + original Italian and
+  English + analysis, with bilingual metadata), tagged `version: 1.6.7`:
+  - **28-29** - the *narratio*, and the most famous piece of slanted narrative in Roman oratory. The
+    two journeys set side by side (Milo with carriage, cloak, wife and a *magno et impedito et
+    muliebri ac delicato* retinue; Clodius *expeditus*, on horseback, no wife), then the ambush in
+    short historic presents, then the concession that Milo's slaves killed Clodius, insulated by three
+    ablatives absolute: *nec imperante nec sciente nec praesente domino*. Analysis notes that Asconius
+    tells it differently.
+  - **32** - *illud Cassianum 'cui bono fuerit'*, the rule of thumb of L. Cassius Longinus Ravilla,
+    plus the pre-emptive concession *etsi boni nullo emolumento impelluntur in fraudem, improbi saepe
+    parvo*.
+  - **57** - the shortest fragment in the speech: staccato question and answer (*Occideritne? occidit.
+    Iure an iniuria?*) closing on *facti enim in eculeo quaestio est, iuris in iudicio*, with the note
+    on Roman procedure (slave evidence taken under torture, freedmen's not) that makes Milo's
+    manumissions either a cover-up or a reward.
+  - **72** - the hypothetical boast, *Occidi, occidi*, with *mentiri* keeping it technically
+    counterfactual; Maelius and Gracchus dismissed as lesser cases, *quorum interfectores impleverunt
+    orbem terrarum nominis sui gloria*. Stops at the first item of the catalogue (the Bona Dea
+    scandal); the *eum qui* list runs on through 73-74, which is noted in the analysis.
+  - **84** - *est, est profecto illa vis*: the argument from analogy (you cannot see your own mind
+    either) and the god who does not strike Clodius down but *mentem iniecit*, put the idea in his head.
+- Order in the work: 1-2 · 10-11 · 28-29 · 32 · 57 · 72 · 84 · 104-105.
+
+### Notes
+Deliberately stopped short of the explicit stretches, as with Phil. II.44 and Cat. II.8: the Pro Milone
+72 extract ends before the incest allegation of 73. Self-proofread; whole Speeches group re-checked,
+**54/54 verbatim**.
+
+Cache-bust: `?v=82` -> `?v=83`.
+
 ## [1.6.6] - 2026-08-23
 
 **Pro Archia goes to 8**, the first of two releases deepening the two speeches that were still at 3.

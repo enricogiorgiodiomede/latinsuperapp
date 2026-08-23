@@ -12,6 +12,27 @@
 
   var VERSIONS = [
     {
+      v: '1.6.7', date: '2026-08-23', time: '19:35', tz: 'CEST',
+      en: {
+        added: [
+          'Five new excerpts from the Pro Milone, which goes from three to eight. Milo was on trial for killing Clodius on the Appian Way, and Cicero had the difficult job of arguing self-defence for a man whose slaves had finished the job.',
+          'The centrepiece is Cicero\'s account of the journey itself, where he never says who attacked first and instead lists what each man was carrying: Milo in a carriage with his wife, a travelling cloak and a slow retinue of maids and boys; Clodius on horseback with nothing at all. He then admits, openly, that Milo\'s slaves did the killing, and insists their master neither ordered it, knew of it, nor was there (28-29).',
+          'Also: "who stood to gain", the question a famously severe old judge always asked, here turned into the whole logic of the defence (32); a four-sentence answer to the charge that Milo freed his slaves to keep them from being tortured, ending "the rack investigates the fact, the court the law" (57); the imaginary boast Cicero puts in Milo\'s mouth, "I killed him, I killed him", so that he can say what a defence lawyer cannot (72); and the argument that a divine power destroyed Clodius by putting into his head the idea of attacking the one man who could beat him (84).'
+        ],
+        changed: [],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Cinque nuovi brani dalla Pro Milone, che passa da tre a otto. Milone era sotto processo per aver ucciso Clodio sulla via Appia, e Cicerone aveva il compito difficile di sostenere la legittima difesa per un uomo i cui servi avevano portato a termine il lavoro.',
+          'Il pezzo centrale è il racconto ciceroniano del viaggio, in cui non dice mai chi abbia attaccato per primo e si limita a elencare che cosa portasse con sé ciascuno dei due: Milone in carrozza con la moglie, il mantello da viaggio e un lento seguito di ancelle e ragazzi; Clodio a cavallo, senza nulla. Poi ammette apertamente che a uccidere furono i servi di Milone, e insiste che il padrone non lo ordinò, non lo seppe e non era presente (28-29).',
+          'Inoltre: "a chi ha giovato", la domanda che un vecchio giudice famoso per la severità poneva sempre, qui trasformata nell\'intera logica della difesa (32); una risposta di quattro frasi all\'accusa di aver affrancato i servi per sottrarli alla tortura, che si chiude con "sul cavalletto si indaga il fatto, in tribunale il diritto" (57); il vanto immaginario che Cicerone mette in bocca a Milone, "l\'ho ucciso, l\'ho ucciso", per poter dire ciò che un difensore non può dire (72); e la tesi che una potenza divina abbia distrutto Clodio mettendogli in testa l\'idea di aggredire l\'unico uomo capace di batterlo (84).'
+        ],
+        changed: [],
+        deleted: []
+      }
+    },
+    {
       v: '1.6.6', date: '2026-08-23', time: '18:38', tz: 'CEST',
       en: {
         added: [
