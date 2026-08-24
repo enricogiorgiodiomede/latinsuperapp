@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.7.1', date: '2026-08-24', time: '00:00', tz: 'CEST',
+      v: '1.7.1', date: '2026-08-24', time: '20:12', tz: 'CEST',
       en: {
         added: [
           'Six new excerpts from Cicero, deepening two of the Philippics: the first goes from three to seven, and the fourth, the shortest of the fourteen, from three to five.',
