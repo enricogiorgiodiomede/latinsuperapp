@@ -341,12 +341,70 @@ ends at `...quam iusta repetenda`). `Illias` (Arch. 24) and `inplevit` (Phil. II
     *adripuimus/hausimus/expressimus*), *non docti sed facti, non instituti sed imbuti*, *silent enim leges inter arma*.
   - **104-105**: peroration; sermocinatio (*'Minime, minime,' inquit*), tricolon *beatam/ingratam/miseram*,
     break-off for tears, closing compliment to Pompey. Milo convicted 38-13.
-- **Philippica II** (`philippica-ii`, labelIt "Seconda Filippica") - 44 BC:
+- **Philippica II** (`philippica-ii`, labelIt "Seconda Filippica") - autumn 44, written and never
+  delivered. **8 fragments**; +5 in v1.7.2, order 1 · 28-29 · 44 · 63 · 67 · 85-86 · 104 · 118-119.
+  - **28-29 (v1.7.2)** the complicity charge answered by widening it: Brutus naming Cicero re-read as a
+    compliment (*aemulum mearum laudium*), then *omnes boni, quantum in ipsis fuit, Caesarem occiderunt;
+    aliis consilium, aliis animus, aliis occasio defuit, voluntas nemini* - the verb written once, with
+    the third member, understood in the other three. Analysis notes *vide ne* as polite suggestion and
+    TLL's *laudium* for *laudum*.
+  - **44 (v1.7.2)** **RESTORED at the user's instruction 24/08/2026**, reversing the v1.5.0 exclusion.
+    The four-garment attack: *praetexta* (bankrupt as a boy) -> *virilis* -> *muliebris* (the prostitute's
+    and adulteress's dress) -> *stola* (Curio imagined giving it). Legal core = *lex Roscia theatralis*
+    (67 BC), fourteen rows for the equestrians, a separate place for bankrupts, no exception for honest
+    failure. Closes on *collocare in matrimonio*, the formula for a father giving a daughter away.
+    **STOPS AT THE END OF 44 and deliberately does not run into 45**, which drops the technique and says
+    it outright - the user was shown what 45 contains and confirmed the cut (24/08). No act is described
+    anywhere in 44; the whole thing runs on implication.
+  - **67 (v1.7.2)** *Quae Charybdis tam vorax?*, abandoned for the Ocean within a line. The Pompey
+    auction inventory: *nihil clausum, nihil obsignatum, nihil scriptum*, then imperfects and impersonal
+    passives, ending on *conchyliata Cn. Pompei peristromata* over slaves' bunks + potential *videres*.
+    Vocab: *peristroma* (Greek loan), *medius fidius*; TLL's *urbis*/*aedis* for *urbes*/*aedes*.
+  - **85-86 (v1.7.2)** the Lupercalia. Historic presents *escendis/accedis/ostendis*, the two-word
+    verbless *Gemitus toto foro*, the repeated-action imperfects *inponebas* / *reiciebat* framed by
+    *cum plangore populi* / *cum plausu*, and the closing question that justifies the assassination.
+    Links back to 44 via *qui ita a puero vixeras*. *Paterere* = *patereris*; *contionatus* < *contio*.
+  - **104 (v1.7.2)** Varro's villa at Casinum (**cross-ref: Varro's own entry, 11 excerpts**).
+    *Hasta Caesaris* (the auction spear, a procedure) against *confidentia et temeritas tua* (none), with
+    the swords in the room holding the difference. *Ab hora tertia bibebatur, ludebatur, vomebatur* -
+    three impersonal passives, no subject named. Closes on two genitives sharing one noun,
+    *studiorum ... non libidinum deversorium*. The unidentified verse *quam dispari domino*.
+    **Source note:** TLL marks a chapter division (`[XLI]`) mid-section; dropped via a `fix`, since the
+    app cites by section for every speech except the In Pisonem.
+  - v1.5.0 base:
   - **1**: *Quonam meo fato*; praeteritio; *audacior quam Catilina, furiosior quam Clodius*.
   - **63**: Antony vomiting on the tribunal; triple contemptuous *iste*; ironic exit *veniamus ad splendidiora*.
-    (Chosen over the §44 sexual invective, which is explicit; §63 carries the same register.)
+    (Originally chosen instead of §44, which is now also in the app.)
   - **118-119**: *Defendi rem publicam adulescens, non deseram senex*; the childbirth metaphor *pariat, quod iam
-    diu parturit*; the two closing wishes.
+    diu parturit*; the two closing wishes. **Source note (v1.7.2):** TLL prints *quanto verius non negabo
+    seni* where the sense requires *nunc* (most editions read *nunc negabo*). Latin kept verbatim, the
+    translation follows the needed reading, and the analysis now explains the difference.
+- **Philippica XIV** (`philippica-xiv`, labelIt "Quattordicesima Filippica") - April 43, the last speech
+  Cicero published. **7 fragments**; +4 in v1.7.2, order 1-2 · 6 · 10 · 12 · 23 · 27 · 31-32.
+  - **6 (v1.7.2)** *Imbuti gladii sunt ... vel madefacti potius* - the self-correction is the speech in
+    miniature. Then the verbless dilemma *si hostium ... nefarium scelus, si civium* (second *si* thrown
+    to the end). *Quousque* **quotes the opening of the First Catilinarian**, which the app also carries.
+    Closes on the *mucrones* hesitating mid-thrust. *Dubitantis* = TLL's *dubitantes*. **Starts
+    mid-section**, at *Imbuti*, skipping the transitional first sentence (standard practice here - 11
+    other fragments do the same).
+  - **10 (v1.7.2)** the two days Rome believed Antony had won: six *quis* clauses on a single verb,
+    narrowing from children and wife to the *lar familiaris*. *Metator* + *decempeda* (Decidius Saxa had
+    already surveyed the city for distribution). Closes on the understatement that calls *hostis* a
+    *vulgare* word and invites a heavier one.
+  - **23 (v1.7.2)** the argumentative spine: four precedents (Sulla, the Octavian war, Cinna, Pharsalus),
+    each ending on a missing *supplicatio*. **Trap: *bellum Octavianum* is Gnaeus Octavius, cos. 87 BC,
+    NOT Octavian** - flagged in the analysis. *Quos voluit, expulit, quos potuit, occidit*. Ends on the
+    remarkable admission that Rome would have survived a Pompeian victory. **Source note:** TLL prints
+    *supplicatio [Cinnae} nulla victori*, square bracket closed with a curly brace; reproduced exactly
+    and explained.
+  - **27 (v1.7.2)** Hirtius carrying the eagle of the Fourth (**cross-ref: Hirtius's own entry**).
+    Forty-word hyperbaton between *hostes nefarios* and *imminentes*, with the threatened list climbing
+    from the temple they are sitting in outward; then *prostravit, fudit, occidit*. The seventh-legion
+    clause is **easy to misread** - it says the battle proved the Senate's name dear to Caesar's
+    veterans, not that the veterans were taught a lesson. Ends on *O solem ipsum beatissimum*.
+  - v1.7.0 base: **1-2** saga/toga and *confectio ... D. Bruti salus*; **12** *hostium dico; ita, inquam,
+    hostium*; **31-32** the monument to the Martian legion, *O fortunata mors*, *brevis a natura vita ...
+    memoria sempiterna*.
 - **Philippica I** (`philippica-i`, labelIt "Prima Filippica") - 2 Sept 44. **7 fragments**; +4 in
   v1.7.1, order 1-2 · 7 · 11-12 · 18 · 26 · 33-34 · 38.
   - **7 (v1.7.1)** the voyage: Brundisium avoided, Syracuse *Kalendis Sextilibus*, Leucopetra, blown
@@ -394,8 +452,8 @@ release version, pause for review after each.
 | ~~v1.6.7~~ DONE | **Pro Milone +5** (28-29, 32, 57, 72, 84) | 3 -> **8** |
 | ~~v1.7.0~~ DONE | **Pro Caelio (3) + In Pisonem (3) + Philippics I, IV, XIV (3 each)** = +15 | 5 new works |
 | ~~v1.7.1~~ DONE | **Philippica I +4** (7, 11-12, 18, 26) + **Philippica IV +2** (5, 12) = +6 | 3 -> **7** / 3 -> **5** |
-| **v1.7.2 (NEXT)** | **Philippica II +5** (28-29, **44**, 67, 85-86, 104) + **Philippica XIV +4** (6, 10, 23, 27) = +9 | 3 -> **8** / 3 -> **7** |
-| **v1.7.3 / v1.7.4** | **deepen Pro Caelio and In Pisonem** | to 7-8 each |
+| ~~v1.7.2~~ DONE | **Philippica II +5** (28-29, **44**, 67, 85-86, 104) + **Philippica XIV +4** (6, 10, 23, 27) = +9 | 3 -> **8** / 3 -> **7**; **PHILIPPICS FINISHED** |
+| **v1.7.3 (NEXT) / v1.7.4** | **deepen Pro Caelio and In Pisonem** | to 7-8 each |
 | **v1.7.5 / .6 / (.7)** | **deepen In Verrem.** User's note: it should end up the **longest** of them all, since it is 7 speeches and each book of the *actio secunda* runs to 100+ sections | the biggest work in the app |
 
 **ROADMAP SHIFTED BY ONE, 2026-08-24 (user's instruction).** Deepening all four Philippics to the
@@ -411,6 +469,13 @@ Semproniae proferentur* + the *chirographa*; **26** the bronze-tablet formula br
 Quo iure?*. Philippica IV (`phil4`): **5** the *legio Martia* and its name from Mars; **12** the
 *belua* in the *fovea* and *victurine simus an ... perituri*.
 
+**v1.7.2 passages, for the record.** Philippica II (`phil2`): **28-29** the complicity charge widened,
+*voluntas nemini*; **44** the four garments (**restored, see the work entry above**); **67** Charybdis and
+the Pompey auction; **85-86** the Lupercalia diadem; **104** Varro's villa. Philippica XIV (`phil14`):
+**6** *imbuti ... vel madefacti potius* + *Quousque*; **10** the six *quis* clauses; **23** no
+*supplicatio* for a civil war; **27** Hirtius and the eagle. **THE PHILIPPICS ARE FINISHED**: I 7, II 8,
+IV 5, XIV 7 = 27.
+
 **TRANSLATION-ACCURACY PASS (new in v1.7.1, at the user's request).** Every fragment of both speeches,
 new and old, re-read clause by clause against the Latin - mood and type of subjunctive, tense, voice,
 ellipsis, negation scope, pronoun reference, idiom - checking for additions and omissions and for
@@ -418,7 +483,17 @@ EN/IT agreement. **Done by re-parsing, never by consulting a published translati
 stay original. Corrections to v1.7.0 fragments (**tags deliberately not bumped**): I.1-2 EN dropped an
 added possessive in *all memory of **our** discords*, and its opening clause was restructured in both
 languages; IV.1-2 IT turned *maximis senatus laudibus ornatus est* from an agent back into an ablative
-of means (*onorato **con** le più alte lodi*). The same pass is scheduled for II and XIV in v1.7.2.
+of means (*onorato **con** le più alte lodi*).
+**v1.7.2 findings** (six, tags again not bumped): XIV.12 EN+IT had *me ovantem et prope triumphantem* as
+"almost in ovation and almost in triumph" - *prope* governs only *triumphantem*, and doubling it flattens
+a deliberate gradation; XIV.31 EN+IT read *pro patria ... reddita* as a dative ("paid to one's country");
+XIV.32 EN gave *impii* as "traitors", losing the *impii* / *piorum sedem* pair the paragraph turns on;
+II.1 EN had dropped the noun from *impios civis* and rendered *poenas dare* unidiomatically;
+II.118-119 softened *parturit* to "carrying" / "porta in grembo" in a sentence built on the labour
+metaphor, and had one ungrammatical Italian clause at *de te tu videris*. One finding in this release's
+own new work: II.28-29 supplied a first-person plural for the verbless third-person *omnes ergo in culpa*.
+**Two source defects were found and handled rather than corrected** - see the II.118-119 and XIV.23
+entries above. **The pass is now a standing part of every release.**
 
 **v1.7.0 passages, for the record.** Pro Caelio (`cael`): **32** the *fratre volui dicere* slip +
 *amicam omnium*; **33-34** Appius Claudius Caecus (the blind-so-he-won't-see-her joke; closes on

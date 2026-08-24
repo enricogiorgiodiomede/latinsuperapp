@@ -74,7 +74,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=85`.**
+   whenever you change a JS/CSS file. **Currently `v=86`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -143,7 +143,7 @@ The full Italian translation pass is **DONE**.
 | Cornelius Nepos | Good Exercise | **De Viris Illustribus (8)**: Praefatio, Themistocles, Alcibiades, Epaminondas, Pelopidas, Hannibal, Cato, Atticus |
 | Quintus Hortensius Hortalus | **NA (grey badge, no chart)** | Cicero, Brutus 6 (1) |
 | Publius Nigidius Figulus | **NA (grey badge, no chart)** | Gellius, NA X.9 (1) |
-| **Marcus Tullius Cicero** *(needsSelection, NESTED chooser)* | Very Difficult | **Speeches (75 across 13 works, v1.5.0-v1.7.1), CHRONOLOGICAL**: In Verrem 3 · **In Catilinam I 10 · II 7 · III 7 · IV 8 = 32** · Pro Archia 8 · Pro Caelio 3 · In Pisonem 3 · Pro Milone 8 · **Philippica I 7** · Philippica II 3 · **Philippica IV 5** · Philippica XIV 3. **Letters**: Ad Atticum 1. **Philosophical works**: De Amicitia 1. (77 total) |
+| **Marcus Tullius Cicero** *(needsSelection, NESTED chooser)* | Very Difficult | **Speeches (84 across 13 works, v1.5.0-v1.7.2), CHRONOLOGICAL**: In Verrem 3 · **In Catilinam I 10 · II 7 · III 7 · IV 8 = 32** · Pro Archia 8 · Pro Caelio 3 · In Pisonem 3 · Pro Milone 8 · **Philippica I 7 · II 8 · IV 5 · XIV 7 = 27 (THE PHILIPPICS ARE FINISHED)**. **Letters**: Ad Atticum 1. **Philosophical works**: De Amicitia 1. (86 total) |
 | Gaius Julius Caesar | Good Exercise | BG VI.13 Druids · VI.14 Druids · BC I.7 Rubicon speech (3) |
 | Aulus Hirtius | Manageable | BG VIII praef. · Bellum Alexandrinum 1 · Bellum Alexandrinum 2 (3) |
 | Titus Lucretius Carus | Very Difficult | DRN I.80-101 Iphigenia (1) |
@@ -248,13 +248,14 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
   **Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
 **=== SESSION HANDOFF (updated 2026-08-24) ===**
-Current: **v1.7.1, cache ?v=85**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
+Current: **v1.7.2, cache ?v=86**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
 50 frags since v1.4.0). Caesar's-Age flesh-out in progress: **Nepos done (1->8, v1.2.0)**;
-**Cicero is the big active job and is now the largest author in the app at 77 excerpts** (Plautus 50).
+**Cicero is the big active job and is now the largest author in the app at 86 excerpts** (Plautus 50).
 
-**Cicero's Speeches: 75 fragments across 13 works, in chronological order of delivery** -
+**Cicero's Speeches: 84 fragments across 13 works, in chronological order of delivery** -
 In Verrem 3 · In Catilinam I 10, II 7, III 7, IV 8 (**the Catilinarians are finished, 32**) ·
-Pro Archia 8 · Pro Caelio 3 · In Pisonem 3 · Pro Milone 8 · Philippica I 7, II 3, IV 5, XIV 3.
+Pro Archia 8 · Pro Caelio 3 · In Pisonem 3 · Pro Milone 8 · Philippica I 7, II 8, IV 5, XIV 7
+(**the Philippics are finished, 27**).
 His other three categories are barely started: **Letters 1** (Ad Atticum I.16), **Philosophical
 works 1** (De Amicitia 20), **Rhetorical works 0**.
 
@@ -277,11 +278,13 @@ version, **pause for review after each**.
 Philippics is +15 and was split into two releases rather than shipped as one.
 - ~~**v1.7.1**~~ DONE 24/08: **Philippica I 3 -> 7** (7, 11-12, 18, 26) + **Philippica IV 3 -> 5** (5, 12) = +6,
   plus a clause-by-clause translation-accuracy pass over all 12 fragments of those two speeches.
-- **v1.7.2 (NEXT):** **Philippica II 3 -> 8** (28-29, **44**, 67, 85-86, 104) + **Philippica XIV 3 -> 7**
-  (6, 10, 23, 27) = **+9**, with the same translation-accuracy pass over all 15 fragments of those two
-  speeches. **II.44 is included at the user's explicit instruction (2026-08-24)**, reversing the
-  v1.5.0 exclusion; the excerpt stops at the end of 44 and does not run into 45.
-- **v1.7.3 / v1.7.4:** deepen **Pro Caelio** and **In Pisonem** to 7-8 each.
+- ~~**v1.7.2**~~ DONE 24/08: **Philippica II 3 -> 8** (28-29, **44**, 67, 85-86, 104) + **Philippica XIV
+  3 -> 7** (6, 10, 23, 27) = **+9**, with the translation-accuracy pass over all 15 fragments of those
+  two speeches. **II.44 restored at the user's explicit instruction (2026-08-24)**, reversing the
+  v1.5.0 exclusion; the excerpt stops at the end of 44 and **deliberately does not run into 45**, which
+  the user confirmed after being shown what 45 contains. **THE PHILIPPICS ARE NOW FINISHED** (I 7, II 8,
+  IV 5, XIV 7 = 27).
+- **v1.7.3 (NEXT) / v1.7.4:** deepen **Pro Caelio** and **In Pisonem** to 7-8 each.
 - **v1.7.5 / .6 / (.7):** deepen **In Verrem**. User's note: it should end up the **longest of them
   all**, since it is 7 speeches and each book of the *actio secunda* runs to 100+ sections.
   **In Verrem is currently ONE work** (user's call, 2026-08-20); if it grows past ~8, revisit the

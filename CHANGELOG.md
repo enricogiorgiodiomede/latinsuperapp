@@ -6,6 +6,74 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.7.2] - 2026-08-24
+
+**The Philippics finished.** *Philippica II* goes 3 -> **8** and *Philippica XIV*, the last speech
+Cicero published, goes 3 -> **7**. With v1.7.1 that brings all four Philippics to the sizes the user
+set (I 7, II 8, IV 5, XIV 7), and the Speeches group to **84 across 13 works**. Cicero passes 85.
+
+### Added
+- **9 new fragments** (verbatim Latin from The Latin Library + original Italian and English +
+  analysis, with bilingual metadata), tagged `version: 1.7.2`:
+- ***Philippica II*** (autumn 44, `cicero/phil2.shtml`), +5, order 1 · **28-29** · **44** · 63 ·
+  **67** · **85-86** · **104** · 118-119: **28-29**, Antony's charge that Cicero was behind the
+  assassination, answered by widening it - *omnes boni, quantum in ipsis fuit, Caesarem occiderunt;
+  aliis consilium, aliis animus, aliis occasio defuit, voluntas nemini* (the verb written once, with
+  the third member, understood in the other three); **44** (see below); **67**, *Quae Charybdis tam
+  vorax?* and the auction of Pompey's house, ending on the *conchyliata peristromata* spread over
+  slaves' bunks, with the potential subjunctive *videres*; **85-86**, the Lupercalia in historic
+  presents, *Gemitus toto foro*, the repeated-action imperfects *inponebas* / *reiciebat* against
+  *cum plangore populi* / *cum plausu*, closing on the sentence that made the speech unpublishable;
+  **104**, Varro's villa at Casinum (**cross-links to Varro**, who has his own entry and 11 excerpts),
+  the *hasta Caesaris* / *temeritas tua* contrast, and *Ab hora tertia bibebatur, ludebatur,
+  vomebatur*.
+- ***Philippica XIV*** (April 43, `cicero/phil14.shtml`), +4, order 1-2 · **6** · **10** · 12 ·
+  **23** · **27** · 31-32: **6**, *Imbuti gladii sunt ... vel madefacti potius*, the verbless dilemma
+  *si hostium ... si civium*, and *Quousque* quoting the opening of the *First Catilinarian* twenty
+  years on; **10**, six *quis* clauses on one verb over the two days Rome believed Antony had won,
+  plus *metator* and *decempeda* (Rome already surveyed for distribution); **23**, the historical
+  proof that no *supplicatio* was ever voted for a civil war, and *quos voluit, expulit, quos potuit,
+  occidit*; **27**, Hirtius carrying the eagle of the Fourth (**cross-links to Hirtius**), the
+  forty-word hyperbaton between *hostes nefarios* and *imminentes*, and *O solem ipsum beatissimum*.
+
+### Changed
+- ***Philippica II* 44 restored, at the user's explicit instruction (2026-08-24)**, reversing the
+  v1.5.0 exclusion. The excerpt runs to the end of 44 and **deliberately stops before 45**, which the
+  user confirmed after being shown what 45 contains. The analysis names the technique: four garments
+  in a row (*praetexta / virilis / muliebris / stola*), the *lex Roscia theatralis* on where bankrupts
+  had to sit, and *collocare in matrimonio* used of the wrong pair of people. No act is described
+  anywhere in the section.
+- **Translation-accuracy pass over both speeches** (9 new + 6 existing = 15 fragments). Corrections
+  to fragments from v1.5.0 and v1.7.0, whose `version` tags are deliberately **not** bumped:
+  - *Philippica XIV.12* (EN + IT) - *me ovantem et prope triumphantem* had come out as "almost in
+    ovation and almost in triumph" / "quasi in ovazione e quasi in trionfo". *Prope* governs only
+    *triumphantem*; doubling it flattens a deliberate gradation. Now "in ovation and almost in
+    triumph".
+  - *Philippica XIV.31* (EN + IT) - *pro patria ... reddita* read as a dative ("paid to one's
+    country" / "alla patria") instead of "for".
+  - *Philippica XIV.32* (EN) - *impii* rendered "traitors", which loses the *impii* / *piorum sedem*
+    pair the paragraph turns on. Now "impious men".
+  - *Philippica II.1* (EN) - *impios civis* had lost its noun ("the wicked" for "disloyal citizens";
+    the Italian was already right), and *poenas dare* was unidiomatic.
+  - *Philippica II.118-119* - *parturit* softened to "carrying" / "porta in grembo" in a sentence
+    whose whole point is the metaphor of labour; and one ungrammatical Italian clause at *de te tu
+    videris*.
+  - *Philippica II.28-29*, this release's own - *Omnes ergo in culpa* is verbless and third person in
+    context; both languages had supplied a first-person plural.
+
+### Notes on sourcing
+Both speeches already in `tools/sources.json`; no new work, no `sources.json` edit. Built through
+`tools/`, no Latin retyped. **Two source defects found and handled rather than silently corrected:**
+The Latin Library prints *quanto verius **non** negabo seni* at II.119 where the sense requires
+*nunc* (most editions read *nunc negabo*) - the Latin is kept verbatim, the translation follows the
+reading the sentence needs, and a note in the analysis explains the difference. At XIV.23 it prints
+*supplicatio [Cinnae} nulla victori*, a square bracket closed with a curly brace; reproduced exactly
+and explained in the analysis. Also at II.104 the source marks a chapter division (`[XLI]`) mid-section;
+dropped, since the app cites by section for every speech except the *In Pisonem*. Self-proofread;
+whole bank **84/84 verbatim**.
+
+Cache-bust: `?v=85` -> `?v=86`.
+
 ## [1.7.1] - 2026-08-24
 
 **Two Philippics deepened**, the first of two releases that bring all four up to size: *Philippica I*

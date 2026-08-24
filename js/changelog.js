@@ -12,6 +12,35 @@
 
   var VERSIONS = [
     {
+      v: '1.7.2', date: '2026-08-24', time: '00:00', tz: 'CEST',
+      en: {
+        added: [
+          'Nine new excerpts from Cicero, finishing the Philippics: the second goes from three to eight, and the fourteenth, the last speech he ever published, from three to seven. All four Philippics in the app are now at full size.',
+          'From the Second Philippic, the speech he wrote but never dared deliver: his answer to the charge of being behind Caesar\'s murder, which he meets not by denying it but by widening it until it covers the whole Senate - "all good men, so far as it lay in them, killed Caesar: some lacked the plan, some the courage, some the opportunity; none of them lacked the will" (28-29); the auction of the dead Pompey\'s house, where actors carry off the storerooms and the slaves\' beds are made up with Pompey\'s purple coverlets (67); the Lupercalia, where Antony offered Caesar a crown in front of the whole city, and the sentence that made the speech unpublishable in Rome (85-86); and the villa of Varro, another author in this app, turned into a drinking den - "from the third hour there was drinking, there was gaming, there was vomiting" (104).',
+          'Also from the Second Philippic, at the reader\'s request, the section on Antony\'s adolescence that had been left out of the app until now (44). It is the most notorious page of the speech and the attack is built entirely out of clothing: the boy\'s purple-bordered gown he managed to go bankrupt in, the adult gown he took up and immediately exchanged for a woman\'s, and the matron\'s robe his friend Curio is imagined handing over. Not one act is described anywhere in it.',
+          'And from the Fourteenth, delivered days before the consul Hirtius was killed: the swords of the legions "dipped, or rather drenched", and the question of whether that was enemy blood or citizens\' (6); the two days when Rome believed Antony had won, and nobody could look at his own children without weeping (10); the proof from history that Rome had never once voted thanks to the gods for winning a civil war (23); and Hirtius himself carrying the eagle of the Fourth Legion into the line, followed by a farewell to the setting sun for having stayed up to watch Antony run (27).'
+        ],
+        changed: [
+          'Every translation in these two speeches was re-checked against the Latin, clause by clause, as was done last time for the other two. Six renderings in older excerpts were corrected. The largest: yesterday\'s procession had been described as "almost in ovation and almost in triumph" when Cicero says the first happened and only the second nearly did; and the soldiers\' death at Mutina was "paid to" their country rather than for it.',
+          'One note was added about the source text, at the end of the Second Philippic. The online edition the app quotes has a word there that reverses Cicero\'s meaning, almost certainly a slip for a very similar one. The Latin is left exactly as the source prints it, the translation follows the reading the sentence needs, and the note now explains the difference.'
+        ],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Nove nuovi brani di Cicerone, che completano le Filippiche: la seconda passa da tre a otto brani, e la quattordicesima, l\'ultima orazione che abbia pubblicato, da tre a sette. Tutte e quattro le Filippiche presenti nell\'app hanno ora la loro dimensione piena.',
+          'Dalla Seconda Filippica, l\'orazione che scrisse ma non osò mai pronunciare: la risposta all\'accusa di essere dietro l\'assassinio di Cesare, che non nega ma allarga finché non copre l\'intero senato - "tutti gli onesti, per quanto stette in loro, hanno ucciso Cesare: ad alcuni mancò il piano, ad altri il coraggio, ad altri l\'occasione; a nessuno la volontà" (28-29); l\'asta della casa di Pompeo ormai morto, con gli attori che si portano via i magazzini e i letti degli schiavi rifatti con le coperte di porpora di Pompeo (67); i Lupercali, dove Antonio offrì a Cesare una corona davanti a tutta la città, e la frase che rese l\'orazione impubblicabile a Roma (85-86); e la villa di Varrone, un altro autore di quest\'app, ridotta a bettola - "dall\'ora terza si beveva, si giocava, si vomitava" (104).',
+          'Sempre dalla Seconda Filippica, su richiesta del lettore, il paragrafo sull\'adolescenza di Antonio che fino a oggi era rimasto fuori dall\'app (44). È la pagina più famigerata dell\'orazione, e l\'attacco è costruito interamente sui vestiti: la toga orlata di porpora del fanciullo, con la quale riuscì a fallire, la toga virile che prese e subito scambiò per una da donna, e la stola da matrona che l\'amico Curione viene immaginato mentre gliela consegna. Non vi è descritto un solo atto.',
+          'E dalla Quattordicesima, pronunciata pochi giorni prima che il console Irzio venisse ucciso: le spade delle legioni "intinte, anzi inzuppate", e la domanda se quello fosse sangue di nemici o di cittadini (6); i due giorni in cui Roma credette che Antonio avesse vinto, e nessuno riusciva a guardare i propri figli senza piangere (10); la prova storica che Roma non aveva mai votato un ringraziamento agli dèi per aver vinto una guerra civile (23); e Irzio in persona che porta l\'aquila della Quarta legione nella mischia, seguito da un saluto al sole al tramonto per essere rimasto in cielo a guardare Antonio scappare (27).'
+        ],
+        changed: [
+          'Tutte le traduzioni di queste due orazioni sono state ricontrollate sul latino, frase per frase, come si era fatto la volta scorsa per le altre due. Sei rese in brani più vecchi sono state corrette. La più rilevante: il corteo del giorno prima era descritto come "quasi in ovazione e quasi in trionfo", mentre Cicerone dice che la prima cosa avvenne davvero e solo la seconda fu sfiorata; e la morte dei soldati a Modena risultava pagata "alla" patria invece che "per" la patria.',
+          'È stata aggiunta una nota sul testo della fonte, alla fine della Seconda Filippica. L\'edizione online che l\'app cita ha lì una parola che rovescia il senso di Cicerone, quasi certamente un refuso per un\'altra molto simile. Il latino resta esattamente come lo stampa la fonte, la traduzione segue la lezione di cui la frase ha bisogno, e la nota ora spiega la differenza.'
+        ],
+        deleted: []
+      }
+    },
+    {
       v: '1.7.1', date: '2026-08-24', time: '20:12', tz: 'CEST',
       en: {
         added: [
