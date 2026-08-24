@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.7.2', date: '2026-08-24', time: '00:00', tz: 'CEST',
+      v: '1.7.2', date: '2026-08-24', time: '21:33', tz: 'CEST',
       en: {
         added: [
           'Nine new excerpts from Cicero, finishing the Philippics: the second goes from three to eight, and the fourteenth, the last speech he ever published, from three to seven. All four Philippics in the app are now at full size.',
