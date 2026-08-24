@@ -9,3 +9,4 @@ desktop.ini
 
 # Claude Code local preview/config
 .claude/
+tools/.cache/

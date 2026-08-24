@@ -1,0 +1,25 @@
+{
+  "_comment": "Which Latin Library page(s) each practice work's Latin comes from. Paths are relative to https://thelatinlibrary.com/ and get '.shtml' appended. Used by fetch_sources.js (to build the local text cache) and by verify.js (to check every Latin field verbatim). Add an entry whenever a new work is created.",
+
+  "in-verrem": ["cicero/verres.2.4", "cicero/verres.2.5"],
+  "in-catilinam-i": ["cicero/cat1"],
+  "in-catilinam-ii": ["cicero/cat2"],
+  "in-catilinam-iii": ["cicero/cat3"],
+  "in-catilinam-iv": ["cicero/cat4"],
+  "pro-archia": ["cicero/arch"],
+  "pro-caelio": ["cicero/cael"],
+  "in-pisonem": ["cicero/piso"],
+  "pro-milone": ["cicero/milo"],
+  "philippica-i": ["cicero/phil1"],
+  "philippica-ii": ["cicero/phil2"],
+  "philippica-iv": ["cicero/phil4"],
+  "philippica-xiv": ["cicero/phil14"],
+
+  "_notLive": {
+    "_comment": "Sourced but not yet used, for the roadmap. All of these fetch cleanly. NOTE: cicero/adbrutum is only a table of contents - the letters themselves are on adbrutum1 and adbrutum2. The Verrines actio prima is NOT on TLL at all (verres.1 / verrem both 404), which is why In Verrem is sourced from the actio secunda only.",
+    "ad-atticum": ["cicero/att1", "cicero/att7", "cicero/att12"],
+    "ad-familiares": ["cicero/fam5", "cicero/fam14", "cicero/fam16"],
+    "ad-quintum": ["cicero/fratrem1", "cicero/fratrem3"],
+    "ad-brutum": ["cicero/adbrutum1", "cicero/adbrutum2"]
+  }
+}

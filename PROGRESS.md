@@ -19,7 +19,10 @@ Pages:
 - `author.html` - author detail: portrait(s), biography, main works, style, a **per-criterion
   difficulty bar chart** + an **overall evaluation** badge, and a "Practice translation" button.
 - `practice.html` - practice: **one fragment at a time** + a **"Next fragment ->"** button.
-- `practice-select.html` - comedy/text chooser (only for Plautus, Terence, Caecilius).
+- `practice-select.html` - text chooser (Plautus, Terence, Caecilius, Varro; **Cicero nests one level
+  deeper**: category -> work).
+- `version.html` - the per-release excerpt list (`?v=X`).
+- `tools/` - the fragment pipeline; see `tools/README.md`.
 
 **Languages:** a **flag toggle** in the red header switches the whole interface EN<->IT
 (persisted in `localStorage`, applied on reload; Latin excerpts never translated). Author
@@ -41,8 +44,11 @@ The full Italian translation pass is **DONE**.
   from displayed prose; exposes `LatinData` (eras, authors, bio/works/style). To add an era: add an
   `ERA_CONFIG` entry, flip its `ERAS` `available:true`, drop its images in the folder, regenerate
   content.js + content-it.js, add ratings + fragments.
-- `js/content.js` - GENERATED embedded copy of the draft (regenerate when the draft changes; see
-  README for the node one-liner).
+- `js/content.js` - GENERATED embedded copy of the drafts. **Regenerate from BOTH era drafts in one
+  step** (`window.__ARCHAIC_MD__` + `window.__CAESAR_MD__`); the one-liner in README.md only writes the
+  archaic one and would silently drop Caesar's Age. Then `node build_content_it.js` for the Italian.
+  Since v1.6.5 `data.js` also cache-busts its runtime fetch of the drafts, so edited prose actually
+  reaches returning readers.
 - `js/ratings.js` - per-author difficulty data (4 criteria + overall evaluation). `js/chart.js` -
   the SVG bar chart.
 - **`js/fragments.js` - THE PRACTICE FRAGMENT BANK (`window.PracticeBank`). Single source for
@@ -85,11 +91,12 @@ The full Italian translation pass is **DONE**.
    - **Citations localize automatically**: `practice.js` `localizeCitation()` turns
      `Act N, Scene N` into `Atto N, Scena <Roman>` and Prologue->Prologo in IT mode. Keep the play
      title Latin in the citation. Write citations in English; do NOT pre-translate them.
-   - To add fragments, write a tiny Node build script (window-shim + `eval` the file, push
-     works/fragments, re-emit `before + 'var AUTHORS = ' + JSON.stringify(authors,null,2)... + after`),
-     run it, delete it. Recent examples in git history: `add_miles.js`, `add_andria.js`,
-     `add_phormio.js`. For multi-work authors, **reorder works chronologically** after pushing:
-     `ter.works.sort((a,b)=>ORDER.indexOf(a.id)-ORDER.indexOf(b.id))`.
+   - **To add fragments, use `tools/` - do NOT hand-write a throwaway script any more.** See
+     `tools/README.md`: fetch_sources -> extract -> apply_batch -> verify. The applier round-trips the
+     file (`head + JSON.stringify(AUTHORS,null,2) + ';' + tail`), so the diff is only the new content,
+     and it re-sorts each touched work by section number. `tools/reorder_works.js` handles work order.
+     (Pre-v1.7.0 batches used one-off scripts: `add_miles.js`, `add_plautus.js`, `topup.js` etc. in
+     git history. Same technique, now packaged.)
 4. **Practice UX**: one fragment at a time; "Next fragment ->" steps **sequentially** (1/N -> 2/N
    -> wrap). Order fragments within a work chronologically (by line number). `needsSelection`
    authors route through `practice-select.html` first; works with 0 fragments are hidden there.
@@ -240,11 +247,25 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
   (Speeches done v1.5.0; Letters + Philosophical + Rhetorical still to build)**; still to do =
   **Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
-**=== SESSION HANDOFF (updated 2026-08-20) ===**
-Current: **v1.7.0, cache ?v=84**, pushed. Archaic is complete (Plautus 10 comedies / 50 frags since v1.4.0).
-Caesar's-Age flesh-out in progress: **Nepos done (1->8, v1.2.0)**; **Cicero IN PROGRESS: Speeches now
-8 works x 3 = 24 fragments** (v1.5.0 built the category; **v1.6.0 split In Catilinam into its four
-speeches** and topped each to 3).
+**=== SESSION HANDOFF (updated 2026-08-23) ===**
+Current: **v1.7.0, cache ?v=84**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
+50 frags since v1.4.0). Caesar's-Age flesh-out in progress: **Nepos done (1->8, v1.2.0)**;
+**Cicero is the big active job and is now the largest author in the app at 71 excerpts** (Plautus 50).
+
+**Cicero's Speeches: 69 fragments across 13 works, in chronological order of delivery** -
+In Verrem 3 · In Catilinam I 10, II 7, III 7, IV 8 (**the Catilinarians are finished, 32**) ·
+Pro Archia 8 · Pro Caelio 3 · In Pisonem 3 · Pro Milone 8 · Philippica I 3, II 3, IV 3, XIV 3.
+His other three categories are barely started: **Letters 1** (Ad Atticum I.16), **Philosophical
+works 1** (De Amicitia 20), **Rhetorical works 0**.
+
+**THE PIPELINE NOW LIVES IN `tools/`** (added 2026-08-23). It used to be throwaway scripts in a
+session temp folder, which meant every new chat rebuilt it from scratch. Read `tools/README.md`
+first. The loop is: `node tools/fetch_sources.js` (cache the Latin Library pages; the cache is
+gitignored) -> `node tools/extract.js spec.json passages.json` (cut passages verbatim; **never
+retype Latin**) -> `node tools/apply_batch.js passages.json frags.js <version>` -> `node
+tools/verify.js` (**must report 0 mismatched** - it checks every Latin field against its source).
+`tools/sources.json` maps work id -> source page and must gain an entry for each new work.
+`create_works.js` adds new works, `reorder_works.js` re-sorts the speeches chronologically.
 **ROADMAP for the rest of the Speeches group (saved on the user's instruction, 2026-08-22).** Same
 rules as the v1.6.x batches: 3-5 excerpts per patch release, self-proofread, tagged with the release
 version, **pause for review after each**.
@@ -266,11 +287,18 @@ Per-passage candidates are in `practice_fragments_reference.md` under "ROADMAP" 
 categories first and `&group=<id>` shows that category's works. Only Cicero uses it so far; every other
 `needsSelection` author is unchanged. Helpers: `PracticeBank.groups/hasGroups/getGroup/groupOfWork/
 groupFragmentCount`, and `works(slug, groupId)`.
-Always confirm which author + how many fragments before a batch. Per-batch workflow: source verbatim
-(well-preserved -> self-proofread, no user proofread; fragment-only -> flag + ask user); **tag new
-fragments with the new app version** (version-tracker); bilingual IT+EN + analysis + IT metadata; bump
-cache; verify in browser; commit+push; update CHANGELOG + in-app What's New + this file +
-practice_fragments_reference.md + memory.
+**Per-batch workflow (follow every time).** Always confirm which author/work + how many fragments
+before starting. Then: pick passages and **explain the context of each pick in the report**, the user
+judges whether they are interesting; source verbatim (well-preserved authors -> self-proofread, no
+user proofread; fragment-only authors -> flag + ask the user); avoid the sexually explicit stretches
+(Phil. II.44, Cat. II.8, Mil. 73, Cael. 36 were all deliberately excluded, and the neighbouring
+passage usually carries the same register); write both languages, with `titleIt`/`descriptionIt`/
+`analysisIt` and proper accents; **tag new fragments with the release version, and never bump the tag
+of an old fragment you merely edited**; run `node tools/verify.js`; bump the `?v=` in all five HTML
+files; check it in the browser preview (counts, badge, IT mode, no console errors); commit + push;
+then update CHANGELOG.md, the in-app What's New in `js/changelog.js` (**date and time from the actual
+commit** - check `git log` afterwards, the release time has needed correcting almost every time),
+this file, `practice_fragments_reference.md`, and memory.
 **=== end handoff ===**
 
 Remaining work items:
