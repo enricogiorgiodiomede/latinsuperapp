@@ -6,6 +6,58 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.7.1] - 2026-08-24
+
+**Two Philippics deepened**, the first of two releases that bring all four up to size: *Philippica I*
+goes 3 -> **7** and *Philippica IV*, the shortest of the fourteen, goes 3 -> **5**. Every translation
+in both speeches, new and old, was re-checked clause by clause against the Latin.
+
+### Added
+- **6 new fragments** (verbatim Latin from The Latin Library + original Italian and English +
+  analysis, with bilingual metadata), tagged `version: 1.7.1`:
+- ***Philippica I*** (2 Sept 44, `cicero/phil1.shtml`), +4, order 1-2 · **7** · **11-12** · **18** ·
+  **26** · 33-34 · 38: **7**, the voyage - Brundisium avoided, Syracuse on the Kalends of Sextilis,
+  Leucopetra, and *reiectus austro sum in eum ipsum locum, unde conscenderam*; deliberately the
+  easiest Latin in the speech, a clean run of `cum` + pluperfect subjunctive; **11-12**, *Hannibal,
+  credo, erat ad portas* and Appius Claudius Caecus carried in blind and old (**cross-links to the
+  Pro Caelio 33-34 fragment**), then the payoff, Antony saying in the house *cum fabris se domum meam
+  venturum esse*; **18**, the *acta Caesaris* argument by induction - *Quaere acta Gracchi; leges
+  Semproniae proferentur. Quaere Sullae; Corneliae* - and the *chirographa* trap; **26**, the bronze
+  tablet, *CONSULES POPULUM IURE ROGAVERUNT ... POPULUSQUE IURE SCIVIT* dismantled by *Qui populus?
+  Quo iure?*, closing on the asyndetic *demonstro vitia; tollite: denuntio vim, arma; removete*.
+- ***Philippica IV*** (20 Dec 44, `cicero/phil4.shtml`), +2, order 1-2 · **5** · 8 · **12** · 15:
+  **5**, the *legio Martia* judging Antony a public enemy before the Senate did and drawing its name
+  *divinitus* from Mars (**cross-links forward to Philippica XIV.31-32**, the monument to its dead),
+  plus the gerundive-in-indirect-statement *arbitratur ... honores exquirendos*; **12**, Antony as
+  *immani taetraque belua* fallen *in foveam*, and the closing antithesis *agitur enim, non qua
+  condicione victuri, sed victurine simus an cum supplicio ignominiaque perituri*.
+
+### Changed
+- **Translation-accuracy pass over both speeches** (6 new + 6 existing = 12 fragments, checked clause
+  by clause for mood, tense, voice, ellipsis, negation scope and idiom). Corrections to fragments
+  added in v1.7.0, whose `version` tags are deliberately **not** bumped:
+  - *Philippica I.1-2* (EN) - *omnem memoriam discordiarum* was rendered "all memory of **our**
+    discords"; the possessive is not in the Latin. Opening clause restructured in EN and IT, where
+    *Antequam de re publica ... dicam ea, quae ...* had been carried over as word order rather than
+    as a sentence.
+  - *Philippica IV.1-2* (IT) - *maximis senatus laudibus ornatus est* read "onorato **dalle** più alte
+    lodi", turning an ablative of means into an agent; now "onorato **con** le più alte lodi".
+- Within this release's own new fragments, three renderings were tightened before shipping: *ne meus
+  ... adventus suspicionis aliquid afferet* no longer adds "upon them" / "su di loro"; the gloss of
+  *supplicatio* moved out of the translation of I.11-12 and into its analysis, where the app puts
+  technical terms; and the English of I.26 now keeps *iure* visible ("by right" twice) so the formula
+  still rhymes with the *Quo iure?* that destroys it - the Italian already did. The title of I.26
+  follows, from "The consuls duly put the question" to **"By what right?"**.
+
+### Notes on sourcing
+Both speeches are well preserved and already in `tools/sources.json`; no new work, no `sources.json`
+edit. Built entirely through `tools/` (extract -> apply_batch -> verify), so no Latin was retyped.
+Editorial marks kept as The Latin Library prints them and explained in the analysis: the bracketed
+`[iam]` at IV.12, and I.7's *afferet*, a future indicative in a clause of fearing where most editions
+read *adferret*. Self-proofread; whole bank re-checked, **75/75 verbatim**.
+
+Cache-bust: `?v=84` -> `?v=85`.
+
 ## [1.7.0] - 2026-08-23
 
 **Five new speeches**, the first new works since v1.5.0: Pro Caelio, In Pisonem and Philippics I, IV

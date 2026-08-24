@@ -12,6 +12,33 @@
 
   var VERSIONS = [
     {
+      v: '1.7.1', date: '2026-08-24', time: '00:00', tz: 'CEST',
+      en: {
+        added: [
+          'Six new excerpts from Cicero, deepening two of the Philippics: the first goes from three to seven, and the fourth, the shortest of the fourteen, from three to five.',
+          'The centrepiece is the day Antony threatened to demolish Cicero\'s house. Cicero had missed a routine sitting of the Senate, and Antony announced in the house that he would come round with builders. Cicero\'s reply runs through the emergencies that might have justified summoning a sick man - "Hannibal, I suppose, was at the gates" - and ends with the blind old censor Appius Claudius, who really did have himself carried in to stop the peace with Pyrrhus, and who turns up in this app twice (I.11-12).',
+          'Also from the first Philippic: the sea voyage that nearly took Cicero out of the story altogether, sailing for Greece and being blown straight back to the Italian coast by the south wind, told in the plainest Latin in the speech (7); the argument that a statesman\'s acts are his laws and nothing else - "ask for the acts of Gracchus: the Sempronian laws will be produced" (18); and the formula that would have been cut into the bronze tablet, "the consuls put the question to the people by right", read aloud with two questions inserted into it that bring it down (26).',
+          'And from the fourth: the legion that judged Antony a public enemy before the Senate did, and that Cicero says drew its name from Mars himself, four months before it was cut to pieces at Mutina (5); and the close of the speech, where Antony stops being a criminal and becomes a beast fallen into a hunting pit, followed by the sentence that states what the war is actually about - not on what terms we shall live, but whether we shall live at all (12).'
+        ],
+        changed: [
+          'Every translation in these two speeches was re-checked against the Latin, clause by clause. A few renderings in the excerpts added last time were tightened: two places where the English said slightly more than the Latin does, one Italian phrase that turned an instrument into an agent, and the wording of the bronze-tablet formula, where the English had lost the repeated word that the joke depends on.'
+        ],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Sei nuovi brani di Cicerone, che approfondiscono due Filippiche: la prima passa da tre a sette brani, e la quarta, la più breve delle quattordici, da tre a cinque.',
+          'Il pezzo forte è il giorno in cui Antonio minacciò di demolire la casa di Cicerone. Cicerone aveva saltato una seduta ordinaria del senato, e Antonio annunciò in aula che sarebbe passato con i muratori. La replica di Cicerone passa in rassegna le emergenze che avrebbero potuto giustificare la convocazione di un malato - "Annibale, immagino, era alle porte" - e finisce sul vecchio censore cieco Appio Claudio, che davvero si fece portare in senato per impedire la pace con Pirro, e che in quest\'app compare due volte (I.11-12).',
+          'Sempre dalla prima Filippica: il viaggio per mare che per poco non tolse Cicerone dalla storia, la partenza per la Grecia e il ritorno immediato sulla costa italiana spinto dall\'austro, raccontato nel latino più semplice dell\'orazione (7); la tesi che gli atti di un uomo di Stato sono le sue leggi e nient\'altro - "chiedi gli atti di Gracco: ti verranno prodotte le leggi Sempronie" (18); e la formula che sarebbe stata incisa sulla tavola di bronzo, "i consoli hanno interrogato il popolo secondo il diritto", letta ad alta voce con due domande infilate dentro che la fanno crollare (26).',
+          'E dalla quarta: la legione che giudicò Antonio nemico pubblico prima ancora del senato, e che secondo Cicerone trasse il nome da Marte in persona, quattro mesi prima di essere fatta a pezzi a Modena (5); e la chiusa dell\'orazione, dove Antonio smette di essere un criminale e diventa una bestia caduta in una fossa da caccia, seguita dalla frase che dice di che cosa tratti davvero la guerra: non a quali condizioni vivremo, ma se vivremo (12).'
+        ],
+        changed: [
+          'Tutte le traduzioni di queste due orazioni sono state ricontrollate sul latino, frase per frase. Qualche resa dei brani aggiunti la volta scorsa è stata corretta: due punti in cui l\'inglese diceva un po\' più di quanto dica il latino, una frase italiana che trasformava un mezzo in un agente, e la formulazione della tavola di bronzo, dove l\'inglese aveva perso la parola ripetuta su cui si regge la battuta.'
+        ],
+        deleted: []
+      }
+    },
+    {
       v: '1.7.0', date: '2026-08-23', time: '20:29', tz: 'CEST',
       en: {
         added: [

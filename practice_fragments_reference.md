@@ -347,6 +347,40 @@ ends at `...quam iusta repetenda`). `Illias` (Arch. 24) and `inplevit` (Phil. II
     (Chosen over the §44 sexual invective, which is explicit; §63 carries the same register.)
   - **118-119**: *Defendi rem publicam adulescens, non deseram senex*; the childbirth metaphor *pariat, quod iam
     diu parturit*; the two closing wishes.
+- **Philippica I** (`philippica-i`, labelIt "Prima Filippica") - 2 Sept 44. **7 fragments**; +4 in
+  v1.7.1, order 1-2 · 7 · 11-12 · 18 · 26 · 33-34 · 38.
+  - **7 (v1.7.1)** the voyage: Brundisium avoided, Syracuse *Kalendis Sextilibus*, Leucopetra, blown
+    back by the *auster*. **Deliberately the easy one** - `cum` + pluperfect subjunctive throughout,
+    almost no rhetoric. Analysis notes Sextilis = August (renamed 8 BC) and that TLL prints *afferet*,
+    a future indicative where the fear clause wants *adferret*.
+  - **11-12 (v1.7.1)** *Hannibal, credo, erat ad portas*: three questions of rising absurdity, then
+    Appius Claudius Caecus carried in blind and old (**cross-ref: the Pro Caelio 33-34 prosopopoeia**),
+    then Antony's threat *cum fabris se domum meam venturum esse*. Analysis glosses *supplicatio* and
+    the *pignus*/fine as the Senate's real means of compulsion, and the Palatine house rebuilt at
+    public expense after the exile (*publice ... publicis operis*).
+  - **18 (v1.7.1)** the *acta Caesaris* defined by induction: *Quaere acta Gracchi; leges Semproniae
+    proferentur. Quaere Sullae; Corneliae* (verb elided in the second), Pompey answered with *nempe*.
+    The *chirographa* trap. Tense ladder *si quaereres ... responderet ... si dedisset ... non duceret*.
+  - **26 (v1.7.1)** the bronze tablet: *CONSULES POPULUM IURE ROGAVERUNT ... POPULUSQUE IURE SCIVIT*
+    broken by *Qui populus? Quo iure?*, with *hocine* (= *hoc* + *-ne*) wedged into the quotation;
+    closes on the asyndeton *demonstro vitia; tollite: denuntio vim, arma; removete*. **Title is
+    "By what right?"** so it matches the *iure* echo the English now keeps.
+  - v1.7.0 base: **1-2** the Tellus amnesty (Athenian Greek word) + the imperfects for the Antony who
+    still behaved; **33-34** *libertate esse parem ceteris, principem dignitate* + *oderint dum metuant*
+    (**cross-ref: the Accius Atreus fragment in the Archaic era**); **38** *mihi fere satis est*.
+- **Philippica IV** (`philippica-iv`, labelIt "Quarta Filippica") - 20 Dec 44, a *contio*, only 16
+  sections. **5 fragments**; +2 in v1.7.1, order 1-2 · 5 · 8 · 12 · 15.
+  - **5 (v1.7.1)** the *legio Martia* judging Antony *hostis* by its own decree before the Senate did,
+    and drawing its name *divinitus* from Mars, father of Romulus (**cross-ref forward: Philippica
+    XIV.31-32**, the monument to its dead at Forum Gallorum). Gerundive inside indirect statement,
+    *arbitratur ... honores exquirendos [esse]*.
+  - **12 (v1.7.1)** the close: *immani taetraque belua ... in foveam incidit, obruatur* (jussive), the
+    tricolon *tenetur, premitur, urguetur*, the bracketed `[iam]`, and *agitur enim, non qua condicione
+    victuri, sed victurine simus an cum supplicio ignominiaque perituri*. **Analysis flags two traps**:
+    *nullius supplicii crudelitas erit recusanda* (gerundive of obligation under a negative) and
+    *victuri* from *vivo*, not *vinco* - the pairing with *perituri* settles it.
+  - v1.7.0 base: **1-2** *verbo* vs *re* + Octavian's private army; **8** the chiasmus (**shortest
+    fragment in the app, 250 chars**); **15** *scelere par, industria inferior*.
 
 ### ROADMAP (saved on the user's instruction, 2026-08-22)
 
@@ -359,6 +393,32 @@ release version, pause for review after each.
 | ~~v1.6.6~~ DONE | **Pro Archia +5** (1, 18, 25, 28, 32) | 3 -> **8** |
 | ~~v1.6.7~~ DONE | **Pro Milone +5** (28-29, 32, 57, 72, 84) | 3 -> **8** |
 | ~~v1.7.0~~ DONE | **Pro Caelio (3) + In Pisonem (3) + Philippics I, IV, XIV (3 each)** = +15 | 5 new works |
+| ~~v1.7.1~~ DONE | **Philippica I +4** (7, 11-12, 18, 26) + **Philippica IV +2** (5, 12) = +6 | 3 -> **7** / 3 -> **5** |
+| **v1.7.2 (NEXT)** | **Philippica II +5** (28-29, **44**, 67, 85-86, 104) + **Philippica XIV +4** (6, 10, 23, 27) = +9 | 3 -> **8** / 3 -> **7** |
+| **v1.7.3 / v1.7.4** | **deepen Pro Caelio and In Pisonem** | to 7-8 each |
+| **v1.7.5 / .6 / (.7)** | **deepen In Verrem.** User's note: it should end up the **longest** of them all, since it is 7 speeches and each book of the *actio secunda* runs to 100+ sections | the biggest work in the app |
+
+**ROADMAP SHIFTED BY ONE, 2026-08-24 (user's instruction).** Deepening all four Philippics to the
+sizes the user set - I and XIV to 7, II to 8, IV (the shortest) to 5 - is +15, so it was split into
+two releases instead of one, and everything downstream moved down a slot. **Philippica II.44 goes
+back in at the user's explicit instruction**, reversing the v1.5.0 exclusion; the excerpt stops at
+the end of 44 and does not run into the far more graphic 45.
+
+**v1.7.1 passages, for the record.** Philippica I (`phil1`): **7** the voyage (Syracuse, Leucopetra,
+the *auster*) - the deliberately easy one; **11-12** *Hannibal, credo, erat ad portas* + Appius
+Claudius Caecus + *cum fabris se domum meam venturum esse*; **18** *Quaere acta Gracchi; leges
+Semproniae proferentur* + the *chirographa*; **26** the bronze-tablet formula broken by *Qui populus?
+Quo iure?*. Philippica IV (`phil4`): **5** the *legio Martia* and its name from Mars; **12** the
+*belua* in the *fovea* and *victurine simus an ... perituri*.
+
+**TRANSLATION-ACCURACY PASS (new in v1.7.1, at the user's request).** Every fragment of both speeches,
+new and old, re-read clause by clause against the Latin - mood and type of subjunctive, tense, voice,
+ellipsis, negation scope, pronoun reference, idiom - checking for additions and omissions and for
+EN/IT agreement. **Done by re-parsing, never by consulting a published translation**, so the renderings
+stay original. Corrections to v1.7.0 fragments (**tags deliberately not bumped**): I.1-2 EN dropped an
+added possessive in *all memory of **our** discords*, and its opening clause was restructured in both
+languages; IV.1-2 IT turned *maximis senatus laudibus ornatus est* from an agent back into an ablative
+of means (*onorato **con** le più alte lodi*). The same pass is scheduled for II and XIV in v1.7.2.
 
 **v1.7.0 passages, for the record.** Pro Caelio (`cael`): **32** the *fratre volui dicere* slip +
 *amicam omnium*; **33-34** Appius Claudius Caecus (the blind-so-he-won't-see-her joke; closes on
@@ -379,9 +439,6 @@ numbers** (unlike every other Cicero speech here), so the app cites it as `(In P
 the first fragment's analysis explains why. If a section-numbered text is sourced later, these three
 citations can be converted. `verify.js` now strips `[IVXLC]`-style chapter markers so they stay
 machine-checked.
-| **v1.7.1** | **more Philippics** (deepen those added in 1.7.0, and/or add further speeches of the 14) | |
-| **v1.7.2 / v1.7.3** | **deepen Pro Caelio and In Pisonem** | to 7-8 each |
-| **v1.7.4 / .5 / (.6)** | **deepen In Verrem.** User's note: it should end up the **longest** of them all, since it is 7 speeches and each book of the *actio secunda* runs to 100+ sections | the biggest work in the app |
 
 Structural note for the Verrines: `in-verrem` is currently **one** work by the user's decision
 (2026-08-20). If it grows past roughly 8 it is worth revisiting the split into De signis (II.4) and
