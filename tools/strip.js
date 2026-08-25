@@ -6,6 +6,10 @@
 
 function stripHtml(html) {
   return html
+    // The Latin Library sets verse with <br> between lines and no whitespace
+    // around it (`discidit<br>Vestem` in Pro Caelio 38). Dropping the tag with
+    // everything else welded the two words together, so break the line first.
+    .replace(/<br\s*\/?>/gi, '\n')
     .replace(/<[^>]*>/g, '')
     .replace(/&nbsp;/g, ' ')
     .replace(/&amp;/g, '&')

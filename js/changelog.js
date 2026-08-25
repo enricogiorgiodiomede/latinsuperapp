@@ -12,6 +12,35 @@
 
   var VERSIONS = [
     {
+      v: '1.7.3', date: '2026-08-25', time: '00:00', tz: 'CEST',
+      en: {
+        added: [
+          'Five new excerpts from the Pro Caelio, which goes from three to eight. Cicero is defending a young friend accused of borrowing gold and buying poison, and the real opponent in the case is the woman behind the prosecution, whom he never once names.',
+          'The centrepiece is the moment he stops arguing and quotes tragedy instead. The prosecution said the trouble began when Caelius rented a flat on the Palatine; Cicero agrees that it did, and then borrows a line of Ennius that everyone in court could finish - "would that in the grove of Pelion" - to introduce the neighbour as "this Palatine Medea". Medea abandoned her family, followed a young man abroad, and killed by poison, which is the charge in this trial. The Ennius he quotes is already in this app, among the archaic poets (18).',
+          'Also the quarter-of-an-as joke you asked for. The prosecution claimed friends were hidden in a public bathhouse to catch Caelius handing over the poison, and Cicero simply asks where men in togas were supposed to hide in a bathhouse - unless, of course, the lady had made friends with the attendant through "that quarter-as transaction of hers". A quarter of an as was the entry fee at the baths, and it was also the going nickname for what Clodia was worth. He never uses the nickname; he uses the coin (62).',
+          'And three more: the opening, one enormous sentence in which an imaginary foreigner wanders into the courtroom and revises his opinion of the case downwards three times until a national emergency has shrunk into a family quarrel (1); the most sympathetic portrait of Catiline anybody wrote, by the man who had him declared a public enemy - his virtues were real but "not carved out in full relief, only sketched in" (12); and the scene where Cicero offers to play the defendant\'s father and then cannot decide which stock father from Roman comedy to imitate, quoting Caecilius for the harsh one and Terence for the mild one, both of whom are also in this app (37-38).'
+        ],
+        changed: [
+          'A bug in the tool that turns the source website into plain text: the site sets verse with a line break between the lines and no space, and the tool was deleting the break without putting anything in its place, so two words in a quotation from Terence had been welded into one. Fixed, and every source page was downloaded again and re-checked. It affected exactly one line in the material used so far.',
+          'Every translation in this speech was re-checked against the Latin, clause by clause, as with the Philippics. The three excerpts added last week needed no corrections; four small tightenings were made to the new ones before they shipped.'
+        ],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Cinque nuovi brani della Pro Caelio, che passa da tre a otto. Cicerone difende un giovane amico accusato di essersi fatto prestare dell\'oro e di aver comprato del veleno, e la vera avversaria del processo è la donna che sta dietro all\'accusa, che lui non nomina mai una sola volta.',
+          'Il pezzo forte è il momento in cui smette di argomentare e cita la tragedia. L\'accusa sosteneva che i guai fossero cominciati quando Celio prese in affitto un appartamento sul Palatino; Cicerone concede che sia così, e poi prende in prestito un verso di Ennio che chiunque in aula sapeva completare - "oh, se nel bosco del Pelio" - per presentare la vicina di casa come "questa Medea del Palatino". Medea abbandonò la famiglia, seguì all\'estero un giovane e uccise con il veleno, che è l\'accusa di questo processo. L\'Ennio che cita è già in quest\'app, fra i poeti arcaici (18).',
+          'E anche la battuta sul quadrante che avevi chiesto. L\'accusa sosteneva che degli amici fossero stati nascosti in terme pubbliche per cogliere Celio mentre consegnava il veleno, e Cicerone si limita a chiedere dove avrebbero dovuto nascondersi, dentro delle terme, degli uomini in toga; a meno che, certo, la signora non si fosse fatta amica del custode con "quella sua transazione da un quadrante". Un quarto di asse era il prezzo d\'ingresso alle terme, ed era anche il soprannome corrente per quanto valeva Clodia. Il soprannome non lo usa mai: usa la moneta (62).',
+          'E altri tre: l\'esordio, un\'unica enorme frase in cui uno straniero immaginario entra in aula e per tre volte abbassa il proprio giudizio sulla causa, finché un\'emergenza nazionale si riduce a una lite di famiglia (1); il ritratto più benevolo di Catilina che qualcuno abbia scritto, opera dell\'uomo che lo fece dichiarare nemico pubblico: le sue virtù erano reali ma "non scolpite a rilievo, soltanto abbozzate" (12); e la scena in cui Cicerone si offre di fare il padre dell\'imputato e poi non riesce a decidere quale padre da commedia imitare, citando Cecilio per quello severo e Terenzio per quello mite, entrambi presenti in quest\'app (37-38).'
+        ],
+        changed: [
+          'Un difetto dello strumento che trasforma il sito di partenza in testo semplice: il sito manda a capo i versi senza spazio, e lo strumento cancellava l\'a capo senza metterci nulla al posto, saldando in una sola parola due parole di una citazione da Terenzio. Corretto, e tutte le pagine di partenza sono state riscaricate e ricontrollate. Riguardava esattamente una riga del materiale usato finora.',
+          'Tutte le traduzioni di quest\'orazione sono state ricontrollate sul latino, frase per frase, come per le Filippiche. I tre brani aggiunti la settimana scorsa non hanno richiesto correzioni; sui nuovi sono state fatte quattro piccole messe a punto prima della pubblicazione.'
+        ],
+        deleted: []
+      }
+    },
+    {
       v: '1.7.2', date: '2026-08-24', time: '21:33', tz: 'CEST',
       en: {
         added: [

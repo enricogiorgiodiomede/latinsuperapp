@@ -6,6 +6,66 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.7.3] - 2026-08-25
+
+***Pro Caelio* 3 -> 8.** Includes the two passages the user asked for by name: the **Palatina Medea**
+(18) and the **quadrantaria** joke (62). The Speeches group reaches **89 across 13 works**, Cicero 91,
+the bank 251. Also a **fix to the source pipeline** (see below).
+
+### Added
+- **5 new fragments** (verbatim Latin from The Latin Library + original Italian and English +
+  analysis, with bilingual metadata), tagged `version: 1.7.3`. Order 1 · 12 · 18 · 32 · 33-34 ·
+  37-38 · 42 · 62:
+- **1** - the exordium, one enormous period built as a three-stage machine (*miretur ... nec dubitet*
+  / *cum audiat ... non improbet, requirat* / *cum audiat ... non reprehendat, putet, existimet*), in
+  which an imagined foreigner revises his verdict downward three times. Seven present subjunctives
+  hanging off one *si*. **The hardest Latin in the speech**, deliberately included to widen the range.
+  Ends on the leisure joke, *quibus otiosis ne in communi quidem otio liceat esse*.
+- **12** - Catiline's virtues *non expressa signa, sed adumbrata [lineamenta]*, a metaphor from
+  sculpture (*exprimere* = model in full relief, *adumbrare* = shade in outline), with *maximarum ...
+  virtutum* wrapped round *signa*; then four antithetical pairs. **Cross-links to the Catilinarians**
+  (32 excerpts in the app). **Trimmed one sentence early** - see sourcing below.
+- **18** - **the Palatina Medea (user's request)**. Cicero quotes the opening of **Ennius's *Medea
+  Exul*** (*Utinam ne in nemore Pelio--*), breaking off mid-line because the jury could finish it,
+  then two lines more ending *Medea animo aegra, amore saevo saucia*, and lands *hanc Palatinam
+  Medeam*. **Cross-links to Ennius** in the Archaic era. Clodia is never named anywhere in it.
+- **37-38** - **the two comic fathers**. The harsh one quoted three times from **Caecilius Statius**,
+  the mild one being Micio from **Terence's *Adelphoe*** (*fores ecfregit, restituentur; discidit
+  vestem, resarcietur*). **Cross-links to both**, which are in the Archaic era with 8 and 5 excerpts.
+  Archaic forms in the verse: *Egon*, *relicuom*, *dide*, *disice*, *nosti*. *Versura* in 38 glossed
+  (borrowing at interest to clear an earlier debt).
+- **62** - **the quadrantaria joke (user's request)**. The prosecutor's story told at length in his
+  own words, then demolished physically: *calceati et vestiti*, men in togas with nowhere to hide in
+  a bathhouse. Closes on *quadrantaria illa permutatione* - a *quadrans* was the bath entry fee, and
+  Quintilian records that Caelius coined *quadrantaria Clytaemnestra* for Clodia. Cicero uses the
+  coin, not the nickname.
+
+### Changed
+- **Pipeline fix in `tools/strip.js`.** The Latin Library sets verse with `<br>` between lines and no
+  surrounding whitespace (`discidit<br>Vestem` at *Pro Caelio* 38). `stripHtml` deleted the tag along
+  with every other, welding the two words into `disciditVestem`. It now converts `<br>` to a newline
+  before stripping tags. **All 25 source pages re-fetched with `--force` and the whole bank
+  re-verified: still 0 mismatched**, so nothing regressed. A scan of the rebuilt cache found the
+  artefact in only one live page (`cael.txt`) and one not-live one (`att12.txt`); both are now clean.
+- **Translation-accuracy pass over the whole speech** (5 new + 3 existing = 8 fragments). **The three
+  v1.7.0 fragments (32, 33-34, 42) needed no corrections** - checked clause by clause. Four
+  tightenings were made to this release's own new work before shipping: *liceat esse otiosis* had lost
+  its infinitive in the English at 1 and read awkwardly in the Italian; *nostras domus* had its noun
+  left implied in both languages at 18; and *facis ut nequiquam velim* at 37 was rendered as "make
+  worthless" instead of "make me wish in vain".
+
+### Notes on sourcing
+`pro-caelio` was already in `tools/sources.json`; no new work. Built through `tools/`, no Latin
+retyped. **Section 12 is trimmed one sentence short of its end**: what follows is Catiline as a
+*monstrum* compounded of opposites, but the source prints *ex contrarus* for *ex contrariis*, and the
+repo policy is to trim past an obvious source typo rather than reproduce or silently mend it. The
+analysis says so. Editorial brackets kept as printed and explained: `[Atratini]` at 1 (a name supplied
+where the manuscripts lack it) and `[lineamenta]` at 12. **Separately noted for later:** `att1.txt`
+carries *ab aLus* for *ab aliis* (Ad Atticum I.9), a genuine source typo that will need handling when
+the Letters group is built. Self-proofread; whole bank **89/89 verbatim**.
+
+Cache-bust: `?v=86` -> `?v=87`.
+
 ## [1.7.2] - 2026-08-24
 
 **The Philippics finished.** *Philippica II* goes 3 -> **8** and *Philippica XIV*, the last speech

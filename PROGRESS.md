@@ -74,7 +74,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=86`.**
+   whenever you change a JS/CSS file. **Currently `v=87`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -143,7 +143,7 @@ The full Italian translation pass is **DONE**.
 | Cornelius Nepos | Good Exercise | **De Viris Illustribus (8)**: Praefatio, Themistocles, Alcibiades, Epaminondas, Pelopidas, Hannibal, Cato, Atticus |
 | Quintus Hortensius Hortalus | **NA (grey badge, no chart)** | Cicero, Brutus 6 (1) |
 | Publius Nigidius Figulus | **NA (grey badge, no chart)** | Gellius, NA X.9 (1) |
-| **Marcus Tullius Cicero** *(needsSelection, NESTED chooser)* | Very Difficult | **Speeches (84 across 13 works, v1.5.0-v1.7.2), CHRONOLOGICAL**: In Verrem 3 · **In Catilinam I 10 · II 7 · III 7 · IV 8 = 32** · Pro Archia 8 · Pro Caelio 3 · In Pisonem 3 · Pro Milone 8 · **Philippica I 7 · II 8 · IV 5 · XIV 7 = 27 (THE PHILIPPICS ARE FINISHED)**. **Letters**: Ad Atticum 1. **Philosophical works**: De Amicitia 1. (86 total) |
+| **Marcus Tullius Cicero** *(needsSelection, NESTED chooser)* | Very Difficult | **Speeches (84 across 13 works, v1.5.0-v1.7.2), CHRONOLOGICAL**: In Verrem 3 · **In Catilinam I 10 · II 7 · III 7 · IV 8 = 32** · Pro Archia 8 · **Pro Caelio 8** · In Pisonem 3 · Pro Milone 8 · **Philippica I 7 · II 8 · IV 5 · XIV 7 = 27 (THE PHILIPPICS ARE FINISHED)**. **Letters**: Ad Atticum 1. **Philosophical works**: De Amicitia 1. (91 total) |
 | Gaius Julius Caesar | Good Exercise | BG VI.13 Druids · VI.14 Druids · BC I.7 Rubicon speech (3) |
 | Aulus Hirtius | Manageable | BG VIII praef. · Bellum Alexandrinum 1 · Bellum Alexandrinum 2 (3) |
 | Titus Lucretius Carus | Very Difficult | DRN I.80-101 Iphigenia (1) |
@@ -248,13 +248,13 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
   **Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
 **=== SESSION HANDOFF (updated 2026-08-24) ===**
-Current: **v1.7.2, cache ?v=86**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
+Current: **v1.7.3, cache ?v=87**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
 50 frags since v1.4.0). Caesar's-Age flesh-out in progress: **Nepos done (1->8, v1.2.0)**;
-**Cicero is the big active job and is now the largest author in the app at 86 excerpts** (Plautus 50).
+**Cicero is the big active job and is now the largest author in the app at 91 excerpts** (Plautus 50).
 
 **Cicero's Speeches: 84 fragments across 13 works, in chronological order of delivery** -
 In Verrem 3 · In Catilinam I 10, II 7, III 7, IV 8 (**the Catilinarians are finished, 32**) ·
-Pro Archia 8 · Pro Caelio 3 · In Pisonem 3 · Pro Milone 8 · Philippica I 7, II 8, IV 5, XIV 7
+Pro Archia 8 · Pro Caelio 8 · In Pisonem 3 · Pro Milone 8 · Philippica I 7, II 8, IV 5, XIV 7
 (**the Philippics are finished, 27**).
 His other three categories are barely started: **Letters 1** (Ad Atticum I.16), **Philosophical
 works 1** (De Amicitia 20), **Rhetorical works 0**.
@@ -284,7 +284,13 @@ Philippics is +15 and was split into two releases rather than shipped as one.
   v1.5.0 exclusion; the excerpt stops at the end of 44 and **deliberately does not run into 45**, which
   the user confirmed after being shown what 45 contains. **THE PHILIPPICS ARE NOW FINISHED** (I 7, II 8,
   IV 5, XIV 7 = 27).
-- **v1.7.3 (NEXT) / v1.7.4:** deepen **Pro Caelio** and **In Pisonem** to 7-8 each.
+- ~~**v1.7.3**~~ DONE 25/08: **Pro Caelio 3 -> 8** (1, 12, 18, 37-38, 62), including the two passages the
+  user asked for by name, the **Palatina Medea** (18, quoting Ennius) and the **quadrantaria** joke (62).
+  Also fixed `tools/strip.js`, which was deleting `<br>` without a separator and welding verse lines
+  together; all sources re-fetched, bank still 0 mismatched.
+- **v1.7.4 (NEXT):** deepen **In Pisonem** to 7-8. **Remember it is cited by chapter, not section**
+  (TLL prints no section numbers), and `apply_batch.js` cannot sort those - new In Pisonem fragments
+  append to the end and must be reordered by hand.
 - **v1.7.5 / .6 / (.7):** deepen **In Verrem**. User's note: it should end up the **longest of them
   all**, since it is 7 speeches and each book of the *actio secunda* runs to 100+ sections.
   **In Verrem is currently ONE work** (user's call, 2026-08-20); if it grows past ~8, revisit the

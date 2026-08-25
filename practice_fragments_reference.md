@@ -317,6 +317,45 @@ ends at `...quam iusta repetenda`). `Illias` (Arch. 24) and `inplevit` (Phil. II
   - **16**: the nine-verb asyndeton *haec studia adulescentiam alunt... peregrinantur, rusticantur*; *ceterae*
     agrees with an unstated *delectationes*; *animi adversionem* = older form of *animadversionem*. The easy one.
   - **24**: Alexander at Achilles's tomb + the Pompey/Theophanes nudge. Narrative, easiest Latin of the five works.
+- **Pro Caelio** (`pro-caelio`) - 56 BC, delivered during the Ludi Megalenses. **8 fragments**; +5 in
+  v1.7.3, order 1 · 12 · 18 · 32 · 33-34 · 37-38 · 42 · 62.
+  - **1 (v1.7.3)** the exordium: ONE period, three stages (*miretur ... nec dubitet* / *cum audiat ...
+    non improbet, requirat* / *cum audiat ... non reprehendat, putet, existimet*), seven present
+    subjunctives off a single *si*. **The hardest Latin in the speech** - included on purpose to widen
+    the difficulty range of the work. Closes on *quibus otiosis ne in communi quidem otio liceat esse*.
+    `[Atratini]` is an editorial supplement, kept and explained. Atratinus was 17; his father was the
+    man Caelius had prosecuted twice (*quem ipse in iudicium et vocet et vocarit*).
+  - **12 (v1.7.3)** Catiline: *permulta maximarum non expressa signa, sed adumbrata [lineamenta]
+    virtutum* - sculpture metaphor (*exprimere* full relief / *adumbrare* outline), with *maximarum ...
+    virtutum* wrapped round *signa*; then four antithetical pairs, verb first in each half.
+    **Cross-ref: In Catilinam I-IV, 32 excerpts.** **TRIMMED one sentence early**: the closing
+    *monstrum* sentence has *ex contrarus* for *ex contrariis* in the source; repo policy is to trim
+    past an obvious typo, and the analysis says so.
+  - **18 (v1.7.3)** **THE PALATINA MEDEA - requested by the user (25/08/2026).** Cicero disposes of the
+    charge cheaply (*non magno*, father's approval, distance from the forum) and then quotes **Ennius's
+    *Medea Exul***: *Utinam ne in nemore Pelio--*, broken off mid-line because the jury could finish it
+    (Crassus had used the same tag minutes earlier about King Ptolemy), then *Medea animo aegra, amore
+    saevo saucia*, and lands *hanc Palatinam Medeam*. **Cross-ref: Ennius, Archaic era.** Clodia is
+    never named. The victory *mihi quidem molestam, sibi tamen gloriosam* = Caelius's conviction of
+    C. Antonius Hybrida (59), Cicero's ex-colleague, whom Cicero had defended.
+  - **37-38 (v1.7.3)** the two comic fathers, *prosopopoeia* used twice in a row for opposite
+    characters. Harsh father = **Caecilius Statius**, quoted three times, no comedy named; mild father =
+    Micio from **Terence's *Adelphoe***, *fores ecfregit, restituentur; discidit vestem, resarcietur*.
+    **Cross-refs: Caecilius (8 excerpts) AND Adelphoe (5).** Archaic forms: *Egon* (= *ego* + *-ne*),
+    *relicuom*, *dide*, *disice*, *nosti*. *Versura* = borrowing at interest to clear an earlier debt.
+    *Cuius frater germanus...* raises the Clodius rumour inside a sentence denying that gossip proves
+    anything. **This fragment is why `tools/strip.js` was fixed** - see the pipeline note below.
+  - **62 (v1.7.3)** **THE QUADRANTARIA JOKE - requested by the user (25/08/2026).** The prosecutor's
+    story reported at length in his own words, then demolished physically: *calceati et vestiti*, men in
+    togas with nowhere to hide in a bathhouse. Closes on *quadrantaria illa permutatione* (ablative of
+    means): a *quadrans* was the bath entry fee, and Quintilian records that **Caelius** coined
+    *quadrantaria Clytaemnestra* for Clodia. Cicero uses the coin, never the nickname. *Mulier ingeniosa*
+    is Cicero's sarcasm planted inside the prosecutor's reported sentence; *comprenderent* is syncopated.
+  - v1.7.0 base: **32** the *fratre volui dicere* slip + *amicam omnium potius quam cuiusquam inimicam*;
+    **33-34** Appius Claudius Caecus (*minimum enim dolorem capiet, qui istam non videbit*; closes on
+    *pacem Pyrrhi / aquam adduxi / viam munivi*); **42** *detur aliquid aetati* + the list of limits.
+    **All three re-checked clause by clause in v1.7.3 and needed no corrections.** **§36 stays
+    excluded (explicit).**
 - **Pro Milone** (`pro-milone`) - 52 BC. **8 fragments**; +5 in v1.6.7, order 1-2 · 10-11 · 28-29 · 32 ·
   57 · 72 · 84 · 104-105.
   - **28-29 (v1.6.7)** the *narratio*: the two journeys contrasted by inventory (carriage/cloak/wife/
@@ -453,7 +492,8 @@ release version, pause for review after each.
 | ~~v1.7.0~~ DONE | **Pro Caelio (3) + In Pisonem (3) + Philippics I, IV, XIV (3 each)** = +15 | 5 new works |
 | ~~v1.7.1~~ DONE | **Philippica I +4** (7, 11-12, 18, 26) + **Philippica IV +2** (5, 12) = +6 | 3 -> **7** / 3 -> **5** |
 | ~~v1.7.2~~ DONE | **Philippica II +5** (28-29, **44**, 67, 85-86, 104) + **Philippica XIV +4** (6, 10, 23, 27) = +9 | 3 -> **8** / 3 -> **7**; **PHILIPPICS FINISHED** |
-| **v1.7.3 (NEXT) / v1.7.4** | **deepen Pro Caelio and In Pisonem** | to 7-8 each |
+| ~~v1.7.3~~ DONE | **Pro Caelio +5** (1, 12, **18 Medea**, 37-38, **62 quadrantaria**) | 3 -> **8** |
+| **v1.7.4 (NEXT)** | **deepen In Pisonem** - **cited by chapter; apply_batch cannot sort those, reorder by hand** | to 7-8 |
 | **v1.7.5 / .6 / (.7)** | **deepen In Verrem.** User's note: it should end up the **longest** of them all, since it is 7 speeches and each book of the *actio secunda* runs to 100+ sections | the biggest work in the app |
 
 **ROADMAP SHIFTED BY ONE, 2026-08-24 (user's instruction).** Deepening all four Philippics to the
@@ -476,6 +516,24 @@ the Pompey auction; **85-86** the Lupercalia diadem; **104** Varro's villa. Phil
 *supplicatio* for a civil war; **27** Hirtius and the eagle. **THE PHILIPPICS ARE FINISHED**: I 7, II 8,
 IV 5, XIV 7 = 27.
 
+**v1.7.3 passages, for the record.** Pro Caelio (`cael`): **1** the exordium, one period, the imagined
+foreigner (**hardest Latin in the speech**); **12** Catiline *non expressa signa, sed adumbrata
+[lineamenta]* (**cross-ref: the Catilinarians**); **18** **the Palatina Medea, requested by the user** -
+Cicero quotes Ennius's *Medea Exul* (*Utinam ne in nemore Pelio--*) and lands *hanc Palatinam Medeam*
+(**cross-ref: Ennius, Archaic era**); **37-38** the two comic fathers, Caecilius harsh and Terence's
+Micio mild (**cross-ref: Caecilius Statius AND Terence's Adelphoe**); **62** **the quadrantaria joke,
+requested by the user** - *calceati et vestiti* and *quadrantaria illa permutatione*.
+**§12 IS TRIMMED one sentence early**: the *monstrum* sentence that closes the section has *ex contrarus*
+for *ex contrariis* in the source, and the repo policy is to trim past an obvious typo. Editorial
+brackets kept and explained: `[Atratini]` (1), `[lineamenta]` (12).
+
+**PIPELINE FIX (v1.7.3).** `tools/strip.js` deleted `<br>` along with every other tag, and TLL sets
+verse as `discidit<br>Vestem` with no surrounding space - so verse lines were being welded into one
+word. It now turns `<br>` into a newline first. All 25 pages re-fetched with `--force`, whole bank
+re-verified at **0 mismatched**. The artefact existed in exactly one live page (`cael.txt`) and one
+not-live one (`att12.txt`). **Still outstanding for the Letters group:** `att1.txt` has *ab aLus* for
+*ab aliis* (Ad Atticum I.9), which is a genuine TLL typo, not a stripper artefact.
+
 **TRANSLATION-ACCURACY PASS (new in v1.7.1, at the user's request).** Every fragment of both speeches,
 new and old, re-read clause by clause against the Latin - mood and type of subjunctive, tense, voice,
 ellipsis, negation scope, pronoun reference, idiom - checking for additions and omissions and for
@@ -493,7 +551,13 @@ II.118-119 softened *parturit* to "carrying" / "porta in grembo" in a sentence b
 metaphor, and had one ungrammatical Italian clause at *de te tu videris*. One finding in this release's
 own new work: II.28-29 supplied a first-person plural for the verbless third-person *omnes ergo in culpa*.
 **Two source defects were found and handled rather than corrected** - see the II.118-119 and XIV.23
-entries above. **The pass is now a standing part of every release.**
+entries above.
+**v1.7.3 findings: none in the existing fragments.** Pro Caelio 32, 33-34 and 42 (all v1.7.0) were
+checked clause by clause and needed no corrections, which is worth recording - the v1.7.0 work was
+done to a higher standard than the v1.5.0 Philippica II fragments. Four tightenings were made to
+v1.7.3's own new excerpts before shipping (*liceat esse otiosis* had lost its infinitive at 1;
+*nostras domus* had its noun left implied at 18; *facis ut nequiquam velim* was loose at 37).
+**The pass is now a standing part of every release.**
 
 **v1.7.0 passages, for the record.** Pro Caelio (`cael`): **32** the *fratre volui dicere* slip +
 *amicam omnium*; **33-34** Appius Claudius Caecus (the blind-so-he-won't-see-her joke; closes on
