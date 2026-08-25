@@ -74,7 +74,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=89`.**
+   whenever you change a JS/CSS file. **Currently `v=90`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -143,7 +143,7 @@ The full Italian translation pass is **DONE**.
 | Cornelius Nepos | Good Exercise | **De Viris Illustribus (8)**: Praefatio, Themistocles, Alcibiades, Epaminondas, Pelopidas, Hannibal, Cato, Atticus |
 | Quintus Hortensius Hortalus | **NA (grey badge, no chart)** | Cicero, Brutus 6 (1) |
 | Publius Nigidius Figulus | **NA (grey badge, no chart)** | Gellius, NA X.9 (1) |
-| **Marcus Tullius Cicero** *(needsSelection, NESTED chooser)* | Very Difficult | **Speeches (84 across 13 works, v1.5.0-v1.7.2), CHRONOLOGICAL**: In Verrem 3 · **In Catilinam I 10 · II 7 · III 7 · IV 8 = 32** · Pro Archia 8 · **Pro Caelio 8** · In Pisonem 3 · Pro Milone 8 · **Philippica I 7 · II 8 · IV 5 · XIV 7 = 27 (THE PHILIPPICS ARE FINISHED)**. **Letters**: Ad Atticum 1. **Philosophical works**: De Amicitia 1. (91 total) |
+| **Marcus Tullius Cicero** *(needsSelection, NESTED chooser)* | Very Difficult | **Speeches (84 across 13 works, v1.5.0-v1.7.2), CHRONOLOGICAL**: In Verrem 3 · **In Catilinam I 10 · II 7 · III 7 · IV 8 = 32** · Pro Archia 8 · **Pro Caelio 8** · **In Pisonem 8** · Pro Milone 8 · **Philippica I 7 · II 8 · IV 5 · XIV 7 = 27 (THE PHILIPPICS ARE FINISHED)**. **Letters**: Ad Atticum 1. **Philosophical works**: De Amicitia 1. (96 total) |
 | Gaius Julius Caesar | Good Exercise | BG VI.13 Druids · VI.14 Druids · BC I.7 Rubicon speech (3) |
 | Aulus Hirtius | Manageable | BG VIII praef. · Bellum Alexandrinum 1 · Bellum Alexandrinum 2 (3) |
 | Titus Lucretius Carus | Very Difficult | DRN I.80-101 Iphigenia (1) |
@@ -248,13 +248,13 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
   **Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
 **=== SESSION HANDOFF (updated 2026-08-24) ===**
-Current: **v1.7.3, cache ?v=89**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
+Current: **v1.7.4, cache ?v=90**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
 50 frags since v1.4.0). Caesar's-Age flesh-out in progress: **Nepos done (1->8, v1.2.0)**;
-**Cicero is the big active job and is now the largest author in the app at 91 excerpts** (Plautus 50).
+**Cicero is the big active job and is now the largest author in the app at 96 excerpts** (Plautus 50).
 
 **Cicero's Speeches: 84 fragments across 13 works, in chronological order of delivery** -
 In Verrem 3 · In Catilinam I 10, II 7, III 7, IV 8 (**the Catilinarians are finished, 32**) ·
-Pro Archia 8 · Pro Caelio 8 · In Pisonem 3 · Pro Milone 8 · Philippica I 7, II 8, IV 5, XIV 7
+Pro Archia 8 · Pro Caelio 8 · In Pisonem 8 · Pro Milone 8 · Philippica I 7, II 8, IV 5, XIV 7
 (**the Philippics are finished, 27**).
 His other three categories are barely started: **Letters 1** (Ad Atticum I.16), **Philosophical
 works 1** (De Amicitia 20), **Rhetorical works 0**.
@@ -293,9 +293,11 @@ Philippics is +15 and was split into two releases rather than shipped as one.
   Latina, emending TLL's *ex contrarus* to *ex contrariis*; added **`emend` support to `apply_batch.js`
   + `verify.js`** so a declared correction stays machine-checked (see below). No new excerpts; the
   fragment keeps its `1.7.3` tag. Cache went `?v=87` -> `?v=88`.
-- **v1.7.4 (NEXT):** deepen **In Pisonem** to 7-8. **Remember it is cited by chapter, not section**
-  (TLL prints no section numbers), and `apply_batch.js` cannot sort those - new In Pisonem fragments
-  append to the end and must be reordered by hand.
+- ~~**v1.7.4**~~ DONE 25/08: **In Pisonem 3 -> 8** (VI, XI, XIX, XXVI, XLI), spread over all 41
+  chapters. **`apply_batch.js` now sorts Roman-numeral chapter citations**, so the reorder-by-hand
+  trap flagged here is gone. It also **normalises line endings and asserts its head/tail markers**:
+  with `core.autocrlf=true` a `git checkout` returns CRLF, `indexOf` returned -1 and `slice(-1)`
+  silently truncated the whole bank to one character. That happened during this build and is fixed.
 - **v1.7.5 / .6 / (.7):** deepen **In Verrem** (ask before splitting it).
 
 **`emend` (new in the v1.7.3 follow-up).** A fragment may carry `emend: [[sourceReading, appReading], ...]` when the

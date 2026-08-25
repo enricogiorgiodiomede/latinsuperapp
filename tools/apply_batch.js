@@ -24,11 +24,19 @@ const passages = require(path.resolve(passagesFile));
 const incoming = require(path.resolve(fragsFile));
 const SOURCE = 'The Latin Library (thelatinlibrary.com)';
 
-const src = fs.readFileSync(P, 'utf8');
+// Normalise line endings before looking for the markers. With git's
+// core.autocrlf=true a checkout hands back CRLF, the '\n\n' in tailMark stops
+// matching, indexOf returns -1, and slice(-1) would quietly truncate the whole
+// bank to its last character. Assert as well, so a future edit to the file's
+// shape fails loudly instead.
+const src = fs.readFileSync(P, 'utf8').replace(/\r\n/g, '\n');
 const headMark = '  var AUTHORS = ';
 const tailMark = '\n\n  global.PracticeBank';
-const head = src.slice(0, src.indexOf(headMark) + headMark.length);
-const tail = src.slice(src.indexOf(tailMark));
+const headAt = src.indexOf(headMark);
+const tailAt = src.indexOf(tailMark);
+if (headAt < 0 || tailAt < 0) throw new Error('js/fragments.js markers not found (head ' + headAt + ', tail ' + tailAt + ') - refusing to write');
+const head = src.slice(0, headAt + headMark.length);
+const tail = src.slice(tailAt);
 
 global.window = {};
 eval(src);
@@ -84,9 +92,23 @@ for (const item of incoming) {
 }
 
 // Order the fragments of every touched speech by its first section number.
+// In Pisonem is the exception: the Latin Library prints that speech with
+// chapter divisions only, so it is cited "(In Pisonem, ch. XXVIII)" and has to
+// be sorted on the numeral instead.
+const ROMAN = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 };
+const romanToInt = (s) => {
+  let n = 0;
+  for (let i = 0; i < s.length; i++) {
+    const v = ROMAN[s[i]], next = ROMAN[s[i + 1]];
+    n += (next && v < next) ? -v : v;
+  }
+  return n;
+};
 const firstSection = (f) => {
   const m = f.citation.match(/(\d+)(?:-\d+)?\)$/);
-  return m ? parseInt(m[1], 10) : 0;
+  if (m) return parseInt(m[1], 10);
+  const r = f.citation.match(/ch\. ([IVXLCDM]+)\)$/);
+  return r ? romanToInt(r[1]) : 0;
 };
 const touched = [...new Set(incoming.map(i => i.work))];
 touched.forEach(id => {

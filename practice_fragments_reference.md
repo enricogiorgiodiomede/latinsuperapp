@@ -496,8 +496,8 @@ release version, pause for review after each.
 | ~~v1.7.1~~ DONE | **Philippica I +4** (7, 11-12, 18, 26) + **Philippica IV +2** (5, 12) = +6 | 3 -> **7** / 3 -> **5** |
 | ~~v1.7.2~~ DONE | **Philippica II +5** (28-29, **44**, 67, 85-86, 104) + **Philippica XIV +4** (6, 10, 23, 27) = +9 | 3 -> **8** / 3 -> **7**; **PHILIPPICS FINISHED** |
 | ~~v1.7.3~~ DONE | **Pro Caelio +5** (1, 12, **18 Medea**, 37-38, **62 quadrantaria**); **follow-up the same evening** extended 12 to the end of the section and emended *ex contrarus* -> *ex contrariis* (kept as 1.7.3 at the user's request, NOT a separate version) | 3 -> **8** |
-| **v1.7.4 (NEXT)** | **deepen In Pisonem** - **cited by chapter; apply_batch cannot sort those, reorder by hand** | to 7-8 |
-| **v1.7.5 / .6 / (.7)** | **deepen In Verrem.** User's note: it should end up the **longest** of them all, since it is 7 speeches and each book of the *actio secunda* runs to 100+ sections | the biggest work in the app |
+| ~~v1.7.4~~ DONE | **In Pisonem +5** (VI, XI, XIX, XXVI, XLI); `apply_batch.js` taught to sort Roman-numeral chapter citations, and hardened against a CRLF bug that silently truncated the bank | 3 -> **8** |
+| **v1.7.5 (NEXT) / .6 / (.7)** | **deepen In Verrem.** User's note: it should end up the **longest** of them all, since it is 7 speeches and each book of the *actio secunda* runs to 100+ sections | the biggest work in the app |
 
 **ROADMAP SHIFTED BY ONE, 2026-08-24 (user's instruction).** Deepening all four Philippics to the
 sizes the user set - I and XIV to 7, II to 8, IV (the shortest) to 5 - is +15, so it was split into
@@ -595,6 +595,41 @@ Atreus fragment in the Archaic era**); **38** *mihi fere satis est*. Philippica 
 chars**); **15** *scelere par, industria inferior*. Philippica XIV (`phil14`): **1-2** saga/toga;
 **12** *hostium dico; ita, inquam, hostium*; **31-32** the Martian legion monument, *O fortunata
 mors*, *brevis a natura vita... memoria sempiterna*.
+
+- **In Pisonem** (`in-pisonem`) - 55 BC, published not delivered. **8 fragments**; +5 in v1.7.4,
+  order I · VI · X · XI · XIX · XXVI · XXVIII · XLI, spread over all 41 chapters.
+  **Cited BY CHAPTER** (see the exception note below). **`apply_batch.js` now sorts these correctly** -
+  it parses the Roman numeral when there is no Arabic one - so the old "reorder by hand" warning is
+  obsolete.
+  - **VI (v1.7.4)** the morning call: *Meministine, caenum ...*, the *gurgustium* at the fifth hour,
+    *involuto capite soleatum*, the *popina* breathed over them, *vinulenta medicamina*, and
+    *turpissime ructando eiecisti*. Three words for a dive in five lines (*gurgustium*, *popina*,
+    *ganea*). **Shortest in the work, 493 chars**; one single question; closes on a *cum ... tum* pair.
+    **Starts mid-chapter** at *Meministine*.
+  - **XI (v1.7.4)** the Seplasia of Capua rejecting a *Campanus consul*; opening tetracolon *magnum
+    nomen est, magna species, magna dignitas, magna maiestas consulis* knocked down by **five**
+    negative clauses sharing three verbs; Gabinius's *madentes cincinnorum fimbriae* +
+    *purpurissatae buccae*; then the swerve into flattering present-day Capua. **Trimmed** at
+    *multitudine redundat*, before the chapter turns to Cicero's burnt house.
+  - **XIX (v1.7.4)** **the one serious page.** *Fortunae enim ista tela sunt non culpae; supplicium
+    autem est poena peccati*, proved on Regulus, Marius, Marcellus. Quotes **Ennius's *Thyestes***
+    and disowns it in the same breath as moving *volgi animos non sapientium* (**cross-ref: Ennius,
+    Archaic era - as Pro Caelio 18 also does**). *Quae est igitur poena ...?* answered with a job
+    description, not a torture. **Trimmed** at *litteram mittere ausus*, before the Torquatus list.
+  - **XXVI (v1.7.4)** ***O tenebrae, o lutum, o sordes, o paterni generis oblite, materni vix memor!***
+    Four vocatives, no verb, first three things not people. The Milan *praeco* grandfather; Crassus
+    and Cotta hunting the Alps for a triumph (*specillis* = surgical probes, **not** a lens); the
+    grecism *idiotae* in quotation marks, Piso's own Epicurean word handed back. **Trimmed** at
+    *praeclara duxerunt*.
+  - **XLI (v1.7.4)** the close. *Non eventis sed factis cuiusque fortunam ponderari* / *neque in
+    tabellis paucorum iudicum sed in sententiis omnium civium* - the speech needs this, because Piso
+    was never prosecuted. **Ten** groups already condemning him; four *qui* clauses ending on *qui se
+    ipse condemnet*; **eleven** participles with four *sine* phrases among them; one word to close,
+    *vidi*; the *sordidum* / *sordidatum* pun. **Trimmed** before the FRAGMENTA section.
+  - v1.7.0 base: **ch. I** the *frons* and the smoke-blackened *imagines*; **ch. X** Gabinius dancing
+    naked / *fortunae rotam*, then *rei publicae consulendo*; **ch. XXVIII** the *admissarius* who
+    *adhinnivit* and the lame man with the ball. **All three re-checked in v1.7.4**; ch. I and ch.
+    XXVIII needed the *frons* rendering made consistent ("brow", not "face" then "forehead").
 
 **CITATION EXCEPTION - In Pisonem.** TLL prints this speech with **chapter divisions only, no section
 numbers** (unlike every other Cicero speech here), so the app cites it as `(In Pisonem, ch. I)` and

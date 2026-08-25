@@ -6,6 +6,74 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.7.4] - 2026-08-25
+
+***In Pisonem* 3 -> 8.** The Speeches group reaches **94 across 13 works**, Cicero 96, the bank 256.
+Two tool fixes came out of building it, one of them a latent way to destroy the whole bank.
+
+### Added
+- **5 new fragments** (verbatim Latin from The Latin Library + original Italian and English +
+  analysis, with bilingual metadata), tagged `version: 1.7.4`. Order I · **VI** · X · **XI** · **XIX**
+  · **XXVI** · XXVIII · **XLI**, spread across all 41 chapters:
+- **ch. VI** - the morning call. *Meministine, caenum ...*: Piso emerging from a *gurgustium* at the
+  fifth hour *involuto capite soleatum*, breathing a *popina* over them, pleading *vinulenta
+  medicamina*, and finally *turpissime ructando eiecisti*. Three words for a dive (*gurgustium*,
+  *popina*, *ganea*) in five lines. The **shortest fragment in the work at 493 characters**, all one
+  question, closing on a *cum ... tum* pair that ranks the belch above the insults.
+- **ch. XI** - the Seplasia, Capua's perfume street, taking one look and rejecting a *Campanus
+  consul*; the opening tetracolon *magnum nomen est, magna species, magna dignitas, magna maiestas
+  consulis* knocked down by five negative clauses; Gabinius's *madentes cincinnorum fimbriae* and
+  *purpurissatae buccae*; then the swerve into flattering modern Capua, because Capuans vote.
+- **ch. XIX** - **the one serious page.** *Fortunae enim ista tela sunt non culpae; supplicium autem
+  est poena peccati*, proved on Regulus, Marius and Marcellus, with four lines of **Ennius's
+  *Thyestes*** quoted and simultaneously disowned as moving *volgi animos non sapientium*
+  (**cross-links to Ennius**, as Pro Caelio 18 does). Then *quae est igitur poena ...?* answered not
+  with a torture but with a job description.
+- **ch. XXVI** - ***O tenebrae, o lutum, o sordes, o paterni generis oblite, materni vix memor!***
+  Four vocatives, no verb, the first three things rather than people. The Milan auctioneer
+  grandfather, Crassus and Cotta hunting the Alps for a triumph, and the Greek loanword *idiotae* in
+  quotation marks because it is Piso's own Epicurean vocabulary handed back.
+- **ch. XLI** - the close. *Non eventis sed factis cuiusque fortunam ponderari* and *neque in tabellis
+  paucorum iudicum sed in sententiis omnium civium*, which the speech needs because Piso was never
+  prosecuted; ten groups who have already condemned him; four *qui* clauses ending on *qui se ipse
+  condemnet*; then eleven participles describing a man alive and permanently afraid, one word to
+  close - *vidi* - and the *sordidum* / *sordidatum* pun.
+
+### Changed
+- **Translation-accuracy pass over the whole speech** (5 new + 3 existing = 8 fragments). The speech
+  is built on *frons*, and the app rendered it "face" in ch. I's opening line and "forehead" ten words
+  later in the same sentence, losing the thread; both now read "brow", which carries the anatomy and
+  the effrontery together, as *frons* does. Same fix at ch. XXVIII, and the Italian opening now reads
+  *fronte* rather than *faccia*. **Tags not bumped.** Four corrections went into this release's own
+  new work before shipping: at ch. XI *agnovissent* had lost its object and *duumvirum* its office,
+  and the two adjectives on *buccae* had been merged; at ch. XXVI a *specillum* is a surgical probe,
+  not a magnifying glass, which Romans did not have; and at ch. XLI two counts in my own analysis were
+  simply wrong (eleven groups for ten, "two words" for the single word *vidi*), both recounted against
+  the text.
+
+### Fixed - pipeline
+- **`apply_batch.js` could silently truncate the entire fragment bank.** It locates the file's head
+  and tail with `indexOf` and slices on the result; with git's `core.autocrlf=true` a `git checkout`
+  hands back CRLF, so `tailMark`'s `'\n\n'` stops matching, `indexOf` returns `-1`, and `slice(-1)`
+  quietly keeps **one character** instead of the tail. This actually happened mid-build: the written
+  file lost `global.PracticeBank` entirely and only `verify.js` failing to parse it gave it away. The
+  reader now normalises line endings first, **and both marker lookups are asserted**, so a future
+  change to the file's shape fails loudly instead of destroying data.
+- **`apply_batch.js` now sorts chapter citations.** `firstSection` parsed only Arabic numerals, so
+  every `(In Pisonem, ch. N)` scored 0 and new fragments were simply appended - the trap the roadmap
+  had flagged for this release. It now falls back to parsing the Roman numeral, so In Pisonem sorts
+  itself like every other work. Verified on the real data: the batch reordered to I · VI · X · XI ·
+  XIX · XXVI · XXVIII · XLI with no manual editing.
+
+### Notes on sourcing
+`in-pisonem` was already in `tools/sources.json`; no new work, no Latin retyped. Four of the five are
+**partial chapters**, which is long-standing practice here (11 other fragments start mid-section):
+ch. VI starts at *Meministine*, and XIX, XXVI and XLI stop before their chapters turn to a new topic.
+Citations stay **by chapter**, since The Latin Library prints no section numbers for this speech.
+Self-proofread; whole bank **94/94 verbatim**.
+
+Cache-bust: `?v=89` -> `?v=90`.
+
 ## [1.7.3] - 2026-08-25
 
 ***Pro Caelio* 3 -> 8.** Includes the two passages the user asked for by name: the **Palatina Medea**

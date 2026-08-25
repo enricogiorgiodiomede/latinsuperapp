@@ -12,6 +12,33 @@
 
   var VERSIONS = [
     {
+      v: '1.7.4', date: '2026-08-25', time: '00:00', tz: 'CEST',
+      en: {
+        added: [
+          'Five new excerpts from the In Pisonem, which goes from three to eight. This is the speech Cicero wrote to destroy a man he could not take to court, and it is the nastiest thing he ever published.',
+          'The centrepiece is the morning call. Cicero and a relative of Piso\'s went round to see him, and Cicero tells the Senate what they found, with Piso sitting there listening: an ex-consul coming out of a dive at about eleven in the morning with his head wrapped up and his indoor slippers on, breathing a cookshop over them, pleading ill health and explaining that his treatment involves certain wine-based remedies. They stood in the smoke for a while out of politeness, and he got rid of them by belching (VI).',
+          'And the famous four words the speech is remembered for: "O darkness, o mud, o filth" - Cicero does not call Piso dark, muddy and filthy, he addresses him as darkness, mud and filth, and only the fourth thing he calls him admits that he is a person at all, so that it can take his ancestry away from him (XXVI).',
+          'Also: the perfume sellers of Capua, who took one look at the new consul and refused to believe in him, followed by a portrait of his colleague\'s oiled ringlets and rouged cheeks (XI); the one serious page, where Cicero distinguishes between suffering and punishment - Regulus with his eyelids cut off was not being punished, because misfortune is not a penalty - and then names the punishment he actually wants for Piso, which is that he should keep his titles and remain too frightened of his own record to write home (XIX); and the end of the speech, where he explains that a reputation is a verdict passed by everyone all the time, and says plainly that he never wanted Piso dead, only permanently afraid: "and I have seen it" (XLI).'
+        ],
+        changed: [
+          'Every translation in this speech was re-checked against the Latin, clause by clause. The word the speech is built on is frons, a forehead, and the app had been rendering it "face" in the opening line and "forehead" ten words later, which loses the thread; both now read "brow", which carries the anatomy and the insolence together, as the Latin does. Four more corrections were made to the new excerpts before they shipped, including two places where a count in a note was simply wrong, and one where a Roman surgical probe had turned into a magnifying glass.'
+        ],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Cinque nuovi brani dell\'In Pisonem, che passa da tre a otto. È l\'orazione che Cicerone scrisse per distruggere un uomo che non poteva portare in tribunale, ed è la cosa più feroce che abbia mai pubblicato.',
+          'Il pezzo forte è la visita del mattino. Cicerone e un parente di Pisone andarono a trovarlo, e Cicerone racconta al senato che cosa trovarono, con Pisone lì seduto ad ascoltare: un ex console che esce da una bettola verso le undici del mattino con la testa avvolta e le pantofole di casa ai piedi, che gli alita addosso un\'osteria, che si giustifica con la salute e spiega che la sua cura prevede certi rimedi a base di vino. Per educazione restarono un poco in quel fumo, e lui se ne liberò ruttando (VI).',
+          'E le quattro parole celebri per cui l\'orazione è ricordata: "O tenebre, o fango, o lordura". Cicerone non dice che Pisone è tenebroso, fangoso e sordido: lo chiama tenebre, fango e lordura, e solo la quarta cosa che gli dice ammette che sia una persona, e lo fa per potergli togliere gli antenati (XXVI).',
+          'Inoltre: i profumieri di Capua, che diedero un\'occhiata sola al nuovo console e si rifiutarono di crederci, seguiti dal ritratto dei riccioli unti e delle guance imbellettate del collega (XI); l\'unica pagina seria, dove Cicerone distingue fra sofferenza e castigo - Regolo, con le palpebre recise, non stava subendo un castigo, perché la sventura non è una pena - e poi dice qual è il castigo che vuole davvero per Pisone, cioè che conservi i suoi titoli e resti troppo spaventato dalla propria fedina per scrivere a casa (XIX); e la fine dell\'orazione, dove spiega che la reputazione è un verdetto pronunciato da tutti in ogni momento, e dice chiaramente che non ha mai voluto Pisone morto, ma soltanto per sempre spaventato: "e l\'ho visto" (XLI).'
+        ],
+        changed: [
+          'Tutte le traduzioni di quest\'orazione sono state ricontrollate sul latino, frase per frase. La parola su cui l\'orazione è costruita è frons, la fronte, e l\'app la rendeva "faccia" nella prima riga e "fronte" dieci parole dopo, perdendo il filo; ora in italiano è "fronte" in entrambi i punti. Sui brani nuovi sono state fatte altre quattro correzioni prima della pubblicazione, fra cui due conteggi sbagliati in una nota e una sonda chirurgica romana diventata una lente d\'ingrandimento.'
+        ],
+        deleted: []
+      }
+    },
+    {
       v: '1.7.3', date: '2026-08-25', time: '19:27', tz: 'CEST',
       en: {
         added: [
