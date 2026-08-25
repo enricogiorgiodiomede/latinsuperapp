@@ -74,7 +74,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=88`.**
+   whenever you change a JS/CSS file. **Currently `v=89`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -248,7 +248,7 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
   **Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
 **=== SESSION HANDOFF (updated 2026-08-24) ===**
-Current: **v1.7.4, cache ?v=88**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
+Current: **v1.7.3, cache ?v=89**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
 50 frags since v1.4.0). Caesar's-Age flesh-out in progress: **Nepos done (1->8, v1.2.0)**;
 **Cicero is the big active job and is now the largest author in the app at 91 excerpts** (Plautus 50).
 
@@ -288,16 +288,17 @@ Philippics is +15 and was split into two releases rather than shipped as one.
   user asked for by name, the **Palatina Medea** (18, quoting Ennius) and the **quadrantaria** joke (62).
   Also fixed `tools/strip.js`, which was deleting `<br>` without a separator and welding verse lines
   together; all sources re-fetched, bank still 0 mismatched.
-- ~~**v1.7.4**~~ DONE 25/08: **proofread + extended Pro Caelio 12** to the end of the section, on the
-  user's check against Poesia Latina, and emended TLL's *ex contrarus* to *ex contrariis*. No new
-  excerpts. Added **`emend` support to `apply_batch.js` + `verify.js`** so a declared correction can be
-  machine-checked (see below). Pro Caelio 12 keeps its `1.7.3` tag.
-- **v1.7.5 (NEXT):** deepen **In Pisonem** to 7-8. **Remember it is cited by chapter, not section**
+  **v1.7.3 follow-up the same evening (NOT a separate version - the user asked for it to stay 1.7.3):**
+  proofread + extended **Pro Caelio 12** to the end of the section on the user's check against Poesia
+  Latina, emending TLL's *ex contrarus* to *ex contrariis*; added **`emend` support to `apply_batch.js`
+  + `verify.js`** so a declared correction stays machine-checked (see below). No new excerpts; the
+  fragment keeps its `1.7.3` tag. Cache went `?v=87` -> `?v=88`.
+- **v1.7.4 (NEXT):** deepen **In Pisonem** to 7-8. **Remember it is cited by chapter, not section**
   (TLL prints no section numbers), and `apply_batch.js` cannot sort those - new In Pisonem fragments
   append to the end and must be reordered by hand.
-- **v1.7.6 / .7 / (.8):** deepen **In Verrem** (ask before splitting it).
+- **v1.7.5 / .6 / (.7):** deepen **In Verrem** (ask before splitting it).
 
-**`emend` (new in v1.7.4).** A fragment may carry `emend: [[sourceReading, appReading], ...]` when the
+**`emend` (new in the v1.7.3 follow-up).** A fragment may carry `emend: [[sourceReading, appReading], ...]` when the
 source has a plain error and the app prints the correction. `apply_batch.js` applies it to the
 extracted Latin and stores it; `verify.js` puts the source reading back before comparing, so
 everything else is still proved verbatim, and a stale emendation fails hard (tested). Distinct from
@@ -305,6 +306,15 @@ everything else is still proved verbatim, and a stale emendation fails hard (tes
 **Policy unchanged: trim past a source typo rather than mend it, UNLESS the correct reading has been
 confirmed against another edition** - as the user did here against Poesia Latina. `(Pro Caelio 12)` is
 currently the only emended fragment in the bank.
+
+**THIRD SOURCE, PROOFREADING ONLY: Poesia Latina** (`http://www.poesialatina.it/index.htm`; Cicero at
+`_ns/ProsaLat/Cic/<work>.html`, e.g. `OrProCael.html`, `OrInPison.html`). **The app's Latin still comes
+from The Latin Library** - `verify.js` needs one text to check against, and `sources.json` maps to TLL
+only. Consult Poesia Latina **only when a typo is suspected** on TLL or Splash Latino. **It prints
+classical orthography** (consonantal *v* as *u*: *uidetur*, *uitia*, *diuersisque*; also *inl-*/*inr-*
+for *ill-*/*irr-*), which is an editorial convention and **NOT a typo** - never emend on those grounds.
+It also has real variants (*Pro Caelio* 12: *diversisque **atque** inter se* against TLL's *et*), which
+are also not typos. Only plain errors qualify for `emend`.
  User's note: it should end up the **longest of them
   all**, since it is 7 speeches and each book of the *actio secunda* runs to 100+ sections.
   **In Verrem is currently ONE work** (user's call, 2026-08-20); if it grows past ~8, revisit the

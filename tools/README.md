@@ -38,6 +38,14 @@ checklist (CHANGELOG, in-app What's New, reference sheet, memory).
   avoid it rather than reproducing or silently correcting it.
 - **Section markers** are normalised to `[n]`. `apply_batch.js` turns ` [n] ` into a blockquote break;
   a `fix` pair on a fragment rewrites the source's own style (Pro Milone prints `11.`) into that form.
+- **Poesia Latina is the proofreading third source, and nothing else.** The app's Latin comes from
+  The Latin Library, because `verify.js` needs one text to check against and `sources.json` maps to
+  that host only. When a word on The Latin Library (or Splash Latino) looks like a typo, check it at
+  `http://www.poesialatina.it/index.htm` - Cicero lives at `_ns/ProsaLat/Cic/<work>.html`, e.g.
+  `OrProCael.html`, `OrInPison.html`. **It prints classical orthography**: consonantal *v* written *u*
+  (*uidetur*, *uitia*, *diuersisque*) and *inl-*/*inr-* for *ill-*/*irr-*. That is an editorial
+  convention, **not** a typo, and neither are its genuine variant readings (*Pro Caelio* 12 has
+  *diversisque **atque** inter se* where The Latin Library has *et*). Only plain non-words qualify.
 - **Emendations are declared, never silent.** Default policy is unchanged: where the source has an
   obvious typo, trim the passage to avoid it. **Only when the correct reading has been confirmed
   against another edition** may a fragment carry `emend: [[sourceReading, appReading], ...]`.

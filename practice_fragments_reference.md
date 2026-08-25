@@ -329,7 +329,7 @@ ends at `...quam iusta repetenda`). `Illias` (Arch. 24) and `inplevit` (Phil. II
     virtutum* - sculpture metaphor (*exprimere* full relief / *adumbrare* outline), with *maximarum ...
     virtutum* wrapped round *signa*; then four antithetical pairs, verb first in each half.
     **Cross-ref: In Catilinam I-IV, 32 excerpts.** **EXTENDED to the end of the
-    section in v1.7.4** (tag stays 1.7.3), after the user checked the speech against **Poesia Latina**
+    section in a v1.7.3 follow-up**, after the user checked the speech against **Poesia Latina**
     and confirmed the reading. It now closes on *Neque ego umquam fuisse tale monstrum ...
     cupiditatibusque conflatum*, with *conflatum* - a smith melting metals into one mass - running the
     craft metaphor to the last syllable. TLL's *ex contrarus* is **emended to *ex contrariis*** via the
@@ -495,10 +495,9 @@ release version, pause for review after each.
 | ~~v1.7.0~~ DONE | **Pro Caelio (3) + In Pisonem (3) + Philippics I, IV, XIV (3 each)** = +15 | 5 new works |
 | ~~v1.7.1~~ DONE | **Philippica I +4** (7, 11-12, 18, 26) + **Philippica IV +2** (5, 12) = +6 | 3 -> **7** / 3 -> **5** |
 | ~~v1.7.2~~ DONE | **Philippica II +5** (28-29, **44**, 67, 85-86, 104) + **Philippica XIV +4** (6, 10, 23, 27) = +9 | 3 -> **8** / 3 -> **7**; **PHILIPPICS FINISHED** |
-| ~~v1.7.3~~ DONE | **Pro Caelio +5** (1, 12, **18 Medea**, 37-38, **62 quadrantaria**) | 3 -> **8** |
-| ~~v1.7.4~~ DONE | **Pro Caelio 12 proofread + extended** to the end of the section; TLL's *ex contrarus* emended to *ex contrariis*; new `emend` mechanism in the tools | no new excerpts |
-| **v1.7.5 (NEXT)** | **deepen In Pisonem** - **cited by chapter; apply_batch cannot sort those, reorder by hand** | to 7-8 |
-| **v1.7.6 / .7 / (.8)** | **deepen In Verrem.** User's note: it should end up the **longest** of them all, since it is 7 speeches and each book of the *actio secunda* runs to 100+ sections | the biggest work in the app |
+| ~~v1.7.3~~ DONE | **Pro Caelio +5** (1, 12, **18 Medea**, 37-38, **62 quadrantaria**); **follow-up the same evening** extended 12 to the end of the section and emended *ex contrarus* -> *ex contrariis* (kept as 1.7.3 at the user's request, NOT a separate version) | 3 -> **8** |
+| **v1.7.4 (NEXT)** | **deepen In Pisonem** - **cited by chapter; apply_batch cannot sort those, reorder by hand** | to 7-8 |
+| **v1.7.5 / .6 / (.7)** | **deepen In Verrem.** User's note: it should end up the **longest** of them all, since it is 7 speeches and each book of the *actio secunda* runs to 100+ sections | the biggest work in the app |
 
 **ROADMAP SHIFTED BY ONE, 2026-08-24 (user's instruction).** Deepening all four Philippics to the
 sizes the user set - I and XIV to 7, II to 8, IV (the shortest) to 5 - is +15, so it was split into
@@ -527,11 +526,11 @@ Cicero quotes Ennius's *Medea Exul* (*Utinam ne in nemore Pelio--*) and lands *h
 (**cross-ref: Ennius, Archaic era**); **37-38** the two comic fathers, Caecilius harsh and Terence's
 Micio mild (**cross-ref: Caecilius Statius AND Terence's Adelphoe**); **62** **the quadrantaria joke,
 requested by the user** - *calceati et vestiti* and *quadrantaria illa permutatione*.
-**§12 WAS TRIMMED one sentence early in v1.7.3 and EXTENDED in v1.7.4** once the user confirmed the
+**§12 WAS TRIMMED one sentence early and then EXTENDED the same evening** once the user confirmed the
 reading against Poesia Latina; TLL's *ex contrarus* is now emended to *ex contrariis*. Editorial
 brackets kept and explained: `[Atratini]` (1), `[lineamenta]` (12).
 
-**`emend`, NEW IN v1.7.4.** A fragment may carry `emend: [[sourceReading, appReading], ...]` when the
+**`emend`, NEW IN THE v1.7.3 FOLLOW-UP.** A fragment may carry `emend: [[sourceReading, appReading], ...]` when the
 source has a plain error and the app prints the correction. `apply_batch.js` applies it to the
 extracted Latin and records it on the fragment; **`verify.js` puts the source's own reading back before
 comparing**, so every other character is still proved verbatim, and a stale emendation fails hard
@@ -540,6 +539,16 @@ comparing**, so every other character is still proved verbatim, and a stale emen
 already handles and is not recorded anywhere. **Policy unchanged: trim past a source typo rather than
 mend it, UNLESS the correct reading has been confirmed against another edition** - as the user did here
 against Poesia Latina. `(Pro Caelio 12)` is currently the only emended fragment in the bank.
+
+**THIRD SOURCE, PROOFREADING ONLY (user's instruction, 25/08/2026): Poesia Latina**,
+`http://www.poesialatina.it/index.htm`; Cicero lives at `_ns/ProsaLat/Cic/<work>.html`
+(`OrProCael.html`, `OrInPison.html`, ...). **Not** a source for the app's Latin - that stays The Latin
+Library, because `verify.js` needs a single text to check against. Consult it **only when a typo is
+suspected** on TLL or Splash Latino. **It prints classical orthography** - consonantal *v* written *u*
+(*uidetur*, *uitia*, *uigebant*, *diuersisque*), and *inl-*/*inr-* for *ill-*/*irr-* - which is an
+editorial convention and **NOT a typo**; never emend on those grounds. It also carries genuine variants
+(*Pro Caelio* 12 has *diversisque **atque** inter se pugnantibus* where TLL has *et*), which are also
+not typos. Only plain non-words qualify.
 
 **PIPELINE FIX (v1.7.3).** `tools/strip.js` deleted `<br>` along with every other tag, and TLL sets
 verse as `discidit<br>Vestem` with no surrounding space - so verse lines were being welded into one

@@ -1,5 +1,6 @@
 {
   "_comment": "Which Latin Library page(s) each practice work's Latin comes from. Paths are relative to https://thelatinlibrary.com/ and get '.shtml' appended. Used by fetch_sources.js (to build the local text cache) and by verify.js (to check every Latin field verbatim). Add an entry whenever a new work is created.",
+  "_proofread": "Proofreading-only third source, NOT fetched and NOT a source for the app's Latin: Poesia Latina, http://www.poesialatina.it/index.htm - Cicero at _ns/ProsaLat/Cic/<work>.html (OrProCael.html, OrInPison.html, ...). Consult it only when a word here looks like a typo. It prints classical orthography (u for consonantal v: uidetur, uitia, diuersisque; inl-/inr- for ill-/irr-), which is a convention and not a typo, and it carries real variant readings. Only plain non-words qualify for a fragment's `emend` field. This key holds a string, so fetch_sources.js (which only collects arrays) ignores it.",
 
   "in-verrem": ["cicero/verres.2.4", "cicero/verres.2.5"],
   "in-catilinam-i": ["cicero/cat1"],
