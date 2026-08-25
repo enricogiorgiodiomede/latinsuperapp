@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.7.3', date: '2026-08-25', time: '00:00', tz: 'CEST',
+      v: '1.7.3', date: '2026-08-25', time: '19:27', tz: 'CEST',
       en: {
         added: [
           'Five new excerpts from the Pro Caelio, which goes from three to eight. Cicero is defending a young friend accused of borrowing gold and buying poison, and the real opponent in the case is the woman behind the prosecution, whom he never once names.',
