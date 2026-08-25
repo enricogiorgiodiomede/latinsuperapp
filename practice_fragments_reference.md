@@ -199,14 +199,58 @@ Editorial marks kept as printed and explained in the analysis: `<hospitis>` (Ver
 (Arch. 14 - fragment ends at `...reliquerunt?`) and `non minis` for `non hominis` (Mil. 11 - fragment
 ends at `...quam iusta repetenda`). `Illias` (Arch. 24) and `inplevit` (Phil. II.63) kept + noted.
 
-### Speeches (`speeches`) - 8 works, 39 fragments. **ORDER: ALPHABETICAL by label since v1.6.3** (user's call, the Plautus precedent; was chronological by delivery). In Catilinam I-IV · In Verrem · Philippica II · Pro Archia · Pro Milone. Only the speeches bucket is sorted; groups stay contiguous. Fragments inside a work stay in paragraph order.
-- **In Verrem** (`in-verrem`, labelIt "Verrine") - 70 BC:
-  - **II.4.1-2**: the three names (*studium* / *morbus et insania* / *latrocinium*), the archaic imperative
-    *penditote*, the `Nego`-catalogue of loot, and the joke *Latine me scitote, non accusatorie loqui*.
-  - **II.4.77**: Segesta's Diana carried out of town; the *tum... nunc* mirror (Scipio restores / Verres
-    steals), perfect infinitives *convenisse... unxisse... complesse... prosecutas esse*. Note *complesse*, *negoti*.
-  - **II.5.162-163**: Gavius. Opening imperfect *Caedebatur*, delayed subject *civis Romanus*, *crux, crux inquam*,
-    then the four exclamations of 163 (cut at *...virgis caederetur?*, before the Numitorius/Glabrio coda).
+### Speeches (`speeches`) - **19 works, 101 fragments** (v1.7.5). **ORDER: CHRONOLOGICAL by delivery, restored in v1.6.6** (v1.6.3 had alphabetised them; the user asked for chronology back). The seven Verrine works lead, being 70 BC, in the canonical order of the case rather than by date, since they share a year. Only the speeches bucket is sorted; groups stay contiguous. Fragments inside a work stay in paragraph order.
+- **THE VERRINES - 7 WORKS since v1.7.5**, 70 BC, all in the `speeches` group and leading it.
+  **ALL SEVEN PARTS ARE ON TLL** (the old note claiming otherwise was wrong): `caecilium` (Divinatio),
+  **`ver1`** (Actio Prima, NOT `verres.1`), `verres.2.1` ... `verres.2.5`. Index: `cicero/ver.shtml`.
+  **`ver1` prints 18 CHAPTER numbers as `[1]`-`[18]`, not the 56 sections modern editions use** - they
+  sit evenly across the page and the speech has 18 chapters - so cite that one BY CHAPTER.
+  - **Divinatio in Caecilium** (`in-verrem-divinatio`, labelIt "Divinatio in Caecilium") - **empty until
+    v1.7.6**. Source has both `[1]`-`[73]` sections and `[I]`-`[XXII]` chapters. Two gotchas: a leading
+    nav block of bare numbers, and the first word after `[1]` is lowercase (a lost drop-cap).
+  - **In Verrem I: Actio Prima** (`in-verrem-i`, labelIt "Verrine I: Prima azione") - **empty until v1.7.6**.
+  - **II.1 De praetura urbana** (`in-verrem-ii-1`, labelIt "Verrine II.1: La pretura urbana") - **empty**.
+  - **II.2 De praetura Siciliensi** (`in-verrem-ii-2`, labelIt "Verrine II.2: La pretura siciliana") - **empty**.
+  - **II.3 De frumento** (`in-verrem-ii-3`, labelIt "Verrine II.3: Il grano") - **empty**.
+  - **II.4 De signis** (`in-verrem-ii-4`, labelIt "Verrine II.4: Le statue") - **5 fragments**;
+    +3 in v1.7.5, order 1-2 · 4-5 · 77 · 106-107 · 115.
+    - **4-5 (v1.7.5)** Heius's shrine at Messana: Cupid by Praxiteles, bronze Hercules by Myron, two
+      Canephoroe by Polyclitus. *Nimirum didici etiam, dum in istum inquiro, artificum nomina* (the
+      feigned indifference to Greek art) and the staged prompt *sed earum artificem--quem? quemnam?
+      recte admones--Polyclitum esse dicebant*. **`idiotae` = the same grecism thrown at Piso in the
+      In Pisonem.** Mummius left the Cupid because it was consecrated. Closes on the double dative
+      *domus erat non domino magis ornamento quam civitati*.
+    - **106-107 (v1.7.5)** Henna, *umbilicus Siciliae*, Ceres and Proserpina. **The plainest Latin in
+      the app, deliberately** - the charge that follows is the theft of the goddess's statue.
+      *Peragrasse* syncopated (cf. *complesse* at 77); *prope incunabula*; the lake is Cyane.
+    - **115 (v1.7.5)** the Marcellus comparison: four *huius ... illius* pairs, then the chiasmus
+      *ab illo qui cepit conditas, ab hoc qui constitutas accepit captas dicetis Syracusas*.
+      **Starts mid-section** at *Vnius etiam urbis*; **at 599 chars the shortest in the work**.
+    - v1.5.0 base: **1-2** the three names (*studium* / *morbus et insania* / *latrocinium*), the
+      archaic imperative *penditote*, the `Nego`-catalogue, and *Latine me scitote, non accusatorie
+      loqui*; keeps the editorial `<hospitis>`. **77** Segesta's Diana, the *tum... nunc* mirror,
+      *complesse*, *negoti*.
+  - **II.5 De suppliciis** (`in-verrem-ii-5`, labelIt "Verrine II.5: I supplizi") - **5 fragments**;
+    +4 in v1.7.5, order 26-27 · 100 · 118-119 · 162-163 · 169-170.
+    - **26-27 (v1.7.5)** the working year: *non modo extra tectum, sed ne extra lectum quidem*, the
+      chiastic *diei brevitas conviviis, noctis longitudo stupris*, spring beginning *cum rosam
+      viderat*, the *lectica octaphoro* with a *perlucidus Melitensis* cushion *rosa fartus*, and the
+      day ending with the rest of the time owed *Veneri et Libero*. Contains a `--` from `&#151;`.
+    - **100 (v1.7.5)** the pirate *myoparo* in the Great Harbour; *ludibrio esse* (double dative);
+      *praedonum remi respergerent*; the pirates leaving *satietate*; the diminutive *mulierculae*.
+      **Keeps the editorial `<omnium>`.**
+    - **118-119 (v1.7.5)** the prison door: *postremum spiritum ore excipere*, the lictor Sextius's
+      tariff quoted with the amounts left blank (*tantum ... tantum*), *cum Sextio suo*, and
+      *Non vitam liberum, sed mortis celeritatem pretio redimere cogebantur parentes*. Note *liberum*
+      = *liberorum*.
+    - **169-170 (v1.7.5)** the cross turned to face Italy, *servitutis extremum summumque supplicium*,
+      and **the most famous sentence in the Verrines**: *facinus est vincire civem Romanum, scelus
+      verberare, prope parricidium necare: quid dicam in crucem tollere?* Closes on the tricolon
+      *in conspectu Italiae, vestibulo Siciliae, praetervectione omnium*. Sits immediately after 162-163.
+    - v1.5.0 base: **162-163** Gavius. Opening imperfect *Caedebatur*, delayed subject *civis Romanus*,
+      *crux, crux inquam*, then the four exclamations of 163 (cut at *...virgis caederetur?*, before
+      the Numitorius/Glabrio coda). **v1.7.5 fixed one word**: *ius eximium* was "privilege" in the
+      English, now "right", matching the Italian *diritto*.
 - **In Catilinam I-IV** - 63 BC. **SPLIT into four works in v1.6.0** (user's call: four speeches, two
   different audiences, four weeks apart): `in-catilinam-i` / `-ii` / `-iii` / `-iv`, labelIt
   "Prima/Seconda/Terza/Quarta Catilinaria". The 3 pre-split fragments were routed by citation and keep
@@ -497,7 +541,8 @@ release version, pause for review after each.
 | ~~v1.7.2~~ DONE | **Philippica II +5** (28-29, **44**, 67, 85-86, 104) + **Philippica XIV +4** (6, 10, 23, 27) = +9 | 3 -> **8** / 3 -> **7**; **PHILIPPICS FINISHED** |
 | ~~v1.7.3~~ DONE | **Pro Caelio +5** (1, 12, **18 Medea**, 37-38, **62 quadrantaria**); **follow-up the same evening** extended 12 to the end of the section and emended *ex contrarus* -> *ex contrariis* (kept as 1.7.3 at the user's request, NOT a separate version) | 3 -> **8** |
 | ~~v1.7.4~~ DONE | **In Pisonem +5** (VI, XI, XIX, XXVI, XLI); `apply_batch.js` taught to sort Roman-numeral chapter citations, and hardened against a CRLF bug that silently truncated the bank | 3 -> **8** |
-| **v1.7.5 (NEXT) / .6 / (.7)** | **deepen In Verrem.** User's note: it should end up the **longest** of them all, since it is 7 speeches and each book of the *actio secunda* runs to 100+ sections | the biggest work in the app |
+| ~~v1.7.5~~ DONE | **In Verrem SPLIT INTO 7 WORKS** + **II.4 +3** (4-5, 106-107, 115) and **II.5 +4** (26-27, 100, 118-119, 169-170); corrected the false sources.json note that had hidden five available texts | 3 -> **10** across 7 works |
+| **v1.7.6 (NEXT)** | **fill the five empty Verrine works**: Divinatio 2, Actio Prima 2, II.1 2, II.2 1, II.3 1. **Actio Prima is cited BY CHAPTER** | ~18 total |
 
 **ROADMAP SHIFTED BY ONE, 2026-08-24 (user's instruction).** Deepening all four Philippics to the
 sizes the user set - I and XIV to 7, II to 8, IV (the shortest) to 5 - is +15, so it was split into
@@ -637,9 +682,14 @@ the first fragment's analysis explains why. If a section-numbered text is source
 citations can be converted. `verify.js` now strips `[IVXLC]`-style chapter markers so they stay
 machine-checked.
 
-Structural note for the Verrines: `in-verrem` is currently **one** work by the user's decision
-(2026-08-20). If it grows past roughly 8 it is worth revisiting the split into De signis (II.4) and
-De suppliciis (II.5), which is how schools actually read it. **Ask before splitting.**
+**Structural note for the Verrines - RESOLVED 25/08/2026.** `in-verrem` was one work by the user's
+decision of 2026-08-20, with a standing instruction to ask before splitting. Asked and answered: the
+user chose **all seven parts as sibling works** inside the Speeches group, done in v1.7.5. Ids:
+`in-verrem-divinatio`, `in-verrem-i`, `in-verrem-ii-1` ... `in-verrem-ii-5`. The three pre-split
+fragments were routed by citation into II.4 and II.5 and **keep their `1.5.0` tags**, exactly as the
+In Catilinam split did in v1.6.0. Citations were already book-qualified (`(In Verrem II.4.77)`) so
+none of them changed. **Works with zero fragments are hidden by `PracticeBank.works()`**, so the five
+empty ones do not appear in the chooser until v1.7.6 fills them.
 
 ### Still to build
 **v1.7.0, agreed with the user 2026-08-20:** more speeches, still 3 fragments per work.

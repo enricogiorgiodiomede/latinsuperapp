@@ -12,6 +12,35 @@
 
   var VERSIONS = [
     {
+      v: '1.7.5', date: '2026-08-26', time: '00:00', tz: 'CEST',
+      en: {
+        added: [
+          'The Verrines are now seven texts instead of one. Cicero\'s case against Verres was not a speech but a whole prosecution - the argument over who should conduct it, the opening action, and then five enormous books of evidence - and the practice menu now shows it that way, in the order the case was actually fought. Two of the seven are filled in this update; the rest follow in the next one, and stay hidden until they have something in them.',
+          'Seven new excerpts, five in each of the two books that schools actually read. From De signis, the book about stolen art: the private shrine of Heius at Messana, with its Cupid by Praxiteles, its bronze Hercules by Myron and its two Canephoroe by Polyclitus, where Cicero pretends to have picked up the sculptors\' names by accident and pretends to be prompted from the floor when he cannot remember one (4-5).',
+          'Also from De signis: the description of Henna, the town called the navel of Sicily, where Proserpina was carried off - the plainest and easiest Latin in the whole app, written that way on purpose, because the charge Cicero is about to bring is that Verres stole the goddess\'s statue from her own temple (106-107); and the comparison with the general who stormed Syracuse in the Hannibalic war, ending on the sentence that says you will call the city founded by the man who captured it and captured by the man who inherited it founded (115).',
+          'And from De suppliciis, the book about punishments: the governor who reckoned spring had begun when he saw a rose, and travelled in a litter carried by eight men on a see-through Maltese cushion stuffed with rose petals (26-27); the pirate ship that sailed into the harbour of Syracuse and rowed close enough to splash the praetor\'s eyes (100); the parents outside the prison, buying from the executioner the promise of a single clean stroke of the axe (118-119); and the end of the Gavius story, with the cross deliberately turned to face Italy so that a Roman citizen could see his own home while dying on it, and the sentence that runs out of language: it is an outrage to bind a Roman citizen, a crime to flog him, all but parricide to kill him - what am I to call crucifying him? (169-170)'
+        ],
+        changed: [
+          'The three excerpts that were already here have moved into their proper books and kept their original badges, so they still read Added in v.1.5.0. Every translation in both books was re-checked against the Latin, clause by clause; one word needed correcting, where the English called a citizen\'s ius a privilege rather than a right, which is the very thing the speech is about.',
+          'A note in the project files claimed for months that the opening action of the case was not available online, which is why only two of the seven books were ever used. It was wrong - the page exists under a different name - and correcting it is what made this update possible. All seven are now in place.'
+        ],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Le Verrine sono ora sette testi invece di uno. Il processo di Cicerone contro Verre non fu un\'orazione ma un\'intera causa - la disputa su chi dovesse sostenerla, la prima azione e poi cinque libri enormi di prove - e il menu degli esercizi ora la mostra così, nell\'ordine in cui la causa fu davvero combattuta. Due dei sette vengono riempiti con questo aggiornamento; gli altri seguiranno nel prossimo, e restano nascosti finché non avranno qualcosa dentro.',
+          'Sette nuovi brani, cinque per ciascuno dei due libri che si leggono davvero a scuola. Dal De signis, il libro sulle opere d\'arte rubate: il sacrario privato di Eio a Messina, con il suo Cupido di Prassitele, il suo Ercole di bronzo di Mirone e le due Canefore di Policleto, dove Cicerone finge di aver imparato per caso i nomi degli scultori e finge di farsi suggerire dall\'aula quello che non ricorda (4-5).',
+          'Sempre dal De signis: la descrizione di Enna, la città chiamata l\'ombelico della Sicilia, dove fu rapita Proserpina - il latino più piano e più facile di tutta l\'app, scritto così di proposito, perché l\'accusa che Cicerone sta per formulare è che Verre rubò la statua della dea dal suo stesso tempio (106-107); e il confronto con il generale che espugnò Siracusa nella guerra annibalica, che si chiude sulla frase secondo cui direte che la città fu fondata da chi la prese e presa da chi la ricevette fondata (115).',
+          'E dal De suppliciis, il libro sui supplizi: il governatore che riteneva cominciata la primavera quando vedeva una rosa, e viaggiava in una lettiga portata da otto uomini su un cuscino maltese trasparente imbottito di petali di rosa (26-27); la nave pirata che entrò nel porto di Siracusa e passò tanto vicino da schizzare negli occhi del pretore (100); i genitori davanti al carcere, che comprano dal boia la promessa di un solo colpo netto di scure (118-119); e la fine della vicenda di Gavio, con la croce girata apposta verso l\'Italia perché un cittadino romano potesse vedere casa propria mentre vi moriva, e la frase a cui finisce la lingua: è un misfatto incatenare un cittadino romano, un delitto frustarlo, quasi un parricidio ucciderlo; che nome dare al metterlo in croce? (169-170)'
+        ],
+        changed: [
+          'I tre brani che c\'erano già si sono spostati nei rispettivi libri e hanno conservato le loro etichette originali, quindi continuano a recitare Aggiunto in v.1.5.0. Tutte le traduzioni dei due libri sono state ricontrollate sul latino, frase per frase; una sola parola andava corretta, dove l\'inglese rendeva lo ius di un cittadino come un privilegio invece che come un diritto, che è esattamente ciò di cui parla l\'orazione.',
+          'Una nota nei file di progetto sosteneva da mesi che la prima azione della causa non fosse disponibile online, ed è per questo che di sette libri se ne erano sempre usati due soltanto. Era sbagliata - la pagina esiste sotto un altro nome - e correggerla è ciò che ha reso possibile questo aggiornamento. Ora ci sono tutti e sette.'
+        ],
+        deleted: []
+      }
+    },
+    {
       v: '1.7.4', date: '2026-08-25', time: '20:51', tz: 'CEST',
       en: {
         added: [

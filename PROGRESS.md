@@ -74,7 +74,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=90`.**
+   whenever you change a JS/CSS file. **Currently `v=91`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -143,7 +143,7 @@ The full Italian translation pass is **DONE**.
 | Cornelius Nepos | Good Exercise | **De Viris Illustribus (8)**: Praefatio, Themistocles, Alcibiades, Epaminondas, Pelopidas, Hannibal, Cato, Atticus |
 | Quintus Hortensius Hortalus | **NA (grey badge, no chart)** | Cicero, Brutus 6 (1) |
 | Publius Nigidius Figulus | **NA (grey badge, no chart)** | Gellius, NA X.9 (1) |
-| **Marcus Tullius Cicero** *(needsSelection, NESTED chooser)* | Very Difficult | **Speeches (84 across 13 works, v1.5.0-v1.7.2), CHRONOLOGICAL**: In Verrem 3 · **In Catilinam I 10 · II 7 · III 7 · IV 8 = 32** · Pro Archia 8 · **Pro Caelio 8** · **In Pisonem 8** · Pro Milone 8 · **Philippica I 7 · II 8 · IV 5 · XIV 7 = 27 (THE PHILIPPICS ARE FINISHED)**. **Letters**: Ad Atticum 1. **Philosophical works**: De Amicitia 1. (96 total) |
+| **Marcus Tullius Cicero** *(needsSelection, NESTED chooser)* | Very Difficult | **Speeches (101 across 19 works, v1.5.0-v1.7.5), CHRONOLOGICAL**: **In Verrem SPLIT INTO 7 WORKS (v1.7.5): Divinatio 0 · Actio Prima 0 · II.1 0 · II.2 0 · II.3 0 · II.4 De signis 5 · II.5 De suppliciis 5 = 10** · **In Catilinam I 10 · II 7 · III 7 · IV 8 = 32** · Pro Archia 8 · **Pro Caelio 8** · **In Pisonem 8** · Pro Milone 8 · **Philippica I 7 · II 8 · IV 5 · XIV 7 = 27 (THE PHILIPPICS ARE FINISHED)**. **Letters**: Ad Atticum 1. **Philosophical works**: De Amicitia 1. (103 total) |
 | Gaius Julius Caesar | Good Exercise | BG VI.13 Druids · VI.14 Druids · BC I.7 Rubicon speech (3) |
 | Aulus Hirtius | Manageable | BG VIII praef. · Bellum Alexandrinum 1 · Bellum Alexandrinum 2 (3) |
 | Titus Lucretius Carus | Very Difficult | DRN I.80-101 Iphigenia (1) |
@@ -248,12 +248,13 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
   **Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
 **=== SESSION HANDOFF (updated 2026-08-24) ===**
-Current: **v1.7.4, cache ?v=90**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
+Current: **v1.7.5, cache ?v=91**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
 50 frags since v1.4.0). Caesar's-Age flesh-out in progress: **Nepos done (1->8, v1.2.0)**;
-**Cicero is the big active job and is now the largest author in the app at 96 excerpts** (Plautus 50).
+**Cicero is the big active job and is now the largest author in the app at 103 excerpts** (Plautus 50).
 
-**Cicero's Speeches: 84 fragments across 13 works, in chronological order of delivery** -
-In Verrem 3 · In Catilinam I 10, II 7, III 7, IV 8 (**the Catilinarians are finished, 32**) ·
+**Cicero's Speeches: 101 fragments across 19 works, in chronological order of delivery** -
+**the Verrines, SPLIT INTO 7 WORKS in v1.7.5** (Divinatio, Actio Prima, II.1, II.2, II.3 all still
+empty; II.4 De signis 5, II.5 De suppliciis 5 = 10) · In Catilinam I 10, II 7, III 7, IV 8 (**the Catilinarians are finished, 32**) ·
 Pro Archia 8 · Pro Caelio 8 · In Pisonem 8 · Pro Milone 8 · Philippica I 7, II 8, IV 5, XIV 7
 (**the Philippics are finished, 27**).
 His other three categories are barely started: **Letters 1** (Ad Atticum I.16), **Philosophical
@@ -298,7 +299,14 @@ Philippics is +15 and was split into two releases rather than shipped as one.
   trap flagged here is gone. It also **normalises line endings and asserts its head/tail markers**:
   with `core.autocrlf=true` a `git checkout` returns CRLF, `indexOf` returned -1 and `slice(-1)`
   silently truncated the whole bank to one character. That happened during this build and is fixed.
-- **v1.7.5 / .6 / (.7):** deepen **In Verrem** (ask before splitting it).
+- ~~**v1.7.5**~~ DONE 26/08: **In Verrem SPLIT INTO 7 WORKS** (user's decision 25/08, superseding the
+  2026-08-20 "keep it as one work" call) + **II.4 2 -> 5** (4-5, 106-107, 115) and **II.5 1 -> 5**
+  (26-27, 100, 118-119, 169-170), +7. **Corrected the false `sources.json` note**: all seven parts ARE
+  on TLL - the slug is `ver1`, not `verres.1`, and the Divinatio is `caecilium`. Hardened
+  `create_works.js` + `reorder_works.js` against the CRLF truncation bug.
+- **v1.7.6 (NEXT):** fill the five empty Verrine works - Divinatio 2, Actio Prima 2, II.1 2, II.2 1,
+  II.3 1, roughly +8, taking the corpus to ~18. **The Actio Prima must be cited BY CHAPTER**: TLL's
+  `ver1` prints 18 chapter numbers as `[1]`-`[18]`, NOT the 56 sections modern editions use.
 
 **`emend` (new in the v1.7.3 follow-up).** A fragment may carry `emend: [[sourceReading, appReading], ...]` when the
 source has a plain error and the app prints the correction. `apply_batch.js` applies it to the

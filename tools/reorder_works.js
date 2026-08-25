@@ -10,7 +10,16 @@ const path = require('path');
 const P = path.join(__dirname, '..', 'js', 'fragments.js');
 const GROUP_ORDER = ['speeches', 'letters', 'philosophical', 'rhetorical'];
 const SPEECH_ORDER = [
-  'in-verrem',        // 70 BC
+  // The Verrines, 70 BC. All seven parts belong to one prosecution, so
+  // chronology cannot order them among themselves: this is the canonical
+  // sequence of the case (v1.7.5, which split them out of a single work).
+  'in-verrem-divinatio', // who gets to prosecute
+  'in-verrem-i',         // actio prima
+  'in-verrem-ii-1',      // actio secunda I: de praetura urbana
+  'in-verrem-ii-2',      // actio secunda II: de praetura Siciliensi
+  'in-verrem-ii-3',      // actio secunda III: de frumento
+  'in-verrem-ii-4',      // actio secunda IV: de signis
+  'in-verrem-ii-5',      // actio secunda V: de suppliciis
   'in-catilinam-i',   // 63 BC, 8 November
   'in-catilinam-ii',  // 63 BC, 9 November
   'in-catilinam-iii', // 63 BC, 3 December
@@ -25,11 +34,17 @@ const SPEECH_ORDER = [
   'philippica-xiv'    // 43 BC, April
 ];
 
-const src = fs.readFileSync(P, 'utf8');
+// Same guard as apply_batch.js: with git's core.autocrlf=true a checkout hands
+// back CRLF, the '\n\n' in tailMark stops matching, indexOf returns -1, and
+// slice(-1) would quietly truncate the whole bank to its last character.
+const src = fs.readFileSync(P, 'utf8').replace(/\r\n/g, '\n');
 const headMark = '  var AUTHORS = ';
 const tailMark = '\n\n  global.PracticeBank';
-const head = src.slice(0, src.indexOf(headMark) + headMark.length);
-const tail = src.slice(src.indexOf(tailMark));
+const headAt = src.indexOf(headMark);
+const tailAt = src.indexOf(tailMark);
+if (headAt < 0 || tailAt < 0) throw new Error('js/fragments.js markers not found (head ' + headAt + ', tail ' + tailAt + ') - refusing to write');
+const head = src.slice(0, headAt + headMark.length);
+const tail = src.slice(tailAt);
 
 global.window = {};
 eval(src);

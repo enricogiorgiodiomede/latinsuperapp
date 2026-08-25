@@ -6,6 +6,90 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.7.5] - 2026-08-26
+
+**In Verrem split into seven works**, and **De signis (II.4) 2 -> 5** and **De suppliciis (II.5)
+1 -> 5** (+7). Speeches reach **101 across 19 works**, Cicero **103**, the bank **263**. The split was
+made possible by correcting a false note in this repo - see below.
+
+### Fixed - a false note that cost five texts
+- `tools/sources.json` claimed: *"The Verrines actio prima is NOT on TLL at all (verres.1 / verrem
+  both 404), which is why In Verrem is sourced from the actio secunda only."* The premise is true;
+  the conclusion is wrong. **The slug is `ver1`.** The authoritative index, `cicero/ver.shtml`, lists
+  **all seven parts**, every one returning 200: `caecilium` (Divinatio), `ver1` (Actio Prima), and
+  `verres.2.1` ... `verres.2.5`. The note has been corrected in place and the five missing pages are
+  now fetched and cached. **`ver1` prints 18 CHAPTER numbers as `[1]`-`[18]`, not the 56 sections
+  modern editions use** (they sit evenly across the page, and the speech has 18 chapters), so that
+  part will be cited by chapter when it lands in v1.7.6.
+
+### Changed - structure
+- **`in-verrem` becomes seven sibling works inside the Speeches group**, on the user's decision
+  (25/08/2026), superseding the "keep it as one work" call of 2026-08-20 and answering the standing
+  "ask before splitting" note. The Verrines are one prosecution in seven speeches, so this follows the
+  `in-catilinam-i`...`-iv` precedent from v1.6.0. **Pure data change: no JS, no HTML, no CSS.** New
+  ids and labels: `in-verrem-divinatio` (Divinatio in Caecilium) · `in-verrem-i` (In Verrem I: Actio
+  Prima) · `in-verrem-ii-1` (De praetura urbana) · `-ii-2` (De praetura Siciliensi) · `-ii-3` (De
+  frumento) · `-ii-4` (De signis) · `-ii-5` (De suppliciis), each with a `labelIt`.
+- **The three existing fragments were routed by citation** into II.4 and II.5 and **keep their
+  `1.5.0` tags** - `version` means first-added, never last-edited - so they still show the papyrus
+  "Added in v.1.5.0" badge. `version.html?v=1.5.0` rebuilds their deep links from the bank and
+  resolves them to the new works automatically.
+- **The five works with no fragments yet are invisible in the chooser** (`PracticeBank.works()`
+  filters out zero-fragment works), so the Speeches grid shows **14** buttons, not 19. They appear as
+  v1.7.6 fills them.
+- `SPEECH_ORDER` in `tools/reorder_works.js` gained the seven ids in canonical order of the case.
+  Since all seven are 70 BC, chronology cannot order them among themselves; the comment says so.
+- **Accepted cost:** an external bookmark to `...&work=in-verrem` now shows the "no fragment" empty
+  state. Verified: it degrades, it does not throw.
+
+### Added
+- **7 new fragments** (verbatim Latin from The Latin Library + original Italian and English +
+  analysis, with bilingual metadata), tagged `version: 1.7.5`:
+- ***II.4 De signis***, order 1-2 · **4-5** · 77 · **106-107** · **115**: **4-5**, Heius's shrine at
+  Messana - the marble Cupid of Praxiteles, the bronze Hercules of Myron, the two Canephoroe of
+  Polyclitus - with *nimirum didici etiam, dum in istum inquiro, artificum nomina* and the staged
+  prompt *sed earum artificem--quem? quemnam? recte admones--Polyclitum esse dicebant*; the Mummius
+  contrast; closes on the double dative *domus erat non domino magis ornamento quam civitati*.
+  **`idiotae` here is the same Greek loanword thrown at Piso in the In Pisonem.** **106-107**, Henna,
+  *umbilicus Siciliae*, Ceres and Proserpina - **the plainest Latin in the app**, deliberately, since
+  the charge that follows is the theft of the goddess's statue; *peragrasse* syncopated, as
+  *complesse* is in the Segesta fragment. **115**, the Marcellus comparison, four *huius ... illius*
+  pairs closing on the chiasmus *ab illo qui cepit conditas, ab hoc qui constitutas accepit captas
+  dicetis Syracusas*. **Starts mid-section** at *Vnius etiam urbis*; at 599 characters it is the
+  shortest fragment in the work.
+- ***II.5 De suppliciis***, order **26-27** · **100** · **118-119** · 162-163 · **169-170**:
+  **26-27**, the working year - *non modo extra tectum, sed ne extra lectum quidem*, spring beginning
+  *cum rosam viderat*, the eight-man litter with the *perlucidus Melitensis* cushion *rosa fartus*,
+  and the day closing with the rest of the time owed *Veneri et Libero*. **100**, the pirate
+  *myoparo* in the Great Harbour, *praedonum remi respergerent*, the pirates leaving *satietate*;
+  keeps the editorial `<omnium>`. **118-119**, the prison door and the executioner's tariff -
+  *tantum ... tantum* with the amounts left blank - and *Non vitam liberum, sed mortis celeritatem
+  pretio redimere cogebantur parentes*. **169-170**, the cross turned to face Italy, and *facinus est
+  vincire civem Romanum, scelus verberare, prope parricidium necare: quid dicam in crucem tollere?*
+
+### Changed - translations
+- **Accuracy pass over all 10 fragments of both books.** One correction, to a v1.5.0 fragment whose
+  tag is **not** bumped: at II.5.163 the English rendered *o ius eximium nostrae civitatis* as
+  "privilege" rather than "right" - the Italian already had *diritto*, and *ius civium* is the thing
+  the entire speech is about.
+
+### Fixed - pipeline
+- **`create_works.js` and `reorder_works.js` hardened**, both being run for the first time since the
+  v1.7.4 incident. Both computed head/tail with `indexOf` and sliced on the result, so under git's
+  `core.autocrlf=true` a checkout returns CRLF, `indexOf` gives -1, and `slice(-1)` silently truncates
+  the entire bank. They now normalise line endings and assert both markers before writing, matching
+  `apply_batch.js`.
+
+### Notes on sourcing
+Every part comes from The Latin Library as usual - no second host, no orthography question, no change
+to the verifier. Each of the seven works has its own `sources.json` entry, which matters because
+`verify.js` **silently skips** any work it cannot map to a page: the verbatim count rising from 94 to
+**101** is the proof that nothing dropped out. Editorial marks kept as printed and explained:
+`<omnium>` (II.5.100), alongside the existing `<hospitis>` (II.4.2). Self-proofread; whole bank
+**101/101 verbatim**.
+
+Cache-bust: `?v=90` -> `?v=91`.
+
 ## [1.7.4] - 2026-08-25
 
 ***In Pisonem* 3 -> 8.** The Speeches group reaches **94 across 13 works**, Cicero 96, the bank 256.

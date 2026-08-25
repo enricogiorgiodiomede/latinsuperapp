@@ -2,7 +2,13 @@
   "_comment": "Which Latin Library page(s) each practice work's Latin comes from. Paths are relative to https://thelatinlibrary.com/ and get '.shtml' appended. Used by fetch_sources.js (to build the local text cache) and by verify.js (to check every Latin field verbatim). Add an entry whenever a new work is created.",
   "_proofread": "Proofreading-only third source, NOT fetched and NOT a source for the app's Latin: Poesia Latina, http://www.poesialatina.it/index.htm - Cicero at _ns/ProsaLat/Cic/<work>.html (OrProCael.html, OrInPison.html, ...). Consult it only when a word here looks like a typo. It prints classical orthography (u for consonantal v: uidetur, uitia, diuersisque; inl-/inr- for ill-/irr-), which is a convention and not a typo, and it carries real variant readings. Only plain non-words qualify for a fragment's `emend` field. This key holds a string, so fetch_sources.js (which only collects arrays) ignores it.",
 
-  "in-verrem": ["cicero/verres.2.4", "cicero/verres.2.5"],
+  "in-verrem-divinatio": ["cicero/caecilium"],
+  "in-verrem-i": ["cicero/ver1"],
+  "in-verrem-ii-1": ["cicero/verres.2.1"],
+  "in-verrem-ii-2": ["cicero/verres.2.2"],
+  "in-verrem-ii-3": ["cicero/verres.2.3"],
+  "in-verrem-ii-4": ["cicero/verres.2.4"],
+  "in-verrem-ii-5": ["cicero/verres.2.5"],
   "in-catilinam-i": ["cicero/cat1"],
   "in-catilinam-ii": ["cicero/cat2"],
   "in-catilinam-iii": ["cicero/cat3"],
@@ -17,7 +23,7 @@
   "philippica-xiv": ["cicero/phil14"],
 
   "_notLive": {
-    "_comment": "Sourced but not yet used, for the roadmap. All of these fetch cleanly. NOTE: cicero/adbrutum is only a table of contents - the letters themselves are on adbrutum1 and adbrutum2. The Verrines actio prima is NOT on TLL at all (verres.1 / verrem both 404), which is why In Verrem is sourced from the actio secunda only.",
+    "_comment": "Sourced but not yet used, for the roadmap. All of these fetch cleanly. NOTE: cicero/adbrutum is only a table of contents - the letters themselves are on adbrutum1 and adbrutum2. CORRECTION (v1.7.5): this file used to claim the Verrines actio prima is not on TLL. It is - the slug is cicero/ver1, not verres.1, and the Divinatio is cicero/caecilium. All seven parts are live and are now listed above; the authoritative index is cicero/ver.shtml. Beware: ver1 prints 18 CHAPTER numbers as [1]-[18], not the 56 sections modern editions use, so cite that one by chapter.",
     "ad-atticum": ["cicero/att1", "cicero/att7", "cicero/att12"],
     "ad-familiares": ["cicero/fam5", "cicero/fam14", "cicero/fam16"],
     "ad-quintum": ["cicero/fratrem1", "cicero/fratrem3"],
