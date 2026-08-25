@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.7.4', date: '2026-08-25', time: '00:00', tz: 'CEST',
+      v: '1.7.4', date: '2026-08-25', time: '20:51', tz: 'CEST',
       en: {
         added: [
           'Five new excerpts from the In Pisonem, which goes from three to eight. This is the speech Cicero wrote to destroy a man he could not take to court, and it is the nastiest thing he ever published.',
