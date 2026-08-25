@@ -10,6 +10,12 @@
  * Markers ([12], [XII], "12.") are stripped from both sides before comparing,
  * since the app normalises them. A fragment that was trimmed marks the cut with
  * "[...]": each piece must then be verbatim AND appear in source order.
+ *
+ * A fragment may also carry `emend`: [[sourceReading, appReading], ...], for the
+ * rare case where the source has a plain error and the app prints the corrected
+ * word. The source's own reading is put back before comparing, so every
+ * character except the declared one is still proved verbatim, and an emendation
+ * that no longer matches its fragment is reported as a failure.
  */
 'use strict';
 const fs = require('fs');
@@ -50,7 +56,19 @@ for (const author of Object.values(AUTHORS)) {
     if (!SRC[w.id]) continue;                       // work not covered by sources.json
     for (const f of w.fragments) {
       if (versions.length && versions.indexOf(f.version) < 0) { skipped++; continue; }
-      const clean = normalise(f.latin.split('\n').map(l => l.replace(/^>\s?/, '')).join(' '));
+      // Undo any declared emendation, so the fragment is compared against what
+      // the source actually prints.
+      let raw = f.latin, stale = null;
+      for (const [sourceReading, appReading] of (f.emend || [])) {
+        if (raw.indexOf(appReading) < 0) { stale = appReading; break; }
+        raw = raw.split(appReading).join(sourceReading);
+      }
+      if (stale) {
+        bad++;
+        console.log('FAIL ' + f.citation + '  stale emendation: the fragment no longer contains "' + stale + '"');
+        continue;
+      }
+      const clean = normalise(raw.split('\n').map(l => l.replace(/^>\s?/, '')).join(' '));
       const pieces = clean.split('[...]').map(s => s.trim()).filter(Boolean);
       const files = SRC[w.id].filter(x => flat[x]);
       const hit = files.some(x => {
@@ -64,7 +82,10 @@ for (const author of Object.values(AUTHORS)) {
       });
       if (hit) {
         ok++;
-        console.log('OK   ' + f.citation + (pieces.length > 1 ? '  (' + pieces.length + ' pieces, trimmed)' : ''));
+        const notes = [];
+        if (pieces.length > 1) notes.push(pieces.length + ' pieces, trimmed');
+        if (f.emend) notes.push(f.emend.length + ' emended');
+        console.log('OK   ' + f.citation + (notes.length ? '  (' + notes.join(', ') + ')' : ''));
         continue;
       }
       bad++;

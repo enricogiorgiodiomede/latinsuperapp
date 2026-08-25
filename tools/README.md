@@ -38,6 +38,13 @@ checklist (CHANGELOG, in-app What's New, reference sheet, memory).
   avoid it rather than reproducing or silently correcting it.
 - **Section markers** are normalised to `[n]`. `apply_batch.js` turns ` [n] ` into a blockquote break;
   a `fix` pair on a fragment rewrites the source's own style (Pro Milone prints `11.`) into that form.
+- **Emendations are declared, never silent.** Default policy is unchanged: where the source has an
+  obvious typo, trim the passage to avoid it. **Only when the correct reading has been confirmed
+  against another edition** may a fragment carry `emend: [[sourceReading, appReading], ...]`.
+  `apply_batch.js` then applies it to the extracted Latin and stores it on the fragment, and
+  `verify.js` puts the source's own reading back before comparing, so every other character is still
+  proved verbatim; a stale emendation is a hard failure. Say so in the analysis too. This is *not*
+  `fix`, which only reconciles source style that `normalise()` already handles and is not recorded.
 - **Trimmed fragments** mark the cut with `[...]` and are built from several extracted pieces via
   `keys` + `joins`. The verifier checks each piece separately and in source order.
 - **`version` means first-added, never last-edited.** Editing an old fragment does not bump its tag;

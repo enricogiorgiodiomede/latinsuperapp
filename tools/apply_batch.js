@@ -56,6 +56,15 @@ function latinOf(item) {
     if (t.indexOf(item.fix[0]) < 0) throw new Error('fix anchor missing for ' + item.citation);
     t = t.replace(item.fix[0], item.fix[1]);
   }
+  // `emend` is for the rare case where the source has a plain error and the app
+  // prints the corrected word: [[sourceReading, appReading], ...]. Unlike `fix`,
+  // which only reconciles source STYLE that normalise() already handles, an
+  // emendation changes the text, so it is recorded on the fragment and verify.js
+  // puts the source's reading back before checking. Say so in the analysis too.
+  for (const [sourceReading, appReading] of (item.emend || [])) {
+    if (t.indexOf(sourceReading) < 0) throw new Error('emend anchor missing for ' + item.citation + ': ' + sourceReading);
+    t = t.split(sourceReading).join(appReading);
+  }
   t = (item.prefix || '') + t;
   t = t.replace(/ (\[\d+\]) /g, '\n>\n> $1 ');   // digits only: [esse], [id], [...] left alone
   return '> ' + t;
@@ -70,7 +79,7 @@ for (const item of incoming) {
     description: item.description, latin: latinOf(item),
     italian: item.italian, english: item.english, analysis: item.analysis,
     titleIt: item.titleIt, descriptionIt: item.descriptionIt, analysisIt: item.analysisIt,
-    version: VERSION
+    emend: item.emend, version: VERSION
   });
 }
 

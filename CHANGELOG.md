@@ -6,6 +6,47 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.7.4] - 2026-08-25
+
+**Proofread and extended *Pro Caelio* 12**, on the user's check against another edition of the speech,
+and a new **declared-emendation mechanism** in the pipeline to make it possible. No new excerpts;
+Pro Caelio stays at 8 and the bank at 251.
+
+### Changed
+- ***Pro Caelio* 12 now runs to the end of the section.** v1.7.3 had trimmed it one sentence short
+  because The Latin Library prints *ex contrarus*, which is not a Latin word. **The user checked the
+  speech against Poesia Latina and confirmed the reading is *ex contrariis*** (Splash Latino appears
+  to carry the same error as The Latin Library, so both probably inherit one digital text). The app
+  now prints the corrected word and the excerpt ends on the sentence the paragraph was built for:
+  *Neque ego umquam fuisse tale monstrum in terris ullum puto, tam ex contrariis diversisque et inter
+  se pugnantibus naturae studiis cupiditatibusque conflatum.* Latin re-extracted through `tools/`, not
+  retyped; English, Italian and both analyses extended to match.
+- The analysis now closes on *monstrum* as a portent rather than a horror, and on **`conflatum`** as a
+  smith's word for melting metals into one mass - so the passage that opened by calling Catiline a
+  sketch rather than a statue ends by calling him an alloy that should not have been possible. A short
+  note explains the emendation in both languages.
+- **The `version` tag stays at `1.7.3`**, per the standing rule that `version` means first-added and
+  never last-edited, so the "NEW!" badge does not move. v1.7.4 adds no excerpts, so `version.html`
+  correctly has no page for it and its prev/next arrows still walk 1.7.1 -> 1.7.2 -> 1.7.3.
+
+### Added (pipeline)
+- **`emend` support in `tools/verify.js` and `tools/apply_batch.js`.** A fragment may now carry
+  `emend: [[sourceReading, appReading], ...]` for the rare case where the source has a plain error and
+  the app prints the corrected word. `apply_batch.js` applies the substitution to the extracted Latin
+  and records it on the fragment; `verify.js` **puts the source's own reading back before comparing**,
+  so every character except the declared one is still proved verbatim. A stale emendation - one whose
+  `appReading` no longer appears in the fragment - is reported as a hard failure, which was tested:
+  breaking the word deliberately produced `FAIL (Pro Caelio 12) stale emendation` and `1 mismatched`.
+  Successful ones print as `OK (Pro Caelio 12) (1 emended)`.
+- This is deliberately distinct from the existing `fix`, which only reconciles source **style** that
+  `normalise()` already handles (Pro Milone's `11.` markers) and is not recorded anywhere. An
+  emendation changes the text, so it is declared, stored and machine-checked. **`(Pro Caelio 12)` is
+  the only emended fragment in the bank**, and the repo policy is unchanged otherwise: trim past a
+  source typo rather than mend it, unless the correct reading has been confirmed against another
+  edition.
+
+Cache-bust: `?v=87` -> `?v=88`.
+
 ## [1.7.3] - 2026-08-25
 
 ***Pro Caelio* 3 -> 8.** Includes the two passages the user asked for by name: the **Palatina Medea**

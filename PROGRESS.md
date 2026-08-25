@@ -74,7 +74,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=87`.**
+   whenever you change a JS/CSS file. **Currently `v=88`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -248,7 +248,7 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
   **Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
 **=== SESSION HANDOFF (updated 2026-08-24) ===**
-Current: **v1.7.3, cache ?v=87**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
+Current: **v1.7.4, cache ?v=88**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
 50 frags since v1.4.0). Caesar's-Age flesh-out in progress: **Nepos done (1->8, v1.2.0)**;
 **Cicero is the big active job and is now the largest author in the app at 91 excerpts** (Plautus 50).
 
@@ -288,10 +288,24 @@ Philippics is +15 and was split into two releases rather than shipped as one.
   user asked for by name, the **Palatina Medea** (18, quoting Ennius) and the **quadrantaria** joke (62).
   Also fixed `tools/strip.js`, which was deleting `<br>` without a separator and welding verse lines
   together; all sources re-fetched, bank still 0 mismatched.
-- **v1.7.4 (NEXT):** deepen **In Pisonem** to 7-8. **Remember it is cited by chapter, not section**
+- ~~**v1.7.4**~~ DONE 25/08: **proofread + extended Pro Caelio 12** to the end of the section, on the
+  user's check against Poesia Latina, and emended TLL's *ex contrarus* to *ex contrariis*. No new
+  excerpts. Added **`emend` support to `apply_batch.js` + `verify.js`** so a declared correction can be
+  machine-checked (see below). Pro Caelio 12 keeps its `1.7.3` tag.
+- **v1.7.5 (NEXT):** deepen **In Pisonem** to 7-8. **Remember it is cited by chapter, not section**
   (TLL prints no section numbers), and `apply_batch.js` cannot sort those - new In Pisonem fragments
   append to the end and must be reordered by hand.
-- **v1.7.5 / .6 / (.7):** deepen **In Verrem**. User's note: it should end up the **longest of them
+- **v1.7.6 / .7 / (.8):** deepen **In Verrem** (ask before splitting it).
+
+**`emend` (new in v1.7.4).** A fragment may carry `emend: [[sourceReading, appReading], ...]` when the
+source has a plain error and the app prints the correction. `apply_batch.js` applies it to the
+extracted Latin and stores it; `verify.js` puts the source reading back before comparing, so
+everything else is still proved verbatim, and a stale emendation fails hard (tested). Distinct from
+`fix`, which only reconciles source style that `normalise()` already handles and is not recorded.
+**Policy unchanged: trim past a source typo rather than mend it, UNLESS the correct reading has been
+confirmed against another edition** - as the user did here against Poesia Latina. `(Pro Caelio 12)` is
+currently the only emended fragment in the bank.
+ User's note: it should end up the **longest of them
   all**, since it is 7 speeches and each book of the *actio secunda* runs to 100+ sections.
   **In Verrem is currently ONE work** (user's call, 2026-08-20); if it grows past ~8, revisit the
   De signis (II.4) / De suppliciis (II.5) split, but **ask first**.

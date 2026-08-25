@@ -12,6 +12,25 @@
 
   var VERSIONS = [
     {
+      v: '1.7.4', date: '2026-08-25', time: '00:00', tz: 'CEST',
+      en: {
+        added: [],
+        changed: [
+          'Proofread and extended the Catiline portrait in the Pro Caelio. It now runs to the end of the section, which had been cut short, and finishes on the sentence the whole paragraph was building towards: Cicero doubts there was ever such a monster on earth, welded together out of natural impulses so opposed and so much at war with one another. The word for welded is what a smith does when he melts metals into a single mass, so the passage that began by calling Catiline a sketch rather than a statue ends by calling him an alloy that should not have been possible.',
+          'That sentence had been left out because the website the Latin comes from prints one word in it that is not a Latin word at all. A reader checked another edition of the speech and confirmed the correct reading, so the app now prints the corrected word. The correction is recorded on the excerpt itself, which means the automatic check that proves every excerpt letter by letter against its source still runs over every other character of the passage, and would complain at once if the two ever drifted apart. It is the only corrected word in the whole collection, and the note at the end of the excerpt explains it.'
+        ],
+        deleted: []
+      },
+      it: {
+        added: [],
+        changed: [
+          'Corretto ed esteso il ritratto di Catilina nella Pro Caelio. Ora arriva fino alla fine del paragrafo, che era stato troncato, e si chiude sulla frase verso cui tutto tendeva: Cicerone dubita che sia mai esistito al mondo un mostro simile, fuso insieme da inclinazioni naturali tanto contrarie e tanto in lotta fra loro. Il verbo che vale "fuso insieme" è quello del fabbro che scioglie più metalli in un\'unica massa: così il passo che era cominciato definendo Catilina uno schizzo e non una statua finisce col definirlo una lega che non sarebbe dovuta essere possibile.',
+          'Quella frase era stata esclusa perché il sito da cui proviene il latino vi stampa una parola che in latino non esiste. Un lettore ha controllato un\'altra edizione dell\'orazione e ha confermato la lezione corretta, e così l\'app ora stampa la parola giusta. La correzione è registrata sul brano stesso: il controllo automatico che verifica lettera per lettera ogni brano sulla sua fonte continua quindi a girare su tutti gli altri caratteri del passo, e protesterebbe subito se i due testi divergessero. È l\'unica parola corretta di tutta la raccolta, e la nota in fondo al brano lo spiega.'
+        ],
+        deleted: []
+      }
+    },
+    {
       v: '1.7.3', date: '2026-08-25', time: '19:27', tz: 'CEST',
       en: {
         added: [
