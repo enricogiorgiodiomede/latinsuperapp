@@ -6,7 +6,7 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
-## [1.7.5] - 2026-08-26
+## [1.7.5] - 2026-08-25
 
 **In Verrem split into seven works**, and **De signis (II.4) 2 -> 5** and **De suppliciis (II.5)
 1 -> 5** (+7). Speeches reach **101 across 19 works**, Cicero **103**, the bank **263**. The split was

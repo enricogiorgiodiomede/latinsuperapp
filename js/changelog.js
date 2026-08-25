@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.7.5', date: '2026-08-26', time: '00:00', tz: 'CEST',
+      v: '1.7.5', date: '2026-08-25', time: '22:32', tz: 'CEST',
       en: {
         added: [
           'The Verrines are now seven texts instead of one. Cicero\'s case against Verres was not a speech but a whole prosecution - the argument over who should conduct it, the opening action, and then five enormous books of evidence - and the practice menu now shows it that way, in the order the case was actually fought. Two of the seven are filled in this update; the rest follow in the next one, and stay hidden until they have something in them.',
