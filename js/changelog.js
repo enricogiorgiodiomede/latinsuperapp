@@ -12,6 +12,31 @@
 
   var VERSIONS = [
     {
+      v: '1.7.8', date: '2026-08-27', time: '00:00', tz: 'CEST',
+      en: {
+        added: [
+          'Cicero\'s legacy is back on his page. The reference document has always carried a section on what each author left behind - what happened to their work after they died, who rescued it, who copied it, what it turned into - and the app was quietly dropping it. It is now shown for the six authors who have one, just before the difficulty chart, in both languages. For Cicero that means the letters his freedman published after his execution, the prose rhythm that became the model for two thousand years, and the philosophical vocabulary he had to invent because Latin did not have it yet.',
+          'Nothing was added to the practice bank, so the NEW! banners stay where they were, on the excerpts from the last update.'
+        ],
+        changed: [
+          'The Speeches menu no longer throws nineteen buttons at you. The Verrines, the Catilinarians and the Philippics are each one prosecution or one campaign rather than a pile of separate speeches, so each now sits behind a single button that opens into its own list - Speeches, then In Verrem, then the seven parts of the case. Seven buttons instead of nineteen, and the four standalone speeches stay where they are.',
+          'The order is unchanged: the collections appear at the date of their earliest speech, so the Speeches list still runs chronologically, from the Verrines in 70 BC through to the Philippics. The trail at the top of the page shows every level and each one is clickable, and "choose another text" from inside a speech now returns you to its collection rather than all the way out.'
+        ],
+        deleted: []
+      },
+      it: {
+        added: [
+          'L\'eredità di Cicerone è tornata sulla sua scheda. Il documento di riferimento ha sempre avuto, per ogni autore, una sezione su ciò che ha lasciato dietro di sé - che cosa sia successo alla sua opera dopo la morte, chi l\'abbia salvata, chi l\'abbia copiata, in che cosa si sia trasformata - e l\'app la stava silenziosamente scartando. Ora viene mostrata per i sei autori che ne hanno una, subito prima del grafico di difficoltà, in entrambe le lingue. Per Cicerone significa le lettere che il suo liberto pubblicò dopo l\'esecuzione, il ritmo della prosa che divenne il modello per duemila anni, e il lessico filosofico che dovette inventare perché il latino non ce l\'aveva ancora.',
+          'Alla raccolta di esercizi non è stato aggiunto nulla, quindi le fascette NUOVO! restano dov\'erano, sui brani dell\'aggiornamento precedente.'
+        ],
+        changed: [
+          'Il menu delle orazioni non ti scaraventa più addosso diciannove pulsanti. Le Verrine, le Catilinarie e le Filippiche sono ciascuna un solo processo o una sola campagna, non un mucchio di orazioni separate, e quindi ognuna sta ora dietro a un unico pulsante che si apre sul proprio elenco: Orazioni, poi Verrine, poi le sette parti della causa. Sette pulsanti invece di diciannove, e le quattro orazioni singole restano dove sono.',
+          'L\'ordine non cambia: ogni raccolta compare alla data della sua orazione più antica, e così l\'elenco delle orazioni resta cronologico, dalle Verrine del 70 a.C. fino alle Filippiche. Il percorso in cima alla pagina mostra tutti i livelli e ognuno è cliccabile, e "scegli un altro testo" da dentro un\'orazione ora ti riporta alla sua raccolta invece che fuori del tutto.'
+        ],
+        deleted: []
+      }
+    },
+    {
       v: '1.7.7', date: '2026-08-26', time: '18:43', tz: 'CEST',
       en: {
         added: [

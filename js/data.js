@@ -339,7 +339,8 @@
       imageNote: (IMAGE_NOTE[a.slug] && IMAGE_NOTE[a.slug].it) || a.imageNote,
       biography: pick('biography'),
       works: pick('works'),
-      style: pick('style')
+      style: pick('style'),
+      legacy: pick('legacy')
     });
   }
 
@@ -357,6 +358,7 @@
     if (/\bbiograph/.test(t)) return 'biography';
     if (/\bwork/.test(t)) return 'works';
     if (/\bstyle\b/.test(t)) return 'style';
+    if (/\blegac|\bimpact\b/.test(t)) return 'legacy';
     if (/latin excerpt/.test(t)) return 'excerpt';
     if (/final rating/.test(t)) return 'rating';
     return null;
@@ -542,6 +544,7 @@
       biography: scrubRanking(cleanBody(sections.biography || '')),
       works: scrubRanking(cleanBody(sections.works || '')),
       style: scrubRanking(cleanBody(sections.style || '')),
+      legacy: scrubRanking(cleanBody(sections.legacy || '')),
       excerpts: parseExcerpts(cleanBody(sections.excerpt || '')).map(function (g) {
         g.analysis = scrubRanking(g.analysis);
         return g;

@@ -2408,7 +2408,7 @@
       {
         "id": "in-verrem-divinatio",
         "label": "Divinatio in Caecilium",
-        "group": "speeches",
+        "group": "verrines",
         "fragments": [
           {
             "title": "A defender turns prosecutor",
@@ -2458,7 +2458,7 @@
       {
         "id": "in-verrem-i",
         "label": "In Verrem I: Actio Prima",
-        "group": "speeches",
+        "group": "verrines",
         "fragments": [
           {
             "title": "No rich man can be convicted",
@@ -2508,7 +2508,7 @@
       {
         "id": "in-verrem-ii-1",
         "label": "In Verrem II.1: De praetura urbana",
-        "group": "speeches",
+        "group": "verrines",
         "fragments": [
           {
             "title": "The storm that put the statues back",
@@ -2570,7 +2570,7 @@
       {
         "id": "in-verrem-ii-2",
         "label": "In Verrem II.2: De praetura Siciliensi",
-        "group": "speeches",
+        "group": "verrines",
         "fragments": [
           {
             "title": "The first province of them all",
@@ -2620,7 +2620,7 @@
       {
         "id": "in-verrem-ii-3",
         "label": "In Verrem II.3: De frumento",
-        "group": "speeches",
+        "group": "verrines",
         "fragments": [
           {
             "title": "The field seemed to mourn its master",
@@ -2670,7 +2670,7 @@
       {
         "id": "in-verrem-ii-4",
         "label": "In Verrem II.4: De signis",
-        "group": "speeches",
+        "group": "verrines",
         "fragments": [
           {
             "title": "A hobby, an illness, or simply robbery",
@@ -2748,7 +2748,7 @@
       {
         "id": "in-verrem-ii-5",
         "label": "In Verrem II.5: De suppliciis",
-        "group": "speeches",
+        "group": "verrines",
         "fragments": [
           {
             "title": "Spring began when he saw a rose",
@@ -2827,7 +2827,7 @@
         "id": "in-catilinam-i",
         "label": "In Catilinam I",
         "labelIt": "Prima Catilinaria",
-        "group": "speeches",
+        "group": "catilinarians",
         "fragments": [
           {
             "title": "How long, Catiline, will you abuse our patience?",
@@ -2975,7 +2975,7 @@
         "id": "in-catilinam-ii",
         "label": "In Catilinam II",
         "labelIt": "Seconda Catilinaria",
-        "group": "speeches",
+        "group": "catilinarians",
         "fragments": [
           {
             "title": "He left, he cleared out, he escaped, he burst away",
@@ -3081,7 +3081,7 @@
         "id": "in-catilinam-iii",
         "label": "In Catilinam III",
         "labelIt": "Terza Catilinaria",
-        "group": "speeches",
+        "group": "catilinarians",
         "fragments": [
           {
             "title": "Rome handed back to you, snatched from the jaws of fate",
@@ -3187,7 +3187,7 @@
         "id": "in-catilinam-iv",
         "label": "In Catilinam IV",
         "labelIt": "Quarta Catilinaria",
-        "group": "speeches",
+        "group": "catilinarians",
         "fragments": [
           {
             "title": "The consul with nowhere safe to stand",
@@ -3788,7 +3788,7 @@
       {
         "id": "philippica-i",
         "label": "Philippica I",
-        "group": "speeches",
+        "group": "philippics",
         "fragments": [
           {
             "title": "The amnesty in the temple of Tellus",
@@ -3894,7 +3894,7 @@
       {
         "id": "philippica-ii",
         "label": "Philippica II",
-        "group": "speeches",
+        "group": "philippics",
         "fragments": [
           {
             "title": "Twenty years of public enemies, and every one of them mine",
@@ -4014,7 +4014,7 @@
       {
         "id": "philippica-iv",
         "label": "Philippica IV",
-        "group": "speeches",
+        "group": "philippics",
         "fragments": [
           {
             "title": "Not yet called an enemy, but already judged one",
@@ -4092,7 +4092,7 @@
       {
         "id": "philippica-xiv",
         "label": "Philippica XIV",
-        "group": "speeches",
+        "group": "philippics",
         "fragments": [
           {
             "title": "Keep the military cloaks on",
@@ -4247,6 +4247,30 @@
         "labelIt": "Orazioni",
         "heading": "Choose a speech by Cicero",
         "headingIt": "Scegli un'orazione di Cicerone"
+      },
+      {
+        "id": "verrines",
+        "parent": "speeches",
+        "label": "In Verrem",
+        "labelIt": "Verrine",
+        "heading": "Choose a Verrine oration",
+        "headingIt": "Scegli un'orazione delle Verrine"
+      },
+      {
+        "id": "catilinarians",
+        "parent": "speeches",
+        "label": "In Catilinam",
+        "labelIt": "Catilinarie",
+        "heading": "Choose a Catilinarian oration",
+        "headingIt": "Scegli una Catilinaria"
+      },
+      {
+        "id": "philippics",
+        "parent": "speeches",
+        "label": "Philippicae",
+        "labelIt": "Filippiche",
+        "heading": "Choose a Philippic",
+        "headingIt": "Scegli una Filippica"
       },
       {
         "id": "letters",
@@ -4511,16 +4535,71 @@
         return groupId ? w.group === groupId : true;
       });
     },
-    // Optional SECOND chooser level. Authors with a huge, many-shaped corpus
+    // Works belonging DIRECTLY to one node of the chooser tree. For an author
+    // with no groups this is simply every work; for a grouped author it is the
+    // works whose `group` is exactly groupId (or, at the top level, none).
+    directWorks: function (slug, groupId) {
+      var a = AUTHORS[slug];
+      if (!a) return [];
+      return a.works.filter(function (w) {
+        if (!(w.fragments && w.fragments.length)) return false;
+        if (!a.groups) return true;
+        return (w.group || null) === (groupId || null);
+      });
+    },
+    // Optional NESTED chooser levels. Authors with a huge, many-shaped corpus
     // (Cicero) sort their works into groups - Speeches, Letters, Philosophical
-    // works, Rhetorical works - so the chooser goes category -> work -> practice.
+    // works, Rhetorical works - and a group may itself carry a `parent`, which
+    // is how the Verrines, Catilinarians and Philippics collapse into three
+    // collections inside Speeches instead of 15 loose buttons. So the chooser
+    // goes category -> [collection ->] work -> practice, to any depth.
     // Authors without a 'groups' array keep the old single-level chooser.
-    groups: function (slug) {
+    childGroups: function (slug, parentId) {
       var a = AUTHORS[slug];
       if (!a || !a.groups) return [];
       var self = this;
-      return a.groups.filter(function (g) { return self.works(slug, g.id).length; });
+      return a.groups.filter(function (g) {
+        return (g.parent || null) === (parentId || null) && self.subtreeWorks(slug, g.id).length;
+      });
     },
+    // Every work at or below a node, so a collection button can count what is
+    // inside it and an empty branch can be hidden.
+    subtreeWorks: function (slug, groupId) {
+      var a = AUTHORS[slug];
+      if (!a) return [];
+      var self = this;
+      var out = this.directWorks(slug, groupId);
+      (a.groups || []).forEach(function (g) {
+        if ((g.parent || null) === (groupId || null)) out = out.concat(self.subtreeWorks(slug, g.id));
+      });
+      return out;
+    },
+    // Root -> ... -> group, for the breadcrumb and the back link.
+    groupPath: function (slug, groupId) {
+      var path = [], seen = {}, g = this.getGroup(slug, groupId);
+      while (g && !seen[g.id]) { seen[g.id] = 1; path.unshift(g); g = this.getGroup(slug, g.parent); }
+      return path;
+    },
+    // What one chooser page shows: the collections under this node plus the
+    // works attached to it directly, merged into one list. Both are ordered by
+    // where their works sit in the works array, which tools/reorder_works.js
+    // already keeps chronological - so a collection appears at the date of its
+    // earliest speech rather than being bumped to the front.
+    chooserItems: function (slug, groupId) {
+      var a = AUTHORS[slug];
+      if (!a) return [];
+      var self = this, at = {};
+      a.works.forEach(function (w, i) { at[w.id] = i; });
+      var items = this.childGroups(slug, groupId).map(function (g) {
+        var idx = self.subtreeWorks(slug, g.id).map(function (w) { return at[w.id]; });
+        return { kind: 'group', item: g, at: Math.min.apply(null, idx) };
+      });
+      this.directWorks(slug, groupId).forEach(function (w) {
+        items.push({ kind: 'work', item: w, at: at[w.id] });
+      });
+      return items.sort(function (x, y) { return x.at - y.at; });
+    },
+    groups: function (slug) { return this.childGroups(slug, null); },
     hasGroups: function (slug) { return this.groups(slug).length > 0; },
     getGroup: function (slug, groupId) {
       var a = AUTHORS[slug];

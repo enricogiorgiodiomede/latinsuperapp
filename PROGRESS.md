@@ -74,7 +74,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=93`.**
+   whenever you change a JS/CSS file. **Currently `v=94`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -248,7 +248,7 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
   **Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
 **=== SESSION HANDOFF (updated 2026-08-24) ===**
-Current: **v1.7.7, cache ?v=93**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
+Current: **v1.7.8, cache ?v=94**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
 50 frags since v1.4.0). Caesar's-Age flesh-out in progress: **Nepos done (1->8, v1.2.0)**;
 **Cicero is the big active job and is now the largest author in the app at 118 excerpts** (Plautus 50).
 
@@ -318,6 +318,10 @@ Philippics is +15 and was split into two releases rather than shipped as one.
   of any kind confirmed against another edition**, still never variants or orthography. Accuracy pass
   found a real error in a v1.7.6 note (*horreum*/*perfugium* named at II.2.2-3 but not in the text;
   the words are *subsidium*/*receptaculum*).
+- ~~**v1.7.8**~~ DONE 27/08: **housekeeping, no new excerpts** (so the NEW! badges stayed on v1.7.7).
+  Chooser nests a level deeper - Verrines/Catilinarians/Philippics became collections inside Speeches,
+  19 buttons -> 7, chronology preserved. Restored the **Legacy and Impact** section to the author page
+  for the six authors who have one, in both languages.
 - **NEXT: Cicero's other three groups** - **Letters** (Ad Atticum has 1; add Ad Familiares, Ad
   Quintum, Ad Brutum - all already in `_notLive` in sources.json and cached), **Philosophical works**
   (De Amicitia has 1; De Senectute, Somnium Scipionis, Tusculanae, De Officiis), **Rhetorical works**
@@ -349,6 +353,22 @@ are also not typos. Only plain errors qualify for `emend`.
 Per-passage candidates are in `practice_fragments_reference.md` under "ROADMAP" and "Still to build".
 **AFTER that:** Cicero's Letters + Philosophical works + Rhetorical works (same 3-per-work shape), then
 **Caesar, Hirtius, Lucretius, Sallust, Catullus** (Varro later, already 11).
+**NESTED CHOOSER, DEEPENED IN v1.7.8.** A group may now carry a **`parent`**, so the chooser goes
+category -> collection -> work to any depth. Cicero's `speeches` holds three collections -
+**`verrines`**, **`catilinarians`**, **`philippics`** - which is how 19 buttons became 7. Helpers:
+`directWorks` (works attached to exactly one node), `childGroups`, `subtreeWorks`, `groupPath`,
+**`chooserItems`** (merges collections + works into one list, ordered by their position in the works
+array, which keeps the Speeches page chronological). `groups()` = `childGroups(slug, null)`.
+**Authors with no `groups` array are untouched.** `tools/reorder_works.js` buckets by the TOP-LEVEL
+ancestor, so adding a sub-group no longer makes it throw.
+
+**AUTHOR PAGE: the "Legacy and Impact" section is rendered since v1.7.8**, just before the difficulty
+chart. `classifySection()` in data.js used to return `null` for it and drop it; six Caesar-era authors
+have one (Cicero, Caesar, Hirtius, Lucretius, Sallust, Catullus). **The Italian needed `build_content_it.js`
+fixed in TWO places** - `classify()` and the field whitelist in `extractAuthor`'s return - then
+`node build_content_it.js` to regenerate. Italian headings vary: *Eredità e Impatto* for most,
+*Impatto e lascito* for Cicero.
+
 **NEW STRUCTURE (v1.5.0): the chooser can nest.** An author entry may carry a `groups` array
 (`{id,label,labelIt,heading,headingIt}`) and each work a `group` id; `practice-select.html` then shows
 categories first and `&group=<id>` shows that category's works. Only Cicero uses it so far; every other

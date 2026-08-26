@@ -52,10 +52,21 @@ const AUTHORS = window.PracticeBank.authors;
 const cic = AUTHORS['marcus-tullius-cicero'];
 
 const before = cic.works.map(w => w.id);
+// Since v1.7.8 a group may carry a `parent` (the Verrines, Catilinarians and
+// Philippics are collections inside Speeches), so bucket by the TOP-LEVEL
+// ancestor: the works array stays one contiguous, chronological speeches run,
+// which is what the chooser derives collection order from.
+const rootGroup = (id) => {
+  const groups = cic.groups || [];
+  let g = groups.filter(x => x.id === id)[0], seen = {};
+  while (g && g.parent && !seen[g.id]) { seen[g.id] = 1; g = groups.filter(x => x.id === g.parent)[0]; }
+  return g ? g.id : id;
+};
 const buckets = new Map(GROUP_ORDER.map(g => [g, []]));
 for (const w of cic.works) {
-  if (!buckets.has(w.group)) throw new Error('unknown group on ' + w.id + ': ' + w.group);
-  buckets.get(w.group).push(w);
+  const root = rootGroup(w.group);
+  if (!buckets.has(root)) throw new Error('unknown group on ' + w.id + ': ' + w.group + ' (root ' + root + ')');
+  buckets.get(root).push(w);
 }
 const speeches = buckets.get('speeches');
 for (const w of speeches) {

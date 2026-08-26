@@ -109,6 +109,9 @@
     addSection(I18n.t('section.biography'), author.biography);
     addSection(I18n.t('section.works'), author.works);
     addSection(I18n.t('section.style'), author.style);
+    // What the author left behind. In the draft this sits immediately
+    // before the tier verdict, so on the page it goes just before the chart.
+    addSection(I18n.t('section.legacy'), author.legacy);
 
     // --- Difficulty profile: the criteria bar chart (skipped for NA authors,
     // who carry an evaluation badge but no per-criterion bars) ---

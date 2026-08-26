@@ -183,9 +183,14 @@ Source: The Latin Library, `nepos/nepos.*.shtml` (each Life its own page; `[N]` 
 - **Atticus VI.1-3** (`nepos.att`): principled neutrality "neque se civilibus fluctibus committeret" + the maritime image + staccato refusals (numquam/nullius/neminem).
 
 ## Marcus Tullius Cicero (`marcus-tullius-cicero`) - needsSelection, NESTED chooser [Speeches: v1.5.0 2026-08-18, split + top-up v1.6.0 2026-08-20]
-First author with a **two-level chooser**: `groups` on the author (Speeches / Letters / Philosophical
+First author with a **nested chooser**: `groups` on the author (Speeches / Letters / Philosophical
 works / Rhetorical works), `group` on each work. `practice-select.html` shows categories, `&group=<id>`
-shows that category's works. Target shape agreed with the user: **4-5 works per category, 3 fragments
+shows that category's works. **Since v1.7.8 a group may carry a `parent`, so the tree is three deep
+where it needs to be:** `speeches` holds the collections **`verrines`** (7), **`catilinarians`** (4)
+and **`philippics`** (4), which turned a 19-button page into 7. The four standalone speeches
+(Pro Archia, Pro Caelio, In Pisonem, Pro Milone) still hang directly off `speeches`, and collections
+are interleaved with them **chronologically**, at the date of their earliest speech. Nothing about a
+fragment changed: only the `group` field on 15 works. Target shape agreed with the user: **4-5 works per category, 3 fragments
 per work**. Release 1 = Speeches (done); release 2 = Letters + the philosophical and rhetorical works.
 
 Source: The Latin Library, `cicero/<file>.shtml` (`cat2`, `cat3`, `verres.2.4`, `verres.2.5`, `arch`,
@@ -199,7 +204,8 @@ Editorial marks kept as printed and explained in the analysis: `<hospitis>` (Ver
 (Arch. 14 - fragment ends at `...reliquerunt?`) and `non minis` for `non hominis` (Mil. 11 - fragment
 ends at `...quam iusta repetenda`). `Illias` (Arch. 24) and `inplevit` (Phil. II.63) kept + noted.
 
-### Speeches (`speeches`) - **19 works, 116 fragments** (v1.7.7). **ORDER: CHRONOLOGICAL by delivery, restored in v1.6.6** (v1.6.3 had alphabetised them; the user asked for chronology back). The seven Verrine works lead, being 70 BC, in the canonical order of the case rather than by date, since they share a year. Only the speeches bucket is sorted; groups stay contiguous. Fragments inside a work stay in paragraph order.
+### Speeches (`speeches`) - **19 works, 116 fragments** (v1.7.7), 15 of them inside the three
+sub-collections added in v1.7.8. **ORDER: CHRONOLOGICAL by delivery, restored in v1.6.6** (v1.6.3 had alphabetised them; the user asked for chronology back). The seven Verrine works lead, being 70 BC, in the canonical order of the case rather than by date, since they share a year. Only the speeches bucket is sorted; groups stay contiguous. Fragments inside a work stay in paragraph order.
 - **THE VERRINES - 7 WORKS since v1.7.5**, 70 BC, all in the `speeches` group and leading it.
   **ALL SEVEN PARTS ARE ON TLL** (the old note claiming otherwise was wrong): `caecilium` (Divinatio),
   **`ver1`** (Actio Prima, NOT `verres.1`), `verres.2.1` ... `verres.2.5`. Index: `cicero/ver.shtml`.

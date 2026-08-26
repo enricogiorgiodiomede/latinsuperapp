@@ -6,6 +6,56 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.7.8] - 2026-08-27
+
+**Housekeeping, no new excerpts.** The Cicero chooser gains a third level so the Speeches menu stops
+showing 19 buttons at once, and the "Legacy and Impact" section - present in the drafts all along and
+silently dropped by the parser - is restored to the author page. **The NEW! badges stay on the v1.7.7
+excerpts**, since `LATEST_VERSION` is computed from fragment tags and nothing was tagged 1.7.8.
+
+### Changed - the chooser nests to any depth
+- **Groups may now carry a `parent`.** Three new sub-groups sit inside `speeches`: **`verrines`**
+  (In Verrem / Verrine), **`catilinarians`** (In Catilinam / Catilinarie) and **`philippics`**
+  (Philippicae / Filippiche), each with its own `heading`/`headingIt`. The 15 affected works simply
+  changed `group`; **no fragment, citation or version tag was touched**.
+- The Speeches page now shows **7 buttons instead of 19**: In Verrem (7 texts) · In Catilinam (4) ·
+  Pro Archia · Pro Caelio · In Pisonem · Pro Milone · Philippicae (4).
+- **Chronology is preserved.** `PracticeBank.chooserItems()` merges collections and standalone works
+  into one list and orders both by where their works already sit in the works array, so a collection
+  appears at the date of its earliest speech rather than being bumped to the front. That is why
+  Philippicae comes last and In Verrem first, with the four standalone speeches in between.
+- New `PracticeBank` helpers: `directWorks`, `childGroups`, `subtreeWorks`, `groupPath`,
+  `chooserItems`. `groups()` is now `childGroups(slug, null)`, so `hasGroups` and every existing
+  caller keep working; **authors without a `groups` array are completely unaffected** (Plautus still
+  renders its flat 10-button list).
+- **Breadcrumb and back link follow the path.** The trail shows every level (Choose / Speeches /
+  In Verrem) with all but the last clickable, the back link goes one level up rather than all the
+  way out ("← Back to Speeches"), and **"choose another text" from a practice page now returns to the
+  work's collection** - `groupOfWork` already returned the nearest group, so that came for free.
+- New i18n string `link.backToGroup` in both languages. Collection buttons carry an extra
+  `btn-comedy-group` class, available for styling later.
+- **`tools/reorder_works.js` buckets by TOP-LEVEL ancestor now.** It previously threw `unknown group
+  on <id>` for anything outside `GROUP_ORDER`, so the first batch run after this change would have
+  failed; it now resolves each work's group to its root, keeping the speeches run contiguous and
+  chronological, which is what the chooser derives collection order from.
+
+### Fixed - the missing "Legacy and Impact" section
+- `classifySection()` in `js/data.js` recognised only biography / works / style / excerpt / rating and
+  returned `null` for everything else, so **`## Legacy and Impact` was parsed and thrown away**. It is
+  now a section of its own, rendered by `js/author.js` immediately **before the difficulty chart** -
+  the position it holds in the draft, just ahead of the tier verdict.
+- Restored for **all six authors who have one**: Cicero, Caesar, Hirtius, Lucretius, Sallust,
+  Catullus. Authors without the section are unaffected, since `addSection` skips empty content.
+- **The Italian side needed two fixes.** `build_content_it.js` classified only biography / works /
+  style, and its `extractAuthor` return whitelisted the same three fields, so the Italian text was
+  being dropped twice over. Both fixed and `js/content-it.js` regenerated: all six authors now carry
+  Italian legacy prose, so Italian readers get Italian rather than the English fallback. Note the
+  Italian working file heads Cicero's section *Impatto e lascito* while the others use *Eredità e
+  Impatto*; the classifier accepts both.
+- New i18n string `section.legacy` ("Legacy and Impact" / "Eredità e impatto").
+
+Cache-bust: `?v=93` -> `?v=94`.
+
 ## [1.7.7] - 2026-08-26
 
 **The Verrines close at 25 across 7 works** (5 x 5), on the user's call that no part should be left

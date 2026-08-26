@@ -56,6 +56,7 @@ function classify(headingText) {
   if (/\bbiograf/.test(t)) return 'biography';
   if (/\boper/.test(t)) return 'works';
   if (/\bstile/.test(t)) return 'style';
+  if (/eredit|impatto|lascito/.test(t)) return 'legacy';
   return null;
 }
 
@@ -112,7 +113,7 @@ function headingText(line) { return line.replace(/^#{1,6}\s+/, '').trim(); }
 // Each author span -> biography / works / style (over a given era's `lines`).
 function extractAuthor(lines, startIdx, endIdx) {
   var section = null;
-  var buf = { biography: [], works: [], style: [] };
+  var buf = { biography: [], works: [], style: [], legacy: [] };
   for (var k = startIdx + 1; k < endIdx; k++) {
     var line = lines[k];
     if (isHeading(line)) { section = classify(headingText(line)); continue; }
@@ -121,7 +122,8 @@ function extractAuthor(lines, startIdx, endIdx) {
   return {
     biography: clean(buf.biography),
     works: clean(buf.works),
-    style: clean(buf.style)
+    style: clean(buf.style),
+    legacy: clean(buf.legacy)
   };
 }
 
