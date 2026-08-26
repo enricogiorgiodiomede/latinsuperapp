@@ -6,6 +6,70 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.7.7] - 2026-08-26
+
+**The Verrines close at 25 across 7 works** (5 x 5), on the user's call that no part should be left
+with one or two excerpts. The five thinner parts go to **3 each** (+7). Speeches **116 across 19
+works**, Cicero **118**, the bank **278**.
+
+### Added
+- **7 new fragments** (verbatim Latin from The Latin Library + original Italian and English +
+  analysis, with bilingual metadata), tagged `version: 1.7.7`:
+- ***Divinatio*** 2 -> 3, order 1-2 · **19-20** · 40-43: **19-20**, the legal argument that decides
+  the hearing (a law made for the allies should be worked *eorum arbitratu*), then **Sicily given a
+  voice** - a province filing a formal claim in the court's own language, *quo nomine abs te
+  sestertium miliens ex lege repeto*, a hundred million sesterces against a senator's qualification
+  of one million. Then the imagined snub to Caecilius, withdrawn because the truth is worse: they do
+  know him. The inline chapter numeral is dropped, as in the other Divinatio fragments.
+- ***Actio Prima*** 2 -> 3, order ch. I · **ch. XI** · ch. XIV: **ch. XI**, **the hinge of the whole
+  prosecution**. Cicero gives up the *perpetua oratio* in open court - *fructum istum laudis ... in
+  alia tempora reservemus* - and prosecutes with documents instead, to beat Hortensius's plan of
+  running the clock past two sets of games into a friendlier year; *comperendinare* glossed. **The
+  five books of the Actio Secunda in this app are the speech being declined here**, written up
+  afterwards, which the analysis says outright.
+- ***II.1*** 2 -> 3, order **46-47** · 53-54 · 104-105: **46-47**, Delos - the night theft from
+  Apollo's temple, the storm, the wreck, the statues found on the beach and put back, told in **five
+  historic presents** after a page of perfects; then the apostrophe, and the charge of not knowing
+  *litterae* (the *Pro Archia* argument used as an accusation).
+- ***II.2*** 1 -> 3, order 2-3 · **86** · **192**: **86**, Scipio restoring Himera's art to the
+  Sicilians after Carthage fell - **the exact counterpart to the Segesta Diana in De signis**, and
+  the standard the rest of the case measures Verres against; **the shortest excerpt in the Verrines**.
+  **192**, the close of the book: *occupatio*, each defence Hortensius might use raised in three words
+  and killed in the next clause, the chiastic *magis vir inter mulieres, impura inter viros
+  muliercula*, and the Crassi and Antonii who would have refused the brief (**M. Antonius is the
+  grandfather held up to Mark Antony in Philippica I**, also in this app).
+- ***II.3*** 1 -> 3, order 47 · **120** · **207**: **120**, the registers read out - *Recita tandem*
+  is an instruction to the clerk, not a figure - Leontini 84 -> 32, Mutyca 187 -> 86, Herbita 252 ->
+  120, **every subtraction in the text checked and correct**; the *lex Hieronica*; and the nouns
+  shifting from *aratores* to *patres familias* to *extorres*. **207**, the widest thing in the
+  Verrines: *non vim, non arma, non bellum, sed luctum, lacrimas, querimonias*, closing on the
+  *deerunt* / *deerit* pivot.
+
+### Changed
+- **Accuracy pass over all 15 fragments of the five touched works.** One **real error** found, in a
+  note written the previous day (tag **not** bumped): the analysis of II.2.2-3 named ***horreum* and
+  *perfugium*** as Cicero's two-noun summary of Sicily's strategic value. **Neither word is in the
+  passage** - he writes *subsidium* and *receptaculum*. He does call the island a *horreum*, but
+  several sections later in the same book. The note now quotes what is actually there and says where
+  the granary line really comes.
+- A stray trailing newline was removed from the English of II.3.207 before shipping.
+
+### Notes on sourcing
+No new pages; all seven cached since v1.7.5. **Third declared emendation**: The Latin Library prints
+*in onerariam navem. suam conicienda curavit* at II.1.46, with a full stop inside the sentence;
+Poesia Latina has none and the syntax plainly wants none, so it is emended via `emend` and verify
+reports `(1 emended)`. **This slightly widens the emendation policy**, which previously read "only
+plain non-words qualify": it now covers **plain errors of any kind confirmed against another
+edition** - non-words and manifest punctuation defects - but still **never** variant readings or
+classical orthography. Recorded in `tools/README.md`.
+**Three passages were rejected outright for source damage** rather than emended, per the standing
+trim-first rule: II.2.32 (*practor* for *praetor*, *civirate* for *civitate*, *civi* for *cive* -
+three defects in one section), II.2.33 (*ldque* for *Idque*), and the tail of II.3.120 (*++...++* for
+dashes and *§jjl* for a numeral, which is why that excerpt stops after Herbita).
+Self-proofread; whole bank **116/116 verbatim**.
+
+Cache-bust: `?v=92` -> `?v=93`.
+
 ## [1.7.6] - 2026-08-26
 
 **The Verrines are finished.** All five empty works filled (+8), so the corpus stands at **18 across

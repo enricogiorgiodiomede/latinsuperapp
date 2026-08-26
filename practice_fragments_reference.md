@@ -199,7 +199,7 @@ Editorial marks kept as printed and explained in the analysis: `<hospitis>` (Ver
 (Arch. 14 - fragment ends at `...reliquerunt?`) and `non minis` for `non hominis` (Mil. 11 - fragment
 ends at `...quam iusta repetenda`). `Illias` (Arch. 24) and `inplevit` (Phil. II.63) kept + noted.
 
-### Speeches (`speeches`) - **19 works, 109 fragments** (v1.7.6). **ORDER: CHRONOLOGICAL by delivery, restored in v1.6.6** (v1.6.3 had alphabetised them; the user asked for chronology back). The seven Verrine works lead, being 70 BC, in the canonical order of the case rather than by date, since they share a year. Only the speeches bucket is sorted; groups stay contiguous. Fragments inside a work stay in paragraph order.
+### Speeches (`speeches`) - **19 works, 116 fragments** (v1.7.7). **ORDER: CHRONOLOGICAL by delivery, restored in v1.6.6** (v1.6.3 had alphabetised them; the user asked for chronology back). The seven Verrine works lead, being 70 BC, in the canonical order of the case rather than by date, since they share a year. Only the speeches bucket is sorted; groups stay contiguous. Fragments inside a work stay in paragraph order.
 - **THE VERRINES - 7 WORKS since v1.7.5**, 70 BC, all in the `speeches` group and leading it.
   **ALL SEVEN PARTS ARE ON TLL** (the old note claiming otherwise was wrong): `caecilium` (Divinatio),
   **`ver1`** (Actio Prima, NOT `verres.1`), `verres.2.1` ... `verres.2.5`. Index: `cicero/ver.shtml`.
@@ -212,6 +212,11 @@ ends at `...quam iusta repetenda`). `Illias` (Arch. 24) and `inplevit` (Phil. II
     - **1-2 (v1.7.6)** the exordium: a career *patronus* explaining why he is *ad accusandum
       descendere* (his opponents' word, used on purpose), and the Sicilians coming *publice* to hold
       him to a promise from his quaestorship at Lilybaeum, 75 BC.
+    - **19-20 (v1.7.7)** the legal argument (*eorum arbitratu lege agi quorum causa lex sit
+      constituta*), then **prosopopoeia of the province itself** filing a claim in the court's own
+      language: *quo nomine abs te sestertium miliens ex lege repeto* (100 million HS; a senator's
+      census was 1 million). Then the imagined Sicilian snub to Caecilius, withdrawn because they DO
+      know him - he was Verres's quaestor. Inline `[VI]` dropped via `fix`.
     - **40-43 (v1.7.6)** *quid ergo? haec in te sunt omnia?* -> *Vtinam quidem essent!*; then
       *non solum commoveor animo, sed etiam toto corpore perhorresco*; then Caecilius's memorised
       exordium (*Iovem ego optimum maximum* / *vellem, si fieri potuisset, iudices*) after the triple
@@ -227,12 +232,25 @@ ends at `...quam iusta repetenda`). `Illias` (Arch. 24) and `inplevit` (Phil. II
       posse damnari* - reported, not asserted (*inveteravit opinio ... omnium sermone percrebruit*).
       The offer to the senatorial juries whose monopoly fell within months of the trial. Keeps the
       editorial `[reus]` and `[C. Verres]`.
+    - **ch. XI (v1.7.7)** **THE HINGE OF THE WHOLE PROSECUTION.** Cicero gives up the *perpetua
+      oratio* in open court - *fructum istum laudis ... in alia tempora reservemus* - and prosecutes
+      with documents and witnesses instead, to defeat Hortensius's plan of running the clock past two
+      sets of games into 69 BC (Hortensius consul, friendlier praetor). *Comperendinare* = adjourn to
+      the second hearing. It worked: Verres left for exile before it. **So the five books of the
+      Actio Secunda in this app ARE the speech declined here**, written up and published afterwards.
     - **ch. XIV (v1.7.6)** the three-year budget in reported speech (one year for himself, one
       *patronis et defensoribus*, the third *totum iudicibus*), then the provinces wanting the
       extortion court abolished, closing on *se avarissimi hominis cupiditati satisfacere posse,
       nocentissimi victoriae non posse*. M'. Glabrio presiding.
   - **II.1 De praetura urbana** (`in-verrem-ii-1`, labelIt "Verrine II.1: La pretura urbana") -
     **2 fragments** (v1.7.6).
+    - **46-47 (v1.7.7)** Delos: the night theft from Apollo's temple, the storm, the wreck, the
+      statues found on the beach and restored by Dolabella's order - told in **five historic presents**
+      (*frangitur, reperiuntur, reponuntur, sedatur, proficiscitur*) after a page of perfects, with the
+      divine agency implied and never stated. Then the apostrophe and the charge of not knowing
+      *litterae* (**the Pro Archia argument turned into an accusation**), and Latona at Delos.
+      **EMENDED**: TLL prints *in onerariam navem. suam*, a full stop inside the sentence; Poesia
+      Latina has none. **Third emended fragment in the bank.**
     - **53-54 (v1.7.6)** Aspendos stripped bare; the Greek proverb of the harpist who *intus canebat*
       turned against the man who put his statue in his innermost rooms; Diana of Perge; and the
       standing argument that even a storming army took its spoils to Rome, not home.
@@ -246,8 +264,29 @@ ends at `...quam iusta repetenda`). `Illias` (Arch. 24) and `inplevit` (Phil. II
     **1 fragment** (v1.7.6).
     - **2-3 (v1.7.6)** why Sicily matters: *princeps ... prima omnium ... prima docuit ... sola fuit*;
       first foreign nation to come over (263 BC), first territory called a *provincia* (241), and the
-      *horreum* + *perfugium* that brought down Carthage. The frame for the whole book.
+      *subsidium* + *receptaculum* that brought down Carthage. The frame for the whole book.
+      **v1.7.7 CORRECTED THIS NOTE**: it used to say *horreum* + *perfugium*, and **neither word is in
+      the passage**; Cicero does call the island a *horreum*, but at II.2.5, a few sections later.
+    - **86 (v1.7.7)** Scipio Aemilianus restoring Himera's art to the Sicilians after Carthage fell
+      (146 BC), and the survivors at Thermae feeling they recovered *patrum fortunas et dignitatem*.
+      **The exact counterpart to the Segesta Diana at II.4.77** - same Scipio, same act - and the
+      standard the rest of the case measures Verres against. **Shortest excerpt in the Verrines (604).**
+    - **192 (v1.7.7)** the close of the book: *occupatio*, each defence Hortensius might use raised in
+      three words (*At mores commodi*) and killed in the next clause, the objections shortening as it
+      goes; the chiastic *magis vir inter mulieres, impura inter viros muliercula*; and the Crassi and
+      Antonii, who chose their cases and would have refused this one (**M. Antonius the orator is the
+      grandfather held up to Mark Antony in Philippica I.33-34, also in this app**).
   - **II.3 De frumento** (`in-verrem-ii-3`, labelIt "Verrine II.3: Il grano") - **1 fragment** (v1.7.6).
+    - **120 (v1.7.7)** the registers read in court. *Recita tandem* is an instruction to the clerk,
+      not a figure. Leontini 84 -> 32, Mutyca 187 -> 86, Herbita 252 -> 120; **every subtraction Cicero
+      states was checked and is correct** (52, 101, 132). The *lex Hieronica* (Hiero II's tax system,
+      taken over intact) is why the figures exist. The nouns shift *aratores* -> *patres familias* ->
+      *extorres*. **TRIMMED after Herbita**: the rest of the section is damaged in the source
+      (`++...++` for dashes, `§jjl` for a numeral).
+    - **207 (v1.7.7)** the widest thing in the Verrines: the rising tricolon *provinciae / liberi
+      populi / regna*, no place *intra Oceanum* far enough, and *non vim, non arma, non bellum, sed
+      luctum, lacrimas, querimonias*. Closes on the *deerunt* -> *deerit* pivot (precedents will not
+      fail him; the republic will).
     - **47 (v1.7.6)** Cicero back *quadriennio post* his own quaestorship, finding the corn country
       like a war zone. *Ager ipse cultorem desiderare ac lugere dominum videretur* (the two verbs a
       household uses of the absent and the dead); six named districts; counting owners rather than
@@ -582,7 +621,8 @@ release version, pause for review after each.
 | ~~v1.7.3~~ DONE | **Pro Caelio +5** (1, 12, **18 Medea**, 37-38, **62 quadrantaria**); **follow-up the same evening** extended 12 to the end of the section and emended *ex contrarus* -> *ex contrariis* (kept as 1.7.3 at the user's request, NOT a separate version) | 3 -> **8** |
 | ~~v1.7.4~~ DONE | **In Pisonem +5** (VI, XI, XIX, XXVI, XLI); `apply_batch.js` taught to sort Roman-numeral chapter citations, and hardened against a CRLF bug that silently truncated the bank | 3 -> **8** |
 | ~~v1.7.5~~ DONE | **In Verrem SPLIT INTO 7 WORKS** + **II.4 +3** (4-5, 106-107, 115) and **II.5 +4** (26-27, 100, 118-119, 169-170); corrected the false sources.json note that had hidden five available texts | 3 -> **10** across 7 works |
-| ~~v1.7.6~~ DONE | **the five empty Verrine works filled** (+8): Divinatio 1-2 / 40-43, Actio Prima ch. I / ch. XIV, II.1 53-54 / 104-105, II.2 2-3, II.3 47. **THE VERRINES ARE FINISHED** | **18 across 7 works** |
+| ~~v1.7.6~~ DONE | **the five empty Verrine works filled** (+8): Divinatio 1-2 / 40-43, Actio Prima ch. I / ch. XIV, II.1 53-54 / 104-105, II.2 2-3, II.3 47 | 18 across 7 works |
+| ~~v1.7.7~~ DONE | **the five thinner parts to 3 each** (+7): Divinatio 19-20, Actio Prima ch. XI, II.1 46-47, II.2 86 / 192, II.3 120 / 207. **THE VERRINES ARE CLOSED** | **25 across 7 works (5x5)** |
 | **NEXT** | Cicero's **Letters**, **Philosophical works** and **Rhetorical works** groups (see "Still to build"), then **Caesar, Hirtius, Lucretius, Sallust, Catullus** | |
 
 **ROADMAP SHIFTED BY ONE, 2026-08-24 (user's instruction).** Deepening all four Philippics to the
@@ -624,7 +664,14 @@ comparing**, so every other character is still proved verbatim, and a stale emen
 `OK (citation) (1 emended)`. Distinct from `fix`, which only reconciles source STYLE that `normalise()`
 already handles and is not recorded anywhere. **Policy unchanged: trim past a source typo rather than
 mend it, UNLESS the correct reading has been confirmed against another edition** - as the user did here
-against Poesia Latina. `(Pro Caelio 12)` is currently the only emended fragment in the bank.
+against Poesia Latina. **POLICY WIDENED IN v1.7.7**: `emend` now covers **plain errors of any kind**
+confirmed against another edition, not only non-words - a manifest punctuation defect qualifies
+(*navem. suam*, Verr. II.1.46). It still **never** covers variant readings or classical orthography.
+**And trimming remains the first resort**: where a passage carries several defects, drop it and pick
+another. Rejected this way in v1.7.7: **Verr. II.2.32** (*practor*, *civirate*, *civi* - three in one
+section), **II.2.33** (*ldque* for *Idque*), and the tail of **II.3.120** (`++...++`, `§jjl`).
+**Three emended fragments in the bank:** `(Pro Caelio 12)`, `(In Verrem II.1.104-105)`,
+`(In Verrem II.1.46-47)`.
 
 **THIRD SOURCE, PROOFREADING ONLY (user's instruction, 25/08/2026): Poesia Latina**,
 `http://www.poesialatina.it/index.htm`; Cicero lives at `_ns/ProsaLat/Cic/<work>.html`

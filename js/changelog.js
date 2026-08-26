@@ -12,6 +12,35 @@
 
   var VERSIONS = [
     {
+      v: '1.7.7', date: '2026-08-26', time: '00:00', tz: 'CEST',
+      en: {
+        added: [
+          'The Verrines close at 25 excerpts. The five thinner parts come up to three each, so no part of the case is left with only one or two, and the whole prosecution now stands at twenty-five across seven texts.',
+          'From the preliminary hearing, the argument that decides it: the extortion law was made for the allies, so the allies should choose who uses it - and then Cicero lets the island speak, a whole province delivering its own claim in the technical language of the court and asking Verres for a hundred million sesterces. Then the imagined snub to his rival, "we do not know you, we have never seen you before", withdrawn at once because the truth is worse: they know him perfectly well, since he was Verres\'s own quaestor (19-20).',
+          'From the opening day, the moment that explains everything else in this collection. Cicero was entitled to a long set speech, and his opponent wanted him to use every minute of it, because the calendar was full of festivals and the case could be pushed into a year with friendlier judges. So he gave it up in open court: keep the speech for another time, and prosecute instead with documents and witnesses. It worked - Verres left for exile before the second hearing - which means the five enormous books of evidence in this app are the speech he is declining to make here, written up afterwards and published (ch. XI).',
+          'And four more from the books of evidence: the night robbery of Apollo\'s temple on Delos, followed by the storm that wrecked the ship and washed the statues back onto the beach, where the governor had them put back (II.1); the general who did the opposite, Scipio returning to the Sicilians the art Carthage had taken from them, so that the survivors felt they had recovered their fathers\' standing (II.2); the demolition of every defence his opponent could possibly offer, ending with the two great advocates of the previous generation, who would simply have refused the case (II.2); the official registers read out in court, eighty-four farmers on one plain falling to thirty-two, with every subtraction correct, so that what looks like a lament turns out to be an audit (II.3); and the widest thing Cicero says anywhere in these speeches, that Rome can no longer bear from the nations not their violence, not their arms, not their war, but their grief, their tears and their complaints (II.3).'
+        ],
+        changed: [
+          'Every excerpt in the five parts was re-checked against the Latin. One real error turned up in a note added yesterday: it named two words as Cicero\'s summary of why Sicily mattered strategically, and neither is in the passage. He uses two different ones there, and does call the island a granary, but several sections later. The note now quotes what he actually wrote.',
+          'A third corrected word. The source site prints a full stop in the middle of a sentence about loading the stolen statues aboard ship; the text at Poesia Latina has none, and the sentence plainly does not want one. As always the correction is recorded on the excerpt itself, so the automatic check still runs letter by letter over everything else.'
+        ],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Le Verrine si chiudono a venticinque brani. Le cinque parti più magre salgono a tre ciascuna, così che nessuna parte della causa resta con uno o due soli, e l\'intero processo conta ora venticinque brani su sette testi.',
+          'Dall\'udienza preliminare, l\'argomento che la decide: la legge sulle concussioni fu fatta per gli alleati, e quindi devono essere gli alleati a scegliere chi la usa; e poi Cicerone lascia parlare l\'isola, un\'intera provincia che presenta la propria richiesta nel linguaggio tecnico del tribunale e chiede a Verre cento milioni di sesterzi. Poi lo sgarbo immaginario al rivale, "non ti conosciamo, non ti abbiamo mai visto prima", ritirato subito perché la verità è peggiore: lo conoscono benissimo, dato che era stato questore proprio di Verre (19-20).',
+          'Dalla giornata di apertura, il momento che spiega tutto il resto di questa raccolta. Cicerone aveva diritto a una lunga arringa, e l\'avversario voleva che ne consumasse ogni minuto, perché il calendario era pieno di feste e la causa poteva slittare a un anno con giudici più accomodanti. E allora vi rinunciò in piena aula: il discorso teniamolo per un\'altra volta, e accusiamo invece con documenti e testimoni. Funzionò - Verre partì per l\'esilio prima della seconda udienza - il che significa che i cinque enormi libri di prove presenti in quest\'app sono il discorso a cui qui rinuncia, scritto dopo e pubblicato (cap. XI).',
+          'E altri quattro dai libri di prove: il furto notturno nel tempio di Apollo a Delo, seguito dalla tempesta che sfasciò la nave e riportò le statue sulla spiaggia, dove il governatore le fece rimettere a posto (II.1); il generale che fece l\'opposto, Scipione che restituisce ai Siciliani le opere che Cartagine aveva loro tolto, così che i superstiti sentirono di riavere la dignità dei padri (II.2); la demolizione di ogni difesa che l\'avversario potesse tentare, che si chiude sui due grandi avvocati della generazione precedente, i quali la causa l\'avrebbero semplicemente rifiutata (II.2); i registri ufficiali letti in aula, ottantaquattro agricoltori in una piana che scendono a trentadue, con tutte le sottrazioni esatte, così che quello che sembra un lamento si rivela una verifica contabile (II.3); e la cosa più ampia che Cicerone dica in tutte queste orazioni, cioè che Roma non riesce più a sostenere delle nazioni non la violenza, non le armi, non la guerra, ma il lutto, le lacrime e i lamenti (II.3).'
+        ],
+        changed: [
+          'Tutti i brani delle cinque parti sono stati ricontrollati sul latino. È emerso un errore vero in una nota aggiunta ieri: indicava due parole come il riassunto ciceroniano del perché la Sicilia contasse dal punto di vista strategico, e nessuna delle due si trova nel passo. Lì Cicerone ne usa altre due, e l\'isola la chiama sì granaio, ma parecchi paragrafi più avanti. La nota ora cita ciò che ha scritto davvero.',
+          'Una terza parola corretta. Il sito di partenza stampa un punto fermo in mezzo a una frase sul caricare a bordo le statue rubate; il testo di Poesia Latina non ne ha alcuno, e la frase evidentemente non lo vuole. Come sempre la correzione è registrata sul brano stesso, così che il controllo automatico continui a girare lettera per lettera su tutto il resto.'
+        ],
+        deleted: []
+      }
+    },
+    {
       v: '1.7.6', date: '2026-08-26', time: '17:47', tz: 'CEST',
       en: {
         added: [

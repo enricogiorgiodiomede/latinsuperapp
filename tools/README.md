@@ -47,8 +47,12 @@ checklist (CHANGELOG, in-app What's New, reference sheet, memory).
   convention, **not** a typo, and neither are its genuine variant readings (*Pro Caelio* 12 has
   *diversisque **atque** inter se* where The Latin Library has *et*). Only plain non-words qualify.
 - **Emendations are declared, never silent.** Default policy is unchanged: where the source has an
-  obvious typo, trim the passage to avoid it. **Only when the correct reading has been confirmed
-  against another edition** may a fragment carry `emend: [[sourceReading, appReading], ...]`.
+  obvious error, trim the passage to avoid it - and if a passage carries several, drop it and pick
+  another (II.2.32-33 and the tail of II.3.120 were rejected this way). **Only when the correct
+  reading has been confirmed against another edition** may a fragment carry
+  `emend: [[sourceReading, appReading], ...]`. Since v1.7.7 that covers **plain errors of any kind**,
+  not only non-words: a manifest punctuation defect qualifies too (*navem. suam* at Verr. II.1.46).
+  It never covers variant readings or classical orthography.
   `apply_batch.js` then applies it to the extracted Latin and stores it on the fragment, and
   `verify.js` puts the source's own reading back before comparing, so every other character is still
   proved verbatim; a stale emendation is a hard failure. Say so in the analysis too. This is *not*

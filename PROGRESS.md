@@ -74,7 +74,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=92`.**
+   whenever you change a JS/CSS file. **Currently `v=93`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -143,7 +143,7 @@ The full Italian translation pass is **DONE**.
 | Cornelius Nepos | Good Exercise | **De Viris Illustribus (8)**: Praefatio, Themistocles, Alcibiades, Epaminondas, Pelopidas, Hannibal, Cato, Atticus |
 | Quintus Hortensius Hortalus | **NA (grey badge, no chart)** | Cicero, Brutus 6 (1) |
 | Publius Nigidius Figulus | **NA (grey badge, no chart)** | Gellius, NA X.9 (1) |
-| **Marcus Tullius Cicero** *(needsSelection, NESTED chooser)* | Very Difficult | **Speeches (109 across 19 works, v1.5.0-v1.7.6), CHRONOLOGICAL**: **THE VERRINES ARE FINISHED, 7 works / 18 frags: Divinatio 2 · Actio Prima 2 (cited BY CHAPTER) · II.1 2 · II.2 1 · II.3 1 · II.4 De signis 5 · II.5 De suppliciis 5** · **In Catilinam I 10 · II 7 · III 7 · IV 8 = 32** · Pro Archia 8 · **Pro Caelio 8** · **In Pisonem 8** · Pro Milone 8 · **Philippica I 7 · II 8 · IV 5 · XIV 7 = 27 (THE PHILIPPICS ARE FINISHED)**. **Letters**: Ad Atticum 1. **Philosophical works**: De Amicitia 1. (111 total) |
+| **Marcus Tullius Cicero** *(needsSelection, NESTED chooser)* | Very Difficult | **Speeches (116 across 19 works, v1.5.0-v1.7.7), CHRONOLOGICAL**: **THE VERRINES ARE CLOSED AT 25 (5x5), 7 works: Divinatio 3 · Actio Prima 3 (cited BY CHAPTER) · II.1 3 · II.2 3 · II.3 3 · II.4 De signis 5 · II.5 De suppliciis 5** · **In Catilinam I 10 · II 7 · III 7 · IV 8 = 32** · Pro Archia 8 · **Pro Caelio 8** · **In Pisonem 8** · Pro Milone 8 · **Philippica I 7 · II 8 · IV 5 · XIV 7 = 27 (THE PHILIPPICS ARE FINISHED)**. **Letters**: Ad Atticum 1. **Philosophical works**: De Amicitia 1. (118 total) |
 | Gaius Julius Caesar | Good Exercise | BG VI.13 Druids · VI.14 Druids · BC I.7 Rubicon speech (3) |
 | Aulus Hirtius | Manageable | BG VIII praef. · Bellum Alexandrinum 1 · Bellum Alexandrinum 2 (3) |
 | Titus Lucretius Carus | Very Difficult | DRN I.80-101 Iphigenia (1) |
@@ -248,13 +248,13 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
   **Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
 **=== SESSION HANDOFF (updated 2026-08-24) ===**
-Current: **v1.7.6, cache ?v=92**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
+Current: **v1.7.7, cache ?v=93**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
 50 frags since v1.4.0). Caesar's-Age flesh-out in progress: **Nepos done (1->8, v1.2.0)**;
-**Cicero is the big active job and is now the largest author in the app at 111 excerpts** (Plautus 50).
+**Cicero is the big active job and is now the largest author in the app at 118 excerpts** (Plautus 50).
 
-**Cicero's Speeches: 109 fragments across 19 works, in chronological order of delivery** -
-**the Verrines, 7 works and FINISHED at 18 fragments** (Divinatio 2, Actio Prima 2, II.1 2, II.2 1,
-II.3 1, II.4 De signis 5, II.5 De suppliciis 5) · In Catilinam I 10, II 7, III 7, IV 8 (**the Catilinarians are finished, 32**) ·
+**Cicero's Speeches: 116 fragments across 19 works, in chronological order of delivery** -
+**the Verrines, 7 works and CLOSED at 25 fragments (5x5)** (Divinatio 3, Actio Prima 3, II.1 3,
+II.2 3, II.3 3, II.4 De signis 5, II.5 De suppliciis 5) · In Catilinam I 10, II 7, III 7, IV 8 (**the Catilinarians are finished, 32**) ·
 Pro Archia 8 · Pro Caelio 8 · In Pisonem 8 · Pro Milone 8 · Philippica I 7, II 8, IV 5, XIV 7
 (**the Philippics are finished, 27**).
 His other three categories are barely started: **Letters 1** (Ad Atticum I.16), **Philosophical
@@ -311,6 +311,13 @@ Philippics is +15 and was split into two releases rather than shipped as one.
   `[1]`-`[18]` and printing Arabic would read as sections; `verify.js` strips both forms, so it still
   checks verbatim. **Second `emend` in the bank**: TLL's *in bis rebus* (II.1.105) -> *in his rebus*,
   confirmed on Poesia Latina.
+- ~~**v1.7.7**~~ DONE 26/08: **the Verrines closed at 25 (5x5)** (+7) - the five thinner parts to 3
+  each: Divinatio 19-20, Actio Prima ch. XI, II.1 46-47, II.2 86 and 192, II.3 120 and 207. **The
+  user's call: no part should be left with only one or two.** Third `emend` (a stray full stop at
+  II.1.46, confirmed on Poesia Latina), which slightly **widens the emendation policy to plain errors
+  of any kind confirmed against another edition**, still never variants or orthography. Accuracy pass
+  found a real error in a v1.7.6 note (*horreum*/*perfugium* named at II.2.2-3 but not in the text;
+  the words are *subsidium*/*receptaculum*).
 - **NEXT: Cicero's other three groups** - **Letters** (Ad Atticum has 1; add Ad Familiares, Ad
   Quintum, Ad Brutum - all already in `_notLive` in sources.json and cached), **Philosophical works**
   (De Amicitia has 1; De Senectute, Somnium Scipionis, Tusculanae, De Officiis), **Rhetorical works**
