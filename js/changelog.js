@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.7.8', date: '2026-08-27', time: '00:00', tz: 'CEST',
+      v: '1.7.8', date: '2026-08-27', time: '00:06', tz: 'CEST',
       en: {
         added: [
           'Cicero\'s legacy is back on his page. The reference document has always carried a section on what each author left behind - what happened to their work after they died, who rescued it, who copied it, what it turned into - and the app was quietly dropping it. It is now shown for the six authors who have one, just before the difficulty chart, in both languages. For Cicero that means the letters his freedman published after his execution, the prose rhythm that became the model for two thousand years, and the philosophical vocabulary he had to invent because Latin did not have it yet.',
