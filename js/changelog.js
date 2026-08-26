@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.7.7', date: '2026-08-26', time: '00:00', tz: 'CEST',
+      v: '1.7.7', date: '2026-08-26', time: '18:43', tz: 'CEST',
       en: {
         added: [
           'The Verrines close at 25 excerpts. The five thinner parts come up to three each, so no part of the case is left with only one or two, and the whole prosecution now stands at twenty-five across seven texts.',
