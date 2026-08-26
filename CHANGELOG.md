@@ -6,6 +6,68 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.7.6] - 2026-08-26
+
+**The Verrines are finished.** All five empty works filled (+8), so the corpus stands at **18 across
+7 works** - the largest single work in the app. Speeches **109 across 19 works**, Cicero **111**, the
+bank **271**.
+
+### Added
+- **8 new fragments** (verbatim Latin from The Latin Library + original Italian and English +
+  analysis, with bilingual metadata), tagged `version: 1.7.6`:
+- ***Divinatio in Caecilium*** (2): **1-2**, the exordium - a career *patronus* explaining why he is
+  *ad accusandum descendere*, and the Sicilians who came to him *publice* holding him to a promise
+  made when he was quaestor at Lilybaeum in 75. **The source's opening word is lowercase `si`**, a
+  lost decorated initial. **40-43**, the retort *quid ergo? haec in te sunt omnia?* answered
+  *Vtinam quidem essent!*, then *non solum commoveor animo, sed etiam toto corpore perhorresco*, then
+  the jab at Caecilius memorising a stock exordium (*Iovem ego optimum maximum* / *vellem, si fieri
+  potuisset, iudices*). The source's inline chapter numeral is dropped, since this speech is cited by
+  section.
+- ***In Verrem I: Actio Prima*** (2), **cited BY CHAPTER**: **ch. I**, *his iudiciis quae nunc sunt,
+  pecuniosum hominem, quamvis sit nocens, neminem posse damnari*, reported rather than asserted
+  (*inveteravit opinio ... omnium sermone percrebruit*), with the offer to the senatorial juries whose
+  monopoly fell within months; keeps the editorial `[reus]` and `[C. Verres]`. **ch. XIV**, the
+  three-year budget in reported speech - one year for himself, one *patronis et defensoribus*, the
+  third *totum iudicibus* - and then the argument that the provinces would like the extortion court
+  abolished, closing on *se avarissimi hominis cupiditati satisfacere posse, nocentissimi victoriae
+  non posse*.
+- ***II.1 De praetura urbana*** (2): **53-54**, Aspendos stripped bare and the Greek proverb of the
+  harpist who *intus canebat*, turned against a man who put the harpist's statue in his innermost
+  rooms; then Diana of Perge, and the argument that even a storming army took its spoils to Rome.
+  **104-105**, the auspices taken *a Chelidone*, and the Annius Asellus case: the *lex Voconia* did
+  not touch an unregistered father, so Verres offered to sell an edict clause to the second heir -
+  and then sent quietly to the girl's mother to be paid for **not** issuing it. The same clause sold
+  twice in opposite directions.
+- ***II.2 De praetura Siciliensi*** (1): **2-3**, why Sicily matters - *princeps ... prima omnium ...
+  prima docuit ... sola fuit*, the first foreign nation to come over (263 BC), the first territory
+  called a *provincia* (241), and the *horreum* and *perfugium* that brought down Carthage.
+- ***II.3 De frumento*** (1): **47**, Cicero returning *quadriennio post* his own quaestorship and
+  finding the corn country like a war zone - *ager ipse cultorem desiderare ac lugere dominum
+  videretur*, the six named districts, counting owners rather than *iuga*, and *in uberrima Siciliae
+  parte Siciliam quaereremus*.
+
+### Changed
+- **The Actio Prima is cited by chapter, in Roman numerals.** The Latin Library prints that speech
+  divided into 18 units numbered `[1]`-`[18]`; those are **chapters**, not the 56 sections modern
+  editions use. Printing `[1]` would read as a section number, so the marker is normalised to `[I]`,
+  matching the app's existing convention that Roman numerals mean chapters (as in the *In Pisonem*).
+  `verify.js` strips both Arabic and Roman markers from either side, so the fragments still check
+  verbatim, and `apply_batch.js` has sorted Roman chapter citations since v1.7.4.
+- **Second declared emendation in the bank.** The Latin Library prints *in bis rebus* at II.1.105,
+  which is not Latin; the reading *in his rebus* was confirmed against **Poesia Latina**, the
+  proofreading-only third source added in v1.7.3. Handled with the `emend` field, so the source's own
+  reading is restored before comparison and every other character is still proved verbatim -
+  `verify.js` reports it as `OK (In Verrem II.1.104-105) (1 emended)`. The analysis says so in both
+  languages. Only *Pro Caelio* 12 and this fragment carry an emendation.
+
+### Notes on sourcing
+No new pages: all five were fetched in v1.7.5, when the false note claiming the Actio Prima was
+unavailable was corrected. Nothing retyped; built through `tools/`. The verbatim count rose 101 ->
+**109**, which is the check that no work is being silently skipped for want of a `sources.json` entry.
+Self-proofread; whole bank **109/109 verbatim**.
+
+Cache-bust: `?v=91` -> `?v=92`.
+
 ## [1.7.5] - 2026-08-25
 
 **In Verrem split into seven works**, and **De signis (II.4) 2 -> 5** and **De suppliciis (II.5)

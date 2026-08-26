@@ -12,6 +12,35 @@
 
   var VERSIONS = [
     {
+      v: '1.7.6', date: '2026-08-26', time: '00:00', tz: 'CEST',
+      en: {
+        added: [
+          'The Verrines are complete. All seven parts of the case now have excerpts, so the whole prosecution is there to read in order, from the argument over who should conduct it through to the last book. Eighteen excerpts in total, which makes it the largest single work in the app.',
+          'Eight new excerpts fill the five parts that were empty. From the preliminary hearing that decided who would prosecute: Cicero explaining why a man who has spent his career defending is suddenly asking to accuse, and being pressed into it by the Sicilians he had governed as a young quaestor (1-2); and his answer to the obvious retort, do you have all these qualities yourself - "I only wish I did" - followed by the admission that the thought of standing up in a great case still makes him shake from head to foot, and then a very unkind joke about his rival, who prepares by memorising an opening line out of somebody else\'s old speech (40-43).',
+          'From the opening day of the trial: the sentence about the courts that everyone in Rome was repeating, that with the juries as they now are no rich man can be convicted however guilty he is (ch. I); and the arithmetic Verres was heard doing out loud in Sicily, that he had divided his three years as governor so that the first year\'s takings were for himself, the second year\'s for his lawyers, and the third and richest year was kept entirely for the jury. Cicero then adds that the provinces would now like the extortion court abolished, because one greedy governor can be satisfied but a governor plus his lawyers plus his jury cannot (ch. XIV).',
+          'And from the three books of evidence that had no excerpts before: the Greek proverb about the harpist of Aspendos who played it all indoors, turned against a man who stole the harpist\'s statue and put it in his innermost rooms (II.1); the praetor\'s edict at Rome offered for sale to a girl\'s rival heir, and then quietly offered to the girl\'s mother as well, so that the same clause was sold twice in opposite directions (II.1); the case for why Sicily mattered, the first foreign nation to come over to Rome and the granary that made the defeat of Carthage possible (II.2); and Cicero going back to the island four years after his own service there and finding the corn country empty, where the field itself seemed to be waiting for its farmer and mourning its owner (II.3).'
+        ],
+        changed: [
+          'The opening action of the case is printed on the source site divided into eighteen numbered parts, and those are chapters, not the paragraph numbers modern editions use - that speech has eighteen chapters and fifty-six paragraphs. Its two excerpts are therefore numbered by chapter, and shown in Roman numerals so that they cannot be mistaken for paragraph numbers, which is the same thing the app already does for the In Pisonem.',
+          'One more corrected word. The site prints a phrase in the book about the praetorship at Rome that is not Latin at all; the correct reading was confirmed against Poesia Latina, and as before the app prints the corrected word and records the correction on the excerpt itself, so the automatic check still runs letter by letter over everything else. That makes two corrected words in the whole collection.'
+        ],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Le Verrine sono complete. Tutte e sette le parti della causa hanno ora dei brani, e così l\'intero processo si può leggere in ordine, dalla disputa su chi dovesse sostenerlo fino all\'ultimo libro. Diciotto brani in tutto, il che ne fa l\'opera singola più ampia dell\'app.',
+          'Otto nuovi brani riempiono le cinque parti che erano vuote. Dall\'udienza preliminare che decideva chi avrebbe accusato: Cicerone che spiega perché un uomo il quale ha passato la carriera a difendere chieda all\'improvviso di accusare, spintovi dai Siciliani che aveva amministrato da giovane questore (1-2); e la sua risposta all\'obiezione ovvia, e tu le hai tutte queste doti - "magari le avessi!" - seguita dall\'ammissione che il pensiero di alzarsi a parlare in un grande processo lo fa ancora tremare da capo a piedi, e poi da una battuta molto cattiva sul rivale, che si prepara imparando a memoria un esordio preso dal vecchio discorso di qualcun altro (40-43).',
+          'Dalla giornata di apertura del processo: la frase sui tribunali che a Roma ripetevano tutti, e cioè che con le giurie di adesso nessun uomo ricco può essere condannato, per quanto colpevole sia (cap. I); e i conti che Verre fu sentito fare ad alta voce in Sicilia, secondo cui aveva diviso i suoi tre anni di governo in modo che il ricavato del primo anno fosse per sé, quello del secondo per i suoi avvocati, e il terzo, il più ricco, restasse tutto per i giudici. Cicerone aggiunge poi che ormai le province vorrebbero l\'abolizione del tribunale per le concussioni, perché a un governatore avido si può far fronte, ma a un governatore più i suoi avvocati più la sua giuria no (cap. XIV).',
+          'E dai tre libri di prove che prima non avevano brani: il proverbio greco sul citaredo di Aspendo che suonava tutto per sé, rivolto contro un uomo che ne rubò la statua e la mise nelle stanze più interne di casa propria (II.1); l\'editto del pretore a Roma messo in vendita all\'erede rivale di una ragazza, e poi offerto sottobanco anche alla madre della ragazza, così che la stessa clausola fu venduta due volte in direzioni opposte (II.1); le ragioni per cui la Sicilia contava, prima nazione straniera a passare dalla parte di Roma e granaio che rese possibile la sconfitta di Cartagine (II.2); e Cicerone che torna sull\'isola quattro anni dopo esservi stato in carica e trova vuoto il paese del grano, dove il campo stesso sembrava aspettare il proprio contadino e piangere il proprio padrone (II.3).'
+        ],
+        changed: [
+          'La prima azione della causa è stampata sul sito di partenza divisa in diciotto parti numerate, e sono capitoli, non i numeri di paragrafo usati dalle edizioni moderne: quell\'orazione ha diciotto capitoli e cinquantasei paragrafi. I suoi due brani sono perciò numerati per capitolo, e mostrati in cifre romane perché non si possano scambiare per numeri di paragrafo, esattamente come l\'app già fa per l\'In Pisonem.',
+          'Un\'altra parola corretta. Il sito stampa, nel libro sulla pretura a Roma, una locuzione che in latino non esiste; la lezione giusta è stata confermata su Poesia Latina, e come già in passato l\'app stampa la parola corretta registrando la correzione sul brano stesso, così che il controllo automatico continui a girare lettera per lettera su tutto il resto. Le parole corrette in tutta la raccolta sono così due.'
+        ],
+        deleted: []
+      }
+    },
+    {
       v: '1.7.5', date: '2026-08-25', time: '22:32', tz: 'CEST',
       en: {
         added: [

@@ -199,19 +199,59 @@ Editorial marks kept as printed and explained in the analysis: `<hospitis>` (Ver
 (Arch. 14 - fragment ends at `...reliquerunt?`) and `non minis` for `non hominis` (Mil. 11 - fragment
 ends at `...quam iusta repetenda`). `Illias` (Arch. 24) and `inplevit` (Phil. II.63) kept + noted.
 
-### Speeches (`speeches`) - **19 works, 101 fragments** (v1.7.5). **ORDER: CHRONOLOGICAL by delivery, restored in v1.6.6** (v1.6.3 had alphabetised them; the user asked for chronology back). The seven Verrine works lead, being 70 BC, in the canonical order of the case rather than by date, since they share a year. Only the speeches bucket is sorted; groups stay contiguous. Fragments inside a work stay in paragraph order.
+### Speeches (`speeches`) - **19 works, 109 fragments** (v1.7.6). **ORDER: CHRONOLOGICAL by delivery, restored in v1.6.6** (v1.6.3 had alphabetised them; the user asked for chronology back). The seven Verrine works lead, being 70 BC, in the canonical order of the case rather than by date, since they share a year. Only the speeches bucket is sorted; groups stay contiguous. Fragments inside a work stay in paragraph order.
 - **THE VERRINES - 7 WORKS since v1.7.5**, 70 BC, all in the `speeches` group and leading it.
   **ALL SEVEN PARTS ARE ON TLL** (the old note claiming otherwise was wrong): `caecilium` (Divinatio),
   **`ver1`** (Actio Prima, NOT `verres.1`), `verres.2.1` ... `verres.2.5`. Index: `cicero/ver.shtml`.
   **`ver1` prints 18 CHAPTER numbers as `[1]`-`[18]`, not the 56 sections modern editions use** - they
   sit evenly across the page and the speech has 18 chapters - so cite that one BY CHAPTER.
-  - **Divinatio in Caecilium** (`in-verrem-divinatio`, labelIt "Divinatio in Caecilium") - **empty until
-    v1.7.6**. Source has both `[1]`-`[73]` sections and `[I]`-`[XXII]` chapters. Two gotchas: a leading
-    nav block of bare numbers, and the first word after `[1]` is lowercase (a lost drop-cap).
-  - **In Verrem I: Actio Prima** (`in-verrem-i`, labelIt "Verrine I: Prima azione") - **empty until v1.7.6**.
-  - **II.1 De praetura urbana** (`in-verrem-ii-1`, labelIt "Verrine II.1: La pretura urbana") - **empty**.
-  - **II.2 De praetura Siciliensi** (`in-verrem-ii-2`, labelIt "Verrine II.2: La pretura siciliana") - **empty**.
-  - **II.3 De frumento** (`in-verrem-ii-3`, labelIt "Verrine II.3: Il grano") - **empty**.
+  - **Divinatio in Caecilium** (`in-verrem-divinatio`) - **2 fragments** (v1.7.6). Cited BY SECTION;
+    the source has both `[1]`-`[73]` sections and `[I]`-`[XXII]` chapters, and the inline chapter
+    numerals are dropped. Gotchas: a leading nav block of bare numbers, and **the speech's first word
+    is lowercase `si`** (a lost decorated initial), kept as printed.
+    - **1-2 (v1.7.6)** the exordium: a career *patronus* explaining why he is *ad accusandum
+      descendere* (his opponents' word, used on purpose), and the Sicilians coming *publice* to hold
+      him to a promise from his quaestorship at Lilybaeum, 75 BC.
+    - **40-43 (v1.7.6)** *quid ergo? haec in te sunt omnia?* -> *Vtinam quidem essent!*; then
+      *non solum commoveor animo, sed etiam toto corpore perhorresco*; then Caecilius's memorised
+      exordium (*Iovem ego optimum maximum* / *vellem, si fieri potuisset, iudices*) after the triple
+      *nihil metuis, nihil cogitas, nihil laboras*. The inline `[XIII]` is dropped via `fix`.
+  - **In Verrem I: Actio Prima** (`in-verrem-i`, labelIt "Verrine I: Prima azione") - **2 fragments**
+    (v1.7.6). **CITED BY CHAPTER, IN ROMAN NUMERALS.** TLL's `ver1` prints 18 units as `[1]`-`[18]`
+    and **those are chapters, not sections** (18 chapters vs 56 sections; the markers sit evenly
+    across the page). Printing Arabic would read as a section number, so the marker is normalised to
+    `[I]` / `[XIV]`, matching the In Pisonem convention. `verify.js` strips Arabic AND Roman markers
+    from both sides, so this still checks verbatim, and `apply_batch.js` has sorted Roman chapter
+    citations since v1.7.4.
+    - **ch. I (v1.7.6)** *his iudiciis quae nunc sunt, pecuniosum hominem, quamvis sit nocens, neminem
+      posse damnari* - reported, not asserted (*inveteravit opinio ... omnium sermone percrebruit*).
+      The offer to the senatorial juries whose monopoly fell within months of the trial. Keeps the
+      editorial `[reus]` and `[C. Verres]`.
+    - **ch. XIV (v1.7.6)** the three-year budget in reported speech (one year for himself, one
+      *patronis et defensoribus*, the third *totum iudicibus*), then the provinces wanting the
+      extortion court abolished, closing on *se avarissimi hominis cupiditati satisfacere posse,
+      nocentissimi victoriae non posse*. M'. Glabrio presiding.
+  - **II.1 De praetura urbana** (`in-verrem-ii-1`, labelIt "Verrine II.1: La pretura urbana") -
+    **2 fragments** (v1.7.6).
+    - **53-54 (v1.7.6)** Aspendos stripped bare; the Greek proverb of the harpist who *intus canebat*
+      turned against the man who put his statue in his innermost rooms; Diana of Perge; and the
+      standing argument that even a storming army took its spoils to Rome, not home.
+    - **104-105 (v1.7.6)** the auspices taken *a Chelidone*; the Annius Asellus case (the *lex
+      Voconia* did not bind an unregistered father, so the daughter inherited); the edict clause sold
+      to the second heir and then offered to the girl's mother for **not** issuing it - the same
+      clause sold twice in opposite directions. **EMENDED**: TLL's *in bis rebus* -> *in his rebus*,
+      confirmed on Poesia Latina; declared via `emend`, so verify reports `(1 emended)`. **One of only
+      two emended fragments in the bank** (the other is Pro Caelio 12).
+  - **II.2 De praetura Siciliensi** (`in-verrem-ii-2`, labelIt "Verrine II.2: La pretura siciliana") -
+    **1 fragment** (v1.7.6).
+    - **2-3 (v1.7.6)** why Sicily matters: *princeps ... prima omnium ... prima docuit ... sola fuit*;
+      first foreign nation to come over (263 BC), first territory called a *provincia* (241), and the
+      *horreum* + *perfugium* that brought down Carthage. The frame for the whole book.
+  - **II.3 De frumento** (`in-verrem-ii-3`, labelIt "Verrine II.3: Il grano") - **1 fragment** (v1.7.6).
+    - **47 (v1.7.6)** Cicero back *quadriennio post* his own quaestorship, finding the corn country
+      like a war zone. *Ager ipse cultorem desiderare ac lugere dominum videretur* (the two verbs a
+      household uses of the absent and the dead); six named districts; counting owners rather than
+      *iuga*; and *in uberrima Siciliae parte Siciliam quaereremus*.
   - **II.4 De signis** (`in-verrem-ii-4`, labelIt "Verrine II.4: Le statue") - **5 fragments**;
     +3 in v1.7.5, order 1-2 · 4-5 · 77 · 106-107 · 115.
     - **4-5 (v1.7.5)** Heius's shrine at Messana: Cupid by Praxiteles, bronze Hercules by Myron, two
@@ -542,7 +582,8 @@ release version, pause for review after each.
 | ~~v1.7.3~~ DONE | **Pro Caelio +5** (1, 12, **18 Medea**, 37-38, **62 quadrantaria**); **follow-up the same evening** extended 12 to the end of the section and emended *ex contrarus* -> *ex contrariis* (kept as 1.7.3 at the user's request, NOT a separate version) | 3 -> **8** |
 | ~~v1.7.4~~ DONE | **In Pisonem +5** (VI, XI, XIX, XXVI, XLI); `apply_batch.js` taught to sort Roman-numeral chapter citations, and hardened against a CRLF bug that silently truncated the bank | 3 -> **8** |
 | ~~v1.7.5~~ DONE | **In Verrem SPLIT INTO 7 WORKS** + **II.4 +3** (4-5, 106-107, 115) and **II.5 +4** (26-27, 100, 118-119, 169-170); corrected the false sources.json note that had hidden five available texts | 3 -> **10** across 7 works |
-| **v1.7.6 (NEXT)** | **fill the five empty Verrine works**: Divinatio 2, Actio Prima 2, II.1 2, II.2 1, II.3 1. **Actio Prima is cited BY CHAPTER** | ~18 total |
+| ~~v1.7.6~~ DONE | **the five empty Verrine works filled** (+8): Divinatio 1-2 / 40-43, Actio Prima ch. I / ch. XIV, II.1 53-54 / 104-105, II.2 2-3, II.3 47. **THE VERRINES ARE FINISHED** | **18 across 7 works** |
+| **NEXT** | Cicero's **Letters**, **Philosophical works** and **Rhetorical works** groups (see "Still to build"), then **Caesar, Hirtius, Lucretius, Sallust, Catullus** | |
 
 **ROADMAP SHIFTED BY ONE, 2026-08-24 (user's instruction).** Deepening all four Philippics to the
 sizes the user set - I and XIV to 7, II to 8, IV (the shortest) to 5 - is +15, so it was split into
