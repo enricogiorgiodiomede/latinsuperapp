@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.7.6', date: '2026-08-26', time: '00:00', tz: 'CEST',
+      v: '1.7.6', date: '2026-08-26', time: '17:47', tz: 'CEST',
       en: {
         added: [
           'The Verrines are complete. All seven parts of the case now have excerpts, so the whole prosecution is there to read in order, from the argument over who should conduct it through to the last book. Eighteen excerpts in total, which makes it the largest single work in the app.',
