@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.8.0', date: '2026-08-27', time: '00:00', tz: 'CEST',
+      v: '1.8.0', date: '2026-08-27', time: '19:32', tz: 'CEST',
       en: {
         added: [
           'Cicero writes to his friends: 15 new practice excerpts, and the Letters section finally opens properly. Four collections instead of one - Ad Atticum (5), Ad Familiares (5), Ad Quintum fratrem (3) and Ad Brutum (3), 16 excerpts in all. This is the other Cicero, the one who is not performing: no periods, no clausulae, sentences of three words, Greek dropped in mid-line when a Greek word fits better, and an unbroken run of forty years from the ambitious lawyer of 65 BC to the man being hunted in 43.',
