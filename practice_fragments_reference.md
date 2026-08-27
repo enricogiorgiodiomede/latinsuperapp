@@ -630,7 +630,32 @@ release version, pause for review after each.
 | ~~v1.7.6~~ DONE | **the five empty Verrine works filled** (+8): Divinatio 1-2 / 40-43, Actio Prima ch. I / ch. XIV, II.1 53-54 / 104-105, II.2 2-3, II.3 47 | 18 across 7 works |
 | ~~v1.7.7~~ DONE | **the five thinner parts to 3 each** (+7): Divinatio 19-20, Actio Prima ch. XI, II.1 46-47, II.2 86 / 192, II.3 120 / 207. **THE VERRINES ARE CLOSED** | **25 across 7 works (5x5)** |
 | ~~**v1.8.0**~~ DONE | **THE LETTERS, +15**: Ad Atticum 1 -> 5, and three new works - Ad Familiares 5, Ad Quintum fratrem 3, Ad Brutum 3. Verified `ad-atticum` for the first time and fixed the launch-era Att. I.16 | **16 across 4 works** |
-| **NEXT** | Cicero's **Philosophical works** and **Rhetorical works** groups (see "Still to build"), then **Caesar, Hirtius, Lucretius, Sallust, Catullus** | |
+| **v1.8.1** | **DEEPEN THE SHORT PAIR**: Ad Quintum fratrem +2 and Ad Brutum +2. No decision needed, both are clearly thin at 3 | 3 -> **5** each |
+| **v1.8.2 / .3** | **DEEPEN THE LARGE PAIR**: Ad Atticum and Ad Familiares to **7 or 8 each** - **the user is still choosing between 7 and 8, ASK FIRST**. +2 to +3 per work, so one or two releases at the standing 3-5 batch size | 5 -> **7 or 8** each |
+| **THEN** | Cicero's **Philosophical works** and **Rhetorical works** groups (see "Still to build"), then **Caesar, Hirtius, Lucretius, Sallust, Catullus** | |
+
+**LETTERS EXTENSION PLAN, saved 27/08/2026 on the user's instruction.** The Letters get deepened
+*before* the philosophical and rhetorical groups. Final shape: **ad Quintum 5, ad Brutum 5, Atticum 7-8,
+Familiares 7-8** = 24 to 26 across the four works. Candidates already scouted in the cache, none of them
+used yet:
+- **Ad Atticum** - `att1` I.1 (the canvass: *Petitionis nostrae ... ratio est*, and the list of rivals),
+  I.12/I.13 (the Bona Dea affair breaking), `att7` VII.3 or VII.7 (the winter of hesitation before the
+  war), `att12` 12.13, 12.14 or 12.16 (more of the Astura sequence; 12.14 has *nihil enim de maerore
+  minuendo scriptum ab ullo est quod ego non domi tuae legerim* and the self-consolation).
+- **Ad Familiares** - `fam5` V.2 (the quarrel with Metellus Celer), V.13 or V.15 (Lucceius consoling and
+  Cicero replying, 45 BC), `fam14` XIV.1 or XIV.2 (more exile letters to Terentia), XIV.7 (the crossing
+  to Greece in 49), `fam16` XVI.5 or XVI.9 (more Tiro). **NOTE:** `fam16` VIII contains mojibake Greek
+  (`cËxow d¢ lept³ ...`) - avoid that letter. Books beyond 5/14/16 would need a new fetch.
+- **Ad Quintum fratrem** - `fratrem1` I.1 elsewhere (the *cohors* and the governor's staff; the Greeks
+  passage at section 7, *de caelo divinum hominem esse in provinciam delapsum*), I.2, I.4 (the last
+  exile letter); `fratrem2` II.10 onwards; `fratrem3` III.1 (Quintus in Britain with Caesar) and III.5
+  (Cicero describing how he is writing the De Re Publica) - **`fratrem3` is cached but no fragment uses
+  it yet**.
+- **Ad Brutum** - `adbrutum1` I.9 or I.15 (Cicero's long self-defence of his whole policy against
+  Antony), I.12, I.18 (the last letter, and Servilia); `adbrutum2` (5 letters, **entirely unused so
+  far**). **Avoid I.16 and I.17**, the two whose authenticity is most disputed, and letter I, which
+  holds the only un-decoded HTML entity in the cache (`&ocirc;`).
+
 
 **ROADMAP SHIFTED BY ONE, 2026-08-24 (user's instruction).** Deepening all four Philippics to the
 sizes the user set - I and XIV to 7, II to 8, IV (the shortest) to 5 - is +15, so it was split into
@@ -707,9 +732,11 @@ key in this release (book * 100000 + letter * 10, +1 for a doublet like **I.3a**
   - **I.2** (v1.8.0) the son born + *hoc tempore Catilinam, competitorem nostrum, defendere cogitamus*
     and *Iudices habemus, quos volumus*. **Cross-ref: In Catilinam.**
   - **I.16** (v1.0.0, launch) the bought jury. **First verified in v1.8.0** - see the note below.
-  - **I.18** (v1.8.0) *fucosae amicitiae* / *splendore forensi* vs *fructum domesticum*.
-    **STARTS AT *Tu autem*: TLL prints the famous opening sentence with TWO plain misprints**, *uam*
-    for *quam* and *que* for *quae*, so the fragment trims past both rather than emending twice.
+  - **I.18** (v1.8.0) the whole letter opening, *fucosae amicitiae* / *splendore forensi* vs *fructum
+    domesticum*, and *mellito Cicerone* (the four-year-old son of I.2). **THREE DECLARED EMENDATIONS**
+    (v1.8.0 follow-up): *uam* -> *quam*, *que* -> *quae*, and `destitutus. ut` -> `destitutus, ut`
+    (the *ita ... ut* consecutive needs a comma). **No cut at all** - it used to start at *Tu autem* and
+    skip the famous sentence.
   - **VII.11** (v1.8.0) sections 1 + 3, *an de Hannibale loquimur?* and the Pompey dialogue. Keeps one
     transliterated Greek word, *aporo*; **TLL transliterates the Greek of the Atticus letters** rather
     than printing it, which is why it reads like a Latin verb.
@@ -719,7 +746,8 @@ key in this release (book * 100000 + letter * 10, +1 for a doublet like **I.3a**
   sources `cicero/fam5`, `fam14`, `fam16`.
   - **V.7** the reply to Pompey; opens on **S. T. E. Q. V. B. E.** = *si tu exercitusque valetis, bene
     est*. Ends on the Africanus/Laelius comparison. **Cross-ref: De Amicitia.**
-  - **V.12** to Lucceius, *epistula enim non erubescit*. **TRIMMED past TLL's *quani* for *quam***.
+  - **V.12** to Lucceius, *epistula enim non erubescit*. **EMENDED**, *quani* -> *quam* (v1.8.0
+    follow-up); the trim had been costing *neque tamen ignoro, quam impudenter faciam*.
   - **XIV.4** exile, to Terentia. **XIV.20** the four-line bathtub note, the **shortest complete text
     in the app** (~270 chars); its two `--` are the source's own (from `&#151;`). The two are
     deliberately in the same work and cross-reference each other.
@@ -727,9 +755,12 @@ key in this release (book * 100000 + letter * 10, +1 for a doublet like **I.3a**
 - **Epistulae ad Quintum fratrem** (`ad-quintum`, labelIt "Lettere al fratello Quinto") - **NEW WORK, 3**,
   sources `cicero/fratrem1`, **`fratrem2` (fetched in v1.8.0 specifically for the Lucretius letter)**,
   `fratrem3`.
-  - **I.1** sections 23 + 24, the Cyropaedia and *imperium ita datum est ut redderent*.
-    **TRIMMED past TLL's *antiqissimum* for *antiquissimum***; also avoids *occuras* for *occurras* in
-    section 4 and the inline MSS note printed mid-sentence at the *lictor* passage in section 13.
+  - **I.1** sections 23 + 24 continuous, the Cyropaedia and *imperium ita datum est ut redderent*.
+    **EMENDED**, *antiqissimum* -> *antiquissimum* (v1.8.0 follow-up), which recovers the sentence
+    stating the principle: *ut ii, qui erunt in eorum imperio, sint quam beatissimi*. A `fix` turns the
+    source's own ` 24. ` marker into ` [24] `. Still avoided elsewhere in this letter: *occuras* for
+    *occurras* (section 4) and the inline MSS note printed mid-sentence at the *lictor* passage
+    (section 13), which is a genuinely open reading and so NOT emendable.
   - **I.3** *mi frater, mi frater, mi frater* ... *effigiem spirantis mortui*.
   - **II.9** sections 1 + 3: *epistulae nostrae debent interdum alucinari* + **the Lucretius verdict**.
     **Cross-ref: Titus Lucretius Carus.**
@@ -737,7 +768,10 @@ key in this release (book * 100000 + letter * 10, +1 for a doublet like **I.3a**
     where it should be `II.`; the headers are not part of any excerpt.
 - **Epistulae ad Brutum** (`ad-brutum`, labelIt "Lettere a Bruto") - **NEW WORK, 3**, sources
   `cicero/adbrutum1`, `adbrutum2`.
-  - **I.3** the *puer* Octavian; **I.3a** Hirtius and Pansa dead (**cross-ref: Aulus Hirtius**);
+  - **I.3** the *puer* Octavian, with ***Vtinam* normalised to *Utinam*** and declared via `emend`
+    (v1.8.0 follow-up): TLL sets this collection with a capital V for the vowel u, which is the ancient
+    majuscule convention rather than an error, but it reads as a different word at first sight;
+    **I.3a** Hirtius and Pansa dead (**cross-ref: Aulus Hirtius**);
     **I.14** *breves litterae tuae*. **The `Cicero` promised a longer letter in I.14 is Cicero's SON.**
   - **Deliberately avoided:** letters I.16/I.17 (Brutus' own, the most disputed for authenticity) and
     letter I, which contains the only un-decoded HTML entity in the whole cache (`&ocirc;`).
@@ -758,7 +792,19 @@ word. It now turns `<br>` into a newline first. All 25 pages re-fetched with `--
 re-verified at **0 mismatched**. The artefact existed in exactly one live page (`cael.txt`) and one
 not-live one (`att12.txt`). **Handled in v1.8.0:** `att1.txt` has *ab aLus* for *ab aliis* (Ad Atticum I.9),
 a genuine TLL typo and not a stripper artefact - no fragment goes near I.9. The letter pages turned out
-to be typo-rich in general (*uam*, *que*, *quani*, *antiqissimum*, *occuras*), all avoided by trimming.
+to be typo-rich in general (*uam*, *que*, *quani*, *antiqissimum*, *occuras*). **In the v1.8.0 follow-up
+these stopped being reasons to trim**: see the policy change below.
+
+**POLICY CHANGE, v1.8.0 FOLLOW-UP (the user's instruction): MEND FIRST, TRIM LAST.** Where the source has
+a plain defect and the right reading is not in doubt, check it against a second text and **correct it in
+the app, saying so in the analysis** - do not throw away a sentence over a one-letter misprint. Poesia
+Latina is the first place to look, but it was unreachable during this release (connection refused, http
+and https), so the readings were checked against other texts of the letters instead; if no second text
+can be found, the correction may still be made and flagged as unconfirmed. **Several defects in one
+passage are fine when each is separately certain** - Att. I.18 carries three. Trimming is now only for
+readings that are genuinely open (Verr. II.2.32-33, the tail of II.3.120, the *lictor* MSS note in
+Q.fr. I.1.13). `emend` also now covers **a declared orthographic normalisation** (*Vtinam* -> *Utinam*).
+It still never covers variant readings.
 
 **TRANSLATION-ACCURACY PASS (new in v1.7.1, at the user's request).** Every fragment of both speeches,
 new and old, re-read clause by clause against the Latin - mood and type of subjunctive, tense, voice,

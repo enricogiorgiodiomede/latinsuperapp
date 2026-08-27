@@ -46,10 +46,18 @@ checklist (CHANGELOG, in-app What's New, reference sheet, memory).
   (*uidetur*, *uitia*, *diuersisque*) and *inl-*/*inr-* for *ill-*/*irr-*. That is an editorial
   convention, **not** a typo, and neither are its genuine variant readings (*Pro Caelio* 12 has
   *diversisque **atque** inter se* where The Latin Library has *et*). Only plain non-words qualify.
-- **Emendations are declared, never silent.** Default policy is unchanged: where the source has an
-  obvious error, trim the passage to avoid it - and if a passage carries several, drop it and pick
-  another (II.2.32-33 and the tail of II.3.120 were rejected this way). **Only when the correct
-  reading has been confirmed against another edition** may a fragment carry
+- **Emendations are declared, never silent. POLICY CHANGED IN THE v1.8.0 FOLLOW-UP (the user's
+  instruction): MEND FIRST, TRIM ONLY AS A LAST RESORT.** Where the source has a plain defect and the
+  correct reading is not in doubt, **check it against a second text and then correct it in the app,
+  saying so in the analysis** - do not silently drop the sentence, and do not lose a good passage to a
+  one-letter misprint. **Poesia Latina is the first place to look**, but if it cannot be reached or does
+  not carry the work, any other reputable text of the passage will do, and if none can be found the
+  correction may still be made and flagged as unconfirmed. Several defects in one passage are fine when
+  each is separately certain: Att. I.18 carries **three**. The old rule (trim past the defect, drop the
+  passage if it has several) now applies only where the right reading is genuinely open - that is why
+  Verr. II.2.32-33 and the tail of II.3.120 stay rejected. **A declared orthographic normalisation also
+  uses `emend`**: The Latin Library sets ad Brutum with a capital V for the vowel u, and *Vtinam* is
+  printed *Utinam* in the app and declared. It never covers variant readings. A fragment carries
   `emend: [[sourceReading, appReading], ...]`. Since v1.7.7 that covers **plain errors of any kind**,
   not only non-words: a manifest punctuation defect qualifies too (*navem. suam* at Verr. II.1.46).
   It never covers variant readings or classical orthography.

@@ -61,7 +61,39 @@ four buttons is not clutter, so this group does not need the nested chooser the 
   `cicero/fratrem2` added. `_notLive` keeps its comment (and the `ver1` correction) but is now empty.
 
 Verification: **132 verbatim, 0 mismatched** (was 116 - the 15 new fragments plus Att. I.16, now
-covered for the first time). Cache-bust: `?v=94` -> `?v=95`.
+covered for the first time). Cache-bust: `?v=94` -> `?v=95`, then `?v=96` with the follow-up below.
+
+### Same-day follow-up - mend the source, do not trim past it
+The user's call, reversing the older default: where The Latin Library has a plain defect and the right
+reading is certain, **correct it and say so** rather than cutting the sentence out. Poesia Latina was
+unreachable (connection refused on every attempt, http and https), so each reading was checked against
+another text of the letter instead. No new excerpts, so this stays **v1.8.0** and the NEW! banners do
+not move; cache `?v=95` -> `?v=96`.
+
+- **Ad Atticum I.18 now starts where the letter starts.** Three declared emendations: *uam* -> *quam*
+  and *que* -> *quae* in the opening sentence, and a full stop after *destitutus* where the *ita ... ut*
+  construction needs a comma. The excerpt is now **one continuous passage** with no cut at all, and it
+  recovers the sentence the letter is famous for (*Nihil mihi nunc scito tam deesse quam hominem eum ...
+  nihil fingam, nihil dissimulem, nihil obtegam*), the Greek *aphelestatos*, the Metellus joke
+  (*litus atque aer et solitudo mera*) and *mellito Cicerone*, the four-year-old son whose birth is
+  announced in Att. I.2.
+- **Ad Familiares V.12** recovers *neque tamen ignoro, quam impudenter faciam* (*quani* -> *quam*), the
+  third and best of Cicero's self-accusations, which the trim had been throwing away.
+- **Ad Quintum fratrem I.1** recovers the sentence that states the principle the whole passage rests on,
+  *ut ii, qui erunt in eorum imperio, sint quam beatissimi* (*antiqissimum* -> *antiquissimum*). Also
+  now **one continuous passage**, no cut.
+- **Ad Brutum I.3: *Vtinam* -> *Utinam*.** Not an error - it is the ancient majuscule convention, which
+  The Latin Library keeps for this collection - but it reads as a different word on first sight, so it
+  is normalised and declared. `emend` now covers this case as well; see `tools/README.md`.
+- **Two Italian translations fixed.** Ad Familiares XIV.4 had *Me rovinato! Me abbattuto!*, a
+  word-for-word calque of the Latin exclamatory accusative that is not Italian; it now reads
+  *Sono rovinato! Sono abbattuto!*, matching what the English already did. Ad Familiares XVI.1 ended on
+  a clipped *Dunque, dei due, il primo* where the English has a full sentence; now
+  *Dunque, che sia il primo dei due.*
+- Every analysis involved was rewritten: the notes that used to explain a trim now explain the
+  emendation. `verify.js` still reports **132 verbatim, 0 mismatched** - an emended fragment has the
+  source's own reading put back before comparison, so every other character is still proved.
+
 
 ## [1.7.8] - 2026-08-27
 
