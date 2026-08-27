@@ -34,6 +34,14 @@ function normalise(text) {
     .replace(/\[\d+\]/g, ' ')
     .replace(/\[[IVXLC]+\]/g, ' ')
     .replace(/\b\d+\. /g, ' ')
+    // Spacing around punctuation is typesetting, not text. The Latin Library
+    // sets some quoted questions as `" praesidium a nobis postulabatis ?`
+    // (Att. I.16), with a space after the opening quote and before the mark.
+    // Both sides get the same treatment, so this only ever removes a
+    // whitespace difference: no two different sequences of letters can be
+    // made to match by it.
+    .replace(/\s+([,;:.?!])/g, '$1')
+    .replace(/(["'])\s+/g, '$1')
     .replace(/\s+/g, ' ')
     .trim();
 }

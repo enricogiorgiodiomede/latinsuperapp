@@ -74,7 +74,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=94`.**
+   whenever you change a JS/CSS file. **Currently `v=95`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -248,7 +248,7 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
   **Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
 **=== SESSION HANDOFF (updated 2026-08-24) ===**
-Current: **v1.7.8, cache ?v=94**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
+Current: **v1.8.0, cache ?v=95**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
 50 frags since v1.4.0). Caesar's-Age flesh-out in progress: **Nepos done (1->8, v1.2.0)**;
 **Cicero is the big active job and is now the largest author in the app at 118 excerpts** (Plautus 50).
 
@@ -322,6 +322,14 @@ Philippics is +15 and was split into two releases rather than shipped as one.
   Chooser nests a level deeper - Verrines/Catilinarians/Philippics became collections inside Speeches,
   19 buttons -> 7, chronology preserved. Restored the **Legacy and Impact** section to the author page
   for the six authors who have one, in both languages.
+- ~~**v1.8.0**~~ DONE 27/08: **Cicero's LETTERS, +15** - `letters` went from 1 work / 1 fragment to
+  **4 works / 16**: Ad Atticum 1->5, Ad Familiares 5, Ad Quintum fratrem 3, Ad Brutum 3 (weighted by
+  collection size, the user's call). Flat siblings, no nested chooser needed. **`verify.js` covered
+  `ad-atticum` for the first time and immediately caught a stray comma in the launch-era Att. I.16**,
+  plus three translation slips in the accuracy pass (version kept at 1.0.0). `apply_batch.js` now sorts
+  by book-then-letter; `normalise()` ignores whitespace around punctuation. Bank **293**, Cicero **133**.
+  **`de-amicitia` is now the ONLY Cicero work with no `sources.json` entry**, so its one launch-era
+  fragment is still unverified - map it in the Philosophical-works release.
 - **NEXT: Cicero's other three groups** - **Letters** (Ad Atticum has 1; add Ad Familiares, Ad
   Quintum, Ad Brutum - all already in `_notLive` in sources.json and cached), **Philosophical works**
   (De Amicitia has 1; De Senectute, Somnium Scipionis, Tusculanae, De Officiis), **Rhetorical works**

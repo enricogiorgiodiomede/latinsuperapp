@@ -62,6 +62,13 @@ checklist (CHANGELOG, in-app What's New, reference sheet, memory).
 - **`version` means first-added, never last-edited.** Editing an old fragment does not bump its tag;
   record the edit in the release's CHANGELOG and in-app What's New instead. Bumping it would move the
   "NEW!" badge onto old content.
+- **Letters are cited by book and letter** (`Ad Familiares XIV.20`), not by section: The Latin Library
+  prints most of these collections with no section numbers at all. Where a book does have them, they go
+  inside the Latin as `[n]` markers. `apply_batch.js` sorts such citations on `book * 100000 + letter *
+  10`, plus 1 for a manuscript doublet suffix (`Ad Brutum I.3a`).
+- **`normalise()` ignores whitespace around punctuation** (since v1.8.0). TLL sets one quoted question
+  in Att. I.16 as `" praesidium a nobis postulabatis ?`. Both sides of the comparison are treated the
+  same way, so it can only cancel a whitespace difference, never make two different words match.
 - **In Pisonem is cited by chapter** (`In Pisonem, ch. X`) because the Latin Library prints that
   speech with chapter divisions only, no section numbers. Every other speech is cited by section.
 

@@ -105,6 +105,14 @@ const romanToInt = (s) => {
   return n;
 };
 const firstSection = (f) => {
+  // Letters are cited by BOOK and letter ("Ad Familiares XIV.20"), and a book
+  // number sorts before a letter number: without this, Att. VII.11 would fall
+  // between I.2 and I.16. The optional letter suffix is for the doublets the
+  // manuscripts number 3a, 4a and so on. Speech citations that happen to end
+  // the same way (In Catilinam I.33) all share one book inside their work, so
+  // the scaled key leaves their order untouched.
+  const l = f.citation.match(/([IVXLCDM]+)\.(\d+)([a-z]?)\)$/);
+  if (l) return romanToInt(l[1]) * 100000 + parseInt(l[2], 10) * 10 + (l[3] ? 1 : 0);
   const m = f.citation.match(/(\d+)(?:-\d+)?\)$/);
   if (m) return parseInt(m[1], 10);
   const r = f.citation.match(/ch\. ([IVXLCDM]+)\)$/);

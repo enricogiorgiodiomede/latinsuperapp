@@ -629,7 +629,8 @@ release version, pause for review after each.
 | ~~v1.7.5~~ DONE | **In Verrem SPLIT INTO 7 WORKS** + **II.4 +3** (4-5, 106-107, 115) and **II.5 +4** (26-27, 100, 118-119, 169-170); corrected the false sources.json note that had hidden five available texts | 3 -> **10** across 7 works |
 | ~~v1.7.6~~ DONE | **the five empty Verrine works filled** (+8): Divinatio 1-2 / 40-43, Actio Prima ch. I / ch. XIV, II.1 53-54 / 104-105, II.2 2-3, II.3 47 | 18 across 7 works |
 | ~~v1.7.7~~ DONE | **the five thinner parts to 3 each** (+7): Divinatio 19-20, Actio Prima ch. XI, II.1 46-47, II.2 86 / 192, II.3 120 / 207. **THE VERRINES ARE CLOSED** | **25 across 7 works (5x5)** |
-| **NEXT** | Cicero's **Letters**, **Philosophical works** and **Rhetorical works** groups (see "Still to build"), then **Caesar, Hirtius, Lucretius, Sallust, Catullus** | |
+| ~~**v1.8.0**~~ DONE | **THE LETTERS, +15**: Ad Atticum 1 -> 5, and three new works - Ad Familiares 5, Ad Quintum fratrem 3, Ad Brutum 3. Verified `ad-atticum` for the first time and fixed the launch-era Att. I.16 | **16 across 4 works** |
+| **NEXT** | Cicero's **Philosophical works** and **Rhetorical works** groups (see "Still to build"), then **Caesar, Hirtius, Lucretius, Sallust, Catullus** | |
 
 **ROADMAP SHIFTED BY ONE, 2026-08-24 (user's instruction).** Deepening all four Philippics to the
 sizes the user set - I and XIV to 7, II to 8, IV (the shortest) to 5 - is +15, so it was split into
@@ -689,12 +690,75 @@ editorial convention and **NOT a typo**; never emend on those grounds. It also c
 (*Pro Caelio* 12 has *diversisque **atque** inter se pugnantibus* where TLL has *et*), which are also
 not typos. Only plain non-words qualify.
 
+### Letters (`letters`) - **4 works, 16 fragments** (v1.8.0). Order is by manuscript collection:
+Ad Atticum, Ad Familiares, Ad Quintum fratrem, Ad Brutum. **Flat, NOT nested** - four buttons does not
+need the third chooser level the Speeches got in v1.7.8. **Cited by BOOK and letter** ("Ad Familiares
+XIV.20"), never by section, because The Latin Library prints these collections without section numbers
+in most books; where a book does have them (Att. VII, and the `1.`-style markers in ad Quintum and ad
+Brutum) they appear as `[n]` inside the Latin instead. `apply_batch.js` was taught the matching sort
+key in this release (book * 100000 + letter * 10, +1 for a doublet like **I.3a**).
+
+**Header styles differ per book and mean nothing to the pipeline** (extract.js works on start/end text):
+`att1` prints `I.XVI (16)`, `att7` prints `[XI]`, `att12` prints `12.15`, the Familiares books print
+`XX. Scr. ...` + a capitalised salutation, ad Brutum prints `[IIIa] Scr. ...`.
+
+- **Epistulae ad Atticum** (`ad-atticum`, labelIt "Lettere ad Attico" - **added in v1.8.0, it had none**)
+  - **5 fragments**, sources `cicero/att1`, `att7`, `att12`.
+  - **I.2** (v1.8.0) the son born + *hoc tempore Catilinam, competitorem nostrum, defendere cogitamus*
+    and *Iudices habemus, quos volumus*. **Cross-ref: In Catilinam.**
+  - **I.16** (v1.0.0, launch) the bought jury. **First verified in v1.8.0** - see the note below.
+  - **I.18** (v1.8.0) *fucosae amicitiae* / *splendore forensi* vs *fructum domesticum*.
+    **STARTS AT *Tu autem*: TLL prints the famous opening sentence with TWO plain misprints**, *uam*
+    for *quam* and *que* for *quae*, so the fragment trims past both rather than emending twice.
+  - **VII.11** (v1.8.0) sections 1 + 3, *an de Hannibale loquimur?* and the Pompey dialogue. Keeps one
+    transliterated Greek word, *aporo*; **TLL transliterates the Greek of the Atticus letters** rather
+    than printing it, which is why it reads like a Latin verb.
+  - **XII.15** (v1.8.0) the whole letter from Astura, ~370 chars. Book XII is printed with lowercase
+    sentence openings - the edition's convention, not a defect.
+- **Epistulae ad Familiares** (`ad-familiares`, labelIt "Lettere ai familiari") - **NEW WORK, 5**,
+  sources `cicero/fam5`, `fam14`, `fam16`.
+  - **V.7** the reply to Pompey; opens on **S. T. E. Q. V. B. E.** = *si tu exercitusque valetis, bene
+    est*. Ends on the Africanus/Laelius comparison. **Cross-ref: De Amicitia.**
+  - **V.12** to Lucceius, *epistula enim non erubescit*. **TRIMMED past TLL's *quani* for *quam***.
+  - **XIV.4** exile, to Terentia. **XIV.20** the four-line bathtub note, the **shortest complete text
+    in the app** (~270 chars); its two `--` are the source's own (from `&#151;`). The two are
+    deliberately in the same work and cross-reference each other.
+  - **XVI.1** to Tiro at Patrae. Double-l spellings *paullo*/*paullum* are the source's convention.
+- **Epistulae ad Quintum fratrem** (`ad-quintum`, labelIt "Lettere al fratello Quinto") - **NEW WORK, 3**,
+  sources `cicero/fratrem1`, **`fratrem2` (fetched in v1.8.0 specifically for the Lucretius letter)**,
+  `fratrem3`.
+  - **I.1** sections 23 + 24, the Cyropaedia and *imperium ita datum est ut redderent*.
+    **TRIMMED past TLL's *antiqissimum* for *antiquissimum***; also avoids *occuras* for *occurras* in
+    section 4 and the inline MSS note printed mid-sentence at the *lictor* passage in section 13.
+  - **I.3** *mi frater, mi frater, mi frater* ... *effigiem spirantis mortui*.
+  - **II.9** sections 1 + 3: *epistulae nostrae debent interdum alucinari* + **the Lucretius verdict**.
+    **Cross-ref: Titus Lucretius Carus.**
+  - Note a source slip that does NOT affect any fragment: `fratrem1` labels its second letter `III.`
+    where it should be `II.`; the headers are not part of any excerpt.
+- **Epistulae ad Brutum** (`ad-brutum`, labelIt "Lettere a Bruto") - **NEW WORK, 3**, sources
+  `cicero/adbrutum1`, `adbrutum2`.
+  - **I.3** the *puer* Octavian; **I.3a** Hirtius and Pansa dead (**cross-ref: Aulus Hirtius**);
+    **I.14** *breves litterae tuae*. **The `Cicero` promised a longer letter in I.14 is Cicero's SON.**
+  - **Deliberately avoided:** letters I.16/I.17 (Brutus' own, the most disputed for authenticity) and
+    letter I, which contains the only un-decoded HTML entity in the whole cache (`&ocirc;`).
+  - `adbrutum` (no digit) is a table of contents only; the letters are on `adbrutum1`/`adbrutum2`.
+
+**ATT. I.16 WAS NEVER VERIFIED UNTIL v1.8.0.** `verify.js` silently skips a work with no `sources.json`
+entry, and the Letters had none, so this launch-era fragment - typed by hand before the pipeline
+existed - had never been proved against the source. Mapping it found a comma the source does not print
+(*pleno foro servorum, XXV*), removed; and the accuracy pass found three translation errors:
+*promisit, intercessit, dedit* is a bribe paid in stages (promised / **stood surety** / paid), not
+interceding, and the *perire* / *perdere omnia* pairing was flattened in both languages. **Version kept
+at 1.0.0.** `de-amicitia` is now the only Cicero work still unmapped, and its one fragment is therefore
+still unchecked.
+
 **PIPELINE FIX (v1.7.3).** `tools/strip.js` deleted `<br>` along with every other tag, and TLL sets
 verse as `discidit<br>Vestem` with no surrounding space - so verse lines were being welded into one
 word. It now turns `<br>` into a newline first. All 25 pages re-fetched with `--force`, whole bank
 re-verified at **0 mismatched**. The artefact existed in exactly one live page (`cael.txt`) and one
-not-live one (`att12.txt`). **Still outstanding for the Letters group:** `att1.txt` has *ab aLus* for
-*ab aliis* (Ad Atticum I.9), which is a genuine TLL typo, not a stripper artefact.
+not-live one (`att12.txt`). **Handled in v1.8.0:** `att1.txt` has *ab aLus* for *ab aliis* (Ad Atticum I.9),
+a genuine TLL typo and not a stripper artefact - no fragment goes near I.9. The letter pages turned out
+to be typo-rich in general (*uam*, *que*, *quani*, *antiqissimum*, *occuras*), all avoided by trimming.
 
 **TRANSLATION-ACCURACY PASS (new in v1.7.1, at the user's request).** Every fragment of both speeches,
 new and old, re-read clause by clause against the Latin - mood and type of subjunctive, tense, voice,
@@ -798,8 +862,7 @@ empty ones do not appear in the chooser until v1.7.6 fills them.
   the same register. Add only if the user asks.
 
 **AFTER the speeches:**
-- **Letters** (`letters`): Ad Atticum (existing I.16 + VII.11 + XII.14), Ad Familiares (XIV.4, V.12, XVI.1),
-  Ad Quintum fratrem (`cicero/fratrem1.shtml`, `fratrem3.shtml`), Ad Brutum (`cicero/adbrutum.shtml` - confirmed 200).
+- ~~**Letters**~~ **DONE in v1.8.0** (16 across 4 works - see the Letters section above).
 - **Philosophical works** (`philosophical`): De Amicitia (existing 20 + 2), De Senectute, Somnium Scipionis,
   Tusculanae (Damocles), De Officiis (Regulus).
 - **Rhetorical works** (`rhetorical`): De Oratore (I.16-18, II.216-219 on wit), Brutus (313-316 - NOT §6, which

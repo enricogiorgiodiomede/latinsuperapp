@@ -6,6 +6,63 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.8.0] - 2026-08-27
+
+**Cicero's Letters open properly: +15 excerpts, three new works.** The `letters` group went from one
+work with one launch-era fragment to **four works and 16 fragments**: Ad Atticum 1 -> **5**,
+**Ad Familiares 5**, **Ad Quintum fratrem 3**, **Ad Brutum 3** (weighted by the size of each
+collection, agreed with the user: Atticus and Familiares are 16 books each, ad Quintum 3, ad Brutum 2).
+Cicero is now **133 across 24 works**; the bank is **293**. All four collections are flat siblings -
+four buttons is not clutter, so this group does not need the nested chooser the Speeches got in v1.7.8.
+
+### Added - the passages
+- **Ad Atticum** (`att1`, `att7`, `att12`): **I.2** the birth of his son announced one line above the
+  plan to defend **Catiline**, his rival for the consulship (cross-links to In Catilinam); **I.18**
+  *fucosae amicitiae*, the packed hall and *reperire ex magna turba neminem possumus*; **VII.11**
+  *utrum de imperatore populi Romani an de Hannibale loquimur?* and the Pompey dialogue *non est in
+  parietibus res publica / at in aris et focis*; **XII.15** the whole letter from Astura after Tullia's
+  death, *sed adhuc pares non sumus*.
+- **Ad Familiares** (`fam5`, `fam14`, `fam16`): **V.7** the frosty reply to Pompey, opening on the
+  abbreviated formula **S. T. E. Q. V. B. E.**; **V.12** *epistula enim non erubescit* to Lucceius;
+  **XIV.4** exile at Brundisium; **XIV.20** the four-line bathtub note to the same wife fourteen years
+  later, deliberately placed in the same work; **XVI.1** to Tiro, left ill at Patrae.
+- **Ad Quintum fratrem** (`fratrem1`, **`fratrem2` - newly fetched for this release**): **I.1** the
+  Cyropaedia and *imperium ita datum est ut redderent*; **I.3** *mi frater, mi frater, mi frater* and
+  *effigiem spirantis mortui*; **II.9** *epistulae nostrae debent interdum alucinari* + **the Lucretius
+  verdict**, *multis luminibus ingenii, multae etiam artis* - the only contemporary judgement on the
+  De Rerum Natura that survives, and a forward cross-link to the Lucretius entry.
+- **Ad Brutum** (`adbrutum1`): **I.3** *Vtinam tam facile eum florentem ... regere ac tenere possimus
+  quam facile adhuc tenuimus!*; **I.3a** Hirtius dead at Mutina (cross-links to the Hirtius entry);
+  **I.14** *breves litterae tuae -- breves dico, immo nullae*.
+
+### Fixed - the oldest Cicero fragment, checked for the first time
+- **`ad-atticum` was never in `sources.json`**, so its launch-era fragment (Att. I.16, hand-typed in
+  v1.0.0 before the pipeline existed) had never been through `verify.js`. Mapping the work exposed it
+  immediately: the app printed a comma the source does not (*pleno foro servorum, XXV*). Removed.
+- The accuracy pass over the same fragment found **three translation errors**: *promisit, intercessit,
+  dedit* is a bribe paid in stages (promised / stood surety / paid), not somebody interceding; and the
+  *perire* / *perdere omnia* pairing had been flattened in both languages. Fixed in EN and IT.
+  **Its `version` stays 1.0.0** - the tag records first-added, never last-edited.
+- **`ad-atticum` and `de-amicitia` had no `labelIt`**, the only two Cicero works without one, so the
+  Italian chooser was showing English labels. Added.
+
+### Changed - tools
+- **`apply_batch.js` sorts letters by BOOK then letter.** The old key read the last number in the
+  citation, so Att. VII.11 sorted between I.2 and I.16. A citation ending `<ROMAN>.<n>` now scores
+  `book * 100000 + n * 10`, with `+1` for a manuscript doublet suffix (Ad Brutum **I.3a**). Speech
+  citations that end the same way (In Catilinam I.33) all share one book inside their work, so their
+  order is untouched.
+- **`normalise()` in `strip.js` now ignores whitespace around punctuation.** The Latin Library sets one
+  quoted question in Att. I.16 as `" praesidium a nobis postulabatis ?`, with a space after the opening
+  quote and before the mark. That is typesetting, not a reading. Both sides of the comparison get the
+  same treatment, so this can only ever cancel a whitespace difference - no two different sequences of
+  letters can be made to match by it.
+- **`sources.json`:** the four letter collections moved out of `_notLive` and are now verified;
+  `cicero/fratrem2` added. `_notLive` keeps its comment (and the `ver1` correction) but is now empty.
+
+Verification: **132 verbatim, 0 mismatched** (was 116 - the 15 new fragments plus Att. I.16, now
+covered for the first time). Cache-bust: `?v=94` -> `?v=95`.
+
 ## [1.7.8] - 2026-08-27
 
 **Housekeeping, no new excerpts.** The Cicero chooser gains a third level so the Speeches menu stops
