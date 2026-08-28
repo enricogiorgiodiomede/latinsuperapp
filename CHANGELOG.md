@@ -6,7 +6,7 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
-## [1.8.1] - 2026-08-27
+## [1.8.1] - 2026-08-28
 
 **The two short letter collections filled out, +5.** **Ad Quintum fratrem 3 -> 5** and **Ad Brutum
 3 -> 5**, the half of the extension plan that needed no decision, plus **Ad Familiares 5 -> 6** with a

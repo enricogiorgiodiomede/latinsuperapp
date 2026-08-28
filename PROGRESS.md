@@ -335,7 +335,7 @@ Philippics is +15 and was split into two releases rather than shipped as one.
   and no cut at all), Fam. V.12 (+1), Q.fr. I.1 (+1, no cut), Brut. I.3 (*Vtinam* -> *Utinam*, a declared
   orthographic normalisation). Two Italian translations fixed. Poesia Latina was unreachable, so the
   readings were checked against other texts of the letters. See `tools/README.md` for the new rule.
-- ~~**v1.8.1**~~ DONE 27/08: **ad Quintum 3 -> 5, ad Brutum 3 -> 5, +5** (Fam. XVI.8 came along too,
+- ~~**v1.8.1**~~ DONE 28/08: **ad Quintum 3 -> 5, ad Brutum 3 -> 5, +5** (Fam. XVI.8 came along too,
   so Familiares is 6). Q.fr. III.1 (the building site) and III.5 (the De Re Publica rewritten, the
   hardest Latin in the section); Brut. I.9 (the consolation for Porcia) and I.15 (Solon, and the Ides);
   Fam. XVI.8, **which is by QUINTUS, not Cicero** - book XVI keeps incoming letters too.

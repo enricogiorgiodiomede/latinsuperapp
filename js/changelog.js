@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.8.1', date: '2026-08-27', time: '00:00', tz: 'CEST',
+      v: '1.8.1', date: '2026-08-28', time: '18:09', tz: 'CEST',
       en: {
         added: [
           'The two short letter collections are filled out: 5 new excerpts, and Ad Quintum fratrem and Ad Brutum both go from 3 to 5. Ad Familiares picks up a sixth on the way.',
