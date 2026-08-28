@@ -631,20 +631,20 @@ release version, pause for review after each.
 | ~~v1.7.7~~ DONE | **the five thinner parts to 3 each** (+7): Divinatio 19-20, Actio Prima ch. XI, II.1 46-47, II.2 86 / 192, II.3 120 / 207. **THE VERRINES ARE CLOSED** | **25 across 7 works (5x5)** |
 | ~~**v1.8.0**~~ DONE | **THE LETTERS, +15**: Ad Atticum 1 -> 5, and three new works - Ad Familiares 5, Ad Quintum fratrem 3, Ad Brutum 3. Verified `ad-atticum` for the first time and fixed the launch-era Att. I.16 | **16 across 4 works** |
 | ~~**v1.8.1**~~ DONE | **THE SHORT PAIR**: Ad Quintum fratrem +2 (III.1, III.5) and Ad Brutum +2 (I.9, I.15), plus Fam. XVI.8 by Quintus. Fixed two silent cache faults (UTF-16 pages, HTML entities) | 3 -> **5** each |
-| **v1.8.2 / .3** | **DEEPEN THE LARGE PAIR**: Ad Atticum (5) and Ad Familiares (**already 6**) to **7 or 8 each** - **the user is still choosing between 7 and 8, ASK FIRST**. So +2 or +3 for Atticum and only +1 or +2 for Familiares | 5/6 -> **7 or 8** each |
+| ~~**v1.8.2**~~ DONE | **THE LARGE PAIR, the user chose 8**: Ad Atticum +3 (IV.1, VII.7, XII.14) and Ad Familiares +2 (V.2, V.15). `cicero/att4` fetched to close the 60-49 BC hole. **THE LETTERS ARE FINISHED** | **26 across 4 works** |
 | **THEN** | Cicero's **Philosophical works** and **Rhetorical works** groups (see "Still to build"), then **Caesar, Hirtius, Lucretius, Sallust, Catullus** | |
 
 **LETTERS EXTENSION PLAN, saved 27/08/2026 on the user's instruction.** The Letters get deepened
 *before* the philosophical and rhetorical groups. Final shape: **ad Quintum 5, ad Brutum 5, Atticum 7-8,
 Familiares 7-8** = 24 to 26 across the four works. Candidates already scouted in the cache, none of them
 used yet:
-- **Ad Atticum** - `att1` I.1 (the canvass: *Petitionis nostrae ... ratio est*, and the list of rivals),
-  I.12/I.13 (the Bona Dea affair breaking), `att7` VII.3 or VII.7 (the winter of hesitation before the
-  war), `att12` 12.13, 12.14 or 12.16 (more of the Astura sequence; 12.14 has *nihil enim de maerore
-  minuendo scriptum ab ullo est quod ego non domi tuae legerim* and the self-consolation).
-- **Ad Familiares** - `fam5` V.2 (the quarrel with Metellus Celer), V.13 or V.15 (Lucceius consoling and
-  Cicero replying, 45 BC), `fam14` XIV.1 or XIV.2 (more exile letters to Terentia), XIV.7 (the crossing
-  to Greece in 49), `fam16` XVI.5 or XVI.9 (more Tiro). **`fam16` VIII is now USED, not avoided** - its mojibake
+- ~~**Ad Atticum**~~ **DONE at 8 in v1.8.2** (IV.1, VII.7, XII.14 used). If ever deepened again:
+  `att1` I.1 (the canvass: *Petitionis nostrae ... ratio est*, and the list of rivals), I.12/I.13 (the
+  Bona Dea affair breaking); `att4` IV.3 (Clodius' gangs) or IV.10 (*Ego hic pascor bibliotheca
+  Fausti*, short and charming); `att7` VII.3; `att12` 12.13 or 12.16 (more of the Astura sequence).
+- ~~**Ad Familiares**~~ **DONE at 8 in v1.8.2** (V.2 and V.15 used). If ever deepened again:
+  `fam5` V.13 (Lucceius' own letter of consolation, which V.15 answers), `fam14` XIV.1 or XIV.2 (more
+  exile letters to Terentia), XIV.7 (the crossing to Greece in 49), `fam16` XVI.5 or XVI.9 (more Tiro). **`fam16` VIII is now USED, not avoided** - its mojibake
   Greek was decoded and emended in v1.8.1. Books beyond 5/14/16 would need a new fetch.
 - ~~**Ad Quintum fratrem**~~ **DONE at 5 in v1.8.1** (III.1 and III.5 used). If it is ever deepened
   again: `fratrem1` I.1 elsewhere (the *cohors* and the governor's staff; the Greeks passage at
@@ -716,7 +716,7 @@ editorial convention and **NOT a typo**; never emend on those grounds. It also c
 (*Pro Caelio* 12 has *diversisque **atque** inter se pugnantibus* where TLL has *et*), which are also
 not typos. Only plain non-words qualify.
 
-### Letters (`letters`) - **4 works, 16 fragments** (v1.8.0). Order is by manuscript collection:
+### Letters (`letters`) - **4 works, 26 fragments** (COMPLETE at v1.8.2; 16 at v1.8.0, 21 at v1.8.1). Order is by manuscript collection:
 Ad Atticum, Ad Familiares, Ad Quintum fratrem, Ad Brutum. **Flat, NOT nested** - four buttons does not
 need the third chooser level the Speeches got in v1.7.8. **Cited by BOOK and letter** ("Ad Familiares
 XIV.20"), never by section, because The Latin Library prints these collections without section numbers
@@ -795,6 +795,34 @@ not-live one (`att12.txt`). **Handled in v1.8.0:** `att1.txt` has *ab aLus* for 
 a genuine TLL typo and not a stripper artefact - no fragment goes near I.9. The letter pages turned out
 to be typo-rich in general (*uam*, *que*, *quani*, *antiqissimum*, *occuras*). **In the v1.8.0 follow-up
 these stopped being reasons to trim**: see the policy change below.
+
+**v1.8.2 ADDITIONS - THE LETTERS ARE FINISHED at 26 across 4 works** (Atticum 8, Familiares 8,
+ad Quintum 5, ad Brutum 5).
+- **Ad Atticum IV.1** (`att4`, **fetched for this release**) - the return from exile, two pieces.
+  **`cicero/att4` was added to sources.json because books I/VII/XII cover only 68-60 and 50-45 BC**, so
+  the exile and the triumvirate years had no source at all. **TRIMMED, not emended**: the source prints
+  *Brundinisorum* and the other texts disagree (*Brundisinorum*, *Brundisiorum*) - **a disagreement
+  among witnesses is a VARIANT, and variants are cut past, never chosen between.** Also keeps *quom*
+  for *cum*, an archaic spelling and not an error.
+- **Ad Atticum VII.7** - *ego quos tu bonos esse dicas non intellego*, the demolition of *boni*
+  class by class. One piece, clean.
+- **Ad Atticum XII.14** - the lost **Consolatio** being written. One piece, prefix `[3]`. Contains a
+  `--` from the source and the parenthesis *(vis enim urget)*.
+- **Ad Familiares V.2** - the Metellus Celer quarrel. **Prints the S.T.E.Q.V.B.E. formula IN FULL**,
+  where V.7 abbreviates it; the pair is worth pointing at. **TRIMMED before *iuiucunda***, which could
+  be *iucunda* or *iniucunda* - opposite senses, so not emendable.
+- **Ad Familiares V.15** - to Lucceius in 45. **Built as the deliberate answer to V.12**, same
+  correspondent eleven years on; the two cross-reference each other in both analyses.
+
+**THE THREE-WAY DISTINCTION THIS GROUP NOW ILLUSTRATES, worth keeping straight:**
+1. **A plain defect with ONE possible reading** -> check a second text, **emend and declare it**
+   (Att. I.18 x3, Fam. V.12, Q.fr. I.1, Q.fr. III.5 x2, Fam. XVI.8's Greek).
+2. **A reading the printed editions carry too** -> **transmitted; keep it and flag it in the analysis**
+   (*immicus* and *ahenum* in Brut. I.15, *Illias* in Arch. 24, *inplevit* in Phil. II.63).
+3. **Witnesses that disagree, or a form with two opposite expansions** -> **a variant; trim past it**
+   (*Brundinisorum* in Att. IV.1, *iuiucunda* in Fam. V.2, the daggered clause cut in Verr. II.2.32-33).
+   **Exception, learned in the v1.8.1 follow-up: if the trim would remove an antecedent or a subject the
+   rest of the passage needs, print the damaged text with its daggers and explain it instead.**
 
 **v1.8.1 ADDITIONS (Letters now 21 across 4 works).**
 - **Ad Quintum fratrem III.1** (`fratrem3`) - the building sites at Arcanum and the Manilian property.

@@ -12,6 +12,33 @@
 
   var VERSIONS = [
     {
+      v: '1.8.2', date: '2026-08-28', time: '00:00', tz: 'CEST',
+      en: {
+        added: [
+          'Cicero\'s Letters are finished: 5 new excerpts, and all four collections now sit at 8 apiece except the two smaller ones at 5. Twenty-six letters in all, running from a man canvassing for office in 65 BC to a man who has stopped wanting anything in 45.',
+          'Ad Atticum, 5 to 8, and the eleven-year hole in the middle is closed. The journey back from exile in 57 - his daughter waiting for him at Brundisium on her own birthday, and then the steps of every temple on the road to the Capitol packed with people (IV.1). Three weeks before the civil war, Atticus writes that none of "the good men" doubts what Cicero will do, and Cicero takes the phrase apart: which good men? the Senate? the tax collectors? the landowners, who will accept a king quite happily as long as nobody disturbs them? (VII.7). And the day before he wrote about hiding in the wood at Astura, the letter where he mentions that he has read every consolation ever written, in Atticus\'s own library, and has now done the thing nobody had done before: written one for himself (XII.14). That book is lost; this letter is the record of it being written.',
+          'Ad Familiares, 6 to 8. A furious proconsul has accused Cicero of making a fool of him in the Senate, and gets back a minutely reconstructed account of what Cicero says he actually said - the clearest example in the collection of a letter doing political work rather than feeling something (V.2). And then the one to put beside the shameless letter of eleven years earlier: the same correspondent, the same man writing, and now "I would call it pleasant, if I had not lost that word for all time." He reads all day, he says, not for a cure but for a small forgetting of the pain (V.15).'
+        ],
+        changed: [
+          'A fourth book of the Atticus letters was downloaded to make this possible. The app had books I, VII and XII, which between them cover 68 to 60 BC and then 50 to 45 - so the whole of the exile, the return and the years of the first triumvirate were simply unreachable. Book IV fills it.',
+          'One passage stops mid-letter on purpose. In the account of the return from exile the source spells the name of the townspeople of Brundisium in a way no other text does, and the texts that do print it disagree with each other as well. Where the witnesses disagree, the reading is a genuine variant rather than a slip, and the rule here is to cut past it rather than pick a side - unlike a plain misprint, which gets corrected and flagged.'
+        ],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Le Lettere di Cicerone sono complete: 5 nuovi brani, e tutte e quattro le raccolte stanno ora a 8 ciascuna, tranne le due più piccole a 5. Ventisei lettere in tutto, da un uomo in campagna elettorale nel 65 a.C. a un uomo che nel 45 ha smesso di volere qualsiasi cosa.',
+          'Ad Attico, da 5 a 8, e il buco di undici anni nel mezzo è chiuso. Il viaggio di ritorno dall’esilio nel 57: la figlia che lo aspetta a Brindisi nel giorno del suo compleanno, e poi i gradini di ogni tempio sulla strada del Campidoglio gremiti di gente (IV.1). Tre settimane prima della guerra civile, Attico scrive che nessuno dei "buoni" dubita di ciò che Cicerone farà, e Cicerone smonta l’espressione: quali buoni? il senato? gli esattori? i proprietari terrieri, che un re se lo prenderanno volentieri purché nessuno li disturbi? (VII.7). E il giorno prima di scrivere del bosco di Astura, la lettera in cui racconta di aver letto ogni consolazione mai scritta, nella biblioteca di Attico, e di aver fatto ora ciò che nessuno aveva fatto prima: scriverne una per se stesso (XII.14). Quel libro è perduto; questa lettera ne è il verbale di composizione.',
+          'Ai familiari, da 6 a 8. Un proconsole furioso ha accusato Cicerone di averlo messo in ridicolo in senato, e si vede tornare indietro una ricostruzione minuziosa di ciò che Cicerone sostiene di aver detto davvero: l’esempio più chiaro della raccolta di una lettera che fa lavoro politico invece di provare qualcosa (V.2). E poi quella da mettere accanto alla lettera spudorata di undici anni prima: stesso destinatario, stesso uomo che scrive, e adesso "direi piacevole, se non avessi perduto quella parola per sempre". Legge tutto il giorno, dice, non per una cura ma per un piccolo oblio del dolore (V.15).'
+        ],
+        changed: [
+          'Per rendere possibile tutto questo è stato scaricato un quarto libro delle lettere ad Attico. L’app aveva i libri I, VII e XII, che insieme coprono dal 68 al 60 a.C. e poi dal 50 al 45: tutto l’esilio, il ritorno e gli anni del primo triumvirato erano semplicemente irraggiungibili. Il libro IV colma il vuoto.',
+          'Un passo si interrompe a metà lettera di proposito. Nel racconto del ritorno dall’esilio la fonte scrive il nome degli abitanti di Brindisi in un modo che nessun altro testo usa, e i testi che lo stampano non concordano nemmeno fra loro. Quando i testimoni discordano, la lezione è una vera variante e non una svista, e qui la regola è tagliare oltre invece di schierarsi, a differenza di un refuso evidente, che viene corretto e dichiarato.'
+        ],
+        deleted: []
+      }
+    },
+    {
       v: '1.8.1', date: '2026-08-28', time: '18:09', tz: 'CEST',
       en: {
         added: [

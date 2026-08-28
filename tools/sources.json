@@ -22,7 +22,7 @@
   "philippica-iv": ["cicero/phil4"],
   "philippica-xiv": ["cicero/phil14"],
 
-  "ad-atticum": ["cicero/att1", "cicero/att7", "cicero/att12"],
+  "ad-atticum": ["cicero/att1", "cicero/att4", "cicero/att7", "cicero/att12"],
   "ad-familiares": ["cicero/fam5", "cicero/fam14", "cicero/fam16"],
   "ad-quintum": ["cicero/fratrem1", "cicero/fratrem2", "cicero/fratrem3"],
   "ad-brutum": ["cicero/adbrutum1", "cicero/adbrutum2"],

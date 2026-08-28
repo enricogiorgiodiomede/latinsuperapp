@@ -6,6 +6,48 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.8.2] - 2026-08-28
+
+**THE LETTERS ARE FINISHED, +5.** **Ad Atticum 5 -> 8** and **Ad Familiares 6 -> 8**, the sizes the user
+chose. Letters **26 across 4 works** (Atticum 8, Familiares 8, ad Quintum 5, ad Brutum 5), Cicero **143
+across 24 works**, bank **303**.
+
+### Added
+- **Ad Atticum IV.1** - the return from exile, September 57. Tullia waiting at Brundisium on her own
+  birthday, then the *nomenclator*, the steps of the temples *ab infima plebe*, and the walk up to the
+  Capitol. Deliberately the middle panel of three: **Fam. XIV.4** is the journey out of Italy from the
+  same town, and **Att. XII.15** is the same daughter dead sixteen years later.
+- **Ad Atticum VII.7** - *ego quos tu bonos esse dicas non intellego*, three weeks before the Rubicon.
+  Cicero tests the optimates' word for themselves against each order in turn and finds nothing behind
+  it, ending on the landowners who will accept a monarchy *dum modo otiosi essent*. Pairs with
+  **VII.11**.
+- **Ad Atticum XII.14** - 8 March 45, the day before the letter about the wood. *Feci quod profecto ante
+  me nemo ut ipse me per litteras consolarer*: the composition record of the lost **Consolatio**. Like
+  the Lucretius verdict in **Q.fr. II.9**, a place where the correspondence is the only witness to a
+  piece of literary history.
+- **Ad Familiares V.2** - the reply to Metellus Celer, January 62. Almost entirely one chain of oratio
+  obliqua several layers deep, reconstructing what Cicero says he said in the Senate. Prints the
+  **S. T. E. Q. V. B. E. formula written out in full**, where V.7 in the same work has the initials.
+- **Ad Familiares V.15** - June 45, to Lucceius. *Dicerem "iucundus," nisi id verbum in omne tempus
+  perdidissem.* **Deliberately the same correspondent as V.12, eleven years later**, and it should be
+  read straight after it: in 56 he wants his name made immortal, in 45 he reads *non ut ... medicinam
+  perpetuam, sed ut exiguam oblivionem doloris petam*.
+
+### Changed
+- **`cicero/att4` added to `sources.json` and fetched.** The app had books I, VII and XII, covering
+  68-60 and 50-45 BC, so **the exile, the return and the whole first-triumvirate period were
+  unreachable**. Book IV closes an eleven-year hole in the middle of the collection.
+
+### Not fixed, deliberately
+- **Att. IV.1 cuts one clause** because the source prints *Brundinisorum*, and the texts in circulation
+  disagree about what belongs there (*Brundisinorum*, *Brundisiorum*). **Where the witnesses disagree
+  the reading is a variant, not a slip**, so the mend-first rule does not apply and the excerpt trims
+  past it. Contrast the emendations in v1.8.0-1.8.1, every one of which had exactly one possible reading.
+- **Fam. V.2 stops where it does** because the next sentence prints *iuiucunda*, which could stand for
+  either *iucunda* or *iniucunda* - opposite meanings, so a place to cut rather than mend.
+
+Verification: **142 verbatim, 0 mismatched**. Cache-bust: `?v=98` -> `?v=99`.
+
 ## [1.8.1] - 2026-08-28
 
 **The two short letter collections filled out, +5.** **Ad Quintum fratrem 3 -> 5** and **Ad Brutum
