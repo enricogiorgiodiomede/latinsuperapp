@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.8.2', date: '2026-08-28', time: '00:00', tz: 'CEST',
+      v: '1.8.2', date: '2026-08-28', time: '19:45', tz: 'CEST',
       en: {
         added: [
           'Cicero\'s Letters are finished: 5 new excerpts, and all four collections now sit at 8 apiece except the two smaller ones at 5. Twenty-six letters in all, running from a man canvassing for office in 65 BC to a man who has stopped wanting anything in 45.',
