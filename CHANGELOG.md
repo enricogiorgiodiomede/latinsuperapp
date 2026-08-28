@@ -46,7 +46,39 @@ across 24 works**, bank **303**.
 - **Fam. V.2 stops where it does** because the next sentence prints *iuiucunda*, which could stand for
   either *iucunda* or *iniucunda* - opposite meanings, so a place to cut rather than mend.
 
-Verification: **142 verbatim, 0 mismatched**. Cache-bust: `?v=98` -> `?v=99`.
+Verification: **142 verbatim, 0 mismatched**. Cache-bust: `?v=98` -> `?v=99`, then `?v=100` with
+the follow-up below.
+
+### Same-day follow-up - the user re-examined the trims, and was right on all three
+No new excerpts, so this stays **v1.8.2**; cache `?v=99` -> `?v=100`. **The rule changes:
+the test is whether the printed form is a Latin word, not how many sites print it.**
+
+- **Ad Atticum IV.1: *Brundinisorum* -> *Brundisinorum*, and the excerpt now runs whole.** The user
+  pointed out that the trim was too cautious and that the third-party *Brundisiorum* is not Latin. Both
+  true - and *Brundinisorum* is not Latin either: the town is *Brundisium*, its people are the
+  *Brundisini*, so the genitive plural is *Brundisinorum*. **The proof is inside the passage**, which
+  prints *Brundisinae coloniae*, *Brundisi* and *a Brundisinis* within a few lines. Only this one form
+  has its letters transposed. Internal evidence of that kind outranks any number of websites.
+- **Ad Familiares V.2: *iuiucunda* -> *iniucunda*, and the excerpt now runs to the end of the thought.**
+  I had claimed the form could stand for either *iucunda* or *iniucunda* and was therefore unresolvable.
+  **The context resolves it**, exactly as the user argued: *mediocris quidam est risus consecutus*
+  follows immediately, and "the speech seemed not pleasing, and a certain moderate laughter followed"
+  contradicts itself. *Non iniucunda*, the litotes Cicero uses constantly, is the reading. An *n* read
+  as a *u* is the commonest confusion in a manuscript hand.
+- **Ad Brutum I.15: *immicus* -> *inimicus* and *ahenum* -> *alienum*; the fragment is continuous from
+  section 3 into section 4.** This is the one that exposes the flaw. I had kept *immicus* on the ground
+  that **Perseus prints it too**, and called it a transmitted reading - but **two digital texts descended
+  from the same printed edition are not two independent witnesses**, and a form that does not exist in
+  the language is a defect however many sites reproduce it. *Ahenum* ("bronze cauldron") in
+  *aperire non ahenum puto* falls the same way, so mending it lets the two sections join.
+
+**The revised rule, now in `tools/README.md` and the reference sheet.** (1) Not a Latin word -> defect ->
+emend and declare. (2) Where more than one correction is formally possible, the context decides, and
+internal evidence from the same passage beats everything. (3) A form that IS real Latin, however odd,
+is kept and flagged - *Illias*, *inplevit*, *quom*, *memorabilis*, *paullo*. (4) Trim only where
+independent editions genuinely disagree and both readings are real words, or where the text is beyond
+restoring - with the standing exception that a trim must never cost the reader an antecedent.
+
 
 ## [1.8.1] - 2026-08-28
 

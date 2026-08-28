@@ -74,7 +74,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=99`.**
+   whenever you change a JS/CSS file. **Currently `v=100`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -248,7 +248,7 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
   **Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
 **=== SESSION HANDOFF (updated 2026-08-24) ===**
-Current: **v1.8.2, cache ?v=99**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
+Current: **v1.8.2, cache ?v=100**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
 50 frags since v1.4.0). Caesar's-Age flesh-out in progress: **Nepos done (1->8, v1.2.0)**;
 **Cicero is the big active job and is now the largest author in the app at 118 excerpts** (Plautus 50).
 
@@ -354,6 +354,14 @@ Philippics is +15 and was split into two releases rather than shipped as one.
   Consolatio) and Ad Familiares 6 -> 8 (V.2 the Metellus quarrel, V.15 the Lucceius letter of 45 that
   answers V.12 across eleven years). **`cicero/att4` fetched** to close the 60-49 BC hole - the app had
   only books I, VII and XII. Letters **26 across 4 works**, Cicero **143**, bank **303**.
+- **v1.8.2 FOLLOW-UP (28/08, no version bump): THE EMENDATION RULE IS NOW "IS IT A LATIN WORD?"**
+  The user re-examined the three trims and was right on all three. *Brundinisorum* -> *Brundisinorum*
+  (Att. IV.1, settled by *Brundisinae*/*Brundisi*/*Brundisinis* in the same passage), *iuiucunda* ->
+  *iniucunda* (Fam. V.2, settled by the laughter in the next clause), *immicus* -> *inimicus* and
+  *ahenum* -> *alienum* (Brut. I.15). All three excerpts now run whole with no cuts.
+  **The flaw this exposed: I had treated "Perseus prints it too" as proof a reading was transmitted.
+  Perseus and The Latin Library are NOT independent witnesses for these texts, and a non-word is a
+  defect however many sites carry it.** Full rule in `tools/README.md`.
 - **NEXT: Cicero's PHILOSOPHICAL and RHETORICAL groups.** Philosophical has **1 fragment**
   (De Amicitia 20, a launch original) and **`de-amicitia` is STILL the only Cicero work with no
   `sources.json` entry, so that fragment has never been verified** - map `cicero/amic` and check it

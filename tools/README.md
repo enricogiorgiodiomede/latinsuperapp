@@ -46,24 +46,42 @@ checklist (CHANGELOG, in-app What's New, reference sheet, memory).
   (*uidetur*, *uitia*, *diuersisque*) and *inl-*/*inr-* for *ill-*/*irr-*. That is an editorial
   convention, **not** a typo, and neither are its genuine variant readings (*Pro Caelio* 12 has
   *diversisque **atque** inter se* where The Latin Library has *et*). Only plain non-words qualify.
-- **Emendations are declared, never silent. POLICY CHANGED IN THE v1.8.0 FOLLOW-UP (the user's
-  instruction): MEND FIRST, TRIM ONLY AS A LAST RESORT.** Where the source has a plain defect and the
-  correct reading is not in doubt, **check it against a second text and then correct it in the app,
-  saying so in the analysis** - do not silently drop the sentence, and do not lose a good passage to a
-  one-letter misprint. **Poesia Latina is the first place to look**, but if it cannot be reached or does
-  not carry the work, any other reputable text of the passage will do, and if none can be found the
-  correction may still be made and flagged as unconfirmed. Several defects in one passage are fine when
-  each is separately certain: Att. I.18 carries **three**. The old rule (trim past the defect, drop the
-  passage if it has several) now applies only where the right reading is genuinely open - that is why
-  Verr. II.2.32-33 and the tail of II.3.120 stay rejected. **A declared orthographic normalisation also
-  uses `emend`**: The Latin Library sets ad Brutum with a capital V for the vowel u, and *Vtinam* is
-  printed *Utinam* in the app and declared. It never covers variant readings. A fragment carries
-  `emend: [[sourceReading, appReading], ...]`. Since v1.7.7 that covers **plain errors of any kind**,
-  not only non-words: a manifest punctuation defect qualifies too (*navem. suam* at Verr. II.1.46).
-  It never covers variant readings or classical orthography.
-  `apply_batch.js` then applies it to the extracted Latin and stores it on the fragment, and
+- **Emendations are declared, never silent. THE TEST IS WHETHER THE PRINTED FORM IS A LATIN WORD**
+  (rule settled in the v1.8.2 follow-up, after the user corrected an earlier and worse version of it).
+  Work through it in this order:
+  1. **Is the printed form a Latin word at all?** If it is not - *uam*, *que*, *quani*, *antiqissimum*,
+    *ferris*, *consulibis*, *iuiucunda*, *ahenum*, *immicus*, *Brundinisorum* - it is a **defect**, and
+    the number of websites reproducing it is irrelevant. **Two digital texts descended from the same
+    printed edition are not two witnesses.** I once kept *immicus* because Perseus printed it too; that
+    was wrong, and the user caught it.
+  2. **Is the correction settled?** Usually the language settles it (there is only one word *quam* can
+    be). Where more than one correction is formally possible, **the context decides**: *iuiucunda* could
+    be *iucunda* or *iniucunda*, and *mediocris quidam est risus consecutus* in the next clause rules out
+    "not pleasing", so *non iniucunda* it is. **Internal evidence is the strongest kind**: Att. IV.1
+    prints *Brundisinae*, *Brundisi* and *Brundisinis* within a few lines of *Brundinisorum*, which
+    settles the stem beyond argument.
+  3. **Then MEND, and say so in the analysis, in both languages.** Do not lose a good passage to a
+    one-letter misprint. Check a second text where you can - **Poesia Latina first, though it has been
+    unreachable from this tooling (ECONNRESET) since v1.8.0** - and if none can be found, correct it
+    anyway and flag it as unconfirmed. Several emendations in one fragment are fine when each is
+    separately certain: Att. I.18 carries **three**.
+  - **KEEP AND FLAG** a form that **is** real Latin, however odd it looks: *Illias* (Arch. 24),
+    *inplevit* (Phil. II.63), *quom* for *cum*, *memorabilis* for *memorabiles*, *paullo*. These are
+    spelling variants and archaisms, not errors.
+  - **TRIM** only where **independent editions genuinely disagree and both readings are real words**, or
+    where the text is so damaged that nobody can restore it (Verr. II.2.32-33, the tail of II.3.120).
+    **Exception:** if the trim would remove an antecedent or a subject the rest of the passage needs,
+    **print the damaged text with its daggers `+...+` and explain them** instead - that is what
+    Ad Brutum I.15 does with `+neque solum ut Solonis dictum usurpem+`, after the first attempt cut
+    Solon's name out and left a bare *is* pointing at nothing.
+  - **A declared orthographic normalisation also uses `emend`**: The Latin Library sets ad Brutum with a
+    capital V for the vowel u, and *Vtinam* is printed *Utinam* in the app and declared.
+  - A fragment carries `emend: [[sourceReading, appReading], ...]`; since v1.7.7 that covers plain errors
+    of any kind, including a manifest punctuation defect (*navem. suam* at Verr. II.1.46, and the full
+    stop for a comma at Att. I.18).
+  `apply_batch.js` applies it to the extracted Latin and stores it on the fragment, and
   `verify.js` puts the source's own reading back before comparing, so every other character is still
-  proved verbatim; a stale emendation is a hard failure. Say so in the analysis too. This is *not*
+  proved verbatim; a stale emendation is a hard failure. This is *not*
   `fix`, which only reconciles source style that `normalise()` already handles and is not recorded.
 - **Trimmed fragments** mark the cut with `[...]` and are built from several extracted pieces via
   `keys` + `joins`. The verifier checks each piece separately and in source order.

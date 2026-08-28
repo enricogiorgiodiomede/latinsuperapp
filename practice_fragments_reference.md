@@ -814,15 +814,23 @@ ad Quintum 5, ad Brutum 5).
 - **Ad Familiares V.15** - to Lucceius in 45. **Built as the deliberate answer to V.12**, same
   correspondent eleven years on; the two cross-reference each other in both analyses.
 
-**THE THREE-WAY DISTINCTION THIS GROUP NOW ILLUSTRATES, worth keeping straight:**
-1. **A plain defect with ONE possible reading** -> check a second text, **emend and declare it**
-   (Att. I.18 x3, Fam. V.12, Q.fr. I.1, Q.fr. III.5 x2, Fam. XVI.8's Greek).
-2. **A reading the printed editions carry too** -> **transmitted; keep it and flag it in the analysis**
-   (*immicus* and *ahenum* in Brut. I.15, *Illias* in Arch. 24, *inplevit* in Phil. II.63).
-3. **Witnesses that disagree, or a form with two opposite expansions** -> **a variant; trim past it**
-   (*Brundinisorum* in Att. IV.1, *iuiucunda* in Fam. V.2, the daggered clause cut in Verr. II.2.32-33).
-   **Exception, learned in the v1.8.1 follow-up: if the trim would remove an antecedent or a subject the
-   rest of the passage needs, print the damaged text with its daggers and explain it instead.**
+**THE RULE, SETTLED IN THE v1.8.2 FOLLOW-UP AFTER THE USER CORRECTED ME. The test is whether the
+printed form is a Latin word - NOT how many sites print it.**
+1. **Not a Latin word -> DEFECT -> emend and declare**, in both languages. *uam*, *que*, *quani*,
+   *antiqissimum*, *ferris*, *consulibis*, *iuiucunda*, *ahenum*, *immicus*, *Brundinisorum*: all of
+   these are now mended. **The number of websites reproducing a non-word is irrelevant** - two digital
+   texts descended from one printed edition are not two witnesses. **I kept *immicus* because Perseus
+   had it, and that was simply wrong.**
+2. **Which correction?** Usually only one is possible. Where more than one is, **the context decides**
+   (*iuiucunda*: the *mediocris quidam est risus consecutus* that follows rules out "not pleasing", so
+   *non iniucunda*), and **internal evidence beats everything** (Att. IV.1 prints *Brundisinae*,
+   *Brundisi* and *Brundisinis* within a few lines of *Brundinisorum*).
+3. **A real Latin form, however odd -> KEEP and flag**: *Illias* (Arch. 24), *inplevit* (Phil. II.63),
+   *quom*, *memorabilis* for *memorabiles*, *paullo*. Spelling variants and archaisms, not errors.
+4. **TRIM only** where independent editions genuinely disagree and **both readings are real words**, or
+   where the text is beyond restoring (Verr. II.2.32-33, the tail of II.3.120). **Exception: if the trim
+   would remove an antecedent or a subject, print the damaged text with its daggers `+...+` and explain
+   them** - Brut. I.15 and `+neque solum ut Solonis dictum usurpem+`.
 
 **v1.8.1 ADDITIONS (Letters now 21 across 4 works).**
 - **Ad Quintum fratrem III.1** (`fratrem3`) - the building sites at Arcanum and the Manilian property.
