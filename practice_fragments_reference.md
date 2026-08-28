@@ -805,13 +805,18 @@ these stopped being reasons to trim**: see the policy change below.
   **EMENDED twice**: *ferris* -> *feriis*, *consulibis* -> *consulibus*.
 - **Ad Brutum I.9** (`adbrutum1`) - the consolation for Porcia. Contains the editorial supplement
   `<ita>` in angle brackets, kept as printed. Cross-ref **Att. XII.15**.
-- **Ad Brutum I.15** (`adbrutum1`) - sections 3 + 4, three pieces. **TWO EDITORIAL CASES IN ONE
-  FRAGMENT, worth remembering:** (1) the cut between pieces a and b **goes round a clause the editions
-  print between daggers**, `+neque solum ut Solonis dictum usurpem+` - a corruption nobody could repair,
-  so it is reported and not mended, which is why piece b opens on *is* with Solon named only in the
-  omitted words; (2) ***immicus* for *inimicus* at the end is KEPT**, because Perseus prints it too, so
-  it is a transmitted reading rather than a source typo (precedent: *Illias*, *inplevit*).
-  Also *memorabilis Idus* = accusative plural, the older i-stem ending, NOT a misprint.
+- **Ad Brutum I.15** (`adbrutum1`) - sections 3 + 4, two pieces. **TWO EDITORIAL CASES IN ONE FRAGMENT,
+  worth remembering:** (1) the clause the editions print **between daggers**,
+  `+neque solum ut Solonis dictum usurpem+`, is **PRINTED AS THE SOURCE PRINTS IT** and explained in the
+  analysis. It was cut around at first, and that was wrong: **the cut also removed Solon's name, so the
+  next sentence opened on a bare *is* with no antecedent left in the excerpt** (the user caught it, and
+  the fragment was rebuilt the same day). **RULE: trim around an unrepairable reading only when the trim
+  costs nothing the reader needs. If it removes an antecedent or a subject, print the damaged text with
+  its daggers and say what they mean.** (2) ***immicus* for *inimicus* at the end is KEPT**, because
+  Perseus prints it too, so it is a transmitted reading rather than a source typo (precedent: *Illias*,
+  *inplevit*) - and so is ***ahenum* for *alienum***, in the sentence that would otherwise join sections
+  3 and 4, which is why the fragment still cuts before [4]. Also *memorabilis Idus* = accusative plural,
+  the older i-stem ending, NOT a misprint.
 - **Ad Familiares XVI.8** (`fam16`) - **BY QUINTUS, NOT CICERO.** Book XVI keeps incoming letters, and
   this is the counterpart to XVI.1 three months later. **THE MOJIBAKE IS NOW RESOLVED** (the old note
   saying to avoid this letter is superseded): the page cannot set Greek, so both Greek phrases print as

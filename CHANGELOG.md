@@ -68,7 +68,28 @@ letter that is not by Cicero. Letters **21 across 4 works**, Cicero **138**, ban
   mended, so the fragment cuts around it - which is why its second piece opens on *is* with Solon named
   only in the omitted words.
 
-Cache-bust: `?v=96` -> `?v=97`.
+Cache-bust: `?v=96` -> `?v=97`, then `?v=98` with the follow-up below.
+
+### Same-day follow-up - the daggered clause goes back into Ad Brutum I.15
+The user's catch, and a correction to the call made a few hours earlier. Cutting around the crux also
+cut out **Solon's name**, so the excerpt's second piece opened on a bare *is* whose antecedent was
+nowhere in the fragment: unusable for anyone actually translating it, unless they happened to already
+know the sentence. **A crux is a thing to print and explain, not a thing to hide.** The clause is
+restored exactly as the source prints it, `+neque solum ut Solonis dictum usurpem+`, and the analysis
+now says in both languages what daggers mean - that editors use them to mark a passage they believe is
+damaged and cannot repair, and that the words between them should be read with that warning attached.
+The fragment drops from **three pieces to two** and reads continuously through section 3.
+
+The rule this refines: **trimming around an unrepairable reading is right only when the trim costs
+nothing the reader needs.** When it removes an antecedent, a subject or anything else the rest of the
+passage depends on, print the damaged text with its daggers and explain it instead.
+
+Not changed, for the same reason as before: *ahenum* for *alienum* in the sentence that would join
+sections 3 and 4 is printed by Perseus as well as by our source, so it is transmitted rather than a site
+typo, and the fragment still cuts before section 4 rather than reproducing it.
+
+No new excerpts, so this stays **v1.8.1** and the NEW! banners do not move. Cache `?v=97` -> `?v=98`.
+
 
 ## [1.8.0] - 2026-08-27
 

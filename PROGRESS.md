@@ -74,7 +74,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=97`.**
+   whenever you change a JS/CSS file. **Currently `v=98`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -248,7 +248,7 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
   **Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
 **=== SESSION HANDOFF (updated 2026-08-24) ===**
-Current: **v1.8.1, cache ?v=97**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
+Current: **v1.8.1, cache ?v=98**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
 50 frags since v1.4.0). Caesar's-Age flesh-out in progress: **Nepos done (1->8, v1.2.0)**;
 **Cicero is the big active job and is now the largest author in the app at 118 excerpts** (Plautus 50).
 
@@ -344,6 +344,11 @@ Philippics is +15 and was split into two releases rather than shipped as one.
   of spaced-out single letters - unusable and completely silent about it; and `strip.js` left named
   HTML entities (`&ocirc;`, `&ecirc;`) undecoded. Both fixed, all pages re-fetched with `--force`, bank
   re-verified. Letters **21 across 4 works**, bank **298**.
+- **v1.8.1 FOLLOW-UP (28/08, no version bump):** the daggered clause went back into **Ad Brutum I.15**.
+  Cutting around the crux had also removed **Solon's name**, leaving the next sentence to open on a bare
+  *is* with no antecedent in the excerpt - the user caught it. **RULE REFINED: trimming around an
+  unrepairable reading is right only when the trim costs nothing the reader needs; when it removes an
+  antecedent or subject, print the damaged text WITH its daggers and explain them.** Three pieces -> two.
 - **NEXT: v1.8.2 / .3, THE LARGE PAIR** - **Ad Atticum 5 -> 7 or 8** and **Ad Familiares 6 -> 7 or 8**.
   **THE USER IS STILL DECIDING BETWEEN 7 AND 8 - ASK BEFORE BUILDING.** Note Familiares is already at 6,
   so it needs only +1 or +2. Candidate passages are listed in `practice_fragments_reference.md` under
