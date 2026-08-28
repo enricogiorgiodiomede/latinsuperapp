@@ -74,7 +74,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=96`.**
+   whenever you change a JS/CSS file. **Currently `v=97`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -248,7 +248,7 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
   **Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
 **=== SESSION HANDOFF (updated 2026-08-24) ===**
-Current: **v1.8.0, cache ?v=96**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
+Current: **v1.8.1, cache ?v=97**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
 50 frags since v1.4.0). Caesar's-Age flesh-out in progress: **Nepos done (1->8, v1.2.0)**;
 **Cicero is the big active job and is now the largest author in the app at 118 excerpts** (Plautus 50).
 
@@ -335,14 +335,19 @@ Philippics is +15 and was split into two releases rather than shipped as one.
   and no cut at all), Fam. V.12 (+1), Q.fr. I.1 (+1, no cut), Brut. I.3 (*Vtinam* -> *Utinam*, a declared
   orthographic normalisation). Two Italian translations fixed. Poesia Latina was unreachable, so the
   readings were checked against other texts of the letters. See `tools/README.md` for the new rule.
-- **NEXT, before the philosophical/rhetorical groups: DEEPEN THE LETTERS (v1.8.1 / .2 / .3)** - the
-  user's plan, 27/08/2026. Targets: **Ad Quintum fratrem 3 -> 5** and **Ad Brutum 3 -> 5**;
-  **Ad Atticum 5 -> 7 or 8** and **Ad Familiares 5 -> 7 or 8** (**the user is still deciding between 7
-  and 8 - ASK before building those two**). That is +4 for the small pair and +4 to +6 for the large
-  pair, so roughly **+8 to +10**, split across two or three patch releases at 3-5 excerpts each, the
-  standing batch size. Suggested split: **v1.8.1** = ad Quintum +2 and ad Brutum +2 (the two that are
-  clearly short, and no decision needed); **v1.8.2 / .3** = Atticum and Familiares once the target is
-  fixed. Candidate passages are listed in `practice_fragments_reference.md` under the Letters section.
+- ~~**v1.8.1**~~ DONE 27/08: **ad Quintum 3 -> 5, ad Brutum 3 -> 5, +5** (Fam. XVI.8 came along too,
+  so Familiares is 6). Q.fr. III.1 (the building site) and III.5 (the De Re Publica rewritten, the
+  hardest Latin in the section); Brut. I.9 (the consolation for Porcia) and I.15 (Solon, and the Ides);
+  Fam. XVI.8, **which is by QUINTUS, not Cicero** - book XVI keeps incoming letters too.
+  **TWO SILENT CACHE FAULTS FIXED:** `fetch_sources.js` decoded everything as latin1, so
+  **`cicero/fratrem3`, which is served as UTF-16 with a BOM**, had been sitting in the cache as a page
+  of spaced-out single letters - unusable and completely silent about it; and `strip.js` left named
+  HTML entities (`&ocirc;`, `&ecirc;`) undecoded. Both fixed, all pages re-fetched with `--force`, bank
+  re-verified. Letters **21 across 4 works**, bank **298**.
+- **NEXT: v1.8.2 / .3, THE LARGE PAIR** - **Ad Atticum 5 -> 7 or 8** and **Ad Familiares 6 -> 7 or 8**.
+  **THE USER IS STILL DECIDING BETWEEN 7 AND 8 - ASK BEFORE BUILDING.** Note Familiares is already at 6,
+  so it needs only +1 or +2. Candidate passages are listed in `practice_fragments_reference.md` under
+  the Letters section.
 - **THEN: Cicero's other two groups** - **Letters** (Ad Atticum has 1; add Ad Familiares, Ad
   Quintum, Ad Brutum - all already in `_notLive` in sources.json and cached), **Philosophical works**
   (De Amicitia has 1; De Senectute, Somnium Scipionis, Tusculanae, De Officiis), **Rhetorical works**

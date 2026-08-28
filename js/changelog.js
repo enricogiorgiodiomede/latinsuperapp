@@ -12,6 +12,37 @@
 
   var VERSIONS = [
     {
+      v: '1.8.1', date: '2026-08-27', time: '00:00', tz: 'CEST',
+      en: {
+        added: [
+          'The two short letter collections are filled out: 5 new excerpts, and Ad Quintum fratrem and Ad Brutum both go from 3 to 5. Ad Familiares picks up a sixth on the way.',
+          'Ad Quintum fratrem, 3 to 5. Cicero as clerk of works: with his brother away in Gaul he tours the family building sites and reports back on the water supply, the plasterwork and the contractor, who is "Diphilus slower than Diphilus" and who will one day, Cicero hopes, learn to use a plumb-line (III.1). And then the strangest letter in the collection - Cicero explaining that he has torn up the De Re Publica and started again, because a friend listening to it read aloud told him the argument would carry more weight if he stopped hiding behind a cast of dead statesmen and spoke in his own voice (III.5). It is the fullest account anybody in antiquity left of a book being redesigned halfway through, and it is by a distance the hardest Latin in this section.',
+          'Ad Brutum, 3 to 5. Brutus\'s wife has died, and Cicero writes the letter he owes: two years earlier Brutus had consoled him for Tullia and then told him off for grieving too openly, and Cicero now hands that back, gently, with the observation that a commander no longer grieves for himself but "for the public and, as they say, for the stage" (I.9). And the letter where he answers Brutus\'s one criticism of him with Solon - a state stands on reward and punishment - before delivering the most famous verdict in the collection on what the assassins of Caesar did and did not finish: a great plague driven off, a great stain wiped away, and the machinery of one-man rule left lying about for Antony to pick up (I.15).',
+          'One letter that is not by Cicero at all. Book XVI of the Ad Familiares is Tiro\'s book, and it keeps what arrived as well as what was sent; this one is from Cicero\'s brother Quintus, writing to the same sick freedman three months after Cicero did, quoting a line of Euripides at him about cold being the enemy of a delicate skin, and begging him not to attempt a winter crossing (XVI.8). Read it straight after XVI.1 and you get the whole household at once.'
+        ],
+        changed: [
+          'The Greek in that letter is readable again. The source site cannot print Greek on this page: both of Quintus\'s Greek phrases come out as strings of stray Latin letters, and the line of Euripides is printed twice by mistake. The app now shows the actual Greek, once, and says so in the notes. The reading was supplied by the user from a text that renders it properly.',
+          'A whole book of letters had been sitting in the cache unreadable. Ad Quintum fratrem III is stored on the source site in a different text encoding from every other page, and the downloader had been assuming there was only one, so the copy on disk was a page of single letters spaced apart - unusable, and silently so. Both of this update\'s Ad Quintum excerpts come from that book. While fixing it, accented letters that were arriving as raw codes rather than characters were fixed too, and every page was downloaded again from scratch to confirm nothing else had been quietly damaged.',
+          'Ad Brutum I.3a says Pansa fled. The consul died of his wounds after Mutina, and Cicero uses a pointedly unkind verb about how he left the field; both translations had softened it to "withdrew".'
+        ],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Le due raccolte di lettere più corte vengono completate: 5 nuovi brani, e sia le Lettere al fratello Quinto sia quelle a Bruto passano da 3 a 5. Le Lettere ai familiari, per strada, ne guadagnano una sesta.',
+          'Al fratello Quinto, da 3 a 5. Cicerone come capocantiere: con il fratello lontano in Gallia, gira per i cantieri di famiglia e manda un rapporto sull’acqua, sugli intonaci e sull’impresario, che è "Difilo più lento di Difilo" e che un giorno, spera Cicerone, imparerà a usare il filo a piombo (III.1). E poi la lettera più strana della raccolta: Cicerone che spiega di aver fatto a pezzi il De Re Publica e di aver ricominciato, perché un amico, ascoltandolo leggere ad alta voce, gli aveva detto che il ragionamento avrebbe avuto più peso se avesse smesso di nascondersi dietro un cast di statisti morti e avesse parlato con la propria voce (III.5). È il resoconto più ampio che l’antichità ci abbia lasciato di un libro riprogettato a metà strada, ed è di gran lunga il latino più difficile di questa sezione.',
+          'A Bruto, da 3 a 5. È morta la moglie di Bruto, e Cicerone scrive la lettera che deve: due anni prima Bruto lo aveva consolato per Tullia e poi rimproverato di manifestare troppo il dolore, e Cicerone ora glielo restituisce, con delicatezza, osservando che un comandante non piange più per sé ma "per il pubblico e, come si dice, per la scena" (I.9). E la lettera in cui risponde con Solone all’unica critica che Bruto gli muove - uno stato si regge sul premio e sulla pena - prima di pronunciare il giudizio più celebre della raccolta su ciò che i cesaricidi fecero e non finirono: una grande peste scacciata, una grande macchia cancellata, e gli strumenti del potere personale lasciati in giro perché Antonio li raccogliesse (I.15).',
+          'Una lettera che non è affatto di Cicerone. Il libro XVI delle Ad Familiares è il libro di Tirone, e conserva ciò che arrivava non meno di ciò che partiva; questa è di Quinto, il fratello di Cicerone, che scrive allo stesso liberto malato tre mesi dopo di lui, gli cita un verso di Euripide sul freddo nemico della carne delicata e lo supplica di non tentare una traversata invernale (XVI.8). Letta subito dopo la XVI.1, restituisce tutta la casa in una volta.'
+        ],
+        changed: [
+          'Il greco di quella lettera torna leggibile. Il sito di origine non riesce a stampare il greco in questa pagina: entrambe le frasi greche di Quinto escono come sequenze di lettere latine sballate, e il verso di Euripide è stampato due volte per errore. L’app ora mostra il greco vero, una volta sola, e lo dichiara nelle note. La lezione è stata fornita dall’utente a partire da un testo che lo rende correttamente.',
+          'Un intero libro di lettere giaceva illeggibile nella cache. Le Lettere al fratello Quinto III sono salvate sul sito di origine con una codifica diversa da tutte le altre pagine, e il programma di scaricamento dava per scontato che ce ne fosse una sola: la copia su disco era una pagina di lettere singole distanziate, inutilizzabile, e senza che nulla lo segnalasse. Entrambi i brani di Ad Quintum di questo aggiornamento vengono da quel libro. Nel sistemare la cosa sono state corrette anche le lettere accentate che arrivavano come codici invece che come caratteri, e ogni pagina è stata riscaricata da zero per verificare che nient’altro fosse rovinato in silenzio.',
+          'In A Bruto I.3a Pansa fugge. Il console morì per le ferite dopo Modena, e Cicerone usa un verbo volutamente sgarbato su come lasciò il campo; entrambe le traduzioni lo avevano addolcito in "si era ritirato".'
+        ],
+        deleted: []
+      }
+    },
+    {
       v: '1.8.0', date: '2026-08-27', time: '19:32', tz: 'CEST',
       en: {
         added: [

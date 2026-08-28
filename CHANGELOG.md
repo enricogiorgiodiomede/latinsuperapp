@@ -6,6 +6,70 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.8.1] - 2026-08-27
+
+**The two short letter collections filled out, +5.** **Ad Quintum fratrem 3 -> 5** and **Ad Brutum
+3 -> 5**, the half of the extension plan that needed no decision, plus **Ad Familiares 5 -> 6** with a
+letter that is not by Cicero. Letters **21 across 4 works**, Cicero **138**, bank **298**.
+
+### Added
+- **Ad Quintum fratrem III.1** - Cicero inspecting his brother's building sites while Quintus is in
+  Gaul: the water supply, the stucco, the ceilings he sends back, and *Diphilum Diphilo tardiorem*,
+  the contractor who will *aliquando perpendiculo et linea discet uti*. Deliberately the plainest,
+  most concrete Latin in the section, and full of building vocabulary.
+- **Ad Quintum fratrem III.5** - the **De Re Publica** taken apart and redesigned, on Sallustius'
+  advice, because a consular should speak in his own voice rather than hide behind Scipio's circle.
+  **The hardest Latin in the Letters by a distance**: one period after the first clause, and its second
+  half is oratio obliqua with five infinitives. Cross-links to **Q.fr. II.9** (the same Sallustius) and
+  **Fam. V.7** (the Africanus/Laelius pairing).
+- **Ad Brutum I.9** - the consolation for Porcia, which is really Cicero returning the letter Brutus
+  sent him after Tullia died, telling-off included. *Tibi nunc populo et scaenae, ut dicitur,
+  serviendum est.* Cross-links to **Att. XII.15**.
+- **Ad Brutum I.15** - sections 3 and 4: Solon's *praemio et poena* answering both of Cicero's critics
+  at once, then the verdict on the Ides of March and *instrumentum regni delatum ad Lepidum et
+  Antonium*.
+- **Ad Familiares XVI.8** - **not by Cicero**: Quintus writes to Tiro, three months after Marcus did in
+  XVI.1, quoting Euripides at him about cold and delicate skin. Book XVI keeps what arrived as well as
+  what was sent, and the pairing puts the whole household on one page.
+
+### Fixed - two silent cache faults, both of the same family
+- **`fetch_sources.js` assumed every page was single-byte.** `cicero/fratrem3` is served as **UTF-16
+  with a BOM**, so decoding it as latin1 produced a cache file in which every character was separated
+  by a NUL - which `strip.js` then turned into a page of spaced-out single letters. Nothing errored;
+  the file was simply unusable, and a fragment sourced from it would have failed verification for no
+  visible reason. The fetcher now checks the BOM (LE and BE) before decoding. **Both new Ad Quintum
+  excerpts come from that book**, which is why this surfaced now.
+- **`strip.js` left named HTML entities undecoded.** `&ocirc;` and `&ecirc;` are all over the
+  transliterated Greek of ad Quintum III and ad Brutum I, and `&Ccedil;` appears once; they were being
+  cached literally. Accent entities, `&ccedil;`, `&ntilde;` and any numeric entity are now decoded.
+- **Every page re-fetched with `--force`** afterwards, and the whole bank re-verified, to prove nothing
+  else had been quietly damaged: **0 mismatched** before the new batch, **137 verbatim, 0 mismatched**
+  after it.
+
+### Fixed - text and translation
+- **Ad Familiares XVI.8's Greek is restored.** The source cannot set Greek on that page: both of
+  Quintus' Greek phrases print as runs of stray Latin letters from a symbol font, and **the Euripides
+  line is printed twice**. Declared with `emend`: the app prints ἀκίνδυνα μὲν χρονιώτερα δέ and
+  ψῦχος δὲ λεπτῷ χρωτὶ πολεμιώτατον, the line once. The decoding was supplied by the user from a text
+  that renders the Greek properly. Note the fragment builds its emendation anchors **by slicing the
+  extracted passage**, since retyping a run of replacement characters by hand is exactly what the
+  pipeline exists to prevent.
+- **Ad Quintum fratrem III.5:** *ferris* -> *feriis* and *consulibis* -> *consulibus*, both checked
+  against another text of the letter.
+- **Ad Brutum I.3a (v1.8.0, tag unchanged):** *nam Pansa fugerat* says Pansa **fled**; both translations
+  had softened it to "withdrew", losing a pointedly unkind verb.
+
+### Not fixed, deliberately - where the mend-first rule stops
+- **Ad Brutum I.15 prints *immicus* for *inimicus*.** Perseus prints it too, so it is a **transmitted
+  reading**, not a slip of our source, and it is kept exactly as it stands and flagged in the analysis -
+  the precedent is *Illias* (Arch. 24) and *inplevit* (Phil. II.63).
+- **The same letter has a clause between daggers**, `+neque solum ut Solonis dictum usurpem+`, the
+  editors' mark for a text nobody could repair. A corruption that cannot be resolved is reported, not
+  mended, so the fragment cuts around it - which is why its second piece opens on *is* with Solon named
+  only in the omitted words.
+
+Cache-bust: `?v=96` -> `?v=97`.
+
 ## [1.8.0] - 2026-08-27
 
 **Cicero's Letters open properly: +15 excerpts, three new works.** The `letters` group went from one

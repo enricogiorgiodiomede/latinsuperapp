@@ -630,8 +630,8 @@ release version, pause for review after each.
 | ~~v1.7.6~~ DONE | **the five empty Verrine works filled** (+8): Divinatio 1-2 / 40-43, Actio Prima ch. I / ch. XIV, II.1 53-54 / 104-105, II.2 2-3, II.3 47 | 18 across 7 works |
 | ~~v1.7.7~~ DONE | **the five thinner parts to 3 each** (+7): Divinatio 19-20, Actio Prima ch. XI, II.1 46-47, II.2 86 / 192, II.3 120 / 207. **THE VERRINES ARE CLOSED** | **25 across 7 works (5x5)** |
 | ~~**v1.8.0**~~ DONE | **THE LETTERS, +15**: Ad Atticum 1 -> 5, and three new works - Ad Familiares 5, Ad Quintum fratrem 3, Ad Brutum 3. Verified `ad-atticum` for the first time and fixed the launch-era Att. I.16 | **16 across 4 works** |
-| **v1.8.1** | **DEEPEN THE SHORT PAIR**: Ad Quintum fratrem +2 and Ad Brutum +2. No decision needed, both are clearly thin at 3 | 3 -> **5** each |
-| **v1.8.2 / .3** | **DEEPEN THE LARGE PAIR**: Ad Atticum and Ad Familiares to **7 or 8 each** - **the user is still choosing between 7 and 8, ASK FIRST**. +2 to +3 per work, so one or two releases at the standing 3-5 batch size | 5 -> **7 or 8** each |
+| ~~**v1.8.1**~~ DONE | **THE SHORT PAIR**: Ad Quintum fratrem +2 (III.1, III.5) and Ad Brutum +2 (I.9, I.15), plus Fam. XVI.8 by Quintus. Fixed two silent cache faults (UTF-16 pages, HTML entities) | 3 -> **5** each |
+| **v1.8.2 / .3** | **DEEPEN THE LARGE PAIR**: Ad Atticum (5) and Ad Familiares (**already 6**) to **7 or 8 each** - **the user is still choosing between 7 and 8, ASK FIRST**. So +2 or +3 for Atticum and only +1 or +2 for Familiares | 5/6 -> **7 or 8** each |
 | **THEN** | Cicero's **Philosophical works** and **Rhetorical works** groups (see "Still to build"), then **Caesar, Hirtius, Lucretius, Sallust, Catullus** | |
 
 **LETTERS EXTENSION PLAN, saved 27/08/2026 on the user's instruction.** The Letters get deepened
@@ -644,17 +644,18 @@ used yet:
   minuendo scriptum ab ullo est quod ego non domi tuae legerim* and the self-consolation).
 - **Ad Familiares** - `fam5` V.2 (the quarrel with Metellus Celer), V.13 or V.15 (Lucceius consoling and
   Cicero replying, 45 BC), `fam14` XIV.1 or XIV.2 (more exile letters to Terentia), XIV.7 (the crossing
-  to Greece in 49), `fam16` XVI.5 or XVI.9 (more Tiro). **NOTE:** `fam16` VIII contains mojibake Greek
-  (`cËxow d¢ lept³ ...`) - avoid that letter. Books beyond 5/14/16 would need a new fetch.
-- **Ad Quintum fratrem** - `fratrem1` I.1 elsewhere (the *cohors* and the governor's staff; the Greeks
-  passage at section 7, *de caelo divinum hominem esse in provinciam delapsum*), I.2, I.4 (the last
-  exile letter); `fratrem2` II.10 onwards; `fratrem3` III.1 (Quintus in Britain with Caesar) and III.5
-  (Cicero describing how he is writing the De Re Publica) - **`fratrem3` is cached but no fragment uses
-  it yet**.
-- **Ad Brutum** - `adbrutum1` I.9 or I.15 (Cicero's long self-defence of his whole policy against
-  Antony), I.12, I.18 (the last letter, and Servilia); `adbrutum2` (5 letters, **entirely unused so
-  far**). **Avoid I.16 and I.17**, the two whose authenticity is most disputed, and letter I, which
-  holds the only un-decoded HTML entity in the cache (`&ocirc;`).
+  to Greece in 49), `fam16` XVI.5 or XVI.9 (more Tiro). **`fam16` VIII is now USED, not avoided** - its mojibake
+  Greek was decoded and emended in v1.8.1. Books beyond 5/14/16 would need a new fetch.
+- ~~**Ad Quintum fratrem**~~ **DONE at 5 in v1.8.1** (III.1 and III.5 used). If it is ever deepened
+  again: `fratrem1` I.1 elsewhere (the *cohors* and the governor's staff; the Greeks passage at
+  section 7, *de caelo divinum hominem esse in provinciam delapsum*), I.2, I.4 (the last exile letter);
+  `fratrem2` II.10 onwards; `fratrem3` III.1 sections 17-25 (Caesar writing from Britain, and the
+  *embolium* on Piso and Gabinius - **cross-ref In Pisonem**).
+- ~~**Ad Brutum**~~ **DONE at 5 in v1.8.1** (I.9 and I.15 used). If it is ever deepened again:
+  `adbrutum1` I.12, I.18 (the last letter, and Servilia); `adbrutum2` (5 letters, **still entirely
+  unused**, notably II.5, Cicero's fullest statement of his war policy). **Still avoid I.16 and I.17**,
+  the two whose authenticity is most disputed. Letter I's `&ocirc;` is no longer a reason to avoid it:
+  entities are decoded since v1.8.1.
 
 
 **ROADMAP SHIFTED BY ONE, 2026-08-24 (user's instruction).** Deepening all four Philippics to the
@@ -794,6 +795,43 @@ not-live one (`att12.txt`). **Handled in v1.8.0:** `att1.txt` has *ab aLus* for 
 a genuine TLL typo and not a stripper artefact - no fragment goes near I.9. The letter pages turned out
 to be typo-rich in general (*uam*, *que*, *quani*, *antiqissimum*, *occuras*). **In the v1.8.0 follow-up
 these stopped being reasons to trim**: see the policy change below.
+
+**v1.8.1 ADDITIONS (Letters now 21 across 4 works).**
+- **Ad Quintum fratrem III.1** (`fratrem3`) - the building sites at Arcanum and the Manilian property.
+  Two pieces; the plainest Latin in the section and a technical-vocabulary goldmine (*tectorium*,
+  *camerae*, *pavimenta*, *apodyterium*, *vaporarium*). The joke is *Diphilum Diphilo tardiorem*.
+- **Ad Quintum fratrem III.5** (`fratrem3`) - the De Re Publica redesigned on Sallustius' advice.
+  **THE HARDEST LATIN IN THE LETTERS**: one period, second half in oratio obliqua with five infinitives.
+  **EMENDED twice**: *ferris* -> *feriis*, *consulibis* -> *consulibus*.
+- **Ad Brutum I.9** (`adbrutum1`) - the consolation for Porcia. Contains the editorial supplement
+  `<ita>` in angle brackets, kept as printed. Cross-ref **Att. XII.15**.
+- **Ad Brutum I.15** (`adbrutum1`) - sections 3 + 4, three pieces. **TWO EDITORIAL CASES IN ONE
+  FRAGMENT, worth remembering:** (1) the cut between pieces a and b **goes round a clause the editions
+  print between daggers**, `+neque solum ut Solonis dictum usurpem+` - a corruption nobody could repair,
+  so it is reported and not mended, which is why piece b opens on *is* with Solon named only in the
+  omitted words; (2) ***immicus* for *inimicus* at the end is KEPT**, because Perseus prints it too, so
+  it is a transmitted reading rather than a source typo (precedent: *Illias*, *inplevit*).
+  Also *memorabilis Idus* = accusative plural, the older i-stem ending, NOT a misprint.
+- **Ad Familiares XVI.8** (`fam16`) - **BY QUINTUS, NOT CICERO.** Book XVI keeps incoming letters, and
+  this is the counterpart to XVI.1 three months later. **THE MOJIBAKE IS NOW RESOLVED** (the old note
+  saying to avoid this letter is superseded): the page cannot set Greek, so both Greek phrases print as
+  runs of stray Latin letters and **the Euripides line is printed TWICE**. Emended to
+  ἀκίνδυνα μὲν χρονιώτερα δέ and ψῦχος δὲ λεπτῷ χρωτὶ πολεμιώτατον (once), the decoding supplied by the
+  user. **The frags.js entry slices its emend anchors out of the extracted passage rather than
+  hardcoding them** - retyping a run of replacement characters and control bytes by hand is exactly what
+  the pipeline exists to prevent; copy that trick if another mojibake page ever comes up.
+  *Q. f. tibi salutem dicit* is **genuinely ambiguous**: *Quintus filius* (the writer's son) or
+  *Quintus frater*. Since Quintus is holding the pen the first is much easier, and that is what the
+  translations say, with the alternative flagged in the analysis.
+
+**TWO SILENT CACHE FAULTS FIXED IN v1.8.1 - check for these if a page ever looks wrong.**
+1. **`fetch_sources.js` decoded every page as latin1.** `cicero/fratrem3` is served as **UTF-16 with a
+   BOM**, so its cache file was a page of single letters separated by spaces. Nothing errored. The
+   fetcher now checks for a LE or BE BOM first. **If a cached page looks like spaced-out letters, this
+   is why.**
+2. **`strip.js` left named HTML entities undecoded** (`&ocirc;` and `&ecirc;` fill the transliterated
+   Greek of ad Quintum III and ad Brutum I). Accent entities, `&ccedil;`, `&ntilde;` and numeric
+   entities are now decoded. All pages were re-fetched with `--force` and the bank re-verified.
 
 **POLICY CHANGE, v1.8.0 FOLLOW-UP (the user's instruction): MEND FIRST, TRIM LAST.** Where the source has
 a plain defect and the right reading is not in doubt, check it against a second text and **correct it in

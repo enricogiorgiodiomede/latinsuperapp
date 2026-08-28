@@ -30,6 +30,18 @@ function pagesFromConfig() {
   return [...out];
 }
 
+// Most of the library is single-byte, but a few pages are saved as UTF-16 with
+// a byte-order mark - cicero/fratrem3 is one. Decoding those as latin1 gives a
+// file where every character is separated by a NUL, which strip.js then turns
+// into a page of single letters spaced out by whitespace. Nothing errors: the
+// cache just quietly becomes unusable, and a fragment sourced from it would
+// fail verification for no visible reason. Check the BOM before decoding.
+function decode(buf) {
+  if (buf.length >= 2 && buf[0] === 0xff && buf[1] === 0xfe) return buf.toString('utf16le', 2);
+  if (buf.length >= 2 && buf[0] === 0xfe && buf[1] === 0xff) return buf.swap16().toString('utf16le', 2);
+  return buf.toString('latin1');
+}
+
 function get(url) {
   return new Promise((resolve, reject) => {
     // thelatinlibrary.com answers 465 to requests with no User-Agent.
@@ -38,7 +50,7 @@ function get(url) {
       if (res.statusCode !== 200) { res.resume(); return reject(new Error('HTTP ' + res.statusCode)); }
       const chunks = [];
       res.on('data', c => chunks.push(c));
-      res.on('end', () => resolve(Buffer.concat(chunks).toString('latin1')));
+      res.on('end', () => resolve(decode(Buffer.concat(chunks))));
     }).on('error', reject);
   });
 }

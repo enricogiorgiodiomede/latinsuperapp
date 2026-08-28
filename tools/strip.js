@@ -19,6 +19,20 @@ function stripHtml(html) {
     .replace(/&#39;/g, "'")
     .replace(/&#8217;/g, "'")
     .replace(/&#151;|&#8212;/g, '--')
+    // Accented letters arrive as named entities in a handful of pages - the
+    // transliterated Greek of ad Quintum III and ad Brutum I is full of
+    // &ocirc; and &ecirc;. Left undecoded they end up in the cache as literal
+    // "&ocirc;", which would then have to be reproduced in a fragment or
+    // trimmed around for no reason. Decode the accent entities and any
+    // numeric one, then anything still unrecognised stays visible as itself.
+    .replace(/&([aeiouyAEIOUY])(acute|grave|circ|uml|ring|tilde);/g, function (m, letter, kind) {
+      var marks = { acute: '\u0301', grave: '\u0300', circ: '\u0302', uml: '\u0308', ring: '\u030A', tilde: '\u0303' };
+      return (letter + marks[kind]).normalize('NFC');
+    })
+    .replace(/&([cC])cedil;/g, function (m, c) { return c === 'c' ? '\u00E7' : '\u00C7'; })
+    .replace(/&([nN])tilde;/g, function (m, c) { return c === 'n' ? '\u00F1' : '\u00D1'; })
+    .replace(/&#(\d+);/g, function (m, n) { return String.fromCodePoint(parseInt(n, 10)); })
+    .replace(/&#x([0-9a-fA-F]+);/g, function (m, n) { return String.fromCodePoint(parseInt(n, 16)); })
     .split('\n')
     .map(function (l) { return l.replace(/[ \t]+$/, ''); })
     .filter(function (l) { return l.trim().length; })
