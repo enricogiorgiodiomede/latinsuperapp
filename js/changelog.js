@@ -12,6 +12,31 @@
 
   var VERSIONS = [
     {
+      v: '1.8.4', date: '2026-08-29', time: '00:00', tz: 'CEST',
+      en: {
+        added: [
+          'De Senectute joins the philosophical works with 5 excerpts. Cicero wrote it in 44 BC and put the whole thing in the mouth of Cato the Elder at eighty-four - which means the speaker is an author this app already covers, back in the Archaic era, and the difference between the real Cato and Cicero\'s Cato is one of the more interesting things in it.',
+          'Old age cannot get anything done? A helmsman does nothing either, while the crew climb the masts and bail the bilge and he sits at the stern holding the tiller - and great things are done by judgement and authority, not by speed (17). Old age weakens the body? Milo of Croton once carried an ox across the stadium at Olympia; would you rather have his strength or Pythagoras\'s mind? Each part of life has its own ripeness (32-33). And then farming, which is the part Cato was born to talk about: the earth never refuses an order and never pays back a loan without interest, and then twelve lines that follow a seed from the soil to the ear of wheat, one verb per stage (51-52).',
+          'The last two are about dying. An actor does not have to stay on stage until the closing line - Roman comedies end by asking the audience to applaud, and the wise man need not wait for it; a short life is long enough, the way a farmer does not mourn spring when summer comes (70). And the final page, where Cato says he leaves life as one leaves an inn rather than a home, and looks forward to seeing his son again - the son whose body he had burned himself, when it should have been the other way round (84).'
+        ],
+        changed: [
+          'The excerpts point at each other and at Cato\'s own book. The farming passage links to the ten excerpts of Cato\'s De Agri Cultura in the Archaic era: same subject, same man, one written in clipped instructions and the other in a sentence that takes twelve lines to grow a stalk of wheat. The actor passage links to Plautus and Terence, whose surviving comedies all end on the very word it quotes. And the last page links to the end of De Amicitia, written the same year, with the same frame and the same dedicatee.'
+        ],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Il De Senectute entra fra le opere filosofiche con 5 brani. Cicerone lo scrisse nel 44 a.C. e lo mise tutto in bocca a Catone il Censore, a ottantaquattro anni: chi parla è dunque un autore che quest’app già copre, nell’età arcaica, e la differenza fra il Catone vero e il Catone di Cicerone è una delle cose più interessanti del testo.',
+          'La vecchiaia non combina più nulla? Nemmeno il timoniere fa niente, mentre l’equipaggio si arrampica sugli alberi e svuota la sentina e lui sta seduto a poppa con il timone in mano: e le grandi imprese si compiono con il giudizio e l’autorevolezza, non con la velocità (17). La vecchiaia indebolisce il corpo? Milone di Crotone una volta attraversò lo stadio di Olimpia con un bue in spalla; preferiresti la sua forza o l’ingegno di Pitagora? Ogni parte della vita ha la sua stagione (32-33). E poi l’agricoltura, la parte per cui Catone era nato: la terra non rifiuta mai un ordine e non restituisce mai un prestito senza interessi, e poi dodici righe che seguono un seme dal suolo alla spiga, un verbo per ogni fase (51-52).',
+          'Gli ultimi due riguardano il morire. All’attore non serve restare in scena fino all’ultima battuta: le commedie romane finiscono chiedendo l’applauso al pubblico, e il saggio non è tenuto ad aspettarlo; una vita breve è abbastanza lunga, come il contadino non piange la primavera quando arriva l’estate (70). E l’ultima pagina, dove Catone dice che lascia la vita come si lascia una locanda, non una casa, e attende di rivedere suo figlio: il figlio di cui aveva bruciato lui stesso il corpo, quando sarebbe stato giusto il contrario (84).'
+        ],
+        changed: [
+          'I brani rimandano l’uno all’altro e al libro vero di Catone. Il passo agricolo rimanda ai dieci brani del De Agri Cultura di Catone nell’età arcaica: stesso argomento, stesso uomo, uno scritto in istruzioni secche e l’altro in una frase che impiega dodici righe a far crescere uno stelo di grano. Il passo sull’attore rimanda a Plauto e a Terenzio, le cui commedie superstiti finiscono tutte proprio sulla parola che cita. E l’ultima pagina rimanda alla fine del De Amicitia, scritto lo stesso anno, con la stessa cornice e lo stesso dedicatario.'
+        ],
+        deleted: []
+      }
+    },
+    {
       v: '1.8.3', date: '2026-08-29', time: '19:12', tz: 'CEST',
       en: {
         added: [

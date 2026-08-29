@@ -74,7 +74,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=101`.**
+   whenever you change a JS/CSS file. **Currently `v=102`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -248,7 +248,7 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
   **Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
 **=== SESSION HANDOFF (updated 2026-08-24) ===**
-Current: **v1.8.3, cache ?v=101**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
+Current: **v1.8.4, cache ?v=102**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
 50 frags since v1.4.0). Caesar's-Age flesh-out in progress: **Nepos done (1->8, v1.2.0)**;
 **Cicero is the big active job and is now the largest author in the app at 118 excerpts** (Plautus 50).
 
@@ -374,6 +374,13 @@ Philippics is +15 and was split into two releases rather than shipped as one.
   contradicted its own analysis on *haud scio an* and dropped the *qua*; fixed, tag kept at 1.0.0.
   **Hortensius' single fragment also came under verification for the first time and passes.**
   Cicero **147**, bank **307**.
+- ~~**v1.8.4**~~ DONE 29/08: **De Senectute, new work, +5** (17 the helmsman, 32-33 Milo's ox and
+  *tempestivitas*, 51-52 farming, 70 the *Plaudite*, 84 *ex hospitio, non e domo*). Philosophical
+  **2 works / 10**, Cicero **152**, bank **312**. **The speaker is Cato the Elder, who is an app author**,
+  so the farming excerpt cross-links to his own De Agri Cultura. **TLL prints De Senectute as `I.1.`
+  chapter+section and OMITS the number for section 33** - extract from the first Latin word and supply
+  markers as prefixes. Emended *fcontra* -> *contra* (52); kept the *ut*/*et* variant at 84, both real
+  words.
 - **NEXT: the plan is written out release by release in
   `C:/Users/enric/.claude/plans/now-time-to-continue-snuggly-steele.md`.** v1.8.4 = De Senectute 5;
   **v1.9.0** = De Officiis 5 + De Re Publica 4 + Somnium Scipionis 4; v1.9.1 = Tusculanae 5;

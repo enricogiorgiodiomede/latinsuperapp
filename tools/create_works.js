@@ -1,7 +1,6 @@
-// v1.8.0: create the three missing letter collections. Ad Atticum already
-// existed (one launch fragment), so only Familiares, ad Quintum and ad Brutum
-// are new. Flat siblings in the `letters` group - four buttons is not clutter,
-// so this group does not need the nested chooser the Speeches got in v1.7.8.
+// v1.8.4: create De Senectute, the second philosophical work. Flat sibling in
+// the `philosophical` group; `reorder_works.js` puts it in its chronological
+// slot (PHIL_ORDER), so the order it is created in does not matter.
 // Works with no fragments are hidden by PracticeBank.works(), so a work created
 // here shows up only once apply_batch has filled it.
 const fs = require('fs');
@@ -9,9 +8,7 @@ const path = require('path');
 const P = path.join(__dirname, '..', 'js', 'fragments.js');
 
 const NEW = [
-  { id: 'ad-familiares', label: 'Epistulae ad Familiares', labelIt: 'Lettere ai familiari', group: 'letters' },
-  { id: 'ad-quintum', label: 'Epistulae ad Quintum fratrem', labelIt: 'Lettere al fratello Quinto', group: 'letters' },
-  { id: 'ad-brutum', label: 'Epistulae ad Brutum', labelIt: 'Lettere a Bruto', group: 'letters' }
+  { id: 'de-senectute', label: 'De Senectute', labelIt: 'De Senectute', group: 'philosophical' }
 ];
 
 // Same guard as apply_batch.js: with git's core.autocrlf=true a checkout hands

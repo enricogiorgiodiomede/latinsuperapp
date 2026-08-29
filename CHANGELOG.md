@@ -6,6 +6,41 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.8.4] - 2026-08-29
+
+**De Senectute, new work, +5.** The philosophical group reaches **2 works / 10**. Cicero **152 across
+25 works**, bank **312**.
+
+### Added
+- **§17** the helmsman: three *alii* clauses of sailors in motion against *ille autem clavum tenens
+  quietus sedeat in puppi*, closing on *non viribus ... sed consilio, auctoritate, sententia*.
+- **§32-33** Milo of Croton carrying an ox across the stadium at Olympia, set against *Pythagorae vires
+  ingeni*, and then ***tempestivitas*** - the ripeness proper to each age.
+- **§51-52** farming. The accountancy metaphor (*numquam recusat imperium nec umquam sine usura
+  reddit ... maiore cum faenore*) and then twelve lines following a seed to the ear of wheat, one verb
+  per stage, with the coinage *herbescentem viriditatem* and the false etymology of *occatio*.
+- **§70** *neque sapientibus usque ad 'Plaudite' veniendum est* - the actor who need not stay for the
+  curtain line, answered by the farmer's year.
+- **§84** the last page: *ex vita ita discedo tamquam ex hospitio, non tamquam e domo*, *O praeclarum
+  diem*, and his dead son.
+
+**Cross-references built in.** The speaker is **Marcus Porcius Cato** of the Archaic era, so §51-52
+points at the app's ten *De Agri Cultura* excerpts - the same man on the same subject, one in clipped
+instructions and one in a twelve-line period. §70's *Plaudite* points at **Plautus** and **Terence**,
+whose complete comedies all end on that word. §84 points at **De Amicitia 102**: same year, same frame,
+same dedicatee, both ending on a dead man the speaker expects to see again.
+
+### Notes on the source
+- **TLL prints this text as `I.1.`, chapter plus section, not `[n]`** - and it **omits the number for
+  section 33 entirely**. Every extraction therefore starts at the first Latin word and the markers are
+  supplied as a prefix or a join; `normalise()` strips both styles, so verification is unaffected.
+- **Emended:** *fcontra* -> *contra* in §52, a stray letter and not a word.
+- **Kept as printed:** the editions differ over *ut* / *et* before *ex vita ita discedo* in §84. Both are
+  real words and the sense is the same either way, so the source's reading stands and the analysis says
+  so - rule 3, not rule 1.
+
+Verification: **153 verbatim, 0 mismatched**. Cache-bust: `?v=101` -> `?v=102`.
+
 ## [1.8.3] - 2026-08-29
 
 **The philosophical works begin, +4.** De Amicitia 1 -> 5, and all the structural work for the two
