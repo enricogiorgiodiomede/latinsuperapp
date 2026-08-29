@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.8.4', date: '2026-08-29', time: '00:00', tz: 'CEST',
+      v: '1.8.4', date: '2026-08-29', time: '19:51', tz: 'CEST',
       en: {
         added: [
           'De Senectute joins the philosophical works with 5 excerpts. Cicero wrote it in 44 BC and put the whole thing in the mouth of Cato the Elder at eighty-four - which means the speaker is an author this app already covers, back in the Archaic era, and the difference between the real Cato and Cicero\'s Cato is one of the more interesting things in it.',
