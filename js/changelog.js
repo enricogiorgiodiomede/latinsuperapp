@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.9.0', date: '2026-08-29', time: '00:00', tz: 'CEST',
+      v: '1.9.0', date: '2026-08-29', time: '21:02', tz: 'CEST',
       en: {
         added: [
           'The philosophical works are properly open: 13 new excerpts across three new texts, and the section now holds 5 works and 23 excerpts. De Officiis, De Re Publica, and the Dream of Scipio, which gets its own place because it is the part people are actually set to read.',
