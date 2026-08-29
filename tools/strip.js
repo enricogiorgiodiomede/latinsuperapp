@@ -48,6 +48,12 @@ function normalise(text) {
     .replace(/\[\d+\]/g, ' ')
     .replace(/\[[IVXLC]+\]/g, ' ')
     .replace(/\b\d+\. /g, ' ')
+    // De Re Publica and the Somnium Scipionis are printed with parenthesised
+    // section numbers - "(13) Sed quo sis, Africane" - where every other text
+    // uses [13] or "13.". Strip that style too, so a fragment can carry the
+    // app's usual [n] markers and still match. Both sides get the treatment,
+    // so this only ever cancels a marker, never a difference in wording.
+    .replace(/\(\d+\)/g, ' ')
     // Spacing around punctuation is typesetting, not text. The Latin Library
     // sets some quoted questions as `" praesidium a nobis postulabatis ?`
     // (Att. I.16), with a space after the opening quote and before the mark.

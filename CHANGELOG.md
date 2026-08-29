@@ -6,6 +6,50 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.9.0] - 2026-08-29
+
+**THE PHILOSOPHICAL GROUP GOES LIVE, +13.** Three new works: **De Officiis 5**, **De Re Publica 4**,
+**Somnium Scipionis 4**. Philosophical now **5 works / 23**; Cicero **165 across 28 works**; bank **325**.
+
+### Added - De Officiis
+**I.22** *non nobis solum nati sumus* (one sentence, two *quoniam* premises from two different schools,
+and *vindicat* making the self into property with prior liens on it) · **I.77** *cedant arma togae* -
+Cicero quoting his own most-mocked verse without naming its author (cross-ref **In Catilinam**,
+**Philippica II**) · **I.85** the two Platonic precepts, with *tutela* turning public office into
+fiduciary duty, closing on *pauci universorum* · **III.38-39** the ring of Gyges, told fast in a chain
+of perfects and then turned on the reader: ***sisne facturus?*** · **III.99** Regulus, where Cicero
+gives the wrong answer its best case at length before answering in two words.
+
+### Added - De Re Publica
+**I.39** ***res publica res populi***, and the two conditions *iuris consensu et utilitatis communione*
+(the sentence Augustine used in *City of God* XIX to argue Rome was never a commonwealth) · **I.45** the
+mixed constitution, with three incompatible metaphors piled up · **I.68** *ex hac maxima libertate
+tyrannus gignitur*, argued from weather, farming and medicine, and running on five forms of *nimius* ·
+**II.1-2** *non unius ingenio sed multorum* - **cut so that the bare *is* opening section 2 keeps its
+antecedent**, which is Cato, named in the first piece.
+
+### Added - Somnium Scipionis (its own work, cited De Re Publica VI.n)
+**VI.13** the place in heaven for statesmen, and *iure sociati* echoing the definition at I.39 ·
+**VI.16** ***quasi punctum*** - the earth from above, with *paenitet* making the reaction shame rather
+than wonder · **VI.18-19** the music of the spheres and the deaf villagers at the Nile cataracts ·
+**VI.26** ***mens cuiusque is est quisque*** and *deum te igitur scito esse*, with the conditional that
+defines the term before applying it.
+
+### Changed
+- **`normalise()` learned the parenthesised marker style.** De Officiis uses `[n]`, but De Re Publica
+  and the Somnium print `(13)`. The verifier stripped `[13]` and `13.` but not `(13)`, so a fragment
+  carrying the app's usual markers would have failed against perfectly good source text. Both sides get
+  the treatment, so it can only ever cancel a marker.
+- **`create_works.js`** now creates the three works; **Somnium Scipionis is a separate work** at the
+  user's request - it is what students are set, and it survived by a different route (quoted whole in
+  Macrobius, while books I-V had to be recovered from a palimpsest in 1819). It is still cited
+  `De Re Publica VI.n`, and `PHIL_ORDER` pins it straight after `de-re-publica`.
+
+**Cato the Elder keeps surfacing**, and he is an author in the Archaic era of this app: De Re Publica II
+credits him with the book's central idea, and he is the speaker of the whole **De Senectute**.
+
+Verification: **166 verbatim, 0 mismatched**. Cache-bust: `?v=102` -> `?v=103`.
+
 ## [1.8.4] - 2026-08-29
 
 **De Senectute, new work, +5.** The philosophical group reaches **2 works / 10**. Cicero **152 across

@@ -74,7 +74,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=102`.**
+   whenever you change a JS/CSS file. **Currently `v=103`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -248,7 +248,7 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
   **Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
 **=== SESSION HANDOFF (updated 2026-08-24) ===**
-Current: **v1.8.4, cache ?v=102**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
+Current: **v1.9.0, cache ?v=103**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
 50 frags since v1.4.0). Caesar's-Age flesh-out in progress: **Nepos done (1->8, v1.2.0)**;
 **Cicero is the big active job and is now the largest author in the app at 118 excerpts** (Plautus 50).
 
@@ -381,6 +381,14 @@ Philippics is +15 and was split into two releases rather than shipped as one.
   chapter+section and OMITS the number for section 33** - extract from the first Latin word and supply
   markers as prefixes. Emended *fcontra* -> *contra* (52); kept the *ut*/*et* variant at 84, both real
   words.
+- ~~**v1.9.0**~~ DONE 29/08: **THE PHILOSOPHICAL GROUP IS LIVE, +13** - De Officiis 5 (I.22, I.77,
+  I.85, III.38-39 Gyges, III.99 Regulus), De Re Publica 4 (I.39 the definition, I.45 the mixed
+  constitution, I.68 liberty into tyranny, II.1-2 not one man's genius), **Somnium Scipionis 4 as its
+  own work** (VI.13, VI.16 *quasi punctum*, VI.18-19 the spheres, VI.26 *deum te igitur scito esse*),
+  cited `De Re Publica VI.n`. Philosophical **5 works / 23**, Cicero **165**, bank **325**.
+  **`normalise()` learned the parenthesised `(13)` marker style** - De Re Publica and the Somnium use it
+  where everything else uses `[13]`, and the verifier would otherwise have rejected good text.
+  **De Re Publica II.1-2 is cut so the bare *is* keeps its antecedent (Cato)** - the Brut. I.15 lesson.
 - **NEXT: the plan is written out release by release in
   `C:/Users/enric/.claude/plans/now-time-to-continue-snuggly-steele.md`.** v1.8.4 = De Senectute 5;
   **v1.9.0** = De Officiis 5 + De Re Publica 4 + Somnium Scipionis 4; v1.9.1 = Tusculanae 5;

@@ -12,6 +12,35 @@
 
   var VERSIONS = [
     {
+      v: '1.9.0', date: '2026-08-29', time: '00:00', tz: 'CEST',
+      en: {
+        added: [
+          'The philosophical works are properly open: 13 new excerpts across three new texts, and the section now holds 5 works and 23 excerpts. De Officiis, De Re Publica, and the Dream of Scipio, which gets its own place because it is the part people are actually set to read.',
+          'De Officiis, 5. Cicero wrote it for his son, a twenty-one-year-old in Athens who was drinking more than he was studying, and finished it while Antony was destroying him; it went on to become the ethics textbook of Europe. We are not born for ourselves alone - our country claims a share of us and our friends claim a share (I.22). His own most-mocked line of poetry, quoted approvingly and without saying who wrote it: let arms yield to the toga (I.77). Two rules for anyone running a state, the second being to look after the whole body of it and not one part, because doing otherwise brings in the most ruinous thing there is (I.85). Plato\'s ring of invisibility, told as a story and then turned on the reader: if nobody would ever know, not gods and not men, would you do it? (III.38-39). And Regulus, sent home on parole to argue for a prisoner exchange, arguing against it, and going back to Carthage (III.99).',
+          'De Re Publica, 4. The definition the whole work rests on - a commonwealth is the property of a people, and a people is not just any crowd but a crowd held together by agreement about law and shared advantage (I.39). Why no simple constitution lasts and the best state is a mixture of all three (I.45). How too much liberty turns into slavery and a tyrant is born out of it, argued by way of weather, farming and medicine (I.68). And the claim that makes Rome different: every Greek state had a founder with a name, ours was made by many men over several lifetimes, because no mind is big enough and no committee is either (II.1-2).',
+          'Somnium Scipionis, 4, as its own text. There is a place in heaven set aside for people who served their country, because nothing on earth pleases god more than a state (VI.13). Then Scipio is allowed to look down, and the earth is so small that he is ashamed of the empire - the first time anyone in European literature saw the planet from outside and used it to make a point (VI.16). The spheres make a sound too large to hear, the way the people living beside the Nile cataracts have simply gone deaf (VI.18-19). And you are not your body: the mind is the man, and know then that you are a god (VI.26).'
+        ],
+        changed: [
+          'Cato the Elder keeps turning up. He is an author in this app\'s Archaic era, and De Re Publica II credits him with its central idea - that Rome was not designed by anybody - which is the same Cato who speaks the whole of De Senectute. The Dream cross-links to the definition of a state four books earlier, and De Officiis I.77 links to the Catilinarians it is boasting about.',
+          'The reader was taught to expect a third way of numbering sections. De Officiis marks them the usual way, but De Re Publica and the Dream use round brackets - (13) instead of [13] - and the checker did not know that style, so it would have rejected perfectly good text. It does now.'
+        ],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Le opere filosofiche sono aperte sul serio: 13 nuovi brani su tre testi nuovi, e la sezione conta ora 5 opere e 23 brani. De Officiis, De Re Publica e il Sogno di Scipione, che ha un posto suo perché è la parte che davvero viene assegnata da leggere.',
+          'De Officiis, 5. Cicerone lo scrisse per il figlio, un ventunenne ad Atene che beveva più di quanto studiasse, e lo terminò mentre Antonio lo distruggeva; sarebbe diventato il manuale di etica dell’Europa. Non siamo nati per noi soli: una parte di noi la rivendica la patria e una parte gli amici (I.22). Il suo verso più deriso, citato con approvazione e senza dire chi l’avesse scritto: cedano le armi alla toga (I.77). Due regole per chi governa uno Stato, la seconda delle quali è occuparsi di tutto il corpo dello Stato e non di una sua parte, perché fare altrimenti vi introduce la cosa più rovinosa che ci sia (I.85). L’anello dell’invisibilità di Platone, raccontato come una storia e poi rivolto al lettore: se nessuno dovesse mai saperlo, né gli dèi né gli uomini, lo faresti? (III.38-39). E Regolo, rimandato a casa sulla parola per perorare uno scambio di prigionieri, che perora contro e torna a Cartagine (III.99).',
+          'De Re Publica, 4. La definizione su cui poggia tutta l’opera: la repubblica è cosa del popolo, e il popolo non è una folla qualsiasi ma una folla tenuta insieme dall’accordo sul diritto e dalla condivisione dell’utile (I.39). Perché nessuna costituzione semplice duri, e perché lo Stato migliore sia una mescolanza di tutte e tre (I.45). Come la troppa libertà si rovesci in schiavitù e ne nasca un tiranno, argomentato attraverso il clima, l’agricoltura e la medicina (I.68). E la tesi che rende Roma diversa: ogni Stato greco ebbe un fondatore con un nome, il nostro fu fatto da molti uomini in più generazioni, perché nessuna mente è abbastanza grande e nemmeno un’assemblea lo è (II.1-2).',
+          'Somnium Scipionis, 4, come testo a sé. C’è in cielo un posto riservato a chi ha servito la patria, perché nulla sulla terra piace a dio più di uno Stato (VI.13). Poi a Scipione è concesso di guardare in basso, e la terra è così piccola che si vergogna dell’impero: è la prima volta che qualcuno, nella letteratura europea, vede il pianeta da fuori e se ne serve per argomentare (VI.16). Le sfere producono un suono troppo grande per essere udito, come la gente che vive accanto alle cateratte del Nilo è semplicemente diventata sorda (VI.18-19). E tu non sei il tuo corpo: la mente è l’uomo, e sappi dunque che sei un dio (VI.26).'
+        ],
+        changed: [
+          'Catone il Censore continua a spuntare fuori. È un autore dell’età arcaica di quest’app, e il secondo libro del De Re Publica gli attribuisce la propria idea centrale, che Roma non l’abbia progettata nessuno: è lo stesso Catone che parla per tutto il De Senectute. Il Sogno rimanda alla definizione di Stato di quattro libri prima, e il De Officiis I.77 rimanda alle Catilinarie di cui si sta vantando.',
+          'Il programma di controllo ha imparato un terzo modo di numerare le sezioni. Il De Officiis le segna nel modo consueto, ma il De Re Publica e il Sogno usano le parentesi tonde - (13) invece di [13] - e il verificatore non conosceva quello stile: avrebbe rifiutato testo perfettamente corretto. Ora lo conosce.'
+        ],
+        deleted: []
+      }
+    },
+    {
       v: '1.8.4', date: '2026-08-29', time: '19:51', tz: 'CEST',
       en: {
         added: [

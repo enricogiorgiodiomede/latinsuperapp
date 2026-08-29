@@ -1,6 +1,11 @@
-// v1.8.4: create De Senectute, the second philosophical work. Flat sibling in
-// the `philosophical` group; `reorder_works.js` puts it in its chronological
-// slot (PHIL_ORDER), so the order it is created in does not matter.
+// v1.9.0: create the three works that take the philosophical group live.
+// Somnium Scipionis is De Re Publica book VI and is a SEPARATE work here (the
+// user's call): it is the piece students are actually set, it reached us by a
+// different route from the rest - quoted whole inside Macrobius' commentary,
+// while books I-V survive in a scraped-over palimpsest - and giving it its own
+// button makes it findable. Its fragments are still cited `De Re Publica VI.n`,
+// which is how everyone cites them. `reorder_works.js` pins it straight after
+// de-re-publica in PHIL_ORDER.
 // Works with no fragments are hidden by PracticeBank.works(), so a work created
 // here shows up only once apply_batch has filled it.
 const fs = require('fs');
@@ -8,7 +13,9 @@ const path = require('path');
 const P = path.join(__dirname, '..', 'js', 'fragments.js');
 
 const NEW = [
-  { id: 'de-senectute', label: 'De Senectute', labelIt: 'De Senectute', group: 'philosophical' }
+  { id: 'de-officiis', label: 'De Officiis', labelIt: 'De Officiis', group: 'philosophical' },
+  { id: 'de-re-publica', label: 'De Re Publica', labelIt: 'De Re Publica', group: 'philosophical' },
+  { id: 'somnium-scipionis', label: 'Somnium Scipionis (De Re Publica VI)', labelIt: 'Somnium Scipionis (De Re Publica VI)', group: 'philosophical' }
 ];
 
 // Same guard as apply_batch.js: with git's core.autocrlf=true a checkout hands
