@@ -1,5 +1,5 @@
 {
-  "_comment": "Which Latin Library page(s) each practice work's Latin comes from. Paths are relative to https://thelatinlibrary.com/ and get '.shtml' appended. Used by fetch_sources.js (to build the local text cache) and by verify.js (to check every Latin field verbatim). Add an entry whenever a new work is created.",
+  "_comment": "Keyed by WORK ID, which is only unique per author - so one entry can serve two authors' works, and `brutus` deliberately does: Hortensius' single fragment is a passage of Cicero's Brutus, so both point at cicero/brut. verify.js prints a NOTE for any shared key. Which Latin Library page(s) each practice work's Latin comes from. Paths are relative to https://thelatinlibrary.com/ and get '.shtml' appended. Used by fetch_sources.js (to build the local text cache) and by verify.js (to check every Latin field verbatim). Add an entry whenever a new work is created.",
   "_proofread": "Proofreading-only third source, NOT fetched and NOT a source for the app's Latin: Poesia Latina, http://www.poesialatina.it/index.htm - Cicero at _ns/ProsaLat/Cic/<work>.html (OrProCael.html, OrInPison.html, ...). Consult it only when a word here looks like a typo. It prints classical orthography (u for consonantal v: uidetur, uitia, diuersisque; inl-/inr- for ill-/irr-), which is a convention and not a typo, and it carries real variant readings. Only plain non-words qualify for a fragment's `emend` field. This key holds a string, so fetch_sources.js (which only collects arrays) ignores it.",
 
   "in-verrem-divinatio": ["cicero/caecilium"],
@@ -26,6 +26,22 @@
   "ad-familiares": ["cicero/fam5", "cicero/fam14", "cicero/fam16"],
   "ad-quintum": ["cicero/fratrem1", "cicero/fratrem2", "cicero/fratrem3"],
   "ad-brutum": ["cicero/adbrutum1", "cicero/adbrutum2"],
+
+  "de-amicitia": ["cicero/amic"],
+  "de-senectute": ["cicero/senectute"],
+  "de-officiis": ["cicero/off1", "cicero/off2", "cicero/off3"],
+  "de-re-publica": ["cicero/repub1", "cicero/repub2", "cicero/repub3", "cicero/repub4", "cicero/repub5"],
+  "somnium-scipionis": ["cicero/repub6"],
+  "tusculanae": ["cicero/tusc1", "cicero/tusc2", "cicero/tusc3", "cicero/tusc4", "cicero/tusc5"],
+  "de-natura-deorum": ["cicero/nd1", "cicero/nd2", "cicero/nd3"],
+  "de-divinatione": ["cicero/divinatione1", "cicero/divinatione2"],
+  "paradoxa-stoicorum": ["cicero/paradoxa"],
+
+  "de-oratore": ["cicero/oratore1", "cicero/oratore2", "cicero/oratore3"],
+  "brutus": ["cicero/brut"],
+  "orator": ["cicero/orator"],
+  "de-optimo-genere": ["cicero/optgen"],
+  "topica": ["cicero/topica"],
 
   "_notLive": {
     "_comment": "Nothing is waiting here right now: the four letter collections that used to sit in this block went live in v1.8.0 and are listed above. Keep the block for the next sourced-but-unused page, and keep the notes below. NOTE: cicero/adbrutum is only a table of contents - the letters themselves are on adbrutum1 and adbrutum2. CORRECTION (v1.7.5): this file used to claim the Verrines actio prima is not on TLL. It is - the slug is cicero/ver1, not verres.1, and the Divinatio is cicero/caecilium. All seven parts are live and are now listed above; the authoritative index is cicero/ver.shtml. Beware: ver1 prints 18 CHAPTER numbers as [1]-[18], not the 56 sections modern editions use, so cite that one by chapter."

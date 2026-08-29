@@ -236,7 +236,7 @@ La caduta politica arrivò attraverso uno scandalo che non era colpa sua ma per 
 
 Nel 58 a.C., Clodio (ora tribuno) fece approvare una legge che prendeva di mira Cicerone retroattivamente per l'esecuzione dei catilinari senza processo. Cicerone andò in esilio. La sua casa sul Palatino fu demolita e al suo posto fu costruito un tempio alla Libertà. Scrisse lettere dall'esilio così dolorosamente autocommiserative che i suoi amici dovettero alla fine dirgli di smettere. Fu richiamato nel 57 a.C. con dimostrazioni pubbliche di sostegno popolare che lui stesso descrisse, con la sua consueta modestia, come la più grande accoglienza che un romano avesse mai ricevuto. La casa fu ricostruita a spese pubbliche.
 
-Aveva ora cinquant'anni e aveva sopravvissuto alla dittatura di Silla, alla crisi catilinaria e all'esilio. Il decennio dei cinquanta fu difficile: l'ascesa di Cesare, il Primo Triumvirato, la crescente sensazione che la Repubblica non sarebbe sopravvissuta. Scrisse filosofia: il *De Oratore*, il *De Re Publica*, il *De Legibus*. Scrisse orazioni. Scrisse lettere ad Attico tra i documenti più intimi e rivelatori sopravvissuti dal mondo antico.
+Aveva ora cinquant'anni e aveva sopravvissuto alla dittatura di Silla, alla crisi catilinaria e all'esilio. Il decennio dei cinquanta fu difficile: l'ascesa di Cesare, il Primo Triumvirato, la crescente sensazione che la Repubblica non sarebbe sopravvissuta. Scrisse il *De Oratore*, che riguarda il suo mestiere e non il modo di vivere, e scrisse filosofia: il *De Re Publica*, il *De Legibus*. Scrisse orazioni. Scrisse lettere ad Attico tra i documenti più intimi e rivelatori sopravvissuti dal mondo antico.
 Sotto tutto questo stava una sola idea, tenuta con una coerenza che i suoi nemici scambiarono per vanità: che Roma fosse tenuta insieme non dalla legge scritta ma dal *mos maiorum*, il costume degli antenati. Era una costituzione non scritta, accumulata dalla pratica invece che votata, e regolava il comportamento di un magistrato, il modo in cui si consultava il senato, il modo in cui un uomo trattava i propri clienti e i propri avversari. Nel *De Re Publica* Cicerone costruì il suo ragionamento attorno a un verso di Ennio, *moribus antiquis res stat Romana virisque*, "lo Stato romano si regge sugli antichi costumi e sugli uomini", per poi osservare, scomodamente, che a Roma stavano venendo a mancare entrambi. La difficoltà era strutturale. Il *mos maiorum* era stato plasmato da una città-stato che governava se stessa, e ora gli si chiedeva di governare un impero, in un mondo di eserciti fedeli ai propri generali e non al senato, di patrimoni provinciali abbastanza grandi da comprare un'elezione, e di violenza di piazza usata come ordinario strumento politico. Cicerone passò la carriera a insistere che le vecchie regole valessero ancora per una partita in cui i pezzi erano cambiati.
 
 C'è una stranezza evidente nel fatto che un uomo di Arpino si nominasse custode della tradizione degli antenati, dal momento che dentro quella tradizione di antenati non ne aveva: nessun console, nessun trionfo, nessuna maschera di cera nell'atrio. Lo sapeva, e aveva un modello. Anche Catone il Vecchio veniva da una cittadina di provincia, era stato anche lui un *homo novus*, e si era fatto definizione vivente di quella virtù avita che le famiglie antiche davano per propria. Cicerone lo ammirava abbastanza da elencarlo nella *Pro Archia* tra i romani degni di essere imitati, e più tardi da affidargli il ruolo principale nel *De Senectute*, che è l'equivalente letterario di lasciar parlare il *mos maiorum* con la propria voce. L'ironia è quella che gli chiuse la carriera. Nel 63 a.C., in difesa di quella tradizione, fece giustiziare dei cittadini romani senza processo, cosa per cui la tradizione non offriva precedenti chiari, e cinque anni dopo un tribuno usò le garanzie della tradizione stessa per cacciarlo dall'Italia proprio per questo.
@@ -252,7 +252,7 @@ Ventitré anni dopo, il figlio di Cicerone -- anch'egli chiamato Marco -- era co
 
 ### Opere principali *(italiano)*
 
-Cicerone scrisse in tre modalità: oratore, filosofo, corrispondente. Era eccellente in tutte e tre, e la portata della sua produzione è sconcertante. Quanto segue è una selezione.
+Cicerone scrisse in quattro modalità: oratore, filosofo, maestro di retorica, corrispondente. Era eccellente in tutte e quattro, e la portata della sua produzione è sconcertante. Quanto segue è una selezione. Le opere filosofiche e quelle retoriche sono elencate separatamente perché sono progetti diversi: le prime si chiedono che cosa siano una vita buona e uno Stato buono, le seconde come un romano impari a parlare, e solo le seconde riguardano il mestiere che Cicerone esercitò davvero per vivere.
 
 **Orazioni** (più di 50 sopravvivono su forse 100 o più pronunciate)
 
@@ -261,15 +261,25 @@ Cicerone scrisse in tre modalità: oratore, filosofo, corrispondente. Era eccell
 - *Pro Milone* (52 a.C.): difesa di Tito Annio Milone per l'uccisione di Clodio sulla Via Appia. Milone fu condannato lo stesso; la versione pubblicata (significativamente riveduta) è considerata il capolavoro forense di Cicerone. [Completa]
 - *Filippiche I-XIV* (44-43 a.C.): contro Marco Antonio. La Seconda Filippica è l'attacco personale più feroce della letteratura latina. [Complete]
 
-**Opere filosofiche** (una selezione da un catalogo molto ampio)
+**Opere filosofiche** (una selezione da un catalogo molto ampio, quasi tutto scritto in due anni febbrili)
 
-- *De Oratore* (55 a.C.): sull'oratore ideale, in tre libri. Il trattamento più sofisticato della retorica in latino.
-- *De Re Publica* (54-51 a.C.): sullo Stato ideale. Parzialmente perduto; celebre per il *Somnium Scipionis*, sopravvissuto attraverso il commento di Macrobio.
+- *De Re Publica* (54-51 a.C.): sullo Stato ideale. Gravemente danneggiato nella trasmissione: la maggior parte di ciò che abbiamo fu recuperata nel 1819 da un palinsesto, un manoscritto raschiato e riscritto con un commento ai Salmi. Il sesto e ultimo libro, il *Somnium Scipionis*, si è salvato per tutt'altra via, citato per intero dentro il commento di Macrobio, e di solito si legge da solo.
+- *Paradoxa Stoicorum* (46 a.C.): sei paradossi stoici ("solo il saggio è libero", "solo l'uomo buono è ricco") argomentati come pezzi di bravura retorica. Breve, ed è il latino filosofico più facile che abbia scritto.
+- *Tusculanae Disputationes* (45 a.C.): cinque dialoghi su come raggiungere la felicità, scritti nelle settimane dopo la morte di Tullia. Il primo libro riguarda la paura della morte, e non è una prova distaccata.
 - *De Finibus Bonorum et Malorum* (45 a.C.): un'ampia rassegna dell'etica epicurea, stoica e peripatetica. Denso e impegnativo.
-- *Tusculanae Disputationes* (45 a.C.): cinque dialoghi su come raggiungere la felicità, scritti nelle settimane dopo la morte di Tullia.
-- *De Natura Deorum* (45 a.C.): tre libri che presentano le posizioni epicurea, stoica e accademica sugli dèi.
-- *De Amicitia* (44 a.C.): sull'amicizia. Contiene la celebre definizione dell'amicizia come *consensio* di tutte le cose divine e umane.
+- *De Natura Deorum* (45 a.C.): tre libri che presentano le posizioni epicurea, stoica e accademica sugli dèi, e che alla fine si rifiutano di dire quale sia quella giusta.
+- *De Divinatione* (44 a.C.): se profezie, presagi e sogni significhino qualcosa. Cicerone, che era augure, sostiene in prima persona di no.
 - *De Senectute* (44 a.C.): sulla vecchiaia. Caldo, arguto e sinceramente sentito.
+- *De Amicitia* (44 a.C.): sull'amicizia. Contiene la celebre definizione dell'amicizia come *consensio* di tutte le cose divine e umane.
+- *De Officiis* (44 a.C.): sul dovere, scritto per il figlio e terminato mentre Antonio lo stava distruggendo. L'opera in prosa dell'antichità più influente sull'Europa successiva.
+
+**Opere retoriche** (il mestiere che esercitò davvero, descritto dall'interno)
+
+- *De Oratore* (55 a.C.): sull'oratore ideale, in tre libri, ed è la cosa migliore che abbia scritto in qualsiasi genere. Una conversazione ambientata nel 91 a.C. fra i grandi oratori della sua giovinezza. Il trattamento più sofisticato della retorica in latino.
+- *Brutus* (46 a.C.): una storia dell'oratoria romana dalle origini fino a Cicerone stesso, in forma di dialogo. È la nostra fonte più importante sugli oratori latini arcaici, i più dei quali non sopravvivono altrove.
+- *Orator* (46 a.C.): il ritratto dell'oratore perfetto, indirizzato a Bruto. Contiene l'esposizione più ampia di Cicerone sul ritmo della prosa, ciò su cui sono costruite le sue stesse frasi.
+- *De Optimo Genere Oratorum* (46 a.C.): una breve prefazione a una traduzione, e l'origine della discussione sul tradurre il senso invece delle parole: *non verbum pro verbo*.
+- *Topica* (44 a.C.): su dove trovare gli argomenti. Scritto a memoria durante un viaggio per mare, per un giurista che glielo aveva chiesto.
 
 **Lettere** (circa 900 sopravvivono in quattro raccolte, la maggior parte mai destinate alla pubblicazione)
 
@@ -292,7 +302,7 @@ Gli studenti si avvicinano a Cicerone con timore, e non del tutto a torto. Le fr
 
 Ma ecco l'intuizione fondamentale: la prosa di Cicerone è tra le più *imparabili* di tutto il latino, una volta capito come funzionano le sue frasi. Tradurre Cicerone è come assemblare un puzzle in cui ogni pezzo è garantito di incastrarsi e cadere nella posizione corretta -- se si è lenti e attenti. La struttura periodica, lungi dall'essere complessità arbitraria, è un sistema. Le subordinate preparano la principale. Le participiali si agganciano al sostantivo più vicino. Il relativo *qui* si riferisce all'antecedente più plausibile più vicino. Pazienza e una solida padronanza della subordinazione latina sono l'80% di ciò che serve.
 
-Per genere: le **lettere** sono di livello C, accessibili anche a un lettore intermedio. Le **orazioni** si collocano tra B e A bassa, con la struttura ipotattica reale ma gestibile. Le **opere filosofiche** giustificano la valutazione A: vocabolario filosofico coniato da Cicerone stesso, argomentazione multi-livello, alta densità di allusioni ai testi greci originali.
+Per genere: le **lettere** sono di livello C, accessibili anche a un lettore intermedio. Le **orazioni** si collocano tra B e A bassa, con la struttura ipotattica reale ma gestibile. Le **opere retoriche** stanno nel mezzo, fra B e A bassa: sono dialoghi, e il botta e risposta tiene le frasi più corte di quanto farebbe un trattato, mentre l'argomento è quello che Cicerone praticava ogni giorno; il lessico tecnico è reale ma limitato, ed è lo stesso che usano queste note. Le **opere filosofiche** giustificano la valutazione A: vocabolario filosofico coniato da Cicerone stesso, argomentazione multi-livello, alta densità di allusioni ai testi greci originali.
 
 ### Brano latino 1: Orazione -- *In Catilinam* I.1-2
 

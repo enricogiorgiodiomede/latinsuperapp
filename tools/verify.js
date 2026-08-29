@@ -50,6 +50,24 @@ global.window = {};
 eval(fs.readFileSync(path.join(REPO, 'js/fragments.js'), 'utf8'));
 const AUTHORS = window.PracticeBank.authors;
 
+// sources.json is keyed by WORK ID and nothing else, while work ids are only
+// unique per AUTHOR (PracticeBank.getWork takes a slug as well). So two authors
+// can share one entry without anything complaining. That is currently true and
+// correct for `brutus` - Hortensius' only fragment IS a passage of Cicero's
+// Brutus, so both works legitimately point at cicero/brut - but a shared key
+// where the two works needed different pages would break one of them in
+// silence. Print the sharing rather than leave it to be discovered.
+const owners = {};
+for (const [slug, author] of Object.entries(AUTHORS)) {
+  for (const w of author.works) {
+    if (!SRC[w.id]) continue;
+    (owners[w.id] = owners[w.id] || []).push(slug);
+  }
+}
+for (const [id, slugs] of Object.entries(owners)) {
+  if (slugs.length > 1) console.log('NOTE  sources.json "' + id + '" is shared by ' + slugs.length + ' authors: ' + slugs.join(', '));
+}
+
 let ok = 0, bad = 0, skipped = 0;
 for (const author of Object.values(AUTHORS)) {
   for (const w of author.works) {

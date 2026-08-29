@@ -74,7 +74,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=100`.**
+   whenever you change a JS/CSS file. **Currently `v=101`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -248,7 +248,7 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
   **Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
 **=== SESSION HANDOFF (updated 2026-08-24) ===**
-Current: **v1.8.2, cache ?v=100**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
+Current: **v1.8.3, cache ?v=101**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
 50 frags since v1.4.0). Caesar's-Age flesh-out in progress: **Nepos done (1->8, v1.2.0)**;
 **Cicero is the big active job and is now the largest author in the app at 118 excerpts** (Plautus 50).
 
@@ -362,7 +362,25 @@ Philippics is +15 and was split into two releases rather than shipped as one.
   **The flaw this exposed: I had treated "Perseus prints it too" as proof a reading was transmitted.
   Perseus and The Latin Library are NOT independent witnesses for these texts, and a non-word is a
   defect however many sites carry it.** Full rule in `tools/README.md`.
-- **NEXT: Cicero's PHILOSOPHICAL and RHETORICAL groups.** Philosophical has **1 fragment**
+- ~~**v1.8.3**~~ DONE 29/08: **the philosophical works begin, +4** (De Amicitia 1 -> 5: 22, 64, 79,
+  102; two of them quote Ennius by name). **ALL THE STRUCTURAL WORK FOR BOTH REMAINING GROUPS IS DONE**
+  so the eight releases that follow are pure content: all 14 works mapped in `sources.json` and their
+  ~30 pages fetched; the **author page split four ways** (De Oratore moved out of Philosophical Works,
+  where it never belonged, into a new Rhetorical Works heading) in both languages; `reorder_works.js`
+  given `PHIL_ORDER`/`RHET_ORDER`/`LETTER_ORDER`; `apply_batch.js` sort key widened to accept a citation
+  range like `(De Oratore I.16-18)`; and `verify.js` now prints a NOTE when one `sources.json` key
+  serves two authors, which **Cicero's Brutus will do in v1.10.0** against Hortensius' work of the same
+  id. **`de-amicitia` mapped at last** - its launch-era §20 was verbatim, but its translations
+  contradicted its own analysis on *haud scio an* and dropped the *qua*; fixed, tag kept at 1.0.0.
+  **Hortensius' single fragment also came under verification for the first time and passes.**
+  Cicero **147**, bank **307**.
+- **NEXT: the plan is written out release by release in
+  `C:/Users/enric/.claude/plans/now-time-to-continue-snuggly-steele.md`.** v1.8.4 = De Senectute 5;
+  **v1.9.0** = De Officiis 5 + De Re Publica 4 + Somnium Scipionis 4; v1.9.1 = Tusculanae 5;
+  v1.9.2 = De Natura Deorum 3 + De Divinatione 3; v1.9.3 = Paradoxa 2 + De Amicitia and De Senectute to
+  8 (**PHILOSOPHICAL FINISHED at 42 across 9 works**); **v1.10.0** = De Oratore 5 + Brutus 3 + Orator 3;
+  v1.10.1 = De Optimo Genere 3 + Topica 2; v1.10.2 = the three big ones to 8/5/5 (**RHETORICAL FINISHED
+  at 23 across 5**). Then **Caesar, Hirtius, Lucretius, Sallust, Catullus**. Philosophical has **1 fragment**
   (De Amicitia 20, a launch original) and **`de-amicitia` is STILL the only Cicero work with no
   `sources.json` entry, so that fragment has never been verified** - map `cicero/amic` and check it
   first thing. Rhetorical is empty. Candidates are in `practice_fragments_reference.md` under

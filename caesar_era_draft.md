@@ -289,7 +289,7 @@ The political downfall came through a scandal that was not his fault but for whi
 
 In 58 BC, Clodius (now a tribune) passed a law targeting Cicero retroactively for the execution of the Catilinarians without trial. Cicero went into exile. His Palatine mansion was demolished and a temple to Liberty built on the site. He wrote letters from exile that were so painfully self-pitying that his friends eventually had to tell him to stop. He was recalled in 57 BC with public demonstrations of popular support that he described, with his usual restraint, as the greatest reception any Roman had ever received. His house was rebuilt at public expense.
 
-He was now fifty years old and had survived Sulla's dictatorship, the Catilinarian crisis, and exile. The decade of the fifties was difficult: Caesar's rise, the First Triumvirate, the growing sense that the Republic was not going to survive. He wrote philosophy: the *De Oratore*, the *De Re Publica*, the *De Legibus*. He wrote orations. He wrote letters to Atticus that are among the most intimate and revealing documents to survive from the ancient world. He governed Cilicia (as proconsul, 51-50 BC) and did an honorable job; he wanted a triumph but never got one.
+He was now fifty years old and had survived Sulla's dictatorship, the Catilinarian crisis, and exile. The decade of the fifties was difficult: Caesar's rise, the First Triumvirate, the growing sense that the Republic was not going to survive. He wrote the *De Oratore*, which is about his own craft rather than about how to live, and he wrote philosophy: the *De Re Publica*, the *De Legibus*. He wrote orations. He wrote letters to Atticus that are among the most intimate and revealing documents to survive from the ancient world. He governed Cilicia (as proconsul, 51-50 BC) and did an honorable job; he wanted a triumph but never got one.
 Underneath all of it lay a single idea, held with a consistency his enemies mistook for vanity: that Rome was held together not by written law but by the *mos maiorum*, the custom of the ancestors. This was an unwritten constitution, accumulated by practice rather than voted into existence, and it governed how a magistrate behaved, how the Senate was consulted, how a man treated his clients and his opponents. In the *De Re Publica* Cicero built his argument around a line of Ennius, *moribus antiquis res stat Romana virisque*, "the Roman state stands on its ancient customs and its men," and then made the uncomfortable observation that Rome was running short of both. The difficulty was structural. The *mos maiorum* had been shaped by a city-state that governed itself, and it was now being asked to govern an empire, in a world of armies loyal to their generals rather than to the Senate, of provincial fortunes large enough to buy an election, and of street violence used as an ordinary political instrument. Cicero spent his career insisting that the old rules still applied to a game whose pieces had changed.
 
 There is an obvious oddity in a man from Arpinum appointing himself the guardian of ancestral tradition, since he had no ancestors inside it: no consuls, no triumphs, no wax masks in the atrium. He knew it, and he had a model. Cato the Elder had also come from a country town, had also been a *novus homo*, and had made himself into the living definition of the ancestral virtue that the old families assumed they owned. Cicero admired him enough to list him in the *Pro Archia* among the Romans worth imitating, and later to hand him the leading role in the *De Senectute*, which is the literary equivalent of letting the *mos maiorum* speak in its own voice. The irony is the one that ended his career. In 63 BC, in defence of that tradition, he had Roman citizens executed without trial, for which the tradition offered no clear precedent, and five years later a tribune used the tradition's own protections to drive him out of Italy for doing it.
@@ -305,7 +305,7 @@ Twenty-three years later, Cicero's son -- also named Marcus -- was consul. He an
 
 ## Main Works
 
-Cicero wrote in three modes: orator, philosopher, and correspondent. He was excellent at all three, and the scope of his output is staggering. What follows is selective.
+Cicero wrote in four modes: orator, philosopher, teacher of rhetoric, and correspondent. He was excellent at all four, and the scope of his output is staggering. What follows is selective. The philosophical works and the rhetorical works are listed apart because they are different projects: the first ask what a good life and a good state are, the second ask how a Roman learns to speak, and only the second are about the craft Cicero actually practised for a living.
 
 **Orations** (more than 50 survive of perhaps 100 or more delivered)
 
@@ -314,15 +314,25 @@ Cicero wrote in three modes: orator, philosopher, and correspondent. He was exce
 - *Pro Milone* (52 BC): defense of Titus Annius Milo for the killing of Clodius on the Appian Way. Milo was convicted anyway; the published version (significantly revised) is considered Cicero's finest forensic achievement. [Complete]
 - *Philippics I-XIV* (44-43 BC): against Mark Antony. The Second Philippic is the most ferocious personal attack in Latin literature. [Complete]
 
-**Philosophical Works** (a selection from a very large catalogue)
+**Philosophical Works** (a selection from a very large catalogue, almost all of it written in two frantic years)
 
-- *De Oratore* (55 BC): on the ideal orator, in three books. The most sophisticated treatment of rhetoric in Latin.
-- *De Re Publica* (54-51 BC): on the ideal state. Partially lost; the surviving portion includes the *Somnium Scipionis* (Dream of Scipio), which came down through Macrobius's commentary.
+- *De Re Publica* (54-51 BC): on the ideal state. Badly damaged in transmission -- most of what we have was recovered in 1819 from a palimpsest, a manuscript scraped clean and written over with a commentary on the Psalms. Its sixth and final book, the *Somnium Scipionis*, survived by a completely different route, quoted whole inside Macrobius's commentary, and is usually read on its own.
+- *Paradoxa Stoicorum* (46 BC): six Stoic paradoxes ("only the wise man is free", "only the good man is rich") argued as rhetorical set-pieces. Short, and the easiest philosophical Latin he wrote.
+- *Tusculanae Disputationes* (45 BC): five dialogues on how to achieve happiness, written in the weeks after Tullia's death. Book I is on the fear of death, and it is not a detached performance.
 - *De Finibus Bonorum et Malorum* (45 BC): a comprehensive survey of Epicurean, Stoic, and Peripatetic ethics. Dense and demanding.
-- *Tusculanae Disputationes* (45 BC): five dialogues on how to achieve happiness, written in the weeks after Tullia's death.
-- *De Natura Deorum* (45 BC): three books presenting Epicurean, Stoic, and Academic views on the gods.
-- *De Amicitia* (44 BC): on friendship. Contains the famous definition of friendship as *consensio* of all divine and human things.
+- *De Natura Deorum* (45 BC): three books presenting Epicurean, Stoic, and Academic views on the gods, and refusing at the end to say which is right.
+- *De Divinatione* (44 BC): whether prophecy, omens and dreams mean anything. Cicero the augur argues, in his own voice, that they do not.
 - *De Senectute* (44 BC): on old age. Warm, witty, and genuinely felt.
+- *De Amicitia* (44 BC): on friendship. Contains the famous definition of friendship as *consensio* of all divine and human things.
+- *De Officiis* (44 BC): on duty, written for his son and finished as Antony was destroying him. The most influential prose work of antiquity in later Europe.
+
+**Rhetorical Works** (the craft he actually practised, described from the inside)
+
+- *De Oratore* (55 BC): on the ideal orator, in three books, and the best thing he wrote in any genre. A conversation set in 91 BC among the great orators of his youth. The most sophisticated treatment of rhetoric in Latin.
+- *Brutus* (46 BC): a history of Roman oratory from its beginnings to Cicero himself, in the form of a dialogue. Our single most important source for the early Latin orators, most of whom survive nowhere else.
+- *Orator* (46 BC): the portrait of the perfect orator, addressed to Brutus. Contains Cicero's fullest account of prose rhythm, the thing his own sentences are built on.
+- *De Optimo Genere Oratorum* (46 BC): a short preface to a translation, and the origin of the argument about translating sense rather than words -- *non verbum pro verbo*.
+- *Topica* (44 BC): on where to find arguments. Written from memory on a sea voyage, for a lawyer who had asked.
 
 **Letters** (about 900 survive in four collections, most of them never meant for publication)
 
@@ -352,6 +362,8 @@ By genre:
 The **letters** -- especially the *Ad Atticum* -- are the most accessible: colloquial, often short-sentenced, full of Greek loan-words signaling informal register, written at conversational pace. Many of them are effectively text messages from antiquity. Tier C.
 
 The **orations** are where most students encounter Cicero, and the Catilinarians and *Pro Caelio* are standard entry points for good reason. Hypotactic complexity is real but tractable: Cicero wants to persuade, which means he wants to be understood. Longer, denser speeches (*Verrine* set-pieces, *Second Philippic*) push higher. Overall: B to low A.
+
+The **rhetorical works** sit between the two. They are dialogues, so the give and take keeps the sentences shorter than a treatise would, and the subject is one the reader is already inside: this is Cicero describing the job he did every day. The technical vocabulary is real but finite and worth learning, since it is the vocabulary these notes use. *De Oratore* is the most demanding of them, *Topica* the least. Overall: B to low A.
 
 The **philosophical works** are a different register entirely. Cicero had to invent Latin philosophical vocabulary -- *qualitas*, *essentia*, *beatitudo*, *moralis*, *humanitas* are Ciceronian coinages or adaptations -- meaning that even an advanced reader will encounter lexicon that cannot be found in the usual dictionaries. The argumentation requires tracking multiple Greek philosophical schools simultaneously, and the allusion density to Greek originals is high and increasing. *De Finibus* and *Tusculanae Disputationes* are genuinely difficult. Overall: A.
 

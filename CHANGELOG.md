@@ -6,6 +6,64 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.8.3] - 2026-08-29
+
+**The philosophical works begin, +4.** De Amicitia 1 -> 5, and all the structural work for the two
+remaining Cicero groups lands in this release so that the eight that follow are pure content. Cicero
+**147**, bank **307**.
+
+### Added - De Amicitia 1 -> 5
+- **§22** the case for friendship: *quid dulcius quam habere quicum omnia audeas sic loqui ut tecum?*,
+  the five-fold *divitiae, ut utare ... valetudo, ut dolore careas* list, and **Ennius quoted by name**
+  for *vita vitalis*.
+- **§64** *amicus certus in re incerta cernitur* - **the best-known surviving line of Ennius**, dropped
+  in as a proverb - inside a much colder argument about why friendship fails in public life.
+- **§79** the shortest excerpt in the work, and the coldest: *amicos tamquam pecudes*.
+- **§102** the last page, *mihi quidem Scipio ... vivit tamen semperque vivet*.
+Both Ennius quotations cross-link to **Quintus Ennius** in the Archaic era; §102 cross-links to
+**Ad Familiares V.7** and forward to the **Somnium Scipionis**.
+
+### Changed - the author page now splits the works four ways
+- `caesar_era_draft.md` listed Main Works as Orations / Philosophical Works / Letters and **filed
+  *De Oratore* under Philosophical Works**, which is wrong: it is a book about oratory, not about how
+  to live. There is now a **Rhetorical Works** heading holding De Oratore, Brutus, Orator, De Optimo
+  Genere Oratorum and Topica - **three of which the page had never mentioned at all**. The
+  philosophical list gains De Officiis, De Divinatione and Paradoxa Stoicorum, and the De Re Publica
+  note now explains the palimpsest and why the Somnium Scipionis travelled separately.
+- The same edit was made to `italian_translations_caesar.md` and `js/content-it.js` regenerated. The
+  sub-headings are bold lines, not `##`, so `classifySection` still sees one section and **no parser
+  change was needed**.
+
+### Fixed - two fragments that had never been verified, and one that contradicted itself
+- **`de-amicitia` was the last Cicero work missing from `sources.json`**, so `verify.js` had been
+  skipping its launch-era §20 since launch. Mapped; **the Latin is exact**. But the accuracy pass found
+  the **translations contradicting the app's own analysis**: the analysis correctly calls *haud scio an*
+  "a formula introducing a confident claim in polite disguise", while both translations rendered it as
+  genuine hesitation ("I am not sure whether"), and both dropped the ablative of comparison *qua*, so
+  "nothing better **than friendship**" became just "nothing better". Fixed in EN and IT; **version stays
+  1.0.0**. It was also the only Cicero fragment with no `[n]` marker - now `[20]`.
+- **Hortensius' single fragment came under verification too, and passes.** It survives only because
+  Cicero quotes it, so it lives on `cicero/brut` - mapped today for Cicero's Brutus. That is why the
+  verbatim count rose by **six** and not four.
+
+### Changed - tools, all preparation for the eight releases that follow
+- **`sources.json`: all 14 philosophical and rhetorical works mapped at once**, so every work is
+  covered by `verify.js` from the moment it is created and the count can only go up.
+- **`verify.js` now prints a NOTE when one `sources.json` key serves two authors.** The file is keyed by
+  work id alone, but work ids are only unique *per author* (`getWork` takes a slug too). Cicero's Brutus
+  will collide with Hortensius' work of the same id in v1.10.0. Here that is harmless - both genuinely
+  point at `cicero/brut` - but a shared key where the two needed different pages would break one of
+  them in silence. Tested by simulating the v1.10.0 state: the NOTE fires.
+- **`reorder_works.js`: every bucket now has an explicit order**, not just the speeches. `PHIL_ORDER`
+  and `RHET_ORDER` are chronological by composition, with `somnium-scipionis` pinned straight after
+  `de-re-publica` because it is its sixth book; `LETTER_ORDER` is manuscript order. Adding a work from
+  now on means adding its id to a list.
+- **`apply_batch.js`: the book-aware sort key now accepts a range.** `(De Oratore I.16-18)` did not
+  match `/([IVXLCDM]+)\.(\d+)([a-z]?)\)$/`, so it fell through to the plain-digits rule and lost the
+  book number, which would have put De Oratore III.5 ahead of I.16.
+
+Verification: **148 verbatim, 0 mismatched** (was 142). Cache-bust: `?v=100` -> `?v=101`.
+
 ## [1.8.2] - 2026-08-28
 
 **THE LETTERS ARE FINISHED, +5.** **Ad Atticum 5 -> 8** and **Ad Familiares 6 -> 8**, the sizes the user

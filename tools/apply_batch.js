@@ -111,7 +111,10 @@ const firstSection = (f) => {
   // manuscripts number 3a, 4a and so on. Speech citations that happen to end
   // the same way (In Catilinam I.33) all share one book inside their work, so
   // the scaled key leaves their order untouched.
-  const l = f.citation.match(/([IVXLCDM]+)\.(\d+)([a-z]?)\)$/);
+  // The (?:-\d+)? is for a citation that ends on a RANGE - "(De Oratore
+  // I.16-18)". Without it the book-aware branch misses, the plain-digits rule
+  // below picks up 16, and De Oratore III.5 would sort ahead of I.16.
+  const l = f.citation.match(/([IVXLCDM]+)\.(\d+)(?:-\d+)?([a-z]?)\)$/);
   if (l) return romanToInt(l[1]) * 100000 + parseInt(l[2], 10) * 10 + (l[3] ? 1 : 0);
   const m = f.citation.match(/(\d+)(?:-\d+)?\)$/);
   if (m) return parseInt(m[1], 10);

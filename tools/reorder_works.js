@@ -1,10 +1,15 @@
 // v1.6.6: order Cicero's Speeches CHRONOLOGICALLY by delivery, restoring the
 // order used before v1.6.3 alphabetised them (user's request). Groups stay
-// contiguous and in their own order; only the speeches bucket is sorted.
+// contiguous and in their own order.
 //
-// An explicit list rather than a computed BC year: years count downwards, and
-// the four Catilinarians share a year but have a fixed internal order, so a
-// numeric sort is easy to get backwards.
+// v1.8.3: EVERY bucket now has an explicit order, not just the speeches. The
+// philosophical and rhetorical works arrive across nine releases in an order
+// that has nothing to do with when Cicero wrote them, so leaving those buckets
+// on insertion order would have shuffled the chooser about with every batch.
+// Adding a work now means adding its id to the right list below.
+//
+// Explicit lists rather than a computed BC year: years count downwards, several
+// works share one year, and a numeric sort is easy to get backwards.
 const fs = require('fs');
 const path = require('path');
 const P = path.join(__dirname, '..', 'js', 'fragments.js');
@@ -33,6 +38,32 @@ const SPEECH_ORDER = [
   'philippica-iv',    // 44 BC, 20 December
   'philippica-xiv'    // 43 BC, April
 ];
+// Manuscript order, which is also how everybody cites them.
+const LETTER_ORDER = ['ad-atticum', 'ad-familiares', 'ad-quintum', 'ad-brutum'];
+// By composition. Somnium Scipionis sits straight after De Re Publica because
+// it IS its sixth book, not because of its date.
+const PHIL_ORDER = [
+  'de-re-publica',       // 54-51 BC
+  'somnium-scipionis',   // = De Re Publica VI
+  'paradoxa-stoicorum',  // 46 BC
+  'tusculanae',          // 45 BC
+  'de-natura-deorum',    // 45 BC
+  'de-divinatione',      // 44 BC
+  'de-senectute',        // 44 BC, early
+  'de-amicitia',         // 44 BC
+  'de-officiis'          // 44 BC, late - the last thing he wrote
+];
+const RHET_ORDER = [
+  'de-oratore',          // 55 BC
+  'brutus',              // 46 BC
+  'orator',              // 46 BC
+  'de-optimo-genere',    // 46 BC
+  'topica'               // 44 BC
+];
+const ORDERS = {
+  speeches: SPEECH_ORDER, letters: LETTER_ORDER,
+  philosophical: PHIL_ORDER, rhetorical: RHET_ORDER
+};
 
 // Same guard as apply_batch.js: with git's core.autocrlf=true a checkout hands
 // back CRLF, the '\n\n' in tailMark stops matching, indexOf returns -1, and
@@ -68,16 +99,22 @@ for (const w of cic.works) {
   if (!buckets.has(root)) throw new Error('unknown group on ' + w.id + ': ' + w.group + ' (root ' + root + ')');
   buckets.get(root).push(w);
 }
-const speeches = buckets.get('speeches');
-for (const w of speeches) {
-  if (SPEECH_ORDER.indexOf(w.id) < 0) throw new Error('no chronological slot for ' + w.id);
+for (const [group, order] of Object.entries(ORDERS)) {
+  const bucket = buckets.get(group);
+  for (const w of bucket) {
+    if (order.indexOf(w.id) < 0) throw new Error('no slot in ' + group.toUpperCase() + '_ORDER for ' + w.id);
+  }
+  bucket.sort((a, b) => order.indexOf(a.id) - order.indexOf(b.id));
 }
-speeches.sort((a, b) => SPEECH_ORDER.indexOf(a.id) - SPEECH_ORDER.indexOf(b.id));
 cic.works = GROUP_ORDER.flatMap(g => buckets.get(g));
 
 if (cic.works.length !== before.length) throw new Error('lost a work in the reorder');
 fs.writeFileSync(P, head + JSON.stringify(AUTHORS, null, 2) + ';' + tail);
 console.log('before: ' + before.join(', '));
 console.log('after : ' + cic.works.map(w => w.id).join(', '));
-console.log('\nSpeeches, chronological (earliest first):');
-speeches.forEach(w => console.log('  ' + w.label.padEnd(18) + w.fragments.length));
+for (const group of GROUP_ORDER) {
+  const bucket = buckets.get(group);
+  if (!bucket.length) continue;
+  console.log('\n' + group + ', in order:');
+  bucket.forEach(w => console.log('  ' + w.label.padEnd(38) + w.fragments.length));
+}

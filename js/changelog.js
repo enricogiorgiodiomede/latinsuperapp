@@ -12,6 +12,33 @@
 
   var VERSIONS = [
     {
+      v: '1.8.3', date: '2026-08-29', time: '00:00', tz: 'CEST',
+      en: {
+        added: [
+          'The philosophical works begin. De Amicitia goes from 1 excerpt to 5, and it is the right place to start: Cicero\'s dialogue on friendship is the text a Latin student is most likely to be handed, and it is his clearest prose. What friendship is actually for, and the answer that it is having someone you would dare say anything to (22). Why true friendship is hardest to find among politicians, with the most famous line Ennius ever wrote dropped in as a proverb everybody knows - a sure friend is seen in an unsure thing (64). Four sentences on people who pick friends the way a farmer picks livestock, for the yield (79). And the last page of the dialogue, where Laelius says that Scipio is dead and still alive, because what he loved was the man\'s excellence and that has not gone out (102).',
+          'Two of the four quote Ennius by name, and he has his own entry back in the Archaic era, so the excerpts link across to him.'
+        ],
+        changed: [
+          'Cicero\'s list of works on his own page is now split four ways, not three. It used to read Orations / Philosophical Works / Letters, with De Oratore filed under philosophy - which is wrong, since it is a book about how to be an orator, not about how to live. There is now a Rhetorical Works heading holding De Oratore, Brutus, Orator, De Optimo Genere Oratorum and Topica, three of which the page had never mentioned at all. The philosophical list gains De Officiis, De Divinatione and Paradoxa Stoicorum, and the note on De Re Publica now explains how the text survived: scraped off a manuscript and rewritten with a commentary on the Psalms, except its last book, which came down whole inside somebody else\'s commentary. In both languages.',
+          'The oldest excerpt in this work was checked for the first time, and its translations disagreed with its own notes. De Amicitia 20 has been in the app since launch, and the work had never been mapped to its source page, so it had never been proved word for word - it is now, and the Latin is exact. But the analysis correctly explained that "haud scio an" is a polite way of stating something confidently, while the English and Italian both rendered it as real hesitation, "I am not sure whether"; and both dropped the little word that makes the sentence a comparison, so that "nothing better than friendship" became just "nothing better". Both translations fixed. Its NEW! date does not change.',
+          'One more excerpt quietly came under checking. Hortensius, in the Lesser Known part of this era, is represented by a single fragment that survives only because Cicero quotes him - and it lives on the same source page as Cicero\'s Brutus, which was mapped for the first time today. It passes.'
+        ],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Cominciano le opere filosofiche. Il De Amicitia passa da 1 brano a 5, ed è il punto giusto da cui partire: il dialogo di Cicerone sull’amicizia è il testo che più probabilmente viene messo in mano a uno studente di latino, ed è la sua prosa più limpida. A che cosa serva davvero l’amicizia, e la risposta che è avere qualcuno a cui oseresti dire qualsiasi cosa (22). Perché l’amicizia vera sia più difficile da trovare fra i politici, con il verso più celebre che Ennio abbia mai scritto lasciato cadere come un proverbio che tutti conoscono: l’amico sicuro si vede nella sorte incerta (64). Quattro frasi su chi sceglie gli amici come un allevatore sceglie il bestiame, per la resa (79). E l’ultima pagina del dialogo, dove Lelio dice che Scipione è morto ed è ancora vivo, perché ciò che ha amato era la virtù di quell’uomo, e quella non si è spenta (102).',
+          'Due dei quattro citano Ennio per nome, e lui ha una sua scheda nell’età arcaica: i brani rimandano a lui.'
+        ],
+        changed: [
+          'L’elenco delle opere di Cicerone, sulla sua pagina, è ora diviso in quattro parti e non in tre. Prima si leggeva Orazioni / Opere filosofiche / Lettere, con il De Oratore archiviato sotto la filosofia: il che è sbagliato, perché è un libro su come si diventa oratori, non su come si vive. Ora c’è una sezione Opere retoriche che contiene De Oratore, Brutus, Orator, De Optimo Genere Oratorum e Topica, tre dei quali la pagina non aveva mai nemmeno nominato. L’elenco filosofico guadagna De Officiis, De Divinatione e Paradoxa Stoicorum, e la nota sul De Re Publica spiega ora come il testo si sia salvato: raschiato via da un manoscritto e riscritto con un commento ai Salmi, tranne l’ultimo libro, giunto intero dentro il commento di qualcun altro. In entrambe le lingue.',
+          'Il brano più vecchio di quest’opera è stato controllato per la prima volta, e le sue traduzioni contraddicevano le sue stesse note. Il De Amicitia 20 è nell’app dal lancio, e l’opera non era mai stata associata alla pagina di origine: non era quindi mai stata provata parola per parola. Ora lo è, e il latino è esatto. Ma l’analisi spiegava correttamente che "haud scio an" è un modo cortese di affermare con sicurezza, mentre l’inglese e l’italiano lo rendevano come esitazione vera, "non so se"; ed entrambe lasciavano cadere la paroletta che rende la frase un paragone, così che "nulla di meglio dell’amicizia" diventava soltanto "nulla di meglio". Corrette entrambe. La sua data NEW! non cambia.',
+          'Un altro brano è entrato in silenzio sotto verifica. Ortensio, fra i Meno noti di quest’età, è rappresentato da un unico frammento che sopravvive solo perché Cicerone lo cita, e sta sulla stessa pagina di origine del Brutus ciceroniano, mappata oggi per la prima volta. Risulta corretto.'
+        ],
+        deleted: []
+      }
+    },
+    {
       v: '1.8.2', date: '2026-08-28', time: '19:45', tz: 'CEST',
       en: {
         added: [
