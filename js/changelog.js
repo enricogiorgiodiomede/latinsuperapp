@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.8.3', date: '2026-08-29', time: '00:00', tz: 'CEST',
+      v: '1.8.3', date: '2026-08-29', time: '19:12', tz: 'CEST',
       en: {
         added: [
           'The philosophical works begin. De Amicitia goes from 1 excerpt to 5, and it is the right place to start: Cicero\'s dialogue on friendship is the text a Latin student is most likely to be handed, and it is his clearest prose. What friendship is actually for, and the answer that it is having someone you would dare say anything to (22). Why true friendship is hardest to find among politicians, with the most famous line Ennius ever wrote dropped in as a proverb everybody knows - a sure friend is seen in an unsure thing (64). Four sentences on people who pick friends the way a farmer picks livestock, for the yield (79). And the last page of the dialogue, where Laelius says that Scipio is dead and still alive, because what he loved was the man\'s excellence and that has not gone out (102).',
