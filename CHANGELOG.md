@@ -48,7 +48,47 @@ defines the term before applying it.
 **Cato the Elder keeps surfacing**, and he is an author in the Archaic era of this app: De Re Publica II
 credits him with the book's central idea, and he is the speaker of the whole **De Senectute**.
 
-Verification: **166 verbatim, 0 mismatched**. Cache-bust: `?v=102` -> `?v=103`.
+Verification: **166 verbatim, 0 mismatched**. Cache-bust: `?v=102` -> `?v=103`, then `?v=104` with
+the follow-up below.
+
+### Same-day follow-up - two translations covered Latin the excerpts did not
+Found by the user reading the new excerpts. **A new class of error for this project**, and one neither
+existing check could see: `verify.js` proves the Latin is genuine, and the accuracy pass checks that a
+translation says what the Latin says - but nothing was checking that a translation covers **exactly** the
+Latin present and no more. No new excerpts, so this stays **v1.9.0**; cache `?v=103` -> `?v=104`.
+
+- **De Officiis III.99** was translated with its opening sentence, *Sed omittamus et fabulas et externa;
+  ad rem factam nostramque veniamus*, which the extraction had not included. Re-extracted with it.
+  The sentence matters: it is Cicero telling his son that Roman history has better arguments in it than
+  Greek philosophy, immediately after the Greek fable of Gyges.
+- **Somnium Scipionis VI.18-19** was translated with its closing sentence, *Haec ego admirans referebam
+  tamen oculos ad terram identidem*, likewise missing from the Latin. Restored - and it is the human
+  beat the passage needs, Scipio glancing back down at home while being shown the harmony of the cosmos.
+
+**New tool: `tools/lint_translations.js`.** A translation runs at a fairly stable multiple of its Latin,
+so a fragment carrying an extra sentence in one language shows up as a length outlier. Across the bank
+the English/Latin ratio has a median of 1.21 and sits inside 1.07-1.36 for ninety per cent of fragments;
+**the two faulty ones measured 1.43 and 1.50.** The lint reports anything outside the band, skipping
+fragments under 250 characters of Latin (where a four-word line of Ennius can legitimately need three
+times its length in English) and ignoring the italic provenance note that unsourced fragments carry
+inside their `latin` field. It flags **3 of 293**, all three checked by hand and recorded in the tool's
+header as known-good: De Agri Cultura cap. 5, Pro Milone 57 and Philippica I.26 sit near 1.50 because
+their Latin is exceptionally terse. A flag is a prompt to look, not a failure.
+
+### Same-day follow-up - two analysis notes added at the user's request
+- **De Re Publica I.45** now traces Polybius' **anacyclosis** forward to **Machiavelli**, *Discorsi*
+  I.2, who rehearses the cycle and then breaks it: a state will rarely live long enough to complete the
+  circuit, because a better-ordered neighbour will conquer it first, so chance and outside force get a
+  vote the Greek scheme did not give them. What Machiavelli keeps is what Cicero keeps - the mixed
+  constitution, with Rome as the proof.
+- **Somnium Scipionis VI.16** now says why the passage matters: it is the earliest sustained description
+  in Latin of the earth seen from outside, and the ancestor of the whole European tradition of the
+  motif. The Greek precedent is the myth closing Plato's *Phaedo*, which lacks the observer looking down
+  at his own empire. **Dante is reading this passage, through Macrobius, when he calls the earth
+  *l'aiuola che ci fa tanto feroci* in *Paradiso* XXII.** The note also makes the wider point plainly:
+  the philosophical works are why Cicero was read for two thousand years, and none of this sounds like
+  the man of the Catilinarians.
+
 
 ## [1.8.4] - 2026-08-29
 

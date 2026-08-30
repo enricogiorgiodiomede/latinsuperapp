@@ -12,6 +12,7 @@ node tools/fetch_sources.js                                  # 1. cache the sour
 node tools/extract.js batch/spec.json batch/passages.json    # 2. pull passages verbatim
 node tools/apply_batch.js batch/passages.json batch/frags.js 1.7.1   # 3. write them into the bank
 node tools/verify.js                                         # 4. prove every Latin field is verbatim
+node tools/lint_translations.js                              # 5. and that each translation covers exactly it
 ```
 
 Then bump the cache-buster, check it in the browser, and commit. See PROGRESS.md for the release
@@ -27,6 +28,7 @@ checklist (CHANGELOG, in-app What's New, reference sheet, memory).
 | `create_works.js` | Adds new (empty) works before a batch that introduces them. Edit the `NEW` array first. |
 | `reorder_works.js` | Re-sorts Cicero's speeches into chronological order of delivery. Edit `SPEECH_ORDER` when a work is added. |
 | `verify.js` | The gate: every `latin` field must appear verbatim in its source page. Run it before every commit. |
+| `lint_translations.js` | Catches a translation that covers MORE or LESS Latin than its fragment contains, by length ratio. Run it before every commit too. Flags are a prompt to look, not failures. |
 | `strip.js` | Shared HTML-to-text and marker-normalising helpers. |
 
 ## Conventions the scripts assume
