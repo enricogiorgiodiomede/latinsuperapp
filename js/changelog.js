@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.9.3', date: '2026-08-30', time: 'TBC', tz: 'CEST',
+      v: '1.9.3', date: '2026-08-30', time: '21:37', tz: 'CEST',
       en: {
         added: [
           'Cicero\'s philosophical works are finished: 8 new excerpts, and the section now holds 42 across 9 texts. One new work joins, and the two shortest and warmest of the dialogues, on friendship and on old age, grow from 5 excerpts each to 8.',
