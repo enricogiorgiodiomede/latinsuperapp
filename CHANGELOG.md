@@ -53,6 +53,37 @@ Deorum*, so each school argues in its own voice, and 1 + 2 across the two books 
 Verification: **177 verbatim, 0 mismatched**; `lint_translations.js` **304 checked, 3 to look at**
 (the same three documented in the tool's header, none of them new). Cache-bust: `?v=106` -> `?v=107`.
 
+### Follow-up (same day, no version bump) - two external cross-references
+The user asked for both. Neither touches any Latin, so the fragments keep their `1.9.2` tags.
+- **De Natura Deorum II.95 now points at Plato's cave.** Aristotle spent twenty years in Plato's
+  school and the two thought experiments are built the same way - people who have never been outside,
+  brought into the daylight - down to the furnishings, since Plato's prisoners watch shadows thrown by
+  carried statues and Aristotle's people sit among *signis atque picturis*. They then go opposite ways:
+  the cave is deprivation and the ascent leads away from the visible world, while Aristotle's rooms are
+  beautiful and lit, nobody is a prisoner, and the sky proves its point by being looked at. **One says
+  the world of the senses is the shadow; the other says it is the evidence.**
+- **De Divinatione II.148 now points at Lucretius**, who performs the same operation from the opposite
+  school and in verse: the *De Rerum Natura* destroys fear-driven cult and keeps its gods, and at
+  V.1198-1203 redefines piety as looking on everything with a mind at peace. **The labels are swapped**
+  - for Lucretius *religio* is the villain (*tantum religio potuit suadere malorum*) where Cicero
+  blames *superstitio* - and it is Cicero's labels the modern languages kept. Noted in the analysis.
+
+**Also fixed: three excerpts were rendering a stray asterisk.** `js/markdown.js` renders bold as
+`/\*\*([^*]+?)\*\*/`, and the character class excludes `*`, so **a bold span cannot contain an
+italic one**. `***word***` is fine - the engine finds the inner pair and the italic rule wraps it,
+which is why the house style works - but `**a *b* c**` matches nothing and leaks a literal `*` onto
+the page. Three fragments had been written that way and are now restructured so bold and italic sit
+side by side: **De Re Publica I.45** (the Machiavelli note, v1.9.0), **Tusculanae IV.68-69** (the
+*Medea Exul* of Ennius, v1.9.1) and the new **De Divinatione II.148** note. The whole bank was then
+re-rendered field by field and no leftover asterisk remains anywhere. No Latin was touched and no
+version tag moved.
+
+**Also fixed:** the v1.9.2 entry in `js/changelog.js` had gone in with **NFD (decomposed) accents** in
+its Italian - 28 combining marks, where every other entry in the file is NFC. It renders identically
+and is invisible in a diff, but it breaks string matching against the file, which is how it was found.
+The whole file is normalised to NFC; nothing but the v1.9.2 entry changed. Cache-bust: `?v=107` ->
+`?v=108`.
+
 ## [1.9.1] - 2026-08-30
 
 **Tusculanae Disputationes, new work, +5.** One excerpt from each of four books. Philosophical

@@ -937,6 +937,26 @@ the opposite conclusion (ND II.95) and DRN VI on the magnet (Div. I.86); **Caesa
 both appear in Div. II.52; **Tusculanae III.24** is the parallel for Cicero coining Latin philosophical
 vocabulary inside a parenthesis (ND I.18, *Pronoeam, quam Latine licet Providentiam dicere*).
 
+**FORMATTING RULE: A BOLD SPAN CANNOT CONTAIN AN ITALIC ONE** (learned the hard way, 30/08/2026).
+`js/markdown.js` renders bold with `/\*\*([^*]+?)\*\*/` and the character class **excludes `*`**, so:
+- `***word***` is FINE and is the house style for a headline quotation - the bold rule matches the
+  inner pair and the italic rule then wraps the whole thing.
+- `**a *b* c**` **matches nothing at all** and leaks a literal `*` onto the page. This is easy to miss,
+  because the text looks right in the source and only the rendered page is wrong.
+- Write them side by side instead: `**Ennius**` next to `*Medea Exul*`, not `***Medea Exul* of Ennius**`.
+
+Three fragments had it before anyone noticed - De Re Publica I.45 (v1.9.0), Tusculanae IV.68-69
+(v1.9.1) and De Divinatione II.148 (v1.9.2) - all now rephrased. **The check is cheap, so run it after
+any batch:** apply the two regexes from `js/markdown.js` to every `analysis`/`analysisIt`/`description`/
+`descriptionIt`/`title`/`titleIt`/`english`/`italian` field and assert that no `*` survives.
+
+**KEEP THE FILES NFC.** The same day, the v1.9.2 entry went into `js/changelog.js` with **decomposed
+(NFD) accents** - `o` + combining grave instead of `ò` - 28 of them, where the rest of the file and
+every other file in the repo is NFC. It renders identically and is invisible in a diff, and it was
+only found because a later `str.count()` against the file returned 0 for text that was plainly there.
+When generating Italian prose through a scratch script, either write `\uXXXX` escapes or normalise to
+NFC before writing.
+
 **POLICY CHANGE, v1.8.0 FOLLOW-UP (the user's instruction): MEND FIRST, TRIM LAST.** Where the source has
 a plain defect and the right reading is not in doubt, check it against a second text and **correct it in
 the app, saying so in the analysis** - do not throw away a sentence over a one-letter misprint. Poesia
