@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.9.1', date: '2026-08-30', time: '00:00', tz: 'CEST',
+      v: '1.9.1', date: '2026-08-30', time: '18:01', tz: 'CEST',
       en: {
         added: [
           'The Tusculan Disputations join the philosophical works with 5 excerpts, one from each of four books. Cicero wrote all five books in a few months of 45 BC, in the year his daughter died, and each one takes a question and argues it out: is death an evil, is pain an evil, what is grief, what are the passions, is virtue enough to be happy.',
