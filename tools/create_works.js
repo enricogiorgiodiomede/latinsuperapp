@@ -1,11 +1,11 @@
-// v1.9.0: create the three works that take the philosophical group live.
-// Somnium Scipionis is De Re Publica book VI and is a SEPARATE work here (the
-// user's call): it is the piece students are actually set, it reached us by a
-// different route from the rest - quoted whole inside Macrobius' commentary,
-// while books I-V survive in a scraped-over palimpsest - and giving it its own
-// button makes it findable. Its fragments are still cited `De Re Publica VI.n`,
-// which is how everyone cites them. `reorder_works.js` pins it straight after
-// de-re-publica in PHIL_ORDER.
+// v1.9.2: the two works of 45-44 BC in which Cicero puts Roman religion on
+// trial. De Natura Deorum gives a book to each school - Epicurean, Stoic,
+// Academic - and De Divinatione is its sequel: Quintus argues the case for
+// divination in book I, Cicero dismantles it in book II. They are separate
+// works here because they are separate works, but they cross-reference each
+// other, and De Divinatione II.148 names De Natura Deorum out loud.
+// `reorder_works.js` already pins both in PHIL_ORDER, between the Tusculans
+// and De Senectute.
 // Works with no fragments are hidden by PracticeBank.works(), so a work created
 // here shows up only once apply_batch has filled it.
 const fs = require('fs');
@@ -13,7 +13,8 @@ const path = require('path');
 const P = path.join(__dirname, '..', 'js', 'fragments.js');
 
 const NEW = [
-  { id: 'tusculanae', label: 'Tusculanae Disputationes', labelIt: 'Tusculanae Disputationes', group: 'philosophical' }
+  { id: 'de-natura-deorum', label: 'De Natura Deorum', labelIt: 'De Natura Deorum', group: 'philosophical' },
+  { id: 'de-divinatione', label: 'De Divinatione', labelIt: 'De Divinatione', group: 'philosophical' }
 ];
 
 // Same guard as apply_batch.js: with git's core.autocrlf=true a checkout hands

@@ -6,6 +6,53 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.9.2] - 2026-08-30
+
+**De Natura Deorum and De Divinatione, two new works, +6.** One excerpt per book of the *De Natura
+Deorum*, so each school argues in its own voice, and 1 + 2 across the two books of the
+*De Divinatione*. Philosophical **8 works / 34**; Cicero **176 across 31 works**; bank **336**.
+
+### Added
+- **De Natura Deorum I.18-19** the Epicurean Velleius, introduced *tamquam modo ex deorum concilio et
+  ex Epicuri intermundiis descendisset*, takes Plato's craftsman god literally and asks for the
+  building site: ***quae molitio, quae ferramenta, qui vectes, quae machinae, qui ministri***. The
+  Stoic *Pronoea* is dismissed as *anum fatidicam*. Cross-links to **Tusculanae III.24** for the same
+  trick of coining Latin philosophical vocabulary inside a parenthesis.
+- **De Natura Deorum II.95** Aristotle's men who had lived their lives underground, quoted by the
+  Stoic Balbus. **One sentence**: four pluperfect subjunctives of setting, a chain of *cum* clauses,
+  and the main verb held to the last six words. It is a surviving fragment of Aristotle's lost
+  *De philosophia* and exists only because Cicero copied it. Cross-links to **Lucretius**
+  (*De Rerum Natura* II.1023-1039), who runs the same experiment and concludes the opposite.
+- **De Natura Deorum III.5-6** Cotta, Academic sceptic and serving pontifex, on how he holds both
+  offices: ***a te enim philosopho rationem accipere debeo religionis, maioribus autem nostris etiam
+  nulla ratione reddita credere***. Three Roman *pontifices maximi* set against the first three heads
+  of the Stoa. Trimmed, with the middle of section 5 marked `[...]`.
+- **De Divinatione I.86** Quintus separates *cur fiat* from *fiat necne fiat* and answers with the
+  magnet: nobody can explain it either, and you believe in it. The best argument in book I, and
+  Cicero gave it to his brother rather than to a straw man.
+- **De Divinatione II.52** the base-rate objection (*quota enim quaeque res evenit praedicta ab
+  istis?*) and the coincidence objection in three lines, then Hannibal on *carunculae vitulinae*.
+  **Caesar is the second example**, sailing for Africa against the chief haruspex. Cato the Elder's
+  joke about two haruspices sits one sentence earlier, at II.51, and is quoted in the analysis.
+- **De Divinatione II.148** the close of the last theological dialogue: ***nec vero superstitione
+  tollenda religio tollitur***, opened by *explodatur*, a word from the theatre. The etymology of the
+  pair is at **De Natura Deorum II.72**, in the same release's other work.
+
+### Notes on the source
+- **The two works are marked differently.** `nd1`-`nd3` print `[n]`, so a fragment may span two
+  sections (I.18-19, III.5-6). `divinatione1`-`divinatione2` print a **roman chapter numeral plus a
+  bare arabic section number** (`XXIV Vetus autem...`, ` 52 Quota enim...`), which `normalise()`
+  cannot strip - the same trap as `tusc1` in v1.9.1. **Every De Divinatione fragment therefore stays
+  inside one printed section run**, and its marker is supplied by the app. This rules out joining
+  I.85-86 or II.51-52, both of which were wanted and both of which were cut back to one section.
+- **Kept and flagged, not emended:** *rutundum* for *rotundum* (I.18) and *abundant i, qui* (II.95),
+  where *i* is the old nominative plural of *is*. Both are real Latin and are printed as the source
+  gives them. Also kept: `" Ain tu?"` at II.52, where The Latin Library sets a space after the
+  opening quotation mark. **No emendations in this release.**
+
+Verification: **177 verbatim, 0 mismatched**; `lint_translations.js` **304 checked, 3 to look at**
+(the same three documented in the tool's header, none of them new). Cache-bust: `?v=106` -> `?v=107`.
+
 ## [1.9.1] - 2026-08-30
 
 **Tusculanae Disputationes, new work, +5.** One excerpt from each of four books. Philosophical

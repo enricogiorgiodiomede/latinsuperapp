@@ -887,6 +887,56 @@ the sole surviving account of that grave. Everything needed:
 - Content: *humilem homunculum a pulvere et radio*, the sphere and cylinder on the column, the work
   party with sickles, and the closing *nisi ab homine Arpinate didicisset*.
 
+**DE NATURA DEORUM (3) AND DE DIVINATIONE (3) - v1.9.2, 2026-08-30.** Two works created together by
+`create_works.js`; both were already in `PHIL_ORDER` and in `sources.json`, so nothing structural was
+needed. Shape settled BEFORE any passage was picked, which is the v1.9.1 lesson: **ND takes one excerpt
+per book** (so the Epicurean, the Stoic and the Academic each get their own voice) and **De Div takes
+1 + 2** (Quintus's case, then two from Cicero's demolition).
+- spec entries, all verified verbatim:
+  - `"nd.1.18": ["nd1", "Tum Velleius fidenter sane", "pariendosque sensus?"]`, prefix `[18] `
+  - `"nd.2.95": ["nd2", "Praeclare ergo Aristoteles", "deorum esse arbitrarentur.'"]`, prefix `[95] `
+  - `"nd.3.5a"` + `"nd.3.6b"` joined by `" [...] [6] "`, prefix `[5] ` - a real trim, the middle of
+    section 5 (Laelius, Romulus and Numa) is dropped
+  - `"div.1.86": ["divinatione1", "Cur fiat quidque, quaeris.", "et a patribus accepimus."]`
+  - `"div.2.52": ["divinatione2", "Quota enim quaeque res evenit", "aut nullos habuerint exitus aut contrarios?"]`
+  - `"div.2.148": ["divinatione2", "Explodatur igitur haec quoque somniorum divinatio", "ordoque rerum caelestium cogit confiteri."]`
+
+**THE SOURCE MARKS THE TWO WORKS DIFFERENTLY, AND ONE OF THEM IS A TRAP.** `nd1`-`nd3` print `[n]`, which
+`normalise()` strips, so an ND fragment may span two sections - I.18-19 and III.5-6 both do.
+`divinatione1`-`divinatione2` print **a roman chapter numeral and then a BARE arabic section number**
+(`XXIV  Vetus autem illud...`, ` 52 Quota enim...`), exactly like `tusc1` in v1.9.1, and `normalise()`
+cannot strip either. **A De Divinatione fragment must therefore stay inside one printed section run.**
+Note that `[...]` is NOT a way round this: `verify.js` splits on `[...]` and would accept the join, but
+`[...]` means text was cut, and a section number is not text - using it to paper over a numeral would
+lie to the reader. Do not extend `normalise()` to eat bare digits either; it would strip real numbers
+out of the Latin.
+
+**KEPT AND FLAGGED, NOT EMENDED (no emendations at all in this release).**
+- *rutundum* for *rotundum* (ND I.18) - a genuine older spelling.
+- *quibus abundant i, qui beati putantur* (ND II.95) - ***i* is the old nominative plural of *is***
+  (beside *ii*, *ei*, *iei*). It looks like a dropped character and is not one. Flagged in the analysis.
+- `" Ain tu?"` (Div. II.52) - The Latin Library sets a space after the opening quotation mark;
+  `normalise()` already cancels that, and the app prints it as the source has it.
+- `inlustribus`, `inmutabiles`, `inmortalium`, `adliciat`, `adtrahat` - unassimilated spellings, real.
+
+**TWO CANDIDATES CUT BACK BY THE BARE-NUMERAL RULE, worth restoring if De Divinatione ever grows.**
+Neither can be joined to its neighbour, so each would have to stand alone as its own fragment:
+- **Div. I.85** - the run of *Quid enim habet haruspex, cur...? Quid augur, cur...? Quid astrologus,
+  cur...?*, the objection that I.86 answers. Superb anaphora and a wall of indirect questions; it was
+  dropped only because I.86 (the magnet) is the better single section. Start
+  `"Nec vero quicquam aliud adfertur"`, end `"Priamus sapiens hoc idem facere non queat?"`.
+- **Div. II.51** - Cato the Elder, *mirari se aiebat, quod non rideret haruspex, haruspicem cum vidisset*.
+  The whole of section 51 is that one sentence, about 18 words, which is thin for a fragment on its own;
+  it is quoted inside the II.52 analysis instead, with the cross-link to Cato's own entry.
+
+**CROSS-LINKS BUILT INTO THIS BATCH** (the two works cite each other, which is unusual and worth using):
+Div. II.148 names *de natura deorum* in its own text; the *superstitio*/*religio* etymology it depends on
+is at **ND II.72**; Cotta at **ND III.6** refuses the appeal to the ancestors that Quintus leans on at
+**Div. I.86**. Outside Cicero: **Lucretius** DRN II.1023-1039 runs Aristotle's sky experiment and reaches
+the opposite conclusion (ND II.95) and DRN VI on the magnet (Div. I.86); **Caesar** and **Cato the Elder**
+both appear in Div. II.52; **Tusculanae III.24** is the parallel for Cicero coining Latin philosophical
+vocabulary inside a parenthesis (ND I.18, *Pronoeam, quam Latine licet Providentiam dicere*).
+
 **POLICY CHANGE, v1.8.0 FOLLOW-UP (the user's instruction): MEND FIRST, TRIM LAST.** Where the source has
 a plain defect and the right reading is not in doubt, check it against a second text and **correct it in
 the app, saying so in the analysis** - do not throw away a sentence over a one-letter misprint. Poesia

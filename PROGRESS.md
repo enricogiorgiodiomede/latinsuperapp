@@ -143,7 +143,7 @@ The full Italian translation pass is **DONE**.
 | Cornelius Nepos | Good Exercise | **De Viris Illustribus (8)**: Praefatio, Themistocles, Alcibiades, Epaminondas, Pelopidas, Hannibal, Cato, Atticus |
 | Quintus Hortensius Hortalus | **NA (grey badge, no chart)** | Cicero, Brutus 6 (1) |
 | Publius Nigidius Figulus | **NA (grey badge, no chart)** | Gellius, NA X.9 (1) |
-| **Marcus Tullius Cicero** *(needsSelection, NESTED chooser)* | Very Difficult | **Speeches (116 across 19 works, v1.5.0-v1.7.7), CHRONOLOGICAL**: **THE VERRINES ARE CLOSED AT 25 (5x5), 7 works: Divinatio 3 · Actio Prima 3 (cited BY CHAPTER) · II.1 3 · II.2 3 · II.3 3 · II.4 De signis 5 · II.5 De suppliciis 5** · **In Catilinam I 10 · II 7 · III 7 · IV 8 = 32** · Pro Archia 8 · **Pro Caelio 8** · **In Pisonem 8** · Pro Milone 8 · **Philippica I 7 · II 8 · IV 5 · XIV 7 = 27 (THE PHILIPPICS ARE FINISHED)**. **Letters**: Ad Atticum 1. **Philosophical works**: De Amicitia 1. (118 total) |
+| **Marcus Tullius Cicero** *(needsSelection, NESTED chooser)* | Very Difficult | **Speeches (116 across 19 works, v1.5.0-v1.7.7), CHRONOLOGICAL**: **THE VERRINES ARE CLOSED AT 25 (5x5), 7 works: Divinatio 3 · Actio Prima 3 (cited BY CHAPTER) · II.1 3 · II.2 3 · II.3 3 · II.4 De signis 5 · II.5 De suppliciis 5** · **In Catilinam I 10 · II 7 · III 7 · IV 8 = 32** · Pro Archia 8 · **Pro Caelio 8** · **In Pisonem 8** · Pro Milone 8 · **Philippica I 7 · II 8 · IV 5 · XIV 7 = 27 (THE PHILIPPICS ARE FINISHED)**. **Letters (26 across 4 works, v1.8.0-v1.8.2)**: Ad Atticum 8 · Ad Familiares 8 · Ad Quintum 5 · Ad Brutum 5, all cited BY BOOK AND LETTER. **Philosophical (34 across 8 works, v1.8.3-v1.9.2)**: De Re Publica 4 · Somnium Scipionis 4 · Tusculanae 5 · **De Natura Deorum 3** · **De Divinatione 3** · De Senectute 5 · De Amicitia 5 · De Officiis 5, in PHIL_ORDER (chronological). **Rhetorical: still empty.** (176 total across 31 works) |
 | Gaius Julius Caesar | Good Exercise | BG VI.13 Druids · VI.14 Druids · BC I.7 Rubicon speech (3) |
 | Aulus Hirtius | Manageable | BG VIII praef. · Bellum Alexandrinum 1 · Bellum Alexandrinum 2 (3) |
 | Titus Lucretius Carus | Very Difficult | DRN I.80-101 Iphigenia (1) |
@@ -413,16 +413,17 @@ Philippics is +15 and was split into two releases rather than shipped as one.
   user's request. **ARCHIMEDES IS BENCHED, NOT SCRAPPED** - its full recipe is in
   `practice_fragments_reference.md`; restore it first if the Tusculans ever grow past 5.
   **First deliberate deletion in the project, and the first use of the `deleted` bucket.**
+- ~~**v1.9.2**~~ DONE 30/08: **De Natura Deorum 3 + De Divinatione 3, two new works, +6** (ND I.18-19 Velleius asking Plato's god for the building site, II.95 Aristotle's underground men in **one sentence**, III.5-6 Cotta the sceptic pontifex; Div. I.86 Quintus and the magnet, II.52 Hannibal's *carunculae vitulinae* plus Caesar sailing against the haruspex, II.148 *nec vero superstitione tollenda religio tollitur*). Philosophical **8 works / 34**, Cicero **176 across 31 works**, bank **336**. **COVERAGE SHAPE DECIDED BEFORE PICKING** (the v1.9.1 lesson): one book each for ND, 1+2 for De Div. **divinatione1-2 print a roman chapter numeral plus a BARE arabic section number**, which `normalise()` cannot strip - the tusc1 trap again - so **every De Divinatione fragment stays inside one printed section**; that is why I.85-86 and II.51-52 were each cut back to a single section. **Kept and flagged, not emended**: *rutundum* (I.18) and *abundant i, qui* (II.95), where *i* is the old nom. pl. of *is*; no emendations at all this release.
 - **NEXT: the plan is written out release by release in
   `C:/Users/enric/.claude/plans/now-time-to-continue-snuggly-steele.md`.** v1.8.4 = De Senectute 5;
   **v1.9.0** = De Officiis 5 + De Re Publica 4 + Somnium Scipionis 4; v1.9.1 = Tusculanae 5;
   v1.9.2 = De Natura Deorum 3 + De Divinatione 3; v1.9.3 = Paradoxa 2 + De Amicitia and De Senectute to
   8 (**PHILOSOPHICAL FINISHED at 42 across 9 works**); **v1.10.0** = De Oratore 5 + Brutus 3 + Orator 3;
   v1.10.1 = De Optimo Genere 3 + Topica 2; v1.10.2 = the three big ones to 8/5/5 (**RHETORICAL FINISHED
-  at 23 across 5**). Then **Caesar, Hirtius, Lucretius, Sallust, Catullus**. Philosophical has **1 fragment**
-  (De Amicitia 20, a launch original) and **`de-amicitia` is STILL the only Cicero work with no
-  `sources.json` entry, so that fragment has never been verified** - map `cicero/amic` and check it
-  first thing. Rhetorical is empty. Candidates are in `practice_fragments_reference.md` under
+  at 23 across 5**). Then **Caesar, Hirtius, Lucretius, Sallust, Catullus**. **v1.8.3 through v1.9.2 are shipped**, so the next one up is **v1.9.3**; `de-amicitia` was mapped
+  in v1.8.3 and all five of its fragments now verify. Rhetorical is still empty - its five works are
+  mapped in `sources.json` and cached, but no work objects exist until v1.10.0.
+  Candidates are in `practice_fragments_reference.md` under
   "Still to build". After that: **Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 - **THEN: Cicero's other two groups** - **Letters** (Ad Atticum has 1; add Ad Familiares, Ad
   Quintum, Ad Brutum - all already in `_notLive` in sources.json and cached), **Philosophical works**

@@ -12,6 +12,45 @@
 
   var VERSIONS = [
     {
+      v: '1.9.2', date: '2026-08-30', time: 'TBC', tz: 'CEST',
+      en: {
+        added: [
+          'Two new philosophical works, 6 excerpts, and between them they are the closest thing Rome produced to a public inquiry into its own religion. De Natura Deorum gives one book to each school and lets them tear each other apart; De Divinatione is its sequel, and this time the two speakers are Cicero and his own brother.',
+          'De Natura Deorum, 3, one per book, so each of the three schools speaks in its own voice. Book I is the Epicurean Velleius, introduced as a man who has never doubted anything in his life and who walks on as if he had just come down from a council of the gods. His attack on the idea of a god who builds the world is to take the metaphor literally and ask for the paperwork: what were the tools, the crowbars, the cranes, and who were the labourers? (I.18-19).',
+          'Book II is the Stoic Balbus, who proves the gods exist by telling a story he got from Aristotle, and which survives only because he told it. Imagine people who had lived their whole lives underground in beautiful lit rooms, who had heard rumours that gods exist but had never once been outside; then the earth opens and they walk out, and see the sea, and the sun, and then night, and the stars. The whole thing is one sentence, and the verdict waits until the last six words (II.95).',
+          'Book III is Cotta the sceptic, who is also a serving priest of the Roman state, and who explains before he starts how he holds both jobs at once. From a philosopher he demands an argument; from his ancestors he accepts the whole of Roman religion with no argument at all. It is not evasion, it is an accurate description of how Roman religion worked, and it is the sentence to take away from the entire dialogue (III.5-6).',
+          'De Divinatione, 3. Book I is Quintus making the case for reading the future in livers and birds and dreams, and Cicero gave his brother the strongest argument in the book: you are asking why it happens, and the question is whether it happens. Nobody can explain the magnet either, and you believe in the magnet (I.86).',
+          'Book II is Cicero taking it apart, and enjoying it. How many of these predictions actually come true, and if one does, how do you rule out coincidence? Then Hannibal, old and in exile, listening to a king refuse battle because the entrails said no: would you rather trust a scrap of veal than a veteran general? The example that follows is Caesar sailing for Africa against the chief soothsayer\'s advice and winning the war (II.52).',
+          'And the last page of the last of these dialogues, where Cicero says exactly how far the demolition goes. Superstition has to be pulled up by the roots; religion is not pulled up with it. That distinction is still in English, Italian, French and German, and this is the sentence that carried it (II.148).'
+        ],
+        changed: [
+          'The two works cross-reference each other and the app now shows it. De Divinatione names De Natura Deorum out loud in its closing page; the etymology behind superstition and religion is explained in De Natura Deorum II; and Cotta refusing to let a philosopher appeal to the ancestors is answered, in Cicero\'s own voice, by the ending of De Divinatione. Outside Cicero, the notes point to Lucretius, who runs Aristotle\'s thought experiment about the sky and draws the opposite conclusion from it, to Caesar, and to Cato the Elder, whose joke about two soothsayers being unable to look at each other without laughing sits one sentence away from the veal.',
+          'A note on the source, for anyone comparing with a printed text. De Natura Deorum marks its sections in brackets, but De Divinatione marks them with a chapter numeral in roman and a bare number for the section, which the app cannot tell apart from a number inside the Latin. Every De Divinatione excerpt therefore stays inside a single numbered section, and the numbers you see are the app\'s own.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Due nuove opere filosofiche, 6 brani, e insieme sono la cosa più simile a un’inchiesta pubblica che Roma abbia prodotto sulla propria religione. Il De Natura Deorum assegna un libro a ciascuna scuola e le lascia sbranarsi a vicenda; il De Divinatione ne è il seguito, e questa volta i due interlocutori sono Cicerone e suo fratello.',
+          'De Natura Deorum, 3, uno per libro, così che ciascuna delle tre scuole parli con la propria voce. Il libro I è l’epicureo Velleio, presentato come un uomo che non ha mai dubitato di nulla in vita sua e che entra in scena come se fosse appena sceso da un consiglio degli dèi. Il suo attacco all’idea di un dio che costruisce il mondo consiste nel prendere la metafora alla lettera e chiedere i documenti del cantiere: quali erano gli attrezzi, le leve, le gru, e chi erano i manovali? (I.18-19).',
+          'Il libro II è lo stoico Balbo, che dimostra l’esistenza degli dèi raccontando una storia presa da Aristotele, e che sopravvive solo perché lui la raccontò. Immaginate uomini vissuti da sempre sotto terra in belle stanze illuminate, che degli dèi avessero solo sentito dire, senza essere mai usciti una volta; poi la terra si apre, escono, e vedono il mare, e il sole, e poi la notte, e le stelle. Il tutto è una sola frase, e il verdetto aspetta le ultime sei parole (II.95).',
+          'Il libro III è lo scettico Cotta, che è anche un sacerdote in carica dello stato romano, e che prima di cominciare spiega come tenga insieme le due cose. A un filosofo chiede un ragionamento; dai suoi antenati accetta tutta la religione romana senza alcun ragionamento. Non è una scappatoia: è una descrizione esatta di come funzionava la religione romana, ed è la frase da portarsi via dall’intero dialogo (III.5-6).',
+          'De Divinatione, 3. Il libro I è Quinto che sostiene la causa di chi legge il futuro nei fegati, negli uccelli e nei sogni, e Cicerone ha dato al fratello l’argomento più forte del libro: tu chiedi perché accada, e la domanda è se accada. Nessuno sa spiegare nemmeno la calamita, e alla calamita tu credi (I.86).',
+          'Il libro II è Cicerone che smonta tutto, e si diverte. Quante di queste previsioni si avverano davvero, e se una si avvera, come si esclude la coincidenza? Poi Annibale, vecchio e in esilio, che ascolta un re rifiutare la battaglia perché le viscere dicono di no: preferisci credere a un pezzetto di vitello piuttosto che a un vecchio generale? L’esempio che segue è Cesare che salpa per l’Africa contro il parere del sommo aruspice e vince la guerra (II.52).',
+          'E l’ultima pagina dell’ultimo di questi dialoghi, dove Cicerone dice fin dove esattamente arrivi la demolizione. La superstizione va sradicata; la religione non viene sradicata con essa. Quella distinzione è ancora nell’italiano, nell’inglese, nel francese e nel tedesco, e questa è la frase che l’ha trasportata (II.148).'
+        ],
+        changed: [
+          'Le due opere si citano a vicenda e ora l’app lo mostra. Il De Divinatione nomina apertamente il De Natura Deorum nella sua pagina finale; l’etimologia di superstizione e religione è spiegata nel De Natura Deorum II; e il rifiuto di Cotta di lasciare che un filosofo si appelli agli antenati riceve risposta, a nome di Cicerone stesso, nel finale del De Divinatione. Fuori da Cicerone, le note rimandano a Lucrezio, che conduce l’esperimento mentale di Aristotele sul cielo e ne trae la conclusione opposta, a Cesare, e a Catone il Censore, la cui battuta sui due aruspici che non riescono a guardarsi senza ridere si trova a una frase di distanza dal vitello.',
+          'Una nota sulla fonte, per chi confronti con un testo a stampa. Il De Natura Deorum segna le sezioni fra parentesi quadre, mentre il De Divinatione le segna con un numerale romano di capitolo e una cifra nuda per la sezione, che l’app non riesce a distinguere da un numero interno al latino. Ogni brano del De Divinatione resta perciò dentro una sola sezione numerata, e i numeri che si vedono sono quelli dell’app.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.9.1', date: '2026-08-30', time: '18:01', tz: 'CEST',
       en: {
         added: [
