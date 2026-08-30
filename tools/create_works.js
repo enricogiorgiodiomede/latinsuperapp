@@ -13,9 +13,7 @@ const path = require('path');
 const P = path.join(__dirname, '..', 'js', 'fragments.js');
 
 const NEW = [
-  { id: 'de-officiis', label: 'De Officiis', labelIt: 'De Officiis', group: 'philosophical' },
-  { id: 'de-re-publica', label: 'De Re Publica', labelIt: 'De Re Publica', group: 'philosophical' },
-  { id: 'somnium-scipionis', label: 'Somnium Scipionis (De Re Publica VI)', labelIt: 'Somnium Scipionis (De Re Publica VI)', group: 'philosophical' }
+  { id: 'tusculanae', label: 'Tusculanae Disputationes', labelIt: 'Tusculanae Disputationes', group: 'philosophical' }
 ];
 
 // Same guard as apply_batch.js: with git's core.autocrlf=true a checkout hands

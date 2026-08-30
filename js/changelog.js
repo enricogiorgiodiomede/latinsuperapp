@@ -12,6 +12,35 @@
 
   var VERSIONS = [
     {
+      v: '1.9.1', date: '2026-08-30', time: '00:00', tz: 'CEST',
+      en: {
+        added: [
+          'The Tusculan Disputations join the philosophical works with 5 excerpts, one from each of four books. Cicero wrote all five books in a few months of 45 BC, in the year his daughter died, and each one takes a question and argues it out: is death an evil, is pain an evil, what is grief, what are the passions, is virtue enough to be happy.',
+          'Book I, on death. The hardest case for Cicero\'s own argument: if death is no evil, why is suicide forbidden? The answer is a legal fiction - the god inside us forbids leaving our post without orders, but Cato was not a deserter, he was discharged. Cato the Younger had killed himself the year before Cicero wrote this (I.74).',
+          'Book II, on pain, reaches for the example every Roman reader had actually watched: gladiators, "either ruined men or barbarians", and what blows they take without so much as changing expression. The argument is that endurance is training, not nature; the passage also tells you a great deal about what Romans thought was normal (II.41).',
+          'Book III, on distress, states the diagnosis the whole cure depends on: the cause lies entirely in the opinion. What makes us wretched is not what happened but the judgement we made about it - which means it can be argued away. Read it beside the letters from Astura that Cicero was writing the same year, where the man who wrote that is hiding in a wood and losing a fight with his own weeping (III.24).',
+          'And Book V gives two men from the same city. Damocles, who told the tyrant of Syracuse how happy he must be and was invited to try the throne for an evening, with a sword hanging over the couch by a single horsehair - this passage is where the phrase comes from, and no earlier version of the story survives (V.61-62). And Archimedes, whose grave the Syracusans had forgotten and denied the existence of, until a thirty-year-old Roman quaestor went looking for it in the brambles because he had memorised the verses that were carved on it (V.64-66).'
+        ],
+        changed: [
+          'A note on the source, for anyone comparing with a printed text. The five books are numbered inconsistently on the site they come from: book I marks its sections with bare numerals, book II does not mark them at all, and books III to V use brackets. Every excerpt here begins after whatever numbering there was, and the section numbers you see are the app\'s own.'
+        ],
+        deleted: []
+      },
+      it: {
+        added: [
+          'Le Tusculanae entrano fra le opere filosofiche con 5 brani, uno per ciascuno di quattro libri. Cicerone scrisse tutti e cinque i libri in pochi mesi del 45 a.C., nell’anno in cui gli morì la figlia, e ognuno prende una domanda e la discute fino in fondo: se la morte sia un male, se lo sia il dolore, che cosa sia l’afflizione, quali siano le passioni, se la virtù basti a essere felici.',
+          'Libro I, sulla morte. Il caso più difficile per la tesi di Cicerone stesso: se la morte non è un male, perché il suicidio è vietato? La risposta è una finzione giuridica: il dio che è in noi ci vieta di lasciare il nostro posto senza ordini, ma Catone non fu un disertore, fu congedato. Catone Uticense si era ucciso l’anno prima che Cicerone scrivesse queste righe (I.74).',
+          'Il libro II, sul dolore, ricorre all’esempio che ogni lettore romano aveva davvero visto: i gladiatori, "o uomini perduti o barbari", e i colpi che si prendono senza nemmeno cambiare espressione. La tesi è che la sopportazione sia addestramento e non natura; il passo dice anche moltissimo su che cosa i romani considerassero normale (II.41).',
+          'Il libro III, sull’afflizione, enuncia la diagnosi da cui dipende tutta la cura: la causa sta tutta nell’opinione. Ciò che ci rende infelici non è quel che è accaduto ma il giudizio che ne abbiamo dato, e dunque lo si può smontare ragionando. Da leggere accanto alle lettere da Astura che Cicerone scriveva nello stesso anno, dove l’uomo che scrive questo è nascosto in un bosco e sta perdendo una lotta contro il proprio pianto (III.24).',
+          'E il libro V mette in scena due uomini della stessa città. Damocle, che disse al tiranno di Siracusa quanto dovesse essere felice e fu invitato a provare il trono per una sera, con una spada sospesa sul letto a un solo crine di cavallo: è da questo passo che viene l’espressione, e non sopravvive alcuna versione anteriore della storia (V.61-62). E Archimede, la cui tomba i Siracusani avevano dimenticato e di cui negavano l’esistenza, finché un questore romano di trent’anni non andò a cercarla fra i rovi, perché ne aveva imparato a memoria i versi incisi (V.64-66).'
+        ],
+        changed: [
+          'Una nota sulla fonte, per chi confronti con un testo a stampa. I cinque libri sono numerati in modo incoerente sul sito da cui provengono: il libro I segna le sezioni con cifre nude, il libro II non le segna affatto, e i libri dal III al V usano le parentesi quadre. Ogni brano qui comincia dopo qualsiasi numerazione ci fosse, e i numeri di sezione che si vedono sono quelli dell’app.'
+        ],
+        deleted: []
+      }
+    },
+    {
       v: '1.9.0', date: '2026-08-29', time: '21:02', tz: 'CEST',
       en: {
         added: [

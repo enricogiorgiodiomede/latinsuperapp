@@ -74,7 +74,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=104`.**
+   whenever you change a JS/CSS file. **Currently `v=105`.**
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,
@@ -248,7 +248,7 @@ Instead, extend the Archaic Era practice bank and flesh out Caesar's Age. **Caec
   **Caesar, Hirtius, Lucretius, Sallust, Catullus**.
 
 **=== SESSION HANDOFF (updated 2026-08-24) ===**
-Current: **v1.9.0, cache ?v=104**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
+Current: **v1.9.1, cache ?v=105**, pushed, tree clean. Archaic is complete (Plautus 10 comedies /
 50 frags since v1.4.0). Caesar's-Age flesh-out in progress: **Nepos done (1->8, v1.2.0)**;
 **Cicero is the big active job and is now the largest author in the app at 118 excerpts** (Plautus 50).
 
@@ -399,6 +399,13 @@ Philippics is +15 and was split into two releases rather than shipped as one.
   terse-Latin outliers. Also added two analysis notes the user asked for: **Machiavelli on anacyclosis**
   at De Re Publica I.45, and **the view-from-space tradition (Plato's Phaedo, Dante's *aiuola*)** at
   Somnium VI.16.
+- ~~**v1.9.1**~~ DONE 30/08: **Tusculanae Disputationes, new work, +5** (I.74 the discharge argument
+  and *commentatio mortis*, II.41 the gladiators, III.24 *est igitur causa omnis in opinione*,
+  V.61-62 **the origin of the sword of Damocles**, V.64-66 Archimedes' tomb). Philosophical
+  **6 works / 28**, Cicero **170**, bank **330**. **THE FIVE BOOKS ARE MARKED THREE DIFFERENT WAYS**:
+  tusc1 bare arabic digits after a roman chapter numeral, tusc2 nothing at all, tusc3-5 `[n]` - and
+  tusc3 sometimes `[24 ]` **with a space**, which `normalise()` does NOT strip. Extract after any
+  numeral and stay inside one printed section run. Emended *lnmissi* -> *Inmissi* (V.65).
 - **NEXT: the plan is written out release by release in
   `C:/Users/enric/.claude/plans/now-time-to-continue-snuggly-steele.md`.** v1.8.4 = De Senectute 5;
   **v1.9.0** = De Officiis 5 + De Re Publica 4 + Somnium Scipionis 4; v1.9.1 = Tusculanae 5;

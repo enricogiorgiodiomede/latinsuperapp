@@ -6,6 +6,38 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.9.1] - 2026-08-30
+
+**Tusculanae Disputationes, new work, +5.** One excerpt from each of four books. Philosophical
+**6 works / 28**; Cicero **170 across 29 works**; bank **330**.
+
+### Added
+- **I.74** the hardest case for book I's own thesis: if death is no evil, why is suicide forbidden? The
+  answer is a legal fiction - *vetat enim dominans ille in nobis deus iniussu hinc nos suo demigrare*,
+  but Cato was *evocatus atque emissus*, discharged rather than deserting. Ends on
+  ***tota philosophorum vita commentatio mortis est***. **Cato the Younger had died at Utica the year
+  before.**
+- **II.41** the gladiators, *aut perditi homines aut barbari* - four exclamations and four questions,
+  each shorter than the last, arguing that endurance is training and not nature.
+- **III.24** ***est igitur causa omnis in opinione***, and Cicero building a Latin vocabulary for Greek
+  psychology as he goes (*perturbatio* for *pathos*). Cross-links to **Att. XII.14/XII.15**, written the
+  same year, where the man who wrote it is losing a fight with his own weeping.
+- **V.61-62** the sword of Damocles. **This passage is the origin of the phrase** - no earlier telling
+  survives. Six clauses of inventory, then one detail: *saeta equina*.
+- **V.64-66** Cicero as quaestor finding the lost tomb of Archimedes in the brambles, and the closing
+  sting *nisi ab homine Arpinate didicisset*.
+
+### Notes on the source
+- **The five books are marked three different ways.** `tusc1` uses roman chapter numerals plus **bare
+  arabic section digits** (`XXXI. 75`), which `normalise()` cannot strip; `tusc2` has **no markers at
+  all**; `tusc3`-`tusc5` use `[n]` - and `tusc3` sometimes prints **`[24 ]` with a space**, which the
+  `/\[\d+\]/` rule also misses. Every extraction here therefore starts after any numeral and stays
+  inside one printed section run, with the markers supplied by the app.
+- **Emended:** *lnmissi* -> *Inmissi* (V.65), a capital I scanned as a lowercase l.
+
+Verification: **171 verbatim, 0 mismatched**; `lint_translations.js` **5 checked, 0 to look at**.
+Cache-bust: `?v=104` -> `?v=105`.
+
 ## [1.9.0] - 2026-08-29
 
 **THE PHILOSOPHICAL GROUP GOES LIVE, +13.** Three new works: **De Officiis 5**, **De Re Publica 4**,
