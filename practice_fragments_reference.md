@@ -874,6 +874,19 @@ printed form is a Latin word - NOT how many sites print it.**
    Greek of ad Quintum III and ad Brutum I). Accent entities, `&ccedil;`, `&ntilde;` and numeric
    entities are now decoded. All pages were re-fetched with `--force` and the bank re-verified.
 
+**BENCHED CANDIDATE - Tusculanae V.64-66, ARCHIMEDES' TOMB.** Built and shipped in v1.9.1, then removed
+the same day when book IV came in, so that the five excerpts cover one book each (the user's call after
+asking why book V had two and book IV none). **It is not scrapped.** If the Tusculans are ever expanded
+past 5, restore it first - it is the only autobiographical narrative in Cicero's philosophical works and
+the sole surviving account of that grave. Everything needed:
+- spec: `"tusc.5.64": ["tusc5", "ex eadem urbe humilem homunculum", "nisi ab homine Arpinate didicisset."]`
+- prefix `[64] `, citation `(Tusculanae Disputationes V.64-66)`, sorts to 500640 (after V.61-62).
+- **emend `[['lnmissi cum falcibus', 'Inmissi cum falcibus']]`** - a capital I scanned as lowercase l.
+- The full prose (title, both descriptions, both translations, both analyses) is in the v1.9.1 commit,
+  `git show d25a2f7 -- js/fragments.js`, and in the scratchpad batch file for that release.
+- Content: *humilem homunculum a pulvere et radio*, the sphere and cylinder on the column, the work
+  party with sickles, and the closing *nisi ab homine Arpinate didicisset*.
+
 **POLICY CHANGE, v1.8.0 FOLLOW-UP (the user's instruction): MEND FIRST, TRIM LAST.** Where the source has
 a plain defect and the right reading is not in doubt, check it against a second text and **correct it in
 the app, saying so in the analysis** - do not throw away a sentence over a one-letter misprint. Poesia

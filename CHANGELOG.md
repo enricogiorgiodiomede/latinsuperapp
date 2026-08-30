@@ -36,7 +36,34 @@ no build step and no dependencies.
 - **Emended:** *lnmissi* -> *Inmissi* (V.65), a capital I scanned as a lowercase l.
 
 Verification: **171 verbatim, 0 mismatched**; `lint_translations.js` **5 checked, 0 to look at**.
-Cache-bust: `?v=104` -> `?v=105`.
+Cache-bust: `?v=104` -> `?v=105`, then `?v=106` with the recomposition below.
+
+### Same-day recomposition - book IV joins, Archimedes steps aside
+The user asked why book IV had been skipped while book V supplied two excerpts. The honest answer is
+that the five were picked by fame of individual passages rather than by coverage of the work, and the
+release notes then described the result as if it had been a plan. Corrected: the five now cover **one
+book each**. No net change in count, so this stays **v1.9.1**; cache `?v=105` -> `?v=106`.
+
+- **Added, Tusculanae IV.68-69** - *totus vero iste, qui volgo appellatur amor ... tantae levitatis est*.
+  Love is not a divinity but an illness, and Cicero prosecutes it with the poets' own evidence: comedy
+  is disqualified as an interested witness (*quae, si haec flagitia non probaremus, nulla esset omnino*)
+  and tragedy called instead. **Three of the names in it are authors this app already holds** -
+  **Caecilius Statius**, quoted for the view being demolished; **Ennius**, whose *Medea Exul* supplies
+  *Tu me amoris magis quam honoris servavisti gratia*; and the same Medea that **Pro Caelio 18** uses
+  against Clodia. The analysis also sets the passage against **Lucretius**, *De Rerum Natura*
+  IV.1058-1287, at the user's request: two philosophers who agree on almost nothing reach the same
+  diagnosis, that love is *morbus* - and **Ad Quintum fratrem II.9** in this app proves Cicero had read
+  him. Two emendations: the source prints a digit **0** for *O*, and mojibake for *poeticam*; the excerpt
+  also steps over a lacuna inside the Caecilius quotation.
+- **Removed, Tusculanae V.64-66** (Archimedes' tomb). **Not scrapped** - recorded as a benched candidate
+  in `practice_fragments_reference.md`, with its spec line, prefix, citation, emendation and the commit
+  to recover its prose from, to be restored first if the Tusculans are ever expanded past 5.
+  **This is the first deliberate deletion of a live fragment in the project**, and the first use of the
+  `deleted` bucket in `js/changelog.js`, which had been empty in every release since launch.
+
+Verification: **171 verbatim, 0 mismatched** (unchanged - one out, one in);
+`lint_translations.js` **5 checked, 0 to look at**.
+
 
 ## [1.9.0] - 2026-08-29
 
