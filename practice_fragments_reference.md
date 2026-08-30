@@ -937,6 +937,56 @@ the opposite conclusion (ND II.95) and DRN VI on the magnet (Div. I.86); **Caesa
 both appear in Div. II.52; **Tusculanae III.24** is the parallel for Cicero coining Latin philosophical
 vocabulary inside a parenthesis (ND I.18, *Pronoeam, quam Latine licet Providentiam dicere*).
 
+**PARADOXA STOICORUM (2, NEW WORK), DE AMICITIA 5 -> 8, DE SENECTUTE 5 -> 8 - v1.9.3, 2026-08-30.
+THE PHILOSOPHICAL GROUP IS FINISHED AT 42 ACROSS 9 WORKS.** All three works were already mapped in
+`sources.json`; only `paradoxa-stoicorum` needed `create_works.js`.
+- spec entries, all verified verbatim:
+  - `"par.1": ["paradoxa", "Animadverti, Brute, saepe Catonem", "ludens conieci in communes locos."]`, prefix `[1] `
+  - `"par.34": ["paradoxa", "Quid est enim libertas?", "nihil faciat invitus, nihil dolens, nihil coactus."]`, prefix `[34] `
+  - `"amic.44"`, `"amic.88"`, `"amic.89"` - single sections, prefixes `[44] `, `[88] `, `[89] `
+  - `"sen.15"`, `"sen.39"` (+ `fix` for `40.` and `41.`), `"sen.62"` (+ `fix` for `63.`)
+
+**MARKER STYLES - THE SENECTUTE CASE IS THE INTERESTING ONE.** `paradoxa` and `amic` print `[n]`:
+nothing to do, spans are free. `senectute` prints **a bare arabic section number FOLLOWED BY A
+PERIOD** - `40. Hinc patriae` - and `normalise()`'s `/\b\d+\. /` rule **does** strip that, so a
+senectute fragment MAY span sections and still verify. What it must not do is print the source's own
+numbering in the app, so each crossed marker needs a `fix` pair rewriting `' 40. Hinc'` to
+`' [40] Hinc'`. **This is the opposite of De Divinatione** (v1.9.2), whose numbers have no period and
+cannot be stripped at all. The distinction is exactly one character; check for the period before
+deciding whether a fragment may span.
+**What senectute fragments may NOT cross is a roman chapter numeral** - `VI.`, `XVIII.` - which is
+unbracketed and unstrippable. Sen. 15 stops at `videamus.` precisely because `VI. A rebus gerendis`
+follows, and Sen. 62 starts after `XVIII. 62.`.
+
+**`apply_batch.js` CHANGED: `fix` now takes one pair or an array of pairs.** Sen. 39-41 spans three
+printed sections and needs two rewrites. `fix: ['a','b']` still works; `fix: [['a','b'],['c','d']]` is
+the new form. Backwards compatible - it branches on `Array.isArray(item.fix[0])`.
+
+**MOJIBAKE IN `paradoxa`, AVOIDED RATHER THAN EMENDED.** The page cannot set Greek: section 4 prints
+*parãdoja* where the text has παράδοξα, and section 41 prints *ploÊsiow* for
+πλούσιος. The preface excerpt therefore stops at the end of section 3, and paradox VI (on wealth,
+sections 42-52) was not used - it also carries a `~Danaum` crux and two `<...>` supplements. **If
+Paradoxa is ever expanded, sections 42-44 are the obvious next pick** (*Animus hominis dives, non
+arca*), and the Greek would have to be supplied by `emend` the way Ad Familiares XVI.8 does.
+
+**KEPT AND FLAGGED, NOT EMENDED (no emendations in this release):** *volt* for *vult* (Parad. 34),
+*volgus* and *inmortalibus* (Parad. 1-3), *ecfrenate* for *effrenate* and *inlecebris* for
+*illecebris* (Sen. 39-41), *quoi* for *cui* (in the unused Parad. 42).
+
+**CROSS-LINKS BUILT INTO THIS BATCH.** **Archytas of Tarentum appears in both De Amicitia 88 and De
+Senectute 39-41**, which is why they were picked together. De Amicitia 88 is the **Somnium Scipionis
+(De Re Publica VI.16) run backwards** and should be read against it. De Amicitia 89 quotes
+**Terence** (*Andria*) and nods at the rumour that Laelius and Scipio wrote his plays. De Senectute 15
+is the **index to the other five De Senectute excerpts**, one per charge. Parad. 1-3 cross-links to
+**Tusculanae I.74** (Cato's death) and Parad. 34 to **Appius Claudius Caecus**, who is in De Senectute
+16. Sen. 39-41 is aimed at Epicureanism, so it points at **Lucretius** and at **Tusculanae IV.68-69**.
+
+**ACCURACY PASS FINDING (the standing pass over every fragment of a touched work).** De Senectute 32's
+translations read "Milo of Croton" / "Milone di Crotone" where the Latin has only *Milo*. True, and
+useful, but it is a gloss and the analysis already gives it - together with the good point that
+Pythagoras was the other famous man of Croton. Removed from both translations. Nothing else in the
+eighteen fragments needed changing.
+
 **FORMATTING RULE: A BOLD SPAN CANNOT CONTAIN AN ITALIC ONE** (learned the hard way, 30/08/2026).
 `js/markdown.js` renders bold with `/\*\*([^*]+?)\*\*/` and the character class **excludes `*`**, so:
 - `***word***` is FINE and is the house style for a headline quotation - the bold rule matches the

@@ -12,6 +12,47 @@
 
   var VERSIONS = [
     {
+      v: '1.9.3', date: '2026-08-30', time: 'TBC', tz: 'CEST',
+      en: {
+        added: [
+          'Cicero\'s philosophical works are finished: 8 new excerpts, and the section now holds 42 across 9 texts. One new work joins, and the two shortest and warmest of the dialogues, on friendship and on old age, grow from 5 excerpts each to 8.',
+          'Paradoxa Stoicorum, 2, the odd one out and by a distance the easiest philosophical Latin Cicero wrote. It takes six Stoic slogans - the sort of thing nobody outside a lecture room would accept - and argues them as if in court, for fun. The preface explains where the idea came from: Cicero had watched Brutus\'s uncle Cato hold the Senate with philosophy, and decided he could go further. It contains the sentence that is the creed of the whole Roman rhetorical tradition, and is rather alarming if you sit with it: nothing is so incredible that speaking cannot make it plausible (1-3).',
+          'And the fifth paradox, that only the wise man is free and every fool a slave, which opens with the shortest definition of liberty in Latin: what is freedom? The power to live as you wish. Then he spends the rest of the paragraph taking it back, because it turns out that living as you wish means living as you ought. He published this in 46 BC, the year Caesar became dictator for the third time (34).',
+          'De Amicitia, 5 to 8. The first law of friendship, written out like an actual statute, with ten commands in a row and everything hanging on one word - we may ask honourable things of our friends, and nothing else (44). Then the answer to why anyone needs friends at all: a saying passed down from old men to older men, that if you climbed up to heaven and saw the whole universe and the beauty of the stars, the wonder would taste of nothing if there were nobody to tell. Read it beside the Dream of Scipio in this app, where a man really is taken up and really does look down (88).',
+          'And the problem with the advice-giving: nobody enjoys being told the truth. Cicero has Laelius quote a line of Terence - who also has an entry here - and call the playwright a personal friend, which is a wink at the old rumour that Terence\'s comedies were really written by Laelius and Scipio. It ends on a definition of tyranny that lands hard in 44 BC: with a tyrant you live one way, with a friend another (89).',
+          'De Senectute, 5 to 8. The plan of the whole dialogue in one paragraph: the four charges against old age, which Cato then answers one at a time for the rest of the book. The app\'s other excerpts from the work sit one in each of the four blocks, so this is the map for them (15).',
+          'The answer to the third charge, that old age takes away pleasure, is to thank it for that. Cato reports a speech he heard second-hand at Tarentum from Archytas - the same Pythagorean quoted in De Amicitia, and both passages arrived in this update together - arguing that bodily pleasure is the deadliest thing nature gave us, and that treason, revolution and dealing with the enemy all come out of it. The whole thing is reported speech from beginning to end, which makes it an unusually good exercise (39-41).',
+          'And the condition the entire book depends on, added near the end almost in passing: he is not praising old age, he is praising an old age that was built earlier. Grey hair cannot snatch authority all of a sudden. What follows is a list of what respect actually looked like in Rome, and it is startlingly small and daily - being greeted, being made way for, having people stand up, being walked to the forum and walked home, being asked (62-63).'
+        ],
+        changed: [
+          'The philosophical section is now complete and sits in the order the works were written: De Re Publica, the Dream of Scipio, Paradoxa Stoicorum, the Tusculans, On the Nature of the Gods, On Divination, On Old Age, On Friendship, On Duties. Nine texts, 42 excerpts, from 54 BC to the last months of Cicero\'s life.',
+          'Every excerpt already in On Friendship and On Old Age was re-read against its Latin, as always happens when a text gets new material. One small thing came out of it: the translation of the Milo passage called him "Milo of Croton", which is true and helpful but is not what the Latin says, so the identification has moved into the notes where it belongs.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Le opere filosofiche di Cicerone sono finite: 8 nuovi brani, e la sezione ne conta ora 42 su 9 testi. Entra un’opera nuova, e i due dialoghi più brevi e più affettuosi, sull’amicizia e sulla vecchiaia, passano da 5 brani ciascuno a 8.',
+          'Paradoxa Stoicorum, 2, la mosca bianca del gruppo e di gran lunga il latino filosofico più facile che Cicerone abbia scritto. Prende sei slogan stoici - il genere di tesi che nessuno accetterebbe fuori da un’aula - e li argomenta come in tribunale, per divertimento. La prefazione spiega da dove venne l’idea: Cicerone aveva visto lo zio di Bruto, Catone, tenere il Senato con la filosofia, e decise di poter fare di più. Contiene la frase che è il credo di tutta la tradizione retorica romana, e che a pensarci bene inquieta parecchio: nulla è tanto incredibile che il parlare non possa renderlo plausibile (1-3).',
+          'E il quinto paradosso, che solo il sapiente è libero e ogni stolto è schiavo, che si apre con la più breve definizione di libertà in latino: che cos’è la libertà? Il potere di vivere come vuoi. Poi passa il resto del paragrafo a riprendersela, perché si scopre che vivere come vuoi significa vivere come devi. Lo pubblicò nel 46 a.C., l’anno in cui Cesare divenne dittatore per la terza volta (34).',
+          'De Amicitia, da 5 a 8. La prima legge dell’amicizia, redatta come una legge vera, con dieci comandi di fila e tutto appeso a una parola sola: agli amici possiamo chiedere cose oneste, e nient’altro (44). Poi la risposta alla domanda sul perché si abbia bisogno di amici: un detto tramandato da vecchi a vecchi più anziani, secondo cui se salissi in cielo e vedessi l’universo intero e la bellezza degli astri, la meraviglia non saprebbe di nulla se non ci fosse nessuno a cui raccontarla. Da leggere accanto al Sogno di Scipione in questa app, dove un uomo viene davvero portato lassù e davvero guarda in basso (88).',
+          'E il problema dei consigli: a nessuno piace sentirsi dire la verità. Cicerone fa citare a Lelio un verso di Terenzio - che ha una scheda anche lui qui - e gli fa chiamare il commediografo un amico personale, il che è una strizzata d’occhio alla vecchia diceria secondo cui le commedie di Terenzio le avrebbero scritte in realtà Lelio e Scipione. Si chiude su una definizione di tirannide che nel 44 a.C. pesa parecchio: con un tiranno si vive in un modo, con un amico in un altro (89).',
+          'De Senectute, da 5 a 8. Il piano dell’intero dialogo in un paragrafo: le quattro accuse contro la vecchiaia, a cui Catone risponde una per una per tutto il resto del libro. Gli altri brani dell’opera presenti nell’app stanno uno per ciascuno dei quattro blocchi, e questo ne è dunque la mappa (15).',
+          'La risposta alla terza accusa, che la vecchiaia toglie i piaceri, consiste nel ringraziarla. Catone riferisce un discorso che aveva sentito di seconda mano a Taranto da Archita - lo stesso pitagorico citato nel De Amicitia, e i due passi sono arrivati insieme in questo aggiornamento - secondo cui il piacere del corpo è la cosa più letale che la natura ci abbia dato, e che da esso nascono tradimenti, rivoluzioni e intese con il nemico. Il tutto è discorso indiretto dall’inizio alla fine, il che ne fa un esercizio particolarmente utile (39-41).',
+          'E la condizione da cui dipende tutto il libro, aggiunta verso la fine quasi di sfuggita: non sta lodando la vecchiaia, sta lodando una vecchiaia costruita prima. I capelli bianchi non afferrano l’autorità all’improvviso. Segue l’elenco di che cosa fosse davvero il rispetto a Roma, ed è sorprendentemente piccolo e quotidiano: essere salutati, che ci si faccia da parte al proprio passaggio, che ci si alzi in piedi, essere accompagnati al foro e ricondotti a casa, essere consultati (62-63).'
+        ],
+        changed: [
+          'La sezione filosofica è ora completa e si presenta nell’ordine in cui le opere furono scritte: De Re Publica, il Sogno di Scipione, i Paradoxa Stoicorum, le Tusculanae, La natura degli dèi, La divinazione, La vecchiaia, L’amicizia, I doveri. Nove testi, 42 brani, dal 54 a.C. agli ultimi mesi di vita di Cicerone.',
+          'Ogni brano già presente nell’Amicizia e nella Vecchiaia è stato riletto sul latino, come avviene sempre quando un testo riceve materiale nuovo. Ne è uscita una piccola cosa: la traduzione del passo su Milone lo chiamava “Milone di Crotone”, il che è vero e utile ma non è quello che dice il latino, e l’identificazione si è spostata nelle note, dove le compete.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.9.2', date: '2026-08-30', time: '20:39', tz: 'CEST',
       en: {
         added: [

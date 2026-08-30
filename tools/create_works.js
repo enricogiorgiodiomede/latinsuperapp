@@ -1,11 +1,7 @@
-// v1.9.2: the two works of 45-44 BC in which Cicero puts Roman religion on
-// trial. De Natura Deorum gives a book to each school - Epicurean, Stoic,
-// Academic - and De Divinatione is its sequel: Quintus argues the case for
-// divination in book I, Cicero dismantles it in book II. They are separate
-// works here because they are separate works, but they cross-reference each
-// other, and De Divinatione II.148 names De Natura Deorum out loud.
-// `reorder_works.js` already pins both in PHIL_ORDER, between the Tusculans
-// and De Senectute.
+// v1.9.3: the last work of the philosophical group. Paradoxa Stoicorum is the
+// odd one out - six Stoic paradoxes written up as rhetorical set-pieces in 46 BC
+// and dedicated to Brutus, and by some distance the easiest philosophical Latin
+// Cicero wrote. PHIL_ORDER already pins it between the Somnium and the Tusculans.
 // Works with no fragments are hidden by PracticeBank.works(), so a work created
 // here shows up only once apply_batch has filled it.
 const fs = require('fs');
@@ -13,8 +9,7 @@ const path = require('path');
 const P = path.join(__dirname, '..', 'js', 'fragments.js');
 
 const NEW = [
-  { id: 'de-natura-deorum', label: 'De Natura Deorum', labelIt: 'De Natura Deorum', group: 'philosophical' },
-  { id: 'de-divinatione', label: 'De Divinatione', labelIt: 'De Divinatione', group: 'philosophical' }
+  { id: 'paradoxa-stoicorum', label: 'Paradoxa Stoicorum', labelIt: 'Paradoxa Stoicorum', group: 'philosophical' }
 ];
 
 // Same guard as apply_batch.js: with git's core.autocrlf=true a checkout hands

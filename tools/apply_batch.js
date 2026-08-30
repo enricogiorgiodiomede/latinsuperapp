@@ -61,8 +61,14 @@ function latinOf(item) {
     t = pieceOf(item.key);
   }
   if (item.fix) {
-    if (t.indexOf(item.fix[0]) < 0) throw new Error('fix anchor missing for ' + item.citation);
-    t = t.replace(item.fix[0], item.fix[1]);
+    // One pair (['a','b']) or several ([['a','b'], ['c','d']]). De Senectute needs
+    // several: TLL prints its section numbers as '40. ' and a fragment that spans
+    // three sections has two of them to rewrite into the app's [40] style.
+    var fixes = Array.isArray(item.fix[0]) ? item.fix : [item.fix];
+    for (var fi = 0; fi < fixes.length; fi++) {
+      if (t.indexOf(fixes[fi][0]) < 0) throw new Error('fix anchor missing for ' + item.citation + ': ' + fixes[fi][0]);
+      t = t.replace(fixes[fi][0], fixes[fi][1]);
+    }
   }
   // `emend` is for the rare case where the source has a plain error and the app
   // prints the corrected word: [[sourceReading, appReading], ...]. Unlike `fix`,

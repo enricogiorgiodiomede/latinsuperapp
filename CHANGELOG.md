@@ -6,6 +6,68 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.9.3] - 2026-08-30
+
+**THE PHILOSOPHICAL GROUP IS FINISHED, +8.** Paradoxa Stoicorum 2 (new work), De Amicitia 5 -> 8,
+De Senectute 5 -> 8. Philosophical **9 works / 42**; Cicero **184 across 32 works**; bank **344**.
+The group now runs in composition order: De Re Publica 4 - Somnium Scipionis 4 - Paradoxa 2 -
+Tusculanae 5 - De Natura Deorum 3 - De Divinatione 3 - De Senectute 8 - De Amicitia 8 - De Officiis 5.
+
+### Added
+- **Paradoxa Stoicorum 1-3** the preface to Brutus, with **Cato the Younger** holding the Senate with
+  philosophy, the Stoic method mocked as *minutis interrogatiunculis quasi punctis*, and the creed of
+  the whole rhetorical tradition: ***nihil est tam incredibile, quod non dicendo fiat probabile***.
+  Cato had died at Utica months earlier; cross-links to **Tusculanae I.74**.
+- **Paradoxa Stoicorum 34** ***Quid est enim libertas? Potestas vivendi, ut velis*** - the shortest
+  definition of liberty in Latin, immediately narrowed by seven asyndetic relative clauses into
+  "living as you ought", and closed by the tricolon *nihil faciat invitus, nihil dolens, nihil
+  coactus*. Published in 46 BC with Caesar dictator. The *sapiens poeta* is usually taken to be
+  **Appius Claudius Caecus**.
+- **De Amicitia 44** the first law of friendship, drafted as a statute: *sanciatur*, *lex*, and **ten
+  jussive subjunctives in a row**. Everything hangs on *honesta*, which is the answer to the Gracchan
+  question of sections 36-43.
+- **De Amicitia 88** Archytas of Tarentum on climbing to heaven with nobody to tell. **The Somnium
+  Scipionis run backwards** (cross-links to De Re Publica VI.16). Grammatically the prize: a past
+  contrary-to-fact protasis with a **future infinitive** apodosis inside *oratio obliqua*, followed by
+  a plain past unreal condition.
+- **De Amicitia 89** *Obsequium amicos, veritas odium parit*, quoted from **Terence**, whom Laelius
+  calls *familiaris meus* - a wink at the ancient rumour that Scipio and Laelius wrote the comedies.
+  Ends on ***aliter enim cum tyranno, aliter cum amico vivitur***, written months after the Ides.
+- **De Senectute 15** the four charges, and therefore the **map of the whole dialogue**: the app's
+  other De Senectute excerpts sit one in each of its four blocks. A textbook *partitio*, with
+  *unam ... alteram ... tertiam ... quartam* and four subjunctives that concede nothing.
+- **De Senectute 39-41** Archytas again, this time against pleasure - *nullam capitaliorem pestem
+  quam voluptatem corporis*. **Reported speech from beginning to end**, which is the exercise. Aimed
+  at Epicureanism, so it cross-links to **Lucretius**, and to **Tusculanae IV.68-69**.
+- **De Senectute 62-63** ***miseram esse senectutem quae se oratione defenderet***, said inside a
+  speech defending old age, plus the seven asyndetic passive infinitives of Roman deference
+  (*salutari, adpeti, decedi, adsurgi, deduci, reduci, consuli*), three of them impersonal passives of
+  intransitives.
+
+### Changed
+- **Accuracy pass over all 18 fragments of the two touched works**, new and old. One correction: the
+  De Senectute 32 translation read "Milo of Croton", which is right but is not in the Latin, and the
+  analysis already identifies him. The gloss was removed from both translations.
+- **`tools/apply_batch.js`: `fix` now takes one pair OR an array of pairs.** De Senectute 39-41 spans
+  three printed sections and needed two rewrites (`40.` and `41.` into `[40]` and `[41]`); the old
+  single-pair form still works unchanged.
+
+### Notes on the source
+- **Three different marker styles again, and only one of them is a trap.** `paradoxa` and `amic` print
+  `[n]`, so a fragment may span sections freely. `senectute` prints **a bare arabic number followed by
+  a period** (`40. Hinc`), which `normalise()` **does** strip, so it may span too - but the printed
+  style has to be rewritten to `[n]` with a `fix` pair, or the app would show the source's own
+  numbering. Its **roman chapter numerals** (`VI.`, `XVIII.`) are NOT strippable, so no De Senectute
+  fragment may cross one; both new spanning fragments were cut to stay clear of them.
+- **Mojibake avoided, not emended.** `paradoxa` cannot set Greek: section 4 prints *parãdoja* for
+  *paradoxa* and section 41 prints *ploÊsiow* for *plousios*. The preface excerpt stops at the end of
+  section 3 and the wealth paradox was not used, so neither is reproduced.
+- **Kept and flagged:** *volt* for *vult* (Parad. 34), *volgus* and *inmortalibus* (Parad. 1-3),
+  *ecfrenate* and *inlecebris* (Sen. 39-41). All real Latin. **No emendations in this release.**
+
+Verification: **185 verbatim, 0 mismatched**; `lint_translations.js` **312 checked, 3 to look at**
+(the same three documented in the tool's header). Cache-bust: `?v=108` -> `?v=109`.
+
 ## [1.9.2] - 2026-08-30
 
 **De Natura Deorum and De Divinatione, two new works, +6.** One excerpt per book of the *De Natura
