@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.9.2', date: '2026-08-30', time: 'TBC', tz: 'CEST',
+      v: '1.9.2', date: '2026-08-30', time: '20:39', tz: 'CEST',
       en: {
         added: [
           'Two new philosophical works, 6 excerpts, and between them they are the closest thing Rome produced to a public inquiry into its own religion. De Natura Deorum gives one book to each school and lets them tear each other apart; De Divinatione is its sequel, and this time the two speakers are Cicero and his own brother.',
