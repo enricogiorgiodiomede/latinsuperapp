@@ -49,6 +49,7 @@ const PHIL_ORDER = [
   'tusculanae',          // 45 BC
   'de-natura-deorum',    // 45 BC
   'de-divinatione',      // 44 BC
+  'de-fato',             // 44 BC, the sequel to De Divinatione
   'de-senectute',        // 44 BC, early
   'de-amicitia',         // 44 BC
   'de-officiis'          // 44 BC, late - the last thing he wrote

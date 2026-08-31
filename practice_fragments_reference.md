@@ -937,6 +937,49 @@ the opposite conclusion (ND II.95) and DRN VI on the magnet (Div. I.86); **Caesa
 both appear in Div. II.52; **Tusculanae III.24** is the parallel for Cicero coining Latin philosophical
 vocabulary inside a parenthesis (ND I.18, *Pronoeam, quam Latine licet Providentiam dicere*).
 
+**DE FATO (3, NEW WORK) + DE RE PUBLICA 4 -> 5, SOMNIUM 4 -> 5, PARADOXA 2 -> 3 - v1.9.4,
+2026-08-30. THE PHILOSOPHICAL GROUP IS CLOSED AT 48 ACROSS 10 WORKS.** `de-fato` had to be added to
+`sources.json` (`cicero/fato`) and to `PHIL_ORDER` in `reorder_works.js`, straight after
+`de-divinatione` whose sequel it is; then `create_works.js`.
+- spec entries, all verified verbatim:
+  - `"rep.2.5"` + `"rep.2.7"` joined by `" [...] [7] "`, prefix `[5] ` - drops the military half at 6
+  - `"som.15": ["repub6", "Atque ut ego primum fletu represso", "defugisse videamini."]`, prefix `[15] `
+  - `"par.42": ["paradoxa", "Quae est ista in commemoranda pecunia tua", "non hominum sermo neque possessiones tuae."]`
+  - `"fat.10"`, `"fat.28"` + `"fat.30"` joined by `" [...] [30] "`, `"fat.42"`
+
+**`fato` IS THE EASIEST SOURCE PAGE IN THE PROJECT SO FAR.** It contains **no non-ASCII characters at
+all** - it transliterates its Greek into Latin letters (*Peri Dynaton*, *Logike*, *Argos Logos*) - so
+there is nothing to emend and nothing to route around, and it marks sections `[n]`, so fragments may
+span freely. Contrast `paradoxa`, on the same shelf, which cannot set Greek and produces mojibake.
+
+**WHAT IS NOT ON THE LATIN LIBRARY FOR DE RE PUBLICA, and why the fifth excerpt is from book II.**
+The page prints **only what the Vatican palimpsest preserves**. Everything transmitted instead by
+quotation is simply absent, including the two most famous passages of the work outside the Somnium:
+**III.33, the natural law** (*est quidem vera lex recta ratio naturae congruens*), which survives via
+Lactantius, and **V.1, Ennius' *moribus antiquis res stat Romana virisque*** with Cicero's lament,
+which survives via Augustine. `repub3`'s own section list jumps 28 -> 41 and `repub5` has only 3, 5, 6
+and 7. **Do not go looking for them again.** If either is ever wanted, it needs a different host and a
+`sources.json` entry pointing at it, which the pipeline does not currently support.
+
+**MOJIBAKE STILL AVOIDED IN `paradoxa`, by where the extract starts.** The Greek running head of
+Paradox VI prints as *ÜOti mÒnow ... ploÊsiow* immediately before `[42]`; the extract begins at
+*Quae est ista* and never touches it. Sections 44-52 also carry a `~Danaum` crux and two `<...>`
+supplements, so if Paradoxa is ever expanded past 3, start from 44 with care.
+
+**KEPT AND FLAGGED, NOT EMENDED (no emendations in this release):** *quoi* for *cui* (Parad. 42),
+*inprimet* for *imprimet* (Fat. 43), *inportantur* (Rep. II.7), and **the source's unclosed dash** at
+*-obstructas eas partes* (Fat. 10), where TLL opens a parenthesis with a single hyphen and never
+closes it. That is punctuation, not a non-word, so it stays.
+
+**CROSS-LINKS BUILT INTO THIS BATCH.** **De Re Publica VI.15 and Tusculanae I.74 are the same
+doctrine twelve years apart** and should always be read together. De Fato 10-11 names **Aulus
+Hirtius**, an app author, as the dialogue's interlocutor, and its Socrates sequel is at *Tusc.* IV.80.
+De Fato 28-30 carries the **Machiavelli** note (*Principe* XXV), the app's second after De Re Publica
+I.45; the analysis is careful to say the two are not the same doctrine - Chrysippus defends total
+determinism and only denies that it licenses inaction, Machiavelli denies that fortune is total - and
+supports the "Machiavelli read Cicero" claim with *Principe* XVIII against *De Officiis* I.41.
+De Re Publica II.5-7 points at **Cato the Elder**; Paradoxa 42-43 pairs with Paradoxa 34.
+
 **PARADOXA STOICORUM (2, NEW WORK), DE AMICITIA 5 -> 8, DE SENECTUTE 5 -> 8 - v1.9.3, 2026-08-30.
 THE PHILOSOPHICAL GROUP IS FINISHED AT 42 ACROSS 9 WORKS.** All three works were already mapped in
 `sources.json`; only `paradoxa-stoicorum` needed `create_works.js`.

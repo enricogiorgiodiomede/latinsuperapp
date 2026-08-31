@@ -269,6 +269,7 @@ Cicerone scrisse in quattro modalità: oratore, filosofo, maestro di retorica, c
 - *De Finibus Bonorum et Malorum* (45 a.C.): un'ampia rassegna dell'etica epicurea, stoica e peripatetica. Denso e impegnativo.
 - *De Natura Deorum* (45 a.C.): tre libri che presentano le posizioni epicurea, stoica e accademica sugli dèi, e che alla fine si rifiutano di dire quale sia quella giusta.
 - *De Divinatione* (44 a.C.): se profezie, presagi e sogni significhino qualcosa. Cicerone, che era augure, sostiene in prima persona di no.
+- *De Fato* (44 a.C.): il seguito del *De Divinatione* e l'ultimo pannello della trilogia teologica, sul fato, il libero arbitrio e ciò che resta in nostro potere. Mutilo all'inizio e alla fine. Il suo interlocutore è Aulo Irzio, che ha una scheda propria qui.
 - *De Senectute* (44 a.C.): sulla vecchiaia. Caldo, arguto e sinceramente sentito.
 - *De Amicitia* (44 a.C.): sull'amicizia. Contiene la celebre definizione dell'amicizia come *consensio* di tutte le cose divine e umane.
 - *De Officiis* (44 a.C.): sul dovere, scritto per il figlio e terminato mentre Antonio lo stava distruggendo. L'opera in prosa dell'antichità più influente sull'Europa successiva.

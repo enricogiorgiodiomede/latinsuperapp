@@ -1,7 +1,11 @@
-// v1.9.3: the last work of the philosophical group. Paradoxa Stoicorum is the
-// odd one out - six Stoic paradoxes written up as rhetorical set-pieces in 46 BC
-// and dedicated to Brutus, and by some distance the easiest philosophical Latin
-// Cicero wrote. PHIL_ORDER already pins it between the Somnium and the Tusculans.
+// v1.9.4: De Fato, the third panel of the theological trilogy (De Natura
+// Deorum -> De Divinatione -> De Fato) and the one nobody expects. It is on
+// free will and what chance does to human action, it is fragmentary at both
+// ends, and its interlocutor is AULUS HIRTIUS, consul designate, who is
+// himself an author in this app. Written at Puteoli in 44 BC while the two of
+// them were trying to work out how to keep the peace after the Ides.
+// sources.json maps it to cicero/fato and reorder_works.js pins it in
+// PHIL_ORDER straight after de-divinatione, whose sequel it is.
 // Works with no fragments are hidden by PracticeBank.works(), so a work created
 // here shows up only once apply_batch has filled it.
 const fs = require('fs');
@@ -9,7 +13,7 @@ const path = require('path');
 const P = path.join(__dirname, '..', 'js', 'fragments.js');
 
 const NEW = [
-  { id: 'paradoxa-stoicorum', label: 'Paradoxa Stoicorum', labelIt: 'Paradoxa Stoicorum', group: 'philosophical' }
+  { id: 'de-fato', label: 'De Fato', labelIt: 'De Fato', group: 'philosophical' }
 ];
 
 // Same guard as apply_batch.js: with git's core.autocrlf=true a checkout hands

@@ -322,6 +322,7 @@ Cicero wrote in four modes: orator, philosopher, teacher of rhetoric, and corres
 - *De Finibus Bonorum et Malorum* (45 BC): a comprehensive survey of Epicurean, Stoic, and Peripatetic ethics. Dense and demanding.
 - *De Natura Deorum* (45 BC): three books presenting Epicurean, Stoic, and Academic views on the gods, and refusing at the end to say which is right.
 - *De Divinatione* (44 BC): whether prophecy, omens and dreams mean anything. Cicero the augur argues, in his own voice, that they do not.
+- *De Fato* (44 BC): the sequel to *De Divinatione* and the last panel of the theological trilogy, on fate, free will and what is left up to us. Damaged at both ends. Its interlocutor is Aulus Hirtius, who has his own entry here.
 - *De Senectute* (44 BC): on old age. Warm, witty, and genuinely felt.
 - *De Amicitia* (44 BC): on friendship. Contains the famous definition of friendship as *consensio* of all divine and human things.
 - *De Officiis* (44 BC): on duty, written for his son and finished as Antony was destroying him. The most influential prose work of antiquity in later Europe.

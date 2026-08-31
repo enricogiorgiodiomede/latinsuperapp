@@ -35,6 +35,7 @@
   "tusculanae": ["cicero/tusc1", "cicero/tusc2", "cicero/tusc3", "cicero/tusc4", "cicero/tusc5"],
   "de-natura-deorum": ["cicero/nd1", "cicero/nd2", "cicero/nd3"],
   "de-divinatione": ["cicero/divinatione1", "cicero/divinatione2"],
+  "de-fato": ["cicero/fato"],
   "paradoxa-stoicorum": ["cicero/paradoxa"],
 
   "de-oratore": ["cicero/oratore1", "cicero/oratore2", "cicero/oratore3"],

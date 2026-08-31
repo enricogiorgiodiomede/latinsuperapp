@@ -6,6 +6,63 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.9.4] - 2026-08-30
+
+**THE PHILOSOPHICAL GROUP IS CLOSED, +6.** De Fato 3 (new work), De Re Publica 4 -> 5, Somnium
+Scipionis 4 -> 5, Paradoxa Stoicorum 2 -> 3. Philosophical **10 works / 48**; Cicero **190 across 33
+works**; bank **350**. De Fato sits in PHIL_ORDER straight after De Divinatione, whose sequel it is.
+
+### Added
+- **De Fato 10-11** Stilpo, and **Zopyrus the physiognomist telling Socrates he is stupid, dull and a
+  womaniser** while Alcibiades laughs. Ends on the thesis of the whole book: ***non est id positum in
+  naturalibus causis, sed in voluntate, studio, disciplina***. The sequel (Socrates conceding the
+  diagnosis and claiming he beat it by reason) is at *Tusc.* IV.80 and is quoted in the analysis.
+- **De Fato 28-30** the ***ignava ratio***, the lazy argument, and Chrysippus' answer: some things are
+  *simplicia*, some *confatalia*. Milo cannot wrestle without an opponent, and ***tam enim est fatale
+  medicum adhibere quam convalescere***. **Carries the Machiavelli cross-reference the user asked
+  for**: *Il Principe* XXV opens with the same objection and answers it in the same shape, though
+  Chrysippus defends total determinism while Machiavelli denies fortune is total. Trimmed, `[...]`.
+- **De Fato 42-43** **the cylinder**, the most influential image in the free-will argument.
+  *Volubilitas* - rollability - is the word Cicero has to build: the push is the *visum*, the rolling
+  is *adsensio*, and the shape is yours. The quotation runs to its close so Chrysippus' own
+  qualification (everything still happens *fato*) is inside the excerpt.
+- **De Re Publica II.5-7** Romulus siting Rome away from the sea, and ***inportantur non merces solum
+  adventiciae sed etiam mores***. Cross-links to **Cato the Elder**, whose *De Agri Cultura* preface
+  is the same ideology. Trimmed, `[...]`, dropping the military half at section 6.
+- **De Re Publica VI.15** ***nec iniussu eius ... ex hominum vita migrandum est***. The direct pair to
+  **Tusculanae I.74**, twelve years later and in Cicero's own voice, and one of the routes by which
+  the classical ban on suicide reached Christian Europe, through Macrobius.
+- **Paradoxa Stoicorum 42-43** the sixth paradox, ***Animus oportet tuus se iudicet divitem***. Nine
+  questions in a row; the same relocation of a word that **Paradoxa 34** performs on *libertas*.
+
+### Changed
+- **`caesar_era_draft.md`: De Fato added to the Main Works bibliography**, where it had been missing.
+  Mirrored in `italian_translations_caesar.md` and regenerated with `node build_content_it.js`.
+- **NEW `build_content.js`, and js/content.js was 2759 characters stale.** Over http the app fetches
+  the era drafts live and `js/content.js` is only the `file://` fallback, so it is invisible during
+  browser testing and had silently missed the v1.8.3 four-way split of Cicero's Main Works.
+  `__ARCHAIC_MD__` was still byte-identical to its draft, `__CAESAR_MD__` was not. There was a
+  generator for the Italian side (`build_content_it.js`) and none for the English; there is now.
+  **Run it after editing any `*_era_draft.md`.**
+- **Accuracy pass over all 8 pre-existing fragments of the touched works** (De Re Publica 4, Somnium
+  4). Nothing needed changing this time.
+
+### Notes on the source
+- **`fato` has no non-ASCII characters at all**: the page transliterates its Greek into Latin letters
+  (*Peri Dynaton*, *Logike*, *Argos Logos*), so unlike `paradoxa` there is no mojibake to route
+  around. Markers are `[n]` and spans are free.
+- **The Paradoxa excerpt still starts after a mojibake line.** The Greek running head of Paradox VI
+  prints as *ÜOti mÒnow ... ploÊsiow*; the extract begins at *Quae est ista* and never touches it.
+- **De Re Publica prints round-bracketed section numbers**, `(5)`, which `normalise()` has stripped
+  since v1.9.0. The natural-law passage III.33 and the Ennius *moribus antiquis* of V.1 are **not on
+  The Latin Library at all** - it prints only the palimpsest, so the sections quoted by Lactantius
+  and Augustine are simply absent. That is why the fifth excerpt comes from book II.
+- **Kept and flagged:** *quoi* for *cui* (Parad. 42), *inprimet* (Fat. 43), and the source's unclosed
+  single dash at *-obstructas eas partes* (Fat. 10). **No emendations in this release.**
+
+Verification: **191 verbatim, 0 mismatched**; `lint_translations.js` **318 checked, 3 to look at**
+(the same three documented in the tool's header). Cache-bust: `?v=109` -> `?v=110`.
+
 ## [1.9.3] - 2026-08-30
 
 **THE PHILOSOPHICAL GROUP IS FINISHED, +8.** Paradoxa Stoicorum 2 (new work), De Amicitia 5 -> 8,
