@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.10.2', date: '2026-08-31', time: 'TBC', tz: 'CEST',
+      v: '1.10.2', date: '2026-08-31', time: '22:28', tz: 'CEST',
       en: {
         added: [
           'Cicero is finished. The three big rhetorical works fill out to 8, 5 and 5, the rhetorical section closes at 23 excerpts across five texts, and the largest author in this app comes to rest at 213 excerpts across 38 works. Speeches 116, Letters 26, Philosophical works 48, Rhetorical works 23.',
