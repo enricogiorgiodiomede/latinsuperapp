@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.10.0', date: '2026-08-31', time: 'TBC', tz: 'CEST',
+      v: '1.10.0', date: '2026-08-31', time: '19:29', tz: 'CEST',
       en: {
         added: [
           'The rhetorical works are open. This is the last of Cicero\'s four categories and the only one that had never had anything in it, so the button has been sitting there greyed out since the chooser was built. It now holds 11 excerpts across three texts: De Oratore, Brutus and Orator - Cicero writing about the thing he was actually best at.',
