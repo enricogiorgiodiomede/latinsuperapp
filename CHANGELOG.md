@@ -63,6 +63,52 @@ works**; bank **350**. De Fato sits in PHIL_ORDER straight after De Divinatione,
 Verification: **191 verbatim, 0 mismatched**; `lint_translations.js` **318 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=109` -> `?v=110`.
 
+## [1.10.2] - 2026-08-31
+
+**THE RHETORICAL GROUP IS FINISHED, AND SO IS CICERO, +7.** De Oratore 5 -> 8, Brutus 3 -> 5,
+Orator 3 -> 5. Rhetorical **23 across 5 works**; **Cicero 213 across 38 works** (Speeches 116 /
+Letters 26 / Philosophical 48 / Rhetorical 23); bank **373**. Cicero is now **more than a third of
+the whole app**.
+
+### Added - De Oratore
+- **I.19-20** ***nemo poterit esse omni laude cumulatus orator, nisi erit omnium rerum magnarum atque
+  artium scientiam consecutus***, with *ex rerum cognitione efflorescat et redundet oportet oratio* and
+  the one-word diagnosis of the alternative, *puerilis*. The thesis Antonius spends book II disputing.
+  Needs a **`fix`** to delete the bracketed chapter numeral `[VI]` falling mid-fragment.
+- **II.62-63** the laws of history: ***ne quid falsi dicere audeat ... ne quid veri non audeat***, plus
+  *gratia* and *simultas*, the two conflicts of interest. **The verb in both laws is *audere***, which
+  makes honesty a matter of nerve. Pairs with **II.35-36**, a page earlier in the same speech.
+- **III.155-156** metaphor as *inopia* turned into *delectatio*, the clothing analogy, and the examples
+  from farmers - *gemmare vitis, luxuriem esse in herbis, laetas segetes*, ***etiam rustici dicunt***.
+  Closes on ***hae translationes quasi mutuationes sunt***, a financial word.
+
+### Added - Brutus
+- **1-2** the news of Hortensius' death reaching Rhodes in 50 BC, the augural college, and *non ...
+  adversarium ... sed socium potius et consortem gloriosi laboris*. **Hortensius is an app author** and
+  his single fragment is Brutus §6, four sections later.
+- **330** the close: ***orbae eloquentiae quasi tutores relicti sumus*** and ***in hanc rei publicae
+  noctem incidisse***. Brutus' consolation - that Cicero's deeds would speak *etiam me tacente* and
+  live *mortuo* - reads differently knowing what happened in December 43.
+
+### Added - Orator
+- **8-9** ***Phidias*** and the *species pulchritudinis* in the sculptor's own mind. The source text of
+  the European theory of the artistic Idea, and the passage **Orator 100-101** refers back to.
+- **213-214** ***me stante*** - Cicero in the crowd watching a *contio* erupt at a *dichoreus*, then
+  running the experiment by reversing the word order. The reply he gives himself a line later,
+  *animo istuc satis est, auribus non satis*, is quoted in the analysis.
+
+### Notes on the source
+- **Second use of `fix` to delete a bracketed chapter numeral** (`[VI]` at De Orat. I.20), after
+  De Opt. Gen. 13-14 established it in v1.10.1.
+- **Orator 213-214 deliberately stops at *Quaero nonne id numerus effecerit?***, because TLL's
+  rendering of the next sentence puts the closing quotation mark in the wrong place - the quote opens
+  at *"Comprobavit fili temeritas* and does not close until after *dissentio."*. Rather than emend two
+  punctuation marks, the excerpt ends before it and the analysis carries the rest.
+- **No emendations, no mojibake.** All three pages are pure ASCII.
+
+Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
+(the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
+
 ## [1.10.1] - 2026-08-31
 
 **THE RHETORICAL GROUP IS COMPLETE AS A SET OF FIVE, +5.** De Optimo Genere Oratorum 3, Topica 2 -

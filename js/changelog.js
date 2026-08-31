@@ -12,6 +12,49 @@
 
   var VERSIONS = [
     {
+      v: '1.10.2', date: '2026-08-31', time: 'TBC', tz: 'CEST',
+      en: {
+        added: [
+          'Cicero is finished. The three big rhetorical works fill out to 8, 5 and 5, the rhetorical section closes at 23 excerpts across five texts, and the largest author in this app comes to rest at 213 excerpts across 38 works. Speeches 116, Letters 26, Philosophical works 48, Rhetorical works 23.',
+          'De Oratore, 5 to 8. First, the claim the whole dialogue is built on and that the second book spends its length disputing: nobody will ever be a complete orator without the knowledge of every great thing and every art, because speech ought to flower and overflow out of understanding the subject. Without that, what you get is empty and, in Cicero\'s word, childish. It is the most demanding definition of an educated person that antiquity produced, and the direct ancestor of what Europe later meant by a liberal education (I.19-20).',
+          'Then the laws of history, which are still the laws and are still the ones that get broken. Do not dare to say anything false; do not fail to dare to say anything true; let there be no suspicion of favour in the writing, and none of a grudge. The verb in both of the first two is "dare", which quietly makes honesty a matter of courage rather than of accuracy - anyone can avoid lying, but not everyone will print what they know (II.62-63).',
+          'And Cicero on metaphor, which turns out to be an economic story before it is a literary one. It began in poverty: there was no word, so one was borrowed from elsewhere, and only later did people keep doing it for pleasure - exactly as clothes were invented against the cold and then became a way of showing who you are. His examples are not from poetry either. The vine buds, there is riot in the grass, the crops are glad: even farmers talk like this. Ordinary language is already made of metaphor (III.155-156).',
+          'Brutus, 3 to 5, and now the app has both ends of the book. It opens with Cicero coming home from his province in 50 BC and hearing at Rhodes that Hortensius is dead - a man everyone assumed was his rival, and whom he calls instead a partner and a sharer in a glorious labour. Hortensius has his own entry in this app, and his single excerpt is a passage of this very book four sections later (1-2).',
+          'And it closes four hundred years of Roman oratory with the two of them left as guardians of an orphaned eloquence, to be kept indoors and away from unsuitable suitors. In the middle of it comes the sentence the book exists for: he came onto the road a little late, and before the journey was finished he fell into this night of the republic. He had a little over three years left (330).',
+          'Orator, 3 to 5. How do you describe a perfect orator nobody has ever met? With a sculptor. There is nothing so beautiful in any kind that something more beautiful cannot still be conceived - and when Phidias made his Zeus he was not copying any man he had seen, but had in his own mind an outstanding appearance of beauty and worked his hand towards that. This paragraph is where the European theory of the artistic ideal begins (8-9).',
+          'And then, in the middle of the driest subject in the book, a piece of evidence. Cicero was standing in the crowd when a tribune ended a sentence on a particular rhythm, and the meeting erupted. He names the man, quotes the words, and then runs the experiment: change the word order and there will be nothing. Same words, same sense, no roar. He answers the objection himself a line later - that is enough for the mind, not enough for the ears (213-214).'
+        ],
+        changed: [
+          'The rhetorical section is complete: De Oratore 8, Brutus 5, Orator 5, De Optimo Genere Oratorum 3, Topica 2. With it, Cicero is done, and he is by a long way the largest thing in the app - 213 excerpts, more than a third of the whole collection, across 38 separate works from the Verrines of 70 BC to the Philippics.',
+          'The new excerpts tie the two halves of Cicero together. De Oratore now has both its claim that the orator must know everything and the two laws of history that follow from it, alongside the famous line about history as the teacher of life already here. Brutus opens and closes on the death of Hortensius, who is an author here in his own right. Orator now carries both the Platonic form of the perfect speaker and the passage where Cicero admits nobody has ever been one.',
+          'Next in this app is the rest of Caesar\'s Age: Caesar himself, Hirtius, Lucretius, Sallust and Catullus.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Cicerone è finito. Le tre grandi opere retoriche salgono a 8, 5 e 5, la sezione retorica si chiude a 23 brani su cinque testi, e l’autore più grande di questa app si ferma a 213 brani su 38 opere. Orazioni 116, Lettere 26, Opere filosofiche 48, Opere retoriche 23.',
+          'De Oratore, da 5 a 8. Prima la tesi su cui è costruito tutto il dialogo e che il secondo libro passa la propria lunghezza a contestare: nessuno sarà mai un oratore compiuto senza la conoscenza di ogni cosa grande e di ogni arte, perché il discorso deve fiorire e traboccare dalla comprensione della materia. Senza quella, ciò che resta è vuoto e, con la parola di Cicerone, puerile. È la definizione più esigente di uomo colto che l’antichità abbia prodotto, e l’antenata diretta di ciò che l’Europa avrebbe poi chiamato educazione liberale (I.19-20).',
+          'Poi le leggi della storia, che sono ancora quelle e sono ancora quelle che si infrangono. Non osare dire nulla di falso; non tralasciare di osare nulla di vero; non ci sia nello scrivere sospetto di favore, né di rancore. Il verbo delle prime due è "osare", il che fa sommessamente dell’onestà una questione di coraggio più che di esattezza: non mentire riesce a chiunque, ma pubblicare ciò che si sa, no (II.62-63).',
+          'E Cicerone sulla metafora, che si rivela una storia economica prima che letteraria. Cominciò nella povertà: mancava la parola, e allora se ne prese una in prestito altrove, e solo dopo si continuò a farlo per piacere, esattamente come i vestiti furono inventati contro il freddo e poi diventarono un modo di mostrare chi si è. E nemmeno i suoi esempi vengono dalla poesia. La vite gemma, c’è rigoglio nell’erba, le messi sono liete: così parlano perfino i contadini. La lingua comune è già fatta di metafore (III.155-156).',
+          'Brutus, da 3 a 5, e ora l’app ha entrambi i capi del libro. Si apre con Cicerone che torna dalla provincia nel 50 a.C. e apprende a Rodi che Ortensio è morto: un uomo che tutti davano per suo rivale e che lui chiama invece socio e compagno in una fatica gloriosa. Ortensio ha una scheda propria in questa app, e il suo unico brano è un passo di questo stesso libro, quattro paragrafi più avanti (1-2).',
+          'E chiude quattrocento anni di oratoria romana con loro due rimasti tutori di un’eloquenza orfana, da tenere in casa e lontana da pretendenti sconvenienti. Nel mezzo arriva la frase per cui il libro esiste: è entrato nella strada un poco tardi, e prima che il cammino fosse finito è caduto in questa notte della repubblica. Gli restavano poco più di tre anni (330).',
+          'Orator, da 3 a 5. Come si descrive un oratore perfetto che nessuno ha mai incontrato? Con uno scultore. Non c’è nulla, in nessun genere, di tanto bello che non se ne possa concepire uno più bello; e quando Fidia fece il suo Zeus non copiava nessun uomo che avesse visto, ma aveva nella propria mente un’eccellente immagine della bellezza e vi indirizzava la mano. È da questo paragrafo che comincia la teoria europea dell’ideale artistico (8-9).',
+          'E poi, nel bel mezzo dell’argomento più arido del libro, una prova. Cicerone era in mezzo alla folla quando un tribuno chiuse una frase su un certo ritmo, e l’assemblea esplose. Nomina l’uomo, cita le parole e poi conduce l’esperimento: cambia l’ordine delle parole e non resterà nulla. Stesse parole, stesso senso, nessun boato. E l’obiezione se la fa da solo una riga dopo: questo basta alla mente, non basta alle orecchie (213-214).'
+        ],
+        changed: [
+          'La sezione retorica è completa: De Oratore 8, Brutus 5, Orator 5, De Optimo Genere Oratorum 3, Topica 2. Con essa Cicerone è concluso, ed è di gran lunga la cosa più grande dell’app: 213 brani, più di un terzo dell’intera raccolta, su 38 opere distinte, dalle Verrine del 70 a.C. alle Filippiche.',
+          'I nuovi brani legano fra loro le due metà di Cicerone. Il De Oratore ha ora sia la tesi che l’oratore debba sapere tutto sia le due leggi della storia che ne discendono, accanto alla celebre frase sulla storia maestra di vita già presente. Il Brutus si apre e si chiude sulla morte di Ortensio, che qui è autore a pieno titolo. L’Orator porta ora sia la forma platonica dell’oratore perfetto sia il passo in cui Cicerone ammette che nessuno lo è mai stato.',
+          'Il prossimo passo di questa app è il resto dell’età di Cesare: Cesare stesso, Irzio, Lucrezio, Sallustio e Catullo.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.10.1', date: '2026-08-31', time: '21:12', tz: 'CEST',
       en: {
         added: [

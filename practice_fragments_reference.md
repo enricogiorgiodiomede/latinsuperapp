@@ -937,6 +937,47 @@ the opposite conclusion (ND II.95) and DRN VI on the magnet (Div. I.86); **Caesa
 both appear in Div. II.52; **Tusculanae III.24** is the parallel for Cicero coining Latin philosophical
 vocabulary inside a parenthesis (ND I.18, *Pronoeam, quam Latine licet Providentiam dicere*).
 
+**DE ORATORE 5 -> 8, BRUTUS 3 -> 5, ORATOR 3 -> 5 - v1.10.2, 2026-08-31. THE RHETORICAL GROUP IS
+FINISHED AT 23 ACROSS 5, AND WITH IT CICERO IS COMPLETE AT 213 ACROSS 38 WORKS.**
+- spec entries, all verified verbatim:
+  - `"do.1.19"` prefix `[19] `, **`fix: [[' [VI] [20] Ac mea', ' [20] Ac mea']]`**
+  - `"do.2.62"` prefix `[62] ` · `"do.3.155"` prefix `[155] `
+  - `"br.1"` prefix `[1] ` · `"br.330"` prefix `[330] `
+  - `"or.8"` prefix `[8] ` · `"or.213"` prefix `[213] `
+
+**SECOND USE OF `fix` TO DELETE A BRACKETED CHAPTER NUMERAL.** `[VI]` falls between sections 19 and 20
+of De Oratore I. Same treatment as `[V]` at De Opt. Gen. 13-14 in v1.10.1, and the same reasoning: the
+work is cited by section, so a roman chapter numeral mid-fragment would put two numbering systems on
+one page. `normalise()` strips it on both sides, so verification is unaffected.
+
+**WHY ORATOR 213-214 STOPS WHERE IT DOES.** The obvious place to end is the exchange
+*"At eadem verba, eadem sententia." Animo istuc satis est, auribus non satis* - the best line in the
+book. It is NOT in the excerpt, because TLL's rendering of the sentence before it misplaces a quotation
+mark: the quote opens at `"Comprobavit fili temeritas` and does not close until after `dissentio."`,
+so the word-order experiment and Cicero's own commentary end up inside the same quotation. **Emending
+two punctuation marks to rescue one sentence was not worth it**; the excerpt ends at *Quaero nonne id
+numerus effecerit?* and the analysis carries the rest, the way the Cato joke is carried in the
+De Divinatione II.52 analysis.
+
+**A CORRELATIVE TO WATCH IN BRUTUS 1.** *et amico amisso **cum** consuetudine iucunda **tum** multorum
+officiorum coniunctione me privatum videbam* is a *cum ... tum* correlative, "both ... and", not a
+temporal clause. The Italian renders it *sia ... sia* per the standing rule set in the v1.9.4 follow-up.
+**Check every new Italian translation for that**; a bare *e ... e* is the calque to avoid.
+
+**CROSS-LINKS BUILT INTO THIS BATCH.** **Brutus 1-2 and Brutus 330 are the two ends of the same book**,
+both on the death of **Hortensius**, who is an app author and whose only fragment is Brutus §6 - which
+now sits between them. **De Oratore II.62-63 and II.35-36** are a page apart in the same speech and are
+the theory and the rules of history; **Sallust** is what they look like in practice. **Orator 8-9 is
+the passage Orator 100-101 refers back to** (*illam Platonis formam et speciem*), so the app now has
+both halves of that argument. **De Oratore I.19-20 and I.32-33** are the practical and the
+philosophical halves of the same claim. Brutus 330 names **Marcus Junius Brutus**, dedicatee of the
+Orator, the Paradoxa and De Natura Deorum, all in this app.
+
+**CICERO IS DONE. WHAT IS LEFT IF HE IS EVER REOPENED:** the Tusculans past 5 (restore the benched
+Archimedes tomb V.64-66 first - full recipe above); De Oratore II.216-235 (the rest of the wit
+programme) and III.177-198 (prose rhythm); Brutus 191-193; Orator 234ff (the clausula). Everything else
+worth having is in.
+
 **DE OPTIMO GENERE ORATORUM 3 + TOPICA 2 - v1.10.1, 2026-08-31. ALL FIVE RHETORICAL WORKS NOW EXIST
 (16 across 5).** Both were already in `sources.json` and `RHET_ORDER`; `create_works.js` made the two
 work objects.
