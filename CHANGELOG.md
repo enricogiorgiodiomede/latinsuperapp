@@ -63,6 +63,61 @@ works**; bank **350**. De Fato sits in PHIL_ORDER straight after De Divinatione,
 Verification: **191 verbatim, 0 mismatched**; `lint_translations.js` **318 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=109` -> `?v=110`.
 
+## [1.10.1] - 2026-08-31
+
+**THE RHETORICAL GROUP IS COMPLETE AS A SET OF FIVE, +5.** De Optimo Genere Oratorum 3, Topica 2 -
+the last two work objects the group was missing. Rhetorical **16 across 5 works**; Cicero **206 across
+38 works**; bank **366**.
+
+### Added
+- **De Optimo Genere Oratorum 1-2** the anti-Atticist opening: poetry has *genera* and mixing them is
+  a fault (*in tragoedia comicum vitiosum est et in comoedia turpe tragicum*), but oratory has only
+  degrees. *In re enim quid optimum sit quaeritur, in homine dicitur quod est.* **Ends by naming
+  Ennius, Pacuvius and Caecilius**, all three app authors; the *fortasse* on Caecilius registers
+  Cicero declining to sign Volcacius Sedigitus' ranking.
+- **De Optimo Genere Oratorum 5** the three *officia* matched to three qualities of thought
+  (*acutae, argutae, graves*), then the five parts of rhetoric closed with a building:
+  ***memoria est quasi fundamentum, lumen actio***. Cross-links to **Orator 69** and
+  **De Oratore III.213**.
+- **De Optimo Genere Oratorum 13-14** ***nec converti ut interpres, sed ut orator*** and ***non verbum
+  pro verbo***, closing on *adnumerare* against *appendere* - counting coins against weighing them.
+  **Jerome quotes this paragraph** in *Ep.* 57, whose title answers Cicero's. **The two speeches named
+  here are the ones De Oratore III.213 tells the Aeschines story about**, and neither translation
+  survives.
+
+### Added - Topica
+- **1-5** how the book came to exist: Trebatius finding Aristotle's *Topica* on the shelf at Tusculum,
+  and ***memoria repetita in ipsa navigatione conscripsi*** - written at sea, from memory, without
+  books, July 44 BC, on the voyage Cicero turned back from to deliver the Philippics. Trimmed, `[...]`.
+- **7-8** ***licet definire locum esse argumenti sedem, argumentum autem rationem quae rei dubiae
+  faciat fidem*** - the origin of the word "topic", and a definition that says *fidem facere*, produce
+  belief, not produce truth.
+
+### Changed
+- **A TRANSLATION FAULT WAS CAUGHT BY `lint_translations.js` BEFORE RELEASE.** The first cut of
+  **Topica 7-8** started the Latin at *Ut igitur earum rerum...*, but both translations rendered the
+  preceding sentence (*Nos autem, quoniam in utraque summa utilitas est...*) as well - EN ratio 1.61,
+  IT 1.64, against a band of 1.07-1.36. **The Latin was extended to cover it rather than the sentence
+  dropped**, because it is the sentence that says which of the two subjects the book starts from.
+  This is the third time the tool has paid for itself, and the exact fault it was written for in the
+  v1.9.0 follow-up. `js/fragments.js` was reverted to HEAD and the batch rebuilt from scratch rather
+  than patched in place.
+
+### Notes on the source
+- **`optgen` is pure ASCII and brackets both numerals** (`[I] [1]`, `[V]`), so spans are free. The
+  `[V]` chapter numeral falls in the middle of the 13-14 fragment and is removed with a **`fix`**, so
+  that the app shows only its own section markers - `normalise()` strips it on both sides, so the
+  verification is unaffected. This is the first fragment to need that.
+- **`topica` DOES carry mojibake**, unlike the rest of the rhetorical shelf: every Greek term on the
+  page is mangled (*dialektikón*, *suzug¤a*, *§tumolog¤an*, *§nyÊmhma* and a dozen more). **Both
+  excerpts are sited in the clean stretches**: sections 1-5 run clean up to the first bad byte inside
+  section 6, and 7-8 are clean again after it.
+- **No emendations in this release.** *Veliam* is a place name, not the capital-V-for-u convention.
+
+Verification: **207 verbatim, 0 mismatched**; `lint_translations.js` **334 checked, 3 to look at**
+(the same three documented in the tool's header, after the Topica fault was fixed). Cache-bust:
+`?v=112` -> `?v=113`.
+
 ## [1.10.0] - 2026-08-31
 
 **THE RHETORICAL GROUP GOES LIVE, +11.** De Oratore 5, Brutus 3, Orator 3 - three new works, and the

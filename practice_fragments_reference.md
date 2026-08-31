@@ -937,6 +937,49 @@ the opposite conclusion (ND II.95) and DRN VI on the magnet (Div. I.86); **Caesa
 both appear in Div. II.52; **Tusculanae III.24** is the parallel for Cicero coining Latin philosophical
 vocabulary inside a parenthesis (ND I.18, *Pronoeam, quam Latine licet Providentiam dicere*).
 
+**DE OPTIMO GENERE ORATORUM 3 + TOPICA 2 - v1.10.1, 2026-08-31. ALL FIVE RHETORICAL WORKS NOW EXIST
+(16 across 5).** Both were already in `sources.json` and `RHET_ORDER`; `create_works.js` made the two
+work objects.
+- spec entries, all verified verbatim:
+  - `"og.1"` prefix `[1] ` · `"og.5"` prefix `[5] `
+  - `"og.13"` prefix `[13] `, **`fix: [[' [V] Sed cum', ' Sed cum']]`**
+  - `"top.1"` + `"top.5"` joined by `" [...] [5] "`, prefix `[1] `
+  - `"top.7"` prefix `[7] ` - **starts at *Nos autem*, NOT at *Ut igitur*; see the lint note below**
+
+**FIRST USE OF `fix` TO DELETE A CHAPTER NUMERAL.** `optgen` brackets both numerals (`[I] [1]`,
+`[V]`), so `normalise()` strips them on both sides and spans are free - but the `[V]` falls in the
+MIDDLE of the 13-14 fragment, and printing it would put a second numbering system on a page that is
+cited by section. `fix` removes it. **This is legitimate `fix` territory** ("source style that
+normalise() already handles"), and it is not recorded on the fragment. The only fragments in the bank
+that print a bracketed roman numeral are In Verrem I and In Pisonem, both of which are **cited by
+chapter**, where the numeral is the fragment's own marker at the start. Follow that distinction.
+
+**`optgen` IS PURE ASCII. `topica` IS NOT.** The Topica page mangles every Greek term it contains -
+*dialektikón*, *suzug¤a*, *ét\x9axnouw*, *eýdh*, *¶nnoian*, *§tumolog¤an*, *sÊmbolon*, *§pagvgó*,
+*Íperboló*, *sterhtikã*, *épofatikå*, *§nyÊmhma*, *Ípòyesin* and more. **The clean stretches are
+sections 1-5 (up to the first bad byte inside section 6) and 7-8.** Both excerpts are sited there
+deliberately. **If Topica is ever expanded, map the mojibake first** - most of the middle of the book
+is unusable without `emend`, because the Greek technical terms are the whole point of those sections.
+
+**`lint_translations.js` EARNED ITS KEEP AGAIN - THE THIRD TIME.** The first cut of **Topica 7-8**
+extracted from *Ut igitur earum rerum...*, but both translations also rendered the sentence before it
+(*Nos autem, quoniam in utraque summa utilitas est...*). EN ratio **1.61**, IT **1.64**, against the
+tool's 1.07-1.36 band - flagged immediately, and it is exactly the fault the tool was written for in
+the v1.9.0 follow-up. **The Latin was extended to cover the sentence rather than the sentence dropped**,
+because it is the sentence that says which of the two subjects the book begins from. Procedure worth
+copying: `git checkout js/fragments.js` back to HEAD, re-run `create_works.js`, re-run `apply_batch.js`
+with the corrected passages - **rebuild, do not patch in place**, or the work objects and the sort
+order drift.
+
+**CROSS-LINKS BUILT INTO THIS BATCH.** **De Optimo Genere 13-14 and De Oratore III.213 are about the
+same two speeches** - the Aeschines/Demosthenes crown pair - and neither of Cicero's translations
+survives, so the pamphlet is the preface to a lost book. **De Optimo Genere 1-2 names Ennius, Pacuvius
+and Caecilius**, all Archaic-era app authors, and the *fortasse* on Caecilius is Cicero declining
+Volcacius Sedigitus' ranking. **De Optimo Genere 5 lists the five parts of rhetoric** and **Topica is
+the manual for the first of them**. **Topica 1-5 is dated to the voyage Cicero turned back from to
+deliver Philippica I**, which the app carries. Outside Cicero: **Jerome** *Ep.* 57 on 13-14, and
+**Horace** *Satires* II.1 for Trebatius.
+
 **THE RHETORICAL GROUP - DE ORATORE 5, BRUTUS 3, ORATOR 3 - v1.10.0, 2026-08-31.** All three works
 were already in `sources.json` and in `RHET_ORDER`; only the work objects were missing, which is why
 the category had been invisible since v1.5.0 built the chooser. `create_works.js` made all three at

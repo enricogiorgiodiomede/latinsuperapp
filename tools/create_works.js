@@ -1,12 +1,10 @@
-// v1.10.0: THE RHETORICAL GROUP GOES LIVE. Three works at once - De Oratore
-// (55 BC, the dialogue), Brutus (46 BC, the history of Roman oratory) and
-// Orator (46 BC, the portrait of the ideal speaker). All three were already
-// mapped in sources.json and pinned in RHET_ORDER; only the work objects were
-// missing, which is why the whole rhetorical category has been invisible in
-// the chooser since v1.5.0 created it.
-// NOTE: the id `brutus` is deliberately shared with Hortensius, whose single
-// fragment IS a passage of Cicero's Brutus. Work ids are unique per author, so
-// the two coexist; verify.js prints a NOTE about the shared sources.json key.
+// v1.10.1: the last two rhetorical works, and the group is complete at five.
+// De Optimo Genere Oratorum (46 BC) is the preface to a translation of the
+// Aeschines/Demosthenes crown speeches that may never have been finished, and
+// contains the non verbum pro verbo paragraph that founded translation theory.
+// Topica (44 BC) was written from memory on a sea voyage for the jurist
+// C. Trebatius Testa. Both were already mapped in sources.json and pinned in
+// RHET_ORDER; only the work objects were missing.
 // Works with no fragments are hidden by PracticeBank.works(), so a work created
 // here shows up only once apply_batch has filled it.
 const fs = require('fs');
@@ -14,9 +12,8 @@ const path = require('path');
 const P = path.join(__dirname, '..', 'js', 'fragments.js');
 
 const NEW = [
-  { id: 'de-oratore', label: 'De Oratore', labelIt: 'De Oratore', group: 'rhetorical' },
-  { id: 'brutus', label: 'Brutus', labelIt: 'Brutus', group: 'rhetorical' },
-  { id: 'orator', label: 'Orator', labelIt: 'Orator', group: 'rhetorical' }
+  { id: 'de-optimo-genere', label: 'De Optimo Genere Oratorum', labelIt: 'De Optimo Genere Oratorum', group: 'rhetorical' },
+  { id: 'topica', label: 'Topica', labelIt: 'Topica', group: 'rhetorical' }
 ];
 
 // Same guard as apply_batch.js: with git's core.autocrlf=true a checkout hands

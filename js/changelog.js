@@ -12,6 +12,45 @@
 
   var VERSIONS = [
     {
+      v: '1.10.1', date: '2026-08-31', time: 'TBC', tz: 'CEST',
+      en: {
+        added: [
+          'The last two rhetorical works join, and the category is complete at five texts and 16 excerpts. Both are short, both are odd, and both were written in a hurry in the last two years of Cicero\'s life.',
+          'De Optimo Genere Oratorum, 3. It is a preface to a translation that may never have been finished, and its target is the Atticists - a group of younger Roman orators who held that the only correct Latin was plain, spare and short, and that Cicero\'s was not it. He opens by taking their premise away: poetry really does come in kinds, and mixing them is a fault, but oratory does not. Grand, plain and middle are not different species, only different degrees of one thing. The paragraph ends by naming the best epic, tragic and comic poets at Rome - Ennius, Pacuvius and Caecilius, all three of whom have their own entries in this app (1-2).',
+          'Then the whole theory of speaking in a single paragraph, closing on a building: of the five parts of rhetoric, memory is the foundation and delivery is the light. Memory is what the thing stands on and nobody sees once it is finished; delivery is what lets you see it at all (5).',
+          'And the reason the pamphlet exists. Cicero translated the two most famous speeches in Greek - the pair that Aeschines and Demosthenes fought the case of the crown with - and explains how: not as an interpreter but as an orator, not word for word, keeping the whole force of the words. "I did not think I should count them out to the reader, but as it were weigh them." Jerome quoted this paragraph four centuries later to defend translating the Bible by sense, and between them the two texts settled how Europe thought about translation for the next thousand years. This app follows the same rule on every page (13-14).',
+          'Topica, 2. A handbook on where to find arguments, and the story of how it came to exist is better than the handbook. A lawyer friend pulled a book of Aristotle off the shelf in Cicero\'s library at Tusculum, could not make head or tail of it, and asked. Cicero told him to read it himself or find a professional teacher - and the great rhetorician, asked about Aristotle, said he had never heard of him. So Cicero wrote it out himself: at sea, from memory, without his books, and sent it back from the journey (1-5).',
+          'And the definition the whole book rests on, which is also where the word "topic" comes from. A topic was not originally a subject. It was an address: a place where arguments of a particular shape are kept, so that a speaker who needs one knows which drawer to open. Then the definition of an argument itself, and the choice of words is a lawyer\'s: a reasoning that makes a doubtful thing believed - not that makes it true (7-8).'
+        ],
+        changed: [
+          'The rhetorical works are finished as a set of five: De Oratore 5, Brutus 3, Orator 3, De Optimo Genere Oratorum 3, Topica 2. Cicero now stands at 206 excerpts across 38 works and the app\'s bank at 366.',
+          'The three books shipped last time and the two shipped now talk to each other. The speeches Cicero says here that he translated are the same two the De Oratore excerpt tells the Aeschines story about - and neither translation survives. The five parts of rhetoric listed in one line of De Optimo Genere are what the Topica is a manual for the first of. And the Topica was written on the voyage Cicero turned back from to deliver the First Philippic, which is also in this app.',
+          'A translation fault was caught by the length check before release and fixed. The English and Italian of the Topica definition were rendering an opening sentence that the Latin excerpt did not actually contain; the Latin was extended to cover it, rather than the sentence being dropped, because it is the sentence that says which of two subjects the book is starting from.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Entrano le ultime due opere retoriche, e la categoria è completa a cinque testi e 16 brani. Sono entrambe brevi, entrambe curiose, ed entrambe scritte in fretta negli ultimi due anni di vita di Cicerone.',
+          'De Optimo Genere Oratorum, 3. È la prefazione a una traduzione che forse non fu mai terminata, e il suo bersaglio sono gli atticisti, un gruppo di oratori romani più giovani secondo i quali l’unico latino corretto era quello sobrio, scarno e breve, e quello di Cicerone non lo era. Lui esordisce togliendo loro la premessa: la poesia ha davvero dei generi, e mescolarli è un difetto, ma l’oratoria no. Grande, semplice e medio non sono specie diverse, ma solo gradi diversi di una cosa sola. Il paragrafo si chiude nominando i migliori poeti epico, tragico e comico di Roma: Ennio, Pacuvio e Cecilio, che hanno tutti e tre una scheda propria in questa app (1-2).',
+          'Poi tutta la teoria del dire in un solo paragrafo, che si chiude su un edificio: delle cinque parti della retorica, la memoria è le fondamenta e l’azione è la luce. La memoria è ciò su cui la cosa poggia e che nessuno vede una volta finita; l’azione è ciò che permette di vederla (5).',
+          'E la ragione per cui l’opuscolo esiste. Cicerone tradusse le due più celebri orazioni greche, quelle con cui Eschine e Demostene si combatterono il processo della corona, e spiega come: non da interprete ma da oratore, non parola per parola, conservando tutta la forza delle parole. "Non ho creduto di doverle contare al lettore, ma per così dire di doverle pesare." Girolamo citò questo paragrafo quattro secoli dopo per difendere la traduzione a senso della Bibbia, e insieme i due testi hanno stabilito come l’Europa avrebbe pensato la traduzione per i mille anni successivi. Questa app segue la stessa regola in ogni pagina (13-14).',
+          'Topica, 2. Un manuale su dove trovare gli argomenti, e la storia di come nacque è migliore del manuale. Un amico giurista tirò giù dallo scaffale della biblioteca di Cicerone a Tuscolo un libro di Aristotele, non ci capì nulla e chiese aiuto. Cicerone gli disse di leggerselo da sé o di rivolgersi a un professionista, e il grande retore, interrogato su Aristotele, rispose che non ne aveva mai sentito parlare. Così Cicerone glielo scrisse lui: per mare, a memoria, senza i suoi libri, e glielo spedì dal viaggio (1-5).',
+          'E la definizione su cui poggia tutto il libro, che è anche l’origine della parola "topico". Un topos non era in origine un tema. Era un indirizzo: un posto dove si tengono gli argomenti di una certa forma, così che chi ne abbia bisogno sappia quale cassetto aprire. Poi la definizione dell’argomento stesso, e la scelta delle parole è quella di un avvocato: un ragionamento che fa credere una cosa dubbia, non che la rende vera (7-8).'
+        ],
+        changed: [
+          'Le opere retoriche sono concluse come insieme di cinque: De Oratore 5, Brutus 3, Orator 3, De Optimo Genere Oratorum 3, Topica 2. Cicerone arriva così a 206 brani su 38 opere e la raccolta dell’app a 366.',
+          'I tre libri usciti la volta scorsa e i due di adesso si parlano. Le orazioni che qui Cicerone dice di aver tradotto sono le stesse due di cui il brano del De Oratore racconta la storia di Eschine, e nessuna delle due traduzioni ci è giunta. Le cinque parti della retorica elencate in una riga del De Optimo Genere sono quelle di cui i Topica sono il manuale della prima. E i Topica furono scritti durante il viaggio da cui Cicerone tornò indietro per pronunciare la Prima Filippica, anch’essa in questa app.',
+          'Un errore di traduzione è stato intercettato dal controllo di lunghezza prima dell’uscita e corretto. L’inglese e l’italiano della definizione dei Topica rendevano una frase iniziale che il brano latino non conteneva; si è preferito estendere il latino perché la comprendesse, invece di togliere la frase, perché è quella che dice da quale dei due argomenti il libro stia partendo.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.10.0', date: '2026-08-31', time: '19:29', tz: 'CEST',
       en: {
         added: [
