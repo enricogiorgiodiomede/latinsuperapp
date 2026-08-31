@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.10.1', date: '2026-08-31', time: 'TBC', tz: 'CEST',
+      v: '1.10.1', date: '2026-08-31', time: '21:12', tz: 'CEST',
       en: {
         added: [
           'The last two rhetorical works join, and the category is complete at five texts and 16 excerpts. Both are short, both are odd, and both were written in a hurry in the last two years of Cicero\'s life.',
