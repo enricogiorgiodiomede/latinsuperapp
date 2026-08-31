@@ -950,14 +950,21 @@ of De Oratore I. Same treatment as `[V]` at De Opt. Gen. 13-14 in v1.10.1, and t
 work is cited by section, so a roman chapter numeral mid-fragment would put two numbering systems on
 one page. `normalise()` strips it on both sides, so verification is unaffected.
 
-**WHY ORATOR 213-214 STOPS WHERE IT DOES.** The obvious place to end is the exchange
-*"At eadem verba, eadem sententia." Animo istuc satis est, auribus non satis* - the best line in the
-book. It is NOT in the excerpt, because TLL's rendering of the sentence before it misplaces a quotation
-mark: the quote opens at `"Comprobavit fili temeritas` and does not close until after `dissentio."`,
-so the word-order experiment and Cicero's own commentary end up inside the same quotation. **Emending
-two punctuation marks to rescue one sentence was not worth it**; the excerpt ends at *Quaero nonne id
-numerus effecerit?* and the analysis carries the rest, the way the Cato joke is carried in the
-De Divinatione II.52 analysis.
+**ORATOR 213-215 AND THE MISPLACED QUOTATION MARK (revised the same day, at the user's prompting).**
+The excerpt first stopped at *Quaero nonne id numerus effecerit?*, leaving out the best line in the
+book - *"At eadem verba, eadem sententia." Animo istuc satis est, auribus non satis* - because TLL
+opens a quotation before `Comprobavit` and does not close it until after `dissentio."`, fourteen words
+later, so that **Cicero's own commentary ends up inside the specimen he is quoting**. That first call
+was too cautious. The correction is not in doubt - Wilkins' OCT and the Loeb both close the quotation
+after *temeritas* - and it is one quotation mark, which is squarely the manifest-punctuation-defect
+case that `emend` covers (*navem. suam*, Verr. II.1.46; the full stop for a comma at Att. I.18).
+- **`emend: [['temeritas, iam nihil erit', 'temeritas", iam nihil erit'], ['a quo dissentio."', 'a quo dissentio.']]`**
+- verify.js reports the fragment as `(2 emended)` and still proves every other character verbatim.
+- **The lesson: when the defect is one character and the right reading is unanimous, emend it and
+  extend the excerpt. Do not truncate a passage to route around punctuation.**
+Also inside this excerpt: *quem Aristoteles ut optimum probat* has **no masculine antecedent in the
+sentence** - *quem* points at the metrical foot and the reader supplies *paeana*. That is looseness in
+the Latin, all real words, so it is kept and flagged, not emended.
 
 **A CORRELATIVE TO WATCH IN BRUTUS 1.** *et amico amisso **cum** consuetudine iucunda **tum** multorum
 officiorum coniunctione me privatum videbam* is a *cum ... tum* correlative, "both ... and", not a

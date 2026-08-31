@@ -100,14 +100,33 @@ the whole app**.
 ### Notes on the source
 - **Second use of `fix` to delete a bracketed chapter numeral** (`[VI]` at De Orat. I.20), after
   De Opt. Gen. 13-14 established it in v1.10.1.
-- **Orator 213-214 deliberately stops at *Quaero nonne id numerus effecerit?***, because TLL's
-  rendering of the next sentence puts the closing quotation mark in the wrong place - the quote opens
-  at *"Comprobavit fili temeritas* and does not close until after *dissentio."*. Rather than emend two
-  punctuation marks, the excerpt ends before it and the analysis carries the rest.
+- ~~**Orator 213-214 deliberately stops at *Quaero nonne id numerus effecerit?***~~ **SUPERSEDED the
+  same day - see the follow-up above.** The misplaced quotation mark was emended after all and the
+  excerpt now runs through section 215.
 - **No emendations, no mojibake.** All three pages are pure ASCII.
 
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
+
+### Follow-up (same day, no version bump) - Orator 213-214 becomes 213-215
+The user asked why the best line in the book was being left outside the excerpt, and was right to.
+**It is now inside it.** TLL opens a quotation before *Comprobavit* and does not close it until after
+*dissentio*, which swallows Cicero's own commentary into the specimen he is quoting; the quotation is
+only the re-ordered specimen, and Wilkins' OCT and the Loeb both print it that way. **Two `emend`
+pairs move the single quotation mark**: `temeritas, iam nihil erit` -> `temeritas", iam nihil erit`
+and `a quo dissentio."` -> `a quo dissentio.` This is the same class of manifest punctuation defect as
+*navem. suam* at Verr. II.1.46 and the full stop for a comma at Att. I.18.
+
+The excerpt now runs to the end of section 215 and carries the exchange it was previously only quoting
+in the analysis: ***"At eadem verba, eadem sententia." Animo istuc satis est, auribus non satis.***
+It also now contains the word-order experiment itself and the aside in which Cicero notes that
+*temeritas* is the fourth paean, **the foot Aristotle recommends**, and says he disagrees. Both
+translations were rewritten to cover the longer passage, and the analysis says plainly that the effect
+is unreproducible in English or Italian, since it belongs entirely to Latin word order. Citation
+`(Orator 213-214)` -> `(Orator 213-215)`; the fragment keeps its `1.10.2` tag.
+
+Verification: **214 verbatim, 0 mismatched** (the fragment reports `2 emended`); `lint_translations.js`
+**341 checked, 3 to look at**, unchanged. Cache-bust: `?v=114` -> `?v=115`.
 
 ## [1.10.1] - 2026-08-31
 

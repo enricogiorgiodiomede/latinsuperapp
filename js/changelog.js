@@ -27,7 +27,8 @@
         changed: [
           'The rhetorical section is complete: De Oratore 8, Brutus 5, Orator 5, De Optimo Genere Oratorum 3, Topica 2. With it, Cicero is done, and he is by a long way the largest thing in the app - 213 excerpts, more than a third of the whole collection, across 38 separate works from the Verrines of 70 BC to the Philippics.',
           'The new excerpts tie the two halves of Cicero together. De Oratore now has both its claim that the orator must know everything and the two laws of history that follow from it, alongside the famous line about history as the teacher of life already here. Brutus opens and closes on the death of Hortensius, who is an author here in his own right. Orator now carries both the Platonic form of the perfect speaker and the passage where Cicero admits nobody has ever been one.',
-          'Next in this app is the rest of Caesar\'s Age: Caesar himself, Hirtius, Lucretius, Sallust and Catullus.'
+          'Next in this app is the rest of Caesar\'s Age: Caesar himself, Hirtius, Lucretius, Sallust and Catullus.',
+          'One excerpt was extended a few hours after release, on a reader\'s question. The Orator passage about the crowd roaring at a rhythm stopped just short of the best line in the book - Cicero raising the obvious objection against himself and answering it: but it is the same words and the same sense; that is enough for the mind, not enough for the ears. It had been left out because the site the Latin comes from puts a closing quotation mark in the wrong place, fourteen words too late, so that Cicero\'s own commentary ends up inside the sentence he is quoting. The mark has now been moved to where every printed edition puts it, the correction is noted on the page, and the excerpt runs to the end of the exchange.'
         ],
         deleted: [
           'Nothing was deleted.'
@@ -47,7 +48,8 @@
         changed: [
           'La sezione retorica è completa: De Oratore 8, Brutus 5, Orator 5, De Optimo Genere Oratorum 3, Topica 2. Con essa Cicerone è concluso, ed è di gran lunga la cosa più grande dell’app: 213 brani, più di un terzo dell’intera raccolta, su 38 opere distinte, dalle Verrine del 70 a.C. alle Filippiche.',
           'I nuovi brani legano fra loro le due metà di Cicerone. Il De Oratore ha ora sia la tesi che l’oratore debba sapere tutto sia le due leggi della storia che ne discendono, accanto alla celebre frase sulla storia maestra di vita già presente. Il Brutus si apre e si chiude sulla morte di Ortensio, che qui è autore a pieno titolo. L’Orator porta ora sia la forma platonica dell’oratore perfetto sia il passo in cui Cicerone ammette che nessuno lo è mai stato.',
-          'Il prossimo passo di questa app è il resto dell’età di Cesare: Cesare stesso, Irzio, Lucrezio, Sallustio e Catullo.'
+          'Il prossimo passo di questa app è il resto dell’età di Cesare: Cesare stesso, Irzio, Lucrezio, Sallustio e Catullo.',
+          'Un brano è stato esteso poche ore dopo l’uscita, su domanda di un lettore. Il passo dell’Orator sulla folla che ruggisce per un ritmo si fermava un attimo prima della battuta migliore del libro: Cicerone che si fa da solo l’obiezione ovvia e le risponde, cioè che sono le stesse parole e lo stesso senso, e che questo basta alla mente ma non alle orecchie. Era rimasta fuori perché il sito da cui viene il latino mette una virgoletta di chiusura nel posto sbagliato, quattordici parole più in là, sicché il commento di Cicerone finisce dentro la frase che sta citando. Ora la virgoletta è stata spostata dove la mettono tutte le edizioni a stampa, la correzione è segnalata nella pagina, e il brano arriva fino alla fine dello scambio.'
         ],
         deleted: [
           'Non è stato eliminato nulla.'
