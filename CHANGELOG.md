@@ -108,6 +108,44 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.10.3] - TBD
+
+**TOPICA 2 -> 5, AND CICERO IS DONE, +3.** The user's call: De Optimo Genere Oratorum stays at 3
+because it is a genuinely short pamphlet, while the Topica runs to a hundred sections and can carry
+five. Rhetorical **26 across 5 works**; **Cicero 216 across 38 works** (Speeches 116 / Letters 26 /
+Philosophical 48 / Rhetorical 26); bank **376**.
+
+### Added
+- **Topica 26-27** what a definition is, and the split the book rests on: things that *are*, which can
+  be seen and touched (*fundum aedes, parietem stillicidium, mancipium pecudem, supellectilem penus* -
+  all of them categories Roman law actually litigated, and *stillicidium* one of the oldest servitudes)
+  against things *quarum nullum subest corpus* - *usus capio*, *tutela*, *gens*, *agnatio*. Ends on
+  ***quam notionem voco***, Cicero coining *notio*. Cross-links to **De Natura Deorum I.18** and
+  **Tusculanae III.24** for the same habit, and to **Orator 8-9** for the same stamping metaphor
+  (*conformatio insignita et impressa*).
+- **Topica 73** the *artis expers* proofs - Aristotle's *atechnos* - and ***testimonium ... omne quod
+  ab aliqua re externa sumitur ad faciendam fidem***, the same *fidem facere* as **Topica 7-8**. Then
+  the anatomy of authority, closing on ***non recte fortasse, sed vulgi opinio mutari vix potest*** and
+  *qui enim rebus his quas dixi excellunt, ipsa virtute videntur excellere*.
+- **Topica 100** the last paragraph of the book and of Cicero's rhetorical writing: ***rutis caesis
+  receptis*** and ***mancipio dare***, conveyancing terms aimed squarely at the jurist Trebatius. The
+  two ends of the same joke, with **Topica 1-5**.
+
+### Notes on the source
+- **The Topica mojibake was mapped section by section before anything was picked**, as the reference
+  sheet said it would have to be. Of 100 sections, **17 are damaged** - 6, 12, 24, 30, 31, 35, 38, 42,
+  45, 48, 49, 55, 56, 79, 83, 93, 95 - each because it contains a Greek term the page cannot set.
+  **The clean runs are 1-5, 7-11, 13-23, 25-29, 32-34, 36-37, 39-41, 43-44, 46-47, 50-54, 57-78,
+  80-82, 84-92, 94, 96-100.** All three new excerpts sit well inside clean runs.
+- **Section 26 opens on a defective word**: TLL prints *quos eui* for *quos exposui*, the same
+  dropped-letters corruption as *euissem* for *exposuissem* in section 2. The extract simply starts
+  after it, at *Et primum de ipsa definitione dicatur*, so nothing had to be emended.
+- **No emendations in this release.**
+
+Verification: **217 verbatim, 0 mismatched**; `lint_translations.js` **344 checked, 3 to look at**
+(the same three documented in the tool's header). Accuracy pass over both pre-existing Topica
+fragments found nothing to change. Cache-bust: `?v=115` -> `?v=116`.
+
 ### Follow-up (same day, no version bump) - Orator 213-214 becomes 213-215
 The user asked why the best line in the book was being left outside the excerpt, and was right to.
 **It is now inside it.** TLL opens a quotation before *Comprobavit* and does not close it until after

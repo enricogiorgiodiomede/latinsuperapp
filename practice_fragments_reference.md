@@ -937,6 +937,42 @@ the opposite conclusion (ND II.95) and DRN VI on the magnet (Div. I.86); **Caesa
 both appear in Div. II.52; **Tusculanae III.24** is the parallel for Cicero coining Latin philosophical
 vocabulary inside a parenthesis (ND I.18, *Pronoeam, quam Latine licet Providentiam dicere*).
 
+**TOPICA 2 -> 5 - v1.10.3, 01/09/2026. CICERO IS DONE AT 216 ACROSS 38 WORKS.** The user's call:
+De Optimo Genere Oratorum stays at 3 because it is a genuinely short pamphlet, while the Topica runs
+to a hundred sections and can carry five.
+- spec entries, all verified verbatim, no emendations:
+  - `"top.26": ["topica", "Et primum de ipsa definitione dicatur.", "quam notionem voco."]`, prefix `[26] `
+  - `"top.73": ["topica", "Haec ergo argumentatio, quae dicitur artis expers", "ipsa virtute videntur excellere."]`, prefix `[73] `
+  - `"top.100": ["topica", "Nam ne praeterirem aliquid", "non debita accedere."]`, prefix `[100] `
+
+**THE TOPICA MOJIBAKE MAP - done at last, and worth keeping.** The v1.10.1 note said that if Topica
+were ever expanded the damage would have to be mapped first. It has been. **17 of the 100 sections are
+damaged: 6, 12, 24, 30, 31, 35, 38, 42, 45, 48, 49, 55, 56, 79, 83, 93, 95.** Every one of them carries
+a Greek technical term the page cannot set (*dialektikón*, *suzug¤a*, *ét\x9axnouw*, *eýdh*, *¶nnoian*,
+*§tumolog¤an*, *sÊmbolon*, *§pagvgó*, *Íperboló*, *sterhtikã*, *épofatikå*, *§nyÊmhma*, *Ípòyesin*
+and the rest). **The clean runs are: 1-5, 7-11, 13-23, 25-29, 32-34, 36-37, 39-41, 43-44, 46-47,
+50-54, 57-78, 80-82, 84-92, 94, 96-100.** The map is cheap to regenerate - flatten the cached page,
+walk the `[n]` markers, and bucket every non-ASCII byte by the section it falls in.
+
+**A SECOND CORRUPTION ON THAT PAGE, UNRELATED TO THE GREEK.** TLL drops letters from *exposui*: section
+2 prints ***euissem*** for *exposuissem* and section 26 prints ***quos eui*** for *quos exposui*. Both
+are plain non-words and would qualify for `emend` under the standing rule, but neither was needed -
+the Topica 1-5 extract stops before section 2's, and the Topica 26-27 extract simply **starts after**
+section 26's, at *Et primum*. **Check for it if any further Topica passage is taken.**
+
+**CROSS-LINKS.** **Topica 1-5 and 100 are the two ends of the same joke** - the book exists because
+Trebatius asked, and it signs off in his own conveyancing vocabulary (*rutis caesis receptis*,
+*mancipio dare*). **Topica 73 repeats the *fidem facere* of Topica 7-8**, which is the tell that this
+is a book about persuasion and not about validity. **Topica 26-27's *quam notionem voco*** belongs with
+**De Natura Deorum I.18** (*providentia* for *pronoea*) and **Tusculanae III.24** (*perturbatio* for
+*pathos*) as Cicero minting abstract vocabulary in an aside, and its *conformatio insignita et impressa*
+is the same die-and-impression metaphor as **Orator 8-9**.
+
+**CICERO IS CLOSED.** 216 across 38 works: Speeches 116/19, Letters 26/4, Philosophical 48/10,
+Rhetorical 26/5. If he is ever reopened, the leftovers are: the Tusculans past 5 (**restore the benched
+Archimedes tomb V.64-66 first** - recipe above); De Oratore II.216-235 and III.177-198; Brutus 191-193;
+Orator 234ff. In the Topica specifically, the big clean run 57-78 has plenty left in it.
+
 **DE ORATORE 5 -> 8, BRUTUS 3 -> 5, ORATOR 3 -> 5 - v1.10.2, 2026-08-31. THE RHETORICAL GROUP IS
 FINISHED AT 23 ACROSS 5, AND WITH IT CICERO IS COMPLETE AT 213 ACROSS 38 WORKS.**
 - spec entries, all verified verbatim:

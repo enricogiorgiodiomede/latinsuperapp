@@ -12,6 +12,43 @@
 
   var VERSIONS = [
     {
+      v: '1.10.3', date: 'TBD', time: 'TBC', tz: 'CEST',
+      en: {
+        added: [
+          'Three more excerpts for the Topica, which was the one rhetorical work left looking thin. De Optimo Genere Oratorum stays at 3 because it is a genuinely short pamphlet; the Topica is a hundred sections long and can carry five. Rhetorical works 26 across five texts; Cicero 216 across 38 works. This is the last Cicero update for a good while.',
+          'First, what a definition is, and the distinction the rest of the book rests on: some things exist and can be seen and touched - a farm, a house, a wall, the drip of rainwater off a roof, a slave, a beast, the furniture - and some things cannot be touched or pointed at at all, but can still be grasped by the mind. Usucapion. Guardianship. A clan. Kinship through the male line. Things with no body underneath them, which is to say most of what a legal system is made of. Cicero calls the mental shape of one of those a notion, and the word stuck: it is the ancestor of our "notion" (26-27).',
+          'Then the arguments you do not make but simply hand over - documents, contracts, people - and a short, cold analysis of where authority actually comes from. Nature gives it through virtue; circumstance gives it through talent, money, age, luck, skill, experience, necessity, and sometimes just a coincidence. People believe the clever, the rich and the old, says Cicero: perhaps wrongly, but the crowd\'s opinion can hardly be shifted, and judges steer by it like everyone else. The closing line explains exactly why it works - those who stand out in such things look as though they stood out in virtue itself (73).',
+          'And the last paragraph of the book, which is also the last paragraph of everything Cicero wrote about rhetoric. He signs off to his lawyer friend with a joke in the man\'s own technical vocabulary: when generous sellers hand over a house or a farm with the fixtures held back, they still leave the buyer something that looks well placed where it stands. So with what he owed Trebatius by formal conveyance, he says, he wanted to add some ornaments that were not owed (100).'
+        ],
+        changed: [
+          'Cicero is finished at 216 excerpts across 38 works, and will now be left alone for a good while: Speeches 116, Letters 26, Philosophical works 48, Rhetorical works 26. He runs from the Verrines of 70 BC to the last sentence of the Topica, and he is well over a third of everything in this app.',
+          'The Topica now has five excerpts covering the shape of the whole book: how it came to be written, what a "place" and an argument are, what a definition is, how proof from outside the case works, and the closing joke. The first and the last are the two ends of the same conversation with Trebatius.',
+          'A note on how these three were chosen. The page this Latin comes from cannot set Greek, and mangles every Greek word in the book - so before picking anything, all hundred sections were checked and the damaged ones mapped: seventeen of them are unusable without repair, and the other eighty-three are clean. All three new excerpts sit well inside clean stretches. One of them also starts a sentence late, because the sentence before it contains a word the site has dropped letters from.',
+          'Next in this app: the rest of Caesar\'s Age - Caesar himself, Hirtius, Lucretius, Sallust and Catullus.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Tre brani in più per i Topica, che erano l’unica opera retorica rimasta un po’ magra. Il De Optimo Genere Oratorum resta a 3 perché è davvero un opuscolo breve; i Topica sono lunghi cento paragrafi e ne reggono cinque. Opere retoriche 26 su cinque testi; Cicerone 216 su 38 opere. Questo è l’ultimo aggiornamento su Cicerone per un bel pezzo.',
+          'Prima, che cosa sia una definizione, e la distinzione su cui poggia tutto il resto del libro: certe cose esistono e si possono vedere e toccare - un fondo, una casa, un muro, lo stillicidio dell’acqua dal tetto, uno schiavo, una bestia, la suppellettile - e certe altre non si possono toccare né indicare affatto, eppure si possono afferrare con la mente. L’usucapione. La tutela. La gente. La parentela per linea maschile. Cose sotto le quali non c’è alcun corpo, cioè quasi tutto ciò di cui è fatto un ordinamento giuridico. Cicerone chiama nozione la figura mentale di una di esse, e la parola è rimasta (26-27).',
+          'Poi gli argomenti che non si costruiscono ma si consegnano e basta - documenti, contratti, persone - e una breve, fredda analisi di dove venga davvero l’autorevolezza. La natura la dà attraverso la virtù; la circostanza attraverso l’ingegno, il denaro, l’età, la fortuna, la competenza, l’esperienza, la necessità e talvolta un puro caso. Si crede agli ingegnosi, ai ricchi e ai vecchi, dice Cicerone: forse a torto, ma l’opinione del volgo si smuove a fatica, e i giudici si regolano su di essa come tutti gli altri. L’ultima frase spiega esattamente perché funzioni: chi spicca in quelle cose sembra spiccare nella virtù stessa (73).',
+          'E l’ultimo paragrafo del libro, che è anche l’ultimo di tutto ciò che Cicerone scrisse sulla retorica. Si congeda dall’amico giurista con una battuta nel lessico tecnico di lui: quando i venditori generosi consegnano una casa o un fondo con riserva degli infissi, lasciano comunque al compratore qualcosa che sembri messa bene dov’è. Così, dice, a ciò che a Trebazio doveva per mancipazione ha voluto aggiungere qualche ornamento che non era dovuto (100).'
+        ],
+        changed: [
+          'Cicerone è concluso a 216 brani su 38 opere, e da ora sarà lasciato in pace per un bel pezzo: Orazioni 116, Lettere 26, Opere filosofiche 48, Opere retoriche 26. Va dalle Verrine del 70 a.C. all’ultima frase dei Topica, ed è ben più di un terzo di tutto ciò che questa app contiene.',
+          'I Topica hanno ora cinque brani che coprono la forma dell’intero libro: come nacque, che cosa siano un "luogo" e un argomento, che cosa sia una definizione, come funzioni la prova che viene da fuori della causa, e la battuta finale. Il primo e l’ultimo sono i due capi della stessa conversazione con Trebazio.',
+          'Una nota su come sono stati scelti questi tre. La pagina da cui viene questo latino non riesce a comporre il greco e storpia ogni parola greca del libro: perciò, prima di scegliere alcunché, sono stati controllati tutti e cento i paragrafi e mappati quelli danneggiati - diciassette sono inutilizzabili senza riparazioni, gli altri ottantatré sono puliti. Tutti e tre i nuovi brani stanno ben dentro tratti puliti. Uno di essi comincia inoltre una frase più avanti, perché quella precedente contiene una parola a cui il sito ha mangiato delle lettere.',
+          'Prossimo passo di questa app: il resto dell’età di Cesare, cioè Cesare stesso, Irzio, Lucrezio, Sallustio e Catullo.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.10.2', date: '2026-08-31', time: '22:28', tz: 'CEST',
       en: {
         added: [
