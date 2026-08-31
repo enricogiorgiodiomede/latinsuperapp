@@ -63,6 +63,15 @@ works**; bank **350**. De Fato sits in PHIL_ORDER straight after De Divinatione,
 Verification: **191 verbatim, 0 mismatched**; `lint_translations.js` **318 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=109` -> `?v=110`.
 
+### Follow-up (same day, no version bump) - the correlative in Somnium VI.15
+The user caught it: the Latin *Quare **et** tibi, Publi, **et** piis omnibus* is a correlative, and the
+English had it right as "**both** you, Publius, **and** all dutiful men", but the Italian rendered it
+*e tu ... e tutti*, which is a calque of the Latin rather than Italian - a bare *e* after *Perciò*
+reads as a stray conjunction. Now *sia tu, Publio, sia tutti gli uomini pii*. **The whole bank was
+swept for the same shape** (a lone *e* opening a correlative after a connective) and this was the only
+occurrence. No Latin touched, no version tag moved; the fragment stays `1.9.4`. Cache-bust: `?v=110` ->
+`?v=111`.
+
 ## [1.9.3] - 2026-08-30
 
 **THE PHILOSOPHICAL GROUP IS FINISHED, +8.** Paradoxa Stoicorum 2 (new work), De Amicitia 5 -> 8,
