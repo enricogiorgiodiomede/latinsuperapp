@@ -108,7 +108,7 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
-## [1.10.3] - TBD
+## [1.10.3] - 2026-09-01
 
 **TOPICA 2 -> 5, AND CICERO IS DONE, +3.** The user's call: De Optimo Genere Oratorum stays at 3
 because it is a genuinely short pamphlet, while the Topica runs to a hundred sections and can carry

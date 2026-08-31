@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.10.3', date: 'TBD', time: 'TBC', tz: 'CEST',
+      v: '1.10.3', date: '2026-09-01', time: '00:31', tz: 'CEST',
       en: {
         added: [
           'Three more excerpts for the Topica, which was the one rhetorical work left looking thin. De Optimo Genere Oratorum stays at 3 because it is a genuinely short pamphlet; the Topica is a hundred sections long and can carry five. Rhetorical works 26 across five texts; Cicero 216 across 38 works. This is the last Cicero update for a good while.',
