@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.9.4', date: '2026-08-30', time: '18:19', tz: 'CEST',
+      v: '1.9.4', date: '2026-08-31', time: '18:19', tz: 'CEST',
       en: {
         added: [
           'A last pass over the philosophical works before the rhetorical ones begin: one more excerpt each for On the Commonwealth, the Dream of Scipio and the Stoic Paradoxes, and one new text. The section now holds 48 excerpts across 10 works, and it is finished.',

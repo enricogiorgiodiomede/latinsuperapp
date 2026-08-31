@@ -6,7 +6,7 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
-## [1.9.4] - 2026-08-30
+## [1.9.4] - 2026-08-31
 
 **THE PHILOSOPHICAL GROUP IS CLOSED, +6.** De Fato 3 (new work), De Re Publica 4 -> 5, Somnium
 Scipionis 4 -> 5, Paradoxa Stoicorum 2 -> 3. Philosophical **10 works / 48**; Cicero **190 across 33
