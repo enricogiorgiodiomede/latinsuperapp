@@ -63,6 +63,66 @@ works**; bank **350**. De Fato sits in PHIL_ORDER straight after De Divinatione,
 Verification: **191 verbatim, 0 mismatched**; `lint_translations.js` **318 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=109` -> `?v=110`.
 
+## [1.10.0] - 2026-08-31
+
+**THE RHETORICAL GROUP GOES LIVE, +11.** De Oratore 5, Brutus 3, Orator 3 - three new works, and the
+last of Cicero's four categories to be filled. Rhetorical **11 across 3 works**; Cicero **201 across
+36 works** (Speeches 116 / Letters 26 / Philosophical 48 / **Rhetorical 11**); bank **361**.
+All three works were already mapped in `sources.json` and pinned in `RHET_ORDER`; only the work
+objects were missing, which is why the category has been invisible since v1.5.0 created it.
+
+### Added - De Oratore (55 BC, dialogue set in 91)
+- **I.32-33** *hoc enim uno praestamus vel maxime feris* - speech as the human differentia, then the
+  culture-hero question: what else could have gathered the scattered, led them out of the wild and
+  laid down ***leges, iudicia, iura***? The foundation text of the *studia humanitatis*.
+- **I.150** ***Stilus optimus et praestantissimus dicendi effector ac magister***, with the
+  parenthesis that gives it away - *est enim magni laboris, quem plerique fugimus*. Quintilian's
+  *Institutio* X is an expansion of this paragraph.
+- **II.35-36** ***Historia vero testis temporum, lux veritatis, vita memoriae, magistra vitae, nuntia
+  vetustatis*** - **and it is a question, not a statement**, whose subject is *commendatur*, and whose
+  point is that history belongs to the orator. Six *quis* questions in 35 build the run-up.
+- **II.236** the ancient theory of laughter: *turpitudine et deformitate*, saved by *non turpiter* -
+  the joke points at something shameful without being shameful. Then five verbs of damage in
+  asyndeton. Cross-links to **Pro Caelio**.
+- **III.213** ***Actio, inquam, in dicendo una dominatur***, Demosthenes' first/second/third, and the
+  Aeschines anecdote ending ***quanto magis miraremini, si audissetis ipsum!***
+
+### Added - Brutus (46 BC)
+- **65** ***Catonem vero quis nostrorum oratorum ... legit?*** and the count: *amplius centum
+  quinquaginta* speeches Cicero says he found and read. **Not one survives.** Cross-links to
+  **Cato the Elder**, an app author, and to **De Senectute**.
+- **262** ***nudi enim sunt, recti et venusti, omni ornatu orationis tamquam veste detracta*** - the
+  verdict on **Caesar's** *commentarii*, which this app carries, written while Caesar was dictator.
+  The *calamistris inurere* joke is Cicero's standing metaphor for overdressed prose.
+- **316** Cicero on his own training with **Molon of Rhodes**, the river metaphor sustained across
+  *redundantis / supra fluentis / extra ripas diffluentis*, and ***prope mutatus***.
+
+### Added - Orator (46 BC)
+- **69** ***ut probet, ut delectet, ut flectat***, and the mapping of the three *officia* onto the
+  three *genera dicendi*. Augustine takes the triad into *De Doctrina Christiana* IV.
+- **100-101** ***Nemo is, inquies, umquam fuit. Ne fuerit.*** - the Platonic *idea* of the orator,
+  and a joke at the expense of the Antonius of **De Oratore**, who said he never existed.
+- **120** ***Nescire autem quid ante quam natus sis acciderit, id est semper esse puerum***, restored
+  to its context: item three on a professional syllabus, after civil law, and advertising **Atticus'**
+  lost *Liber Annalis*.
+
+### Notes on the source
+- **All five rhetorical pages are pure ASCII** - no mojibake anywhere, unlike `paradoxa`.
+- **`oratore1`-`oratore3` bracket BOTH numerals** (`[LVI] [213]`), so both are strippable and spans
+  are free. **`brut`** brackets its arabic sections. **`orator` does not bracket its roman chapter
+  numerals** (`XXI.`, `XXIX.`), which are therefore NOT strippable: `or.69` and `or.100` both start
+  immediately after one, and no Orator fragment may cross a chapter break.
+- **Two emendations, both declared.** *Vt* -> *Ut* (I.33), the capital-V-for-u convention already met
+  in ad Brutum; and *deformitate - quadam continetur* -> *deformitate quadam continetur* (II.236),
+  where a stray dash separates a noun from its adjective. The two other dashes in that sentence are a
+  genuine parenthesis and are kept.
+- **`sources.json` key `brutus` is shared by two authors** - Hortensius' single fragment IS a passage
+  of Cicero's Brutus (§6) - and `verify.js` prints a NOTE saying so. The new Cicero fragments are
+  §§65, 262 and 316, so there is no overlap with it.
+
+Verification: **202 verbatim, 0 mismatched**; `lint_translations.js` **329 checked, 3 to look at**
+(the same three documented in the tool's header). Cache-bust: `?v=111` -> `?v=112`.
+
 ### Follow-up (same day, no version bump) - the correlative in Somnium VI.15
 The user caught it: the Latin *Quare **et** tibi, Publi, **et** piis omnibus* is a correlative, and the
 English had it right as "**both** you, Publius, **and** all dutiful men", but the Italian rendered it

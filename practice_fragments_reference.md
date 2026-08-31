@@ -937,6 +937,61 @@ the opposite conclusion (ND II.95) and DRN VI on the magnet (Div. I.86); **Caesa
 both appear in Div. II.52; **Tusculanae III.24** is the parallel for Cicero coining Latin philosophical
 vocabulary inside a parenthesis (ND I.18, *Pronoeam, quam Latine licet Providentiam dicere*).
 
+**THE RHETORICAL GROUP - DE ORATORE 5, BRUTUS 3, ORATOR 3 - v1.10.0, 2026-08-31.** All three works
+were already in `sources.json` and in `RHET_ORDER`; only the work objects were missing, which is why
+the category had been invisible since v1.5.0 built the chooser. `create_works.js` made all three at
+once.
+- spec entries, all verified verbatim:
+  - `"do.1.32"` prefix `[32] `, **emend `[['Vt vero iam','Ut vero iam']]`**
+  - `"do.1.150"` prefix `[150] ` · `"do.2.35"` prefix `[35] `
+  - `"do.2.236"` prefix `[236] `, **emend `[['deformitate - quadam continetur','deformitate quadam continetur']]`**
+  - `"do.3.213"` prefix `[213] `
+  - `"br.65"`, `"br.262"`, `"br.316"` - single sections, prefixes `[65] `, `[262] `, `[316] `
+  - `"or.69"` prefix `[69] ` · `"or.100"` prefix `[100] ` (spans into 101) · `"or.120"` prefix `[120] `
+
+**MARKER STYLES: `orator` IS THE ONE TO WATCH.** `oratore1`-`oratore3` bracket **both** numerals -
+`[LVI] [213]` - and `normalise()` strips both, so a De Oratore fragment may span sections and even
+chapters freely. `brut` brackets its arabic sections and has no roman ones in the way. **`orator`
+prints its chapter numerals UNBRACKETED with a period** (`XXI. [69]`, `XXIX. Sed inventus`), and those
+are not strippable, exactly like De Senectute's `VI.`. **`or.69` and `or.100` both begin immediately
+after a chapter numeral for this reason**, and no Orator fragment may cross one. This is now the
+fourth distinct marker regime in the project; the full rule is in the plan file's STATUS header.
+
+**ALL FIVE RHETORICAL PAGES ARE PURE ASCII.** No Greek, no mojibake, nothing to route around - a
+pleasant change from `paradoxa` and the letters. `optgen` and `topica` were checked at the same time
+and are equally clean, so v1.10.1 should be straightforward.
+
+**TWO EMENDATIONS, BOTH DECLARED.**
+- **I.33 *Vt* -> *Ut***: The Latin Library sets initial u as capital V on this page as it does in ad
+  Brutum, where the same normalisation was made for *Vtinam* -> *Utinam* in v1.8.2. Same treatment.
+- **II.236 *deformitate - quadam continetur* -> *deformitate quadam continetur***: a stray dash sitting
+  between a noun and the adjective agreeing with it. **The two other dashes in that sentence are a real
+  parenthesis** (*- nam id proxime quaeritur -*) and are kept. Do not "fix" those.
+
+**THE `brutus` KEY IS SHARED, AND THAT IS DELIBERATE.** `sources.json` maps one `brutus` entry to
+`cicero/brut`, and both Hortensius and Cicero have a work with that id, because **Hortensius' single
+fragment IS a passage of Cicero's Brutus** (§6, cited `(Cicero, Brutus 6)`). `verify.js` prints a NOTE
+about the sharing on every run - that line is expected, not a warning. The new Cicero fragments are
+§§65, 262 and 316, so nothing overlaps; **if Brutus is ever expanded, do not take §6.**
+
+**CROSS-LINKS BUILT INTO THIS BATCH, and there are more than usual.** **Brutus 65 judges Cato the
+Elder** and **Brutus 262 judges Caesar**, both app authors, so both verdicts can be checked against
+the actual excerpts (De Agri Cultura; De Bello Gallico VI.13). **De Oratore II.36 and Orator 120 are
+the grand and the working version of the same claim about history**, nine years apart, and should be
+read as a pair. **Orator 69 and Orator 100-101** are the long and the compressed statement of the
+three *genera dicendi*. **Orator 100-101 answers the character Antonius of De Oratore**, who had
+insisted the perfect orator never existed. **Brutus 316 is Cicero taking the advice of De Oratore
+I.150.** Outside Cicero: **Quintilian** *Inst.* X on I.150, **Augustine** *De Doctrina Christiana* IV
+on Orator 69, **Pro Caelio** on II.236, and **Sallust** on II.35-36.
+
+**STILL TO BUILD IN THIS GROUP:** De Optimo Genere Oratorum 3 and Topica 2 (v1.10.1), then De Oratore
+5 -> 8, Brutus 3 -> 5, Orator 3 -> 5 (v1.10.2, **rhetorical finished at 23 across 5**). Candidates
+worth remembering for the top-ups: **De Oratore I.16-20** (the orator must know everything),
+**II.216-235** (the rest of the wit programme, and the five questions Strabo sets), **III.177-198**
+(prose rhythm); **Brutus 1-9** (the death of Hortensius, but §6 belongs to Hortensius), **Brutus
+191-193**; **Orator 8-10** (Phidias and the Platonic form, referred to in the note on 100-101),
+**Orator 234ff** (the clausula).
+
 **DE FATO (3, NEW WORK) + DE RE PUBLICA 4 -> 5, SOMNIUM 4 -> 5, PARADOXA 2 -> 3 - v1.9.4,
 2026-08-30. THE PHILOSOPHICAL GROUP IS CLOSED AT 48 ACROSS 10 WORKS.** `de-fato` had to be added to
 `sources.json` (`cicero/fato`) and to `PHIL_ORDER` in `reorder_works.js`, straight after
