@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.11.2', date: '01/09/2026', time: 'TBC', tz: 'CEST',
+      v: '1.11.2', date: '01/09/2026', time: '22:36', tz: 'CEST',
       en: {
         added: [
           'Ten new excerpts from the Gallic War: six from Book I and four from Book II. Caesar had three in the whole app before today.',
