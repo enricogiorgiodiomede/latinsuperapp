@@ -44,6 +44,23 @@
   "de-optimo-genere": ["cicero/optgen"],
   "topica": ["cicero/topica"],
 
+  "_caesar": "CAESAR AND HIRTIUS, added v1.11.0. All four works print BRACKETED chapter numbers [n], so spans are free and no marker `fix` is needed. The Gallic War pages ALSO carry bare-digit SUBSECTION numbers inside each chapter ([13] 1 In omni Gallia ... 2 Plerique ...); the app prints those as bolded **1.** and normalise() strips both shapes. Work ids are deliberately distinct between the two authors: Caesar has bg-i..bg-vii, Hirtius has bellum-gallicum-viii, because sources.json is keyed by WORK ID and is shared across authors - a collision would silently give one of them the wrong page list.",
+
+  "bg-i": ["caesar/gallic/gall1"],
+  "bg-ii": ["caesar/gallic/gall2"],
+  "bg-iii": ["caesar/gallic/gall3"],
+  "bg-iv": ["caesar/gallic/gall4"],
+  "bg-v": ["caesar/gallic/gall5"],
+  "bg-vi": ["caesar/gallic/gall6"],
+  "bg-vii": ["caesar/gallic/gall7"],
+
+  "bc-i": ["caesar/civil/bc1"],
+  "bc-ii": ["caesar/civil/bc2"],
+  "bc-iii": ["caesar/civil/bc3"],
+
+  "bellum-gallicum-viii": ["caesar/gallic/gall8"],
+  "bellum-alexandrinum": ["caesar/incerti/alex"],
+
   "_notLive": {
     "_comment": "Nothing is waiting here right now: the four letter collections that used to sit in this block went live in v1.8.0 and are listed above. Keep the block for the next sourced-but-unused page, and keep the notes below. NOTE: cicero/adbrutum is only a table of contents - the letters themselves are on adbrutum1 and adbrutum2. CORRECTION (v1.7.5): this file used to claim the Verrines actio prima is not on TLL. It is - the slug is cicero/ver1, not verres.1, and the Divinatio is cicero/caecilium. All seven parts are live and are now listed above; the authoritative index is cicero/ver.shtml. Beware: ver1 prints 18 CHAPTER numbers as [1]-[18], not the 56 sections modern editions use, so cite that one by chapter."
   }

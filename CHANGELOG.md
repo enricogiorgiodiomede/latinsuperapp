@@ -108,6 +108,56 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.11.0] - TBD
+
+**CAESAR AND HIRTIUS GO STRUCTURAL. No new excerpts.** The scaffolding for a 109-excerpt campaign,
+and the first time either author has been verified at all. Bank unchanged at **376**; `verify.js`
+**217 -> 223 verbatim, 0 mismatched** - the six that rise are the six that had never been checked.
+
+### Added
+- **`tools/sources.json`: 12 new entries** - `bg-i`..`bg-vii` (`caesar/gallic/gall1-7`), `bc-i`..`bc-iii`
+  (`caesar/civil/bc1-3`), `bellum-gallicum-viii` (`gall8`), `bellum-alexandrinum` (`caesar/incerti/alex`).
+  All 12 pages fetched; cache basenames collide with nothing.
+- **Caesar: `needsSelection` + two top-level groups** (`bellum-gallicum`, `bellum-civile`) holding ten
+  book-works, on the v1.7.5 Verrines pattern. **Hirtius: `needsSelection`, no groups**, two flat works,
+  on the Plautus pattern.
+
+### Changed
+- **`tools/apply_batch.js` and `tools/create_works.js` take `--author=<slug>`**, defaulting to
+  `marcus-tullius-cicero`. Both were hardcoded to `AUTHORS['marcus-tullius-cicero']` and **could not
+  touch Caesar or Hirtius at all** - `apply_batch` would have thrown `no work bg-vi`.
+- **All six launch-era fragments re-extracted verbatim and migrated by citation**, tags untouched at
+  `1.0.0`. **Three were wrong**, having been hand-typed from `caesar_era_draft.md` rather than
+  extracted, and unverifiable because neither author was in `sources.json` (`verify.js:74` skips
+  silently). The faults: **BC I.7** capitalised *Nulla* where the source prints *nulla*; the **DBG VIII
+  praefatio** carried an invented `[Praefatio]` marker *and* invented `1`/`2` subsection numbers; and
+  **BA 1** had dropped the crux `+aptantur+`. BG VI.13, VI.14 and BA 2 were already clean.
+- **`(De Bello Alexandrino n)` -> `(Bellum Alexandrinum n)`**, the standard modern title.
+- **The daggers are now explained** in BA 1's analysis, in both languages, per the README's Ad Brutum
+  I.15 policy. *Bellum Alexandrinum* carries **thirteen cruces**, more than any page in the app.
+- `caesar-excerpts` and `corpus-caesarianum` removed. As accepted in v1.7.5, an external bookmark to
+  `&work=caesar-excerpts` now degrades to the empty state rather than throwing.
+
+### Notes on the source - a planning assumption that was wrong
+- **The Latin Library's Caesar pages print bracketed chapter numbers `[n]` and NOTHING else.** They
+  carry **no subsection numbering of any kind**. Planning reconnaissance had reported bare-digit
+  subsections (`[13] 1 In omni Gallia ... 2 Plerique ...`) on `gall6` and `gall8`; **that was false**,
+  and checking the raw HTML settled it - `[<a name="13">13</a>]  In omni Gallia eorum hominum,`.
+  A machine scan of all twelve pages finds **zero** bare-digit subsections.
+  **Consequences:** the two planned `normalise()` rules were **not needed and not written**, so the
+  one genuine loosening of the verifier in the plan never happened; the planned `subsections: true`
+  flag for `apply_batch.js` was **not needed and not written**; and the agreed bolded `**1.**` markers
+  have nothing to mark. The invented digits in the Hirtius praefatio were the only ones in the app,
+  and they are now gone.
+- **Spans are free across all twelve pages** - no marker `fix` needed anywhere, the friendliest source
+  regime this project has met.
+- **No mojibake on any of the twelve.** Cruces (`+...+`) exist: 13 in `alex`, 2 in `gall8`, 1 in `gall7`.
+- Chapter counts, all running 1..N with no gaps: **DBG** 54/35/29/38/58/44/90, **DBG VIII** 55,
+  **DBC** 87/44/112, **BA** 78. About 700 chapters in total.
+
+Verification: **223 verbatim, 0 mismatched**; `lint_translations.js` **344 checked, 3 to look at**
+(unchanged, the same known-good three). Cache-bust: `?v=117` -> `?v=118`.
+
 ## [1.10.3] - 2026-09-01
 
 **TOPICA 2 -> 5, AND CICERO IS DONE, +3.** The user's call: De Optimo Genere Oratorum stays at 3

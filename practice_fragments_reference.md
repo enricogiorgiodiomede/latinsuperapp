@@ -937,6 +937,72 @@ the opposite conclusion (ND II.95) and DRN VI on the magnet (Div. I.86); **Caesa
 both appear in Div. II.52; **Tusculanae III.24** is the parallel for Cicero coining Latin philosophical
 vocabulary inside a parenthesis (ND I.18, *Pronoeam, quam Latine licet Providentiam dicere*).
 
+# CAESAR AND HIRTIUS
+
+**THE CORPUS CAESARIANUM - structural release v1.11.0, 01/09/2026.** Scaffolding for a 109-excerpt
+campaign (target 115 across four works: DBG 40, DBC 30, DBG VIII 20, Bellum Alexandrinum 25). The plan
+lives in `~/.claude/plans/let-s-continue-with-caesar-s-snoopy-peacock.md`.
+
+**THE SOURCE PAGES ARE THE FRIENDLIEST THIS PROJECT HAS MET.** All twelve print **bracketed chapter
+numbers `[n]` and nothing else**. Spans are free; **no marker `fix` is ever needed**; chapters run
+1..N with no gaps; **no mojibake anywhere**.
+
+| Page | Slug | Chapters |
+|---|---|---|
+| DBG I-VII | `caesar/gallic/gall1` .. `gall7` | 54, 35, 29, 38, 58, 44, 90 |
+| DBG VIII (Hirtius) | `caesar/gallic/gall8` | 55 |
+| DBC I-III | `caesar/civil/bc1` .. `bc3` | 87, 44, 112 |
+| Bellum Alexandrinum | `caesar/incerti/alex` | 78 |
+
+**A PLANNING ASSUMPTION THAT WAS FALSE, recorded so nobody re-derives it.** Reconnaissance reported
+bare-digit subsections inside each chapter (`[13] 1 In omni Gallia ... 2 Plerique ...`) on `gall6` and
+`gall8`. **There are none.** The raw HTML reads `[<a name="13">13</a>]  In omni Gallia eorum hominum,`
+and a scan of all twelve pages finds zero. Two `normalise()` rules and an `apply_batch` flag were
+planned for this and **were not needed**. **Do not add a bare-digit rule to `normalise()`** - nothing
+in this corpus requires it, and it would be a real loosening of the verifier for no gain.
+
+**CRUCES.** `+...+` daggers mark readings no editor can restore. **`alex` has 13**, `gall8` 2, `gall7`
+1. Policy is the README's Ad Brutum I.15 one: **print them and explain them**, do not silently adopt a
+conjecture. `(Bellum Alexandrinum 1)` does this and its note can be copied. When picking BA passages,
+either avoid the daggered stretches or budget an explanation.
+
+**TOOLING CHANGED IN THIS RELEASE.**
+- **`apply_batch.js` and `create_works.js` take `--author=<slug>`**, defaulting to Cicero so every
+  older invocation is unaffected. Before this they were hardcoded to Cicero and **could not touch
+  Caesar or Hirtius at all**.
+- **`reorder_works.js` is still Cicero-only** (`GROUP_ORDER` plus four Cicero ORDER lists). **Do not
+  run it for Caesar or Hirtius** - it throws `unknown group`. Their works are created in the right
+  order and stay in insertion order.
+
+**STRUCTURE.**
+- **Caesar**: `needsSelection`, two top-level groups on the v1.7.5 Verrines pattern -
+  `bellum-gallicum` (`bg-i`..`bg-vii`) and `bellum-civile` (`bc-i`..`bc-iii`), labelled "Book I" /
+  "Libro I". **The split is not cosmetic**: `firstSection` sorts book-cited citations as
+  `book*100000+section*10` and flat ones as plain integers, so one mixed work would silently reorder.
+- **Hirtius**: `needsSelection`, **no groups**, Plautus pattern - `bellum-gallicum-viii` and
+  `bellum-alexandrinum`. **Ids deliberately distinct from Caesar's**: `sources.json` is keyed by work
+  id and shared across authors, so a shared `bellum-gallicum` would hand one of them the wrong pages.
+
+**THE SIX LAUNCH-ERA FRAGMENTS, and what was wrong with them.** Neither author was in `sources.json`,
+so `verify.js:74` had silently skipped all six since launch. They were hand-typed from
+`caesar_era_draft.md`, not extracted. Re-extracted and migrated in v1.11.0, tags kept at `1.0.0`:
+
+| Fragment | Was | Now |
+|---|---|---|
+| BG VI.13, VI.14 | clean | `bg-vi` |
+| BC I.7 | capitalised *Nulla* | *nulla*, as printed; `bc-i` |
+| BG VIII praef. | invented `[Praefatio]` marker **and** invented `1`/`2` subsection numbers | no marker at all, as the source has none; cited `(De Bello Gallico VIII, Praefatio)` |
+| BA 1 | dropped the crux `+aptantur+` | restored, daggers explained in both languages |
+| BA 2 | clean | `bellum-alexandrinum` |
+
+Citations changed from `(De Bello Alexandrino n)` to **`(Bellum Alexandrinum n)`**, the standard
+modern title.
+
+**CHAPTERS USED SO FAR** - keep this list current. `apply_batch`'s duplicate guard is an exact
+citation-string match within one work and **will not catch `VI.13` against `VI.13-14`**, so overlap is
+the real risk at this volume.
+- **BG VI**: 13, 14 · **BC I**: 7 · **DBG VIII**: praefatio · **BA**: 1, 2
+
 **TOPICA 2 -> 5 - v1.10.3, 01/09/2026. CICERO IS DONE AT 216 ACROSS 38 WORKS.** The user's call:
 De Optimo Genere Oratorum stays at 3 because it is a genuinely short pamphlet, while the Topica runs
 to a hundred sections and can carry five.

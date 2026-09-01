@@ -1,10 +1,12 @@
-// v1.10.1: the last two rhetorical works, and the group is complete at five.
-// De Optimo Genere Oratorum (46 BC) is the preface to a translation of the
-// Aeschines/Demosthenes crown speeches that may never have been finished, and
-// contains the non verbum pro verbo paragraph that founded translation theory.
-// Topica (44 BC) was written from memory on a sea voyage for the jurist
-// C. Trebatius Testa. Both were already mapped in sources.json and pinned in
-// RHET_ORDER; only the work objects were missing.
+// v1.11.0: CAESAR AND HIRTIUS. Caesar gets a nested chooser on the Verrines
+// pattern - two top-level groups (bellum-gallicum, bellum-civile) holding one
+// work per book - because apply_batch's firstSection sorts book-cited citations
+// as book*100000+section*10 and flat ones as plain integers, so mixing the two
+// wars in one work would silently reorder it. Hirtius gets two flat works on the
+// Plautus pattern, with ids deliberately distinct from Caesar's: sources.json is
+// keyed by WORK ID and shared across authors, so a shared `bellum-gallicum`
+// would hand one of them the wrong page list.
+// Run twice: once with --author=gaius-julius-caesar, once with --author=aulus-hirtius.
 // Works with no fragments are hidden by PracticeBank.works(), so a work created
 // here shows up only once apply_batch has filled it.
 const fs = require('fs');
@@ -12,8 +14,8 @@ const path = require('path');
 const P = path.join(__dirname, '..', 'js', 'fragments.js');
 
 const NEW = [
-  { id: 'de-optimo-genere', label: 'De Optimo Genere Oratorum', labelIt: 'De Optimo Genere Oratorum', group: 'rhetorical' },
-  { id: 'topica', label: 'Topica', labelIt: 'Topica', group: 'rhetorical' }
+  { id: 'bellum-gallicum-viii', label: 'De Bello Gallico VIII', labelIt: 'De Bello Gallico VIII' },
+  { id: 'bellum-alexandrinum', label: 'Bellum Alexandrinum', labelIt: 'Bellum Alexandrinum' }
 ];
 
 // Same guard as apply_batch.js: with git's core.autocrlf=true a checkout hands
@@ -31,7 +33,11 @@ const tail = src.slice(tailAt);
 global.window = {};
 eval(src);
 const AUTHORS = window.PracticeBank.authors;
-const cic = AUTHORS['marcus-tullius-cicero'];
+// --author=<slug>, defaulting to Cicero so older invocations are unaffected.
+const authorArg = process.argv.slice(2).filter(a => a.startsWith('--author='))[0];
+const AUTHOR = authorArg ? authorArg.slice('--author='.length) : 'marcus-tullius-cicero';
+const cic = AUTHORS[AUTHOR];
+if (!cic) throw new Error('no author ' + AUTHOR + ' in the bank');
 
 for (const meta of NEW) {
   if (cic.works.some(w => w.id === meta.id)) throw new Error('work already exists: ' + meta.id);
@@ -41,4 +47,4 @@ for (const meta of NEW) {
 }
 
 fs.writeFileSync(P, head + JSON.stringify(AUTHORS, null, 2) + ';' + tail);
-console.log('created: ' + NEW.map(n => n.id).join(', '));
+console.log('created for ' + AUTHOR + ': ' + NEW.map(n => n.id).join(', '));

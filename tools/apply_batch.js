@@ -15,8 +15,14 @@
 const fs = require('fs');
 const path = require('path');
 
-const [passagesFile, fragsFile, VERSION] = process.argv.slice(2);
-if (!passagesFile || !fragsFile || !VERSION) throw new Error('usage: apply_batch.js <passages.json> <frags.js> <version>');
+// --author=<slug> picks whose works array to write into. It defaults to Cicero,
+// so every invocation written before v1.11.0 keeps working unchanged; Caesar and
+// Hirtius need it, because until then this script could only ever see Cicero.
+const argv = process.argv.slice(2);
+const authorArg = argv.filter(a => a.startsWith('--author='))[0];
+const AUTHOR = authorArg ? authorArg.slice('--author='.length) : 'marcus-tullius-cicero';
+const [passagesFile, fragsFile, VERSION] = argv.filter(a => !a.startsWith('--'));
+if (!passagesFile || !fragsFile || !VERSION) throw new Error('usage: apply_batch.js <passages.json> <frags.js> <version> [--author=<slug>]');
 
 const REPO = path.join(__dirname, '..');
 const P = path.join(REPO, 'js/fragments.js');
@@ -41,7 +47,8 @@ const tail = src.slice(tailAt);
 global.window = {};
 eval(src);
 const AUTHORS = window.PracticeBank.authors;
-const cic = AUTHORS['marcus-tullius-cicero'];
+const cic = AUTHORS[AUTHOR];
+if (!cic) throw new Error('no author ' + AUTHOR + ' in the bank');
 
 function pieceOf(key) {
   const t = passages[key];
@@ -134,7 +141,7 @@ touched.forEach(id => {
 });
 
 fs.writeFileSync(P, head + JSON.stringify(AUTHORS, null, 2) + ';' + tail);
-console.log('written (version ' + VERSION + '). Touched works:');
+console.log('written (version ' + VERSION + ', author ' + AUTHOR + '). Touched works:');
 touched.forEach(id => {
   const w = cic.works.filter(w => w.id === id)[0];
   console.log('  ' + w.id + ' (' + w.fragments.length + '): ' +

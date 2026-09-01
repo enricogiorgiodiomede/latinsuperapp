@@ -12,6 +12,43 @@
 
   var VERSIONS = [
     {
+      v: '1.11.0', date: 'TBD', time: 'TBC', tz: 'CEST',
+      en: {
+        added: [
+          'Caesar and Hirtius are opened up. No new excerpts yet - this release is the scaffolding for the next twelve, and the first time either author has been checked against his source at all.',
+          'Caesar now has a two-level chooser, like Cicero\'s Verrines: first the Gallic War or the Civil War, then the book. Ten books are in place, waiting to be filled. Hirtius has a simpler one: De Bello Gallico VIII and the Bellum Alexandrinum side by side.',
+          'All twelve source texts are now downloaded and mapped - the seven books of the Gallic War, the three of the Civil War, Hirtius\'s eighth book, and the Alexandrian War. That is roughly 700 chapters of Latin available to draw on.'
+        ],
+        changed: [
+          'The six excerpts these two authors already had have been checked against the original for the first time, and three of them were wrong. They were typed out by hand when the app was built, from a working draft rather than from the source, and nobody had ever been able to check them, because neither author was connected to the checker. All six have been replaced with text taken straight from the source.',
+          'The Civil War excerpt had a capital letter the source does not have. The preface to Gallic War VIII had two invented numbers in it, and a section marker that does not exist on the page. And the first excerpt of the Alexandrian War had quietly dropped a pair of daggers.',
+          'Those daggers are worth explaining, and the excerpt now does. They are an editor\'s way of saying "the manuscripts give this word, and it cannot be right, and nobody can fix it". The Alexandrian War has thirteen of them, more than any other text in this app, which tells you something about how roughly it survived. The app prints them rather than silently choosing somebody\'s guess.',
+          'The Alexandrian War excerpts are now cited under that name rather than De Bello Alexandrino, which is the title modern editions use.',
+          'Behind the scenes, the tool that adds excerpts could only ever work on Cicero - it had his name written into it. It now takes any author, which is what made all of the above possible.'
+        ],
+        deleted: [
+          'Nothing was deleted. The two old catch-all containers that held these six excerpts are gone, but every excerpt moved into its proper book.'
+        ]
+      },
+      it: {
+        added: [
+          'Cesare e Irzio vengono aperti. Ancora nessun brano nuovo: questa uscita è l’impalcatura per le dodici successive, ed è la prima volta che l’uno o l’altro autore venga confrontato con la propria fonte.',
+          'Cesare ha ora un menu a due livelli, come le Verrine di Cicerone: prima la guerra gallica o la guerra civile, poi il libro. I dieci libri sono pronti, in attesa di essere riempiti. Irzio ne ha uno più semplice: De Bello Gallico VIII e Bellum Alexandrinum affiancati.',
+          'Tutti e dodici i testi di riferimento sono ora scaricati e mappati: i sette libri della guerra gallica, i tre della guerra civile, l’ottavo libro di Irzio e la guerra alessandrina. Sono circa settecento capitoli di latino a disposizione.'
+        ],
+        changed: [
+          'I sei brani che questi due autori già avevano sono stati confrontati con l’originale per la prima volta, e tre erano sbagliati. Erano stati trascritti a mano quando l’app fu costruita, da una bozza di lavoro e non dalla fonte, e nessuno aveva mai potuto controllarli, perché nessuno dei due autori era collegato al controllo. Tutti e sei sono stati sostituiti con il testo preso direttamente dalla fonte.',
+          'Il brano della guerra civile aveva una maiuscola che la fonte non ha. La prefazione all’ottavo libro della guerra gallica conteneva due numeri inventati e un segno di paragrafo che sulla pagina non esiste. E il primo brano della guerra alessandrina aveva perso per strada una coppia di croci.',
+          'Quelle croci meritano una spiegazione, e ora il brano la dà. Sono il modo in cui un editore dice "i manoscritti danno questa parola, non può essere giusta, e nessuno sa correggerla". Il Bellum Alexandrinum ne ha tredici, più di ogni altro testo dell’app, il che dice qualcosa su quanto malamente sia sopravvissuto. L’app le stampa invece di scegliere in silenzio la congettura di qualcuno.',
+          'I brani della guerra alessandrina sono ora citati con quel nome invece che come De Bello Alexandrino, che è il titolo usato dalle edizioni moderne.',
+          'Dietro le quinte, lo strumento che aggiunge i brani poteva funzionare soltanto su Cicerone: aveva il suo nome scritto dentro. Ora accetta qualsiasi autore, ed è ciò che ha reso possibile tutto il resto.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla. I due vecchi contenitori generici che ospitavano questi sei brani sono spariti, ma ogni brano è passato nel proprio libro.'
+        ]
+      }
+    },
+    {
       v: '1.10.3', date: '2026-09-01', time: '00:31', tz: 'CEST',
       en: {
         added: [
