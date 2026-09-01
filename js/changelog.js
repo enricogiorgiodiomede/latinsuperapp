@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.11.0', date: '01/09/2026', time: 'TBC', tz: 'CEST',
+      v: '1.11.0', date: '01/09/2026', time: '18:55', tz: 'CEST',
       en: {
         added: [
           'Caesar\'s and Hirtius\'s excerpts now carry the small bold numbers that mark the subsections inside each chapter - the ones a textbook means when it cites "Gallic War 6.13.4". The Latin Library prints the chapter number and nothing else, so these come from a numbered edition and are supplied by the app, exactly as the chapter numbers in square brackets already were. The preface to Gallic War VIII turns out to have seven of them.',
