@@ -12,6 +12,35 @@
 
   var VERSIONS = [
     {
+      v: '1.11.1', date: '2026-09-01', time: '19:05', tz: 'CEST',
+      en: {
+        added: [
+          'Nothing was added. This is a one-line repair to a display fault on two Italian pages.'
+        ],
+        changed: [
+          'On the Italian pages for Pacuvius and Accius, and for Pomponius and Novius, the biography opened with a line of stray asterisks and the words "ricostruzione immaginaria" - the caption belonging to a portrait, printed as text instead of sitting under the picture. The second author of each pair carried the same line further down.',
+          'The app strips those captions out before it draws the page, but it only knew the English wording, "imaginary reconstruction". It now recognises the Italian one too, and both captions disappear from both entries.',
+          'Only these two pages were affected, and only in Italian. They are the two entries covering a pair of authors, so they carry two portraits each; on the single-portrait pages the caption was already being caught by the rule that removes the picture itself.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Non è stato aggiunto nulla. Questa è una correzione di una riga a un difetto di visualizzazione su due pagine italiane.'
+        ],
+        changed: [
+          'Nelle pagine italiane di Pacuvio e Accio, e di Pomponio e Novio, la biografia si apriva con una riga di asterischi sparsi e le parole "ricostruzione immaginaria": la didascalia di un ritratto, stampata come testo invece di stare sotto l’immagine. Il secondo autore di ciascuna coppia portava la stessa riga più in basso.',
+          'L’app toglie quelle didascalie prima di disegnare la pagina, ma conosceva soltanto la dicitura inglese, "imaginary reconstruction". Ora riconosce anche quella italiana, ed entrambe le didascalie spariscono da entrambe le voci.',
+          'Erano interessate solo queste due pagine, e solo in italiano. Sono le due voci che trattano una coppia di autori, quindi portano due ritratti ciascuna; nelle pagine con un solo ritratto la didascalia veniva già intercettata dalla regola che elimina l’immagine stessa.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.11.0', date: '01/09/2026', time: '19:07', tz: 'CEST',
       en: {
         added: [

@@ -163,12 +163,15 @@
   // Remove embedded image lines and their caption lines so the renderer never
   // sees them. Captions appear as either "*Name *(imaginary reconstruction)**"
   // (Archaic) or "*Name (imaginary reconstruction)*" (Caesar); match both.
+  // The Italian drafts write the caption as "(ricostruzione immaginaria)", so
+  // that wording has to be matched too, or it renders as visible garbage on the
+  // paired-author entries (the ones carrying a second portrait each).
   function cleanBody(text) {
     return text
       .split('\n')
       .filter(function (line) {
         if (/^\s*!\[.*\]\(.*\)\s*$/.test(line)) return false; // image
-        if (/^\s*\*+.*\(imaginary reconstruction\)\*+\s*$/.test(line)) return false; // caption
+        if (/^\s*\*+.*\((?:imaginary reconstruction|ricostruzione immaginaria)\)\*+\s*$/.test(line)) return false; // caption
         return true;
       })
       .join('\n')

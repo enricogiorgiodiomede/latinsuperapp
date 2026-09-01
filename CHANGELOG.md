@@ -108,6 +108,43 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.11.1] - 2026-09-01
+
+**ONE REGEX. The Italian portrait captions on the two paired-author entries.** No excerpts, no content.
+Bank unchanged at **376**; `verify.js` **223 verbatim, 0 mismatched**.
+
+### Added
+- Nothing.
+
+### Changed
+- **`js/data.js` `cleanBody`: the caption filter now matches both wordings.**
+  `/\(imaginary reconstruction\)/` -> `/\((?:imaginary reconstruction|ricostruzione immaginaria)\)/`.
+  `cleanBody` drops embedded image lines and the portrait-caption line that follows each one, before
+  the markdown renderer ever sees them. It only ever knew the English caption, so the Italian drafts'
+  `(ricostruzione immaginaria)` survived into `js/content-it.js` and rendered as a line of loose
+  asterisks at the top of the biography.
+- **Two entries fixed, four caption lines, Italian only:** `marcus-pacuvius-and-lucius-accius` and
+  `pomponius-bononiensis-and-quintus-novius`, two captions each. These are the only two paired-author
+  entries in the app, and the only ones with two portraits; on a single-portrait entry the caption
+  line is adjacent to the image line and was already being removed with it. This is the fault recorded
+  as KNOWN, NOT FIXED in `PROGRESS.md` under v1.10.2.
+- The comment above `cleanBody` now records why the second wording is there.
+
+### Deleted
+- Nothing.
+
+### Verification
+- `verify.js` **223 verbatim, 0 mismatched** (unchanged - no Latin was touched).
+- `lint_translations.js` **344 checked, 3 to look at** (the same three documented in the tool's header).
+- `lint_markdown.js` **2002 lines with emphasis checked, 0 leaking a literal asterisk**.
+- In the browser, on `localhost`, a sweep over every author of every available era in both languages
+  (`LatinData.getEra` -> intro + all authors, every string field walked) returns **0 hits** for
+  `imaginary reconstruction`, `ricostruzione immaginaria` or a surviving `![`. Before the fix the
+  Italian sweep returned the four caption lines. Both repaired pages were also read in the DOM: no
+  element contains the caption text, and the biography now opens on **Marco Pacuvio** / **Lucio
+  Pomponio Bononiense** directly.
+- Cache-bust: `?v=120` -> `?v=121`.
+
 ## [1.11.0] - 2026-09-01
 
 **CAESAR AND HIRTIUS GO STRUCTURAL. No new excerpts.** The scaffolding for a 109-excerpt campaign,
