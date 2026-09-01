@@ -12,6 +12,35 @@
 
   var VERSIONS = [
     {
+      v: '1.11.3', date: 'TBD', time: 'TBC', tz: 'CEST',
+      en: {
+        added: [
+          'Two notes on the Nervii excerpt about what the Gallic War actually was. The chapter records a people brought almost to extinction - sixty thousand fighting men reduced to five hundred - and the striking thing is that you can read that sentence without the ground moving. That is the achievement of the book, and the note names it as one: Caesar never announces a decision to conquer Gaul, every war in the seven books arrives as a response to somebody else, and the killing always turns up as the consequence of a choice made by the other side. Cato proposed in the Senate that Caesar be handed over to the Germans for attacking them during a truce, and was voted down; at the end of this same book the Senate voted the longest public thanksgiving ever granted to anyone.',
+          'A note on courage, on both sides. The Roman wounded prop themselves on their shields and start again, the unarmed camp servants charge armed men, the cavalry come back to wipe out the disgrace of running; the Nervii climb onto the corpses of their own front rank in order to keep throwing. One word covers both. But the two are caused differently: Roman courage in these books is switched back on by an arrival, while Gallic courage needs no trigger and simply is.',
+          'A note on the same theme in the excerpt where Caesar takes a shield off a man in the back rank. No reserve arrives; the text says flatly there was none. All that arrives is Caesar, and the enemy charge slows. Each man wants to do his utmost *in the sight of his commander*, and in his own final extremity - four Latin words carrying a whole military philosophy.'
+        ],
+        changed: [
+          'In the excerpt where the army starts sealing its wills, the English and Italian now name Caesar in the opening clause instead of opening on a bare "he". The Latin verb is singular and its subject is Caesar, carried over from the end of the previous chapter, while the army appears later as the object; but the excerpt began cold on a pronoun with nothing to attach it to, which is a fault this app tries not to commit. The analysis now explains the grammar, because the whole chapter turns on it: one man is held up on supply business, and everybody around him falls apart.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Due note al brano sui Nervi su che cosa sia stata davvero la guerra gallica. Il capitolo registra un popolo ridotto quasi all\'estinzione - sessantamila uomini in armi ridotti a cinquecento - e la cosa impressionante è che si può leggere quella frase senza che il terreno si muova. È questa l\'impresa del libro, e la nota la chiama impresa: Cesare non annuncia mai la decisione di conquistare la Gallia, ogni guerra dei sette libri arriva come risposta a qualcun altro, e la strage compare sempre come conseguenza di una scelta altrui. Catone propose in Senato che Cesare fosse consegnato ai Germani per averli attaccati durante una tregua, e fu messo in minoranza; alla fine di questo stesso libro il Senato votò il più lungo ringraziamento pubblico mai concesso a chiunque.',
+          'Una nota sul coraggio, da entrambe le parti. I feriti romani si puntellano sugli scudi e ricominciano, gli attendenti disarmati caricano uomini armati, i cavalieri tornano a cancellare l\'onta della fuga; i Nervi salgono sui cadaveri della propria prima fila per continuare a lanciare. Una sola parola copre entrambi. Ma i due valori vengono innescati in modo diverso: in questi libri il coraggio romano viene riacceso da un arrivo, mentre quello gallico non ha bisogno di alcun innesco e semplicemente c\'è.',
+          'Una nota sullo stesso tema nel brano in cui Cesare toglie lo scudo a un soldato delle ultime file. Nessuna riserva arriva: il testo dice seccamente che non ce n\'erano. L\'unica cosa che arriva è Cesare, e l\'assalto nemico rallenta. Ciascuno vuole dare il meglio *sotto gli occhi del comandante*, e nella propria estrema rovina: quattro parole latine che portano un\'intera filosofia militare.'
+        ],
+        changed: [
+          'Nel brano in cui l\'esercito comincia a sigillare testamenti, l\'inglese e l\'italiano nominano ora Cesare nella proposizione d\'apertura invece di aprirsi su un pronome sottinteso. Il verbo latino è singolare e il suo soggetto è Cesare, ripreso dalla fine del capitolo precedente, mentre l\'esercito compare dopo come oggetto; ma il brano cominciava di colpo su un pronome senza nulla a cui agganciarlo, ed è un difetto che questa app cerca di non commettere. L\'analisi ora spiega la grammatica, perché è su quella che gira tutto il capitolo: un uomo solo è trattenuto da questioni di rifornimento, e tutti intorno a lui vanno in pezzi.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.11.2', date: '01/09/2026', time: '19:36', tz: 'CEST',
       en: {
         added: [
