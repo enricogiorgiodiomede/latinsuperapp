@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.11.0', date: '01/09/2026', time: 'TBC', tz: 'CEST',
+      v: '1.11.0', date: '01/09/2026', time: '19:07', tz: 'CEST',
       en: {
         added: [
           'Those subsection numbers now run through the translations as well, so section 4 of the Latin sits opposite section 4 of the English and section 4 of the Italian. If a translation ever drifts from the Latin, this is what makes it show.',
