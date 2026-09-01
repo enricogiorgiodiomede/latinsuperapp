@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.11.0', date: 'TBD', time: 'TBC', tz: 'CEST',
+      v: '1.11.0', date: '01/09/2026', time: '18:20', tz: 'CEST',
       en: {
         added: [
           'Caesar and Hirtius are opened up. No new excerpts yet - this release is the scaffolding for the next twelve, and the first time either author has been checked against his source at all.',

@@ -108,7 +108,7 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
-## [1.11.0] - TBD
+## [1.11.0] - 2026-09-01
 
 **CAESAR AND HIRTIUS GO STRUCTURAL. No new excerpts.** The scaffolding for a 109-excerpt campaign,
 and the first time either author has been verified at all. Bank unchanged at **376**; `verify.js`
