@@ -108,7 +108,7 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
-## [1.11.2] - TBD
+## [1.11.2] - 2026-09-01
 
 **THE FIRST DE BELLO GALLICO CONTENT BATCH: Book I (6) and Book II (4).** Bank **376 -> 386**;
 `verify.js` **223 -> 233 verbatim, 0 mismatched**, a rise of exactly ten. Caesar goes from 3 excerpts
