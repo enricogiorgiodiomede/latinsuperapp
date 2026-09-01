@@ -1003,6 +1003,61 @@ citation-string match within one work and **will not catch `VI.13` against `VI.1
 the real risk at this volume.
 - **BG VI**: 13, 14 · **BC I**: 7 · **DBG VIII**: praefatio · **BA**: 1, 2
 
+**SUBSECTIONS: THE SOURCE HAS NONE, SO THE APP SUPPLIES THEM.** Agreed with the user and shipped in
+the v1.11.0 follow-up. Every Caesar/Hirtius excerpt carries the standard editorial subsection numbers
+in bold, `**n.**`, after the chapter marker:
+
+> `[13] **1.** In omni Gallia ... **2.** Plerique ...`
+
+Bold so they cannot be read as numerals inside the sentence; `**1.**` contains no italic, so it does
+not trip the nested-emphasis bug. `normalise()` strips `\*\*\d+\.\*\*` - the plan's rule A, and
+zero-risk, since a pair of asterisks cannot occur in Latin and the marker is always the app's own.
+**Rule B, the bare-digit rule, was never written and is not needed** (see above).
+
+**WHERE THE BOUNDARIES COME FROM.** Never from memory, and never from the Latin Library, which does
+not print them. The Latin itself is still the Latin Library's and is still what `verify.js` checks;
+the numbered editions are consulted only for the position of a boundary.
+
+| Work | Tool | Source | Precision |
+|---|---|---|---|
+| Bellum Gallicum I-VIII (preface = `8.0`) | `tools/fetch_sections.js phi0448.phi001 <b.c>` | Perseus CTS | word-exact |
+| Bellum Civile I-III | `tools/fetch_sections.js phi0448.phi002 <b.c>` | Perseus CTS | word-exact |
+| **Bellum Alexandrinum** | `tools/fetch_sections_phi.js 428 <page>` | PHI / Packard, author 428 | **line, not word** |
+
+**Perseus does not carry the Bellum Alexandrinum.** PHI does, but its citation column marks the LINE a
+section begins on, so the exact word has to be read off the printed line - usually the first after a
+sentence end, but **not always**: BAlex 1.5 begins mid-sentence at *illud spectans primum*, after
+*... ab reliqua parte urbis excluderet,*. For the campaign's remaining 23 BA excerpts, expect to write
+the anchors by hand and check each one against the printed line.
+
+**`tools/mark_sections.js`** does the insertion from a spec (`batch/marks1110.json` is the worked
+example). It matches on a folded word stream - lowercase, u/v and i/j together, punctuation and
+daggers dropped - so the two editions need to agree only on wording, and it uses **the shortest
+prefix of each anchor that occurs exactly once**. That last part is what carries it over a variant:
+Perseus opens BC I.7.4 `Pompeium, qui amissa restituisse videatur bona`, the Latin Library
+`... videatur, dona`, and a six-word anchor matches nothing. **Zero matches, or still ambiguous at
+full length, is a hard error - the tool never picks between candidates.** Sections an excerpt stops
+short of must be dropped with an explicit `range` (the Gallic War VIII preface is `"range": "1-7"` of
+nine), because silently ignoring an unmatched anchor would be the same guess.
+
+**SUBSECTION COUNTS ALREADY MARKED:** BG VI.13 = 12 · BG VI.14 = 6 · BC I.7 = 8 · DBG VIII praef. = 7
+(of 9; the excerpt ends at 7, hence the restored citation `Praefatio 1-7`) · BA 1 = 5 · BA 2 = 5.
+
+**THE HAND-WRITTEN BELLUM ALEXANDRINUM ANCHORS**, recorded so they can be re-checked without
+re-reading PHI:
+- **BA 1**: `Bello Alexandrino conflato` / `Interim munitiones cotidie` / `Nam incendio fere tuta` /
+  `Caesar maxime studebat` / `illud spectans primum`
+- **BA 2**: `Neque vero Alexandrinis` / `Nec minus in urbe` / `Hac multitudine disposita` /
+  `Omnibus viis atque angiportis` / `Praeterea alias ambulatorias`
+
+**A MARKDOWN BUG THAT HAS NOW SHIPPED TWICE, AND IS LINTED FROM HERE ON.** `js/markdown.js` matches
+bold with a pattern whose inner group forbids an asterisk, so **a bold span containing an italic one
+leaks literal asterisks onto the page**: `***De Bello Gallico*, Book VIII**` renders as
+`**<em>De Bello Gallico</em>, Book VIII**`, and the Italian shape `**Il *De Bello Gallico***` renders
+worse still, as `*<em>Il </em>De Bello Gallico***`. `***word***` is fine. Four such lines were live
+when the user reported the first. **Run `node tools/lint_markdown.js` in every release**, next to
+`verify.js` and `lint_translations.js`.
+
 **TOPICA 2 -> 5 - v1.10.3, 01/09/2026. CICERO IS DONE AT 216 ACROSS 38 WORKS.** The user's call:
 De Optimo Genere Oratorum stays at 3 because it is a genuinely short pamphlet, while the Topica runs
 to a hundred sections and can carry five.

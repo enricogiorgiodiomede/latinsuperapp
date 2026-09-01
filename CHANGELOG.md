@@ -155,8 +155,52 @@ and the first time either author has been verified at all. Bank unchanged at **3
 - Chapter counts, all running 1..N with no gaps: **DBG** 54/35/29/38/58/44/90, **DBG VIII** 55,
   **DBC** 87/44/112, **BA** 78. About 700 chapters in total.
 
-Verification: **223 verbatim, 0 mismatched**; `lint_translations.js` **344 checked, 3 to look at**
-(unchanged, the same known-good three). Cache-bust: `?v=117` -> `?v=118`.
+### Added, in a follow-up on the same day - the subsections, after all
+
+- **All six Caesar/Hirtius excerpts now carry the standard editorial SUBSECTION numbers**, bold, as
+  `**n.**`: `[13] **1.** In omni Gallia ... **2.** Plerique ...`. This is the shape agreed during
+  planning, and it survives the finding above - the numbers do not exist on the Latin Library page,
+  so **the app supplies them**, exactly as it already supplies the bracketed chapter markers. BG
+  VI.13 has 12, VI.14 has 6, BC I.7 has 8, the Gallic War VIII preface has 7, and each Alexandrian
+  War excerpt has 5.
+- **`tools/fetch_sections.js`** asks Perseus (CTS, `phi0448`) where a chapter's sections begin and
+  caches the answer. Perseus carries the *Bellum Gallicum* (the Book VIII preface is `8.0`) and the
+  *Bellum Civile*, and gives word-exact boundaries.
+- **`tools/fetch_sections_phi.js`** does the same job against PHI/Packard for the one work Perseus
+  does not carry, the *Bellum Alexandrinum* (PHI author 428). PHI marks the LINE a section starts
+  on rather than the word, so those two fragments' boundaries are written out by hand in
+  `batch/marks1110.json` and each is quoted in the reference sheet.
+- **`tools/mark_sections.js`** inserts the markers. It matches on a folded word stream (lowercase,
+  u/v and i/j together, punctuation dropped) so the numbered edition and the Latin Library do not
+  have to agree on spelling or pointing - only on wording - and it uses **the shortest prefix of
+  each anchor that occurs exactly once**, which is what carries it over a variant reading (Perseus
+  opens BC I.7.4 `Pompeium, qui amissa restituisse videatur bona`, the Latin Library `... videatur,
+  dona`). **An anchor that matches zero times, or stays ambiguous, is a hard error: the tool never
+  guesses.** A `range` field drops the sections an excerpt stops short of, so that too is explicit.
+- **`tools/lint_markdown.js`**, run in every release from now on. `js/markdown.js` matches bold with
+  a pattern whose inner group forbids an asterisk, so **a bold span containing an italic one leaks
+  its literal asterisks onto the page**. That has now shipped broken twice. The linter renders every
+  emphasis-bearing line of the drafts, their generated copies, the bank and the What's New exactly
+  as the app does, and fails if an asterisk survives. Currently **1990 lines checked, 0 leaking**.
+
+### Fixed in the same follow-up
+- **Four lines were leaking literal asterisks on the live author pages.** `caesar_era_draft.md:685`
+  (`***De Bello Gallico*, Book VIII**`, the one reported) and its Italian counterpart, plus
+  `**Il *De Bello Gallico***` and `**Il *De Bello Civili***` in the Italian draft, which rendered
+  far worse - `*<em>Il </em>De Bello Gallico***`. All four rewritten so the italic is not nested
+  inside the bold; `js/content.js` and `js/content-it.js` regenerated.
+- **`normalise()` (`tools/strip.js`) now strips `**n.**`.** This is rule A from the plan, the one
+  the plan itself scored as zero-risk: a pair of asterisks cannot occur in Latin, and the marker is
+  always the app's own because the source has none. Rule B, the bare-digit rule, remains unwritten
+  and unneeded. Proved harmless the way the plan asked: **223 verbatim / 0 mismatched both before
+  and after the change**, and again after the markers went in.
+- **`(De Bello Gallico VIII, Praefatio)` -> `(De Bello Gallico VIII, Praefatio 1-7)`.** The launch
+  citation named the range, and this release had dropped it as unverifiable; now that the sections
+  are marked it is checked, and correct - the excerpt ends at section 7 of nine.
+
+Verification: **223 verbatim, 0 mismatched** (unchanged by the markers); `lint_translations.js`
+**344 checked, 3 to look at** (unchanged, the same known-good three); `lint_markdown.js` **1990
+lines checked, 0 leaking**. Cache-bust: `?v=117` -> `?v=119`.
 
 ## [1.10.3] - 2026-09-01
 

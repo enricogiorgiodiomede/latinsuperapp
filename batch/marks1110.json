@@ -1,0 +1,24 @@
+{
+  "_comment": "v1.11.0 follow-up - supply the standard editorial SUBSECTION numbers as bold `**n.**` markers, the way the app already supplies the bracketed chapter numbers. The Latin Library prints no subsections at all, so the boundaries come from a numbered edition: Perseus (CTS, phi0448) for the Bellum Gallicum and the Bellum Civile, and PHI/Packard (author 428) for the Bellum Alexandrinum, which Perseus does not carry. Not one word of either edition is copied into the app; only the position of the boundaries is taken. The Bellum Alexandrinum anchors are written out by hand because PHI marks the LINE a section starts on, not the word - each one below was read off the printed line and is quoted in the reference sheet.",
+
+  "(De Bello Gallico VI.13)": { "author": "gaius-julius-caesar", "work": "bg-vi", "sections": "phi0448.phi001.6.13.json" },
+  "(De Bello Gallico VI.14)": { "author": "gaius-julius-caesar", "work": "bg-vi", "sections": "phi0448.phi001.6.14.json" },
+  "(De Bello Civili I.7)":    { "author": "gaius-julius-caesar", "work": "bc-i",  "sections": "phi0448.phi002.1.7.json" },
+
+  "(De Bello Gallico VIII, Praefatio)": { "author": "aulus-hirtius", "work": "bellum-gallicum-viii", "sections": "phi0448.phi001.8.0.json", "range": "1-7" },
+
+  "(Bellum Alexandrinum 1)": { "author": "aulus-hirtius", "work": "bellum-alexandrinum", "sections": [
+    "Bello Alexandrino conflato Caesar Rhodo",
+    "Interim munitiones cotidie operibus augentur",
+    "Nam incendio fere tuta est",
+    "Caesar maxime studebat ut quam",
+    "illud spectans primum ut cum"
+  ]},
+  "(Bellum Alexandrinum 2)": { "author": "aulus-hirtius", "work": "bellum-alexandrinum", "sections": [
+    "Neque vero Alexandrinis in gerendis",
+    "Nec minus in urbe maximae",
+    "Hac multitudine disposita munitiones",
+    "Omnibus viis atque angiportis triplicem",
+    "Praeterea alias ambulatorias totidem"
+  ]}
+}

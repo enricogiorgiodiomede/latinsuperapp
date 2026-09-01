@@ -45,6 +45,12 @@ function stripHtml(html) {
 function normalise(text) {
   return text
     .replace(/\s+/g, ' ')
+    // Caesar and Hirtius carry the standard editorial SUBSECTION numbers as
+    // `**1.**`, bold so they cannot be read as numerals in the sentence. The
+    // Latin Library prints no subsections at all, so this marker is always the
+    // app's own and never the source's. Nothing can be lost by removing it: a
+    // pair of asterisks cannot occur in Latin.
+    .replace(/\*\*\d+\.\*\*/g, ' ')
     .replace(/\[\d+\]/g, ' ')
     .replace(/\[[IVXLC]+\]/g, ' ')
     .replace(/\b\d+\. /g, ' ')
