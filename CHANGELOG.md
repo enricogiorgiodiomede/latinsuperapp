@@ -108,55 +108,6 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
-## [1.11.3] - 2026-09-01
-
-**PROOFREADING PASS ON v1.11.2. No new excerpts**; bank stays at **386** and `verify.js` at **233
-verbatim, 0 mismatched**. Three changes the user asked for after reading the new Book I and Book II
-material. Version tags untouched at `1.11.2` - `version` means first-added, never last-edited.
-
-### Fixed
-- **`(De Bello Gallico I.39)`: the translations named nobody.** They opened "While he lingered a few
-  days at Vesontio", and the pronoun had no antecedent inside the excerpt - the Ad Brutum I.15 fault.
-  Both now read "While Caesar lingered" / "Mentre Cesare indugiava".
-  **The reported alternative was checked and rejected:** the suggestion was that the implicit subject
-  might be the army, which would make the pronoun "it". It is not. *Moratur* is third person
-  **singular** and its subject is Caesar, carried over from the last sentence of chapter 38 (*Huc
-  Caesar magnis nocturnis diurnisque itineribus contendit*); the army arrives later and in the
-  accusative, as *omnem exercitum*, object of *occupavit*. "It" would have been a mistranslation - but
-  the ambiguity that prompted the question was real and is now gone.
-- A paragraph added to that fragment's analysis, in both languages, setting the grammar out, because
-  the chapter turns on exactly this point: one man is delayed on supply business and everyone around
-  him falls apart.
-
-### Added
-- **`(De Bello Gallico II.25)`, two paragraphs on the general and the army.** No reserve arrives -
-  section 1 says flatly there was none to send - no fresh troops, no better ground, no new orders
-  beyond opening the ranks. The one thing that arrives is Caesar, and the charge slows. The closing
-  clause *cum pro se quisque in conspectu imperatoris etiam in extremis suis rebus operam navare
-  cuperet* is read against the Tenth Legion of I.40, and *in conspectu imperatoris* is identified as
-  four words carrying a whole military philosophy: *virtus* as courage performed in public, before
-  witnesses whose opinion counts.
-- **`(De Bello Gallico II.27-28)`, courage on both sides.** The existing paragraph on who benefits
-  from praising a defeated enemy is now preceded by one setting the two sides against each other -
-  the Roman wounded on their shields, the unarmed camp servants, the cavalry redeeming their flight;
-  the Nervii on the corpses of their own front rank - and followed by the asymmetry in how the two
-  are caused: Roman valour is switched back on by an arrival (*horum adventu tanta rerum commutatio
-  est facta*, and Caesar himself at II.25), while Gallic valour needs no trigger.
-- **`(De Bello Gallico II.27-28)`, three paragraphs on what the Gallic War was.** *Prope ad
-  internecionem gente ac nomine Nerviorum redacto* is a killing rate above ninety-nine per cent, and
-  Plutarch's total for the eight years is a million killed and a million enslaved. The point of the
-  note is not the number but the framing: Caesar never announces a decision to conquer Gaul, every
-  war in the seven books arrives as a response to somebody else, and the killing always appears as
-  the consequence of a choice made by the other side. It worked on its first audience, which was the
-  Senate reading these dispatches as evidence. Cato proposed handing Caesar over to the Germans for
-  attacking them during a truce and was voted down; at the end of this same book the Senate decreed a
-  *supplicatio* of fifteen days, longer than any granted before, which Caesar records in one flat
-  sentence.
-
-Verification: **233 verbatim, 0 mismatched**; `lint_translations.js` **354 checked, 3 to look at**
-(the same known-good three); `lint_markdown.js` **2054 lines, 0 leaking**. Cache-bust: `?v=122` ->
-`?v=123`.
-
 ## [1.11.2] - 2026-09-01
 
 **THE FIRST DE BELLO GALLICO CONTENT BATCH: Book I (6) and Book II (4).** Bank **376 -> 386**;
@@ -209,6 +160,56 @@ Verification: **233 verbatim, 0 mismatched**; `lint_translations.js` **354 check
 (the same known-good three); `lint_markdown.js` **2054 lines, 0 leaking**. All three texts of all
 sixteen Caesar/Hirtius fragments machine-checked to carry the same chapter markers and the same
 subsection numbers in the same order. Cache-bust: `?v=120` -> `?v=121`.
+
+### Follow-up, same day: the proofreading pass
+
+**No new excerpts**; bank stays at **386** and `verify.js` at **233 verbatim, 0 mismatched**. Three
+changes the user asked for after reading the new Book I and Book II material. Version tags untouched -
+`version` means first-added, never last-edited.
+
+#### Fixed
+- **`(De Bello Gallico I.39)`: the translations named nobody.** They opened "While he lingered a few
+  days at Vesontio", and the pronoun had no antecedent inside the excerpt - the Ad Brutum I.15 fault.
+  Both now read "While Caesar lingered" / "Mentre Cesare indugiava".
+  **The reported alternative was checked and rejected:** the suggestion was that the implicit subject
+  might be the army, which would make the pronoun "it". It is not. *Moratur* is third person
+  **singular** and its subject is Caesar, carried over from the last sentence of chapter 38 (*Huc
+  Caesar magnis nocturnis diurnisque itineribus contendit*); the army arrives later and in the
+  accusative, as *omnem exercitum*, object of *occupavit*. "It" would have been a mistranslation - but
+  the ambiguity that prompted the question was real and is now gone.
+- A paragraph added to that fragment's analysis, in both languages, setting the grammar out, because
+  the chapter turns on exactly this point: one man is delayed on supply business and everyone around
+  him falls apart.
+
+#### Added
+- **`(De Bello Gallico II.25)`, two paragraphs on the general and the army.** No reserve arrives -
+  section 1 says flatly there was none to send - no fresh troops, no better ground, no new orders
+  beyond opening the ranks. The one thing that arrives is Caesar, and the charge slows. The closing
+  clause *cum pro se quisque in conspectu imperatoris etiam in extremis suis rebus operam navare
+  cuperet* is read against the Tenth Legion of I.40, and *in conspectu imperatoris* is identified as
+  four words carrying a whole military philosophy: *virtus* as courage performed in public, before
+  witnesses whose opinion counts.
+- **`(De Bello Gallico II.27-28)`, courage on both sides.** The existing paragraph on who benefits
+  from praising a defeated enemy is now preceded by one setting the two sides against each other -
+  the Roman wounded on their shields, the unarmed camp servants, the cavalry redeeming their flight;
+  the Nervii on the corpses of their own front rank - and followed by the asymmetry in how the two
+  are caused: Roman valour is switched back on by an arrival (*horum adventu tanta rerum commutatio
+  est facta*, and Caesar himself at II.25), while Gallic valour needs no trigger.
+- **`(De Bello Gallico II.27-28)`, three paragraphs on what the Gallic War was.** *Prope ad
+  internecionem gente ac nomine Nerviorum redacto* is a killing rate above ninety-nine per cent, and
+  Plutarch's total for the eight years is a million killed and a million enslaved. The point of the
+  note is not the number but the framing: Caesar never announces a decision to conquer Gaul, every
+  war in the seven books arrives as a response to somebody else, and the killing always appears as
+  the consequence of a choice made by the other side. It worked on its first audience, which was the
+  Senate reading these dispatches as evidence. Cato proposed handing Caesar over to the Germans for
+  attacking them during a truce and was voted down; at the end of this same book the Senate decreed a
+  *supplicatio* of fifteen days, longer than any granted before, which Caesar records in one flat
+  sentence.
+
+Verification after the follow-up: **233 verbatim, 0 mismatched**; `lint_translations.js` **354
+checked, 3 to look at** (the same known-good three); `lint_markdown.js` **2056 lines, 0 leaking**.
+Cache-bust for the follow-up: `?v=122` -> `?v=123`.
+
 ## [1.11.1] - 2026-09-01
 
 **ONE REGEX. The Italian portrait captions on the two paired-author entries.** No excerpts, no content.
