@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.11.1', date: '2026-09-01', time: '19:05', tz: 'CEST',
+      v: '1.11.1', date: '2026-09-01', time: '19:08', tz: 'CEST',
       en: {
         added: [
           'Nothing was added. This is a one-line repair to a display fault on two Italian pages.'
