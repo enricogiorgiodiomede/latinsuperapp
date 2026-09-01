@@ -146,6 +146,30 @@ Verification: **217 verbatim, 0 mismatched**; `lint_translations.js` **344 check
 (the same three documented in the tool's header). Accuracy pass over both pre-existing Topica
 fragments found nothing to change. Cache-bust: `?v=115` -> `?v=116`.
 
+### Follow-up (same day, no version bump) - Tiro and the shorthand
+Two paragraphs added to Cicero's author page at the user's request, one in the biography and one in
+Legacy and Impact, in **English and Italian**.
+
+- **Biography**: how he wrote that much that fast. **Marcus Tullius Tiro**, Cicero's slave, freed in
+  53 BC, ran the household's literary machinery and is credited with the ***notae Tironianae*** -
+  signs standing for whole words and endings rather than letters, which let a writer keep pace with a
+  speaking voice. Plutarch has Cicero stationing clerks trained in such signs around the Senate in
+  December 63 BC to take down Cato's speech, the earliest recorded use of shorthand at Rome. Cicero
+  dictated and Tiro wrote, which is what makes the output of 45-44 BC plausible at all. **Cross-links
+  to Ad Familiares XVI**, the file of letters to Tiro, of which the app already carries XVI.1 and
+  XVI.8.
+- **Legacy and Impact**: what became of the system. Expanded by later hands to some five thousand
+  signs (Isidore), the working script of the imperial chancery and then of Merovingian and Carolingian
+  scriptoria, dead after the eleventh century once scribes who could not read them began to suspect a
+  cipher. **Two fossils survive**: the word ***notarius***, which meant a shorthand writer before it
+  meant a man of law, and the **Tironian *et*, ⁊, still printed on Irish road signs** for *agus*.
+  Modern shorthand - Bright 1588, Willis 1602, Pitman 1837, Gregg 1888 - is stated as **invented
+  afresh rather than inherited**, which is the accurate claim.
+
+Both drafts were edited and both bundles regenerated: `node build_content.js` for the English
+`file://` fallback and `node build_content_it.js` for `js/content-it.js`. No excerpts touched, no
+Latin touched, no version tag moved. Cache-bust: `?v=116` -> `?v=117`.
+
 ### Follow-up (same day, no version bump) - Orator 213-214 becomes 213-215
 The user asked why the best line in the book was being left outside the excerpt, and was right to.
 **It is now inside it.** TLL opens a quotation before *Comprobavit* and does not close it until after
