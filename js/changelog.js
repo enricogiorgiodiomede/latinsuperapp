@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.11.3', date: 'TBD', time: 'TBC', tz: 'CEST',
+      v: '1.11.3', date: '01/09/2026', time: '22:29', tz: 'CEST',
       en: {
         added: [
           'Two notes on the Nervii excerpt about what the Gallic War actually was. The chapter records a people brought almost to extinction - sixty thousand fighting men reduced to five hundred - and the striking thing is that you can read that sentence without the ground moving. That is the achievement of the book, and the note names it as one: Caesar never announces a decision to conquer Gaul, every war in the seven books arrives as a response to somebody else, and the killing always turns up as the consequence of a choice made by the other side. Cato proposed in the Senate that Caesar be handed over to the Germans for attacking them during a truce, and was voted down; at the end of this same book the Senate voted the longest public thanksgiving ever granted to anyone.',

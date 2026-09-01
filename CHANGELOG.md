@@ -108,7 +108,7 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
-## [1.11.3] - TBD
+## [1.11.3] - 2026-09-01
 
 **PROOFREADING PASS ON v1.11.2. No new excerpts**; bank stays at **386** and `verify.js` at **233
 verbatim, 0 mismatched**. Three changes the user asked for after reading the new Book I and Book II
