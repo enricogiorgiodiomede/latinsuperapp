@@ -5,11 +5,18 @@
  *   node tools/mark_sections.js batch/marks.json          # preview
  *   node tools/mark_sections.js batch/marks.json --apply  # write js/fragments.js
  *
- * The spec is { "<citation>": { author, work, sections: <file|anchors> } }.
+ * The spec is { "<citation>": { author, work, sections, english, italian } }.
  * `sections` is either the basename of a tools/.cache/sections/*.json produced
  * by fetch_sections.js - in which case the boundaries are derived from Perseus
  * automatically - or an explicit array of anchor strings, for the one work
  * Perseus does not carry.
+ *
+ * `english` and `italian` are arrays of anchors into the two translations, one
+ * per section, in order, so the same numbers appear in all three texts and a
+ * reader can line section 4 of the Latin up against section 4 of the English.
+ * They have to be written by hand: only a person can say where a translation
+ * turns the corner that the Latin turns. Their length must match the number of
+ * sections being marked, and every anchor is located the same unforgiving way.
  *
  * Matching is on a normalised word stream (lowercase, u/v and i/j folded,
  * punctuation dropped), so an edition's spelling and pointing do not have to
@@ -25,20 +32,22 @@ const BANK = path.join(__dirname, '..', 'js', 'fragments.js');
 const HEAD = '  var AUTHORS = ';
 const TAIL = '\n\n  global.PracticeBank';
 
-// One word as the matcher sees it. Classical Latin was written without u/j, and
-// editions disagree about which to print, so fold them together; drop anything
-// that is not a letter, which takes care of pointing, daggers and brackets.
-function fold(word) {
-  return word.toLowerCase().replace(/[^a-z]/g, '').replace(/j/g, 'i').replace(/v/g, 'u');
+// One word as the matcher sees it. Anything that is not a letter goes, which
+// takes care of pointing, daggers, brackets and the apostrophes Italian is full
+// of. For Latin, u/j are folded onto v/i as well: the language was written
+// without them and editions disagree about which to print.
+function fold(word, latin) {
+  const base = word.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z]/g, '');
+  return latin ? base.replace(/j/g, 'i').replace(/v/g, 'u') : base;
 }
 
 // Split text into words, remembering where each one starts.
-function words(text) {
+function words(text, latin) {
   const out = [];
   const rx = /\S+/g;
   let m;
   while ((m = rx.exec(text))) {
-    const f = fold(m[0]);
+    const f = fold(m[0], latin);
     if (f) out.push({ at: m.index, f });
   }
   return out;
@@ -61,8 +70,8 @@ function hitsFor(stream, needle) {
 // `Pompeium, qui amissa restituisse videatur bona` in Perseus and `... videatur,
 // dona` here. A short anchor is safe because a second match is an error, not a
 // guess: this tool never picks between candidates.
-function locate(stream, anchor, label) {
-  const needle = words(anchor).map(w => w.f);
+function locate(stream, anchor, label, latin) {
+  const needle = words(anchor, latin).map(w => w.f);
   if (!needle.length) throw new Error(label + ': empty anchor');
   let hits = [];
   for (let len = Math.min(3, needle.length); len <= needle.length; len++) {
@@ -98,15 +107,15 @@ function anchorsFor(spec, label) {
   return kept;
 }
 
-function markUp(latin, marks, label) {
-  const stream = words(latin);
-  const points = marks.map(m => ({ n: m.n, at: locate(stream, m.anchor, label + ' §' + m.n) }));
+function markUp(text, marks, label, isLatin) {
+  const stream = words(text, isLatin);
+  const points = marks.map(m => ({ n: m.n, at: locate(stream, m.anchor, label + ' §' + m.n, isLatin) }));
   for (let i = 1; i < points.length; i++) {
     if (points[i].at <= points[i - 1].at) {
       throw new Error(label + ': §' + points[i].n + ' lands at or before §' + points[i - 1].n);
     }
   }
-  let out = latin;
+  let out = text;
   for (let i = points.length - 1; i >= 0; i--) {
     out = out.slice(0, points[i].at) + '**' + points[i].n + '.** ' + out.slice(points[i].at);
   }
@@ -132,14 +141,31 @@ function main() {
     if (!work) throw new Error(citation + ': no work ' + item.work);
     const frag = work.fragments.filter(f => f.citation === citation)[0];
     if (!frag) throw new Error('no fragment ' + citation + ' in ' + item.work);
-    if (/\*\*\d+\.\*\*/.test(frag.latin)) { console.log('SKIP ' + citation + ' - already marked'); continue; }
-
     const marks = anchorsFor(item, citation);
-    const marked = markUp(frag.latin, marks, citation);
     console.log('\n=== ' + citation + '  (' + marks.length + ' sections)');
-    console.log(marked.replace(/(\*\*\d+\.\*\*)/g, '\n  $1').slice(0, 1400));
-    frag.latin = marked;
-    changed++;
+
+    // The Latin's boundaries come from the numbered edition; the translations'
+    // are supplied by hand, one anchor per section, in the same order.
+    const fields = [['latin', marks, true]];
+    for (const [field, key] of [['english', 'english'], ['italian', 'italian']]) {
+      if (!item[key]) continue;
+      if (item[key].length !== marks.length) {
+        throw new Error(citation + ': ' + key + ' has ' + item[key].length
+          + ' anchors but ' + marks.length + ' sections are being marked');
+      }
+      fields.push([field, marks.map((m, i) => ({ n: m.n, anchor: item[key][i] })), false]);
+    }
+
+    let touched = false;
+    for (const [field, list, isLatin] of fields) {
+      if (/\*\*\d+\.\*\*/.test(frag[field])) { console.log('  SKIP ' + field + ' - already marked'); continue; }
+      const marked = markUp(frag[field], list, citation + ' [' + field + ']', isLatin);
+      console.log('  --' + field + '--');
+      console.log('  ' + marked.replace(/(\*\*\d+\.\*\*)/g, '\n    $1').slice(0, 700));
+      frag[field] = marked;
+      touched = true;
+    }
+    if (touched) changed++;
   }
 
   if (!apply) { console.log('\n(preview only - pass --apply to write)'); return; }

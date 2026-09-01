@@ -198,9 +198,31 @@ and the first time either author has been verified at all. Bank unchanged at **3
   citation named the range, and this release had dropped it as unverifiable; now that the sections
   are marked it is checked, and correct - the excerpt ends at section 7 of nine.
 
+### Added, in a second follow-up - the numbers run through the translations too
+
+- **The English and Italian now carry the same `**n.**` markers as the Latin**, at the same
+  boundaries, so a reader can line section 4 of the Latin up against section 4 of either
+  translation. That is the point of it: with 43 marked sections across the six fragments, a
+  translation that has quietly drifted from its Latin now shows itself at a glance. All three texts
+  were machine-checked to carry the same numbers in the same order.
+- **`tools/mark_sections.js` takes `english` and `italian` anchor arrays.** Its word-folding is now
+  language-aware - diacritics are stripped through NFD for the modern languages, and the u/j fold
+  stays Latin-only - and it refuses an anchor list whose length does not match the number of
+  sections being marked. **These anchors have to be written by hand**: a numbered edition can say
+  where the Latin turns a corner, but only a person can say where a translation turns it. The two
+  places where a section opens mid-sentence are called out in `batch/marks1111.json`.
+- Re-running a marks spec is safe: a field that already carries markers is skipped, which is how
+  this pass touched only the translations.
+
+### Fixed
+- **The two *Bellum Alexandrinum* translations were printing the chapter number**, `[1]` and `[2]`,
+  which the other four Caesar/Hirtius translations were not - launch-era hand-typing. Removed, so all
+  six read the same way. The citation above the excerpt already names the chapter; the subsection
+  numbers are what a reader actually needs to align.
+
 Verification: **223 verbatim, 0 mismatched** (unchanged by the markers); `lint_translations.js`
-**344 checked, 3 to look at** (unchanged, the same known-good three); `lint_markdown.js` **1990
-lines checked, 0 leaking**. Cache-bust: `?v=117` -> `?v=119`.
+**344 checked, 3 to look at** (unchanged, the same known-good three); `lint_markdown.js` **2002
+lines checked, 0 leaking**. Cache-bust: `?v=117` -> `?v=120`.
 
 ## [1.10.3] - 2026-09-01
 

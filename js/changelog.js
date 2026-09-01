@@ -12,15 +12,17 @@
 
   var VERSIONS = [
     {
-      v: '1.11.0', date: '01/09/2026', time: '18:55', tz: 'CEST',
+      v: '1.11.0', date: '01/09/2026', time: 'TBC', tz: 'CEST',
       en: {
         added: [
+          'Those subsection numbers now run through the translations as well, so section 4 of the Latin sits opposite section 4 of the English and section 4 of the Italian. If a translation ever drifts from the Latin, this is what makes it show.',
           'Caesar\'s and Hirtius\'s excerpts now carry the small bold numbers that mark the subsections inside each chapter - the ones a textbook means when it cites "Gallic War 6.13.4". The Latin Library prints the chapter number and nothing else, so these come from a numbered edition and are supplied by the app, exactly as the chapter numbers in square brackets already were. The preface to Gallic War VIII turns out to have seven of them.',
           'Caesar and Hirtius are opened up. No new excerpts yet - this release is the scaffolding for the next twelve, and the first time either author has been checked against his source at all.',
           'Caesar now has a two-level chooser, like Cicero\'s Verrines: first the Gallic War or the Civil War, then the book. Ten books are in place, waiting to be filled. Hirtius has a simpler one: De Bello Gallico VIII and the Bellum Alexandrinum side by side.',
           'All twelve source texts are now downloaded and mapped - the seven books of the Gallic War, the three of the Civil War, Hirtius\'s eighth book, and the Alexandrian War. That is roughly 700 chapters of Latin available to draw on.'
         ],
         changed: [
+          'The two Alexandrian War translations were carrying the chapter number at the front, which the other four were not. It is gone: the citation above the excerpt already says which chapter this is, and what a reader needs to line up is the small numbers inside.',
           'On Hirtius\'s page, the line naming De Bello Gallico, Book VIII was showing its asterisks instead of coming out in bold, in both languages. The renderer cannot cope with an italic title sitting inside a bold phrase; three more lines on Caesar\'s page had the same fault. All four are fixed, and there is now a check that will catch the next one.',
           'The six excerpts these two authors already had have been checked against the original for the first time, and three of them were wrong. They were typed out by hand when the app was built, from a working draft rather than from the source, and nobody had ever been able to check them, because neither author was connected to the checker. All six have been replaced with text taken straight from the source.',
           'The Civil War excerpt had a capital letter the source does not have. The preface to Gallic War VIII had two invented numbers in it, and a section marker that does not exist on the page. And the first excerpt of the Alexandrian War had quietly dropped a pair of daggers.',
@@ -34,12 +36,14 @@
       },
       it: {
         added: [
+          'Quei numeri di paragrafo attraversano ora anche le traduzioni, cosicché il paragrafo 4 del latino stia di fronte al paragrafo 4 dell\'inglese e al paragrafo 4 dell\'italiano. Se una traduzione dovesse allontanarsi dal latino, è questo che lo fa vedere.',
           'I brani di Cesare e Irzio portano ora i piccoli numeri in grassetto che segnano i paragrafi interni a ogni capitolo: quelli a cui si riferisce un manuale quando cita "guerra gallica 6.13.4". The Latin Library stampa il numero del capitolo e nulla più, quindi questi vengono da un\'edizione numerata e sono forniti dall\'app, esattamente come già accadeva per i numeri di capitolo tra parentesi quadre. La prefazione all\'ottavo libro della guerra gallica ne ha sette.',
           'Cesare e Irzio vengono aperti. Ancora nessun brano nuovo: questa uscita è l’impalcatura per le dodici successive, ed è la prima volta che l’uno o l’altro autore venga confrontato con la propria fonte.',
           'Cesare ha ora un menu a due livelli, come le Verrine di Cicerone: prima la guerra gallica o la guerra civile, poi il libro. I dieci libri sono pronti, in attesa di essere riempiti. Irzio ne ha uno più semplice: De Bello Gallico VIII e Bellum Alexandrinum affiancati.',
           'Tutti e dodici i testi di riferimento sono ora scaricati e mappati: i sette libri della guerra gallica, i tre della guerra civile, l’ottavo libro di Irzio e la guerra alessandrina. Sono circa settecento capitoli di latino a disposizione.'
         ],
         changed: [
+          'Le due traduzioni della guerra alessandrina portavano il numero di capitolo in testa, cosa che le altre quattro non facevano. È stato tolto: la citazione sopra il brano dice già di quale capitolo si tratti, e ciò che serve al lettore per allineare i testi sono i numeretti interni.',
           'Nella pagina di Irzio la riga che nomina il De Bello Gallico, libro VIII mostrava gli asterischi invece di comparire in grassetto, in entrambe le lingue. Il compositore del testo non regge un titolo in corsivo dentro una frase in grassetto; altre tre righe nella pagina di Cesare avevano lo stesso difetto. Tutte e quattro sono corrette, e ora c\'è un controllo che intercetta la prossima.',
           'I sei brani che questi due autori già avevano sono stati confrontati con l’originale per la prima volta, e tre erano sbagliati. Erano stati trascritti a mano quando l’app fu costruita, da una bozza di lavoro e non dalla fonte, e nessuno aveva mai potuto controllarli, perché nessuno dei due autori era collegato al controllo. Tutti e sei sono stati sostituiti con il testo preso direttamente dalla fonte.',
           'Il brano della guerra civile aveva una maiuscola che la fonte non ha. La prefazione all’ottavo libro della guerra gallica conteneva due numeri inventati e un segno di paragrafo che sulla pagina non esiste. E il primo brano della guerra alessandrina aveva perso per strada una coppia di croci.',

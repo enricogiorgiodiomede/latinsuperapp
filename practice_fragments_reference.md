@@ -1050,6 +1050,25 @@ re-reading PHI:
 - **BA 2**: `Neque vero Alexandrinis` / `Nec minus in urbe` / `Hac multitudine disposita` /
   `Omnibus viis atque angiportis` / `Praeterea alias ambulatorias`
 
+**THE MARKERS RUN THROUGH THE TRANSLATIONS TOO** - the user's call, so that a drifting translation
+is easy to spot. English and Italian carry the same `**n.**` at the same boundaries, and the three
+texts are checked to hold the same numbers in the same order. `mark_sections.js` takes `english` and
+`italian` anchor arrays next to `sections`; folding is language-aware (NFD diacritic strip for the
+modern languages, the u/j fold stays Latin-only), and an anchor list of the wrong length is refused.
+
+**WRITE THE TRANSLATION ANCHORS BY HAND. There is no shortcut.** A numbered edition can say where the
+Latin turns a corner; only a person can say where a translation turns it. Two of the six fragments
+have a section opening mid-sentence, where the marker lands inside a clause and the translation
+anchor has to follow it there: **DBG VIII praef. 5** (Latin `superetur: qui sunt editi` -> EN *which
+were published so that...*) and **BAlex 1.5** (`excluderet, illud spectans primum` -> EN *aiming first
+that, since...*). **Every future batch needs a marks spec covering all three texts**;
+`batch/marks1111.json` is the worked example. Re-running a spec is safe - a field that already
+carries markers is skipped.
+
+**Translations carry NO chapter marker**, only the subsection numbers; the citation above the excerpt
+already names the chapter. The two Bellum Alexandrinum translations were printing `[1]`/`[2]` from
+launch-era hand-typing and no longer do.
+
 **A MARKDOWN BUG THAT HAS NOW SHIPPED TWICE, AND IS LINTED FROM HERE ON.** `js/markdown.js` matches
 bold with a pattern whose inner group forbids an asterisk, so **a bold span containing an italic one
 leaks literal asterisks onto the page**: `***De Bello Gallico*, Book VIII**` renders as

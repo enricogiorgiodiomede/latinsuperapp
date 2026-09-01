@@ -1,0 +1,155 @@
+{
+  "_comment": "v1.11.0 follow-up 2 - carry the same bold subsection numbers into the English and Italian translations, so section 4 of the Latin can be lined up against section 4 of each translation. The Latin is already marked (batch/marks1110.json) and mark_sections.js skips a field that carries markers, so re-running this spec touches only `english` and `italian`. Translation anchors CANNOT be derived from a numbered edition - only a person can say where a translation turns the corner the Latin turns - so every one below is written by hand and checked against the Latin section it opens. Note the two places where a section starts mid-sentence and the marker therefore lands inside a clause: DBG VIII praef. 5 (Latin `superetur: qui sunt editi`) and Bellum Alexandrinum 1.5 (`excluderet, illud spectans primum`).",
+
+  "(De Bello Gallico VI.13)": {
+    "author": "gaius-julius-caesar", "work": "bg-vi",
+    "sections": "phi0448.phi001.6.13.json",
+    "english": [
+      "In all of Gaul, among those men",
+      "Most of them, pressed down by debt",
+      "Of these two classes, one is that",
+      "The druids take part in divine matters",
+      "For they decide on almost all public",
+      "if any private person or community does not abide",
+      "Those on whom this has been imposed",
+      "Over all these druids there presides",
+      "When he dies, whoever stands out",
+      "At a fixed time of year they assemble",
+      "The system is believed to have been discovered",
+      "and today, those who wish to study it"
+    ],
+    "italian": [
+      "In tutta la Gallia, tra gli uomini",
+      "La maggior parte di loro, oppressa dai debiti",
+      "Di queste due classi, una è quella",
+      "I druidi si occupano delle cose divine",
+      "Decidono quasi tutte le controversie",
+      "se un privato o una comunità non si attiene",
+      "Chi la subisce è annoverato",
+      "Su tutti questi druidi ne presiede uno solo",
+      "Alla sua morte, se tra gli altri",
+      "In un periodo fisso dell'anno si riuniscono",
+      "Si ritiene che la dottrina sia stata elaborata",
+      "ancora oggi chi vuole studiarla a fondo"
+    ]
+  },
+
+  "(De Bello Gallico VI.14)": {
+    "author": "gaius-julius-caesar", "work": "bg-vi",
+    "sections": "phi0448.phi001.6.14.json",
+    "english": [
+      "The druids are accustomed to abstain from war",
+      "Attracted by such great rewards",
+      "They are said to learn a great number of verses",
+      "They do not think it right to commit these things",
+      "First and foremost, they wish to establish",
+      "In addition, they hold many debates"
+    ],
+    "italian": [
+      "I druidi sono soliti astenersi dalla guerra",
+      "Attratti da tali vantaggi",
+      "Si dice che vi imparino a memoria",
+      "Non ritengono lecito affidare tutto ciò",
+      "Prima di tutto vogliono convincere",
+      "Oltre a ciò trattano e tramandano"
+    ]
+  },
+
+  "(De Bello Civili I.7)": {
+    "author": "gaius-julius-caesar", "work": "bc-i",
+    "sections": "phi0448.phi002.1.7.json",
+    "english": [
+      "Having learned of these developments",
+      "He complained that a new precedent had been introduced",
+      "He pointed out that Sulla",
+      "Pompey, who had seemed to restore what was lost",
+      "Whenever the decree had been passed",
+      "and he showed that examples of this kind",
+      "He urged them",
+      "The soldiers of the Thirteenth Legion"
+    ],
+    "italian": [
+      "Venuto a conoscenza di questi fatti",
+      "Si lamentò che nella Repubblica fosse stato introdotto",
+      "Fece notare che Silla",
+      "Pompeo invece, che sembrava aver restituito",
+      "Ogni volta che era stato approvato il decreto",
+      "e mostrò come gli esempi di quel genere",
+      "Li esortò",
+      "I soldati della Tredicesima Legione"
+    ]
+  },
+
+  "(De Bello Gallico VIII, Praefatio 1-7)": {
+    "author": "aulus-hirtius", "work": "bellum-gallicum-viii",
+    "sections": "phi0448.phi001.8.0.json", "range": "1-7",
+    "english": [
+      "Compelled by your relentless insistence",
+      "I have connected Caesar's commentaries",
+      "I only wish that those who read them",
+      "For it is universally agreed that nothing worked over",
+      "which were published so that writers should not lack",
+      "My own admiration for this is",
+      "Caesar possessed not only the highest ability"
+    ],
+    "italian": [
+      "Costretto dalla tua insistenza continua",
+      "Ho connesso i commentari di Cesare nostro",
+      "Quanto vorrei che i lettori potessero sapere",
+      "È cosa universalmente riconosciuta che nulla",
+      "che furono pubblicati perché gli scrittori non mancassero",
+      "La mia ammirazione per questo è però maggiore",
+      "In Cesare vi erano al tempo stesso"
+    ]
+  },
+
+  "(Bellum Alexandrinum 1)": {
+    "author": "aulus-hirtius", "work": "bellum-alexandrinum",
+    "sections": [
+      "Bello Alexandrino conflato Caesar Rhodo",
+      "Interim munitiones cotidie operibus augentur",
+      "Nam incendio fere tuta est",
+      "Caesar maxime studebat ut quam",
+      "illud spectans primum ut cum"
+    ],
+    "english": [
+      "With the Alexandrian War having broken out",
+      "In the meantime the fortifications were being strengthened",
+      "For Alexandria is largely safe from fire",
+      "Caesar was chiefly concerned to cut off",
+      "aiming first that, since his battle line was divided"
+    ],
+    "italian": [
+      "Scoppiata la guerra di Alessandria",
+      "Nel frattempo le fortificazioni venivano rafforzate",
+      "Alessandria è difatti quasi immune dagli incendi",
+      "Cesare mirava soprattutto a tagliare fuori",
+      "aveva in mente prima di tutto che"
+    ]
+  },
+
+  "(Bellum Alexandrinum 2)": {
+    "author": "aulus-hirtius", "work": "bellum-alexandrinum",
+    "sections": [
+      "Neque vero Alexandrinis in gerendis",
+      "Nec minus in urbe maximae",
+      "Hac multitudine disposita munitiones",
+      "Omnibus viis atque angiportis triplicem",
+      "Praeterea alias ambulatorias totidem"
+    ],
+    "english": [
+      "Nor were the Alexandrians suffering any delay",
+      "No less great were the arms workshops",
+      "This multitude disposed, they kept guard",
+      "In all the streets and alleyways",
+      "In addition they had built other movable towers"
+    ],
+    "italian": [
+      "Né gli Alessandrini soffrivano di alcun ritardo",
+      "Non meno grandi erano le officine d'armi",
+      "Con questa moltitudine schierata, presidiavano",
+      "In tutte le strade e i vicoli",
+      "Avevano inoltre costruito altre torri mobili"
+    ]
+  }
+}
