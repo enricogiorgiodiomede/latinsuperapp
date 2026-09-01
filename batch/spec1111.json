@@ -1,0 +1,15 @@
+{
+  "_comment": "v1.11.1 - the first De Bello Gallico content batch: Book I (6) and Book II (4). All pages print bracketed chapter numbers [n] and nothing else, so spans are free and no marker `fix` is needed anywhere. Two excerpts deliberately stop short of the chapter's end (I.1 at section 4, I.53 at section 7) and one starts inside it (I.40 from section 10); the visible subsection numbers disclose that, so no [...] cut mark is used - nothing is cut out of the middle. Two excerpts span two chapters (II.20-21, II.27-28).",
+
+  "bg.1.1":  ["gall1", "Gallia est omnis divisa in partes tres", "aut ipsi in eorum finibus bellum gerunt."],
+  "bg.1.13": ["gall1", "Hoc proelio facto, reliquas copias Helvetiorum", "aut memoriam proderet."],
+  "bg.1.29": ["gall1", "In castris Helvetiorum tabulae repertae sunt", "repertus est numerus milium C et X."],
+  "bg.1.39": ["gall1", "Dum paucos dies ad Vesontionem", "neque propter timorem signa laturos."],
+  "bg.1.40": ["gall1", "Qui suum timorem in rei frumentariae simulationem", "propter virtutem confidebat maxime."],
+  "bg.1.53": ["gall1", "Ita proelium restitutum est", "sortium beneficio se esse incolumem."],
+
+  "bg.2.1":  ["gall2", "Cum esset Caesar in citeriore Gallia", "eam rem imperio nostro consequi poterant."],
+  "bg.2.20": ["gall2", "Caesari omnia uno tempore erant agenda", "ne in quaerendis suis pugnandi tempus dimitteret."],
+  "bg.2.25": ["gall2", "Caesar ab X. legionis cohortatione", "paulum hostium impetus tardatus est."],
+  "bg.2.27": ["gall2", "Horum adventu tanta rerum commutatio est facta", "ab iniuria et maleficio se suosque prohiberent."]
+}

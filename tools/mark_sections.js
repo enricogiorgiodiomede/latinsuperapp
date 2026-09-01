@@ -85,17 +85,27 @@ function locate(stream, anchor, label, latin) {
   throw new Error(label + ': anchor is ambiguous, ' + hits.length + ' matches - ' + anchor.slice(0, 60));
 }
 
+function fromCache(name, label) {
+  const file = path.join(CACHE, name);
+  if (!fs.existsSync(file)) throw new Error(label + ': no section cache ' + name);
+  // Six words is comfortably past any repetition inside a single chapter; the
+  // matcher shortens the anchor by itself when an edition varies later on.
+  return JSON.parse(fs.readFileSync(file, 'utf8')).sections
+    .map(s => ({ n: s.n, anchor: s.text.split(/\s+/).slice(0, 6).join(' ') }));
+}
+
 function anchorsFor(spec, label) {
   let all;
-  if (Array.isArray(spec.sections)) {
+  if (spec.sectionFiles) {
+    // An excerpt that runs across a chapter boundary. Each chapter's sections
+    // are numbered from 1 again, which is how editions cite them, and the
+    // monotonic check below still holds because it compares positions in the
+    // text and not the numbers.
+    all = [].concat(...spec.sectionFiles.map(f => fromCache(f, label)));
+  } else if (Array.isArray(spec.sections)) {
     all = spec.sections.map((a, i) => ({ n: String(i + 1), anchor: a }));
   } else {
-    const file = path.join(CACHE, spec.sections);
-    if (!fs.existsSync(file)) throw new Error(label + ': no section cache ' + spec.sections);
-    // Six words is comfortably past any repetition inside a single chapter; the
-    // matcher shortens the anchor by itself when an edition varies later on.
-    all = JSON.parse(fs.readFileSync(file, 'utf8')).sections
-      .map(s => ({ n: s.n, anchor: s.text.split(/\s+/).slice(0, 6).join(' ') }));
+    all = fromCache(spec.sections, label);
   }
   // An excerpt rarely runs to the end of a chapter, and the sections it stops
   // short of must be dropped explicitly - silently ignoring an anchor that does

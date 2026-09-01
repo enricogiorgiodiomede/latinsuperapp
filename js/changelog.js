@@ -12,6 +12,37 @@
 
   var VERSIONS = [
     {
+      v: '1.11.2', date: 'TBD', time: 'TBC', tz: 'CEST',
+      en: {
+        added: [
+          'Ten new excerpts from the Gallic War: six from Book I and four from Book II. Caesar had three in the whole app before today.',
+          'Book I follows the year 58 BC from end to end. The opening sentence every Latin student meets first; the Helvetian envoy Divico, who fifty years earlier had commanded the army that destroyed a Roman consul, warning Caesar to think carefully about place-names; the captured tablets on which the Helvetii had written down every person who left home, and the number who came back; the night the whole army heard what Germans look like and started sealing its wills; Caesar\'s answer to that panic, ending on the promise to go with the Tenth Legion alone; and the rescue of one friend in chains, which Caesar says pleased him no less than winning.',
+          'Book II is the Belgic campaign. Why a province revolts, in four ranked reasons; the general\'s to-do list written as seven things that all had to happen at once; the moment Caesar takes a shield off a man in the back rank and walks into the front line; and the Nervii fighting from a mound built out of their own dead, followed by the arithmetic of what was left of them.',
+          'The chapter number is back at the head of the English and the Italian, so each translation now opens the way its Latin does and the two spans that cross a chapter boundary break in the same place in all three texts.'
+        ],
+        changed: [
+          'The tool that adds the subsection numbers can now handle an excerpt that runs across two chapters, where the count starts again from one after the new chapter number, and an excerpt that covers only part of a chapter, which now has to say so explicitly rather than being quietly trimmed.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Dieci nuovi brani dalla guerra gallica: sei dal libro I e quattro dal libro II. Prima di oggi Cesare ne aveva tre in tutta l\'app.',
+          'Il libro I segue il 58 a.C. da un capo all\'altro. La frase d\'apertura che ogni studente di latino incontra per prima; l\'ambasciatore elvetico Divicone, che cinquant\'anni prima aveva comandato l\'esercito che annientò un console romano, mentre avverte Cesare di riflettere bene sui nomi dei luoghi; le tavolette catturate su cui gli Elvezi avevano annotato ogni persona partita da casa, e il numero di quelle tornate; la notte in cui tutto l\'esercito sentì raccontare come sono fatti i Germani e cominciò a sigillare testamenti; la risposta di Cesare a quel panico, che si chiude sulla promessa di andare con la sola Decima legione; e il recupero di un amico in catene, che a Cesare, dice lui, fece piacere non meno della vittoria.',
+          'Il libro II è la campagna belgica. Perché una provincia si ribella, in quattro motivi ordinati; la lista di cose da fare del comandante scritta come sette cose che dovevano accadere tutte insieme; il momento in cui Cesare toglie lo scudo a un soldato delle ultime file ed entra in prima linea; e i Nervi che combattono da un cumulo costruito con i loro stessi morti, seguiti dall\'aritmetica di quanto ne restava.',
+          'Il numero di capitolo è tornato in testa all\'inglese e all\'italiano, così ogni traduzione si apre come si apre il suo latino, e i due brani che attraversano un confine di capitolo vanno a capo nello stesso punto in tutti e tre i testi.'
+        ],
+        changed: [
+          'Lo strumento che inserisce i numeri di paragrafo regge ora un brano che corre su due capitoli, dove il conteggio riparte da uno dopo il nuovo numero di capitolo, e un brano che copre solo una parte di un capitolo, il quale ora deve dichiararlo esplicitamente invece di essere tagliato in silenzio.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.11.1', date: '2026-09-01', time: '19:08', tz: 'CEST',
       en: {
         added: [

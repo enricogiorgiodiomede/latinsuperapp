@@ -108,6 +108,58 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.11.2] - TBD
+
+**THE FIRST DE BELLO GALLICO CONTENT BATCH: Book I (6) and Book II (4).** Bank **376 -> 386**;
+`verify.js` **223 -> 233 verbatim, 0 mismatched**, a rise of exactly ten. Caesar goes from 3 excerpts
+to 13.
+
+### Added
+- **De Bello Gallico I - 6, covering the whole of 58 BC.** `I.1` the proem, cut at section 4 because
+  5 to 7 are a river-boundary survey; `I.13` Divico's embassy, the batch's showpiece of *oratio
+  obliqua*; `I.29` the Helvetian tablets, 368,000 out and 110,000 back, with no comment from Caesar;
+  `I.39` the panic at Vesontio and *Vulgo totis castris testamenta obsignabantur*; `I.40` the answer
+  to it, **sections 10-15 only**, ending on the Tenth Legion as *praetoria cohors*; `I.53` the rout,
+  Ariovistus' wives, and Procillus saved from the three lots.
+- **De Bello Gallico II - 4, the Belgic campaign.** `II.1` the four ranked causes of the revolt;
+  `II.20-21` *Caesari omnia uno tempore erant agenda*, seven gerundives in asyndeton; `II.25` Caesar
+  takes a shield off a man in the rear rank, in one suspended 130-word sentence; `II.27-28` the
+  Nervii fighting from a mound of their own dead, then 600 senators reduced to 3.
+- **The chapter marker is back at the head of the English and the Italian**, for the new excerpts and
+  for the six that already existed. It had been removed earlier the same day on the grounds that the
+  citation already names the chapter; with the subsection numbers now running through all three
+  texts, having the chapter number there too is what makes them line up at a glance. The Gallic War
+  VIII preface is the one exception, and correctly so: the source prints no chapter number there, so
+  neither does the Latin.
+- Both spans that cross a chapter boundary (`II.20-21`, `II.27-28`) carry the inner marker in all
+  three texts and break to a new paragraph at the same place in each.
+
+### Changed
+- **`tools/mark_sections.js` takes `sectionFiles`**, a list of section caches, for an excerpt that
+  runs across a chapter boundary: the subsection count restarts at 1 after the inner chapter marker,
+  which is how editions cite it (2.21.3). The monotonic check still holds, because it compares
+  positions in the text and not the numbers.
+- The `range` field is now doing real work: three of the ten do not cover a whole chapter (`I.1`
+  stops at 4, `I.53` at 7, `I.40` starts at 10) and each has to declare it. An unmatched anchor stays
+  a hard error, so a partial excerpt cannot be marked by accident.
+
+### Fixed
+- **`(De Bello Gallico I.40)`: the Latin Library prints *de quarta, vigilia castra moturum*** with a
+  stray comma inside the phrase. Emended to *de quarta vigilia* and recorded on the fragment, so
+  `verify.js` puts the source's pointing back before comparing. The reading is not in doubt, only the
+  punctuation; the note is in the analysis in both languages.
+
+### Notes on the source
+- Two editorial supplements are printed as the source prints them and explained in the analysis:
+  `[Quarum omnium rerum]` in I.29 and `[in hibernis]` in II.1, plus `[uni]` in II.25.
+- `gall1` also prints *poslulatis* for *postulatis* at I.40.3 and *Eorum una, pars,* at I.1.5. Both
+  fall outside the extracted ranges, so neither needed an emendation - worth knowing before anyone
+  extends those two excerpts.
+
+Verification: **233 verbatim, 0 mismatched**; `lint_translations.js` **354 checked, 3 to look at**
+(the same known-good three); `lint_markdown.js` **2054 lines, 0 leaking**. All three texts of all
+sixteen Caesar/Hirtius fragments machine-checked to carry the same chapter markers and the same
+subsection numbers in the same order. Cache-bust: `?v=120` -> `?v=121`.
 ## [1.11.1] - 2026-09-01
 
 **ONE REGEX. The Italian portrait captions on the two paired-author entries.** No excerpts, no content.

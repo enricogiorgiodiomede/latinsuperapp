@@ -1001,7 +1001,10 @@ modern title.
 **CHAPTERS USED SO FAR** - keep this list current. `apply_batch`'s duplicate guard is an exact
 citation-string match within one work and **will not catch `VI.13` against `VI.13-14`**, so overlap is
 the real risk at this volume.
+- **BG I**: 1 (sections 1-4 only) · 13 · 29 · 39 · 40 (sections 10-15 only) · 53 (sections 1-7 only)
+- **BG II**: 1 · 20-21 · 25 · 27-28
 - **BG VI**: 13, 14 · **BC I**: 7 · **DBG VIII**: praefatio · **BA**: 1, 2
+- Running total **16**. Book I is at 6 of its allocated 6 and Book II at 4 of 4, so both are **closed**; the next Gallic War batches are Books III, IV, V and VII.
 
 **SUBSECTIONS: THE SOURCE HAS NONE, SO THE APP SUPPLIES THEM.** Agreed with the user and shipped in
 the v1.11.0 follow-up. Every Caesar/Hirtius excerpt carries the standard editorial subsection numbers
@@ -1068,6 +1071,36 @@ carries markers is skipped.
 **Translations carry NO chapter marker**, only the subsection numbers; the citation above the excerpt
 already names the chapter. The two Bellum Alexandrinum translations were printing `[1]`/`[2]` from
 launch-era hand-typing and no longer do.
+
+**THE CHAPTER MARKER GOES AT THE HEAD OF ALL THREE TEXTS** - the user's call, v1.11.2. Latin,
+English and Italian each open with `[n]`, and an excerpt that spans two chapters carries the inner
+marker in all three and breaks to a new paragraph at the same place in each. **The one exception is
+the Gallic War VIII preface**, which has none anywhere, because the source prints none. A brief
+experiment earlier the same day dropped the marker from the translations on the grounds that the
+citation already names the chapter; with the subsection numbers running through all three texts it
+turned out to be the chapter number that makes them line up at a glance, so it came back.
+
+**SPANNING TWO CHAPTERS.** Use `sectionFiles: [a.json, b.json]` in the marks spec. The subsection
+count restarts at 1 after the inner chapter marker, which is how editions cite it (2.21.3), and
+`mark_sections.js` is fine with that because its monotonic check compares positions in the text, not
+the numbers. `II.20-21` and `II.27-28` are the worked examples.
+
+**COVERING ONLY PART OF A CHAPTER.** Declare it with `range`. Three of the v1.11.2 ten do:
+`I.1` "1-4" (sections 5-7 are a river-boundary survey), `I.53` "1-7" (section 8 is a one-line coda
+about Metius that would blunt the ending), `I.40` "10-15" (the chapter is 15 sections long and only
+the last third is wanted). **No `[...]` cut mark is used for these**, because nothing is removed from
+the middle - the visible subsection numbers disclose where the excerpt starts and stops. Reserve
+`[...]` for a genuine internal cut.
+
+**SOURCE DEFECTS FOUND IN `gall1`**, recorded so nobody re-derives them:
+- **I.40.14 prints `de quarta, vigilia castra moturum`** with a stray comma inside the phrase.
+  Emended to `de quarta vigilia` in v1.11.2. The reading is not in doubt, only the pointing.
+- **I.40.3 prints `poslulatis` for `postulatis`** and **I.1.5 prints `Eorum una, pars,`** for `Eorum
+  una pars,`. Both fall outside the extracted ranges, so neither needed an emendation - but anyone
+  extending `(De Bello Gallico I.1)` past section 4 or `(De Bello Gallico I.40)` back past section 10
+  will have to emend them.
+- Editorial supplements printed as the source prints them and explained in the analysis:
+  `[Quarum omnium rerum]` (I.29), `[in hibernis]` (II.1), `[uni]` (II.25).
 
 **A MARKDOWN BUG THAT HAS NOW SHIPPED TWICE, AND IS LINTED FROM HERE ON.** `js/markdown.js` matches
 bold with a pattern whose inner group forbids an asterisk, so **a bold span containing an italic one
