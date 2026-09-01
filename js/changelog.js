@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.11.3', date: 'TBD', time: 'TBC', tz: 'CEST',
+      v: '1.11.3', date: '01/09/2026', time: '22:52', tz: 'CEST',
       en: {
         added: [
           'Ten more excerpts from the Gallic War. Book III and Book IV are now complete, and Book VI has grown from two to four. Caesar is up to 23.',
