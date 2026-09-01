@@ -12,6 +12,37 @@
 
   var VERSIONS = [
     {
+      v: '1.11.3', date: 'TBD', time: 'TBC', tz: 'CEST',
+      en: {
+        added: [
+          'Ten more excerpts from the Gallic War. Book III and Book IV are now complete, and Book VI has grown from two to four. Caesar is up to 23.',
+          'Book III is the sea war against the Veneti, and it is three chapters of one story. First the enemy ships, described plank by plank, in a passage that quietly admits the Roman navy was outclassed on the Atlantic. Then the battle, won with a siege hook lashed to a pole and fought in front of the whole army seated on the hills. Then the reprisal: the entire Venetic senate executed and everyone else sold, with the reason given as coolly as a clerk would give it.',
+          'Book IV runs from the Rhine to Britain. The Gauls who stop travellers on the road to squeeze them for news, and then decide great questions on what they hear. The destruction of two German peoples, four hundred and thirty thousand of them, without a single Roman killed - the episode for which Cato proposed in the Senate that Caesar be handed to the Germans. The bridge over the Rhine, described so exactly that engineers have rebuilt it from this chapter alone, and built because crossing by boat was beneath Rome\'s dignity. The eagle-bearer of the Tenth who jumps into the sea off the coast of Britain, in the only speech in this batch that Caesar reports in the man\'s own words. And the British war chariot, explained from scratch because nobody in the Mediterranean had used one for centuries.',
+          'Book VI gains the two chapters that belong beside the druids already there: the Gallic sacrifices, with the enormous wicker figures filled with living men, and the Germans, who have no druids, no interest in sacrifice, and no gods they cannot see.'
+        ],
+        changed: [
+          'Nothing was changed in the existing excerpts.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Altri dieci brani dalla guerra gallica. I libri III e IV sono ora completi, e il libro VI è passato da due a quattro. Cesare arriva a 23.',
+          'Il libro III è la guerra navale contro i Veneti, e sono tre capitoli di una sola storia. Prima le navi nemiche, descritte tavola per tavola, in un passo che ammette senza clamore che sull\'Atlantico la marina romana era inferiore. Poi la battaglia, vinta con una falce da assedio legata a una pertica e combattuta davanti a tutto l\'esercito seduto sulle colline. Poi la rappresaglia: l\'intero senato veneto giustiziato e tutti gli altri venduti, con la motivazione esposta con la freddezza di un impiegato.',
+          'Il libro IV va dal Reno alla Britannia. I Galli che fermano i viandanti sulla strada per spremerne notizie, e poi decidono grandi questioni in base a ciò che sentono. La distruzione di due popoli germanici, quattrocentotrentamila persone, senza un solo morto romano: l\'episodio per cui Catone propose in Senato che Cesare fosse consegnato ai Germani. Il ponte sul Reno, descritto con tanta esattezza che degli ingegneri lo hanno ricostruito basandosi solo su quel capitolo, e costruito perché passare in barca sarebbe stato indegno di Roma. L\'aquilifero della Decima che si getta in mare davanti alla costa britannica, nell\'unico discorso di questo gruppo che Cesare riferisce con le parole stesse di chi lo pronuncia. E il carro da guerra britannico, spiegato da zero perché nel Mediterraneo nessuno ne usava più da secoli.',
+          'Il libro VI guadagna i due capitoli che stanno accanto ai druidi già presenti: i sacrifici gallici, con gli enormi simulacri di vimini riempiti di uomini vivi, e i Germani, che non hanno druidi, non si curano dei sacrifici e non hanno dèi che non si possano vedere.'
+        ],
+        changed: [
+          'Nulla è stato cambiato nei brani già presenti.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.11.2', date: '01/09/2026', time: '22:36', tz: 'CEST',
       en: {
         added: [

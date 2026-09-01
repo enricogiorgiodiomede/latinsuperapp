@@ -1,0 +1,16 @@
+{
+  "_comment": "v1.11.3 - subsection markers for the Latin of the ten new excerpts. The translations were written with their markers already in place and mark_sections.js skips a field that carries them, so this touches only the Latin. Boundaries from Perseus (CTS phi0448.phi001), word-exact. IV.14-15 spans a chapter boundary and uses sectionFiles, so the count restarts at 1 after the inner marker. Every other excerpt covers its whole chapter, so no `range` is needed anywhere in this batch.",
+
+  "(De Bello Gallico III.13)": { "author": "gaius-julius-caesar", "work": "bg-iii", "sections": "phi0448.phi001.3.13.json" },
+  "(De Bello Gallico III.14)": { "author": "gaius-julius-caesar", "work": "bg-iii", "sections": "phi0448.phi001.3.14.json" },
+  "(De Bello Gallico III.16)": { "author": "gaius-julius-caesar", "work": "bg-iii", "sections": "phi0448.phi001.3.16.json" },
+
+  "(De Bello Gallico IV.5)":     { "author": "gaius-julius-caesar", "work": "bg-iv", "sections": "phi0448.phi001.4.5.json" },
+  "(De Bello Gallico IV.14-15)": { "author": "gaius-julius-caesar", "work": "bg-iv", "sectionFiles": ["phi0448.phi001.4.14.json", "phi0448.phi001.4.15.json"] },
+  "(De Bello Gallico IV.17)":    { "author": "gaius-julius-caesar", "work": "bg-iv", "sections": "phi0448.phi001.4.17.json" },
+  "(De Bello Gallico IV.25)":    { "author": "gaius-julius-caesar", "work": "bg-iv", "sections": "phi0448.phi001.4.25.json" },
+  "(De Bello Gallico IV.33)":    { "author": "gaius-julius-caesar", "work": "bg-iv", "sections": "phi0448.phi001.4.33.json" },
+
+  "(De Bello Gallico VI.16)": { "author": "gaius-julius-caesar", "work": "bg-vi", "sections": "phi0448.phi001.6.16.json" },
+  "(De Bello Gallico VI.21)": { "author": "gaius-julius-caesar", "work": "bg-vi", "sections": "phi0448.phi001.6.21.json" }
+}

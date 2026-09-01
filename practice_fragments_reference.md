@@ -1003,8 +1003,12 @@ citation-string match within one work and **will not catch `VI.13` against `VI.1
 the real risk at this volume.
 - **BG I**: 1 (sections 1-4 only) · 13 · 29 · 39 · 40 (sections 10-15 only) · 53 (sections 1-7 only)
 - **BG II**: 1 · 20-21 · 25 · 27-28
-- **BG VI**: 13, 14 · **BC I**: 7 · **DBG VIII**: praefatio · **BA**: 1, 2
-- Running total **16**. Book I is at 6 of its allocated 6 and Book II at 4 of 4, so both are **closed**; the next Gallic War batches are Books III, IV, V and VII.
+- **BG III**: 13 · 14 · 16
+- **BG IV**: 5 · 14-15 · 17 · 25 · 33
+- **BG VI**: 13 · 14 · 16 · 21 · **BC I**: 7 · **DBG VIII**: praefatio · **BA**: 1, 2
+- Running total **26**. Books I (6), II (4), III (3) and IV (5) are **closed at allocation**. Book VI is at 4 of 6. Still owed for the Gallic War: **Book V (7)**, **Book VI (+2)**, **Book VII (9)**.
+
+**MORE SOURCE DEFECTS, this time in `gall4`:** **IV.17.1 prints `decrevat` for `decreverat`** (not a form), emended in v1.11.3 and recorded on the fragment. **IV.25.3 prints its opening quotation marks with a space after them** - `' desilite', inquit, ' milites` - which is source STYLE, not a defect: `normalise()` already strips whitespace after a quote, so it is reconciled with a `fix` and nothing is recorded. Editorial supplements in `gall3`, printed as the source prints them and explained in the analysis: **`[hae]`** and **`[saevire ventus coepisset et]`** at III.13.
 
 **SUBSECTIONS: THE SOURCE HAS NONE, SO THE APP SUPPLIES THEM.** Agreed with the user and shipped in
 the v1.11.0 follow-up. Every Caesar/Hirtius excerpt carries the standard editorial subsection numbers

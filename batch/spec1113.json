@@ -1,0 +1,16 @@
+{
+  "_comment": "v1.11.3 - the second De Bello Gallico batch: Book III (3), Book IV (5) and a Book VI top-up (2). Book III and Book IV close at their allocation; Book VI goes from 2 to 4 of its 6, and its last two travel with the Book V batch. One span crosses a chapter boundary (IV.14-15). Watch for: `decrevat` for `decreverat` at IV.17 (a source typo, emended), the spaced opening quotes at IV.25 (source style, reconciled with a `fix` that normalise() already cancels), and the editorial supplements `[hae]` and `[saevire ventus coepisset et]` at III.13, printed as the source prints them.",
+
+  "bg.3.13": ["gall3", "Namque ipsorum naves ad hunc modum", "nostris navibus casus erat extimescendus."],
+  "bg.3.14": ["gall3", "Compluribus expugnatis oppidis Caesar", "ab exercitu tenebantur."],
+  "bg.3.16": ["gall3", "Quo proelio bellum Venetorum", "reliquos sub corona vendidit."],
+
+  "bg.4.5":  ["gall4", "His de rebus Caesar certior factus et infirmitatem", "ad voluntatem eorum ficta respondeant."],
+  "bg.4.14": ["gall4", "Acie triplici instituta et celeriter", "His Caesar libertatem concessit."],
+  "bg.4.17": ["gall4", "Caesar his de causis quas commemoravi", "neu ponti nocerent."],
+  "bg.4.25": ["gall4", "Quod ubi Caesar animadvertit, naves longas", "hostibus adpropinquaverunt."],
+  "bg.4.33": ["gall4", "Genus hoc est ex essedis pugnae.", "in currus citissime recipere consuerint."],
+
+  "bg.6.16": ["gall6", "Natio est omnis Gallorum admodum dedita", "ad innocentium supplicia descendunt."],
+  "bg.6.21": ["gall6", "Germani multum ab hac consuetudine differunt.", "magna corporis parte nuda."]
+}

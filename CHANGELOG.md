@@ -108,6 +108,54 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.11.3] - TBD
+
+**THE SECOND DE BELLO GALLICO BATCH: Book III (3), Book IV (5) and a Book VI top-up (2).** Bank
+**386 -> 396**; `verify.js` **233 -> 243 verbatim, 0 mismatched**, a rise of exactly ten. Caesar is at
+**23**. **Books III and IV close at their allocation**; Book VI goes from 2 to 4 of its 6, and its
+last two travel with the Book V batch.
+
+### Added
+- **De Bello Gallico III - 3, the Veneti war as a single arc.** `III.13` the enemy ships plank by
+  plank, a nautical glossary in one paragraph and a plain admission that the Roman fleet was
+  outclassed on the Atlantic; `III.14` the battle, won with a *falx muralis* lashed to a pole, and
+  fought *in conspectu Caesaris atque omnis exercitus* with the army seated on the hills - the same
+  claim about witnessed courage as II.25, now with the seating arranged; `III.16` the reprisal, *omni
+  senatu necato reliquos sub corona vendidit*, read against the mercy shown the Nervii at II.28 as
+  the same instrument at its other setting.
+- **De Bello Gallico IV - 5, from the Rhine to Britain.** `IV.5` the Gauls who stop travellers for
+  news, an accurate ethnographic detail set between a prejudice and a policy; `IV.14-15` the
+  destruction of the Usipetes and Tencteri, 430,000 against not one Roman dead, the episode behind
+  Cato's motion to hand Caesar over to the Germans; `IV.17` the Rhine bridge, the hardest Latin in
+  the batch and built because boats were *neque suae neque populi Romani dignitatis*; `IV.25` the
+  eagle-bearer of the Tenth, **the only direct speech in the batch and one of very few in the work**,
+  given to a man Caesar does not name; `IV.33` the British war chariot, *mobilitatem equitum,
+  stabilitatem peditum*, our single most important source on it.
+- **De Bello Gallico VI - 2, chosen to sit against the druids already there.** `VI.16` the Gallic
+  sacrifices and the wicker figures, reported with *arbitrantur* and *putant* throughout and not one
+  adjective of horror; `VI.21` the Germans, defined entirely by subtraction, whose gods Caesar names
+  with Roman names - *interpretatio Romana*, flagged in the analysis - and whose austerity is the
+  other end of the theory stated in the first sentence of Book I.
+
+### Fixed
+- **`(De Bello Gallico IV.17)`: the Latin Library prints *Rhenum transire decrevat***, which is not a
+  form. Emended to *decreverat* and recorded on the fragment, so `verify.js` restores the source
+  reading before comparing. Noted in the analysis in both languages.
+
+### Notes on the source
+- **`(De Bello Gallico IV.25)` prints its opening quotation marks with a space after them** -
+  `' desilite', inquit, ' milites` - and the app closes them up. This is a `fix`, not an emendation:
+  `normalise()` already strips whitespace after a quote, so nothing about the check is loosened.
+- Editorial supplements printed as the source prints them and explained in the analysis: **`[hae]`**
+  and **`[saevire ventus coepisset et]`** at III.13.
+- Every excerpt in this batch covers its whole chapter, so no `range` was needed anywhere; `IV.14-15`
+  is the only chapter-spanning one and uses `sectionFiles`.
+
+Verification: **243 verbatim, 0 mismatched**; `lint_translations.js` **364 checked, 3 to look at**
+(the same known-good three); `lint_markdown.js` **2108 lines, 0 leaking**. All 26 Caesar/Hirtius
+fragments machine-checked to carry the same chapter markers and the same subsection numbers, in
+order, across Latin, English and Italian. Cache-bust: `?v=123` -> `?v=124`.
+
 ## [1.11.2] - 2026-09-01
 
 **THE FIRST DE BELLO GALLICO CONTENT BATCH: Book I (6) and Book II (4).** Bank **376 -> 386**;
