@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.11.4', date: '03/09/2026', time: 'TBC', tz: 'CEST',
+      v: '1.11.4', date: '03/09/2026', time: '20:22', tz: 'CEST',
       en: {
         added: [
           'Nine more excerpts from the Gallic War: seven from Book V and the last two of Book VI, which is now complete. Caesar is up to 32, and only Book VII is left.',
