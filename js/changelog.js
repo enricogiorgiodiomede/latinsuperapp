@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.11.5', date: 'TBD', time: 'TBC', tz: 'CEST',
+      v: '1.11.5', date: '03/09/2026', time: '21:28', tz: 'CEST',
       en: {
         added: [
           'Nine excerpts from Book VII, and with them the Gallic War is finished: all seven books are in, forty excerpts, and Caesar is the second-largest author in the app.',

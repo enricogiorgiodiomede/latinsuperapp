@@ -108,7 +108,7 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
-## [1.11.5] - TBD
+## [1.11.5] - 2026-09-03
 
 **BOOK VII, AND THE GALLIC WAR IS FINISHED.** Nine excerpts; bank **405 -> 414**; `verify.js`
 **252 -> 261 verbatim, 0 mismatched**, a rise of exactly nine. Caesar is at **41** - **all seven books
