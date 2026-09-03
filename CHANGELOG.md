@@ -228,7 +228,9 @@ mismatched**; version tags untouched.
   place a named druid is described by someone who met him - but the claim about the app is gone.
   Recorded in the reference sheet as a candidate should *De Divinatione* ever be extended.
 
-Cache-bust for the follow-up: `?v=126` -> `?v=127`.
+- **`VI.28`: a note for translators.** Three verbs in the chapter are third person plural with no subject expressed and none available anywhere in the excerpt - *interficiunt* at the end of section 2, *circumcludunt* and *utuntur* in section 6. **The subject of all three is the Germans**, carried forward from VI.21; the chapter opens on the animals rather than the people, so the last human subject is several chapters back. Latin leaves it to the reader, English and Italian cannot, and the note points at section 3 - *hoc se labore durant adulescentes* - as the contrast.
+
+Cache-bust for the follow-up: `?v=126` -> `?v=128`.
 
 ## [1.11.3] - 2026-09-01
 

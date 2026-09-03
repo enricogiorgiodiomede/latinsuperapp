@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.11.4', date: '03/09/2026', time: '20:22', tz: 'CEST',
+      v: '1.11.4', date: '03/09/2026', time: 'TBC', tz: 'CEST',
       en: {
         added: [
           'Nine more excerpts from the Gallic War: seven from Book V and the last two of Book VI, which is now complete. Caesar is up to 32, and only Book VII is left.',
@@ -31,6 +31,7 @@
           'The Latin Library prints the first word of the British marriage customs as Vxores, with a capital V, because the Roman alphabet had no letter U. The app now prints Uxores, which is what every modern edition does; the old spelling is still recorded as a declared correction so the text can be checked against the source.',
           'Two Italian corrections. A purpose clause was being rendered perche apparisse aver usato misericordia, which is missing a word and could also be read as a causal; it is now affinche apparisse di aver usato misericordia, in the translation and in the three analyses that quote it. The same fault turned up in a Catilinarian excerpt and was fixed there too.',
           'A claim that had to be withdrawn: the analysis of the second druid excerpt said that Cicero\'s description of a real druid, at De Divinatione I.90, was already in this app. It is not. The reference stands, the claim about the app is gone.',
+          'A note on the aurochs excerpt for anyone translating it: three of its verbs have no subject written anywhere in the passage, and the subject of all three is the Germans, carried over from several chapters earlier. Latin is happy to leave that to the reader; English and Italian are not, so the translations have to put somebody back in.',
         ],
         deleted: [
           'Nothing was deleted.'
@@ -54,6 +55,7 @@
           'The Latin Library stampa la prima parola sugli usi matrimoniali britannici come Vxores, con la V maiuscola, perché l\'alfabeto romano non aveva la lettera U. L\'app stampa ora Uxores, come fanno tutte le edizioni moderne; la vecchia grafia resta registrata come correzione dichiarata, così il testo si può ancora confrontare con la fonte.',
           'Due correzioni italiane. Una proposizione finale era resa con perché apparisse aver usato misericordia, a cui manca una parola e che si potrebbe leggere anche come causale; ora è affinché apparisse di aver usato misericordia, nella traduzione e nelle tre analisi che la citano. Lo stesso errore è saltato fuori in un brano delle Catilinarie ed è stato corretto anche lì.',
           'Un\'affermazione da ritirare: l\'analisi del secondo brano sui druidi diceva che la descrizione ciceroniana di un druido reale, in De Divinatione I.90, fosse già in quest\'app. Non lo è. Il rimando resta, l\'affermazione sull\'app è tolta.',
+          'Una nota sul brano dell\'uro per chi lo traduce: tre dei suoi verbi non hanno alcun soggetto scritto nel passo, e il soggetto di tutti e tre sono i Germani, ripresi da diversi capitoli prima. Al latino va bene lasciarlo al lettore; all\'inglese e all\'italiano no, e quindi le traduzioni devono rimettercelo.',
         ],
         deleted: [
           'Non è stato eliminato nulla.'
