@@ -1089,6 +1089,27 @@ count restarts at 1 after the inner chapter marker, which is how editions cite i
 `mark_sections.js` is fine with that because its monotonic check compares positions in the text, not
 the numbers. `II.20-21` and `II.27-28` are the worked examples.
 
+**A CITATION MUST NAME ITS SUBSECTIONS WHENEVER THE EXCERPT DOES NOT COVER THE WHOLE CHAPTER** - the
+user's rule, v1.11.3. `(De Bello Gallico I.1.1-4)`, `(De Bello Gallico I.40.10-15)`,
+`(De Bello Gallico I.53.1-7)`. A complete chapter is cited by chapter alone. **Audit it**: compare the
+excerpt's first and last subsection markers against the section count in
+`tools/.cache/sections/*.json`, which is what the check in the v1.11.3 follow-up did for all 23 Caesar
+excerpts.
+
+**THIS BREAKS `firstSection` UNLESS THE THREE-PART RULE IS THERE.** The book-aware rule
+(`ROMAN.digits`) cannot match three numeric parts, so `(De Bello Gallico I.40.10-15)` fell through to
+the plain-digits rule and sorted on **10**; Book I came out as 1, 53, 40, 13, 29, 39. `apply_batch.js`
+now tries a `ROMAN.chapter.sections` rule first, keyed on the chapter with the subsections ignored, so
+a chapter sorts to the same place whether or not its citation spells them out. **The rule is guarded
+by a comma test and must stay guarded**: a citation naming its own book, chapter and sections never
+contains a comma, while a fragment cited from an external source always does and ends in exactly the
+same shape - `(Odusia, in Gellius, Noctes Atticae III.16.11)`, `(Plocium, in Gellius, Noctes Atticae
+II.23.10)`. Without the guard those two works silently reorder the next time either is touched.
+Verified by keying every work in the bank with both functions: **91 of 92 identical**.
+
+**TRANSLATION VOCABULARY: *tela* are "projectiles", never "missiles"** (the user's call, v1.11.3) - a
+missile is a guided weapon and *telum* is anything thrown. Fixed in IV.33, II.25, III.13 and III.14.
+
 **COVERING ONLY PART OF A CHAPTER.** Declare it with `range`. Three of the v1.11.2 ten do:
 `I.1` "1-4" (sections 5-7 are a river-boundary survey), `I.53` "1-7" (section 8 is a one-line coda
 about Metius that would blunt the ending), `I.40` "10-15" (the chapter is 15 sections long and only

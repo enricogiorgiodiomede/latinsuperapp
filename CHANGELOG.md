@@ -151,10 +151,65 @@ last two travel with the Book V batch.
 - Every excerpt in this batch covers its whole chapter, so no `range` was needed anywhere; `IV.14-15`
   is the only chapter-spanning one and uses `sectionFiles`.
 
-Verification: **243 verbatim, 0 mismatched**; `lint_translations.js` **364 checked, 3 to look at**
-(the same known-good three); `lint_markdown.js` **2108 lines, 0 leaking**. All 26 Caesar/Hirtius
-fragments machine-checked to carry the same chapter markers and the same subsection numbers, in
-order, across Latin, English and Italian. Cache-bust: `?v=123` -> `?v=124`.
+### Follow-up, same day: citations, *tela*, and eight analysis notes
+
+- **A citation now names its subsections whenever the excerpt does not cover the whole chapter.**
+  Three do not: `(De Bello Gallico I.1.1-4)`, `(De Bello Gallico I.40.10-15)` and
+  `(De Bello Gallico I.53.1-7)`. Every other Caesar excerpt was audited against the cached Perseus
+  section counts and runs from section 1 to the chapter's last, so none of them declares anything.
+- **`firstSection` in `tools/apply_batch.js` gained a rule for the three-part form, and it had to.**
+  `(De Bello Gallico I.40.10-15)` cannot match the book-aware rule, so it would have fallen through
+  to the plain-digits rule and sorted on **10** instead of on chapter 40 - Book I would have come out
+  as 1, 53, 40, 13, 29, 39. The new rule keys on the chapter and ignores the subsections, so a
+  chapter sorts to the same place whether or not its citation spells them out. **It is guarded by a
+  comma test:** a citation naming its own book, chapter and sections never contains a comma, while a
+  fragment cited from an external source always does and ends in the same shape
+  (`(Odusia, in Gellius, Noctes Atticae III.16.11)`). Without the guard this rule would silently
+  reorder Livius Andronicus and Caecilius the next time either was touched. Proved by keying every
+  work in the bank with the old and the new function: **91 of 92 order identically, and the one that
+  differs is Book I, which is the fix.**
+- ***Tela* is now rendered "projectiles", not "missiles"**, in the chariot passage and in the three
+  other places the same word had been translated the same way (II.25, III.13, III.14). A missile is
+  a guided weapon; *telum* is anything thrown.
+
+#### Added to the analyses
+- **III.13** - the trade Caesar is making: the more formidable the enemy, the larger the victory, so
+  nine sections admiring Venetic shipwrights are nine sections invested in his own dispatch, and the
+  effect is to leave the problem looking insoluble.
+- **III.14** - the hooked pole as a ***deus ex machina***, with the previous chapter built to make it
+  one: what saves the fleet arrives from outside the naval problem entirely, because it is siege
+  equipment, and Caesar gives the moment to the quartermaster's stores rather than to a general's
+  inspiration.
+- **IV.5** - the conclusion the paragraph never states: if a people cannot govern themselves, somebody
+  must do it for them, and there is already a Roman army in the country. Paired explicitly with VI.16.
+- **IV.14-15** - the release of the detained leaders as calculated *clementia*, placed immediately
+  after 430,000 deaths and answering the charge of treachery before it is made; the same instrument as
+  II.28, where the purpose clause *ut... videretur* gives the game away.
+- **IV.17** - what Roman military engineering could actually do, and a note on ***commemoravi***: the
+  *commentarii* keep a third-person Caesar who acts and a first-person narrator who is allowed to
+  speak only about the book, and the rule is never broken.
+- **IV.25** - the Tenth Legion, the only favourite Caesar ever admits to (I.40), living up in public
+  to the description he gave it, in a dispatch the army itself would read.
+- **IV.33** - this paragraph and the Book VI digressions are very nearly all anyone knows about these
+  peoples, who left no literature of their own; the only comparable document is Tacitus's *Germania*,
+  which has the same problem in sharper form.
+- **VI.21** - the *Germania* again, as anticipation: much of its architecture is already here, and
+  Tacitus had almost certainly read this chapter.
+
+#### Fixed in the analyses
+- **VI.16 - the Forum Boarium claim was misleading and is corrected.** It had implied that a Roman
+  audience would be unshocked because Rome had done the same within living memory. In fact Romans
+  regarded those burials with revulsion and treated them as an emergency aberration, and **a decree of
+  the Senate outlawed human sacrifice outright in 97 BC** - forty years before this was written. That
+  makes the passage sharper, not blunter: Caesar's readers had just legislated against precisely what
+  he describes, and the note now says so and identifies the chapter as probably the strongest
+  self-justification in the work, exactly because he adds nothing to it.
+
+Verification after the follow-up: **243 verbatim, 0 mismatched**; `lint_translations.js` **364
+checked, 3 to look at** (the same known-good three); `lint_markdown.js` **2108 lines, 0 leaking**.
+All 26 Caesar/Hirtius fragments machine-checked to carry the same chapter markers and the same
+subsection numbers, in order, across Latin, English and Italian, and all 23 Caesar excerpts
+audited against the cached section counts for the citation rule. Cache-bust: `?v=123` -> `?v=125`.
 
 ## [1.11.2] - 2026-09-01
 

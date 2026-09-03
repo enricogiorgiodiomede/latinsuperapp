@@ -127,6 +127,22 @@ const firstSection = (f) => {
   // The (?:-\d+)? is for a citation that ends on a RANGE - "(De Oratore
   // I.16-18)". Without it the book-aware branch misses, the plain-digits rule
   // below picks up 16, and De Oratore III.5 would sort ahead of I.16.
+  // A citation that names its SUBSECTIONS as well, because the excerpt does not
+  // cover the whole chapter - "(De Bello Gallico I.40.10-15)". This has to be
+  // tried FIRST: the book-aware rule below cannot match three numeric parts, so
+  // the citation would fall through to the plain-digits rule and sort on the
+  // subsection instead of the chapter, putting I.1.1-4 and I.40.10-15 at 1 and
+  // 10. The key deliberately ignores the subsection, so a chapter sorts to the
+  // same place whether or not the citation spells its sections out.
+  // The comma test matters. A citation that names its own book, chapter and
+  // sections never has one - "(De Bello Gallico I.40.10-15)" - while a
+  // fragment cited from an external source always does, and those end in the
+  // same shape: "(Odusia, in Gellius, Noctes Atticae III.16.11)". Without the
+  // test this rule would capture the source reference and silently reorder
+  // Livius Andronicus and Caecilius the next time either is touched.
+  const t = f.citation.indexOf(',') === -1
+    && f.citation.match(/([IVXLCDM]+)\.(\d+)\.(\d+)(?:-\d+)?\)$/);
+  if (t) return romanToInt(t[1]) * 100000 + parseInt(t[2], 10) * 10;
   const l = f.citation.match(/([IVXLCDM]+)\.(\d+)(?:-\d+)?([a-z]?)\)$/);
   if (l) return romanToInt(l[1]) * 100000 + parseInt(l[2], 10) * 10 + (l[3] ? 1 : 0);
   const m = f.citation.match(/(\d+)(?:-\d+)?\)$/);
