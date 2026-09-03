@@ -167,6 +167,69 @@ Verification: **252 verbatim, 0 mismatched**; `lint_translations.js` **373 check
 fragments machine-checked to carry the same chapter markers and the same subsection numbers, in
 order, across Latin, English and Italian. Cache-bust: `?v=125` -> `?v=126`.
 
+### Follow-up, same day: the proofreading pass
+
+No new excerpts, no version bump. Bank stays at **405** and `verify.js` at **252 verbatim, 0
+mismatched**; version tags untouched.
+
+#### Added - context the chapters assume you have
+- **`V.7`, who Dumnorix was and why he ran.** An Aeduan - Rome's oldest allies in Gaul, *fratres
+  consanguineique populi Romani* - the richest man in the state, brother of Diviciacus, and already
+  caught helping the Helvetii in Book I and forgiven at his brother's request. He did not leave at
+  random: Caesar was shipping the leading men of Gaul to Britain so that no rising could be organised
+  in his absence, and Dumnorix spent weeks pleading religious duty and fear of the sea, then told the
+  other chiefs Caesar meant to kill them all overseas, and finally bolted while everyone was
+  embarking. **He was a hostage refusing to be one.**
+- **`V.27`, who Ambiorix was.** Joint king of the Eburones with Catuvolcus, a client who owed Caesar
+  relief from tribute and the return of his own son and nephew - which is why the speech must open
+  with gratitude before it can do anything else. Also the most successful enemy Caesar ever had: he
+  destroyed fifteen cohorts, was never caught, and crossed the Rhine with four horsemen.
+  **And an identification: the Cicero of section 9 is *Quintus*, the orator's younger brother**, and
+  the man besieged at V.48.
+- **`V.30`, what was actually being argued.** The council is deciding whether to believe Ambiorix, and
+  Sabinus's entire evidence is the speech at V.27 - no scout, no prisoner, no second source, no word
+  from another camp.
+- **`V.37`, three notes.** The **irony**: the man who made the loud speech about accountability at
+  V.30 walks unarmed into a parley and is killed mid-conversation, the colleague he overruled dies
+  fighting, and the best conduct belongs to Petrosidius, who holds no command. The **silence**: Caesar
+  never mentions that the legions were wintering apart because he had dispersed them, which is the
+  clearest example in the seven books of what the *commentarii* filter out. The **reprisal**: 53 BC was
+  given over to destroying the Eburones, with the neighbouring peoples invited in to do the plundering
+  so that the destruction was carried out by Gauls.
+- **`V.48`, the Nervii.** The camp is *in Nerviorum fines* and the besiegers are the people spared at
+  II.28, when they were down to three senators out of six hundred. **The *clementia* of Book II has a
+  bill, and this is where it is presented.**
+- **`VI.11`, the Aedui, and a contrast with the first sentence of the work.** *Gallia est omnis divisa
+  in partes tres* is a division **Caesar performs**; *omnes civitates in partes divisae sunt duas* is
+  one **the Gauls have already made**. The second is the one that governs how the country behaves, and
+  it is *divide et impera* with the first half done for him - he has only to pick a side and be needed
+  by it, which is literally how the war begins with the Aeduan appeal of 58 BC.
+
+#### Fixed
+- **`V.27`: the description and the analysis contradicted each other** - one said almost nothing in
+  the speech was true, the other that everything was. Both now give the same answer, which is more
+  useful than either: the **checkable** claims are true (the favours; the coordinated conspiracy, which
+  was about to be confirmed all over Gaul), and that is exactly what buys belief for the two
+  **inventions**, the German army and the safe conduct.
+- **`VI.28`: *Hos studiose foveis captos interficiunt* had drifted into section 3** in both
+  translations. It is back in section 2, where the Latin has it.
+- **`V.14`: the app now prints *Uxores*, not *Vxores*.** The capital V is the ancient convention - the
+  Roman alphabet had no letter U - but it reads as a typo, so it is now a **declared emendation**:
+  `verify.js` puts the source's spelling back before comparing, so nothing is taken on trust. The
+  analysis note was rewritten to say what the app does rather than only what the source does.
+- **Italian: *perche apparisse aver usato misericordia* -> *affinche apparisse DI aver usato
+  misericordia*.** The clause is final, so *affinche* also removes the causal reading, and the missing
+  *di* is required. Fixed in the II.27-28 translation and in the three analyses that quote it (II.27-28,
+  III.16, IV.14-15). **The same fault was found in a Cicero excerpt while sweeping for it** and fixed
+  there too: `(In Catilinam IV.19)`, *ma perche la mia voce... apparisse aver compiuto* -> *ma affinche
+  la mia voce... apparisse di aver compiuto*.
+- **`VI.14`: a claim withdrawn.** The analysis stated that Cicero's description of a real druid, at
+  *De Divinatione* I.90, was already in this app. **It is not.** The reference stands - it is the one
+  place a named druid is described by someone who met him - but the claim about the app is gone.
+  Recorded in the reference sheet as a candidate should *De Divinatione* ever be extended.
+
+Cache-bust for the follow-up: `?v=126` -> `?v=127`.
+
 ## [1.11.3] - 2026-09-01
 
 **THE SECOND DE BELLO GALLICO BATCH: Book III (3), Book IV (5) and a Book VI top-up (2).** Bank
