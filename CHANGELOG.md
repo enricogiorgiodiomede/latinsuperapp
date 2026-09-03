@@ -151,7 +151,10 @@ last two travel with the Book V batch.
 - Every excerpt in this batch covers its whole chapter, so no `range` was needed anywhere; `IV.14-15`
   is the only chapter-spanning one and uses `sectionFiles`.
 
-### Follow-up, same day: citations, *tela*, and eight analysis notes
+### Follow-up, 2026-09-03: citations, *tela*, and eight analysis notes
+
+*Two days after the release, so v1.11.3 keeps its own date of 01/09 rather than being re-stamped
+from this commit. No new excerpts, and no version bump.*
 
 - **A citation now names its subsections whenever the excerpt does not cover the whole chapter.**
   Three do not: `(De Bello Gallico I.1.1-4)`, `(De Bello Gallico I.40.10-15)` and
