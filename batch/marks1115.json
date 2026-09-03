@@ -1,0 +1,16 @@
+{
+  "_comment": "v1.11.5 - subsection markers for the Latin of the nine Book VII excerpts. Translations were written with their markers already in place and mark_sections.js skips a field that carries them. Boundaries from Perseus (CTS phi0448.phi001), word-exact. Eight are whole chapters; VII.77 takes sections 12-16 only and declares it with `range`, which is also why its citation names them. Two anchors need `overrides`: Perseus prints `Vbi` at VII.3.1 and VII.28.2 where the app now prints `Ubi`, so the anchor has to be respelled to match the app's text rather than the edition's. VII.73.2 needs one for a different reason: Perseus divides `Qua re` where the Latin Library writes `Quare`, and the matcher works on whole words.",
+
+  "(De Bello Gallico VII.3)":  { "author": "gaius-julius-caesar", "work": "bg-vii", "sections": "phi0448.phi001.7.3.json",
+                                 "overrides": { "1": "Ubi ea dies venit, Carnutes" } },
+  "(De Bello Gallico VII.4)":  { "author": "gaius-julius-caesar", "work": "bg-vii", "sections": "phi0448.phi001.7.4.json" },
+  "(De Bello Gallico VII.14)": { "author": "gaius-julius-caesar", "work": "bg-vii", "sections": "phi0448.phi001.7.14.json" },
+  "(De Bello Gallico VII.15)": { "author": "gaius-julius-caesar", "work": "bg-vii", "sections": "phi0448.phi001.7.15.json" },
+  "(De Bello Gallico VII.28)": { "author": "gaius-julius-caesar", "work": "bg-vii", "sections": "phi0448.phi001.7.28.json",
+                                 "overrides": { "2": "Ubi neminem in aequum locum" } },
+  "(De Bello Gallico VII.52)": { "author": "gaius-julius-caesar", "work": "bg-vii", "sections": "phi0448.phi001.7.52.json" },
+  "(De Bello Gallico VII.73)": { "author": "gaius-julius-caesar", "work": "bg-vii", "sections": "phi0448.phi001.7.73.json",
+                                 "overrides": { "2": "Quare ad haec rursus opera" } },
+  "(De Bello Gallico VII.77.12-16)": { "author": "gaius-julius-caesar", "work": "bg-vii", "sections": "phi0448.phi001.7.77.json", "range": "12-16" },
+  "(De Bello Gallico VII.89)": { "author": "gaius-julius-caesar", "work": "bg-vii", "sections": "phi0448.phi001.7.89.json" }
+}

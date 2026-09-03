@@ -1006,8 +1006,14 @@ the real risk at this volume.
 - **BG III**: 13 · 14 · 16
 - **BG IV**: 5 · 14-15 · 17 · 25 · 33
 - **BG V**: 7 · 14 · 27 · 30 · 37 · 44 · 48
-- **BG VI**: 11 · 13 · 14 · 16 · 21 · 28 · **BC I**: 7 · **DBG VIII**: praefatio · **BA**: 1, 2
-- Running total **35**. Books I (6), II (4), III (3), IV (5), V (7) and VI (6) are **all closed at allocation**. Still owed for the Gallic War: **Book VII (9)** only.
+- **BG VI**: 11 · 13 · 14 · 16 · 21 · 28
+- **BG VII**: 3 · 4 · 14 · 15 · 28 · 52 · 73 · 77 (sections 12-16 only) · 89
+- **BC I**: 7 · **DBG VIII**: praefatio · **BA**: 1, 2
+- Running total **44**. **THE GALLIC WAR IS COMPLETE at its allocated 40**, all seven books closed (6/4/3/5/7/6/9). What remains of the campaign is the **Civil War (29 new)** and **Hirtius (42 new)**.
+
+**SOURCE FAULTS IN `gall7`:** **VII.52.2 prints `Euit` for `Exposuit`** - the head of the verb has dropped out and `Euit` is not a word; emended. **VII.3.1 and VII.28.2 print `Vbi`**, the ancient capital V for U; the app prints `Ubi`, following the `Vxores` -> `Uxores` precedent, and both are declared emendations so verify still checks the source spelling.
+
+**A THIRD KIND OF `overrides` CASE, worth knowing before the next batch:** it is not only variant readings and respellings. **Perseus divides `Qua re` at VII.73.2 where the Latin Library writes `Quare`.** The matcher folds and compares WHOLE WORDS, so a difference in word division defeats it exactly as a different word would, and the fix is the same - an `overrides` entry giving the source's own wording.
 
 **SOURCE DEFECTS IN `gall5` AND `gall6`:** **V.27.2 prints `apud in servitute`**, dropping a word, emended to `apud se in servitute`. **VI.11.4 prints `contra potentio rem`**, splitting a word across a space, emended to `contra potentiorem`. **V.44.3 prints a space after the opening quotation mark and before the question mark** (`" Vorene? ... exspectas ?`) - source STYLE that `normalise()` cancels, so a `fix`, not an emendation. **V.14.4 prints `Vxores` with a capital V** - the ancient convention (the Roman alphabet had no letter U), not an error, but it reads as a typo, so since the v1.11.4 follow-up the app prints **`Uxores`** as a **declared emendation** and `verify.js` still checks it against the source spelling.
 

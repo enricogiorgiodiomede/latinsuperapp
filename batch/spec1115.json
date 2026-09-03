@@ -1,0 +1,13 @@
+{
+  "_comment": "v1.11.5 - the fourth and last De Bello Gallico batch: Book VII (9), which finishes the Gallic War at its allocated 40. Eight are whole chapters; VII.77 takes sections 12-16 only, the proposal and the indictment of Rome, and its citation says so. Source defects: VII.52.2 prints `Euit` for `Exposuit`, and VII.3.1 and VII.28.2 print `Vbi` with the ancient capital V for U (as does Perseus) - all three emended, the last two for the same reason `Vxores` became `Uxores` in v1.11.4.",
+
+  "bg.7.3":  ["gall7", "Vbi ea dies venit, Carnutes", "circiter centum LX."],
+  "bg.7.4":  ["gall7", "Simili ratione ibi Vercingetorix", "magnitudine poenae perterreant alios."],
+  "bg.7.14": ["gall7", "Vercingetorix tot continuis incommodis", "quae sit necesse accidere victis."],
+  "bg.7.15": ["gall7", "Omnium consensu hac sententia probata", "Defensores oppido idonei deliguntur."],
+  "bg.7.28": ["gall7", "Hostes re nova perterriti", "pars castrorum ab initio obvenerat."],
+  "bg.7.52": ["gall7", "Postero die Caesar contione advocata", "atque animi magnitudinem desiderare."],
+  "bg.7.73": ["gall7", "Erat eodem tempore et materiari", "quos stimulos nominabant."],
+  "bg.7.77": ["gall7", "Quid ergo mei consili est?", "perpetua premitur servitute.\""],
+  "bg.7.89": ["gall7", "Postero die Vercingetorix concilio convocato", "capita singula praedae nomine distribuit."]
+}

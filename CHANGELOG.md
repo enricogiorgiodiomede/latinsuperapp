@@ -108,6 +108,61 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.11.5] - TBD
+
+**BOOK VII, AND THE GALLIC WAR IS FINISHED.** Nine excerpts; bank **405 -> 414**; `verify.js`
+**252 -> 261 verbatim, 0 mismatched**, a rise of exactly nine. Caesar is at **41** - **all seven books
+of the Bellum Gallicum closed at their allocated 40**, plus the one Civil War fragment that has been
+there since launch. The Gallic War half of the campaign is complete.
+
+### Added
+- `VII.3` the massacre at Cenabum and the shouting relay - **a hundred and sixty Roman miles between
+  sunrise and the end of the first watch**, about 20 km/h by voice alone. Read against IV.5, where
+  the same national habit was evidence that Gaul could not govern itself.
+- `VII.4` **Vercingetorix**, the only extended portrait of an enemy commander in the work: a father
+  killed by his own state for aiming at kingship, an expulsion, an army of *egentes ac perditi*, a
+  return, a crown - and *summae diligentiae summam imperi severitatem addit*, fire and torture for a
+  serious offence, an ear or an eye for a lesser one.
+- `VII.14` the scorched-earth council, **the best strategic thinking anyone does in the seven books**,
+  and it belongs to the enemy. Five gerundives carry it, including *incendi oportere* twice.
+- `VII.15` more than twenty towns burned in a day, and the Bituriges *procumbunt ad pedes* to save
+  Avaricum. *Datur petentibus venia dissuadente primo Vercingetorige, post concedente* - the one
+  argument he loses, in two ablative absolutes.
+- `VII.28` the storming of Avaricum. ***Nec fuit quisquam, qui praedae studeret*** - an army that
+  forgets to loot - then 40,000 to 800, and a last section in which **Vercingetorix**, not Caesar,
+  quietly manages the survivors in the dark.
+- `VII.52` the assembly after Gergovia, the one battle Caesar clearly lost: *quanto opere... tanto
+  opere*, praise first so the rebuke lands, and the plan never mentioned.
+- `VII.73` the Alesia traps, and the reason they exist - *quo minore numero militum munitiones
+  defendi possent*. **Caesar records the soldiers' nicknames**: *cippi*, *lilia*, *stimuli*.
+- `VII.77.12-16` **Critognatus** - the only enemy speech quoted in direct discourse in the whole work,
+  flagged by Caesar himself *propter eius singularem et nefariam crudelitatem*. Cannibalism proposed
+  in section 12; the sharpest indictment of Roman imperialism in Latin prose in sections 14 to 16.
+- `VII.89` the surrender, in four clauses and two agentless passives: *Vercingetorix deditur, arma
+  proiciuntur*. Then *capita singula*, one prisoner per soldier.
+
+### Fixed
+- **`VII.52.2`: the Latin Library prints *Euit quid iniquitas loci posset***, which is not a word -
+  the head of the verb has dropped out. Emended to *Exposuit* and recorded on the fragment.
+- **`VII.3.1` and `VII.28.2` print *Vbi***, the ancient capital V for U. The app prints *Ubi*, as it
+  prints *Uxores* at V.14 since the v1.11.4 follow-up, and both are recorded as declared emendations
+  so `verify.js` still checks against the source spelling.
+
+### Notes on the source
+- **`VII.77` is the only excerpt in the batch that is not a whole chapter**, so its citation names its
+  sections. It begins in the middle of the speech, and therefore ends on a closing quotation mark
+  whose partner is nine sections earlier; the analysis says so.
+- **`tools/mark_sections.js` needed three `overrides`.** Two are the *Vbi*/*Ubi* respellings, since
+  the anchor must match the app's text and not the edition's. The third is different in kind and
+  worth remembering: **Perseus divides *Qua re* at VII.73.2 where the Latin Library writes *Quare***,
+  and the matcher works on whole words, so a word-division difference defeats it exactly as a variant
+  reading would.
+
+Verification: **261 verbatim, 0 mismatched**; `lint_translations.js` **382 checked, 3 to look at**
+(the same known-good three); `lint_markdown.js` **2198 lines, 0 leaking**. All 44 Caesar/Hirtius
+fragments machine-checked to carry the same chapter markers and the same subsection numbers, in
+order, across Latin, English and Italian. Cache-bust: `?v=128` -> `?v=129`.
+
 ## [1.11.4] - 2026-09-03
 
 **THE THIRD DE BELLO GALLICO BATCH: Book V (7) and the last two of Book VI.** Bank **396 -> 405**;

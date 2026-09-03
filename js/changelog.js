@@ -12,6 +12,39 @@
 
   var VERSIONS = [
     {
+      v: '1.11.5', date: 'TBD', time: 'TBC', tz: 'CEST',
+      en: {
+        added: [
+          'Nine excerpts from Book VII, and with them the Gallic War is finished: all seven books are in, forty excerpts, and Caesar is the second-largest author in the app.',
+          'Book VII is the great revolt of 52 BC and it is the best of the seven. It opens with the murder of the Roman traders at Cenabum and the news of it crossing a hundred and sixty miles before nightfall, relayed by men shouting to each other across fields. Then the only real portrait of an enemy commander in the whole work: Vercingetorix, thrown out of his own town by his uncle, raising an army out of the destitute, marching back, being made king, and holding his coalition together by burning men alive and sending others home with an eye put out.',
+          'Then the strategy that nearly won it. Vercingetorix tells a council that the Romans must be starved rather than fought, and that this means burning their own country: more than twenty towns go up in a single day. The Bituriges beg on their knees to keep one of them, the beautiful city of Avaricum. He argues against it and gives way - the one argument he loses - and thirteen chapters later the Romans take Avaricum and kill everyone in it. Of forty thousand people, eight hundred got out.',
+          'Then the two sieges. After Gergovia, the one battle Caesar clearly lost in Gaul, he calls the army together and explains that the defeat was theirs. At Alesia he builds twenty-five kilometres of works in a month, and the excerpt here is about the traps in front of them, which the soldiers who dug them nicknamed tombstones, lilies and goads. Inside the town, a starving council listens to a man propose that they eat the old - and then deliver the sharpest attack on Roman imperialism anywhere in Latin. It is the only enemy speech Caesar ever quotes in full, and he tells you in advance that he is printing it because of its wicked cruelty.',
+          'And then the surrender, in five sections with no adjectives at all: Caesar sits down in front of the camp, the commanders are brought out, Vercingetorix is handed over, the weapons are thrown down. The famous scene with the armour and the horse is Plutarch\'s, written a century and a half later. The man who was there did not think it worth a sentence.'
+        ],
+        changed: [
+          'Three faults in the source text of Book VII are corrected and recorded: one word had lost its beginning, and two others are printed with the ancient capital V for U, which the app now spells with a U as it does elsewhere.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Nove brani dal libro VII, e con essi la guerra gallica è finita: ci sono tutti e sette i libri, quaranta brani, e Cesare è il secondo autore dell\'app per numero di passi.',
+          'Il libro VII è la grande rivolta del 52 a.C. ed è il migliore dei sette. Si apre con l\'uccisione dei mercanti romani a Cenabum e con la notizia che percorre centosessanta miglia prima di sera, trasmessa da uomini che si gridano l\'un l\'altro attraverso i campi. Poi l\'unico vero ritratto di un comandante nemico in tutta l\'opera: Vercingetorige, cacciato dalla sua stessa città dallo zio, che raduna un esercito fra i disperati, torna indietro, viene fatto re e tiene insieme la coalizione bruciando vivi gli uomini e rimandandone a casa altri con un occhio cavato.',
+          'Poi la strategia che per poco non vinse. Vercingetorige spiega a un consiglio che i Romani vanno affamati e non affrontati, e che questo significa bruciare il proprio paese: più di venti città vanno a fuoco in un giorno solo. I Biturigi supplicano in ginocchio di risparmiarne una, la bellissima Avarico. Lui è contrario e cede - l\'unica discussione che perde - e tredici capitoli dopo i Romani prendono Avarico e uccidono tutti. Di quarantamila persone, ne uscirono ottocento.',
+          'Poi i due assedi. Dopo Gergovia, l\'unica battaglia che in Gallia Cesare abbia chiaramente perso, riunisce l\'esercito e spiega che la sconfitta è dei soldati. Ad Alesia costruisce venticinque chilometri di opere in un mese, e il brano qui riguarda le trappole poste davanti, che i soldati che le scavarono soprannominarono cippi, gigli e pungoli. Dentro la città un consiglio affamato ascolta un uomo proporre di mangiare i vecchi, e poi pronunciare l\'attacco più tagliente all\'imperialismo romano che esista in latino. È l\'unico discorso nemico che Cesare citi per intero, e vi premette che lo stampa per la sua scellerata crudeltà.',
+          'E poi la resa, in cinque paragrafi senza un solo aggettivo: Cesare siede davanti all\'accampamento, i comandanti vengono condotti fuori, Vercingetorige viene consegnato, le armi vengono gettate. La scena celebre con l\'armatura e il cavallo è di Plutarco, scritta un secolo e mezzo dopo. Chi era presente non la ritenne degna di una frase.'
+        ],
+        changed: [
+          'Tre difetti del testo di partenza del libro VII sono corretti e registrati: una parola aveva perso l\'inizio, e altre due sono stampate con l\'antica V maiuscola al posto della U, che l\'app ora scrive con la U come fa altrove.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.11.4', date: '03/09/2026', time: '21:05', tz: 'CEST',
       en: {
         added: [
