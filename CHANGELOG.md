@@ -108,6 +108,65 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.11.4] - TBD
+
+**THE THIRD DE BELLO GALLICO BATCH: Book V (7) and the last two of Book VI.** Bank **396 -> 405**;
+`verify.js` **243 -> 252 verbatim, 0 mismatched**, a rise of exactly nine. Caesar is at **32**.
+**Book VI closes at its allocated 6**, and only **Book VII (9)** is left to finish the Gallic War at 40.
+
+### Added
+- **De Bello Gallico V - 7, the bad year.** `V.7` Dumnorix killed shouting *liberum se liberaeque esse
+  civitatis*, the only time a Gaul is allowed to state the case against Rome; `V.14` the British
+  ethnography, woad and shared wives; `V.27` Ambiorix's speech, **eleven sections of unbroken *oratio
+  obliqua*** and the hardest continuous Latin in the campaign so far; `V.30` the quarrel between
+  Sabinus and Cotta, with the clause that convicts the speaker - *et id clariore voce, ut magna pars
+  militum exaudiret*; `V.37` the destruction of fifteen cohorts, Sabinus killed under a truce that
+  Ambiorix spins out *consulto*, Cotta *pugnans interficitur*, and Petrosidius throwing the eagle back
+  inside the rampart; `V.44` **Pullo and Vorenus**, told in twenty clauses of historic present;
+  `V.48` the letter in Greek characters tied to a javelin.
+- **De Bello Gallico VI - the last 2, closing the book.** `VI.11` the factions in every state and
+  almost every household, whose last sentence explains how the country was taken; `VI.28` the aurochs,
+  **the only chapter in seven books with no Roman in it**.
+
+### Changed
+- **The two launch-era druid excerpts get the historical layer the newer entries have.** `VI.13` and
+  `VI.14` had two paragraphs each, both purely grammatical. Four more paragraphs between them now
+  cover: that these two chapters are very nearly the whole ancient record of the druids; that Caesar's
+  Gaul has a priesthood, a knightly order and a commons and therefore reproduces the Roman
+  constitution, which a reader should hold lightly; the tension between the pan-Gallic assembly of the
+  Carnutes and the divided Gaul of VI.11; the refusal to write as the reason no druidic literature
+  exists; the Vedic parallel for a twenty-year oral curriculum; why *volunt persuadere* does not quite
+  license the usual Pythagoras comparison; and **Diviciacus the Aeduan, Caesar's closest Gallic ally,
+  who was a druid** - attested not by Caesar but by Cicero at *De Divinatione* I.90, which is already
+  in this app. **Version tags stay at `1.0.0`**: `version` means first-added, never last-edited.
+
+### Changed - tooling
+- **`tools/mark_sections.js` takes `overrides`**, a map from section number to a replacement anchor.
+  It is for the one case the shortest-prefix rule cannot rescue: the numbered edition and the Latin
+  Library differ on a section's *first* words, so even a three-word anchor matches nothing. `V.7.3` is
+  the example - Perseus opens it *quod Carus ventus*, the Latin Library *quod Corus ventus*, both real
+  spellings of the north-west wind. The override supplies the source's own wording and the boundary
+  still comes from the edition; **no text is emended for a variant that is not an error**.
+
+### Fixed
+- **`(De Bello Gallico V.27)`: the Latin Library prints *apud in servitute*, dropping a word.**
+  Emended to *apud se in servitute* and recorded on the fragment.
+- **`(De Bello Gallico VI.11)`: the Latin Library prints *contra potentio rem*,** splitting a word
+  across a space. Emended to *contra potentiorem* and recorded.
+
+### Notes on the source
+- **`(De Bello Gallico V.44)` prints a space after the opening quotation mark and before the question
+  mark** (*" Vorene? ... exspectas ?*). Reconciled with a `fix`, which `normalise()` already cancels;
+  no word is changed.
+- **`(De Bello Gallico V.14)` prints *Vxores* with a capital V.** That is not an error but the ancient
+  convention - the Roman alphabet had no letter U - so it stays verbatim and is explained in the
+  analysis.
+
+Verification: **252 verbatim, 0 mismatched**; `lint_translations.js` **373 checked, 3 to look at**
+(the same known-good three); `lint_markdown.js` **2153 lines, 0 leaking**. All 35 Caesar/Hirtius
+fragments machine-checked to carry the same chapter markers and the same subsection numbers, in
+order, across Latin, English and Italian. Cache-bust: `?v=125` -> `?v=126`.
+
 ## [1.11.3] - 2026-09-01
 
 **THE SECOND DE BELLO GALLICO BATCH: Book III (3), Book IV (5) and a Book VI top-up (2).** Bank

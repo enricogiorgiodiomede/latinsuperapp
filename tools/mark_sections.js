@@ -107,6 +107,16 @@ function anchorsFor(spec, label) {
   } else {
     all = fromCache(spec.sections, label);
   }
+  // `overrides` replaces one section's anchor by number. It is for the case the
+  // shortest-prefix rule cannot rescue: the numbered edition and the Latin
+  // Library differ on the section's very FIRST words, so even a three-word
+  // anchor matches nothing. V.7.3 is the example - Perseus opens it `quod Carus
+  // ventus`, the Latin Library `quod Corus ventus`, both real spellings of the
+  // north-west wind. The override supplies the source's own wording; the
+  // boundary still comes from the edition.
+  if (spec.overrides) {
+    all = all.map(s => (spec.overrides[s.n] ? { n: s.n, anchor: spec.overrides[s.n] } : s));
+  }
   // An excerpt rarely runs to the end of a chapter, and the sections it stops
   // short of must be dropped explicitly - silently ignoring an anchor that does
   // not match would be exactly the guess this tool exists to refuse.

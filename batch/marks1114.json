@@ -1,0 +1,16 @@
+{
+  "_comment": "v1.11.4 - subsection markers for the Latin of the nine new excerpts. The translations were written with their markers already in place and mark_sections.js skips a field that carries them. Boundaries from Perseus (CTS phi0448.phi001), word-exact. Every excerpt in this batch is a whole chapter, so there is no `range` and no `sectionFiles` anywhere, and no citation names its subsections.",
+
+  "(De Bello Gallico V.7)":  { "author": "gaius-julius-caesar", "work": "bg-v", "sections": "phi0448.phi001.5.7.json",
+                              "_override": "Perseus opens section 3 `quod Carus ventus`, the Latin Library `quod Corus ventus` - both are real spellings of the north-west wind, so the anchor is respelled rather than the text emended.",
+                              "overrides": { "3": "quod Corus ventus navigationem impediebat" } },
+  "(De Bello Gallico V.14)": { "author": "gaius-julius-caesar", "work": "bg-v", "sections": "phi0448.phi001.5.14.json" },
+  "(De Bello Gallico V.27)": { "author": "gaius-julius-caesar", "work": "bg-v", "sections": "phi0448.phi001.5.27.json" },
+  "(De Bello Gallico V.30)": { "author": "gaius-julius-caesar", "work": "bg-v", "sections": "phi0448.phi001.5.30.json" },
+  "(De Bello Gallico V.37)": { "author": "gaius-julius-caesar", "work": "bg-v", "sections": "phi0448.phi001.5.37.json" },
+  "(De Bello Gallico V.44)": { "author": "gaius-julius-caesar", "work": "bg-v", "sections": "phi0448.phi001.5.44.json" },
+  "(De Bello Gallico V.48)": { "author": "gaius-julius-caesar", "work": "bg-v", "sections": "phi0448.phi001.5.48.json" },
+
+  "(De Bello Gallico VI.11)": { "author": "gaius-julius-caesar", "work": "bg-vi", "sections": "phi0448.phi001.6.11.json" },
+  "(De Bello Gallico VI.28)": { "author": "gaius-julius-caesar", "work": "bg-vi", "sections": "phi0448.phi001.6.28.json" }
+}

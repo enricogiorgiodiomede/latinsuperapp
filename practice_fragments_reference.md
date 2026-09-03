@@ -1005,8 +1005,13 @@ the real risk at this volume.
 - **BG II**: 1 · 20-21 · 25 · 27-28
 - **BG III**: 13 · 14 · 16
 - **BG IV**: 5 · 14-15 · 17 · 25 · 33
-- **BG VI**: 13 · 14 · 16 · 21 · **BC I**: 7 · **DBG VIII**: praefatio · **BA**: 1, 2
-- Running total **26**. Books I (6), II (4), III (3) and IV (5) are **closed at allocation**. Book VI is at 4 of 6. Still owed for the Gallic War: **Book V (7)**, **Book VI (+2)**, **Book VII (9)**.
+- **BG V**: 7 · 14 · 27 · 30 · 37 · 44 · 48
+- **BG VI**: 11 · 13 · 14 · 16 · 21 · 28 · **BC I**: 7 · **DBG VIII**: praefatio · **BA**: 1, 2
+- Running total **35**. Books I (6), II (4), III (3), IV (5), V (7) and VI (6) are **all closed at allocation**. Still owed for the Gallic War: **Book VII (9)** only.
+
+**SOURCE DEFECTS IN `gall5` AND `gall6`:** **V.27.2 prints `apud in servitute`**, dropping a word, emended to `apud se in servitute`. **VI.11.4 prints `contra potentio rem`**, splitting a word across a space, emended to `contra potentiorem`. **V.44.3 prints a space after the opening quotation mark and before the question mark** (`" Vorene? ... exspectas ?`) - source STYLE that `normalise()` cancels, so a `fix`, not an emendation. **V.14.4 prints `Vxores` with a capital V** - NOT an error: the Roman alphabet had no letter U, and the Latin Library keeps the ancient convention at the start of a sentence. Kept verbatim and explained in the analysis.
+
+**`mark_sections.js` HAS `overrides`** - a map from section number to a replacement anchor, for the one case the shortest-prefix rule cannot rescue: the numbered edition and the Latin Library differ on a section's FIRST words, so even a three-word anchor matches nothing. **V.7.3** is the example: Perseus opens it `quod Carus ventus`, TLL `quod Corus ventus`, both real spellings of the north-west wind. **Respell the anchor; do not emend the text.** A variant reading is not a defect, and the boundary still comes from the edition.
 
 **MORE SOURCE DEFECTS, this time in `gall4`:** **IV.17.1 prints `decrevat` for `decreverat`** (not a form), emended in v1.11.3 and recorded on the fragment. **IV.25.3 prints its opening quotation marks with a space after them** - `' desilite', inquit, ' milites` - which is source STYLE, not a defect: `normalise()` already strips whitespace after a quote, so it is reconciled with a `fix` and nothing is recorded. Editorial supplements in `gall3`, printed as the source prints them and explained in the analysis: **`[hae]`** and **`[saevire ventus coepisset et]`** at III.13.
 

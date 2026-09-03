@@ -1,0 +1,14 @@
+{
+  "_comment": "v1.11.4 - the third De Bello Gallico batch: Book V (7) and the last two of Book VI, which closes at its allocated 6. Every excerpt is a whole chapter, so no `range` is needed and no citation names its subsections. Two source defects to watch: `apud in servitute` for `apud se in servitute` at V.27, and `contra potentio rem` for `contra potentiorem` at VI.11 - both emended. V.14 prints `Vxores` with the Latin Library's capital V for U, which is an orthographic convention and not an error, so it stays verbatim and is explained in the analysis.",
+
+  "bg.5.7":  ["gall5", "Qua re cognita Caesar, quod tantum civitati Aeduae", "at equites Aedui ad Caesarem omnes revertuntur."],
+  "bg.5.14": ["gall5", "Ex his omnibus longe sunt humanissimi", "quo primum virgo quaeque deducta est."],
+  "bg.5.27": ["gall5", "Mittitur ad eos colloquendi causa", "Hac oratione habita discedit Ambiorix."],
+  "bg.5.30": ["gall5", "Hac in utramque partem disputatione habita", "aut ferro aut fame intereant."],
+  "bg.5.37": ["gall5", "Sabinus quos in praesentia tribunos militum", "eum de rebus gestis certiorem faciunt."],
+  "bg.5.44": ["gall5", "Erant in ea legione fortissimi viri", "uter utri virtute anteferendus videretur."],
+  "bg.5.48": ["gall5", "Caesar consilio eius probato", "omnem dubitationem adventus legionum expulit."],
+
+  "bg.6.11": ["gall6", "Quoniam ad hunc locum perventum est", "omnes civitates in partes divisae sunt duas."],
+  "bg.6.28": ["gall6", "Tertium est genus eorum, qui uri appellantur", "in amplissimis epulis pro poculis utuntur."]
+}

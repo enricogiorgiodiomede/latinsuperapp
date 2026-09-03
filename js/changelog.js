@@ -12,6 +12,37 @@
 
   var VERSIONS = [
     {
+      v: '1.11.4', date: 'TBD', time: 'TBC', tz: 'CEST',
+      en: {
+        added: [
+          'Nine more excerpts from the Gallic War: seven from Book V and the last two of Book VI, which is now complete. Caesar is up to 32, and only Book VII is left.',
+          'Book V is the bad year. It opens with Caesar killing an allied Gaulish noble who is shouting that he is a free man of a free state - the only time in seven books a Gaul is allowed to say what the war looks like from the other side. Then Britain, the woad and the shared wives. Then the winter, and the only disaster Caesar ever had to report: a chieftain talking a Roman legate into leaving his camp, the two commanding officers shouting at each other in front of the troops, and fifteen cohorts destroyed, with the eagle thrown back inside the rampart by a standard-bearer who then turned round to die.',
+          'And two things from the same winter that are not disasters. Two centurions who had spent years competing for the same promotion and spent one afternoon saving each other\'s lives, told in the present tense like a piece of film. And a letter to a besieged camp, written in Latin but in Greek characters so that an intercepted copy would be useless, tied to a javelin and thrown over the wall - where it stuck in a tower and nobody noticed it for two days.',
+          'Book VI closes with the two chapters that frame its great digression: the factions that split every state and almost every household in Gaul, and the aurochs of the Hercynian forest, a little smaller than an elephant, whose horns were rimmed with silver and drunk from at feasts. That last chapter is the only one in the seven books with no Roman in it anywhere.'
+        ],
+        changed: [
+          'The two druid excerpts, which have been in the app since it launched, had two paragraphs of analysis each and both were about grammar. They now have four more between them, on the history: that almost everything anyone knows about the druids comes from these two chapters, that the Gaul Caesar describes has a priesthood, a knightly order and a commons and therefore looks suspiciously like Rome, that the refusal to write anything down is the reason no druidic literature exists, and that Rome eventually banned the whole institution. There is also a connection worth having - Caesar\'s own closest Gaulish ally was a druid, and we know it from Cicero rather than from Caesar.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Altri nove brani dalla guerra gallica: sette dal libro V e gli ultimi due del libro VI, che ora è completo. Cesare arriva a 32, e resta soltanto il libro VII.',
+          'Il libro V è l\'anno brutto. Si apre con Cesare che fa uccidere un nobile gallo alleato mentre grida di essere un uomo libero di una città libera: l\'unica volta in sette libri in cui a un Gallo sia concesso di dire che aspetto abbia la guerra vista dall\'altra parte. Poi la Britannia, il guado e le mogli in comune. Poi l\'inverno, e l\'unico disastro che Cesare abbia mai dovuto riferire: un capo che convince un legato romano ad abbandonare l\'accampamento, i due comandanti che si urlano addosso davanti alla truppa, e quindici coorti distrutte, con l\'aquila rilanciata dentro il vallo da un portainsegne che poi si volta a morire.',
+          'E dallo stesso inverno due cose che disastri non sono. Due centurioni che avevano passato anni a contendersi la stessa promozione e passarono un pomeriggio a salvarsi la vita a vicenda, raccontati al presente come una sequenza di film. E una lettera a un accampamento assediato, scritta in latino ma con caratteri greci perché una copia intercettata risultasse inutile, legata a un giavellotto e scagliata oltre il muro, dove si conficcò in una torre e per due giorni nessuno la vide.',
+          'Il libro VI si chiude con i due capitoli che incorniciano la sua grande digressione: le fazioni che dividono ogni nazione e quasi ogni casa della Gallia, e l\'uro della selva Ercinia, poco più piccolo di un elefante, le cui corna venivano rivestite d\'argento e usate per bere nei banchetti. Quest\'ultimo capitolo è l\'unico dei sette libri in cui non compaia un Romano da nessuna parte.'
+        ],
+        changed: [
+          'I due brani sui druidi, presenti nell\'app fin dal lancio, avevano due paragrafi di analisi ciascuno ed entrambi parlavano di grammatica. Ora ne hanno quattro in più fra tutti e due, sulla storia: che quasi tutto ciò che si sa dei druidi viene da questi due capitoli; che la Gallia descritta da Cesare ha un sacerdozio, un ordine equestre e un popolo e somiglia dunque in modo sospetto a Roma; che il rifiuto di mettere per iscritto qualsiasi cosa è il motivo per cui non esiste una letteratura druidica; e che Roma finì per proibire l\'intera istituzione. C\'è anche un collegamento che vale la pena avere: il più stretto alleato gallo di Cesare era un druido, e lo sappiamo da Cicerone e non da Cesare.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.11.3', date: '01/09/2026', time: '22:52', tz: 'CEST',
       en: {
         added: [
