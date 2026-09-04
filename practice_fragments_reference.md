@@ -1078,6 +1078,20 @@ texts are checked to hold the same numbers in the same order. `mark_sections.js`
 `italian` anchor arrays next to `sections`; folding is language-aware (NFD diacritic strip for the
 modern languages, the u/j fold stays Latin-only), and an anchor list of the wrong length is refused.
 
+**AND CHECK THAT THE THREE TEXTS DIVIDE IN THE SAME PLACES, NOT MERELY IN THE SAME ORDER** - the
+user's rule, v1.11.5 follow-up. The earlier check compared the numbers and their sequence and was
+worth very little: **four of the nine Book VII excerpts had every marker in the right order and four
+of them in the wrong place**, because the Latin closed a section after two sentences and both
+translations closed it after one. That shifts the rest of the excerpt by a period, which is exactly
+the fault the numbers exist to prevent. **`tools/check_sections.js` is the check** - it compares each
+translated section against its Latin on how it ends (full stop, or mid-period on a comma, semicolon
+or colon) and on how many sentences it holds, and between them the two tests found all four, plus two
+older ones nobody had ever read for it (`V.27`, `V.48`). Run it on every batch that carries markers.
+Latin abbreviations (`ab X. legionis`, `C. Valerius`) are subtracted before counting, since the
+translations spell them out. Its `CLEARED` map holds the punctuation-choice false positives together
+with the exact set of flags each produced, so an edit that changes a cleared fragment's shape puts it
+back on the report rather than leaving it hidden.
+
 **WRITE THE TRANSLATION ANCHORS BY HAND. There is no shortcut.** A numbered edition can say where the
 Latin turns a corner; only a person can say where a translation turns it. Two of the six fragments
 have a section opening mid-sentence, where the marker lands inside a clause and the translation

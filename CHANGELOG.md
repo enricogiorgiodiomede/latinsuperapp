@@ -163,6 +163,100 @@ Verification: **261 verbatim, 0 mismatched**; `lint_translations.js` **382 check
 fragments machine-checked to carry the same chapter markers and the same subsection numbers, in
 order, across Latin, English and Italian. Cache-bust: `?v=128` -> `?v=129`.
 
+### Follow-up, same day: the Book VII proofreading pass
+
+No new excerpts, no version bump. Bank stays at **414** and `verify.js` at **261 verbatim, 0
+mismatched**; version tags untouched.
+
+#### Fixed - the subsection boundaries in the translations
+The user proofread the batch and found that **four of the nine excerpts divided their translations
+differently from the Latin**. In each case the Latin closed a section after two sentences and both
+translations closed it after one, so every section from there to the end of the excerpt was a period
+out of step. The markers were in the right order and carried the right numbers throughout, which is
+why the alignment check that already existed saw nothing.
+
+- **`VII.4`** - the shift starts at section 2 and compounds all the way to 10.
+- **`VII.14`** - sections 2 to 7.
+- **`VII.73`** - sections 2 to 8.
+- **`VII.89`**, the worst of the four: the Latin runs one period across the 1/2 boundary
+  (*...necessitatium, | sed communis libertatis causa demonstrat...*) and the translations closed
+  section 1 on it, leaving *Mittuntur de his rebus ad Caesarem legati* alone as section 2. Both
+  translations are resplit at the point the Latin divides; the other three needed no rewording at
+  all, only the markers moved.
+
+**Sweeping the rest of the bank for the same fault found two more, both older.** `V.27` had the
+second sentence of section 4 in section 5, and `V.48` had the last sentence of section 1 in section
+2. Neither had ever been read for this.
+
+#### Added - `tools/check_sections.js`
+The standing check the user asked for, and it is now step 6 of the pipeline. It compares each
+translated section against its Latin on two counts: **how it ends** (on a full stop, or mid-period on
+a comma, semicolon or colon) and **how many sentences it holds**. Between them the two tests caught
+all four of the reported faults and both of the older ones. Latin abbreviations are subtracted before
+counting, because `ab X. legionis` and `C. Valerius` are spelled out in translation and were flagging
+II.25 and I.53 for nothing.
+
+Thirteen fragments still flag, and all thirteen were read: every one is a punctuation choice, the
+Latin closing a section on a semicolon where the translation uses a full stop. They are recorded in
+the script's `CLEARED` map **with the exact set of flags each produced**, so a run is silent now, and
+an edit that changes a cleared fragment's shape puts it back on the report instead of leaving it
+hidden.
+
+#### Added - notes in the analysis of all nine
+- **`VII.3`**: the Cenabum massacre as the receipt. Caesar names the murdered knight and his public
+  commission because twenty-five chapters later the sack of Avaricum is justified by exactly this
+  chapter - *Cenabi caede et labore operis incitati*.
+- **`VII.4`**: **Vercingetorix as Catiline if Catiline had won** - the same vocabulary (*egentes ac
+  perditi*), the same sequence, and a rise from expulsion to kingship in a single season where Sulla
+  needed a civil war and Caesar would need ten years. Plus what the *brevitas* is doing: eight peoples
+  in eight words in section 6, sixteen main verbs in the chapter, one action per clause, so that the
+  unification of Gaul reads as effortless - which makes the man far better to have beaten.
+- **`VII.14`**: the scorched-earth plan is **Roman thinking** - Fabius against Hannibal - and Caesar's
+  answer to it is not a battle but twenty-five kilometres of engineering, which is why VII.73 exists.
+  Also that Vercingetorix is the only person in the seven books to get a full portrait *and* a speech.
+- **`VII.15`**: why giving way is understandable as well as ironic. He is a war leader by consent,
+  months old in the job, and has just talked the coalition into burning twenty of its own towns.
+- **`VII.28`**: the last section read as the answer to VII.15 - the same *misericordia vulgi*, handled
+  the other way, at night. The only visible learning curve any character in the work is given.
+- **`VII.52`**: named as procedure. The loss is never denied; the **cause** is redistributed - onto
+  the troops here, Sabinus at V.37, the tide at IV.29 - and the evidence that would point elsewhere is
+  never entered. And the cost of it: to make the defeat theirs he has to argue against *virtus*.
+- **`VII.73`**: **the two faces of Roman engineering** - the aqueduct, cut slowly to last centuries,
+  against twenty-five kilometres of ditch and trap thrown up in a month for one siege and then walked
+  away from; and the joke that the disposable one survived too, in the ground at Alise-Sainte-Reine.
+  What the traps did at the battle. And that *cippus*, *lilium* and *stimulus* have their military
+  senses only because he wrote them down - the same service the digressions of VI.11-28 perform for
+  Gaul and Germany, except that here the people being recorded are his own.
+- **`VII.77`**: cannibalism as the second half of the argument VI.16 began, made worse by Critognatus
+  himself calling the precedent *pulcherrimum* and *libertatis causa*. And **the Tacitus comparison**:
+  Calgacus gets *ubi solitudinem faciunt, pacem appellant* in the *Agricola* with no frame around it
+  and no refutation, because by then a Roman can make the charge against Rome. Caesar cannot, so the
+  case has to be spoken by somebody the reader has been told is a monster.
+- **`VII.89`**: **the ring closes on VII.28**. There nobody thought about plunder and forty thousand
+  people were killed; here the plunder is counted and handed out, and it is the people who were not
+  killed. Plus a rundown of chapter 90, which ends the book: the Aedui taken back, the legions into
+  winter quarters, Quintus Cicero back at a grain post, and *captivorum circiter viginti milia Aeduis
+  Arvernisque reddit* - the very prisoners held out of the distribution in section 5, spent as
+  intended. Then a thanksgiving of twenty days in Rome, from a Senate that would vote to take his army
+  away within three years.
+
+#### Fixed - two small things the user asked for
+- **`VII.15` into the historic present in English.** The chapter is written in it (*incenduntur*,
+  *fit*, *conspiciuntur*, *deliberatur*, *procumbunt*, *dicunt*, *datur*, *deliguntur*) and the
+  Italian already read that way. The genuine imperfects of section 2 stay past, as in the Latin.
+- **`VII.77` now opens with a quotation mark.** The excerpt starts nine sections into the speech, so
+  the source prints none at this point; it is supplied and **declared as an emendation**, and the note
+  on the text is rewritten to say so instead of explaining an unpartnered closing mark.
+
+#### Also
+`tools/README.md` now lists `check_sections.js`, `lint_markdown.js`, `mark_sections.js` and the two
+section fetchers, none of which had ever been added to the table, and the five-minute pipeline runs
+to seven steps.
+
+Verification: **261 verbatim, 0 mismatched**; `check_sections.js` **44 checked, 0 to look at, 13
+cleared**; `lint_translations.js` **382 checked, 3 to look at**; `lint_markdown.js` **2198 lines, 0
+leaking**. Cache-bust: `?v=129` -> `?v=130`.
+
 ## [1.11.4] - 2026-09-03
 
 **THE THIRD DE BELLO GALLICO BATCH: Book V (7) and the last two of Book VI.** Bank **396 -> 405**;

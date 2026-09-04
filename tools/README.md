@@ -13,6 +13,8 @@ node tools/extract.js batch/spec.json batch/passages.json    # 2. pull passages 
 node tools/apply_batch.js batch/passages.json batch/frags.js 1.7.1   # 3. write them into the bank
 node tools/verify.js                                         # 4. prove every Latin field is verbatim
 node tools/lint_translations.js                              # 5. and that each translation covers exactly it
+node tools/check_sections.js                                 # 6. and divides it into the same subsections
+node tools/lint_markdown.js                                  # 7. and that no emphasis marker leaks through
 ```
 
 Then bump the cache-buster, check it in the browser, and commit. See PROGRESS.md for the release
@@ -29,6 +31,11 @@ checklist (CHANGELOG, in-app What's New, reference sheet, memory).
 | `reorder_works.js` | Re-sorts Cicero's speeches into chronological order of delivery. Edit `SPEECH_ORDER` when a work is added. |
 | `verify.js` | The gate: every `latin` field must appear verbatim in its source page. Run it before every commit. |
 | `lint_translations.js` | Catches a translation that covers MORE or LESS Latin than its fragment contains, by length ratio. Run it before every commit too. Flags are a prompt to look, not failures. |
+| `check_sections.js` | Compares how the Latin of an excerpt divides into `**n.**` subsections with how each translation divides. **Run it whenever an excerpt with subsection markers is added or touched.** Catches a boundary put a period too early, which is invisible to every other check and skews the rest of the excerpt. `--sigs` prints signatures for the cleared list. |
+| `lint_markdown.js` | Renders every emphasis-bearing line exactly as `js/markdown.js` does and fails if a literal asterisk survives. A bold span cannot contain an italic one. |
+| `fetch_sections.js` | Fetches an edition's subsection boundaries for one chapter from Perseus CTS, into `tools/.cache/sections/`. |
+| `fetch_sections_phi.js` | The same against PHI/packhum, for the Bellum Alexandrinum, which Perseus does not carry. |
+| `mark_sections.js` | Inserts the `**n.**` subsection markers, anchoring on the shortest prefix of a section that occurs exactly once. Ambiguity is a hard error; it never guesses. |
 | `strip.js` | Shared HTML-to-text and marker-normalising helpers. |
 
 ## Conventions the scripts assume
