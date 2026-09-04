@@ -108,6 +108,78 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.12.0] - TBD
+
+**THE CIVIL WAR BEGINS.** Ten excerpts from Book I of the *Bellum Civile*, joining the launch-era
+I.7; bank **414 -> 424**; `verify.js` **261 -> 271 verbatim, 0 mismatched**. Caesar goes **41 -> 51**
+and `bc-i` is at **11**. What remains of the campaign: Book II (6), Book III (13), then Hirtius (42).
+
+### Added
+- `I.4` **the motives**, one clause each: Cato *veteres inimicitiae* and *dolor repulsae*, Lentulus
+  *aeris alieni magnitudo* and the boast of being a second Sulla, Scipio ambition plus *iudiciorum
+  metus*, and Pompey *quod neminem dignitate secum exaequari volebat* - an accusation of vanity, not
+  of tyranny. Not one of the four is given a political principle.
+- `I.5` **the *senatus consultum ultimum***, quoted in full and dated to the day (*a.d. VII Id.
+  Ian.*), with Caesar's own definition of when it is legitimate - *nisi paene in ipso urbis incendio*
+  - and Sulla as the measure of how far the tribunate had already been stripped.
+- `I.9` the peace terms, five jussive subjunctives in a row, and **the crux**. The Latin Library
+  prints *Sibi semper primam rei publicae fuisse dignitatem vitaque potiorem*; most editors, and
+  Perseus, print it **without** *rei publicae*. Two words decide whether the most quoted sentence in
+  the work is about the republic's standing or his own. The analysis lays both out and shows why the
+  surrounding clauses favour the short reading.
+- `I.22` Lentulus Spinther begging at the fourth watch, and ***Cuius orationem Caesar interpellat*** -
+  the war aims in three purpose clauses, ending on *in libertatem vindicaret*, the legal formula for
+  asserting that someone held as a slave is free.
+- `I.23` **Corfinium: the clemency**. Fifty officers protected from his own soldiers, told off briefly
+  for ingratitude, and released; then the six million sesterces handed back *ne continentior in vita
+  hominum quam in pecunia fuisse videatur*, with the admission that everyone knew the money was
+  public. Domitius went straight to Massilia and fought him again.
+- `I.28` **Pompey leaves Italy**, and Caesar reports the worst strategic reverse of the campaign in
+  four words in the middle of a section. The people of Brundisium signal from the rooftops and then
+  warn his men off the hidden ditches.
+- `I.33` **the chapter that does not mention the treasury**. Nothing in it is false and it is
+  unusable as evidence: *infectis eis, quae agere destinaverat, ab urbe proficiscitur*.
+- `I.72` **the doctrine**: *se sine pugna et sine vulnere suorum rem conficere posse*, three
+  ascending rhetorical questions, *misericordia civium*, and the maxim *non minus esse imperatoris
+  consilio superare quam gladio*. Plus the sentence he did not have to print - his own soldiers
+  saying openly they would not fight even if he ordered it.
+- `I.74` **one camp made out of two**. Thanks, then a question about whether Caesar can be trusted,
+  then the regret that they had crossed weapons *cum hominibus necessariis et consanguineis*; then an
+  army electing its own peace envoys. And Caesar collecting, in his own words, *magnum fructum suae
+  pristinae lenitatis*.
+- `I.76` **Petreius ends it in an afternoon**: an oath sworn *centuriatim*, and Caesar's men produced
+  and killed *palam in praetorio* - except *plerosque ei, qui receperant, celant noctuque per vallum
+  emittunt*, which Caesar had every reason to leave out.
+
+### Fixed
+- **The Italian chooser heading.** `select.heading` in Italian read *Scegli una commedia di X* for
+  every author, because when it was written the only authors with a chooser were Plautus, Caecilius
+  and Terence. English has had a neutral default since Varro; Italian never got one, so Caesar's
+  chooser offered a comedy by Julius Caesar. The generic is now *Scegli un testo di X*, and **all ten
+  authors with more than one work carry an explicit heading in both languages** - the three comic
+  poets keep the noun they always had, now written down rather than inherited.
+- **`I.23` prints *Frentranorum***, which is not a word; the people east of the Marrucini are the
+  *Frentani*. Emended and declared.
+- **`tools/check_sections.js` was counting `a.d.` as a sentence end.** BC I.5 was flagged on its
+  first run for the `d.` of *a.d. VII Id. Ian.* The abbreviation guard now also skips a single letter
+  of either case and one preceded by a dot, which is what a Roman date is made of.
+
+### Notes on the source
+- All ten are whole chapters, so no citation names its subsections.
+- **`mark_sections.js` needed seven `overrides`**, the most any batch has taken, because the Latin
+  Library and Perseus differ more in the *Bellum Civile* than in the *Bellum Gallicum*: `I.9.2` (the
+  crux itself), `I.9.4` *delectus*/*dilectus*, `I.22.3` an extra *agit*, `I.23.4` `HS |LX|` against
+  `HS lx`, `I.74.2` and `I.74.6` extra words and *Afranii*/*Afrani* - and `I.23.2`, which is a real
+  variant: **the app's text says *Erant quinquaginta*, fifty; most editions say *erant quinque
+  senatorii ordinis*, five of the senatorial order**, and exactly five senators are then named. Both
+  are recorded in the analysis.
+- `I.23` carries `[queritur]` in square brackets, an editor's mark meaning the word is supplied by
+  conjecture. Kept verbatim and explained, as is `HS |LX|` - sixty times a hundred thousand.
+
+Verification: **271 verbatim, 0 mismatched**; `check_sections.js` **54 checked, 0 to look at, 13
+cleared**; `lint_translations.js` **392 checked, 3 to look at** (the same known-good three);
+`lint_markdown.js` **2248 lines, 0 leaking**. Cache-bust: `?v=130` -> `?v=131`.
+
 ## [1.11.5] - 2026-09-03
 
 **BOOK VII, AND THE GALLIC WAR IS FINISHED.** Nine excerpts; bank **405 -> 414**; `verify.js`

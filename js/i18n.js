@@ -299,7 +299,7 @@
       'select.lead': 'Scegli un testo su cui esercitarti. Ognuno di essi ha diversi frammenti che puoi provare a tradurre.',
       'select.leadGroups': 'Scegli una categoria, poi scegli un testo al suo interno.',
       'select.noTexts': 'Qui non è ancora disponibile alcun testo.',
-      'select.heading': function (p) { return 'Scegli una commedia di ' + p.author; },
+      'select.heading': function (p) { return 'Scegli un testo di ' + p.author; },
       'select.fragmentsCount': function (p) { return p.n + (p.n === 1 ? ' frammento' : ' frammenti'); },
       'select.worksCount': function (p) { return p.n + (p.n === 1 ? ' testo' : ' testi'); },
 

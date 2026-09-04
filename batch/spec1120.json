@@ -1,0 +1,14 @@
+{
+  "_comment": "v1.12.0 - the first De Bello Civili batch: Book I (10 new, joining the launch-era I.7 for 11). All ten are whole chapters, so no citation names its subsections. The arc of the book in ten stops: the motives (4), the senatus consultum ultimum and the flight of the tribunes (5), the peace terms and the dignitas crux (9), Corfinium twice - the war aims stated over a man begging for his life (22) and the clemency (23) - Pompey leaving Italy from Brundisium (28), the chapter in which Caesar does not mention robbing the treasury (33), the refusal to fight a battle he could win (72), the two camps becoming one (74), and Petreius ending that with an oath and a killing (76). Source defect: I.23 prints `Frentranorum` for `Frentanorum`.",
+
+  "bc.1.4":  ["bc1", "Omnibus his resistitur", "rem ad arma deduci studebat."],
+  "bc.1.5":  ["bc1", "His de causis aguntur omnia", "res ad otium deduci posset."],
+  "bc.1.9":  ["bc1", "Quae res etsi nihil ad levandas", "omnes controversiae componantur."],
+  "bc.1.22": ["bc1", "Quarta vigilia circiter Lentulus", "Facta potestate discedit."],
+  "bc.1.23": ["bc1", "Caesar, ubi luxit, omnes senatores", "Larinatium in Apuliam pervenit."],
+  "bc.1.28": ["bc1", "Brundisini Pompeianorum militum", "reprehensas excipiunt."],
+  "bc.1.33": ["bc1", "Probat rem senatus de mittendis", "in ulteriorem Galliam pervenit."],
+  "bc.1.72": ["bc1", "Caesar in eam spem venerat", "hostium castris castra communit."],
+  "bc.1.74": ["bc1", "Quorum discessu liberam nacti", "consiliumque eius a cunctis probabatur."],
+  "bc.1.76": ["bc1", "Quibus rebus confectis flens Petreius", "ad pristinam belli rationem redegit."]
+}

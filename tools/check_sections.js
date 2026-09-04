@@ -93,13 +93,16 @@ function clean(s) {
 // sentence end and no excerpt in the bank ends a section on one.
 //
 // Abbreviations are the one thing that has to be subtracted, and they are all
-// Latin: a praenomen (`C. Valerius Procillus`) or a legion's number (`ab X.
-// legionis`, `XII. legionis`). The English and Italian spell both of these out,
-// so an abbreviation always counts on one side of the comparison and not the
-// other - II.25 and I.53 were both flagged for nothing until this was added.
-// A dot only counts as an abbreviation when more text follows it INSIDE the
-// same section: `circiter centum LX.` closes VII.3 and is a real full stop.
-const ABBREV = /(^|\s)(?:[A-Z]|Cn|Sex|Ser|Sp|App|Mam|Ti|Kal|Non|Id)$/;
+// Latin: a praenomen (`C. Valerius Procillus`), a legion's number (`ab X.
+// legionis`, `XII. legionis`), or a calendar date (`a.d. VII Id. Ian.`). The
+// English and Italian spell all of these out, so an abbreviation always counts
+// on one side of the comparison and not the other - II.25 and I.53 were both
+// flagged for nothing before this went in, and BC I.5 was flagged for the `d.`
+// of `a.d.` A dot only counts as an abbreviation when more text follows it
+// INSIDE the same section: `circiter centum LX.` closes VII.3 and is a real
+// full stop. The single-letter case is deliberately either case - a one-letter
+// Latin word never ends a sentence, and `a.` and `d.` are half of every date.
+const ABBREV = /(^|[\s.])(?:[A-Za-z]|Cn|Sex|Ser|Sp|App|Mam|Ti|Kal|Non|Id)$/;
 function terminals(s) {
   const t = clean(s).replace(/\.\.\./g, '…');
   const re = /[.?!](?=\s|$)/g;

@@ -1008,8 +1008,17 @@ the real risk at this volume.
 - **BG V**: 7 · 14 · 27 · 30 · 37 · 44 · 48
 - **BG VI**: 11 · 13 · 14 · 16 · 21 · 28
 - **BG VII**: 3 · 4 · 14 · 15 · 28 · 52 · 73 · 77 (sections 12-16 only) · 89
-- **BC I**: 7 · **DBG VIII**: praefatio · **BA**: 1, 2
-- Running total **44**. **THE GALLIC WAR IS COMPLETE at its allocated 40**, all seven books closed (6/4/3/5/7/6/9). What remains of the campaign is the **Civil War (29 new)** and **Hirtius (42 new)**.
+- **BC I**: 4 · 5 · 7 · 9 · 22 · 23 · 28 · 33 · 72 · 74 · 76 · **DBG VIII**: praefatio · **BA**: 1, 2
+- Running total **54**. **THE GALLIC WAR IS COMPLETE at its allocated 40**, all seven books closed (6/4/3/5/7/6/9). **BC I IS CLOSED at 11** (10 new in v1.12.0 plus the launch-era I.7). What remains of the campaign is **BC II (6)**, **BC III (13)** and **Hirtius (42)**.
+
+**BC I CANDIDATES THAT DID NOT MAKE THE TEN, parked so they are not lost.** The book has 87 chapters and ten stops cannot hold it. **`I.85`** is the strongest omission by far - Caesar's reply to Afranius after the surrender at Ilerda, 2,367 characters, the fullest statement of his whole case anywhere in his own writing, built on a fourfold anaphora (*in se novi generis imperia... in se iura magistratuum... in se etiam aetatis excusationem... in se uno non servari*). It was left out only because I.9 and I.22 already carry the case twice and the existing I.7 a third time; if BC I is ever topped up, take it first, possibly as a partial chapter on the anaphora alone. Then **`I.32`** (the speech to the rump senate, which overlaps I.9 and I.85), **`I.1`** (the opening, whose first sentence is mutilated - the work has no proem, which is itself worth a note), **`I.75`** (Petreius' first strike, *quos deprendit interficit*, superseded by I.76) and **`I.27`** (Pompey barricading Brundisium, which I.28's analysis summarises instead).
+
+**SOURCE FAULT IN `bc1`:** **I.23.5 prints `Frentranorum`**, which is not a word - the people east of the Marrucini are the **Frentani**. Emended and declared. Two things in `bc1` that are NOT faults and are kept verbatim with a note in the analysis: **`[queritur]`** at I.23.3, an editor's square brackets marking a conjectural supplement, and **`HS |LX|`** at I.23.4, the accountant's notation in which the vertical strokes multiply the numeral by a hundred thousand (so, six million sesterces).
+
+**THE BELLUM CIVILE NEEDS FAR MORE `overrides` THAN THE GALLIC WAR.** v1.12.0 took **seven** across ten chapters, where the whole of Book VII took three: `I.9.2`, `I.9.4` (*delectus*/*dilectus*), `I.22.3` (TLL has an extra *agit*), `I.23.2`, `I.23.4` (`HS |LX|` against Perseus' `HS lx`), `I.74.2` (TLL drops *omnes*) and `I.74.6` (*Afranii*/*Afrani*). **Budget for this in Books II and III.** Two of the seven are not spelling at all:
+- **`I.9.2` IS THE FAMOUS CRUX.** TLL prints *Sibi semper primam **rei publicae** fuisse dignitatem vitaque potiorem*; Perseus and most modern editors print it **without** *rei publicae*. The short reading makes it his OWN standing that was dearer than life, which is how the sentence has been quoted for two thousand years as the real cause of the war; the long reading makes it the republic's and means nothing. **The app prints its source and the analysis lays out both**, with the argument from the three following clauses (all about his own position) for the short one.
+- **`I.23.2` IS A SUBSTANTIVE VARIANT.** TLL: *Erant quinquaginta; ordinis senatorii...* - there were fifty. Perseus: *erant quinque senatorii ordinis* - there were five of the senatorial order, and exactly five senators are then named. Both are self-consistent and they count different things. Noted in the analysis rather than decided.
+
 
 **SOURCE FAULTS IN `gall7`:** **VII.52.2 prints `Euit` for `Exposuit`** - the head of the verb has dropped out and `Euit` is not a word; emended. **VII.3.1 and VII.28.2 print `Vbi`**, the ancient capital V for U; the app prints `Ubi`, following the `Vxores` -> `Uxores` precedent, and both are declared emendations so verify still checks the source spelling.
 
@@ -1077,6 +1086,13 @@ is easy to spot. English and Italian carry the same `**n.**` at the same boundar
 texts are checked to hold the same numbers in the same order. `mark_sections.js` takes `english` and
 `italian` anchor arrays next to `sections`; folding is language-aware (NFD diacritic strip for the
 modern languages, the u/j fold stays Latin-only), and an anchor list of the wrong length is refused.
+
+**A NOTE ON `check_sections.js` AND LATIN DATES.** It counts sentence-terminal stops, so every
+Latin abbreviation has to be subtracted or it counts against a translation that spells the thing out.
+Praenomina and legion numerals were handled from the start; **`a.d. VII Id. Ian.` was not**, and BC I.5
+was flagged on the tool's first real outing for the `d.` of `a.d.` The guard now also skips a single
+letter of EITHER case and one preceded by a dot. If a future batch is flagged on a section holding a
+date or a formula, check whether it is the abbreviation before assuming it is the translation.
 
 **AND CHECK THAT THE THREE TEXTS DIVIDE IN THE SAME PLACES, NOT MERELY IN THE SAME ORDER** - the
 user's rule, v1.11.5 follow-up. The earlier check compared the numbers and their sequence and was

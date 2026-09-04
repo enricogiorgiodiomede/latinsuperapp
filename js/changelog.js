@@ -12,6 +12,41 @@
 
   var VERSIONS = [
     {
+      v: '1.12.0', date: 'TBD', time: 'TBC', tz: 'CEST',
+      en: {
+        added: [
+          'The Civil War begins. Ten excerpts from Book I of the Bellum Civile, joining the one that has been in the app since launch, so Caesar now has eleven of them and fifty-one in all. This is the other Caesar: the same clipped prose, turned on his own countrymen, and used to argue that the war was somebody else\'s fault.',
+          'It opens four chapters before the fighting, with a list of the men on the other side and the reason each of them wanted a war - debt, a lost election, fear of prosecution, and, for Pompey, the plain refusal to let anybody be considered his equal. Then the emergency decree of the senate, quoted word for word and dated to the day, and the tribunes running out of Rome to reach Caesar at Ravenna.',
+          'Then the march. At Corfinium a former consul comes out of a besieged town at four in the morning to beg for his life, and gets as far as reminding Caesar of the favours he owes him before Caesar cuts him off and states his war aims in three clauses. The next morning fifty captured officers are brought out, protected from the soldiers, told off briefly for ingratitude, and let go - and the six million sesterces of Pompey\'s pay chest is handed back to the enemy commander, so that Caesar should not seem stingier with money than with lives.',
+          'Then Pompey slips out of Brundisium by night, and the war leaves Italy. The townspeople, who have had enough of his garrison, wave from their roofs to say he is going and then shout down which streets are mined. And then Rome, in a chapter that is short for a reason: the senate is too frightened to send envoys anywhere, a tribune gets in Caesar\'s way, and Caesar leaves the city "without doing what he had meant to do". What he actually did - break into the reserve treasury in the temple of Saturn - is in Plutarch, in Appian, in Dio and in Lucan, and is not in this chapter.',
+          'And then Spain, and the strangest thing in the whole Corpus Caesarianum. With the enemy cut off from their grain, Caesar refuses a battle he expects to win, because the men he would kill are citizens - and his own soldiers say out loud that if he wants one now he can have it without them. Two chapters later the two armies walk out and start looking for their relatives, thank each other for not killing each other the day before, and send senior centurions to negotiate a peace nobody\'s general has authorised. One camp made out of two. Then Petreius arrives with his bodyguard, makes the whole army swear an oath, and has every one of Caesar\'s soldiers found in the camp killed in the open - except the ones their hosts hid and let out over the rampart in the dark, which Caesar also records.'
+        ],
+        changed: [
+          'The Italian chooser used to offer to let you "choose a comedy by" whichever author you had opened, including Julius Caesar. It only ever fitted the three comic poets it was written for; every author with more than one text now carries a proper heading in both languages, and the generic one is neutral.',
+          'One fault in the source text of Book I is corrected and recorded: a people east of the Marrucini are printed as the Frentrani, who never existed. They are the Frentani.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Comincia la guerra civile. Dieci brani dal libro I del Bellum Civile, che si aggiungono a quello presente nell\'app fin dal lancio: Cesare ne ha ora undici e cinquantuno in tutto. È l\'altro Cesare: la stessa prosa asciutta, rivolta contro i suoi concittadini, e usata per sostenere che la guerra è colpa di qualcun altro.',
+          'Si apre quattro capitoli prima dei combattimenti, con l\'elenco degli uomini dell\'altra parte e della ragione per cui ciascuno voleva la guerra: i debiti, una sconfitta elettorale, la paura dei processi e, per Pompeo, il semplice rifiuto di lasciare che qualcuno fosse considerato suo pari. Poi il decreto d\'emergenza del senato, citato parola per parola e datato al giorno, e i tribuni che fuggono da Roma per raggiungere Cesare a Ravenna.',
+          'Poi la marcia. A Corfinio un ex console esce da una città assediata alle quattro del mattino per implorare la vita, e arriva a ricordare a Cesare i favori che gli deve prima che Cesare lo interrompa ed enunci in tre proposizioni i propri scopi di guerra. La mattina dopo cinquanta ufficiali catturati vengono condotti fuori, protetti dai soldati, rimproverati brevemente per l\'ingratitudine e lasciati andare; e i sei milioni di sesterzi della cassa di Pompeo vengono restituiti al comandante nemico, perché Cesare non sembri più avaro con il denaro che con la vita.',
+          'Poi Pompeo sguscia via da Brindisi di notte, e la guerra lascia l\'Italia. I cittadini, che della sua guarnigione ne hanno abbastanza, fanno segno dai tetti che sta partendo e poi gridano quali strade sono minate. E poi Roma, in un capitolo che è breve per una ragione: il senato ha troppa paura per mandare ambasciatori, un tribuno si mette di traverso e Cesare lascia la città "senza aver fatto ciò che si era proposto di fare". Quello che fece davvero, cioè forzare la riserva del tempio di Saturno, sta in Plutarco, in Appiano, in Dione e in Lucano, e non sta in questo capitolo.',
+          'E poi la Spagna, e la cosa più strana di tutto il Corpus Caesarianum. Con il nemico tagliato fuori dal grano, Cesare rifiuta una battaglia che si aspetta di vincere, perché gli uomini che ucciderebbe sono cittadini; e i suoi soldati dicono ad alta voce che se ora ne vuole una se la faccia senza di loro. Due capitoli dopo i due eserciti escono allo scoperto e cominciano a cercarsi i parenti, si ringraziano a vicenda per non essersi uccisi il giorno prima e mandano centurioni anziani a trattare una pace che nessun generale ha autorizzato. Un accampamento solo fatto di due. Poi arriva Petreio con la sua scorta, fa giurare tutto l\'esercito e fa uccidere allo scoperto ogni soldato di Cesare trovato nel campo, tranne quelli che i loro ospiti nascosero e fecero uscire oltre il vallo col buio, cosa che pure Cesare registra.'
+        ],
+        changed: [
+          'Il selettore italiano invitava a "scegliere una commedia di" qualunque autore si fosse aperto, Giulio Cesare compreso. Andava bene solo per i tre comici per cui era stato scritto; ora ogni autore con più di un testo ha un\'intestazione propria in entrambe le lingue, e quella generica è neutra.',
+          'Un errore del testo di partenza del libro I è corretto e registrato: un popolo a est dei Marrucini è stampato come Frentrani, che non sono mai esistiti. Sono i Frentani.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.11.5', date: '03/09/2026', time: '21:28', tz: 'CEST',
       en: {
         added: [

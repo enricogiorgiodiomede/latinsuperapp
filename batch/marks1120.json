@@ -1,0 +1,21 @@
+{
+  "_comment": "v1.12.0 - subsection markers for the Latin of the ten Book I excerpts of the Bellum Civile. Both translations were written with their markers already at these boundaries and mark_sections.js skips a field that carries them. Boundaries from Perseus (CTS phi0448.phi002), word-exact; all ten are whole chapters. The Latin Library and Perseus disagree in several places, so seven sections need `overrides` giving the app's own wording: I.9.2 is the famous crux (`Sibi semper primam rei publicae fuisse dignitatem` against Perseus' shorter `sibi semper primam fuisse dignitatem`), I.9.4 and I.23.4 are spelling and numeral notation, I.22.3 and I.74.2 are extra words in the source, I.74.6 is `Afranii` for `Afrani`, and I.23.2 is a substantive variant - `Erant quinquaginta` against `erant quinque senatorii ordinis`.",
+
+  "(De Bello Civili I.4)":  { "author": "gaius-julius-caesar", "work": "bc-i", "sections": "phi0448.phi002.1.4.json" },
+  "(De Bello Civili I.5)":  { "author": "gaius-julius-caesar", "work": "bc-i", "sections": "phi0448.phi002.1.5.json" },
+  "(De Bello Civili I.9)":  { "author": "gaius-julius-caesar", "work": "bc-i", "sections": "phi0448.phi002.1.9.json",
+                              "overrides": { "2": "Sibi semper primam rei publicae fuisse dignitatem",
+                                             "4": "Tota Italia delectus haberi" } },
+  "(De Bello Civili I.22)": { "author": "gaius-julius-caesar", "work": "bc-i", "sections": "phi0448.phi002.1.22.json",
+                              "overrides": { "3": "Cum eo de salute sua agit" } },
+  "(De Bello Civili I.23)": { "author": "gaius-julius-caesar", "work": "bc-i", "sections": "phi0448.phi002.1.23.json",
+                              "overrides": { "2": "Erant quinquaginta",
+                                             "4": "HS |LX|, quod advexerat Domitius" } },
+  "(De Bello Civili I.28)": { "author": "gaius-julius-caesar", "work": "bc-i", "sections": "phi0448.phi002.1.28.json" },
+  "(De Bello Civili I.33)": { "author": "gaius-julius-caesar", "work": "bc-i", "sections": "phi0448.phi002.1.33.json" },
+  "(De Bello Civili I.72)": { "author": "gaius-julius-caesar", "work": "bc-i", "sections": "phi0448.phi002.1.72.json" },
+  "(De Bello Civili I.74)": { "author": "gaius-julius-caesar", "work": "bc-i", "sections": "phi0448.phi002.1.74.json",
+                              "overrides": { "2": "Primum agunt gratias omnibus",
+                                             "6": "Afranii etiam filius adulescens" } },
+  "(De Bello Civili I.76)": { "author": "gaius-julius-caesar", "work": "bc-i", "sections": "phi0448.phi002.1.76.json" }
+}
