@@ -108,7 +108,7 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
-## [1.12.0] - TBD
+## [1.12.0] - 2026-09-04
 
 **THE CIVIL WAR BEGINS.** Ten excerpts from Book I of the *Bellum Civile*, joining the launch-era
 I.7; bank **414 -> 424**; `verify.js` **261 -> 271 verbatim, 0 mismatched**. Caesar goes **41 -> 51**

@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.12.0', date: 'TBD', time: 'TBC', tz: 'CEST',
+      v: '1.12.0', date: '04/09/2026', time: '19:22', tz: 'CEST',
       en: {
         added: [
           'The Civil War begins. Ten excerpts from Book I of the Bellum Civile, joining the one that has been in the app since launch, so Caesar now has eleven of them and fifty-one in all. This is the other Caesar: the same clipped prose, turned on his own countrymen, and used to argue that the war was somebody else\'s fault.',
