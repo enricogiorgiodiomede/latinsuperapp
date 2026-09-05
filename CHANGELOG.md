@@ -180,6 +180,90 @@ Verification: **271 verbatim, 0 mismatched**; `check_sections.js` **54 checked, 
 cleared**; `lint_translations.js` **392 checked, 3 to look at** (the same known-good three);
 `lint_markdown.js` **2248 lines, 0 leaking**. Cache-bust: `?v=130` -> `?v=131`.
 
+### Follow-up, same day: the Book I proofreading pass
+
+No new excerpts, no version bump. Bank stays at **424** and `verify.js` at **271 verbatim, 0
+mismatched**; version tags untouched.
+
+#### Fixed - one wrong quotation, mine
+- **`I.9`'s analysis cited `I.22` as *ut se... in suam dignitatem restitueret*** - Caesar left his
+  province to restore **himself** to his standing. The Latin is *ut tribunos plebis ... in suam
+  dignitatem restitueret*: the standing is the **tribunes'**, and *suam* cannot refer to Caesar
+  without making the clause nonsense. The ellipsis had spliced the *se* of the first purpose clause
+  into the second and reversed its subject. The argument survives on the two clauses that do say it -
+  *uti se a contumeliis inimicorum defenderet* and *se et populum Romanum ... in libertatem
+  vindicaret* - and is rewritten to use those.
+
+#### Fixed - register
+- **`I.5`**: *Recourse is had to that extreme and final decree* -> *And so it comes down to*. The
+  chapter runs on impersonal passives and the analysis makes a point of it, so the replacement had to
+  stay agentless; *comes down to* also keeps the *de-* of *decurritur*, which the next clause repeats
+  in *descensum est*.
+- **`I.23`**: *when it grew light* -> *when day came* (*ubi luxit*). Also, in the Italian, *Sesto
+  Quintilio Varo questore* -> *Varo **il** questore*.
+- **`I.28`**: *ladders to be got ready* -> *to be prepared*.
+
+#### Added - the context every one of these chapters was assuming
+Each of the eleven now opens with a **Where we are**, and several carry a further note. The batch
+needed this more than any before it: Book I is a legal brief before it is a narrative, and it argues
+from institutions a Roman knew and a Liceo reader does not.
+- **`I.4`** and **`I.5`**: what the quarrel of January 49 was actually about - not Gaul but the gap
+  between the command ending and the consulship starting, in which Caesar could be prosecuted - the
+  law of the ten tribunes, the two legions taken on the Parthian pretext, and the deaths of Julia and
+  Crassus. Lentulus Crus named as the presiding consul, and the silenced tribunes named as **Mark
+  Antony and Quintus Cassius Longinus**.
+- **`I.7`**, whose launch-era analysis had flagged the gap without filling it: **Tiberius Gracchus,
+  Gaius Gracchus and Saturninus**, who they were and how each died, so that Caesar's precedent
+  argument can be followed. Plus the reading the whole speech is built on - the pieces taken together
+  amount to one man being destroyed by legal means - and the Sulla move on the tribunician veto.
+- **`I.22`** and **`I.23`**: why Caesar was at Corfinium, who **Domitius Ahenobarbus** was (consul 54,
+  and the man the senate had already appointed to replace Caesar in Gaul), who **Lentulus Spinther**
+  was and that he had already lost Asculum, and what *suae vitae durius consulere* means - Domitius
+  had asked his doctor for poison and drunk what he was given, which Caesar does not report and
+  points at.
+- **`I.28`**, **`I.72`**, **`I.74`**, **`I.76`**: Brundisium and what Pompey had built at `I.27`; the
+  Ilerda campaign, **Afranius** (consul 60) and **Petreius** (the general who destroyed Catiline at
+  Pistoria), the floods that nearly finished Caesar, and the block on the Ebro that decided it;
+  Sulpicius identified as a Caesarian legate; and `I.75`, which `I.76` begins from, given in full.
+- **`I.33`**: why Pompey's *eodem se habiturum loco* is so damaging - the man defending the
+  constitution has abolished the possibility of obeying it - with **`Ad Atticum` VII.11**, already in
+  the app, as the corroboration from someone caught in exactly that vice.
+
+#### Added - notes
+Petreius given the reading he deserves at **`I.76`**: not a villain but a professional watching his
+army negotiate away Spain and seven legions behind his back, doing the only things left to him - and
+printed as a villain anyway, because the book is political self-defence and never stops being one.
+Also the Catiline-and-Sulla design of `I.4`, the brief-not-narrative reading of `I.5`, Caesar joining
+his own dots in `I.9`, the *popularis* / *optimates* framing at `I.22` with the warning that neither
+was a party, `I.28` as `I.22` demonstrated rather than asserted, `I.33` as the same evidence-filtering
+as *De Bello Gallico* VII.52, and `I.74` as the argument of `I.72` proved by the men it was about.
+
+#### Added - two new checks, both asked for
+- **`tools/check_context.js`** (step 7). Three passes: a **dangling cross-reference** (an analysis
+  arguing from `I.75` when `I.75` is not in the bank), an **unglossed name** (a proper name in the
+  Latin that the fragment's own commentary never mentions, in either language), and **no date at all**
+  for an author who narrates datable events. Distinguishing a name from a capitalised sentence-opener
+  is done by asking the bank rather than guessing: a word is a name if it appears capitalised
+  mid-sentence somewhere and **never appears in lower case anywhere**, which separates *Domitius*
+  from *Itaque* and *Milites* at a stroke. It found everything the user found and four things they
+  did not - Afranius unglossed at `I.72`, Sulpicius at `I.74`, Lentulus at `I.5` and `I.23`.
+- **`tools/lint_register.js`** (step 8). A word list of over-formal English and Italian with plainer
+  equivalents, run against the two translation fields. It catches all three phrases the user flagged.
+  **Two rules were tried and removed and the reasons are in the file**: `codesto` is not archaic, it
+  is the second-person demonstrative and the right word for Latin *iste* - every hit was Cicero
+  addressing Verres, Piso or Antony - and `inquire into` is ordinary English.
+
+#### Also
+- The `bc-i` block's typographic apostrophes are normalised to the straight ones the rest of the bank
+  uses. **The bank as a whole is still mixed** (390 typographic remain elsewhere, against about 6,700
+  straight); that is pre-existing and is left alone pending a decision.
+
+Verification: **271 verbatim, 0 mismatched**; `check_sections.js` **54 checked, 0 to look at**;
+`check_context.js` **0 to look at on this release, 3 cleared** (194 remain across the rest of the
+bank, which predates the check); `lint_register.js` **424 checked, 0 to look at**;
+`lint_translations.js` **392 checked, 3 to look at**; `lint_markdown.js` **2248 lines, 0 leaking**.
+Cache-bust: `?v=131` -> `?v=132`.
+
 ## [1.11.5] - 2026-09-03
 
 **BOOK VII, AND THE GALLIC WAR IS FINISHED.** Nine excerpts; bank **405 -> 414**; `verify.js`

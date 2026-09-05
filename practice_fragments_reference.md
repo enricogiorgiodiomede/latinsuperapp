@@ -1087,6 +1087,44 @@ texts are checked to hold the same numbers in the same order. `mark_sections.js`
 `italian` anchor arrays next to `sections`; folding is language-aware (NFD diacritic strip for the
 modern languages, the u/j fold stays Latin-only), and an anchor list of the wrong length is refused.
 
+**EVERY EXCERPT IS OPENED COLD - SAY WHERE THE READER IS** - the user's rule, v1.12.0 follow-up, and
+the single biggest lesson of the Bellum Civile batch. Nobody reads the chapter before; nobody can look
+anything up without leaving the page. Book I was the worst case so far because **it is a legal brief
+before it is a narrative**: it names a consul without saying he is the consul, besieges a town without
+saying why, and argues from institutions a Roman knew from childhood. **Every excerpt now opens with a
+`Where we are` paragraph** giving the date, the place, who the named people are and what is at stake.
+Do this for every future batch, and assume nothing about the tribunate, the courts, the calendar or
+who anybody is.
+
+**`tools/check_context.js` IS STEP 7.** Three passes: a dangling cross-reference (an analysis arguing
+from a chapter the bank does not hold), an unglossed name (a proper name in the Latin that the
+fragment's own commentary never mentions in either language), and no date anywhere for an author who
+narrates datable events. **The trick that makes the name pass usable is worth remembering**: Latin
+capitalises every sentence opener, so `Itaque` and `Milites` look exactly like `Domitius`. Rather than
+guess, the tool asks the bank - a word is a name if it appears capitalised MID-SENTENCE somewhere and
+NEVER appears in lower case anywhere. That one rule removed the whole class of false positives.
+**Run it per release, not over the whole bank**: 194 fragments written before it existed still flag,
+and clearing that backlog is a separate job nobody has asked for.
+
+**`tools/lint_register.js` IS STEP 8.** The target register for both translations is careful everyday
+prose with some formality allowed - **not the language of a statute**. Translating Latin pulls the
+other way: an impersonal passive invites *recourse is had*, a gerundive invites *is to be*. The user
+found three in ten excerpts by reading (*recourse is had*, *when it grew light*, *to be got ready*).
+**Two rules were tried and REMOVED and must not be added back:** `codesto` is not archaic - it is the
+second-person demonstrative and the correct Italian for Latin `iste`, and every hit in the bank was
+Cicero addressing Verres, Piso or Antony; and `inquire into` is ordinary English.
+
+**A QUOTATION IN AN ANALYSIS MUST BE CHECKED AGAINST THE TEXT, ELLIPSES ESPECIALLY.** v1.12.0's I.9
+analysis argued from `ut se... in suam dignitatem restitueret`, as though Caesar had said he left his
+province to restore HIMSELF. The Latin of I.22 is `ut tribunos plebis ... in suam dignitatem
+restitueret` - the standing is the TRIBUNES'. The ellipsis had carried the `se` of the previous clause
+into this one and reversed the subject. **An ellipsis that spans a clause boundary can invent a
+sentence; if you cannot quote it whole, quote a shorter piece.**
+
+**APOSTROPHES ARE MIXED IN `js/fragments.js`** - about 6,700 straight against 390 typographic as of
+v1.12.0, and the `bc-i` block was normalised to straight in the follow-up. The rest is left alone.
+It matters because an exact-match edit script written with one form silently fails against the other.
+
 **A NOTE ON `check_sections.js` AND LATIN DATES.** It counts sentence-terminal stops, so every
 Latin abbreviation has to be subtracted or it counts against a translation that spells the thing out.
 Praenomina and legion numerals were handled from the start; **`a.d. VII Id. Ian.` was not**, and BC I.5
