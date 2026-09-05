@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.12.1', date: 'TBD', time: 'TBC', tz: 'CEST',
+      v: '1.12.1', date: '05/09/2026', time: '23:42', tz: 'CEST',
       en: {
         added: [
           'Six excerpts from Book II of the Bellum Civile, which closes it. Half of them are the siege of Massilia - the Greek city that is now Marseille, an independent republic and a Roman ally for four hundred years, which shut its gates on Caesar and paid for it. The other half is the worst thing that happened to Caesar in 49 BC, and it happened in Africa to somebody else.',

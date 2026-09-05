@@ -108,7 +108,7 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
-## [1.12.1] - TBD
+## [1.12.1] - 2026-09-05
 
 **BOOK II OF THE BELLUM CIVILE, WHICH CLOSES IT.** Six excerpts; bank **424 -> 430**; `verify.js`
 **271 -> 277 verbatim, 0 mismatched**. Caesar goes **51 -> 57**, `bc-ii` is at **6**, and what remains
