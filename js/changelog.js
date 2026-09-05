@@ -12,6 +12,41 @@
 
   var VERSIONS = [
     {
+      v: '1.12.1', date: 'TBD', time: 'TBC', tz: 'CEST',
+      en: {
+        added: [
+          'Six excerpts from Book II of the Bellum Civile, which closes it. Half of them are the siege of Massilia - the Greek city that is now Marseille, an independent republic and a Roman ally for four hundred years, which shut its gates on Caesar and paid for it. The other half is the worst thing that happened to Caesar in 49 BC, and it happened in Africa to somebody else.',
+          'Massilia first. A sixty-foot covered gallery, built to walk the siege up to the wall without anybody being hit, described layer by layer: bricks and clay against fire, hides over the bricks against the water poured down to dissolve the clay, quilts over the hides against the fire and stones meant to destroy them. Each layer is there because the one underneath it has a weakness. The soldiers called the thing a mouse.',
+          'Then the Massiliots ask for a truce and get one, wait for a windy afternoon when the Roman weapons are stacked and covered, and burn the entire siege works to the ground - months of building gone, in Caesar\'s phrase, in a point of time. They try exactly the same thing the next day and are beaten off with heavy losses, because the same trick works once. And then the surrender, six months in: starving on the old millet the city had stored against a siege two hundred years before it came, sick from the diet, walls down, fleet gone. Caesar spares them, and says in as many words that he is doing it for the city\'s name and age rather than for anything it has done to deserve it. Then he takes every weapon, every ship and the contents of the treasury, and leaves two legions in it.',
+          'And Africa. Curio - thirty-five, one of the great speakers of his generation, so far in debt that Caesar had paid it off, and the man whose vetoes had held the political line in the senate through 50 - has crossed from Sicily with two legions to take the province. They are the legions that surrendered at Corfinium and were spared. An officer rides out of the enemy line to talk to them and turns out to be their own quaestor from Corfinium, one of the fifty men Caesar released; he reminds them of the oath they swore to him, and asks which of their two oaths counts. The app records their answer, which is silence.',
+          'Then Curio is told by deserters that the king of Numidia has gone home and only a lieutenant is nearby. It is not true, and Caesar tells you so immediately - the king was six miles behind with everything he had. What makes Curio believe it is named in four words, and every one of them is a virtue: his youth, his high spirit, his run of success, his confidence. Four chapters later two Roman legions are surrounded in open sand. Offered a horse and an escort out, Curio says he will not go back into Caesar\'s sight having lost an army he was given on trust, and is killed fighting. The last four words of the chapter are that the soldiers were killed to the last man.'
+        ],
+        changed: [
+          'The Civil War was labelled De Bello Civile on the chooser screen. Civilis is a third-declension adjective, so the ablative is civili, agreeing with bello. Corrected.',
+          'One fault in the source text of Book II is corrected and recorded: two sentences run together with no stop between them in the description of the gallery.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Sei brani dal libro II del Bellum Civile, che lo chiudono. Metà sono l\'assedio di Massilia, la città greca che oggi è Marsiglia, repubblica indipendente e alleata di Roma da quattrocento anni, che chiuse le porte a Cesare e la pagò. L\'altra metà è la cosa peggiore che sia capitata a Cesare nel 49 a.C., e capitò in Africa a qualcun altro.',
+          'Prima Marsiglia. Una galleria coperta di sessanta piedi, costruita per portare l\'assedio fino al muro senza che nessuno venga colpito, descritta strato per strato: mattoni e argilla contro il fuoco, pelli sopra i mattoni contro l\'acqua fatta scorrere per sciogliere l\'argilla, trapunte sopra le pelli contro il fuoco e le pietre che dovrebbero rovinarle. Ogni strato c\'è perché quello sotto ha un punto debole. I soldati chiamavano quell\'aggeggio topo.',
+          'Poi i Marsiliesi chiedono una tregua e la ottengono, aspettano un pomeriggio ventoso con le armi romane accatastate e coperte, e bruciano tutte le opere d\'assedio: mesi di lavoro andati, nella frase di Cesare, in un punto di tempo. Riprovano esattamente la stessa cosa il giorno dopo e vengono respinti con gravi perdite, perché lo stesso trucco funziona una volta sola. E poi la resa, dopo sei mesi: affamati sul miglio vecchio che la città aveva messo da parte per un assedio duecento anni prima che arrivasse, malati per la dieta, mura abbattute, flotta perduta. Cesare li risparmia, e dice a chiare lettere di farlo per il nome e l\'antichità della città e non per meriti che possa vantare. Poi si prende ogni arma, ogni nave e il contenuto dell\'erario, e ci lascia due legioni.',
+          'E l\'Africa. Curione - trentacinque anni, uno dei grandi oratori della sua generazione, indebitato al punto che Cesare gli aveva saldato i debiti, e l\'uomo i cui veti avevano tenuto la linea politica in senato per tutto il 50 - è passato dalla Sicilia con due legioni per prendere la provincia. Sono le legioni che si arresero a Corfinio e furono risparmiate. Dalla linea nemica esce a cavallo un ufficiale per parlare loro, e si scopre essere il loro stesso questore di Corfinio, uno dei cinquanta uomini liberati da Cesare; ricorda loro il giuramento che gli avevano prestato e chiede quale dei due giuramenti conti. L\'app registra la loro risposta, che è il silenzio.',
+          'Poi a Curione dei disertori dicono che il re di Numidia è tornato a casa e che nelle vicinanze c\'è solo un luogotenente. Non è vero, e Cesare ve lo dice subito: il re era sei miglia dietro con tutto ciò che aveva. Ciò che fa credere a Curione è nominato in quattro parole, e ognuna è una virtù: la giovinezza, l\'ardore, la serie di successi, la fiducia. Quattro capitoli dopo due legioni romane sono circondate nella sabbia aperta. Quando gli offrono un cavallo e una scorta per uscirne, Curione dice che non tornerà davanti a Cesare dopo aver perduto un esercito ricevuto in affidamento, e viene ucciso combattendo. Le ultime quattro parole del capitolo dicono che i soldati furono uccisi fino all\'ultimo.'
+        ],
+        changed: [
+          'La guerra civile era intitolata De Bello Civile nella schermata di scelta. Civilis è un aggettivo della seconda classe, quindi l\'ablativo è civili, concordato con bello. Corretto.',
+          'Un errore del testo di partenza del libro II è corretto e registrato: nella descrizione della galleria due frasi corrono insieme senza punto fra loro.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.12.0', date: '04/09/2026', time: '19:22', tz: 'CEST',
       en: {
         added: [

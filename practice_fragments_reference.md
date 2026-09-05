@@ -1008,8 +1008,17 @@ the real risk at this volume.
 - **BG V**: 7 · 14 · 27 · 30 · 37 · 44 · 48
 - **BG VI**: 11 · 13 · 14 · 16 · 21 · 28
 - **BG VII**: 3 · 4 · 14 · 15 · 28 · 52 · 73 · 77 (sections 12-16 only) · 89
-- **BC I**: 4 · 5 · 7 · 9 · 22 · 23 · 28 · 33 · 72 · 74 · 76 · **DBG VIII**: praefatio · **BA**: 1, 2
-- Running total **54**. **THE GALLIC WAR IS COMPLETE at its allocated 40**, all seven books closed (6/4/3/5/7/6/9). **BC I IS CLOSED at 11** (10 new in v1.12.0 plus the launch-era I.7). What remains of the campaign is **BC II (6)**, **BC III (13)** and **Hirtius (42)**.
+- **BC I**: 4 · 5 · 7 · 9 · 22 · 23 · 28 · 33 · 72 · 74 · 76
+- **BC II**: 10 · 14 · 22 · 28 · 38 · 42 · **DBG VIII**: praefatio · **BA**: 1, 2
+- Running total **60**. **THE GALLIC WAR IS COMPLETE at its allocated 40**, all seven books closed (6/4/3/5/7/6/9). **BC I IS CLOSED at 11** (10 new in v1.12.0 plus the launch-era I.7). **BC II IS CLOSED at 6** (v1.12.1). What remains of the campaign is **BC III (13)** and **Hirtius (42)**.
+
+**BC II CANDIDATES THAT DID NOT MAKE THE SIX.** **`II.41`** is the strongest omission - the rout at the Bagradas, ending on *plena erant omnia timoris et luctus* and the dying men commending their parents; it was left out only because `II.42` already carries the end and the pathos, and `II.42`'s own opening paragraph now supplies its content. Then **`II.31`**, Curio rejecting both proposals in **direct discourse**, which is rare in Caesar and contains the line about concealing an army's troubles as one conceals wounds of the body; **`II.32`**, his speech to the wavering army; and **`II.6`**, the second sea battle off Massilia.
+
+**SOURCE FAULT IN `bc2`:** **II.10.6 prints `diluere posset Coria autem`**, running two sentences together with no stop. Emended and declared. (`bc2` also prints `L Nasidius` at II.3 with no stop after the praenomen, which is not in any excerpt yet - watch for it if II.3 is ever taken.)
+
+**BOOK II NEEDED ONLY TWO `overrides`, against seven for Book I**, and neither is a variant reading: `II.10.4`, where **PERSEUS ITSELF HAS A TYPO** (`lad extremum` for `ad extremum` - the numbered edition is not automatically right), and `II.28.2`, where Perseus spells `nanctus` for the source's `nactus`.
+
+**AN UNQUALIFIED CHAPTER NUMBER INSIDE A BELLUM CIVILE ANALYSIS READS AS A BELLUM CIVILE CHAPTER.** v1.12.1 shipped three - `VII.73` and `V.37` twice - all meaning the Gallic War. `check_context.js` resolves a bare numeral against the fragment's own work, exactly as a reader would, and caught all three. **Name the work whenever an analysis crosses from one to the other.**
 
 **BC I CANDIDATES THAT DID NOT MAKE THE TEN, parked so they are not lost.** The book has 87 chapters and ten stops cannot hold it. **`I.85`** is the strongest omission by far - Caesar's reply to Afranius after the surrender at Ilerda, 2,367 characters, the fullest statement of his whole case anywhere in his own writing, built on a fourfold anaphora (*in se novi generis imperia... in se iura magistratuum... in se etiam aetatis excusationem... in se uno non servari*). It was left out only because I.9 and I.22 already carry the case twice and the existing I.7 a third time; if BC I is ever topped up, take it first, possibly as a partial chapter on the anaphora alone. Then **`I.32`** (the speech to the rump senate, which overlaps I.9 and I.85), **`I.1`** (the opening, whose first sentence is mutilated - the work has no proem, which is itself worth a note), **`I.75`** (Petreius' first strike, *quos deprendit interficit*, superseded by I.76) and **`I.27`** (Pompey barricading Brundisium, which I.28's analysis summarises instead).
 

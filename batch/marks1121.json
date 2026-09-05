@@ -1,0 +1,12 @@
+{
+  "_comment": "v1.12.1 - subsection markers for the Latin of the six Book II excerpts. Both translations were written with their markers already at these boundaries and mark_sections.js skips a field that carries them. Boundaries from Perseus (CTS phi0448.phi002); all six are whole chapters. Two overrides: II.10.4, where Perseus itself has a typo (`lad extremum`), and II.28.2, where Perseus spells `nanctus` for the source's `nactus`.",
+
+  "(De Bello Civili II.10)": { "author": "gaius-julius-caesar", "work": "bc-ii", "sections": "phi0448.phi002.2.10.json",
+                               "overrides": { "4": "Ad extremum musculi tectum" } },
+  "(De Bello Civili II.14)": { "author": "gaius-julius-caesar", "work": "bc-ii", "sections": "phi0448.phi002.2.14.json" },
+  "(De Bello Civili II.22)": { "author": "gaius-julius-caesar", "work": "bc-ii", "sections": "phi0448.phi002.2.22.json" },
+  "(De Bello Civili II.28)": { "author": "gaius-julius-caesar", "work": "bc-ii", "sections": "phi0448.phi002.2.28.json",
+                               "overrides": { "2": "Hanc nactus appellationis causam" } },
+  "(De Bello Civili II.38)": { "author": "gaius-julius-caesar", "work": "bc-ii", "sections": "phi0448.phi002.2.38.json" },
+  "(De Bello Civili II.42)": { "author": "gaius-julius-caesar", "work": "bc-ii", "sections": "phi0448.phi002.2.42.json" }
+}

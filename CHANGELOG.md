@@ -108,6 +108,67 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.12.1] - TBD
+
+**BOOK II OF THE BELLUM CIVILE, WHICH CLOSES IT.** Six excerpts; bank **424 -> 430**; `verify.js`
+**271 -> 277 verbatim, 0 mismatched**. Caesar goes **51 -> 57**, `bc-ii` is at **6**, and what remains
+of the campaign is **BC III (13)** and **Hirtius (42)**. Three from the siege of Massilia and three
+from Curio in Africa, which is where Book II ends and where Caesar's policy of sparing Roman soldiers
+gets its bill.
+
+### Added
+- `II.10` **the *musculus***, a sixty-foot covered gallery, given as a specification in three defensive
+  layers - bricks and clay against fire, hides against the water that would dissolve the clay, quilts
+  against the fire and stones meant to destroy the hides. Trade vocabulary throughout (*capreoli*,
+  *tigna*, *regulae*, *centones*), and `machinatione navali`, a seaport's answer to a land problem.
+  **The name is army slang** - *musculus* is a little mouse - printed without comment exactly as
+  *cippi*, *lilia* and *stimuli* are at *De Bello Gallico* VII.73.
+- `II.14` **the truce broken**. Five conditions stacked before the main verb, then *erumpunt*; the
+  wind carries it and *agger, plutei, testudo, turris, tormenta* catch at the same instant.
+  ***Ita multorum mensium labor hostium perfidia et vi tempestatis puncto temporis interiit.*** And
+  then sections 5 and 6, which are why the chapter is worth reading twice: they try it again the next
+  day, in the same wind, and fail completely.
+- `II.22` **the surrender**, in one enormous sentence of ablatives before the main verb arrives -
+  starving on *panico vetere atque hordeo corrupto*, the emergency store laid up *antiquitus*. Plus
+  **Domitius escaping for the third time** in this app's Caesar, three ships out in a storm and only
+  his own gets away. And *magis eos pro nomine et vetustate, quam pro meritis in se civitatis
+  conservans*, which sounds like mercy and is an accounting entry.
+- `II.28` **the army says nothing.** Sextus Quintilius Varus - *quem fuisse Corfinii supra
+  demonstratum est*, one of the fifty men released at `I.23`, named there - rides along a battle line
+  made of the Corfinium legions, *adeo ut paucis mutatis centurionibus eidem ordines manipulique
+  constarent*, and asks his own former regiment which of its two oaths counts. **The answer is
+  *nullam in partem... fit significatio*.** Not a sign either way.
+- `II.38` **the false report**, and the four causes. Caesar puts the truth in a subordinate clause
+  immediately (*sed rex omnibus copiis insequebatur*) so the reader knows for four chapters what
+  Curio does not, and then explains the mistake in four nouns that are all virtues: *adulescentia,
+  magnitudo animi, superioris temporis proventus, fiducia rei bene gerendae*. **Nowhere else does he
+  diagnose a defeat this directly**, and it is his own man.
+- `II.42` **the death of Curio**. *Partim integri procumbunt* - some sink down unwounded. Then
+  ***numquam se amisso exercitu, quem a Caesare fidei commissum acceperit, in eius conspectum
+  reversurum***, in the vocabulary of property held on trust, and *atque ita proelians interficitur*.
+  The last line is four words: *milites ad unum omnes interficiuntur*.
+
+### Fixed
+- **The chooser called the work *De Bello Civile*.** *Civilis* is a third-declension adjective, so the
+  ablative is *civili* agreeing with *bello*. The user caught it; corrected in both languages.
+- **`II.10` prints *diluere posset Coria autem***, running two sentences together with no stop.
+  Emended and declared.
+- **Three chapter references inside Civil War analyses had no work name** - `VII.73`, and `V.37`
+  twice - so they read as *Bellum Civile* chapters when they mean the Gallic War. Found by the new
+  context check, which resolves an unqualified numeral against the fragment's own work exactly as a
+  reader would. All three now name the work.
+
+### Notes on the source
+- All six are whole chapters, so no citation names its subsections.
+- **Only two `overrides` this time**, against seven for Book I, and neither is a variant reading:
+  `II.10.4`, where **Perseus itself has a typo** (*lad extremum* for *ad extremum*), and `II.28.2`,
+  where Perseus spells *nanctus* for the source's *nactus*.
+
+Verification: **277 verbatim, 0 mismatched**; `check_sections.js` **60 checked, 0 to look at**;
+`check_context.js` **0 to look at on this release**; `lint_register.js` **430 checked, 0 to look at**;
+`lint_translations.js` **398 checked, 3 to look at**; `lint_markdown.js` **2278 lines, 0 leaking**.
+Cache-bust: `?v=132` -> `?v=133`.
+
 ## [1.12.0] - 2026-09-04
 
 **THE CIVIL WAR BEGINS.** Ten excerpts from Book I of the *Bellum Civile*, joining the launch-era

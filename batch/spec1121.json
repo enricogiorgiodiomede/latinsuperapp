@@ -1,0 +1,10 @@
+{
+  "_comment": "v1.12.1 - the second De Bello Civili batch: Book II (6), which closes it at its allocation. Three from the siege of Massilia (the musculus, the broken truce, the surrender) and three from Curio in Africa (the loyalty test, the fatal error, the death). All six are whole chapters. Source defect: II.10 prints `diluere posset Coria autem` with no stop between the sentences.",
+
+  "bc.2.10": ["bc2", "Ubi ex ea turri, quae circum", "ut aedificio iungatur."],
+  "bc.2.14": ["bc2", "At hostes sine fide tempus", "in oppidum reppulerunt."],
+  "bc.2.22": ["bc2", "Massilienses omnibus defessi malis", "ipse ad urbem proficiscitur."],
+  "bc.2.28": ["bc2", "Erat in exercitu Vari Sextus", "atque ita suas uterque copias reducit."],
+  "bc.2.38": ["bc2", "His constitutis rebus probatisque", "captivosque ad eum reducunt."],
+  "bc.2.42": ["bc2", "Curio, ubi perterritis omnibus", "Milites ad unum omnes interficiuntur."]
+}
