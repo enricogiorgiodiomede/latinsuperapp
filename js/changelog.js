@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.12.2', date: 'TBD', time: 'TBC', tz: 'CEST',
+      v: '1.12.2', date: '06/09/2026', time: '19:41', tz: 'CEST',
       en: {
         added: [
           'Thirteen excerpts from Book III, and with them the Bellum Civile is finished. Caesar\'s own writings are now complete in the app - all seven books of the Gallic War and all three of the Civil War, seventy excerpts - and the only thing left in the Corpus is the four books other men wrote after he died.',

@@ -108,7 +108,7 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
-## [1.12.2] - TBD
+## [1.12.2] - 2026-09-06
 
 **BOOK III, AND THE BELLUM CIVILE IS FINISHED.** Thirteen excerpts; bank **430 -> 443**; `verify.js`
 **277 -> 290 verbatim, 0 mismatched**. Caesar goes **57 -> 70**, `bc-iii` is at **13**, and **all ten
