@@ -148,7 +148,10 @@ const CLEARED = {
   // note and remove the matching line here** - the user's instruction.
   '(De Bello Civili II.28) | ref | De Bello Civili II.31': 1,
   '(De Bello Civili II.28) | ref | De Bello Civili II.32': 1,
-  '(De Bello Civili II.28) | ref | De Bello Civili II.33': 1
+  '(De Bello Civili II.28) | ref | De Bello Civili II.33': 1,
+  // III.104's closing note is ABOUT the fact that the work breaks off at
+  // III.112. The reference is the point, and it explains itself.
+  '(De Bello Civili III.104) | ref | De Bello Civili III.112': 1
 };
 
 let checked = 0, flagged = 0, cleared = 0;
@@ -203,8 +206,14 @@ for (const slug of Object.keys(AUTHORS)) {
         // Five letters is right for most names and one too many for short
         // ones: `Asiae` would not answer to `Asia`. Never take the whole word,
         // or the case ending is back in the comparison.
-        const stem = n.toLowerCase().slice(0, Math.max(4, Math.min(5, n.length - 1)));
+        const cut = Math.max(4, Math.min(5, n.length - 1));
+        const stem = n.toLowerCase().slice(0, cut);
+        // Latin `Ae-` is English and Italian `E-`: Aegyptus/Egypt/Egitto,
+        // Aemilius/Emilio. Try the reduced form too, or a chapter that glosses
+        // Egypt in three paragraphs is reported for never mentioning Aegyptum.
+        const alt = /^ae/i.test(n) ? ('e' + n.toLowerCase().slice(2)).slice(0, cut) : null;
         if (proseLow.indexOf(stem) !== -1) continue;
+        if (alt && proseLow.indexOf(alt) !== -1) continue;
         const ck = f.citation + ' | name | ' + n;
         if (CLEARED[ck]) { cleared++; continue; }
         bad.push('  the Latin names ' + n + ', which the commentary never mentions');

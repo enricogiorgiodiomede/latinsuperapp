@@ -1,0 +1,17 @@
+{
+  "_comment": "v1.12.2 - the third and last De Bello Civili batch: Book III (13), which finishes the work and the whole Corpus except Hirtius. The failed peace on the Apsus, the famine and Scaeva at Dyrrachium, the near-victory Pompey did not press, the enemy dividing the spoils before the battle, both battle plans at Pharsalus, Crastinus, the charge, the fourth line, the camp and the flight, the reckoning, and the murder of Pompey. All thirteen are whole chapters. Source defects: III.53 ends with no full stop, and III.94 prints `Pornpeiana` for `Pompeiana`.",
+
+  "bc.3.19":  ["bc3", "Inter bina castra Pompei atque Caesaris", "pax esse nulla potest.\""],
+  "bc.3.48":  ["bc3", "Est autem genus radicis inventum", "ut spem eorum minuerent."],
+  "bc.3.53":  ["bc3", "Ita uno die VI proeliis factis", "militaribusque donis amplissime donavit"],
+  "bc.3.70":  ["bc3", "His tantis malis haec subsidia succurrebant", "tardata nostris salutem attulit."],
+  "bc.3.83":  ["bc3", "Iam de sacerdotio Caesaris Domitius", "quemadmodum uti victoria deberent, cogitabant."],
+  "bc.3.86":  ["bc3", "Pompeius quoque, ut postea cognitum est", "ne suam neu reliquorum opinionem fallerent."],
+  "bc.3.89":  ["bc3", "Caesar superius institutum servans", "vexillo signum daturum."],
+  "bc.3.91":  ["bc3", "Erat C. Crastinus evocatus", "voluntarii eiusdem cohortis sunt prosecuti."],
+  "bc.3.92":  ["bc3", "Inter duas acies tantum erat relictum", "suos incitari existimaverunt."],
+  "bc.3.94":  ["bc3", "Eodem tempore tertiam aciem Caesar", "diffidens et tamen eventum exspectans."],
+  "bc.3.96":  ["bc3", "In castris Pompei videre licuit", "initio fugae facto paene proditus videretur."],
+  "bc.3.99":  ["bc3", "In eo proelio non amplius CC milites", "ab equitibus est interfectus."],
+  "bc.3.104": ["bc3", "His tum cognitis rebus amici regis", "in custodia necatur."]
+}

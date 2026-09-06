@@ -1,0 +1,25 @@
+{
+  "_comment": "v1.12.2 - subsection markers for the Latin of the thirteen Book III excerpts. Both translations were written with their markers already at these boundaries and mark_sections.js skips a field that carries them. Boundaries from Perseus (CTS phi0448.phi002); all thirteen are whole chapters. Two overrides where the Latin Library and Perseus diverge at a section's opening words: III.19.6 (`Qua ex frequentia, Titus Labienus prodit, sed missa oratione` against Perseus' `qua ex frequentia T. Labienus prodit, summissa oratione`) and III.89.4 (`Simul his` against `simul iis`). III.96 is the awkward one and takes an INLINE anchor list instead of the cache: Perseus returns sections numbered 1, 3 and 4 with no 2, having merged the standard 96.1 and 96.2 into a single div. The editions divide at `At hi miserrimo`, so the four anchors are written out here and the numbering comes out right.",
+
+  "(De Bello Civili III.19)":  { "author": "gaius-julius-caesar", "work": "bc-iii", "sections": "phi0448.phi002.3.19.json",
+                                 "overrides": { "6": "Qua ex frequentia, Titus Labienus prodit" } },
+  "(De Bello Civili III.48)":  { "author": "gaius-julius-caesar", "work": "bc-iii", "sections": "phi0448.phi002.3.48.json",
+                                 "overrides": { "1": "Est autem genus radicis" } },
+  "(De Bello Civili III.53)":  { "author": "gaius-julius-caesar", "work": "bc-iii", "sections": "phi0448.phi002.3.53.json" },
+  "(De Bello Civili III.70)":  { "author": "gaius-julius-caesar", "work": "bc-iii", "sections": "phi0448.phi002.3.70.json" },
+  "(De Bello Civili III.83)":  { "author": "gaius-julius-caesar", "work": "bc-iii", "sections": "phi0448.phi002.3.83.json" },
+  "(De Bello Civili III.86)":  { "author": "gaius-julius-caesar", "work": "bc-iii", "sections": "phi0448.phi002.3.86.json" },
+  "(De Bello Civili III.89)":  { "author": "gaius-julius-caesar", "work": "bc-iii", "sections": "phi0448.phi002.3.89.json",
+                                 "overrides": { "4": "Simul his rebus animadversis" } },
+  "(De Bello Civili III.91)":  { "author": "gaius-julius-caesar", "work": "bc-iii", "sections": "phi0448.phi002.3.91.json",
+                                 "overrides": { "1": "Erat C. Crastinus evocatus" } },
+  "(De Bello Civili III.92)":  { "author": "gaius-julius-caesar", "work": "bc-iii", "sections": "phi0448.phi002.3.92.json" },
+  "(De Bello Civili III.94)":  { "author": "gaius-julius-caesar", "work": "bc-iii", "sections": "phi0448.phi002.3.94.json" },
+  "(De Bello Civili III.96)":  { "author": "gaius-julius-caesar", "work": "bc-iii",
+                                 "sections": ["In castris Pompei videre licuit",
+                                              "At hi miserrimo ac patientissimo",
+                                              "Pompeius, iam cum intra vallum",
+                                              "Neque ibi constitit"] },
+  "(De Bello Civili III.99)":  { "author": "gaius-julius-caesar", "work": "bc-iii", "sections": "phi0448.phi002.3.99.json" },
+  "(De Bello Civili III.104)": { "author": "gaius-julius-caesar", "work": "bc-iii", "sections": "phi0448.phi002.3.104.json" }
+}

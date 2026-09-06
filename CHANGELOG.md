@@ -108,6 +108,88 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.12.2] - TBD
+
+**BOOK III, AND THE BELLUM CIVILE IS FINISHED.** Thirteen excerpts; bank **430 -> 443**; `verify.js`
+**277 -> 290 verbatim, 0 mismatched**. Caesar goes **57 -> 70**, `bc-iii` is at **13**, and **all ten
+books Caesar himself wrote are now in the app**. What remains of the campaign is Hirtius alone (42).
+
+### Added
+- `III.19` **the parley on the Apsus**. The soldiers of both sides have arranged their own truce -
+  *per pactiones loquentium* - and Vatinius asks across the river *liceretne civibus ad cives de pace
+  legatos mittere, quod etiam fugitivis... praedonibusque licuisset*. Then javelins *undique*, and
+  **the only sentence of direct speech Caesar ever gives Labienus**: *nisi Caesaris capite relato pax
+  esse nulla potest*. Not a surrender demand - the vocabulary of a proscription.
+- `III.48` **bread made of roots**, the shortest Caesar excerpt in the app. *Chara* ground and mixed
+  with milk, made *ad similitudinem panis*, and thrown at the enemy when they jeer about the famine.
+- `III.53` **Scaeva's shield**. Two thousand enemy dead against twenty - and then *in castello nemo
+  fuit omnino militum, quin vulneraretur*, with four centurions of one cohort blinded. Thirty thousand
+  spent arrows counted out as *laboris sui periculique testimonium*, and **a hundred and twenty holes
+  in one shield**, answered with 200,000 sesterces and promotion from the eighth grade to *primus
+  pilus*.
+- `III.70` after the defeat at Dyrrachium: ***ita parvae res magnum in utramque partem momentum
+  habuerunt***, one of the very few general maxims about war anywhere in the *Commentarii* - and a
+  substitute for the explanation the chapter declines to give.
+- `III.83` **the winning side dividing the spoils** three days early: three men quarrelling publicly
+  over Caesar's priesthood, Afranius prosecuted for `I.72`-`I.76`, and Domitius proposing **three
+  voting tablets** to try every senator who stayed neutral - acquittal, a fine, or death.
+  *Nec, quibus rationibus superare possent, sed, quemadmodum uti victoria deberent, cogitabant.*
+- `III.86` **Pompey's plan, which is the right plan**, reported *ut postea cognitum est*. The flaw is
+  not the tactics but the tense: *bello conficiemus*, we shall finish the war, from a man who has just
+  said *scio me paene incredibilem rem polliceri*.
+- `III.89` **the fourth line.** Eighty cohorts and twenty-two thousand men - 275 to a cohort against a
+  paper 480, printed and left for the reader to divide. Then one cohort pulled from each legion,
+  hidden behind the right, and told *eius diei victoriam in earum cohortium virtute constare*.
+- `III.91` **Crastinus.** *Unum hoc proelium superest; quo confecto et ille suam dignitatem et nos
+  nostram libertatem recuperabimus* - the war stated from the ranks, with the general's cause and the
+  soldiers' in the same sentence and not pretended to be the same thing. Then *faciam, imperator, ut
+  aut vivo mihi aut mortuo gratias agas*.
+- `III.92` **the longest piece of pure military theory Caesar ever wrote.** Pompey's reasoning given
+  in full and fairly, then rejected on psychological grounds - *quaedam animi incitatio atque alacritas
+  naturaliter innata omnibus* - with an argument from ancient custom, and **in the first person**:
+  *nobis quidem videtur*, which he almost never uses.
+- `III.94` the fourth line delivering, in three clauses with one repeated agent (*ab his... ab isdem...
+  ab isdem*) - and then Pompey, given the collapse from inside: he saw the part he trusted most break
+  and stopped trusting the rest. The lie at the gate, spoken *clare, ut milites exaudirent*, and then
+  ***summae rei diffidens et tamen eventum exspectans***.
+- `III.96` **the captured camp**: arbours, silver, floors of fresh turf, ivy over Lentulus' tent - and
+  *at hi miserrimo ac patientissimo exercitui Caesaris luxuriam obiciebant*, which is the receipt for
+  `III.48`. Then *detractis insignibus imperatoris* and a grain ship.
+- `III.99` **the reckoning.** Two hundred men **and thirty centurions**; Crastinus killed *gladio in os
+  adversum coniecto*, and Caesar reaching eight chapters back to say ***neque id fuit falsum***. Nine
+  eagles taken. And Lucius Domitius Ahenobarbus, released at `I.23` and escaped at `II.22`, killed in
+  a subordinate clause on a hillside.
+- `III.104` **the murder of Pompey**, with both motives given and neither chosen, the one *sententia*
+  in the chapter (*ut plerumque in calamitate ex amicis inimici exsistunt*), and Septimius - the
+  centurion from the pirate war whose face is the reason Pompey gets into the boat. *Ibi ab Achilla et
+  Septimio interficitur*, in the narrative present, with no adjective.
+
+### Fixed
+- **`III.53` ends with no full stop** after *donavit*; emended and declared.
+- **`III.94` prints *Pornpeiana*** for *Pompeiana*, an rn-for-m misreading; emended and declared.
+- **A dangling cross-reference**: `III.99`'s analysis argued from *De Bello Gallico* VII.51, which is
+  not in the bank. Rewritten to give the Gergovia casualty figures inline and anchor on VII.52, which
+  is. Found by `check_context.js`.
+- **`check_context.js` now folds Latin `Ae-` to `E-`** when matching a name against the commentary, so
+  that a chapter glossing Egypt in three paragraphs is not reported for never mentioning *Aegyptum*.
+
+### Notes on the source
+- All thirteen are whole chapters, so no citation names its subsections.
+- **Four `overrides`**, all straightforward divergences at a section's opening words: `III.19.6`
+  (*Qua ex frequentia, Titus Labienus prodit, sed missa oratione* against Perseus' *T. Labienus...
+  summissa oratione*), `III.48.1` (*Est autem* / *Est etiam*), `III.89.4` (*Simul his* / *simul iis*)
+  and `III.91.1` (*Erat C. Crastinus* / *Erat Crastinus*).
+- **`III.96` needed the inline anchor list instead of the cache.** Perseus returns that chapter with
+  sections numbered **1, 3 and 4 and no 2**, having merged the standard 96.1 and 96.2 into one div.
+  The editions divide at *At hi miserrimo*, so the four boundaries are written out by hand in
+  `batch/marks1122.json` - the first time `sections` has been given as an array rather than a cache
+  file, and the reason that option exists.
+
+Verification: **290 verbatim, 0 mismatched**; `check_sections.js` **0 to look at**;
+`check_context.js` **0 to look at on this release, 1 cleared**; `lint_register.js` **443 checked, 0 to
+look at**; `lint_translations.js` **411 checked, 3 to look at**; `lint_markdown.js` **2343 lines, 0
+leaking**. Cache-bust: `?v=134` -> `?v=135`.
+
 ## [1.12.1] - 2026-09-05
 
 **BOOK II OF THE BELLUM CIVILE, WHICH CLOSES IT.** Six excerpts; bank **424 -> 430**; `verify.js`

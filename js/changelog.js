@@ -12,6 +12,41 @@
 
   var VERSIONS = [
     {
+      v: '1.12.2', date: 'TBD', time: 'TBC', tz: 'CEST',
+      en: {
+        added: [
+          'Thirteen excerpts from Book III, and with them the Bellum Civile is finished. Caesar\'s own writings are now complete in the app - all seven books of the Gallic War and all three of the Civil War, seventy excerpts - and the only thing left in the Corpus is the four books other men wrote after he died.',
+          'It opens with two armies camped either side of a river whose soldiers have been talking to each other daily under a truce they arranged themselves. An envoy walks to the bank and asks, loudly, whether citizens may send envoys to citizens about peace, when runaway slaves and pirates had been allowed to. Both armies listen in silence. The next day the parley is broken up by javelins thrown from every side at once, and Labienus - who had been Caesar\'s best officer in Gaul for nine years - ends it with the only sentence Caesar ever quotes him saying: there can be no peace for us unless Caesar\'s head is brought back.',
+          'Then Dyrrachium, where Caesar besieged an army bigger than his own and starved while doing it. His men find a root they can grind into something like bread, and when the enemy jeer at them about the famine they throw the loaves at them. In one fort not a single soldier is unwounded and four centurions of one cohort lose their eyes; the men count out thirty thousand spent arrows as proof, and bring their centurion\'s shield, which has a hundred and twenty holes in it. Then Caesar loses the battle, and explains why he was not destroyed with it: Pompey, who had never expected to win, did not believe he had. Small things, he says, have great weight in both directions.',
+          'Then Pharsalus. Three chapters before it, the winning side is dividing the spoils: three men quarrelling in public over which of them gets Caesar\'s priesthood, a general being prosecuted, and a proposal for three voting tablets with which to try, after the victory, every senator who stayed neutral - acquittal, a fine, or death. Then Pompey explains to his council that the cavalry will roll up Caesar\'s open flank before a javelin is thrown, which is the right plan. Caesar, seeing the horsemen stacked on one wing, quietly pulls one cohort out of each legion, hides them behind his right, and tells them the day is theirs.',
+          'And then the battle, and a veteran called Crastinus who turns to the men he used to command, tells them that when this is over their general gets back his standing and they get back their freedom, promises Caesar he will act so as to be thanked alive or dead, and runs. The fourth line does what it was built for. Pompey watches the part he trusted most break, rides to camp, tells the guards loudly to look after it because he is going round the other gates, and sits down in his tent to wait. Caesar\'s men walk into that camp and find garden arbours, silver laid out and tents roofed with ivy. Afterwards he counts: two hundred of his own dead and thirty centurions, and he goes back eight chapters to record that Crastinus was killed with a sword in the front of his face, and that what he had promised was not false.',
+          'The work ends off the coast of Egypt. Pompey asks a thirteen-year-old king for asylum; the men running the kingdom answer generously in public and privately send two officers to kill him. He gets into their boat because he recognises one of them - a centurion who had served under him in the pirate war twenty years before. Caesar gives the death five words and no adjective, and eight chapters later the Bellum Civile stops in mid-sentence, unfinished.'
+        ],
+        changed: [
+          'Two faults in the source text of Book III are corrected and recorded: one chapter ends with no full stop, and one prints Pornpeiana for Pompeiana.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Tredici brani dal libro III, e con essi il Bellum Civile è finito. Gli scritti di Cesare sono ora completi nell\'app - tutti e sette i libri della guerra gallica e tutti e tre della guerra civile, settanta brani - e del Corpus restano solo i quattro libri che altri scrissero dopo la sua morte.',
+          'Si apre con due eserciti accampati sulle due rive di un fiume, i cui soldati si parlano ogni giorno grazie a una tregua che si sono organizzati da soli. Un ambasciatore va sulla riva e chiede, ad alta voce, se sia lecito che dei cittadini mandino ambasciatori a dei cittadini per la pace, quando lo si era concesso a schiavi fuggiaschi e a pirati. I due eserciti ascoltano in silenzio. Il giorno dopo il colloquio viene interrotto da giavellotti lanciati da ogni parte insieme, e Labieno - che per nove anni era stato il miglior ufficiale di Cesare in Gallia - lo chiude con l\'unica frase che Cesare gli metta mai in bocca: per noi non ci può essere pace se non riportando la testa di Cesare.',
+          'Poi Durazzo, dove Cesare assediò un esercito più grande del suo e intanto patì la fame. I suoi trovano una radice da macinare in qualcosa di simile al pane, e quando i nemici li deridono per la carestia gli tirano addosso le pagnotte. In un forte non c\'è un solo soldato illeso e quattro centurioni di una coorte perdono gli occhi; gli uomini contano trentamila frecce scagliate come prova, e portano lo scudo del loro centurione, che ha centoventi fori. Poi Cesare perde la battaglia, e spiega perché non sia stato distrutto insieme a essa: Pompeo, che non si era mai aspettato di vincere, non credette di aver vinto. Le piccole cose, dice, hanno grande peso in entrambe le direzioni.',
+          'Poi Farsalo. Tre capitoli prima, la parte vincente si spartisce il bottino: tre uomini che litigano in pubblico su chi avrà il sacerdozio di Cesare, un generale sotto accusa, e la proposta di tre tavolette di voto con cui processare, dopo la vittoria, ogni senatore rimasto neutrale: assoluzione, multa o morte. Poi Pompeo spiega al suo consiglio che la cavalleria arrotolerà il fianco scoperto di Cesare prima che sia lanciato un giavellotto, ed è il piano giusto. Cesare, vedendo i cavalieri ammassati su un\'ala, ritira in silenzio una coorte per legione, le nasconde dietro la propria destra e dice loro che la giornata è la loro.',
+          'E poi la battaglia, e un veterano di nome Crastino che si volta verso gli uomini che comandava un tempo, dice loro che quando sarà finita il generale riavrà il suo prestigio e loro la loro libertà, promette a Cesare che farà in modo di essere ringraziato da vivo o da morto, e parte di corsa. La quarta linea fa ciò per cui era stata creata. Pompeo vede cedere la parte di cui più si fidava, torna al campo, dice ad alta voce alle guardie di badarci perché lui va a fare il giro delle altre porte, e si siede nella tenda ad aspettare. Gli uomini di Cesare entrano in quell\'accampamento e vi trovano pergolati, argenteria in mostra e tende coperte d\'edera. Dopo lui conta: duecento morti dei suoi e trenta centurioni, e torna indietro di otto capitoli per registrare che Crastino fu ucciso da una spada in pieno viso, e che ciò che aveva promesso non fu falso.',
+          'L\'opera finisce al largo dell\'Egitto. Pompeo chiede asilo a un re di tredici anni; gli uomini che reggono il regno rispondono con generosità in pubblico e in privato mandano due ufficiali a ucciderlo. Sale sulla loro barca perché ne riconosce uno: un centurione che aveva servito ai suoi ordini nella guerra contro i pirati vent\'anni prima. Cesare dà alla morte cinque parole e nessun aggettivo, e otto capitoli dopo il Bellum Civile si interrompe a metà, incompiuto.'
+        ],
+        changed: [
+          'Due errori del testo di partenza del libro III sono corretti e registrati: un capitolo finisce senza punto e uno stampa Pornpeiana invece di Pompeiana.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.12.1', date: '05/09/2026', time: '23:42', tz: 'CEST',
       en: {
         added: [

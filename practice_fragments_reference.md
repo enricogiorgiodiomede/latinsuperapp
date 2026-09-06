@@ -1009,8 +1009,15 @@ the real risk at this volume.
 - **BG VI**: 11 · 13 · 14 · 16 · 21 · 28
 - **BG VII**: 3 · 4 · 14 · 15 · 28 · 52 · 73 · 77 (sections 12-16 only) · 89
 - **BC I**: 4 · 5 · 7 · 9 · 22 · 23 · 28 · 33 · 72 · 74 · 76
-- **BC II**: 10 · 14 · 22 · 28 · 38 · 42 · **DBG VIII**: praefatio · **BA**: 1, 2
-- Running total **60**. **THE GALLIC WAR IS COMPLETE at its allocated 40**, all seven books closed (6/4/3/5/7/6/9). **BC I IS CLOSED at 11** (10 new in v1.12.0 plus the launch-era I.7). **BC II IS CLOSED at 6** (v1.12.1). What remains of the campaign is **BC III (13)** and **Hirtius (42)**.
+- **BC II**: 10 · 14 · 22 · 28 · 38 · 42
+- **BC III**: 19 · 48 · 53 · 70 · 83 · 86 · 89 · 91 · 92 · 94 · 96 · 99 · 104 · **DBG VIII**: praefatio · **BA**: 1, 2
+- Running total **73**. **THE GALLIC WAR IS COMPLETE at its allocated 40**, all seven books closed (6/4/3/5/7/6/9). **BC I IS CLOSED at 11** (10 new in v1.12.0 plus the launch-era I.7). **BC II IS CLOSED at 6** (v1.12.1) and **BC III at 13** (v1.12.2). **EVERYTHING CAESAR HIMSELF WROTE IS NOW IN THE APP** - ten books, seventy excerpts. What remains of the campaign is **Hirtius alone (42)**: De Bello Gallico VIII (19) and the Bellum Alexandrinum (23).
+
+**BC III CANDIDATES THAT DID NOT MAKE THE THIRTEEN.** **`III.31`-`III.32`** in Book II's sense is not the issue here; for Book III the strongest omissions are **`III.72`** (the Pompeians' overconfidence after Dyrrachium, dropped because `III.83` says it better and harder), **`III.93`** (the charge itself, and the detail that Caesar's men stopped halfway of their own accord to get their breath - summarised at the end of `III.92`'s analysis instead), **`III.82`** (Pompey's contio in Thessaly) and **`III.105`-`III.112`**, the unfinished Alexandrian tail.
+
+**SOURCE FAULTS IN `bc3`:** **III.53 ends with no full stop** after `donavit`, and **III.94 prints `Pornpeiana`** for `Pompeiana` - an rn-for-m misreading of exactly the kind that turns up in scanned text. Both emended and declared.
+
+**PERSEUS SKIPPED A SECTION NUMBER AT III.96 AND `sections` AS AN ARRAY IS THE ANSWER.** Perseus returns that chapter numbered **1, 3, 4 with no 2**, having merged the standard 96.1 and 96.2 into a single div; the editions divide at `At hi miserrimo`. `mark_sections.js` accepts `sections` as an **inline array of anchors** instead of a cache filename, which is what `batch/marks1122.json` uses - the first time that option has been needed, and the reason it exists. **Prefer it to hand-editing the cache**, which is gitignored and gets overwritten by the next fetch.
 
 **`II.28` CARRIES A FOOTNOTE WITH A REMOVAL CONDITION.** Its closing note walks the reader through
 **II.31, II.32 and II.33** - Curio telling his officers that an army's troubles must be hidden as one
