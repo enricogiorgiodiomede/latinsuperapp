@@ -141,7 +141,14 @@ const VOCAB = nameVocabulary();
 const CLEARED = {
   '(De Bello Civili I.28) | ref | De Bello Civili I.15': 1,   // summarised in the "Where we are"
   '(De Bello Civili I.28) | ref | De Bello Civili I.27': 1,   // Pompey's barricades, given in full
-  '(De Bello Civili I.76) | ref | De Bello Civili I.75': 1    // Petreius' first strike, given in full
+  '(De Bello Civili I.76) | ref | De Bello Civili I.75': 1,   // Petreius' first strike, given in full
+  // II.28's closing note deliberately walks the reader through the three
+  // chapters in which Curio answers Quintilius, and summarises each. **If
+  // II.31, II.32 or II.33 is ever added as an excerpt, shrink or delete that
+  // note and remove the matching line here** - the user's instruction.
+  '(De Bello Civili II.28) | ref | De Bello Civili II.31': 1,
+  '(De Bello Civili II.28) | ref | De Bello Civili II.32': 1,
+  '(De Bello Civili II.28) | ref | De Bello Civili II.33': 1
 };
 
 let checked = 0, flagged = 0, cleared = 0;

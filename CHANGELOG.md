@@ -169,6 +169,75 @@ Verification: **277 verbatim, 0 mismatched**; `check_sections.js` **60 checked, 
 `lint_translations.js` **398 checked, 3 to look at**; `lint_markdown.js` **2278 lines, 0 leaking**.
 Cache-bust: `?v=132` -> `?v=133`.
 
+### Follow-up, same day: the Book II proofreading pass
+
+No new excerpts, no version bump. Bank stays at **430** and `verify.js` at **277 verbatim, 0
+mismatched**; version tags untouched.
+
+#### Fixed
+- **`II.14`, English: *the enemy* took plural verbs.** It is defensible as a collective and it read as
+  an error, and it made section 3 ambiguous - *they are stopped from pursuing them* left the reader to
+  work out which side each pronoun meant. Singular throughout now, section 3 names our men as the ones
+  being stopped, and *at their leisure* becomes *unhindered*. The Italian has plural *i nemici* and is
+  untouched.
+
+#### Added - context
+- **`II.28`: what the first oath actually was.** The men swore the *sacramentum* to Domitius as their
+  commander and to Quintilius Varus as his quaestor when Domitius levied them around Corfinium in
+  February; it was cancelled at `I.23` in one clause, *milites Domitianos sacramentum apud se dicere
+  iubet*. **Two oaths to two sides in six months** is the whole of what Quintilius is asking about.
+- **`II.28`: there are two men called Varus in the first sentence.** *Publius Attius Varus* commands
+  the Pompeian army; *Sextus Quintilius Varus* is the officer riding out of it. Unrelated, and the
+  Latin gives no help at all. And the second is on Pompey's side by choice - captured at Corfinium,
+  released, and back in arms, which is the Domitius pattern again.
+
+#### Added - notes
+- **`II.10`**: the second face of Roman engineering, after Alesia - a sixty-foot gallery, a brick
+  tower and a ramp, designed and built to cross one stretch of ground once and then be abandoned.
+  **And the difference from Alesia is what happened next.** The Alesia works survived because the site
+  became farmland; Massilia is Marseille, continuously built over for two thousand six hundred years,
+  and **nothing of this survives at all**. The chapter is the only reason anyone knows what a
+  *musculus* was.
+- **`II.14`**: the humiliation is in the book on purpose. Caesar reports his own army asleep at its
+  post because two sentences later the Massiliots try the identical trick again, in the same wind,
+  *maiore cum fiducia*, and are slaughtered for it. One paragraph of candour buys an enemy's failure
+  of judgement. **And it is judgement, not vigilance** - the Romans were slack during a truce they had
+  granted at the enemy's request; expecting the same side to fall for it twice running is a different
+  order of mistake.
+- **`II.22`**: three. **Caesar writes like Cicero exactly once** - section 1 is a single suspended
+  period with the main verb held to the end, in an author whose whole manner is short and forward
+  moving, because exhaustion cannot be listed. **The grain store is a scandal, not a pathos** - laid
+  up *antiquitus* against a siege and then, apparently, never checked, so that the food meant to save
+  the city is part of the plague in the same sentence. And **the mercy may be the most destructive in
+  the work**: the population lived, the state did not, and four centuries of independent Greek
+  Massalia ended without a massacre in a sentence about reputation.
+- **`II.28`**: why silence and not a shout - two oaths pulling against each other, shame that one is
+  already broken, and the practical fear that **an army does not learn its own mind out loud**, since
+  declaring yourself in the ranks declares you to the man beside you. Plus a note on `II.31`-`II.33`,
+  where Curio sees exactly this and answers it, telling his officers that an army's troubles should be
+  hidden as one hides wounds of the body and then telling the men that Caesar ***vestrae fidei
+  commisit*** Sicily and Africa - **the same phrase Curio himself dies on at `II.42`**.
+- **`II.38`**: how this differs from Gergovia, since the two look alike and are opposites. At *De
+  Bello Gallico* VII.52 the fault is one virtue in excess and Caesar names it as a fault. Here there
+  is no excess and no fault named: four ordinary good qualities in reasonable measure add up to a man
+  believing what he wanted to be true. **Nothing had to go wrong for this to happen.**
+- **`II.42`**: the refusal read as the answer to the mistake - the man offered the horse is the man
+  whose error put the army there, and Caesar places the refusal immediately after the disaster and in
+  the vocabulary of a debt. Plus the point the whole book has been building to: **these are the
+  Corfinium legions**, the founding case of the clemency policy, and one false report from a deserter
+  killed every one of them. Nothing an enemy did to Caesar in 49 BC cost him anything comparable.
+
+#### Also
+`tools/check_context.js` flagged the three chapters the `II.28` note walks through, which is correct
+behaviour - they are summarised inline rather than pointed at, so they are cleared, **with the
+condition recorded in the file: if `II.31`, `II.32` or `II.33` is ever added as an excerpt, shrink
+that note and remove the matching lines.**
+
+Verification: **277 verbatim, 0 mismatched**; `check_sections.js` **0 to look at**;
+`check_context.js` **0 to look at on this release, 3 cleared**; `lint_register.js` **430 checked, 0 to
+look at**; `lint_translations.js` **398 checked, 3 to look at**; `lint_markdown.js` **2278 lines, 0
+leaking**. Cache-bust: `?v=133` -> `?v=134`.
+
 ## [1.12.0] - 2026-09-04
 
 **THE CIVIL WAR BEGINS.** Ten excerpts from Book I of the *Bellum Civile*, joining the launch-era

@@ -1012,6 +1012,14 @@ the real risk at this volume.
 - **BC II**: 10 · 14 · 22 · 28 · 38 · 42 · **DBG VIII**: praefatio · **BA**: 1, 2
 - Running total **60**. **THE GALLIC WAR IS COMPLETE at its allocated 40**, all seven books closed (6/4/3/5/7/6/9). **BC I IS CLOSED at 11** (10 new in v1.12.0 plus the launch-era I.7). **BC II IS CLOSED at 6** (v1.12.1). What remains of the campaign is **BC III (13)** and **Hirtius (42)**.
 
+**`II.28` CARRIES A FOOTNOTE WITH A REMOVAL CONDITION.** Its closing note walks the reader through
+**II.31, II.32 and II.33** - Curio telling his officers that an army's troubles must be hidden as one
+hides wounds of the body, then telling the men that Caesar *vestrae fidei commisit* Sicily and Africa
+(**the same phrase Curio dies on at II.42**), then the soldiers interrupting him, hurt at being
+suspected. The three chapters are summarised inline and cleared in `check_context.js`. **If any of
+them is ever added as an excerpt, shrink or delete that note and remove the matching CLEARED lines** -
+the user's instruction, v1.12.1 follow-up.
+
 **BC II CANDIDATES THAT DID NOT MAKE THE SIX.** **`II.41`** is the strongest omission - the rout at the Bagradas, ending on *plena erant omnia timoris et luctus* and the dying men commending their parents; it was left out only because `II.42` already carries the end and the pathos, and `II.42`'s own opening paragraph now supplies its content. Then **`II.31`**, Curio rejecting both proposals in **direct discourse**, which is rare in Caesar and contains the line about concealing an army's troubles as one conceals wounds of the body; **`II.32`**, his speech to the wavering army; and **`II.6`**, the second sea battle off Massilia.
 
 **SOURCE FAULT IN `bc2`:** **II.10.6 prints `diluere posset Coria autem`**, running two sentences together with no stop. Emended and declared. (`bc2` also prints `L Nasidius` at II.3 with no stop after the praenomen, which is not in any excerpt yet - watch for it if II.3 is ever taken.)
