@@ -1015,6 +1015,23 @@ the real risk at this volume.
 
 **BC III CANDIDATES THAT DID NOT MAKE THE THIRTEEN.** **`III.31`-`III.32`** in Book II's sense is not the issue here; for Book III the strongest omissions are **`III.72`** (the Pompeians' overconfidence after Dyrrachium, dropped because `III.83` says it better and harder), **`III.93`** (the charge itself, and the detail that Caesar's men stopped halfway of their own accord to get their breath - summarised at the end of `III.92`'s analysis instead), **`III.82`** (Pompey's contio in Thessaly) and **`III.105`-`III.112`**, the unfinished Alexandrian tail.
 
+**THE BELLUM CIVILE AND THE BELLUM ALEXANDRINUM ARE A SEAM, NOT TWO BOOKS.** `BC III.112` ends on
+***Haec initia belli Alexandrini fuerunt***; `BA 1` opens ***Bello Alexandrino conflato***. One work
+stops on the phrase the next starts from, which is why the Alexandrinum has no proem and introduces
+nobody - the continuator had Caesar's unfinished manuscript in front of him. Noted at both ends
+(`III.104` and `Bellum Alexandrinum 1`) in the v1.12.2 follow-up.
+
+**A CORRECTION WORTH KEEPING, because the two get mixed up constantly.** ***Vincere scis, victoria uti
+nescis*** - you know how to win but not how to use a victory - is **Maharbal to Hannibal after Cannae,
+Livy XXII.51**, and has nothing to do with Pompey. What Plutarch attributes to Caesar about Pompey at
+Dyrrachium is the different line: the enemy would have won *if they had had a commander who knew how
+to win*. `III.70`'s analysis now says so explicitly.
+
+**THE AUTHORIAL FIRST PERSON IN CAESAR IS COMMON; A FIRST-PERSON JUDGEMENT IS NOT.** Do not write that
+`III.92` is the only place he breaks the third person - *ut supra demonstravimus*, *nostri* and even
+*reperiebamus* (`III.53`) are everywhere. What is rare is *quod nobis quidem videtur*, an opinion
+about a colleague's decision.
+
 **SOURCE FAULTS IN `bc3`:** **III.53 ends with no full stop** after `donavit`, and **III.94 prints `Pornpeiana`** for `Pompeiana` - an rn-for-m misreading of exactly the kind that turns up in scanned text. Both emended and declared.
 
 **PERSEUS SKIPPED A SECTION NUMBER AT III.96 AND `sections` AS AN ARRAY IS THE ANSWER.** Perseus returns that chapter numbered **1, 3, 4 with no 2**, having merged the standard 96.1 and 96.2 into a single div; the editions divide at `At hi miserrimo`. `mark_sections.js` accepts `sections` as an **inline array of anchors** instead of a cache filename, which is what `batch/marks1122.json` uses - the first time that option has been needed, and the reason it exists. **Prefer it to hand-editing the cache**, which is gitignored and gets overwritten by the next fetch.

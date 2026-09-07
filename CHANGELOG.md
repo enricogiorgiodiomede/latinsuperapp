@@ -190,6 +190,97 @@ Verification: **290 verbatim, 0 mismatched**; `check_sections.js` **0 to look at
 look at**; `lint_translations.js` **411 checked, 3 to look at**; `lint_markdown.js` **2343 lines, 0
 leaking**. Cache-bust: `?v=134` -> `?v=135`.
 
+### Follow-up, same day: the Book III proofreading pass
+
+No new excerpts, no version bump. Bank stays at **443** and `verify.js` at **290 verbatim, 0
+mismatched**; version tags untouched. Two hours of the user's reading went into this list.
+
+#### Fixed
+- **`III.99`**, both translations: *besides* and *inoltre* sit in the middle of their clause and take
+  a comma on each side. **`III.104`**, both translations: *Likewise* and *Allo stesso modo* open their
+  sentence and take one after.
+- **The acronym `SCU`** had been standing unexplained in the launch-era `I.7` analysis since the app
+  began. Written out as the *senatus consultum ultimum*, and *populists* replaced by *popular
+  politicians* in the same sentence.
+- **Two more ambiguous chapter references**, of the class caught in v1.12.1: `II.25` inside `III.89`
+  and a bare `XXII.51` (Livy) inside `III.70`, both of which a reader would take for *Bellum Civile*
+  chapters. Both now name their work.
+
+#### Added - notes on all thirteen
+- **`III.19`** as an alibi rather than a scene: everything is arranged so that peace looks imminent -
+  the truce the men made themselves, the crowd, *omnium animi intenti esse ad pacem videbantur* - and
+  then exactly one person chooses to break something. Plus the wider claim: two Roman armies cannot
+  get permission to talk when Rome had granted it to slaves and pirates, so **somebody wants the war
+  to continue, and the chapter has shown you it is not the soldiers or Caesar**.
+- **`III.48`**: the compliment buried in the reporting. It was found *ab eis, qui fuerant vacui ab
+  operibus* - by men who happened to be off work detail - who worked out that a wild root could feed
+  an army and then made a surplus to throw away as a joke. Caesar never says *virtus* and does not
+  need to.
+- **`III.53`**: what was being walled in was **Pompey's army, not a city** - Alesia upside down, the
+  besieger being the smaller force. And the soldiers were not telling a story, they were presenting a
+  claim: *Caesari renumeraverunt*, they counted the arrows out to him. **Endurance is priced, and the
+  tariff is published** so every other cohort can read it.
+- **`III.70`**: where the judgement of Pompey begins - two failures of nerve at the moment of winning,
+  set down without an adjective, with Plutarch's *if they had had a commander who knew how to win*
+  behind it. **And a correction worth having**: the famous line about a general who knows how to win
+  but not how to use a victory - *vincere scis, victoria uti nescis* - is **Maharbal to Hannibal after
+  Cannae, in Livy XXII.51**, and has nothing to do with Pompey. The two get mixed up constantly.
+- **`III.83`**: why the silence is the technique. Caesar reports an agenda and never supplies a single
+  adjective, because a conclusion the reader reaches himself is one he will defend. The tablets are
+  worse than the priesthood - **a system drafted before the battle in which not fighting for Pompey is
+  a capital charge** - and the chapter is the charge to which `III.96` is the evidence.
+- **`III.86`**: the plan is right and the framing is fatal. He promises not a victory but a miracle,
+  *paene sine vulnere* and *prius quam a nobis telum in hostem iaceretur*, having already told his own
+  council the thing is *paene incredibilis*. Plus what *ut postea cognitum est* does: the speech
+  reaches the reader already knowing how it ended.
+- **`III.89`**: seven thousand horsemen massed on one wing cannot mean anything else, so **the
+  confidence of `III.86` is what showed Caesar the plan**. And the six cohorts are the final
+  examination of the *virtus* this app has tracked from `II.25` onward - courage with a precise job,
+  unlike Gergovia.
+- **`III.91`**: the closest thing to a proof the work contains. At `I.22` Caesar claimed to be freeing
+  himself and the Roman people; here a centurion says it back to him unprompted and splits it the same
+  way, *et ille suam dignitatem et nos nostram libertatem*.
+- **`III.92`**: Pompey argues from physics, Caesar from *animus* and from *mos maiorum*, and **it is
+  thoroughly Roman that the custom beats the mechanics**. Plus a correction of a common overstatement:
+  the authorial *we* is everywhere in the *Commentarii* (*demonstravimus*, *nostri*, even
+  *reperiebamus* at `III.53`); what is rare is a first-person **judgement**, and *nobis quidem videtur*
+  is the clearest one in the work.
+- **`III.94`**: the irony is exact because you have read `III.86`. **Confidence deflating in real
+  time** - the one guaranteed part fails and he stops trusting forty thousand men who are still
+  fighting; nothing is decided when he leaves, and he decides it by leaving. The lie at the gate
+  explained (he is not going to the other gates), and the pity of *summae rei diffidens et tamen
+  eventum exspectans* set against `III.70`: **at Dyrrachium he failed to recognise a victory, at
+  Pharsalus he conceded a defeat that had not happened.**
+- **`III.96`**: the two sections where Caesar stops being a general and becomes a moralist - and
+  moralises by putting the objects on the table. *Luxuria* as a public danger, not a private failing.
+  And section 2 as the answer to `III.48`, forty-eight chapters back.
+- **`III.99`**: the subject of the opening verb is Caesar and the Latin never says so. Why the ratio
+  is not believable and what steadies it - **thirty centurions, an eighth of the middle command**. And
+  Domitius' death as the cruellest irony in the book: sixteen chapters spent arranging a world that
+  depended on winning the battle he was too busy to think about.
+- **`III.104`**: where the irony stops and pity takes over, because nothing about this is his own
+  fault. **And Caesar did not take it well**, though the *Bellum Civile* gives the moment four words -
+  *Alexandriae de Pompei morte cognoscit* - with no reaction at all; the head, the ring and the
+  weeping are Plutarch and Dio, and what is in Caesar's own text is that he stayed and had Pothinus
+  executed.
+
+#### Added - the join, at both ends
+The *Bellum Civile* stops at III.112 on ***Haec initia belli Alexandrini fuerunt***; the *Bellum
+Alexandrinum* opens ***Bello Alexandrino conflato***. **One work ends on the phrase the next begins
+from.** Noted at `III.104`, and matched by a note in `(Bellum Alexandrinum 1)` explaining that its
+famously abrupt opening is abrupt because it is a seam and not a beginning.
+
+#### Also
+`check_context.js` gained two fixes it needed to stop misreading citations: **a reference to an author
+the bank does not carry is a citation, not a broken pointer** (so `Livy XXII.51` is no longer read as
+a *Bellum Civile* chapter), and the work-name pattern now tolerates a backtick between the title and
+the numeral.
+
+Verification: **290 verbatim, 0 mismatched**; `check_sections.js` **0 to look at**;
+`check_context.js` **0 to look at on this release**; `lint_register.js` **443 checked, 0 to look at**;
+`lint_translations.js` **411 checked, 3 to look at**; `lint_markdown.js` **2343 lines, 0 leaking**.
+Cache-bust: `?v=135` -> `?v=136`.
+
 ## [1.12.1] - 2026-09-05
 
 **BOOK II OF THE BELLUM CIVILE, WHICH CLOSES IT.** Six excerpts; bank **424 -> 430**; `verify.js`

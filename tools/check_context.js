@@ -112,6 +112,9 @@ function nameVocabulary() {
 }
 
 // Every chapter the bank actually holds, as `Work N.M`, with ranges expanded.
+// The set of work names the bank actually carries, taken from the citations.
+const WORKS = new Set();
+
 function ownedChapters() {
   const own = new Set();
   for (const slug of Object.keys(AUTHORS)) {
@@ -120,6 +123,7 @@ function ownedChapters() {
         const m = f.citation.match(/^\(([^)]*?)\s+([IVXLCDM]+)\.(\d+)(?:-(\d+))?/);
         if (!m) continue;
         const from = parseInt(m[3], 10), to = m[4] ? parseInt(m[4], 10) : from;
+        WORKS.add(m[1]);
         for (let n = from; n <= to; n++) own.add(m[1] + ' ' + m[2] + '.' + n);
       }
     }
@@ -172,7 +176,7 @@ for (const slug of Object.keys(AUTHORS)) {
       // list has to include the works actually cited across the bank, or a
       // cross-reference to `Ad Atticum VII.11` is read as chapter VII.11 of
       // whatever work the fragment belongs to and reported as dangling.
-      const re = /(?:[`*]?(De Bello Gallico|De Bello Civili|Bellum Alexandrinum|Ad Atticum|Ad Familiares|Ad Quintum Fratrem|Ad Brutum|De Divinatione|De Officiis|De Re Publica|Tusculanae|Agricola)[`*]?[, ]\s*)?\b([IVXLCDM]{1,5})\.(\d+)\b/g;
+      const re = /(?:[`*]?(De Bello Gallico|De Bello Civili|Bellum Alexandrinum|Ad Atticum|Ad Familiares|Ad Quintum Fratrem|Ad Brutum|De Divinatione|De Officiis|De Re Publica|Tusculanae|Agricola|Livy|Livio|Plutarch|Plutarco|Suetonius|Svetonio|Appian|Appiano|Dio|Dione)[`*]?[, ]\s*[`*]?)?\b([IVXLCDM]{1,5})\.(\d+)\b/g;
       let m;
       while ((m = re.exec(prose))) {
         if (!romanOk(m[2])) continue;
@@ -180,9 +184,18 @@ for (const slug of Object.keys(AUTHORS)) {
         if (!w) continue;
         const key = w + ' ' + m[2] + '.' + m[3];
         if (OWN.has(key) || seen.has(key)) continue;
+        // Authors cited but not carried are listed in the alternation above for
+      // exactly this reason: once `Livy XXII.51` captures `Livy` as its work,
+      // the WORKS test below drops it instead of reading it as a chapter of
+      // whatever the fragment happens to be.
+      // A reference to a work the bank does not carry at all is a scholarly
+        // CITATION, not a broken pointer into the app: `Livy XXII.51` sends the
+        // reader to a library, not to a page that ought to exist here. Only
+        // works that appear in some citation are checked. A bare numeral with
+        // no work named still resolves to the fragment's own work, which is in
+        // the bank by definition, so those are all still caught.
+        if (!WORKS.has(w)) continue;
         seen.add(key);
-        // A reference to another AUTHOR's work is a citation, not a pointer
-        // into this app, and is only reported when that work is in the bank.
         const ck = f.citation + ' | ref | ' + key;
         if (CLEARED[ck]) { cleared++; continue; }
         bad.push('  points at ' + key + ', which is not an excerpt in the bank');
