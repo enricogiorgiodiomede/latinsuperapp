@@ -108,7 +108,7 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
-## [1.13.0] - TBD
+## [1.13.0] - 2026-09-08
 
 **HIRTIUS BEGINS: DE BELLO GALLICO VIII.** Ten excerpts joining the launch-era preface; bank
 **443 -> 453**; `verify.js` **290 -> 300 verbatim, 0 mismatched**. Hirtius goes **3 -> 13**, and

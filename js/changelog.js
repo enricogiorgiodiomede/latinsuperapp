@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.13.0', date: 'TBD', time: 'TBC', tz: 'CEST',
+      v: '1.13.0', date: '08/09/2026', time: '19:33', tz: 'CEST',
       en: {
         added: [
           'Ten excerpts from the eighth book of the Gallic War - the book Caesar did not write. He was murdered with the work unfinished, seven books covering 58 to 52 BC and nothing on the two years after, and one of his officers, Aulus Hirtius, wrote the missing volume afterwards to close the gap between Caesar\'s last book and the Civil War. He was killed in battle himself the following year, before he could finish the rest.',
