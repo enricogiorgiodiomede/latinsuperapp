@@ -1,0 +1,14 @@
+{
+  "_comment": "v1.13.0 - subsection markers for the Latin of the ten De Bello Gallico VIII excerpts. Both translations were written with their markers already at these boundaries and mark_sections.js skips a field that carries them. Boundaries from Perseus (CTS phi0448.phi001, book 8); all ten are whole chapters.",
+
+  "(De Bello Gallico VIII.1)":  { "author": "aulus-hirtius", "work": "bellum-gallicum-viii", "sections": "phi0448.phi001.8.1.json" },
+  "(De Bello Gallico VIII.3)":  { "author": "aulus-hirtius", "work": "bellum-gallicum-viii", "sections": "phi0448.phi001.8.3.json" },
+  "(De Bello Gallico VIII.4)":  { "author": "aulus-hirtius", "work": "bellum-gallicum-viii", "sections": "phi0448.phi001.8.4.json" },
+  "(De Bello Gallico VIII.23)": { "author": "aulus-hirtius", "work": "bellum-gallicum-viii", "sections": "phi0448.phi001.8.23.json" },
+  "(De Bello Gallico VIII.41)": { "author": "aulus-hirtius", "work": "bellum-gallicum-viii", "sections": "phi0448.phi001.8.41.json" },
+  "(De Bello Gallico VIII.44)": { "author": "aulus-hirtius", "work": "bellum-gallicum-viii", "sections": "phi0448.phi001.8.44.json" },
+  "(De Bello Gallico VIII.48)": { "author": "aulus-hirtius", "work": "bellum-gallicum-viii", "sections": "phi0448.phi001.8.48.json" },
+  "(De Bello Gallico VIII.51)": { "author": "aulus-hirtius", "work": "bellum-gallicum-viii", "sections": "phi0448.phi001.8.51.json" },
+  "(De Bello Gallico VIII.53)": { "author": "aulus-hirtius", "work": "bellum-gallicum-viii", "sections": "phi0448.phi001.8.53.json" },
+  "(De Bello Gallico VIII.55)": { "author": "aulus-hirtius", "work": "bellum-gallicum-viii", "sections": "phi0448.phi001.8.55.json" }
+}

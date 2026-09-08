@@ -155,7 +155,13 @@ const CLEARED = {
   '(De Bello Civili II.28) | ref | De Bello Civili II.33': 1,
   // III.104's closing note is ABOUT the fact that the work breaks off at
   // III.112. The reference is the point, and it explains itself.
-  '(De Bello Civili III.104) | ref | De Bello Civili III.112': 1
+  '(De Bello Civili III.104) | ref | De Bello Civili III.112': 1,
+  // VIII.23's account of who Commius was cites the chapter where Caesar sent
+  // him to Britain, and says in the same sentence what is in it.
+  '(De Bello Gallico VIII.23) | ref | De Bello Gallico IV.21': 1,
+  // The Saone is named in the translation of VIII.4; the analysis has no
+  // occasion to mention the river and does not need one.
+  '(De Bello Gallico VIII.4) | name | Arare': 1
 };
 
 let checked = 0, flagged = 0, cleared = 0;

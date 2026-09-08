@@ -1,0 +1,14 @@
+{
+  "_comment": "v1.13.0 - the first Hirtius batch: De Bello Gallico VIII (10), joining the launch-era preface. The arc of the book in ten stops: the revolt resuming after Alesia (1, 3, 4), Labienus arranging a murder at a parley (23), the last siege in Gaul and what Caesar did at the end of it (41, 44), the man who survived the murder and the author stepping out of his own narrative (48), the return to Italy (51), the political manoeuvre against Caesar (53), and the two legions (55). All ten are whole chapters. 55 is the awkward one: the book - and the whole Gallic War - ends on the single word `Contendit` with no full stop in the source, and Perseus puts that word inside section 2, so stopping before it would cut a section short. It is taken, with the missing stop supplied as a declared emendation exactly as at `De Bello Civili` III.53, and the analysis says that editors disagree about whether a sentence has been lost.",
+
+  "bg.8.1":  ["gall8", "Omni Gallia devicta Caesar", "possent se vindicare in libertatem."],
+  "bg.8.3":  ["gall8", "Repentino adventu Caesaris accidit", "in fidem receptas esse, idem fecerunt."],
+  "bg.8.4":  ["gall8", "Caesar militibus pro tanto labore", "ad persequendos Carnutes proficiscitur."],
+  "bg.8.23": ["gall8", "Nocte insequenti legati responsa", "in conspectum cuiusquam Romani venire."],
+  "bg.8.41": ["gall8", "Quorum omnis postea multitudo aquatorum", "magna hostium multitudo siti consumebatur."],
+  "bg.8.44": ["gall8", "Caesar, cum suam lenitatem cognitam", "vinctum ad Caesarem deduxit."],
+  "bg.8.48": ["gall8", "Erat attributus Antonio praefectus", "coniungendaque huic commentario statui."],
+  "bg.8.51": ["gall8", "Exceptus est Caesaris adventus", "cupiditas apud humiliores."],
+  "bg.8.53": ["gall8", "Magnum hoc testimonium senatus", "quod ipsi constituissent."],
+  "bg.8.55": ["gall8", "Quo cum venisset, cognoscit", "quam belli gerendi. Contendit"]
+}

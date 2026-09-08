@@ -12,6 +12,39 @@
 
   var VERSIONS = [
     {
+      v: '1.13.0', date: 'TBD', time: 'TBC', tz: 'CEST',
+      en: {
+        added: [
+          'Ten excerpts from the eighth book of the Gallic War - the book Caesar did not write. He was murdered with the work unfinished, seven books covering 58 to 52 BC and nothing on the two years after, and one of his officers, Aulus Hirtius, wrote the missing volume afterwards to close the gap between Caesar\'s last book and the Civil War. He was killed in battle himself the following year, before he could finish the rest.',
+          'And because he is a different man writing in a dead man\'s manner, this batch does something the app has not done before: it compares the two, in the excerpts where the difference is largest. Hirtius says "I". Caesar never does - he refers to himself in the third person for ten books and writes "as was shown above" where Hirtius writes "as I showed". Hirtius explains why Caesar acted as he did, before saying what he did. He calls a reception incredible and a friend a very great friend. He tells you what an officer was feeling. And once, in the middle of a cavalry action, he stops the war entirely to explain how he has decided to organise his own book.',
+          'The story starts the year after Alesia, with Gaul conquered and rising again, and the reasoning behind it laid out in the first paragraph: nobody can beat the Roman army, but everybody at once can exhaust it, and a state that is destroyed buys time for the rest. Then Caesar marching in midwinter and forbidding his men to burn anything, because a burning farm is how a country learns an army has arrived. Then two hundred sesterces a man for the march, eighteen days of rest, and out again.',
+          'Then the worst thing in the book and the worst thing recorded of Caesar anywhere. Labienus, his senior officer, decides that a Gallic king\'s disloyalty can be put down "without any treachery", invites him to a parley, and posts centurions to kill him at it with the handshake as the signal. The centurion hesitates, and the man survives with a sword-cut to the head and a decision never to come into the sight of a Roman again. Twenty-five chapters later the same Roman officer hunts him down, and he rides at him and puts a lance through his thigh - and then asks to surrender on one condition, that he never has to appear before a Roman. It is granted, on the grounds that his fear is reasonable.',
+          'And then the end of the war, at a hill town with one spring. Caesar builds a sixty-foot ramp and a ten-storey tower to shoot at the water, tunnels under the spring, and takes it away. When the town gives in he has the hands cut off every man who carried a weapon and lets them live, so that the punishment can be seen - and Hirtius explains, before he reports it, that this was not cruelty. Then Italy, where every town on the road comes out with its children to meet him; then Rome, where a consul tries to have his provinces taken early, loses the vote, and concludes that what is needed is a way to make the senate agree; and then the last chapter, in which two legions are handed to Pompey. The Gallic War ends on a single word with no sentence around it.'
+        ],
+        changed: [
+          'Two faults in the source text of Book VIII are corrected and recorded: a Gallic chief is spelled one way seven times and another way once, and the book ends with no full stop at all.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Dieci brani dall\'ottavo libro della guerra gallica, il libro che Cesare non scrisse. Fu assassinato con l\'opera incompiuta - sette libri dal 58 al 52 a.C. e nulla sui due anni successivi - e uno dei suoi ufficiali, Aulo Irzio, scrisse in seguito il volume mancante per chiudere il vuoto fra l\'ultimo libro di Cesare e la guerra civile. L\'anno dopo fu ucciso lui stesso in battaglia, prima di poter finire il resto.',
+          'E poiché è un altro uomo che scrive alla maniera di un morto, questo gruppo fa una cosa che l\'app non aveva ancora fatto: mette a confronto i due, nei brani in cui la differenza è più grande. Irzio dice "io". Cesare non lo fa mai: parla di sé in terza persona per dieci libri e scrive "come si è mostrato sopra" dove Irzio scrive "come ho mostrato". Irzio spiega perché Cesare abbia agito così, prima di dire che cosa abbia fatto. Definisce incredibile un\'accoglienza e grandissimo amico un amico. Vi dice che cosa provava un ufficiale. E una volta, in mezzo a un\'azione di cavalleria, ferma del tutto la guerra per spiegare come ha deciso di organizzare il proprio libro.',
+          'La storia comincia l\'anno dopo Alesia, con la Gallia conquistata che si risolleva, e il ragionamento che c\'è dietro esposto nel primo paragrafo: nessuno può battere l\'esercito romano, ma tutti insieme possono sfiancarlo, e una nazione che viene distrutta compra tempo per le altre. Poi Cesare che marcia in pieno inverno e vieta ai suoi di bruciare qualsiasi cosa, perché una fattoria che brucia è il modo in cui un paese apprende che è arrivato un esercito. Poi duecento sesterzi a testa per la marcia, diciotto giorni di riposo, e di nuovo fuori.',
+          'Poi la cosa peggiore del libro e la cosa peggiore che si registri di Cesare in qualunque luogo. Labieno, il suo ufficiale anziano, decide che la slealtà di un re gallico si può reprimere "senza alcun tradimento", lo invita a un colloquio e vi appòsta dei centurioni per ucciderlo, con la stretta di mano come segnale. Il centurione esita, e l\'uomo sopravvive con un colpo di spada alla testa e la decisione di non comparire mai più davanti a un Romano. Venticinque capitoli dopo lo stesso ufficiale romano gli dà la caccia, e lui lo carica e gli conficca una lancia nella coscia; e poi chiede di arrendersi a una sola condizione, di non dover mai comparire davanti a un Romano. Gli viene concessa, con la motivazione che la sua paura è ragionevole.',
+          'E poi la fine della guerra, in una città d\'altura con una sola sorgente. Cesare costruisce un terrapieno di sessanta piedi e una torre di dieci piani per tirare sull\'acqua, scava cunicoli sotto la fonte e gliela porta via. Quando la città cede, fa tagliare le mani a ogni uomo che avesse portato le armi e li lascia vivere, perché la punizione si veda; e Irzio spiega, prima di riferirlo, che non fu crudeltà. Poi l\'Italia, dove ogni città lungo la strada gli va incontro con i figli; poi Roma, dove un console tenta di fargli togliere in anticipo le province, perde il voto e conclude che serve un modo per costringere il senato ad acconsentire; e poi l\'ultimo capitolo, in cui due legioni vengono consegnate a Pompeo. La guerra gallica finisce su una sola parola senza una frase attorno.'
+        ],
+        changed: [
+          'Due errori del testo di partenza del libro VIII sono corretti e registrati: il nome di un capo gallico è scritto in un modo sette volte e in un altro una volta sola, e il libro finisce senza alcun punto fermo.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.12.2', date: '06/09/2026', time: '19:41', tz: 'CEST',
       en: {
         added: [

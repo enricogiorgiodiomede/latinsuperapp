@@ -108,6 +108,83 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.13.0] - TBD
+
+**HIRTIUS BEGINS: DE BELLO GALLICO VIII.** Ten excerpts joining the launch-era preface; bank
+**443 -> 453**; `verify.js` **290 -> 300 verbatim, 0 mismatched**. Hirtius goes **3 -> 13**, and
+`bellum-gallicum-viii` is at **11**. What remains of the whole campaign is **Book VIII (9 more)** and
+the **Bellum Alexandrinum (23)**.
+
+**And this batch introduces the comparison the user asked for**: where Hirtius differs from Caesar
+most, the analysis says so, and where he does not, it says nothing. Four excerpts carry it - `VIII.1`,
+`VIII.44`, `VIII.48` and `VIII.51`.
+
+### Added
+- `VIII.1` **the book Caesar did not write**, and Hirtius imitating him well: an opening ablative
+  absolute in exactly the Caesarian manner, and then a period that folds back on itself in a way
+  Caesar's do not. Plus the Gallic strategy of simultaneous revolt, ending on the proposal to be
+  destroyed on purpose so that others go free - reported with none of the framing Caesar put round
+  Critognatus at VII.77.
+- `VIII.3` **the signal that was forbidden.** Caesar banned his men from burning anything, because a
+  burning farm is how a country learns an army has come: *Caesaris erat interdicto sublatum*. And
+  *celeritas* defined as politics rather than tactics - *et fideles amicos retinebat et dubitantes
+  terrore ad condiciones pacis adducebat*.
+- `VIII.4` two hundred sesterces a man, paid *praedae nomine* when nothing had been plundered; the
+  conqueror of Gaul spending his winter as a circuit judge; **eighteen days of rest in the whole
+  winter**; and *superiore commentario demonstratum est*, an editor keeping somebody else's volume in
+  view.
+- `VIII.23` **the handshake that was a signal.** Labienus decides Commius can be dealt with *sine ulla
+  perfidia* and then arranges a murder at a parley. The centurion cannot do it, *vel insueta re
+  permotus*. Commius lives, and resolves never to come into a Roman's sight again.
+- `VIII.41` **taking the spring away** - the third great engineering set-piece in the app's Caesar and
+  the most surgical: a sixty-foot ramp and a ten-storey tower built *non quidem quae moenibus
+  aequaret... sed quae superare fontis fastigium posset*, with covered tunnels going for the spring
+  head at the same time.
+- `VIII.44` **the hands.** *Omnibus qui arma tulerant manus praecidit vitamque concessit*, released so
+  the punishment could be seen - and the defence placed **before** the act, which is the thing Caesar
+  never does for himself. Plus *docui* and *scripsi*: **first person singular, twice in three lines.**
+- `VIII.48` **the centrepiece.** The duel that settles the debt of `VIII.23`, a lance through the
+  thigh, and Commius surrendering on one condition - granted *ab iusto nasci timore*. Then, with no
+  transition, ***Scio Caesarem... quod ego non existimavi mihi esse faciendum... statui***. **The most
+  un-Caesarian passage in the corpus**: an author stopping a cavalry action to explain his own
+  editorial policy, in the first person, twice.
+- `VIII.51` **the towns came out to meet him** - *incredibili honore atque amore*, superlatives,
+  absolutes and an emotional noun in the first line. Caesar never once describes his own reception.
+  And an irony Hirtius could not see: the *tricliniis stratis* here are the *trichilae* of *De Bello
+  Civili* III.96, where the same furniture means doom.
+- `VIII.53` Marcellus attacking Caesar's *dignitas* and the senate crossing *in alia omnia* in full.
+  Then the sentence that starts the civil war: they were not discouraged but **reminded** that they
+  needed *maiores necessitates*, means by which the senate **could be forced** to approve what they
+  had already decided.
+- `VIII.55` **the last chapter of the Gallic War**: the two legions handed to Pompey - the same two
+  that return at *De Bello Civili* I.4 and I.9 - and *iure potius disceptandi quam belli gerendi*, a
+  courtroom phrase to close a conquest on.
+
+### Fixed
+- **`VIII.44` prints *Lacterius*** for the Cadurcan chief *Lucterius*, whom the same book spells
+  correctly seven times. **The English translation had silently written the right name over the wrong
+  one**; it is now a declared emendation, so the Latin and the translations agree and `verify.js`
+  still checks against the source.
+- **The Gallic War ends with no full stop.** The transmitted text closes on the single word
+  *Contendit* and stops; the app supplies the stop and declares it, exactly as for *De Bello Civili*
+  III.53. Whether a clause has been lost is unknown and the analysis says so.
+- **Three unqualified chapter references** inside Gallic War analyses that meant the *Bellum Civili* -
+  `I.15`, `I.28` and `I.9` - now name their work. Found by `check_context.js`, which also turned up
+  four people named in the Latin and nowhere in the commentary: **Volusenus** and **Titus Labienus**
+  at `VIII.23`, the **Carnutes** at `VIII.4`, **Crassus** at `VIII.53`, and **Epasnactus** and the two
+  consuls of 50 at `VIII.44` and `VIII.48` - including the fact that the Marcellus of `VIII.53` and
+  the Marcellus of `VIII.48` and `VIII.55` are **two different men**.
+
+### Notes on the source
+- All ten are whole chapters, and - for the first time in the campaign - **not one `override` was
+  needed**. The Latin Library and Perseus agree throughout Book VIII, where Book I of the Civil War
+  needed seven.
+
+Verification: **300 verbatim, 0 mismatched**; `check_sections.js` **0 to look at**;
+`check_context.js` **0 to look at on this release, 2 cleared**; `lint_register.js` **453 checked, 0 to
+look at**; `lint_translations.js` **421 checked, 3 to look at**; `lint_markdown.js` **2393 lines, 0
+leaking**. Cache-bust: `?v=136` -> `?v=137`.
+
 ## [1.12.2] - 2026-09-06
 
 **BOOK III, AND THE BELLUM CIVILE IS FINISHED.** Thirteen excerpts; bank **430 -> 443**; `verify.js`
