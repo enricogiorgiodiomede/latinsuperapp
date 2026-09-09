@@ -185,6 +185,80 @@ Verification: **300 verbatim, 0 mismatched**; `check_sections.js` **0 to look at
 look at**; `lint_translations.js` **421 checked, 3 to look at**; `lint_markdown.js` **2393 lines, 0
 leaking**. Cache-bust: `?v=136` -> `?v=137`.
 
+### Follow-up, same day: the Book VIII proofreading pass
+
+No new excerpts, no version bump. Bank stays at **453** and `verify.js` at **300 verbatim, 0
+mismatched**; version tags untouched.
+
+#### Fixed - a rendering fault across twenty-eight excerpts
+**`js/markdown.js` has no code-span rule.** Chapter references in the notes had been written inside
+backticks, and **306 of them were reaching the page as literal backticks**, accumulating quietly from
+v1.12.0 onwards. All 37 distinct spans were chapter or work references that wanted no markup at all,
+so the backticks are stripped rather than the renderer extended. **`lint_markdown.js` now flags a
+literal backtick exactly as it flags a leaked asterisk**, so this cannot recur; if a code span is ever
+genuinely wanted, the renderer has to learn it first.
+
+#### Fixed - translation and references
+- **`VIII.41`**: *missiles* -> **projectiles** and *destroyed* -> **consumed** (*siti consumebatur*),
+  matching the Italian and the standing preference set at *De Bello Gallico* IV.33 in v1.11.3. It was
+  the only surviving *missiles* in the bank.
+- **Three more unqualified chapter numerals**, all the same trap: in a list of the form *I.5 and I.9*
+  only the first gets the work name, so the second reads as a chapter of whatever work the fragment
+  belongs to. Fixed at `VIII.51`, `VIII.55` and `VIII.4`.
+
+#### Added - notes
+- **`VIII.1`**: the strategy is right and blunt. Simultaneous revolt is arithmetic, and it spends
+  states. **The Gauls had done much better** - Ambiorix talked a legate out of a fortified camp with a
+  fabricated warning and destroyed fifteen cohorts the next morning (V.27, V.37); Vercingetorix
+  planned to starve the army rather than fight it (VII.14). And nobody owns the plan here: it arrives
+  as *verisimilis causa adferebatur*.
+- **`VIII.3`** as the answer to `VIII.1`: the plan needs simultaneity and **speed is what destroys
+  simultaneity** - *nec dat ulli civitati spatium de aliena potius quam de domestica salute
+  cogitandi*. *Divide et impera* executed with a calendar. Plus the pattern of leniency that makes
+  the exception at `VIII.44` legible as policy rather than temper.
+- **`VIII.4`**: the three superlatives placed before the money, so the bonus reads as recognition.
+  **And the numerals**, which look wrong and are not: *XXXX* and *XIIII* are the Republican norm,
+  subtractive notation was not yet standard, **and Caesar does the same** - the app's own *De Bello
+  Civili* III.99 has *aquilae VIIII*. Numerals are also the least stable thing in a manuscript, so
+  they say more about copyists than authors.
+- **`VIII.23`**: why *sine ulla perfidia* is not a contradiction. **`Fides` is a relationship, not a
+  rule** - it binds you to a client, and Commius had voided it by revolting, so on a Roman reading
+  there is nothing left to betray. It was also the cheapest option available. **And it is still not
+  normal**: the centurion hesitates *insueta re permotus*, and Hirtius records the theory and the
+  flinch without choosing between them.
+- **`VIII.41`**: the difference from the other three engineering set-pieces is that **nothing here is
+  aimed at the town**. Caesar is not trying to get in; he is making the inside uninhabitable, and the
+  tower is built to clear the water and no higher. **And two chapters later it works**: at VIII.43 the
+  tunnels cut the veins, *repente perennis exaruit fons*, and the defenders - who could see the ramp
+  but not the mines - concluded it was *deorum voluntate* and surrendered. The last town in Gaul fell
+  without an assault.
+- **`VIII.44`**: *Caesar... existimavit* puts a **mind** on the page where Caesar's own habit is the
+  impersonal, and once there is a mind everything in it becomes evidence. **And the anacoluthon in
+  sections 4-5**, which is worth the space: *Lucterius* arrives as a nominative subject, takes a
+  relative clause, a *cum* clause and a whole parenthesis - and then the verb never comes. The
+  sentence restarts with *hunc Epasnactus Arvernus... deduxit*, a new subject and an accusative
+  resuming the abandoned one. **Caesar makes long sentences too and does not lose them.**
+- **`VIII.48`**: the two sides read the same event in opposite directions - *vulnera per fidem
+  imposita* for Commius, a completed order for Volusenus - and the chapter puts them on one field
+  without reconciling them. Plus a word of thanks: **this decision is the only reason anything
+  survives about 50 BC**, and without it the grievance the whole *Bellum Civile* rests on would be
+  gone.
+- **`VIII.51`**: Hirtius joining the two wars four chapters before anyone draws a sword. Not a victory
+  lap but **a survey of assets** - and a transition Caesar could not have written, because Hirtius
+  knew how it ended.
+- **`VIII.53`**: **he loses by winning his own argument.** A man who says he acts for the state, in a
+  house that can see he acts for himself, is not believed - and the harder he presses, the more
+  visible the motive.
+- **`VIII.55`**: the six chapters that make the *Bellum Civile* legible, and the posture of the last
+  sentence - *iure potius disceptandi quam belli gerendi*, a man asking for a tribunal while being
+  dismantled by procedure. **The argument of *De Bello Civili* I.5 and I.9 in advance, written by
+  somebody else.**
+
+Verification: **300 verbatim, 0 mismatched**; `check_sections.js` **0 to look at**;
+`check_context.js` **0 to look at on this release, 3 cleared**; `lint_register.js` **453 checked, 0 to
+look at**; `lint_translations.js` **421 checked, 3 to look at**; `lint_markdown.js` **2393 lines, 0
+leaking an asterisk or a backtick**. Cache-bust: `?v=137` -> `?v=138`.
+
 ## [1.12.2] - 2026-09-06
 
 **BOOK III, AND THE BELLUM CIVILE IS FINISHED.** Thirteen excerpts; bank **430 -> 443**; `verify.js`

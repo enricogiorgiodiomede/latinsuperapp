@@ -14,6 +14,13 @@
  * so it is checked in every release, over the era drafts, their generated
  * copies, the excerpt bank and the in-app What's New.
  *
+ * IT ALSO CHECKS FOR BACKTICKS, which js/markdown.js does not render at all -
+ * there is no code-span rule in it, so a backtick reaches the page as a
+ * backtick. 306 of them had accumulated across 28 fragments before anybody
+ * looked, all of them wrapping chapter references that wanted no markup in the
+ * first place. If a code span is ever genuinely wanted, teach the renderer
+ * first and then relax this rule.
+ *
  * Two things are skipped, both because the app never renders them: the portrait
  * caption lines, which js/data.js `cleanBody` filters out before the renderer
  * sees them, and the block comments in the .js files, which are code.
@@ -23,6 +30,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
+const BACKTICK = String.fromCharCode(96);
 const FILES = [
   'archaic_era_draft.md', 'caesar_era_draft.md',
   'italian_translations_archaic.md', 'italian_translations_caesar.md',
@@ -57,15 +65,16 @@ for (const rel of FILES) {
   const file = path.join(ROOT, rel);
   if (!fs.existsSync(file)) continue;
   linesOf(rel, fs.readFileSync(file, 'utf8')).forEach((line, i) => {
-    if (line.indexOf('*') === -1 || skipLine(line)) return;
+    const hasTick = line.indexOf(BACKTICK) !== -1;
+    if ((line.indexOf('*') === -1 && !hasTick) || skipLine(line)) return;
     checked++;
     const html = renderInline(line);
-    if (html.indexOf('*') === -1) return;
+    const at = html.indexOf('*') !== -1 ? html.indexOf('*') : html.indexOf(BACKTICK);
+    if (at === -1) return;
     bad++;
-    const at = html.indexOf('*');
     console.log(rel + ':' + (i + 1));
     console.log('   ' + html.slice(Math.max(0, at - 70), at + 70).replace(/\s+/g, ' '));
   });
 }
-console.log('\n' + checked + ' lines with emphasis checked, ' + bad + ' leaking a literal asterisk');
+console.log('\n' + checked + ' lines with emphasis checked, ' + bad + ' leaking a literal asterisk or backtick');
 process.exit(bad ? 1 : 0);

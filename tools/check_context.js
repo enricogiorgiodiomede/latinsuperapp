@@ -161,7 +161,10 @@ const CLEARED = {
   '(De Bello Gallico VIII.23) | ref | De Bello Gallico IV.21': 1,
   // The Saone is named in the translation of VIII.4; the analysis has no
   // occasion to mention the river and does not need one.
-  '(De Bello Gallico VIII.4) | name | Arare': 1
+  '(De Bello Gallico VIII.4) | name | Arare': 1,
+  // VIII.41's closing note is ABOUT what happens two chapters later, and
+  // quotes it: the tunnels cut the veins of the spring and it dried up.
+  '(De Bello Gallico VIII.41) | ref | De Bello Gallico VIII.43': 1
 };
 
 let checked = 0, flagged = 0, cleared = 0;

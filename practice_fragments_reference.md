@@ -1014,6 +1014,22 @@ the real risk at this volume.
 - **DBG VIII (HIRTIUS)**: praefatio · 1 · 3 · 4 · 23 · 41 · 44 · 48 · 51 · 53 · 55 · **BA**: 1, 2
 - Running total **83**. **THE GALLIC WAR IS COMPLETE at its allocated 40**, all seven books closed (6/4/3/5/7/6/9). **BC I IS CLOSED at 11** (10 new in v1.12.0 plus the launch-era I.7). **BC II IS CLOSED at 6** (v1.12.1) and **BC III at 13** (v1.12.2). **EVERYTHING CAESAR HIMSELF WROTE IS NOW IN THE APP** - ten books, seventy excerpts. **HIRTIUS HAS STARTED** (v1.13.0): `DBG VIII` is at **11** of its allocated 20. What remains is **9 more of Book VIII** and the **Bellum Alexandrinum (23)**.
 
+**NEVER WRITE A BACKTICK IN AN ANALYSIS.** `js/markdown.js` has **no code-span rule**, so a backtick
+reaches the page as a backtick. 306 of them had accumulated across 28 fragments between v1.12.0 and
+v1.13.0, all wrapping chapter references that wanted no markup at all. Stripped in the v1.13.0
+follow-up, and **`lint_markdown.js` now flags a literal backtick exactly as it flags a leaked
+asterisk**. Write chapter references plain, or italicise the work name.
+
+**IN A LIST OF TWO CHAPTER NUMBERS, NAME THE WORK ON BOTH.** `De Bello Civili I.5 and I.9` leaves the
+second numeral to resolve against the fragment's own work, which is how three of these shipped in
+v1.13.0 after two had already shipped in v1.12.1. Write it twice, or split the sentence.
+
+**THE ROMAN NUMERALS IN THE SOURCE ARE ADDITIVE AND THAT IS CORRECT.** `XXXX`, `XIIII`, `VIIII`:
+subtractive notation was not yet standard in the Republic, and **Caesar uses the additive forms as
+much as Hirtius does** - `aquilae VIIII` at `BC III.99` is in the app. Do not "fix" them, and do not
+treat them as a Hirtius mannerism. Numerals are also the least stable element of any manuscript
+tradition, so what is printed reflects the copyists more than the author.
+
 **THE HIRTIUS/CAESAR STYLE COMPARISON IS A STANDING FEATURE OF THIS AUTHOR** - the user's instruction, v1.13.0: make it **where the difference is largest and nowhere else**. The four markers worth using, all evidenced in the batch: (1) **first person singular** - `docui`, `scripsi` (VIII.44), `scio... ego non existimavi... statui` (VIII.48) - where Caesar writes `ut demonstratum est` or the authorial plural and never `I`; (2) **the defence placed before the act** (VIII.44, the hands), where Caesar reports the worst things flat and unexplained; (3) **open eulogy** - `incredibili honore atque amore` (VIII.51) - where Caesar never describes his own reception at all; (4) **explicit motive and evaluative adverbs** - `magnum odium Commi adiungebat`, `pertinacius`, `incautius` (VIII.48), `Caesar unus videret` (VIII.41). The carrying excerpts are VIII.1, VIII.44, VIII.48 and VIII.51.
 
 **SOURCE FAULTS IN `gall8`:** **VIII.44 prints `Lacterius`** for `Lucterius`, whom the same book spells correctly seven times - and the first draft of the English had silently corrected it, which is exactly the thing an emendation exists to prevent. **The book ends with NO FULL STOP**, on the single word `Contendit`; supplied and declared, as at `BC III.53`. **BOOK VIII NEEDED NO `overrides` AT ALL** - the Latin Library and Perseus agree throughout, against seven overrides for BC Book I.
