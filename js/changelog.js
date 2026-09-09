@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.13.1', date: '09/09/2026', time: 'HH:MM', tz: 'CEST',
+      v: '1.13.1', date: '09/09/2026', time: '21:23', tz: 'CEST',
       en: {
         added: [
           'Nine more excerpts from the eighth book of the Gallic War, which finishes it. Twenty from Hirtius\'s book are now in the app, and the whole of the Gallic War - Caesar\'s seven books and the eighth that is not his - stands at sixty.',
