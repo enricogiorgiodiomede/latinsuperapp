@@ -108,6 +108,87 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.13.1] - 2026-09-09
+
+### Added - the rest of De Bello Gallico VIII (9)
+**Book VIII closes at its allocated 20**, and with it the Gallic War in the app closes at
+**60** - Caesar's seven books at 40 and Hirtius' eighth at 20. Bank **453 -> 462**. All nine are
+whole chapters; boundaries from Perseus (CTS `phi0448.phi001`, book 8).
+
+| Chapter | Sections | Why |
+|---|---|---|
+| VIII.19 | 8 | The end of Correus. An ambush the Romans already know about, the reason a known ambush is worse than none, and a commander who arranges his own death because he will neither withdraw nor surrender. |
+| VIII.22 | 2 | *Causam peccati facillime mortuis delegari* - and then a Roman constitutional argument (*principes*, *senatus*, *boni*, *plebs*) imposed on Gaul, in the exact vocabulary the optimates were using about Caesar in the same year. |
+| VIII.24 | 4 | The conquest declared over, the army broken into detachments, and Ambiorix' country destroyed as a substitute for Ambiorix - with *proximum suae dignitatis* as the stated reason and *civibus* first in the list of things to be removed. |
+| VIII.34 | 4 | *Miserrima Alesiae memoria*, and Lucterius *qui fortunae illius periculum fecerat* getting the grain in before the ring closes. The one Gallic council in the whole war that learns from a previous siege. |
+| VIII.42 | 5 | The fire barrels, the works that catch and hold what is meant to burn them, and *quam quisque poterat maxime insignis, quo notior testatiorque virtus esset eius* - *virtus* stated as a mechanism, with an audience. |
+| VIII.43 | 5 | *Cuniculis venae fontis intercisae sunt atque aversae... repente perennis exaruit fons*, and defenders who can see the tower but not the mines concluding *non hominum consilio, sed deorum voluntate*. |
+| VIII.49 | 3 | The occupation policy in three gerunds, and *condicione parendi meliore*. A conquest is finished when it survives the conqueror leaving. |
+| VIII.50 | 4 | *Contra consuetudinem* to Italy to canvass for Antony's augurate, after the election is already won - and *contra factionem et potentiam paucorum*, the thesis of the *Bellum Civile* nine months early. |
+| VIII.54 | 5 | *Neque obscure duae legiones uni detrahuntur*; the First returned, the Fifteenth handed over, the Thirteenth sent into Italy. The book ends *Ipse in Italiam profectus est*. |
+
+**Hirtius/Caesar comparison** placed where the difference is largest, per the standing instruction:
+VIII.19 (the mechanism of a battle given as motive), VIII.22 (a constitutional argument put in
+Caesar's mouth), VIII.24 (the calculation shown before the act), VIII.42 (*virtus* explained rather
+than exhibited), VIII.50 (the gossip of the year reported as history), VIII.54 (the arithmetic stated
+in the same sentence as the decree). Left alone at VIII.34, VIII.43 and VIII.49.
+
+### Fixed
+- **`emend` at VIII.19**: the Latin Library prints `eum interim nulla calamitate victus Correus`,
+  which leaves the sentence with no construction - `Correus` is nominative and `eum` governs nothing.
+  Perseus and the editions read `cum interim`, which is also where the section boundary falls.
+  Declared, so `verify.js` still proves every other character verbatim.
+- **VIII.41's closing note shrunk.** It had been summarising VIII.43 in five sentences because VIII.43
+  was not in the bank; VIII.43 is now its own excerpt, so the note is cut to one sentence and the
+  forward pointer at the end of the analysis names both new excerpts. Same removal-condition pattern
+  as the one recorded for *De Bello Civili* II.28.
+- **56 literal backticks** reintroduced by this batch, stripped. `js/markdown.js` still has no
+  code-span rule; `lint_markdown.js` caught them, as designed after v1.13.0.
+- **Five bold spans containing an italic one**, all restructured rather than unbolded: Curio at
+  VIII.19, the four constitutional nouns at VIII.22, *dignitas* at VIII.24, *virtus* at VIII.42, and
+  *Bellum Civile* at VIII.50.
+- **A wrong pointer**: Curio refusing the horse is *De Bello Civili* **II.42**, not III.42.
+- **Two unqualified numerals**, the recurring list-form trap: `I.22 ... I.9` at VIII.50, where only
+  the first carried the work name. Now both do. And Galba's Alpine pass, which is not in the bank, no
+  longer carries a numeral.
+- **Context added** where `check_context.js` asked for it: *pari Marte* glossed at VIII.19; Antony,
+  Labienus and Tergeste glossed at VIII.24; the Belgae and the Aedui glossed at VIII.54.
+
+### Changed - the three launch-era Hirtius analyses lengthened
+Asked for in the same session. The Praefatio and *Bellum Alexandrinum* 1-2 date from **v1.0.0**,
+before the cold-open rule and before the Hirtius/Caesar comparison existed, and were a third the
+length of everything added since. Each keeps its original text and is built around it.
+
+- **Praefatio**: a `Where we are` (Rome, 44/43 BC; who Balbus was; what the corpus is missing).
+  Then the self-dating clause - *usque ad exitum non quidem civilis dissensionis, cuius finem nullum
+  videmus, sed vitae Caesaris*, which puts the page after March 44 and before Hirtius' death in April
+  43. Then the authorship question the preface opens: Book VIII certainly his, the *Alexandrinum*
+  probably, the *Africum* and *Hispaniense* certainly not - **four hands, and this preface is why we
+  can say so**. And a paragraph on *commentarii* as a genre: notes, not history, meant to be worked
+  up by a real historian afterwards, which is what makes section 5 (*praerepta, non praebita*) a
+  joke rather than flattery.
+- **Bellum Alexandrinum 1**: a `Where we are` (winter 48-47 BC, four thousand men in the palace
+  quarter, the Ptolemy/Cleopatra quarrel), with Rhodes, Syria, Cilicia and **Malchus of the
+  Nabataeans** glossed. Then what the plan in sections 4-5 is actually for - *aqua pabuloque*, not
+  walls - tied to the same reading of a siege that builds the tower at VIII.41. Then why section 3
+  bothers with Alexandrian building materials, and the honest version of the Library story.
+- **Bellum Alexandrinum 2**: a `Where we are` and the mismatch that makes the chapter worth reading
+  next to chapter 1. Then the point that the danger is industry, not numbers (*maximae armorum erant
+  institutae officinae*), the grid that makes the wheeled towers work - set against Caesar's own
+  ten-storey tower at VIII.41, which never moved - and the central reserve of section 3, which is
+  Roman doctrine being used against Romans. Plus the style note: the pluperfect drumbeat is a good
+  imitation of Caesar, and the parenthetical measurement is where it slips.
+
+This also clears the two things `check_context.js` had been reporting on the Alexandrinum pair since
+the check was written: no year anywhere, and Syria and Malchus named in the Latin and never
+explained. **Three more bold spans containing an italic** turned up in the new text and were
+restructured.
+
+Verification: **309 verbatim, 0 mismatched**; `check_sections.js` **0 to look at**;
+`check_context.js` **0 to look at on this release**; `lint_register.js` **462 checked, 0 to look at**;
+`lint_translations.js` **430 checked, 3 to look at** (all pre-existing); `lint_markdown.js` **2438
+lines, 0 leaking an asterisk or a backtick**. Cache-bust: `?v=138` -> `?v=139`.
+
 ## [1.13.0] - 2026-09-08
 
 **HIRTIUS BEGINS: DE BELLO GALLICO VIII.** Ten excerpts joining the launch-era preface; bank

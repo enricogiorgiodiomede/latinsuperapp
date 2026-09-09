@@ -1,0 +1,13 @@
+{
+  "_comment": "v1.13.1 - the second Hirtius batch: the remaining nine of De Bello Gallico VIII, which closes the book at its allocated 20. The Bellovaci campaign finished (19, 22), the strategic assessment and the ruin of Ambiorix's country (24), the memory of Alesia at the last siege (34), the fire barrels and the spring (42, 43), and the political year in full (49, 50, 54) leading into the two legions of 55. All nine are whole chapters. NOTE: adding 43 means shrinking the closing note of 41, which had been summarising it - the removal condition recorded in check_context.js, exactly as for BC II.28.",
+
+  "bg.8.19": ["gall8", "Cum dispositis turmis in vicem", "elatos iracundia victores in se tela conicere."],
+  "bg.8.22": ["gall8", "Haec orantibus legatis commemorat", "quam sibi ipsi contraxissent."],
+  "bg.8.24": ["gall8", "Bellicosissimis gentibus devictis", "propter tantas calamitates haberet in civitatem."],
+  "bg.8.34": ["gall8", "Quod cum animadverterent oppidani", "plurimis in locis infirma disponat praesidia."],
+  "bg.8.42": ["gall8", "Quo malo perterriti oppidani cupas", "telis hostium flammaeque se offerebat."],
+  "bg.8.43": ["gall8", "Caesar cum complures suos vulnerari", "se necessitate coacti tradiderunt."],
+  "bg.8.49": ["gall8", "Caesar in Belgio cum hiemaret", "meliore facile in pace continuit."],
+  "bg.8.50": ["gall8", "Ipse hibernis peractis contra consuetudinem", "familiaritate et consuetudine legationis esset."],
+  "bg.8.54": ["gall8", "Fit deinde senatus consultum", "Ipse in Italiam profectus est."]
+}
