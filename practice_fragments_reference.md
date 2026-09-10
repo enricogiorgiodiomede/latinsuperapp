@@ -1011,8 +1011,49 @@ the real risk at this volume.
 - **BC I**: 4 · 5 · 7 · 9 · 22 · 23 · 28 · 33 · 72 · 74 · 76
 - **BC II**: 10 · 14 · 22 · 28 · 38 · 42
 - **BC III**: 19 · 48 · 53 · 70 · 83 · 86 · 89 · 91 · 92 · 94 · 96 · 99 · 104
-- **DBG VIII (HIRTIUS)**: praefatio · 1 · 3 · 4 · 19 · 22 · 23 · 24 · 34 · 41 · 42 · 43 · 44 · 48 · 49 · 50 · 51 · 53 · 54 · 55 · **BA**: 1, 2
-- Running total **92**. **THE GALLIC WAR IS COMPLETE at its allocated 40**, all seven books closed (6/4/3/5/7/6/9). **BC I IS CLOSED at 11** (10 new in v1.12.0 plus the launch-era I.7). **BC II IS CLOSED at 6** (v1.12.1) and **BC III at 13** (v1.12.2). **EVERYTHING CAESAR HIMSELF WROTE IS NOW IN THE APP** - ten books, seventy excerpts. **DBG VIII IS CLOSED at its allocated 20** (v1.13.0 + v1.13.1), so **the whole Gallic War, Caesar's seven books and the eighth that is not his, stands at 60**. What remains of the Corpus is the **Bellum Alexandrinum (23 new, on top of the launch-era 1 and 2)**, across v1.13.2-.3. The BA anchors have to be hand-written from PHI (author 428): **Perseus does not carry the Bellum Alexandrinum**, so there is no CTS section file for it.
+- **DBG VIII (HIRTIUS)**: praefatio · 1 · 3 · 4 · 19 · 22 · 23 · 24 · 34 · 41 · 42 · 43 · 44 · 48 · 49 · 50 · 51 · 53 · 54 · 55
+- **BELLUM ALEXANDRINUM**: 1 · 2 · 5 · 6 · 7 · 8 · 15 · 16 · 21 · 24 · 25 · 31 · 32 · 33
+- Running total **104**. **THE GALLIC WAR IS COMPLETE at its allocated 40**, all seven books closed (6/4/3/5/7/6/9). **BC I IS CLOSED at 11** (10 new in v1.12.0 plus the launch-era I.7). **BC II IS CLOSED at 6** (v1.12.1) and **BC III at 13** (v1.12.2). **EVERYTHING CAESAR HIMSELF WROTE IS NOW IN THE APP** - ten books, seventy excerpts. **DBG VIII IS CLOSED at its allocated 20** (v1.13.0 + v1.13.1), so **the whole Gallic War, Caesar's seven books and the eighth that is not his, stands at 60**. **THE BELLUM ALEXANDRINUM HAS STARTED** (v1.13.2): 12 new from the Egyptian war proper, which runs **chapters 1-33**, so the work stands at **14**. What remains is **11 more from chapters 34-78** - Asia Minor and Pharnaces, Illyricum and Vatinius, Spain and the mutiny against Q. Cassius Longinus, and Zela - in v1.13.3, which closes the Corpus Caesarianum in this plan.
+
+**THE LATIN LIBRARY MIRROR SILENTLY DROPS THE LETTER-SEQUENCE `xpos`.** Found in v1.13.2 and it is
+systematic, not a one-off. The corrupt forms all look like a plausible short word and are not:
+
+| printed | reads | where |
+|---|---|---|
+| `eceret` | *exposceret* | `BA 15` |
+| `euerat` | *exposuerat* | `BA 16`, `BC III` |
+| `euit` | *exposuit* | `DBG VII.52`, `BC III`, `De Oratore` x4, `De Officiis` |
+| `eita` | *exposita* | `De Natura Deorum` x3, `Orator`, `De Oratore` x2, `De Re Publica` |
+| `eitum` | *expositum* | `De Officiis`, `Philippica II`, `In Verrem II.4` |
+| `eitus` | *expositus* | `Orator` |
+| `euisset` | *exposuisset* | `BC III`, `De Officiis` |
+| `euerunt` | *exposuerunt* | `BC III` |
+
+**Twenty-seven instances across the cached Caesar and Cicero.** The `Euit` for `Exposuit` emended at
+`DBG VII.52` in v1.11.5 was the first one seen and was written up as an isolated typo; it is not.
+**A scan of the 462-fragment bank before this batch found 0 corrupt forms**, so nothing has shipped -
+but the grep is worth re-running whenever a new work is cached:
+`\b(e(?:ceret|uerat|uit|uerunt|itum|itio|ita|itus|uisset))\b`. **`verify.js` proves the app matches
+the source, NOT that the source is right** - that is the whole point of `emend`.
+
+**THERE IS NO REACHABLE EDITION THAT DIVIDES THE BELLUM ALEXANDRINUM INTO SUBSECTIONS.** Established
+v1.13.2, after checking all four candidates, so it does not have to be re-checked every batch:
+- **Perseus does not publish the work at all.** Not an API outage: `PerseusDL/canonical-latinLit`
+  carries `phi0448/phi001` and `phi002` and nothing else, `phi003` is **404 at the repo**, and CTS
+  returns 500 for it while serving `phi001` normally in the same second.
+- **PHI/packhum is behind a Cloudflare bot challenge** - HTTP 403 with the interstitial.
+  `tools/fetch_sections_phi.js` no longer works, and a bot check is not something to work around.
+- **LacusCurtius** has the complete Latin (`L/Roman/Texts/Caesar/Alexandrian_War/A*.html` = chapters
+  1-33) **and Way's English, and both number chapters only** - `chapter:33` in the class census and
+  no section markup, despite a `SUBSECTIONS NUMBERED: ok` line in the page header.
+- **Latin Wikisource** is a copy of the Latin Library text; it says so in its own header.
+
+**So the v1.13.2 excerpts carry the chapter marker and no `**n.**` markers, and that is correct
+behaviour, not an omission.** `BA 1` and `BA 2` keep the five markers each that were hand-written
+from PHI when it was still reachable, so the work is mixed. **If PHI becomes reachable, chapters
+5-33 can be marked in one pass and nothing else needs to change.** Do not hand-derive the boundaries:
+`mark_sections.js` was built to refuse guesses, and a guessed division presented as an edition's is
+the one fault the whole pipeline exists to prevent.
 
 **AN ABLATIVE ABSOLUTE MUST BE GRAMMATICALLY LINKED IN TRANSLATION, AND THE TWO LANGUAGES NEED
 DIFFERENT THINGS.** The user's instruction, v1.13.1, enforced by **`tools/lint_ablatives.js`**.
