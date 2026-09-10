@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.13.2', date: '10/09/2026', time: 'HH:MM', tz: 'CEST',
+      v: '1.13.2', date: '10/09/2026', time: '18:57', tz: 'CEST',
       en: {
         added: [
           'Twelve excerpts from the Bellum Alexandrinum, the account of the six months Caesar spent besieged inside Alexandria. It is the third of the four books other men wrote to finish his work, and probably the same hand that wrote the eighth book of the Gallic War. Two chapters of it have been in the app since launch; these twelve cover the Egyptian war proper, and the rest of the book follows in the next release.',
