@@ -1014,6 +1014,35 @@ the real risk at this volume.
 - **DBG VIII (HIRTIUS)**: praefatio · 1 · 3 · 4 · 19 · 22 · 23 · 24 · 34 · 41 · 42 · 43 · 44 · 48 · 49 · 50 · 51 · 53 · 54 · 55 · **BA**: 1, 2
 - Running total **92**. **THE GALLIC WAR IS COMPLETE at its allocated 40**, all seven books closed (6/4/3/5/7/6/9). **BC I IS CLOSED at 11** (10 new in v1.12.0 plus the launch-era I.7). **BC II IS CLOSED at 6** (v1.12.1) and **BC III at 13** (v1.12.2). **EVERYTHING CAESAR HIMSELF WROTE IS NOW IN THE APP** - ten books, seventy excerpts. **DBG VIII IS CLOSED at its allocated 20** (v1.13.0 + v1.13.1), so **the whole Gallic War, Caesar's seven books and the eighth that is not his, stands at 60**. What remains of the Corpus is the **Bellum Alexandrinum (23 new, on top of the launch-era 1 and 2)**, across v1.13.2-.3. The BA anchors have to be hand-written from PHI (author 428): **Perseus does not carry the Bellum Alexandrinum**, so there is no CTS section file for it.
 
+**AN ABLATIVE ABSOLUTE MUST BE GRAMMATICALLY LINKED IN TRANSLATION, AND THE TWO LANGUAGES NEED
+DIFFERENT THINGS.** The user's instruction, v1.13.1, enforced by **`tools/lint_ablatives.js`**.
+
+- **English has to spell the relation with a word.** *Fine proeli facto* is not "the battle over,";
+  it is **"with the battle over,"**. *Condicione parendi meliore* is not "the terms of obedience now
+  being better."; it is **"with the terms... being better."** The bare phrase is not ungrammatical,
+  it just sits beside the sentence instead of hanging off it. Use *with*, *once*, *since*, *after*,
+  *now that*, *because*.
+- **Italian does NOT need one, and adding the English shape is the fault.** *Finita la battaglia, i
+  nostri spengono l'incendio* is correct, ordinary Italian: **the participle comes first, and that
+  is what marks the construction.** What is wrong in Italian is the English word order - subject
+  first, verb-form second (*la battaglia essendo finita*) - and a heavy *essendo stato...* where
+  *dato che* would do. The checker's Italian rules are narrow for exactly this reason, and the three
+  rules that were tried and removed are recorded in the file so nobody adds them back.
+- **First run over the whole bank found seven**, from four different releases, one of which was a
+  syntax error as well: *cum hostium numerus... fuisset* at `DBG IV.14-15.3` is a causal *cum*
+  clause, not an absolute, and had been rendered as one.
+
+**RANKS AND PROPER NAMES IN THE TRANSLATIONS** - the user, v1.13.1.
+- **Italian puts the rank BEFORE the name, with an article**: *il questore Marco Antonio*, *il legato
+  Gaio Fabio*. Never *Marco Antonio questore*.
+- **English puts it after the name, in commas**: *Mark Antony, the quaestor,*. Never *Mark Antony the
+  quaestor*.
+- **A Latin proper name is not translated literally.** *Gallia togata* stays **Gallia Togata**;
+  rendering it *toga-wearing Gaul* reads absurdly. Explain it in the analysis instead - it is
+  Cisalpine Gaul, against *Gallia comata*, the one being conquered.
+- ***Quo facto* is causal, not deictic**: *because of this* / *per questo*, *perciò*. Not *at this* /
+  *a questo*. And if the phrase occurs twice in one excerpt, both get the same treatment.
+
 **A BOLD SPAN CANNOT CONTAIN AN ITALIC ONE, AND THIS IS THE COMMONEST FAULT IN A NEW BATCH.**
 The bold rule in `js/markdown.js` has an inner group that forbids an asterisk, so `**a *b* c**` leaks
 its markers onto the page. It has now recurred in every Caesar and Hirtius batch: five in v1.13.0,

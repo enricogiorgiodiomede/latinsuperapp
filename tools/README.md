@@ -16,7 +16,8 @@ node tools/lint_translations.js                              # 5. and that each 
 node tools/check_sections.js                                 # 6. and divides it into the same subsections
 node tools/check_context.js 1.12.0                           # 7. and that a cold reader is told where they are
 node tools/lint_register.js                                  # 8. and that the register has not gone legalese
-node tools/lint_markdown.js                                  # 9. and that no emphasis marker leaks through
+node tools/lint_ablatives.js                                 # 9. and that every ablative absolute is attached
+node tools/lint_markdown.js                                  # 10. and that no emphasis marker leaks through
 ```
 
 Then bump the cache-buster, check it in the browser, and commit. See PROGRESS.md for the release
@@ -36,6 +37,7 @@ checklist (CHANGELOG, in-app What's New, reference sheet, memory).
 | `check_sections.js` | Compares how the Latin of an excerpt divides into `**n.**` subsections with how each translation divides. **Run it whenever an excerpt with subsection markers is added or touched.** Catches a boundary put a period too early, which is invisible to every other check and skews the rest of the excerpt. `--sigs` prints signatures for the cleared list. |
 | `check_context.js` | Flags an excerpt that assumes what it never supplies: a cross-reference to a chapter the bank does not hold, a proper name in the Latin the commentary never mentions, or a narrative excerpt with no date anywhere. **Run it per release** - the whole bank predates it and has a large backlog. |
 | `lint_register.js` | Flags over-formal English and Italian in the two translations against a word list, with a plainer equivalent for each. The target register is careful everyday prose, not a statute. `--list` prints the rules, `--prose` extends it to descriptions and analyses. |
+| `lint_ablatives.js` | Flags the translation of an ablative absolute left standing beside the sentence instead of hanging off it - `the battle over,` where English wants `with the battle over,`. **The Italian rules are narrower on purpose**: a participle-first absolute (`Finita la battaglia,`) is idiomatic Italian and is not a fault; the English word order is. `--sigs` prints signatures for the cleared list. |
 | `lint_markdown.js` | Renders every emphasis-bearing line exactly as `js/markdown.js` does and fails if a literal asterisk survives. A bold span cannot contain an italic one. |
 | `fetch_sections.js` | Fetches an edition's subsection boundaries for one chapter from Perseus CTS, into `tools/.cache/sections/`. |
 | `fetch_sections_phi.js` | The same against PHI/packhum, for the Bellum Alexandrinum, which Perseus does not carry. |
