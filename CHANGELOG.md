@@ -189,6 +189,100 @@ Verification: **309 verbatim, 0 mismatched**; `check_sections.js` **0 to look at
 `lint_translations.js` **430 checked, 3 to look at** (all pre-existing); `lint_markdown.js` **2438
 lines, 0 leaking an asterisk or a backtick**. Cache-bust: `?v=138` -> `?v=139`.
 
+### Follow-up, same day: the Book VIII proofreading pass
+
+No new excerpts, no version bump. Bank stays at **462** and `verify.js` at **309 verbatim, 0
+mismatched**; version tags untouched.
+
+#### Added - a ninth check, `tools/lint_ablatives.js`
+**The user's instruction**: an ablative absolute must be rendered so that it HANGS OFF the main
+clause, not so that it sits beside it. Latin needs no connective because the case is the connective;
+English and Italian have to spell the relation with a word. Two of the nine new excerpts shipped
+without one, and the check now looks for a bare absolute phrase sitting at a clause boundary - which
+is exactly where the linking word would have gone, so a corrected passage goes quiet by itself.
+
+**The important asymmetry, recorded in the file**: the bare participial absolute is *idiomatic
+Italian and must not be flagged*. *Finita la battaglia, i nostri spengono l'incendio* is correct and
+is what a translator should write. What is wrong in Italian is the English word order - subject
+first, verb-form second - so the two Italian rules catch that and nothing else. Three rules tried and
+removed are recorded in the file so they are not tried again.
+
+**First run over the whole bank: seven flags, four of them false positives**, all fixed by two
+guards (an absolute has no finite verb and no pronoun subject). The remaining three were real, and
+two more turned up when the rules learned to see a capitalised determiner at the start of a sentence
+and a proper-noun subject. **Seven bare absolutes fixed in all, from four different releases:**
+
+| Where | Latin | Was | Now |
+|---|---|---|---|
+| *In Verrem* II.2.86 | *bello confecto* | the war being finished | once the war was over |
+| *In Verrem* II.2.86 | *Himera deleta* | Himera having been destroyed | after Himera was destroyed |
+| *DBG* IV.14-15.3 | *cum... fuisset* | the enemy's numbers having been | since the enemy's numbers had been |
+| *DBG* VII.15.1 | *hac sententia probata* | this proposal having been approved | once this proposal had been approved |
+| *DBC* I.22.2 | *facta potestate* | the chance being given | once the chance is given |
+| *DBC* I.22.6 | *facta potestate* | permission being given | once permission is given |
+| *DBC* III.96 | *initio fugae facto* | the flight having been begun | since the flight had been begun |
+
+**`DBG` IV.14-15.3 was a syntax error as well as a register one**: *cum hostium numerus... fuisset*
+is a causal *cum* clause, not an absolute at all, and had been rendered as one. Its Italian, and
+III.96's, are relinked with *dato che* in place of a heavy *essendo stato*.
+
+#### Fixed - the user's proofread of the new batch
+- **`VIII.24`, Italian**: the rank goes **before** the name and takes an article - *il questore Marco
+  Antonio*, *il legato Gaio Fabio*, *il legato Gaio Caninio Rebilo*.
+- **`VIII.24`, English**: the rank is an apposition and takes commas on both sides - *Mark Antony,
+  the quaestor,*.
+- **`VIII.24`, both**: ***Gallia Togata*** keeps its Latin name. *Toga-wearing Gaul* is a literal
+  rendering of a proper name; the note now explains what the place was and why it is called that.
+- **`VIII.43`**: *fine proeli facto* -> **with the battle over**. And *quo facto* is causal, not
+  deictic: **because of this** / **per questo**, not *at this* / *a questo*. The user named section
+  5; the same phrase opens section 2 of the same chapter, so both were done.
+- **`VIII.49`**: *condicione parendi meliore* -> **with the terms of obedience now being better**,
+  and the Italian relinked with *dato che*.
+
+#### Added - notes for all nine
+- **`VIII.19`**: why the motive in section 5 is not a curiosity. Courage in this army was **a
+  record** - witnessed, written into the dispatch, paid in decorations and plunder - so it could be
+  **diluted**, and being helped while you are holding costs you the credit for holding. With the
+  five other places in the bank where the same accounting is visible, and the cost side at VIII.48.
+- **`VIII.22`**: what *ea poena quam sibi ipsi contraxissent* actually refers to - the battle of
+  VIII.19, *maiore parte amissa*. **The sentence had already been served and Rome did not have to
+  pass it**, which is why the chapter demolishes their excuse and then imposes nothing. Set against
+  VIII.44: open war gets terms, betrayal gets terror.
+- **`VIII.24`**: the word for section 4 is **revenge** - V.27 and V.37, fifteen cohorts lost to a
+  fabricated warning - and the country is the nearest thing to Ambiorix that is within reach. Plus
+  *Gallia togata* against *Gallia comata*.
+- **`VIII.34`**: Caninius reaching for the Alesia answer and not being able to close it, against
+  Caesar putting a sixty-foot ramp and a ten-storey tower against **one spring**. And in fairness to
+  Lucterius: he solved the previous siege perfectly, and **you cannot stockpile a spring**.
+- **`VIII.42`**: the second time in six chapters that the same mechanism decides a fight, with
+  VIII.19 named. Credit is individual, witnesses are the currency.
+- **`VIII.43`**: what the tower was **for** - a defender watches the biggest thing on the horizon,
+  and the attack came from underneath. Plus the feint of section 1, which puts the fire out by
+  manufacturing a threat on the other side of the town.
+- **`VIII.49`**: exhaustion as the asset the policy works on, and the offer (stay quiet, take the
+  money, nothing happens). Plus the aftermath the user asked for: the **Lex Roscia** of 49 BC, full
+  citizenship for the Transpadanes, completing Cisalpine Gaul - **a different Gaul from this one**,
+  and *Gallia comata* waited until Claudius in AD 48.
+- **`VIII.50`**: Antony's augurate as the cover story. A proconsul cannot tour Italy canvassing for
+  himself; he can tour it for a friend, and then to say thank you.
+- **`VIII.54`**: why Caesar complies knowing exactly what is being done - **refusing hands his
+  enemies the declaration they want, a year early**, and legions can be re-raised while the record
+  cannot. Plus the two peoples Hirtius expects you to know already: the Belgae of *De Bello Gallico*
+  I.1, *horum omnium fortissimi*, and the Aedui, Rome's oldest allies, whose defection in 52 nearly
+  lost the war.
+
+#### Fixed - the recurring two
+- **One bold span containing an italic** in each of three new paragraphs, restructured.
+- **One unqualified numeral**, caught by `check_context.js` in a sentence written this session: *De
+  Bello Civili I.9 and I.22* left the second to resolve against the fragment's own work. Both now
+  carry it. That is the fifth release in a row this trap has been sprung.
+
+Verification: **309 verbatim, 0 mismatched**; `check_sections.js` **0 to look at**;
+`check_context.js` **0 to look at on this release**; `lint_register.js` **462 checked, 0 to look
+at**; `lint_ablatives.js` **462 checked, 0 to look at**; `lint_translations.js` **430 checked, 3 to
+look at**; `lint_markdown.js` **2438 lines, 0 leaking an asterisk or a backtick**. Cache-bust:
+`?v=139` -> `?v=140`.
+
 ## [1.13.0] - 2026-09-08
 
 **HIRTIUS BEGINS: DE BELLO GALLICO VIII.** Ten excerpts joining the launch-era preface; bank
