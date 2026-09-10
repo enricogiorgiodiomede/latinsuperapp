@@ -108,6 +108,77 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.13.2] - 2026-09-10
+
+### Added - the Bellum Alexandrinum begins (12)
+The Egyptian war proper, which runs **chapters 1-33** (chapter 34 switches to Asia Minor and belongs
+to v1.13.3). Bank **462 -> 474**; the work goes from the two launch-era chapters to **14**. All twelve
+are whole chapters.
+
+| Ch. | Why |
+|---|---|
+| 5 | *Fons urbe tota nullus est.* The city's hydrology, the poor drinking Nile mud, and Ganymedes working out that the intake is on his side of the line. The mirror of Uxellodunum, aimed at Caesar. |
+| 6 | Sea water pumped uphill by *rotae ac machinationes*, and the soldiers *degustando* each other's water street by street, not quite believing themselves. |
+| 7 | The panic - and *at mihi*, the author stepping out of the narrative in the **first person singular** to deliver an ethnic judgement with an argument attached. |
+| 8 | Caesar's answer in **oratio obliqua**: *omnia litora naturaliter aquae dulcis venas habere*, two water routes that no single wind can close, and the arithmetic of why flight kills more men than fighting. |
+| 15 | Euphranor, *magis cum nostris hominibus quam cum Graecis comparandus*, and a **paragraph of direct speech** from a subordinate. Then *nulla transversa hosti obiceretur, nullius remi detergerentur* - and the whole city on the roofs. |
+| 16 | *Minime par erat proeli certamen*: the asymmetry of stakes, and *perpaucos de summa rerum ac de salute omnium decertare*, with every man begged by his *contubernalis* on the beach. |
+| 21 | The mole. *Fore quod accidit suspicatus sese ex navigio eiecit* - and then the clause everyone reads past, *scaphas mittens non nullos conservavit*. Four hundred legionaries counted; the rowers estimated. |
+| 24 | Ptolemy released on a calculation that works either way, the tears, the circus simile (*ut ex carceribus*), and the army enjoying its general being taken in - then the author arguing with them on his behalf. |
+| 25 | *Fortuna, quae... ad duriorem casum reservat.* Euphranor killed by the same reflex that made him useful, and *cui subsidium nemo tulit*, with both possible reasons and no choice between them. |
+| 31 | The camp taken because the defenders left the summit *studio partim pugnandi partim spectandi*. *Constat* doing careful work over the king's drowning. |
+| 32 | Caesar riding in through the enemy's own quarter, and the city meeting him in the dress and with the sacred objects it kept for **placating its own kings**. |
+| 33 | The settlement. Cleopatra in one relative clause; Arsinoe deported because her *name* was the danger; and the frankest sentence about an occupation in the corpus - the same garrisons protect a loyal client and coerce an ungrateful one. |
+
+### NOT DONE, and deliberately: no subsection markers
+**No reachable edition divides this work.** Established this release, and recorded so it is not
+re-litigated:
+- **Perseus does not publish the Bellum Alexandrinum at all.** Not an API failure - the canonical
+  repository (`PerseusDL/canonical-latinLit`) carries `phi001` and `phi002` for `phi0448` and nothing
+  else; `phi003` is 404 at the source and 500 through CTS, while `phi001` serves normally.
+- **PHI/packhum is now behind a bot challenge** (HTTP 403 with a Cloudflare interstitial).
+  `tools/fetch_sections_phi.js` no longer works, and the challenge is not something to work around.
+- **LacusCurtius has the full Latin and Way's English, and numbers chapters only** - `chapter:33` and
+  no section markup in either page, despite the header claim.
+
+So these twelve carry the chapter marker alone, like every fragment added before v1.11.0. **The
+alternative was to invent editorial boundaries and present them as an edition's, which is precisely
+what `mark_sections.js` exists to refuse.** `BA 1` and `BA 2` keep the five markers each that were
+hand-written from PHI when it was still reachable; the work is therefore mixed, and that is a known
+state rather than a surprise. **When PHI is reachable again, chapters 5-33 can be marked in one
+pass** with no other change.
+
+### Fixed - a systematic source fault, found while picking the chapters
+**The Latin Library mirror silently drops the letter-sequence `xpos`.** It prints `eceret` for
+*exposceret* (BA 15), `euerat` for *exposuerat* (BA 16), and the same fault appears **twenty-seven
+times across the cached Caesar and Cicero**: `euit` for *exposuit*, `eita` for *exposita*, `eitum`
+for *expositum*, `euisset` for *exposuisset*. **The `Euit` for `Exposuit` emended at `DBG VII.52` in
+v1.11.5 was the first instance and was treated as a one-off. It is not.** None of the others had
+reached the bank; a scan confirmed **0 corrupt forms in the 462 fragments** before this batch, and
+the two that would have entered with it are declared emendations. **`verify.js` proves the app
+matches the source, not that the source is right** - which is exactly what `emend` is for.
+
+Also emended: **BA 25 prints `Caerari` for `Caesari`**, a plain letter-substitution typo.
+
+### Fixed - what the checks caught on this batch
+- **`check_context.js`**: no year at BA 16; *populo Romano* unglossed at BA 24; **a wrong pointer** -
+  *parvae res magnum in utramque partem momentum habuerunt* is *De Bello Civili* **III.70**, not
+  III.68 - and Syria unglossed at BA 25 and BA 33.
+- **`lint_ablatives.js`, one day old, caught three of its own**: *Hoc probato consilio*, *cum duce
+  assumpto* and *re... gesta* had all gone into the English as bare absolutes. **The Italian of all
+  three is participle-first and idiomatic and was left alone**, which is the asymmetry the check was
+  written around.
+- **`lint_register.js`**: *thereafter* and the awkward passive *to be got ready*.
+- **`lint_markdown.js`**: one more bold span containing an italic one.
+- Three internal batch keys (`ba.15`, `ba.7`) survived the backtick strip as bare text and were
+  rewritten as readable chapter references.
+
+Verification: **321 verbatim, 0 mismatched** (3 emended); `check_sections.js` **0 to look at**;
+`check_context.js` **0 to look at on this release**; `lint_register.js` **474 checked, 0 to look
+at**; `lint_ablatives.js` **474 checked, 0 to look at**; `lint_translations.js` **442 checked, 3 to
+look at** (all pre-existing); `lint_markdown.js` **2462 lines, 0 leaking**. Cache-bust: `?v=140` ->
+`?v=141`.
+
 ## [1.13.1] - 2026-09-09
 
 ### Added - the rest of De Bello Gallico VIII (9)

@@ -1,0 +1,16 @@
+{
+  "_comment": "v1.13.2 - the first Bellum Alexandrinum batch: twelve chapters from the Alexandrian war proper, which runs 1-33 (chapter 34 switches to Asia Minor and belongs to v1.13.3). The arc: the city's water and Ganymedes' attack on it (5, 6), the panic and Caesar's answer (7, 8), the sea fight and Euphranor (15, 16), the disaster on the mole where Caesar swims for his life (21), the release of Ptolemy (24), Euphranor's death (25), the storming of the royal camp and the king's drowning (31), the surrender of Alexandria (32) and the settlement that puts Cleopatra on the throne (33). All twelve are whole chapters. NO SUBSECTION MARKERS on this batch: Perseus does not publish the work at all (confirmed at the canonical repo - phi0448 carries only phi001 and phi002), PHI/packhum is now behind a bot challenge, and LacusCurtius numbers chapters only in both its Latin and its English. The boundaries are not being guessed. THREE SOURCE FAULTS, all the same family: the Latin Library mirror silently drops the letter-sequence `xpos`, so 15 prints `eceret` for `exposceret` and 16 prints `euerat` for `exposuerat`; 25 prints `Caerari` for `Caesari`. All three emended and declared.",
+
+  "ba.5":  ["alex", "Alexandrea est fere tota suffossa", "ac puteis extracta aqua utebantur."],
+  "ba.6":  ["alex", "Hoc probato consilio magnum ac difficile", "illa inferior corruptior iam salsiorque reperiebatur."],
+  "ba.7":  ["alex", "Quo facto dubitatione sublata tantus", "hoc genus ad proditionem dubitare nemo potest."],
+  "ba.8":  ["alex", "Caesar suorum timorem consolatione", "omni ratione esse vincendum cogitarent."],
+  "ba.15": ["alex", "Rhodiis navibus praeerat Euphranor", "victoriam suis ab dis immortalibus eceret."],
+  "ba.16": ["alex", "Minime autem par erat proeli certamen", "nostros adire propius prohibuerunt."],
+  "ba.21": ["alex", "Caesar quoad potuit cohortando", "libere sunt usi postea ad mittenda navigia."],
+  "ba.24": ["alex", "Caesar etsi fallacem gentem", "ac non prudentissimo consilio fecisset."],
+  "ba.25": ["alex", "Cum duce assumpto Alexandrini", "solus cum sua quadriremi victrice perit."],
+  "ba.31": ["alex", "Caesar cum videret milites acrius", "demerso navigio perisse."],
+  "ba.32": ["alex", "Re felicissime celerrimeque gesta", "etiam talem adventum eius felicem fuisse laetabantur."],
+  "ba.33": ["alex", "Caesar Aegypto atque Alexandrea potitus", "profectus est in Syriam."]
+}
