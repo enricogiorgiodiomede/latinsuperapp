@@ -125,6 +125,14 @@ function endsClosed(s) {
 // closes it on a full stop, or divides one long Latin period into two. In
 // each case the text on either side of the marker is the same text.
 const CLEARED = {
+  // Read and cleared 2026-09-11, when the Bellum Alexandrinum got its markers
+  // from Damon's LDLT edition. The Latin joins the townspeople sentence to `at
+  // mihi si defendendi...` with a colon and closes section 2 on a semicolon;
+  // both translations end the townspeople sentence with a full stop before
+  // "But for my part". The text either side of the marker is the same text.
+  '(Bellum Alexandrinum 7)': {
+    why: 'colon after videbatur in the Latin, a full stop before "But for my part" in both translations',
+    sig: 'english 2: holds 1 sentence, the Latin holds 0 | italian 2: holds 1 sentence, the Latin holds 0' },
   '(De Bello Gallico I.53.1-7)': {
     why: 'periit; duae filiae -> "perished in that flight. There were two daughters"',
     sig: 'english 4: holds 2 sentences, the Latin holds 1 | italian 4: holds 2 sentences, the Latin holds 1' },

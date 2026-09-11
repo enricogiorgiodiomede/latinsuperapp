@@ -1036,24 +1036,29 @@ but the grep is worth re-running whenever a new work is cached:
 `\b(e(?:ceret|uerat|uit|uerunt|itum|itio|ita|itus|uisset))\b`. **`verify.js` proves the app matches
 the source, NOT that the source is right** - that is the whole point of `emend`.
 
-**THERE IS NO REACHABLE EDITION THAT DIVIDES THE BELLUM ALEXANDRINUM INTO SUBSECTIONS.** Established
-v1.13.2, after checking all four candidates, so it does not have to be re-checked every batch:
-- **Perseus does not publish the work at all.** Not an API outage: `PerseusDL/canonical-latinLit`
-  carries `phi0448/phi001` and `phi002` and nothing else, `phi003` is **404 at the repo**, and CTS
-  returns 500 for it while serving `phi001` normally in the same second.
-- **PHI/packhum is behind a Cloudflare bot challenge** - HTTP 403 with the interstitial.
-  `tools/fetch_sections_phi.js` no longer works, and a bot check is not something to work around.
-- **LacusCurtius** has the complete Latin (`L/Roman/Texts/Caesar/Alexandrian_War/A*.html` = chapters
-  1-33) **and Way's English, and both number chapters only** - `chapter:33` in the class census and
-  no section markup, despite a `SUBSECTIONS NUMBERED: ok` line in the page header.
-- **Latin Wikisource** is a copy of the Latin Library text; it says so in its own header.
+**THE BELLUM ALEXANDRINUM'S SUBSECTIONS COME FROM DAMON'S LDLT EDITION.** Corrected in the
+v1.13.2 follow-up, after v1.13.2 shipped twelve chapters with no markers on the claim that no reachable
+edition divided the work. **The user found numbered sections by searching the text; the same search
+should have been run first.** The source:
+- **Library of Digital Latin Texts, *Bellum Alexandrinum*, ed. Cynthia Damon et al.** - CC BY-SA 4.0,
+  TEI on GitHub, `Library-of-Digital-Latin-Texts/balex`, file `ldlt-balex.xml`. Chapters are `<p
+  n="N">`, sections `<seg n="M">`, the apparatus inline as `<app><lem>` / `<rdg>` / `<note>`. **338
+  sections in 78 chapters.** It reproduces BA 1's five PHI-read boundaries exactly.
+- **`tools/fetch_sections_ldlt.js`** turns it into `ldlt-balex.<N>.json`, Perseus-shaped, so a marks
+  spec is `"sections": "ldlt-balex.<N>.json"` as for any other work.
+- **Expect an override wherever the edition's *Alexandria* meets the Latin Library's *Alexandrea*
+  inside the first three words of a section** (BA 5.1, 15.8 so far).
+- **The apparatus is also the authority for every crux and variant in this book** - who conjectured
+  what, and which manuscripts read what. Look there before explaining a dagger.
+- Still true: Perseus does not publish the work (the canonical repo carries `phi001` and `phi002`
+  only), and PHI is behind a bot challenge. LacusCurtius and Wikisource number chapters only.
 
-**So the v1.13.2 excerpts carry the chapter marker and no `**n.**` markers, and that is correct
-behaviour, not an omission.** `BA 1` and `BA 2` keep the five markers each that were hand-written
-from PHI when it was still reachable, so the work is mixed. **If PHI becomes reachable, chapters
-5-33 can be marked in one pass and nothing else needs to change.** Do not hand-derive the boundaries:
-`mark_sections.js` was built to refuse guesses, and a guessed division presented as an edition's is
-the one fault the whole pipeline exists to prevent.
+**THE BELLUM ALEXANDRINUM IS HIRTIUS'S FOR ALL PRACTICAL PURPOSES** - the user's ruling. Name him in
+every note (never "the writer", "this writer", "the continuator", "anonymous"). BA 1 carries the one
+caveat paragraph (Suetonius: Hirtius or Oppius; Hirtius's preface to Book VIII; the style). Where a
+chapter looks less like him - long Ciceronian periods, moralising asides - say "probably" or "if this
+chapter is his"; **chapter 25 is the one flagged as least like him.** And **Book VIII of the Gallic
+War is certainly his**: never call its author a continuator.
 
 **AN ABLATIVE ABSOLUTE MUST BE GRAMMATICALLY LINKED IN TRANSLATION, AND THE TWO LANGUAGES NEED
 DIFFERENT THINGS.** The user's instruction, v1.13.1, enforced by **`tools/lint_ablatives.js`**.

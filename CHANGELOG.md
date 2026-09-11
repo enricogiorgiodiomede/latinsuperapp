@@ -179,6 +179,114 @@ at**; `lint_ablatives.js` **474 checked, 0 to look at**; `lint_translations.js` 
 look at** (all pre-existing); `lint_markdown.js` **2462 lines, 0 leaking**. Cache-bust: `?v=140` ->
 `?v=141`.
 
+### Follow-up, 2026-09-11: the proofreading pass, Hirtius named, and the markers after all
+
+No new excerpts, no version bump (the standing rule). Bank stays at **474**; version tags untouched.
+
+#### Added - subsection markers for all twelve, which reverses "NOT DONE" above
+**The user pushed back** - numbered sections for this book exist online; they had found them by
+searching the text. They were right, and the search that found them should have been run in v1.13.2.
+**The Library of Digital Latin Texts edition of the Bellum Alexandrinum** (ed. Cynthia Damon et al.,
+CC BY-SA 4.0), published as TEI on GitHub (`Library-of-Digital-Latin-Texts/balex`, `ldlt-balex.xml`),
+numbers all **338 sections of the 78 chapters** and is a current critical edition - better than PHI
+would have been. **It reproduces the five PHI-read boundaries of BA 1 exactly**, which is an
+independent check on the launch-era markers.
+
+- **New tool `tools/fetch_sections_ldlt.js`**: keeps each `<lem>`, drops `<rdg>` and `<note>`, writes
+  `tools/.cache/sections/ldlt-balex.<N>.json` in the Perseus shape, so `mark_sections.js` takes it
+  unchanged. Two parser faults found and fixed on the way: the end of the edition was located at the
+  first `type="commentary"` string, which is also used by inline apparatus notes, so the parse stopped
+  after chapter 1; and the edition sets em-dashes closed up (`sustinebimus—neque`), which welded two
+  words into one token for the matcher. Both are commented in the file.
+- `batch/marks1132.json`: twelve chapters, English and Italian anchors by hand, **two overrides**, both
+  because the edition spells *Alexandria* where the Latin Library has *Alexandrea* (5.1, 15.8).
+- `check_sections.js` **104 fragments, 0 to look at, 14 cleared** - one new clearance, BA 7 section
+  2: the Latin joins the townspeople sentence to *at mihi...* with a colon, both translations use a
+  full stop. Same text on both sides of the marker.
+
+#### Changed - the author is Hirtius, for all practical purposes
+**The user's ruling.** Calling the author "the writer", "this writer" or "an anonymous continuator"
+contradicted his own author page, which lists the work under Hirtius; and **Book VIII of the Gallic
+War is certainly his**, so the one place that called its author "the continuator" was simply wrong.
+- **BA 1 gains the caveat paragraph, once for the whole work**: no author's name is transmitted;
+  Suetonius already reports Hirtius or Oppius; Hirtius's own preface to Book VIII claims to have
+  completed the account *ab rebus gestis Alexandriae*; the style is very close to Book VIII. So the
+  app treats Hirtius as the author for simplicity, **with a grain of salt**.
+- Every author reference in the fourteen BA notes and three Book VIII notes now names him (EN and IT).
+  **Where a chapter looks less like him the note says so** - chapter 25 above all, which is flagged as
+  the likeliest candidate if any chapter was written by someone else.
+- A side effect of v1.13.2 cleaned up on the way: rewriting internal keys as `chapter N` had put the
+  English word inside **14 Italian sentences** ("il panico di chapter 7"). Fixed in the Italian fields
+  only.
+
+#### Fixed - translations
+- **BA 7**: *I should waste* -> **I would waste** (the old British first-person conditional - not an
+  error, but exactly the register being removed); *breed* -> **race**.
+- **BA 8**: *made arrogant above all by victory* misconstrued *praecipue in victoria insolentis* -
+  *praecipue* goes with *insolentis*, and *in victoria* is "in victory". Now **arrogant above all in
+  victory** / *arroganti soprattutto nella vittoria*.
+- **BA 15**: *Caesar's state of mind* -> **Caesar's hesitation**. The Latin has a crux; every editor's
+  repair means hesitation or delay (Damon *Caesaris ⟨moram⟩*, Landgraf *cunctationem*, Forchhammer
+  *dubitationem*), and Euphranor's speech confirms it.
+- **BA 24**: *checked the boy's tears* -> **got the boy to stop crying**. *Check* meant *restrain*; it
+  read as nothing.
+- **BA 33**: *the elder of the two boys, the king, having been lost* - *rege amisso*, a bare absolute
+  that `lint_ablatives.js` missed because of the commas round *the king* - now **since... had been
+  lost**.
+
+#### Confirmed - the three emendations
+Damon's text prints *exposceret* (15.8), *exposuerat* (16.3) and *Caesari* (25.1): **all three
+emendations made in v1.13.2 agree with the new critical edition.**
+
+#### Added - notes for all twelve
+- **5**: the water as a map of inequality (*domini... eorum familiae* settle it; *plebes ac multitudo*
+  drink it muddy, *necessario*), and a look ahead at what Ganymedes does with a system spread
+  *vicatim*.
+- **6**: Ganymedes as an engineer by thinking, not by profession - one of Caesar's most formidable
+  opponents - and the contamination as a **boiling frog**: gradual, uneven, contradicted by the
+  neighbour, *nec satis sibi ipsi credebant*.
+- **7**: **Caesar does record panic - `De Bello Gallico` I.39, Vesontio - but places it in others and
+  solves it**; he never reports his men accusing him of dithering. Damon reads *ut mihi* where the
+  Latin Library has *at mihi*, and the first person survives either way. And whose *nemo* it is.
+- **8**: the speech as a chain of fallbacks, *dignitas* named before fear, and the sneer of *praecipue
+  in victoria insolentis* linked to chapter 7.
+- **15**: the highest praise paid to a Greek in Roman currency (*virtus*, *scientia* = *peritia*);
+  the spectators' view against the fire at Uxellodunum; and **the crux explained**, with Damon's
+  apparatus.
+- **16**: chapter 15 paying off in a tricolon of *neque* clauses; the period is almost Ciceronian; and
+  *nostris incolumibus omnibus* kept at arm's length.
+- **21**: a general in the same danger as his men, against **Pompey leaving his line at Pharsalus
+  (`De Bello Civili` III.94)**; the swim at fifty-two, with the geology of chapter 8.
+- **24**: six hostile characterisations in two hundred words; the one place in the app where
+  *clementia* looks foolish and the decision was still right; the Ciceronian second sentence.
+- **25**: both reasons for abandoning Euphranor are accusations; **the chapter least like Hirtius**,
+  with the main verb held to the end of a long period and a moralising Fortune.
+- **31**: the blunder that lost the war, and the slur that surprisingly does not come.
+- **32**: *dignum fructum virtutis et animi magnitudinis* - a compliment Caesar never pays himself.
+- **33**: *imperi nostri dignitatem utilitatemque publicam* - the only *imperium nostrum* and *utilitas
+  publica* in the Caesar and Hirtius excerpts (grepped), with the one Caesarian near-parallel, **`De
+  Bello Civili` I.9, handled with its textual variant in view**.
+
+#### Fixed - a blind spot in `check_context.js`
+**Bare numerals in a single-book work were skipped silently.** The pass takes a fragment's own work
+from the Roman book numeral in its citation, and `(Bellum Alexandrinum 5)` has none, so a bare
+`VIII.44` in any BA note was never checked - the list-form trap was invisible across the whole book.
+Now reported. A first run flagged twelve cases in Lucilius and Cicero that were all **named**
+citations of works missing from the pass's title list (Horace *Satires* I.5, *De Oratore* II.25,
+`**Tusculanae III.24**`); a guard now skips a numeral that follows a capitalised title word. What
+remained was one real case - **BA 1's launch-era note, "breaks off unfinished at III.112"** - now
+named and cleared as a deliberate reference, as at BC III.104.
+
+#### Fixed - the recurring ones, in this pass's own text
+Six bold spans containing an italic one (BA 1, 7, 31), and two straight double quotes that broke the
+bank's JSON after `mark_sections.js` had re-serialised it. **The note-writing helper now escapes
+double quotes itself.**
+
+Verification: **321 verbatim, 0 mismatched**; `check_sections.js` **104 checked, 0 to look at, 14
+cleared**; `check_context.js` **0 to look at on this release, and 0 bare-numeral flags in the whole
+bank**; `lint_register.js` **474, 0**; `lint_ablatives.js` **474, 0**; `lint_translations.js` **442,
+3** (all pre-existing); `lint_markdown.js` **2498 lines, 0 leaking**. Cache-bust: `?v=141` -> `?v=142`.
+
 ## [1.13.1] - 2026-09-09
 
 ### Added - the rest of De Bello Gallico VIII (9)

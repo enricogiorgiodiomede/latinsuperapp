@@ -40,7 +40,8 @@ checklist (CHANGELOG, in-app What's New, reference sheet, memory).
 | `lint_ablatives.js` | Flags the translation of an ablative absolute left standing beside the sentence instead of hanging off it - `the battle over,` where English wants `with the battle over,`. **The Italian rules are narrower on purpose**: a participle-first absolute (`Finita la battaglia,`) is idiomatic Italian and is not a fault; the English word order is. `--sigs` prints signatures for the cleared list. |
 | `lint_markdown.js` | Renders every emphasis-bearing line exactly as `js/markdown.js` does and fails if a literal asterisk survives. A bold span cannot contain an italic one. |
 | `fetch_sections.js` | Fetches an edition's subsection boundaries for one chapter from Perseus CTS, into `tools/.cache/sections/`. |
-| `fetch_sections_phi.js` | The same against PHI/packhum, for the Bellum Alexandrinum, which Perseus does not carry. |
+| `fetch_sections_ldlt.js` | Subsection boundaries for the **Bellum Alexandrinum**, which Perseus does not carry, from the Library of Digital Latin Texts edition (ed. Cynthia Damon, CC BY-SA 4.0, TEI on GitHub). Keeps each `<lem>`, drops `<rdg>` and `<note>`, writes `ldlt-balex.<N>.json` in the Perseus shape. The edition's apparatus is also the place to look up any crux or variant in this book. |
+| `fetch_sections_phi.js` | The same against PHI/packhum. **No longer works** - PHI is behind a bot challenge (403) - and superseded by the LDLT edition. Kept because BA 1 and BA 2 were first marked from it. |
 | `mark_sections.js` | Inserts the `**n.**` subsection markers, anchoring on the shortest prefix of a section that occurs exactly once. Ambiguity is a hard error; it never guesses. |
 | `strip.js` | Shared HTML-to-text and marker-normalising helpers. |
 

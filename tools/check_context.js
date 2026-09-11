@@ -156,6 +156,10 @@ const CLEARED = {
   // III.104's closing note is ABOUT the fact that the work breaks off at
   // III.112. The reference is the point, and it explains itself.
   '(De Bello Civili III.104) | ref | De Bello Civili III.112': 1,
+  // The same seam seen from the other side: Bellum Alexandrinum 1 is ABOUT
+  // the fact that the Bellum Civile stops at III.112 and this book starts from
+  // its last phrase, and quotes that phrase in the same sentence.
+  '(Bellum Alexandrinum 1) | ref | De Bello Civili III.112': 1,
   // VIII.23's account of who Commius was cites the chapter where Caesar sent
   // him to Britain, and says in the same sentence what is in it.
   '(De Bello Gallico VIII.23) | ref | De Bello Gallico IV.21': 1,
@@ -190,7 +194,31 @@ for (const slug of Object.keys(AUTHORS)) {
       while ((m = re.exec(prose))) {
         if (!romanOk(m[2])) continue;
         const w = m[1] || mine;
-        if (!w) continue;
+        if (!w) {
+          // A single-book work - the Bellum Alexandrinum is cited `Bellum
+          // Alexandrinum 5`, with no book numeral - owns no `ROMAN.N` chapter,
+          // so a bare numeral in its notes can only be a cross-reference to
+          // ANOTHER work with that work's name left off: the list-form trap.
+          // Until v1.13.2's follow-up these were skipped silently here, which
+          // made every Bellum Alexandrinum note invisible to this pass.
+          // But a numeral straight after a capitalised title word is a named
+          // citation of a work this pass's alternation does not list - Horace
+          // `Satires I.5`, `De Oratore II.25`, `*Divinae Institutiones* (VI.5)`,
+          // `**Tusculanae III.24**` (the doubled asterisks defeat the
+          // alternation). Every first-run flag outside the Bellum Alexandrinum
+          // was one of these. The genuinely bare case - `VIII.19, VIII.44` -
+          // is preceded by digits or a lower-case word, and still reports.
+          const before = prose.slice(Math.max(0, m.index - 40), m.index);
+          if (/[A-Z][A-Za-z.]*[\s,*(]*$/.test(before) && !/\d[\s,*(]*$/.test(before)) continue;
+          const key = m[2] + '.' + m[3];
+          if (seen.has('bare ' + key)) continue;
+          seen.add('bare ' + key);
+          const ck = f.citation + ' | bare | ' + key;
+          if (CLEARED[ck]) { cleared++; continue; }
+          bad.push('  a bare ' + key + ' with no work named - in a single-book work it can only mean another work');
+          sigs.push(ck);
+          continue;
+        }
         const key = w + ' ' + m[2] + '.' + m[3];
         if (OWN.has(key) || seen.has(key)) continue;
         // Authors cited but not carried are listed in the alternation above for

@@ -1,0 +1,53 @@
+{
+  "_comment": "v1.13.2 follow-up - subsection markers for the twelve Bellum Alexandrinum excerpts, which shipped without them. Boundaries from the Library of Digital Latin Texts edition (ed. Cynthia Damon et al., CC BY-SA 4.0), split into tools/.cache/sections/ldlt-balex.<N>.json by tools/fetch_sections_ldlt.js. The same edition independently reproduces the five boundaries of BA 1 that were hand-read from PHI at launch. English and Italian anchors written by hand, one per section. Two overrides, both for the same reason: the edition spells the city Alexandria where the Latin Library has Alexandrea, and the matcher starts from three words.",
+
+  "(Bellum Alexandrinum 5)": { "author": "aulus-hirtius", "work": "bellum-alexandrinum", "sections": "ldlt-balex.5.json",
+    "overrides": { "1": "Alexandrea est fere tota suffossa" },
+    "english": ["Alexandria is almost entirely undermined", "The owners of the buildings", "This gave Ganymedes the idea"],
+    "italian": ["Alessandria è quasi interamente", "I padroni degli edifici", "Da ciò Ganimede fu"] },
+
+  "(Bellum Alexandrinum 6)": { "author": "aulus-hirtius", "work": "bellum-alexandrinum", "sections": "ldlt-balex.6.json",
+    "english": ["Once this plan was approved", "For this reason the water", "In a short space of time"],
+    "italian": ["Approvato questo piano", "Per questa ragione l'acqua", "In poco tempo però"] },
+
+  "(Bellum Alexandrinum 7)": { "author": "aulus-hirtius", "work": "bellum-alexandrinum", "sections": "ldlt-balex.7.json",
+    "english": ["When this was done and doubt", "Moreover there was a great crowd", "when in fact one learns"],
+    "italian": ["Fatto questo e tolto", "C'era inoltre una gran folla", "dal momento che in realtà"] },
+
+  "(Bellum Alexandrinum 8)": { "author": "aulus-hirtius", "work": "bellum-alexandrinum", "sections": "ldlt-balex.8.json",
+    "english": ["Caesar reduced his men's fear", "And if the nature of the Egyptian coast", "Flight, however, was no policy", "It was hard work to hold", "Boarding ships took a great deal", "These men, arrogant above all"],
+    "italian": ["Cesare riduceva la paura", "E se anche la natura", "La fuga poi non era", "Era già una gran fatica", "Salire sulle navi richiedeva", "Costoro, arroganti soprattutto"] },
+
+  "(Bellum Alexandrinum 15)": { "author": "aulus-hirtius", "work": "bellum-alexandrinum", "sections": "ldlt-balex.15.json",
+    "overrides": { "8": "Neque vero Alexandreae fuit quisquam" },
+    "english": ["Euphranor was in command", "It was for his very well known", "When he noticed Caesar's hesitation", "we will hold the battle", "Caesar encouraged him, praised him", "They held on, and worked", "Meanwhile the rest came up", "And indeed there was not"],
+    "italian": ["Comandava le navi rodie", "Fu proprio per la sua", "Quando si accorse dell'esitazione", "reggeremo noi lo scontro", "Cesare lo incoraggiò", "Quelle ressero e si", "Intanto le altre erano", "E davvero ad Alessandria"] },
+
+  "(Bellum Alexandrinum 16)": { "author": "aulus-hirtius", "work": "bellum-alexandrinum", "sections": "ldlt-balex.16.json",
+    "english": ["But the contest of the battle", "At the same time it seemed", "Caesar had often set all this out", "Each man had made the same appeal", "And so the fighting was done", "In this battle one quinquereme", "The rest took to flight"],
+    "italian": ["Ma lo scontro non era", "Nello stesso tempo sembrava", "Tutto questo Cesare lo aveva", "Allo stesso modo ciascuno", "E così si combatté", "In questa battaglia furono", "Le altre cercarono scampo"] },
+
+  "(Bellum Alexandrinum 21)": { "author": "aulus-hirtius", "work": "bellum-alexandrinum", "sections": "ldlt-balex.21.json",
+    "english": ["Caesar, so long as he could", "When a crowd of men", "From there, by sending small boats", "In this battle there were lost", "The Alexandrians strengthened the fort"],
+    "italian": ["Cesare, finché poté", "Poiché una folla di", "Di là, mandando delle scialuppe", "In questo scontro furono", "Gli Alessandrini rafforzarono il fortino"] },
+
+  "(Bellum Alexandrinum 24)": { "author": "aulus-hirtius", "work": "bellum-alexandrinum", "sections": "ldlt-balex.24.json",
+    "english": ["Caesar, although he knew", "And so, having urged the king", "But the royal spirit", "Caesar, himself moved, got", "He, like a horse released", "Numbers of Caesar's officers"],
+    "italian": ["Cesare, benché conoscesse", "E così, dopo aver esortato", "Ma l'animo regale", "Cesare, commosso lui stesso", "Quello, come un cavallo", "Parecchi legati, amici"] },
+
+  "(Bellum Alexandrinum 25)": { "author": "aulus-hirtius", "work": "bellum-alexandrinum", "sections": "ldlt-balex.25.json",
+    "english": ["When the Alexandrians, having taken", "And so, with light vessels", "When this was reported to Caesar", "But Fortune, who generally keeps", "For when they had come to Canopus", "Nobody brought him any help"],
+    "italian": ["Quando gli Alessandrini, preso", "E così, disposte navi", "Quando ciò fu riferito", "Ma la Fortuna, che", "Quando infatti si giunse", "Nessuno gli portò soccorso"] },
+
+  "(Bellum Alexandrinum 31)": { "author": "aulus-hirtius", "work": "bellum-alexandrinum", "sections": "ldlt-balex.31.json",
+    "english": ["When Caesar saw that his soldiers", "When they got there", "Their panic so fired", "Fleeing from that danger", "The first of them were crushed", "It is agreed that the king"],
+    "italian": ["Quando Cesare vide che", "Quando vi giunsero", "Il loro scompiglio infiammò", "Fuggendo da quel pericolo", "I primi di loro furono", "È accertato che il re"] },
+
+  "(Bellum Alexandrinum 32)": { "author": "aulus-hirtius", "work": "bellum-alexandrinum", "sections": "ldlt-balex.32.json",
+    "english": ["With the business carried through", "Nor did his plan deceive him", "On arriving he reaped", "Caesar received them into his protection"],
+    "italian": ["Compiuta la cosa con", "Né il suo calcolo", "Al suo arrivo raccolse", "Cesare li accolse sotto"] },
+
+  "(Bellum Alexandrinum 33)": { "author": "aulus-hirtius", "work": "bellum-alexandrinum", "sections": "ldlt-balex.33.json",
+    "english": ["Caesar, having gained possession", "For since the elder of the two boys", "The veteran Sixth legion", "At the same time he considered"],
+    "italian": ["Cesare, impadronitosi dell'Egitto", "Perduto infatti il maggiore", "La sesta legione veterana", "Nello stesso tempo riteneva"] }
+}
