@@ -1012,8 +1012,17 @@ the real risk at this volume.
 - **BC II**: 10 · 14 · 22 · 28 · 38 · 42
 - **BC III**: 19 · 48 · 53 · 70 · 83 · 86 · 89 · 91 · 92 · 94 · 96 · 99 · 104
 - **DBG VIII (HIRTIUS)**: praefatio · 1 · 3 · 4 · 19 · 22 · 23 · 24 · 34 · 41 · 42 · 43 · 44 · 48 · 49 · 50 · 51 · 53 · 54 · 55
-- **BELLUM ALEXANDRINUM**: 1 · 2 · 5 · 6 · 7 · 8 · 15 · 16 · 21 · 24 · 25 · 31 · 32 · 33
-- Running total **104**. **THE GALLIC WAR IS COMPLETE at its allocated 40**, all seven books closed (6/4/3/5/7/6/9). **BC I IS CLOSED at 11** (10 new in v1.12.0 plus the launch-era I.7). **BC II IS CLOSED at 6** (v1.12.1) and **BC III at 13** (v1.12.2). **EVERYTHING CAESAR HIMSELF WROTE IS NOW IN THE APP** - ten books, seventy excerpts. **DBG VIII IS CLOSED at its allocated 20** (v1.13.0 + v1.13.1), so **the whole Gallic War, Caesar's seven books and the eighth that is not his, stands at 60**. **THE BELLUM ALEXANDRINUM HAS STARTED** (v1.13.2): 12 new from the Egyptian war proper, which runs **chapters 1-33**, so the work stands at **14**. What remains is **11 more from chapters 34-78** - Asia Minor and Pharnaces, Illyricum and Vatinius, Spain and the mutiny against Q. Cassius Longinus, and Zela - in v1.13.3, which closes the Corpus Caesarianum in this plan.
+- **BELLUM ALEXANDRINUM**: 1 · 2 · 5 · 6 · 7 · 8 · 15 · 16 · 21 · 24 · 25 · 31 · 32 · 33 · 36 · 40 · 43 · 46 · 48 · 52 · 56 · 64 · 74 · 75 · 77
+- Running total **115**. **THE GALLIC WAR IS COMPLETE at its allocated 40**, all seven books closed (6/4/3/5/7/6/9). **BC I IS CLOSED at 11** (10 new in v1.12.0 plus the launch-era I.7). **BC II IS CLOSED at 6** (v1.12.1) and **BC III at 13** (v1.12.2). **EVERYTHING CAESAR HIMSELF WROTE IS NOW IN THE APP** - ten books, seventy excerpts. **DBG VIII IS CLOSED at its allocated 20** (v1.13.0 + v1.13.1), so **the whole Gallic War, Caesar's seven books and the eighth that is not his, stands at 60**. **THE BELLUM ALEXANDRINUM IS CLOSED at 25** (v1.13.2 + v1.13.3) and **HIRTIUS IS CLOSED at 45**. **THE CORPUS CAESARIANUM IS COMPLETE IN THIS PLAN**: Caesar 70, Hirtius 45. The Bellum Africum and Bellum Hispaniense are not planned. What comes next is the user's call - the remaining Caesar's-Age authors are Lucretius, Sallust and Catullus - and the project rule is to ask before starting a new author.
+
+**FIND SOURCE TYPOS BY COMPARING WITH A CRITICAL EDITION, NOT BY GUESSING PATTERNS.** Found in v1.13.3:
+a regex scan for likely typos missed all three faults in the batch (`dificultate`, `pefforatae`,
+`pecunam`); a word-by-word comparison with Damon's LDLT text - both sides folded (lower case, u/v and
+i/j merged, non-letters dropped) and aligned by longest common subsequence - found every one. Each
+difference is then one of three things: **spelling** (leave it), a **genuine variant** between
+editions (leave it, mention it in the note if it matters), or a **plain typo** (declare an `emend`).
+Do this for every chapter picked from a work that has a numbered edition on disk - Perseus for Caesar,
+LDLT for the Bellum Alexandrinum.
 
 **THE LATIN LIBRARY MIRROR SILENTLY DROPS THE LETTER-SEQUENCE `xpos`.** Found in v1.13.2 and it is
 systematic, not a one-off. The corrupt forms all look like a plausible short word and are not:

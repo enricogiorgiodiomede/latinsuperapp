@@ -1,0 +1,15 @@
+{
+  "_comment": "v1.13.3 - subsection markers for the Latin of the eleven Bellum Alexandrinum excerpts. Both translations were written with their markers already at these boundaries, and mark_sections.js skips a field that carries them. Boundaries from Damon's LDLT edition. Three overrides, all for a difference in the first three words: 36.1 the edition's Complures against the Latin Library's Compluris, 46.1 animadverteret against animum adverteret, 48.1 Iis against Eis.",
+
+  "(Bellum Alexandrinum 36)": { "author": "aulus-hirtius", "work": "bellum-alexandrinum", "sections": "ldlt-balex.36.json", "overrides": { "1": "Compluris interim legationes Pharnaces" } },
+  "(Bellum Alexandrinum 40)": { "author": "aulus-hirtius", "work": "bellum-alexandrinum", "sections": "ldlt-balex.40.json" },
+  "(Bellum Alexandrinum 43)": { "author": "aulus-hirtius", "work": "bellum-alexandrinum", "sections": "ldlt-balex.43.json" },
+  "(Bellum Alexandrinum 46)": { "author": "aulus-hirtius", "work": "bellum-alexandrinum", "sections": "ldlt-balex.46.json", "overrides": { "1": "Vatinius cum animum adverteret" } },
+  "(Bellum Alexandrinum 48)": { "author": "aulus-hirtius", "work": "bellum-alexandrinum", "sections": "ldlt-balex.48.json", "overrides": { "1": "Eis autem temporibus quibus" } },
+  "(Bellum Alexandrinum 52)": { "author": "aulus-hirtius", "work": "bellum-alexandrinum", "sections": "ldlt-balex.52.json" },
+  "(Bellum Alexandrinum 56)": { "author": "aulus-hirtius", "work": "bellum-alexandrinum", "sections": "ldlt-balex.56.json" },
+  "(Bellum Alexandrinum 64)": { "author": "aulus-hirtius", "work": "bellum-alexandrinum", "sections": "ldlt-balex.64.json" },
+  "(Bellum Alexandrinum 74)": { "author": "aulus-hirtius", "work": "bellum-alexandrinum", "sections": "ldlt-balex.74.json" },
+  "(Bellum Alexandrinum 75)": { "author": "aulus-hirtius", "work": "bellum-alexandrinum", "sections": "ldlt-balex.75.json" },
+  "(Bellum Alexandrinum 77)": { "author": "aulus-hirtius", "work": "bellum-alexandrinum", "sections": "ldlt-balex.77.json" }
+}

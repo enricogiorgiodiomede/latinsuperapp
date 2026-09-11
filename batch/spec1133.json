@@ -1,0 +1,15 @@
+{
+  "_comment": "v1.13.3 - the last Bellum Alexandrinum batch: eleven chapters from 34-78, which closes the work at 25 and Hirtius at 45. Four theatres, as the book has them: Asia Minor (36, 40 - Domitius Calvinus and Pharnaces, the defeat at Nicopolis), Illyricum (43, 46 - Gabinius's winter disaster, Vatinius's naval gamble off Tauris), Spain (48, 52, 56, 64 - Q. Cassius Longinus: the bought army, the knifing at Corduba, his reaction to Pharsalus, his drowning at the Ebro mouth), and Zela (74, 75, 77). All eleven are whole chapters. Subsection boundaries from Damon's LDLT edition. Source faults found by a word-by-word comparison with that edition, not by guessing patterns.",
+
+  "ba.36": ["alex", "Compluris interim legationes Pharnaces", "dispersique caederentur."],
+  "ba.40": ["alex", "Signo sub idem tempus ab utroque", "se in Asiam recepit."],
+  "ba.43": ["alex", "Gabinius ut in Illyricum venit", "versari passa non est."],
+  "ba.46": ["alex", "Vatinius cum animum adverteret neque navium", "ab illo periculo vindicarat."],
+  "ba.48": ["alex", "Eis autem temporibus quibus Caesar ad Dyrrachium", "disciplinam severitatemque minuebant."],
+  "ba.52": ["alex", "Exercitu coacto in unum locum castris ad Cordubam", "iacentemque levibus sauciat plagis."],
+  "ba.56": ["alex", "Aliquot post diebus litteras a Caesare", "Quae evocatio vehementer omnis turbavit."],
+  "ba.64": ["alex", "Cum iter Cassio patefactum esset", "demersa nave periit."],
+  "ba.74": ["alex", "Pharnaces, cum id repente prima luce", "adversus arduum collem instructis copiis coepit."],
+  "ba.75": ["alex", "Caesar incredibili eius vel temeritate", "quibus nihil ratione potuit administrari."],
+  "ba.77": ["alex", "Tali victoria totiens victor Caesar", "cum Caelio Viniciano in Ponto relinquit."]
+}

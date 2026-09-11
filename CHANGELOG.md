@@ -108,6 +108,55 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.13.3] - 2026-09-11
+
+### Added - the rest of the Bellum Alexandrinum (11)
+The book closes at **25** and **Hirtius at 45** (Book VIII 20, Bellum Alexandrinum 25). Bank **474 ->
+485**. With it the **Corpus Caesarianum is complete in this plan**: all ten books Caesar wrote, and the
+two books by Hirtius. All eleven are whole chapters, across the book's four theatres after Egypt.
+
+| Ch. | Why |
+|---|---|
+| 36 | Domitius Calvinus refuses Pharnaces' gifts for *dignitatem populi Romani* (the phrase of chapter 33), and an ambush designed *sive amicus... sive inimicus* - to work whichever way he arrives. Nicopolis was Pompey's Victory City. |
+| 40 | Nicopolis. A defeat told in the order that assigns the blame; the Thirty-sixth *in orbem se recepit*; the Roman losses counted to the unit, the Pontic legion's not at all. Crux *+acies secundo+* (Damon *ac transcendere*). |
+| 43 | Gabinius in Illyricum: *sive... sive... sive*, three motives and no choice - **the clearest Hirtius/Caesar contrast in the batch** - and *non ut volebat sed ut necesse erat bellum gerebat*. |
+| 46 | Vatinius *fortunae rem committere maluit*, rams the flagship, and wins by the *quanto... tanto* of close quarters. Octavius escapes by swimming, as Caesar had at chapter 21. |
+| 48 | Q. Cassius Longinus: the showpiece period set against Dyrrachium, Pharsalus and Alexandria; the army's love bought; a Sallustian verdict on discipline. Set against *De Bello Gallico* VIII.4. |
+| 52 | The knifing in the basilica at Corduba - and Suetonius's *quasi aliquid rogaturus... aversum* for the Ides against *quasi aliquid ab eo postularet... aversum* here. |
+| 56 | *Mixtam dolore voluptatem*: Pharsalus ends his licence. *Utrum nihil timere an omnia licere mallet*; creditors repaid with a pen (*expensum ferre / acceptum referre*); knights sold their oath back. |
+| 64 | *Ut ipse praedicabat... ut amici eius dictitabant... ut ceteri existimabant*: three motives with witnesses, the last ending on *rapinis*; drowned at the Ebro mouth with the money. |
+| 74 | Zela. Caesar *irridebat inanem ostentationem* at an attack that was real; the longest menu of motives in the book; *postea audiebamus*, the author's footprint. |
+| 75 | *Eodem tempore milites ab opere revocat* - the list of the Sabis (*De Bello Gallico* II.20-21) - and the credit given to *deorum immortalium benignitate* where Caesar gave it to *scientia atque usus*. |
+| 77 | *Totiens victor... incredibili laetitia*: the joy of speed and the relief under it. Crux *+quodque... quod+* (Damon *eoque*). *Veni, vidi, vici* is not here. Hirtius's last page, and his death at Mutina. |
+
+**Hirtius/Caesar comparison placed where it is largest**: 43, 48, 56, 64, 74, 75, 77. Light at 36, 40, 46,
+52. **The Spanish chapters (48-64) are flagged in the notes** as the ones most likely to rest on other
+men's reports - hearsay verbs at 64, a Sallustian manner at 48 and 56.
+
+### Found - source faults, by comparison with the edition
+**New method, recorded for future batches**: every chosen chapter compared word by word (folded,
+LCS-aligned) against Damon's LDLT text. Differences sort into spelling (*compluris/complures*,
+*omnis/omnes*, *eis/iis*, *animum adverteret/animadverteret*), genuine variants between editions
+(*ausuque/auspicioque* at 43, *praeruptam/proclivem* at 74, the two cruxes), and **three plain typos,
+all now declared emendations**: `dificultate` (43), `pefforatae` (46), `pecunam` (56). **A pattern
+scan found none of the three**; the comparison found all of them.
+
+### Markers
+From the start, in both translations by hand and in the Latin by `mark_sections.js`, from Damon's
+edition. **Three overrides**, all first-three-word spelling differences: 36.1 *Compluris*, 46.1 *animum
+adverteret*, 48.1 *Eis*. `check_sections.js` **115 checked, 0 to look at**.
+
+### Fixed - what the checks caught
+`check_context.js`: Cappadocia and Asia unglossed at 40, Corduba at 64. `lint_markdown.js`: one bold
+span containing an italic title, at 48. Before release, two claims in the notes were also reworded to
+what can be supported: the author's absence from Spain (not known - now "nothing suggests he was
+there"), and the Ides parallel at 52, now resting on Suetonius's own wording.
+
+Verification: **332 verbatim, 0 mismatched** (6 emended across the book); `check_sections.js` **115,
+0**; `check_context.js` **0 on this release**; `lint_register.js` **485, 0**; `lint_ablatives.js`
+**485, 0**; `lint_translations.js` **453, 3** (all pre-existing); `lint_markdown.js` **0 leaking**.
+Cache-bust: `?v=142` -> `?v=143`.
+
 ## [1.13.2] - 2026-09-10
 
 ### Added - the Bellum Alexandrinum begins (12)

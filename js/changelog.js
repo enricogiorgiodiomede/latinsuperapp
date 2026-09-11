@@ -12,6 +12,43 @@
 
   var VERSIONS = [
     {
+      v: '1.13.3', date: '11/09/2026', time: 'HH:MM', tz: 'CEST',
+      en: {
+        added: [
+          'Eleven more excerpts from the Bellum Alexandrinum, which finish it at twenty-five - and finish Hirtius at forty-five, the whole of his eighth book of the Gallic War and the whole of the Alexandrian War. With them the Corpus Caesarianum is complete, as far as this app goes: everything Caesar wrote, and everything written to finish it that the app is going to carry.',
+          'The book leaves Egypt for the rest of the Roman east, where the son of Mithridates had used the civil war to take back his father\'s kingdom. His envoys bring gifts and are sent away; his ambush in a mountain pass is built to work whether the Roman general arrives as a friend or as an enemy; and at Nicopolis - Victory City, founded by Pompey on the spot where he beat Mithridates - a Caesarian army is beaten, and its one Roman legion closes into a ring and walks backwards to the mountains.',
+          'Then the Dalmatian coast: a former consul who marches in midwinter with no supplies and no loyal province and is ground down by a war he cannot choose - with three possible reasons for his mistake, and no attempt to pick one - and then a fleet of rowing boats that wins by ramming the enemy flagship and turning a sea battle into a fight between soldiers, while the enemy admiral escapes by swimming, exactly as Caesar had at Alexandria a few months before.',
+          'Then Spain, and a governor Caesar himself appointed. He is hated by his province and buys the love of his army instead; he is knifed in the basilica at Corduba by a man pretending to hand him a petition, in words Suetonius would use almost exactly for the Ides of March; he is sorry to hear of Pharsalus, because the end of the war means the end of his licence; he cancels his debts by ordering his creditors to write them off; and he sails for home out of season with his plunder and drowns at the mouth of the Ebro - his reasons for sailing given three times: as he told it, as his friends told it, and as everyone else believed.',
+          'And last, Zela. The king of Pontus leads his whole army down a ravine and up the hill where Caesar\'s men are digging, and Caesar laughs at it until it arrives. Caught unprepared, he calls his men from the work with the same list of orders he had written about his own worst morning in Gaul, and the narrator gives the victory to the gods, where planning had failed. The next day Caesar is filled with incredible joy at the speed of it - and, more quietly, at having come through it. It is the morning behind I came, I saw, I conquered, which is not in the text.',
+          'The notes follow the rules the last batch taught. Hirtius is named as the author, with the Spanish chapters flagged as the ones most likely to rest on other men\'s reports. Every excerpt opens with where and when you are. And the comparison with Caesar is made where the difference is largest: the lists of possible motives Caesar never offers, a moral portrait of one of his own governors in the manner of Sallust, Caesar shown laughing at an attack that was real, and a victory handed to the gods.'
+        ],
+        changed: [
+          'Three faults in the source text are corrected and recorded - a letter missing, a letter doubled, a letter dropped. This time they were found by comparing every chosen chapter word by word with the new critical edition of the book, rather than by guessing where typos might be.',
+          'All eleven carry the subsection numbers from the start, from the same critical edition as the last batch.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Altri undici brani dal Bellum Alexandrinum, che lo concludono a venticinque, e concludono Irzio a quarantacinque: tutto il suo ottavo libro della guerra gallica e tutta la guerra alessandrina. Con loro il Corpus Caesarianum è completo, per quanto riguarda quest\'app: tutto ciò che Cesare scrisse, e tutto ciò che fu scritto per completarlo e che l\'app porterà.',
+          'Il libro lascia l\'Egitto per il resto dell\'oriente romano, dove il figlio di Mitridate aveva approfittato della guerra civile per riprendersi il regno del padre. I suoi ambasciatori portano doni e vengono rimandati indietro; il suo agguato in un passo di montagna è costruito per funzionare sia che il generale romano arrivi da amico sia che arrivi da nemico; e a Nicopoli - la Città della Vittoria, fondata da Pompeo nel luogo in cui aveva battuto Mitridate - un esercito cesariano viene sconfitto, e la sua unica legione romana si chiude in cerchio e arretra fino ai monti.',
+          'Poi la costa dalmata: un ex console che marcia in pieno inverno senza rifornimenti e senza una provincia fedele e viene logorato da una guerra che non può scegliere - con tre ragioni possibili del suo errore, e nessun tentativo di sceglierne una - e poi una flotta di barche a remi che vince speronando l\'ammiraglia nemica e trasformando una battaglia navale in uno scontro fra soldati, mentre l\'ammiraglio nemico si salva a nuoto, esattamente come aveva fatto Cesare ad Alessandria pochi mesi prima.',
+          'Poi la Spagna, e un governatore nominato da Cesare in persona. È odiato dalla sua provincia e si compra invece l\'affetto dell\'esercito; viene pugnalato nella basilica di Cordova da un uomo che finge di consegnargli una supplica, con parole che Svetonio userà quasi identiche per le Idi di marzo; è dispiaciuto per la notizia di Farsalo, perché la fine della guerra è la fine della sua licenza; cancella i propri debiti ordinando ai creditori di registrarli come restituiti; e salpa per casa fuori stagione con il suo bottino e annega alla foce dell\'Ebro, con le ragioni del viaggio date tre volte: come le raccontava lui, come le raccontavano gli amici, e come le credevano tutti gli altri.',
+          'E infine Zela. Il re del Ponto porta tutto il suo esercito giù per una gola e su per il colle dove gli uomini di Cesare stanno scavando, e Cesare ne ride finché non gli arriva addosso. Colto impreparato, richiama i suoi dal lavoro con lo stesso elenco di ordini che aveva scritto per la sua peggiore mattina in Gallia, e il narratore attribuisce la vittoria agli dèi, là dove la pianificazione era fallita. Il giorno dopo Cesare è preso da una gioia incredibile per la rapidità della cosa, e, più in silenzio, per esserne uscito. È la mattina che sta dietro a venni, vidi, vinsi, che nel testo non c\'è.',
+          'Le note seguono le regole insegnate dal gruppo precedente. Irzio è nominato come autore, e i capitoli spagnoli sono segnalati come quelli che più probabilmente poggiano su resoconti altrui. Ogni brano si apre dicendo dove e quando ci si trova. E il confronto con Cesare è fatto dove la differenza è maggiore: gli elenchi di moventi possibili che Cesare non offre mai, il ritratto morale di uno dei suoi governatori alla maniera di Sallustio, Cesare mostrato mentre ride di un attacco che era vero, e una vittoria attribuita agli dèi.'
+        ],
+        changed: [
+          'Tre errori del testo di partenza sono corretti e registrati: una lettera mancante, una raddoppiata, una caduta. Questa volta sono stati trovati confrontando parola per parola ogni capitolo scelto con la nuova edizione critica del libro, invece di tirare a indovinare dove potessero essere i refusi.',
+          'Tutti e undici portano fin dall\'inizio i numeri di paragrafo, dalla stessa edizione critica del gruppo precedente.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.13.2', date: '10/09/2026', time: '18:57', tz: 'CEST',
       en: {
         added: [
