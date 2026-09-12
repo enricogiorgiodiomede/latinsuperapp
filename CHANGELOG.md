@@ -160,18 +160,21 @@ Cache-bust: `?v=142` -> `?v=143`.
 ### Follow-up, 2026-09-12: link previews on latinsuperapp.com
 
 #### Added - a share image and Open Graph / Twitter card tags
-- **`social_image.png`** (1672x941 PNG) added at the site root.
+- **`social_image.jpeg`** (1200x675 progressive JPEG, 113 KB) at the site root. It replaced a first
+  1672x941 PNG of about 2 MB the same evening: WhatsApp tends to drop the picture from a preview
+  when the image is much over about 300 KB. The PNG stays in the repo, unreferenced, for any
+  preview already cached against it.
 - **All five HTML pages** carry `description`, `og:type`, `og:site_name`, `og:title`,
   `og:description`, `og:image` (+ `type`, `width`, `height`, `alt`) and `twitter:card` =
   `summary_large_image` with its title, description and image. The image URL is absolute,
-  `https://latinsuperapp.com/social_image.png`, because crawlers do not resolve relative paths; the
+  `https://latinsuperapp.com/social_image.jpeg`, because crawlers do not resolve relative paths; the
   domain is the one in `CNAME`. `og:url` is set on `index.html` only - the other pages are reached
   through query strings, so a fixed URL there would be wrong.
 - Titles are the static English page titles: crawlers do not run the i18n script.
 
 Verification: `verify.js` **332, 0**; `lint_translations.js` **453, 3** (pre-existing);
 `lint_markdown.js` **2553, 0 leaking**. Served locally: 15 tags on the home page, 14 on the others,
-and the image returns `200 image/png`. Cache-bust: `?v=143` -> `?v=144`.
+and the image returns `200 image/jpeg`. Cache-bust: `?v=143` -> `?v=144` -> `?v=145`.
 
 ## [1.13.2] - 2026-09-10
 
