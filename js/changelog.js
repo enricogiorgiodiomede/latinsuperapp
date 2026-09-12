@@ -24,7 +24,8 @@
         ],
         changed: [
           'Three faults in the source text are corrected and recorded - a letter missing, a letter doubled, a letter dropped. This time they were found by comparing every chosen chapter word by word with the new critical edition of the book, rather than by guessing where typos might be.',
-          'All eleven carry the subsection numbers from the start, from the same critical edition as the last batch.'
+          'All eleven carry the subsection numbers from the start, from the same critical edition as the last batch.',
+          'When you share a link to the app - in a chat, on social media, in an email - it now shows a proper preview card with the app\'s own picture, a title and a one-line description, instead of a bare address.'
         ],
         deleted: [
           'Nothing was deleted.'
@@ -41,7 +42,8 @@
         ],
         changed: [
           'Tre errori del testo di partenza sono corretti e registrati: una lettera mancante, una raddoppiata, una caduta. Questa volta sono stati trovati confrontando parola per parola ogni capitolo scelto con la nuova edizione critica del libro, invece di tirare a indovinare dove potessero essere i refusi.',
-          'Tutti e undici portano fin dall\'inizio i numeri di paragrafo, dalla stessa edizione critica del gruppo precedente.'
+          'Tutti e undici portano fin dall\'inizio i numeri di paragrafo, dalla stessa edizione critica del gruppo precedente.',
+          'Quando condividi un link all\'app, in una chat, sui social o in una email, ora compare una vera anteprima con l\'immagine dell\'app, un titolo e una descrizione di una riga, invece del semplice indirizzo.'
         ],
         deleted: [
           'Non è stato eliminato nulla.'
