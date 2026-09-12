@@ -162,8 +162,8 @@ Cache-bust: `?v=142` -> `?v=143`.
 #### Added - a share image and Open Graph / Twitter card tags
 - **`social_image.jpeg`** (1200x675 progressive JPEG, 113 KB) at the site root. It replaced a first
   1672x941 PNG of about 2 MB the same evening: WhatsApp tends to drop the picture from a preview
-  when the image is much over about 300 KB. The PNG stays in the repo, unreferenced, for any
-  preview already cached against it.
+  when the image is much over about 300 KB. The PNG was then deleted from the repo, once nothing
+  referenced it.
 - **All five HTML pages** carry `description`, `og:type`, `og:site_name`, `og:title`,
   `og:description`, `og:image` (+ `type`, `width`, `height`, `alt`) and `twitter:card` =
   `summary_large_image` with its title, description and image. The image URL is absolute,
