@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.13.3', date: '11/09/2026', time: '22:23', tz: 'CEST',
+      v: '1.13.3', date: '12/09/2026', time: '22:54', tz: 'CEST',
       en: {
         added: [
           'Eleven more excerpts from the Bellum Alexandrinum, which finish it at twenty-five - and finish Hirtius at forty-five, the whole of his eighth book of the Gallic War and the whole of the Alexandrian War. With them the Corpus Caesarianum is complete, as far as this app goes: everything Caesar wrote, and everything written to finish it that the app is going to carry.',
