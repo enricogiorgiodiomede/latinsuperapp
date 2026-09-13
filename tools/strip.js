@@ -72,4 +72,28 @@ function normalise(text) {
     .trim();
 }
 
-module.exports = { stripHtml: stripHtml, normalise: normalise };
+// Verse pages (Lucretius) print a line number every five verses at the end of
+// the line, after a run of spaces - `immortali aevo summa cum pace fruatur 45` -
+// sometimes with a letter for an editor's inserted line (`164a`), and mark a
+// lacuna with a line of `* * *` that can carry a number of its own. Latin verse
+// never contains a digit, so a trailing number is always the page's and never
+// the poet's. Returns one entry per verse: { n, text }, where n is the printed
+// number where there is one and null otherwise.
+const VERSE_PAGE = /^lucretius\//;
+function verseLines(text) {
+  const out = [];
+  for (const raw of text.split('\n')) {
+    const line = raw.trim();
+    if (!line) continue;
+    if (/^\*[\s*]*\*\s*[0-9a-z]*$/.test(line)) { out.push({ lacuna: true }); continue; }
+    const m = line.match(/^(.*?\S)\s*(\d+[a-z]*)$/);
+    if (m && /[A-Za-z]/.test(m[1])) out.push({ n: m[2], text: m[1] });
+    else out.push({ n: null, text: line });
+  }
+  return out;
+}
+function verseText(text) {
+  return verseLines(text).filter(v => !v.lacuna).map(v => v.text).join('\n');
+}
+
+module.exports = { stripHtml: stripHtml, normalise: normalise, verseLines: verseLines, verseText: verseText, VERSE_PAGE: VERSE_PAGE };

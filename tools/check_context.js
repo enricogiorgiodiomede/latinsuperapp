@@ -189,7 +189,11 @@ for (const slug of Object.keys(AUTHORS)) {
       // list has to include the works actually cited across the bank, or a
       // cross-reference to `Ad Atticum VII.11` is read as chapter VII.11 of
       // whatever work the fragment belongs to and reported as dangling.
-      const re = /(?:[`*]?(De Bello Gallico|De Bello Civili|Bellum Alexandrinum|Ad Atticum|Ad Familiares|Ad Quintum Fratrem|Ad Brutum|De Divinatione|De Officiis|De Re Publica|Tusculanae|Agricola|Livy|Livio|Plutarch|Plutarco|Suetonius|Svetonio|Appian|Appiano|Dio|Dione)[`*]?[, ]\s*[`*]?)?\b([IVXLCDM]{1,5})\.(\d+)\b/g;
+      // `Tusculanae Disputationes` must come before `Tusculanae`, and the letters
+      // to Quintus are cited `Ad Quintum fratrem` in the bank: without both, the
+      // Lucretius notes of v1.14.0 had their Cicero references read as chapters
+      // of De Rerum Natura.
+      const re = /(?:[`*]?(De Bello Gallico|De Bello Civili|Bellum Alexandrinum|De Rerum Natura|Ad Atticum|Ad Familiares|Ad Quintum [Ff]ratrem|Ad Brutum|De Divinatione|De Officiis|De Re Publica|Tusculanae Disputationes|Tusculanae|Agricola|Livy|Livio|Plutarch|Plutarco|Suetonius|Svetonio|Appian|Appiano|Dio|Dione)[`*]?[, ]\s*[`*]?)?\b([IVXLCDM]{1,5})\.(\d+)\b/g;
       let m;
       while ((m = re.exec(prose))) {
         if (!romanOk(m[2])) continue;

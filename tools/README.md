@@ -10,6 +10,7 @@ between sessions.
 ```bash
 node tools/fetch_sources.js                                  # 1. cache the source texts
 node tools/extract.js batch/spec.json batch/passages.json    # 2. pull passages verbatim
+#    VERSE (Lucretius) instead: node tools/extract_verse.js batch/spec.json batch/passages.json
 node tools/apply_batch.js batch/passages.json batch/frags.js 1.7.1   # 3. write them into the bank
 node tools/verify.js                                         # 4. prove every Latin field is verbatim
 node tools/lint_translations.js                              # 5. and that each translation covers exactly it
@@ -29,7 +30,9 @@ checklist (CHANGELOG, in-app What's New, reference sheet, memory).
 |---|---|
 | `fetch_sources.js` | Downloads every Latin Library page in `sources.json`, strips the HTML, caches it in `tools/.cache/` (gitignored). `--force` re-downloads. |
 | `extract.js` | Cuts passages out of the cache by start/end text. **Never retype Latin** - this is what makes the verifier meaningful. |
-| `apply_batch.js` | Adds a batch to `js/fragments.js`, tags each fragment with the release version, re-sorts each touched work by section number. |
+| `extract_verse.js` | **Verse** (Lucretius, v1.14.0): cuts passages by VERSE NUMBER (`["lucretius1", 62, 79]`). Numbers each page line by matching it against the Perseus edition, because the page's own printed numbers are sometimes wrong and a reordered block (Book I vv. 50-61 sit after v. 135) defeats counting. Accepts an editor's transposition inside a range, diffs every verse against Perseus, and writes `<key>#n` with the line numbers. |
+| `fetch_sections_perseus_verse.js` | Splits the Perseus TEI of **De Rerum Natura** into `tools/.cache/sections/drn.<book>.json`, one `{n, text}` per line - the numbering authority and the typo-diff text for `extract_verse.js`. |
+| `apply_batch.js` | Adds a batch to `js/fragments.js`, tags each fragment with the release version, re-sorts each touched work by section number. A verse item (`from` + `blocks`) stays one verse per `> ` line with `**n.**` at each sentence block; an item `version` keeps an old excerpt's tag when it is rebuilt. |
 | `create_works.js` | Adds new (empty) works before a batch that introduces them. Edit the `NEW` array first. |
 | `reorder_works.js` | Re-sorts Cicero's speeches into chronological order of delivery. Edit `SPEECH_ORDER` when a work is added. |
 | `verify.js` | The gate: every `latin` field must appear verbatim in its source page. Run it before every commit. |
@@ -135,6 +138,15 @@ module.exports = [{
   italian: '> [33] ...', english: '> [33] ...', analysis: '...',
   titleIt: '...', descriptionIt: '...', analysisIt: '...'
 }];
+```
+
+A verse fragment names the verse its passage starts on and the verse each sentence block opens on
+(`[n, "words"]` when the block starts inside a line); the translations carry the same `**n.**` by hand,
+with blocks separated by a bare `>` line:
+
+```js
+{ work: 'drn-i', key: 'drn.1.80', from: 80, blocks: [80, [82, 'quod contra'], 84, 87, 93, 101],
+  citation: '(De Rerum Natura I.80-101)', english: '> **80.** ...\n>\n> **82.** ...', ... }
 ```
 
 Every fragment needs both languages: `titleIt`, `descriptionIt` and `analysisIt` are required, with

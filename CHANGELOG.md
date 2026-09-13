@@ -108,6 +108,65 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.14.0] - 2026-09-13
+
+**LUCRETIUS BEGINS: DE RERUM NATURA BOOK I, 10 EXCERPTS (9 new + the v1.0.0 I.80-101 rebuilt).**
+The first release of the user's plan of **60 across the six books, 10 per book** (plan saved in
+`practice_fragments_reference.md`). Lucretius **1 -> 10**; bank **485 -> 494**. The single work
+`de-rerum-natura` becomes one work per book (`drn-i` now; `drn-ii`..`drn-vi` as they fill),
+`needsSelection: true`, like Caesar.
+
+### Added
+- **I.1-20** the hymn to Venus, part 1 (*Aeneadum genetrix ... voluptas*): Rome and Epicurean pleasure at
+  the two ends of line 1; the Venus Genetrix politics; the 14/15 transposition explained.
+- **I.21-43** part 2: Venus and Mars (Empedocles' Love and Strife as a picture), *patriai tempore
+  iniquo*, **Gaius Memmius** introduced. Notes the six lines 44-49 (repeated at II.646-651, contradicting
+  the prayer) and why neither excerpt carries them.
+- **I.50-61** *Quod superest, vacuas auris* - **the passage the user flagged as left out by websites.
+  It is NOT missing from the Latin Library: the page prints it after v. 135, keeping its numbers**, so it
+  was extracted verbatim and the user did not need to type it. Splash Latino omits it (chunk 0050-0067
+  starts at 62). Five names for the atom; Lucretius never uses *atomus*.
+- **I.62-79** *Humana ante oculos*, the first eulogy of Epicurus (the user's pick).
+- **I.136-145** *egestas linguae*; cross-ref **Tusculanae Disputationes III.24** (Cicero coining
+  *perturbatio*).
+- **I.146-158** *nil ex nihilo* (the user's pick); the refrain 146-148; *divinitus* as the target; the
+  155 transposition.
+- **I.311-321** the ring, the drip, the ploughshare, the statues' hands (Cicero's Agrigentum Hercules
+  mentioned without a pointer, since Verr. II.4.94 is not in the bank).
+- **I.926-950** honey on the cup; Callimachus; **Tasso, *Gerusalemme liberata* I.3**; repeated at IV.1-25.
+- **I.968-983** the spear at the edge of the universe (Archytas).
+
+### Changed
+- **I.80-101** (v1.0.0, version tag kept) rebuilt through the pipeline: verse layout with block numbers,
+  translations redone against the Latin (the old Italian stained the altar *di sangue ... con il
+  sangue*), a "Where we are" paragraph and a longer note; cross-ref **Ad Quintum fratrem II.9**.
+
+### Tooling - verse
+- **`tools/extract_verse.js`** (new): `[page, from, to]` by verse number. **The Latin Library's printed
+  numbers are not the authority** - Book I prints `156` on v. 155 and `155` on v. 158 - so each line
+  is numbered by finding its folded words in Perseus (preferring the previous verse + 1 when a line
+  repeats), gaps between matched neighbours are filled only when unambiguous, and the printed numbers
+  are reported where they disagree. A range must be one unbroken run on the page, taken in page order,
+  so an editor's transposition (I.13/15/14, I.154/156-158/155) comes through with its real numbers.
+  Every verse is diffed against Perseus; **Book I: 0 differences**. Writes `<key>#n` line numbers.
+- **`tools/fetch_sections_perseus_verse.js`** (new): Perseus `phi0550.phi001.perseus-lat1` ->
+  `tools/.cache/sections/drn.<book>.json` (keeps `<add>` and `<orig>`, flags `<del>` and `<gap>`).
+- **`strip.js`** `verseLines()` / `verseText()`: trailing line numbers and `* * *` lacuna lines off.
+- **`verify.js`** reads `lucretius/` pages through `verseText()`.
+- **`apply_batch.js`**: a verse item (`from` + `blocks`, a block being a verse number or
+  `[n, "words"]` for a mid-line start) keeps one verse per `> ` line and writes `**n.**`; an item
+  `version` overrides the batch version.
+- **`check_sections.js`** `clean()` drops blockquote markers - a translation block ending
+  `crime.\n>\n>` was read as mid-period.
+- **`check_context.js`**: `Tusculanae Disputationes`, `Ad Quintum [Ff]ratrem` and `De Rerum Natura`
+  added to the named-work alternation; the two Cicero pointers had been read as De Rerum Natura III.24 and
+  II.9.
+- **`sources.json`**: `drn-i`..`drn-vi`.
+
+Verification: **342 verbatim, 0 mismatched**; `check_sections.js` **125, 0** (14 cleared, unchanged);
+`check_context.js` **0 on the release**; `lint_register.js` **494, 0**; `lint_ablatives.js` **494, 0**;
+`lint_translations.js` **9, 0**; `lint_markdown.js` **0 leaking**. Cache-bust: `?v=146` -> `?v=147`.
+
 ## [1.13.3] - 2026-09-11
 
 ### Added - the rest of the Bellum Alexandrinum (11)

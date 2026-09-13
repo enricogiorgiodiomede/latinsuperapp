@@ -12,6 +12,43 @@
 
   var VERSIONS = [
     {
+      v: '1.14.0', date: '13/09/2026', time: 'TBD', tz: 'CEST',
+      en: {
+        added: [
+          'Lucretius arrives: ten excerpts from De Rerum Natura, the whole of Book I - the first step of a plan to carry sixty passages across the poem\'s six books, ten from each. The poem is chosen book by book, the way Caesar is.',
+          'The book opens as the poem does, with the hymn to Venus in two parts: the goddess who makes the winds drop and every animal on earth follow her, and then Venus holding Mars, the god of war, in her lap, asked for peace for a Rome at war with itself.',
+          'Then the twelve lines most websites leave out: Lucretius telling Memmius to clear his mind, promising to explain the whole universe, and giving five different Latin names for the atom, because Latin had no word for it. The Latin Library prints them further down the page than they belong, and Splash Latino skips them.',
+          'Then the Greek who looked up - Epicurus, never named, raising his eyes against a Religion leaning down from the sky and marching out beyond the flaming walls of the world - and the girl sacrificed for a fleet, with the line people have quoted for two thousand years: so great were the evils religion could persuade men to.',
+          'And the rest of the book: why Latin is too poor a language for Greek philosophy, and why he writes it anyway; nothing comes from nothing; the ring on your finger that gets thinner every year, and the bronze hands of statues worn away by people touching them as they pass; honey smeared on the rim of a cup of bitter medicine, the image Tasso borrowed for the opening of the Gerusalemme liberata; and a spear thrown from the edge of the universe.'
+        ],
+        changed: [
+          'Poetry now carries numbers as well. The Latin stays one line per verse, and each sentence opens with the number of the verse it begins on, in the Latin and in both translations, so you can find your place in the English or the Italian as easily as in a chapter of Caesar.',
+          'Iphigenia at Aulis, the one passage of Lucretius the app had carried since the beginning, is rebuilt in the same way: numbered, translated again against the Latin, and with a longer note.',
+          'Where the editors have moved a line of Lucretius out of its manuscript position, the excerpt says so, and prints the verse numbers in the order you actually read them.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Arriva Lucrezio: dieci brani dal De Rerum Natura, tutto il primo libro, il primo passo di un piano che prevede sessanta brani nei sei libri del poema, dieci per libro. Il poema si sceglie libro per libro, come Cesare.',
+          'Il libro si apre come il poema, con l\'inno a Venere in due parti: la dea che fa cadere i venti e si fa seguire da ogni animale della terra, e poi Venere che tiene in grembo Marte, il dio della guerra, e a cui si chiede la pace per una Roma in guerra con se stessa.',
+          'Poi i dodici versi che quasi tutti i siti tralasciano: Lucrezio che dice a Memmio di sgombrare la mente, promette di spiegare l\'intero universo, e dà cinque nomi latini diversi per l\'atomo, perché il latino non aveva una parola per dirlo. The Latin Library li stampa più in basso nella pagina di dove dovrebbero stare, e Splash Latino li salta.',
+          'Poi il Greco che alzò lo sguardo - Epicuro, mai nominato, che leva gli occhi contro una Religione affacciata dal cielo e marcia oltre le mura fiammeggianti del mondo - e la fanciulla sacrificata per una flotta, con il verso che si cita da duemila anni: a tanto male poté indurre la religione.',
+          'E il resto del libro: perché il latino è una lingua troppo povera per la filosofia greca, e perché Lucrezio la scrive comunque; nulla nasce dal nulla; l\'anello al dito che si assottiglia ogni anno, e le mani di bronzo delle statue consumate da chi le tocca passando; il miele spalmato sull\'orlo di un bicchiere di medicina amara, l\'immagine che Tasso riprese all\'inizio della Gerusalemme liberata; e una lancia scagliata dal confine dell\'universo.'
+        ],
+        changed: [
+          'Anche la poesia ora ha i suoi numeri. Il latino resta un verso per riga, e ogni frase si apre con il numero del verso da cui comincia, nel latino e in entrambe le traduzioni, così si ritrova il punto nell\'italiano o nell\'inglese con la stessa facilità che in un capitolo di Cesare.',
+          'Ifigenia ad Aulide, l\'unico passo di Lucrezio che l\'app portava fin dall\'inizio, è ricostruito allo stesso modo: numerato, tradotto di nuovo sul latino, e con una nota più lunga.',
+          'Dove gli editori hanno spostato un verso di Lucrezio dalla sua posizione nei manoscritti, il brano lo dice, e stampa i numeri dei versi nell\'ordine in cui li si legge davvero.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.13.3', date: '12/09/2026', time: '23:03', tz: 'CEST',
       en: {
         added: [

@@ -1,0 +1,14 @@
+{
+  "_comment": "v1.14.0 - Lucretius, De Rerum Natura Book I. Verse ranges, resolved by extract_verse.js through the printed line numbers.",
+  "drn.1.1": ["lucretius1", 1, 20],
+  "drn.1.21": ["lucretius1", 21, 43],
+  "drn.1.44": ["lucretius1", 44, 49],
+  "drn.1.50": ["lucretius1", 50, 61],
+  "drn.1.62": ["lucretius1", 62, 79],
+  "drn.1.80": ["lucretius1", 80, 101],
+  "drn.1.136": ["lucretius1", 136, 145],
+  "drn.1.146": ["lucretius1", 146, 158],
+  "drn.1.311": ["lucretius1", 311, 321],
+  "drn.1.926": ["lucretius1", 926, 950],
+  "drn.1.968": ["lucretius1", 968, 983]
+}

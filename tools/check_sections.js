@@ -84,8 +84,12 @@ function sections(text) {
 
 // Emphasis and quotation are invisible to both tests: a section that ends
 // `servitute."` ends on a full stop, and one that ends `*stimuli*.` does too.
+// The blockquote markers go too. Verse excerpts (Lucretius, v1.14.0) keep one
+// verse per `> ` line and separate the translation's blocks with a bare `>`
+// line, so a block's body can end `crime.\n>\n>`; left in, that trailing `>`
+// hid the full stop and every such block read as mid-period.
 function clean(s) {
-  return s.replace(/\*/g, '').replace(/[)\]"'”’»]/g, '').trim();
+  return s.replace(/(^|\n)>[ \t]?/g, '$1').replace(/\*/g, '').replace(/[)\]"'”’»]/g, '').trim();
 }
 
 // A terminal mark ends a sentence when a space or the end of the field

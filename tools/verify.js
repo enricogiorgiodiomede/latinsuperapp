@@ -20,7 +20,7 @@
 'use strict';
 const fs = require('fs');
 const path = require('path');
-const { normalise } = require('./strip');
+const { normalise, verseText, VERSE_PAGE } = require('./strip');
 
 const REPO = path.join(__dirname, '..');
 const CACHE = path.join(__dirname, '.cache');
@@ -33,12 +33,24 @@ for (const [work, pages] of Object.entries(cfg)) {
   SRC[work] = pages.map(p => p.split('/').pop() + '.txt');
 }
 
+// Verse pages print line numbers at the end of every fifth line; those are the
+// page's, not the poet's, so they are removed before comparing (strip.js
+// verseText). The fragment's own `**n.**` block markers are removed by
+// normalise(), and its one-verse-per-line layout by the whitespace collapse.
+const verseFiles = new Set();
+for (const [work, pages] of Object.entries(cfg)) {
+  if (work.startsWith('_') || !Array.isArray(pages)) continue;
+  pages.filter(p => VERSE_PAGE.test(p)).forEach(p => verseFiles.add(p.split('/').pop() + '.txt'));
+}
+
 const flat = {};
 for (const files of Object.values(SRC)) {
   for (const f of files) {
     if (flat[f]) continue;
     const p = path.join(CACHE, f);
-    if (fs.existsSync(p)) flat[f] = normalise(fs.readFileSync(p, 'utf8'));
+    if (!fs.existsSync(p)) continue;
+    const text = fs.readFileSync(p, 'utf8');
+    flat[f] = normalise(verseFiles.has(f) ? verseText(text) : text);
   }
 }
 if (!Object.keys(flat).length) {

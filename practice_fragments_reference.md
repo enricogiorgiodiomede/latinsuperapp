@@ -9,6 +9,37 @@ Difficulty is varied on purpose within each text (some passages harder than othe
 
 ---
 
+## Titus Lucretius Carus (`titus-lucretius-carus`) - needsSelection, one work per book [v1.14.0, 2026-09-13]
+
+**THE PLAN (the user, 13/09/2026): 60 excerpts, 10 per book**, counts adjustable where a book has more good
+passages; drafted across releases, **v1.14.0 the big one** (tooling + all of Book I), then **5 per release**
+(II a/b, III a/b, IV a/b, V a/b, VI a/b = v1.14.1-1.14.10, each only when the user asks). The existing
+v1.0.0 I.80-101 counts toward the 60. The user's picks are starred.
+
+- **Book I (DONE, v1.14.0)**: ★1-20 · ★21-43 · ★50-61 · ★62-79 · 80-101 · 136-145 · ★146-158 · 311-321 · 926-950 · 968-983
+- **Book II**: ★1-13 · 14-33 · 112-124 · 216-224 · 251-262 · 352-366 · 646-660 · 991-1003 · 1023-1039 (Cicero *De Divinatione* note links here) · 1164-1174
+- **Book III**: ★1-13 · ★14-30 (*E tenebris tantis* split) · 59-73 · 152-160 · ★830-842 · 894-911 · ★931-951 · ★952-977 (Nature's prosopopoeia split) · 995-1002 · 1053-1070
+- **Book IV**: 353-363 · 436-446 · 469-477 · 823-842 · 962-986 · ★1058-1076 · ★1121-1140 (love as a pathology; **cross-ref Tusculanae Disputationes IV.68-69 both ways**) · 1149-1170 · 1192-1208 · 1278-1287
+- **Book V**: 1-12 · 222-234 · 837-854 · 925-944 · 1011-1027 · 1120-1135 · ★1161-1182 · ★1183-1203 (how religion began; Cicero note links to 1198-1203) · 1218-1240 · 1448-1457
+- **Book VI**: 9-23 · 387-399 · 647-652 · 738-748 · 906-916 (the magnet; Cicero note links here) · ★1138-1159 · ★1172-1196 · ★1230-1251 · ★1252-1271 · ★1272-1286 (the plague, trimmed and split). If the plague shrinks to four, add VI.68-79.
+
+**SOURCE.** Latin from the Latin Library (`lucretius/lucretius1`..`6`); numbering and the typo diff from
+**Perseus `phi0550.phi001.perseus-lat1`** (`tools/fetch_sections_perseus_verse.js` -> `drn.<book>.json`).
+**The Latin Library does NOT omit I.50-61 (*Quod superest*): it prints them after v. 135 with their own
+numbers.** Splash Latino does omit them. **Do not trust the page's printed numbers** (I.155/156 misprinted)
+- `tools/extract_verse.js` numbers lines by matching Perseus. Book VI's cache has 2 hits for the
+`xpos` grep - check them before the Book VI releases.
+
+**VERSE CONVENTIONS (the user's ruling, v1.14.0: "numbered sentence blocks").** Latin one verse per `> `
+line; each sentence block opens with bold `**n.**`, n = the verse the sentence begins on (a mid-line start
+is written `[n, "words"]` in the batch's `blocks`). Blocks follow full stops / question marks; a block may
+end on a semicolon when the thought turns (I.62, I.136, I.311). Translations are prose, blocks separated by
+a bare `>` line, carrying the same numbers - `check_sections.js` holds them to the Latin. Citation
+`(De Rerum Natura I.62-79)`. **A transposed verse keeps its number and the excerpt prints the numbers in
+page order**; say so in a "On the text" paragraph (I.1-20, I.146-158). **Write Cicero pointers without
+italics between title and numeral** (`Tusculanae Disputationes III.24`), or check_context misreads them.
+Every note still opens with **Where we are**: the place in the argument, and who Memmius / Epicurus are.
+
 ## Plautus (needsSelection) - comedies
 
 Source for all: The Latin Library, https://www.thelatinlibrary.com/plautus/<play>.shtml

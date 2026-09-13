@@ -86,9 +86,40 @@ function latinOf(item) {
     if (t.indexOf(sourceReading) < 0) throw new Error('emend anchor missing for ' + item.citation + ': ' + sourceReading);
     t = t.split(sourceReading).join(appReading);
   }
+  if (item.blocks) return verseLayout(item, t);
   t = (item.prefix || '') + t;
   t = t.replace(/ (\[\d+\]) /g, '\n>\n> $1 ');   // digits only: [esse], [id], [...] left alone
   return '> ' + t;
+}
+
+// VERSE (v1.14.0, Lucretius). The passage comes from extract_verse.js as one
+// verse per line, starting at verse `item.from`. It stays one verse per line,
+// and each sentence block opens with the bold number of the verse it begins on:
+// `blocks` lists them, either as a number (the block starts at the beginning of
+// that verse) or as [number, "words"] when it starts inside the verse, before
+// the quoted words, which must occur exactly once in that line. The
+// translations carry the same numbers, written in by hand, so check_sections.js
+// can hold them to the Latin's boundaries.
+function verseLayout(item, t) {
+  if (typeof item.from !== 'number') throw new Error('verse item without `from`: ' + item.citation);
+  const lines = t.split('\n');
+  // extract_verse.js writes the verse number of every line as `<key>#n`, which
+  // matters where an editor has transposed verses and the numbers do not ascend.
+  const nums = passages[item.key + '#n'] || lines.map((l, k) => item.from + k);
+  if (nums.length !== lines.length) throw new Error(item.citation + ': line numbers do not match the passage');
+  for (const b of item.blocks) {
+    const [n, words] = Array.isArray(b) ? b : [b, null];
+    const k = nums.indexOf(n);
+    if (k < 0) throw new Error('block ' + n + ' is outside ' + item.citation);
+    if (!words) { lines[k] = '**' + n + '.** ' + lines[k]; continue; }
+    const at = lines[k].indexOf(words);
+    if (at < 0 || lines[k].indexOf(words, at + 1) >= 0) {
+      throw new Error('block ' + n + ' of ' + item.citation + ': "' + words + '" must occur exactly once in: ' + lines[k]);
+    }
+    lines[k] = lines[k].slice(0, at) + '**' + n + '.** ' + lines[k].slice(at);
+  }
+  if (lines[0].indexOf('**' + item.from + '.**') !== 0) throw new Error(item.citation + ': the first block must open the excerpt');
+  return '> ' + lines.join('\n> ');
 }
 
 for (const item of incoming) {
@@ -100,7 +131,11 @@ for (const item of incoming) {
     description: item.description, latin: latinOf(item),
     italian: item.italian, english: item.english, analysis: item.analysis,
     titleIt: item.titleIt, descriptionIt: item.descriptionIt, analysisIt: item.analysisIt,
-    emend: item.emend, version: VERSION
+    // `version` on the item keeps an existing excerpt's version when it is
+    // rebuilt through the pipeline (v1.14.0 re-laid Lucretius I.80-101, first
+    // added in 1.0.0): the tag says when an excerpt arrived, not when it was
+    // last touched.
+    emend: item.emend, version: item.version || VERSION
   });
 }
 

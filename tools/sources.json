@@ -61,6 +61,15 @@
   "bellum-gallicum-viii": ["caesar/gallic/gall8"],
   "bellum-alexandrinum": ["caesar/incerti/alex"],
 
+  "_lucretius": "LUCRETIUS, added v1.14.0. VERSE: the pages print a line number every five verses at the END of the line (`fruatur               45`) and lacunae as `* * *` lines; strip.js verseText() removes both, and extract_verse.js selects passages by verse number. The Latin Library TRANSPOSES Book I vv. 50-61 to after v. 135 (keeping their numbers), so a range must be resolved through the printed numbers, never by position. Line numbers are cross-checked against Perseus (tools/fetch_sections_perseus_verse.js).",
+
+  "drn-i": ["lucretius/lucretius1"],
+  "drn-ii": ["lucretius/lucretius2"],
+  "drn-iii": ["lucretius/lucretius3"],
+  "drn-iv": ["lucretius/lucretius4"],
+  "drn-v": ["lucretius/lucretius5"],
+  "drn-vi": ["lucretius/lucretius6"],
+
   "_notLive": {
     "_comment": "Nothing is waiting here right now: the four letter collections that used to sit in this block went live in v1.8.0 and are listed above. Keep the block for the next sourced-but-unused page, and keep the notes below. NOTE: cicero/adbrutum is only a table of contents - the letters themselves are on adbrutum1 and adbrutum2. CORRECTION (v1.7.5): this file used to claim the Verrines actio prima is not on TLL. It is - the slug is cicero/ver1, not verres.1, and the Divinatio is cicero/caecilium. All seven parts are live and are now listed above; the authoritative index is cicero/ver.shtml. Beware: ver1 prints 18 CHAPTER numbers as [1]-[18], not the 56 sections modern editions use, so cite that one by chapter."
   }
