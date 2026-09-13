@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.14.0', date: '13/09/2026', time: 'TBD', tz: 'CEST',
+      v: '1.14.0', date: '13/09/2026', time: '16:43', tz: 'CEST',
       en: {
         added: [
           'Lucretius arrives: ten excerpts from De Rerum Natura, the whole of Book I - the first step of a plan to carry sixty passages across the poem\'s six books, ten from each. The poem is chosen book by book, the way Caesar is.',
