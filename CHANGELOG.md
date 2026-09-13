@@ -176,6 +176,60 @@ Verification: `verify.js` **332, 0**; `lint_translations.js` **453, 3** (pre-exi
 `lint_markdown.js` **2553, 0 leaking**. Served locally: 15 tags on the home page, 14 on the others,
 and the image returns `200 image/jpeg`. Cache-bust: `?v=143` -> `?v=144` -> `?v=145`.
 
+### Follow-up, 2026-09-13: the proofread, a grammar pass, and the notes
+
+No new excerpts, no version bump. Bank stays at **485**; version tags untouched.
+
+#### Fixed - translations (the user's fix, then a full pass over all eleven)
+- **52 IT**: *lo colpisce due volte di pugnale* -> **due volte con il pugnale** (the user's fix).
+- **36**: section 2's *He* / *Egli* could be read as Pharnaces, the subject of section 1 - now
+  **Domitius** / **Domizio**. IT *fece aggirare* (to outflank) -> **fece circolare**.
+- **40**: tense of the opening made consistent with the historic present; *pinned down* -> **cut
+  down** for *confixa* (IT *inchiodata* -> *trafitta dai colpi*); the knights' apposition set off.
+- **43**: *on his own daring* -> **through**; IT *con tempeste durissime* -> **in mezzo a**.
+- **46**: a relative clause detached from *ships* reattached; IT *con i rostri con tale violenza*
+  -> **rostro contro rostro, con tale violenza**.
+- **56**: *divided whether* -> **divided over whether**; section 4 recast so the knights are the
+  object of a normal clause; IT *gli strappava la gioia* (which means robbed him of joy - the
+  opposite of *laetitiam exprimebat*) -> **gli strappava un moto di gioia**, and the pleonastic
+  *e questi... li convocava* recast.
+- **64**: *turn the ship against the force of the current* -> **because of** (*propter vim
+  fluminis*); IT *per* -> *a causa della*.
+- **74**: *the crowding of his soldiers* could be read as Caesar's -> **the king's soldiers**; the
+  slaves-mistaken-for-soldiers clause reordered in both languages.
+- **77**: a double *because* resolved.
+- Checked and **kept**: 52's *the Fifth legion would stay in Spain* - chapter 50 has *Quintam
+  legionem novam conscribit*, so it is the new legion; now glossed.
+
+#### Clarified - the two men named Quintus Cassius (52)
+**Not an inconsistency, but the note made it look like one.** The governor is Q. Cassius
+Longinus; the legate Flaccus wounds in section 3 is another Q. Cassius; the Latin calls the
+governor *Longinus* at the end of the chapter to keep them apart. The note now says so outright,
+section by section.
+
+#### Added - notes for all eleven, following the user's readings
+36 the trap fails because Domitius will not move blindly (with chapter 37's ironic reason), and the
+two manners of the chapter. 40 the blame on the Pontic and Galatian legions, the brisk
+*incommodum*, and the strategic cost (chapter 41). 43 the winter march as a blunder - set against
+Caesar's own short, supplied winter march at *De Bello Gallico* VIII.4 - courage turning into
+overconfidence (*De Bello Gallico* VII.52), and fortune turning twice in one sentence. 46 a victory on
+one throw, with **Machiavelli, *The Prince* chapter 25** - noted as cutting both ways, since the same
+chapter prefers the impetuous to the cautious. 48 why buying the army could not work, and **the
+hypothesis that the Spanish chapters rest on an officer's report revised by Hirtius**, stated as a
+hypothesis. 52 the policy arriving at its result. 56 greed written to be despised, and the *lustratio*
+glossed. 64 death by decision rather than luck, set beside **Sallust's own governorship of Africa**
+(Cassius Dio). 74 the section-3 period and the view from the rampart. 75 the gods as a tactful account
+of a late order. 77 the criticism inside Caesar's relief.
+
+#### Recorded - a move condition
+**77's closing paragraph on Hirtius's death belongs to chapter 78 if chapter 78 is ever added** - the
+user's instruction, now in the reference sheet.
+
+Verification: **332 verbatim, 0 mismatched**; `check_sections.js` **115, 0**; `check_context.js` **0 on
+the release, 0 bare-numeral flags in the bank**; `lint_register.js` **485, 0**; `lint_ablatives.js`
+**485, 0**; `lint_translations.js` **453, 3** (pre-existing); `lint_markdown.js` **0 leaking**.
+Cache-bust: `?v=145` -> `?v=146`.
+
 ## [1.13.2] - 2026-09-10
 
 ### Added - the Bellum Alexandrinum begins (12)
