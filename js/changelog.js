@@ -24,7 +24,8 @@
         changed: [
           'Poetry now carries numbers as well. The Latin stays one line per verse, and each sentence opens with the number of the verse it begins on, in the Latin and in both translations, so you can find your place in the English or the Italian as easily as in a chapter of Caesar.',
           'Iphigenia at Aulis, the one passage of Lucretius the app had carried since the beginning, is rebuilt in the same way: numbered, translated again against the Latin, and with a longer note.',
-          'Where the editors have moved a line of Lucretius out of its manuscript position, the excerpt says so, and prints the verse numbers in the order you actually read them.'
+          'Where the editors have moved a line of Lucretius out of its manuscript position, the excerpt says so, and prints the verse numbers in the order you actually read them.',
+          'Lucretius is cited as the poetry he is: book and verses, as in De Rerum Natura I, vv. 1-20, and the notes now speak of verses wherever they had spoken of sections - including the notes on Cicero that point to the poem.'
         ],
         deleted: [
           'Nothing was deleted.'
@@ -41,7 +42,8 @@
         changed: [
           'Anche la poesia ora ha i suoi numeri. Il latino resta un verso per riga, e ogni frase si apre con il numero del verso da cui comincia, nel latino e in entrambe le traduzioni, così si ritrova il punto nell\'italiano o nell\'inglese con la stessa facilità che in un capitolo di Cesare.',
           'Ifigenia ad Aulide, l\'unico passo di Lucrezio che l\'app portava fin dall\'inizio, è ricostruito allo stesso modo: numerato, tradotto di nuovo sul latino, e con una nota più lunga.',
-          'Dove gli editori hanno spostato un verso di Lucrezio dalla sua posizione nei manoscritti, il brano lo dice, e stampa i numeri dei versi nell\'ordine in cui li si legge davvero.'
+          'Dove gli editori hanno spostato un verso di Lucrezio dalla sua posizione nei manoscritti, il brano lo dice, e stampa i numeri dei versi nell\'ordine in cui li si legge davvero.',
+          'Lucrezio è citato come la poesia che è: libro e versi, come in De Rerum Natura I, vv. 1-20, e le note ora parlano di versi dovunque parlavano di sezioni, comprese le note su Cicerone che rimandano al poema.'
         ],
         deleted: [
           'Non è stato eliminato nulla.'

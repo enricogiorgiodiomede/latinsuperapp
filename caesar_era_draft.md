@@ -834,7 +834,7 @@ The six books are organized as a sequence of interlocking arguments, each buildi
 
 Epicurus, the philosophical father of everything Lucretius is doing, distrusted poetry. Poetry deceives, distorts, and appeals to the emotions rather than to reason. For a system dedicated to clear-eyed understanding of reality, verse seemed counterproductive.
 
-Lucretius disagreed. His argument, stated with characteristic candor at DRN I.926-950, is that Epicurean philosophy is genuinely hard to swallow -- dry, abstract, and counterintuitive. So he coats it in verse the way doctors coat bitter medicine in honey, to make it palatable:
+Lucretius disagreed. His argument, stated with characteristic candor at DRN I, vv. 926-950, is that Epicurean philosophy is genuinely hard to swallow -- dry, abstract, and counterintuitive. So he coats it in verse the way doctors coat bitter medicine in honey, to make it palatable:
 
 > *sed vel uti pueris absinthia taetra medentes*
 > *cum dare conantur, prius oras pocula circum*
@@ -899,7 +899,7 @@ This is not pessimism. This is the most committed form of optimism: the kind tha
 
 ## Latin Excerpt
 
-### De Rerum Natura I.80-101 -- The Sacrifice of Iphigenia
+### De Rerum Natura I, vv. 80-101 -- The Sacrifice of Iphigenia
 
 **Source:** Lucretius, *De Rerum Natura*, Book I, lines 80-101, from *The Latin Library* (thelatinlibrary.com/lucretius/lucretius1.shtml)
 

@@ -34,8 +34,11 @@ numbers.** Splash Latino does omit them. **Do not trust the page's printed numbe
 line; each sentence block opens with bold `**n.**`, n = the verse the sentence begins on (a mid-line start
 is written `[n, "words"]` in the batch's `blocks`). Blocks follow full stops / question marks; a block may
 end on a semicolon when the thought turns (I.62, I.136, I.311). Translations are prose, blocks separated by
-a bare `>` line, carrying the same numbers - `check_sections.js` holds them to the Latin. Citation
-`(De Rerum Natura I.62-79)`. **A transposed verse keeps its number and the excerpt prints the numbers in
+a bare `>` line, carrying the same numbers - `check_sections.js` holds them to the Latin. **THESE ARE VERSES, NOT SECTIONS (the user,
+v1.14.0 follow-up).** Citation **`(De Rerum Natura I, vv. 62-79)`** - book, comma, `vv.` - like the comedies'
+`(Amphitruo, Prologue, vv. 50-63)`; a cross-reference is `De Rerum Natura IV, vv. 1058-1076`. **In the notes a
+block is never a "section" / "sezione": name the verses it covers** (`vv. 10-13`, `i vv. 10-13`), and where a
+block holds a transposed verse give the real range (block 15 of I, vv. 1-20 is `vv. 14-16`). **A transposed verse keeps its number and the excerpt prints the numbers in
 page order**; say so in a "On the text" paragraph (I.1-20, I.146-158). **Write Cicero pointers without
 italics between title and numeral** (`Tusculanae Disputationes III.24`), or check_context misreads them.
 Every note still opens with **Where we are**: the place in the argument, and who Memmius / Epicurus are.

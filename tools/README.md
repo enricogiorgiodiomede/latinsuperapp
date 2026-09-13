@@ -146,7 +146,7 @@ with blocks separated by a bare `>` line:
 
 ```js
 { work: 'drn-i', key: 'drn.1.80', from: 80, blocks: [80, [82, 'quod contra'], 84, 87, 93, 101],
-  citation: '(De Rerum Natura I.80-101)', english: '> **80.** ...\n>\n> **82.** ...', ... }
+  citation: '(De Rerum Natura I, vv. 80-101)',   // POETRY: book + verses, never book.section english: '> **80.** ...\n>\n> **82.** ...', ... }
 ```
 
 Every fragment needs both languages: `titleIt`, `descriptionIt` and `analysisIt` are required, with

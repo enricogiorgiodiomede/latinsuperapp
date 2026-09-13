@@ -120,6 +120,16 @@ function ownedChapters() {
   for (const slug of Object.keys(AUTHORS)) {
     for (const work of AUTHORS[slug].works) {
       for (const f of work.fragments || []) {
+        // Poetry is cited by book and VERSES - `(De Rerum Natura I, vv. 1-20)` -
+        // and a verse is owned as `De Rerum Natura I.<verse>` so the verse
+        // cross-reference pass below can look it up the same way.
+        const v = f.citation.match(/^\(([^,)]*?)\s+([IVXLCDM]+), vv?\. (\d+)(?:-(\d+))?\)$/);
+        if (v) {
+          const vf = parseInt(v[3], 10), vt = v[4] ? parseInt(v[4], 10) : vf;
+          WORKS.add(v[1]);
+          for (let n = vf; n <= vt; n++) own.add(v[1] + ' ' + v[2] + '.' + n);
+          continue;
+        }
         const m = f.citation.match(/^\(([^)]*?)\s+([IVXLCDM]+)\.(\d+)(?:-(\d+))?/);
         if (!m) continue;
         const from = parseInt(m[3], 10), to = m[4] ? parseInt(m[4], 10) : from;
@@ -236,6 +246,19 @@ for (const slug of Object.keys(AUTHORS)) {
         // no work named still resolves to the fragment's own work, which is in
         // the bank by definition, so those are all still caught.
         if (!WORKS.has(w)) continue;
+        seen.add(key);
+        const ck = f.citation + ' | ref | ' + key;
+        if (CLEARED[ck]) { cleared++; continue; }
+        bad.push('  points at ' + key + ', which is not an excerpt in the bank');
+        sigs.push(ck);
+      }
+
+      // Verse cross-references: `De Rerum Natura IV, vv. 1058-1076`. Only the
+      // first verse is looked up; a range that starts inside an excerpt counts.
+      const vre = /(De Rerum Natura)\*?\s+([IVXLCDM]{1,5}), vv?\. (\d+)/g;
+      while ((m = vre.exec(prose))) {
+        const key = m[1] + ' ' + m[2] + '.' + m[3];
+        if (OWN.has(key) || seen.has(key)) continue;
         seen.add(key);
         const ck = f.citation + ' | ref | ' + key;
         if (CLEARED[ck]) { cleared++; continue; }

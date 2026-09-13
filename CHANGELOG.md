@@ -167,6 +167,23 @@ Verification: **342 verbatim, 0 mismatched**; `check_sections.js` **125, 0** (14
 `check_context.js` **0 on the release**; `lint_register.js` **494, 0**; `lint_ablatives.js` **494, 0**;
 `lint_translations.js` **9, 0**; `lint_markdown.js` **0 leaking**. Cache-bust: `?v=146` -> `?v=147`.
 
+### Follow-up, 2026-09-13: verses, not sections
+
+The user: **these are verses, this is poetry**. No new excerpts, no version bump.
+
+#### Fixed
+- **All ten citations** (De Rerum Natura I.1-20) -> **(De Rerum Natura I, vv. 1-20)**, the comedies' shape.
+- **Every "section N" / "sezione N" in the ten notes** replaced by the verses the block covers - I, vv. 1-20:
+  vv. 1-9 / 10-13 / 14-16 / 17-20 (block 15 holds the transposed v. 14); I, vv. 146-158: vv. 151-154 / 155-158;
+  I, vv. 968-983: vv. 968-973 / 974 / 975-976 / 977-979 / 980-981; and so on. The bold block numbers in the
+  texts stay: they are verse numbers.
+- **Cross-references in the Cicero notes**: De Rerum Natura IV.1058-1287, II.1023-1039, V.1198-1203 ->
+  IV, vv. 1058-1287 etc. The draft (caesar_era_draft.md), the reference sheet and tools/README.md follow.
+- **check_context.js** reads the verse citation form (Work BOOK, vv. a-b) and verse cross-references to
+  De Rerum Natura, so pass 1 still sees them.
+
+Cache-bust: `?v=147` -> `?v=148`.
+
 ## [1.13.3] - 2026-09-11
 
 ### Added - the rest of the Bellum Alexandrinum (11)
