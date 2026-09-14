@@ -879,7 +879,7 @@ The result of all this is a text that is difficult on almost every axis simultan
 
 ---
 
-## The Lucretian Myth: On Pessimism
+### The Lucretian Myth: On Pessimism
 
 Before the excerpt, a necessary detour.
 

@@ -184,6 +184,43 @@ The user: **these are verses, this is poetry**. No new excerpts, no version bump
 
 Cache-bust: `?v=147` -> `?v=148`.
 
+### Follow-up, 2026-09-14: verse markers, translation ranges, religio, and the notes
+
+The user's proofread of Book I. No new excerpts, no version bump.
+
+#### Fixed
+- **Two Latin block markers were on the wrong verse** (the user, against a printed edition): I, vv. 1-20 had
+  **15.** on *inde ferae pecudes*, the 14th verse as read; I, vv. 146-158 had **156.** on *quas ob res*, the
+  155th. v1.14.0 had numbered those lines with the manuscript numbers Perseus keeps for a transposed verse.
+  **The app now numbers verses in reading order**, as school editions do: now **14.** and **155.** Both
+  'On the text' paragraphs rewritten to say so. `apply_batch.js` no longer uses `<key>#n`.
+
+#### Changed
+- **Translation blocks show the verses they cover**: `**1-9.**`, `**10-13.**`, `**14-16.**`; a one-verse block stays
+  `**974.**`. All ten excerpts, both languages. The Latin keeps the start verse only.
+- **religio = superstition**: the translations keep *religion* / *religione*; the notes on vv. 62-79, 80-101,
+  146-158 and 926-950 now say how to read it.
+- **Notes for all ten, following the user's readings**: Venus as the force joining atoms and *voluptas* =
+  *hedone*, the Epicurean goal (*aponia*, *ataraxia*); *aeternum leporem* and the honey on the cup; Mars as
+  Strife, the plague ending as the mirror of the hymn; Poggio Bracciolini (1417) and Botticelli's *Venus and
+  Mars*; *lathe biosas* against *communi desse saluti*; *patrii sermonis egestas* and metrical syncope
+  (Virgil's *repostum*); the war on religio, cross-referenced to Iphigenia and to the second eulogy (III);
+  the pessimism paragraph quoted in the Iphigenia note; Livius Andronicus as the parallel pioneer and the
+  sleepless nights as a possible biographical detail; ignorance and fear as the origin of religio (Book V);
+  Leucippus, Democritus and Dalton; the irony of the honey; the endless chase of the spear, and the lacunae
+  at the end of Book I (vv. 1068-1073 mutilated, vv. 1094-1101 lost - checked against Perseus).
+- **The English Lucretius author page shows 'The Lucretian Myth: On Pessimism'.** It was a `##` section, and
+  `classifySection()` in js/data.js drops any heading it does not know; now a `###` inside Writing Style, as it
+  already was in the Italian file. js/content.js rebuilt.
+
+#### Tooling
+- **`tools/check_verses.js`** (new): every verse excerpt - line count, every Latin marker on its verse in reading
+  order, every line identical to the Latin Library line (spacing included, contiguous on the page), and the
+  translation ranges covering the excerpt exactly. Its first run caught exactly the two faults the user found.
+- **`check_sections.js`** accepts `**a-b.**` in a translation and checks the range ends before the next Latin block.
+
+Cache-bust: `?v=148` -> `?v=149`.
+
 ## [1.13.3] - 2026-09-11
 
 ### Added - the rest of the Bellum Alexandrinum (11)

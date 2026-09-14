@@ -1,4 +1,7 @@
 /*
+ * SUPERSEDED for text by js/fragments.js: the v1.14.0 follow-ups (13-14/09/2026) changed the
+ * citations, the notes, two block numbers and the translation markers (now verse ranges).
+ *
  * v1.14.0 - Lucretius, De Rerum Natura Book I: ten excerpts (nine new, and
  * I.80-101 rebuilt from v1.0.0). Latin from batch/passages1140.json, extracted
  * by verse number with tools/extract_verse.js and checked line by line against
@@ -13,7 +16,7 @@
 module.exports = [
 
 {
-  work: "drn-i", key: "drn.1.1", from: 1, blocks: [1, 10, 15, 17],
+  work: "drn-i", key: "drn.1.1", from: 1, blocks: [1, 10, 14, 17],
   citation: "(De Rerum Natura I, vv. 1-20)",
   title: "Mother of Rome, pleasure of gods and men",
   titleIt: "Madre di Roma, piacere degli uomini e degli dèi",
@@ -92,7 +95,7 @@ module.exports = [
 },
 
 {
-  work: "drn-i", key: "drn.1.146", from: 146, blocks: [146, 149, 151, 156],
+  work: "drn-i", key: "drn.1.146", from: 146, blocks: [146, 149, 151, 155],
   citation: "(De Rerum Natura I, vv. 146-158)",
   title: "Nothing comes from nothing",
   titleIt: "Nulla nasce dal nulla",

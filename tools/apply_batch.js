@@ -103,9 +103,12 @@ function latinOf(item) {
 function verseLayout(item, t) {
   if (typeof item.from !== 'number') throw new Error('verse item without `from`: ' + item.citation);
   const lines = t.split('\n');
-  // extract_verse.js writes the verse number of every line as `<key>#n`, which
-  // matters where an editor has transposed verses and the numbers do not ascend.
-  const nums = passages[item.key + '#n'] || lines.map((l, k) => item.from + k);
+  // Verses are numbered IN READING ORDER: line k of the passage is verse
+  // from + k, the way printed school editions number a transposed line. The
+  // manuscript numbers extract_verse.js reports as `<key>#n` (Perseus keeps them,
+  // so I.1-20 reads 13, 15, 14, 16) are NOT used: v1.14.0 did use them and put
+  // `**15.**` on the 14th verse, which the user caught against their book.
+  const nums = lines.map((l, k) => item.from + k);
   if (nums.length !== lines.length) throw new Error(item.citation + ': line numbers do not match the passage');
   for (const b of item.blocks) {
     const [n, words] = Array.isArray(b) ? b : [b, null];

@@ -38,7 +38,14 @@ a bare `>` line, carrying the same numbers - `check_sections.js` holds them to t
 v1.14.0 follow-up).** Citation **`(De Rerum Natura I, vv. 62-79)`** - book, comma, `vv.` - like the comedies'
 `(Amphitruo, Prologue, vv. 50-63)`; a cross-reference is `De Rerum Natura IV, vv. 1058-1076`. **In the notes a
 block is never a "section" / "sezione": name the verses it covers** (`vv. 10-13`, `i vv. 10-13`), and where a
-block holds a transposed verse give the real range (block 15 of I, vv. 1-20 is `vv. 14-16`). **A transposed verse keeps its number and the excerpt prints the numbers in
+block holds a transposed verse give the real range. **VERSES ARE NUMBERED IN READING ORDER (the user, 14/09,
+against a printed edition)**: line k of `vv. a-b` is verse a + k, even where Perseus and the Latin Library keep a
+transposed line's manuscript number (I.14/15, I.155/158) - so `**14.** inde ferae`, `**155.** quas ob res`. **The
+translations mark each block with its RANGE** - `**1-9.**`, `**14-16.**`, one-verse `**974.**` - the Latin keeps
+the start verse. `tools/check_verses.js` enforces markers-on-verses, verbatim lines with spacing, and the ranges.
+**religio is SUPERSTITION**: keep *religion* in the translation if you like, but every note where the word
+matters must say so. The English author page's pessimism section is a `###` inside Writing Style (a `##`
+heading data.js does not know is silently dropped - Catullus's two neoteric `##` sections are dropped too). **A transposed verse keeps its number and the excerpt prints the numbers in
 page order**; say so in a "On the text" paragraph (I.1-20, I.146-158). **Write Cicero pointers without
 italics between title and numeral** (`Tusculanae Disputationes III.24`), or check_context misreads them.
 Every note still opens with **Where we are**: the place in the argument, and who Memmius / Epicurus are.

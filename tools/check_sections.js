@@ -68,18 +68,28 @@ const only = argv.filter(function (a) { return a.charAt(0) !== '-'; })[0] || nul
 
 // Split a field on its subsection markers. Anything before the first marker
 // is the chapter heading (`> [73] `) and is not part of any section.
+// A translation of POETRY marks each block with the verses it covers, `**14-16.**`
+// (the user's instruction, v1.14.0 follow-up), where the Latin marks only the
+// verse the block starts on. `end` is kept so the range can be checked.
 function sections(text) {
   if (!text) return null;
-  const re = /\*\*(\d+)\.\*\*/g;
+  const re = /\*\*(\d+)(?:-(\d+))?\.\*\*/g;
   const out = [];
-  let m, n = null, from = 0;
+  let m, n = null, end = null, from = 0;
   while ((m = re.exec(text))) {
-    if (n !== null) out.push({ n: n, body: text.slice(from, m.index) });
+    if (n !== null) out.push({ n: n, end: end, body: text.slice(from, m.index) });
     n = m[1];
+    end = m[2] || null;
     from = re.lastIndex;
   }
-  if (n !== null) out.push({ n: n, body: text.slice(from) });
+  if (n !== null) out.push({ n: n, end: end, body: text.slice(from) });
   return out.length ? out : null;
+}
+
+// The last verse of a verse excerpt, from `(De Rerum Natura I, vv. 1-20)`.
+function lastVerse(citation) {
+  const m = citation.match(/, vv\. \d+-(\d+)\)$/);
+  return m ? parseInt(m[1], 10) : null;
 }
 
 // Emphasis and quotation are invisible to both tests: a section that ends
@@ -200,6 +210,19 @@ for (const slug of Object.keys(AUTHORS)) {
           if (tr[i].n !== la[i].n) {
             bad.push('  ' + lang + ' section ' + (i + 1) + ': numbered ' + tr[i].n + ', Latin has ' + la[i].n);
             continue;
+          }
+          // Verse excerpts: a translation block must show the range of verses it
+          // covers, ending one verse before the next Latin block (or on the last
+          // verse of the excerpt). A one-verse block is written `**974.**`.
+          const last = lastVerse(f.citation);
+          if (last !== null) {
+            const want = i + 1 < la.length ? parseInt(la[i + 1].n, 10) - 1 : last;
+            const got = tr[i].end ? parseInt(tr[i].end, 10) : parseInt(tr[i].n, 10);
+            const single = want === parseInt(la[i].n, 10);
+            if (got !== want || (single && tr[i].end) || (!single && !tr[i].end)) {
+              bad.push('  ' + lang + ' ' + la[i].n + ': marked ' + tr[i].n + (tr[i].end ? '-' + tr[i].end : '')
+                + ', the block covers ' + la[i].n + (single ? '' : '-' + want));
+            }
           }
           const lc = endsClosed(la[i].body), tc = endsClosed(tr[i].body);
           if (lc !== tc) {

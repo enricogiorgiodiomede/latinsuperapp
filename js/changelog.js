@@ -25,7 +25,11 @@
           'Poetry now carries numbers as well. The Latin stays one line per verse, and each sentence opens with the number of the verse it begins on, in the Latin and in both translations, so you can find your place in the English or the Italian as easily as in a chapter of Caesar.',
           'Iphigenia at Aulis, the one passage of Lucretius the app had carried since the beginning, is rebuilt in the same way: numbered, translated again against the Latin, and with a longer note.',
           'Where the editors have moved a line of Lucretius out of its manuscript position, the excerpt says so, and prints the verse numbers in the order you actually read them.',
-          'Lucretius is cited as the poetry he is: book and verses, as in De Rerum Natura I, vv. 1-20, and the notes now speak of verses wherever they had spoken of sections - including the notes on Cicero that point to the poem.'
+          'Lucretius is cited as the poetry he is: book and verses, as in De Rerum Natura I, vv. 1-20, and the notes now speak of verses wherever they had spoken of sections - including the notes on Cicero that point to the poem.',
+          'Two verse numbers in Book I are corrected: the herds of the hymn to Venus start on verse 14 and the two promises of nothing comes from nothing on verse 155, counting the verses in the order you read them, as printed editions do. A new check confirms that every number sits on its verse and that every line matches the Latin text exactly.',
+          'In the translations of Lucretius, each block now shows the verses it covers - 1-9, 10-13, 14-16 - so you can see at a glance how much Latin each paragraph of English or Italian translates.',
+          'The notes now say what religio means for Lucretius - not religion as we use the word, but superstition - and add much more to all ten excerpts: Venus as the force that joins atoms and pleasure as the Epicurean goal; Mars as Strife, and the plague that ends the poem; Botticelli; why an Epicurean asks a politician to act; the new language Latin had to invent; Livius Andronicus; Democritus; the irony of a poem written to be easy; and the verses lost at the end of Book I.',
+          'The Lucretius page gets back its section on the myth of Lucretian pessimism, which had never been shown in English.'
         ],
         deleted: [
           'Nothing was deleted.'
@@ -43,7 +47,11 @@
           'Anche la poesia ora ha i suoi numeri. Il latino resta un verso per riga, e ogni frase si apre con il numero del verso da cui comincia, nel latino e in entrambe le traduzioni, così si ritrova il punto nell\'italiano o nell\'inglese con la stessa facilità che in un capitolo di Cesare.',
           'Ifigenia ad Aulide, l\'unico passo di Lucrezio che l\'app portava fin dall\'inizio, è ricostruito allo stesso modo: numerato, tradotto di nuovo sul latino, e con una nota più lunga.',
           'Dove gli editori hanno spostato un verso di Lucrezio dalla sua posizione nei manoscritti, il brano lo dice, e stampa i numeri dei versi nell\'ordine in cui li si legge davvero.',
-          'Lucrezio è citato come la poesia che è: libro e versi, come in De Rerum Natura I, vv. 1-20, e le note ora parlano di versi dovunque parlavano di sezioni, comprese le note su Cicerone che rimandano al poema.'
+          'Lucrezio è citato come la poesia che è: libro e versi, come in De Rerum Natura I, vv. 1-20, e le note ora parlano di versi dovunque parlavano di sezioni, comprese le note su Cicerone che rimandano al poema.',
+          'Corretti due numeri di verso nel primo libro: le greggi dell\'inno a Venere cominciano al verso 14 e le due promesse del nulla nasce dal nulla al verso 155, contando i versi nell\'ordine in cui si leggono, come fanno le edizioni a stampa. Un nuovo controllo conferma che ogni numero sta sul suo verso e che ogni riga corrisponde esattamente al testo latino.',
+          'Nelle traduzioni di Lucrezio ogni blocco ora indica i versi che copre - 1-9, 10-13, 14-16 - così si vede subito quanto latino traduce ogni paragrafo in italiano o in inglese.',
+          'Le note ora spiegano che cosa significa religio per Lucrezio - non la religione come intendiamo noi la parola, ma la superstizione - e si arricchiscono in tutti e dieci i brani: Venere come la forza che unisce gli atomi e il piacere come fine epicureo; Marte come la Contesa, e la peste che chiude il poema; Botticelli; perché un epicureo chiede a un politico di agire; la lingua nuova che il latino dovette inventare; Livio Andronico; Democrito; l\'ironia di un poema scritto per essere facile; e i versi perduti alla fine del primo libro.',
+          'La pagina di Lucrezio ritrova, in inglese, la sezione sul mito del pessimismo lucreziano, che non era mai stata mostrata.'
         ],
         deleted: [
           'Non è stato eliminato nulla.'
