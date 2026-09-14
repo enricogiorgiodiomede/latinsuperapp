@@ -506,6 +506,16 @@
       if (h2) {
         flush();
         current = classifySection(h2[1].trim());
+        // Catullus has two sections the page has no slot for - "The Neoteroi"
+        // and "The Neoteric Circle: Brief Notes", the sidebar on the other
+        // neoteric poets. Unrecognised headings are dropped, so both were never
+        // shown (found in v1.14.1). They join Works with their own subheading:
+        // the style section cannot take them, since everything after its first
+        // "### Excerpt" is cut below.
+        if (!current && /neoter/i.test(h2[1])) {
+          current = 'works';
+          buffer.push('### ' + h2[1].trim());
+        }
         continue;
       }
       if (current === null) {

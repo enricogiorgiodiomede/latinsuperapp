@@ -17,7 +17,7 @@ passages; drafted across releases, **v1.14.0 the big one** (tooling + all of Boo
 v1.0.0 I.80-101 counts toward the 60. The user's picks are starred.
 
 - **Book I (DONE, v1.14.0)**: ★1-20 · ★21-43 · ★50-61 · ★62-79 · 80-101 · 136-145 · ★146-158 · 311-321 · 926-950 · 968-983
-- **Book II**: ★1-13 · 14-33 · 112-124 · 216-224 · 251-262 · 352-366 · 646-660 · 991-1003 · 1023-1039 (Cicero *De Divinatione* note links here) · 1164-1174
+- **Book II (part 1 DONE, v1.14.1)**: ★1-13 · 14-33 · 112-124 · 216-224 · 251-262 · **part 2 (v1.14.2):** 352-366 · 646-660 · 991-1003 · 1023-1039 (Cicero *De Divinatione* note links here) · 1164-1174
 - **Book III**: ★1-13 · ★14-30 (*E tenebris tantis* split) · 59-73 · 152-160 · ★830-842 · 894-911 · ★931-951 · ★952-977 (Nature's prosopopoeia split) · 995-1002 · 1053-1070
 - **Book IV**: 353-363 · 436-446 · 469-477 · 823-842 · 962-986 · ★1058-1076 · ★1121-1140 (love as a pathology; **cross-ref Tusculanae Disputationes IV.68-69 both ways**) · 1149-1170 · 1192-1208 · 1278-1287
 - **Book V**: 1-12 · 222-234 · 837-854 · 925-944 · 1011-1027 · 1120-1135 · ★1161-1182 · ★1183-1203 (how religion began; Cicero note links to 1198-1203) · 1218-1240 · 1448-1457
@@ -45,7 +45,8 @@ translations mark each block with its RANGE** - `**1-9.**`, `**14-16.**`, one-ve
 the start verse. `tools/check_verses.js` enforces markers-on-verses, verbatim lines with spacing, and the ranges.
 **religio is SUPERSTITION**: keep *religion* in the translation if you like, but every note where the word
 matters must say so. The English author page's pessimism section is a `###` inside Writing Style (a `##`
-heading data.js does not know is silently dropped - Catullus's two neoteric `##` sections are dropped too). **A transposed verse keeps its number and the excerpt prints the numbers in
+heading data.js does not know is silently dropped). **Catullus's two neoteric `##` sections were restored in
+v1.14.1**: js/data.js and build_content_it.js attach any `##` heading matching /neoter/ to Works as a `###`. **A transposed verse keeps its number and the excerpt prints the numbers in
 page order**; say so in a "On the text" paragraph (I.1-20, I.146-158). **Write Cicero pointers without
 italics between title and numeral** (`Tusculanae Disputationes III.24`), or check_context misreads them.
 Every note still opens with **Where we are**: the place in the argument, and who Memmius / Epicurus are.

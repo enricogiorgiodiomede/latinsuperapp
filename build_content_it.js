@@ -116,7 +116,17 @@ function extractAuthor(lines, startIdx, endIdx) {
   var buf = { biography: [], works: [], style: [], legacy: [] };
   for (var k = startIdx + 1; k < endIdx; k++) {
     var line = lines[k];
-    if (isHeading(line)) { section = classify(headingText(line)); continue; }
+    if (isHeading(line)) {
+      section = classify(headingText(line));
+      // Catullus's "I Neoteroi" and "La Cerchia Neotera" match no section and
+      // were never shown (v1.14.1). They join the works with their own
+      // subheading, as js/data.js does for the English page.
+      if (!section && /^##\s/.test(line) && /neoter/i.test(line)) {
+        section = 'works';
+        buf.works.push('### ' + headingText(line));
+      }
+      continue;
+    }
     if (section && buf[section]) buf[section].push(line);
   }
   return {

@@ -108,6 +108,37 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.14.1] - 2026-09-14
+
+**LUCRETIUS BOOK II, PART 1: 5 EXCERPTS.** The second release of the user's 60-excerpt plan. New work `drn-ii`
+("Book II" / "Libro II"). Lucretius **10 -> 15**; bank **494 -> 499**. Built on the rules of the Book I proofread
+from the start: citations in verses, verses in reading order, translation blocks as verse ranges.
+
+### Added
+- **II, vv. 1-13** *Suave, mari magno* (the user's pick): the three pictures, the objection of v. 3, Epicurean
+  pleasure as freedom from pain and fear, the Roman careerists below, Blumenberg's *Shipwreck with Spectator*;
+  vv. 5-6 transposed (Perseus and the Latin Library number them 6, 5).
+- **II, vv. 14-33** *o miseras hominum mentes*: *aponia* and *ataraxia* defined, *latrare*, Alcinous' golden
+  torch-bearers from the *Odyssey*, the picnic and Tityrus' beech; tmesis (*quod cumquest*, *inter dum*).
+- **II, vv. 112-124** the motes in the sunbeam: *conciliis et discidiis*, the caveat about air currents,
+  Robert Brown (1827) and Einstein (1905).
+- **II, vv. 216-224** the swerve: why falling atoms need it, *clinamen* at v. 292, Epicurus against Democritus,
+  Cicero's objection, a careful word on quantum comparisons.
+- **II, vv. 251-262** *fatis avolsa voluntas*: the ten-verse question, *voluntas / voluptas* at the line ends,
+  the editorial *<motus>* explained, cross-ref **De Fato 42-43** (Chrysippus' cylinder).
+
+### Changed
+- **Catullus: two sections restored on both author pages.** "The Neoteroi: Poetry About Everything" and "The
+  Neoteric Circle: Brief Notes" (Calvus, Bibaculus, Cinna, Cornificius - the sidebar CLAUDE.md asks for) were
+  `##` headings that `classifySection()` (js/data.js) and `classify()` (build_content_it.js) did not recognise,
+  so neither page ever showed them. Both parsers now attach a heading about the neoterics to Works, keeping
+  it as a `###` subheading (the style section could not take the circle notes: everything after its first
+  `### Excerpt` is cut). js/content-it.js rebuilt - only Catullus's works field changed; js/content.js unchanged.
+
+Verification: **check_verses 15, 0**; **347 verbatim, 0 mismatched**; `check_sections.js` **130, 0**; `check_context.js` **0 on the
+release**; `lint_register.js` / `lint_ablatives.js` **499, 0**; `lint_translations.js` **5, 0**; `lint_markdown.js` **0 leaking**.
+Cache-bust: `?v=149` -> `?v=150`.
+
 ## [1.14.0] - 2026-09-13
 
 **LUCRETIUS BEGINS: DE RERUM NATURA BOOK I, 10 EXCERPTS (9 new + the v1.0.0 I.80-101 rebuilt).**

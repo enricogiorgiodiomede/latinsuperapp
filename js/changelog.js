@@ -12,6 +12,35 @@
 
   var VERSIONS = [
     {
+      v: '1.14.1', date: '14/09/2026', time: 'TBD', tz: 'CEST',
+      en: {
+        added: [
+          'Book II of Lucretius begins: five more excerpts from De Rerum Natura, the first half of the book, bringing Lucretius to fifteen.',
+          'The opening of the book, one of the most quoted passages in Latin: it is sweet to watch a shipwreck from the shore - not because anyone suffers, but because you see what you are free from - and sweetest of all to look down from the calm heights of philosophy on people exhausting themselves for money and power. Then the pity that follows: all nature asks for is a body without pain and a mind without fear, and golden statues holding lamps at a banquet add nothing to a picnic on the grass by a stream.',
+          'Then the physics of motion: dust swirling in a beam of sunlight as a model of atoms at war forever, the idea behind the way atoms were finally proved real two thousand years later; the swerve, the tiny unpredictable sidestep without which no atom would ever meet another; and free will, a will wrested from fate, argued in a single question ten verses long.'
+        ],
+        changed: [
+          'The Catullus page now shows two sections that had never appeared in the app: the Neoteroi, the young poets who wrote about everything, and brief notes on the other poets of his circle - Calvus, Bibaculus, Cinna and Cornificius - in English and in Italian.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Comincia il secondo libro di Lucrezio: altri cinque brani dal De Rerum Natura, la prima metà del libro, che portano Lucrezio a quindici.',
+          'L\'inizio del libro, uno dei passi più citati della letteratura latina: è dolce guardare un naufragio dalla riva - non perché qualcuno soffra, ma perché si vede da che cosa si è liberi - e dolcissimo guardare dalle altezze serene della filosofia la gente che si consuma per il denaro e il potere. Poi la pietà che segue: la natura chiede solo un corpo senza dolore e una mente senza paura, e le statue d\'oro che reggono lampade a un banchetto non aggiungono nulla a un pranzo sull\'erba accanto a un ruscello.',
+          'Poi la fisica del movimento: la polvere che turbina in un raggio di sole come modello di atomi in guerra per sempre, l\'idea su cui duemila anni dopo si dimostrò che gli atomi esistono; la deviazione, il minimo spostamento imprevedibile senza il quale nessun atomo ne incontrerebbe mai un altro; e il libero arbitrio, una volontà strappata al fato, argomentato in un\'unica domanda lunga dieci versi.'
+        ],
+        changed: [
+          'La pagina di Catullo mostra ora due sezioni che nell\'app non erano mai comparse: i Neoteroi, i giovani poeti che scrivevano di tutto, e brevi note sugli altri poeti della sua cerchia - Calvo, Bibaculo, Cinna e Cornificio - in italiano e in inglese.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.14.0', date: '13/09/2026', time: '16:43', tz: 'CEST',
       en: {
         added: [
