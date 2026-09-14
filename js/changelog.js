@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.14.1', date: '14/09/2026', time: 'TBD', tz: 'CEST',
+      v: '1.14.1', date: '14/09/2026', time: '15:35', tz: 'CEST',
       en: {
         added: [
           'Book II of Lucretius begins: five more excerpts from De Rerum Natura, the first half of the book, bringing Lucretius to fifteen.',
