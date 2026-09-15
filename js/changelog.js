@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.14.2', date: '15/09/2026', time: 'TBD', tz: 'CEST',
+      v: '1.14.2', date: '15/09/2026', time: '17:52', tz: 'CEST',
       en: {
         added: [
           'Book II of Lucretius is finished: five more excerpts close it at ten, and bring Lucretius to twenty.',
