@@ -20,7 +20,8 @@
           'Then the physics of motion: dust swirling in a beam of sunlight as a model of atoms at war forever, the idea behind the way atoms were finally proved real two thousand years later; the swerve, the tiny unpredictable sidestep without which no atom would ever meet another; and free will, a will wrested from fate, argued in a single question ten verses long.'
         ],
         changed: [
-          'The Catullus page now shows two sections that had never appeared in the app: the Neoteroi, the young poets who wrote about everything, and brief notes on the other poets of his circle - Calvus, Bibaculus, Cinna and Cornificius - in English and in Italian.'
+          'The Catullus page now shows two sections that had never appeared in the app: the Neoteroi, the young poets who wrote about everything, and brief notes on the other poets of his circle - Calvus, Bibaculus, Cinna and Cornificius - in English and in Italian.',
+          'And the notes for the five new excerpts of Book II grow, following a reader\'s close study of the passages: the three kinds of desire and why power, riches and glory are to be avoided; what the picnic on the grass shows you need, and the luxuries show you don\'t; why atoms fight like armies; the swerve as a chain reaction and a natural property of atoms rather than a patch, with Lucretius arriving at Galileo\'s law of falling bodies some seventeen centuries early; and free will as the difference between an atom\'s swerve and ours.'
         ],
         deleted: [
           'Nothing was deleted.'
@@ -33,7 +34,8 @@
           'Poi la fisica del movimento: la polvere che turbina in un raggio di sole come modello di atomi in guerra per sempre, l\'idea su cui duemila anni dopo si dimostrò che gli atomi esistono; la deviazione, il minimo spostamento imprevedibile senza il quale nessun atomo ne incontrerebbe mai un altro; e il libero arbitrio, una volontà strappata al fato, argomentato in un\'unica domanda lunga dieci versi.'
         ],
         changed: [
-          'La pagina di Catullo mostra ora due sezioni che nell\'app non erano mai comparse: i Neoteroi, i giovani poeti che scrivevano di tutto, e brevi note sugli altri poeti della sua cerchia - Calvo, Bibaculo, Cinna e Cornificio - in italiano e in inglese.'
+          'La pagina di Catullo mostra ora due sezioni che nell\'app non erano mai comparse: i Neoteroi, i giovani poeti che scrivevano di tutto, e brevi note sugli altri poeti della sua cerchia - Calvo, Bibaculo, Cinna e Cornificio - in italiano e in inglese.',
+          'E le note dei cinque nuovi brani del secondo libro si arricchiscono, seguendo lo studio attento di un lettore: i tre tipi di desiderio e perché potere, ricchezza e gloria vanno evitati; ciò di cui il pranzo sull\'erba mostra che si ha bisogno, e ciò di cui i lussi mostrano che non si ha bisogno; perché gli atomi combattono come eserciti; la deviazione come reazione a catena e proprietà naturale degli atomi invece che una toppa, con Lucrezio che arriva alla legge di Galileo sulla caduta dei gravi circa diciassette secoli prima; e il libero arbitrio come differenza tra la deviazione di un atomo e la nostra.'
         ],
         deleted: [
           'Non è stato eliminato nulla.'

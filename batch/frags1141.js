@@ -1,4 +1,7 @@
 /*
+ * SUPERSEDED for the notes by js/fragments.js: the v1.14.1 follow-up (15/09/2026) added the
+ * user's notes to all five analyses.
+ *
  * v1.14.1 - Lucretius, De Rerum Natura Book II, part 1: five excerpts. Latin from
  * batch/passages1141.json, extracted by verse number with tools/extract_verse.js
  * and checked line by line against Perseus.

@@ -139,6 +139,30 @@ Verification: **check_verses 15, 0**; **347 verbatim, 0 mismatched**; `check_sec
 release**; `lint_register.js` / `lint_ablatives.js` **499, 0**; `lint_translations.js` **5, 0**; `lint_markdown.js` **0 leaking**.
 Cache-bust: `?v=149` -> `?v=150`.
 
+### Follow-up, 2026-09-15: the user's notes on Book II, part 1
+
+No new excerpts, no version bump. Notes added in both languages:
+
+- **II, vv. 1-13**: the three Epicurean kinds of desire - power, riches and glory are neither natural nor
+  necessary; the sage needs simple food, water and friends. The Romans below as an implicit alarm, and why it
+  makes Lucretius's mission urgent (stated as a reading, not as the text's claim).
+- **II, vv. 14-33**: the picnic shows what you need and the luxuries what you don't - not hungry, not thirsty,
+  not alone (*inter se*); cross-ref to vv. 1-13.
+- **II, vv. 112-124**: why the atoms fight like armies - a picture every Roman could see or imagine.
+- **II, vv. 216-224**: the first swerves set off a chain reaction; the swerve read as a spontaneous, natural
+  property of atoms rather than an ad hoc patch; **vv. 225-242** (equal fall in the void, *aeque ponderibus non
+  aequis*) set beside Galileo, and **vv. 243-250** (the swerve must be minimal, since heavy things are seen to
+  fall straight) - the user cited vv. 246-250; the equal-speed argument itself is vv. 225-242, so both ranges
+  are named. On the sources: Epicurus's surviving letters and maxims never mention the swerve; Lucretius is the
+  only full account and *clinamen* is his word; Cicero and a few others attribute it to Epicurus in passing -
+  so the note says Lucretius is our only full source rather than our only source.
+- **II, vv. 251-262**: the target widened to Democritus's necessity (Epicurus: better the myths than the fate
+  of the natural philosophers) as well as Stoic *fatum*; our swerve differs from the atoms' because the will
+  directs it; the physiology right in outline (decision -> nerves -> muscles), with the caveat that experiments
+  suggest the brain prepares a movement before we are aware of deciding.
+
+Verification in the commit. Cache-bust: `?v=150` -> `?v=151`.
+
 ## [1.14.0] - 2026-09-13
 
 **LUCRETIUS BEGINS: DE RERUM NATURA BOOK I, 10 EXCERPTS (9 new + the v1.0.0 I.80-101 rebuilt).**
