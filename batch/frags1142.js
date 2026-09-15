@@ -1,4 +1,8 @@
 /*
+ * SUPERSEDED for the notes by js/fragments.js: the v1.14.2 follow-up (15/09/2026) added the
+ * user's notes. REMOVE CONDITION: the 'What comes next' paragraph of vv. 1023-1039 goes if
+ * vv. 1040-1066 are ever added.
+ *
  * v1.14.2 - Lucretius, De Rerum Natura Book II, part 2: five excerpts, closing Book
  * II at ten. Latin from batch/passages1142.json, extracted by verse number with
  * tools/extract_verse.js and checked line by line against Perseus.

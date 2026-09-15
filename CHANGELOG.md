@@ -148,6 +148,28 @@ Verification: **check_verses 20, 0**; **352 verbatim, 0 mismatched**; `check_sec
 release**; `lint_register.js` / `lint_ablatives.js` **504, 0**; `lint_translations.js` **5, 0**; `lint_markdown.js` **0 leaking**
 (four bold-around-italic spans caught and fixed before commit). Cache-bust: `?v=151` -> `?v=152`.
 
+### Follow-up, 2026-09-15: the user's notes on Book II, part 2
+
+No new excerpts, no version bump. Notes added in both languages:
+
+- **II, vv. 352-366**: individual uniqueness as an early insight (with the caveat that uniqueness comes from the
+  arrangement of the same kinds of atoms, and that genetics - identical twins included - confirms the conclusion,
+  not his route); superstition's animal victims, animals shown able to grieve, Iphigenia's argument extended.
+- **II, vv. 646-659, 680**: naming gods is harmless, disturbing them with rituals and sacrifice is the impiety;
+  cross-refs to Iphigenia and to vv. 991-1012 (the earth earning the name of mother). The user said the proof
+  comes 'in the next excerpt': in the app that is vv. 991-1012; Lucretius states it outright in Book V
+  (vv. 1198-1203, planned), which the note paraphrases.
+- **II, vv. 991-1012**: the frightening corollary - we are temporary gatherings of atoms - and Book III as the
+  answer; pointer to the pessimism section on the author page.
+- **II, vv. 1023-1039**: why the thought experiment waits for the infinite worlds; **'What comes next'** summarising
+  vv. 1040-1066 (*novitate exterritus*, the *moenia mundi*, *alios alibi congressus materiai*). **REMOVE
+  CONDITION: delete that paragraph, both languages, if vv. 1040-1066 are ever added as an excerpt.**
+- **II, vv. 1164-1174**: cosmology anticipated, the soil evidence wrong - with the correction that Romans already
+  practised fallow and legume rotation (Virgil, *Georgics*); what they lacked was the medieval three-field and
+  18th-century four-course rotations and the chemistry behind them; the sour ending, deliberate or unrevised.
+
+Cache-bust: `?v=152` -> `?v=153`.
+
 ## [1.14.1] - 2026-09-14
 
 **LUCRETIUS BOOK II, PART 1: 5 EXCERPTS.** The second release of the user's 60-excerpt plan. New work `drn-ii`

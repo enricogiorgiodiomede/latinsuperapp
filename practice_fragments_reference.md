@@ -17,7 +17,7 @@ passages; drafted across releases, **v1.14.0 the big one** (tooling + all of Boo
 v1.0.0 I.80-101 counts toward the 60. The user's picks are starred.
 
 - **Book I (DONE, v1.14.0)**: ★1-20 · ★21-43 · ★50-61 · ★62-79 · 80-101 · 136-145 · ★146-158 · 311-321 · 926-950 · 968-983
-- **Book II (DONE at 10: v1.14.1 + v1.14.2)**: ★1-13 · 14-33 · 112-124 · 216-224 · 251-262 · **part 2 (v1.14.2):** 352-366 · 646-659, 680 (v. 680 transposed) · 991-1012 (extended to the sentence end) · 1023-1039 (the note in De Natura Deorum II.95 links here) · 1164-1174
+- **Book II (DONE at 10: v1.14.1 + v1.14.2)**: ★1-13 · 14-33 · 112-124 · 216-224 · 251-262 · **part 2 (v1.14.2):** 352-366 · 646-659, 680 (v. 680 transposed) · 991-1012 (extended to the sentence end) · 1023-1039 (the note in De Natura Deorum II.95 links here; **REMOVE CONDITION, the user: its 'What comes next' paragraph summarises vv. 1040-1066 - delete it, both languages, if that passage is ever added**) · 1164-1174
 - **Book III**: ★1-13 · ★14-30 (*E tenebris tantis* split) · 59-73 · 152-160 · ★830-842 · 894-911 · ★931-951 · ★952-977 (Nature's prosopopoeia split) · 995-1002 · 1053-1070
 - **Book IV**: 353-363 · 436-446 · 469-477 · 823-842 · 962-986 · ★1058-1076 · ★1121-1140 (love as a pathology; **cross-ref Tusculanae Disputationes IV.68-69 both ways**) · 1149-1170 · 1192-1208 · 1278-1287
 - **Book V**: 1-12 · 222-234 · 837-854 · 925-944 · 1011-1027 · 1120-1135 · ★1161-1182 · ★1183-1203 (how religion began; Cicero note links to 1198-1203) · 1218-1240 · 1448-1457
