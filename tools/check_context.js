@@ -123,11 +123,13 @@ function ownedChapters() {
         // Poetry is cited by book and VERSES - `(De Rerum Natura I, vv. 1-20)` -
         // and a verse is owned as `De Rerum Natura I.<verse>` so the verse
         // cross-reference pass below can look it up the same way.
-        const v = f.citation.match(/^\(([^,)]*?)\s+([IVXLCDM]+), vv?\. (\d+)(?:-(\d+))?\)$/);
+        const v = f.citation.match(/^\(([^,)]*?)\s+([IVXLCDM]+), vv?\. (\d+)(?:-(\d+))?((?:, \d+)*)\)$/);
         if (v) {
           const vf = parseInt(v[3], 10), vt = v[4] ? parseInt(v[4], 10) : vf;
           WORKS.add(v[1]);
           for (let n = vf; n <= vt; n++) own.add(v[1] + ' ' + v[2] + '.' + n);
+          // a transposed verse named after the range: `, vv. 646-659, 680)`
+          (v[5] || '').split(',').map(s => s.trim()).filter(Boolean).forEach(n => own.add(v[1] + ' ' + v[2] + '.' + n));
           continue;
         }
         const m = f.citation.match(/^\(([^)]*?)\s+([IVXLCDM]+)\.(\d+)(?:-(\d+))?/);

@@ -104,9 +104,21 @@
     });
   }
 
+  // The outline of each author card says where the author stands (the user's
+  // classification, v1.14.2): red for the mainstream authors, gold for the
+  // secondary ones. Andronicus, Naevius and Ennius are mainstream - the founders
+  // of Latin epic and drama - even though little of them survives. Any author
+  // not listed here gets the secondary outline.
+  var MAINSTREAM = {
+    'livius-andronicus': 1, 'gnaeus-naevius': 1, 'quintus-ennius': 1,
+    'titus-maccius-plautus': 1, 'publius-terentius-afer': 1, 'marcus-porcius-cato': 1, 'gaius-lucilius': 1,
+    'marcus-tullius-cicero': 1, 'gaius-julius-caesar': 1, 'titus-lucretius-carus': 1,
+    'gaius-sallustius-crispus': 1, 'gaius-valerius-catullus': 1
+  };
+
   function buildCard(eraId, author) {
     var card = document.createElement('a');
-    card.className = 'author-card';
+    card.className = 'author-card ' + (MAINSTREAM[author.slug] ? 'is-mainstream' : 'is-secondary');
     card.href = 'author.html?era=' + encodeURIComponent(eraId) + '&id=' + encodeURIComponent(author.slug);
 
     var portraits = document.createElement('div');

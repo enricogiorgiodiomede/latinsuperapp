@@ -108,6 +108,46 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.14.2] - 2026-09-15
+
+**LUCRETIUS BOOK II CLOSED AT 10 (+5), AND AUTHOR-CARD OUTLINES.** Lucretius **15 -> 20**; bank **499 -> 504**.
+
+### Added
+- **II, vv. 352-366** the cow looking for her calf: the variety of atomic shapes proved by an individual animal;
+  the sacrifice at a temple read beside Iphigenia (*religio* = superstition); the picnic landscape failing to
+  console.
+- **II, vv. 646-659, 680** Neptune, Ceres, Bacchus: after the Magna Mater procession; vv. 646-651 are the lines
+  left out after the hymn in Book I (they belong here); the earth feels nothing; tolerance for divine names, not
+  for superstition. **v. 680 is transposed by editors to follow v. 659 and keeps its own number** - renumbering
+  would shift twenty verses - so the excerpt is joined from two keys (`keys + joins: ["\n"]`) and cited with the
+  extra verse; its last translation block is `**655-659, 680.**`. The plan said vv. 646-660; the sentence needs v. 680.
+- **II, vv. 991-1012** sky father, earth mother (adapting Euripides), death as the breaking of a combination, the
+  other half of *nil ex nihilo*, *positura* and the alphabet analogy. **Extended from the planned 991-1003**, which
+  stopped mid-sentence on *dissupat ollis;*.
+- **II, vv. 1023-1039** the sky seen for the first time, habit and wonder, preparing the infinite worlds; set against
+  Aristotle's cave-dwellers in **De Natura Deorum II.95** (the plan's pointer to *De Divinatione* was wrong - the
+  bank's note on this passage is in De Natura Deorum).
+- **II, vv. 1164-1174** the old ploughman and the vine-grower: the ageing world, *laudator temporis acti*, Columella's
+  rebuttal, and the book ending *ad capulum*.
+
+### Changed
+- **Author cards on the era pages carry an outline by standing** (the user's classification): **red** - the header's
+  own gradient, `--deep-red` -> `--terracotta-deep` - for the mainstream, **gold** - the NEW! banner's gradient, `#f2d789 -> #c19a45 ->
+  #a5802f` - for the secondary. 4px border over the whole rectangle, drawn as a border-box gradient behind a
+  padding-box parchment fill so the rounded corners survive. Mainstream: Andronicus, Naevius, Ennius (the user left
+  these three open; mainstream because they founded Latin epic and drama, as CLAUDE.md already lists them), Plautus,
+  Terence, Cato, Lucilius; Cicero, Caesar, Lucretius, Sallust, Catullus. Secondary: Caecilius, Pacuvius / Accius,
+  Pomponius / Novius; Varro, Nepos, Hortensius, Nigidius, Hirtius. The list is `MAINSTREAM` in js/home.js; anything unlisted
+  is secondary.
+
+### Tooling
+- **A distant transposed verse**: `check_verses.js`, `check_sections.js` and `check_context.js` read `, vv. a-b, c)` citations and
+  `**a-b, c.**` translation blocks; `apply_batch.js` sorts verse citations on their first verse.
+
+Verification: **check_verses 20, 0**; **352 verbatim, 0 mismatched**; `check_sections.js` **135, 0**; `check_context.js` **0 on the
+release**; `lint_register.js` / `lint_ablatives.js` **504, 0**; `lint_translations.js` **5, 0**; `lint_markdown.js` **0 leaking**
+(four bold-around-italic spans caught and fixed before commit). Cache-bust: `?v=151` -> `?v=152`.
+
 ## [1.14.1] - 2026-09-14
 
 **LUCRETIUS BOOK II, PART 1: 5 EXCERPTS.** The second release of the user's 60-excerpt plan. New work `drn-ii`

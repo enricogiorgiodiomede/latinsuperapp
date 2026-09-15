@@ -17,7 +17,7 @@ passages; drafted across releases, **v1.14.0 the big one** (tooling + all of Boo
 v1.0.0 I.80-101 counts toward the 60. The user's picks are starred.
 
 - **Book I (DONE, v1.14.0)**: ★1-20 · ★21-43 · ★50-61 · ★62-79 · 80-101 · 136-145 · ★146-158 · 311-321 · 926-950 · 968-983
-- **Book II (part 1 DONE, v1.14.1)**: ★1-13 · 14-33 · 112-124 · 216-224 · 251-262 · **part 2 (v1.14.2):** 352-366 · 646-660 · 991-1003 · 1023-1039 (Cicero *De Divinatione* note links here) · 1164-1174
+- **Book II (DONE at 10: v1.14.1 + v1.14.2)**: ★1-13 · 14-33 · 112-124 · 216-224 · 251-262 · **part 2 (v1.14.2):** 352-366 · 646-659, 680 (v. 680 transposed) · 991-1012 (extended to the sentence end) · 1023-1039 (the note in De Natura Deorum II.95 links here) · 1164-1174
 - **Book III**: ★1-13 · ★14-30 (*E tenebris tantis* split) · 59-73 · 152-160 · ★830-842 · 894-911 · ★931-951 · ★952-977 (Nature's prosopopoeia split) · 995-1002 · 1053-1070
 - **Book IV**: 353-363 · 436-446 · 469-477 · 823-842 · 962-986 · ★1058-1076 · ★1121-1140 (love as a pathology; **cross-ref Tusculanae Disputationes IV.68-69 both ways**) · 1149-1170 · 1192-1208 · 1278-1287
 - **Book V**: 1-12 · 222-234 · 837-854 · 925-944 · 1011-1027 · 1120-1135 · ★1161-1182 · ★1183-1203 (how religion began; Cicero note links to 1198-1203) · 1218-1240 · 1448-1457
@@ -42,7 +42,9 @@ block holds a transposed verse give the real range. **VERSES ARE NUMBERED IN REA
 against a printed edition)**: line k of `vv. a-b` is verse a + k, even where Perseus and the Latin Library keep a
 transposed line's manuscript number (I.14/15, I.155/158) - so `**14.** inde ferae`, `**155.** quas ob res`. **The
 translations mark each block with its RANGE** - `**1-9.**`, `**14-16.**`, one-verse `**974.**` - the Latin keeps
-the start verse. `tools/check_verses.js` enforces markers-on-verses, verbatim lines with spacing, and the ranges.
+the start verse. `tools/check_verses.js` enforces markers-on-verses, verbatim lines with spacing, and the ranges. **A verse moved in from FAR AWAY keeps its own number** (II.680 printed after v. 659 -
+renumbering would shift twenty verses): cite `(De Rerum Natura II, vv. 646-659, 680)`, build it from two keys joined by
+`"\n"`, and label the last translation block `**655-659, 680.**`; every check reads that form (v1.14.2).
 **religio is SUPERSTITION**: keep *religion* in the translation if you like, but every note where the word
 matters must say so. The English author page's pessimism section is a `###` inside Writing Style (a `##`
 heading data.js does not know is silently dropped). **Catullus's two neoteric `##` sections were restored in

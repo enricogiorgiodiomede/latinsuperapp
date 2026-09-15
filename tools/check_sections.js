@@ -73,13 +73,16 @@ const only = argv.filter(function (a) { return a.charAt(0) !== '-'; })[0] || nul
 // verse the block starts on. `end` is kept so the range can be checked.
 function sections(text) {
   if (!text) return null;
-  const re = /\*\*(\d+)(?:-(\d+))?\.\*\*/g;
+  // `**655-659, 680.**`: a block ending on a verse an editor moved into the
+  // passage (II, vv. 646-659, 680); its end is the last number.
+  const re = /\*\*(\d+)(?:-(\d+))?((?:, \d+)*)\.\*\*/g;
   const out = [];
   let m, n = null, end = null, from = 0;
   while ((m = re.exec(text))) {
     if (n !== null) out.push({ n: n, end: end, body: text.slice(from, m.index) });
     n = m[1];
-    end = m[2] || null;
+    const tail = m[3] ? m[3].split(',').map(s => s.trim()).filter(Boolean) : [];
+    end = tail.length ? tail[tail.length - 1] : (m[2] || null);
     from = re.lastIndex;
   }
   if (n !== null) out.push({ n: n, end: end, body: text.slice(from) });
@@ -88,8 +91,10 @@ function sections(text) {
 
 // The last verse of a verse excerpt, from `(De Rerum Natura I, vv. 1-20)`.
 function lastVerse(citation) {
-  const m = citation.match(/, vv\. \d+-(\d+)\)$/);
-  return m ? parseInt(m[1], 10) : null;
+  const m = citation.match(/, vv\. \d+-(\d+)((?:, \d+)*)\)$/);
+  if (!m) return null;
+  const tail = m[2] ? m[2].split(',').map(s => s.trim()).filter(Boolean) : [];
+  return parseInt(tail.length ? tail[tail.length - 1] : m[1], 10);
 }
 
 // Emphasis and quotation are invisible to both tests: a section that ends

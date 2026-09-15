@@ -156,6 +156,11 @@ const romanToInt = (s) => {
   return n;
 };
 const firstSection = (f) => {
+  // Poetry: `(De Rerum Natura II, vv. 646-659, 680)` sorts on its FIRST verse. The
+  // plain-digits rule below would pick up the trailing 680 of a citation that
+  // names an editor's transposed verse.
+  const vv = f.citation.match(/, vv\. (\d+)/);
+  if (vv) return parseInt(vv[1], 10);
   // Letters are cited by BOOK and letter ("Ad Familiares XIV.20"), and a book
   // number sorts before a letter number: without this, Att. VII.11 would fall
   // between I.2 and I.16. The optional letter suffix is for the doublets the

@@ -57,15 +57,22 @@ for (const author of Object.values(AUTHORS)) {
     if (!pages.length) continue;
     for (const f of w.fragments) {
       if (only && f.version !== only) continue;
-      const cm = f.citation.match(/, vv\. (\d+)-(\d+)\)$/);
+      // `, vv. a-b)` or, where an editor has moved a distant verse into the
+      // passage and it keeps its own number, `, vv. a-b, c)` (II, vv. 646-659, 680).
+      const cm = f.citation.match(/, vv\. (\d+)-(\d+)((?:, \d+)*)\)$/);
       if (!cm) continue;
       checked++;
-      const from = parseInt(cm[1], 10), to = parseInt(cm[2], 10);
+      const from = parseInt(cm[1], 10), rangeTo = parseInt(cm[2], 10);
+      const extras = cm[3] ? cm[3].split(',').map(s => s.trim()).filter(Boolean).map(Number) : [];
+      const verseNo = [];
+      for (let n = from; n <= rangeTo; n++) verseNo.push(n);
+      verseNo.push(...extras);
+      const to = verseNo[verseNo.length - 1];
       const bad = [];
       const lines = f.latin.split('\n').map(l => l.replace(/^> /, ''));
 
       // 1. line count
-      if (lines.length !== to - from + 1) bad.push('the Latin has ' + lines.length + ' lines for ' + (to - from + 1) + ' verses');
+      if (lines.length !== verseNo.length) bad.push('the Latin has ' + lines.length + ' lines for ' + verseNo.length + ' verses');
 
       // 2. markers on their verses
       const starts = [];
@@ -75,7 +82,7 @@ for (const author of Object.values(AUTHORS)) {
         while ((m = re.exec(l))) {
           const n = parseInt(m[1], 10);
           starts.push(n);
-          if (n !== from + i) bad.push('marker ' + n + '. is on verse ' + (from + i) + ': ' + JSON.stringify(l));
+          if (n !== verseNo[i]) bad.push('marker ' + n + '. is on verse ' + verseNo[i] + ': ' + JSON.stringify(l));
           if (l[re.lastIndex] !== ' ' || l[re.lastIndex + 1] === ' ') bad.push('marker ' + n + '. is not followed by exactly one space');
           if (m.index > 0 && (l[m.index - 1] !== ' ' || l[m.index - 2] === ' ')) bad.push('marker ' + n + '. is not preceded by exactly one space');
         }
@@ -106,9 +113,15 @@ for (const author of Object.values(AUTHORS)) {
       // 4. translation ranges
       for (const lang of ['english', 'italian']) {
         const marks = [];
-        const re = /\*\*(\d+)(?:-(\d+))?\.\*\*/g;
+        // `**14-16.**`, `**974.**`, or `**655-659, 680.**` for a block that ends on a
+        // transposed verse; the block's end is its last number.
+        const re = /\*\*(\d+)(?:-(\d+))?((?:, \d+)*)\.\*\*/g;
         let m;
-        while ((m = re.exec(f[lang]))) marks.push([parseInt(m[1], 10), m[2] ? parseInt(m[2], 10) : parseInt(m[1], 10), !!m[2]]);
+        while ((m = re.exec(f[lang]))) {
+          const tail = m[3] ? m[3].split(',').map(s => s.trim()).filter(Boolean).map(Number) : [];
+          const end = tail.length ? tail[tail.length - 1] : (m[2] ? parseInt(m[2], 10) : parseInt(m[1], 10));
+          marks.push([parseInt(m[1], 10), end, !!m[2]]);
+        }
         if (marks.length !== starts.length) { bad.push(lang + ': ' + marks.length + ' blocks, the Latin has ' + starts.length); continue; }
         marks.forEach(([a, b, ranged], i) => {
           const want = i + 1 < starts.length ? starts[i + 1] - 1 : to;

@@ -1,0 +1,9 @@
+{
+  "_comment": "v1.14.2 - Lucretius, De Rerum Natura Book II, part 2. Verse ranges, resolved by extract_verse.js; the app numbers verses in reading order. II.680 is transposed by editors to follow v. 659 and keeps its number, so it is extracted on its own and joined: (De Rerum Natura II, vv. 646-659, 680). II.991-1003 was extended to 1012, the end of the sentence.",
+  "drn.2.352": ["lucretius2", 352, 366],
+  "drn.2.646": ["lucretius2", 646, 659],
+  "drn.2.680": ["lucretius2", 680, 680],
+  "drn.2.991": ["lucretius2", 991, 1012],
+  "drn.2.1023": ["lucretius2", 1023, 1039],
+  "drn.2.1164": ["lucretius2", 1164, 1174]
+}

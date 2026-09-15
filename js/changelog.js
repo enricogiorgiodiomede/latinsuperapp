@@ -12,6 +12,35 @@
 
   var VERSIONS = [
     {
+      v: '1.14.2', date: '15/09/2026', time: 'TBD', tz: 'CEST',
+      en: {
+        added: [
+          'Book II of Lucretius is finished: five more excerpts close it at ten, and bring Lucretius to twenty.',
+          'A calf is sacrificed at a temple, and its mother searches the woods and returns to the empty stall again and again, and nothing in nature can comfort her - the most moving page of the book, and an argument that no two atoms, like no two animals, are the same. Then the gods who want nothing from us and the earth that feels nothing, with a surprising tolerance: call the sea Neptune and bread Ceres if you like, as long as your mind is free of superstition.',
+          'Then the sky as our father and the earth as our mother, and death as the breaking up of a combination rather than the end of matter; the sky imagined as seen for the first time, and the habit that stops anyone looking up - Lucretius preparing his reader for the idea that ours is not the only world; and the last lines of the book, an old farmer who thinks the gods have abandoned him, when in fact the world itself is growing old.'
+        ],
+        changed: [
+          'On the era pages, every author button now has a coloured outline round the whole card: red for the mainstream authors and gold for the secondary ones. In the Archaic Era, Livius Andronicus, Naevius, Ennius, Plautus, Cato, Terence and Lucilius are mainstream, and Caecilius Statius, Pacuvius and Accius, and Pomponius and Novius are secondary. In Caesar\'s Age, Cicero, Caesar, Lucretius, Sallust and Catullus are mainstream, and Varro, Nepos, Hortensius, Nigidius Figulus and Hirtius are secondary.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Il secondo libro di Lucrezio è completo: altri cinque brani lo chiudono a dieci, e portano Lucrezio a venti.',
+          'Un vitello viene sacrificato davanti a un tempio, e sua madre lo cerca per i boschi e torna più e più volte alla stalla vuota, e nulla nella natura riesce a consolarla: la pagina più commovente del libro, e un argomento sul fatto che non esistono due atomi uguali, come non esistono due animali uguali. Poi gli dèi che non vogliono nulla da noi e la terra che non sente nulla, con una tolleranza sorprendente: chiamate pure il mare Nettuno e il pane Cerere, purché la mente sia libera dalla superstizione.',
+          'Poi il cielo come nostro padre e la terra come nostra madre, e la morte come lo scioglimento di una combinazione e non la fine della materia; il cielo immaginato come visto per la prima volta, e l\'abitudine che impedisce a chiunque di alzare lo sguardo - Lucrezio che prepara il lettore all\'idea che il nostro non sia l\'unico mondo; e gli ultimi versi del libro, un vecchio contadino convinto che gli dèi lo abbiano abbandonato, quando in realtà è il mondo stesso a invecchiare.'
+        ],
+        changed: [
+          'Nelle pagine delle epoche, ogni pulsante di autore ha ora un bordo colorato attorno all\'intera scheda: rosso per gli autori principali e oro per quelli secondari. Nell\'Età arcaica sono principali Livio Andronico, Nevio, Ennio, Plauto, Catone, Terenzio e Lucilio, e secondari Cecilio Stazio, Pacuvio e Accio, e Pomponio e Novio. Nell\'Età di Cesare sono principali Cicerone, Cesare, Lucrezio, Sallustio e Catullo, e secondari Varrone, Nepote, Ortensio, Nigidio Figulo e Irzio.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.14.1', date: '14/09/2026', time: '15:35', tz: 'CEST',
       en: {
         added: [

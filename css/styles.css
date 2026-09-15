@@ -294,6 +294,27 @@ a { color: var(--terracotta-deep); }
   box-shadow: var(--shadow-lift);
 }
 
+/* Outline by standing (v1.14.2): red for the mainstream authors - the header's
+   own deep-red to terracotta gradient - and gold for the secondary ones, the
+   gradient of the NEW! banner's gold frame. A transparent border over a
+   border-box gradient, with the card's parchment painted on the padding-box,
+   draws the outline round the whole rectangle and keeps the rounded corners
+   (border-image cannot). */
+.author-card.is-mainstream,
+.author-card.is-secondary {
+  border: 4px solid transparent;
+}
+.author-card.is-mainstream {
+  background:
+    linear-gradient(var(--parchment), var(--parchment)) padding-box,
+    linear-gradient(180deg, var(--deep-red), var(--terracotta-deep)) border-box;
+}
+.author-card.is-secondary {
+  background:
+    linear-gradient(var(--parchment), var(--parchment)) padding-box,
+    linear-gradient(180deg, #f2d789 0%, #c19a45 55%, #a5802f 100%) border-box;
+}
+
 .card-portraits {
   display: flex;
   width: 100%;
