@@ -21,7 +21,8 @@
           'Then Sisyphus, who turns out to be a politician: the candidate who asks the people for the rods and the axes, loses, and starts pushing the same stone up the same hill. And finally the closing lines of the book, the restless rich man who leaves the house, races to his villa as though it were on fire, yawns on the doorstep and drives straight back to the city - running from himself, which is the one thing he cannot leave behind.'
         ],
         changed: [
-          'In the note on the earlier excerpt where death is called nothing to us, the mention of Nature\'s speech is now a link to the two excerpts that carry it.'
+          'In the note on the earlier excerpt where death is called nothing to us, the mention of Nature\'s speech is now a link to the two excerpts that carry it.',
+          'And the notes for the five Book III excerpts grow, following a reader\'s study of them: how the last part of the book works, with every objection quoted in its own voice and then quietly taken apart; why grieving is allowed as long as it ends, which is not the same as being told to feel nothing; death read as a release, with the modern argument about living for ever on the other side of it; the old man in Nature\'s speech identified as the Roman chasing power and money, set against Epicurus\'s three kinds of desire and the one that can never be filled, with The Lorax as an unexpected companion piece; the politician whose stone rolls back whether he wins or loses; and the name for the restlessness that closes the book, taedium vitae, the weariness of a man who is bored the moment he arrives.'
         ],
         deleted: [
           'Nothing was deleted.'
@@ -35,7 +36,8 @@
           'Poi Sisifo, che si scopre essere un politico: il candidato che chiede al popolo i fasci e le scuri, perde, e ricomincia a spingere lo stesso masso su per la stessa salita. E infine i versi conclusivi del libro, il ricco inquieto che esce di casa, corre alla villa come se fosse in fiamme, sbadiglia sulla soglia e torna subito in città - in fuga da se stesso, l\'unica cosa che non riesce a seminare.'
         ],
         changed: [
-          'Nella nota del brano precedente in cui la morte è detta nulla per noi, il rimando al discorso della Natura è ora un collegamento ai due brani che lo contengono.'
+          'Nella nota del brano precedente in cui la morte è detta nulla per noi, il rimando al discorso della Natura è ora un collegamento ai due brani che lo contengono.',
+          'E le note dei cinque brani del terzo libro si arricchiscono, seguendo lo studio di un lettore: come funziona l\'ultima parte del libro, con ogni obiezione citata con la voce di chi la fa e poi smontata con calma; perché è lecito soffrire purché il dolore finisca, che non è come dire di non provare nulla; la morte letta come una liberazione, con dall\'altra parte il dibattito moderno sul vivere per sempre; il vecchio del discorso della Natura riconosciuto come il romano che insegue potere e denaro, messo a confronto con le tre specie di desideri di Epicuro e con quella che non si può mai riempire, e con The Lorax come compagno inatteso; il politico il cui masso rotola giù sia che vinca sia che perda; e il nome dell\'inquietudine con cui il libro si chiude, taedium vitae, la noia di chi si annoia appena arriva.'
         ],
         deleted: [
           'Non è stato eliminato nulla.'

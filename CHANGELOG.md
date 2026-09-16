@@ -149,6 +149,35 @@ Verification: **check_verses 30, 0**; **362 verbatim, 0 mismatched**; `check_sec
 `lint_translations.js` **482, 3** (all pre-existing); `lint_markdown.js` **0 leaking**.
 Cache-bust: `?v=157` -> `?v=158`.
 
+
+### Follow-up, 2026-09-16: the user's notes on Book III, part 2
+
+No new excerpts, no version bump. One translation fix and notes added in both languages:
+
+- **III, vv. 1053-1075**: *pectus* is the **chest**, not the breast, in the English translation (the user).
+- **III, vv. 894-911**: how the rest of the book is built - every objection quoted in the objector's own voice
+  and then taken apart quietly. And what Lucretius is NOT saying: grieving is human and allowed, provided it
+  ends; Epicurus's rule that intense pain is short and long pain mild makes endless mourning the one shape pain
+  does not naturally take. Let the past go before it eats the future.
+- **III, vv. 931-951**: death as a release, because the alternative - a life dragged far past its length, or one
+  with no end - is worse; the modern argument about radically extended lifespans, with **Bernard Williams (1973)
+  on the tedium of immortality** reaching Lucretius's conclusion by another route; being mortal is what gives a
+  life its weight.
+- **III, vv. 952-977**: the old man identified as the Roman chasing power, riches and a name, cross-referenced to
+  the proem of Book II (vv. 1-13, 14-33), to III, vv. 59-73, and to the same crowd under *religio* in I, vv. 62-79.
+  Then **Epicurus's three kinds of desire** - natural and necessary, natural but unnecessary, neither - and why
+  only the third cannot be filled; the Letter to Menoeceus on living like a god among men; and the second kind
+  allowed, in moderation. With **Dr Seuss's The Lorax (1971)** as a thematic companion, explicitly not a source.
+- **III, vv. 995-1002**: the outcome makes no difference - win and the desire moves up a rung, lose and the climb
+  starts again - because *imperium* is one of the things that cannot be had; the toil is self-inflicted.
+- **III, vv. 1053-1075**: the name for the condition, ***taedium vitae***; if changing the place never changes
+  the feeling, the cause is in the man; the book ends with someone still afraid, and the medicine is the poem.
+
+Verification: **check_verses 30, 0**; **362 verbatim, 0 mismatched**; `check_sections.js` **145, 0 failed**;
+`check_context.js` **0 on the release**; `lint_register.js` / `lint_ablatives.js` **514, 0**;
+`lint_translations.js` **482, 3** (all pre-existing); `lint_markdown.js` **0 leaking**.
+Cache-bust: `?v=158` -> `?v=159`.
+
 ## [1.14.3] - 2026-09-16
 
 **LUCRETIUS BOOK III, PART 1 (+5), AND THE OLD VARRO AND NEPOS NOTES REWRITTEN.** New work `drn-iii` ("Book III"
