@@ -185,6 +185,38 @@ Verification: `verify.js` **357, 0**; `lint_translations.js` **477, 3** (pre-exi
 renders, Accept grants all four signals, Reject still fetches nothing. Cache-bust: `?v=155` ->
 `?v=156`.
 
+### Follow-up, 2026-09-16: the user's notes on Book III, part 1
+
+No new excerpts, no version bump. One translation fix and notes added in both languages:
+
+- **III, vv. 1-13**: *haedi* are young goats, and "kids" was misreading the comparison as children - fixed in the
+  English translation and in the note. **The aretalogy reading (the user), split across this excerpt and the next**:
+  the second eulogy of Epicurus and the opening hymn to Venus are both, at one remove, aretalogies - the Greek form
+  that recites a god's deeds. Part 1 here: the shared shape (a title instead of a name, *Graiae gentis decus* against
+  *Aeneadum genetrix*, the deed, the language of worship), and the two words for a parent set side by side.
+- **III, vv. 14-30**: part 2 of the same reading - the deeds themselves. Venus's deed is that the world exists,
+  Epicurus's that it can be understood; *genetrix* and *pater* are therefore NOT the sky-father and earth-mother of
+  the physics (I, vv. 250-251, and the excerpt at II, vv. 991-1012) but the force that makes against the reason that
+  frees. Plus: the vision as a syllabus of Epicureanism (v. 16 the cure, v. 17 the physics, vv. 18-24 the gods,
+  vv. 25-27 no underworld, next to the four-part remedy), and **the shudder corrected** - not only awe at something
+  greater but the shock of your own insignificance, which can make a reader back away from the doctrine, and is why
+  Book III must prove that death is nothing and life worth having.
+- **III, vv. 59-73**: the fear of death shown to be the strongest fear of all, since it is what feeds greed and
+  ambition; the charge of the Book II proem pressed much harder, because here the fear takes the social and moral
+  order apart rather than merely wasting a life.
+- **III, vv. 152-160**: what the small argument carries - everything is atoms and so everything comes apart, the
+  soul included (finer atoms, but atoms); the gods as the school's one exception, which ancient critics enjoyed
+  pointing at; the ground of the soul's mortality and, indirectly, of *nil mors est ad nos*.
+- **III, vv. 830-842**: what follows from it - the end of the world is not to be feared either, because we will be
+  long gone; so live, and be glad of it. With Nature's speech (vv. 931-977, planned for v1.14.4) named as the
+  argument held in reserve for anyone still unconvinced.
+
+The batch file, `batch/frags1143.js`, was kept in step with the bank (all 20 fields identical).
+
+Verification: **check_verses 25, 0**; **357 verbatim, 0 mismatched**; `check_sections.js` **140, 0**; `check_context.js` **0 on
+the release**; `lint_register.js` / `lint_ablatives.js` **509, 0**; `lint_translations.js` **477, 3** (pre-existing);
+`lint_markdown.js` **0 leaking**. Cache-bust: `?v=156` -> `?v=157`.
+
 ## [1.14.2] - 2026-09-15
 
 **LUCRETIUS BOOK II CLOSED AT 10 (+5), AND AUTHOR-CARD OUTLINES.** Lucretius **15 -> 20**; bank **499 -> 504**.
