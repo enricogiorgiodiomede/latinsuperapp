@@ -12,6 +12,37 @@
 
   var VERSIONS = [
     {
+      v: '1.14.5', date: '16/09/2026', time: 'TBD', tz: 'CEST',
+      en: {
+        added: [
+          'Lucretius opens Book IV, the book about how we know anything at all: five excerpts, taking him to thirty-five.',
+          'It starts with the illusions. A square tower seen from far away looks round, because the film of atoms that left it has had its corners knocked off on the way; an oar looks broken where it enters the water; and on a windy night the stars seem to sail the wrong way across the sky. In every case, Lucretius argues, the eye reports exactly what reaches it, and the mistake is added afterwards, by the mind.',
+          'Then the answer to the sceptics, which is still the first thing anyone says to them: if you know that nothing can be known, you have contradicted yourself, and if you do not, where did you get the idea of truth from in the first place?',
+          'Then twenty lines against the idea that the body was designed: eyes were not given to us so that we could see, because seeing did not exist before eyes did, and the tongue is older than speech. What is born creates its own use. And finally dreams, where lawyers plead in their sleep, sailors go on fighting the wind, Lucretius goes on writing this poem, and anyone who has spent days at the games keeps seeing the dancers for days afterwards.'
+        ],
+        changed: [
+          'The first Catilinarian gets its notes rewritten at length, the first instalment of a job that will work through Cicero\'s older excerpts a speech at a time. All ten now carry the history as well as the rhetoric: the temple Cicero chose because it could be guarded and the empty benches around Catiline; the informer\'s mistress who was selling the plot to the consul; the two precedents for killing a citizen that half of Rome regarded as murders; the debt crisis that was the conspiracy\'s real base; the punishment for parricide, which is the word the fatherland uses; what the executions of 5 December cost Cicero five years later; and how Catiline was found after the battle, far in front of his own line. Each note also ends with a paragraph of grammar.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Lucrezio apre il quarto libro, quello su come facciamo a sapere qualcosa: cinque brani, che lo portano a trentacinque.',
+          'Si comincia dalle illusioni. Una torre quadrata vista da lontano sembra rotonda, perché alla pellicola di atomi che ne è partita sono stati smussati gli angoli lungo il tragitto; un remo sembra spezzato dove entra nell\'acqua; e in una notte ventosa le stelle sembrano navigare nel verso sbagliato attraverso il cielo. In ogni caso, sostiene Lucrezio, l\'occhio riferisce esattamente ciò che gli arriva, e lo sbaglio viene aggiunto dopo, dalla mente.',
+          'Poi la risposta agli scettici, che è ancora oggi la prima cosa che si dice loro: se sai che non si può sapere nulla, ti sei contraddetto, e se non lo sai, da dove ti è venuta l\'idea stessa di verità?',
+          'Poi venti versi contro l\'idea che il corpo sia stato progettato: gli occhi non ci sono stati dati perché vedessimo, dal momento che il vedere non esisteva prima degli occhi, e la lingua è più antica della parola. Ciò che nasce crea il proprio uso. E infine i sogni, dove gli avvocati arringano nel sonno, i marinai continuano a lottare con il vento, Lucrezio continua a scrivere questo poema, e chi ha passato giornate ai giochi continua a vedere i danzatori per giorni.'
+        ],
+        changed: [
+          'La prima Catilinaria riceve note riscritte per esteso, primo capitolo di un lavoro che riprenderà i brani più vecchi di Cicerone un\'orazione alla volta. Tutte e dieci portano ora la storia oltre alla retorica: il tempio scelto perché si poteva sorvegliare e i banchi vuoti intorno a Catilina; l\'amante dell\'informatore che vendeva la congiura al console; i due precedenti sull\'uccisione di un cittadino che mezza Roma considerava delitti; la crisi dei debiti che era la vera base della congiura; la pena per il parricidio, che è la parola usata dalla patria; quanto costarono a Cicerone, cinque anni dopo, le esecuzioni del 5 dicembre; e come fu ritrovato Catilina dopo la battaglia, molto avanti rispetto ai suoi. Ogni nota si chiude inoltre con un paragrafo di grammatica.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.14.4', date: '16/09/2026', time: '21:38', tz: 'CEST',
       en: {
         added: [

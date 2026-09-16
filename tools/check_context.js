@@ -155,6 +155,10 @@ const VOCAB = nameVocabulary();
 // belongs here once the sentence around it has been made to carry its own
 // summary, so that the reader who cannot open that chapter is not left short.
 const CLEARED = {
+  // Not a name: 'Raraque' is 'rara' plus '-que', capitalised because it opens a
+  // sentence in the source's punctuation (De Rerum Natura IV, v. 443). The pass
+  // reads any capitalised Latin word as a possible proper name.
+  '(De Rerum Natura IV, vv. 436-446) | name | Raraque': 1,
   '(De Bello Civili I.28) | ref | De Bello Civili I.15': 1,   // summarised in the "Where we are"
   '(De Bello Civili I.28) | ref | De Bello Civili I.27': 1,   // Pompey's barricades, given in full
   '(De Bello Civili I.76) | ref | De Bello Civili I.75': 1,   // Petreius' first strike, given in full

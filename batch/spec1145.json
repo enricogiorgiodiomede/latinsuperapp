@@ -1,0 +1,28 @@
+{
+  "_comment": "v1.14.5 - Lucretius, De Rerum Natura Book IV, part 1: the senses and the mind. Verse ranges resolved by extract_verse.js; the app numbers verses in reading order.",
+  "drn.4.353": [
+    "lucretius4",
+    353,
+    363
+  ],
+  "drn.4.436": [
+    "lucretius4",
+    436,
+    446
+  ],
+  "drn.4.469": [
+    "lucretius4",
+    469,
+    477
+  ],
+  "drn.4.823": [
+    "lucretius4",
+    823,
+    842
+  ],
+  "drn.4.962": [
+    "lucretius4",
+    962,
+    986
+  ]
+}

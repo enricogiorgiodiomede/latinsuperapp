@@ -144,6 +144,15 @@ function endsClosed(s) {
 // closes it on a full stop, or divides one long Latin period into two. In
 // each case the text on either side of the marker is the same text.
 const CLEARED = {
+  // Read and cleared 2026-09-16, Lucretius Book IV part 1. The Latin Library
+  // prints a full stop at the end of v. 360 where the sense wants a comma, and
+  // leaves v. 446 with no closing punctuation at all. Both notes say so.
+  '(De Rerum Natura IV, vv. 353-363)': {
+    why: 'the source ends v. 360 on a full stop where the sense wants a comma; both translations run the sentence on',
+    sig: 'english 360: holds 1 sentence, the Latin holds 2 | italian 360: holds 1 sentence, the Latin holds 2' },
+  '(De Rerum Natura IV, vv. 436-446)': {
+    why: 'the source leaves v. 446 unpunctuated although the sentence ends there; both translations close it',
+    sig: 'english 443: ends on a full stop, the Latin ends mid-period | english 443: holds 1 sentence, the Latin holds 0 | italian 443: ends on a full stop, the Latin ends mid-period | italian 443: holds 1 sentence, the Latin holds 0' },
   // Read and cleared 2026-09-11, when the Bellum Alexandrinum got its markers
   // from Damon's LDLT edition. The Latin joins the townspeople sentence to `at
   // mihi si defendendi...` with a colon and closes section 2 on a semicolon;

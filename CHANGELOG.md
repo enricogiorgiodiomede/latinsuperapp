@@ -108,6 +108,47 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.14.5] - 2026-09-16
+
+**LUCRETIUS BOOK IV, PART 1 (+5), AND THE FIRST CICERO NOTES PASS.** New work `drn-iv` ("Book IV" / "Libro IV").
+Lucretius **30 -> 35**; bank **514 -> 519**.
+
+### Added
+- **IV, vv. 353-363** the square tower that looks round: *simulacra* worn smooth by the air, the senses reporting
+  truly and *opinio* adding the error, and the modern account (the eye resolves no finer than about a minute of arc).
+- **IV, vv. 436-446** the oar that looks broken and the stars that seem to move: refraction described three centuries
+  before Ptolemy measured it, and induced motion, named by Duncker in 1929.
+- **IV, vv. 469-477** against the sceptics: self-refutation, and the second argument about where a man who has never
+  seen anything true gets the concepts of true and false (*notitia*, the Epicurean *prolepsis*). The Academy and
+  Cicero's *Academica* named as the other side.
+- **IV, vv. 823-842** nothing in the body was made for use: against Aristotle's teleology and Stoic design, with the
+  note that this is an argument against design and NOT natural selection, whose mechanism arrived in 1859.
+- **IV, vv. 962-986** dreams repeat the day: the self-portrait at v. 969 (cross-linked to I, vv. 136-145), worn
+  paths in the mind, and the 2000 Tetris study whose amnesic subjects reported the falling blocks too.
+
+### Changed - the first Cicero pass (the user's request)
+- **All ten In Catilinam I notes extended**, from two or three paragraphs (about 1,000-1,600 characters) to five or
+  six (about 2,800-3,300). Each gains a paragraph of history or aftermath and a paragraph of grammar, in the plain
+  prose the work already used: the guarded temple and the empty benches; Curius and Fulvia as the source; the
+  contested precedents of Nasica and Ahala; the SCU and Clodius's law of 58; Manlius at Faesulae and the debt
+  crisis; Catiline's offer of *libera custodia*; the *poena cullei* behind *parricidium*; Sestius and Marcellus in
+  Cicero's later corpus; the executions of 5 December and *vixerunt*; the failure of the *concordia ordinum*;
+  Romulus's vow to Jupiter Stator, and Catiline found far in front of his own line at Pistoria.
+- **58 Cicero notes remain**, still to be done a work at a time. **Catullus and Sallust stay excluded** (the user).
+
+### On the text
+- At **v. 823** both mirrors print a stray character before *inesse* (the Latin Library an upper-case A-diaeresis,
+  Perseus a lower-case one), an editorial mark lost in a character-set conversion. Emended and recorded; the note says so.
+- **v. 830** keeps the editors' supplement *[ex]*. The source ends **v. 360** on a full stop where the sense wants a
+  comma, and leaves **v. 446** unpunctuated although the sentence ends there; both notes say so and both entries are
+  on `check_sections.js`'s cleared list.
+
+Verification: **check_verses 35, 0**; **367 verbatim, 0 mismatched**; `check_sections.js` **150, 3 to look at**
+(all pre-existing); `check_context.js` **0 on the release**; `lint_register.js` / `lint_ablatives.js` **519, 0**;
+`lint_markdown.js` **0 leaking**; `lint_translations.js` **487, 5 to look at** - the three old ones plus the two new verse
+excerpts at 1.43 and 1.45, read and judged: dense verse, nothing rendered that the Latin does not contain.
+Cache-bust: `?v=159` -> `?v=160`.
+
 ## [1.14.4] - 2026-09-16
 
 **LUCRETIUS BOOK III IS COMPLETE AT TEN (+5).** The end of the book: the answer to the mourners, Nature
