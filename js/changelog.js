@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.14.3', date: '16/09/2026', time: 'TBD', tz: 'CEST',
+      v: '1.14.3', date: '16/09/2026', time: '07:07', tz: 'CEST',
       en: {
         added: [
           'Book III of Lucretius begins, the book on the soul and on death: five excerpts, bringing Lucretius to twenty-five.',
