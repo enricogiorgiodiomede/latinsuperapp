@@ -12,6 +12,37 @@
 
   var VERSIONS = [
     {
+      v: '1.14.4', date: '16/09/2026', time: 'TBD', tz: 'CEST',
+      en: {
+        added: [
+          'Book III of Lucretius is finished: five more excerpts, the whole end of the book, bringing Lucretius to thirty.',
+          'First the things people say at a funeral - no happy house will welcome you, no wife, no children running to snatch a kiss - quoted in full and then answered with the one line the mourners never add: that there is nobody left to miss any of it.',
+          'Then Lucretius stops arguing in his own voice and lets Nature speak. She puts a dilemma to the man who weeps at dying: if life pleased you, leave the table like a guest who has eaten his fill; if it did not, why ask for more of the same? And to an old man who complains she is much ruder, before making the argument that answers the whole book: the past before we were born was nothing to us, and that is the mirror of what comes after.',
+          'Then Sisyphus, who turns out to be a politician: the candidate who asks the people for the rods and the axes, loses, and starts pushing the same stone up the same hill. And finally the closing lines of the book, the restless rich man who leaves the house, races to his villa as though it were on fire, yawns on the doorstep and drives straight back to the city - running from himself, which is the one thing he cannot leave behind.'
+        ],
+        changed: [
+          'In the note on the earlier excerpt where death is called nothing to us, the mention of Nature\'s speech is now a link to the two excerpts that carry it.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Il terzo libro di Lucrezio è finito: altri cinque brani, tutta la parte finale del libro, che portano Lucrezio a trenta.',
+          'Prima le cose che si dicono a un funerale - non ti accoglierà più una casa festosa, né la moglie, né i figli che corrono a strapparti un bacio - citate per intero e poi ribattute con l\'unica frase che chi piange non aggiunge mai: che non è rimasto nessuno a sentirne la mancanza.',
+          'Poi Lucrezio smette di argomentare con la propria voce e lascia parlare la Natura. Pone un dilemma a chi piange davanti alla morte: se la vita ti è piaciuta, alzati da tavola come un convitato che ha mangiato a sazietà; se non ti è piaciuta, perché chiederne ancora dello stesso? E a un vecchio che si lamenta risponde molto più sgarbatamente, prima di fare il ragionamento che risponde a tutto il libro: il tempo prima che nascessimo non è stato nulla per noi, ed è lo specchio di ciò che verrà dopo.',
+          'Poi Sisifo, che si scopre essere un politico: il candidato che chiede al popolo i fasci e le scuri, perde, e ricomincia a spingere lo stesso masso su per la stessa salita. E infine i versi conclusivi del libro, il ricco inquieto che esce di casa, corre alla villa come se fosse in fiamme, sbadiglia sulla soglia e torna subito in città - in fuga da se stesso, l\'unica cosa che non riesce a seminare.'
+        ],
+        changed: [
+          'Nella nota del brano precedente in cui la morte è detta nulla per noi, il rimando al discorso della Natura è ora un collegamento ai due brani che lo contengono.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.14.3', date: '16/09/2026', time: '18:32', tz: 'CEST',
       en: {
         added: [

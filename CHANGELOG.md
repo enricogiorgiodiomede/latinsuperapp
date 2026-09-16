@@ -108,6 +108,47 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.14.4] - 2026-09-16
+
+**LUCRETIUS BOOK III IS COMPLETE AT TEN (+5).** The end of the book: the answer to the mourners, Nature
+speaking twice, Sisyphus at the elections, and the restless man who cannot stay in a room. Lucretius
+**25 -> 30**; bank **509 -> 514**.
+
+### Added
+- **III, vv. 894-911** the funeral lament quoted and answered; *uxor optima* and *dulces nati* as the words of
+  Roman tombstones; the line the mourners never add (vv. 900-901); *cinefactum*, a word found nowhere else;
+  Nagel (1970) and the deprivation account as the modern continuation.
+- **III, vv. 931-951** the prosopopoeia: Nature brings a lawsuit (*iustam intendere litem*), and the dilemma of
+  the full guest (*plenus vitae conviva*, which Horace borrows in *Satires* I.1) against the jar full of holes.
+- **III, vv. 952-977** the second speech, to an old man: *baratre* as comic abuse, *semper aves quod abest,
+  praesentia temnis*, the recycling of matter, and **life held *usu*, not *mancipio*** - use, not ownership.
+  Ends with the symmetry argument in full: the past as the *speculum* of the time after death.
+- **III, vv. 995-1002** Sisyphus as the defeated candidate; the *fasces* and the *secures* explained (the axes
+  came out of the bundles inside the city); the verse climbing and then running downhill, after Odyssey XI.
+- **III, vv. 1053-1075** the close of the book, extended to the sentence end (v. 1070 stops on a semicolon):
+  the *manni*, the villa, the yawn on the threshold, *hoc se quisque modo fugit*, and the cure in the last four
+  verses. Seneca quotes the passage, Horace proverbs it, Pascal rebuilds it as *divertissement*, and a 2014
+  experiment found volunteers shocking themselves rather than sit alone with their thoughts.
+
+### Changed
+- The note on **III, vv. 830-842** pointed forward to Nature's speech by verse number; now that the speech is in
+  the bank, it is a cross-reference to vv. 931-951 and vv. 952-977.
+- `tools/check_verses.js` **now undoes a declared `emend` before matching a verse against the page**, the way
+  `verify.js` already did, and reports a stale one. Without it the single emendation in this release was flagged as
+  a mismatch.
+
+### On the text
+- At **v. 1061** the Latin Library prints a mismatched bracket pair, `[revertit>`, where Perseus prints the word
+  plainly. The app prints *revertit* and records the emendation on the fragment; the note says so.
+- At **v. 966** the mirror prints *baratrum* where Perseus prints *barathrum*, while both print *baratre* at
+  v. 955. The spelling without the *h* is old and the manuscripts disagree, so the page is left as it stands.
+- **vv. 935 and 1001** carry the editors' supplements *[si]* and *[e]*, printed as the source prints them.
+
+Verification: **check_verses 30, 0**; **362 verbatim, 0 mismatched**; `check_sections.js` **145, 0 failed**;
+`check_context.js` **0 on the release**; `lint_register.js` / `lint_ablatives.js` **514, 0**;
+`lint_translations.js` **482, 3** (all pre-existing); `lint_markdown.js` **0 leaking**.
+Cache-bust: `?v=157` -> `?v=158`.
+
 ## [1.14.3] - 2026-09-16
 
 **LUCRETIUS BOOK III, PART 1 (+5), AND THE OLD VARRO AND NEPOS NOTES REWRITTEN.** New work `drn-iii` ("Book III"

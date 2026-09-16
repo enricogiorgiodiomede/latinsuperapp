@@ -18,6 +18,8 @@
  *      either opens the line or follows a single space.
  *   3. Every line, markers removed, is IDENTICAL to the corresponding line of the
  *      cached Latin Library page - same words, same punctuation, same spacing -
+ *      with any `emend` on the fragment put back first, the way verify.js does it,
+ *      so a declared correction of the source is not reported as a mismatch -
  *      and the run of lines is contiguous on the page. No doubled, leading or
  *      trailing spaces.
  *   4. Each translation's blocks are `**a-b.**` ranges (or `**a.**` for one
@@ -94,21 +96,39 @@ for (const author of Object.values(AUTHORS)) {
       clean.forEach((l, i) => {
         if (/ {2}|^ | $/.test(l)) bad.push('verse ' + (from + i) + ' has a doubled, leading or trailing space: ' + JSON.stringify(l));
       });
+      // A declared emendation is undone before the lines are matched, exactly as
+      // verify.js does it: the app prints the corrected reading, the page prints
+      // its own, and the fragment records the pair. Without this, an emended
+      // verse is reported here as a mismatch (v. 1061, the mirror's mismatched
+      // bracket pair "[revertit>", in v1.14.4).
+      let stale = null;
+      const onPage = clean.map((l) => {
+        let t = l;
+        for (const [sourceReading, appReading] of (f.emend || [])) {
+          if (t.indexOf(appReading) >= 0) t = t.split(appReading).join(sourceReading);
+        }
+        return t;
+      });
+      for (const [, appReading] of (f.emend || [])) {
+        if (!clean.some(l => l.indexOf(appReading) >= 0)) stale = appReading;
+      }
+      if (stale) bad.push('stale emendation: the Latin no longer contains ' + JSON.stringify(stale));
+
       let matched = false;
       for (const page of pages) {
         const P = linesOf(page);
-        const hits = P.map((t, j) => (t === clean[0] ? j : -1)).filter(j => j >= 0);
+        const hits = P.map((t, j) => (t === onPage[0] ? j : -1)).filter(j => j >= 0);
         for (const j of hits) {
-          const k = clean.findIndex((t, i) => P[j + i] !== t);
+          const k = onPage.findIndex((t, i) => P[j + i] !== t);
           if (k < 0) { matched = true; break; }
           if (hits.length === 1) {
-            bad.push('verse ' + (from + k) + ' differs from the page:\n      app : ' + JSON.stringify(clean[k]) + '\n      page: ' + JSON.stringify(P[j + k]));
+            bad.push('verse ' + (from + k) + ' differs from the page:\n      app : ' + JSON.stringify(onPage[k]) + '\n      page: ' + JSON.stringify(P[j + k]));
             matched = true;
           }
         }
         if (matched) break;
       }
-      if (!matched) bad.push('the first verse is not a line of the source page: ' + JSON.stringify(clean[0]));
+      if (!matched) bad.push('the first verse is not a line of the source page: ' + JSON.stringify(onPage[0]));
 
       // 4. translation ranges
       for (const lang of ['english', 'italian']) {

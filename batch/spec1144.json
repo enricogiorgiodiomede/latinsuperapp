@@ -1,0 +1,28 @@
+{
+  "_comment": "v1.14.4 - Lucretius, De Rerum Natura Book III, part 2: Nature speaks. Verse ranges resolved by extract_verse.js; the app numbers verses in reading order. 1053-1075 runs to the end of the sentence (v. 1070 closes on a semicolon).",
+  "drn.3.894": [
+    "lucretius3",
+    894,
+    911
+  ],
+  "drn.3.931": [
+    "lucretius3",
+    931,
+    951
+  ],
+  "drn.3.952": [
+    "lucretius3",
+    952,
+    977
+  ],
+  "drn.3.995": [
+    "lucretius3",
+    995,
+    1002
+  ],
+  "drn.3.1053": [
+    "lucretius3",
+    1053,
+    1075
+  ]
+}
