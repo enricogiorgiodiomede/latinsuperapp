@@ -108,6 +108,38 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.14.3] - 2026-09-16
+
+**LUCRETIUS BOOK III, PART 1 (+5), AND THE OLD VARRO AND NEPOS NOTES REWRITTEN.** New work `drn-iii` ("Book III"
+/ "Libro III"). Lucretius **20 -> 25**; bank **504 -> 509**.
+
+### Added
+- **III, vv. 1-13** the second eulogy of Epicurus: *e tenebris tantis*, the swallow and the swans, the bees and the
+  golden sayings; Epicurus unnamed again (the poem names him once only, later in this book).
+- **III, vv. 14-30** the vision: *moenia mundi discedunt*, the homes of the gods translated from the Odyssey, no
+  Acheron anywhere, and *divina voluptas atque horror* as an early description of the sublime.
+- **III, vv. 59-73** greed and ambition fed by the fear of death; vv. 62-63 repeat II, vv. 12-13 (cross-referenced);
+  Sulla’s proscriptions behind *sanguine civili rem conflant*; terror management theory as the modern parallel.
+- **III, vv. 152-160** the symptoms of fear as proof that *animus* and *anima* are bodily; Sappho’s catalogue of the
+  symptoms of love turned into terror; the modern alarm response.
+- **III, vv. 830-842** *Nil igitur mors est ad nos*, with the Hannibalic war as the time before we existed; the first
+  half of the symmetry argument.
+
+### Changed - the oldest notes (the user’s request)
+- **All 11 Varro and all 8 Nepos analyses rewritten in both languages**, from one or two short paragraphs (about
+  700-1,400 characters) to the current five-paragraph shape with a "Where we are" opening and grammar notes
+  (about 1,900-3,400). Three corrections carried over from the old notes: *homo bulla* is a bubble on water, not
+  the amulet worn by Roman boys; Varro wrote about bees roughly eight years before the Georgics, not two centuries;
+  and Nepos’s Eurybiades was the Spartan admiral, not a king (the note now says so). The Cato quotation in
+  De Re Rustica I.2 now glosses the *ager Gallicus*, Ariminum and Picenum, which check_context had flagged.
+- **Cicero is NOT included**: 68 of his excerpts still carry the old two-paragraph notes. Planned for later passes,
+  grouped by work (Catilinarians 31; Pro Archia + Pro Milone 16; Verrines, Philippics, Pro Caelio, In Pisonem 21).
+  **Catullus and Sallust are excluded on the user’s instruction** - their notes will be revised with him.
+
+Verification: **check_verses 25, 0**; **357 verbatim, 0 mismatched**; `check_sections.js` **140, 0**; `check_context.js` **0 on
+the release**; `lint_register.js` / `lint_ablatives.js` **509, 0**; `lint_translations.js` **5, 0**; `lint_markdown.js` **0 leaking**.
+Cache-bust: `?v=153` -> `?v=154`.
+
 ## [1.14.2] - 2026-09-15
 
 **LUCRETIUS BOOK II CLOSED AT 10 (+5), AND AUTHOR-CARD OUTLINES.** Lucretius **15 -> 20**; bank **499 -> 504**.

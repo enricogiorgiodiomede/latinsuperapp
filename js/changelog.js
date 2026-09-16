@@ -12,6 +12,35 @@
 
   var VERSIONS = [
     {
+      v: '1.14.3', date: '16/09/2026', time: 'TBD', tz: 'CEST',
+      en: {
+        added: [
+          'Book III of Lucretius begins, the book on the soul and on death: five excerpts, bringing Lucretius to twenty-five.',
+          'It opens with the second praise of Epicurus - the man who raised a light out of such great darkness - whom Lucretius follows the way a swallow follows swans, feeding on his words as bees feed on flowers. Then the vision that follows: the terrors of the mind scatter, the walls of the world open, the quiet homes of the gods appear, and where the underworld should be there is nothing at all. The sight brings him a godlike pleasure and a shudder at once.',
+          'Then the diagnosis the whole book rests on: greed and ambition, the crimes people commit for money and office, are fed by the fear of death, because poverty feels like standing at the gates of death. Then fear seen from inside the body - sweat, pallor, a stammering tongue, ringing ears, legs giving way - used as proof that mind and body are one thing. And finally the sentence the book exists for: death is nothing to us, no more than the war with Hannibal was, which raged before we were born and never troubled us at all.'
+        ],
+        changed: [
+          'The oldest notes in the app get their turn. Every excerpt of Varro (eleven) and of Cornelius Nepos (eight) still carried the short commentary written when the app was young; all nineteen are rewritten at full length, in English and in Italian, each opening by saying where in the work you are. Varro now comes with the proscription he survived, the twelve farming gods and their festivals, the bird-named speakers of his dialogue on aviaries, the hexagon of the honeycomb and how long it took to prove, and the great ancient quarrel over whether language should follow rules or usage. Nepos comes with the Athens that burned before Salamis, the boy Hannibal at the altar, the letter pushed unread under a cushion at Thebes, the spearhead a dying general would not pull out, and the friend of Cicero who stayed friends with every side in the civil wars. Catullus and Sallust are deliberately left for later.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Comincia il terzo libro di Lucrezio, il libro sull\'anima e sulla morte: cinque brani, che portano Lucrezio a venticinque.',
+          'Si apre con il secondo elogio di Epicuro - l\'uomo che innalzò una luce da tenebre così grandi - che Lucrezio segue come una rondine segue i cigni, nutrendosi delle sue parole come le api si nutrono dei fiori. Poi la visione che ne segue: i terrori dell\'animo si dileguano, le mura del mondo si aprono, appaiono le dimore tranquille degli dèi, e dove dovrebbe esserci l\'oltretomba non c\'è nulla. Lo spettacolo gli dà insieme un piacere divino e un brivido.',
+          'Poi la diagnosi su cui poggia tutto il libro: l\'avidità e l\'ambizione, i delitti che si commettono per il denaro e per le cariche, si nutrono della paura della morte, perché la povertà sembra stare davanti alle porte della morte. Poi la paura vista da dentro il corpo - sudore, pallore, lingua che s\'inceppa, orecchie che ronzano, gambe che cedono - usata come prova che mente e corpo sono una cosa sola. E infine la frase per cui il libro esiste: la morte non è nulla per noi, non più di quanto lo fosse la guerra contro Annibale, che infuriò prima che nascessimo e non ci turbò affatto.'
+        ],
+        changed: [
+          'Tocca alle note più vecchie dell\'app. Ogni brano di Varrone (undici) e di Cornelio Nepote (otto) portava ancora il commento breve scritto quando l\'app era agli inizi; tutti e diciannove sono riscritti per esteso, in italiano e in inglese, e ognuno si apre dicendo in che punto dell\'opera ci si trova. Varrone arriva ora con la proscrizione a cui sopravvisse, i dodici dèi dell\'agricoltura e le loro feste, gli interlocutori con nomi di uccelli del suo dialogo sulle uccelliere, l\'esagono del favo e quanto tempo ci volle per dimostrarlo, e la grande disputa antica se la lingua debba seguire le regole o l\'uso. Nepote arriva con l\'Atene che brucia prima di Salamina, il piccolo Annibale all\'altare, la lettera infilata non letta sotto un cuscino a Tebe, la punta di lancia che un generale morente non volle estrarre, e l\'amico di Cicerone che restò amico di tutte le parti nelle guerre civili. Catullo e Sallustio sono lasciati per dopo, di proposito.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.14.2', date: '15/09/2026', time: '17:52', tz: 'CEST',
       en: {
         added: [

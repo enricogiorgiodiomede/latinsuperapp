@@ -1,0 +1,8 @@
+{
+  "_comment": "v1.14.3 - Lucretius, De Rerum Natura Book III, part 1. Verse ranges, resolved by extract_verse.js; the app numbers verses in reading order.",
+  "drn.3.1": ["lucretius3", 1, 13],
+  "drn.3.14": ["lucretius3", 14, 30],
+  "drn.3.59": ["lucretius3", 59, 73],
+  "drn.3.152": ["lucretius3", 152, 160],
+  "drn.3.830": ["lucretius3", 830, 842]
+}
