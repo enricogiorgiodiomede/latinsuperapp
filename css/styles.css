@@ -1169,3 +1169,88 @@ body.cl-modal-open { overflow: hidden; }
   color: var(--terracotta-deep);
 }
 .vi-title { display: block; font-family: var(--font-serif); font-style: italic; color: var(--ink-soft); }
+
+/* ------------------------------------------------- Analytics consent bar */
+.consent-bar {
+  position: fixed;
+  left: 50%;
+  bottom: 16px;
+  transform: translateX(-50%);
+  z-index: 60;
+  width: calc(100% - 32px);
+  max-width: 720px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 18px;
+  background: var(--parchment);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--deep-red);
+  border-radius: 8px;
+  box-shadow: var(--shadow-lift);
+}
+
+.consent-text {
+  margin: 0;
+  flex: 1;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.consent-actions {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.consent-btn {
+  font-family: inherit;
+  font-size: 0.85rem;
+  padding: 7px 16px;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  cursor: pointer;
+}
+
+.consent-accept {
+  background: var(--terracotta);
+  border-color: var(--terracotta-deep);
+  color: #fff;
+}
+
+.consent-accept:hover { background: var(--terracotta-deep); }
+
+.consent-reject {
+  background: transparent;
+  color: var(--ink-soft);
+}
+
+.consent-reject:hover { background: var(--stone-deep); }
+
+.consent-btn:focus-visible,
+.consent-link:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+.consent-link {
+  font-family: inherit;
+  font-size: inherit;
+  color: var(--gray);
+  background: none;
+  border: 0;
+  padding: 0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.consent-link:hover { color: var(--terracotta); }
+
+@media (max-width: 560px) {
+  .consent-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+  .consent-actions { justify-content: flex-end; }
+}

@@ -140,6 +140,33 @@ Verification: **check_verses 25, 0**; **357 verbatim, 0 mismatched**; `check_sec
 the release**; `lint_register.js` / `lint_ablatives.js` **509, 0**; `lint_translations.js` **5, 0**; `lint_markdown.js` **0 leaking**.
 Cache-bust: `?v=153` -> `?v=154`.
 
+### Follow-up, 2026-09-16: Google Analytics, behind consent
+
+#### Added - `js/analytics.js`, a consent-gated GA4 loader
+- **GA4 property `G-TR2K9JH9ZE`**, wired through a loader rather than Google's raw snippet. The
+  snippet Google hands out loads `gtag.js` on every visit; this one **injects it only after the
+  visitor accepts**, so a visitor who rejects (or never answers) never contacts Google at all. That
+  is stricter than consent mode alone, which still pings Google with storage denied.
+- **The bar** is built in `showBar()`, styled in `css/styles.css` (`.consent-bar`), and rendered in
+  both languages from six new `consent.*` keys in `js/i18n.js`. Reject sits before Accept.
+- **The answer is remembered** in `localStorage` under `latinapp_analytics_consent`
+  (`granted` / `denied`), and a `.consent-link` button in the footer reopens the bar, since a
+  consent that cannot be withdrawn is not a consent. Reads and writes are wrapped in `try/catch`,
+  because `localStorage` throws in some privacy modes; any failure counts as "no answer".
+- **Advertising signals are denied permanently** (`ad_storage`, `ad_user_data`,
+  `ad_personalization`), and only `analytics_storage` is granted.
+- **An empty `MEASUREMENT_ID` disables the whole feature** - no bar, no footer link - rather than
+  asking for consent to nothing. `analytics.js` loads last on every page, after `i18n.js` has
+  booted, and falls back to English if `I18n` is somehow missing.
+
+#### Verified in the browser, both languages
+Before consent: no `googletagmanager` script and no request. Accept: `gtag.js` injected with the ID,
+choice stored, bar closed; on reload it loads with no bar. Reject: `gtag` undefined, nothing fetched,
+footer link still present and reopening the bar. No console errors.
+
+Verification: `verify.js` **357, 0**; `lint_translations.js` **477, 3** (pre-existing);
+`lint_markdown.js` **2690, 0 leaking**. Cache-bust: `?v=154` -> `?v=155`.
+
 ## [1.14.2] - 2026-09-15
 
 **LUCRETIUS BOOK II CLOSED AT 10 (+5), AND AUTHOR-CARD OUTLINES.** Lucretius **15 -> 20**; bank **499 -> 504**.
