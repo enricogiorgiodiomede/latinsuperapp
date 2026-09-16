@@ -39,7 +39,7 @@
 
       // --- analytics consent ---
       'consent.aria': 'Analytics consent',
-      'consent.text': 'This site can use Google Analytics to count visits and see which authors get read. It sets cookies and sends data to Google. Nothing is loaded unless you accept.',
+      'consent.text': 'This site can use Google Analytics to count visits, see which authors get read, and estimate the age, interests and country of its readers. It sets cookies and sends data to Google, which may also use it for advertising profiling. Nothing is loaded unless you accept.',
       'consent.accept': 'Accept',
       'consent.reject': 'Reject',
       'consent.manage': 'Cookies and analytics',
@@ -200,7 +200,7 @@
 
       // --- consenso alle statistiche ---
       'consent.aria': 'Consenso alle statistiche',
-      'consent.text': 'Questo sito può usare Google Analytics per contare le visite e capire quali autori vengono letti. Usa cookie e invia dati a Google. Senza il tuo consenso non viene caricato nulla.',
+      'consent.text': 'Questo sito può usare Google Analytics per contare le visite, capire quali autori vengono letti e stimare età, interessi e provenienza di chi legge. Usa cookie e invia dati a Google, che può usarli anche per profilazione pubblicitaria. Senza il tuo consenso non viene caricato nulla.',
       'consent.accept': 'Accetto',
       'consent.reject': 'Rifiuto',
       'consent.manage': 'Cookie e statistiche',

@@ -7,6 +7,10 @@
  * localStorage so the bar appears once, and a footer link reopens it, because a
  * consent that cannot be withdrawn is not a consent.
  *
+ * Accepting covers the advertising signals too, which is what Google Signals
+ * needs for demographics and cross-device reporting; the bar text says so in
+ * both languages, because consent to something unsaid is not consent.
+ *
  * The bar renders only when MEASUREMENT_ID is set, so an empty ID disables the
  * whole feature rather than asking for consent to nothing.
  */
@@ -42,11 +46,14 @@
     global.dataLayer = global.dataLayer || [];
     function gtag() { global.dataLayer.push(arguments); }
     global.gtag = gtag;
-    // Advertising stays denied for good: this app only ever counts reading.
+    // Everything is granted here because this runs only after Accept, and the
+    // bar says plainly that advertising profiling is part of what is accepted.
+    // The advertising signals are what Google Signals needs for the demographic
+    // and cross-device reports; without them that switch collects nothing.
     gtag('consent', 'default', {
-      ad_storage: 'denied',
-      ad_user_data: 'denied',
-      ad_personalization: 'denied',
+      ad_storage: 'granted',
+      ad_user_data: 'granted',
+      ad_personalization: 'granted',
       analytics_storage: 'granted'
     });
     gtag('js', new Date());

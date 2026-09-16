@@ -167,6 +167,24 @@ footer link still present and reopening the bar. No console errors.
 Verification: `verify.js` **357, 0**; `lint_translations.js` **477, 3** (pre-existing);
 `lint_markdown.js` **2690, 0 leaking**. Cache-bust: `?v=154` -> `?v=155`.
 
+#### Changed - the advertising consent signals are granted, for demographics
+The user asked for the demographic reports as well, so `ad_storage`, `ad_user_data` and
+`ad_personalization` go from `denied` to `granted` in `loadGA()`. **Google Signals is what produces
+age, interests and cross-device reporting, and it reads exactly those three signals**: with them
+denied, switching it on in the GA4 admin would have collected nothing. Enabling it in the property
+is a step only the account owner can take.
+
+**The bar text changed with it, in both languages.** It now says the reader's age, interests and
+country may be estimated, and that Google may use the data for advertising profiling. Consent to
+something unsaid is not consent, so the disclosure had to grow with what is being asked. Two
+consequences worth recording: more visitors will reject, and GA4 hides rows in demographic reports
+when the numbers are small, so a low-traffic day can show less detail rather than more.
+
+Verification: `verify.js` **357, 0**; `lint_translations.js` **477, 3** (pre-existing);
+`lint_markdown.js` **2690, 0 leaking**. Checked in the browser in both languages: the new wording
+renders, Accept grants all four signals, Reject still fetches nothing. Cache-bust: `?v=155` ->
+`?v=156`.
+
 ## [1.14.2] - 2026-09-15
 
 **LUCRETIUS BOOK II CLOSED AT 10 (+5), AND AUTHOR-CARD OUTLINES.** Lucretius **15 -> 20**; bank **499 -> 504**.
