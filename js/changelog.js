@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.14.4', date: '16/09/2026', time: 'TBD', tz: 'CEST',
+      v: '1.14.4', date: '16/09/2026', time: '19:12', tz: 'CEST',
       en: {
         added: [
           'Book III of Lucretius is finished: five more excerpts, the whole end of the book, bringing Lucretius to thirty.',
