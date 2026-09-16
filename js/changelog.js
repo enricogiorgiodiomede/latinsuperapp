@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.14.5', date: '16/09/2026', time: 'TBD', tz: 'CEST',
+      v: '1.14.5', date: '16/09/2026', time: '22:14', tz: 'CEST',
       en: {
         added: [
           'Lucretius opens Book IV, the book about how we know anything at all: five excerpts, taking him to thirty-five.',
