@@ -1,0 +1,28 @@
+{
+  "_comment": "v1.14.6 - Lucretius, De Rerum Natura Book IV, part 2: the attack on love. Verse ranges resolved by extract_verse.js; the app numbers verses in reading order. 1058-1078 runs to the end of the sentence (the plan said 1076, which stops at \"tempore in ipso\").",
+  "drn.4.1058": [
+    "lucretius4",
+    1058,
+    1078
+  ],
+  "drn.4.1121": [
+    "lucretius4",
+    1121,
+    1140
+  ],
+  "drn.4.1149": [
+    "lucretius4",
+    1149,
+    1170
+  ],
+  "drn.4.1192": [
+    "lucretius4",
+    1192,
+    1208
+  ],
+  "drn.4.1278": [
+    "lucretius4",
+    1278,
+    1287
+  ]
+}

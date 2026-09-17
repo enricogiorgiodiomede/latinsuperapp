@@ -12,6 +12,39 @@
 
   var VERSIONS = [
     {
+      v: '1.14.6', date: '17/09/2026', time: 'TBD', tz: 'CEST',
+      en: {
+        added: [
+          'Book IV of Lucretius is finished: five more excerpts, all of them the long attack on love that closes the book, bringing Lucretius to forty.',
+          'It begins with the drop of Venus\'s sweetness that falls into the heart and the cold anxiety that follows it at once, with the warning that being apart does not help, because the images of the person keep arriving anyway. Lucretius calls love a sore that comes alive by being fed, and prescribes a cure almost no reader accepts.',
+          'Then the bill: strength spent, duties neglected, a father\'s fortune turning into Babylonian perfume and transparent silk from Cos - and in the middle of it the most quoted line of the poem, that out of the very fountain of delights something bitter rises. Then the catalogue of what lovers call each other, the funniest and the cruellest page in the poem, where the filthy woman is "unadorned" and the skeletal one "a slender darling".',
+          'Then, twenty lines later, the passage that complicates all of it: a woman\'s desire is real and the pleasure belongs to both, proved from animals and from two dogs at a crossroads who cannot get apart. And the book ends quietly, with no arrows and no goddess: love is put together by habit, the way water dripping on a stone bores through it in the end.'
+        ],
+        changed: [
+          'The note on the oars and the moving stars now ends with a long footnote on the ships (IV, vv. 387-396), a passage that is not one of the app\'s excerpts: Lucretius\'s own version of the two trains at a platform, with the hills that seem to flee towards the stern and the stars that look nailed to the sky. It is there to keep two things apart that are easily confused - the relativity of motion, which is a fact and deceives nobody, and the decision perception makes on top of it, which is where the error lives.',
+          'The second Catilinarian gets its notes rewritten at length, the second instalment of the pass through Cicero\'s older excerpts. All seven now carry the history as well as the rhetoric: what Catiline actually did the night he left Rome; the debtors and ruined veterans behind the parade of grotesques; Pompey, unnamed, standing behind "the courage of one man"; the charge of expelling a citizen without trial, which cost Cicero his house five years later; the sleeved tunic that was thrown at Julius Caesar too; why recasting a civil war as a war between virtues and vices has had such a long career; and the statue of Jupiter that was put up, by chance, on the very day the conspirators\' letters were read out.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Il quarto libro di Lucrezio è finito: altri cinque brani, tutti tratti dal lungo attacco all\'amore che chiude il libro, e Lucrezio arriva a quaranta.',
+          'Si comincia dalla goccia di dolcezza di Venere che cade nel cuore e dalla gelida inquietudine che la segue subito, con l\'avvertimento che stare lontani non serve, perché i simulacri della persona continuano ad arrivare lo stesso. Lucrezio chiama l\'amore un\'ulcera che si ravviva se la nutri, e prescrive una cura che quasi nessun lettore accetta.',
+          'Poi il conto: le forze consumate, i doveri trascurati, il patrimonio del padre che si trasforma in profumo di Babilonia e seta trasparente di Cos - e in mezzo il verso più citato del poema, che dal mezzo stesso della fonte dei piaceri sale qualcosa di amaro. Poi il catalogo di come si chiamano tra loro gli innamorati, la pagina più divertente e più crudele del poema, dove la donna sporca è "senza artifici" e quella scheletrica "un\'amante sottile".',
+          'Poi, venti versi più avanti, il passo che complica tutto: il desiderio della donna è reale e il piacere è di tutti e due, dimostrato con gli animali e con due cani a un crocicchio che non riescono a staccarsi. E il libro finisce in silenzio, senza frecce e senza dee: l\'amore lo mette insieme l\'abitudine, come l\'acqua che gocciola su una pietra alla fine la fora.'
+        ],
+        changed: [
+          'La nota sui remi e sulle stelle che si muovono si chiude ora con una lunga nota a margine sulle navi (IV, vv. 387-396), un passo che non è tra i brani dell\'app: la versione di Lucrezio stesso dei due treni sul binario, con i colli che sembrano fuggire verso la poppa e le stelle che paiono inchiodate al cielo. Serve a tenere distinte due cose che si confondono facilmente: la relatività del movimento, che è un fatto e non inganna nessuno, e la decisione che la percezione ci costruisce sopra, dove invece l\'errore abita.',
+          'La seconda Catilinaria riceve note riscritte per esteso, secondo capitolo della revisione dei brani più vecchi di Cicerone. Tutte e sette portano ora la storia oltre alla retorica: che cosa fece davvero Catilina la notte in cui lasciò Roma; gli indebitati e i veterani rovinati dietro la sfilata di grotteschi; Pompeo, non nominato, dietro "il valore di un uomo solo"; l\'accusa di aver espulso un cittadino senza processo, che cinque anni dopo costò a Cicerone la casa; la tunica con le maniche che fu rinfacciata anche a Giulio Cesare; perché trasformare una guerra civile in una guerra tra virtù e vizi abbia avuto una carriera così lunga; e la statua di Giove che fu innalzata, per caso, proprio il giorno in cui furono lette le lettere dei congiurati.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.14.5', date: '17/09/2026', time: '22:42', tz: 'CEST',
       en: {
         added: [

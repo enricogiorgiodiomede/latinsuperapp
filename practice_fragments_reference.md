@@ -19,7 +19,7 @@ v1.0.0 I.80-101 counts toward the 60. The user's picks are starred.
 - **Book I (DONE, v1.14.0)**: ★1-20 · ★21-43 · ★50-61 · ★62-79 · 80-101 · 136-145 · ★146-158 · 311-321 · 926-950 · 968-983
 - **Book II (DONE at 10: v1.14.1 + v1.14.2)**: ★1-13 · 14-33 · 112-124 · 216-224 · 251-262 · **part 2 (v1.14.2):** 352-366 · 646-659, 680 (v. 680 transposed) · 991-1012 (extended to the sentence end) · 1023-1039 (the note in De Natura Deorum II.95 links here; **REMOVE CONDITION, the user: its 'What comes next' paragraph summarises vv. 1040-1066 - delete it, both languages, if that passage is ever added**) · 1164-1174
 - **Book III (DONE at 10: v1.14.3 + v1.14.4; follow-up notes on part 2: grief is allowed but must end, death as release (Williams 1973), Epicurus's three kinds of desire + The Lorax as a thematic companion, *taedium vitae*; *pectus* is the chest, not the breast; part 2 = 894-911, 931-951, 952-977, 995-1002, 1053-1075, the last extended to the sentence end; follow-up notes: *haedi* are young goats, never "kids"; the hymn to Venus and the second eulogy of Epicurus are paired aretalogies, the user's reading, split across 1-13 and 14-30 - keep the halves together if either is ever rewritten)**: ★1-13 · ★14-30 (*E tenebris tantis* split) · 59-73 · 152-160 · ★830-842 · 894-911 · ★931-951 · ★952-977 (Nature's prosopopoeia split) · 995-1002 · 1053-1075
-- **Book IV (part 1 DONE, v1.14.5: 353-363, 436-446, 469-477, 823-842, 962-986; v. 823 emended, see the CHANGELOG)**: 353-363 · 436-446 · 469-477 · 823-842 · 962-986 · ★1058-1076 · ★1121-1140 (love as a pathology; **cross-ref Tusculanae Disputationes IV.68-69 both ways**) · 1149-1170 · 1192-1208 · 1278-1287
+- **Book IV (DONE at 10: v1.14.5 + v1.14.6; part 2 = 1058-1078 (the plan said 1076, which stops mid-sentence), 1121-1140, 1149-1170, 1192-1208, 1278-1287; the Tusculanae IV.68-69 cross-link is wired BOTH ways; vv. 387-396, the ships, are a FOOTNOTE inside the vv. 436-446 note and deliberately not an excerpt) (part 1 was v1.14.5: 353-363, 436-446, 469-477, 823-842, 962-986; v. 823 emended, see the CHANGELOG)**: 353-363 · 436-446 · 469-477 · 823-842 · 962-986 · ★1058-1076 · ★1121-1140 (love as a pathology; **cross-ref Tusculanae Disputationes IV.68-69 both ways**) · 1149-1170 · 1192-1208 · 1278-1287
 - **Book V**: 1-12 · 222-234 · 837-854 · 925-944 · 1011-1027 · 1120-1135 · ★1161-1182 · ★1183-1203 (how religion began; Cicero note links to 1198-1203) · 1218-1240 · 1448-1457
 - **Book VI**: 9-23 · 387-399 · 647-652 · 738-748 · 906-916 (the magnet; Cicero note links here) · ★1138-1159 · ★1172-1196 · ★1230-1251 · ★1252-1271 · ★1272-1286 (the plague, trimmed and split). If the plague shrinks to four, add VI.68-79.
 
@@ -229,9 +229,9 @@ Source: The Latin Library, `nepos/nepos.*.shtml` (each Life its own page; `[N]` 
 
 **OLD SHORT NOTES, STILL TO LENGTHEN (the user, 16/09/2026).** The early analyses are one or two short paragraphs;
 the current shape is five paragraphs with a `Where we are` opening and grammar notes. **Varro (11) and Nepos (8)
-were rewritten in v1.14.3.** **In Catilinam I (10) was done in v1.14.5** - each note kept its rhetorical analysis and gained a
-paragraph of history or aftermath and a paragraph of grammar, which is the pattern for the rest. **58 Cicero notes
-remain**, a work at a time: In Catilinam II, III, IV (21), Pro Archia + Pro Milone (16), then Verrines + Philippics +
+were rewritten in v1.14.3.** **In Catilinam I (10) was done in v1.14.5 and In Catilinam II (7) in v1.14.6** - each note kept its rhetorical analysis and gained a
+paragraph of history or aftermath and a paragraph of grammar, which is the pattern for the rest. **51 Cicero notes
+remain**, a work at a time: In Catilinam III and IV (14), Pro Archia + Pro Milone (16), then Verrines + Philippics +
 Pro Caelio + In Pisonem (21 minus what is done), plus Ad Atticum I.16 and De Amicitia 20. **Catullus and Sallust are excluded on the user's instruction** - their
 notes get revised together with him when those authors are worked on.
 ## Marcus Tullius Cicero (`marcus-tullius-cicero`) - needsSelection, NESTED chooser [Speeches: v1.5.0 2026-08-18, split + top-up v1.6.0 2026-08-20]

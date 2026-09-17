@@ -108,6 +108,46 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.14.6] - 2026-09-17
+
+**LUCRETIUS BOOK IV IS COMPLETE AT TEN (+5), AND THE SECOND CICERO PASS.** The attack on love, from the drop of
+sweetness to the drop of water. Lucretius **35 -> 40**; bank **519 -> 524**.
+
+### Added
+- **IV, vv. 1058-1078** the diagnosis: *haec Venus est nobis*, the *frigida cura* that follows the sweetness, the
+  *simulacra* that keep arriving in the beloved's absence, *ulcus ... alendo*, and the Epicurean claim that the
+  pleasure of the sound is purer. **The plan said 1058-1076, which stops mid-sentence; extended to v. 1078.**
+- **IV, vv. 1121-1140** the bill: the luxury inventory (Babylon, Sicyon, emeralds, sea-purple, Coan silk), the
+  *patrimonium* dissolving, *medio de fonte leporum surgit amari aliquid*, and the anatomy of jealousy.
+- **IV, vv. 1149-1170** the euphemism catalogue, with the Greek pet-names glossed, Plato's version of the joke in
+  *Republic* V, and **the misogyny named as Lucretius's own**; beside it, modern work on positive illusions in
+  relationships, which finds the same effect and judges it the opposite way.
+- **IV, vv. 1192-1208** the concession: female desire is real, the pleasure *communis*, proved from animals and the
+  dogs at the crossroads, and load-bearing for his two-seed theory against Aristotle.
+- **IV, vv. 1278-1287** the close: no arrows, *consuetudo concinnat amorem*, and the drop that hollows the stone -
+  the same physics of small repeated blows as the tower in IV, vv. 353-363.
+
+### Changed
+- **IV, vv. 436-446 gains a long footnote on IV, vv. 387-396** (the user's request): the ships, the fleeing hills
+  and the seemingly fixed stars, quoted with translation, and the passage is marked as NOT one of the app's
+  excerpts. Its point is to separate the relativity of motion (a fact, deceiving nobody) from the assignment
+  perception makes on top of it (where the error lives, and *opinio* makes it).
+- **Tusculanae Disputationes IV.68-69 now names the five Lucretius excerpts** in both languages, so the
+  cross-reference runs both ways, as the plan required.
+- **All seven In Catilinam II notes extended**, from about 1,000-1,500 characters to 2,650-3,300, on the pattern set
+  in v1.14.5: the existing rhetorical analysis kept, a paragraph of history or aftermath and a paragraph of grammar
+  added. **51 Cicero notes remain.** Catullus and Sallust stay excluded (the user).
+
+### Corrections made before release
+- `lint_markdown.js` caught two bold-around-italic spans (*patrimonium*); `check_sections.js` caught six places where
+  a translation stopped on a full stop and the Latin ran on over a semicolon, all rejoined; `check_context.js` caught
+  three names the Latin carries and the notes never mentioned (*Alidensia*, *Venerem*, *Saturast*), now glossed.
+
+Verification: **check_verses 40, 0**; **372 verbatim, 0 mismatched**; `check_sections.js` **155, 3 to look at**
+(all pre-existing); `check_context.js` **0 on the release**; `lint_register.js` / `lint_ablatives.js` **524, 0**;
+`lint_markdown.js` **0 leaking**; `lint_translations.js` **6 to look at**, read and judged (dense verse, nothing rendered
+that the Latin does not contain). Cache-bust: `?v=161` -> `?v=162`.
+
 ## [1.14.5] - 2026-09-16
 
 **LUCRETIUS BOOK IV, PART 1 (+5), AND THE FIRST CICERO NOTES PASS.** New work `drn-iv` ("Book IV" / "Libro IV").
