@@ -149,6 +149,37 @@ Verification: **check_verses 35, 0**; **367 verbatim, 0 mismatched**; `check_sec
 excerpts at 1.43 and 1.45, read and judged: dense verse, nothing rendered that the Latin does not contain.
 Cache-bust: `?v=159` -> `?v=160`.
 
+
+### Follow-up, 2026-09-17: the user's notes on Book IV, part 1
+
+No new excerpts, no version bump. Notes added in both languages:
+
+- **IV, vv. 353-363**: how little the theory has to invent - *simulacra* are matter, the eye is matter, sight is the
+  two meeting - and how the same account covers hearing, smell, taste and touch with no new principle.
+- **IV, vv. 436-446**: **the train example elaborated, as the user asked.** The eye only ever measures a changing
+  gap, so nothing in the image says which body moves: that is the relativity of motion, and physically both
+  descriptions fit. The brain then takes the larger surrounding field as the thing at rest and hands the motion to
+  what is inside it, and, unlike physics, commits. **And Lucretius wrote the same example first**: at vv. 387-388,
+  forty-eight lines earlier, *qua vehimur navi, fertur, cum stare videtur; quae manet in statione, ea praeter
+  creditur ire* - two ships in a harbour are two trains at a platform - with the fleeing hills and the seemingly
+  fixed stars in the same stretch.
+- **IV, vv. 469-477**: the attack set out as a dilemma (true, and he refutes himself; false, and something is
+  knowable), the Greek name for the move, *peritrope*, Plato using it against Protagoras, and why the Pyrrhonists
+  learned to suspend judgement rather than assert that nothing is knowable.
+- **IV, vv. 823-842**: **the flat "arguing against design, not for adaptation" paragraph is replaced.** Two
+  denials are now separated: design, and any traffic from use back to organ. His positive thesis, *quod natumst id
+  procreat usum* - the organ turns up and the use is found afterwards - is right and has never needed revising; what
+  he shuts out is the feedback that natural selection supplies, so Book V's creatures that die out are half a
+  mechanism with the other half missing.
+- **IV, vv. 962-986**: the mechanism stated plainly - a mind with nothing to do goes on reading the same
+  *simulacra*, so a dream is a re-reading and not a message - beside what memory research calls reactivation or
+  replay, the same cells firing again afterwards. The same structure with atoms where we put neurons.
+
+Verification: **check_verses 35, 0**; **367 verbatim, 0 mismatched**; `check_sections.js` **150, 3 to look at**
+(all pre-existing); `check_context.js` **0 on the release**; `lint_register.js` / `lint_ablatives.js` **519, 0**;
+`lint_markdown.js` **0 leaking**. `batch/frags1145.js` kept in step with the bank (20 of 20 fields identical).
+Cache-bust: `?v=160` -> `?v=161`.
+
 ## [1.14.4] - 2026-09-16
 
 **LUCRETIUS BOOK III IS COMPLETE AT TEN (+5).** The end of the book: the answer to the mourners, Nature
