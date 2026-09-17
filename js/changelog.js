@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.14.6', date: '17/09/2026', time: 'TBD', tz: 'CEST',
+      v: '1.14.6', date: '17/09/2026', time: '23:47', tz: 'CEST',
       en: {
         added: [
           'Book IV of Lucretius is finished: five more excerpts, all of them the long attack on love that closes the book, bringing Lucretius to forty.',
