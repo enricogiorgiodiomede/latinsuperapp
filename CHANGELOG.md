@@ -108,6 +108,45 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.14.7] - 2026-09-18
+
+**LUCRETIUS BOOK V, PART 1 (+5), AND THE THIRD CICERO PASS.** New work `drn-v` ("Book V" / "Libro V").
+Lucretius **40 -> 45**; bank **524 -> 529**.
+
+### Added
+- **V, vv. 1-12** the third eulogy: *deus ille fuit, deus*, with godhood redefined as a state rather than a power,
+  and the storm-to-calm image joined to I, vv. 62-79, II, vv. 1-13 and III, vv. 1-13. Memmius gets the paragraph he
+  has been owed since Book I, including the fact that he later nearly built over Epicurus's house in Athens.
+- **V, vv. 222-234** the newborn cast ashore: the argument from imperfection, *crepitacillis* (a double diminutive
+  found nowhere else), and the modern answer - human helplessness is the price of the brain.
+- **V, vv. 837-854** the failed creatures, with Empedocles behind them, and the list of what it takes to keep a
+  line going (food, seed, mating). **Stated plainly as NOT natural selection**: no inheritance, no variation, no
+  gradual accumulation.
+- **V, vv. 925-944** the first humans, tougher and poorer, with neither a golden age nor a fall; the acorns and the
+  arbutus, and the skeletal evidence that pre-farming bodies really were taller and healthier.
+- **V, vv. 1011-1027** the first compacts: *nec laedere nec violari*, the Epicurean theory of justice as mutual
+  advantage, the oldest ancestor of the social contract, and the first moral rule in the poem - pity for the weak,
+  signalled by gesture because language did not exist yet.
+
+### Changed
+- **IV, vv. 1149-1170 gains a note on v. 1159** (the user's request): everyone in the scene is in love and sees it
+  only in somebody else, so the line is a trap for the reader who has been laughing; why unseen troubles are the
+  worst; the Epicurean practice of *parrhesia* (Philodemus wrote a treatise on it) and the modern bias blind spot.
+- **All seven In Catilinam III notes extended** on the pattern of v1.14.5 and v1.14.6. **44 Cicero notes remain.**
+
+### Tooling - the lacuna at V, vv. 1012-1013
+- The Latin Library prints a row of asterisks between v. 1012 and v. 1013, where the manuscripts lose a line or
+  more, and `extract_verse.js` refused the range as a broken run. **Three tools now carry a lacuna through the
+  pipeline**: the extractor emits the app's `[...]` mark for a gap the page itself marks (any other break still
+  fails), `apply_batch.js` gives that line no verse number so the count runs straight through it, and
+  `check_verses.js` matches the runs either side of it in order. `verify.js` already split on the same mark.
+  Both translations carry the gap in the same place, and the note says what is missing and what editors guess.
+
+Verification: **check_verses 45, 0**; **377 verbatim, 0 mismatched** (the lacuna fragment reported as 2 pieces);
+`check_sections.js` **160, 3 to look at** (all pre-existing); `check_context.js` **0 on the release**;
+`lint_register.js` / `lint_ablatives.js` **529, 0**; `lint_markdown.js` **0 leaking** (two caught and fixed before
+commit). Cache-bust: `?v=163` -> `?v=164`.
+
 ## [1.14.6] - 2026-09-17
 
 **LUCRETIUS BOOK IV IS COMPLETE AT TEN (+5), AND THE SECOND CICERO PASS.** The attack on love, from the drop of

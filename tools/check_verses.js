@@ -71,7 +71,19 @@ for (const author of Object.values(AUTHORS)) {
       verseNo.push(...extras);
       const to = verseNo[verseNo.length - 1];
       const bad = [];
-      const lines = f.latin.split('\n').map(l => l.replace(/^> /, ''));
+      // A `[...]` line marks a gap the SOURCE prints - a lacuna the manuscripts
+      // leave, shown on the page as a row of asterisks (Book V, between vv. 1012
+      // and 1013). It is not a verse: it is not counted and not numbered, and it
+      // splits the page match into runs, the way verify.js splits a trimmed
+      // fragment on the same mark.
+      const rawLines = f.latin.split('\n').map(l => l.replace(/^> /, ''));
+      const gapAfter = new Set();                    // index into `lines`
+      const lines = [];
+      for (const l of rawLines) {
+        if (l.trim() === '[...]') { gapAfter.add(lines.length - 1); continue; }
+        lines.push(l);
+      }
+      if (gapAfter.has(-1)) bad.push('the excerpt opens on a [...] gap mark');
 
       // 1. line count
       if (lines.length !== verseNo.length) bad.push('the Latin has ' + lines.length + ' lines for ' + verseNo.length + ' verses');
@@ -115,6 +127,34 @@ for (const author of Object.values(AUTHORS)) {
       if (stale) bad.push('stale emendation: the Latin no longer contains ' + JSON.stringify(stale));
 
       let matched = false;
+      if (gapAfter.size) {
+        // With a lacuna in the middle, the excerpt is several unbroken runs that
+        // must appear on the page IN ORDER, with the source's own gap mark
+        // between them. Each run is matched whole; nothing may be reordered.
+        let unfound = null;
+        const runs = [];
+        let cur = [];
+        onPage.forEach((l, i) => { cur.push(l); if (gapAfter.has(i)) { runs.push(cur); cur = []; } });
+        if (cur.length) runs.push(cur);
+        for (const page of pages) {
+          const P = linesOf(page);
+          let at = 0, ok = true, failed = null;
+          for (const run of runs) {
+            let found = -1;
+            for (let j = at; j + run.length <= P.length; j++) {
+              if (run.every((t, k) => P[j + k] === t)) { found = j; break; }
+            }
+            if (found < 0) { ok = false; failed = run[0]; break; }
+            at = found + run.length;
+          }
+          if (ok) { matched = true; break; }
+          if (failed) unfound = failed;
+        }
+        if (!matched) {
+          bad.push('the runs either side of the gap are not on the page in order' +
+            (unfound ? ', starting at ' + JSON.stringify(unfound) : ''));
+        }
+      } else
       for (const page of pages) {
         const P = linesOf(page);
         const hits = P.map((t, j) => (t === onPage[0] ? j : -1)).filter(j => j >= 0);
@@ -128,7 +168,7 @@ for (const author of Object.values(AUTHORS)) {
         }
         if (matched) break;
       }
-      if (!matched) bad.push('the first verse is not a line of the source page: ' + JSON.stringify(onPage[0]));
+      if (!matched && !gapAfter.size) bad.push('the first verse is not a line of the source page: ' + JSON.stringify(onPage[0]));
 
       // 4. translation ranges
       for (const lang of ['english', 'italian']) {

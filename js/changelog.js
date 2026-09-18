@@ -12,6 +12,39 @@
 
   var VERSIONS = [
     {
+      v: '1.14.7', date: '18/09/2026', time: 'TBD', tz: 'CEST',
+      en: {
+        added: [
+          'Lucretius opens Book V, the history of the world: five excerpts, taking him to forty-five.',
+          'It begins with the boldest thing he ever says about his teacher - he was a god, a god - on the grounds that the old gods were called divine for giving us grain and wine, while Epicurus took away the fear that ruins a life. Then the proof that the world was not built for us: a newborn lies on the ground like a sailor thrown ashore by a storm, naked and helpless and crying, while every animal grows up needing no rattles, no nurses, no clothes and no walls.',
+          'Then the creatures the young earth tried to make and failed: things with no feet, no hands, no mouth, no face, which could not feed themselves or mate, and so were never heard of again. Then the first human beings - bigger-boned and harder to kill than us, wandering without farming or iron, living on acorns and arbutus berries, in a world that is neither a golden age nor a fall.',
+          'And finally the moment society begins: huts, skins, fire, a couple, children, and then neighbours agreeing not to harm one another and asking that the weak be pitied, stammering it out in gestures because words had not been invented yet. Lucretius adds, drily, that the agreement never held for everyone - only for enough of them, or none of us would be here.'
+        ],
+        changed: [
+          'The note on the lovers\' euphemisms in Book IV now explains what its sharpest line means: they never look at their own troubles, which are the worst of all. Everyone in that scene is in love and can see it perfectly in somebody else, which is a trap laid for the reader who has just been laughing. The Epicureans had a practical answer - frank speech between friends, because nobody can audit their own mind - and modern psychology has a name for the same asymmetry.',
+          'The third Catilinarian gets its notes rewritten at length, the third instalment of the pass through Cicero\'s older excerpts. All seven now carry the history as well as the rhetoric: the title of father of the fatherland, voted two days later, and the line of self-praise that was quoted against him for centuries; who the Allobroges were and why they informed; Lentulus, an expelled ex-consul who believed a prophecy had named him; how a sealed letter worked as evidence; what a public thanksgiving meant and why one for a man in a toga was unheard of; how much of the famous coincidence with the statue of Jupiter was probably arranged; and the fact that the memory he asked for was preserved by the one thing he called insufficient.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Lucrezio apre il quinto libro, la storia del mondo: cinque brani, che lo portano a quarantacinque.',
+          'Si comincia con la cosa più audace che abbia mai detto del suo maestro - fu un dio, un dio - con questa ragione: gli dèi antichi furono detti divini per averci dato il grano e il vino, mentre Epicuro ha tolto la paura che rovina una vita. Poi la prova che il mondo non è stato costruito per noi: un neonato giace a terra come un marinaio gettato a riva dalla tempesta, nudo, inerme e in lacrime, mentre ogni animale cresce senza bisogno di sonagli, di balie, di vestiti e di mura.',
+          'Poi le creature che la terra giovane provò a fare e sbagliò: esseri senza piedi, senza mani, senza bocca, senza volto, incapaci di nutrirsi o di accoppiarsi, e perciò mai più visti. Poi i primi esseri umani: ossa più grandi e più difficili da abbattere delle nostre, erranti senza agricoltura né ferro, nutriti di ghiande e corbezzoli, in un mondo che non è né un\'età dell\'oro né una caduta.',
+          'E infine il momento in cui nasce la società: capanne, pelli, fuoco, una coppia, dei figli, e poi dei vicini che si accordano per non farsi del male e chiedono che si abbia pietà dei deboli, dicendolo a gesti e balbettando perché le parole non erano ancora state inventate. Lucrezio aggiunge, asciutto, che quell\'accordo non fu mai rispettato da tutti: solo da abbastanza di loro, altrimenti nessuno di noi sarebbe qui.'
+        ],
+        changed: [
+          'La nota sui vezzeggiativi degli innamorati nel quarto libro spiega ora che cosa significhi il suo verso più tagliente: non guardano mai ai propri guai, che sono i peggiori di tutti. Nella scena sono innamorati tutti e ognuno lo vede benissimo nell\'altro, il che è una trappola tesa al lettore che ha appena riso. Gli epicurei avevano una risposta pratica - la franchezza tra amici, perché nessuno può fare la revisione della propria mente - e la psicologia moderna ha un nome per la stessa asimmetria.',
+          'La terza Catilinaria riceve note riscritte per esteso, terzo capitolo della revisione dei brani più vecchi di Cicerone. Tutte e sette portano ora la storia oltre alla retorica: il titolo di padre della patria, votato due giorni dopo, e il verso di autoelogio che gli fu rinfacciato per secoli; chi erano gli Allobrogi e perché denunciarono; Lentulo, ex console espulso dal senato, convinto che una profezia lo avesse designato; come una lettera sigillata funzionava da prova; che cosa fosse un ringraziamento pubblico e perché fosse inaudito per un uomo in toga; quanto della famosa coincidenza con la statua di Giove fosse probabilmente organizzato; e il fatto che la memoria da lui richiesta sia stata conservata dall\'unica cosa che aveva dichiarato insufficiente.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.14.6', date: '18/09/2026', time: '18:42', tz: 'CEST',
       en: {
         added: [

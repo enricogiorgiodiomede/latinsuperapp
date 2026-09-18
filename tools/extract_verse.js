@@ -129,14 +129,23 @@ for (const [key, entry] of Object.entries(spec)) {
   }
   if (!at.length) { bad++; continue; }
   const lo = Math.min(...at), hi = Math.max(...at);
-  if (hi - lo !== to - from) {
-    out[key] = 'ERR verses ' + from + '-' + to + ' do not form one unbroken run on the page (a lacuna, a stray line, or a reordering across the boundary)';
+  // The run may be broken ONLY by a lacuna the page itself marks with a row of
+  // asterisks (Book V, between vv. 1012 and 1013): the manuscripts lose lines
+  // there, editors print the gap, and the verse numbering runs straight through
+  // it. Those lines come out as the app's `[...]` mark, which apply_batch does
+  // not number, check_verses matches around, and verify splits on. Any OTHER
+  // break - a stray line, a reordering across the boundary - still fails.
+  const span = lines.slice(lo, hi + 1);
+  const gaps = span.filter(v => v.lacuna).length;
+  if (hi - lo - gaps !== to - from) {
+    out[key] = 'ERR verses ' + from + '-' + to + ' do not form one unbroken run on the page (a stray line, or a reordering across the boundary)';
     bad++; continue;
   }
-  const taken = lines.slice(lo, hi + 1);
-  out[key] = taken.map(v => v.text).join('\n');
-  out[key + '#n'] = taken.map(v => v.n);
-  const order = taken.map(v => v.n);
+  const taken = span;
+  if (gaps) console.log('   note: the page marks ' + gaps + ' lacuna between these verses; it becomes a [...] line');
+  out[key] = taken.map(v => (v.lacuna ? '[...]' : v.text)).join('\n');
+  out[key + '#n'] = taken.filter(v => !v.lacuna).map(v => v.n);
+  const order = taken.filter(v => !v.lacuna).map(v => v.n);
   if (order.some((n, k) => n !== from + k)) {
     console.log('   note: the page (and the edition) order this excerpt ' +
       order.filter((n, k) => n !== from + k).map(n => n).join(', ') + ' out of sequence: ' + order.join(' '));
@@ -145,6 +154,7 @@ for (const [key, entry] of Object.entries(spec)) {
   const rep = [];
   {
     for (const v of taken) {
+      if (v.lacuna) continue;
       const p = ed.find(l => l.n === String(v.n));
       if (!p) { rep.push('   ' + v.n + ': not in Perseus'); continue; }
       const a = foldLine(v.text), b = foldLine(p.text);

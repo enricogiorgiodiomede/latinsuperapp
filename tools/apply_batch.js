@@ -108,7 +108,14 @@ function verseLayout(item, t) {
   // manuscript numbers extract_verse.js reports as `<key>#n` (Perseus keeps them,
   // so I.1-20 reads 13, 15, 14, 16) are NOT used: v1.14.0 did use them and put
   // `**15.**` on the 14th verse, which the user caught against their book.
-  const nums = lines.map((l, k) => item.from + k);
+  // A `[...]` line is the app's mark for a gap the SOURCE ITSELF prints: a
+  // lacuna the manuscripts leave, which the Latin Library shows as a row of
+  // asterisks (Book V, between vv. 1012 and 1013). It is not a verse, so it
+  // takes no number and the count runs straight through it, which is how a
+  // printed edition numbers across a lacuna. verify.js already splits a
+  // fragment on the same mark, and check_verses.js matches run by run.
+  let vn = 0;
+  const nums = lines.map(l => (l.trim() === '[...]' ? null : item.from + vn++));
   if (nums.length !== lines.length) throw new Error(item.citation + ': line numbers do not match the passage');
   for (const b of item.blocks) {
     const [n, words] = Array.isArray(b) ? b : [b, null];

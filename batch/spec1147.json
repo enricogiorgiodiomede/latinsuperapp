@@ -1,0 +1,28 @@
+{
+  "_comment": "v1.14.7 - Lucretius, De Rerum Natura Book V, part 1: the third eulogy of Epicurus, the world not made for us, the failed creatures, the first humans and the first compacts. Verse ranges resolved by extract_verse.js; the app numbers verses in reading order.",
+  "drn.5.1": [
+    "lucretius5",
+    1,
+    12
+  ],
+  "drn.5.222": [
+    "lucretius5",
+    222,
+    234
+  ],
+  "drn.5.837": [
+    "lucretius5",
+    837,
+    854
+  ],
+  "drn.5.925": [
+    "lucretius5",
+    925,
+    944
+  ],
+  "drn.5.1011": [
+    "lucretius5",
+    1011,
+    1027
+  ]
+}
