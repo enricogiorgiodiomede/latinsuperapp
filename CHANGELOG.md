@@ -148,6 +148,34 @@ Verification: **check_verses 40, 0**; **372 verbatim, 0 mismatched**; `check_sec
 `lint_markdown.js` **0 leaking**; `lint_translations.js` **6 to look at**, read and judged (dense verse, nothing rendered
 that the Latin does not contain). Cache-bust: `?v=161` -> `?v=162`.
 
+
+### Follow-up, 2026-09-18: the user's notes on Book IV, part 2
+
+No new excerpts, no version bump. One translation fix and notes added in both languages:
+
+- **IV, vv. 1121-1140**: *parantur* is now "banquets are being prepared", not "are got ready" (the user).
+- **IV, vv. 1058-1078**: **the four uses of *Venus* in twenty verses** - the act and its pleasure (v. 1058), the
+  sweetness tasted (v. 1059), sex with anyone (*volgivaga*, v. 1071), the pleasure as a good taken without penalty
+  (v. 1073) - and the split in v. 1058 between *Venus*, the appetite, and *Amor*, the fixation on one image.
+  **And which Venus this is NOT**: not the *Aeneadum genetrix* of the proem (I, vv. 1-20, 21-43), the generative
+  force of nature, with the Book II rule about Neptune and Ceres explaining how one name can do both jobs.
+- **IV, vv. 1121-1140**: the ruin reaches past the lover - *officia* are owed to other people and *res* is the
+  *res familiaris* held for those who come after - and the luxury inventory answers none of the body's actual
+  wants (cross-linked to II, vv. 14-33 and the three kinds of desire at III, vv. 952-977). A desire with no
+  natural ceiling cannot be filled by spending, so what is bought is not even the pleasure wanted.
+- **IV, vv. 1149-1170**: where the line falls. Seeing somebody generously is not the error; renaming ugly as
+  beautiful is, because a mind that will do it has stopped reporting the world and started decorating it.
+- **IV, vv. 1192-1208**: the door the diatribe leaves open - the Epicurean gives up the obsession and not the
+  pleasure - with a forward pointer to the last excerpt for how that works over a lifetime.
+- **IV, vv. 1278-1287**: the two loves set against each other, one that happens to you and one that is made
+  slowly, and only the second livable for an Epicurean; cross-referenced back to vv. 1192-1208, since the user
+  is right that the two passages carry one message between them.
+
+Verification: **check_verses 40, 0**; **372 verbatim, 0 mismatched**; `check_sections.js` **155, 3 to look at**
+(all pre-existing); `check_context.js` **0 on the release**; `lint_register.js` / `lint_ablatives.js` **524, 0**;
+`lint_markdown.js` **0 leaking** (two bold-around-italic spans caught in the draft and fixed before applying).
+`batch/frags1146.js` kept in step with the bank. Cache-bust: `?v=162` -> `?v=163`.
+
 ## [1.14.5] - 2026-09-16
 
 **LUCRETIUS BOOK IV, PART 1 (+5), AND THE FIRST CICERO NOTES PASS.** New work `drn-iv` ("Book IV" / "Libro IV").
