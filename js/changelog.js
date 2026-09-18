@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.14.7', date: '18/09/2026', time: 'TBD', tz: 'CEST',
+      v: '1.14.7', date: '18/09/2026', time: '19:07', tz: 'CEST',
       en: {
         added: [
           'Lucretius opens Book V, the history of the world: five excerpts, taking him to forty-five.',
