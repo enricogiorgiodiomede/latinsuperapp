@@ -147,6 +147,36 @@ Verification: **check_verses 45, 0**; **377 verbatim, 0 mismatched** (the lacuna
 `lint_register.js` / `lint_ablatives.js` **529, 0**; `lint_markdown.js` **0 leaking** (two caught and fixed before
 commit). Cache-bust: `?v=163` -> `?v=164`.
 
+
+### Follow-up, 2026-09-22: the user's notes on Book V, part 1
+
+No new excerpts, no version bump. Notes added in both languages:
+
+- **V, vv. 1-12**: **the user asked what the *carmen* of v. 1 is.** It is this poem: Lucretius asks who could
+  write one worthy both of the majesty of the universe and of *his repertis*, Epicurus's discoveries, and answers
+  *nemo* two lines later, which is what licenses *deus ille fuit*. **It is NOT the *Peri Physeos***, which ran to
+  thirty-seven books of prose; the school distrusted verse (Epicurus told the sage not to write poems, Philodemus
+  wrote treatises on the question), so the hexameters are Lucretius's own departure, defended with the honey on
+  the cup (I, vv. 926-950). And the irony: *On Nature* survives only as charred rolls from Herculaneum, now being
+  read with imaging and machine learning, so this poem became the fullest continuous account of the doctrine left
+  from antiquity.
+- **V, vv. 222-234**: where **nature the stepmother** enters European literature - generous to animals, indifferent
+  to us - with Pliny's *noverca* (*Natural History* VII.1) and **Leopardi's *natura matrigna*** as the line of
+  descent. And the argument against calling it pessimism: the indifference is what makes the fear groundless.
+- **V, vv. 837-854**: the earth as a workshop (*conatast*, *procudere*), failure before mastery - **with the limit
+  of the analogy stated**, since a craftsman remembers his failures and nothing here remembers anything: what looks
+  like growing skill is the failures being invisible.
+- **V, vv. 925-944**: the Golden Age refuted item by item; and the Epicurean detail inside it - wants that are small
+  and met - **with the distinction that the sage chooses it**, while contentment without an alternative is scarcity.
+- **V, vv. 1011-1027**: why the whole book is being told - a world that built itself needs no gods, so religion has
+  a natural history too; the body weakening while pity, protection and compacts are built, which is a trade and not
+  a decline; and **a preview of the real danger to come**, desire outrunning need, as metals become weapons and
+  wealth becomes rank.
+
+Verification: **check_verses 45, 0**; **377 verbatim, 0 mismatched**; `check_context.js` **0 on the release**;
+`lint_register.js` / `lint_ablatives.js` **529, 0**; `lint_markdown.js` **0 leaking**; no doubled commas and no
+literal newline escapes in the bank. `batch/frags1147.js` kept in step. Cache-bust: `?v=164` -> `?v=165`.
+
 ## [1.14.6] - 2026-09-17
 
 **LUCRETIUS BOOK IV IS COMPLETE AT TEN (+5), AND THE SECOND CICERO PASS.** The attack on love, from the drop of
