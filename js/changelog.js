@@ -12,6 +12,37 @@
 
   var VERSIONS = [
     {
+      v: '1.14.8', date: '22/09/2026', time: 'TBD', tz: 'CEST',
+      en: {
+        added: [
+          'Book V of Lucretius is finished: five more excerpts, taking him to fifty, and the poem has one book left.',
+          'First the pursuit of office and money, which people take up so that their lives will finally be safe, and which is exactly what makes them unsafe: envy strikes the summit like lightning, and the wanting itself was learned from other people\'s mouths rather than from anything the body needs.',
+          'Then the most dangerous passage in the poem: an explanation of where the gods came from. People saw splendid faces awake and vaster ones in dreams, and step by step gave them sensation, immortality and perfect happiness - and then, because they could not explain the seasons or the storms, handed the running of the sky over to them as well. What it cost comes next, and so does a definition of piety with no ritual in it at all: not the veiled head, not the blood on the altars, but being able to look at everything with a mind at peace.',
+          'Then the proof that the fear is still here - a thunderstorm, and proud kings pull in their limbs; an admiral prays to the winds and drowns anyway - and finally the last ten verses of the book, on where ships and farming and laws and songs actually came from: no god and no hero, but need, practice and a mind that will not sit still, teaching one thing at a time to people feeling their way forward in the dark.'
+        ],
+        changed: [
+          'The fourth Catilinarian gets its notes rewritten at length, and with it all four speeches against Catiline are done. The new material includes the temple of Concord and why meeting there to vote on executions was a dark joke; Cicero\'s whole family, named one by one, and what became of each of them; the two motions on the table and the thirty-seven-year-old Caesar behind one of them; the knights and the senators standing in one crowd, an alliance that lasted about four years; and the promise in the last sentence of the last speech, that he would answer for the day as long as he lived, which is exactly what happened to him five years later.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Il quinto libro di Lucrezio è finito: altri cinque brani, che lo portano a cinquanta, e al poema resta un libro solo.',
+          'Prima la corsa alle cariche e al denaro, che si intraprende perché la vita sia finalmente al sicuro e che è proprio ciò che toglie ogni sicurezza: l\'invidia colpisce le cime come un fulmine, e quel desiderio è stato imparato dalla bocca degli altri, non da qualcosa di cui il corpo abbia bisogno.',
+          'Poi il passo più pericoloso del poema: la spiegazione di da dove vengano gli dèi. La gente vedeva volti splendidi da sveglia e ancora più grandi nei sogni, e passo dopo passo attribuì loro sensibilità, immortalità e felicità perfetta; e poi, non sapendo spiegare le stagioni né le tempeste, consegnò loro anche il governo del cielo. Quanto sia costato viene subito dopo, e con esso una definizione della pietà in cui non c\'è un solo rito: non il capo velato, non il sangue sugli altari, ma poter guardare ogni cosa con animo tranquillo.',
+          'Poi la prova che quella paura è ancora qui - un temporale, e i re superbi si rattrappiscono; un ammiraglio prega i venti e affoga lo stesso - e infine gli ultimi dieci versi del libro, su da dove vengano davvero le navi, l\'agricoltura, le leggi e i canti: nessun dio e nessun eroe, ma il bisogno, la pratica e una mente che non sta ferma, che insegnano una cosa alla volta a chi avanza a tentoni nel buio.'
+        ],
+        changed: [
+          'La quarta Catilinaria riceve note riscritte per esteso, e con essa sono concluse tutte e quattro le orazioni contro Catilina. Tra il materiale nuovo: il tempio della Concordia e perché riunirsi lì per votare delle esecuzioni fosse uno scherzo cupo; tutta la famiglia di Cicerone, nominata una per una, e che cosa sia stato di ciascuno; le due proposte sul tavolo e il Cesare trentasettenne dietro una di esse; i cavalieri e i senatori in una sola folla, un\'alleanza durata circa quattro anni; e la promessa nell\'ultima frase dell\'ultimo discorso, che avrebbe risposto di quella giornata finché fosse vissuto, che è esattamente ciò che gli accadde cinque anni dopo.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.14.7', date: '22/09/2026', time: '22:28', tz: 'CEST',
       en: {
         added: [

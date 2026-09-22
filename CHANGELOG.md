@@ -108,6 +108,41 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.14.8] - 2026-09-22
+
+**LUCRETIUS BOOK V IS COMPLETE AT TEN (+5), AND THE CATILINARIANS ARE FINISHED.** Lucretius **45 -> 50**;
+bank **529 -> 534**. One book of the poem left.
+
+### Added
+- **V, vv. 1120-1135** ambition: the climb for security is what destroys it, envy burns the summit as lightning
+  does (Horace would rework it), *in Tartara taetra* as the destination, and *sapiunt alieno ex ore* - ambition as
+  a borrowed appetite with no natural stopping place.
+- **V, vv. 1161-1182** the origin of belief, in four inferences from dream-images: faces, then sensation, then
+  immortality, then perfect happiness. The *simulacra* are real and the theology is added by *opinio*, exactly as
+  with the square tower (IV, vv. 353-363). Named as the ancestor of Hume, Feuerbach, Freud and the modern
+  cognitive science of religion.
+- **V, vv. 1183-1203** *perfugium*: gods as the place you run to when you cannot explain the seasons, the sky
+  chosen because that is where the unexplained happens, the cost counted over three generations, and **piety
+  redefined** - five Roman ritual acts named and refused, against *pacata posse omnia mente tueri*. Cross-linked
+  both ways with *De Divinatione* II.148, where Cicero does the same operation with the labels swapped.
+- **V, vv. 1218-1240** the fear now: thunder and the crawling skin, proud kings, the admiral who prays and drowns,
+  and the hidden force that tramples *fascis* and *secures* - the same emblems Sisyphus begs for (III, vv. 995-1002).
+  Lucretius concedes the inference is reasonable, which is what makes the explanation corrosive.
+- **V, vv. 1448-1457** the close of the book: *usus* and *experientia*, *paulatim* and *pedetemptim*, inventions
+  born *in luminis oras* like the newborn of V, vv. 222-234 - and the peak of the arts read against the summits
+  that envy burns, with Book VI opening in Athens and ending in the plague.
+
+### Changed - the Cicero pass
+- **All six short In Catilinam IV notes extended**, and **IV.7 and IV.10 given the grammar paragraph they lacked**,
+  so the work is closed. **All four Catilinarians are now done: 30 notes across v1.14.5 to v1.14.8.**
+- **68 old short notes remain**, and the criterion is now written down rather than estimated: **under 1,600
+  characters AND three paragraphs or fewer**. By work: Pro Archia 8, Pro Milone 8, In Pisonem 8, Pro Caelio 5,
+  the Verrines 14, the Philippics 21, Ad Atticum 3, De Amicitia 1. Catullus and Sallust stay excluded (the user).
+
+Verification: **check_verses 50, 0**; **382 verbatim, 0 mismatched**; `check_sections.js` **165, 3 to look at**
+(all pre-existing); `check_context.js` **0 on the release**; `lint_register.js` / `lint_ablatives.js` **534, 0**;
+`lint_markdown.js` **0 leaking** (two caught and fixed before commit). Cache-bust: `?v=165` -> `?v=166`.
+
 ## [1.14.7] - 2026-09-18
 
 **LUCRETIUS BOOK V, PART 1 (+5), AND THE THIRD CICERO PASS.** New work `drn-v` ("Book V" / "Libro V").

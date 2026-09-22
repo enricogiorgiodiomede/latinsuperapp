@@ -1,0 +1,28 @@
+{
+  "_comment": "v1.14.8 - Lucretius, De Rerum Natura Book V, part 2: ambition and envy, how the gods came to be believed in, what piety actually is, thunder and the proud, and the last ten verses of the book. Verse ranges resolved by extract_verse.js; the app numbers verses in reading order.",
+  "drn.5.1120": [
+    "lucretius5",
+    1120,
+    1135
+  ],
+  "drn.5.1161": [
+    "lucretius5",
+    1161,
+    1182
+  ],
+  "drn.5.1183": [
+    "lucretius5",
+    1183,
+    1203
+  ],
+  "drn.5.1218": [
+    "lucretius5",
+    1218,
+    1240
+  ],
+  "drn.5.1448": [
+    "lucretius5",
+    1448,
+    1457
+  ]
+}
