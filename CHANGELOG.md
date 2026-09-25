@@ -143,6 +143,34 @@ Verification: **check_verses 50, 0**; **382 verbatim, 0 mismatched**; `check_sec
 (all pre-existing); `check_context.js` **0 on the release**; `lint_register.js` / `lint_ablatives.js` **534, 0**;
 `lint_markdown.js` **0 leaking** (two caught and fixed before commit). Cache-bust: `?v=165` -> `?v=166`.
 
+
+### Follow-up, 2026-09-25: the user's notes on Book V, part 2
+
+No new excerpts, no version bump. Notes added in both languages:
+
+- **V, vv. 1120-1135**: **cross-linked to Sisyphus** (III, vv. 995-1002) - the same hill, the same fall, the same
+  candidate - and the two mistakes separated: a security tied to a desire with no ceiling, which is what the sage
+  does not need, and a competition in which the envy earned on the way up is what throws you off the top. The sage
+  is outside that economy because a man who has what he needs has nothing to envy.
+- **V, vv. 1161-1182**: a forward pointer to the verses immediately after, which are the next excerpt - the same
+  people then handed the gods the weather, out of ignorance of the causes and fear of the lightning. **That second
+  step is where superstition starts**, and the note separates it from the harmless first one.
+- **V, vv. 1183-1203**: **read against the opening of Book II** (vv. 1-13), where the sheltered mind watches the
+  storm - the same vocabulary of steady looking, *despicere* and *spectare* there against *tueri* here - with the
+  difference that what can now be looked at calmly includes *religio* itself. Hence piety as an act of looking, and
+  the modern-sounding claim that the cure for superstition is knowledge, which Book VI then fills.
+- **V, vv. 1218-1240**: the drowning commander set out as a **dilemma** - either the gods were not behind the storm,
+  or they drowned an innocent man for nothing, and a being that does that cannot be the untroubled god of
+  *Principal Doctrine* I, so both horns end in the same place. Also named as the ancient form of the problem of
+  evil, answered with physics rather than theodicy.
+- **V, vv. 1448-1457**: the list read twice - as proof that not one item was a gift, so nobody was helping; and as
+  a warning, since the same arts produced bronze then iron, iron then swords, property then rank, and the altars.
+  **Progress weighed rather than judged**, on whether an invention answers a need or invents one.
+
+Verification: **check_verses 50, 0**; **382 verbatim, 0 mismatched**; `check_context.js` **0 on the release**;
+`lint_register.js` / `lint_ablatives.js` **534, 0**; `lint_markdown.js` **0 leaking** (one bold-around-italic caught in
+the draft). `batch/frags1148.js` kept in step with the bank. Cache-bust: `?v=166` -> `?v=167`.
+
 ## [1.14.7] - 2026-09-18
 
 **LUCRETIUS BOOK V, PART 1 (+5), AND THE THIRD CICERO PASS.** New work `drn-v` ("Book V" / "Libro V").
