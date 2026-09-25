@@ -21,7 +21,7 @@ v1.0.0 I.80-101 counts toward the 60. The user's picks are starred.
 - **Book III (DONE at 10: v1.14.3 + v1.14.4; follow-up notes on part 2: grief is allowed but must end, death as release (Williams 1973), Epicurus's three kinds of desire + The Lorax as a thematic companion, *taedium vitae*; *pectus* is the chest, not the breast; part 2 = 894-911, 931-951, 952-977, 995-1002, 1053-1075, the last extended to the sentence end; follow-up notes: *haedi* are young goats, never "kids"; the hymn to Venus and the second eulogy of Epicurus are paired aretalogies, the user's reading, split across 1-13 and 14-30 - keep the halves together if either is ever rewritten)**: ★1-13 · ★14-30 (*E tenebris tantis* split) · 59-73 · 152-160 · ★830-842 · 894-911 · ★931-951 · ★952-977 (Nature's prosopopoeia split) · 995-1002 · 1053-1075
 - **Book IV (DONE at 10: v1.14.5 + v1.14.6; part 2 = 1058-1078 (the plan said 1076, which stops mid-sentence), 1121-1140, 1149-1170, 1192-1208, 1278-1287; the Tusculanae IV.68-69 cross-link is wired BOTH ways; vv. 387-396, the ships, are a FOOTNOTE inside the vv. 436-446 note and deliberately not an excerpt) (part 1 was v1.14.5: 353-363, 436-446, 469-477, 823-842, 962-986; v. 823 emended, see the CHANGELOG)**: 353-363 · 436-446 · 469-477 · 823-842 · 962-986 · ★1058-1076 · ★1121-1140 (love as a pathology; **cross-ref Tusculanae Disputationes IV.68-69 both ways**) · 1149-1170 · 1192-1208 · 1278-1287
 - **Book V (DONE at 10: v1.14.7 + v1.14.8; part 2 = 1120-1135, 1161-1182, 1183-1203, 1218-1240, 1448-1457; the De Divinatione II.148 cross-link to vv. 1198-1203 is wired BOTH ways) (part 1 was v1.14.7: 1-12, 222-234, 837-854, 925-944, 1011-1027; the last carries a LACUNA between vv. 1012 and 1013 - the page prints `* * *`, the app prints `[...]`, and the tools now carry a gap through extract/apply/check)**: 1-12 · 222-234 · 837-854 · 925-944 · 1011-1027 · 1120-1135 · ★1161-1182 · ★1183-1203 (how religion began; Cicero note links to 1198-1203) · 1218-1240 · 1448-1457
-- **Book VI**: 9-23 · 387-399 · 647-652 · 738-748 · 906-916 (the magnet; Cicero note links here) · ★1138-1159 · ★1172-1196 · ★1230-1251 · ★1252-1271 · ★1272-1286 (the plague, trimmed and split). If the plague shrinks to four, add VI.68-79.
+- **Book VI (part 1 DONE, v1.14.9: 9-23, 387-399, 647-652, 738-748, 906-916; the De Divinatione I.86 magnet link is wired BOTH ways)**: 9-23 · 387-399 · 647-652 · 738-748 · 906-916 · ★1138-1159 · ★1172-1196 · ★1230-1251 · ★1252-1271 · ★1272-1286 (the plague, trimmed and split). If the plague shrinks to four, add VI.68-79.
 
 **SOURCE.** Latin from the Latin Library (`lucretius/lucretius1`..`6`); numbering and the typo diff from
 **Perseus `phi0550.phi001.perseus-lat1`** (`tools/fetch_sections_perseus_verse.js` -> `drn.<book>.json`).
@@ -230,10 +230,10 @@ Source: The Latin Library, `nepos/nepos.*.shtml` (each Life its own page; `[N]` 
 **OLD SHORT NOTES, STILL TO LENGTHEN (the user, 16/09/2026).** The early analyses are one or two short paragraphs;
 the current shape is five paragraphs with a `Where we are` opening and grammar notes. **Varro (11) and Nepos (8)
 were rewritten in v1.14.3.** **ALL FOUR CATILINARIANS ARE DONE: I (10) v1.14.5, II (7) v1.14.6, III (7) v1.14.7, IV (6 + IV.7 and IV.10 closed) v1.14.8 - 30 notes in all** - each note kept its rhetorical analysis and gained a
-paragraph of history or aftermath and a paragraph of grammar, which is the pattern for the rest. **68 Cicero notes
-remain**, and the criterion is now MEASURED, not estimated: under 1,600 characters AND three paragraphs or fewer. By work: Pro Archia 8, Pro Milone 8,
-In Pisonem 8, Pro Caelio 5, the Verrines 14 (II.1 1, II.2 2, II.3 1, II.4 5, II.5 5), the Philippics 21 (I 6, II 5, IV 5,
-XIV 5), Ad Atticum 3, De Amicitia 1. Next by size: Pro Archia or Pro Milone. **Catullus and Sallust are excluded on the user's instruction** - their
+paragraph of history or aftermath and a paragraph of grammar, which is the pattern for the rest. **Pro Archia (8) was done in v1.14.9.** **60 Cicero notes
+remain**, and the criterion is MEASURED, not estimated: under 1,600 characters AND three paragraphs or fewer. By work:
+Pro Milone 8, In Pisonem 8, Pro Caelio 5, the Verrines 14 (II.1 1, II.2 2, II.3 1, II.4 5, II.5 5), the Philippics 21
+(I 6, II 5, IV 5, XIV 5), Ad Atticum 3, De Amicitia 1. Next by size: Pro Milone or In Pisonem. **Catullus and Sallust are excluded on the user's instruction** - their
 notes get revised together with him when those authors are worked on.
 ## Marcus Tullius Cicero (`marcus-tullius-cicero`) - needsSelection, NESTED chooser [Speeches: v1.5.0 2026-08-18, split + top-up v1.6.0 2026-08-20]
 First author with a **nested chooser**: `groups` on the author (Speeches / Letters / Philosophical

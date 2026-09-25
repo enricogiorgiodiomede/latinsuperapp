@@ -108,6 +108,41 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.14.9] - 2026-09-25
+
+**LUCRETIUS BOOK VI, PART 1 (+5), AND PRO ARCHIA.** New work `drn-vi` ("Book VI" / "Libro VI"), the last of the
+six. Lucretius **50 -> 55**; bank **534 -> 539**. Five excerpts left in the plan.
+
+### Added
+- **VI, vv. 9-23** the leaky vessel: the evidence chosen so that circumstances cannot explain it (rich, honoured,
+  praised, wretched), the fault moved from contents to container, the two defects (it never fills, and it sours
+  what it holds), Plato behind the image, Nature using it at III, vv. 931-951, and hedonic adaptation as the
+  modern name for a vessel with a hole in it.
+- **VI, vv. 387-399** the case against Jupiter: a statistical argument - the guilty unhit, the innocent burned,
+  most bolts in empty country - aimed at a working state institution, since the *haruspices* read every strike and
+  the ground was buried as a *bidental*. With Franklin's rod and the burning church towers as the afterlife.
+- **VI, vv. 647-652** the instruction to look wide and deep: the sky a smaller fraction of the whole than one man
+  is of the earth, and the therapeutic purpose - *mirari multa relinquas*, since amazement is what superstition
+  runs on.
+- **VI, vv. 738-748** the Avernian places: the etymology (*aornos*, birdless), the oarage-and-sails of the wings,
+  and the real explanation - volcanic carbon dioxide pooling in hollows, the Grotta del Cane, and Lake Nyos in
+  1986. The passage takes apart the entrance to the underworld that Virgil would use a generation later.
+- **VI, vv. 906-916** the magnet: the chain of rings as the fact a theory must explain, the refusal to leave it as
+  a marvel, and the wrong mechanism that obeys the right constraint - no action at a distance. Cross-linked both
+  ways with *De Divinatione* I.86, where Cicero's speaker uses the same stone to argue the opposite.
+
+### Changed - the Cicero pass
+- **All eight Pro Archia notes extended** (the fifth instalment, and the first speech outside the Catilinarians):
+  the real charge and the burnt registers of Heraclea; the *imagines* Cicero did not have; the working poet's
+  trade; Sulla at the proscription auction; the *Consulatus* Archias began; Quintus on the bench; and Petrarch's
+  rediscovery in 1333, which turned a lost case into the founding text of the *studia humanitatis*.
+- **60 old short notes remain** by the measured criterion (under 1,600 characters AND three paragraphs or fewer).
+  Next by size: Pro Milone 8 or In Pisonem 8.
+
+Verification, all clean on the first run for the Lucretius batch: **check_verses 55, 0**; **387 verbatim, 0
+mismatched**; `check_sections.js` **170, 3 to look at** (all pre-existing); `check_context.js` **0 on the release**;
+`lint_register.js` / `lint_ablatives.js` **539, 0**; `lint_markdown.js` **0 leaking**. Cache-bust: `?v=167` -> `?v=168`.
+
 ## [1.14.8] - 2026-09-22
 
 **LUCRETIUS BOOK V IS COMPLETE AT TEN (+5), AND THE CATILINARIANS ARE FINISHED.** Lucretius **45 -> 50**;

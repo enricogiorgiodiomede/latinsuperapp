@@ -12,6 +12,37 @@
 
   var VERSIONS = [
     {
+      v: '1.14.9', date: '25/09/2026', time: 'TBD', tz: 'CEST',
+      en: {
+        added: [
+          'Lucretius opens Book VI, the last book of the poem: five excerpts, taking him to fifty-five, and five to go.',
+          'It begins with the diagnosis the whole school rests on. Epicurus looked at people who had everything a body needs - rich, honoured, praised, proud of their children - and who were still miserable at home, and found the fault in the container rather than the contents: a vessel that leaks, so that nothing ever fills it, and that sours whatever it does hold.',
+          'Then the sharpest attack on religion in the poem, and it is made of questions. If Jupiter throws the lightning, why is it the innocent who burn while the guilty walk away? Why do most bolts fall in empty country - is he exercising his arm? Why does he let his own weapon blunt itself in the ground? Then six verses of instructions: before you are amazed at anything, get the scale right, because the whole sky is a smaller part of the universe than one man is of the earth.',
+          'And then two famous puzzles, handled as physics rather than as omens. The lakes that kill any bird flying over them, which everyone knew were the entrance to the underworld and which Lucretius explains as bad air - modern volcanology agrees, and the gas is still killing people. And the magnet, with its chain of iron rings hanging in the air, which he refuses to leave as a marvel because a world where one thing can act on another at a distance, by sympathy, would be a world his physics cannot describe.'
+        ],
+        changed: [
+          'Pro Archia gets its notes rewritten at length, the fifth instalment of the pass through Cicero\'s older excerpts and the first speech outside the Catilinarians. All eight now carry the history as well as the rhetoric: who Archias actually was and what the charge actually was, with the burnt registers that made the case turn on witnesses; the wax masks of ancestors that Cicero did not have and the books he says replaced them; what a working poet did for a living, improvising finished verse at dinners; Sulla paying a bad poet out of confiscated property on condition that he stop writing; the poem about the consulship that Cicero admits, in court, to having encouraged; and the fact that the speech survived because of the digression rather than the case - Petrarch found it in 1333 and the humanists built a programme on it.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Lucrezio apre il sesto libro, l\'ultimo del poema: cinque brani, che lo portano a cinquantacinque, e cinque ne restano.',
+          'Si comincia dalla diagnosi su cui poggia tutta la scuola. Epicuro guardò persone che avevano tutto ciò che serve a un corpo - ricche, onorate, lodate, fiere dei figli - e che in casa erano ugualmente infelici, e trovò il difetto nel contenitore invece che nel contenuto: un vaso che perde, così che nulla lo riempia mai, e che inacidisce ciò che pure trattiene.',
+          'Poi l\'attacco più tagliente del poema alla religione, ed è fatto di domande. Se è Giove a scagliare il fulmine, perché a bruciare sono gli innocenti mentre i colpevoli se ne vanno? Perché la maggior parte dei fulmini cade in aperta campagna: si sta allenando il braccio? Perché lascia che la propria arma si smussi nella terra? Poi sei versi di istruzioni: prima di stupirti di qualcosa, regola la scala, perché il cielo intero è una parte dell\'universo più piccola di quanto un uomo lo sia della terra.',
+          'E infine due enigmi celebri, trattati da fisica e non da presagi. I laghi che uccidono qualunque uccello vi passi sopra, che tutti sapevano essere l\'ingresso dell\'oltretomba e che Lucrezio spiega con l\'aria cattiva - la vulcanologia moderna gli dà ragione, e quel gas uccide ancora. E la calamita, con la sua catena di anelli di ferro sospesi in aria, che si rifiuta di lasciare tra le meraviglie, perché un mondo in cui una cosa può agire su un\'altra a distanza, per simpatia, sarebbe un mondo che la sua fisica non può descrivere.'
+        ],
+        changed: [
+          'La Pro Archia riceve note riscritte per esteso, quinto capitolo della revisione dei brani più vecchi di Cicerone e prima orazione fuori dalle Catilinarie. Tutte e otto portano ora la storia oltre alla retorica: chi fosse davvero Archia e quale fosse davvero l\'accusa, con i registri bruciati che fecero dipendere la causa dai testimoni; le maschere di cera degli antenati che Cicerone non aveva e i libri che dice di avervi sostituito; che mestiere facesse davvero un poeta, improvvisando versi compiuti nei banchetti; Silla che paga un cattivo poeta con beni confiscati a patto che smetta di scrivere; il poema sul consolato che Cicerone ammette in aula di avere incoraggiato; e il fatto che l\'orazione sia sopravvissuta grazie alla digressione e non alla causa - Petrarca la ritrovò nel 1333 e gli umanisti ci costruirono sopra un programma.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.14.8', date: '25/09/2026', time: '22:25', tz: 'CEST',
       en: {
         added: [

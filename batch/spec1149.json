@@ -1,0 +1,28 @@
+{
+  "_comment": "v1.14.9 - Lucretius, De Rerum Natura Book VI, part 1: the proem on the leaky vessel, the argument against Jupiter throwing thunderbolts, the demand to look wide and deep, the deadly Avernian places, and the magnet. Verse ranges resolved by extract_verse.js; the app numbers verses in reading order.",
+  "drn.6.9": [
+    "lucretius6",
+    9,
+    23
+  ],
+  "drn.6.387": [
+    "lucretius6",
+    387,
+    399
+  ],
+  "drn.6.647": [
+    "lucretius6",
+    647,
+    652
+  ],
+  "drn.6.738": [
+    "lucretius6",
+    738,
+    748
+  ],
+  "drn.6.906": [
+    "lucretius6",
+    906,
+    916
+  ]
+}
