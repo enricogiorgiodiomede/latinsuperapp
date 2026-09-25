@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.14.9', date: '25/09/2026', time: 'TBD', tz: 'CEST',
+      v: '1.14.9', date: '25/09/2026', time: '22:43', tz: 'CEST',
       en: {
         added: [
           'Lucretius opens Book VI, the last book of the poem: five excerpts, taking him to fifty-five, and five to go.',
