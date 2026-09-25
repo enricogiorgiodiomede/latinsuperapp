@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.14.8', date: '22/09/2026', time: '22:47', tz: 'CEST',
+      v: '1.14.8', date: '25/09/2026', time: '22:25', tz: 'CEST',
       en: {
         added: [
           'Book V of Lucretius is finished: five more excerpts, taking him to fifty, and the poem has one book left.',
