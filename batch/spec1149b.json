@@ -1,0 +1,6 @@
+{
+  "_comment": "v1.14.9 follow-up - the two Book VI excerpts the user asked to extend. vv. 647-652 grows to 647-669, which carries the argument to its point; vv. 738-748 grows to 738-766 and is TRIMMED (the Syrian example, 756-759, is cut) so that it reaches the verses denying a door to Orcus.",
+  "drn.6.647": ["lucretius6", 647, 669],
+  "drn.6.738": ["lucretius6", 738, 755],
+  "drn.6.760": ["lucretius6", 760, 766]
+}

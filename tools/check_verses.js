@@ -59,16 +59,20 @@ for (const author of Object.values(AUTHORS)) {
     if (!pages.length) continue;
     for (const f of w.fragments) {
       if (only && f.version !== only) continue;
-      // `, vv. a-b)` or, where an editor has moved a distant verse into the
-      // passage and it keeps its own number, `, vv. a-b, c)` (II, vv. 646-659, 680).
-      const cm = f.citation.match(/, vv\. (\d+)-(\d+)((?:, \d+)*)\)$/);
+      // `, vv. a-b)`; or `, vv. a-b, c)` where an editor has moved a distant
+      // verse into the passage and it keeps its own number (II, vv. 646-659, 680);
+      // or `, vv. a-b, c-d)` for a TRIMMED excerpt, whose pieces are separated in
+      // the Latin by the `[...]` cut mark (VI, vv. 738-755, 760-766).
+      const cm = f.citation.match(/, vv\. (\d+)-(\d+)((?:, \d+(?:-\d+)?)*)\)$/);
       if (!cm) continue;
       checked++;
       const from = parseInt(cm[1], 10), rangeTo = parseInt(cm[2], 10);
-      const extras = cm[3] ? cm[3].split(',').map(s => s.trim()).filter(Boolean).map(Number) : [];
       const verseNo = [];
       for (let n = from; n <= rangeTo; n++) verseNo.push(n);
-      verseNo.push(...extras);
+      for (const part of (cm[3] ? cm[3].split(',').map(s => s.trim()).filter(Boolean) : [])) {
+        const r = part.split('-').map(Number);
+        for (let n = r[0]; n <= (r.length > 1 ? r[1] : r[0]); n++) verseNo.push(n);
+      }
       const to = verseNo[verseNo.length - 1];
       const bad = [];
       // A `[...]` line marks a gap the SOURCE prints - a lacuna the manuscripts
@@ -106,7 +110,7 @@ for (const author of Object.values(AUTHORS)) {
       // 3. verbatim lines, spacing included
       const clean = lines.map(l => l.replace(/\*\*\d+\.\*\* /g, ''));
       clean.forEach((l, i) => {
-        if (/ {2}|^ | $/.test(l)) bad.push('verse ' + (from + i) + ' has a doubled, leading or trailing space: ' + JSON.stringify(l));
+        if (/ {2}|^ | $/.test(l)) bad.push('verse ' + verseNo[i] + ' has a doubled, leading or trailing space: ' + JSON.stringify(l));
       });
       // A declared emendation is undone before the lines are matched, exactly as
       // verify.js does it: the app prints the corrected reading, the page prints
@@ -162,7 +166,7 @@ for (const author of Object.values(AUTHORS)) {
           const k = onPage.findIndex((t, i) => P[j + i] !== t);
           if (k < 0) { matched = true; break; }
           if (hits.length === 1) {
-            bad.push('verse ' + (from + k) + ' differs from the page:\n      app : ' + JSON.stringify(onPage[k]) + '\n      page: ' + JSON.stringify(P[j + k]));
+            bad.push('verse ' + verseNo[k] + ' differs from the page:\n      app : ' + JSON.stringify(onPage[k]) + '\n      page: ' + JSON.stringify(P[j + k]));
             matched = true;
           }
         }
@@ -184,7 +188,11 @@ for (const author of Object.values(AUTHORS)) {
         }
         if (marks.length !== starts.length) { bad.push(lang + ': ' + marks.length + ' blocks, the Latin has ' + starts.length); continue; }
         marks.forEach(([a, b, ranged], i) => {
-          const want = i + 1 < starts.length ? starts[i + 1] - 1 : to;
+          // The verse a block ENDS on is the one before the next block starts
+          // AS THE EXCERPT RUNS, which is not next - 1 when a trim has removed
+          // the verses in between: 753 runs to 755, not to 759.
+          const nx = i + 1 < starts.length ? verseNo[verseNo.indexOf(starts[i + 1]) - 1] : to;
+          const want = nx;
           if (a !== starts[i] || b !== want) bad.push(lang + ': block ' + a + (ranged ? '-' + b : '') + ' should be ' + starts[i] + (want > starts[i] ? '-' + want : ''));
           if (ranged && a === b) bad.push(lang + ': one-verse block written as a range ' + a + '-' + b);
           if (!ranged && want > starts[i]) bad.push(lang + ': block ' + a + ' needs its range ' + a + '-' + want);

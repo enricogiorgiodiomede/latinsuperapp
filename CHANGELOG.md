@@ -179,6 +179,56 @@ Verification: **check_verses 50, 0**; **382 verbatim, 0 mismatched**; `check_sec
 `lint_markdown.js` **0 leaking** (two caught and fixed before commit). Cache-bust: `?v=165` -> `?v=166`.
 
 
+### Follow-up, 2026-09-26: two Book VI excerpts extended, and the user's notes
+
+No new excerpts, no version bump. Two of the five were lengthened at the user's request; all five carry the notes.
+
+**Extended.**
+
+- **VI, vv. 647-652 -> 647-669.** Six verses were too few for an argument that only lands two sentences later.
+  The excerpt now runs to the end of it: the payoff line *mirari multa relinquas*; the fever, the toothache and the
+  *sacer ignis*, which nobody reads as a portent because everybody already grants that the earth holds seeds enough
+  for them; and then the same inference scaled up - enough matter out of the infinite to shake the ground, drive a
+  whirlwind, make Etna overflow and set the sky alight, which is **the table of contents of Book VI**. The passage
+  is the licence for every explanation in the book, not a pause in it.
+- **VI, vv. 738-748 -> 738-755, 760-766.** Extended to where Lucretius says it outright. It now adds the crows that
+  will not land on the Athenian acropolis, with the myth named, credited to the Greek poets and set down in favour
+  of *natura loci*; and, after a cut, the conclusion - it all happens by natural law, **so no door of Orcus may be
+  believed to be there** and nobody is being hauled down to Acheron. This is **the first trimmed verse excerpt in
+  the bank** (the Syrian example, 756-759, is cut), which needed the pipeline taught the difference between a cut
+  and a lacuna.
+
+**Notes added, in both languages.**
+
+- **VI, vv. 9-23**: named as **the fourth and last eulogy of Epicurus**, with the other three lined up beside it
+  (I, vv. 62-79; III, vv. 1-13; V, vv. 1-12) and the difference stated - those praise a liberator, this one reports
+  a diagnosis. The vessel is said to be **the mind**, and its two defects are both defects of wanting: it leaks
+  because desire has no ceiling, and it sours because fear and passion will not let the mind keep still. Then the
+  cure in two halves, moderation and self-sufficiency, and **the physics** - which is why the diagnosis opens the
+  last book, since everything after it is the cure being administered.
+- **VI, vv. 387-399**: **the form is the argument.** Every sentence is a question and none is answered, which is
+  the manner of the diatribe: hand the opponent their own premise and let them carry it. The bolt in empty country
+  is unpacked as a closed trap - practising means an imperfect aim and so no god; not practising means a perfect
+  aim that keeps hitting the wrong people. And it is named as the collection of the dilemma Book V left open
+  (V, vv. 1218-1240), with a record of strikes in place of a single storm.
+- **VI, vv. 906-916**: wrong by modern magnetism, **very nearly forced by Epicurean physics**, with a footnote
+  setting out the premises that make it so - nothing from nothing, bodies and void only, atoms always in motion,
+  surfaces always shedding *simulacra*, and no action except by contact. Also the oldest sustained theory of
+  magnetism we have (Thales gave the stone a soul; Plato used the same chain of rings as a metaphor for poetic
+  inspiration), and a short account of what the poem gets right, to answer why it is still worth reading as science.
+
+**Tooling: a trimmed VERSE excerpt.** `[...]` already meant two different things - a lacuna the source prints, and
+a cut the app makes - and verse numbering has to treat them oppositely. `apply_batch.js` now takes `from` as an
+ARRAY, one start per piece, and restarts the count after each cut; a single number keeps the old behaviour and
+numbers straight through a lacuna. `check_verses.js` accepts a citation with several ranges
+(`, vv. 738-755, 760-766)`) and works out where a translation block ends from the verses the excerpt actually
+contains, not from the next start minus one.
+
+Verification: **check_verses 55, 0**; **387 verbatim, 0 mismatched** (one now reported as two pieces, trimmed);
+`check_sections.js` **170, 3 to look at** (all pre-existing); `check_context.js` **0 on the release**;
+`lint_register.js` / `lint_ablatives.js` **539, 0**; `lint_markdown.js` **0 leaking**. `batch/frags1149.js` rebuilt
+from the bank and `batch/frags1149b.js` checked against it, field by field. Cache-bust: `?v=168` -> `?v=169`.
+
 ### Follow-up, 2026-09-25: the user's notes on Book V, part 2
 
 No new excerpts, no version bump. Notes added in both languages:

@@ -101,7 +101,17 @@ function latinOf(item) {
 // translations carry the same numbers, written in by hand, so check_sections.js
 // can hold them to the Latin's boundaries.
 function verseLayout(item, t) {
-  if (typeof item.from !== 'number') throw new Error('verse item without `from`: ' + item.citation);
+  // `from` is the verse the passage opens on. It may also be an ARRAY, one
+  // entry per piece of a TRIMMED excerpt (v1.14.9 follow-up): the pieces are
+  // separated by the app's `[...]` cut mark and the count RESTARTS at the next
+  // entry after each cut. With a single number the count instead runs straight
+  // THROUGH a `[...]`, because the mark then means a lacuna the source itself
+  // prints, which a printed edition numbers across. The two cases want opposite
+  // arithmetic and the shape of `from` is what distinguishes them.
+  const froms = Array.isArray(item.from) ? item.from : [item.from];
+  if (!froms.length || froms.some(n => typeof n !== 'number')) {
+    throw new Error('verse item without a numeric `from`: ' + item.citation);
+  }
   const lines = t.split('\n');
   // Verses are numbered IN READING ORDER: line k of the passage is verse
   // from + k, the way printed school editions number a transposed line. The
@@ -114,8 +124,18 @@ function verseLayout(item, t) {
   // takes no number and the count runs straight through it, which is how a
   // printed edition numbers across a lacuna. verify.js already splits a
   // fragment on the same mark, and check_verses.js matches run by run.
-  let vn = 0;
-  const nums = lines.map(l => (l.trim() === '[...]' ? null : item.from + vn++));
+  let vn = 0, pi = 0;
+  const nums = lines.map(l => {
+    if (l.trim() !== '[...]') return froms[pi] + vn++;
+    if (froms.length > 1) {                       // a trim: resume at the next start
+      pi++; vn = 0;
+      if (pi >= froms.length) throw new Error(item.citation + ': more [...] cuts than entries in `from`');
+    }
+    return null;
+  });
+  if (froms.length > 1 && pi !== froms.length - 1) {
+    throw new Error(item.citation + ': `from` has ' + froms.length + ' entries for ' + (pi + 1) + ' pieces');
+  }
   if (nums.length !== lines.length) throw new Error(item.citation + ': line numbers do not match the passage');
   for (const b of item.blocks) {
     const [n, words] = Array.isArray(b) ? b : [b, null];
@@ -128,7 +148,7 @@ function verseLayout(item, t) {
     }
     lines[k] = lines[k].slice(0, at) + '**' + n + '.** ' + lines[k].slice(at);
   }
-  if (lines[0].indexOf('**' + item.from + '.**') !== 0) throw new Error(item.citation + ': the first block must open the excerpt');
+  if (lines[0].indexOf('**' + froms[0] + '.**') !== 0) throw new Error(item.citation + ': the first block must open the excerpt');
   return '> ' + lines.join('\n> ');
 }
 
