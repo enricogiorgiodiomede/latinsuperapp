@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.14.10', date: '27/09/2026', time: 'TBD', tz: 'CEST',
+      v: '1.14.10', date: '27/09/2026', time: '00:42', tz: 'CEST',
       en: {
         added: [
           'Lucretius is finished. The last five excerpts are the plague of Athens, which is how the De Rerum Natura ends, and they take him to sixty - the largest body of work in the app after Plautus and Cicero, and the whole of the original plan.',
