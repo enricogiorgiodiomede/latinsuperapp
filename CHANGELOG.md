@@ -108,6 +108,48 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.14.10] - 2026-09-27
+
+**LUCRETIUS IS FINISHED (+5): THE PLAGUE OF ATHENS.** The last five excerpts of `drn-vi`, and the end of
+the poem. Lucretius **55 -> 60**; bank **539 -> 544**. **The sixty-excerpt plan is complete.**
+
+### Added
+- **VI, vv. 1138-1162** the arrival: the disease rising at the borders of Egypt, crossing the *campi natantes*,
+  settling on the people of Pandion; then the symptoms downwards through the body, head to heart, with the tongue
+  as *animi interpres* and the *vitai claustra* giving way. *Anxius angor* is listed among them as though anguish
+  were a symptom, which for this poem it is. Thucydides II.47-54 behind every line.
+- **VI, vv. 1163-1181** the paradox and the silence: skin cool to the touch over a core like a furnace (a real
+  clinical sign), the sufferers in the rivers and head-first down the wells, and *mussabat tacito medicina timore*.
+  With what the disease may actually have been, including the 2006 Kerameikos dental-pulp result.
+- **VI, vv. 1205-1229** the survivors, and the thematic centre of the whole set: *usque adeo mortis metus iis
+  incesserat acer*, after men who lived on without genitals, hands, feet or eyes. **Thucydides has the disease
+  take those parts; Lucretius makes it a choice and supplies the motive**, which converts a clinical detail into
+  the argument of Book III. Then the amnesia cutting the other way, the corpses nothing would eat, and
+  *nec ratio remedii communis certa dabatur*.
+- **VI, vv. 1230-1253** despair as a cause of death, contagion described with no theory and the right shape
+  (with Fracastoro's *seminaria contagionum* of 1546 as the sequel), and the trap: keep away and die of neglect,
+  attend and catch it, so *optimus hoc leti genus ergo quisque subibat*. Ends on parents over children and
+  children over parents, the *retro* doing the work.
+- **VI, vv. 1267-1286** the last twenty verses: corpses in the shrines, *nec iam religio divom ... pendebantur*
+  (and the reason is *praesens dolor*, not enlightenment), the burial custom breaking while the rite outlasts the
+  belief, and then no conclusion at all. The note sets out both readings of the ending, the editorial supplements
+  *[cognatum]* and *[res]* that show how damaged the text is here, the genre the passage founded, and why
+  Jerome's love-philtre story is not evidence.
+
+### Changed - the Cicero pass
+- **All eight Pro Milone notes extended** (the sixth instalment): the burnt Senate House and Pompey as
+  *consul sine collega*; the water-clock; Asconius against Cicero on what happened at Bovillae; Cassius Ravilla
+  and what *cui bono* is actually asking; the two Roman rules on slave evidence that made the manumission work;
+  the Bona Dea scandal; the argument from design that Cicero would dismantle in the *De Natura Deorum*; and the
+  verdict, Massilia and Cosa.
+- Two old `check_context` flags closed in passing (*Graecis* at 28-29, *Appia* at 57).
+- **52 old short notes remain** by the measured criterion (under 1,600 characters AND three paragraphs or fewer).
+  Next by size: In Pisonem 8.
+
+Verification: **check_verses 60, 0**; **392 verbatim, 0 mismatched**; `check_sections.js` **175, 3 to look at**
+(all pre-existing); `check_context.js` **0 on the release**; `lint_register.js` / `lint_ablatives.js` **544, 0**;
+`lint_markdown.js` **0 leaking**. Cache-bust: `?v=169` -> `?v=170`.
+
 ## [1.14.9] - 2026-09-25
 
 **LUCRETIUS BOOK VI, PART 1 (+5), AND PRO ARCHIA.** New work `drn-vi` ("Book VI" / "Libro VI"), the last of the

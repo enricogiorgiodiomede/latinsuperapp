@@ -12,6 +12,39 @@
 
   var VERSIONS = [
     {
+      v: '1.14.10', date: '27/09/2026', time: 'TBD', tz: 'CEST',
+      en: {
+        added: [
+          'Lucretius is finished. The last five excerpts are the plague of Athens, which is how the De Rerum Natura ends, and they take him to sixty - the largest body of work in the app after Plautus and Cicero, and the whole of the original plan.',
+          'The disease rises in Egypt, crosses the sea and settles on Athens in 430 BC. Lucretius is translating Thucydides, who caught it himself and survived, and the symptoms go down through the body in the order the sickness takes it: the head, the eyes, the throat, the tongue running with blood, the chest, and the bars of life giving way. What he adds to the medicine is the anguish, listed among the symptoms as though it were one of them.',
+          'Then the sign nobody would have invented - the skin is cool to the touch while the inside burns like a furnace - and the sufferers throwing themselves into rivers and falling into wells with their mouths already open, and five words about the doctors: medicine muttered in silent fear.',
+          'The hardest passage is the one about the survivors. Men went on living with their genitals cut off, without hands or feet, without eyes, and Lucretius gives the reason in a single line: so fiercely had the fear of death got into them. Six books have argued that death is nothing to us; this is the bill for the belief they argue against. Others forgot everything, including who they were.',
+          'And then the end. Despair kills people outright; contagion makes staying away as fatal as helping, so the best die first; the temples fill with corpses; the gods stop being worth anything, not because anyone was argued out of them but because the pain was louder; the custom of burial breaks down, and people fight at the pyres rather than leave a body unburnt. Then the poem stops, with no conclusion at all, and the note discusses whether that was the ending Lucretius wanted.'
+        ],
+        changed: [
+          'The Pro Milone gets its notes rewritten at length, the sixth instalment of the pass through Cicero\'s older excerpts. All eight now carry the history as well as the rhetoric: the burning of the Senate House with Clodius\'s body inside it, which is why Pompey was sole consul and why there were troops around the court; the water-clock that gave Cicero three hours; Asconius, who had the records and tells the story of the Appian Way differently; the severe old judge behind cui bono, and what the phrase actually means; why freeing the slaves put them beyond the torturer, and the two Roman rules about slave evidence that made it work; the Bona Dea scandal that started the feud ten years earlier; Cicero using an argument from design in court that he would take apart in his own philosophy seven years later; and the verdict, thirty-eight to thirteen, followed by Marseilles and a stone thrown from a town wall.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Lucrezio è finito. Gli ultimi cinque brani sono la peste di Atene, che è il modo in cui il De Rerum Natura si chiude, e lo portano a sessanta: il corpus più ampio dell\'app dopo Plauto e Cicerone, e l\'intero piano iniziale.',
+          'La malattia nasce in Egitto, attraversa il mare e si posa su Atene nel 430 a.C. Lucrezio sta traducendo Tucidide, che la contrasse e sopravvisse, e i sintomi scendono attraverso il corpo nell\'ordine in cui il male lo prende: il capo, gli occhi, le fauci, la lingua che cola sangue, il petto, e le sbarre della vita che cedono. Ciò che aggiunge alla medicina è l\'angoscia, messa tra i sintomi come se fosse uno di essi.',
+          'Poi il segno che nessuno avrebbe inventato - la pelle è fresca al tatto mentre dentro si brucia come in una fornace - e i malati che si gettano nei fiumi e cadono nei pozzi con la bocca già spalancata, e cinque parole sui medici: la medicina mormorava in un timore muto.',
+          'Il brano più duro è quello sui sopravvissuti. Alcuni continuarono a vivere con i genitali tagliati via, senza mani né piedi, senza occhi, e Lucrezio ne dà la ragione in un verso solo: a tal punto era entrata in loro acuta la paura della morte. Sei libri hanno sostenuto che la morte non è nulla per noi; questo è il conto della credenza contro cui argomentano. Altri dimenticarono ogni cosa, compreso chi fossero.',
+          'E poi la fine. La disperazione uccide da sola; il contagio rende lo stare lontani letale quanto l\'aiutare, e così muoiono per primi i migliori; i templi si riempiono di cadaveri; gli dèi smettono di valere qualcosa, non perché qualcuno sia stato convinto a parole ma perché il dolore era più forte; l\'uso della sepoltura si spezza, e la gente si azzuffa presso i roghi piuttosto che lasciare un corpo senza bruciare. Poi il poema si interrompe, senza alcuna conclusione, e la nota discute se fosse questa la fine che Lucrezio voleva.'
+        ],
+        changed: [
+          'La Pro Milone riceve note riscritte per esteso, sesto capitolo della revisione dei brani più vecchi di Cicerone. Tutte e otto portano ora la storia oltre alla retorica: l\'incendio della Curia con dentro il corpo di Clodio, che è il motivo per cui Pompeo fu console unico e per cui c\'erano truppe attorno al tribunale; la clessidra che diede a Cicerone tre ore; Asconio, che aveva gli atti e racconta la vicenda della via Appia in modo diverso; il vecchio giudice severo dietro il cui bono, e che cosa significhi davvero quella formula; perché affrancare i servi li mettesse fuori dalla portata del torturatore, e le due regole romane sulla testimonianza servile che lo rendevano possibile; lo scandalo della Bona Dea che aveva aperto la faida dieci anni prima; Cicerone che in aula usa un argomento dal disegno del mondo che sette anni dopo smonterà nella propria filosofia; e il verdetto, trentotto contro tredici, seguito da Marsiglia e da una pietra scagliata dalle mura di una città.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.14.9', date: '26/09/2026', time: '23:13', tz: 'CEST',
       en: {
         added: [

@@ -1,0 +1,8 @@
+{
+  "_comment": "v1.14.10 - Lucretius, De Rerum Natura Book VI, part 2: the plague of Athens, which ends the poem. Five excerpts covering 113 of the 149 verses. Ranges adjusted from the reference sheet's first sketch so that each opens and closes on a sentence, so that the self-mutilation passage (usque adeo mortis metus) is included, and so that the last excerpt ends on the poem's last verse.",
+  "drn.6.1138": ["lucretius6", 1138, 1162],
+  "drn.6.1163": ["lucretius6", 1163, 1181],
+  "drn.6.1205": ["lucretius6", 1205, 1229],
+  "drn.6.1230": ["lucretius6", 1230, 1253],
+  "drn.6.1267": ["lucretius6", 1267, 1286]
+}
