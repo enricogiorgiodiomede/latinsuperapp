@@ -29,11 +29,13 @@
       'subtitle.practice': 'Translation practice',
       'subtitle.select': 'Choose what to practise',
       'subtitle.version': 'Update history',
+      'subtitle.metres': 'Poetic metre',
       'footer.index': 'An interactive companion to the Latin Authors writing project.',
       'footer.author': 'An interactive companion to the Latin Authors writing project.',
       'footer.practice': 'Attempt the Latin yourself, then reveal the translations to self-check.',
       'footer.select': 'Pick a work, then practise translating its fragments.',
       'footer.version': 'Every excerpt added in this update. Click one to practise it.',
+      'footer.metres': 'How the verse is built, and how it sounded when it was read aloud.',
       'aria.eras': 'Eras',
       'aria.breadcrumb': 'Breadcrumb',
 
@@ -55,6 +57,8 @@
       'title.practiceNamed': function (p) { return 'Practice: ' + p.name + ' - ' + SITE_EN; },
       'title.selectNamed': function (p) { return 'Choose - ' + p.name + ' - ' + SITE_EN; },
       'title.versionNamed': function (p) { return 'Added in v' + p.version + ' - ' + SITE_EN; },
+      'title.metres': 'Metre - ' + SITE_EN,
+      'title.metreNamed': function (p) { return p.name + ' - ' + SITE_EN; },
 
       // --- loading placeholders ---
       'loading.author': 'Loading author...',
@@ -84,6 +88,7 @@
       'crumb.home': 'Home',
       'crumb.practice': 'Practice',
       'crumb.choose': 'Choose',
+      'crumb.metres': 'Metre',
 
       // --- author page ---
       'section.biography': 'Biography',
@@ -167,6 +172,24 @@
       'version.empty': 'No excerpts were added in this version.',
       'version.notFound': 'No such version.',
 
+      // --- metre reference (the chip on a verse excerpt, and metre.html) ---
+      'metre.label': 'Metre',
+      'metre.linkLabel': function (p) { return 'Read about the ' + p.name; },
+      'metre.scheme': 'Scheme',
+      'metre.sec.origin': 'Where it comes from',
+      'metre.sec.build': 'How it is built',
+      'metre.sec.sound': 'How it sounds',
+      'metre.sec.used': 'Where it is used, and who used it',
+      'metre.legend.long': 'long syllable',
+      'metre.legend.short': 'short syllable',
+      'metre.legend.anceps': 'either, counted long (anceps)',
+      'metre.legend.foot': 'foot division',
+      'metre.legend.caesura': 'caesura',
+      'metre.backToExcerpt': '← Back to the excerpt',
+      'metre.indexHeading': 'Metres',
+      'metre.indexLead': 'The verse forms explained so far. A metre’s name appears on every excerpt written in it, and links here.',
+      'metre.notFound': 'No such metre.',
+
       // --- what's new (changelog scroll) ---
       'whatsNew.title': 'What’s New',
       'whatsNew.version': 'Version v{version}',
@@ -190,11 +213,13 @@
       'subtitle.practice': 'Pratica di traduzione',
       'subtitle.select': 'Scegli su cosa esercitarti',
       'subtitle.version': 'Cronologia degli aggiornamenti',
+      'subtitle.metres': 'Metrica',
       'footer.index': 'Un compagno interattivo del progetto di scrittura sugli autori latini.',
       'footer.author': 'Un compagno interattivo del progetto di scrittura sugli autori latini.',
       'footer.practice': 'Prova prima a tradurre il latino da solo, poi rivela la traduzione e confrontala con la tua versione.',
       'footer.select': 'Scegli un’opera tra quelle proposte e allenati a tradurne gli estratti proposti.',
       'footer.version': 'Tutti i brani aggiunti in questo aggiornamento. Clicca su uno per esercitarti.',
+      'footer.metres': 'Come è costruito il verso, e come suonava quando lo si leggeva ad alta voce.',
       'aria.eras': 'Epoche',
       'aria.breadcrumb': 'Percorso',
 
@@ -215,6 +240,8 @@
       'title.practiceNamed': function (p) { return 'Pratica: ' + p.name + ' - ' + SITE_IT; },
       'title.selectNamed': function (p) { return 'Scegli - ' + p.name + ' - ' + SITE_IT; },
       'title.versionNamed': function (p) { return 'Aggiunti in v' + p.version + ' - ' + SITE_IT; },
+      'title.metres': 'Metrica - ' + SITE_IT,
+      'title.metreNamed': function (p) { return p.name + ' - ' + SITE_IT; },
 
       // --- loading placeholders ---
       'loading.author': 'Caricamento autore...',
@@ -243,6 +270,7 @@
       'crumb.home': 'Home',
       'crumb.practice': 'Pratica',
       'crumb.choose': 'Scegli',
+      'crumb.metres': 'Metrica',
 
       // --- author page ---
       'section.biography': 'Biografia',
@@ -325,6 +353,24 @@
       'version.next': 'Aggiornamento successivo',
       'version.empty': 'Nessun brano è stato aggiunto in questa versione.',
       'version.notFound': 'Versione inesistente.',
+
+      // --- metrica (la targhetta sui brani in versi, e metre.html) ---
+      'metre.label': 'Metro',
+      'metre.linkLabel': function (p) { return 'Leggi sul metro: ' + p.name; },
+      'metre.scheme': 'Schema',
+      'metre.sec.origin': 'Da dove viene',
+      'metre.sec.build': 'Com’è costruito',
+      'metre.sec.sound': 'Come suona',
+      'metre.sec.used': 'Dove si usa, e chi l’ha usato',
+      'metre.legend.long': 'sillaba lunga',
+      'metre.legend.short': 'sillaba breve',
+      'metre.legend.anceps': 'indifferente, contata lunga (ancipite)',
+      'metre.legend.foot': 'divisione di piede',
+      'metre.legend.caesura': 'cesura',
+      'metre.backToExcerpt': '← Torna al brano',
+      'metre.indexHeading': 'Metri',
+      'metre.indexLead': 'Le forme di verso spiegate finora. Il nome di un metro compare su ogni brano scritto in quel metro, e porta qui.',
+      'metre.notFound': 'Metro non trovato.',
 
       // --- what's new (changelog scroll) ---
       'whatsNew.title': 'Novità',

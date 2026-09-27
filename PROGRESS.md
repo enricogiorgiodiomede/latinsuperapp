@@ -22,6 +22,10 @@ Pages:
 - `practice-select.html` - text chooser (Plautus, Terence, Caecilius, Varro; **Cicero nests one level
   deeper**: category -> work).
 - `version.html` - the per-release excerpt list (`?v=X`).
+- `metre.html` - the metre reference (`?m=<id>`, plus the excerpt to walk back to). v1.15.0.
+  With no `?m=` it lists the metres. The metre of an excerpt is NOT a field on the fragment:
+  it lives in the `ASSIGN` table in `js/metres.js`, checked against the bank by
+  `tools/check_metres.js`.
 - `tools/` - the fragment pipeline; see `tools/README.md`.
 
 **Languages:** a **flag toggle** in the red header switches the whole interface EN<->IT
@@ -55,7 +59,8 @@ The full Italian translation pass is **DONE**.
   practice content. This is the active work area.**
 - `js/markdown.js`, `js/ui.js` (DOM helpers + breadcrumb), `js/menu.js` (era menu), `js/home.js`,
   `js/author.js`, `js/practice.js`, `js/select.js`, `js/version-list.js` (the `version.html?v=X`
-  excerpt-list page). `css/styles.css` - all styles.
+  excerpt-list page), `js/metres.js` + `js/metres-it.js` (the metre reference and the
+  excerpt-to-metre table) and `js/metre-page.js`. `css/styles.css` - all styles.
 - **`js/i18n.js` (`window.I18n`) - the EN/IT string dictionary, persisted language state, `t()`
   lookup (English fallback), and the header flag toggle. Every module pulls user-facing strings
   from `I18n.t(...)`; the HTML pages tag static text with `data-i18n`.** `js/content-it.js` -
@@ -72,9 +77,11 @@ The full Italian translation pass is **DONE**.
 1. **Commit + push every change immediately** (don't wait to be asked). Date `CHANGELOG.md` by the
    REAL day (check `git log`). `daily_log.md` is auto-updated nightly by the `daily-log-updater`
    scheduled task (~23:51 local).
-2. **Cache-busting**: every JS/CSS include in the 4 HTML files carries `?v=N`. **Bump N**
-   (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html`)
-   whenever you change a JS/CSS file. **Currently `v=106`.**
+2. **Cache-busting**: every JS/CSS include in the **6** HTML files carries `?v=N`. **Bump N**
+   (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html version.html metre.html`)
+   whenever you change a JS/CSS file. **Currently `v=174`.** Bump it AFTER the last JS/CSS edit of the release, not before: in v1.15.0 the
+   token moved first and js/changelog.js changed afterwards, so the preview browser cached a stale copy
+   under the new token.
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
    `{ needsSelection, selectHeading, works: [ { id, label, labelIt?, fragments: [...] } ] }`.
    Each fragment: `{ title, citation, source, description, latin, italian, english, analysis,

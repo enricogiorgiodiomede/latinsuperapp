@@ -35,6 +35,9 @@ const FILES = [
   'archaic_era_draft.md', 'caesar_era_draft.md',
   'italian_translations_archaic.md', 'italian_translations_caesar.md',
   'js/content.js', 'js/content-it.js', 'js/fragments.js', 'js/changelog.js',
+  // The metre pages are prose with the same emphasis markers, rendered by the
+  // same Markdown module, so they belong in the same net (v1.15.0).
+  'js/metres.js', 'js/metres-it.js',
 ];
 
 // Same two exclusions js/data.js applies, plus the Italian caption wording.

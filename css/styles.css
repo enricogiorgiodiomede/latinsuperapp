@@ -972,12 +972,15 @@ body.cl-modal-open { overflow: hidden; }
    ============================================================ */
 .practice-excerpt { position: relative; }
 
-/* keep the header text (counter / title / citation) clear of the badge */
+/* Keep the header text (counter / title row / citation) clear of the badge.
+   The clearance sits on .excerpt-headline rather than on the h2 because the
+   title now shares a flex row with the metre tablet, and the row as a whole
+   is what has to stop short of the badge. */
 .practice-excerpt.has-papyrus .fragment-counter,
-.practice-excerpt.has-papyrus h2,
+.practice-excerpt.has-papyrus .excerpt-headline,
 .practice-excerpt.has-papyrus .excerpt-citation { padding-right: 152px; }
 .practice-excerpt.has-vip .fragment-counter,
-.practice-excerpt.has-vip h2,
+.practice-excerpt.has-vip .excerpt-headline,
 .practice-excerpt.has-vip .excerpt-citation { padding-right: 100px; }
 
 .excerpt-version-badge {
@@ -1087,7 +1090,7 @@ body.cl-modal-open { overflow: hidden; }
   .excerpt-version-badge.is-papyrus { height: 26px; padding: 0 9px; }
   .papyrus-text { font-size: 0.72rem; }
   .practice-excerpt.has-papyrus .fragment-counter,
-  .practice-excerpt.has-papyrus h2,
+  .practice-excerpt.has-papyrus .excerpt-headline,
   .practice-excerpt.has-papyrus .excerpt-citation { padding-right: 132px; }
   .excerpt-version-badge.is-vip { width: 72px; height: 94px; }
   .vip-new { font-size: 0.74rem; }
@@ -1169,6 +1172,213 @@ body.cl-modal-open { overflow: hidden; }
   color: var(--terracotta-deep);
 }
 .vi-title { display: block; font-family: var(--font-serif); font-style: italic; color: var(--ink-soft); }
+
+/* ============================================================
+   Metre (v1.15.0).
+   Two pieces: the little tablet that names an excerpt's metre, which sits
+   on the title row of a practice excerpt; and metre.html, the reference
+   page it links to. Only excerpts whose metre is certain and single carry
+   the tablet - see js/metres.js.
+   ============================================================ */
+
+/* ---- the title row on a practice excerpt ---- */
+.excerpt-headline {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2px 16px;
+}
+.excerpt-headline h2 { margin: 0 0 4px; }
+
+/* ---- the metre tablet ---- */
+.excerpt-metre {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  flex: none;
+  margin: 0 0 6px;
+  padding: 3px 11px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: linear-gradient(180deg, #f7f0e3 0%, #ebdfc9 100%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55), 0 1px 2px rgba(60, 40, 20, 0.08);
+  white-space: nowrap;
+}
+.em-label {
+  font-size: 0.64rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: var(--gray);
+  padding-right: 9px;
+  border-right: 1px solid var(--line);
+}
+.em-name {
+  font-family: var(--font-serif);
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--terracotta-deep);
+  text-decoration: none;
+}
+a.em-name:hover { text-decoration: underline; }
+a.em-name:focus-visible { outline: 2px solid var(--deep-red); outline-offset: 3px; border-radius: 2px; }
+/* a metre with no reference page yet: named, but visibly not a link */
+.em-name.is-plain { color: var(--ink-soft); font-weight: 500; }
+
+/* ---- metre.html ---- */
+.metre-title {
+  font-family: var(--font-serif);
+  color: var(--deep-red);
+  font-size: 2rem;
+  margin: 0.2em 0 0.1em;
+}
+.metre-tagline {
+  font-size: 1.02rem;
+  color: var(--ink-soft);
+  margin: 0 0 18px;
+  max-width: 64ch;
+}
+.metre-scheme {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  padding: 12px 16px;
+  margin: 0 0 8px;
+  background: var(--stone);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--deep-red);
+  border-radius: 8px;
+}
+.ms-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--gray);
+}
+.ms-value {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  letter-spacing: 1px;
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+.metre-scheme-note {
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+  margin: 0 0 18px;
+  max-width: 72ch;
+}
+.metre-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  padding: 10px 14px;
+  margin: 0 0 26px;
+  background: var(--parchment);
+  border: 1px dashed var(--line);
+  border-radius: 8px;
+}
+.ml-item { display: inline-flex; align-items: baseline; gap: 7px; font-size: 0.85rem; color: var(--ink-soft); }
+.ml-sym {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  color: var(--deep-red);
+  min-width: 1em;
+  text-align: center;
+}
+
+.metre-section { margin: 0 0 30px; }
+.metre-section h2 {
+  font-family: var(--font-serif);
+  color: var(--deep-red);
+  font-size: 1.35rem;
+  margin: 0 0 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--line);
+}
+.metre-section p { line-height: 1.7; margin: 0 0 12px; max-width: 76ch; }
+
+/* one poet's line, scanned */
+.metre-example {
+  background: var(--parchment);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  padding: 16px 18px;
+  margin: 18px 0;
+}
+.me-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px; margin: 0 0 2px; }
+.me-author {
+  font-family: var(--font-serif);
+  font-size: 1.08rem;
+  font-weight: 600;
+  color: var(--terracotta-deep);
+}
+.me-author a { color: inherit; text-decoration: none; }
+.me-author a:hover { text-decoration: underline; }
+.me-where { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 1.2px; color: var(--gray); }
+.me-gloss { font-style: italic; color: var(--ink-soft); font-size: 0.95rem; margin: 0 0 12px; }
+.me-verse {
+  font-family: var(--font-serif);
+  font-size: 1.12rem;
+  line-height: 1.85;
+  color: var(--ink);
+  margin: 0 0 4px;
+  overflow-wrap: anywhere;
+}
+.me-pattern {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  letter-spacing: 1px;
+  color: var(--gray);
+  margin: 0 0 14px;
+  overflow-wrap: anywhere;
+}
+.me-note { font-size: 0.95rem; line-height: 1.65; margin: 0 0 10px; max-width: 76ch; }
+.metre-after {
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+  margin-top: 18px;
+  max-width: 76ch;
+}
+
+/* the index, when metre.html is opened with no metre named */
+.metre-index-heading { font-family: var(--font-serif); color: var(--deep-red); margin: 0.2em 0 0.1em; }
+.metre-lead { color: var(--ink-soft); margin: 0 0 18px; max-width: 70ch; }
+.metre-item {
+  display: block;
+  padding: 12px 16px;
+  margin: 0 0 10px;
+  background: var(--parchment);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--deep-red);
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.metre-item:hover { transform: translateY(-2px); box-shadow: var(--shadow-lift); }
+.metre-item:focus-visible { outline: 2px solid var(--deep-red); outline-offset: 3px; }
+.mi-name {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--terracotta-deep);
+}
+.mi-tagline { display: block; font-size: 0.92rem; color: var(--ink-soft); margin-top: 3px; }
+
+@media (max-width: 560px) {
+  .metre-title { font-size: 1.6rem; }
+  .me-verse { font-size: 1rem; }
+  .excerpt-metre { padding: 2px 9px; gap: 7px; }
+  .em-label { font-size: 0.6rem; padding-right: 7px; }
+  .em-name { font-size: 0.8rem; }
+}
 
 /* ------------------------------------------------- Analytics consent bar */
 .consent-bar {

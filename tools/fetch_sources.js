@@ -39,7 +39,18 @@ function pagesFromConfig() {
 function decode(buf) {
   if (buf.length >= 2 && buf[0] === 0xff && buf[1] === 0xfe) return buf.toString('utf16le', 2);
   if (buf.length >= 2 && buf[0] === 0xfe && buf[1] === 0xff) return buf.swap16().toString('utf16le', 2);
-  return buf.toString('latin1');
+  if (buf.length >= 3 && buf[0] === 0xef && buf[1] === 0xbb && buf[2] === 0xbf) return buf.toString('utf8', 3);
+  // A few pages are UTF-8 with no BOM at all, and latin1 turns every two-byte
+  // character in them into a pair of junk characters - silently, the way the
+  // UTF-16 case above used to. vergil/aen1 is the page that exposed it: it is
+  // macronised, so EVERY long vowel was corrupt. A strict UTF-8 decode settles
+  // it without guessing: a pure-ASCII page decodes identically either way, a
+  // genuine latin1 page with accented letters is not valid UTF-8 and throws
+  // (poeëtae is 0xeb, an illegal lead byte), and only a real UTF-8 page comes
+  // back different. Verified in v1.15.0 by rebuilding the whole cache with
+  // --force: verify.js still reported 392 verbatim, 0 mismatched.
+  try { return new TextDecoder('utf-8', { fatal: true }).decode(buf); }
+  catch (e) { return buf.toString('latin1'); }
 }
 
 function get(url) {

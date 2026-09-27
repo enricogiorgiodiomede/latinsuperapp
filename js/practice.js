@@ -202,6 +202,40 @@
     return { el: badge, isVip: isVip };
   }
 
+  // The metre tablet. The name is a link to that metre's reference page when
+  // the page exists, carrying the excerpt's own coordinates so the page can
+  // offer a way back to exactly here; a metre that has no page yet renders as
+  // plain text, so a reader can see at a glance which names lead somewhere.
+  // Only excerpts whose metre is certain and single are labelled at all -
+  // js/metres.js has the table and the rule.
+  function buildMetreNote(metre, idx) {
+    var note = document.createElement('p');
+    note.className = 'excerpt-metre';
+
+    var label = document.createElement('span');
+    label.className = 'em-label';
+    label.textContent = I18n.t('metre.label');
+    note.appendChild(label);
+
+    var name;
+    if (metre.hasPage) {
+      name = document.createElement('a');
+      name.className = 'em-name';
+      name.href = 'metre.html?m=' + encodeURIComponent(metre.id) +
+        '&era=' + encodeURIComponent(era) +
+        '&id=' + encodeURIComponent(slug) +
+        (workId ? '&work=' + encodeURIComponent(workId) : '') +
+        '&frag=' + (idx + 1);
+      name.setAttribute('aria-label', I18n.t('metre.linkLabel', { name: metre.name }));
+    } else {
+      name = document.createElement('span');
+      name.className = 'em-name is-plain';
+    }
+    name.textContent = metre.name;
+    note.appendChild(name);
+    return note;
+  }
+
   function buildFragment(frag, workLabel, idx, total, onAnother) {
     var box = document.createElement('section');
     box.className = 'practice-excerpt';
@@ -216,11 +250,25 @@
       (workLabel ? '  ·  ' + workLabel : '');
     box.appendChild(counter);
 
+    // Title row. The excerpt's name on the left and, for a verse excerpt whose
+    // metre is known, a small tablet on the right - sitting in the space the
+    // version badge's clearance already reserves. It is a flex row so that a
+    // long title, or a narrow screen, drops the tablet onto its own line
+    // instead of letting it collide with the badge.
     var fTitle = L(frag, 'title');
-    if (fTitle) {
-      var title = document.createElement('h2');
-      title.innerHTML = Markdown.renderInline(fTitle);
-      box.appendChild(title);
+    var metre = (window.Metres && frag.citation)
+      ? Metres.forFragment(slug, workId, frag.citation)
+      : null;
+    if (fTitle || metre) {
+      var headline = document.createElement('div');
+      headline.className = 'excerpt-headline';
+      if (fTitle) {
+        var title = document.createElement('h2');
+        title.innerHTML = Markdown.renderInline(fTitle);
+        headline.appendChild(title);
+      }
+      if (metre) headline.appendChild(buildMetreNote(metre, idx));
+      box.appendChild(headline);
     }
     if (frag.citation) {
       var cite = document.createElement('p');

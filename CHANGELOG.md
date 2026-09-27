@@ -108,6 +108,74 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.15.0] - 2026-09-28
+
+**METRE.** Verse excerpts now name the metre they are written in, and the name links to a reference page
+for that metre. **No excerpt content changed**: no Latin, no translation, no analysis.
+
+### Added
+- **A metre tablet on the excerpt**, on the title row, in the space the version badge's clearance already
+  reserved. Small caps `METRE`, a hairline divider, then the name in serif. The name is a link where a page
+  exists and plain text where it does not, so a reader can see at a glance which names lead somewhere.
+- **`metre.html`**, a new page, plus `js/metres.js` (English + the assignment table), `js/metres-it.js` and
+  `js/metre-page.js`. Two metres are written up: **Dactylic Hexameter** and **Phalaecian Hendecasyllable**.
+  Each page has four sections - where the metre comes from, how it is built, how it sounds, and where it is
+  used - plus the scheme, a legend for the notation, and one scanned line per poet.
+- **Scansion**, marked the way a school edition marks it: macrons and breves on the vowels, `|` between feet,
+  `‖` at the caesura, brackets round an elided syllable, and a pattern line underneath.
+- **Per-poet comparison**, which is the point of the last section: what Ennius, Lucilius, Lucretius and Catullus
+  each do differently with the same six feet - the three spondees that make the Fabius line enact its own
+  delay, Lucretius' heavier and more elided verse and his habit of writing in sentences rather than lines,
+  Lucilius putting plain vocabulary in the epic slots, and Catullus' *spondeiazon*.
+- **An index** at `metre.html` with no metre named, so the page is not a dead end.
+
+### Which excerpts are labelled
+**80 excerpts, 71 of them linked.** The rule is: label it only where the metre is **certain** and the **whole
+excerpt is in one metre**.
+
+| Metre | Excerpts | Page |
+|---|---|---|
+| Dactylic Hexameter | Lucretius 60, Ennius 3, Lucilius 6, Catullus 64 | yes |
+| Saturnian | Livius 3, Naevius 3 | not yet |
+| Trochaic Septenarius | Lucilius, Book 26 (2) | not yet |
+| Elegiac Couplets | Catullus 101 | not yet |
+| Phalaecian Hendecasyllable | Catullus 3 | yes |
+
+Plautus, Terence, Caecilius, Pacuvius/Accius and Pomponius/Novius are **deliberately unlabelled**: a scene can
+change metre partway through, so a single label would sometimes be false. They will get a list of metres with
+the verses each one covers.
+
+### Two rules this release established
+- **A metre page shows only example authors who are in the bank** (the user). Virgil, Horace, Ovid and Martial
+  stay out until they are added as authors, however canonical they are; the history sections say where the
+  metre goes next and that the examples will follow.
+- **Latin is never retyped here either.** Every quoted verse is verbatim: five from the bank, and Catullus 1
+  from the cached Latin Library page. `tools/check_metre_quotes.js` strips the editorial marks back off and
+  proves each one against its source, and checks the foot count on the verse against the foot count in the
+  pattern line.
+
+### Changed
+- **The metre data lives in a lookup table, not on the fragment.** `js/fragments.js` is 4.8 MB and is
+  rewritten wholesale by `apply_batch.js`, which builds new fragments from an explicit literal and would
+  silently drop an unknown key. A table is also the shape the playwrights will need. `tools/check_metres.js`
+  keeps the two in step.
+- **The badge clearance moved from the `h2` to a new `.excerpt-headline` flex row**, so the title and the
+  tablet share a line and both stop short of the badge. On a narrow screen, or after a long title, the tablet
+  wraps underneath.
+- `tools/fetch_sources.js` **now decodes UTF-8 pages correctly.** Almost all of the Latin Library is
+  single-byte, but some pages are UTF-8 with no BOM and were being read as latin1, turning every two-byte
+  character into a pair of junk characters - silently. Found while fetching a macronised Virgil page, where
+  every long vowel was corrupt. The whole cache was rebuilt with `--force` afterwards: **392 verbatim, 0
+  mismatched**, unchanged.
+- `tools/lint_markdown.js` now covers `js/metres.js` and `js/metres-it.js` as well.
+
+Verification: **check_metres 80 labelled, 0 failed**; **check_metre_quotes 6, 0 failed**; **verify 392, 0
+mismatched**; **check_verses 60, 0**; `lint_markdown` **0 leaking**; `lint_register` / `lint_ablatives`
+**544, 0**. Checked in the browser at desktop and 375px, in both languages, with the papyrus badge and with
+the 108px VIP banner. Cache-bust: `?v=172` -> `?v=174`, now across **six** pages. (173 was spent mid-release: the token
+was bumped before js/changelog.js was edited, so a browser that loaded 173 in between cached the old
+changelog. Bump the token AFTER the last JS/CSS edit, not before.)
+
 ## [1.14.10] - 2026-09-27
 
 **LUCRETIUS IS FINISHED (+5): THE PLAGUE OF ATHENS.** The last five excerpts of `drn-vi`, and the end of

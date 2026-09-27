@@ -3,21 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title data-i18n="title.index">Latin Authors: Explore &amp; Translate</title>
+  <title data-i18n="title.metres">Metre - Latin Authors: Explore &amp; Translate</title>
   <meta name="description" content="Explore Roman authors from Livius Andronicus to Boethius and practise translating real Latin texts, in English and Italian.">
   <!-- Link previews (Open Graph / Twitter): the image must be an absolute URL -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Latin Super App">
-  <meta property="og:title" content="Latin Super App - Latin Authors: Explore &amp; Translate">
+  <meta property="og:title" content="Metre - Latin Authors: Explore &amp; Translate">
   <meta property="og:description" content="Explore Roman authors from Livius Andronicus to Boethius and practise translating real Latin texts, in English and Italian.">
-  <meta property="og:url" content="https://latinsuperapp.com/">
   <meta property="og:image" content="https://latinsuperapp.com/social_image.jpeg">
   <meta property="og:image:type" content="image/jpeg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="675">
   <meta property="og:image:alt" content="Latin Super App: explore Roman authors and practise translating real Latin texts">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Latin Super App - Latin Authors: Explore &amp; Translate">
+  <meta name="twitter:title" content="Metre - Latin Authors: Explore &amp; Translate">
   <meta name="twitter:description" content="Explore Roman authors from Livius Andronicus to Boethius and practise translating real Latin texts, in English and Italian.">
   <meta name="twitter:image" content="https://latinsuperapp.com/social_image.jpeg">
   <link rel="stylesheet" href="css/styles.css?v=174">
@@ -27,30 +26,20 @@
     <div class="container">
       <div class="lang-toggle" id="lang-toggle"></div>
       <h1 class="site-title"><a href="index.html" data-i18n="site.title">Latin Authors: Explore &amp; Translate</a></h1>
-      <p class="site-subtitle" data-i18n="subtitle.index">Explore Roman authors and practise translating them, from Livius Andronicus to Boethius</p>
+      <p class="site-subtitle" data-i18n="subtitle.metres">Poetic metre</p>
       <nav class="era-menu" id="era-menu" data-i18n-attr="aria-label:aria.eras" aria-label="Eras"></nav>
     </div>
   </header>
 
   <main class="container">
-    <div class="home-two-column">
-      <section class="era-panel" id="era-panel" aria-live="polite">
-        <div class="era-panel-header">
-          <h2 class="era-panel-title" id="era-panel-title" data-i18n="era.archaic">Archaic Era</h2>
-          <span class="era-panel-toggle" id="era-panel-toggle" aria-hidden="true">&minus;</span>
-        </div>
-        <div class="era-panel-body" id="era-panel-body"></div>
-      </section>
-
-      <aside class="changelog-panel" id="changelog-panel" aria-label="What's New"></aside>
+    <nav class="breadcrumb" id="breadcrumb" data-i18n-attr="aria-label:aria.breadcrumb" aria-label="Breadcrumb"></nav>
+    <div id="metre-root" class="metre-page">
+      <div class="loading" data-i18n="loading.generic">Loading...</div>
     </div>
-
-    <h2 class="section-label" id="grid-label" data-i18n="section.authors">Authors</h2>
-    <section class="author-grid" id="author-grid"></section>
   </main>
 
   <footer class="site-footer">
-    <div class="container" data-i18n="footer.index">An interactive companion to the Latin Authors writing project.</div>
+    <div class="container" data-i18n="footer.metres">How the verse is built, and how it sounded when it was read aloud.</div>
   </footer>
 
   <script src="js/content.js?v=174"></script>
@@ -60,9 +49,9 @@
   <script src="js/ui.js?v=174"></script>
   <script src="js/data.js?v=174"></script>
   <script src="js/menu.js?v=174"></script>
-  <script src="js/home.js?v=174"></script>
-  <script src="js/changelog.js?v=174"></script>
-  <script src="js/whatsnew.js?v=174"></script>
+  <script src="js/metres.js?v=174"></script>
+  <script src="js/metres-it.js?v=174"></script>
+  <script src="js/metre-page.js?v=174"></script>
   <script src="js/analytics.js?v=174"></script>
 </body>
 </html>

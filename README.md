@@ -81,6 +81,14 @@ inconsistent; it reads the markdown and never modifies it.)
   Style / Density) and an overall evaluation, with a "Practice translation" button.
 - `practice.html?era=archaic&id=<slug>` - practice: the Latin excerpt with a textarea to
   attempt a translation and reveal buttons for the Italian, English, and analysis.
+- `practice-select.html?era=<era>&id=<slug>` - the text chooser, for authors with several
+  works (Plautus, Terence, Lucretius, and Cicero, who nests one level deeper:
+  category then work).
+- `version.html?v=<version>` - every excerpt added in one release, reached by clicking an
+  excerpt's version badge.
+- `metre.html?m=<metre>` - the metre reference: where a verse form came from, how it is
+  built, how it sounds, and one scanned line from each poet in the app who used it.
+  Reached from the metre named on a verse excerpt; with no `?m=` it lists the metres.
 
 The **Archaic Era** and **Caesar's Age** have content today; the other three eras are placeholders.
 

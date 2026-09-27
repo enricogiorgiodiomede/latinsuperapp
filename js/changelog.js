@@ -12,6 +12,37 @@
 
   var VERSIONS = [
     {
+      v: '1.15.0', date: '28/09/2026', time: 'TBD', tz: 'CEST',
+      en: {
+        added: [
+          'Verse excerpts now say what metre they are in. A small tablet sits beside the excerpt\'s title reading, for instance, METRE - Dactylic Hexameter, and where the metre has a reference page the name is a link.',
+          'Two of those pages arrive with it. The Dactylic Hexameter, the metre of epic, didactic poetry and satire, and the Phalaecian Hendecasyllable, the eleven-syllable line Catullus reached for more often than any other. Each one explains where the metre came from, how it is built foot by foot, how it actually sounds when you read it aloud, and who used it.',
+          'The last of those sections is the interesting one. It takes the poets in the app who wrote in that metre - Ennius, Lucilius, Lucretius and Catullus for the hexameter - and prints one line of each with its scansion marked on it, foot by foot, with the caesura shown, followed by what that poet in particular does with the measure: why the Ennius line is famously slow, why Lucretius is heavier than the poets who came after him, why Catullus keeps putting a spondee where everyone else puts a dactyl.',
+          'Eighty excerpts carry a metre so far, seventy-one of them linked. Only excerpts whose metre is certain and single are labelled: a scene of Plautus can change metre partway through, so the playwrights are left for later, when they will get a list of metres with the verses each one covers.'
+        ],
+        changed: [
+          'Nothing about the excerpts themselves changed. No Latin was touched, no translation and no analysis: this update only adds the labels and the pages they point to.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'I brani in versi dicono ora in che metro sono. Una piccola targhetta accanto al titolo del brano riporta, per esempio, METRO - Esametro Dattilico, e dove il metro ha una pagina di riferimento il nome è un collegamento.',
+          'Due di quelle pagine arrivano insieme alla targhetta. L\'Esametro Dattilico, il metro dell\'epica, della poesia didascalica e della satira, e l\'Endecasillabo Falecio, il verso di undici sillabe a cui Catullo ricorse più che a ogni altro. Ciascuna spiega da dove viene il metro, com\'è costruito piede per piede, come suona davvero a leggerlo ad alta voce e chi lo ha usato.',
+          'L\'ultima di quelle sezioni è la più interessante. Prende i poeti dell\'app che hanno scritto in quel metro - Ennio, Lucilio, Lucrezio e Catullo per l\'esametro - e stampa un verso di ciascuno con la scansione segnata sopra, piede per piede e con la cesura indicata, seguito da ciò che quel poeta in particolare fa con quella misura: perché il verso di Ennio sia notoriamente lento, perché Lucrezio sia più pesante dei poeti venuti dopo, perché Catullo continui a mettere uno spondeo dove tutti gli altri mettono un dattilo.',
+          'Finora ottanta brani portano un metro, settantuno dei quali con collegamento. Vengono etichettati solo i brani il cui metro è certo e unico: una scena di Plauto può cambiare metro a metà, perciò i commediografi restano per dopo, quando avranno un elenco di metri con i versi coperti da ciascuno.'
+        ],
+        changed: [
+          'Nulla è cambiato nei brani stessi. Non è stato toccato nessun testo latino, nessuna traduzione e nessuna analisi: questo aggiornamento aggiunge soltanto le etichette e le pagine a cui rimandano.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.14.10', date: '27/09/2026', time: '16:38', tz: 'CEST',
       en: {
         added: [
