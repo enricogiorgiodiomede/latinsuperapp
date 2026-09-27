@@ -158,9 +158,18 @@ No new excerpts, no version bump. **Lucretius stays at 60 and the plan stays clo
 
 - **Every block now opens a verse.** Three markers sat inside a line, where a sentence began mid-verse:
   `**1179.**` after *corpora.*, and `**1221.**` and `**1222.**` in the third excerpt. Each has been merged into
-  the block before it, and the translation ranges merged with them (1178-1181 and 1219-1224). **Seven older
-  excerpts in Books I to III still carry mid-verse markers** and were left alone: I, vv. 80-101, 311-321 and
-  926-950; II, vv. 14-33; III, vv. 1-13, 14-30 and 152-160.
+  the block before it, and the translation ranges merged with them (1178-1181 and 1219-1224). **The seven older
+  excerpts in Books I to III were then done as well**, at the user's request, so that no verse excerpt anywhere in
+  the bank now carries a marker inside a line: I, vv. 80-101 (80-81 + 82-83 -> 80-83), 311-321 (311-315 + 316-318
+  -> 311-318) and 926-950 (926 + 927-930 -> 926-930); II, vv. 14-33 (14-15 + 16-19 -> 14-19); III, vv. 1-13 (1-5 +
+  6-8 -> 1-8), 14-30 (14-16 + 17 -> 14-17) and 152-160, which becomes a single block. Six of the seven put the
+  absorbed block on its own paragraph; I, vv. 311-321 kept it inline after a semicolon, mirroring its Latin, so
+  there only the marker was dropped.
+- **The batch files that built those seven were deliberately NOT touched.** `batch/frags1140.js`,
+  `frags1141.js` and `frags1143.js` predate the v1.14.0 follow-up that gave the translations verse RANGES, and
+  their translation markers are still single numbers, so they have not matched the bank since then. They are a
+  record of what was applied at the time, not a source anything is rebuilt from; the rule that a batch file is kept
+  in step with the bank applies to the release being worked on.
 - **Italian: *edere vitam* is not *rendere la vita*.** It is to give life up, not to give it back. Fixed in the
   translation of VI, vv. 1230-1253 in both places, in its grammar note, and in the two other Lucretian deaths that
   used the same verb. No occurrence is left anywhere in the bank.
