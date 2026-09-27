@@ -150,6 +150,49 @@ Verification: **check_verses 60, 0**; **392 verbatim, 0 mismatched**; `check_sec
 (all pre-existing); `check_context.js` **0 on the release**; `lint_register.js` / `lint_ablatives.js` **544, 0**;
 `lint_markdown.js` **0 leaking**. Cache-bust: `?v=169` -> `?v=170`.
 
+### Follow-up, 2026-09-27: the user's notes on the plague, and two fixes
+
+No new excerpts, no version bump. **Lucretius stays at 60 and the plan stays closed.**
+
+**Fixed.**
+
+- **Every block now opens a verse.** Three markers sat inside a line, where a sentence began mid-verse:
+  `**1179.**` after *corpora.*, and `**1221.**` and `**1222.**` in the third excerpt. Each has been merged into
+  the block before it, and the translation ranges merged with them (1178-1181 and 1219-1224). **Seven older
+  excerpts in Books I to III still carry mid-verse markers** and were left alone: I, vv. 80-101, 311-321 and
+  926-950; II, vv. 14-33; III, vv. 1-13, 14-30 and 152-160.
+- **Italian: *edere vitam* is not *rendere la vita*.** It is to give life up, not to give it back. Fixed in the
+  translation of VI, vv. 1230-1253 in both places, in its grammar note, and in the two other Lucretian deaths that
+  used the same verb. No occurrence is left anywhere in the bank.
+
+**Notes added, in both languages.**
+
+- **VI, vv. 1138-1162**: **why this plague and not a mythical one** - the *Iliad* and the *Oedipus Tyrannus* both
+  come with a god attached, and Athens came with an eyewitness instead, so the choice of example is already the
+  argument. Plus what the clinical accuracy is for (a fixed sequence is what matter produces and a decision does
+  not), and the open question about why the poem ends in this register, flagged here and picked up at the end.
+- **VI, vv. 1163-1181**: the hopelessness is **built, not felt** - every remedy an Athenian had is named and then
+  shown to fail - and this is where the city starts coming apart, **from the specialist inwards**: medicine here,
+  the household at vv. 1230-1253, the rites and the gods at vv. 1267-1286.
+- **VI, vv. 1205-1229**: fear of death **plus plain ignorance**, which is the same pair Book I blames for
+  *religio* (I, vv. 146-158), and why that combination makes the collapse so fast. And that avoiding the bodies
+  was the one correct thing anybody did, since the animals that tasted them died - epidemiology without the word,
+  which is also where the end-of-the-world register comes from.
+- **VI, vv. 1230-1253**: **the dilemma has an Epicurean answer the poem never supplies** - survive and the pain
+  stops; die and death is nothing to us (III, vv. 830-842); and the stretch between is exactly what the fourth
+  Principal Doctrine covers. So the plague reads as a final examination, with the awkward fact that the text never
+  says so and never points at the answer. Plus the reminder that it was not only Athens.
+- **VI, vv. 1267-1286**: why the rites outlast the belief and why the brawling at the pyres was rational, and then
+  **the ring** - Venus and the spring at one end, corpses and men fighting over fire at the other, Love and Strife,
+  which is Empedocles, the predecessor Lucretius praises by name in Book I. Closing with how little stands behind
+  any of it: one sentence of Cicero, one hostile chronicle entry, and the poem.
+
+Verification, all clean on the first run after the rebuild: **check_verses 60, 0**; **392 verbatim, 0 mismatched**;
+`check_sections.js` **175, 3 to look at** (all pre-existing); `check_context.js` **0 on the release**;
+`lint_register.js` / `lint_ablatives.js` **544, 0**; `lint_markdown.js` **0 leaking**. The five fragments were
+rebuilt through `apply_batch.js` from `batch/frags11410.js`, so the batch file is still the source for the release.
+Cache-bust: `?v=170` -> `?v=171`.
+
 ## [1.14.9] - 2026-09-25
 
 **LUCRETIUS BOOK VI, PART 1 (+5), AND PRO ARCHIA.** New work `drn-vi` ("Book VI" / "Libro VI"), the last of the
@@ -184,42 +227,6 @@ six. Lucretius **50 -> 55**; bank **534 -> 539**. Five excerpts left in the plan
 Verification, all clean on the first run for the Lucretius batch: **check_verses 55, 0**; **387 verbatim, 0
 mismatched**; `check_sections.js` **170, 3 to look at** (all pre-existing); `check_context.js` **0 on the release**;
 `lint_register.js` / `lint_ablatives.js` **539, 0**; `lint_markdown.js` **0 leaking**. Cache-bust: `?v=167` -> `?v=168`.
-
-## [1.14.8] - 2026-09-22
-
-**LUCRETIUS BOOK V IS COMPLETE AT TEN (+5), AND THE CATILINARIANS ARE FINISHED.** Lucretius **45 -> 50**;
-bank **529 -> 534**. One book of the poem left.
-
-### Added
-- **V, vv. 1120-1135** ambition: the climb for security is what destroys it, envy burns the summit as lightning
-  does (Horace would rework it), *in Tartara taetra* as the destination, and *sapiunt alieno ex ore* - ambition as
-  a borrowed appetite with no natural stopping place.
-- **V, vv. 1161-1182** the origin of belief, in four inferences from dream-images: faces, then sensation, then
-  immortality, then perfect happiness. The *simulacra* are real and the theology is added by *opinio*, exactly as
-  with the square tower (IV, vv. 353-363). Named as the ancestor of Hume, Feuerbach, Freud and the modern
-  cognitive science of religion.
-- **V, vv. 1183-1203** *perfugium*: gods as the place you run to when you cannot explain the seasons, the sky
-  chosen because that is where the unexplained happens, the cost counted over three generations, and **piety
-  redefined** - five Roman ritual acts named and refused, against *pacata posse omnia mente tueri*. Cross-linked
-  both ways with *De Divinatione* II.148, where Cicero does the same operation with the labels swapped.
-- **V, vv. 1218-1240** the fear now: thunder and the crawling skin, proud kings, the admiral who prays and drowns,
-  and the hidden force that tramples *fascis* and *secures* - the same emblems Sisyphus begs for (III, vv. 995-1002).
-  Lucretius concedes the inference is reasonable, which is what makes the explanation corrosive.
-- **V, vv. 1448-1457** the close of the book: *usus* and *experientia*, *paulatim* and *pedetemptim*, inventions
-  born *in luminis oras* like the newborn of V, vv. 222-234 - and the peak of the arts read against the summits
-  that envy burns, with Book VI opening in Athens and ending in the plague.
-
-### Changed - the Cicero pass
-- **All six short In Catilinam IV notes extended**, and **IV.7 and IV.10 given the grammar paragraph they lacked**,
-  so the work is closed. **All four Catilinarians are now done: 30 notes across v1.14.5 to v1.14.8.**
-- **68 old short notes remain**, and the criterion is now written down rather than estimated: **under 1,600
-  characters AND three paragraphs or fewer**. By work: Pro Archia 8, Pro Milone 8, In Pisonem 8, Pro Caelio 5,
-  the Verrines 14, the Philippics 21, Ad Atticum 3, De Amicitia 1. Catullus and Sallust stay excluded (the user).
-
-Verification: **check_verses 50, 0**; **382 verbatim, 0 mismatched**; `check_sections.js` **165, 3 to look at**
-(all pre-existing); `check_context.js` **0 on the release**; `lint_register.js` / `lint_ablatives.js` **534, 0**;
-`lint_markdown.js` **0 leaking** (two caught and fixed before commit). Cache-bust: `?v=165` -> `?v=166`.
-
 
 ### Follow-up, 2026-09-26: two Book VI excerpts extended, and the user's notes
 
@@ -270,6 +277,42 @@ Verification: **check_verses 55, 0**; **387 verbatim, 0 mismatched** (one now re
 `check_sections.js` **170, 3 to look at** (all pre-existing); `check_context.js` **0 on the release**;
 `lint_register.js` / `lint_ablatives.js` **539, 0**; `lint_markdown.js` **0 leaking**. `batch/frags1149.js` rebuilt
 from the bank and `batch/frags1149b.js` checked against it, field by field. Cache-bust: `?v=168` -> `?v=169`.
+
+## [1.14.8] - 2026-09-22
+
+**LUCRETIUS BOOK V IS COMPLETE AT TEN (+5), AND THE CATILINARIANS ARE FINISHED.** Lucretius **45 -> 50**;
+bank **529 -> 534**. One book of the poem left.
+
+### Added
+- **V, vv. 1120-1135** ambition: the climb for security is what destroys it, envy burns the summit as lightning
+  does (Horace would rework it), *in Tartara taetra* as the destination, and *sapiunt alieno ex ore* - ambition as
+  a borrowed appetite with no natural stopping place.
+- **V, vv. 1161-1182** the origin of belief, in four inferences from dream-images: faces, then sensation, then
+  immortality, then perfect happiness. The *simulacra* are real and the theology is added by *opinio*, exactly as
+  with the square tower (IV, vv. 353-363). Named as the ancestor of Hume, Feuerbach, Freud and the modern
+  cognitive science of religion.
+- **V, vv. 1183-1203** *perfugium*: gods as the place you run to when you cannot explain the seasons, the sky
+  chosen because that is where the unexplained happens, the cost counted over three generations, and **piety
+  redefined** - five Roman ritual acts named and refused, against *pacata posse omnia mente tueri*. Cross-linked
+  both ways with *De Divinatione* II.148, where Cicero does the same operation with the labels swapped.
+- **V, vv. 1218-1240** the fear now: thunder and the crawling skin, proud kings, the admiral who prays and drowns,
+  and the hidden force that tramples *fascis* and *secures* - the same emblems Sisyphus begs for (III, vv. 995-1002).
+  Lucretius concedes the inference is reasonable, which is what makes the explanation corrosive.
+- **V, vv. 1448-1457** the close of the book: *usus* and *experientia*, *paulatim* and *pedetemptim*, inventions
+  born *in luminis oras* like the newborn of V, vv. 222-234 - and the peak of the arts read against the summits
+  that envy burns, with Book VI opening in Athens and ending in the plague.
+
+### Changed - the Cicero pass
+- **All six short In Catilinam IV notes extended**, and **IV.7 and IV.10 given the grammar paragraph they lacked**,
+  so the work is closed. **All four Catilinarians are now done: 30 notes across v1.14.5 to v1.14.8.**
+- **68 old short notes remain**, and the criterion is now written down rather than estimated: **under 1,600
+  characters AND three paragraphs or fewer**. By work: Pro Archia 8, Pro Milone 8, In Pisonem 8, Pro Caelio 5,
+  the Verrines 14, the Philippics 21, Ad Atticum 3, De Amicitia 1. Catullus and Sallust stay excluded (the user).
+
+Verification: **check_verses 50, 0**; **382 verbatim, 0 mismatched**; `check_sections.js` **165, 3 to look at**
+(all pre-existing); `check_context.js` **0 on the release**; `lint_register.js` / `lint_ablatives.js` **534, 0**;
+`lint_markdown.js` **0 leaking** (two caught and fixed before commit). Cache-bust: `?v=165` -> `?v=166`.
+
 
 ### Follow-up, 2026-09-25: the user's notes on Book V, part 2
 
