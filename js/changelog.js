@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.15.0', date: '28/09/2026', time: 'TBD', tz: 'CEST',
+      v: '1.15.0', date: '28/09/2026', time: '00:40', tz: 'CEST',
       en: {
         added: [
           'Verse excerpts now say what metre they are in. A small tablet sits beside the excerpt\'s title reading, for instance, METRE - Dactylic Hexameter, and where the metre has a reference page the name is a link.',
