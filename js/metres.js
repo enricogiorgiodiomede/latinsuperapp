@@ -315,7 +315,7 @@
         '**The accentual school treats it as a verse of beats**, three in the first colon and two in the second, of the kind familiar from Germanic alliterative verse and from later popular Latin. The difficulty there is that the Latin word accent of the third century BC is itself reconstructed, so the theory is testing one uncertainty against another.',
         '**A third position says it is a syllable-counting verse** with a fixed break and some constraint on how each half ends, and that this is simply all that can be recovered. That is the position this page takes, not out of conviction but because it is the only one that does not require asserting something disputed.',
         '**What can be observed without taking a side** is worth having. The break is real and always falls at a word end. Alliteration is extremely heavy and looks structural rather than decorative - it binds the two halves to each other. And the halves are very often syntactically parallel, so the sense divides where the line divides.',
-        '**Which is why the examples below carry no foot-by-foot scansion.** Everywhere else in this reference the scansion is marked on the verse; here it would mean picking a theory and presenting it as fact. The break is marked, the syllables are counted, and that is as far as the evidence goes.'
+        '**Which is why each example below is given twice.** Once read for quantity, with the syllable lengths marked exactly as they would be in a hexameter, and once read for stress, with the ordinary Latin word accent marked. Neither is offered as the answer. Set side by side they show, in two lines, why two centuries of argument have not produced one - and they are more instructive than either reading alone, because they do not agree with each other.'
       ],
 
       sound: [
@@ -327,7 +327,7 @@
 
       usedIntro: [
         'Two epics, the *Odusia* and the *Bellum Poenicum*; the epitaphs of the Scipios; dedications and triumphal inscriptions. That is essentially the whole list.',
-        'Both surviving poets are in this app, so both examples are genuine Saturnians rather than reconstructions - shown, as explained above, with the break marked and nothing else.'
+        'Both surviving poets are in this app, so both examples are genuine Saturnians rather than reconstructions. Each is given twice over, once by quantity and once by stress, so that the two competing readings of the same line can be compared directly.'
       ],
 
       examples: [
@@ -335,36 +335,58 @@
           author: 'Livius Andronicus',
           slug: 'livius-andronicus', era: 'archaic',
           where: 'Odusia, fr. I.1',
-          gloss: 'The first line of Latin literature',
+          gloss: 'The first line of Latin literature, read both ways',
           plain: 'Virum mihi, Camena, insece versutum.',
           source: 'bank',
-          marked: 'Virum mihi, Camena, ‖ insece versutum.',
-          pattern: '7 ‖ 6',
+          readings: [
+            {
+              label: 'metre.reading.quantitative',
+              marked: 'Vĭrŭm mĭhĭ, Cămēnă, ‖ īnsĕcĕ vērsūtŭm.',
+              pattern: '⏑ – ⏑ ⏑ ⏑ – ⏑ ‖ – ⏑ ⏑ – – ×',
+              note: 'Marked for length, exactly as a hexameter would be marked, the line comes out with **one long in its first seven syllables and three in its last six**. That is not a shape any Greek metre produces, and a quantitative schema can be fitted to it only by allowing so many substitutions that it stops predicting anything. Note also the **hiatus** at the break: *Camena, insece* would elide anywhere else in Latin verse and here does not, which is normal in Saturnians and is itself an argument that the break is a real structural boundary.'
+            },
+            {
+              label: 'metre.reading.accentual',
+              marked: 'Vírum míhi, Caména, ‖ ínsece versútum.',
+              pattern: '´ ´ ´ ‖ ´ ´',
+              note: 'Marked for stress instead - accent the second-last syllable if it is heavy, otherwise the third-last, and a word of two syllables on its first - the line gives **three beats and then two**. That is precisely the 3 ‖ 2 the accentual theory predicts, and read aloud that way it does sound like verse rather than like a sentence. This is why the theory has never gone away.'
+            }
+          ],
           notes: [
             '**This is where Latin literature begins**, as far as we can see it: the opening of the Odyssey, put into Latin for a Roman audience around 240 BC by a man who had probably arrived in Rome as a prisoner of war.',
             '**Look at what he does with Homer\'s first line.** The Muse becomes *Camena*, an Italian spring-goddess. He is not translating the divinity, he is replacing it with a local one - which is exactly the same decision as writing the poem in the native metre instead of the Greek one. The Latin and the Greek forms are made to match each other at every level except the surface.',
-            '**And then one word pulls the other way.** *Insece*, "tell", is an archaic imperative and it is cognate with the Greek *ennepe* that opens Homer\'s line. So the sentence is Roman in its metre and its gods and Greek in its bones, which is a fair description of the whole of early Latin literature.',
-            '**The shape: seven syllables, the break at the comma, six.** No quantities are marked here, for the reason given above.'
+            '**And then one word pulls the other way.** *Insece*, "tell", is an archaic imperative and it is cognate with the Greek *ennepe* that opens Homer\'s line. So the sentence is Roman in its metre and its gods and Greek in its bones, which is a fair description of the whole of early Latin literature.'
           ]
         },
         {
           author: 'Gnaeus Naevius',
           slug: 'gnaeus-naevius', era: 'archaic',
           where: 'Epitaphium, fr. 67, v. 1',
-          gloss: 'The epitaph he is said to have written for himself',
+          gloss: 'The epitaph he is said to have written for himself - and the line that breaks both theories',
           plain: 'immortales mortales si foret fas flere,',
           source: 'bank',
-          marked: 'immortales mortales ‖ si foret fas flere,',
-          pattern: '7 ‖ 6',
+          readings: [
+            {
+              label: 'metre.reading.quantitative',
+              marked: 'īmmōrtālēs mōrtālēs ‖ sī fŏrĕt fās flērĕ,',
+              pattern: '– – – – – – – ‖ – ⏑ – – – ×',
+              note: '**Seven long syllables in a row**, and then a second colon nearly as heavy: two short syllables in the whole line of thirteen. Nothing in Greek or Latin quantitative metre produces a line like this. If the Saturnian is a quantitative measure, then its schema has to be loose enough to accept very nearly anything - which is the central objection to the quantitative case, made here by a single verse.'
+            },
+            {
+              label: 'metre.reading.accentual',
+              marked: 'immortáles mortáles ‖ si fóret fas flére,',
+              pattern: '´ ´ ‖ ´ ´ ´',
+              note: 'By stress the same line gives **two beats and then three** - the exact reverse of the Livius line, where the identical rule gave three and then two. The theory that worked a moment ago does not work here. Two lines are not a sample, but they are a fair demonstration of the difficulty: **every reading of the Saturnian works somewhere and fails somewhere else**, and there is not enough surviving verse to decide between them.'
+            }
+          ],
           notes: [
-            '**The same shape again, 7 and 6**, from the other surviving Saturnian poet - and this one is a self-composed epitaph, the metre used for the purpose it was used for on real tombstones.',
-            '**The first half is one word said twice.** *Immortales mortales*: the same stem, once with the negative prefix and once without, immortals and mortals set side by side with nothing between them. It is the whole thought of the poem compressed into the first colon, and it works because the metre gives that colon a hard edge.',
-            '**The second half turns to alliteration**, *si foret fas flere*, and the f-sound carries straight over into the line that follows, *flerent divae Camenae*. In a verse form with loose rules, this is the binding: the ear is held by sound-patterning where a Greek metre would hold it by quantity.',
+            '**The same 7 and 6 as the Livius line**, from the other surviving Saturnian poet - and this one is a self-composed epitaph, the metre used for exactly the purpose it was used for on real tombstones.',
+            '**The first half is one word said twice.** *Immortales mortales*: the same stem, once with the negative prefix and once without, immortals and mortals set side by side with nothing between them. It is the whole thought of the poem compressed into the first colon, and it is also why that colon is seven longs deep - the repetition builds it out of heavy syllables.',
+            '**The second half turns to alliteration**, *si foret fas flere*, and the f-sound carries straight over into the line that follows, *flerent divae Camenae*. In a verse form whose rules nobody can state, this is the binding: the ear is held by sound-patterning where a Greek metre would hold it by quantity.',
             'The boast underneath is not small. If it were right for immortals to weep for mortals, says Naevius, the divine Camenae would weep for him - and once he had been handed over to the treasury of Orcus, Rome forgot how to speak Latin.'
           ]
         }
       ],
-
       after: 'Nothing later is written in it. The Saturnian is the one Latin metre with no afterlife at all: it was not developed, it was replaced, and what replaced it is the dactylic hexameter.'
     },
 
@@ -386,12 +408,12 @@
       ],
 
       build: [
-        '**This is not one metre but a pair, and the pair is the unit.** A single hexameter is a line of epic; a hexameter followed by a pentameter is a couplet of elegy. You do not meet either half on its own.',
+        '**This is not one metre but a pair, and the pair is the unit.** The hexameter, of course, is met on its own everywhere - it is the line of epic, of didactic poetry, of satire and of pastoral. **The pentameter is the one that never stands alone.** There is no poem in Latin written in pentameters; the line exists only as the second half of a couplet, and a couplet is what a poet composes in.',
         '**The first line is an ordinary dactylic hexameter**, with all the freedom that implies: four feet that may be dactyls or spondees, a fifth that is almost always a dactyl, a two-syllable close.',
-        '**The second line is badly named.** "Pentameter" suggests five feet of something, and it is not that. It is two half-lines, each of two and a half feet: – ⏑ ⏑ – ⏑ ⏑ –, then a break, then – ⏑ ⏑ – ⏑ ⏑ – again. Count the feet and you get six halves that add up to five; hence the name, which has misled students for two thousand years.',
+        '**The second line can be read two ways, and both are worth having.** The practical way is as two half-lines, each of two and a half feet: – ⏑ ⏑ – ⏑ ⏑ –, a break, then – ⏑ ⏑ – ⏑ ⏑ – again. That is how you scan it. **But the name is not the blunder it looks.** Add the two half-feet back together - the single long before the break and the single long at the very end - and they make one complete spondee, split in half by the caesura and set at the two ends of the line. Two whole feet, two whole feet, and that divided fifth: **five feet, which is exactly what the name claims.** The fifth foot is there; it has simply been cut in two and hung at either end.',
         '**The break in the middle is obligatory and always falls at a word end.** That is the single most audible thing about the line: it really does come in two pieces, and a poet can use the gap to set one half against the other.',
         '**And now the rule that matters most.** In the first half the two dactyls may contract into spondees, exactly as in the hexameter. **In the second half they never may.** After the break, every pentameter in classical Latin runs – ⏑ ⏑ – ⏑ ⏑ –, without exception. There is no other position in Latin metre that is fixed so hard.',
-        '**The last element is a single long, not a foot.** The line simply stops. From Ovid onwards it is normal to end the pentameter on a word of two syllables, which makes the close even more uniform; Catullus has not adopted that habit yet, and you can hear the difference.',
+        '**Nothing about this changes after Catullus.** The same construction is still there in Tibullus, in Propertius and all through Ovid, who wrote more of these couplets than anybody: the fixed second half, the obligatory break, the split fifth foot at the two ends. What Ovid does add is a refinement of habit rather than of structure - from him onwards it becomes normal to end the pentameter on a word of two syllables, which makes the close even more uniform. Catullus has not adopted that yet, and you can hear the difference.',
         'Elision works as it does everywhere in Latin verse, and in a form this compressed it is very audible: there are two elisions in the four lines quoted below.'
       ],
 
@@ -457,8 +479,9 @@
         '**The falling shape is the point.** A trochee is long-then-short, so each foot begins on its beat and falls away, and the line as a whole pushes forward. An iambic line rises into its beat; a trochaic one drops out of it.',
         '**Substitution is allowed almost everywhere, and this is what makes the metre useful.** A long may be resolved into two shorts. The anceps may be a long, a short, or two shorts. So a single foot may appear as a trochee, a spondee, a dactyl, an anapaest or a tribrach, and the fifteen metrical positions of the line can be filled by anything from fifteen syllables to well over twenty.',
         '**There is usually a break after the fourth foot**, at the halfway point, and it usually falls at a word end. It is a strong tendency rather than a rule, and both examples below have it.',
-        '**Now the consequence, which is the honest part of this page.** With substitution available in nearly every position, a given line will often admit more than one analysis, and editors of Plautus and Terence disagree about particular lines. The metre bends to the sentence rather than the sentence to the metre - which is exactly what you want for dialogue, and exactly what makes a definitive scansion hard.',
-        '**This is also why the comic poets are not labelled in this app.** A scene of Plautus moves between the spoken senarius, this metre, and the lyric metres of the *cantica*, sometimes within a few lines; a single metre named on a whole excerpt would often be wrong. Lucilius can be labelled because his books are consistent within themselves.'
+        '**Scanning one is a mechanical job, and worth doing once by hand.** Look each word up and mark the vowels that are long by nature. Then apply position: a syllable is heavy if its vowel is followed by two consonants, including across a word boundary, which is why the *-um* of *Iunium* and the *-us* of *publicanus* come out long. Then strike out the elisions - a final vowel, or a final vowel plus *m*, before a word beginning with a vowel or *h*. What is left is a string of longs and shorts, and the job is to lay it against the fifteen positions. The example below is done that way, line by line.',
+        '**The one real difficulty is that you cannot count your way in.** In a hexameter the syllable count narrows the possibilities at once; here resolution means fifteen positions may be filled by anything from fifteen syllables to twenty or more, so you have to fit rather than count, and a line with several resolutions can occasionally be laid out in more than one way. Both lines below have exactly one resolution each and come out unambiguous.',
+            '**The comic poets are still not labelled in this app, and that is a separate matter.** It is not that a Plautine line cannot be scanned; it is that a Plautine *scene* moves between the spoken senarius, this metre and the lyric metres of the *cantica*, sometimes within a few lines, so one metre named on a whole excerpt would often be wrong. Lucilius can be labelled because each of his books is consistent within itself.'
       ],
 
       sound: [
@@ -470,42 +493,38 @@
 
       usedIntro: [
         'Roman comedy above all - Plautus and Terence use it constantly, and between them they account for most of the surviving examples in Latin. Then Lucilius\' earliest satire, then marching songs, popular verse, and eventually the medieval hymn.',
-        'Only Lucilius is labelled with it in this app, for the reason given above; both examples below are from Book 26, the earliest satire we have any of.'
+        'Only Lucilius is labelled with it in this app, for the reason given above. The example below is from Book 26, the earliest satire we have any of - the same book that carries the most quoted sentence in Roman satire about its own audience, where Lucilius says he does not want Manius Persius, who was famously learned, to read him, and does want Iunius Congus, who was not. That line survives only inside the preface to Pliny\'s Natural History rather than as transmitted verse, so it is left out of the scansion below.'
       ],
 
       examples: [
         {
           author: 'Gaius Lucilius',
           slug: 'gaius-lucilius', era: 'archaic',
-          where: 'Saturae, Book 26, on his readers',
-          gloss: 'Who he wants reading him, and who he does not',
-          plain: 'Manium Persium haec legere nolo, Iunium Congum volo.',
+          where: 'Saturae, Book 26, vv. 1-2',
+          gloss: 'Refusing the richest contract in the Roman world, scanned line by line',
+          plain: [
+            'publicanus vero ut Asiae fiam, ut scripturarius,',
+            'pro Lucilio, id ego nolo, et uno hoc non muto omnia'
+          ],
           source: 'bank',
-          marked: 'Manium Persium haec legere nolo, ‖ Iunium Congum volo.',
+          marked: [
+            'pūblĭcānŭs vēr(o) ŭt Ăsĭae ‖ fī(am), ŭt scrīptūrārĭŭs,',
+            'prō Lūcīlĭ(o), ĭd ĕgŏ nōl(o), ĕt ‖ ūn(o) hōc nōn mūt(o) ōmnĭă'
+          ],
+          pattern: [
+            '– ⏑ | – – | – ⏑ | ⏑ ⏑ – ‖ – – | – – | – ⏑ | ×',
+            '– – | – ⏑ | ⏑ ⏑ ⏑ | – ⏑ ‖ – – | – – | – ⏑ | ×'
+          ],
           notes: [
-            '**The most quoted sentence in Roman satire about its own audience.** Lucilius does not want to be read by Manius Persius, who was famously learned, and does want to be read by Iunius Congus, who was not. He is pitching the work between the expert and the ignorant, and every satirist after him repeats the gesture.',
-            '**The line is built as a mirror, and the metrical break falls exactly on the hinge.** Two accusative names and a verb, then two accusative names and a verb; *nolo* at the end of the first half, *volo* at the end of the second. The break after the fourth foot lands at the comma, so the metre divides where the sense divides.',
-            '**The second half falls straight onto the schema.** *Iunium Congum volo* is seven syllables for seven positions, with no resolution at all, and it comes out – ⏑ – – – ⏑ –, which is the bare – ⏓ – ⏓ – ⏓ – of the second half. Worth noticing why: the *-um* of *Iunium* and of *Congum* are both long, not because the vowels are long but because each is closed by its *m* before the consonant that follows.',
-            '**The first half is where it gets interesting.** *Persium haec* elides, leaving eleven syllables to fill eight positions - three resolutions - and more than one distribution of them will scan. **This page does not print a foot-by-foot analysis of it**, because there is not one answer to print. That is the metre behaving normally, and it is the reason Plautus and Terence carry no metre label in this app.'
-          ]
-        },
-        {
-          author: 'Gaius Lucilius',
-          slug: 'gaius-lucilius', era: 'archaic',
-          where: 'Saturae, Book 26, v. 1',
-          gloss: 'Refusing a career, in a line full of administrative Latin',
-          plain: 'publicanus vero ut Asiae fiam, ut scripturarius,',
-          source: 'bank',
-          marked: 'publicanus vero ut Asiae fiam, ‖ ut scripturarius,',
-          notes: [
-            '**What he is refusing is a fortune.** A *publicanus* farmed the taxes of a province, and the Asian contract was the richest in the Roman world; a *scripturarius* collected the dues on public pasture. Lucilius was rich already and did not need it, and the point of the sentence - which runs on into the next line - is that he would not swap his independence for any of it.',
-            '**Two elisions in one line**, *vero ut* and *fiam ut*, and they are what makes the syllable count hard to fix at a glance. This is the ordinary condition of Roman dramatic and satiric verse: the written line and the spoken line are different lengths, and you have to hear it before you can scan it.',
-            '**Listen to the vocabulary.** *Publicanus*, *scripturarius* - flat administrative nouns, one of them five syllables long and sitting at the end of the line. A hexameter could not take them; this metre has room. That is a large part of why early satire is written in it, and part of what Lucilius gave up when he moved to the hexameter in Book 30.',
-            'The break again falls at the comma, after *fiam*, which is the fourth-foot diaeresis doing its usual work.'
+            '**What he is refusing is a fortune.** A *publicanus* farmed the taxes of a province and the Asian contract was the richest in the Roman world; a *scripturarius* collected the dues on public pasture. Lucilius was rich already, and the sentence runs on to say that he would not swap his one thing - his independence - for all of it.',
+            '**Both lines have exactly one resolution, and you can see where.** In the first it is in the fourth foot, where *-t A-si-* fills a longum with two shorts; in the second it is in the third, where *id e-* does the same. Everywhere else a position takes one syllable, which is why these two come out unambiguous where a heavily resolved line might not.',
+            '**Watch the elisions**, because they are what makes the count look wrong on the page. *Vero ut* is four written syllables and three spoken; *fiam ut* likewise; and the second line elides four times - *Lucilio id*, *nolo et*, *uno hoc*, *muto omnia*. Sixteen syllables are left in each line to fill fifteen positions.',
+            '**And watch position doing its work.** The *-us* of *publicanus* is short by nature and long here because the *s* is followed by the *v* of *vero*; the *-am* of *fiam* would be long the same way, except that it elides instead. Almost every long in the second half of the first line is a long vowel, which is why that half is so heavy: *fī(am) ŭt scrīptūrārĭŭs* is five longs out of seven.',
+            '**The break falls after Asiae in the first line and after et in the second** - the fourth-foot diaeresis, in both cases at a word end, and in neither case where the editor has put the comma. Punctuation is a modern convenience; the break is a fact about the verse.',
+            '**Listen to the vocabulary.** *Publicanus*, *scripturarius* - flat administrative nouns, one of them five syllables long and sitting at the end of the line. A hexameter could not take them; this metre has room, and that is a large part of why early satire is written in it.'
           ]
         }
       ],
-
       after: 'Plautus and Terence, who use this metre more than anyone else in Latin, are in this app but carry no metre label: a comic scene moves between the spoken senarius, the recited septenarius and the lyric metres of the cantica, sometimes within a few lines, so one label on a whole excerpt would often be wrong. When those excerpts are done they will carry a list of metres with the verses each one covers.'
     }
   };
@@ -527,6 +546,17 @@
       out.examples = rec.examples.map(function (ex, i) {
         var o = {}, src = it.examples[i] || {};
         Object.keys(ex).forEach(function (k) { o[k] = (src[k] != null) ? src[k] : ex[k]; });
+        // `readings` has to be merged reading by reading for the same reason
+        // the examples are: the Italian file carries only the prose, so taking
+        // its array wholesale would throw away the label, the marked verse and
+        // the pattern, which exist once in English and are not language.
+        if (ex.readings) {
+          o.readings = ex.readings.map(function (r, j) {
+            var ro = {}, rsrc = (src.readings || [])[j] || {};
+            Object.keys(r).forEach(function (k) { ro[k] = (rsrc[k] != null) ? rsrc[k] : r[k]; });
+            return ro;
+          });
+        }
         return o;
       });
     }

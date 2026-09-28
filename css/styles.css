@@ -1354,6 +1354,27 @@ a.em-name:focus-visible { outline: 2px solid var(--deep-red); outline-offset: 3p
   margin: 0 0 14px;
   overflow-wrap: anywhere;
 }
+/* One verse analysed more than one way (the Saturnian): each reading gets a
+   small caps heading and its own comment, set apart from the notes below. */
+.me-reading-label {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  color: var(--gray);
+  margin: 14px 0 4px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--line);
+}
+.me-head + .me-gloss + .me-reading-label,
+.me-gloss + .me-reading-label { margin-top: 8px; border-top: none; padding-top: 0; }
+.me-reading-note {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin: 0 0 4px;
+  max-width: 76ch;
+}
+
 /* The second line of a couplet is indented, the way an elegiac pentameter is
    printed in an edition, so the shape of the pair is visible at a glance. */
 .me-verse-2 { padding-left: 1.6em; }

@@ -186,7 +186,7 @@
         '**La scuola accentuativa lo tratta come un verso di battute**, tre nel primo colon e due nel secondo, del tipo familiare dalla poesia allitterativa germanica e dal latino popolare più tardo. Lì la difficoltà è che l\'accento di parola latino del III secolo a.C. è a sua volta ricostruito, e dunque la teoria verifica un\'incertezza con un\'altra.',
         '**Una terza posizione dice che è un verso a conteggio di sillabe**, con una pausa fissa e qualche vincolo su come finisce ciascuna metà, e che questo è semplicemente tutto ciò che si può recuperare. È la posizione di questa pagina, non per convinzione ma perché è l\'unica che non richieda di affermare qualcosa di contestato.',
         '**Ciò che si può osservare senza schierarsi** vale comunque la pena di averlo. La pausa è reale e cade sempre a fine parola. L\'allitterazione è pesantissima e sembra strutturale e non ornamentale: lega le due metà l\'una all\'altra. E le due metà sono spesso parallele nella sintassi, perciò il senso si divide dove si divide il verso.',
-        '**Ed è per questo che gli esempi qui sotto non hanno una scansione piede per piede.** Ovunque altrove in questa sezione la scansione è segnata sul verso; qui significherebbe scegliere una teoria e presentarla come un fatto. La pausa è segnata, le sillabe sono contate, e più in là le prove non arrivano.'
+        '**Ed è per questo che ciascun esempio qui sotto è dato due volte.** Una volta letto per quantità, con le durate delle sillabe segnate esattamente come si segnerebbero in un esametro, e una volta letto per accento, con il normale accento di parola latino. Nessuna delle due è offerta come la risposta. Messe una accanto all\'altra mostrano, in due versi, perché due secoli di discussione non ne abbiano prodotta una; e sono più istruttive di ciascuna presa da sola, perché non vanno d\'accordo tra loro.'
       ],
 
       sound: [
@@ -198,32 +198,46 @@
 
       usedIntro: [
         'Due poemi epici, l\'*Odusia* e il *Bellum Poenicum*; gli epitaffi degli Scipioni; dediche e iscrizioni trionfali. L\'elenco è sostanzialmente tutto qui.',
-        'Entrambi i poeti superstiti sono in questa app, perciò entrambi gli esempi sono saturni autentici e non ricostruzioni; presentati, come spiegato sopra, con la sola pausa segnata.'
+        'Entrambi i poeti superstiti sono in questa app, perciò entrambi gli esempi sono saturni autentici e non ricostruzioni. Ciascuno è dato due volte, una per quantità e una per accento, così che le due letture concorrenti dello stesso verso si possano confrontare direttamente.'
       ],
 
       examples: [
         {
           where: 'Odusia, fr. I.1',
-          gloss: 'Il primo verso della letteratura latina',
+          gloss: 'Il primo verso della letteratura latina, letto nei due modi',
+          readings: [
+            {
+              note: 'Segnato per quantità, esattamente come si segnerebbe un esametro, il verso viene fuori con **una sola lunga nelle prime sette sillabe e tre nelle ultime sei**. Non è una forma che alcun metro greco produca, e uno schema quantitativo gli si può adattare solo ammettendo tante di quelle sostituzioni da smettere di prevedere qualcosa. Si noti anche lo **iato** alla pausa: *Camena, insece* eliderebbe in qualunque altro punto della poesia latina e qui non elide, cosa normale nei saturni e di per sé un argomento a favore del fatto che la pausa sia un confine strutturale reale.'
+            },
+            {
+              note: 'Segnato invece per accento - si accenta la penultima sillaba se è pesante, altrimenti la terzultima, e una parola di due sillabe sulla prima - il verso dà **tre battute e poi due**. È precisamente il 3 ‖ 2 che la teoria accentuativa prevede, e letto così ad alta voce suona davvero come un verso e non come una frase. È per questo che la teoria non è mai sparita.'
+            }
+          ],
           notes: [
             '**Qui comincia la letteratura latina**, per quanto possiamo vedere: l\'inizio dell\'Odissea, messo in latino per un pubblico romano intorno al 240 a.C. da un uomo che a Roma era probabilmente arrivato come prigioniero di guerra.',
             '**Si guardi che cosa fa del primo verso di Omero.** La Musa diventa *Camena*, una divinità italica delle sorgenti. Non traduce la divinità: la sostituisce con una locale, che è esattamente la stessa decisione dello scrivere il poema nel metro nativo invece che in quello greco. La forma latina e quella greca sono fatte corrispondere a ogni livello tranne che in superficie.',
-            '**E poi una parola tira dalla parte opposta.** *Insece*, "racconta", è un imperativo arcaico ed è imparentato con l\'*ennepe* greco che apre il verso di Omero. La frase è dunque romana nel metro e negli dèi e greca nelle ossa, che è una descrizione discreta di tutta la prima letteratura latina.',
-            '**La forma: sette sillabe, la pausa sulla virgola, sei.** Qui non è segnata alcuna quantità, per la ragione detta sopra.'
+            '**E poi una parola tira dalla parte opposta.** *Insece*, "racconta", è un imperativo arcaico ed è imparentato con l\'*ennepe* greco che apre il verso di Omero. La frase è dunque romana nel metro e negli dèi e greca nelle ossa, che è una descrizione discreta di tutta la prima letteratura latina.'
           ]
         },
         {
           where: 'Epitaphium, fr. 67, v. 1',
-          gloss: 'L\'epitaffio che si dice abbia scritto per sé',
+          gloss: 'L\'epitaffio che si dice abbia scritto per sé, e il verso che manda in crisi entrambe le teorie',
+          readings: [
+            {
+              note: '**Sette sillabe lunghe di fila**, e poi un secondo colon quasi altrettanto pesante: due sillabe brevi in tutto il verso, che ne conta tredici. Nulla nella metrica quantitativa greca o latina produce un verso simile. Se il saturnio è una misura quantitativa, allora il suo schema deve essere abbastanza largo da accettare quasi qualunque cosa: che è l\'obiezione centrale alla tesi quantitativa, fatta qui da un verso solo.'
+            },
+            {
+              note: 'Per accento lo stesso verso dà **due battute e poi tre**: l\'esatto contrario del verso di Livio, dove la regola identica ne dava tre e poi due. La teoria che funzionava un momento fa qui non funziona. Due versi non sono un campione, ma sono una buona dimostrazione della difficoltà: **ogni lettura del saturnio funziona da qualche parte e fallisce da qualche altra**, e non ci sono abbastanza versi superstiti per decidere tra loro.'
+            }
+          ],
           notes: [
-            '**Di nuovo la stessa forma, 7 e 6**, dall\'altro poeta saturnio superstite; e questo è un epitaffio composto per sé, il metro usato per lo scopo per cui lo si usava sulle lapidi vere.',
-            '**La prima metà è una parola sola detta due volte.** *Immortales mortales*: la stessa radice, una volta con il prefisso negativo e una volta senza, immortali e mortali affiancati senza nulla in mezzo. È tutto il pensiero del carme compresso nel primo colon, e funziona perché il metro dà a quel colon un bordo netto.',
-            '**La seconda metà passa all\'allitterazione**, *si foret fas flere*, e il suono della f prosegue dritto nel verso successivo, *flerent divae Camenae*. In una forma metrica dalle regole lasche è questo il legante: l\'orecchio è tenuto dal gioco dei suoni là dove un metro greco lo terrebbe con la quantità.',
+            '**Lo stesso 7 e 6 del verso di Livio**, dall\'altro poeta saturnio superstite; e questo è un epitaffio composto per sé, il metro usato esattamente per lo scopo per cui lo si usava sulle lapidi vere.',
+            '**La prima metà è una parola sola detta due volte.** *Immortales mortales*: la stessa radice, una volta con il prefisso negativo e una volta senza, immortali e mortali affiancati senza nulla in mezzo. È tutto il pensiero del carme compresso nel primo colon, ed è anche il motivo per cui quel colon è fatto di sette lunghe: la ripetizione lo costruisce con sillabe pesanti.',
+            '**La seconda metà passa all\'allitterazione**, *si foret fas flere*, e il suono della f prosegue dritto nel verso successivo, *flerent divae Camenae*. In una forma metrica di cui nessuno sa enunciare le regole è questo il legante: l\'orecchio è tenuto dal gioco dei suoni là dove un metro greco lo terrebbe con la quantità.',
             'Il vanto che ci sta sotto non è piccolo. Se agli immortali fosse lecito piangere i mortali, dice Nevio, le divine Camene piangerebbero lui; e una volta che fu consegnato al tesoro dell\'Orco, Roma si dimenticò di parlare latino.'
           ]
         }
       ],
-
       after: 'Nulla di più tardo è scritto in questo metro. Il saturnio è l\'unico metro latino senza alcuna discendenza: non fu sviluppato, fu sostituito, e a sostituirlo fu l\'esametro dattilico.'
     },
 
@@ -241,12 +255,12 @@
       ],
 
       build: [
-        '**Questo non è un metro ma una coppia, e l\'unità è la coppia.** Un esametro da solo è un verso epico; un esametro seguito da un pentametro è un distico elegiaco. Nessuna delle due metà si incontra da sola.',
+        '**Questo non è un metro ma una coppia, e l\'unità è la coppia.** L\'esametro, naturalmente, si incontra da solo dappertutto: è il verso dell\'epica, della poesia didascalica, della satira e della bucolica. **È il pentametro a non stare mai da solo.** Non esiste in latino un componimento scritto in pentametri; quel verso esiste soltanto come seconda metà di un distico, ed è il distico l\'unità in cui un poeta compone.',
         '**Il primo verso è un normale esametro dattilico**, con tutta la libertà che ciò comporta: quattro piedi che possono essere dattili o spondei, un quinto quasi sempre dattilo, una chiusa di due sillabe.',
-        '**Il secondo verso ha un nome sbagliato.** "Pentametro" fa pensare a cinque piedi di qualcosa, e non è così. Sono due emistichi, ciascuno di due piedi e mezzo: – ⏑ ⏑ – ⏑ ⏑ –, poi una pausa, poi di nuovo – ⏑ ⏑ – ⏑ ⏑ –. A contare i piedi si ottengono sei metà che fanno cinque: di qui il nome, che inganna gli studenti da duemila anni.',
+        '**Il secondo verso si può leggere in due modi, e vale la pena averli entrambi.** Il modo pratico è come due emistichi, ciascuno di due piedi e mezzo: – ⏑ ⏑ – ⏑ ⏑ –, una pausa, poi di nuovo – ⏑ ⏑ – ⏑ ⏑ –. È così che lo si scandisce. **Ma il nome non è lo sbaglio che sembra.** Si rimettano insieme i due mezzi piedi - la lunga sola prima della pausa e la lunga sola in fine di verso - e formano uno spondeo completo, tagliato a metà dalla cesura e collocato ai due estremi del verso. Due piedi interi, due piedi interi e quel quinto diviso: **cinque piedi, che è esattamente ciò che il nome dichiara.** Il quinto piede c\'è: è soltanto stato spezzato in due e appeso alle due estremità.',
         '**La pausa centrale è obbligatoria e cade sempre a fine parola.** È la cosa più udibile del verso: si spezza davvero in due, e un poeta può usare quello stacco per opporre una metà all\'altra.',
         '**E adesso la regola che conta di più.** Nella prima metà i due dattili possono contrarsi in spondei, esattamente come nell\'esametro. **Nella seconda metà non possono mai.** Dopo la pausa ogni pentametro latino classico fa – ⏑ ⏑ – ⏑ ⏑ –, senza eccezioni. Non c\'è altra posizione nella metrica latina fissata così saldamente.',
-        '**L\'ultimo elemento è una sola lunga, non un piede.** Il verso semplicemente si ferma. Da Ovidio in poi è normale chiudere il pentametro con una parola di due sillabe, il che rende la chiusa ancora più uniforme; Catullo non ha ancora quell\'abitudine, e la differenza si sente.',
+        '**Nulla di tutto questo cambia dopo Catullo.** La stessa costruzione è ancora lì in Tibullo, in Properzio e per tutto Ovidio, che di questi distici ne scrisse più di chiunque altro: la seconda metà fissa, la pausa obbligatoria, il quinto piede spezzato ai due estremi. Ciò che Ovidio aggiunge è un raffinamento di abitudine e non di struttura: da lui in poi diventa normale chiudere il pentametro con una parola di due sillabe, il che rende la chiusa ancora più uniforme. Catullo non ha ancora quell\'abitudine, e la differenza si sente.',
         'L\'elisione funziona come in tutta la poesia latina, e in una forma così compressa si sente moltissimo: ci sono due elisioni nei quattro versi citati qui sotto.'
       ],
 
@@ -296,8 +310,9 @@
         '**La forma discendente è il punto.** Un trocheo è lunga-poi-breve, perciò ogni piede comincia sul suo battere e ricade, e il verso nel suo insieme spinge in avanti. Un verso giambico sale verso il battere; uno trocaico ne scende.',
         '**La sostituzione è ammessa quasi ovunque, ed è questo a rendere utile il metro.** Una lunga può risolversi in due brevi. L\'ancipite può essere una lunga, una breve o due brevi. Perciò un singolo piede può presentarsi come trocheo, spondeo, dattilo, anapesto o tribraco, e le quindici posizioni metriche del verso possono essere riempite da quindici sillabe come da più di venti.',
         '**Di solito c\'è una pausa dopo il quarto piede**, a metà verso, e di solito cade a fine parola. È una tendenza forte più che una regola, ed entrambi gli esempi qui sotto ce l\'hanno.',
-        '**E adesso la conseguenza, che è la parte onesta di questa pagina.** Con la sostituzione disponibile in quasi ogni posizione, un dato verso ammette spesso più di un\'analisi, e gli editori di Plauto e Terenzio non concordano su singoli versi. Il metro si piega alla frase invece che la frase al metro: che è esattamente ciò che serve al dialogo, ed esattamente ciò che rende difficile una scansione definitiva.',
-        '**È anche il motivo per cui i comici non sono etichettati in questa app.** Una scena di Plauto si muove tra il senario parlato, questo metro e i metri lirici dei *cantica*, a volte nel giro di pochi versi; un unico metro indicato su un intero brano sarebbe spesso sbagliato. Lucilio si può etichettare perché i suoi libri sono coerenti al loro interno.'
+        '**Scandirne uno è un lavoro meccanico, e vale la pena farlo una volta a mano.** Si cerchi ogni parola e si segnino le vocali lunghe per natura. Poi si applichi la posizione: una sillaba è pesante se la sua vocale è seguita da due consonanti, anche a cavallo di due parole, ed è per questo che la *-um* di *Iunium* e la *-us* di *publicanus* risultano lunghe. Poi si cancellino le elisioni: una vocale finale, o una vocale finale più *m*, davanti a parola che comincia per vocale o per *h*. Ciò che resta è una sequenza di lunghe e brevi, e il lavoro consiste nel disporla sulle quindici posizioni. L\'esempio qui sotto è fatto così, verso per verso.',
+        '**L\'unica vera difficoltà è che non si può arrivarci contando.** In un esametro il numero delle sillabe restringe subito le possibilità; qui la risoluzione fa sì che quindici posizioni possano essere riempite da quindici sillabe come da venti e più, perciò bisogna far combaciare invece che contare, e un verso con molte risoluzioni può talvolta essere disposto in più di un modo. Entrambi i versi qui sotto hanno esattamente una risoluzione ciascuno e risultano univoci.',
+            '**I comici restano comunque senza etichetta in questa app, ed è una questione diversa.** Non è che un verso plautino non si possa scandire: è che una *scena* plautina si muove tra il senario parlato, questo metro e i metri lirici dei *cantica*, a volte nel giro di pochi versi, perciò un solo metro indicato su un intero brano sarebbe spesso sbagliato. Lucilio si può etichettare perché ciascuno dei suoi libri è coerente al proprio interno.'
       ],
 
       sound: [
@@ -309,32 +324,23 @@
 
       usedIntro: [
         'La commedia romana soprattutto: Plauto e Terenzio lo usano di continuo, e fra i due danno conto della maggior parte degli esempi latini superstiti. Poi la prima satira di Lucilio, poi i canti di marcia, la poesia popolare e infine l\'inno medievale.',
-        'In questa app è etichettato solo Lucilio, per la ragione detta sopra; entrambi gli esempi qui sotto vengono dal libro 26, la satira più antica di cui abbiamo qualcosa.'
+        'In questa app è etichettato solo Lucilio, per la ragione detta sopra. L\'esempio qui sotto viene dal libro 26, la satira più antica di cui abbiamo qualcosa: lo stesso libro che porta la frase più citata della satira romana sul proprio pubblico, dove Lucilio dice di non volere che lo legga Manio Persio, notoriamente dotto, e di volere invece Giunio Congo, che non lo era. Quel verso sopravvive soltanto dentro la prefazione della Naturalis Historia di Plinio e non come verso trasmesso, perciò resta fuori dalla scansione qui sotto.'
       ],
 
       examples: [
         {
-          where: 'Saturae, libro 26, sui suoi lettori',
-          gloss: 'Chi vuole che lo legga, e chi no',
+          where: 'Saturae, libro 26, vv. 1-2',
+          gloss: 'Rifiutare il contratto più ricco del mondo romano, scandito verso per verso',
           notes: [
-            '**La frase più citata della satira romana sul proprio pubblico.** Lucilio non vuole essere letto da Manio Persio, che era notoriamente dotto, e vuole essere letto da Giunio Congo, che non lo era. Colloca l\'opera fra l\'esperto e l\'ignorante, e ogni satirico dopo di lui ripete il gesto.',
-            '**Il verso è costruito a specchio, e la pausa metrica cade esattamente sul cardine.** Due nomi in accusativo e un verbo, poi due nomi in accusativo e un verbo; *nolo* alla fine della prima metà, *volo* alla fine della seconda. La pausa dopo il quarto piede cade sulla virgola, perciò il metro si divide dove si divide il senso.',
-            '**La seconda metà cade dritta sullo schema.** *Iunium Congum volo* sono sette sillabe per sette posizioni, senza alcuna risoluzione, e viene fuori – ⏑ – – – ⏑ –, che è il nudo – ⏓ – ⏓ – ⏓ – della seconda metà. Vale la pena notare perché: le *-um* di *Iunium* e di *Congum* sono entrambe lunghe, non perché le vocali siano lunghe ma perché ciascuna è chiusa dalla sua *m* davanti alla consonante che segue.',
-            '**La prima metà è dove la faccenda si fa interessante.** *Persium haec* elide, e restano undici sillabe per riempire otto posizioni - tre risoluzioni - e più di una distribuzione sta in metrica. **Questa pagina non stampa un\'analisi piede per piede**, perché non c\'è una risposta sola da stampare. È il metro che si comporta normalmente, ed è il motivo per cui Plauto e Terenzio non portano un\'etichetta metrica in questa app.'
-          ]
-        },
-        {
-          where: 'Saturae, libro 26, v. 1',
-          gloss: 'Rifiutare una carriera, in un verso pieno di latino amministrativo',
-          notes: [
-            '**Ciò che rifiuta è un patrimonio.** Un *publicanus* appaltava le imposte di una provincia, e il contratto d\'Asia era il più ricco del mondo romano; uno *scripturarius* riscuoteva i canoni sui pascoli pubblici. Lucilio era già ricco e non ne aveva bisogno, e il senso della frase - che prosegue nel verso seguente - è che non avrebbe barattato la propria indipendenza con nulla di tutto ciò.',
-            '**Due elisioni in un verso solo**, *vero ut* e *fiam ut*, ed è ciò che rende difficile fissare a colpo d\'occhio il conteggio delle sillabe. È la condizione ordinaria del verso drammatico e satirico romano: il verso scritto e il verso detto hanno lunghezze diverse, e bisogna sentirlo prima di poterlo scandire.',
-            '**Si ascolti il lessico.** *Publicanus*, *scripturarius*: sostantivi amministrativi piatti, uno dei due lungo cinque sillabe e piazzato in fine di verso. Un esametro non li reggerebbe; questo metro ha spazio. È in buona parte il motivo per cui la prima satira è scritta così, e in parte ciò a cui Lucilio rinunciò passando all\'esametro nel libro 30.',
-            'La pausa cade di nuovo sulla virgola, dopo *fiam*: è la dieresi del quarto piede che fa il suo lavoro consueto.'
+            '**Ciò che rifiuta è un patrimonio.** Un *publicanus* appaltava le imposte di una provincia e il contratto d\'Asia era il più ricco del mondo romano; uno *scripturarius* riscuoteva i canoni sui pascoli pubblici. Lucilio era già ricco, e la frase prosegue dicendo che non avrebbe barattato l\'unica cosa che aveva, la propria indipendenza, con tutto quello.',
+            '**Entrambi i versi hanno esattamente una risoluzione, e si vede dove.** Nel primo è nel quarto piede, dove *-t A-si-* riempie un longum con due brevi; nel secondo è nel terzo, dove *id e-* fa lo stesso. Ovunque altrove una posizione prende una sillaba, ed è per questo che questi due versi risultano univoci là dove un verso molto risolto potrebbe non esserlo.',
+            '**Si guardino le elisioni**, perché sono ciò che fa sembrare sbagliato il conteggio sulla pagina. *Vero ut* sono quattro sillabe scritte e tre dette; *fiam ut* lo stesso; e il secondo verso elide quattro volte: *Lucilio id*, *nolo et*, *uno hoc*, *muto omnia*. In ciascun verso restano sedici sillabe per riempire quindici posizioni.',
+            '**E si guardi la posizione al lavoro.** La *-us* di *publicanus* è breve per natura ed è lunga qui perché la *s* è seguita dalla *v* di *vero*; la *-am* di *fiam* lo sarebbe allo stesso modo, se non elidesse. Quasi tutte le lunghe della seconda metà del primo verso sono vocali lunghe, ed è per questo che quella metà è così pesante: *fī(am) ŭt scrīptūrārĭŭs* fa cinque lunghe su sette.',
+            '**La pausa cade dopo Asiae nel primo verso e dopo et nel secondo**: è la dieresi del quarto piede, in entrambi i casi a fine parola, e in nessuno dei due dove l\'editore ha messo la virgola. La punteggiatura è una comodità moderna; la pausa è un fatto del verso.',
+            '**Si ascolti il lessico.** *Publicanus*, *scripturarius*: sostantivi amministrativi piatti, uno dei due lungo cinque sillabe e piazzato in fine di verso. Un esametro non li reggerebbe; questo metro ha spazio, ed è in buona parte il motivo per cui la prima satira è scritta così.'
           ]
         }
       ],
-
       after: 'Plauto e Terenzio, che usano questo metro più di chiunque altro in latino, sono in questa app ma non portano alcuna etichetta metrica: una scena comica si muove tra il senario parlato, il settenario recitato e i metri lirici dei cantica, a volte nel giro di pochi versi, perciò una sola etichetta su un intero brano sarebbe spesso sbagliata. Quando quei brani saranno fatti, porteranno un elenco di metri con i versi coperti da ciascuno.'
     }
   };

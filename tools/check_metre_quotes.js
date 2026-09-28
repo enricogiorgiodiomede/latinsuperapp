@@ -39,12 +39,17 @@ global.I18n = { lang: 'en' };
 eval(fs.readFileSync(path.join(REPO, 'js/metres.js'), 'utf8'));
 const PAGES = window.Metres.PAGES;
 
-// Long and short marks, upper and lower case.
+// Long and short marks, upper and lower case - and the acute, which the
+// Saturnian page uses to mark the WORD ACCENT in its accentual reading of a
+// line. Both kinds of mark are editorial and both have to come back off before
+// the verse can be matched against its source.
 const QUANTITY = {
   'ā': 'a', 'ē': 'e', 'ī': 'i', 'ō': 'o', 'ū': 'u', 'ȳ': 'y',
   'ă': 'a', 'ĕ': 'e', 'ĭ': 'i', 'ŏ': 'o', 'ŭ': 'u',
   'Ā': 'A', 'Ē': 'E', 'Ī': 'I', 'Ō': 'O', 'Ū': 'U', 'Ȳ': 'Y',
-  'Ă': 'A', 'Ĕ': 'E', 'Ĭ': 'I', 'Ŏ': 'O', 'Ŭ': 'U'
+  'Ă': 'A', 'Ĕ': 'E', 'Ĭ': 'I', 'Ŏ': 'O', 'Ŭ': 'U',
+  'á': 'a', 'é': 'e', 'í': 'i', 'ó': 'o', 'ú': 'u', 'ý': 'y',
+  'Á': 'A', 'É': 'E', 'Í': 'I', 'Ó': 'O', 'Ú': 'U', 'Ý': 'Y'
 };
 
 // Undo the editorial marking: drop the foot bars and the caesura, drop the
@@ -136,9 +141,15 @@ for (const id of Object.keys(PAGES)) {
     // elegiac couplet is a hexameter and a pentameter and has to be shown
     // together. `pattern` may be missing entirely, for a metre this project
     // declines to scan foot by foot.
-    const marked = [].concat(ex.marked);
-    const plains = [].concat(ex.plain);
-    const patterns = ex.pattern == null ? null : [].concat(ex.pattern);
+    // `readings` is the SAME verse analysed more than one way (the Saturnian
+    // gets a quantitative and an accentual reading). Every reading has to spell
+    // the same verse, which is the check that matters: it proves the two
+    // markings differ only in their marks.
+    const marked = ex.readings ? ex.readings.map(r => r.marked) : [].concat(ex.marked);
+    const plains = ex.readings ? ex.readings.map(() => ex.plain) : [].concat(ex.plain);
+    const patterns = ex.readings
+      ? (ex.readings.every(r => r.pattern) ? ex.readings.map(r => r.pattern) : null)
+      : (ex.pattern == null ? null : [].concat(ex.pattern));
     if (marked.length !== plains.length) {
       fail(label + ': ' + marked.length + ' marked lines but ' + plains.length + ' plain ones');
       continue;
@@ -153,7 +164,9 @@ for (const id of Object.keys(PAGES)) {
     let ok = true;
     marked.forEach((markedLine, n) => {
       checked++;
-      const where = label + (marked.length > 1 ? ' [line ' + (n + 1) + ']' : '');
+      const where = label + (marked.length > 1
+        ? (ex.readings ? ' [' + ex.readings[n].label.split('.').pop() + ' reading]' : ' [line ' + (n + 1) + ']')
+        : '');
 
       // 1. the scansion has to spell the line
       const spelled = unmark(markedLine);
@@ -176,10 +189,14 @@ for (const id of Object.keys(PAGES)) {
 
       if (!patterns) return;   // shown without a foot analysis, on purpose
 
-      // 3. the pattern must have as many feet as the marked line has bars
+      // 3. the pattern must have as many feet as the marked line has bars -
+      //    unless the verse carries no bars at all, which is deliberate where
+      //    the foot joins fall inside elided clusters and bars on the verse
+      //    would mislead rather than help. There the pattern line carries the
+      //    feet on its own.
       const bars = (markedLine.match(/\|/g) || []).length;
       const feet = (patterns[n].match(/\|/g) || []).length;
-      if (bars !== feet) {
+      if (bars && bars !== feet) {
         ok = false;
         return fail(where + ': ' + (bars + 1) + ' feet marked on the verse but ' + (feet + 1) + ' in the pattern');
       }
@@ -222,7 +239,8 @@ for (const id of Object.keys(PAGES)) {
       }
     }
 
-    if (ok) console.log('OK   ' + label + (marked.length > 1 ? '  (' + marked.length + ' lines)' : '') +
+    if (ok) console.log('OK   ' + label +
+      (marked.length > 1 ? '  (' + marked.length + (ex.readings ? ' readings of one verse)' : ' lines)') : '') +
       (patterns ? '' : '  (shown without a foot analysis)'));
   }
 }

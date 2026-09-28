@@ -216,27 +216,51 @@
 
     if (ex.gloss) box.appendChild(para(ex.gloss, 'me-gloss'));
 
-    // `marked` and `pattern` are a single line, or an ARRAY of lines when the
-    // metre's unit is more than one verse - an elegiac couplet is a hexameter
-    // and a pentameter together and makes no sense shown singly. `pattern` may
-    // also be absent: the Saturnian and the Roman trochaic septenarius are
-    // shown with their break marked and no foot-by-foot analysis, because one
-    // is not agreed and the other is not unique. See the notes on those pages.
-    var marked = [].concat(ex.marked);
-    var pattern = ex.pattern == null ? [] : [].concat(ex.pattern);
-    marked.forEach(function (line, n) {
-      var verse = document.createElement('p');
-      verse.className = 'me-verse';
-      if (marked.length > 1) verse.className += ' me-verse-' + (n + 1);
-      verse.textContent = line;
-      box.appendChild(verse);
-      if (pattern[n]) {
-        var pat = document.createElement('p');
-        pat.className = 'me-pattern';
-        pat.textContent = pattern[n];
-        box.appendChild(pat);
-      }
-    });
+    // Three shapes, in increasing awkwardness:
+    //
+    //  - `marked` + `pattern` as strings: one verse, one analysis.
+    //  - both as ARRAYS: one example that is several verses, because the
+    //    metre's unit is several - an elegiac couplet is a hexameter and a
+    //    pentameter and makes no sense shown singly.
+    //  - `readings`: the SAME verse analysed more than one way, for a metre
+    //    where the analysis is what is in dispute. The Saturnian gets a
+    //    quantitative and an accentual reading side by side, which is the only
+    //    honest way to show a line nobody has explained.
+    if (ex.readings) {
+      ex.readings.forEach(function (r) {
+        var head = document.createElement('p');
+        head.className = 'me-reading-label';
+        head.textContent = I18n.t(r.label);
+        box.appendChild(head);
+        var v = document.createElement('p');
+        v.className = 'me-verse';
+        v.textContent = r.marked;
+        box.appendChild(v);
+        if (r.pattern) {
+          var p = document.createElement('p');
+          p.className = 'me-pattern';
+          p.textContent = r.pattern;
+          box.appendChild(p);
+        }
+        if (r.note) box.appendChild(para(r.note, 'me-reading-note'));
+      });
+    } else {
+      var marked = [].concat(ex.marked);
+      var pattern = ex.pattern == null ? [] : [].concat(ex.pattern);
+      marked.forEach(function (line, n) {
+        var verse = document.createElement('p');
+        verse.className = 'me-verse';
+        if (marked.length > 1) verse.className += ' me-verse-' + (n + 1);
+        verse.textContent = line;
+        box.appendChild(verse);
+        if (pattern[n]) {
+          var pat = document.createElement('p');
+          pat.className = 'me-pattern';
+          pat.textContent = pattern[n];
+          box.appendChild(pat);
+        }
+      });
+    }
 
     (ex.notes || []).forEach(function (t) { box.appendChild(para(t, 'me-note')); });
     return box;

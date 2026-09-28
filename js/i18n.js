@@ -189,6 +189,8 @@
       'metre.indexHeading': 'Metres',
       'metre.indexLead': 'The verse forms explained so far. A metre’s name appears on every excerpt written in it, and links here.',
       'metre.notFound': 'No such metre.',
+      'metre.reading.quantitative': 'Read by quantity',
+      'metre.reading.accentual': 'Read by stress',
 
       // --- what's new (changelog scroll) ---
       'whatsNew.title': 'What’s New',
@@ -371,6 +373,8 @@
       'metre.indexHeading': 'Metri',
       'metre.indexLead': 'Le forme di verso spiegate finora. Il nome di un metro compare su ogni brano scritto in quel metro, e porta qui.',
       'metre.notFound': 'Metro non trovato.',
+      'metre.reading.quantitative': 'Letto per quantità',
+      'metre.reading.accentual': 'Letto per accento',
 
       // --- what's new (changelog scroll) ---
       'whatsNew.title': 'Novità',

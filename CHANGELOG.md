@@ -6,107 +6,57 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
-## [1.9.4] - 2026-08-31
+## [1.15.2] - 2026-09-28
 
-**THE PHILOSOPHICAL GROUP IS CLOSED, +6.** De Fato 3 (new work), De Re Publica 4 -> 5, Somnium
-Scipionis 4 -> 5, Paradoxa Stoicorum 2 -> 3. Philosophical **10 works / 48**; Cicero **190 across 33
-works**; bank **350**. De Fato sits in PHIL_ORDER straight after De Divinatione, whose sequel it is.
+**THE THREE NEW METRE PAGES REWORKED**, after the user checked them. Two of the three had been written round a
+refusal to scan; one carried two errors of fact. All three are corrected.
 
-### Added
-- **De Fato 10-11** Stilpo, and **Zopyrus the physiognomist telling Socrates he is stupid, dull and a
-  womaniser** while Alcibiades laughs. Ends on the thesis of the whole book: ***non est id positum in
-  naturalibus causis, sed in voluntate, studio, disciplina***. The sequel (Socrates conceding the
-  diagnosis and claiming he beat it by reason) is at *Tusc.* IV.80 and is quoted in the analysis.
-- **De Fato 28-30** the ***ignava ratio***, the lazy argument, and Chrysippus' answer: some things are
-  *simplicia*, some *confatalia*. Milo cannot wrestle without an opponent, and ***tam enim est fatale
-  medicum adhibere quam convalescere***. **Carries the Machiavelli cross-reference the user asked
-  for**: *Il Principe* XXV opens with the same objection and answers it in the same shape, though
-  Chrysippus defends total determinism while Machiavelli denies fortune is total. Trimmed, `[...]`.
-- **De Fato 42-43** **the cylinder**, the most influential image in the free-will argument.
-  *Volubilitas* - rollability - is the word Cicero has to build: the push is the *visum*, the rolling
-  is *adsensio*, and the shape is yours. The quotation runs to its close so Chrysippus' own
-  qualification (everything still happens *fato*) is inside the excerpt.
-- **De Re Publica II.5-7** Romulus siting Rome away from the sea, and ***inportantur non merces solum
-  adventiciae sed etiam mores***. Cross-links to **Cato the Elder**, whose *De Agri Cultura* preface
-  is the same ideology. Trimmed, `[...]`, dropping the military half at section 6.
-- **De Re Publica VI.15** ***nec iniussu eius ... ex hominum vita migrandum est***. The direct pair to
-  **Tusculanae I.74**, twelve years later and in Cicero's own voice, and one of the routes by which
-  the classical ban on suicide reached Christian Europe, through Macrobius.
-- **Paradoxa Stoicorum 42-43** the sixth paradox, ***Animus oportet tuus se iudicet divitem***. Nine
-  questions in a row; the same relocation of a word that **Paradoxa 34** performs on *libertas*.
+### Fixed - Elegiac Couplets
+- **"You do not meet either half on its own" was simply wrong.** The hexameter is met on its own everywhere.
+  **It is the pentameter that never stands alone** - no Latin poem is written in pentameters - and that is now
+  what the page says.
+- **"Pentameter" is not a misleading name, and the page no longer says it is.** Put the two half-feet back
+  together, the long before the break and the long at the line-end, and they are **one spondee split by the
+  caesura** and set at the two ends. Two whole feet, two whole feet, and that divided fifth: five feet, which
+  is what the name claims. Both ways of reading the line are now given, and the page notes the construction is
+  unchanged through Tibullus, Propertius and Ovid.
+
+### Fixed - Trochaic Septenarius
+- **It now scans.** The previous page declined to, generalising from one fragment that would not fit. The
+  Nonius fragment (Book 26, vv. 1-2) scans cleanly and is now the example, fully marked: quantities, elisions
+  and the fourth-foot break, with a pattern line per verse. Both lines have exactly one resolution each.
+- The page now **teaches the procedure** - look the vowels up, apply position, strike out the elisions, fit the
+  remainder to the fifteen positions - and keeps only the true residual difficulty: resolution means you cannot
+  count your way in, and a heavily resolved line can occasionally be laid out more than one way.
+- The Pliny fragment (*Manium Persium ... Iunium Congum volo*) is **kept for its content in the prose and
+  dropped as a metrical example**. It survives inside the preface of the *Natural History* rather than as
+  transmitted verse; the page makes no claim about its metre either way.
+- The reason Plautus and Terence carry no label is now stated as what it actually is - **a scene changes metre
+  partway** - and not as an inability to scan a line.
+
+### Added - Saturnian
+- **Each of the two lines is now given twice**, once read by quantity and once by stress, so the rival theories
+  meet on the same verse. The comparison is the argument: by stress Livius gives 3 ‖ 2, which the accentual
+  theory predicts, and Naevius gives 2 ‖ 3, which it does not; by quantity Naevius gives **seven long syllables
+  in a row**, which no Greek or Latin metre produces. The page still takes no side, but now it shows rather
+  than asserts.
 
 ### Changed
-- **`caesar_era_draft.md`: De Fato added to the Main Works bibliography**, where it had been missing.
-  Mirrored in `italian_translations_caesar.md` and regenerated with `node build_content_it.js`.
-- **NEW `build_content.js`, and js/content.js was 2759 characters stale.** Over http the app fetches
-  the era drafts live and `js/content.js` is only the `file://` fallback, so it is invisible during
-  browser testing and had silently missed the v1.8.3 four-way split of Cicero's Main Works.
-  `__ARCHAIC_MD__` was still byte-identical to its draft, `__CAESAR_MD__` was not. There was a
-  generator for the Italian side (`build_content_it.js`) and none for the English; there is now.
-  **Run it after editing any `*_era_draft.md`.**
-- **Accuracy pass over all 8 pre-existing fragments of the touched works** (De Re Publica 4, Somnium
-  4). Nothing needed changing this time.
+- **An example may carry `readings`**, the same verse analysed more than one way, each with its own label,
+  marked verse, pattern and comment. `check_metre_quotes.js` requires **every reading to spell the same
+  verse**, which proves the markings differ only in their marks; `unmark` now strips the acute accent as well
+  as the macron and breve.
+- **Bug: the Italian overlay replaced the whole `readings` array** instead of merging it entry by entry, so the
+  Saturnian page rendered with empty labels and empty verses in Italian. Found in the browser, not by a test.
+- A verse may now carry no foot bars while its pattern does, which is what the septenarius needs: its foot
+  joins fall inside elided clusters, where bars on the verse would mislead.
+- Four more bold-around-italic leaks, two per language.
+- Housekeeping: the 1.9.4 and 1.10.2 sections had been sitting at the TOP of this file, above releases
+  five months newer. Both are moved back into date order. Nothing in them was changed.
 
-### Notes on the source
-- **`fato` has no non-ASCII characters at all**: the page transliterates its Greek into Latin letters
-  (*Peri Dynaton*, *Logike*, *Argos Logos*), so unlike `paradoxa` there is no mojibake to route
-  around. Markers are `[n]` and spans are free.
-- **The Paradoxa excerpt still starts after a mojibake line.** The Greek running head of Paradox VI
-  prints as *ÜOti mÒnow ... ploÊsiow*; the extract begins at *Quae est ista* and never touches it.
-- **De Re Publica prints round-bracketed section numbers**, `(5)`, which `normalise()` has stripped
-  since v1.9.0. The natural-law passage III.33 and the Ennius *moribus antiquis* of V.1 are **not on
-  The Latin Library at all** - it prints only the palimpsest, so the sections quoted by Lactantius
-  and Augustine are simply absent. That is why the fifth excerpt comes from book II.
-- **Kept and flagged:** *quoi* for *cui* (Parad. 42), *inprimet* (Fat. 43), and the source's unclosed
-  single dash at *-obstructas eas partes* (Fat. 10). **No emendations in this release.**
-
-Verification: **191 verbatim, 0 mismatched**; `lint_translations.js` **318 checked, 3 to look at**
-(the same three documented in the tool's header). Cache-bust: `?v=109` -> `?v=110`.
-
-## [1.10.2] - 2026-08-31
-
-**THE RHETORICAL GROUP IS FINISHED, AND SO IS CICERO, +7.** De Oratore 5 -> 8, Brutus 3 -> 5,
-Orator 3 -> 5. Rhetorical **23 across 5 works**; **Cicero 213 across 38 works** (Speeches 116 /
-Letters 26 / Philosophical 48 / Rhetorical 23); bank **373**. Cicero is now **more than a third of
-the whole app**.
-
-### Added - De Oratore
-- **I.19-20** ***nemo poterit esse omni laude cumulatus orator, nisi erit omnium rerum magnarum atque
-  artium scientiam consecutus***, with *ex rerum cognitione efflorescat et redundet oportet oratio* and
-  the one-word diagnosis of the alternative, *puerilis*. The thesis Antonius spends book II disputing.
-  Needs a **`fix`** to delete the bracketed chapter numeral `[VI]` falling mid-fragment.
-- **II.62-63** the laws of history: ***ne quid falsi dicere audeat ... ne quid veri non audeat***, plus
-  *gratia* and *simultas*, the two conflicts of interest. **The verb in both laws is *audere***, which
-  makes honesty a matter of nerve. Pairs with **II.35-36**, a page earlier in the same speech.
-- **III.155-156** metaphor as *inopia* turned into *delectatio*, the clothing analogy, and the examples
-  from farmers - *gemmare vitis, luxuriem esse in herbis, laetas segetes*, ***etiam rustici dicunt***.
-  Closes on ***hae translationes quasi mutuationes sunt***, a financial word.
-
-### Added - Brutus
-- **1-2** the news of Hortensius' death reaching Rhodes in 50 BC, the augural college, and *non ...
-  adversarium ... sed socium potius et consortem gloriosi laboris*. **Hortensius is an app author** and
-  his single fragment is Brutus §6, four sections later.
-- **330** the close: ***orbae eloquentiae quasi tutores relicti sumus*** and ***in hanc rei publicae
-  noctem incidisse***. Brutus' consolation - that Cicero's deeds would speak *etiam me tacente* and
-  live *mortuo* - reads differently knowing what happened in December 43.
-
-### Added - Orator
-- **8-9** ***Phidias*** and the *species pulchritudinis* in the sculptor's own mind. The source text of
-  the European theory of the artistic Idea, and the passage **Orator 100-101** refers back to.
-- **213-214** ***me stante*** - Cicero in the crowd watching a *contio* erupt at a *dichoreus*, then
-  running the experiment by reversing the word order. The reply he gives himself a line later,
-  *animo istuc satis est, auribus non satis*, is quoted in the analysis.
-
-### Notes on the source
-- **Second use of `fix` to delete a bracketed chapter numeral** (`[VI]` at De Orat. I.20), after
-  De Opt. Gen. 13-14 established it in v1.10.1.
-- ~~**Orator 213-214 deliberately stops at *Quaero nonne id numerus effecerit?***~~ **SUPERSEDED the
-  same day - see the follow-up above.** The misplaced quotation mark was emended after all and the
-  excerpt now runs through section 215.
-- **No emendations, no mojibake.** All three pages are pure ASCII.
-
-Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
-(the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
+Verification: **check_metre_quotes 15 verses, 0 failed**; **check_metres 80 labelled, 80 linked, 0 failed**;
+**392 verbatim, 0 mismatched**; `lint_markdown` **0 leaking**; EN and IT in step across all five pages,
+readings included. Checked in the browser in both languages. Cache-bust: `?v=180` -> `?v=183`.
 
 ## [1.15.1] - 2026-09-28
 
@@ -2900,6 +2850,51 @@ is unreproducible in English or Italian, since it belongs entirely to Latin word
 Verification: **214 verbatim, 0 mismatched** (the fragment reports `2 emended`); `lint_translations.js`
 **341 checked, 3 to look at**, unchanged. Cache-bust: `?v=114` -> `?v=115`.
 
+## [1.10.2] - 2026-08-31
+
+**THE RHETORICAL GROUP IS FINISHED, AND SO IS CICERO, +7.** De Oratore 5 -> 8, Brutus 3 -> 5,
+Orator 3 -> 5. Rhetorical **23 across 5 works**; **Cicero 213 across 38 works** (Speeches 116 /
+Letters 26 / Philosophical 48 / Rhetorical 23); bank **373**. Cicero is now **more than a third of
+the whole app**.
+
+### Added - De Oratore
+- **I.19-20** ***nemo poterit esse omni laude cumulatus orator, nisi erit omnium rerum magnarum atque
+  artium scientiam consecutus***, with *ex rerum cognitione efflorescat et redundet oportet oratio* and
+  the one-word diagnosis of the alternative, *puerilis*. The thesis Antonius spends book II disputing.
+  Needs a **`fix`** to delete the bracketed chapter numeral `[VI]` falling mid-fragment.
+- **II.62-63** the laws of history: ***ne quid falsi dicere audeat ... ne quid veri non audeat***, plus
+  *gratia* and *simultas*, the two conflicts of interest. **The verb in both laws is *audere***, which
+  makes honesty a matter of nerve. Pairs with **II.35-36**, a page earlier in the same speech.
+- **III.155-156** metaphor as *inopia* turned into *delectatio*, the clothing analogy, and the examples
+  from farmers - *gemmare vitis, luxuriem esse in herbis, laetas segetes*, ***etiam rustici dicunt***.
+  Closes on ***hae translationes quasi mutuationes sunt***, a financial word.
+
+### Added - Brutus
+- **1-2** the news of Hortensius' death reaching Rhodes in 50 BC, the augural college, and *non ...
+  adversarium ... sed socium potius et consortem gloriosi laboris*. **Hortensius is an app author** and
+  his single fragment is Brutus §6, four sections later.
+- **330** the close: ***orbae eloquentiae quasi tutores relicti sumus*** and ***in hanc rei publicae
+  noctem incidisse***. Brutus' consolation - that Cicero's deeds would speak *etiam me tacente* and
+  live *mortuo* - reads differently knowing what happened in December 43.
+
+### Added - Orator
+- **8-9** ***Phidias*** and the *species pulchritudinis* in the sculptor's own mind. The source text of
+  the European theory of the artistic Idea, and the passage **Orator 100-101** refers back to.
+- **213-214** ***me stante*** - Cicero in the crowd watching a *contio* erupt at a *dichoreus*, then
+  running the experiment by reversing the word order. The reply he gives himself a line later,
+  *animo istuc satis est, auribus non satis*, is quoted in the analysis.
+
+### Notes on the source
+- **Second use of `fix` to delete a bracketed chapter numeral** (`[VI]` at De Orat. I.20), after
+  De Opt. Gen. 13-14 established it in v1.10.1.
+- ~~**Orator 213-214 deliberately stops at *Quaero nonne id numerus effecerit?***~~ **SUPERSEDED the
+  same day - see the follow-up above.** The misplaced quotation mark was emended after all and the
+  excerpt now runs through section 215.
+- **No emendations, no mojibake.** All three pages are pure ASCII.
+
+Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
+(the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
+
 ## [1.10.1] - 2026-08-31
 
 **THE RHETORICAL GROUP IS COMPLETE AS A SET OF FIVE, +5.** De Optimo Genere Oratorum 3, Topica 2 -
@@ -3023,6 +3018,63 @@ reads as a stray conjunction. Now *sia tu, Publio, sia tutti gli uomini pii*. **
 swept for the same shape** (a lone *e* opening a correlative after a connective) and this was the only
 occurrence. No Latin touched, no version tag moved; the fragment stays `1.9.4`. Cache-bust: `?v=110` ->
 `?v=111`.
+
+## [1.9.4] - 2026-08-31
+
+**THE PHILOSOPHICAL GROUP IS CLOSED, +6.** De Fato 3 (new work), De Re Publica 4 -> 5, Somnium
+Scipionis 4 -> 5, Paradoxa Stoicorum 2 -> 3. Philosophical **10 works / 48**; Cicero **190 across 33
+works**; bank **350**. De Fato sits in PHIL_ORDER straight after De Divinatione, whose sequel it is.
+
+### Added
+- **De Fato 10-11** Stilpo, and **Zopyrus the physiognomist telling Socrates he is stupid, dull and a
+  womaniser** while Alcibiades laughs. Ends on the thesis of the whole book: ***non est id positum in
+  naturalibus causis, sed in voluntate, studio, disciplina***. The sequel (Socrates conceding the
+  diagnosis and claiming he beat it by reason) is at *Tusc.* IV.80 and is quoted in the analysis.
+- **De Fato 28-30** the ***ignava ratio***, the lazy argument, and Chrysippus' answer: some things are
+  *simplicia*, some *confatalia*. Milo cannot wrestle without an opponent, and ***tam enim est fatale
+  medicum adhibere quam convalescere***. **Carries the Machiavelli cross-reference the user asked
+  for**: *Il Principe* XXV opens with the same objection and answers it in the same shape, though
+  Chrysippus defends total determinism while Machiavelli denies fortune is total. Trimmed, `[...]`.
+- **De Fato 42-43** **the cylinder**, the most influential image in the free-will argument.
+  *Volubilitas* - rollability - is the word Cicero has to build: the push is the *visum*, the rolling
+  is *adsensio*, and the shape is yours. The quotation runs to its close so Chrysippus' own
+  qualification (everything still happens *fato*) is inside the excerpt.
+- **De Re Publica II.5-7** Romulus siting Rome away from the sea, and ***inportantur non merces solum
+  adventiciae sed etiam mores***. Cross-links to **Cato the Elder**, whose *De Agri Cultura* preface
+  is the same ideology. Trimmed, `[...]`, dropping the military half at section 6.
+- **De Re Publica VI.15** ***nec iniussu eius ... ex hominum vita migrandum est***. The direct pair to
+  **Tusculanae I.74**, twelve years later and in Cicero's own voice, and one of the routes by which
+  the classical ban on suicide reached Christian Europe, through Macrobius.
+- **Paradoxa Stoicorum 42-43** the sixth paradox, ***Animus oportet tuus se iudicet divitem***. Nine
+  questions in a row; the same relocation of a word that **Paradoxa 34** performs on *libertas*.
+
+### Changed
+- **`caesar_era_draft.md`: De Fato added to the Main Works bibliography**, where it had been missing.
+  Mirrored in `italian_translations_caesar.md` and regenerated with `node build_content_it.js`.
+- **NEW `build_content.js`, and js/content.js was 2759 characters stale.** Over http the app fetches
+  the era drafts live and `js/content.js` is only the `file://` fallback, so it is invisible during
+  browser testing and had silently missed the v1.8.3 four-way split of Cicero's Main Works.
+  `__ARCHAIC_MD__` was still byte-identical to its draft, `__CAESAR_MD__` was not. There was a
+  generator for the Italian side (`build_content_it.js`) and none for the English; there is now.
+  **Run it after editing any `*_era_draft.md`.**
+- **Accuracy pass over all 8 pre-existing fragments of the touched works** (De Re Publica 4, Somnium
+  4). Nothing needed changing this time.
+
+### Notes on the source
+- **`fato` has no non-ASCII characters at all**: the page transliterates its Greek into Latin letters
+  (*Peri Dynaton*, *Logike*, *Argos Logos*), so unlike `paradoxa` there is no mojibake to route
+  around. Markers are `[n]` and spans are free.
+- **The Paradoxa excerpt still starts after a mojibake line.** The Greek running head of Paradox VI
+  prints as *ÜOti mÒnow ... ploÊsiow*; the extract begins at *Quae est ista* and never touches it.
+- **De Re Publica prints round-bracketed section numbers**, `(5)`, which `normalise()` has stripped
+  since v1.9.0. The natural-law passage III.33 and the Ennius *moribus antiquis* of V.1 are **not on
+  The Latin Library at all** - it prints only the palimpsest, so the sections quoted by Lactantius
+  and Augustine are simply absent. That is why the fifth excerpt comes from book II.
+- **Kept and flagged:** *quoi* for *cui* (Parad. 42), *inprimet* (Fat. 43), and the source's unclosed
+  single dash at *-obstructas eas partes* (Fat. 10). **No emendations in this release.**
+
+Verification: **191 verbatim, 0 mismatched**; `lint_translations.js` **318 checked, 3 to look at**
+(the same three documented in the tool's header). Cache-bust: `?v=109` -> `?v=110`.
 
 ## [1.9.3] - 2026-08-30
 

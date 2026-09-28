@@ -12,6 +12,33 @@
 
   var VERSIONS = [
     {
+      v: '1.15.2', date: '28/09/2026', time: 'TBD', tz: 'CEST',
+      en: {
+        added: [
+          'The Saturnian page now gives each of its two lines TWICE - once read by quantity and once read by stress - so the two rival theories can be compared on the same verse instead of being described in the abstract. It turns out to be the best argument the page could make. By stress, Livius comes out three beats then two, which is exactly what the accentual theory predicts; by the same rule Naevius comes out two then three, which is not. By quantity, Naevius gives seven long syllables in a row, which no Greek or Latin metre produces. Every reading works somewhere and fails somewhere else, and now you can see it happen rather than take it on trust.',
+          'The Trochaic Septenarius page now scans, properly and in full. The Nonius fragment is marked line by line, with the quantities, the elisions and the fourth-foot break, and the page explains how the job is done: look the vowels up, apply position, strike out the elisions, then fit what is left to the fifteen positions. Both lines have exactly one resolution each and come out unambiguous.'
+        ],
+        changed: [
+          'Two errors on the Elegiac Couplets page, both pointed out by a reader. The page said you never meet either half of the couplet on its own, which is plainly untrue of the hexameter - it is the pentameter that never stands alone, and that is now what it says. And it called "pentameter" a misleading name, which it is not: put the two half-feet back together, the long before the break and the long at the end, and they make one spondee split by the caesura and hung at the two ends of the line. Two whole feet, two whole feet and that divided fifth - five, exactly as the name claims. The page now explains both ways of reading the line, and says that the construction is unchanged in Tibullus, Propertius and Ovid.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'La pagina del Saturnio dà ora ciascuno dei suoi due versi DUE volte - una letta per quantità e una letta per accento - così che le due teorie rivali si possano confrontare sullo stesso verso invece che essere descritte in astratto. Si rivela l\'argomento migliore che la pagina potesse portare. Per accento Livio dà tre battute e poi due, che è esattamente ciò che la teoria accentuativa prevede; con la stessa regola Nevio dà due e poi tre, che non lo è. Per quantità Nevio dà sette sillabe lunghe di fila, cosa che nessun metro greco o latino produce. Ogni lettura funziona da qualche parte e fallisce da qualche altra, e adesso lo si vede accadere invece di doverlo credere sulla parola.',
+          'La pagina del Settenario Trocaico adesso scandisce, per davvero e per intero. Il frammento di Nonio è segnato verso per verso, con le quantità, le elisioni e la pausa del quarto piede, e la pagina spiega come si fa il lavoro: cercare le vocali, applicare la posizione, cancellare le elisioni e poi far combaciare ciò che resta con le quindici posizioni. Entrambi i versi hanno esattamente una risoluzione ciascuno e risultano univoci.'
+        ],
+        changed: [
+          'Due errori nella pagina dei Distici Elegiaci, entrambi segnalati da un lettore. La pagina diceva che nessuna delle due metà del distico si incontra da sola, cosa palesemente falsa per l\'esametro: è il pentametro a non stare mai da solo, ed è questo che ora dice. E definiva "pentametro" un nome fuorviante, cosa che non è: si rimettano insieme i due mezzi piedi, la lunga prima della pausa e la lunga in fine di verso, e formano uno spondeo spezzato dalla cesura e appeso ai due estremi. Due piedi interi, due piedi interi e quel quinto diviso: cinque, esattamente come il nome dichiara. La pagina spiega ora entrambi i modi di leggere il verso, e dice che la costruzione resta invariata in Tibullo, Properzio e Ovidio.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.15.1', date: '28/09/2026', time: '18:35', tz: 'CEST',
       en: {
         added: [
