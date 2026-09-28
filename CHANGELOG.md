@@ -58,6 +58,47 @@ Verification: **check_metre_quotes 15 verses, 0 failed**; **check_metres 80 labe
 **392 verbatim, 0 mismatched**; `lint_markdown` **0 leaking**; EN and IT in step across all five pages,
 readings included. Checked in the browser in both languages. Cache-bust: `?v=180` -> `?v=183`.
 
+### Follow-up - the Saturnian scansion corrected
+
+The user checked the new page against the stress reading and found the quantitative one wrong in two places.
+Both were right where they said.
+
+- **Two syllables were marked short although their own pattern called them long**, and both are long by
+  **position**: the *-um* of *virum*, closed by the *m* of *mihi*, and the *-ret* of *foret*, closed before
+  the *f* of *fas*.
+- **The cause was two conventions inside one project.** The hexameter and hendecasyllable pages mark the
+  SYLLABLE - long by nature or by position alike, which is what a school edition prints and what the pattern
+  line records - while the septenarius page, written later, marked the VOWEL and left position to the prose.
+  Everything now marks the syllable (`pūblĭcānūs` and `ūt` included), a diphthong is left bare because it is
+  always long, and a new line of the legend states the convention on every page in both languages.
+- **The Livius colon changes shape, and for the better.** With *virum* corrected and the final *-i* of *mihi*
+  taken long (long by origin, short by the iambic shortening already at work in Plautus), the first half is
+  ⏑ – ⏑ – ⏑ – ⏑: three iambs and a syllable over, a textbook quantitative colon. The line now comes out well
+  formed on BOTH readings while the Naevius line comes out well formed on neither, which is a sharper form of
+  the same argument - and the note says where the result rests, on a syllable the theory would like to be
+  able to choose.
+- **Naevius' seven longs survived the recount and are now explained**: four long by nature (*-ā-* and *-ēs*,
+  twice), three by position (*im-*, and each *mor-*). The note also flags *-ret*, which is the one a reader
+  will miss.
+- **A third error, found by the new checker rather than by a reader**: the accentual note counts *fas* as one
+  of its three beats and the verse had left the monosyllable unmarked. It is *fás* now, with *si* left
+  unstressed as the proclitic it is, and the note admits what that means - the accentual theory has to rule
+  on monosyllables before it can count at all.
+
+### Changed - `tools/check_metre_quotes.js`
+- **Marks against pattern, syllable by syllable.** A diphthong is long and bare, a bracketed syllable is
+  elided and takes no position, an anceps matches either, and a *u* after *q* is not a vowel. Anything else
+  unmarked is an omission and fails.
+- **Beats against beats, colon by colon**, for a reading marked with accents rather than quantities.
+- Both were proved by re-introducing the two bugs and watching them fail, then restoring.
+- The lesson, recorded because it generalises: **the marked verse and the pattern were two independent
+  statements of the same fact, and nothing compared them.** Two statements of one fact always deserve a
+  checker.
+
+Verification: **check_metre_quotes 15 verses, 0 failed** (with the two new checks); **check_metres 80/80/0**;
+**392 verbatim, 0 mismatched**; `lint_markdown` **0 leaking**; both languages read in the browser, console
+clean. Cache-bust: `?v=183` -> `?v=184`.
+
 ## [1.15.1] - 2026-09-28
 
 **THE LAST THREE METRES GET PAGES.** Saturnian, Elegiac Couplets and Trochaic Septenarius. Every metre named

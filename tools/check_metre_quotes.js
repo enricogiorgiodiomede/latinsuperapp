@@ -66,6 +66,51 @@ function unmark(s) {
   return out.replace(/\s+/g, ' ').trim();
 }
 
+
+// The marks on a verse, read left to right, as a sequence of quantities.
+//
+// Every syllable carries exactly one mark on its vowel, with two exceptions
+// that are themselves conventions of the pages: a syllable inside brackets is
+// elided and occupies no position at all, and a diphthong is always long and
+// is therefore left bare. Anything else unmarked is an omission, and this
+// returns null for it rather than guessing.
+//
+// This exists because of v1.15.2. Both Saturnian lines shipped with a breve on
+// a syllable their own pattern called long - the *-um* of *virum*, closed by
+// the *m* of *mihi*, and the *-ret* of *foret*, closed before the *f* of *fas*
+// - and both errors were the same one: marking the vowel by nature where the
+// pattern was recording the weight of the syllable. A reader found them. The
+// point of the check below is that the next one will not need to.
+var LONG_V = 'āēīōūȳĀĒĪŌŪȲ', SHORT_V = 'ăĕĭŏŭĂĔĬŎŬ', BARE_V = 'aeiouyAEIOUY';
+// ei and ui are diphthongs only in a handful of words (cui, huic, deinde);
+// they are accepted here because a bare vowel pair can only arise where the
+// page has deliberately left a diphthong unmarked.
+var DIPHTHONG = ['ae', 'oe', 'au', 'eu', 'ei', 'ui'];
+
+function markSequence(s) {
+  var out = [], depth = 0, chars = Array.from(s);
+  for (var i = 0; i < chars.length; i++) {
+    var ch = chars[i];
+    if (ch === '(') { depth++; continue; }
+    if (ch === ')') { depth--; continue; }
+    if (depth) continue;                             // elided: no position
+    if (LONG_V.indexOf(ch) >= 0) { out.push('–'); continue; }
+    if (SHORT_V.indexOf(ch) >= 0) { out.push('⏑'); continue; }
+    if (BARE_V.indexOf(ch) < 0) continue;
+    // u after q is not a vowel: quondam, aequora, divomque
+    var prev = chars[i - 1];
+    if ((ch === 'u' || ch === 'U') && (prev === 'q' || prev === 'Q')) continue;
+    var pair = (ch + (chars[i + 1] || '')).toLowerCase();
+    if (DIPHTHONG.indexOf(pair) >= 0 && BARE_V.indexOf(chars[i + 1]) >= 0) {
+      out.push('–');                                 // a diphthong is always long
+      i++;
+      continue;
+    }
+    return null;                                     // an unmarked syllable
+  }
+  return out;
+}
+
 // Every verse line in the bank, stripped of the blockquote marker and of the
 // "**n.**" verse numbers.
 const bankLines = (function () {
@@ -199,6 +244,55 @@ for (const id of Object.keys(PAGES)) {
       if (bars && bars !== feet) {
         ok = false;
         return fail(where + ': ' + (bars + 1) + ' feet marked on the verse but ' + (feet + 1) + ' in the pattern');
+      }
+
+      // 3c. AN ACCENTUAL READING is a different claim and gets a different
+      //     check: the beats the pattern claims must be the beats actually
+      //     written on the verse, and on the right side of the break. This is
+      //     what caught the Naevius line, whose note counts *fas* as a beat
+      //     while the verse left the monosyllable unmarked.
+      if (patterns[n].indexOf('´') >= 0) {
+        var beatsIn = function (s) {
+          return (s.match(/[áéíóúýÁÉÍÓÚÝ´]/g) || []).length;
+        };
+        var mCola = markedLine.split('‖'), pCola = patterns[n].split('‖');
+        if (mCola.length !== pCola.length) {
+          ok = false;
+          return fail(where + ': the verse has ' + mCola.length + ' cola and the pattern ' + pCola.length);
+        }
+        mCola.forEach(function (colon, k) {
+          if (beatsIn(colon) !== beatsIn(pCola[k])) {
+            ok = false;
+            fail(where + ': colon ' + (k + 1) + ' is written with ' + beatsIn(colon) +
+              ' accent(s) but the pattern claims ' + beatsIn(pCola[k]) +
+              ' beat(s) - mark every syllable the reading counts, monosyllables included');
+          }
+        });
+        return;
+      }
+      // 3b. THE MARKS ON THE VERSE MUST AGREE WITH THE PATTERN, position by
+      //     position. A pattern is easy to write correctly and a marked verse
+      //     is easy to write carelessly, and until v1.15.2 nothing compared
+      //     the two. An anceps matches either.
+      var seq = markSequence(markedLine);
+      var slots = patterns[n].split('').filter(function (c) { return '–⏑×'.indexOf(c) >= 0; });
+      if (!seq) {
+        ok = false;
+        return fail(where + ': a syllable carries no quantity mark (only a diphthong, or an elided syllable in brackets, may be bare)' +
+          '\n  marked -> ' + markedLine);
+      }
+      if (seq.length !== slots.length) {
+        ok = false;
+        return fail(where + ': ' + seq.length + ' syllables marked on the verse but ' + slots.length + ' positions in the pattern' +
+          '\n  marks   -> ' + seq.join(' ') +
+          '\n  pattern -> ' + slots.join(' '));
+      }
+      for (var q = 0; q < seq.length; q++) {
+        if (slots[q] !== '×' && slots[q] !== seq[q]) {
+          ok = false;
+          fail(where + ': syllable ' + (q + 1) + ' is marked ' + seq[q] + ' but the pattern calls it ' + slots[q] +
+            ' (a syllable long by POSITION is still marked long: the mark gives the value of the syllable, not of the vowel)');
+        }
       }
 
       // 4. and it has to be a legal line of THIS metre

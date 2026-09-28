@@ -148,6 +148,7 @@
     if (m.schemeNote) root.appendChild(para(m.schemeNote, 'metre-scheme-note'));
 
     root.appendChild(legend());
+    root.appendChild(para(I18n.t('metre.legend.marks'), 'metre-legend-note'));
 
     // --- the four sections
     root.appendChild(section('metre.sec.origin', m.origin));

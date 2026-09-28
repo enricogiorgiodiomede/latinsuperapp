@@ -176,7 +176,7 @@
           gloss: 'The measure made to carry an argument',
           plain: 'Aeneadum genetrix, hominum divomque voluptas,',
           source: 'bank',
-          marked: 'Aēnĕă|dūm gĕnĕ|trīx, ‖ hŏmĭ|nūm dī|vōmquĕ vŏ|lūptās,',
+          marked: 'Aenĕă|dūm gĕnĕ|trīx, ‖ hŏmĭ|nūm dī|vōmquĕ vŏ|lūptās,',
           pattern: '– ⏑ ⏑ | – ⏑ ⏑ | – ‖ ⏑ ⏑ | – – | – ⏑ ⏑ | – ×',
           notes: [
             '**Four dactyls, and the poem opens at a run.** Lucretius saves this for the hymn to Venus at the start; it is not how most of his poem moves.',
@@ -315,7 +315,7 @@
         '**The accentual school treats it as a verse of beats**, three in the first colon and two in the second, of the kind familiar from Germanic alliterative verse and from later popular Latin. The difficulty there is that the Latin word accent of the third century BC is itself reconstructed, so the theory is testing one uncertainty against another.',
         '**A third position says it is a syllable-counting verse** with a fixed break and some constraint on how each half ends, and that this is simply all that can be recovered. That is the position this page takes, not out of conviction but because it is the only one that does not require asserting something disputed.',
         '**What can be observed without taking a side** is worth having. The break is real and always falls at a word end. Alliteration is extremely heavy and looks structural rather than decorative - it binds the two halves to each other. And the halves are very often syntactically parallel, so the sense divides where the line divides.',
-        '**Which is why each example below is given twice.** Once read for quantity, with the syllable lengths marked exactly as they would be in a hexameter, and once read for stress, with the ordinary Latin word accent marked. Neither is offered as the answer. Set side by side they show, in two lines, why two centuries of argument have not produced one - and they are more instructive than either reading alone, because they do not agree with each other.'
+        '**Which is why each example below is given twice.** Once read for quantity, with the syllable lengths marked exactly as they would be in a hexameter, and once read for stress, with the ordinary Latin word accent marked. Neither is offered as the answer. Set side by side they show, in two lines, why two centuries of argument have not produced one - and they are more instructive than either reading alone, because they do not agree with each other. The short version, before you read them: the Livius line comes out well formed on both readings, and the Naevius line on neither.'
       ],
 
       sound: [
@@ -341,15 +341,15 @@
           readings: [
             {
               label: 'metre.reading.quantitative',
-              marked: 'Vĭrŭm mĭhĭ, Cămēnă, ‖ īnsĕcĕ vērsūtŭm.',
-              pattern: '⏑ – ⏑ ⏑ ⏑ – ⏑ ‖ – ⏑ ⏑ – – ×',
-              note: 'Marked for length, exactly as a hexameter would be marked, the line comes out with **one long in its first seven syllables and three in its last six**. That is not a shape any Greek metre produces, and a quantitative schema can be fitted to it only by allowing so many substitutions that it stops predicting anything. Note also the **hiatus** at the break: *Camena, insece* would elide anywhere else in Latin verse and here does not, which is normal in Saturnians and is itself an argument that the break is a real structural boundary.'
+              marked: 'Vĭrūm mĭhī, Cămēnă, ‖ īnsĕcĕ vērsūtŭm.',
+              pattern: '⏑ – ⏑ – ⏑ – ⏑ ‖ – ⏑ ⏑ – – ×',
+              note: 'Marked for length, exactly as a hexameter would be marked, the first half comes out **⏑ – ⏑ – ⏑ – ⏑**: a clean alternation, three iambs and one syllable over, which is very close to what the quantitative school says a Saturnian colon ought to look like. Two of those longs repay a second look. The *-um* of *virum* is long **by position**, because the *m* of *mihi* closes the syllable and not because the *u* is long; and the final *-i* of *mihi* is one of those early Latin vowels that goes both ways, long by origin and short by the iambic shortening already at work in Plautus. Take it long and the colon is a textbook line. Take it short and the alternation falls apart. **So the best evidence for the theory here sits on a syllable the theory would like to be able to choose.** The second half does not alternate at all. Note also the **hiatus** at the break: *Camena, insece* would elide anywhere else in Latin verse and here does not, which is normal in Saturnians and is itself an argument that the break is a real structural boundary.'
             },
             {
               label: 'metre.reading.accentual',
               marked: 'Vírum míhi, Caména, ‖ ínsece versútum.',
               pattern: '´ ´ ´ ‖ ´ ´',
-              note: 'Marked for stress instead - accent the second-last syllable if it is heavy, otherwise the third-last, and a word of two syllables on its first - the line gives **three beats and then two**. That is precisely the 3 ‖ 2 the accentual theory predicts, and read aloud that way it does sound like verse rather than like a sentence. This is why the theory has never gone away.'
+              note: 'Marked for stress instead - accent the second-last syllable if it is heavy, otherwise the third-last, and a word of two syllables on its first - the line gives **three beats and then two**. That is precisely the 3 ‖ 2 the accentual theory predicts, and read aloud that way it does sound like verse rather than like a sentence. This is why the theory has never gone away. **But look at where the beats fall.** *Vírum* and *míhi* are stressed on syllables the quantitative reading counts short, so of the three beats in the first half only *Caména* lands on a long. Both readings give a well-formed line and they agree about almost nothing, which is the difficulty of this metre in a single verse.'
             }
           ],
           notes: [
@@ -368,15 +368,15 @@
           readings: [
             {
               label: 'metre.reading.quantitative',
-              marked: 'īmmōrtālēs mōrtālēs ‖ sī fŏrĕt fās flērĕ,',
+              marked: 'īmmōrtālēs mōrtālēs ‖ sī fŏrēt fās flērĕ,',
               pattern: '– – – – – – – ‖ – ⏑ – – – ×',
-              note: '**Seven long syllables in a row**, and then a second colon nearly as heavy: two short syllables in the whole line of thirteen. Nothing in Greek or Latin quantitative metre produces a line like this. If the Saturnian is a quantitative measure, then its schema has to be loose enough to accept very nearly anything - which is the central objection to the quantitative case, made here by a single verse.'
+              note: '**Seven long syllables in a row**, and then a second colon nearly as heavy: two short syllables in the whole line of thirteen. The number looks like a slip, so it is worth taking apart. Four of the seven are long **by nature**, the *-a-* and the *-es* of *mortales*, counted twice because the word is said twice; the other three are long **by position** only, *im-* closed by its own double *m* and each *mor-* closed by its *r*. Saying the same word twice is what builds the block. In the second half only *fo-* is short: *-ret* is long by position before the *f* of *fas*, which is easy to miss. And then the point stands. Nothing in Greek or Latin quantitative metre produces a line like this, and if the Saturnian is a quantitative measure its schema has to be loose enough to accept very nearly anything - which is the central objection to the quantitative case, made here by a single verse.'
             },
             {
               label: 'metre.reading.accentual',
-              marked: 'immortáles mortáles ‖ si fóret fas flére,',
+              marked: 'immortáles mortáles ‖ si fóret fás flére,',
               pattern: '´ ´ ‖ ´ ´ ´',
-              note: 'By stress the same line gives **two beats and then three** - the exact reverse of the Livius line, where the identical rule gave three and then two. The theory that worked a moment ago does not work here. Two lines are not a sample, but they are a fair demonstration of the difficulty: **every reading of the Saturnian works somewhere and fails somewhere else**, and there is not enough surviving verse to decide between them.'
+              note: 'By stress the same line gives **two beats and then three** - the exact reverse of the Livius line, where the identical rule gave three and then two. The theory that worked a moment ago does not work here. And the count itself rests on a decision you should watch being made: *fóret*, *fas* and *flére* are taken as three beats, with *si* left unstressed as the proclitic conjunction it is. Count *si* too and the second half has four. **The accentual theory has to rule on monosyllables before it can count at all**, and nothing in the evidence makes that ruling for it. Two lines are not a sample, but they are a fair demonstration of the difficulty: **every reading of the Saturnian works somewhere and fails somewhere else**, and there is not enough surviving verse to decide between them.'
             }
           ],
           notes: [
@@ -508,7 +508,7 @@
           ],
           source: 'bank',
           marked: [
-            'pūblĭcānŭs vēr(o) ŭt Ăsĭae ‖ fī(am), ŭt scrīptūrārĭŭs,',
+            'pūblĭcānūs vēr(o) ŭt Ăsĭae ‖ fī(am), ūt scrīptūrārĭŭs,',
             'prō Lūcīlĭ(o), ĭd ĕgŏ nōl(o), ĕt ‖ ūn(o) hōc nōn mūt(o) ōmnĭă'
           ],
           pattern: [
