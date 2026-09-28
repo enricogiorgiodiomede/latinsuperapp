@@ -108,6 +108,41 @@ the whole app**.
 Verification: **214 verbatim, 0 mismatched**; `lint_translations.js` **341 checked, 3 to look at**
 (the same three documented in the tool's header). Cache-bust: `?v=113` -> `?v=114`.
 
+## [1.15.1] - 2026-09-28
+
+**THE LAST THREE METRES GET PAGES.** Saturnian, Elegiac Couplets and Trochaic Septenarius. Every metre named
+on an excerpt now links to a page: **80 labelled excerpts, 80 of them linked**, and `STUBS` is empty.
+
+### Added
+- **Saturnian** - Rome's native verse, the metre of the *Odusia*, the *Bellum Poenicum* and the epitaphs of
+  the Scipios. The page sets out the quantitative and accentual theories, says why neither settles it, and
+  **deliberately prints no foot-by-foot scansion**: the examples (Livius Andronicus, Naevius) carry the break
+  and the syllable count (7 ‖ 6 in both) and nothing else, because marking quantities would mean choosing a
+  theory and presenting it as fact.
+- **Elegiac Couplets** - shown as a pair, because the pair is the unit. Why "pentameter" is a bad name; the
+  obligatory central break; and the rule that the second half never contracts, which is why every couplet ends
+  on the same six syllables. Example: Catullus 101, vv. 1-2, both lines scanned.
+- **Trochaic Septenarius** - the recited metre of Roman comedy and of Lucilius' earliest satire. Seven and a
+  half trochees, substitution almost everywhere, the fourth-foot break. **Also printed without a full
+  scansion**, and the page explains that this is the metre behaving normally - and that it is exactly why
+  Plautus, Terence and the other dramatists carry no metre label in this app.
+
+### Changed
+- **A metre example may now be several lines** (`marked` / `pattern` / `plain` accept arrays), which an elegiac
+  couplet has to be, and `pattern` may be omitted entirely for a metre this project declines to scan. The
+  scheme block stacks for a multi-line metre, and a couplet's second line is indented the way an edition
+  prints it.
+- `tools/check_metre_quotes.js` handles both, and validates an elegiac pentameter against the four legal
+  shapes of the line (the central break falls on a foot join, so enumerating them is exact where a
+  foot-by-foot rule would not be).
+- Four more bold-around-italic leaks caught by `lint_markdown.js`, two per language.
+
+Verification: **check_metre_quotes 13 verses, 0 failed**; **check_metres 80 labelled, 80 linked, 0 failed**;
+**392 verbatim, 0 mismatched**; **check_verses 60, 0**; `lint_markdown` **0 leaking**. Checked in the browser
+in both languages: the index lists five metres, the couplet renders as two lines with two patterns, the
+Saturnian and septenarius examples render without one, and the Naevius, Catullus 101 and Lucilius tablets are
+now links. Cache-bust: `?v=177` -> `?v=180`.
+
 ## [1.15.0] - 2026-09-28
 
 **METRE.** Verse excerpts now name the metre they are written in, and the name links to a reference page

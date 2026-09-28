@@ -1269,6 +1269,12 @@ a.em-name:focus-visible { outline: 2px solid var(--deep-red); outline-offset: 3p
   letter-spacing: 1.5px;
   color: var(--gray);
 }
+/* A metre whose unit is more than one line - the elegiac couplet - shows its
+   scheme as one row per line, under the label rather than beside it. */
+.metre-scheme.is-stacked { display: block; }
+.metre-scheme.is-stacked .ms-label { display: block; margin-bottom: 6px; }
+.metre-scheme.is-stacked .ms-value { display: block; }
+.metre-scheme.is-stacked .ms-value + .ms-value { margin-top: 2px; }
 .ms-value {
   font-family: var(--font-serif);
   font-size: 1.15rem;
@@ -1348,6 +1354,11 @@ a.em-name:focus-visible { outline: 2px solid var(--deep-red); outline-offset: 3p
   margin: 0 0 14px;
   overflow-wrap: anywhere;
 }
+/* The second line of a couplet is indented, the way an elegiac pentameter is
+   printed in an edition, so the shape of the pair is visible at a glance. */
+.me-verse-2 { padding-left: 1.6em; }
+.me-verse-2 + .me-pattern { padding-left: 1.6em; }
+.me-verse-1 + .me-pattern { margin-bottom: 4px; }
 .me-note { font-size: 0.95rem; line-height: 1.65; margin: 0 0 10px; max-width: 76ch; }
 .metre-after {
   font-style: italic;

@@ -14,13 +14,6 @@
 
   global.__METRES_IT__ = {
 
-    // The metres that are named on an excerpt but have no page yet. They need
-    // an Italian name and nothing else: without these the tablet came out as
-    // "METRO Saturnian", half translated.
-    'saturnian': { name: 'Saturnio' },
-    'trochaic-septenarius': { name: 'Settenario Trocaico' },
-    'elegiac-couplets': { name: 'Distici Elegiaci' },
-
     'dactylic-hexameter': {
       name: 'Esametro Dattilico',
       tagline: "Il metro dell'epica, della poesia didascalica e della satira, e la forma di verso più longeva della letteratura europea.",
@@ -171,6 +164,178 @@
       ],
 
       after: 'Gli endecasillabisti latini successivi - Marziale soprattutto, poi Stazio e Plinio il Giovane - non sono ancora in questa app. I loro esempi compariranno qui quando ci saranno.'
+    },
+
+    'saturnian': {
+      name: 'Saturnio',
+      tagline: 'Il verso proprio di Roma, da prima che arrivassero i metri greci; e l\'unico che nessuno sia riuscito a spiegare.',
+      schemeNote: 'Sette sillabe, una pausa, poi sei: è la forma del verso classico. I segni di ancipite sono onesti e non pigri: quali di quelle sillabe siano lunghe è esattamente ciò che si discute.',
+
+      origin: [
+        'I romani lo chiamavano *Saturnius numerus*, il verso di Saturno: la misura dell\'età dell\'oro, di prima che qualcuno avesse sentito parlare della Grecia. Che sia storia o no, dice come lo sentivano: come cosa loro, e come cosa antica.',
+        '**È il metro delle prime due opere della letteratura latina.** Livio Andronico lo usò intorno al 240 a.C. per l\'*Odusia*, la sua traduzione dell\'Odissea, e Nevio per il *Bellum Poenicum*, la prima epica nazionale romana. Entrambi i poeti sono in questa app, ed entrambi gli esempi qui sotto sono loro.',
+        '**Non era soltanto un metro letterario.** Le più antiche iscrizioni latine di una certa estensione sono in saturni: gli epitaffi degli Scipioni, incisi nella pietra del sepolcro di famiglia sulla via Appia, e diverse dediche e iscrizioni trionfali. Era dunque il verso che un romano incontrava su un monumento, non solo in un libro, e conviene ricordarlo leggendo l\'epitaffio di Nevio qui sotto.',
+        '**Da dove venga, nessuno lo sa.** O è davvero ereditato, una forma di verso italica con dietro, molto lontano, un antenato comune con i metri greci, oppure fu preso in prestito presto e rimodellato al punto da non riconoscersi più. Non c\'è alcuna prova esterna in un senso o nell\'altro, e la discussione va avanti da duecento anni.',
+        '**Com\'è morto è molto più chiaro.** Ennio scrisse gli *Annales* in esametri greci intorno al 180 a.C. e ne fece un programma, liquidando il verso dei predecessori come roba da *Fauni vatesque*, fauni e indovini. Funzionò. Nel giro di una generazione il saturnio era arcaico; in due era estinto come metro letterario, e nessun poeta latino vi tornò più.',
+        '**Ci restano circa centotrenta versi**, per lo più citati da grammatici tardi che si interessavano a una parola e non al verso, e molti guasti nel testo. È la radice di tutto ciò che si legge in questa pagina: il corpus è troppo piccolo e troppo malconcio per decidere una controversia.'
+      ],
+
+      build: [
+        '**Si parta da ciò su cui si è d\'accordo, perché non è molto.** Il verso si divide in due parti con una pausa in mezzo; la fine di parola coincide sempre con quella pausa; e la forma classica è sette sillabe e poi sei. Entrambi gli esempi qui sotto sono esattamente 7 e 6.',
+        '**Dopo di che il campo si divide.** La scuola *quantitativa* lo tratta come un metro simile a quelli greci, fondato sulla durata delle sillabe, e lo scrive come uno schema di lunghe e ancipiti. La difficoltà è che i versi superstiti non ci stanno tutti, qualunque schema si proponga, e la teoria deve correggere il testo per salvarsi: il che è circolare.',
+        '**La scuola accentuativa lo tratta come un verso di battute**, tre nel primo colon e due nel secondo, del tipo familiare dalla poesia allitterativa germanica e dal latino popolare più tardo. Lì la difficoltà è che l\'accento di parola latino del III secolo a.C. è a sua volta ricostruito, e dunque la teoria verifica un\'incertezza con un\'altra.',
+        '**Una terza posizione dice che è un verso a conteggio di sillabe**, con una pausa fissa e qualche vincolo su come finisce ciascuna metà, e che questo è semplicemente tutto ciò che si può recuperare. È la posizione di questa pagina, non per convinzione ma perché è l\'unica che non richieda di affermare qualcosa di contestato.',
+        '**Ciò che si può osservare senza schierarsi** vale comunque la pena di averlo. La pausa è reale e cade sempre a fine parola. L\'allitterazione è pesantissima e sembra strutturale e non ornamentale: lega le due metà l\'una all\'altra. E le due metà sono spesso parallele nella sintassi, perciò il senso si divide dove si divide il verso.',
+        '**Ed è per questo che gli esempi qui sotto non hanno una scansione piede per piede.** Ovunque altrove in questa sezione la scansione è segnata sul verso; qui significherebbe scegliere una teoria e presentarla come un fatto. La pausa è segnata, le sillabe sono contate, e più in là le prove non arrivano.'
+      ],
+
+      sound: [
+        '**La forma si sente anche senza risolvere la controversia.** Due blocchi, all\'incirca uguali, con una pausa in mezzo. Non scorre come scorre un esametro: viene a coppie, e la seconda metà risponde alla prima.',
+        '**L\'allitterazione fa gran parte del lavoro.** In un metro dalle regole lasche, è il gioco dei suoni a dire all\'orecchio che questo è verso: *immortales mortales*, *fas flere*, *flerent*. Si legga ad alta voce l\'epitaffio di Nevio e sono le f a tenere insieme tutto.',
+        '**L\'effetto è più vicino a un proverbio o a una formula giuridica che all\'epica.** Il che si accorda perfettamente con i luoghi in cui il metro si trova davvero - sulle tombe, sulle dediche, nel registro pubblico solenne - ed è in parte il motivo per cui non poté sopravvivere al contatto con l\'esametro, che può correre per un intero paragrafo.',
+        '**A un romano dell\'età di Cicerone suonava antico e paesano**, come a un lettore del I secolo a.C. sembrava pittoresco tutto ciò che precedeva Ennio. Quel giudizio è rimasto, e vale la pena resistergli un poco: queste sono le prime due poesie in latino, e la seconda è un\'epica su una guerra che il suo autore aveva combattuto.'
+      ],
+
+      usedIntro: [
+        'Due poemi epici, l\'*Odusia* e il *Bellum Poenicum*; gli epitaffi degli Scipioni; dediche e iscrizioni trionfali. L\'elenco è sostanzialmente tutto qui.',
+        'Entrambi i poeti superstiti sono in questa app, perciò entrambi gli esempi sono saturni autentici e non ricostruzioni; presentati, come spiegato sopra, con la sola pausa segnata.'
+      ],
+
+      examples: [
+        {
+          where: 'Odusia, fr. I.1',
+          gloss: 'Il primo verso della letteratura latina',
+          notes: [
+            '**Qui comincia la letteratura latina**, per quanto possiamo vedere: l\'inizio dell\'Odissea, messo in latino per un pubblico romano intorno al 240 a.C. da un uomo che a Roma era probabilmente arrivato come prigioniero di guerra.',
+            '**Si guardi che cosa fa del primo verso di Omero.** La Musa diventa *Camena*, una divinità italica delle sorgenti. Non traduce la divinità: la sostituisce con una locale, che è esattamente la stessa decisione dello scrivere il poema nel metro nativo invece che in quello greco. La forma latina e quella greca sono fatte corrispondere a ogni livello tranne che in superficie.',
+            '**E poi una parola tira dalla parte opposta.** *Insece*, "racconta", è un imperativo arcaico ed è imparentato con l\'*ennepe* greco che apre il verso di Omero. La frase è dunque romana nel metro e negli dèi e greca nelle ossa, che è una descrizione discreta di tutta la prima letteratura latina.',
+            '**La forma: sette sillabe, la pausa sulla virgola, sei.** Qui non è segnata alcuna quantità, per la ragione detta sopra.'
+          ]
+        },
+        {
+          where: 'Epitaphium, fr. 67, v. 1',
+          gloss: 'L\'epitaffio che si dice abbia scritto per sé',
+          notes: [
+            '**Di nuovo la stessa forma, 7 e 6**, dall\'altro poeta saturnio superstite; e questo è un epitaffio composto per sé, il metro usato per lo scopo per cui lo si usava sulle lapidi vere.',
+            '**La prima metà è una parola sola detta due volte.** *Immortales mortales*: la stessa radice, una volta con il prefisso negativo e una volta senza, immortali e mortali affiancati senza nulla in mezzo. È tutto il pensiero del carme compresso nel primo colon, e funziona perché il metro dà a quel colon un bordo netto.',
+            '**La seconda metà passa all\'allitterazione**, *si foret fas flere*, e il suono della f prosegue dritto nel verso successivo, *flerent divae Camenae*. In una forma metrica dalle regole lasche è questo il legante: l\'orecchio è tenuto dal gioco dei suoni là dove un metro greco lo terrebbe con la quantità.',
+            'Il vanto che ci sta sotto non è piccolo. Se agli immortali fosse lecito piangere i mortali, dice Nevio, le divine Camene piangerebbero lui; e una volta che fu consegnato al tesoro dell\'Orco, Roma si dimenticò di parlare latino.'
+          ]
+        }
+      ],
+
+      after: 'Nulla di più tardo è scritto in questo metro. Il saturnio è l\'unico metro latino senza alcuna discendenza: non fu sviluppato, fu sostituito, e a sostituirlo fu l\'esametro dattilico.'
+    },
+
+    'elegiac-couplets': {
+      name: 'Distici Elegiaci',
+      tagline: 'Un esametro, e poi un verso più breve che gli ricade sotto. Il metro dell\'epigramma, dell\'epitaffio e della poesia d\'amore romana.',
+      schemeNote: 'Il primo verso è un esametro normale, perciò ciascuno dei suoi primi quattro piedi può essere uno spondeo. Nel secondo verso solo la prima metà può contrarsi: dopo la pausa i due dattili sono fissi, e ogni distico latino classico finisce perciò sullo stesso ritmo.',
+
+      origin: [
+        '**Il nome viene dalla parola greca** *elegos*, il cui significato originario è perduto e che fu associata presto al lamento e al flauto. L\'associazione è rimasta: "elegia" in italiano indica ancora un componimento di lutto. In greco e in latino indica un componimento in questo metro, e l\'argomento può essere qualunque cosa.',
+        '**È antichissimo e non fu mai solo del dolore.** Gli elegiaci greci del VII secolo - Archiloco, Mimnermo, Tirteo, Solone - usano il distico per canti di guerra, argomentazioni politiche, poesie da simposio e consigli. Il lamento è un impiego fra i tanti.',
+        '**L\'altra sua sede propria è l\'iscrizione.** Il distico è il metro standard dell\'epitaffio in versi, greco e poi latino: abbastanza breve da incidersi nella pietra e abbastanza chiuso da suonare definitivo. La cosa riguarda direttamente l\'esempio qui sotto: il carme 101 di Catullo è una poesia scritta nella forma di un\'iscrizione tombale e pronunciata davanti a una tomba.',
+        '**In latino arriva con l\'epigramma e poi si prende un genere intero.** Catullo lo usa per tutto dal carme 65 in avanti, epigrammi e lettere lunghe comprese; e poi Cornelio Gallo, Tibullo, Properzio e Ovidio vi costruiscono sopra l\'elegia erotica romana, un corpo di poesia senza un vero equivalente greco. Nessuno di quei quattro è ancora in questa app.',
+        '**La storia migliore sulla forma la racconta Ovidio.** All\'inizio degli *Amores* dice che stava per scrivere un\'epica in esametri e che Cupido gli rubò un piede da ogni secondo verso: così il poema venne fuori in distici e si trasformò in poesia d\'amore contro la sua volontà. È una battuta sul metro, e spiega il distico meglio di uno schema: il secondo verso è il primo con dentro qualcosa in meno.'
+      ],
+
+      build: [
+        '**Questo non è un metro ma una coppia, e l\'unità è la coppia.** Un esametro da solo è un verso epico; un esametro seguito da un pentametro è un distico elegiaco. Nessuna delle due metà si incontra da sola.',
+        '**Il primo verso è un normale esametro dattilico**, con tutta la libertà che ciò comporta: quattro piedi che possono essere dattili o spondei, un quinto quasi sempre dattilo, una chiusa di due sillabe.',
+        '**Il secondo verso ha un nome sbagliato.** "Pentametro" fa pensare a cinque piedi di qualcosa, e non è così. Sono due emistichi, ciascuno di due piedi e mezzo: – ⏑ ⏑ – ⏑ ⏑ –, poi una pausa, poi di nuovo – ⏑ ⏑ – ⏑ ⏑ –. A contare i piedi si ottengono sei metà che fanno cinque: di qui il nome, che inganna gli studenti da duemila anni.',
+        '**La pausa centrale è obbligatoria e cade sempre a fine parola.** È la cosa più udibile del verso: si spezza davvero in due, e un poeta può usare quello stacco per opporre una metà all\'altra.',
+        '**E adesso la regola che conta di più.** Nella prima metà i due dattili possono contrarsi in spondei, esattamente come nell\'esametro. **Nella seconda metà non possono mai.** Dopo la pausa ogni pentametro latino classico fa – ⏑ ⏑ – ⏑ ⏑ –, senza eccezioni. Non c\'è altra posizione nella metrica latina fissata così saldamente.',
+        '**L\'ultimo elemento è una sola lunga, non un piede.** Il verso semplicemente si ferma. Da Ovidio in poi è normale chiudere il pentametro con una parola di due sillabe, il che rende la chiusa ancora più uniforme; Catullo non ha ancora quell\'abitudine, e la differenza si sente.',
+        'L\'elisione funziona come in tutta la poesia latina, e in una forma così compressa si sente moltissimo: ci sono due elisioni nei quattro versi citati qui sotto.'
+      ],
+
+      sound: [
+        '**L\'esametro apre e il pentametro chiude.** È tutto il ritmo della forma, ripetuto per quanto dura il componimento. Il primo verso corre fino in fondo alla sua lunghezza; il secondo è più breve, si spezza a metà e si ferma. La descrizione tradizionale dice che il secondo verso "ricade", ed è esattamente ciò che fa.',
+        '**Poiché la seconda metà di ogni pentametro è identica**, la stessa cadenza di sei sillabe arriva alla fine di ogni distico. In un componimento lungo diventa ipnotica; in uno breve diventa uno scatto. È il motivo per cui il distico si è preso l\'epigramma: non si può scrivere una battuta di due versi in un metro che non chiude.',
+        '**Il fatto che l\'unità sia di due versi rende la forma argomentativa.** Affermazione, poi svolta; tesi, poi smentita; immagine, poi commento. L\'epigramma latino è costruito su quella figura, e così gran parte dell\'elegia erotica, dove è nel pentametro che atterrano la lamentela o la battuta.',
+        '**L\'enjambement oltre il confine del distico è abbastanza raro da essere un effetto.** In un poema in esametri la frase scavalca continuamente la fine del verso; qui di solito no, e perciò quando un poeta lascia che una frase trabocchi nel distico successivo lo si deve sentire.'
+      ],
+
+      usedIntro: [
+        'Prima l\'epigramma e l\'iscrizione; poi, in latino, un genere intero: l\'elegia erotica di Gallo, Tibullo, Properzio e Ovidio, e dopo di quella la poesia dell\'esilio di Ovidio, il suo calendario e le sue lettere. Diventa il metro ordinario per tutto ciò che non è epica e non è lirica.',
+        'Un solo componimento di questa app è in distici, e difficilmente potrebbe essere migliore: il carme 101 di Catullo, scritto nel metro dell\'epitaffio, per una tomba che aveva attraversato il mondo per raggiungere.'
+      ],
+
+      examples: [
+        {
+          where: 'Carme 101, vv. 1-2',
+          gloss: 'Il distico iniziale: un esametro che viaggia, un pentametro che arriva',
+          notes: [
+            '**Il distico fa in due versi ciò che il carme fa in dieci.** L\'esametro è tutto movimento - *multas per gentes et multa per aequora*, per molte genti e per molti mari - e si apre su tre spondei, che rendono il viaggio pesante e lento invece che rapido. Poi arriva il pentametro: *advenio*, giungo, prima parola, e il viaggiare si ferma.',
+            '**Si guardi il secondo verso spezzarsi a metà.** *Advenio has miseras* ‖ *frater, ad inferias*: la prima metà è l\'arrivo, la seconda è ciò per cui è arrivato, e la parola *frater* è messa in testa alla seconda metà, dove la pausa le scarica addosso tutto il peso. È il metro a fare il lutto.',
+            '**E la seconda metà è quella fissa.** – ⏑ ⏑ – ⏑ ⏑ –, come in ogni pentametro classico, senza sostituzione possibile; la prima metà dello stesso verso ha preso i dattili pieni ma avrebbe potuto contrarli. Il distico finisce sull\'unico ritmo che la forma non varia mai, ed è per questo che atterra così definitivamente.',
+            '**Da notare un\'elisione**, ed è proprio all\'inizio: *advenio has* si scrive come cinque sillabe e si legge come quattro, con la *-o* finale che sparisce davanti all\'*h*. Si stampi *ādvĕnĭ(o)* e il primo piede viene fuori come un dattilo pulito.',
+            'Il carme si chiude su un altro distico che tutti conoscono, che finisce *atque in perpetuum, frater, ave atque vale*; e anche quell\'ultimo verso è un pentametro, con la stessa cadenza fissa che arriva per l\'ultima volta.'
+          ]
+        }
+      ],
+
+      after: 'Gli elegiaci romani che fecero proprio questo metro - Gallo, Tibullo, Properzio e Ovidio - non sono ancora in questa app. Quando verranno aggiunti, i loro esempi compariranno qui.'
+    },
+
+    'trochaic-septenarius': {
+      name: 'Settenario Trocaico',
+      tagline: 'Sette trochei e mezzo: il verso lungo, dondolante e incalzante della commedia romana, e di Lucilio prima che si fissasse sull\'esametro.',
+      schemeNote: 'Sette piedi completi e una sillaba, che è ciò che il "settenario" conta. Quasi ogni lunga può risolversi in due brevi e quasi ogni ancipite può essere riempita da due, perciò un verso di quindici posizioni può portare venti sillabe. La pausa dopo il quarto piede è consueta, non obbligatoria.',
+
+      origin: [
+        '**È greco, ed è veloce.** Il tetrametro trocaico catalettico - quattro coppie di piedi con l\'ultima sillaba mancante - è uno dei metri greci più antichi, usato da Archiloco nel VII secolo a.C. e accolto nella tragedia per le scene concitate. Aristotele dice che era il metro originario del dialogo tragico prima che subentrasse il giambo, perché è più vicino alla danza.',
+        '**In latino diventa uno dei due metri portanti della commedia.** Plauto e Terenzio costruiscono i loro drammi con il senario giambico e con questo: il senario è parlato, il settenario è *recitativo*, eseguito con l\'accompagnamento del flautista. Una scena che cambia metro è una scena che cambia modo di esecuzione, ed è per questo che il metro si sposta in mezzo a una conversazione.',
+        '**Lucilio vi scrisse le sue prime satire.** I libri dal 26 al 29, i primi che pubblicò, usano le misure più antiche - questa e il senario giambico - e solo dal libro 30 in poi scrive gli esametri che la satira conservò in seguito. Entrambe le fasi sono in questa app, il che fa di Lucilio l\'unico autore presente che mostri il passaggio mentre avviene.',
+        '**Sopravvive alla letteratura che lo usò.** I canti dei soldati al trionfo di Cesare erano in settenari trocaici, e la forma passa nel latino popolare e poi cristiano: l\'inno medievale *Pange lingua gloriosi* è un tetrametro trocaico catalettico costruito sull\'accento invece che sulla quantità. È l\'unico metro classico che esce dall\'antichità e cammina dritto nel Medioevo.'
+      ],
+
+      build: [
+        '**Otto posizioni di – ⏓, con l\'ultima troncata.** Sono sette piedi completi più una sillaba sola, da cui il nome: un *septenarius* conta sette.',
+        '**La forma discendente è il punto.** Un trocheo è lunga-poi-breve, perciò ogni piede comincia sul suo battere e ricade, e il verso nel suo insieme spinge in avanti. Un verso giambico sale verso il battere; uno trocaico ne scende.',
+        '**La sostituzione è ammessa quasi ovunque, ed è questo a rendere utile il metro.** Una lunga può risolversi in due brevi. L\'ancipite può essere una lunga, una breve o due brevi. Perciò un singolo piede può presentarsi come trocheo, spondeo, dattilo, anapesto o tribraco, e le quindici posizioni metriche del verso possono essere riempite da quindici sillabe come da più di venti.',
+        '**Di solito c\'è una pausa dopo il quarto piede**, a metà verso, e di solito cade a fine parola. È una tendenza forte più che una regola, ed entrambi gli esempi qui sotto ce l\'hanno.',
+        '**E adesso la conseguenza, che è la parte onesta di questa pagina.** Con la sostituzione disponibile in quasi ogni posizione, un dato verso ammette spesso più di un\'analisi, e gli editori di Plauto e Terenzio non concordano su singoli versi. Il metro si piega alla frase invece che la frase al metro: che è esattamente ciò che serve al dialogo, ed esattamente ciò che rende difficile una scansione definitiva.',
+        '**È anche il motivo per cui i comici non sono etichettati in questa app.** Una scena di Plauto si muove tra il senario parlato, questo metro e i metri lirici dei *cantica*, a volte nel giro di pochi versi; un unico metro indicato su un intero brano sarebbe spesso sbagliato. Lucilio si può etichettare perché i suoi libri sono coerenti al loro interno.'
+      ],
+
+      sound: [
+        '**Lungo.** Quindici posizioni e spesso venti sillabe, cioè la metà in più di un esametro come conteggio sillabico. Una pagina di settenari non somiglia per niente a una pagina di epica: i versi attraversano tutto il foglio e proseguono.',
+        '**E incalzante, perché il battere va d\'accordo con le parole.** In latino l\'accento di parola tende a cadere sulle stesse sillabe che il battere trocaico vuole, perciò il ritmo è facile da sentire e difficile da perdere: l\'opposto dell\'esametro, dove accento e ictus metrico si contrastano per tutta la parte centrale del verso e si accordano solo alla fine.',
+        '**Eseguito con la musica.** Nella commedia è il metro del *recitativum*, cantato o recitato sopra il flauto, più rapido e più insistente del semplice senario parlato. Quando una scena plautina sale nei settenari, sale nella performance.',
+        '**La cosa più vicina in italiano è il verso lungo di filastrocca**, o in inglese il verso trocaico disteso di Tennyson: una volta che se ne prende il dondolio, ti porta, ed è molto difficile fermarsi prima della fine del verso.'
+      ],
+
+      usedIntro: [
+        'La commedia romana soprattutto: Plauto e Terenzio lo usano di continuo, e fra i due danno conto della maggior parte degli esempi latini superstiti. Poi la prima satira di Lucilio, poi i canti di marcia, la poesia popolare e infine l\'inno medievale.',
+        'In questa app è etichettato solo Lucilio, per la ragione detta sopra; entrambi gli esempi qui sotto vengono dal libro 26, la satira più antica di cui abbiamo qualcosa.'
+      ],
+
+      examples: [
+        {
+          where: 'Saturae, libro 26, sui suoi lettori',
+          gloss: 'Chi vuole che lo legga, e chi no',
+          notes: [
+            '**La frase più citata della satira romana sul proprio pubblico.** Lucilio non vuole essere letto da Manio Persio, che era notoriamente dotto, e vuole essere letto da Giunio Congo, che non lo era. Colloca l\'opera fra l\'esperto e l\'ignorante, e ogni satirico dopo di lui ripete il gesto.',
+            '**Il verso è costruito a specchio, e la pausa metrica cade esattamente sul cardine.** Due nomi in accusativo e un verbo, poi due nomi in accusativo e un verbo; *nolo* alla fine della prima metà, *volo* alla fine della seconda. La pausa dopo il quarto piede cade sulla virgola, perciò il metro si divide dove si divide il senso.',
+            '**La seconda metà cade dritta sullo schema.** *Iunium Congum volo* sono sette sillabe per sette posizioni, senza alcuna risoluzione, e viene fuori – ⏑ – – – ⏑ –, che è il nudo – ⏓ – ⏓ – ⏓ – della seconda metà. Vale la pena notare perché: le *-um* di *Iunium* e di *Congum* sono entrambe lunghe, non perché le vocali siano lunghe ma perché ciascuna è chiusa dalla sua *m* davanti alla consonante che segue.',
+            '**La prima metà è dove la faccenda si fa interessante.** *Persium haec* elide, e restano undici sillabe per riempire otto posizioni - tre risoluzioni - e più di una distribuzione sta in metrica. **Questa pagina non stampa un\'analisi piede per piede**, perché non c\'è una risposta sola da stampare. È il metro che si comporta normalmente, ed è il motivo per cui Plauto e Terenzio non portano un\'etichetta metrica in questa app.'
+          ]
+        },
+        {
+          where: 'Saturae, libro 26, v. 1',
+          gloss: 'Rifiutare una carriera, in un verso pieno di latino amministrativo',
+          notes: [
+            '**Ciò che rifiuta è un patrimonio.** Un *publicanus* appaltava le imposte di una provincia, e il contratto d\'Asia era il più ricco del mondo romano; uno *scripturarius* riscuoteva i canoni sui pascoli pubblici. Lucilio era già ricco e non ne aveva bisogno, e il senso della frase - che prosegue nel verso seguente - è che non avrebbe barattato la propria indipendenza con nulla di tutto ciò.',
+            '**Due elisioni in un verso solo**, *vero ut* e *fiam ut*, ed è ciò che rende difficile fissare a colpo d\'occhio il conteggio delle sillabe. È la condizione ordinaria del verso drammatico e satirico romano: il verso scritto e il verso detto hanno lunghezze diverse, e bisogna sentirlo prima di poterlo scandire.',
+            '**Si ascolti il lessico.** *Publicanus*, *scripturarius*: sostantivi amministrativi piatti, uno dei due lungo cinque sillabe e piazzato in fine di verso. Un esametro non li reggerebbe; questo metro ha spazio. È in buona parte il motivo per cui la prima satira è scritta così, e in parte ciò a cui Lucilio rinunciò passando all\'esametro nel libro 30.',
+            'La pausa cade di nuovo sulla virgola, dopo *fiam*: è la dieresi del quarto piede che fa il suo lavoro consueto.'
+          ]
+        }
+      ],
+
+      after: 'Plauto e Terenzio, che usano questo metro più di chiunque altro in latino, sono in questa app ma non portano alcuna etichetta metrica: una scena comica si muove tra il senario parlato, il settenario recitato e i metri lirici dei cantica, a volte nel giro di pochi versi, perciò una sola etichetta su un intero brano sarebbe spesso sbagliata. Quando quei brani saranno fatti, porteranno un elenco di metri con i versi coperti da ciascuno.'
     }
   };
 })(window);

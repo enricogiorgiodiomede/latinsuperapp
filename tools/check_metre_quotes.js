@@ -94,14 +94,34 @@ function footsOf(pattern) {
   return pattern.split('|').map(f => f.replace(/‖/g, '').replace(/\s+/g, ' ').trim());
 }
 
-const D = '– ⏑ ⏑', S = '– –', TR = '– ⏑', CLOSE = ['– ×', '– –', '– ⏑'];
+const D = '– ⏑ ⏑', S = '– –', TR = '– ⏑', L = '–', CLOSE = ['– ×', '– –', '– ⏑'];
+const HEX = { feet: 6, allowed: [[D, S], [D, S], [D, S], [D, S], [D, S], CLOSE] };
+// The elegiac pentameter is two half-lines of two-and-a-half feet, and the
+// caesura between them falls on a foot boundary rather than inside a foot, so
+// it is easier to enumerate the four legal lines outright than to describe them
+// foot by foot. The first half may contract its dactyls to spondees; the second
+// half never may, which is the rule that makes the couplet's second line sound
+// the way it does.
+const PENT = { patterns: [
+  '– ⏑ ⏑ | – ⏑ ⏑ | – ‖ – ⏑ ⏑ | – ⏑ ⏑ | –',
+  '– – | – ⏑ ⏑ | – ‖ – ⏑ ⏑ | – ⏑ ⏑ | –',
+  '– ⏑ ⏑ | – – | – ‖ – ⏑ ⏑ | – ⏑ ⏑ | –',
+  '– – | – – | – ‖ – ⏑ ⏑ | – ⏑ ⏑ | –'
+] };
+
+// A metre with no entry here is not shape-checked: the Saturnian is not agreed
+// on, and a Roman trochaic septenarius admits so many substitutions that one
+// line often allows several analyses. Both are shown with their break marked
+// and no pattern, and both pages say so.
 const SHAPE = {
   // six feet: the first five a dactyl or a spondee, the last always two
   // syllables. (The fifth is only CONVENTIONALLY a dactyl - a spondee there is
   // the spondeiazon, which Catullus uses on purpose - so it is allowed here.)
-  'dactylic-hexameter': { feet: 6, allowed: [[D, S], [D, S], [D, S], [D, S], [D, S], CLOSE] },
+  'dactylic-hexameter': HEX,
   // fixed shape, eleven syllables, nothing substitutable except the base.
-  'phalaecian-hendecasyllable': { feet: 5, allowed: [['× ×', S, TR, '⏑ –'], [D], [TR], [TR], CLOSE] }
+  'phalaecian-hendecasyllable': { feet: 5, allowed: [['× ×', S, TR, '⏑ –'], [D], [TR], [TR], CLOSE] },
+  // a couplet: one hexameter, then one pentameter.
+  'elegiac-couplets': { lines: [HEX, PENT] }
 };
 
 let checked = 0, bad = 0;
@@ -110,70 +130,100 @@ const fail = (msg) => { bad++; console.log('FAIL ' + msg); };
 for (const id of Object.keys(PAGES)) {
   const page = PAGES[id];
   for (const ex of page.examples) {
-    checked++;
     const label = id + ' / ' + ex.author + ', ' + ex.where;
 
-    // 1. the scansion has to spell the line
-    const spelled = unmark(ex.marked);
-    const plain = ex.plain.replace(/\s+/g, ' ').trim();
-    if (spelled !== plain) {
-      fail(label + ': the marked scansion does not spell the verse' +
-        '\n  marked -> ' + JSON.stringify(spelled) +
-        '\n  plain  -> ' + JSON.stringify(plain));
+    // An example is one line, or several when the metre's unit is several: an
+    // elegiac couplet is a hexameter and a pentameter and has to be shown
+    // together. `pattern` may be missing entirely, for a metre this project
+    // declines to scan foot by foot.
+    const marked = [].concat(ex.marked);
+    const plains = [].concat(ex.plain);
+    const patterns = ex.pattern == null ? null : [].concat(ex.pattern);
+    if (marked.length !== plains.length) {
+      fail(label + ': ' + marked.length + ' marked lines but ' + plains.length + ' plain ones');
       continue;
     }
-
-    // 2. and the line has to be somebody's, verbatim
-    if (ex.source === 'bank') {
-      if (!bankLines.has(plain)) fail(label + ': not a verbatim line of any excerpt in the bank: ' + JSON.stringify(plain));
-    } else {
-      const lines = cachedLines(ex.source);
-      if (!lines) {
-        fail(label + ': no cached page "' + ex.source + '" - run node tools/fetch_sources.js');
-      } else if (!lines.has(plain)) {
-        fail(label + ': not a verbatim line of the cached page "' + ex.source + '": ' + JSON.stringify(plain));
-      }
+    if (patterns && patterns.length !== marked.length) {
+      fail(label + ': ' + marked.length + ' marked lines but ' + patterns.length + ' patterns');
+      continue;
     }
-
-    // 3. a foot count sanity check: the pattern must have as many feet as the
-    //    marked line has bars, plus one.
-    const bars = (ex.marked.match(/\|/g) || []).length;
-    const feet = (ex.pattern.match(/\|/g) || []).length;
-    if (bars !== feet) {
-      fail(label + ': ' + (bars + 1) + ' feet marked on the verse but ' + (feet + 1) + ' in the pattern');
-    }
-
-    // 4. the pattern has to be a legal line of THIS metre. Cheap, exact, and it
-    //    catches a mistyped foot that reads plausibly.
     const shape = SHAPE[id];
-    if (shape) {
-      const got = footsOf(ex.pattern);
-      if (got.length !== shape.feet) {
-        fail(label + ': ' + got.length + ' feet in the pattern, ' + shape.feet + ' expected for this metre');
+    const lineShapes = shape ? (shape.lines || [shape]) : null;
+
+    let ok = true;
+    marked.forEach((markedLine, n) => {
+      checked++;
+      const where = label + (marked.length > 1 ? ' [line ' + (n + 1) + ']' : '');
+
+      // 1. the scansion has to spell the line
+      const spelled = unmark(markedLine);
+      const plain = plains[n].replace(/\s+/g, ' ').trim();
+      if (spelled !== plain) {
+        ok = false;
+        return fail(where + ': the marked scansion does not spell the verse' +
+          '\n  marked -> ' + JSON.stringify(spelled) +
+          '\n  plain  -> ' + JSON.stringify(plain));
+      }
+
+      // 2. and the line has to be somebody's, verbatim
+      if (ex.source === 'bank') {
+        if (!bankLines.has(plain)) { ok = false; return fail(where + ': not a verbatim line of any excerpt in the bank: ' + JSON.stringify(plain)); }
       } else {
-        got.forEach((f, n) => {
-          if (shape.allowed[n].indexOf(f) < 0) {
-            fail(label + ': foot ' + (n + 1) + ' is ' + JSON.stringify(f) +
-              ', which this metre does not allow there (expected ' + shape.allowed[n].join(' or ') + ')');
+        const lines = cachedLines(ex.source);
+        if (!lines) { ok = false; return fail(where + ': no cached page "' + ex.source + '" - run node tools/fetch_sources.js'); }
+        if (!lines.has(plain)) { ok = false; return fail(where + ': not a verbatim line of the cached page "' + ex.source + '": ' + JSON.stringify(plain)); }
+      }
+
+      if (!patterns) return;   // shown without a foot analysis, on purpose
+
+      // 3. the pattern must have as many feet as the marked line has bars
+      const bars = (markedLine.match(/\|/g) || []).length;
+      const feet = (patterns[n].match(/\|/g) || []).length;
+      if (bars !== feet) {
+        ok = false;
+        return fail(where + ': ' + (bars + 1) + ' feet marked on the verse but ' + (feet + 1) + ' in the pattern');
+      }
+
+      // 4. and it has to be a legal line of THIS metre
+      const ls = lineShapes && lineShapes[n];
+      if (ls && ls.patterns) {
+        // whole-line enumeration, for a line whose break sits on a foot join
+        const norm = patterns[n].replace(/\s+/g, ' ').trim();
+        if (ls.patterns.indexOf(norm) < 0) {
+          ok = false;
+          return fail(where + ': ' + JSON.stringify(norm) + ' is not one of the legal lines of this metre');
+        }
+      } else if (ls) {
+        const got = footsOf(patterns[n]);
+        if (got.length !== ls.feet) {
+          ok = false;
+          return fail(where + ': ' + got.length + ' feet in the pattern, ' + ls.feet + ' expected here');
+        }
+        got.forEach((f, i) => {
+          if (ls.allowed[i].indexOf(f) < 0) {
+            ok = false;
+            fail(where + ': foot ' + (i + 1) + ' is ' + JSON.stringify(f) +
+              ', which this metre does not allow there (expected ' + ls.allowed[i].join(' or ') + ')');
           }
         });
       }
-    }
+    });
 
-    // 5. and the prose has to match the pattern where it makes a checkable
-    //    claim. Only one claim is checked, because it is the one that went
-    //    wrong: an example that talks about the spondaic fifth foot has to BE
-    //    one. (v1.15.0 shipped with a note about the spondeiazon sitting under
-    //    a line whose fifth foot is an ordinary dactyl; the user caught it.)
+    // 5. the one prose claim that is mechanically checkable: an example that
+    //    talks about the spondaic fifth foot has to BE one. (v1.15.0 shipped
+    //    with that note sitting under a line whose fifth foot is an ordinary
+    //    dactyl; the user caught it, and this is so it cannot happen again.)
     const prose = (ex.notes || []).join(' ') + ' ' + (ex.gloss || '');
-    if (/spondeiazon|spondaic fifth foot|quinto piede spondaico/i.test(prose)) {
-      const got = footsOf(ex.pattern);
+    if (patterns && /spondeiazon|spondaic fifth foot|quinto piede spondaico/i.test(prose)) {
+      const got = footsOf(patterns[0]);
       if (got[4] !== '– –') {
+        ok = false;
         fail(label + ': the note claims a spondaic fifth foot, but the pattern has ' + JSON.stringify(got[4]));
       }
     }
 
-    if (!bad) console.log('OK   ' + label);
+    if (ok) console.log('OK   ' + label + (marked.length > 1 ? '  (' + marked.length + ' lines)' : '') +
+      (patterns ? '' : '  (shown without a foot analysis)'));
   }
 }
 

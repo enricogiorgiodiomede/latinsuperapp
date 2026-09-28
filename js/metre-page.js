@@ -133,11 +133,17 @@
     var sLab = document.createElement('span');
     sLab.className = 'ms-label';
     sLab.textContent = I18n.t('metre.scheme');
-    var sVal = document.createElement('span');
-    sVal.className = 'ms-value';
-    sVal.textContent = m.scheme;
     schemeBox.appendChild(sLab);
-    schemeBox.appendChild(sVal);
+    // An array when the metre's unit is more than one line: an elegiac couplet
+    // is a hexameter and a pentameter, and its scheme has to be shown as two.
+    var lines = [].concat(m.scheme);
+    if (lines.length > 1) schemeBox.className += ' is-stacked';
+    lines.forEach(function (line) {
+      var sVal = document.createElement('span');
+      sVal.className = 'ms-value';
+      sVal.textContent = line;
+      schemeBox.appendChild(sVal);
+    });
     root.appendChild(schemeBox);
     if (m.schemeNote) root.appendChild(para(m.schemeNote, 'metre-scheme-note'));
 
@@ -210,15 +216,27 @@
 
     if (ex.gloss) box.appendChild(para(ex.gloss, 'me-gloss'));
 
-    var verse = document.createElement('p');
-    verse.className = 'me-verse';
-    verse.textContent = ex.marked;
-    box.appendChild(verse);
-
-    var pat = document.createElement('p');
-    pat.className = 'me-pattern';
-    pat.textContent = ex.pattern;
-    box.appendChild(pat);
+    // `marked` and `pattern` are a single line, or an ARRAY of lines when the
+    // metre's unit is more than one verse - an elegiac couplet is a hexameter
+    // and a pentameter together and makes no sense shown singly. `pattern` may
+    // also be absent: the Saturnian and the Roman trochaic septenarius are
+    // shown with their break marked and no foot-by-foot analysis, because one
+    // is not agreed and the other is not unique. See the notes on those pages.
+    var marked = [].concat(ex.marked);
+    var pattern = ex.pattern == null ? [] : [].concat(ex.pattern);
+    marked.forEach(function (line, n) {
+      var verse = document.createElement('p');
+      verse.className = 'me-verse';
+      if (marked.length > 1) verse.className += ' me-verse-' + (n + 1);
+      verse.textContent = line;
+      box.appendChild(verse);
+      if (pattern[n]) {
+        var pat = document.createElement('p');
+        pat.className = 'me-pattern';
+        pat.textContent = pattern[n];
+        box.appendChild(pat);
+      }
+    });
 
     (ex.notes || []).forEach(function (t) { box.appendChild(para(t, 'me-note')); });
     return box;

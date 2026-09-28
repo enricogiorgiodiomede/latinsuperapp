@@ -88,9 +88,9 @@
         text, so a reader can tell at a glance which names lead somewhere.
    * ================================================================== */
   var STUBS = {
-    'saturnian': 'Saturnian',
-    'trochaic-septenarius': 'Trochaic Septenarius',
-    'elegiac-couplets': 'Elegiac Couplets'
+    // Empty since v1.15.1: every metre named on an excerpt now has a page.
+    // A metre goes in here when it is named on an excerpt before its page is
+    // written, so that the tablet can show it as plain text in the meantime.
   };
 
   /* ==================================================================
@@ -292,6 +292,221 @@
       ],
 
       after: 'The later Latin hendecasyllabists - Martial above all, then Statius and the younger Pliny - are not yet in this app. Their examples will be added here when they are.'
+    },
+
+    'saturnian': {
+      name: 'Saturnian',
+      tagline: 'Rome\'s own verse, from before the Greek metres arrived - and the one nobody has managed to explain.',
+      scheme: '× × × × × × × ‖ × × × × × ×',
+      schemeNote: 'Seven syllables, a break, then six: that is the shape of the classic line. The anceps marks are honest rather than lazy - which of those syllables are long is exactly what is in dispute.',
+
+      origin: [
+        'The Romans called it the *Saturnius numerus*, the verse of Saturn: the measure of the golden age, from before anybody had heard of Greece. Whether or not that is history, it tells you how they thought of it - as theirs, and as old.',
+        '**It is the metre of the first two works of Latin literature.** Livius Andronicus used it around 240 BC for the *Odusia*, his translation of the Odyssey, and Naevius used it for the *Bellum Poenicum*, the first Roman national epic. Both poets are in this app, and both examples below are theirs.',
+        '**It was not only a literary metre.** The oldest substantial Latin inscriptions are in it: the epitaphs of the Scipios, cut into the stone of the family tomb on the Via Appia, and a number of dedications and triumphal notices. So this was the verse a Roman would meet on a monument, not only in a book - which is worth remembering when you read the Naevius epitaph below.',
+        '**Where it came from, nobody knows.** Either it is genuinely inherited, an Italic verse form with a distant common ancestor somewhere behind it and the Greek metres, or it was borrowed early and reshaped beyond recognition. There is no external evidence either way, and the argument has run for two hundred years.',
+        '**How it died is much clearer.** Ennius wrote the *Annales* in Greek hexameters around 180 BC and made a programme of it, dismissing his predecessors\' verse as the stuff of *Fauni vatesque*, fauns and soothsayers. It worked. Within a generation the Saturnian was archaic; within two it was extinct as a literary metre, and no Latin poet ever went back to it.',
+        '**About a hundred and thirty lines survive**, most of them quoted by late grammarians who were interested in a word rather than in the verse, and many of them textually damaged. That is the root of everything on this page: the corpus is too small and too battered to settle an argument with.'
+      ],
+
+      build: [
+        '**Start with what is agreed, because it is not much.** The line falls into two parts with a break between them; word-end always coincides with that break; and the classic shape is seven syllables and then six. Both examples below are exactly 7 and 6.',
+        '**After that the field divides.** The *quantitative* school treats it as a metre like the Greek ones, built on syllable length, and writes it as a schema of longs and ancipitia. The difficulty is that the surviving lines will not all fit whatever schema is proposed, and the theory has to emend the text to rescue itself - which is circular.',
+        '**The accentual school treats it as a verse of beats**, three in the first colon and two in the second, of the kind familiar from Germanic alliterative verse and from later popular Latin. The difficulty there is that the Latin word accent of the third century BC is itself reconstructed, so the theory is testing one uncertainty against another.',
+        '**A third position says it is a syllable-counting verse** with a fixed break and some constraint on how each half ends, and that this is simply all that can be recovered. That is the position this page takes, not out of conviction but because it is the only one that does not require asserting something disputed.',
+        '**What can be observed without taking a side** is worth having. The break is real and always falls at a word end. Alliteration is extremely heavy and looks structural rather than decorative - it binds the two halves to each other. And the halves are very often syntactically parallel, so the sense divides where the line divides.',
+        '**Which is why the examples below carry no foot-by-foot scansion.** Everywhere else in this reference the scansion is marked on the verse; here it would mean picking a theory and presenting it as fact. The break is marked, the syllables are counted, and that is as far as the evidence goes.'
+      ],
+
+      sound: [
+        '**You can hear the shape without resolving the argument.** Two blocks, roughly equal, with a pause between them. It does not flow the way a hexameter flows; it comes in pairs, and the second half answers the first.',
+        '**The alliteration does a great deal of the work.** In a metre whose rules are loose, sound-patterning is what tells the ear that this is verse: *immortales mortales*, *fas flere*, *flerent*. Read the Naevius epitaph aloud and the f-sounds hold the whole thing together.',
+        '**The effect is closer to a proverb or a legal formula than to epic.** That is entirely consistent with where the metre is actually found - on tombs, on dedications, in the solemn public register - and it is part of why it could not survive contact with the hexameter, which can run on for a paragraph.',
+        '**To a Roman of Cicero\'s day it sounded antique and countrified**, the way a Latin reader of the first century BC found everything before Ennius quaint. That judgement has stuck, and it is worth resisting a little: these are the first two poems in Latin, and the second of them is an epic about a war its author had fought in.'
+      ],
+
+      usedIntro: [
+        'Two epics, the *Odusia* and the *Bellum Poenicum*; the epitaphs of the Scipios; dedications and triumphal inscriptions. That is essentially the whole list.',
+        'Both surviving poets are in this app, so both examples are genuine Saturnians rather than reconstructions - shown, as explained above, with the break marked and nothing else.'
+      ],
+
+      examples: [
+        {
+          author: 'Livius Andronicus',
+          slug: 'livius-andronicus', era: 'archaic',
+          where: 'Odusia, fr. I.1',
+          gloss: 'The first line of Latin literature',
+          plain: 'Virum mihi, Camena, insece versutum.',
+          source: 'bank',
+          marked: 'Virum mihi, Camena, ‖ insece versutum.',
+          pattern: '7 ‖ 6',
+          notes: [
+            '**This is where Latin literature begins**, as far as we can see it: the opening of the Odyssey, put into Latin for a Roman audience around 240 BC by a man who had probably arrived in Rome as a prisoner of war.',
+            '**Look at what he does with Homer\'s first line.** The Muse becomes *Camena*, an Italian spring-goddess. He is not translating the divinity, he is replacing it with a local one - which is exactly the same decision as writing the poem in the native metre instead of the Greek one. The Latin and the Greek forms are made to match each other at every level except the surface.',
+            '**And then one word pulls the other way.** *Insece*, "tell", is an archaic imperative and it is cognate with the Greek *ennepe* that opens Homer\'s line. So the sentence is Roman in its metre and its gods and Greek in its bones, which is a fair description of the whole of early Latin literature.',
+            '**The shape: seven syllables, the break at the comma, six.** No quantities are marked here, for the reason given above.'
+          ]
+        },
+        {
+          author: 'Gnaeus Naevius',
+          slug: 'gnaeus-naevius', era: 'archaic',
+          where: 'Epitaphium, fr. 67, v. 1',
+          gloss: 'The epitaph he is said to have written for himself',
+          plain: 'immortales mortales si foret fas flere,',
+          source: 'bank',
+          marked: 'immortales mortales ‖ si foret fas flere,',
+          pattern: '7 ‖ 6',
+          notes: [
+            '**The same shape again, 7 and 6**, from the other surviving Saturnian poet - and this one is a self-composed epitaph, the metre used for the purpose it was used for on real tombstones.',
+            '**The first half is one word said twice.** *Immortales mortales*: the same stem, once with the negative prefix and once without, immortals and mortals set side by side with nothing between them. It is the whole thought of the poem compressed into the first colon, and it works because the metre gives that colon a hard edge.',
+            '**The second half turns to alliteration**, *si foret fas flere*, and the f-sound carries straight over into the line that follows, *flerent divae Camenae*. In a verse form with loose rules, this is the binding: the ear is held by sound-patterning where a Greek metre would hold it by quantity.',
+            'The boast underneath is not small. If it were right for immortals to weep for mortals, says Naevius, the divine Camenae would weep for him - and once he had been handed over to the treasury of Orcus, Rome forgot how to speak Latin.'
+          ]
+        }
+      ],
+
+      after: 'Nothing later is written in it. The Saturnian is the one Latin metre with no afterlife at all: it was not developed, it was replaced, and what replaced it is the dactylic hexameter.'
+    },
+
+    'elegiac-couplets': {
+      name: 'Elegiac Couplets',
+      tagline: 'A hexameter, and then a shorter line that falls away underneath it. The metre of the epigram, of the epitaph, and of Roman love poetry.',
+      scheme: [
+        '– ⏑ ⏑ | – ⏑ ⏑ | – ⏑ ⏑ | – ⏑ ⏑ | – ⏑ ⏑ | – ×',
+        '– ⏑ ⏑ | – ⏑ ⏑ | – ‖ – ⏑ ⏑ | – ⏑ ⏑ | –'
+      ],
+      schemeNote: 'The first line is an ordinary hexameter, so any of its first four feet may be a spondee. In the second line only the first half may contract: after the break the two dactyls are fixed, and every couplet in classical Latin therefore ends on the same rhythm.',
+
+      origin: [
+        '**The name comes from the Greek word** *elegos*, whose original meaning is lost and which was associated early with lament and with the flute. That association has stuck: "elegy" in English still means a poem of mourning. In Greek and Latin it means a poem in this metre, and the subject can be anything at all.',
+        '**It is very old and it was never only for grief.** The seventh-century Greek elegists - Archilochus, Mimnermus, Tyrtaeus, Solon - use the couplet for war songs, political argument, drinking poems and advice. Lament is one use among many.',
+        '**Its other native home is the inscription.** The couplet is the standard metre of the Greek and then the Latin verse epitaph, short enough to cut into stone and closed enough to sound final. That is directly relevant to the example below: Catullus 101 is a poem written in the shape of a grave inscription and spoken at a grave.',
+        '**In Latin it arrives with the epigram and then takes over a genre.** Catullus uses it for everything from poem 65 onwards, including the epigrams and the longer letters; and then Cornelius Gallus, Tibullus, Propertius and Ovid build Roman love elegy on it, a body of poetry with no real Greek equivalent. None of those four is in this app yet.',
+        '**Ovid tells the best story about the shape.** At the start of the *Amores* he says he was setting out to write epic in hexameters, and Cupid stole one foot from every second line - so the poem came out in elegiacs and turned into love poetry against his will. It is a joke about metre, and it explains the couplet better than a diagram: the second line is the first line with something taken out of it.'
+      ],
+
+      build: [
+        '**This is not one metre but a pair, and the pair is the unit.** A single hexameter is a line of epic; a hexameter followed by a pentameter is a couplet of elegy. You do not meet either half on its own.',
+        '**The first line is an ordinary dactylic hexameter**, with all the freedom that implies: four feet that may be dactyls or spondees, a fifth that is almost always a dactyl, a two-syllable close.',
+        '**The second line is badly named.** "Pentameter" suggests five feet of something, and it is not that. It is two half-lines, each of two and a half feet: – ⏑ ⏑ – ⏑ ⏑ –, then a break, then – ⏑ ⏑ – ⏑ ⏑ – again. Count the feet and you get six halves that add up to five; hence the name, which has misled students for two thousand years.',
+        '**The break in the middle is obligatory and always falls at a word end.** That is the single most audible thing about the line: it really does come in two pieces, and a poet can use the gap to set one half against the other.',
+        '**And now the rule that matters most.** In the first half the two dactyls may contract into spondees, exactly as in the hexameter. **In the second half they never may.** After the break, every pentameter in classical Latin runs – ⏑ ⏑ – ⏑ ⏑ –, without exception. There is no other position in Latin metre that is fixed so hard.',
+        '**The last element is a single long, not a foot.** The line simply stops. From Ovid onwards it is normal to end the pentameter on a word of two syllables, which makes the close even more uniform; Catullus has not adopted that habit yet, and you can hear the difference.',
+        'Elision works as it does everywhere in Latin verse, and in a form this compressed it is very audible: there are two elisions in the four lines quoted below.'
+      ],
+
+      sound: [
+        '**The hexameter opens and the pentameter closes.** That is the whole rhythm of the form, repeated for as long as the poem lasts. The first line runs out to its full length; the second is shorter, breaks in the middle, and stops. The traditional description is that the second line "falls away", and that is exactly what it does.',
+        '**Because the second half of every pentameter is identical**, the same six-syllable cadence arrives at the end of every couplet. Over a long poem this becomes hypnotic - and over a short one it becomes a snap. It is the reason the couplet took over the epigram: you cannot write a two-line joke in a metre that does not close.',
+        '**The unit being two lines makes the form argumentative.** Statement, then turn; claim, then undercut; image, then comment. Latin epigram is built on that shape, and so is a great deal of love elegy, where the pentameter is where the complaint or the joke lands.',
+        '**Enjambment across the couplet boundary is rare enough to be an effect.** In a hexameter poem the sentence runs over the line-end constantly; here it usually does not, so when a poet lets a sentence spill into the next couplet you are meant to feel it.'
+      ],
+
+      usedIntro: [
+        'Epigram and inscription first; then, in Latin, an entire genre - the love elegy of Gallus, Tibullus, Propertius and Ovid, and after that Ovid\'s exile poetry, his calendar and his letters. It becomes the ordinary metre for anything that is not epic and not lyric.',
+        'One poem in this app is in elegiacs, and it could hardly be a better one: Catullus 101, written in the metre of the epitaph, for a grave he had travelled across the world to reach.'
+      ],
+
+      examples: [
+        {
+          author: 'Gaius Valerius Catullus',
+          slug: 'gaius-valerius-catullus', era: 'caesar',
+          where: 'Carmen 101, vv. 1-2',
+          gloss: 'The opening couplet: a hexameter that travels, a pentameter that arrives',
+          plain: [
+            'Multas per gentes et multa per aequora vectus',
+            'advenio has miseras, frater, ad inferias,'
+          ],
+          source: 'bank',
+          marked: [
+            'Mūltās | pēr gēn|tēs ‖ ēt | mūltă pĕr | aequŏră | vēctŭs',
+            'ādvĕnĭ(o) | hās mĭsĕ|rās, ‖ frātĕr, ăd | īnfĕrĭ|ās,'
+          ],
+          pattern: [
+            '– – | – – | – ‖ – | – ⏑ ⏑ | – ⏑ ⏑ | – ×',
+            '– ⏑ ⏑ | – ⏑ ⏑ | – ‖ – ⏑ ⏑ | – ⏑ ⏑ | –'
+          ],
+          notes: [
+            '**The couplet does in two lines what the poem does in ten.** The hexameter is all movement - *multas per gentes et multa per aequora*, through many nations and over many seas - and it opens on three spondees, which makes the journey heavy and slow rather than swift. Then the pentameter arrives: *advenio*, I come, first word, and the travelling stops.',
+            '**Watch the second line break in the middle.** *Advenio has miseras* ‖ *frater, ad inferias*: the first half is the arrival, the second half is what he has arrived for, and the word *frater* is placed at the head of the second half where the break throws all the weight onto it. The metre is doing the grief.',
+            '**And the second half is the fixed one.** – ⏑ ⏑ – ⏑ ⏑ –, as in every classical pentameter, with no substitution possible; the first half of the same line has taken its dactyls straight but could have contracted them. The couplet ends on the one rhythm the form never varies, which is why it lands so finally.',
+            '**One elision to note**, and it is at the very start: *advenio has* is written as five syllables and read as four, the final *-o* disappearing before the *h*. Print it as *ādvĕnĭ(o)* and the first foot comes out as a clean dactyl.',
+            'The poem closes on another couplet everybody knows, ending *atque in perpetuum, frater, ave atque vale* - and that last line is a pentameter too, with the same fixed cadence arriving for the last time.'
+          ]
+        }
+      ],
+
+      after: 'The Roman elegists who made this metre their own - Gallus, Tibullus, Propertius and Ovid - are not in this app yet. When they are added, their examples will be added here.'
+    },
+
+    'trochaic-septenarius': {
+      name: 'Trochaic Septenarius',
+      tagline: 'Seven and a half trochees: the long, swinging, driving line of Roman comedy, and of Lucilius before he settled on the hexameter.',
+      scheme: '– ⏓ | – ⏓ | – ⏓ | – ⏓ ‖ – ⏓ | – ⏓ | – ⏓ | –',
+      schemeNote: 'Seven complete feet and one syllable, which is what "septenarius" counts. Almost every long may be resolved into two shorts and almost every anceps filled by two, so a line with fifteen positions can carry twenty syllables. The break after the fourth foot is usual, not compulsory.',
+
+      origin: [
+        '**It is Greek, and it is fast.** The trochaic tetrameter catalectic - four pairs of feet with the last syllable missing - is one of the oldest Greek metres, used by Archilochus in the seventh century BC and taken into tragedy for scenes of excitement and argument. Aristotle says it was the original metre of tragic dialogue before the iambic took over, because it is closer to dancing.',
+        '**In Latin it becomes one of the two staple metres of comedy.** Plautus and Terence build their plays out of the iambic senarius and this: the senarius is spoken, and the septenarius is *recitative*, delivered to the accompaniment of a piper. A scene that changes metre is a scene that changes mode of performance, which is why the metre shifts in the middle of a conversation.',
+        '**Lucilius wrote his earliest satires in it.** Books 26 to 29, the first he published, use the older measures - this one and the iambic senarius - and only from Book 30 onwards does he write the hexameters that satire kept afterwards. Both stages are in this app, which makes Lucilius the one author here who shows the change happening.',
+        '**It outlives the literature that used it.** The soldiers\' songs at Caesar\'s triumph were in trochaic septenarii, and the form survives into popular and then Christian Latin: the medieval hymn *Pange lingua gloriosi* is a trochaic tetrameter catalectic built on stress instead of quantity. It is the one classical metre that walks straight out of antiquity into the Middle Ages.'
+      ],
+
+      build: [
+        '**Eight positions of – ⏓, with the last one truncated.** That is seven complete feet plus a single syllable, which is where the name comes from: a *septenarius* counts seven.',
+        '**The falling shape is the point.** A trochee is long-then-short, so each foot begins on its beat and falls away, and the line as a whole pushes forward. An iambic line rises into its beat; a trochaic one drops out of it.',
+        '**Substitution is allowed almost everywhere, and this is what makes the metre useful.** A long may be resolved into two shorts. The anceps may be a long, a short, or two shorts. So a single foot may appear as a trochee, a spondee, a dactyl, an anapaest or a tribrach, and the fifteen metrical positions of the line can be filled by anything from fifteen syllables to well over twenty.',
+        '**There is usually a break after the fourth foot**, at the halfway point, and it usually falls at a word end. It is a strong tendency rather than a rule, and both examples below have it.',
+        '**Now the consequence, which is the honest part of this page.** With substitution available in nearly every position, a given line will often admit more than one analysis, and editors of Plautus and Terence disagree about particular lines. The metre bends to the sentence rather than the sentence to the metre - which is exactly what you want for dialogue, and exactly what makes a definitive scansion hard.',
+        '**This is also why the comic poets are not labelled in this app.** A scene of Plautus moves between the spoken senarius, this metre, and the lyric metres of the *cantica*, sometimes within a few lines; a single metre named on a whole excerpt would often be wrong. Lucilius can be labelled because his books are consistent within themselves.'
+      ],
+
+      sound: [
+        '**Long.** Fifteen positions and often twenty syllables, which is half as long again as a hexameter by syllable count. A page of septenarii looks and sounds nothing like a page of epic: the lines run right across and keep going.',
+        '**And driving, because the beat agrees with the words.** In Latin the word accent tends to fall on the same syllables the trochaic beat wants, so the rhythm is easy to hear and hard to lose - the opposite of the hexameter, where accent and metrical ictus pull against each other through the middle of the line and only agree at the end.',
+        '**Delivered to music.** In comedy this is the metre of the *recitativum*, chanted or sung over a pipe, faster and more insistent than the plain spoken senarius. When a Plautine scene lifts into septenarii it is lifting into performance.',
+        '**The nearest thing in English is the long trochaic line** of Tennyson\'s *Locksley Hall*, or of a nursery rhyme stretched out: once you have the swing of it, it carries you, and it is very hard to stop before the end of the line.'
+      ],
+
+      usedIntro: [
+        'Roman comedy above all - Plautus and Terence use it constantly, and between them they account for most of the surviving examples in Latin. Then Lucilius\' earliest satire, then marching songs, popular verse, and eventually the medieval hymn.',
+        'Only Lucilius is labelled with it in this app, for the reason given above; both examples below are from Book 26, the earliest satire we have any of.'
+      ],
+
+      examples: [
+        {
+          author: 'Gaius Lucilius',
+          slug: 'gaius-lucilius', era: 'archaic',
+          where: 'Saturae, Book 26, on his readers',
+          gloss: 'Who he wants reading him, and who he does not',
+          plain: 'Manium Persium haec legere nolo, Iunium Congum volo.',
+          source: 'bank',
+          marked: 'Manium Persium haec legere nolo, ‖ Iunium Congum volo.',
+          notes: [
+            '**The most quoted sentence in Roman satire about its own audience.** Lucilius does not want to be read by Manius Persius, who was famously learned, and does want to be read by Iunius Congus, who was not. He is pitching the work between the expert and the ignorant, and every satirist after him repeats the gesture.',
+            '**The line is built as a mirror, and the metrical break falls exactly on the hinge.** Two accusative names and a verb, then two accusative names and a verb; *nolo* at the end of the first half, *volo* at the end of the second. The break after the fourth foot lands at the comma, so the metre divides where the sense divides.',
+            '**The second half falls straight onto the schema.** *Iunium Congum volo* is seven syllables for seven positions, with no resolution at all, and it comes out – ⏑ – – – ⏑ –, which is the bare – ⏓ – ⏓ – ⏓ – of the second half. Worth noticing why: the *-um* of *Iunium* and of *Congum* are both long, not because the vowels are long but because each is closed by its *m* before the consonant that follows.',
+            '**The first half is where it gets interesting.** *Persium haec* elides, leaving eleven syllables to fill eight positions - three resolutions - and more than one distribution of them will scan. **This page does not print a foot-by-foot analysis of it**, because there is not one answer to print. That is the metre behaving normally, and it is the reason Plautus and Terence carry no metre label in this app.'
+          ]
+        },
+        {
+          author: 'Gaius Lucilius',
+          slug: 'gaius-lucilius', era: 'archaic',
+          where: 'Saturae, Book 26, v. 1',
+          gloss: 'Refusing a career, in a line full of administrative Latin',
+          plain: 'publicanus vero ut Asiae fiam, ut scripturarius,',
+          source: 'bank',
+          marked: 'publicanus vero ut Asiae fiam, ‖ ut scripturarius,',
+          notes: [
+            '**What he is refusing is a fortune.** A *publicanus* farmed the taxes of a province, and the Asian contract was the richest in the Roman world; a *scripturarius* collected the dues on public pasture. Lucilius was rich already and did not need it, and the point of the sentence - which runs on into the next line - is that he would not swap his independence for any of it.',
+            '**Two elisions in one line**, *vero ut* and *fiam ut*, and they are what makes the syllable count hard to fix at a glance. This is the ordinary condition of Roman dramatic and satiric verse: the written line and the spoken line are different lengths, and you have to hear it before you can scan it.',
+            '**Listen to the vocabulary.** *Publicanus*, *scripturarius* - flat administrative nouns, one of them five syllables long and sitting at the end of the line. A hexameter could not take them; this metre has room. That is a large part of why early satire is written in it, and part of what Lucilius gave up when he moved to the hexameter in Book 30.',
+            'The break again falls at the comma, after *fiam*, which is the fourth-foot diaeresis doing its usual work.'
+          ]
+        }
+      ],
+
+      after: 'Plautus and Terence, who use this metre more than anyone else in Latin, are in this app but carry no metre label: a comic scene moves between the spoken senarius, the recited septenarius and the lyric metres of the cantica, sometimes within a few lines, so one label on a whole excerpt would often be wrong. When those excerpts are done they will carry a list of metres with the verses each one covers.'
     }
   };
 

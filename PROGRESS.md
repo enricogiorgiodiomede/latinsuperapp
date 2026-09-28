@@ -79,7 +79,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the **6** HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html version.html metre.html`)
-   whenever you change a JS/CSS file. **Currently `v=177`.** Bump it AFTER the last JS/CSS edit of the release, not before: in v1.15.0 the
+   whenever you change a JS/CSS file. **Currently `v=180`.** Bump it AFTER the last JS/CSS edit of the release, not before: in v1.15.0 the
    token moved first and js/changelog.js changed afterwards, so the preview browser cached a stale copy
    under the new token.
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:

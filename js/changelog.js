@@ -12,6 +12,37 @@
 
   var VERSIONS = [
     {
+      v: '1.15.1', date: '28/09/2026', time: 'TBD', tz: 'CEST',
+      en: {
+        added: [
+          'The three remaining metres now have pages of their own, so every metre named on an excerpt is a link: the Saturnian, Elegiac Couplets and the Trochaic Septenarius. All eighty labelled excerpts lead somewhere.',
+          'The Saturnian is the interesting one, and the page is honest about why. It is Rome\'s own verse, from before the Greek metres arrived - the metre of the first two works of Latin literature and of the epitaphs of the Scipios - and nobody has ever managed to explain how it works. The page sets out the two rival theories and why neither settles it, then shows Livius Andronicus and Naevius with the break marked, the syllables counted, and no foot-by-foot scansion, because printing one would mean picking a side and calling it a fact.',
+          'Elegiac Couplets: a hexameter and then a pentameter that falls away under it, shown as a pair because the pair is the unit. The page explains why \'pentameter\' is a misleading name, and the one rule that matters - the second half of every pentameter is fixed, which is why each couplet closes so finally. The example is the opening of Catullus 101, both lines scanned, and it is a poem written in the metre of the gravestone for a grave its author had crossed the world to reach.',
+          'The Trochaic Septenarius: the long swinging line of Roman comedy, and the metre Lucilius used for his earliest satires before he settled on the hexameter. Both are in the app, so Lucilius is the one author here who shows the change happening. This page too declines to print a full scansion, and says why: substitution is allowed in almost every position, so one line often permits several analyses - which is exactly why Plautus and Terence carry no metre label yet.'
+        ],
+        changed: [
+          'An example on a metre page can now be more than one line, which an elegiac couplet has to be, and can be shown with no foot-by-foot pattern at all, which the Saturnian and the septenarius are. The checker understands both, and knows the four legal shapes of an elegiac pentameter.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'I tre metri rimasti hanno ora una pagina propria, perciò ogni metro indicato su un brano è un collegamento: il Saturnio, i Distici Elegiaci e il Settenario Trocaico. Tutti e ottanta i brani etichettati portano da qualche parte.',
+          'Il Saturnio è il più interessante, e la pagina è onesta sul perché. È il verso proprio di Roma, da prima che arrivassero i metri greci - il metro delle prime due opere della letteratura latina e degli epitaffi degli Scipioni - e nessuno è mai riuscito a spiegare come funzioni. La pagina espone le due teorie rivali e perché nessuna chiuda la questione, poi mostra Livio Andronico e Nevio con la pausa segnata, le sillabe contate e nessuna scansione piede per piede, perché stamparne una significherebbe scegliere una parte e chiamarla un fatto.',
+          'Distici Elegiaci: un esametro e poi un pentametro che gli ricade sotto, mostrati come coppia perché l\'unità è la coppia. La pagina spiega perché "pentametro" sia un nome fuorviante e qual è l\'unica regola che conta davvero: la seconda metà di ogni pentametro è fissa, ed è per questo che ogni distico chiude in modo così definitivo. L\'esempio è l\'inizio del carme 101 di Catullo, con entrambi i versi scanditi: un componimento scritto nel metro delle lapidi per una tomba che il suo autore aveva attraversato il mondo per raggiungere.',
+          'Il Settenario Trocaico: il verso lungo e dondolante della commedia romana, e il metro che Lucilio usò per le sue prime satire prima di fissarsi sull\'esametro. Entrambe le fasi sono nell\'app, e Lucilio è perciò l\'unico autore qui che mostri il passaggio mentre avviene. Anche questa pagina rinuncia a stampare una scansione completa, e dice perché: la sostituzione è ammessa in quasi ogni posizione, perciò un verso ammette spesso più analisi, ed è esattamente il motivo per cui Plauto e Terenzio non portano ancora un\'etichetta metrica.'
+        ],
+        changed: [
+          'Un esempio su una pagina metrica può ora essere di più di un verso, come deve essere un distico elegiaco, e può essere mostrato senza alcuno schema piede per piede, come accade per il saturnio e per il settenario. Il controllo automatico capisce entrambi i casi e conosce le quattro forme legittime del pentametro elegiaco.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.15.0', date: '28/09/2026', time: '17:55', tz: 'CEST',
       en: {
         added: [
