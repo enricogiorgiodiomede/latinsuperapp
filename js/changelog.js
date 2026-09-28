@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.15.1', date: '28/09/2026', time: 'TBD', tz: 'CEST',
+      v: '1.15.1', date: '28/09/2026', time: '18:35', tz: 'CEST',
       en: {
         added: [
           'The three remaining metres now have pages of their own, so every metre named on an excerpt is a link: the Saturnian, Elegiac Couplets and the Trochaic Septenarius. All eighty labelled excerpts lead somewhere.',
