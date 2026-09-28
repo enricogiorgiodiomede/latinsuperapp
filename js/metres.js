@@ -166,7 +166,7 @@
             '**The same metre, doing the opposite job.** This is a man talking to a friend by name, in ordinary words, about an abstract question - and it is in the verse of the *Annales*. Satire in Latin begins by borrowing the grandest measure available and using it for dinner-table argument, and the mismatch is deliberate.',
             '**Two spondees to open**, which slows the line down into something deliberate rather than grand, and then the address *Albine* placed where an epic poet would put a proper name for weight. Lucilius gets his effects from putting plain vocabulary into the epic slots.',
             '**The elision is the thing to practise here.** *Albine est* is written as four syllables and read as three: the final *-e* disappears before *est*. Print it as *Ālbīn(e)* and the foot comes out as a clean spondee.',
-            'Lucilius only arrives at this metre in mid-career. His earliest satires, Books 26 to 30, are in trochaic septenarii, and two of those are also in this app - the same poet, before he had decided what satire sounded like.'
+            'Lucilius only arrives at this metre in mid-career. His earliest satires, Books 26 to 29, use the older measures - trochaic septenarii and iambic senarii - and he is writing hexameters from Book 30 onwards. Two of those early trochaic pieces are also in this app: the same poet, before he had decided what satire sounded like.'
           ]
         },
         {
@@ -197,10 +197,25 @@
           notes: [
             '**A Greek proper name takes up the whole first foot and part of the second.** *Peliaco* - "of Mount Pelion" - is exactly the sort of learned geographical adjective the neoterics loved, and placing it first is a signal: this is going to be an Alexandrian poem, allusive and ornamental, not a national epic.',
             '**Three spondees in the middle** make the line grave, and Catullus is doing here what Ennius did by instinct, but by choice and for effect.',
-            '**Carmen 64 is the great Latin home of the spondaic fifth foot**, the *spondeiazon*: a spondee where everyone else puts a dactyl. He uses it far more than any other Latin poet, usually under a four-syllable Greek word at the line-end, and the result is a heavy, un-Latin close that announces its Greek models. Three of the first thirty lines of the poem end that way.',
+            '**The fifth foot here, though, is an ordinary dactyl** - *vērtĭcĕ* - and the line closes the way almost every Latin hexameter closes. The trick Catullus is famous for is the opposite of that, and it is the next example.',
             '**The word order is the other half of the technique.** *Peliaco ... vertice* wraps a whole clause between an adjective and its noun, and *prognatae ... pinus* does the same again, interlocking. That is a pattern the metre encourages, because separating an adjective from its noun lets you put each one where the rhythm wants it.'
           ]
-        }
+        },
+        {
+          author: 'Gaius Valerius Catullus',
+          slug: 'gaius-valerius-catullus', era: 'caesar',
+          where: 'Carmen 64, v. 3',
+          gloss: 'The spondaic fifth foot, which is his signature',
+          plain: 'Phasidos ad fluctus et fines Aeetaeos,',
+          source: 'bank',
+          marked: 'Phāsĭdŏs | ād flūc|tūs ‖ ēt | fīnēs | Aeē|taeōs,',
+          pattern: '– ⏑ ⏑ | – – | – ‖ – | – – | – – | – ×',
+          notes: [
+            '**Look at the fifth foot: two longs, where the metre wants a dactyl.** This is the *spondeiazon*, and it is the single most recognisable thing about Catullus\' hexameter. Everybody else keeps the fifth foot dactylic, because that running – ⏑ ⏑ – × is what makes the end of a line sound like a hexameter at all. Put a spondee there and the run is taken out of it: the verse lands heavily, and you notice.',
+            '**It is not something the words did to him; it is chosen.** The line ends on *Aeetaeos*, a four-syllable Greek proper name, and that is the usual recipe - reach for a Greek word long enough to fill the last two feet, so that the un-Latin rhythm and the un-Latin vocabulary arrive together. Of the seven verses of this poem the app carries, this is the one that does it.',
+            '**And everything before it is heavy too.** Feet two, three and four are all spondees, so by the time the fifth arrives the ear has not had a dactyl since the first foot: six syllables of the line are short and the other seven are long. Catullus uses this close freely in Carmen 64 and far more often than any other Latin poet; Virgil, by comparison, allows himself it only a handful of times in the whole *Aeneid*.'
+          ]
+        },
       ],
 
       after: 'The metre does not stop with these four. It goes on to the *Aeneid*, to Horace\'s Satires and Epistles, to Ovid\'s *Metamorphoses* and to every later Latin epic - and out of Latin into English, where Longfellow\'s *Evangeline* and Clough\'s *Bothie* are attempts at the same six feet. Those poets are not in this app yet. When they are added, their examples will be added here.'
@@ -255,7 +270,7 @@
           notes: [
             '**The textbook shape of the line**: spondee, dactyl, trochee, trochee, and a two-syllable close. If you learn one hendecasyllable by heart, learn this one.',
             '**The first word is a trap.** *Cui* looks like two syllables and is one: the *u* and the *i* run together into a single long syllable, which is *synizesis*. Count it as two and the line has twelve syllables and does not scan.',
-            '**Three diminutives in eleven syllables** - *lepidum*, *novum*, *libellum*, and the last of those is "little book" rather than "book". The metre and the vocabulary are doing the same thing: making the poem sound slight, on purpose, in a dedication that is actually a manifesto.',
+            '**Three light words in eleven syllables** - *lepidum*, *novum*, *libellum* - and the last of them is a diminutive: not a book but a little book. The metre and the vocabulary are doing the same thing, making the poem sound slight on purpose, in a dedication that is actually a manifesto.',
             'Notice how the line runs straight through without a break. There is nowhere in it where the voice naturally stops, which is what the absence of a caesura means in practice.'
           ]
         },

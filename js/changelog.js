@@ -21,7 +21,8 @@
           'Eighty excerpts carry a metre so far, seventy-one of them linked. Only excerpts whose metre is certain and single are labelled: a scene of Plautus can change metre partway through, so the playwrights are left for later, when they will get a list of metres with the verses each one covers.'
         ],
         changed: [
-          'Nothing about the excerpts themselves changed. No Latin was touched, no translation and no analysis: this update only adds the labels and the pages they point to.'
+          'Nothing about the excerpts themselves changed. No Latin was touched, no translation and no analysis: this update only adds the labels and the pages they point to.',
+          'Corrected after a first read-through: the metre tablet now lines up exactly with the papyrus above it, the Dactylic Hexameter page gained a fifth example - Catullus 64, verse 3 - because the note about his spondaic fifth foot was sitting under a line that does not have one, and two smaller slips are fixed (lepidum and novum are not diminutives, only libellum is; and Lucilius writes his early satires in the older metres up to Book 29, not Book 30). The checker now tests this kind of claim against the scansion, so it cannot drift again.'
         ],
         deleted: [
           'Nothing was deleted.'
@@ -35,7 +36,8 @@
           'Finora ottanta brani portano un metro, settantuno dei quali con collegamento. Vengono etichettati solo i brani il cui metro è certo e unico: una scena di Plauto può cambiare metro a metà, perciò i commediografi restano per dopo, quando avranno un elenco di metri con i versi coperti da ciascuno.'
         ],
         changed: [
-          'Nulla è cambiato nei brani stessi. Non è stato toccato nessun testo latino, nessuna traduzione e nessuna analisi: questo aggiornamento aggiunge soltanto le etichette e le pagine a cui rimandano.'
+          'Nulla è cambiato nei brani stessi. Non è stato toccato nessun testo latino, nessuna traduzione e nessuna analisi: questo aggiornamento aggiunge soltanto le etichette e le pagine a cui rimandano.',
+          'Corretto dopo una prima lettura: la targhetta del metro si allinea ora esattamente con il papiro che le sta sopra, la pagina dell\'Esametro Dattilico ha guadagnato un quinto esempio - Catullo 64, verso 3 - perché la nota sul suo quinto piede spondaico stava sotto un verso che non ne ha uno, e sono corrette due sviste minori (lepidum e novum non sono diminutivi, lo è solo libellum; e Lucilio scrive le satire giovanili nei metri più antichi fino al libro 29, non fino al 30). Il controllo automatico verifica ora questo tipo di affermazione contro la scansione, così non può più scivolare.'
         ],
         deleted: [
           'Non è stato eliminato nulla.'

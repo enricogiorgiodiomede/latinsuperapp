@@ -176,6 +176,33 @@ the 108px VIP banner. Cache-bust: `?v=172` -> `?v=174`, now across **six** pages
 was bumped before js/changelog.js was edited, so a browser that loaded 173 in between cached the old
 changelog. Bump the token AFTER the last JS/CSS edit, not before.)
 
+### Follow-up, 2026-09-28: the tablet aligned, and two errors of fact
+
+Same version, no new metre pages.
+
+- **The tablet now lines up with the papyrus.** Its right edge sits exactly on the papyrus's right edge,
+  directly below it. The badge clearance moved off the whole title row and back onto the `h2` alone, so
+  that only the title has to stop short of the badge while the tablet, which sits lower on the same row,
+  runs out to meet it; a -6px margin covers the gap between the card's content box and the badge's own
+  right edge. **Not applied in the VIP case**: that banner is 108px tall and the tablet would end up inside
+  it, so there it still stops short. Also fixed a `margin-left: auto` that a later `margin` shorthand on the
+  same selector was resetting, which had stopped the tablet right-aligning when it wraps onto its own line.
+- **The Catullus hexameter example claimed the spondaic fifth foot under a line that has a dactyl there**
+  (the user). The claim has moved to a new example, **Carmen 64, v. 3** - *Phasidos ad fluctus et fines
+  Aeetaeos* - which really is a *spondeiazon*, and the note on v. 1 now says plainly that its own fifth foot
+  is an ordinary dactyl.
+- **Two more errors of fact, found by auditing every claim on both pages** after that one: *lepidum* and
+  *novum* are not diminutives (only *libellum* is), and Lucilius' early books are **26 to 29**, since Book
+  30 is already in hexameters.
+- **`tools/check_metre_quotes.js` now catches this class of error.** It validates each pattern against the
+  metre's own rules foot by foot, and cross-checks the one prose claim that is mechanically checkable: an
+  example whose note mentions the *spondeiazon* must have a spondee in the fifth foot. Re-introducing the
+  original bug makes it fail, which is how it was tested.
+
+**7 quoted verses checked, 0 failed**; `check_metres` **80 labelled, 0 failed**; **392 verbatim, 0
+mismatched**; `lint_markdown` **0 leaking**. Measured in the browser at 1100px and at 375px, with the
+papyrus badge and with the VIP banner. Cache-bust: `?v=174` -> `?v=177`.
+
 ## [1.14.10] - 2026-09-27
 
 **LUCRETIUS IS FINISHED (+5): THE PLAGUE OF ATHENS.** The last five excerpts of `drn-vi`, and the end of

@@ -88,6 +88,22 @@ function cachedLines(page) {
   );
 }
 
+// Split a pattern line into its feet, dropping the caesura mark, which sits
+// inside a foot and says nothing about its shape.
+function footsOf(pattern) {
+  return pattern.split('|').map(f => f.replace(/‖/g, '').replace(/\s+/g, ' ').trim());
+}
+
+const D = '– ⏑ ⏑', S = '– –', TR = '– ⏑', CLOSE = ['– ×', '– –', '– ⏑'];
+const SHAPE = {
+  // six feet: the first five a dactyl or a spondee, the last always two
+  // syllables. (The fifth is only CONVENTIONALLY a dactyl - a spondee there is
+  // the spondeiazon, which Catullus uses on purpose - so it is allowed here.)
+  'dactylic-hexameter': { feet: 6, allowed: [[D, S], [D, S], [D, S], [D, S], [D, S], CLOSE] },
+  // fixed shape, eleven syllables, nothing substitutable except the base.
+  'phalaecian-hendecasyllable': { feet: 5, allowed: [['× ×', S, TR, '⏑ –'], [D], [TR], [TR], CLOSE] }
+};
+
 let checked = 0, bad = 0;
 const fail = (msg) => { bad++; console.log('FAIL ' + msg); };
 
@@ -125,6 +141,36 @@ for (const id of Object.keys(PAGES)) {
     const feet = (ex.pattern.match(/\|/g) || []).length;
     if (bars !== feet) {
       fail(label + ': ' + (bars + 1) + ' feet marked on the verse but ' + (feet + 1) + ' in the pattern');
+    }
+
+    // 4. the pattern has to be a legal line of THIS metre. Cheap, exact, and it
+    //    catches a mistyped foot that reads plausibly.
+    const shape = SHAPE[id];
+    if (shape) {
+      const got = footsOf(ex.pattern);
+      if (got.length !== shape.feet) {
+        fail(label + ': ' + got.length + ' feet in the pattern, ' + shape.feet + ' expected for this metre');
+      } else {
+        got.forEach((f, n) => {
+          if (shape.allowed[n].indexOf(f) < 0) {
+            fail(label + ': foot ' + (n + 1) + ' is ' + JSON.stringify(f) +
+              ', which this metre does not allow there (expected ' + shape.allowed[n].join(' or ') + ')');
+          }
+        });
+      }
+    }
+
+    // 5. and the prose has to match the pattern where it makes a checkable
+    //    claim. Only one claim is checked, because it is the one that went
+    //    wrong: an example that talks about the spondaic fifth foot has to BE
+    //    one. (v1.15.0 shipped with a note about the spondeiazon sitting under
+    //    a line whose fifth foot is an ordinary dactyl; the user caught it.)
+    const prose = (ex.notes || []).join(' ') + ' ' + (ex.gloss || '');
+    if (/spondeiazon|spondaic fifth foot|quinto piede spondaico/i.test(prose)) {
+      const got = footsOf(ex.pattern);
+      if (got[4] !== '– –') {
+        fail(label + ': the note claims a spondaic fifth foot, but the pattern has ' + JSON.stringify(got[4]));
+      }
     }
 
     if (!bad) console.log('OK   ' + label);

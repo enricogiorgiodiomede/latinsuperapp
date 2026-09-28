@@ -76,7 +76,7 @@
             '**Lo stesso metro, con il compito opposto.** Qui c\'è un uomo che parla a un amico chiamandolo per nome, con parole ordinarie, di una questione astratta: e lo fa nel verso degli *Annales*. La satira latina comincia prendendo in prestito la misura più solenne disponibile e usandola per una discussione a tavola, e la sproporzione è voluta.',
             '**Due spondei in apertura**, che rallentano il verso in qualcosa di ponderato invece che di grandioso, e poi l\'apostrofe *Albine* messa dove un poeta epico metterebbe un nome proprio per dargli peso. Lucilio ottiene i suoi effetti mettendo un lessico dimesso nelle caselle dell\'epica.',
             '**L\'elisione è la cosa da esercitare qui.** *Albine est* si scrive come quattro sillabe e si legge come tre: la *-e* finale sparisce davanti a *est*. Si stampi *Ālbīn(e)* e il piede viene fuori come uno spondeo pulito.',
-            'Lucilio arriva a questo metro solo a metà carriera. Le sue satire più antiche, i libri dal 26 al 30, sono in settenari trocaici, e due di quelle sono anch\'esse in questa app: lo stesso poeta, prima di avere deciso come dovesse suonare la satira.'
+            'Lucilio arriva a questo metro solo a metà carriera. Le sue satire più antiche, i libri dal 26 al 29, usano le misure più vecchie - settenari trocaici e senari giambici - e dal libro 30 in poi scrive esametri. Due di quei pezzi trocaici giovanili sono anch\'essi in questa app: lo stesso poeta, prima di avere deciso come dovesse suonare la satira.'
           ]
         },
         {
@@ -95,10 +95,19 @@
           notes: [
             '**Un nome proprio greco occupa tutto il primo piede e parte del secondo.** *Peliaco*, "del monte Pelio", è esattamente il tipo di aggettivo geografico dotto che i neoterici amavano, e metterlo per primo è un segnale: sarà un poema alessandrino, allusivo e ornamentale, non un\'epica nazionale.',
             '**Tre spondei al centro** rendono grave il verso, e Catullo fa qui ciò che Ennio faceva per istinto, ma per scelta e a fini di effetto.',
-            '**Il carme 64 è la grande sede latina del quinto piede spondaico**, lo *spondeiazon*: uno spondeo dove tutti gli altri mettono un dattilo. Lo usa molto più di qualunque altro poeta latino, di solito sotto una parola greca di quattro sillabe a fine verso, e il risultato è una chiusa pesante e poco latina che dichiara i propri modelli greci. Tre dei primi trenta versi del poema finiscono così.',
+            '**Qui, però, il quinto piede è un dattilo normale** - *vērtĭcĕ* - e il verso si chiude come si chiude quasi ogni esametro latino. Il gioco per cui Catullo è famoso è l\'opposto, ed è l\'esempio successivo.',
             '**L\'ordine delle parole è l\'altra metà della tecnica.** *Peliaco ... vertice* avvolge un\'intera proposizione tra un aggettivo e il suo sostantivo, e *prognatae ... pinus* fa di nuovo lo stesso, incastrandosi. È uno schema che il metro incoraggia, perché separare un aggettivo dal suo sostantivo permette di mettere ciascuno dei due dove il ritmo lo richiede.'
           ]
-        }
+        },
+        {
+          where: 'Carme 64, v. 3',
+          gloss: 'Il quinto piede spondaico, che è la sua firma',
+          notes: [
+            '**Si guardi il quinto piede: due lunghe, dove il metro vuole un dattilo.** È lo *spondeiazon*, ed è la cosa più riconoscibile dell\'esametro di Catullo. Tutti gli altri tengono dattilico il quinto piede, perché è quel – ⏑ ⏑ – × in corsa a far suonare la fine di un verso come un esametro. Ci si metta uno spondeo e la corsa sparisce: il verso atterra pesante, e lo si sente.',
+            '**Non è una cosa che gli hanno fatto le parole: è una scelta.** Il verso finisce su *Aeetaeos*, un nome proprio greco di quattro sillabe, ed è la ricetta abituale: si cerca una parola greca abbastanza lunga da riempire gli ultimi due piedi, così che il ritmo non latino e il lessico non latino arrivino insieme. Dei sette versi di questo poema che l\'app riporta, è questo a farlo.',
+            '**E anche tutto ciò che precede è pesante.** Il secondo, il terzo e il quarto piede sono spondei, perciò quando arriva il quinto l\'orecchio non sente un dattilo dal primo piede: sei sillabe del verso sono brevi e le altre sette lunghe. Catullo usa questa chiusa con larghezza nel carme 64 e molto più di qualunque altro poeta latino; Virgilio, al confronto, se la concede solo una manciata di volte in tutta l\'*Eneide*.'
+          ]
+        },
       ],
 
       after: 'Il metro non si ferma a questi quattro. Prosegue nell\'*Eneide*, nelle Satire e nelle Epistole di Orazio, nelle *Metamorfosi* di Ovidio e in tutta l\'epica latina successiva; ed esce dal latino, fino ai tentativi inglesi di rifare gli stessi sei piedi. Quei poeti non sono ancora in questa app. Quando verranno aggiunti, i loro esempi compariranno qui.'
@@ -146,7 +155,7 @@
           notes: [
             '**La forma da manuale del verso**: spondeo, dattilo, trocheo, trocheo e chiusa di due sillabe. Se si impara a memoria un endecasillabo, si impari questo.',
             '**La prima parola è un tranello.** *Cui* sembra di due sillabe ed è di una: la *u* e la *i* si fondono in un\'unica sillaba lunga, ed è la *sinizesi*. A contarle due il verso ha dodici sillabe e non torna.',
-            '**Tre diminutivi in undici sillabe** - *lepidum*, *novum*, *libellum*, e l\'ultimo è "libretto" e non "libro". Il metro e il lessico fanno la stessa cosa: far sembrare esile il componimento, di proposito, in una dedica che è in realtà un manifesto.',
+            '**Tre parole leggere in undici sillabe** - *lepidum*, *novum*, *libellum* - e l\'ultima è un diminutivo: non un libro ma un libretto. Il metro e il lessico fanno la stessa cosa, far sembrare esile il componimento di proposito, in una dedica che è in realtà un manifesto.',
             'Si noti come il verso corra dritto senza fratture. Non c\'è punto in cui la voce si fermi naturalmente, ed è questo che significa in pratica l\'assenza di cesura.'
           ]
         },

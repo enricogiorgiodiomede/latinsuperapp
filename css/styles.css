@@ -972,12 +972,15 @@ body.cl-modal-open { overflow: hidden; }
    ============================================================ */
 .practice-excerpt { position: relative; }
 
-/* Keep the header text (counter / title row / citation) clear of the badge.
-   The clearance sits on .excerpt-headline rather than on the h2 because the
-   title now shares a flex row with the metre tablet, and the row as a whole
-   is what has to stop short of the badge. */
+/* Keep the header text (counter / title / citation) clear of the badge.
+   Note where the clearance sits in each case, because the two badges are
+   different shapes. The papyrus is a 30px strip at the top, so only the TITLE
+   needs to stop short of it and the metre tablet, which sits lower down the
+   same row, can run all the way out to the papyrus's own right edge. The VIP
+   banner is 108px tall and hangs down past the title, so there the whole row
+   has to stop short. */
 .practice-excerpt.has-papyrus .fragment-counter,
-.practice-excerpt.has-papyrus .excerpt-headline,
+.practice-excerpt.has-papyrus .excerpt-headline h2,
 .practice-excerpt.has-papyrus .excerpt-citation { padding-right: 152px; }
 .practice-excerpt.has-vip .fragment-counter,
 .practice-excerpt.has-vip .excerpt-headline,
@@ -1090,7 +1093,7 @@ body.cl-modal-open { overflow: hidden; }
   .excerpt-version-badge.is-papyrus { height: 26px; padding: 0 9px; }
   .papyrus-text { font-size: 0.72rem; }
   .practice-excerpt.has-papyrus .fragment-counter,
-  .practice-excerpt.has-papyrus .excerpt-headline,
+  .practice-excerpt.has-papyrus .excerpt-headline h2,
   .practice-excerpt.has-papyrus .excerpt-citation { padding-right: 132px; }
   .excerpt-version-badge.is-vip { width: 72px; height: 94px; }
   .vip-new { font-size: 0.74rem; }
@@ -1190,6 +1193,12 @@ body.cl-modal-open { overflow: hidden; }
   gap: 2px 16px;
 }
 .excerpt-headline h2 { margin: 0 0 4px; }
+/* Line the tablet's right edge up with the papyrus's right edge, directly
+   below it. The card's content box stops 24px from the card edge and the
+   papyrus stops 18px from it (plus its 1px border), so the tablet has to
+   reach 6px past the content box. Not applied in the VIP case: that banner
+   comes down to y=107 and the tablet would end up inside it. */
+.practice-excerpt.has-papyrus .excerpt-metre { margin-right: -6px; }
 
 /* ---- the metre tablet ---- */
 .excerpt-metre {
@@ -1197,7 +1206,11 @@ body.cl-modal-open { overflow: hidden; }
   align-items: center;
   gap: 9px;
   flex: none;
-  margin: 0 0 6px;
+  /* The auto left margin keeps it hard right, including on its own line when a
+     long title or a narrow screen makes it wrap. It has to live in this
+     shorthand: a separate margin-left declaration on the same selector would
+     be reset by this one, whichever order they are written in. */
+  margin: 0 0 6px auto;
   padding: 3px 11px;
   border: 1px solid var(--line);
   border-radius: 4px;
