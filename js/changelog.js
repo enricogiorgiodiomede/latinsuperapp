@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.15.2', date: '28/09/2026', time: 'TBD', tz: 'CEST',
+      v: '1.15.2', date: '28/09/2026', time: '23:33', tz: 'CEST',
       en: {
         added: [
           'The Saturnian page now gives each of its two lines TWICE - once read by quantity and once read by stress - so the two rival theories can be compared on the same verse instead of being described in the abstract. It turns out to be the best argument the page could make. By stress, Livius comes out three beats then two, which is exactly what the accentual theory predicts; by the same rule Naevius comes out two then three, which is not. By quantity, Naevius gives seven long syllables in a row, which no Greek or Latin metre produces. Every reading works somewhere and fails somewhere else, and now you can see it happen rather than take it on trust.',
