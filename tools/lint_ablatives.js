@@ -135,7 +135,7 @@ function prose(text) {
   if (!text) return '';
   return text
     .replace(/^>\s*(?:\[[^\]]*\]\s*)?/, '')
-    .replace(/\*\*\d+\.\*\*/g, ' ')
+    .replace(/\*\*[\dIVXLCDM]+\.\*\*/g, ' ')
     .replace(/\*/g, '')
     .replace(/\s+/g, ' ')
     .trim();

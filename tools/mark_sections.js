@@ -178,10 +178,10 @@ function main() {
 
     let touched = false;
     for (const [field, list, isLatin] of fields) {
-      if (/\*\*\d+\.\*\*/.test(frag[field])) { console.log('  SKIP ' + field + ' - already marked'); continue; }
+      if (/\*\*[\dIVXLCDM]+\.\*\*/.test(frag[field])) { console.log('  SKIP ' + field + ' - already marked'); continue; }
       const marked = markUp(frag[field], list, citation + ' [' + field + ']', isLatin);
       console.log('  --' + field + '--');
-      console.log('  ' + marked.replace(/(\*\*\d+\.\*\*)/g, '\n    $1').slice(0, 700));
+      console.log('  ' + marked.replace(/(\*\*[\dIVXLCDM]+\.\*\*)/g, '\n    $1').slice(0, 700));
       frag[field] = marked;
       touched = true;
     }

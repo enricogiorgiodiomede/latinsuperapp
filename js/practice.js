@@ -220,20 +220,37 @@
     // One metre, or several with the verses each covers: a comic scene can turn
     // from senarii to septenarii partway through an excerpt, and naming only
     // the first would be false.
-    var parts = metre.parts || [metre];
-    parts.forEach(function (part, i) {
+    //
+    // A metre is named ONCE, with all of its verses after it - "Iambic
+    // Octonarius (v. 750, vv. 752-754)" - and not once per run. Hecyra V.1
+    // alternates four times in eleven verses, and listing the runs in order
+    // gave a tablet that was both long and hard to read.
+    var groups = [];
+    (metre.parts || [metre]).forEach(function (part) {
+      var group = null;
+      for (var i = 0; i < groups.length; i++) if (groups[i].id === part.id) { group = groups[i]; break; }
+      if (!group) {
+        group = { id: part.id, name: part.name, hasPage: part.hasPage, ranges: [] };
+        groups.push(group);
+      }
+      if (part.from != null) {
+        group.ranges.push(I18n.t(part.from === part.to ? 'metre.range.one' : 'metre.range.many',
+          { from: part.from, to: part.to }));
+      }
+    });
+
+    groups.forEach(function (group, i) {
       if (i) {
         var sep = document.createElement('span');
         sep.className = 'em-sep';
         sep.textContent = ',';
         note.appendChild(sep);
       }
-      note.appendChild(metreName(part, idx));
-      if (part.from != null) {
+      note.appendChild(metreName(group, idx));
+      if (group.ranges.length) {
         var vv = document.createElement('span');
         vv.className = 'em-verses';
-        vv.textContent = I18n.t(part.from === part.to ? 'metre.verse' : 'metre.verses',
-          { from: part.from, to: part.to });
+        vv.textContent = ' (' + group.ranges.join(', ') + ')';
         note.appendChild(vv);
       }
     });

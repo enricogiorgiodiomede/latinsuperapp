@@ -207,6 +207,12 @@
     // to be any of four metres.
     'caecilius-statius': {
       'plocium': { byCitation: {
+        // The monologue turns from the long accompanied line into spoken
+        // senarii at its ninth line: lines III, IV and VII cannot be senarii at
+        // all, and lines IX to XIV cannot be septenarii, so the change falls
+        // between VIII and IX. The ranges are the app's own numerals, printed on
+        // the Latin, because Caecilius has no verse numbers of his own.
+        '(Plocium, in Gellius, Noctes Atticae II.23.10)': [{ m: 'trochaic-septenarius', from: 'I', to: 'VIII' }, { m: 'iambic-senarius', from: 'IX', to: 'XV' }],
         '(Plocium, in Gellius, Noctes Atticae II.23.13)': 'iambic-senarius',
         '(Plocium, in Gellius, Noctes Atticae II.23.21)': 'iambic-senarius',
         '(Plocium, in Donatus, ad Andriam IV.5.10)': 'iambic-senarius',
@@ -745,7 +751,7 @@
           marked: 'āt (dum) āc|cŭbā|bām quām | vĭdē|bār (mi) ēs|sĕ pūl|chrĕ sō|brĭŭs!',
           pattern: '– – | ⏑ – | – – | ⏑ – | – – | ⏑ – | ⏑ – | ⏑ ×',
           notes: [
-            '**Four short syllables, evenly spaced, and everything else long.** The line alternates heavy feet with light ones almost regularly, and the effect is a man walking carefully and not quite managing it.',
+            '**Five short syllables, and every one of them in the same place: the free first half of a foot.** Feet 1, 3 and 5 are spondees and the feet between them are iambs, so the line alternates heavy and light for its first five feet; then feet 6, 7 and 8 are all iambs, the alternation gives way to a run, and the verse hurries into its close. It walks carefully for most of its length and then does not, which is more or less what its speaker is doing.',
             '**This is Terence using the octonarius where Plautus would have written a song.** Chremes has been at dinner; he is explaining, at length and in order, that the wine has caught up with him. The metre is long enough to hold the whole self-observation in one verse, which is the joke.',
             'Note *pulchre* in the seventh foot: an adverb that normally means beautifully, used here to mean thoroughly, and sitting on the light syllable of the foot so that it goes past almost unnoticed.'
           ]

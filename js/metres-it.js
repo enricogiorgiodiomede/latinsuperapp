@@ -402,7 +402,7 @@
           where: 'Eunuchus, Atto IV, Scena 5, v. 729',
           gloss: 'Un signore scopre di non essere stato sobrio quanto credeva',
           notes: [
-            '**Quattro sillabe brevi, distribuite regolarmente, e tutto il resto lungo.** Il verso alterna piedi pesanti e piedi leggeri quasi con regolarità, e l\'effetto è quello di un uomo che cammina con attenzione e non ci riesce del tutto.',
+            '**Cinque sillabe brevi, e tutte nello stesso posto: la prima metà libera di un piede.** I piedi 1, 3 e 5 sono spondei e quelli in mezzo sono giambi, perciò il verso alterna pesante e leggero per i primi cinque piedi; poi i piedi 6, 7 e 8 sono tutti giambi, l\'alternanza lascia il posto a una corsa e il verso si affretta verso la chiusa. Cammina con attenzione per quasi tutta la sua lunghezza e poi non più, che è pressappoco ciò che sta facendo chi lo dice.',
             '**Qui Terenzio usa l\'ottonario dove Plauto avrebbe scritto un canto.** Cremete è stato a cena; sta spiegando, con calma e in ordine, che il vino lo ha raggiunto. Il metro è lungo abbastanza da contenere tutta l\'autoanalisi in un verso solo, ed è questa la battuta.',
             'Si noti *pulchre* nel settimo piede: un avverbio che di norma significa splendidamente, qui usato per dire del tutto, e collocato sulla sillaba leggera del piede in modo da passare quasi inosservato.'
           ]

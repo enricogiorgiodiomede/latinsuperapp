@@ -78,6 +78,34 @@ Verification: **check_metre_quotes 25 verses, 0 failed**; **check_metres 166 lab
 **392 verbatim, 0 mismatched**; `lint_markdown` **0 leaking**; EN and IT in step across all nine pages; both
 languages read in the browser, console clean. Cache-bust: `?v=184` -> `?v=185`.
 
+### Follow-up
+
+- **One name per metre on the tablet**, with all of its verses after it, instead of one entry per run.
+  Hecyra V.1 alternates four times in eleven verses and used to print four labels; it now reads
+  `Iambic Octonarius (v. 750, vv. 752-754), Trochaic Septenarius (v. 751, vv. 755-760)` and fits on one line.
+  **This is the rule for every future multi-metre label.**
+- **Caecilius' long Plocium monologue is labelled after all**, with editorial numerals. It turns from
+  trochaic septenarii into spoken senarii at its ninth line, and had no way of saying where, because a poet
+  who survives only in quotation has no verse numbers. The fifteen lines now carry **I to XV printed on the
+  Latin**, the label reads `Trochaic Septenarius (vv. I-VIII), Iambic Senarius (vv. IX-XV)`, and the analysis
+  states plainly that the numbers are the app's and not the play's. The change of metre is where it is
+  because lines III, IV and VII cannot be senarii and lines IX to XIV cannot be septenarii.
+- **Every marker-stripping regex in the toolchain now accepts a Roman numeral** (`\*\*[\dIVXLCDM]+\.\*\*`),
+  in strip.js and the six checkers that had their own copy. A pair of asterisks still cannot occur in Latin,
+  so nothing else changes, and `verify` proves it: 392 verbatim, 0 mismatched, with the numerals in place.
+- **Fixed: the note on the Terence octonarius counted four short syllables, evenly spaced.** There are five,
+  and they are not evenly spaced. Feet 1, 3 and 5 are spondees with iambs between them, so the line alternates
+  for five feet; then feet 6, 7 and 8 are all iambs and it hurries into its close. **The scansion was right
+  and the sentence describing it was wrong**, which is a failure mode no checker catches: the marks and the
+  pattern agreed with each other, and the prose disagreed with both.
+- **An eighth wrong metre statement**, found while editing that excerpt: the Plocium analysis said the
+  trochaic septenarius ran from beginning to end.
+- The single line of Caecilius in *Tusculanae* III.56 stays unlabelled, as the user asked: it fits four metres.
+
+Verification: **167 labelled, 167 linked, 0 failed**; **check_metre_quotes 25/0**; **392 verbatim, 0
+mismatched**; **check_verses 60/0**; `lint_markdown` 0 leaking; both languages read in the browser, console
+clean. Cache-bust: `?v=185` -> `?v=186`.
+
 ## [1.15.2] - 2026-09-28
 
 **THE THREE NEW METRE PAGES REWORKED**, after the user checked them. Two of the three had been written round a

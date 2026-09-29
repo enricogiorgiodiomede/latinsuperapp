@@ -89,7 +89,7 @@ const LONG_FINAL = new Set([
 function words(line) {
   return line
     .replace(/^>\s?/, '')
-    .replace(/\*\*\d+\.\*\*/g, ' ')
+    .replace(/\*\*[\dIVXLCDM]+\.\*\*/g, ' ')
     // Speaker names belong to the page, not to the verse: a senarius that
     // counts them comes out several syllables too long. They are printed either
     // abbreviated with a stop (SI., BACCH.) or in full in capitals (MERCVRIVS,

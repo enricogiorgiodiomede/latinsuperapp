@@ -50,7 +50,7 @@ function normalise(text) {
     // Latin Library prints no subsections at all, so this marker is always the
     // app's own and never the source's. Nothing can be lost by removing it: a
     // pair of asterisks cannot occur in Latin.
-    .replace(/\*\*\d+\.\*\*/g, ' ')
+    .replace(/\*\*[\dIVXLCDM]+\.\*\*/g, ' ')
     .replace(/\[\d+\]/g, ' ')
     .replace(/\[[IVXLC]+\]/g, ' ')
     .replace(/\b\d+\. /g, ' ')

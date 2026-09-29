@@ -74,7 +74,7 @@ function romanOk(w) { return ROMAN.test(w); }
 
 // Strip the chapter marker and the subsection numbers; what is left is Latin.
 function bareLatin(f) {
-  return String(f.latin || '').replace(/\*\*\d+\.\*\*/g, ' ').replace(/^>?\s*\[[^\]]*\]/, ' ');
+  return String(f.latin || '').replace(/\*\*[\dIVXLCDM]+\.\*\*/g, ' ').replace(/^>?\s*\[[^\]]*\]/, ' ');
 }
 
 // WHICH CAPITALISED WORDS ARE NAMES? Latin capitalises the first word of every

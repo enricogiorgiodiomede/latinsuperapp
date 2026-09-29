@@ -108,7 +108,7 @@ for (const author of Object.values(AUTHORS)) {
       if (starts[0] !== from) bad.push('the first block does not open the excerpt');
 
       // 3. verbatim lines, spacing included
-      const clean = lines.map(l => l.replace(/\*\*\d+\.\*\* /g, ''));
+      const clean = lines.map(l => l.replace(/\*\*[\dIVXLCDM]+\.\*\* /g, ''));
       clean.forEach((l, i) => {
         if (/ {2}|^ | $/.test(l)) bad.push('verse ' + verseNo[i] + ' has a doubled, leading or trailing space: ' + JSON.stringify(l));
       });

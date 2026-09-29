@@ -119,7 +119,7 @@ const bankLines = (function () {
     for (const w of AUTHORS[slug].works) {
       for (const f of w.fragments) {
         f.latin.split('\n').forEach(l => {
-          const t = l.replace(/^>\s?/, '').replace(/\*\*\d+\.\*\*\s*/g, '').trim();
+          const t = l.replace(/^>\s?/, '').replace(/\*\*[\dIVXLCDM]+\.\*\*\s*/g, '').trim();
           if (t) set.add(t);
         });
       }
