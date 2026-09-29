@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.15.4', date: '29/09/2026', time: 'TBD', tz: 'CEST',
+      v: '1.15.4', date: '29/09/2026', time: '23:20', tz: 'CEST',
       en: {
         added: [
           'Two of the new labels were not showing, and a third excerpt was showing the wrong one. The cause was the same for all three: Pacuvius and the Atellan writers share a page with a second poet, and for authors like that the practice page pools every work together, so the position it handed the metre lookup was the position in the pool and not the position in the work. The lookup now takes the excerpt itself rather than a number, which settles both which work it belongs to and where in that work it sits.',
