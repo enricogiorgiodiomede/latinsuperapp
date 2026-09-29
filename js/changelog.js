@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.15.3', date: '29/09/2026', time: 'TBD', tz: 'CEST',
+      v: '1.15.3', date: '29/09/2026', time: '21:32', tz: 'CEST',
       en: {
         added: [
           'A metre is now named once on the tablet, with all of its verses after it, instead of once per run. The last scene of Hecyra alternates four times in eleven verses, which used to print as four separate labels and was hard to read; it now says Iambic Octonarius (v. 750, vv. 752-754), Trochaic Septenarius (v. 751, vv. 755-760), and fits on one line.',
