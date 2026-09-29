@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.15.4', date: '29/09/2026', time: 'TBD', tz: 'CEST',
+      v: '1.15.4', date: '29/09/2026', time: '22:49', tz: 'CEST',
       en: {
         added: [
           'THE TRAGIC AND ATELLAN METRES. Ten more excerpts say what metre they are in: three of Pacuvius, two of Accius, three of Pomponius and two of Novius. That is nearly all of the tragedy and farce in the app, and it brings the total to a hundred and seventy-seven.',
