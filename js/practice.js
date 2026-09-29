@@ -217,6 +217,30 @@
     label.textContent = I18n.t('metre.label');
     note.appendChild(label);
 
+    // One metre, or several with the verses each covers: a comic scene can turn
+    // from senarii to septenarii partway through an excerpt, and naming only
+    // the first would be false.
+    var parts = metre.parts || [metre];
+    parts.forEach(function (part, i) {
+      if (i) {
+        var sep = document.createElement('span');
+        sep.className = 'em-sep';
+        sep.textContent = ',';
+        note.appendChild(sep);
+      }
+      note.appendChild(metreName(part, idx));
+      if (part.from != null) {
+        var vv = document.createElement('span');
+        vv.className = 'em-verses';
+        vv.textContent = I18n.t(part.from === part.to ? 'metre.verse' : 'metre.verses',
+          { from: part.from, to: part.to });
+        note.appendChild(vv);
+      }
+    });
+    return note;
+  }
+
+  function metreName(metre, idx) {
     var name;
     if (metre.hasPage) {
       name = document.createElement('a');
@@ -232,8 +256,7 @@
       name.className = 'em-name is-plain';
     }
     name.textContent = metre.name;
-    note.appendChild(name);
-    return note;
+    return name;
   }
 
   function buildFragment(frag, workLabel, idx, total, onAnother) {

@@ -1137,6 +1137,8 @@ A full day in three moves: the release that finishes Lucretius and extends Pro M
 
 **Progress:** App at **v1.14.10, cache v172, bank 544**. **Lucretius is finished: 60 of 60**, all six books complete at ten excerpts each -- the sixty-excerpt plan closed for good, and every marker in the bank now opens a verse. The Cicero notes pass has closed *Pro Milone* and brought the counted backlog down to **52 short notes**, still planned a work at a time, next by size *In Pisonem*; Catullus and Sallust stay excluded by the user's decision. Sallust and Catullus's further expansion remain outstanding in Caesar's Age, and the Augustan Era still awaits the user's permission. The working tree carries the same long-standing set of modified and untracked files as previous sessions (`js/data.js`, `js/author.js`, `js/i18n.js`, `css/styles.css`, `build_content_it.js`, several `tools/*.js`, and the older untracked `batch/*` drafts), plus the reference sheet's own routine regeneration; none of it bears on today's three commits.
 
+---
+
 ## 2026-09-28
 
 A day given over to one new idea, **metre**, from first page to a corrected scansion: four releases (v1.15.0 to v1.15.2 plus follow-ups) and no change to any excerpt's Latin, translation or analysis.

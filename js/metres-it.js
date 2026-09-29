@@ -241,6 +241,221 @@
       after: 'Nulla di più tardo è scritto in questo metro. Il saturnio è l\'unico metro latino senza alcuna discendenza: non fu sviluppato, fu sostituito, e a sostituirlo fu l\'esametro dattilico.'
     },
 
+
+    'iambic-senarius': {
+      name: 'Senario Giambico',
+      tagline: 'Il verso parlato della commedia romana, e quanto di più vicino al parlato quotidiano la poesia latina abbia mai prodotto.',
+      schemeNote: 'Sei piedi. La seconda metà di ogni piede è lunga, la prima è libera, e soltanto l\'undicesima sillaba è fissata breve. Ogni lunga può essere sciolta in due brevi, perciò il verso va da dodici sillabe a diciotto circa.',
+
+      origin: [
+        '**È greco, ed era già la voce del dialogo quando Roma lo incontrò.** I tragici e i comici ateniesi usavano il trimetro giambico per tutto ciò che i personaggi si dicevano, riservando i metri lirici al coro. Aristotele spiega perché nella *Poetica*: fra tutti i metri questo è il più vicino al ritmo del parlato, e capita di caderci dentro per caso mentre si discorre. È una cosa notevole da dire di una forma metrica, ed è tutta la ragione per cui questo metro esiste.',
+        '**Il nome registra un disaccordo di aritmetica.** Un greco contava questo verso come tre *metra*, ciascuno una coppia di piedi, e lo chiamava trimetro. Un romano contava i piedi e lo chiamava senario, cosa di sei. Stesso verso, unità diversa, e la differenza non è pedanteria: l\'accoppiamento greco tiene subordinate le posizioni dispari, e il latino, come si vedrà, smise del tutto di trattarle così.',
+        '**Prima del teatro era il metro dell\'insulto.** *Iambos* in greco significava invettiva: Archiloco lo usò nel VII secolo a.C. per distruggere in pubblico i suoi nemici, e il nome del metro e quello del genere sono la stessa parola. La commedia eredita una forma con quella storia alle spalle, il che fa comodo a un genere in cui gli schiavi insultano i padroni di mestiere.',
+        '**In latino arriva con il teatro stesso** e non se ne va più. Livio Andronico, Nevio ed Ennio lo usano per il dialogo della tragedia; Plauto e Terenzio ci costruiscono sopra la commedia; e molto dopo che la scena ha finito con lui, è ancora il verso delle favole di Fedro e delle tragedie di Seneca, scritte per essere lette.',
+        '**Per quantità è il metro più importante del latino arcaico.** Poco più di un terzo di Plauto e circa metà di Terenzio è in senari, e i trentasei estratti di questa app che portano questa etichetta sono il gruppo più numeroso. Chi legge poesia latina arcaica, legge per lo più questo verso.'
+      ],
+
+      build: [
+        '**Dodici posizioni, in sei piedi di due.** La posizione pari di ogni piede è un longum. La dispari è un *ancipite*, libera di essere lunga o breve. L\'ultimo piede è l\'eccezione e insieme l\'ancora: deve essere un giambo vero, breve e poi la sillaba finale, ed è per questo che **l\'undicesima sillaba di un senario è l\'unico punto sempre prevedibile.**',
+        '**È qui che il latino si è separato dal greco.** Il trimetro greco fissa breve la terza sillaba di ogni metron, così il verso conserva per intero una cantilena ⏑ – ⏑ – udibile. Il latino la liberò. Ogni posizione dispari di un senario latino può essere lunga, e moltissime lo sono, perché il latino è pieno di sillabe pesanti e le sue parole non cadono naturalmente in alternanze di brevi e lunghe. Il risultato è un verso che può essere quasi tutto spondei, e Cecilio ne scrisse uno: è il secondo esempio qui sotto.',
+        '**La soluzione è ovunque.** Ogni longum, e ogni ancipite preso lungo, può essere sostituito da due sillabe brevi, tranne nel piede finale. È ciò che permette a un comico di far entrare *familiaris* o *obsignatas* in un verso, ed è il motivo per cui un senario di diciotto sillabe resta un senario di dodici posizioni.',
+        '**La pausa cade dopo il quinto o il settimo semipiede.** In pratica: una parola finisce in mezzo al terzo piede, oppure in mezzo al quarto. Plauto è più libero di Terenzio, e un verso senza pausa in nessuno dei due punti suona, a un orecchio abituato a questi testi, come un verso che è scappato via.',
+        '**Come si scandisce partendo da zero.** Si contano le sillabe dopo le elisioni. Dodici significa una sillaba per posizione e nessuna soluzione, e la forma è fissata prima ancora di cominciare. Più di dodici significa altrettante soluzioni da collocare, e le si trova cercando coppie di brevi contigue. Poi si controlla l\'undicesima posizione: se non è breve, si è sbagliato qualcosa prima.'
+      ],
+
+      sound: [
+        '**Questo è il metro che si diceva, non si cantava.** Una commedia romana alterna il *diverbium*, dialogo parlato, con parti recitate o cantate sulla *tibia*, il doppio flauto. Il senario è il diverbium: niente musica, niente accompagnamento, un attore che semplicemente parla in versi. I manoscritti di Plauto segnano ancora DV in margine a quelle parti.',
+        '**Perciò porta gli affari ordinari della commedia.** Prologhi, antefatti, la scena in cui qualcuno spiega che cosa è successo: senari. **Quando una scena smette di essere in senari, la temperatura è salita**, e conviene farci caso, perché è quasi l\'unica didascalia che la commedia romana ci dia.',
+        '**All\'orecchio è sciolto e rapido.** Dodici sillabe al minimo e diciotto al massimo, con sostituzioni tanto libere che due versi di seguito non devono suonare uguali. È un verso che non insiste per essere verso, che è esattamente ciò che serve al dialogo.',
+        '**E l\'accento di parola lavora contro il metro, produttivamente.** L\'accento delle parole latine non deve cadere sui longa, e nella commedia spesso non ci cade. Si leggano le quantità e si lascino cadere gli accenti dove cadono: l\'attrito fra i due non è un difetto, è ciò che impedisce al verso di suonare come una filastrocca.'
+      ],
+
+      usedIntro: [
+        'Il dialogo parlato della commedia e della tragedia; le favole di Fedro; le tragedie di Seneca. Tutti e tre i comici presenti in questa app lo usano, e i tre esempi qui sotto sono uno per ciascuno, in ordine di età.',
+        'Il metro è identico in tutti e tre: ciò che cambia è la mano, e la differenza si sente.'
+      ],
+
+      examples: [
+        {
+          where: 'Aulularia, Prologo, v. 2',
+          gloss: 'Il dio domestico si presenta, sciogliendo tre piedi mentre lo fa',
+          notes: [
+            '**Quindici sillabe in dodici posizioni**, dunque tre soluzioni, e si sentono tutte: *ego* all\'inizio, il *-mili-* di *familiaris* e di nuovo il *-mili-* di *familia*. Un verso che corre così è ciò che si intende quando si dice che il verso plautino è colloquiale.',
+            '**La ripetizione è la battuta, e il metro la porta.** Il Lar dice di essere il dio della casa e poi nomina la casa, *familiaris ... familia*, e le stesse tre sillabe brevi fanno lo stesso lavoro metrico tutte e due le volte.',
+            'Si guardi l\'undicesima posizione, il *-li-* del secondo *familia*: breve, come deve essere, con la sillaba indifferente dopo. Ogni senario di questa pagina finisce così.'
+          ]
+        },
+        {
+          where: 'Plocium, in Gellio, Notti Attiche II.23.10',
+          gloss: 'Dieci lunghe di fila, e poi l\'unica breve su cui il metro non transige',
+          notes: [
+            '**Vivi come puoi, dato che non puoi come vorresti.** Dodici sillabe per dodici posizioni: niente è sciolto e niente è in dubbio. È il senario nella sua forma più trasparente, e il verso migliore dell\'app per vederne la forma intera.',
+            '**Dieci sillabe lunghe, e poi una breve.** Ogni ancipite è preso lungo, cosa che il trimetro greco non permetterebbe, e l\'effetto è un verso di granito con una sola cerniera. La cerniera è il *ve-* di *velis*, l\'undicesima posizione, l\'unica sillaba che un senario non può fare lunga. **La regola che un momento fa sembrava arbitraria qui si sente.**',
+            'La frase è costruita come il verso: due metà che si bilanciano, *ut possis* contro *ut velis*, con la svolta alla pausa in mezzo al terzo piede.'
+          ]
+        },
+        {
+          where: 'Adelphoe, Atto IV, Scena 2, v. 430',
+          gloss: 'Lo stesso metro in una mano più quieta',
+          notes: [
+            '**Un\'elisione e una soluzione in tredici sillabe**, contro le tre soluzioni di Plauto in quindici. Quel rapporto è in miniatura la differenza fra i due poeti: Terenzio tiene il verso più vicino allo scheletro, e l\'effetto è più liscio e meno simile a parlato colto al volo.',
+            '**L\'ordine delle parole fa ciò che il metro consente.** Il giudizio viene per primo, la relativa gli sta dentro, il verbo arriva per ultimo, e la frase si chiude esattamente dove si chiude il verso.',
+            'Siro ammette di sapere benissimo che le cose che fa sono sciocche. L\'unica soluzione del verso cade su *facimus*, l\'unica parola che riguardi il fare e non il pensare.'
+          ]
+        }
+      ],
+      after: 'Il senario è sopravvissuto al teatro. Fedro ci scrisse le favole nel I secolo d.C. e Seneca lo usò per il dialogo di tragedie destinate alla lettura e non alla scena: a quel punto duecento anni di commedia ne avevano fatto semplicemente il verso latino della gente che parla. Nessuno dei due poeti è ancora in questa app.'
+    },
+
+    'iambic-septenarius': {
+      name: 'Settenario Giambico',
+      tagline: 'Il lungo verso giambico della commedia, eseguito sulla tibia, quello che i romani associavano alla contentezza.',
+      schemeNote: 'Sette piedi e una sillaba, con una pausa centrale che di norma cade alla fine del quarto piede. Le regole sono quelle del senario, estese di un piede e mezzo.',
+
+      origin: [
+        '**È il senario allungato, e la lunghezza in più ne cambia la destinazione.** Il trimetro greco era il metro del dialogo; il tetrametro giambico catalettico, sette piedi e una sillaba di chiusura, apparteneva alla commedia e alla poesia popolare vivace, e Roma lo prese con quelle associazioni addosso.',
+        '**Gli scrittori romani lo legano all\'allegria.** Compare nella commedia nei momenti di piacere, di sollievo e di malizia abbastanza spesso perché i grammatici tardi lo trattassero come il metro delle buone notizie. È una generalizzazione con eccezioni, ma la tendenza è reale e conviene ascoltarla: Plauto non dà spesso questo verso a chi se la passa male.',
+        '**Ebbe una vita anche fuori dal teatro.** Il settenario giambico è il metro dei canti dei soldati durante il trionfo, quelli che insultavano il generale in faccia mentre sfilava in corteo, e di una quantità di poesia popolare che non ci è arrivata. Fra i metri della commedia romana è quello con i legami più stretti con ciò che la gente cantava davvero.',
+        '**Plauto lo usa di continuo; Terenzio quasi mai.** È una delle differenze metriche più nette fra i due, e fa parte di una differenza più grande: Plauto scrisse un musical, Terenzio una commedia.'
+      ],
+
+      build: [
+        '**Quindici posizioni: sette piedi giambici e una sillaba finale.** Tutto ciò che il senario consente, lo consente anche questo. Posizioni dispari libere, pari lunghe, soluzione disponibile quasi ovunque, e settimo piede giambo vero, breve e poi lunga, esattamente come il sesto piede di un senario.',
+        '**La pausa centrale è la cosa da ascoltare.** Di norma una parola finisce alla chiusura del quarto piede, dividendo il verso in otto posizioni e sette. Quando succede, le due metà si rispondono e il verso cade in due frasi; quando il poeta evita la pausa, il verso corre dritto e la cosa si nota.',
+        '**Essendo lungo, contiene un pensiero intero.** Un senario di solito ha bisogno di un compagno per finire la frase; un settenario spesso no. In pratica è il verso dell\'osservazione autosufficiente, della battuta che ha dentro di sé preparazione e stoccata.',
+        '**Da non confondere con il settenario trocaico**, che ha lo stesso numero di posizioni e un ritmo del tutto diverso: il verso trocaico comincia su un longum e dondola, quello giambico comincia su una sillaba libera e corre. Nel dubbio, si guardi la fine: un verso giambico chiude ⏑ – ×, uno trocaico chiude – ⏑ ×.'
+      ],
+
+      sound: [
+        '**Era eseguito con la musica.** È uno dei metri accompagnati, suonati sulla *tibia*, a differenza del senario parlato. Una scena che esce dai senari per entrare nei settenari ha appena acceso la musica.',
+        '**Il passo è rapido e la forma è simmetrica.** Due metà di peso simile, una cerniera netta in mezzo e una corsa giambica fino alla fine. Letto ad alta voce ha un dondolio che il senario si rifiuta di avere.',
+        '**Il registro naturale è comico**, ma non da farsa: il tono è il godimento, e sta bene a un personaggio contento di sé. Tutti e due gli esempi qui sotto sono qualcuno contento di sé.'
+      ],
+
+      usedIntro: [
+        'La commedia, soprattutto plautina; i canti del trionfo; la poesia popolare in genere. Tre estratti di questa app sono in questo metro, due di Plauto e uno di Terenzio, che è all\'incirca la proporzione delle commedie superstiti.'
+      ],
+
+      examples: [
+        {
+          where: 'Asinaria, Atto III, Scena 3, v. 599',
+          gloss: 'Un giovane viene chiamato Solone, negli orari d\'ufficio',
+          notes: [
+            '**Sei giambi di fila dopo il terzo piede**, che è quanto di più regolare un verso giambico latino arrivi a essere, e la regolarità fa parte della battuta: il verso marcia come il cittadino indaffarato e rispettabile che sta descrivendo.',
+            '**Un Solone, in orario di lavoro.** *Videlicet* è sarcastico, Solone è il legislatore ateniese e *interdius* vuol dire durante il giorno lavorativo: modello di saggezza ateniese alla luce del sole e tutt\'altro di notte. Piazzare il legislatore greco in fondo a un verso comico latino è il genere di battuta per cui questo metro esiste.',
+            'L\'elisione nel secondo piede è ciò che tiene il verso a quindici sillabe. Scritto per esteso, *negotiosum interdius* ne vorrebbe sedici, e non c\'è posto.'
+          ]
+        },
+        {
+          where: 'Hecyra, Atto V, Scena 3, v. 838',
+          gloss: 'Tre spondei, e poi il metro trova il passo',
+          notes: [
+            '**Il verso è costruito in due metà e si sente la giuntura.** Tre piedi pesanti, tutti spondei, reggono *haec tot propter me*; dall\'elisione in poi corre in giambi puri fino alla fine. La svolta cade esattamente dove svolta il senso, da ciò che lei ha fatto a ciò che lui prova.',
+            '**Terenzio usa il metro per il suo scopo tradizionale**, che è il piacere: Panfilo è contento. Ed è, come sempre in lui, una contentezza più quieta di quella che avrebbe scritto Plauto: i tre spondei iniziali sono ciò che la rende quieta.',
+            'Terenzio ha pochissimi settenari giambici in tutto. Quando ne compare uno, tende a essere in un momento come questo, in cui un personaggio è sollevato più che trionfante.'
+          ]
+        }
+      ],
+      after: 'Il metro muore con la scena comica. La sua ultima vita vera sono i canti di marcia delle legioni, citati dagli storici e mai messi per iscritto come letteratura; dopo di che la poesia latina tiene il trimetro giambico per il dramma e lascia andare questo.'
+    },
+
+    'iambic-octonarius': {
+      name: 'Ottonario Giambico',
+      tagline: 'Il verso regolare più lungo della commedia romana, quello a cui un personaggio ricorre quando ha perso la calma.',
+      schemeNote: 'Otto piedi interi, sedici posizioni, senza catalessi: il verso arriva in fondo all\'ultimo piede invece di fermarsi una sillaba prima.',
+
+      origin: [
+        '**È il verso giambico portato fin dove può arrivare.** Quattro metra interi, otto piedi, sedici posizioni. I greci avevano la forma e la usavano con parsimonia; i romani la adottarono con entusiasmo, ed è uno dei punti in cui si dimostra che la commedia latina non è commedia greca tradotta.',
+        '**Terenzio ne è il grande utilizzatore.** Le proporzioni colpiscono: gli ottonari giambici pesano parecchio in Terenzio e poco in Plauto, il contrario di ciò che ci si aspetta dal poeta di solito descritto come il più sobrio dei due. Plauto aveva tutto il repertorio lirico a cui attingere quando una scena andava sollevata; Terenzio, che di lirica non scrive quasi nulla, quel lavoro lo fa con questo verso.',
+        '**Il metro è dunque la soluzione di un problema che Terenzio si era posto da sé.** Se non vuoi fermare la commedia per un canto, ti serve un verso che regga la pressione emotiva restando parlato. Sedici posizioni di movimento giambico, accompagnate dalla tibia, sono quel verso.'
+      ],
+
+      build: [
+        '**Sedici posizioni in otto piedi, e le regole consuete.** Dispari libere, pari lunghe, soluzione disponibile tranne in chiusura, e ottavo piede giambo vero: breve, e poi la sillaba finale indifferente.',
+        '**Di norma una pausa cade dopo il quarto piede**, dividendo il verso in due metà di otto posizioni. È la stessa cerniera del settenario, ma qui le due metà hanno la stessa lunghezza, perciò la simmetria è esatta e il verso può essere costruito come una coppia di frasi appaiate.',
+        '**Il piede in più non è un ornamento.** Due sillabe più di un settenario significano spazio per una frase in più, e in pratica è proprio questo il suo scopo: il personaggio dice la cosa, e poi dice anche il pezzo che non ci stava.',
+        '**Conviene cercare le soluzioni invece di contare le sillabe.** Un ottonario con più soluzioni può arrivare a venti sillabe e oltre, e a quel punto non è più evidente che si stia guardando un verso. Si trovino gli otto longa e la forma riappare.'
+      ],
+
+      sound: [
+        '**È accompagnato, ed è veloce.** Il senario si parla, l\'ottonario si esegue sulla tibia, e una scena che sale dai senari agli ottonari ha cambiato marcia in modo udibile.',
+        '**Il registro è l\'agitazione.** Non canto e non parlato calmo: è il metro del monologo tirato via da chi ha appena ricevuto una notizia, o bevuto troppo, o capito che cosa ha combinato. Tutti e due gli esempi qui sotto sono esattamente questo.',
+        '**I versi lunghi sono difficili da tenere in movimento**, e i poeti lo sanno. Il modo più comune di tenere vivo questo è una fila di spondei seguita da una coppia improvvisa di brevi, ed è per questo che un ottonario suona così spesso come se stesse accelerando verso l\'ultimo piede.'
+      ],
+
+      usedIntro: [
+        'La commedia, e soprattutto Terenzio. Dieci estratti di questa app sono in questo metro, il terzo più frequente qui dopo il senario e il settenario trocaico.',
+        'I due esempi sono uno schiavo plautino con una lettera in mano e un signore terenziano che ha bevuto, e il metro sta bene a entrambi per la stessa ragione.'
+      ],
+
+      examples: [
+        {
+          where: 'Bacchides, Atto IV, Scena 9, v. 925',
+          gloss: 'Dodici sillabe lunghe di fila, e una lettera che non si apre da sola',
+          notes: [
+            '**Sedici sillabe per sedici posizioni**, dunque nessuna soluzione: ogni posizione prende una sillaba, e il verso è lento quanto il metro consente.',
+            '**Due elisioni in partenza e poi un muro.** *Nam ego has* si riduce a due sillabe di rincorsa, e dopo arrivano dodici lunghe consecutive: *obsignatas consignatas* è una coppia di participi di cinque sillabe che vogliono dire quasi la stessa cosa, sigillato e controsigillato, e il verso smette semplicemente di suonare come parlato e comincia a suonare come un documento. Crisalo porta una lettera, e il metro ne porta i sigilli.',
+            '**Poi l\'ultimo piede lo libera**, *fero*, breve e lunga, l\'unica sillaba leggera della seconda metà. Plauto lo fa di continuo: un verso pesante con il verbo lasciato cadere leggero in fondo.'
+          ]
+        },
+        {
+          where: 'Eunuchus, Atto IV, Scena 5, v. 729',
+          gloss: 'Un signore scopre di non essere stato sobrio quanto credeva',
+          notes: [
+            '**Quattro sillabe brevi, distribuite regolarmente, e tutto il resto lungo.** Il verso alterna piedi pesanti e piedi leggeri quasi con regolarità, e l\'effetto è quello di un uomo che cammina con attenzione e non ci riesce del tutto.',
+            '**Qui Terenzio usa l\'ottonario dove Plauto avrebbe scritto un canto.** Cremete è stato a cena; sta spiegando, con calma e in ordine, che il vino lo ha raggiunto. Il metro è lungo abbastanza da contenere tutta l\'autoanalisi in un verso solo, ed è questa la battuta.',
+            'Si noti *pulchre* nel settimo piede: un avverbio che di norma significa splendidamente, qui usato per dire del tutto, e collocato sulla sillaba leggera del piede in modo da passare quasi inosservato.'
+          ]
+        }
+      ],
+      after: 'Come il settenario, l\'ottonario appartiene alla scena e non le sopravvive. Sopravvive invece la scoperta che gli sta dietro, che un lungo verso giambico può portare emozione senza diventare canto: una scoperta che la poesia latina rifarà altre due volte, negli epodi di Orazio e nel dialogo della tragedia senecana.'
+    },
+
+
+    'canticum': {
+      name: 'Cantico',
+      tagline: 'Le parti cantate della commedia romana: non un metro ma una dozzina, che cambiano di verso in verso, e la cosa più originale che Plauto abbia mai fatto.',
+      schemeNote: 'Questi sono piedi, non versi. Un cantico si costruisce ripetendoli e mescolandoli, quattro per verso e poi tre, cambiando metro quando cambia il pensiero di chi canta: non c\'è dunque uno schema unico da dare.',
+
+      origin: [
+        '**Una commedia romana è in parte un musical**, e questa è la parte cantata. La distinzione antica è fra *diverbium*, dialogo parlato in senari, e *canticum*, eseguito sulla *tibia*. I manoscritti di Plauto portano ancora i segni: DV accanto alle parti parlate, C accanto a quelle cantate.',
+        '**La commedia nuova greca non funzionava così.** Menandro scriveva dialogo, con intermezzi corali fra un atto e l\'altro che nei manoscritti non sono nemmeno copiati, perché non facevano parte del testo. Plauto tolse il coro e mise il canto dentro l\'azione, affidandolo ai personaggi stessi. **È una sua invenzione, e cambia che cosa sia la commedia**: uno schiavo plautino non si limita a tramare, esegue un\'aria sul tramare.',
+        '**Le proporzioni sono notevoli.** Qualcosa come due terzi di Plauto è accompagnato in un modo o nell\'altro, e una parte consistente di questo è canto polimetrico vero. Terenzio andò nella direzione opposta e non ne scrisse quasi: dei trenta estratti terenziani di questa app nessuno è un cantico, e dei cinquanta plautini otto lo sono.',
+        '**Dove sia finita la musica, non si sa.** Non una nota delle parti per tibia è sopravvissuta. È sopravvissuto il metro, che è l\'ombra lasciata dalla musica sulle parole, ed è l\'unica prova che abbiamo di come suonassero queste scene.'
+      ],
+
+      build: [
+        '**Tre piedi fanno quasi tutto il lavoro.** Il *baccheo* (⏑ – –), il *cretico* (– ⏑ –) e l\'anapesto (⏑ ⏑ –). Ciascuno si usa a quattro e a tre per fare un verso, perciò un tetrametro baccheo è quattro bacchei, un tetrametro cretico quattro cretici, e così via. Rispetto ai versi giambici e trocaici sono piedi pesanti, due lunghe per una breve, e si muovono lentamente.',
+        '**E poi il poeta li mescola.** Un cantico è una successione di unità metriche, ciascuna lunga qualche verso, e il metro cambia alle giunture. Le unità hanno nomi propri quando ricorrono - il *versus reizianus*, il *colon reizianum*, il *wilamowitzianum* - e alcune sono semplicemente marcate *incertum* dagli studiosi che hanno provato a metterle in ordine.',
+        '**È per questo che otto estratti di questa app non portano alcun nome di metro, ma soltanto l\'etichetta canticum.** Nominare il metro di un passo simile significa nominarne dieci, uno per verso o due, e un\'etichetta così lunga non dice nulla a chi legge. Quello qui sotto è un campione onesto: sono tredici versi di Pseudolus e cambiano metro nove volte.',
+        '**La ricostruzione è moderna ed è difficile.** I manoscritti non danno segni metrici oltre a C e DV; tutto il resto è stato ricavato dalle parole, soprattutto da Cesare Questa, e l\'app prende le sue attribuzioni dalla banca dati costruita su quel lavoro da Timothy J. Moore.'
+      ],
+
+      sound: [
+        '**Pesante, lento e solenne, e poi improvvisamente no.** Bacchei e cretici hanno dentro il doppio di lungo rispetto al breve, il che li fa suonare gravi come nessun verso giambico. Usata per il lamento di uno schiavo sulla propria vita, quella gravità fa ridere, perché la forma è troppo nobile per l\'argomento.',
+        '**I cambi di metro sono la struttura.** Un cantico non ha strofe né ritornello; a dargli forma è il passaggio da un metro all\'altro, che cade dove svolta il pensiero. Leggendone uno si trovano le giunture senza conoscere il nome di nessuno dei metri, semplicemente notando dove cambia la lunghezza dei versi.',
+        '**Ed era spettacolo.** Qualcuno stava su un palco di legno con una maschera e cantava questo, con un flautista accanto, in una lingua di cui ricostruiamo l\'accento e su una musica che abbiamo perduto del tutto. Tutto ciò che sta sopra è un tentativo di sentire un\'ombra.'
+      ],
+
+      usedIntro: [
+        'Plauto, in modo schiacciante. Otto dei cinquanta estratti plautini qui sono cantici: Aulularia IV.9, Bacchides V.2, Casina II e III, Mostellaria I.2, Pseudolus V.2 e Truculentus II.5.',
+        'Qui sotto è scandito un verso, perché i bacchei vale la pena sentirli almeno una volta; dopo viene la forma di un cantico intero, che è la cosa che questa pagina esiste davvero per mostrare.'
+      ],
+
+      examples: [
+        {
+          where: 'Mostellaria, Atto I, Scena 2, v. 84',
+          gloss: 'Un tetrametro baccheo: quattro piedi, otto lunghe, quattro brevi',
+          notes: [
+            '**Quattro bacchei, esatti.** Breve, lunga, lunga, quattro volte, con un\'elisione a tenere il conto. Niente è sciolto e niente è sostituito, il che ne fa il verso baccheo più chiaro dell\'app.',
+            '**Si senta quanto è lento.** Otto sillabe lunghe su dodici, e il piede di tre sillabe fa cadere la battuta più distanziata che in qualunque verso giambico. Lo si legga ad alta voce accanto a un senario e la differenza non è sottile.',
+            '**E poi si consideri che cosa sta dicendo.** Filolachete annuncia di aver pensato a lungo e a fondo, e sta per paragonare un giovane a una casa nuova. Il metro è quello dell\'emozione alta, e viene speso per l\'analogia di un muratore: **quello scarto fra la solennità della forma e la banalità del contenuto è la battuta**, e funziona solo se il pubblico sa a che cosa serva la forma.'
+          ]
+        }
+      ],
+      after: 'Nulla di più tardo in latino è costruito così. Quando il teatro muore, il cantico polimetrico muore con lui, e la poesia latina si tiene i metri presi dalla lirica greca perché Orazio li usi uno alla volta, strofa per strofa, sulla pagina. Ciò che Plauto ebbe, per poco, fu una forma in cui il metro poteva cambiare ogni volta che chi cantava cambiava idea; e l\'unica ragione per cui possiamo dirlo è che qualcuno mise per iscritto le parole, e le parole ricordano la musica.'
+    },
+
     'elegiac-couplets': {
       name: 'Distici Elegiaci',
       tagline: 'Un esametro, e poi un verso più breve che gli ricade sotto. Il metro dell\'epigramma, dell\'epitaffio e della poesia d\'amore romana.',
@@ -324,7 +539,7 @@
 
       usedIntro: [
         'La commedia romana soprattutto: Plauto e Terenzio lo usano di continuo, e fra i due danno conto della maggior parte degli esempi latini superstiti. Poi la prima satira di Lucilio, poi i canti di marcia, la poesia popolare e infine l\'inno medievale.',
-        'In questa app è etichettato solo Lucilio, per la ragione detta sopra. L\'esempio qui sotto viene dal libro 26, la satira più antica di cui abbiamo qualcosa: lo stesso libro che porta la frase più citata della satira romana sul proprio pubblico, dove Lucilio dice di non volere che lo legga Manio Persio, notoriamente dotto, e di volere invece Giunio Congo, che non lo era. Quel verso sopravvive soltanto dentro la prefazione della Naturalis Historia di Plinio e non come verso trasmesso, perciò resta fuori dalla scansione qui sotto.'
+        'I tre esempi qui sotto sono i tre usi in una pagina sola: satira, bravura plautina e dialogo terenziano. L\'esempio qui sotto viene dal libro 26, la satira più antica di cui abbiamo qualcosa: lo stesso libro che porta la frase più citata della satira romana sul proprio pubblico, dove Lucilio dice di non volere che lo legga Manio Persio, notoriamente dotto, e di volere invece Giunio Congo, che non lo era. Quel verso sopravvive soltanto dentro la prefazione della Naturalis Historia di Plinio e non come verso trasmesso, perciò resta fuori dalla scansione qui sotto.'
       ],
 
       examples: [
@@ -339,9 +554,27 @@
             '**La pausa cade dopo Asiae nel primo verso e dopo et nel secondo**: è la dieresi del quarto piede, in entrambi i casi a fine parola, e in nessuno dei due dove l\'editore ha messo la virgola. La punteggiatura è una comodità moderna; la pausa è un fatto del verso.',
             '**Si ascolti il lessico.** *Publicanus*, *scripturarius*: sostantivi amministrativi piatti, uno dei due lungo cinque sillabe e piazzato in fine di verso. Un esametro non li reggerebbe; questo metro ha spazio, ed è in buona parte il motivo per cui la prima satira è scritta così.'
           ]
+        },
+        {
+          where: 'Miles Gloriosus, Atto II, Scena 2, v. 226',
+          gloss: 'A uno schiavo si ordina di non aver visto ciò che ha visto',
+          notes: [
+            '**Il metro fa la stessa cosa che fa la frase.** *Visa ut visa ne sint, facta ut facta ne sient*: la stessa parola due volte, poi la sua negazione, altre due volte, in due metà che si rispecchiano attraverso la pausa. Il settenario trocaico è costruito come due blocchi, e Plauto ha messo metà del paradosso in ciascuno.',
+            '**Tre elisioni**, una delle quali in apertura: *quae hic* perde il *quae*, e anche *visa ut* e *facta ut* perdono una sillaba ciascuno. Ecco come si presenta un verso plautino a piena velocità.',
+            'La pausa del quarto piede cade dopo *ne sint*, esattamente dove il pensiero passa da ciò che è stato visto a ciò che è stato fatto.'
+          ]
+        },
+        {
+          where: 'Eunuchus, Atto II, Scena 2, v. 253',
+          gloss: 'Un adulatore di professione spiega il mestiere',
+          notes: [
+            '**Dire di sì a tutto: è di gran lunga il mestiere più redditizio, adesso.** Gnatone descrive la professione del parassita, e Terenzio gli dà il lungo verso recitato invece del senario parlato: è così che si capisce che questo è un pezzo di bravura e non conversazione.',
+            '**Di nuovo tre elisioni, e una s caduta.** *Quaestu’* per *quaestus* è il troncamento colloquiale che entrambi i comici usano di continuo e che gli editori stampano con l\'apostrofo; è anche il motivo per cui la sillaba può restare breve.',
+            'Terenzio usa questo metro all\'incirca quanto usa il senario. Dove in Plauto compete con una dozzina di metri lirici, in Terenzio è semplicemente l\'altra metà della commedia.'
+          ]
         }
       ],
-      after: 'Plauto e Terenzio, che usano questo metro più di chiunque altro in latino, sono in questa app ma non portano alcuna etichetta metrica: una scena comica si muove tra il senario parlato, il settenario recitato e i metri lirici dei cantica, a volte nel giro di pochi versi, perciò una sola etichetta su un intero brano sarebbe spesso sbagliata. Quando quei brani saranno fatti, porteranno un elenco di metri con i versi coperti da ciascuno.'
+      after: 'Trenta estratti di questa app sono in questo metro, il secondo più frequente qui dopo il senario giambico, e tutti tranne due sono comici. Sopravvive alla scena in un luogo inatteso: il ritmo trocaico, non più contato per quantità ma per accento, è la forma di gran parte della poesia latina medievale, dai canti di marcia agli inni, ed è ancora udibile nel *Pange lingua*.'
     }
   };
 })(window);

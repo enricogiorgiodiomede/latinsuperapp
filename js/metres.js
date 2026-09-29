@@ -70,6 +70,154 @@
       }
     },
 
+    // THE COMIC METRES (v1.15.3). A comic scene changes metre where the action
+    // changes register, so these are assigned excerpt by excerpt, and two of
+    // them by verse range within the excerpt. The source is Timothy J. Moore,
+    // *The Meters of Roman Comedy* (https://hdwlabs.artsci.wustl.edu/romancomedy/),
+    // a database of every metrical unit in Plautus and Terence built on Cesare
+    // Questa's work; `tools/comic_metres.js` reads it and writes these entries,
+    // and `tools/scan_drama.js` checks them against the syllables independently.
+    // An excerpt that contains any lyric metre is labelled `canticum`, because
+    // naming its eight metres on a tablet would tell a reader nothing.
+    'titus-maccius-plautus': {
+      'amphitruo': { byCitation: {
+        '(Amphitruo, Prologue, vv. 50-63)': 'iambic-senarius',
+        '(Amphitruo, Act I, Scene 1, vv. 342-350)': 'trochaic-septenarius',
+        '(Amphitruo, Act I, Scene 1, vv. 427-440)': 'trochaic-septenarius',
+        '(Amphitruo, Act II, Scene 2, vv. 839-842)': 'trochaic-septenarius',
+        '(Amphitruo, Act V, Scene 1, vv. 1107-1116)': 'trochaic-septenarius'
+      } },
+      'asinaria': { byCitation: {
+        '(Asinaria, Act I, Scene 3, vv. 153-166)': 'trochaic-septenarius',
+        '(Asinaria, Act II, Scene 4, vv. 491-503)': 'iambic-septenarius',
+        '(Asinaria, Act III, Scene 3, vv. 591-602)': 'iambic-septenarius',
+        '(Asinaria, Act IV, Scene 1, vv. 746-755)': 'iambic-senarius',
+        '(Asinaria, Act V, Scene 1, vv. 830-841)': 'iambic-octonarius'
+      } },
+      'aulularia': { byCitation: {
+        '(Aulularia, Prologue, vv. 1-12)': 'iambic-senarius',
+        '(Aulularia, Act I, Scene 1, vv. 40-51)': 'iambic-senarius',
+        '(Aulularia, Act III, Scene 5, vv. 475-484)': 'iambic-senarius',
+        '(Aulularia, Act IV, Scene 9, vv. 713-720)': 'canticum',
+        '(Aulularia, Act IV, Scene 10, vv. 740-752)': 'trochaic-septenarius'
+      } },
+      'bacchides': { byCitation: {
+        '(Bacchides, Act I, Scene 1, vv. 44-77)': 'trochaic-septenarius',
+        '(Bacchides, Act II, Scene 3, vv. 349-362)': 'iambic-senarius',
+        '(Bacchides, Act III, Scene 1, vv. 368-381)': 'trochaic-septenarius',
+        '(Bacchides, Act IV, Scene 9, vv. 925-945)': 'iambic-octonarius',
+        '(Bacchides, Act V, Scene 2, vv. 1121-1151)': 'canticum'
+      } },
+      'casina': { byCitation: {
+        '(Casina, Act I, vv. 89-103)': 'iambic-senarius',
+        '(Casina, Act II, vv. 217-227)': 'canticum',
+        '(Casina, Act II, vv. 357-369)': 'trochaic-septenarius',
+        '(Casina, Act III, vv. 621-633)': 'canticum',
+        '(Casina, Act V, vv. 998-1010)': 'trochaic-septenarius'
+      } },
+      'menaechmi': { byCitation: {
+        '(Menaechmi, Prologue, vv. 17-28)': 'iambic-senarius',
+        '(Menaechmi, Act I, Scene 1, vv. 77-95)': 'iambic-senarius',
+        '(Menaechmi, Act II, Scene 2, vv. 285-298)': 'iambic-senarius',
+        '(Menaechmi, Act V, Scene 1, vv. 701-752)': 'iambic-senarius',
+        '(Menaechmi, Act V, Scene 2, vv. 829-852)': 'trochaic-septenarius'
+      } },
+      'miles-gloriosus': { byCitation: {
+        '(Miles Gloriosus, Act I, Scene 1, vv. 1-18)': 'iambic-senarius',
+        '(Miles Gloriosus, Act II, Scene 2, vv. 221-234)': 'trochaic-septenarius',
+        '(Miles Gloriosus, Act III, Scene 1, vv. 678-689)': 'trochaic-septenarius',
+        '(Miles Gloriosus, Act IV, Scene 2, vv. 991-1004)': 'trochaic-septenarius',
+        '(Miles Gloriosus, Act V, Scene 1, vv. 1424-1437)': 'trochaic-septenarius'
+      } },
+      'mostellaria': { byCitation: {
+        '(Mostellaria, Act I, Scene 1, vv. 1-10)': 'iambic-senarius',
+        '(Mostellaria, Act I, Scene 2, vv. 84-92)': 'canticum',
+        '(Mostellaria, Act II, Scene 1, vv. 348-353)': 'trochaic-septenarius',
+        '(Mostellaria, Act II, Scene 2, vv. 493-505)': 'iambic-senarius',
+        '(Mostellaria, Act III, Scene 1, vv. 532-543)': 'iambic-senarius'
+      } },
+      'pseudolus': { byCitation: {
+        '(Pseudolus, Act I, Scene 1, vv. 22-36)': 'iambic-senarius',
+        '(Pseudolus, Act I, Scene 3, vv. 357-369)': 'trochaic-septenarius',
+        '(Pseudolus, Act I, Scene 4, vv. 394-405)': 'iambic-senarius',
+        '(Pseudolus, Act IV, Scene 2, vv. 963-977)': 'trochaic-septenarius',
+        '(Pseudolus, Act V, Scene 2, vv. 1293-1306)': 'canticum'
+      } },
+      'truculentus': { byCitation: {
+        '(Truculentus, Act I, Scene 1, vv. 22-34)': 'iambic-senarius',
+        '(Truculentus, Act II, Scene 2, vv. 256-268)': 'trochaic-septenarius',
+        '(Truculentus, Act II, Scene 5, vv. 448-460)': 'canticum',
+        '(Truculentus, Act III, Scene 2, vv. 669-678)': 'iambic-senarius',
+        '(Truculentus, Act IV, Scene 3, vv. 775-784)': 'trochaic-septenarius'
+      } },
+    },
+    'publius-terentius-afer': {
+      'andria': { byCitation: {
+        '(Andria, Act I, Scene 1, vv. 115-126)': 'iambic-senarius',
+        '(Andria, Act I, Scene 2, vv. 185-195)': 'iambic-octonarius',
+        '(Andria, Act III, Scene 2, vv. 471-480)': 'iambic-senarius',
+        '(Andria, Act III, Scene 3, vv. 550-555)': 'iambic-senarius',
+        '(Andria, Act V, Scene 3, vv. 889-905)': [{ m: 'iambic-senarius', from: 889, to: 895 }, { m: 'trochaic-septenarius', from: 896, to: 905 }]
+      } },
+      'hecyra': { byCitation: {
+        '(Hecyra, Prologue, vv. 33-45)': 'iambic-senarius',
+        '(Hecyra, Act I, Scene 1, vv. 58-70)': 'iambic-senarius',
+        '(Hecyra, Act IV, Scene 2, vv. 585-595)': 'iambic-octonarius',
+        '(Hecyra, Act V, Scene 1, vv. 750-760)': [{ m: 'iambic-octonarius', from: 750, to: 750 }, { m: 'trochaic-septenarius', from: 751, to: 751 }, { m: 'iambic-octonarius', from: 752, to: 754 }, { m: 'trochaic-septenarius', from: 755, to: 760 }],
+        '(Hecyra, Act V, Scene 3, vv. 833-840)': 'iambic-septenarius'
+      } },
+      'heauton-timorumenos': { byCitation: {
+        '(Heautontimorumenos, Act I, scene 1, vv. 75-87)': 'iambic-senarius',
+        '(Heautontimorumenos, Act I, Scene 1, vv. 93-101)': 'iambic-senarius',
+        '(Heautontimorumenos, Act II, Scene 1, vv. 213-219)': 'iambic-octonarius',
+        // vv. 668-677 are octonarii; v. 678 is set out by editors as two
+        // shorter lines (a catalectic quaternarius and a senarius), so it is
+        // left out of the label rather than called something it is not.
+        '(Heautontimorumenos, Act IV, Scene 2, vv. 668-678)': [{ m: 'iambic-octonarius', from: 668, to: 677 }],
+        '(Heautontimorumenos, Act V, Scene 1, vv. 915-923)': 'iambic-senarius'
+      } },
+      'eunuchus': { byCitation: {
+        '(Eunuchus, Prologue, vv. 23-34)': 'iambic-senarius',
+        '(Eunuchus, Act II, Scene 2, vv. 247-254)': 'trochaic-septenarius',
+        '(Eunuchus, Act IV, Scene 5, vv. 727-732)': 'iambic-octonarius',
+        '(Eunuchus, Act IV, Scene 7, vv. 771-782)': 'iambic-octonarius',
+        '(Eunuchus, Act V, Scene 9, vv. 1084-1094)': 'trochaic-septenarius'
+      } },
+      'phormio': { byCitation: {
+        '(Phormio, Prologue, vv. 1-11)': 'iambic-senarius',
+        '(Phormio, Act II, Scene 1, vv. 201-206)': 'trochaic-septenarius',
+        '(Phormio, Act II, Scene 4, vv. 447-459)': 'iambic-senarius',
+        '(Phormio, Act III, Scene 2, vv. 317-328)': 'trochaic-septenarius',
+        '(Phormio, Act V, Scene 9, vv. 1040-1055)': 'trochaic-septenarius'
+      } },
+      'adelphoe': { byCitation: {
+        '(Adelphoe, Prologue, vv. 6-21)': 'iambic-senarius',
+        '(Adelphoe, Act I, Scene 1, vv. 64-77)': 'iambic-senarius',
+        '(Adelphoe, Act I, Scene 2, vv. 112-121)': 'iambic-senarius',
+        '(Adelphoe, Act IV, Scene 2, vv. 428-434)': 'iambic-senarius',
+        '(Adelphoe, Act V, Scene 4, vv. 866-879)': 'trochaic-septenarius'
+      } },
+    },
+    // Caecilius is not in Moore's database - he survives only in quotations -
+    // so these come from the scanner, which leaves one metre standing for every
+    // line, and agree with what Gellius says he is doing. Two fragments are
+    // left unlabelled on purpose: the long Plocium quotation at II.23.10 turns
+    // from trochaic septenarii to senarii partway and has no verse numbers to
+    // mark the turn by, and the single line in Tusculanae III.56 is long enough
+    // to be any of four metres.
+    'caecilius-statius': {
+      'plocium': { byCitation: {
+        '(Plocium, in Gellius, Noctes Atticae II.23.13)': 'iambic-senarius',
+        '(Plocium, in Gellius, Noctes Atticae II.23.21)': 'iambic-senarius',
+        '(Plocium, in Donatus, ad Andriam IV.5.10)': 'iambic-senarius',
+        '(Plocium, in Nonius, De Compendiosa Doctrina 314.21)': 'iambic-senarius'
+      } },
+      'other': { byCitation: {
+        '(Incertae fabulae, in Cicero, De Senectute 25)': 'iambic-senarius',
+        '(Synephebi, in Cicero, Tusculanae Disputationes I.31)': 'iambic-senarius'
+      } }
+    },
+
     // Catullus is polymetric, and each of the three excerpts is a whole poem,
     // so each has one answer.
     'gaius-valerius-catullus': {
@@ -390,6 +538,277 @@
       after: 'Nothing later is written in it. The Saturnian is the one Latin metre with no afterlife at all: it was not developed, it was replaced, and what replaced it is the dactylic hexameter.'
     },
 
+
+    'iambic-senarius': {
+      name: 'Iambic Senarius',
+      tagline: 'The spoken line of Roman comedy, and the closest thing Latin verse ever gets to ordinary talk.',
+      scheme: '× – | × – | × – | × – | × – | ⏑ ×',
+      schemeNote: 'Six feet. The second half of each foot is long, the first half is free, and only the eleventh syllable is fixed short. Any long may be broken into two shorts, so the line runs from twelve syllables to about eighteen.',
+
+      origin: [
+        '**It is Greek, and it was already the voice of dialogue when Rome met it.** The Athenian dramatists used the iambic trimeter for everything their characters said to each other, keeping the lyric metres for the chorus. Aristotle explains why in the *Poetics*: of all the metres this one is closest to the rhythm of speech, and people fall into it by accident while talking. That is a remarkable thing to say about a verse form, and it is the whole reason this metre exists.',
+        '**The name records a disagreement about arithmetic.** A Greek counted this line as three *metra*, each metron a pair of feet, and called it a trimeter. A Roman counted the feet and called it a senarius, a thing of six. Same line, different unit, and the difference is not pedantry: the Greek pairing keeps the odd positions subordinate, and Latin, as you will see below, stopped treating them that way at all.',
+        '**Before the theatre it was the metre of abuse.** *Iambos* in Greek meant invective: Archilochus used it in the seventh century BC to destroy his enemies in public, and the name of the metre and the name of the genre are the same word. Comedy inherits a form with that history attached, which is convenient for a genre in which slaves insult their owners for a living.',
+        '**In Latin it arrives with the theatre itself** and never leaves. Livius Andronicus, Naevius and Ennius use it for the dialogue of tragedy; Plautus and Terence build comedy on it; and long after the stage has finished with it, it is still the line of Phaedrus\'s fables and of Seneca\'s tragedies, which were written to be read.',
+        '**By volume it is the most important metre in early Latin.** Rather more than a third of Plautus and about half of Terence is in senarii, and the thirty-six excerpts in this app that carry this label are the largest single group in the bank. If you are reading early Latin verse at all, you are mostly reading this line.'
+      ],
+
+      build: [
+        '**Twelve positions, in six feet of two.** The even position of each foot is a longum. The odd position is an *anceps*, free to be long or short. The last foot is the exception and the anchor: it has to be a true iamb, short and then the final syllable, which is why **the eleventh syllable of a senarius is the one place you can always predict.**',
+        '**This is where Latin parted company with Greek.** The Greek trimeter fixes the third syllable of each metron short, so the line keeps an audible ⏑ – ⏑ – lilt all the way through. Latin freed it. Every odd position in a Latin senarius may be long, and a great many are, because Latin is full of heavy syllables and its words do not fall naturally into alternating lights and longs. The result is a line that can be almost all spondees, and Caecilius wrote one: it is the second example below.',
+        '**Resolution is everywhere.** Any longum, and any anceps taken long, may be replaced by two short syllables, except in the closing foot. That is what lets a comic poet get *familiaris* or *obsignatas* into a verse at all, and it is why a senarius of eighteen syllables is still a senarius of twelve positions.',
+        '**The break comes after the fifth or the seventh half-foot.** In practice: a word ends in the middle of the third foot, or in the middle of the fourth. Plautus is freer about it than Terence, and a line with no break at either point sounds, to an ear trained on these plays, like a line that has run on.',
+        '**How to scan one from cold.** Count the syllables after elision. Twelve means one syllable to a position and no resolutions, so the shape is fixed before you start. More than twelve means that many resolutions to place, and you find them by looking for pairs of adjacent light syllables. Then check the eleventh position: if it is not short, you have gone wrong somewhere earlier.'
+      ],
+
+      sound: [
+        '**This is the metre that was spoken, not sung.** A Roman comedy alternates *diverbium*, spoken dialogue, with passages recited or sung to the *tibia*, the double pipe. The senarius is the diverbium: no music, no accompaniment, an actor simply talking in verse. The manuscripts of Plautus still mark those passages DV in the margin.',
+        '**So it carries the plain business of the play.** Prologues, expositions, the scene where somebody explains what has happened: senarii. **When a scene stops being in senarii the temperature has gone up**, and that is worth watching for, because it is very nearly the only stage direction Roman comedy gives you.',
+        '**To the ear it is loose and quick.** Twelve syllables at its tightest and eighteen at its most crowded, with substitutions free enough that no two consecutive lines need sound alike. It is verse that does not insist on being verse, which is exactly what dialogue needs.',
+        '**And the word accent works against the metre, productively.** The stress of the Latin words need not fall on the longa, and in comedy it often does not. Read the quantities and let the accents fall where they fall: the friction between the two is not a defect but the thing that stops the line sounding like a nursery rhyme.'
+      ],
+
+      usedIntro: [
+        'Spoken dialogue in comedy and in tragedy; the fables of Phaedrus; the tragedies of Seneca. All three comic playwrights in this app use it, and the three examples below are one each, in the order they lived.',
+        'The metre is identical in all three, so what differs is the hand, and the difference is audible.'
+      ],
+
+      examples: [
+        {
+          author: 'Titus Maccius Plautus',
+          slug: 'titus-maccius-plautus', era: 'archaic',
+          where: 'Aulularia, Prologue, v. 2',
+          gloss: 'The household god introduces himself, resolving three feet as he goes',
+          plain: 'ego Lar sum familiaris ex hac familia',
+          source: 'bank',
+          marked: 'ĕgŏ Lār | sūm fămĭ|lĭā|rĭs ēx | hāc fămĭ|lĭă',
+          pattern: '⏑ ⏑ – | – ⏑ ⏑ | ⏑ – | ⏑ – | – ⏑ ⏑ | ⏑ ×',
+          notes: [
+            '**Fifteen syllables in twelve positions**, so three resolutions, and you can hear every one of them: *ego* at the start, the *-mili-* of *familiaris*, and the *-mili-* of *familia* again. A line that runs like this is what people mean when they call Plautine verse colloquial.',
+            '**The repetition is the joke, and the metre carries it.** The Lar says he is the god of the household and then names the household, *familiaris ... familia*, and the same three light syllables do the same metrical work both times.',
+            'Watch the eleventh position, the *-li-* of the second *familia*: short, as it has to be, with the indifferent syllable after it. Every senarius on this page ends that way.'
+          ]
+        },
+        {
+          author: 'Caecilius Statius',
+          slug: 'caecilius-statius', era: 'archaic',
+          where: 'Plocium, in Donatus, ad Andriam IV.5.10',
+          gloss: 'Ten longs in a row, and then the one short the metre insists on',
+          plain: 'Vivas ut possis, quando nec quis ut velis.',
+          source: 'bank',
+          marked: 'Vīvās | ūt pōs|sīs, quān|dō nēc | quīs ūt | vĕlīs.',
+          pattern: '– – | – – | – – | – – | – – | ⏑ ×',
+          notes: [
+            '**Live as you can, since you cannot live as you would like.** Twelve syllables for twelve positions, so nothing is resolved and nothing is in doubt: this is the senarius at its most transparent, and the best line in the app for seeing the shape whole.',
+            '**Ten long syllables, and then a short.** Every anceps is taken long, which the Greek trimeter would not permit, and the effect is a line of granite with a single hinge in it. The hinge is the *ve-* of *velis*, the eleventh position, the one syllable a senarius cannot make long. **The rule that looked arbitrary a moment ago is audible here.**',
+            'The sentence is built like the verse: two halves that balance, *ut possis* against *ut velis*, turning at the break in the middle of the third foot.'
+          ]
+        },
+        {
+          author: 'Publius Terentius Afer',
+          slug: 'publius-terentius-afer', era: 'archaic',
+          where: 'Adelphoe, Act IV, Scene 2, v. 430',
+          gloss: 'The same metre in a quieter hand',
+          plain: 'inepta haec esse, nos quae facimus, sentio;',
+          source: 'bank',
+          marked: 'ĭnēp|t(a) haec ēs|sĕ, nōs | quae făcĭ|mūs, sēn|tĭō;',
+          pattern: '⏑ – | – – | ⏑ – | – ⏑ ⏑ | – – | ⏑ ×',
+          notes: [
+            '**One elision and one resolution in thirteen syllables**, against Plautus\' three resolutions in fifteen. That ratio is the difference between the two poets in miniature: Terence keeps the line nearer its skeleton, and the effect is smoother and less like overheard speech.',
+            '**The word order is doing what the metre allows.** The judgement comes first, the relative clause sits inside it, and the verb arrives last, so the sentence closes exactly where the line does.',
+            'Syrus is admitting that the things he does are silly. The one resolution in the line falls on *facimus*, the only word in it that is about doing rather than thinking.'
+          ]
+        }
+      ],
+      after: 'The senarius outlived the theatre. Phaedrus wrote his fables in it in the first century AD, and Seneca used it for the dialogue of tragedies meant to be read rather than staged, by which time two hundred years of comedy had made it simply the Latin verse for people talking. Neither poet is in this app yet.'
+    },
+
+    'iambic-septenarius': {
+      name: 'Iambic Septenarius',
+      tagline: 'The long iambic line of comedy, played to the pipe, and the one the Romans associated with being pleased about something.',
+      scheme: '× – | × – | × – | × – ‖ × – | × – | ⏑ – | ×',
+      schemeNote: 'Seven feet and a syllable, with a break in the middle that normally falls at the end of the fourth foot. The rules are the senarius rules, extended by one foot and a half.',
+
+      origin: [
+        '**It is the senarius made longer, and the extra length changes what it is for.** The Greek trimeter was the metre of dialogue; the catalectic iambic tetrameter, seven feet and a closing syllable, belonged to comedy and to lively popular verse, and Rome took it with those associations attached.',
+        '**Roman writers connect it with cheerfulness.** It appears in comedy at moments of pleasure, relief and mischief often enough that the later grammarians treated it as the metre of good news. That is a generalisation with exceptions, but the tendency is real and worth listening for: Plautus does not often give this line to somebody having a bad time.',
+        '**It had a life outside the theatre too.** The iambic septenarius is the metre of the soldiers\' songs chanted at a triumph, the ones that insulted the general to his face while he rode in procession, and of a quantity of popular verse that has not survived. Of all the metres of Roman comedy this is the one with the closest links to what ordinary people actually sang.',
+        '**Plautus uses it constantly; Terence hardly at all.** That is one of the clearest metrical differences between them, and it is part of a larger one: Plautus wrote a musical and Terence wrote a play.'
+      ],
+
+      build: [
+        '**Fifteen positions: seven iambic feet and a final syllable.** Everything the senarius allows, this allows. Odd positions are free, even positions are long, resolution is available almost everywhere, and the seventh foot is a true iamb, short then long, exactly as the sixth foot of a senarius is.',
+        '**The middle break is the thing to listen for.** A word normally ends at the close of the fourth foot, splitting the line into eight positions and seven. When it does, the two halves answer each other and the verse falls into two phrases; when a poet avoids the break, the line runs straight through and you notice.',
+        '**Because it is long, it holds a whole thought.** A senarius usually needs a partner to finish a sentence; a septenarius often does not. In practice that makes it the line for a self-contained remark, a joke with its setup and its point inside one verse.',
+        '**Do not confuse it with the trochaic septenarius**, which has the same number of positions and an entirely different rhythm: the trochaic line starts on a longum and swings, the iambic one starts on a free syllable and runs. If you are unsure which you are reading, look at the end. An iambic line closes ⏑ – ×; a trochaic one closes – ⏑ ×.'
+      ],
+
+      sound: [
+        '**It was performed to music.** This is one of the accompanied metres, played to the *tibia*, unlike the spoken senarius. A scene that moves out of senarii into septenarii has just turned the music on.',
+        '**The pace is quick and the shape is symmetrical.** Two halves of roughly equal weight, a clear hinge in the middle, and an iambic run to the close. Read aloud, it has a swing that the senarius refuses to have.',
+        '**Its natural register is comic**, though not slapstick: the tone is enjoyment, and it suits a character who is pleased with himself. Both examples below are somebody being pleased with himself.'
+      ],
+
+      usedIntro: [
+        'Comedy, above all Plautine comedy; the songs sung at triumphs; popular verse generally. Three excerpts in this app are in it, two from Plautus and one from Terence, which is roughly the proportion in the surviving plays.'
+      ],
+
+      examples: [
+        {
+          author: 'Titus Maccius Plautus',
+          slug: 'titus-maccius-plautus', era: 'archaic',
+          where: 'Asinaria, Act III, Scene 3, v. 599',
+          gloss: 'A young man is called a Solon, during office hours',
+          plain: 'negotiosum interdius videlicet Solonem,',
+          source: 'bank',
+          marked: 'nĕgō|tĭō(sum) | īntēr|dĭūs | vĭdē|lĭcēt | Sŏlō|nĕm,',
+          pattern: '⏑ – | ⏑ – | – – | ⏑ – | ⏑ – | ⏑ – | ⏑ – | ×',
+          notes: [
+            '**Six iambs in a row after the third foot**, which is about as regular as a Latin iambic line ever gets, and the regularity is part of the joke: the verse marches along like the busy respectable citizen it is describing.',
+            '**A Solon, in office hours.** *Videlicet* is sarcastic, Solon is the Athenian lawgiver, and *interdius* means during the working day: a model of Athenian wisdom by daylight and something else entirely at night. Parking the Greek lawgiver at the end of a Latin comic line is the kind of joke this metre exists for.',
+            'The elision in the second foot is what keeps the line to fifteen syllables. Written out in full, *negotiosum interdius* would need sixteen, and there is no room.'
+          ]
+        },
+        {
+          author: 'Publius Terentius Afer',
+          slug: 'publius-terentius-afer', era: 'archaic',
+          where: 'Hecyra, Act V, Scene 3, v. 838',
+          gloss: 'Three spondees, and then the metre finds its feet',
+          plain: 'haec tot propter me gaudia illi contigisse laetor:',
+          source: 'bank',
+          marked: 'haec tōt | prōptēr | mē gau|dĭ(a) īl|lī cōn|tĭgīs|sĕ lae|tōr:',
+          pattern: '– – | – – | – – | ⏑ – | – – | ⏑ – | ⏑ – | ×',
+          notes: [
+            '**The line is built in two halves and you can hear the join.** Three heavy feet, all spondees, carry *haec tot propter me*; from the elision onwards it runs in pure iambs to the end. The turn falls exactly where the sense turns, from what she has done to what he feels about it.',
+            '**Terence using the metre for its traditional purpose**, which is pleasure: Pamphilus is glad. It is also, characteristically, a quieter gladness than Plautus would have written, and the three opening spondees are what make it quieter.',
+            'Terence has very few iambic septenarii in all. When one appears it tends to be at a moment like this, where a character is relieved rather than triumphant.'
+          ]
+        }
+      ],
+      after: 'The metre dies with the comic stage. Its last real life is in the marching songs of the legions, quoted by the historians and never written down as literature; after that Latin poetry keeps the iambic trimeter for drama and lets this one go.'
+    },
+
+
+    'iambic-octonarius': {
+      name: 'Iambic Octonarius',
+      tagline: 'The longest regular line in Roman comedy, and the one a character reaches for when he has lost his composure.',
+      scheme: '× – | × – | × – | × – ‖ × – | × – | × – | ⏑ ×',
+      schemeNote: 'Eight full feet, sixteen positions, with no catalexis: the line runs to the end of its last foot instead of stopping a syllable short.',
+
+      origin: [
+        '**It is the iambic line taken as far as it will go.** Four full metra, eight feet, sixteen positions. The Greeks had the form and used it sparingly; the Romans took it up with enthusiasm, and it is one of the places where Latin comedy is demonstrably not just Greek comedy in translation.',
+        '**Terence is its great user.** The proportions are striking: iambic octonarii account for a substantial part of Terence and a small part of Plautus, which is the opposite of what people expect from the poet usually described as the more sober of the two. Plautus had the whole lyric repertory to reach for when a scene needed lifting; Terence, who almost never writes lyric, does that work with this line instead.',
+        '**So the metre is a solution to a problem Terence set himself.** If you will not stop the play for a song, you need a verse that can carry emotional pressure while remaining speech. Sixteen positions of iambic movement, accompanied by the pipe, is that verse.'
+      ],
+
+      build: [
+        '**Sixteen positions in eight feet, and the familiar rules.** Odd positions free, even positions long, resolution available except at the close, and the eighth foot a true iamb: short, then the final indifferent syllable.',
+        '**A break usually falls after the fourth foot**, splitting the line into two halves of eight positions. That is the same hinge as the septenarius has, but here both halves are the same length, so the symmetry is exact and the line can be built as a pair of matched clauses.',
+        '**The extra foot is not decoration.** Two syllables more than a septenarius means room for one more phrase, and in practice that is what the metre is for: the character says the thing, and then says the bit he could not fit in.',
+        '**Watch for resolutions rather than counting syllables.** An octonarius with several resolutions can reach twenty syllables or more, at which point it stops being obvious that you are looking at a line of verse at all. Find the eight longa and the shape reappears.'
+      ],
+
+      sound: [
+        '**It is accompanied, and it is fast.** The senarius is spoken, the octonarius is performed to the *tibia*, and a scene that steps up from senarii to octonarii has changed gear audibly.',
+        '**The register is agitation.** Not song, and not calm speech: this is the metre of the monologue delivered at speed by somebody who has just had news, or drunk too much, or realised what he has done. Both examples below are exactly that.',
+        '**Long lines are hard to keep moving**, and the poets know it. The commonest way of keeping this one alive is a run of spondees followed by a sudden pair of shorts, which is why an octonarius so often sounds as if it were accelerating towards its last foot.'
+      ],
+
+      usedIntro: [
+        'Comedy, and chiefly Terence. Ten excerpts in this app are in it, which makes it the third most common metre here after the senarius and the trochaic septenarius.',
+        'The two examples are a Plautine slave with a letter in his hand and a Terentian gentleman who has been drinking, and the metre suits both of them for the same reason.'
+      ],
+
+      examples: [
+        {
+          author: 'Titus Maccius Plautus',
+          slug: 'titus-maccius-plautus', era: 'archaic',
+          where: 'Bacchides, Act IV, Scene 9, v. 925',
+          gloss: 'Twelve long syllables in a row, and a letter that will not open itself',
+          plain: 'nam ego has tabellas obsignatas consignatas quas fero',
+          source: 'bank',
+          marked: '(nam) ĕ(go) hās | tăbēl|lās ōb|sīgnā|tās cōn|sīgnā|tās quās | fĕrō',
+          pattern: '⏑ – | ⏑ – | – – | – – | – – | – – | – – | ⏑ ×',
+          notes: [
+            '**Sixteen syllables for sixteen positions**, so nothing is resolved: every position takes one syllable, and the line is as slow as the metre can be made.',
+            '**Two elisions at the start and then a wall.** *Nam ego has* collapses into two syllables of running start, and after that come twelve consecutive longs: *obsignatas consignatas* is a pair of five-syllable participles that mean almost the same thing, sealed and countersealed, and the verse simply stops sounding like speech and starts sounding like an official document. Chrysalus is carrying a letter and the metre is carrying its seals.',
+            '**Then the last foot releases it**, *fero*, short and long, the one light syllable in the second half of the line. Plautus does this repeatedly: a heavy line with the verb dropped lightly at the end.'
+          ]
+        },
+        {
+          author: 'Publius Terentius Afer',
+          slug: 'publius-terentius-afer', era: 'archaic',
+          where: 'Eunuchus, Act IV, Scene 5, v. 729',
+          gloss: 'A gentleman discovers that he was not as sober as he thought',
+          plain: 'at dum accubabam quam videbar mi esse pulchre sobrius!',
+          source: 'bank',
+          marked: 'āt (dum) āc|cŭbā|bām quām | vĭdē|bār (mi) ēs|sĕ pūl|chrĕ sō|brĭŭs!',
+          pattern: '– – | ⏑ – | – – | ⏑ – | – – | ⏑ – | ⏑ – | ⏑ ×',
+          notes: [
+            '**Four short syllables, evenly spaced, and everything else long.** The line alternates heavy feet with light ones almost regularly, and the effect is a man walking carefully and not quite managing it.',
+            '**This is Terence using the octonarius where Plautus would have written a song.** Chremes has been at dinner; he is explaining, at length and in order, that the wine has caught up with him. The metre is long enough to hold the whole self-observation in one verse, which is the joke.',
+            'Note *pulchre* in the seventh foot: an adverb that normally means beautifully, used here to mean thoroughly, and sitting on the light syllable of the foot so that it goes past almost unnoticed.'
+          ]
+        }
+      ],
+      after: 'Like the septenarius, the octonarius belongs to the stage and does not survive it. What survives is the discovery behind it, that a long iambic line can carry feeling without turning into song, and that is a discovery Latin poetry made twice more, in Horace\'s epodes and in the dialogue of Senecan tragedy.'
+    },
+
+    'canticum': {
+      name: 'Canticum',
+      tagline: 'The sung parts of Roman comedy: not one metre but a dozen, changing from verse to verse, and the most original thing Plautus ever did.',
+      scheme: [
+        '⏑ – –   bacchius',
+        '– ⏑ –   creticus',
+        '⏑ ⏑ –   anapaest'
+      ],
+      schemeNote: 'These are feet, not lines. A canticum is built by repeating and mixing them, four to the line and then three, changing metre when the singer changes thought, so there is no single scheme to give.',
+
+      origin: [
+        '**A Roman comedy is partly a musical**, and this is the part that is sung. The ancient distinction is between *diverbium*, spoken dialogue in senarii, and *canticum*, performed to the *tibia*. The manuscripts of Plautus still carry the marks: DV against the spoken passages, C against the sung ones.',
+        '**Greek New Comedy did not work like this.** Menander wrote dialogue, with choral interludes between the acts which are not even copied into the manuscripts, because they were not part of the text. Plautus removed the chorus and put the singing inside the action, given to the characters themselves. **That is his own invention, and it changes what comedy is**: a Plautine slave does not merely scheme, he performs an aria about scheming.',
+        '**The proportions are remarkable.** Something like two thirds of Plautus is accompanied in one way or another, and a substantial part of that is genuine polymetric song. Terence went the other way and wrote almost none: of the thirty Terentian excerpts in this app not one is a canticum, and of the fifty Plautine ones eight are.',
+        '**Where the music went, nobody knows.** Not a note of the *tibia* parts survives. What survives is the metre, which is the shadow the music left on the words, and it is the only evidence we have of what these scenes sounded like.'
+      ],
+
+      build: [
+        '**Three feet do most of the work.** The *bacchius* (⏑ – –), the *creticus* (– ⏑ –) and the anapaest (⏑ ⏑ –). Each is used in fours and threes to make a line, so a bacchiac tetrameter is four bacchii, a cretic tetrameter four cretics, and so on. Compared with the iambic and trochaic lines these are heavy feet, two longs to one short, and they move slowly.',
+        '**And then the poet mixes them.** A canticum is a sequence of metrical units, each a few verses long, and the metre changes at the joins. The units have names of their own where they recur - the *versus reizianus*, the *colon reizianum*, the *wilamowitzianum* - and some are simply marked *incertum*, uncertain, by the scholars who have tried to sort them out.',
+        '**This is why eight excerpts in this app carry no metre name at all, only the label canticum.** Naming the metre of such a passage means naming ten of them, one per verse or two, and a label that long tells a reader nothing. The one below is a fair specimen: it is thirteen verses of Pseudolus and it changes metre nine times.',
+        '**The reconstruction is modern and it is hard.** The manuscripts give no metrical marks beyond C and DV; everything else has been worked out from the words, chiefly by Cesare Questa, and the app takes its assignments from the database built on that work by Timothy J. Moore.'
+      ],
+
+      sound: [
+        '**Heavy, slow and formal, and then suddenly not.** Bacchiacs and cretics have twice as much long as short in them, which makes them sound weighty in a way no iambic line does. Used for a slave\'s complaint about his life, that weight is funny, because the form is far too grand for the subject.',
+        '**The changes of metre are the structure.** A canticum has no stanza and no refrain; what shapes it is the turn from one metre into another, which falls where the thought turns. Reading one, you can find the joints without knowing any of the metres by name, simply by noticing where the line length changes.',
+        '**And it was staged.** Somebody stood on a wooden stage in a mask and sang this, with a piper beside him, in a language whose accent we reconstruct and to music we have entirely lost. Everything above is an attempt to hear a shadow.'
+      ],
+
+      usedIntro: [
+        'Plautus, overwhelmingly. Eight of the fifty Plautine excerpts here are cantica: Aulularia IV.9, Bacchides V.2, Casina II and III, Mostellaria I.2, Pseudolus V.2 and Truculentus II.5.',
+        'One verse is scanned below, because bacchiacs are worth hearing once; after it comes the shape of a whole canticum, which is the thing this page really exists to show.'
+      ],
+
+      examples: [
+        {
+          author: 'Titus Maccius Plautus',
+          slug: 'titus-maccius-plautus', era: 'archaic',
+          where: 'Mostellaria, Act I, Scene 2, v. 84',
+          gloss: 'A bacchiac tetrameter: four feet, eight longs, four shorts',
+          plain: 'Recordatus multum et diu cogitavi',
+          source: 'bank',
+          marked: 'Rĕcōrdā|tŭs mūlt(um) ēt | dĭū cō|gĭtāvī',
+          pattern: '⏑ – – | ⏑ – – | ⏑ – – | ⏑ – –',
+          notes: [
+            '**Four bacchii, exactly.** Short, long, long, four times over, with one elision to keep the count right. Nothing is resolved and nothing is substituted, which makes this the clearest bacchiac line in the app.',
+            '**Listen to how slow it is.** Eight long syllables out of twelve, and the three-syllable foot means the beat falls further apart than in any iambic line. Read it aloud next to a senarius and the difference is not subtle.',
+            '**And then consider what he is saying.** Philolaches is announcing that he has thought long and hard, and is about to compare a young man to a new house. The metre is the metre of high emotion, and it is being spent on a builder\'s analogy: **that gap between the grandeur of the form and the banality of the content is the joke**, and it is a joke that only works if the audience knows what the form is for.'
+          ]
+        }
+      ],
+      after: 'Nothing later in Latin is built this way. When the theatre dies, the polymetric canticum dies with it, and Latin poetry keeps the metres it borrowed from Greek lyric for Horace to use one at a time, stanza by stanza, on the page. What Plautus had, briefly, was a form in which the metre could change whenever the singer changed his mind - and the only reason we can say so is that somebody wrote the words down and the words remember the tune.'
+    },
+
     'elegiac-couplets': {
       name: 'Elegiac Couplets',
       tagline: 'A hexameter, and then a shorter line that falls away underneath it. The metre of the epigram, of the epitaph, and of Roman love poetry.',
@@ -493,7 +912,7 @@
 
       usedIntro: [
         'Roman comedy above all - Plautus and Terence use it constantly, and between them they account for most of the surviving examples in Latin. Then Lucilius\' earliest satire, then marching songs, popular verse, and eventually the medieval hymn.',
-        'Only Lucilius is labelled with it in this app, for the reason given above. The example below is from Book 26, the earliest satire we have any of - the same book that carries the most quoted sentence in Roman satire about its own audience, where Lucilius says he does not want Manius Persius, who was famously learned, to read him, and does want Iunius Congus, who was not. That line survives only inside the preface to Pliny\'s Natural History rather than as transmitted verse, so it is left out of the scansion below.'
+        'The three examples below are the three uses in one page: satire, Plautine performance and Terentian dialogue. The first is from Lucilius, Book 26, the earliest satire we have any of - the same book that carries the most quoted sentence in Roman satire about its own audience, where Lucilius says he does not want Manius Persius, who was famously learned, to read him, and does want Iunius Congus, who was not. That line survives only inside the preface to Pliny\'s Natural History rather than as transmitted verse, so it is left out of the scansion below.'
       ],
 
       examples: [
@@ -523,9 +942,39 @@
             '**The break falls after Asiae in the first line and after et in the second** - the fourth-foot diaeresis, in both cases at a word end, and in neither case where the editor has put the comma. Punctuation is a modern convenience; the break is a fact about the verse.',
             '**Listen to the vocabulary.** *Publicanus*, *scripturarius* - flat administrative nouns, one of them five syllables long and sitting at the end of the line. A hexameter could not take them; this metre has room, and that is a large part of why early satire is written in it.'
           ]
+        },
+        {
+          author: 'Titus Maccius Plautus',
+          slug: 'titus-maccius-plautus', era: 'archaic',
+          where: 'Miles Gloriosus, Act II, Scene 2, v. 226',
+          gloss: 'A slave is instructed to unsee what he has seen',
+          plain: 'quae hic sunt visa ut visa ne sint, facta ut facta ne sient.',
+          source: 'bank',
+          marked: '(quae) hīc sūnt | vī(sa) ūt | vīsă | nē sīnt, | fāc(ta) ūt | fāctă | nē sĭ|ēnt.',
+          pattern: '– – | – – | – ⏑ | – – | – – | – ⏑ | – ⏑ | ×',
+          notes: [
+            '**The metre is doing the same thing the sentence is doing.** *Visa ut visa ne sint, facta ut facta ne sient*: the same word twice, then its own negation, twice over, in two halves that mirror each other across the break. The trochaic septenarius is built as two blocks, and Plautus has put one half of the paradox in each.',
+            '**Three elisions**, one of them across the opening: *quae hic* loses the *quae*, and each *visa ut* and *facta ut* loses a syllable too. This is what a Plautine line looks like at speed.',
+            'The fourth-foot break falls after *ne sint*, exactly where the thought turns from what was seen to what was done.'
+          ]
+        },
+        {
+          author: 'Publius Terentius Afer',
+          slug: 'publius-terentius-afer', era: 'archaic',
+          where: 'Eunuchus, Act II, Scene 2, v. 253',
+          gloss: 'A professional flatterer explains his trade',
+          plain: 'omnia adsentari. is quaestu’ nunc est multo uberrimus.',
+          source: 'bank',
+          marked: 'ōmnĭ|(a) ādsēn|tār(i). ĭs | quaestŭ’ | nūnc ēst | mūl(to) ū|bērrĭ|mŭs.',
+          pattern: '– ⏑ | – – | – ⏑ | – ⏑ | – – | – – | – ⏑ | ×',
+          notes: [
+            '**Agree with everything: that is by far the most profitable trade now.** Gnatho is describing the parasite\'s profession, and Terence gives him the long recited line rather than the spoken senarius, which is how you can tell this is a set piece and not conversation.',
+            '**Three elisions again, and a dropped s.** *Quaestu’* for *quaestus* is the colloquial clipping that both playwrights use constantly and that editors print with an apostrophe; it is also the reason the syllable can stay short.',
+            'Terence uses this metre about as often as he uses the senarius. Where Plautus has it competing with a dozen lyric metres, in Terence it is simply the other half of the play.'
+          ]
         }
       ],
-      after: 'Plautus and Terence, who use this metre more than anyone else in Latin, are in this app but carry no metre label: a comic scene moves between the spoken senarius, the recited septenarius and the lyric metres of the cantica, sometimes within a few lines, so one label on a whole excerpt would often be wrong. When those excerpts are done they will carry a list of metres with the verses each one covers.'
+      after: 'Thirty excerpts in this app are in this metre, which makes it the second commonest here after the iambic senarius, and all but two of them are comic. It outlives the stage in an unexpected place: the trochaic rhythm, no longer counted by quantity but by stress, is the shape of a great deal of medieval Latin verse, from marching songs to hymns, and it is still audible in the *Pange lingua*.'
     }
   };
 
@@ -598,8 +1047,19 @@
     return byCit ? record(byCit) : null;
   }
 
-  function record(id) {
-    return { id: id, name: nameOf(id), hasPage: !!METRES[id] };
+  // A metre id, or a list of them with the verses each covers. The list form is
+  // what a comic scene needs: Terence turns from senarii to septenarii inside a
+  // single excerpt, and the label has to say where.
+  function record(value) {
+    if (typeof value === 'string') return { id: value, name: nameOf(value), hasPage: !!METRES[value] };
+    return {
+      id: value[0].m,
+      name: nameOf(value[0].m),
+      hasPage: !!METRES[value[0].m],
+      parts: value.map(function (p) {
+        return { id: p.m, name: nameOf(p.m), hasPage: !!METRES[p.m], from: p.from, to: p.to };
+      })
+    };
   }
 
   // One metre's page, in the current language.

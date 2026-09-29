@@ -175,6 +175,8 @@
       // --- metre reference (the chip on a verse excerpt, and metre.html) ---
       'metre.label': 'Metre',
       'metre.linkLabel': function (p) { return 'Read about the ' + p.name; },
+      'metre.verse': function (p) { return ' (v. ' + p.from + ')'; },
+      'metre.verses': function (p) { return ' (vv. ' + p.from + '-' + p.to + ')'; },
       'metre.scheme': 'Scheme',
       'metre.sec.origin': 'Where it comes from',
       'metre.sec.build': 'How it is built',
@@ -360,6 +362,8 @@
       // --- metrica (la targhetta sui brani in versi, e metre.html) ---
       'metre.label': 'Metro',
       'metre.linkLabel': function (p) { return 'Leggi sul metro: ' + p.name; },
+      'metre.verse': function (p) { return ' (v. ' + p.from + ')'; },
+      'metre.verses': function (p) { return ' (vv. ' + p.from + '-' + p.to + ')'; },
       'metre.scheme': 'Schema',
       'metre.sec.origin': 'Da dove viene',
       'metre.sec.build': 'Com’è costruito',

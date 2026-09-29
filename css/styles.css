@@ -1288,6 +1288,15 @@ a.em-name:focus-visible { outline: 2px solid var(--deep-red); outline-offset: 3p
   margin: 0 0 18px;
   max-width: 72ch;
 }
+.em-sep {
+  color: var(--ink-soft);
+  margin: 0 3px 0 -1px;
+}
+.em-verses {
+  font-size: 0.74rem;
+  color: var(--gray);
+  white-space: nowrap;
+}
 .metre-legend-note {
   font-size: 0.86rem;
   color: var(--ink-soft);

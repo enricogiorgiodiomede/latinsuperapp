@@ -12,6 +12,39 @@
 
   var VERSIONS = [
     {
+      v: '1.15.3', date: '29/09/2026', time: 'TBD', tz: 'CEST',
+      en: {
+        added: [
+          'THE COMIC METRES. Every excerpt of Plautus, Terence and Caecilius now says what metre it is in, which is eighty-six excerpts that carried no label at all before, and the total in the app goes from eighty to a hundred and sixty-six. Roman comedy is the hard case: a scene moves between spoken senarii, the long recited lines and the sung cantica, so the label could not simply be copied off the author.',
+          'Four new metre pages: the Iambic Senarius, the spoken line that carries a third of Plautus and half of Terence; the Iambic Septenarius, which the Romans associated with being pleased about something; the Iambic Octonarius, the longest regular line in comedy and the one Terence uses where Plautus would have written a song; and Canticum, on the sung parts, which are not one metre but a dozen changing from verse to verse. Each has three or two scanned examples with the quantities, the elisions and the feet marked, and the scansions are from this app, not from an edition.',
+          'Two excerpts carry more than one metre and say so, verse by verse. Terence turns from senarii to trochaic septenarii in the middle of Andria V.3, and the last scene of Hecyra alternates between two metres four times in eleven verses. The label now reads, for instance, Iambic Octonarius (v. 750), Trochaic Septenarius (v. 751), and so on, keyed to the play\'s own verse numbers rather than to the lines on the page.',
+          'The Trochaic Septenarius page has waited since v1.15.1 for its comic examples, since twenty-eight of the thirty excerpts in that metre are comic. It has them now: Plautus ordering a slave to unsee what he has seen, and Terence\'s professional flatterer explaining that agreeing with everything is the most profitable trade going.'
+        ],
+        changed: [
+          'Seven analyses named the wrong metre and are corrected. The one that matters most is Miles Gloriosus III.1, described as iambic senarii when it is in fact the long accompanied line: Periplectomenus is performing, not chatting. Two Terentian scenes called senarii are octonarii, two called trochaic septenarii are iambic, and one is neither.',
+          'Where the metres come from, since this is the kind of claim that should say: Timothy J. Moore\'s database of the metres of Roman comedy, built on Cesare Questa\'s work, which records the metre of every metrical unit in Plautus and Terence. Caecilius is not in it, because he survives only in quotations, so his six labels come from the app\'s own scansion and agree with what Gellius says he is doing. Two Caecilius fragments are deliberately left unlabelled: the long Plocium quotation turns from trochaic septenarii to senarii partway and has no verse numbers to mark the turn by, and a single line quoted by Cicero is long enough to be any of four metres.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'I METRI COMICI. Ogni estratto di Plauto, Terenzio e Cecilio dice ora in che metro è: ottantasei estratti che prima non portavano alcuna etichetta, e il totale dell\'app passa da ottanta a centosessantasei. La commedia romana è il caso difficile: una scena si muove fra i senari parlati, i lunghi versi recitati e i cantici cantati, perciò l\'etichetta non si poteva semplicemente copiare dall\'autore.',
+          'Quattro nuove pagine di metrica: il Senario Giambico, il verso parlato che regge un terzo di Plauto e metà di Terenzio; il Settenario Giambico, che i romani associavano alla contentezza; l\'Ottonario Giambico, il verso regolare più lungo della commedia, quello che Terenzio usa dove Plauto avrebbe scritto un canto; e il Cantico, sulle parti cantate, che non sono un metro ma una dozzina, cambiando di verso in verso. Ciascuna ha tre o due esempi scanditi con quantità, elisioni e piedi segnati, e le scansioni sono di questa app, non riprese da un\'edizione.',
+          'Due estratti portano più di un metro e lo dicono, verso per verso. Terenzio passa dai senari ai settenari trocaici in mezzo ad Andria V.3, e l\'ultima scena dell\'Hecyra alterna due metri quattro volte in undici versi. L\'etichetta ora recita, per esempio, Ottonario Giambico (v. 750), Settenario Trocaico (v. 751), e così via, ancorata ai numeri di verso della commedia e non alle righe della pagina.',
+          'La pagina del Settenario Trocaico aspettava dalla v1.15.1 i suoi esempi comici, dato che ventotto dei trenta estratti in quel metro sono comici. Adesso li ha: Plauto che ordina a uno schiavo di non aver visto ciò che ha visto, e l\'adulatore di professione di Terenzio che spiega come dire di sì a tutto sia il mestiere più redditizio in circolazione.'
+        ],
+        changed: [
+          'Sette analisi indicavano il metro sbagliato e sono corrette. La più importante è Miles Gloriosus III.1, descritta come senari giambici mentre è il lungo verso accompagnato: Periplectomeno sta recitando un pezzo, non chiacchierando. Due scene terenziane dette senari sono ottonari, due dette settenari trocaici sono giambiche, e una non è né l\'una né l\'altra.',
+          'Da dove vengono i metri, visto che è il genere di affermazione che va dichiarata: dalla banca dati di Timothy J. Moore sui metri della commedia romana, costruita sul lavoro di Cesare Questa, che registra il metro di ogni unità metrica di Plauto e Terenzio. Cecilio non c\'è, perché sopravvive solo in citazioni, e le sue sei etichette vengono dalla scansione dell\'app e concordano con ciò che dice Gellio. Due frammenti di Cecilio restano di proposito senza etichetta: la lunga citazione del Plocium passa dai settenari trocaici ai senari a metà strada e non ha numeri di verso con cui segnare il passaggio, e un verso citato da Cicerone è abbastanza lungo da poter essere uno di quattro metri.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.15.2', date: '28/09/2026', time: '23:33', tz: 'CEST',
       en: {
         added: [

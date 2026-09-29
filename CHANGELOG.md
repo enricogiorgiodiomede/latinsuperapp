@@ -6,6 +6,78 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.15.3] - 2026-09-29
+
+**THE COMIC METRES.** Every excerpt of Plautus, Terence and Caecilius now carries a metre label: **86 newly
+labelled excerpts, and the app total goes 80 -> 166**. Four new pages, two excerpts labelled verse by verse,
+seven wrong statements in the bank corrected, and two new tools.
+
+### Why this one needed a source
+- Comedy is the hard case. A scene moves between spoken senarii, the long recited lines and the sung cantica,
+  so the metre cannot be read off the author, and **it cannot honestly be guessed from the text either**:
+  Plautine metre is a field, not a rule.
+- The labels therefore come from **Timothy J. Moore, *The Meters of Roman Comedy*** (Washington University,
+  built on Cesare Questa), which records the metre of every metrical unit in both playwrights and publishes
+  itself as a TSV. `tools/comic_metres.js` reads it, maps each excerpt's verse range onto it and writes the
+  ASSIGN entries.
+- **Caecilius is not in the database** (he survives only in quotations), so his six labels come from this
+  app's own scanner and agree with what Gellius says he is doing. Two fragments stay unlabelled on purpose:
+  Plocium II.23.10 turns from trochaic septenarii into senarii partway and has no verse numbers to mark the
+  turn by, and the single line in Tusculanae III.56 fits four metres.
+
+### Added - `tools/scan_drama.js`, the second opinion
+- A scansion engine that works from the spelling alone: syllables, elisions, and every weight that is FIXED
+  by position or by a diphthong, with everything that depends on vowel length left UNKNOWN. It then asks, of
+  each candidate metre, whether any assignment of those syllables exists. **A metre it refuses is refuted; a
+  metre it allows is only possible**, and the tool says so.
+- Every uncertainty is resolved towards allowing more: final -s need not make position, mute-plus-liquid is
+  left open, hiatus is tried when nothing else fits, and iambic shortening is available behind `--lax`.
+- **The corroboration, which is the point of having it**: of the 58 single-metre excerpts printed one verse
+  to a line, the scanner allows the database's metre outright in **31**, and in **48** once iambic shortening
+  is permitted. The remainder need synizesis or a licence it does not model. It has never seen the database.
+- `--verify` checks a scansion written by hand against the syllables and against the metre's rules. Every
+  new example on every page went through it before being written down.
+
+### Added - four pages
+- **Iambic Senarius** (41 excerpts): the spoken line, and the one place Latin verse sounds like talk. Aristotle
+  on why; the Greek trimeter against the Latin senarius, and what Rome did by freeing the ancipitia; the
+  eleventh position as the only fixed point. Examples from all three playwrights, including a Caecilius line
+  that is **ten longs and then the one short the metre insists on**.
+- **Iambic Septenarius** (3): the metre of good news, and of the songs sung at triumphs.
+- **Iambic Octonarius** (9): the longest regular line, and Terence's answer to not writing songs.
+- **Canticum** (7): what a canticum is, the three feet it is built from, why Plautus' removal of the chorus
+  changed what comedy was, and why these excerpts get no metre name.
+- **Trochaic Septenarius** gains its two comic examples at last, and loses the closing paragraph that said
+  Plautus and Terence carried no labels.
+
+### Added - more than one metre on one excerpt
+- A label may now be a list of verse ranges, and two excerpts need it: **Andria V.3** turns from senarii to
+  trochaic septenarii at v. 896, and **Hecyra V.1** alternates four times in eleven verses. The tablet reads
+  `Iambic Octonarius (v. 750), Trochaic Septenarius (v. 751), ...`
+- The ranges are **the play's own verse numbers, not the lines on the page**. The text splits a verse between
+  speakers at every change of speaker, so line 5 of an excerpt is very often not verse 5 of the scene.
+
+### Fixed - seven analyses that named the wrong metre
+- **Miles Gloriosus III.1** called iambic senarii; it is trochaic septenarii, the accompanied line. The scene
+  reads differently once you know Periplectomenus is performing rather than chatting.
+- **Andria I.2** and **Heauton II.1**, called senarii, are iambic octonarii.
+- **Hecyra V.3** and **Eunuchus IV.7**, called trochaic septenarii, are iambic septenarii and octonarii.
+- **Heauton IV.2**, called trochaic septenarii, is octonarii, with a last verse the editors set out as two
+  shorter lines; that verse is left out of the label rather than called something it is not.
+- **Phormio II.1**, called senarii, is trochaic septenarii.
+
+### Changed
+- `check_metres.js` understands a label that is a list of verse ranges.
+- The metre lookup returns `parts` when an excerpt has more than one metre, and `js/practice.js` renders them
+  with their verse ranges. A single label still lines its right edge up with the papyrus badge, as before.
+- Four scansion errors of my own, all caught by `check_metre_quotes.js` rather than by a reader: two
+  syllables long by position marked short, one foot division written with a space in it, and one pattern that
+  was possible but not true.
+
+Verification: **check_metre_quotes 25 verses, 0 failed**; **check_metres 166 labelled, 166 linked, 0 failed**;
+**392 verbatim, 0 mismatched**; `lint_markdown` **0 leaking**; EN and IT in step across all nine pages; both
+languages read in the browser, console clean. Cache-bust: `?v=184` -> `?v=185`.
+
 ## [1.15.2] - 2026-09-28
 
 **THE THREE NEW METRE PAGES REWORKED**, after the user checked them. Two of the three had been written round a

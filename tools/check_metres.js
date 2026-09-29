@@ -102,11 +102,17 @@ for (const slug of Object.keys(ASSIGN)) {
     if (!frags) { fail(slug + ': ASSIGN names a work the bank does not have: ' + workId); continue; }
 
     const ids = new Set();
+    // A label is a metre id, or a list of {m, from, to} when one excerpt runs
+    // through more than one metre, which comic scenes do.
+    const collect = (v) => {
+      if (typeof v === 'string') ids.add(v);
+      else if (Array.isArray(v)) v.forEach((part) => ids.add(part.m));
+    };
     if (typeof val === 'string') ids.add(val);
     else {
       if (val.def) ids.add(val.def);
       for (const cit of Object.keys(val.byCitation || {})) {
-        ids.add(val.byCitation[cit]);
+        collect(val.byCitation[cit]);
         if (!frags.some(f => f.citation === cit)) {
           fail(slug + '/' + workId + ': byCitation names a citation that is not in the work: ' + JSON.stringify(cit));
         }
