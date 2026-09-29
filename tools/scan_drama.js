@@ -35,6 +35,12 @@
  * Plautus, under which a heavy syllable may count light. A line that fits
  * nothing is therefore a line to look at by hand, not proof of a corrupt text.
  *
+ * KNOWN LIMITATION: a text that prints consonantal u as `u` rather than `v`
+ * is mis-syllabified - the Atellan fragments write *salueto* and *conuenit*,
+ * which are salve-to and con-ve-nit, and the tool reads a vowel where there
+ * is a consonant. Those lines come out one or two syllables too long. Check
+ * such a line by hand before believing a count.
+ *
  * Exit code 1 only in --claim mode, when a claimed metre is refuted.
  */
 'use strict';

@@ -132,8 +132,8 @@ for (const slug of Object.keys(ASSIGN)) {
 // ---- 4-5: every fragment the table actually labels ---------------------
 for (const slug of Object.keys(AUTHORS)) {
   for (const w of AUTHORS[slug].works) {
-    for (const [fi, f] of w.fragments.entries()) {
-      const m = window.Metres.forFragment(slug, w.id, f.citation, fi);
+    for (const f of w.fragments) {
+      const m = window.Metres.forFragment(slug, w.id, f.citation, f);
       if (!m) continue;
       labelled++;
       if (m.hasPage) linked++;
@@ -167,8 +167,8 @@ for (const slug of Object.keys(AUTHORS)) {
 const byMetre = {};
 for (const slug of Object.keys(AUTHORS)) {
   for (const w of AUTHORS[slug].works) {
-    for (const [fi, f] of w.fragments.entries()) {
-      const m = window.Metres.forFragment(slug, w.id, f.citation, fi);
+    for (const f of w.fragments) {
+      const m = window.Metres.forFragment(slug, w.id, f.citation, f);
       if (m) byMetre[m.name] = (byMetre[m.name] || 0) + 1;
     }
   }

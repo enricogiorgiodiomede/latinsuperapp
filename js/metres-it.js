@@ -590,6 +590,24 @@
             '**Lamentarsi della cattiva sorte è giusto; piagnucolarne no.** Ulisse sta morendo della ferita che gli ha dato il figlio, e Cicerone cita il verso due volte nelle Tusculanae come modello di come un uomo debba prendere il dolore. Il peso del verso è l\'argomento: un settenario così lento suona come qualcosa che si sopporta, non che si recita.',
             'L\'unica elisione, *fortunam adversam*, è ciò che tiene il conto a quindici, e la pausa cade subito dopo, dividendo il verso fra la cosa da fare e la cosa da non fare.'
           ]
+        },
+        {
+          where: 'Brutus, in Cicerone, De Divinatione I.45',
+          gloss: 'Lo stesso metro che porta una profezia su Roma',
+          notes: [
+            '**Dodici lunghe su quindici**, e le tre brevi sono distribuite quasi regolarmente: una nel primo piede, una nel quinto, una nel settimo. Il verso è pesante senza essere inerte, che è ciò che serve a una profezia nella tragedia.',
+            '**Fu profetizzato che lo Stato romano sarebbe stato sommo.** È l\'interpretazione del sogno di Tarquinio e l\'ultimo verso del passo che Cicerone cita; il verso lungo è quello che la tragedia romana riserva a un discorso che prende peso via via. Lo si metta accanto al senario di Accio nella pagina del Senario Giambico, che è il racconto dello stesso sogno: stesso poeta, stessa tragedia, il verso breve per raccontare e quello lungo per pronunciare.',
+            'L\'unica elisione, *auguratum est*, fa ciò che l\'elisione fa di solito in questo metro: impedisce a una parola di quattro sillabe di traboccare dal piede a cui appartiene.'
+          ]
+        },
+        {
+          where: 'Kalendae Martiae, in Macrobio, Saturnalia VI.4',
+          gloss: 'E lo stesso metro nell\'atellana, con due soluzioni di fila',
+          notes: [
+            '**Due soluzioni, una dietro l\'altra, nel sesto e nel settimo piede.** *Mulieris* e *videantur* sono esattamente il genere di parola per cui questo metro esiste: sequenze di brevi che nessun verso più corto potrebbe accogliere senza rompersi. Diciassette sillabe in quindici posizioni, e l\'ultimo terzo del verso corre.',
+            '**Bisogna che tu abbassi la voce, così che paia di donna.** Un attore viene istruito a fare la parte femminile, che nell\'atellana è un uomo con la maschera, e Macrobio cita il verso non per la battuta ma per il modo di dire *vocem deducere*. Il metro è lo stesso che Accio ha appena usato per una profezia sul destino di Roma.',
+            '**Per inciso, è così che si è arrivati all\'etichetta di quell\'estratto.** Il verso non entra in nessun altro verso lungo: un settenario giambico vorrebbe una breve in tredicesima posizione, dove l\'*-an-* di *videantur* è chiuso e lungo, e un ottonario trocaico lascerebbe un longum sulla breve *vi-*. Resta in piedi solo questa lettura, e il testo di Ribbeck per Novio, che segna il tempo forte sulla vocale, concorda allo stesso modo con la scansione dei suoi versi trocaici.'
+          ]
         }
       ],
       after: 'È il secondo metro più frequente dell\'app dopo il senario giambico, e dalla v1.15.4 compare in ogni genere di teatro presente qui: la commedia soprattutto, ma anche le tragedie di Pacuvio e Accio, le atellane di Pomponio e Novio e la prima satira di Lucilio. Sopravvive alla scena in un luogo inatteso: il ritmo trocaico, non più contato per quantità ma per accento, è la forma di gran parte della poesia latina medievale, dai canti di marcia agli inni, ed è ancora udibile nel *Pange lingua*.'

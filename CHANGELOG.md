@@ -61,6 +61,43 @@ Verification: **177 labelled, 177 linked, 0 failed**; **check_metre_quotes 27/0*
 mismatched**; **check_verses 60/0**; `lint_markdown` 0 leaking; EN and IT in step on all nine pages; both
 languages read in the browser, console clean. Cache-bust: `?v=186` -> `?v=187`.
 
+### Follow-up
+
+- **Two labels were invisible and one was wrong**, all from one bug. `byIndex` keyed a label by the
+  fragment's position **in its work**, and `js/practice.js` passed its position **in the author's pool**.
+  For an author with `needsSelection: false` - which both of the authors using byIndex are, since each
+  shares a page with a second poet - those are different numbers. Pacuvius' second Chryses fragment and
+  Novius' De Oratore fragment lost their labels, and **the first Chryses fragment, which is senarii, was
+  shown its neighbour's septenarii**.
+- **The lookup no longer takes a number.** `forFragment` now receives the fragment object and finds it in
+  the bank by identity, which settles both the work and the position. That also removes the reason byIndex
+  existed: two fragments with the same citation can no longer be confused, because nothing is matched by
+  citation when the object is in hand.
+- **A latent bug the rewrite exposed**: `js/metres.js` read `PracticeBank` as a bare global, which resolves
+  in a browser and not in Node. The old code only reached that line when no work was given, which the tools
+  never did, so it had never run outside the browser. It is `global.PracticeBank` now.
+
+### Added
+- **Accius and Pomponius on the Trochaic Septenarius page.** It now shows the metre doing all four of its
+  jobs: satire (Lucilius), comedy (Plautus, Terence), tragedy (Pacuvius, Accius) and Atellan farce
+  (Pomponius). Accius' prophecy line is twelve longs out of fifteen; Pomponius' has two resolutions back to
+  back, and its note explains how that excerpt's label was arrived at, since no other long line fits it.
+- `scan_drama.js` documents a **known limitation** the Atellan texts exposed: a text that prints
+  consonantal u as *u* rather than *v* is mis-syllabified. *Salueto* is salve-to and *conuenit* is con-ve-nit,
+  and the tool reads a vowel where there is a consonant, so those lines come out one or two syllables long.
+  Both Fullones labels were re-checked by hand against that: the first line is a senarius of exactly twelve
+  positions with nothing resolved, and the second is one with a single elision.
+
+### Fixed
+- **My own scansion of the Pomponius line was wrong in its resolutions**, though not in its metre. The *e* of
+  *mulieris* is short, and I had put the two resolutions a syllable early. `--verify` accepted it because the
+  tool leaves that vowel open, which is exactly the class of error the tool cannot catch: it checks a scansion
+  against what the spelling FIXES, and a vowel whose length only the dictionary knows is not fixed.
+
+Verification: **177 labelled, 177 linked, 0 failed** and every label now resolves the same way with and
+without a work in the URL; **check_metre_quotes 29/0**; **392 verbatim, 0 mismatched**; `lint_markdown` 0
+leaking; both languages read in the browser, console clean. Cache-bust: `?v=187` -> `?v=188`.
+
 ## [1.15.3] - 2026-09-29
 
 **THE COMIC METRES.** Every excerpt of Plautus, Terence and Caecilius now carries a metre label: **86 newly

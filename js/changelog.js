@@ -12,9 +12,11 @@
 
   var VERSIONS = [
     {
-      v: '1.15.4', date: '29/09/2026', time: '22:49', tz: 'CEST',
+      v: '1.15.4', date: '29/09/2026', time: 'TBD', tz: 'CEST',
       en: {
         added: [
+          'Two of the new labels were not showing, and a third excerpt was showing the wrong one. The cause was the same for all three: Pacuvius and the Atellan writers share a page with a second poet, and for authors like that the practice page pools every work together, so the position it handed the metre lookup was the position in the pool and not the position in the work. The lookup now takes the excerpt itself rather than a number, which settles both which work it belongs to and where in that work it sits.',
+          'Accius and Pomponius join the Trochaic Septenarius page, which now shows the metre doing all four of its jobs on one page: satire in Lucilius, comedy in Plautus and Terence, tragedy in Pacuvius and Accius, and Atellan farce in Pomponius. Their absence was not a decision, just a stopping point.',
           'THE TRAGIC AND ATELLAN METRES. Ten more excerpts say what metre they are in: three of Pacuvius, two of Accius, three of Pomponius and two of Novius. That is nearly all of the tragedy and farce in the app, and it brings the total to a hundred and seventy-seven.',
           'These had no database behind them. Plautus and Terence have one, because their plays survive whole; Pacuvius, Accius, Pomponius and Novius survive as quotations in Cicero, Macrobius and Nonius, a few lines at a time. So each label here was worked out from the verses themselves: the app\'s scanner rules out the metres a line cannot be, and the vowel quantities that the scanner deliberately leaves open were then supplied by hand until one metre was left standing.',
           'Two of the Atellan fragments settle the question by themselves. Ribbeck\'s text of Novius marks the beat on the vowel, and those marks fall exactly on the long positions of the metre the scanner had arrived at independently. When a nineteenth-century editor and a piece of software agree about a verse neither of them could see whole, the answer is probably right.',
@@ -31,6 +33,8 @@
       },
       it: {
         added: [
+          'Due delle nuove etichette non comparivano, e un terzo estratto ne mostrava una sbagliata. La causa era la stessa per tutti e tre: Pacuvio e gli autori atellani condividono la pagina con un secondo poeta, e per autori del genere la pagina di pratica mette insieme tutte le opere, perciò la posizione che passava alla ricerca del metro era quella nell\'insieme e non quella nell\'opera. Ora la ricerca riceve l\'estratto stesso invece di un numero, e questo stabilisce sia a quale opera appartenga sia dove stia dentro quell\'opera.',
+          'Accio e Pomponio entrano nella pagina del Settenario Trocaico, che ora mostra il metro in tutti e quattro i suoi impieghi su una pagina sola: la satira in Lucilio, la commedia in Plauto e Terenzio, la tragedia in Pacuvio e Accio e l\'atellana in Pomponio. La loro assenza non era una decisione, solo un punto in cui mi ero fermato.',
           'I METRI DELLA TRAGEDIA E DELL\'ATELLANA. Dieci estratti in più dicono in che metro sono: tre di Pacuvio, due di Accio, tre di Pomponio e due di Novio. È quasi tutta la tragedia e la farsa presenti nell\'app, e porta il totale a centosettantasette.',
           'Dietro questi non c\'era nessuna banca dati. Plauto e Terenzio ne hanno una perché le loro commedie ci sono arrivate intere; Pacuvio, Accio, Pomponio e Novio sopravvivono come citazioni in Cicerone, Macrobio e Nonio, pochi versi alla volta. Ogni etichetta è stata dunque ricavata dai versi stessi: lo scandiglio dell\'app esclude i metri che un verso non può essere, e le quantità vocaliche che lo strumento lascia di proposito aperte sono state fornite a mano finché non è rimasto un metro solo.',
           'Due dei frammenti atellani risolvono la questione da soli. Il testo di Ribbeck per Novio segna il tempo forte sulla vocale, e quei segni cadono esattamente sulle posizioni lunghe del metro a cui lo scandiglio era arrivato per conto suo. Quando un editore dell\'Ottocento e un programma concordano su un verso che nessuno dei due poteva vedere per intero, la risposta è probabilmente giusta.',

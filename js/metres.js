@@ -1048,6 +1048,36 @@
             '**To complain of bad fortune is right; to wail about it is not.** Ulysses is dying of the wound his own son gave him, and Cicero quotes the line twice in the Tusculans as the model of how a man should take pain. The weight of the verse is the argument: a septenarius this slow sounds like something being endured rather than performed.',
             'The single elision, *fortunam adversam*, is what keeps the count to fifteen, and the break falls after it, dividing the line between the thing to be done and the thing not to be done.'
           ]
+        },
+        {
+          author: 'Lucius Accius',
+          slug: 'marcus-pacuvius-and-lucius-accius', era: 'archaic',
+          where: 'Brutus, in Cicero, De Divinatione I.45',
+          gloss: 'The same metre carrying a prophecy about Rome',
+          plain: 'auguratum est rem Romanam publicam summam fore.',
+          source: 'bank',
+          marked: 'augŭ|rā(tum) ēst | rēm Rō|mānām | pūblĭ|cām sūm|mām fŏ|rē.',
+          pattern: '– ⏑ | – – | – – | – – | – ⏑ | – – | – ⏑ | ×',
+          notes: [
+            '**Twelve longs out of fifteen**, and the three shorts are spaced almost evenly: one in the first foot, one in the fifth, one in the seventh. The line is heavy without being inert, which is what a prophecy in tragedy needs.',
+            '**It was prophesied that the Roman state would be supreme.** This is the interpretation of Tarquin\'s dream, and the last line of the passage Cicero quotes; the long line is what Roman tragedy keeps for a speech that gathers weight as it goes. Set it beside the Accius senarius on the Iambic Senarius page, which is the narrative of the same dream: the same poet, the same play, the shorter line for telling and the longer one for pronouncing.',
+            'The one elision, *auguratum est*, does what elision usually does in this metre: it keeps a four-syllable word from spilling over the foot it belongs in.'
+          ]
+        },
+        {
+          author: 'Pomponius Bononiensis',
+          slug: 'pomponius-bononiensis-and-quintus-novius', era: 'archaic',
+          where: 'Kalendae Martiae, in Macrobius, Saturnalia VI.4',
+          gloss: 'And the same metre in Atellan farce, with two resolutions in a row',
+          plain: 'Vocem deducas oportet, ut mulieris videantur.',
+          source: 'bank',
+          marked: 'Vōcēm | dēdū|cās ŏ|pōrtēt, | ūt mŭ|lĭĕrīs | vĭdĕān|tūr.',
+          pattern: '– – | – – | – ⏑ | – – | – ⏑ | ⏑ ⏑ – | ⏑ ⏑ – | ×',
+          notes: [
+            '**Two resolutions, back to back, in the sixth and seventh feet.** *Mulieris* and *videantur* are exactly the kind of word this metre exists to accommodate: four light-heavy syllables that no shorter line could take without breaking. Seventeen syllables in fifteen positions, and the last third of the verse runs.',
+            '**You must lower your voice, so they will pass for a woman\'s.** An actor is being coached to play a woman, which in Atellan farce is a man in a mask, and Macrobius quotes the line not for the joke but for the idiom *vocem deducere*. The metre is the same one Accius has just used for a prophecy about the destiny of Rome.',
+            '**This is how the label on that excerpt was arrived at**, incidentally. The verse fits no other long line: an iambic septenarius would need a short in the thirteenth position, where *-an-* of *videantur* is closed and long, and a trochaic octonarius leaves a longum standing on the short *vi-*. Only this reading survives, and Ribbeck\'s text of Novius, which marks the beat on the vowel, agrees with the scansion of its own trochaic lines in the same way.'
+          ]
         }
       ],
       after: 'This is the second commonest metre in the app after the iambic senarius, and since v1.15.4 it turns up in every kind of drama here: comedy above all, but also the tragedies of Pacuvius and Accius, the Atellan farces of Pomponius and Novius, and Lucilius\' earliest satire. It outlives the stage in an unexpected place: the trochaic rhythm, no longer counted by quantity but by stress, is the shape of a great deal of medieval Latin verse, from marching songs to hymns, and it is still audible in the *Pange lingua*.'
@@ -1102,24 +1132,35 @@
   // where one work has two fragments with the SAME citation in different
   // metres: Cicero quotes two passages of Pacuvius' Chryses from the same
   // section of the De Divinatione, one in senarii and one in septenarii.
-  function forFragment(slug, workId, citation, index) {
+  // `frag` is the fragment object itself. It is what settles which work an
+  // excerpt belongs to and where in that work it sits, and both matter: an
+  // author with needsSelection: false is pooled across its works, so the
+  // practice page has no ?work= to give us, and two fragments of Pacuvius'
+  // Chryses carry the SAME citation in two different metres, so a citation is
+  // not an identifier either. Identity settles both without guessing.
+  function forFragment(slug, workId, citation, frag) {
     var node = ASSIGN[slug];
     if (!node) return null;
     if (typeof node === 'string') return record(node);
-    if (!workId) {
-      // Authors with needsSelection: false are pooled across every work, so
-      // the practice page has no ?work= to give us. Find the work that holds
-      // this citation instead.
-      var bank = (global.PracticeBank && PracticeBank.authors[slug]) || null;
-      if (bank) {
-        for (var i = 0; i < bank.works.length; i++) {
-          if (bank.works[i].fragments.some(function (f) { return f.citation === citation; })) {
-            workId = bank.works[i].id;
-            break;
+
+    var bank = (global.PracticeBank && global.PracticeBank.authors[slug]) || null;
+    var index = null;
+    if (bank) {
+      for (var i = 0; i < bank.works.length; i++) {
+        var work = bank.works[i];
+        if (workId && work.id !== workId) continue;
+        var at = frag ? work.fragments.indexOf(frag) : -1;
+        if (at < 0) {
+          // no object to match (a tool passing citations, say): fall back on
+          // the first fragment with this citation
+          for (var j = 0; j < work.fragments.length; j++) {
+            if (work.fragments[j].citation === citation) { at = j; break; }
           }
         }
+        if (at >= 0) { workId = work.id; index = at; break; }
       }
     }
+
     var w = node[workId];
     if (!w) return null;
     if (typeof w === 'string') return record(w);
