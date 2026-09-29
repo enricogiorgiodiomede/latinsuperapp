@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.15.3', date: '29/09/2026', time: 'TBD', tz: 'CEST',
+      v: '1.15.3', date: '29/09/2026', time: '14:35', tz: 'CEST',
       en: {
         added: [
           'THE COMIC METRES. Every excerpt of Plautus, Terence and Caecilius now says what metre it is in, which is eighty-six excerpts that carried no label at all before, and the total in the app goes from eighty to a hundred and sixty-six. Roman comedy is the hard case: a scene moves between spoken senarii, the long recited lines and the sung cantica, so the label could not simply be copied off the author.',
