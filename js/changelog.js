@@ -12,6 +12,41 @@
 
   var VERSIONS = [
     {
+      v: '1.15.4', date: '29/09/2026', time: 'TBD', tz: 'CEST',
+      en: {
+        added: [
+          'THE TRAGIC AND ATELLAN METRES. Ten more excerpts say what metre they are in: three of Pacuvius, two of Accius, three of Pomponius and two of Novius. That is nearly all of the tragedy and farce in the app, and it brings the total to a hundred and seventy-seven.',
+          'These had no database behind them. Plautus and Terence have one, because their plays survive whole; Pacuvius, Accius, Pomponius and Novius survive as quotations in Cicero, Macrobius and Nonius, a few lines at a time. So each label here was worked out from the verses themselves: the app\'s scanner rules out the metres a line cannot be, and the vowel quantities that the scanner deliberately leaves open were then supplied by hand until one metre was left standing.',
+          'Two of the Atellan fragments settle the question by themselves. Ribbeck\'s text of Novius marks the beat on the vowel, and those marks fall exactly on the long positions of the metre the scanner had arrived at independently. When a nineteenth-century editor and a piece of software agree about a verse neither of them could see whole, the answer is probably right.',
+          'Two new examples on the metre pages, both tragic, both chosen to be read against the comic ones already there. Accius gives a senarius of twelve syllables in twelve positions with nothing resolved at all, where the Plautus above it needed three resolutions in fifteen; and Pacuvius gives a trochaic septenarius with two short syllables in fifteen, which moves at about half the speed of the comic examples. The metre is identical in each pair. What differs is the register, and you can hear it.'
+        ],
+        changed: [
+          'Three more analyses named the wrong metre and are corrected. The two lines of Pacuvius\' Niptra that Cicero quotes were called iambic senarii and are trochaic septenarii; the cosmological passage of the Chryses hedged between the two long lines and is septenarii; and the dream interpretation in Accius\' Brutus was called iambic and trochaic when it is trochaic throughout.',
+          'The Iambic Senarius page claimed its excerpts were the largest single group in the bank. They are not: the dactylic hexameter has seventy and the senarius has forty-six. It now says what is true, that it is the largest group after the hexameter.',
+          'Two fragments stay unlabelled on purpose. Accius\' oderint, dum metuant is seven syllables, the tag as Cicero quotes it rather than a whole verse of anything, and Novius\' sapiens si algebis, tremes is eight. A metre cannot be read off a piece of a line.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'I METRI DELLA TRAGEDIA E DELL\'ATELLANA. Dieci estratti in più dicono in che metro sono: tre di Pacuvio, due di Accio, tre di Pomponio e due di Novio. È quasi tutta la tragedia e la farsa presenti nell\'app, e porta il totale a centosettantasette.',
+          'Dietro questi non c\'era nessuna banca dati. Plauto e Terenzio ne hanno una perché le loro commedie ci sono arrivate intere; Pacuvio, Accio, Pomponio e Novio sopravvivono come citazioni in Cicerone, Macrobio e Nonio, pochi versi alla volta. Ogni etichetta è stata dunque ricavata dai versi stessi: lo scandiglio dell\'app esclude i metri che un verso non può essere, e le quantità vocaliche che lo strumento lascia di proposito aperte sono state fornite a mano finché non è rimasto un metro solo.',
+          'Due dei frammenti atellani risolvono la questione da soli. Il testo di Ribbeck per Novio segna il tempo forte sulla vocale, e quei segni cadono esattamente sulle posizioni lunghe del metro a cui lo scandiglio era arrivato per conto suo. Quando un editore dell\'Ottocento e un programma concordano su un verso che nessuno dei due poteva vedere per intero, la risposta è probabilmente giusta.',
+          'Due nuovi esempi nelle pagine di metrica, entrambi tragici, scelti per essere letti accanto a quelli comici già presenti. Accio dà un senario di dodici sillabe in dodici posizioni senza nessuna soluzione, dove il Plauto che lo precede ne chiedeva tre in quindici; e Pacuvio dà un settenario trocaico con due sillabe brevi su quindici, che si muove a circa metà della velocità degli esempi comici. Il metro è identico in ciascuna coppia. Cambia il registro, e si sente.'
+        ],
+        changed: [
+          'Altre tre analisi indicavano il metro sbagliato e sono corrette. I due versi della Niptra di Pacuvio citati da Cicerone erano detti senari giambici e sono settenari trocaici; il passo cosmologico del Chryses oscillava fra i due versi lunghi ed è in settenari; e l\'interpretazione del sogno nel Brutus di Accio era detta giambica e trocaica mentre è trocaica dall\'inizio alla fine.',
+          'La pagina del Senario Giambico sosteneva che i suoi estratti fossero il gruppo più numeroso della banca dati. Non lo sono: l\'esametro dattilico ne ha settanta e il senario quarantasei. Ora dice il vero, cioè che è il gruppo più numeroso dopo l\'esametro.',
+          'Due frammenti restano di proposito senza etichetta. L\'oderint, dum metuant di Accio conta sette sillabe, la battuta così come la cita Cicerone e non un verso intero di alcunché, e il sapiens si algebis, tremes di Novio ne conta otto. Da un pezzo di verso il metro non si ricava.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.15.3', date: '29/09/2026', time: '21:32', tz: 'CEST',
       en: {
         added: [

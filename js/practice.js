@@ -297,7 +297,7 @@
     // instead of letting it collide with the badge.
     var fTitle = L(frag, 'title');
     var metre = (window.Metres && frag.citation)
-      ? Metres.forFragment(slug, workId, frag.citation)
+      ? Metres.forFragment(slug, workId, frag.citation, idx)
       : null;
     if (fTitle || metre) {
       var headline = document.createElement('div');

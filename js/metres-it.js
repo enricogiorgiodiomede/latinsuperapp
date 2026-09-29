@@ -252,7 +252,7 @@
         '**Il nome registra un disaccordo di aritmetica.** Un greco contava questo verso come tre *metra*, ciascuno una coppia di piedi, e lo chiamava trimetro. Un romano contava i piedi e lo chiamava senario, cosa di sei. Stesso verso, unità diversa, e la differenza non è pedanteria: l\'accoppiamento greco tiene subordinate le posizioni dispari, e il latino, come si vedrà, smise del tutto di trattarle così.',
         '**Prima del teatro era il metro dell\'insulto.** *Iambos* in greco significava invettiva: Archiloco lo usò nel VII secolo a.C. per distruggere in pubblico i suoi nemici, e il nome del metro e quello del genere sono la stessa parola. La commedia eredita una forma con quella storia alle spalle, il che fa comodo a un genere in cui gli schiavi insultano i padroni di mestiere.',
         '**In latino arriva con il teatro stesso** e non se ne va più. Livio Andronico, Nevio ed Ennio lo usano per il dialogo della tragedia; Plauto e Terenzio ci costruiscono sopra la commedia; e molto dopo che la scena ha finito con lui, è ancora il verso delle favole di Fedro e delle tragedie di Seneca, scritte per essere lette.',
-        '**Per quantità è il metro più importante del latino arcaico.** Poco più di un terzo di Plauto e circa metà di Terenzio è in senari, e i trentasei estratti di questa app che portano questa etichetta sono il gruppo più numeroso. Chi legge poesia latina arcaica, legge per lo più questo verso.'
+        '**Per quantità è il metro più importante del latino arcaico.** Poco più di un terzo di Plauto e circa metà di Terenzio è in senari, e i quarantasei estratti di questa app che portano questa etichetta sono il gruppo più numeroso dopo quello dell\'esametro. Chi legge poesia latina arcaica, legge per lo più questo verso.'
       ],
 
       build: [
@@ -301,6 +301,15 @@
             '**Un\'elisione e una soluzione in tredici sillabe**, contro le tre soluzioni di Plauto in quindici. Quel rapporto è in miniatura la differenza fra i due poeti: Terenzio tiene il verso più vicino allo scheletro, e l\'effetto è più liscio e meno simile a parlato colto al volo.',
             '**L\'ordine delle parole fa ciò che il metro consente.** Il giudizio viene per primo, la relativa gli sta dentro, il verbo arriva per ultimo, e la frase si chiude esattamente dove si chiude il verso.',
             'Siro ammette di sapere benissimo che le cose che fa sono sciocche. L\'unica soluzione del verso cade su *facimus*, l\'unica parola che riguardi il fare e non il pensare.'
+          ]
+        },
+        {
+          where: 'Brutus, in Cicerone, De Divinatione I.44',
+          gloss: 'Lo stesso verso nella tragedia, dove non si scioglie proprio nulla',
+          notes: [
+            '**Dodici sillabe per dodici posizioni, e nemmeno una soluzione.** Lo si metta accanto al Plauto qui sopra, che ne chiedeva tre: la differenza non è il metro, che è identico, ma il registro. La tragedia tiene il verso vicino allo scheletro perché la lingua è alta e il passo è lento.',
+            '**Tre giambi, poi due spondei, poi la chiusa.** Il verso si appesantisce andando avanti, e la pesantezza arriva esattamente su *artus languidos*, le membra stanche. È tutto il trucco del senario tragico: il metro è lo stesso in cui scherzano gli schiavi, e la differenza di effetto viene da ciò che ci si mette dentro.',
+            'Tarquinio racconta la notte in cui sognò l\'ariete: si è appena coricato. Il verso è un ablativo assoluto in tutto tranne che nella forma, e il verbo che lo regge sta in testa al verso, dove un comico non lo avrebbe messo.'
           ]
         }
       ],
@@ -538,7 +547,7 @@
       ],
 
       usedIntro: [
-        'La commedia romana soprattutto: Plauto e Terenzio lo usano di continuo, e fra i due danno conto della maggior parte degli esempi latini superstiti. Poi la prima satira di Lucilio, poi i canti di marcia, la poesia popolare e infine l\'inno medievale.',
+        'La commedia romana soprattutto: Plauto e Terenzio lo usano di continuo, e fra i due danno conto della maggior parte degli esempi latini superstiti. Poi la tragedia, dove Pacuvio e Accio lo usano per le scene di maggiore intensità; poi l\'atellana; poi la prima satira di Lucilio; poi i canti di marcia, la poesia popolare e infine l\'inno medievale.',
         'I tre esempi qui sotto sono i tre usi in una pagina sola: satira, bravura plautina e dialogo terenziano. L\'esempio qui sotto viene dal libro 26, la satira più antica di cui abbiamo qualcosa: lo stesso libro che porta la frase più citata della satira romana sul proprio pubblico, dove Lucilio dice di non volere che lo legga Manio Persio, notoriamente dotto, e di volere invece Giunio Congo, che non lo era. Quel verso sopravvive soltanto dentro la prefazione della Naturalis Historia di Plinio e non come verso trasmesso, perciò resta fuori dalla scansione qui sotto.'
       ],
 
@@ -572,9 +581,18 @@
             '**Di nuovo tre elisioni, e una s caduta.** *Quaestu’* per *quaestus* è il troncamento colloquiale che entrambi i comici usano di continuo e che gli editori stampano con l\'apostrofo; è anche il motivo per cui la sillaba può restare breve.',
             'Terenzio usa questo metro all\'incirca quanto usa il senario. Dove in Plauto compete con una dozzina di metri lirici, in Terenzio è semplicemente l\'altra metà della commedia.'
           ]
+        },
+        {
+          where: 'Niptra, in Cicerone, Tusculanae Disputationes II.50',
+          gloss: 'La tragedia nello stesso metro, e quasi nient\'altro che lunghe',
+          notes: [
+            '**Due sillabe brevi su quindici.** Ogni ancipite è preso lungo, perciò il verso è un muro di spondei con una sillaba leggera vicino a ciascuna estremità, e si muove a circa metà della velocità degli esempi comici qui sopra. Il metro non è cambiato; è cambiato il poeta.',
+            '**Lamentarsi della cattiva sorte è giusto; piagnucolarne no.** Ulisse sta morendo della ferita che gli ha dato il figlio, e Cicerone cita il verso due volte nelle Tusculanae come modello di come un uomo debba prendere il dolore. Il peso del verso è l\'argomento: un settenario così lento suona come qualcosa che si sopporta, non che si recita.',
+            'L\'unica elisione, *fortunam adversam*, è ciò che tiene il conto a quindici, e la pausa cade subito dopo, dividendo il verso fra la cosa da fare e la cosa da non fare.'
+          ]
         }
       ],
-      after: 'Trenta estratti di questa app sono in questo metro, il secondo più frequente qui dopo il senario giambico, e tutti tranne due sono comici. Sopravvive alla scena in un luogo inatteso: il ritmo trocaico, non più contato per quantità ma per accento, è la forma di gran parte della poesia latina medievale, dai canti di marcia agli inni, ed è ancora udibile nel *Pange lingua*.'
+      after: 'È il secondo metro più frequente dell\'app dopo il senario giambico, e dalla v1.15.4 compare in ogni genere di teatro presente qui: la commedia soprattutto, ma anche le tragedie di Pacuvio e Accio, le atellane di Pomponio e Novio e la prima satira di Lucilio. Sopravvive alla scena in un luogo inatteso: il ritmo trocaico, non più contato per quantità ma per accento, è la forma di gran parte della poesia latina medievale, dai canti di marcia agli inni, ed è ancora udibile nel *Pange lingua*.'
     }
   };
 })(window);

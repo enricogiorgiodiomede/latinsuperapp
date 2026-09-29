@@ -84,8 +84,13 @@ function fragmentsOf(slug, workId) {
 // A verse excerpt keeps one verse per "> " line; prose is one long blockquote
 // paragraph (sometimes several, separated by a bare ">").
 function looksLikeProse(f) {
-  const lines = f.latin.split('\n').filter(l => l.trim() !== '' && l.trim() !== '>');
-  if (lines.length === 1) return f.latin.length > 200;   // one very long line
+  // Only the blockquote lines are the text. A few excerpts carry an editorial
+  // source note in the same field - the Atellan fragments, which are on neither
+  // of the two usual sites - and a paragraph of English about where the Latin
+  // came from is not evidence that the Latin is prose.
+  const lines = f.latin.split('\n').filter(l => /^>\s*\S/.test(l));
+  if (!lines.length) return f.latin.length > 200;
+  if (lines.length === 1) return lines[0].length > 200;   // one very long line
   return lines.some(l => l.replace(/^> /, '').length > 140);
 }
 
@@ -127,8 +132,8 @@ for (const slug of Object.keys(ASSIGN)) {
 // ---- 4-5: every fragment the table actually labels ---------------------
 for (const slug of Object.keys(AUTHORS)) {
   for (const w of AUTHORS[slug].works) {
-    for (const f of w.fragments) {
-      const m = window.Metres.forFragment(slug, w.id, f.citation);
+    for (const [fi, f] of w.fragments.entries()) {
+      const m = window.Metres.forFragment(slug, w.id, f.citation, fi);
       if (!m) continue;
       labelled++;
       if (m.hasPage) linked++;
@@ -162,8 +167,8 @@ for (const slug of Object.keys(AUTHORS)) {
 const byMetre = {};
 for (const slug of Object.keys(AUTHORS)) {
   for (const w of AUTHORS[slug].works) {
-    for (const f of w.fragments) {
-      const m = window.Metres.forFragment(slug, w.id, f.citation);
+    for (const [fi, f] of w.fragments.entries()) {
+      const m = window.Metres.forFragment(slug, w.id, f.citation, fi);
       if (m) byMetre[m.name] = (byMetre[m.name] || 0) + 1;
     }
   }

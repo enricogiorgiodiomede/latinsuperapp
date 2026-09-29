@@ -70,6 +70,46 @@
       }
     },
 
+    // THE TRAGIC AND ATELLAN METRES (v1.15.4). No database covers these: the
+    // plays are lost and the verses survive as quotations in Cicero, Macrobius
+    // and Nonius. Each label is the metre left standing by tools/scan_drama.js
+    // once the vowel quantities the tool leaves open are supplied by hand, and
+    // where Ribbeck's text marks the ictus those marks agree with it.
+    //
+    // Two excerpts are deliberately unlabelled: Accius' *oderint, dum metuant*
+    // is seven syllables, the tag as Cicero quotes it and not a whole verse of
+    // anything, and the same goes for Novius' *sapiens si algebis, tremes*.
+    'marcus-pacuvius-and-lucius-accius': {
+      'pacuvius-niptra': 'trochaic-septenarius',
+      // Cicero quotes two passages of the Chryses from one section of the De
+      // Divinatione, in two different metres, so these are keyed by position:
+      // the citation is the same string for both.
+      'pacuvius-chryses': { byIndex: { 0: 'iambic-senarius', 1: 'trochaic-septenarius' } },
+      'accius-brutus': { byCitation: {
+        '(Brutus, in Cicero, De Divinatione I.44)': 'iambic-senarius',
+        '(Brutus, in Cicero, De Divinatione I.45)': 'trochaic-septenarius'
+      } }
+    },
+
+    // The Atellan writers, whose fragments come with Ribbeck's own numbering,
+    // which is why two of these labels can name real verse numbers.
+    'pomponius-bononiensis-and-quintus-novius': {
+      'pomponius-fullones': { byCitation: {
+        '(Fullones, fr. 48-50 Ribbeck)': [{ m: 'iambic-senarius', from: 48, to: 49 }, { m: 'trochaic-septenarius', from: 50, to: 50 }]
+      } },
+      // Macrobius cut the quotation after four syllables of the second verse,
+      // so only the first is a whole line. The numerals are the app's, printed
+      // on the Latin, as with Caecilius.
+      'pomponius-galli-transalpini': { byCitation: {
+        '(Galli Transalpini, in Macrobius, Saturnalia VI.9)': [{ m: 'iambic-senarius', from: 'I', to: 'I' }]
+      } },
+      'pomponius-kalendae-martiae': 'trochaic-septenarius',
+      'novius-maccus-exul': { byCitation: {
+        '(Maccus Exul, fr. 48-50 Ribbeck)': [{ m: 'iambic-senarius', from: 48, to: 48 }, { m: 'trochaic-septenarius', from: 49, to: 50 }]
+      } },
+      'novius-atellanae': { byIndex: { 0: 'trochaic-septenarius' } }
+    },
+
     // THE COMIC METRES (v1.15.3). A comic scene changes metre where the action
     // changes register, so these are assigned excerpt by excerpt, and two of
     // them by verse range within the excerpt. The source is Timothy J. Moore,
@@ -556,7 +596,7 @@
         '**The name records a disagreement about arithmetic.** A Greek counted this line as three *metra*, each metron a pair of feet, and called it a trimeter. A Roman counted the feet and called it a senarius, a thing of six. Same line, different unit, and the difference is not pedantry: the Greek pairing keeps the odd positions subordinate, and Latin, as you will see below, stopped treating them that way at all.',
         '**Before the theatre it was the metre of abuse.** *Iambos* in Greek meant invective: Archilochus used it in the seventh century BC to destroy his enemies in public, and the name of the metre and the name of the genre are the same word. Comedy inherits a form with that history attached, which is convenient for a genre in which slaves insult their owners for a living.',
         '**In Latin it arrives with the theatre itself** and never leaves. Livius Andronicus, Naevius and Ennius use it for the dialogue of tragedy; Plautus and Terence build comedy on it; and long after the stage has finished with it, it is still the line of Phaedrus\'s fables and of Seneca\'s tragedies, which were written to be read.',
-        '**By volume it is the most important metre in early Latin.** Rather more than a third of Plautus and about half of Terence is in senarii, and the thirty-six excerpts in this app that carry this label are the largest single group in the bank. If you are reading early Latin verse at all, you are mostly reading this line.'
+        '**By volume it is the most important metre in early Latin.** Rather more than a third of Plautus and about half of Terence is in senarii, and the forty-six excerpts in this app that carry this label are the largest group here after the hexameter. If you are reading early Latin verse at all, you are mostly reading this line.'
       ],
 
       build: [
@@ -623,6 +663,21 @@
             '**One elision and one resolution in thirteen syllables**, against Plautus\' three resolutions in fifteen. That ratio is the difference between the two poets in miniature: Terence keeps the line nearer its skeleton, and the effect is smoother and less like overheard speech.',
             '**The word order is doing what the metre allows.** The judgement comes first, the relative clause sits inside it, and the verb arrives last, so the sentence closes exactly where the line does.',
             'Syrus is admitting that the things he does are silly. The one resolution in the line falls on *facimus*, the only word in it that is about doing rather than thinking.'
+          ]
+        },
+        {
+          author: 'Lucius Accius',
+          slug: 'marcus-pacuvius-and-lucius-accius', era: 'archaic',
+          where: 'Brutus, in Cicero, De Divinatione I.44',
+          gloss: 'The same line in tragedy, where nothing is resolved at all',
+          plain: 'dedi, sopore placans artus languidos,',
+          source: 'bank',
+          marked: 'dĕdī, | sŏpō|rĕ plā|cāns ār|tūs lān|guĭdōs,',
+          pattern: '⏑ – | ⏑ – | ⏑ – | – – | – – | ⏑ ×',
+          notes: [
+            '**Twelve syllables for twelve positions, and not one resolution.** Set this beside the Plautus above, which needed three: the difference is not the metre, which is identical, but the register. Tragedy keeps the line close to its skeleton because the diction is grand and the pace is slow.',
+            '**Three iambs, then two spondees, then the close.** The verse gets heavier as it goes, and the heaviness arrives exactly on *artus languidos*, the weary limbs. That is the whole trick of tragic senarii: the metre is the same one the slaves are joking in, and the difference in effect comes from what is put into it.',
+            'Tarquin is describing the night he dreamt of the ram: he has just lain down. The line is a single ablative absolute in everything but form, and the verb that governs it sits at the head of the verse, where a comic poet would not have put it.'
           ]
         }
       ],
@@ -917,7 +972,7 @@
       ],
 
       usedIntro: [
-        'Roman comedy above all - Plautus and Terence use it constantly, and between them they account for most of the surviving examples in Latin. Then Lucilius\' earliest satire, then marching songs, popular verse, and eventually the medieval hymn.',
+        'Roman comedy above all - Plautus and Terence use it constantly, and between them they account for most of the surviving examples in Latin. Then tragedy, where Pacuvius and Accius use it for the heightened scenes; then Atellan farce; then Lucilius\' earliest satire; then marching songs, popular verse, and eventually the medieval hymn.',
         'The three examples below are the three uses in one page: satire, Plautine performance and Terentian dialogue. The first is from Lucilius, Book 26, the earliest satire we have any of - the same book that carries the most quoted sentence in Roman satire about its own audience, where Lucilius says he does not want Manius Persius, who was famously learned, to read him, and does want Iunius Congus, who was not. That line survives only inside the preface to Pliny\'s Natural History rather than as transmitted verse, so it is left out of the scansion below.'
       ],
 
@@ -978,9 +1033,24 @@
             '**Three elisions again, and a dropped s.** *Quaestu’* for *quaestus* is the colloquial clipping that both playwrights use constantly and that editors print with an apostrophe; it is also the reason the syllable can stay short.',
             'Terence uses this metre about as often as he uses the senarius. Where Plautus has it competing with a dozen lyric metres, in Terence it is simply the other half of the play.'
           ]
+        },
+        {
+          author: 'Marcus Pacuvius',
+          slug: 'marcus-pacuvius-and-lucius-accius', era: 'archaic',
+          where: 'Niptra, in Cicero, Tusculanae Disputationes II.50',
+          gloss: 'Tragedy in the same metre, and almost nothing but longs',
+          plain: 'Conqueri fortunam adversam, non lamentari decet.',
+          source: 'bank',
+          marked: 'Cōnquĕ|rī fōr|tū(nam) ād|vērsām, | nōn lā|mēntā|rī dĕ|cēt.',
+          pattern: '– ⏑ | – – | – – | – – | – – | – – | – ⏑ | ×',
+          notes: [
+            '**Two short syllables in fifteen.** Every anceps is taken long, so the line is a wall of spondees with one light syllable near each end, and it moves at about half the speed of the comic examples above. The metre has not changed; the poet has.',
+            '**To complain of bad fortune is right; to wail about it is not.** Ulysses is dying of the wound his own son gave him, and Cicero quotes the line twice in the Tusculans as the model of how a man should take pain. The weight of the verse is the argument: a septenarius this slow sounds like something being endured rather than performed.',
+            'The single elision, *fortunam adversam*, is what keeps the count to fifteen, and the break falls after it, dividing the line between the thing to be done and the thing not to be done.'
+          ]
         }
       ],
-      after: 'Thirty excerpts in this app are in this metre, which makes it the second commonest here after the iambic senarius, and all but two of them are comic. It outlives the stage in an unexpected place: the trochaic rhythm, no longer counted by quantity but by stress, is the shape of a great deal of medieval Latin verse, from marching songs to hymns, and it is still audible in the *Pange lingua*.'
+      after: 'This is the second commonest metre in the app after the iambic senarius, and since v1.15.4 it turns up in every kind of drama here: comedy above all, but also the tragedies of Pacuvius and Accius, the Atellan farces of Pomponius and Novius, and Lucilius\' earliest satire. It outlives the stage in an unexpected place: the trochaic rhythm, no longer counted by quantity but by stress, is the shape of a great deal of medieval Latin verse, from marching songs to hymns, and it is still audible in the *Pange lingua*.'
     }
   };
 
@@ -1028,7 +1098,11 @@
 
   // Resolve one excerpt. Returns { id, name, hasPage } or null when the
   // excerpt has no label yet - which is most of the bank, and is correct.
-  function forFragment(slug, workId, citation) {
+  // `index` is the fragment's position in its work, and it is needed only
+  // where one work has two fragments with the SAME citation in different
+  // metres: Cicero quotes two passages of Pacuvius' Chryses from the same
+  // section of the De Divinatione, one in senarii and one in septenarii.
+  function forFragment(slug, workId, citation, index) {
     var node = ASSIGN[slug];
     if (!node) return null;
     if (typeof node === 'string') return record(node);
@@ -1049,7 +1123,8 @@
     var w = node[workId];
     if (!w) return null;
     if (typeof w === 'string') return record(w);
-    var byCit = (w.byCitation && w.byCitation[citation]) || w.def || null;
+    var byIdx = (w.byIndex && index != null) ? w.byIndex[index] : null;
+    var byCit = byIdx || (w.byCitation && w.byCitation[citation]) || w.def || null;
     return byCit ? record(byCit) : null;
   }
 

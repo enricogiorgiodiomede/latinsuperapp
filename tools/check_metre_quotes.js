@@ -97,9 +97,13 @@ function markSequence(s) {
     if (LONG_V.indexOf(ch) >= 0) { out.push('–'); continue; }
     if (SHORT_V.indexOf(ch) >= 0) { out.push('⏑'); continue; }
     if (BARE_V.indexOf(ch) < 0) continue;
-    // u after q is not a vowel: quondam, aequora, divomque
-    var prev = chars[i - 1];
-    if ((ch === 'u' || ch === 'U') && (prev === 'q' || prev === 'Q')) continue;
+    // u after q, and in -ngu-, is a glide and not a vowel: quondam,
+    // aequora, divomque, and the -gui- of languidos. The letters before it
+    // are read across the foot bars, because a foot division can fall inside
+    // a word and lan|guidos is still one -ngu-.
+    var back = [];
+    for (var j = i - 1; j >= 0 && back.length < 2; j--) if (/[a-z]/i.test(chars[j])) back.push(chars[j].toLowerCase());
+    if ((ch === 'u' || ch === 'U') && (back[0] === 'q' || (back[0] === 'g' && back[1] === 'n'))) continue;
     var pair = (ch + (chars[i + 1] || '')).toLowerCase();
     if (DIPHTHONG.indexOf(pair) >= 0 && BARE_V.indexOf(chars[i + 1]) >= 0) {
       out.push('–');                                 // a diphthong is always long

@@ -99,6 +99,13 @@ function words(line) {
     // the apostrophe of `eiu' causa` and `populu' curat` marks a final -s the
     // text itself has already dropped, so it is simply a word end
     .replace(/[‘’]/g, ' ')
+    // Ribbeck prints the Atellan fragments with the ictus marked on the vowel
+    // (díxin itúrum, Límen superum). That is an editorial mark, not a letter,
+    // and a vowel wearing one is still a vowel.
+    .replace(/[áàâ]/g, 'a').replace(/[éèê]/g, 'e').replace(/[íìî]/g, 'i')
+    .replace(/[óòô]/g, 'o').replace(/[úùû]/g, 'u').replace(/[ýÿ]/g, 'y')
+    .replace(/[ÁÀÂ]/g, 'A').replace(/[ÉÈÊ]/g, 'E').replace(/[ÍÌÎ]/g, 'I')
+    .replace(/[ÓÒÔ]/g, 'O').replace(/[ÚÙÛ]/g, 'U')
     .replace(/[^A-Za-zÀ-ÿ'\- ]/g, ' ')
     .toLowerCase()
     .split(/[\s'\-]+/)
@@ -351,6 +358,11 @@ function fitsWithHiatus(full, pos) {
    4. Reporting
  * ================================================================== */
 
+// A verse is a blockquote line. Some excerpts carry an editorial source note
+// in the same field - the Atellan fragments, which are on neither of the two
+// usual sites - and a paragraph of English prose is not a line of Latin.
+function isVerseLine(l) { return /^>\s*\S/.test(l); }
+
 function fragmentsOf(slug, workId) {
   const au = AUTHORS[slug];
   if (!au) throw new Error('no such author: ' + slug);
@@ -428,7 +440,7 @@ function structureLine(st, n) {
 function report(slug, workId) {
   const items = fragmentsOf(slug, workId);
   items.forEach(function (it) {
-    const lines = it.frag.latin.split('\n').filter(function (l) { return l.replace(/^>\s?/, '').trim(); });
+    const lines = it.frag.latin.split('\n').filter(isVerseLine);
     console.log('\n' + it.work + ' [' + it.index + ']  ' + it.frag.citation);
     const tally = {};
     lines.forEach(function (l, i) {
@@ -453,7 +465,7 @@ function claim(slug, workId, index, metreId) {
   const m = METRES[metreId];
   if (!m) throw new Error('unknown metre: ' + metreId + ' (have: ' + Object.keys(METRES).join(', ') + ')');
   const it = fragmentsOf(slug, workId)[Number(index)];
-  const lines = it.frag.latin.split('\n').filter(function (l) { return l.replace(/^>\s?/, '').trim(); });
+  const lines = it.frag.latin.split('\n').filter(isVerseLine);
   let bad = 0;
   lines.forEach(function (l, i) {
     const w = elided(l);

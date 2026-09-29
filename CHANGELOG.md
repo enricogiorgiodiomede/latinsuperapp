@@ -6,6 +6,61 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.15.4] - 2026-09-29
+
+**THE TRAGIC AND ATELLAN METRES.** Ten more excerpts labelled - Pacuvius 3, Accius 2, Pomponius 3, Novius 2 -
+which is nearly all the tragedy and farce in the app. **167 -> 177 labelled, all linked.**
+
+### How these were deduced, since nothing could be looked up
+- Plautus and Terence have a database because their plays survive whole. **These four poets survive only as
+  quotations**, a few lines at a time in Cicero, Macrobius and Nonius, and nobody has compiled them.
+- So each label came from the verses: `tools/scan_drama.js` rules out what a line cannot be, and then the
+  vowel quantities it deliberately leaves open were supplied by hand until one metre was left. Four excerpts
+  needed no hand work at all (the scanner left exactly one metre); five needed the quantities; one needed both
+  and the ictus marks below.
+- **Two fragments corroborate themselves.** Ribbeck prints Novius with the beat marked on the vowel
+  (*Límen superum, quód mei misero saépe confregít caput*), and all four marks fall on long positions of the
+  trochaic septenarius the scanner had reached independently - including *confregít*, where the mark is on a
+  syllable the Latin word accent would never take, which is how you can tell the marks are metrical and not
+  orthographic. The same verse also needs *mei* read as one syllable, and with that it scans exactly.
+- **Two fragments stay unlabelled**, as they should: *oderint, dum metuant* is seven syllables and
+  *sapiens si algebis, tremes* is eight. Neither is a whole verse of anything.
+
+### Added
+- **Pacuvius**: Niptra trochaic septenarii; Chryses iambic senarii and, in the cosmological passage, trochaic
+  septenarii. **Accius**: Brutus iambic senarii for the dream, trochaic septenarii for its interpretation.
+- **Pomponius**: Fullones `Iambic Senarius (vv. 48-49), Trochaic Septenarius (v. 50)`; Galli Transalpini
+  senarius, with editorial numerals I-II on the Latin because Macrobius cut the second verse after four
+  syllables; Kalendae Martiae trochaic septenarius. **Novius**: Maccus Exul `Iambic Senarius (v. 48),
+  Trochaic Septenarius (vv. 49-50)`; the De Oratore fragment a trochaic septenarius.
+- **A label may be keyed by position** (`byIndex`), which Pacuvius needs: Cicero quotes two passages of the
+  Chryses from one section of the *De Divinatione*, in two different metres, under the same citation string.
+- **Two tragic examples on the metre pages**, each placed to be read against the comic ones: Accius, a senarius
+  of twelve syllables in twelve positions with nothing resolved, against a Plautus that needed three
+  resolutions in fifteen; and Pacuvius, a septenarius with two shorts in fifteen, at half the comic pace.
+
+### Fixed
+- **Three more analyses named the wrong metre**: Niptra (senarii -> septenarii), Chryses (hedged between the
+  long lines -> septenarii), Brutus I.45 (iambic and trochaic -> trochaic throughout).
+- **The Iambic Senarius page said its excerpts were the largest single group in the bank.** They are not: the
+  hexameter has 70 and the senarius 46. It now says the largest group after the hexameter.
+- The Trochaic Septenarius page no longer says all but two of its excerpts are comic, which stopped being
+  true in this release.
+
+### Changed - the tools
+- `scan_drama.js` **reads only the blockquote lines**. Four Atellan excerpts carry an editorial source note in
+  the same field - they are on neither of the two usual sites - and a paragraph of English was being scanned
+  as a 108-syllable verse.
+- `scan_drama.js` **strips an acute accent before scanning**, since Ribbeck marks the ictus on the vowel; a
+  vowel wearing an editorial mark is still a vowel, and *díxin itúrum* was coming out four syllables short.
+- `check_metres.js` judges "does this read as prose?" on the verses alone, for the same reason.
+- `check_metre_quotes.js` knows that the *u* of *-ngu-* is a glide, and reads the letters before it across a
+  foot bar, because *lan|guidos* is still one -ngu-.
+
+Verification: **177 labelled, 177 linked, 0 failed**; **check_metre_quotes 27/0**; **392 verbatim, 0
+mismatched**; **check_verses 60/0**; `lint_markdown` 0 leaking; EN and IT in step on all nine pages; both
+languages read in the browser, console clean. Cache-bust: `?v=186` -> `?v=187`.
+
 ## [1.15.3] - 2026-09-29
 
 **THE COMIC METRES.** Every excerpt of Plautus, Terence and Caecilius now carries a metre label: **86 newly
