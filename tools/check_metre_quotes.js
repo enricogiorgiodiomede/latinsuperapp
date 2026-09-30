@@ -217,17 +217,22 @@ for (const id of Object.keys(PAGES)) {
         ? (ex.readings ? ' [' + ex.readings[n].label.split('.').pop() + ' reading]' : ' [line ' + (n + 1) + ']')
         : '');
 
-      // 1. the scansion has to spell the line
+      // 1. the scansion has to spell the line. BOTH sides are unmarked, because
+      //    the source itself can carry editorial marks: Ribbeck prints the
+      //    Atellan fragments with the ictus on the vowel, and a macron where
+      //    the edition has an acute is the same letter underneath. The verbatim
+      //    check below still uses the plain line exactly as the bank holds it.
       const spelled = unmark(markedLine);
       const plain = plains[n].replace(/\s+/g, ' ').trim();
-      if (spelled !== plain) {
+      if (spelled !== unmark(plain)) {
         ok = false;
         return fail(where + ': the marked scansion does not spell the verse' +
           '\n  marked -> ' + JSON.stringify(spelled) +
-          '\n  plain  -> ' + JSON.stringify(plain));
+          '\n  plain  -> ' + JSON.stringify(unmark(plain)));
       }
 
-      // 2. and the line has to be somebody's, verbatim
+      // 2. and the line has to be somebody's, verbatim - checked against the
+      //    plain line as the bank actually holds it, marks and all
       if (ex.source === 'bank') {
         if (!bankLines.has(plain)) { ok = false; return fail(where + ': not a verbatim line of any excerpt in the bank: ' + JSON.stringify(plain)); }
       } else {

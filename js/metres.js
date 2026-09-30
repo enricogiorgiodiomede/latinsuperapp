@@ -104,8 +104,15 @@
         '(Galli Transalpini, in Macrobius, Saturnalia VI.9)': [{ m: 'iambic-senarius', from: 'I', to: 'I' }]
       } },
       'pomponius-kalendae-martiae': 'trochaic-septenarius',
+      // v. 48 carried an iambic senarius label in v1.15.4 and has lost it:
+      // with the quantities the dictionary gives, no assignment of its
+      // thirteen syllables to the twelve positions of a senarius exists,
+      // with or without the elision, and thirteen syllables is far too few
+      // for any of the long lines. Ribbeck's ictus marks say it is iambic,
+      // which is why it looked safe; being iambic is not the same as being
+      // scannable, and the text as printed may simply be defective.
       'novius-maccus-exul': { byCitation: {
-        '(Maccus Exul, fr. 48-50 Ribbeck)': [{ m: 'iambic-senarius', from: 48, to: 48 }, { m: 'trochaic-septenarius', from: 49, to: 50 }]
+        '(Maccus Exul, fr. 48-50 Ribbeck)': [{ m: 'trochaic-septenarius', from: 49, to: 50 }]
       } },
       'novius-atellanae': { byIndex: { 0: 'trochaic-septenarius' } }
     },
@@ -666,6 +673,21 @@
           ]
         },
         {
+          author: 'Marcus Pacuvius',
+          slug: 'marcus-pacuvius-and-lucius-accius', era: 'archaic',
+          where: 'Chryses, in Cicero, De Divinatione I.131',
+          gloss: 'Tragedy arguing rather than declaiming, and one resolution at the head of the line',
+          plain: 'magis audiendum quam auscultandum censeo.',
+          source: 'bank',
+          marked: 'măgĭs au|dĭēn|dūm (quam) aus|cūltān|dūm cēn|sĕō.',
+          pattern: '⏑ ⏑ – | ⏑ – | – – | – – | – – | ⏑ ×',
+          notes: [
+            '**Worth hearing rather than heeding, in my view.** A character is dismissing the diviners: you may listen to them, but do not do what they say. The joke is in the pair *audiendum* and *auscultandum*, two gerundives from two verbs for hearing, and the metre sets them in the same place in successive feet so that the ear catches the parallel before the mind does.',
+            '**The one resolution is the first thing in the line.** *Magis* fills a single anceps with two short syllables, so the verse starts at a run and then settles into four spondees. Tragedy does this at the head of a line far more readily than in the middle, where it would blur the shape.',
+            'The elision swallows *quam* entirely, which is why the two gerundives end up adjacent in the verse although a whole word stands between them on the page.'
+          ]
+        },
+        {
           author: 'Lucius Accius',
           slug: 'marcus-pacuvius-and-lucius-accius', era: 'archaic',
           where: 'Brutus, in Cicero, De Divinatione I.44',
@@ -678,6 +700,21 @@
             '**Twelve syllables for twelve positions, and not one resolution.** Set this beside the Plautus above, which needed three: the difference is not the metre, which is identical, but the register. Tragedy keeps the line close to its skeleton because the diction is grand and the pace is slow.',
             '**Three iambs, then two spondees, then the close.** The verse gets heavier as it goes, and the heaviness arrives exactly on *artus languidos*, the weary limbs. That is the whole trick of tragic senarii: the metre is the same one the slaves are joking in, and the difference in effect comes from what is put into it.',
             'Tarquin is describing the night he dreamt of the ram: he has just lain down. The line is a single ablative absolute in everything but form, and the verb that governs it sits at the head of the verse, where a comic poet would not have put it.'
+          ]
+        },
+        {
+          author: 'Pomponius Bononiensis',
+          slug: 'pomponius-bononiensis-and-quintus-novius', era: 'archaic',
+          where: 'Galli Transalpini, in Macrobius, Saturnalia VI.9',
+          gloss: 'And the same line in Atellan farce, resolved three times',
+          plain: 'Mars, tibi voveo facturum, si unquam rediero,',
+          source: 'bank',
+          marked: 'Mārs, tĭbĭ | vŏvĕō | fāctū|rūm, (si) ūn|quām rĕdĭ|ĕrō,',
+          pattern: '– ⏑ ⏑ | ⏑ ⏑ – | – – | – – | – ⏑ ⏑ | ⏑ ×',
+          notes: [
+            '**Three resolutions in fifteen syllables**, which is Plautine freedom in a poet writing two generations later, and it tells you what register Atellan farce sits in: this is the popular end of the theatre, not the literary one.',
+            '**Mars, I vow to you that I will sacrifice, if ever I come home, a two-year-old boar.** It is a soldier\'s vow in the form the real ones took, and the joke is in what got cut: Macrobius stops after four syllables of the next verse, which is why the label on that excerpt covers the first line only.',
+            'Note the shape of the ending, *rediero*: two shorts, then the obligatory short of the eleventh position, then the close. A senarius can end with a rush like this, and a tragic one rarely does.'
           ]
         }
       ],
@@ -1076,7 +1113,22 @@
           notes: [
             '**Two resolutions, back to back, in the sixth and seventh feet.** *Mulieris* and *videantur* are exactly the kind of word this metre exists to accommodate: four light-heavy syllables that no shorter line could take without breaking. Seventeen syllables in fifteen positions, and the last third of the verse runs.',
             '**You must lower your voice, so they will pass for a woman\'s.** An actor is being coached to play a woman, which in Atellan farce is a man in a mask, and Macrobius quotes the line not for the joke but for the idiom *vocem deducere*. The metre is the same one Accius has just used for a prophecy about the destiny of Rome.',
-            '**This is how the label on that excerpt was arrived at**, incidentally. The verse fits no other long line: an iambic septenarius would need a short in the thirteenth position, where *-an-* of *videantur* is closed and long, and a trochaic octonarius leaves a longum standing on the short *vi-*. Only this reading survives, and Ribbeck\'s text of Novius, which marks the beat on the vowel, agrees with the scansion of its own trochaic lines in the same way.'
+'**This is how the label on that excerpt was arrived at**, incidentally. The verse fits no other long line: an iambic septenarius would need a short in the thirteenth position, where *-an-* of *videantur* is closed and long, and a trochaic octonarius leaves a longum standing on the short *vi-*. Only this reading survives, and Ribbeck\'s text of Novius, which marks the beat on the vowel, agrees with the scansion of its own trochaic lines in the same way.'
+          ]
+        },
+        {
+          author: 'Quintus Novius',
+          slug: 'pomponius-bononiensis-and-quintus-novius', era: 'archaic',
+          where: 'Maccus Exul, fr. 49 Ribbeck',
+          gloss: 'The one verse in the app whose editor marked the beat himself',
+          plain: 'Límen superum, quód mei misero saépe confregít caput,',
+          source: 'bank',
+          marked: 'Līmēn | sŭpĕrūm, | quōd mei | mĭsĕrō | saepĕ | cōnfrē|gīt că|pŭt,',
+          pattern: '– – | ⏑ ⏑ – | – – | ⏑ ⏑ – | – ⏑ | – – | – ⏑ | ×',
+          notes: [
+            '**The acutes are in the text, and they are not accents.** Ribbeck prints this fragment with the beat marked on the vowel, and you can tell it is the beat rather than the word accent because of *confregít*: Latin would stress that word on its first syllable, never its last. **All four marks fall on long positions of the septenarius**, which is a nineteenth-century editor and this app\'s scanner agreeing about a verse neither could see whole.',
+            '**The lintel above, which has often broken my head, poor me.** Maccus, the greedy fool of Atellan farce, is complaining about a doorway; the next verse does the same for the threshold below and his toes. The metre is the long comic line, used exactly as Plautus would use it, by a poet writing for a rougher stage.',
+            '**One word has to be read as a single syllable**, *mei*, which is why this verse is worth showing. Two shorts resolve in the second foot and two more in the fourth, and with *mei* taken as two syllables instead of one the verse has eighteen and fits nothing at all. Synizesis is not a licence a scanner can guess at; it is something you hear.'
           ]
         }
       ],

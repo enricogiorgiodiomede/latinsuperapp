@@ -98,6 +98,41 @@ Verification: **177 labelled, 177 linked, 0 failed** and every label now resolve
 without a work in the URL; **check_metre_quotes 29/0**; **392 verbatim, 0 mismatched**; `lint_markdown` 0
 leaking; both languages read in the browser, console clean. Cache-bust: `?v=187` -> `?v=188`.
 
+### Follow-up, 2026-10-01: the rest of the poets on the pages, and one label withdrawn
+
+- **Pacuvius and Pomponius on the Iambic Senarius page; Novius on the Trochaic Septenarius page.** Both pages
+  now show every author in the app who writes in that metre. Pacuvius gives a line that resolves at the head
+  and then runs on four spondees; Pomponius resolves three times in fifteen syllables, which is Plautine
+  freedom two generations after Plautus.
+- **The Novius verse is the best example on either page.** Ribbeck printed *Límen superum, quód mei misero
+  saépe confregít caput* with the beat marked on the vowel, and all four marks fall on long positions of the
+  septenarius. You can tell the marks are metrical rather than accentual from *confregít*, which Latin would
+  stress on its first syllable. It also needs *mei* read as one syllable: with two it has eighteen and fits
+  nothing at all.
+
+### Fixed - a label withdrawn
+- **Maccus Exul v. 48 is no longer called an iambic senarius.** Asked to put Novius on the senarius page, I
+  scanned his only candidate properly instead of trusting yesterday's fit, and **it does not scan**: an
+  exhaustive search over every legal senarius shows no assignment of its thirteen syllables to twelve
+  positions with the quantities its words actually have, with or without the elision, and thirteen syllables
+  is far too few for any longer line.
+- **What made it look safe was Ribbeck's ictus mark on the second syllable**, which does show the line is
+  iambic. Being iambic is not the same as being scannable. The label now covers vv. 49-50 only, and the
+  analysis says in as many words that the first verse will not scan and the text may be damaged.
+- **The lesson, recorded because it generalises**: `scan_drama` leaves a vowel open when only the dictionary
+  knows its length, so a fit it reports can rest entirely on vowels nobody has checked. A fit is a candidate.
+  **Before a label ships, the quantities have to be supplied and the fit re-tested.**
+
+### Changed
+- `check_metre_quotes.js` compares the scansion with the verse **unmarked on both sides**, because the source
+  itself can carry editorial marks: a macron where Ribbeck prints an acute is the same letter underneath. The
+  verbatim check still uses the line exactly as the bank holds it, acutes and all.
+- Two more bold-around-italic leaks, one per language.
+
+Verification: **177 labelled, 177 linked, 0 failed**; **check_metre_quotes 32/0**; **392 verbatim, 0
+mismatched**; **check_verses 60/0**; `lint_markdown` 0 leaking; EN and IT in step on all nine pages; both
+pages read in the browser, console clean. Cache-bust: `?v=188` -> `?v=189`.
+
 ## [1.15.3] - 2026-09-29
 
 **THE COMIC METRES.** Every excerpt of Plautus, Terence and Caecilius now carries a metre label: **86 newly

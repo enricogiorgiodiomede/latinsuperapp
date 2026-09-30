@@ -304,12 +304,30 @@
           ]
         },
         {
+          where: 'Chryses, in Cicerone, De Divinatione I.131',
+          gloss: 'La tragedia che argomenta invece di declamare, e una soluzione in testa al verso',
+          notes: [
+            '**Da ascoltare, più che da dare retta, secondo me.** Un personaggio liquida gli indovini: li si può anche sentire, ma non bisogna fare ciò che dicono. La battuta sta nella coppia *audiendum* e *auscultandum*, due gerundivi da due verbi dell\'udire, e il metro li colloca nello stesso punto di piedi successivi, così che l\'orecchio colga il parallelo prima della mente.',
+            '**L\'unica soluzione è la prima cosa del verso.** *Magis* riempie un solo ancipite con due sillabe brevi, perciò il verso parte di corsa e poi si assesta su quattro spondei. La tragedia lo fa in testa al verso molto più volentieri che in mezzo, dove sfocherebbe la forma.',
+            'L\'elisione inghiotte *quam* per intero, ed è per questo che i due gerundivi finiscono adiacenti nel verso benché sulla pagina ci sia una parola intera in mezzo.'
+          ]
+        },
+        {
           where: 'Brutus, in Cicerone, De Divinatione I.44',
           gloss: 'Lo stesso verso nella tragedia, dove non si scioglie proprio nulla',
           notes: [
             '**Dodici sillabe per dodici posizioni, e nemmeno una soluzione.** Lo si metta accanto al Plauto qui sopra, che ne chiedeva tre: la differenza non è il metro, che è identico, ma il registro. La tragedia tiene il verso vicino allo scheletro perché la lingua è alta e il passo è lento.',
             '**Tre giambi, poi due spondei, poi la chiusa.** Il verso si appesantisce andando avanti, e la pesantezza arriva esattamente su *artus languidos*, le membra stanche. È tutto il trucco del senario tragico: il metro è lo stesso in cui scherzano gli schiavi, e la differenza di effetto viene da ciò che ci si mette dentro.',
             'Tarquinio racconta la notte in cui sognò l\'ariete: si è appena coricato. Il verso è un ablativo assoluto in tutto tranne che nella forma, e il verbo che lo regge sta in testa al verso, dove un comico non lo avrebbe messo.'
+          ]
+        },
+        {
+          where: 'Galli Transalpini, in Macrobio, Saturnalia VI.9',
+          gloss: 'E lo stesso verso nell\'atellana, sciolto tre volte',
+          notes: [
+            '**Tre soluzioni in quindici sillabe**, cioè libertà plautina in un poeta che scrive due generazioni dopo, e dice in che registro stia l\'atellana: è il capo popolare del teatro, non quello letterario.',
+            '**Marte, ti faccio voto che sacrificherò, se mai tornerò a casa, un verro di due anni.** È il voto di un soldato nella forma che avevano quelli veri, e la battuta sta in ciò che è stato tagliato: Macrobio si ferma dopo quattro sillabe del verso seguente, ed è per questo che l\'etichetta di quell\'estratto copre solo la prima riga.',
+            'Si noti la forma della chiusa, *rediero*: due brevi, poi la breve obbligatoria dell\'undicesima posizione, poi la fine. Un senario può chiudersi con una corsa così, e uno tragico quasi mai lo fa.'
           ]
         }
       ],
@@ -607,6 +625,15 @@
             '**Due soluzioni, una dietro l\'altra, nel sesto e nel settimo piede.** *Mulieris* e *videantur* sono esattamente il genere di parola per cui questo metro esiste: sequenze di brevi che nessun verso più corto potrebbe accogliere senza rompersi. Diciassette sillabe in quindici posizioni, e l\'ultimo terzo del verso corre.',
             '**Bisogna che tu abbassi la voce, così che paia di donna.** Un attore viene istruito a fare la parte femminile, che nell\'atellana è un uomo con la maschera, e Macrobio cita il verso non per la battuta ma per il modo di dire *vocem deducere*. Il metro è lo stesso che Accio ha appena usato per una profezia sul destino di Roma.',
             '**Per inciso, è così che si è arrivati all\'etichetta di quell\'estratto.** Il verso non entra in nessun altro verso lungo: un settenario giambico vorrebbe una breve in tredicesima posizione, dove l\'*-an-* di *videantur* è chiuso e lungo, e un ottonario trocaico lascerebbe un longum sulla breve *vi-*. Resta in piedi solo questa lettura, e il testo di Ribbeck per Novio, che segna il tempo forte sulla vocale, concorda allo stesso modo con la scansione dei suoi versi trocaici.'
+          ]
+        },
+        {
+          where: 'Maccus Exul, fr. 49 Ribbeck',
+          gloss: 'L\'unico verso dell\'app il cui editore ha segnato lui stesso il tempo forte',
+          notes: [
+            '**Gli accenti acuti sono nel testo, e non sono accenti di parola.** Ribbeck stampa questo frammento con il tempo forte segnato sulla vocale, e che sia il tempo forte e non l\'accento si capisce da *confregít*: il latino accenterebbe quella parola sulla prima sillaba, mai sull\'ultima. **Tutti e quattro i segni cadono su posizioni lunghe del settenario**, cioè un editore dell\'Ottocento e lo scandiglio di questa app che concordano su un verso che nessuno dei due poteva vedere per intero.',
+            '**L\'architrave di sopra, che tante volte mi ha rotto la testa, poveretto me.** Macco, lo sciocco ingordo dell\'atellana, si lamenta di una porta; il verso successivo fa lo stesso con la soglia di sotto e le sue dita. Il metro è il lungo verso comico, usato esattamente come lo userebbe Plauto, da un poeta che scriveva per un palcoscenico più ruvido.',
+            '**Una parola va letta come una sillaba sola**, *mei*, ed è per questo che vale la pena mostrare questo verso. Due brevi si sciolgono nel secondo piede e altre due nel quarto, e prendendo *mei* come due sillabe invece che una il verso ne ha diciotto e non entra in nulla. La sinizesi non è una licenza che un programma possa indovinare: è una cosa che si sente.'
           ]
         }
       ],
