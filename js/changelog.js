@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.15.4', date: '29/09/2026', time: 'TBD', tz: 'CEST',
+      v: '1.15.4', date: '01/10/2026', time: '00:11', tz: 'CEST',
       en: {
         added: [
           'Pacuvius and Pomponius join the Iambic Senarius page, and Novius the Trochaic Septenarius page. Both pages now show every author in the app who writes in that metre. The Novius verse is the best of the new ones: Ribbeck printed it with the beat marked on the vowel, and all four of his marks fall on long positions of the septenarius, which is a nineteenth-century editor and this app\'s scanner agreeing about a verse neither of them could see whole.',
