@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.15.6', date: '02/10/2026', time: 'TBD', tz: 'CEST',
+      v: '1.15.6', date: '02/10/2026', time: '00:57', tz: 'CEST',
       en: {
         added: [
           'PREVIOUS EXCERPT. Every practice page now has a Previous excerpt button, sitting to the left of the Next one and mirroring it: the arrow points left and the text follows it. Both wrap around, so stepping back from the first excerpt lands on the last one, and forward from the last one returns to the first. The other button is called Next excerpt now, which is the nicer word.',
