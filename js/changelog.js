@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.15.5', date: '01/10/2026', time: 'TBD', tz: 'CEST',
+      v: '1.15.5', date: '01/10/2026', time: '16:01', tz: 'CEST',
       en: {
         added: [
           'VERSE NUMBERS. Seventy-seven excerpts now print them: all of Plautus and Terence but seven, and all three of Catullus. The first verse is numbered and then every fifth, the way a printed edition numbers a page, and the same numbers appear on the same lines of the English and the Italian. The metre labels have been pointing at verses since v1.15.3 - Trochaic Septenarius (vv. 755-760) - and until now there was no way to find v. 755 on the page.',
