@@ -71,6 +71,14 @@
   "drn-vi": ["lucretius/lucretius6"],
 
   "_comicMetres": "v1.15.3. The metre of each Plautus and Terence excerpt comes from Timothy J. Moore, The Meters of Roman Comedy (https://hdwlabs.artsci.wustl.edu/romancomedy/), which publishes the whole database as one TSV at /tsv/current.tsv. tools/comic_metres.js reads it from tools/.cache/moore-meters.tsv; re-fetch that file if it is missing. It is metre data, not Latin text, so it is not part of the verify.js chain, and no excerpt text comes from it. tools/scan_drama.js is the independent check: it scans from the spelling alone and can refute a metre, never prove one.",
+  "_verseNumbering": [
+    "plautus/amphitruo", "plautus/asinaria", "plautus/aulularia", "plautus/bacchides",
+    "plautus/cas", "plautus/menaechmi", "plautus/miles", "plautus/mostellaria",
+    "plautus/pseudolus", "plautus/truculentus",
+    "ter.andria.html", "ter.hecyra.html", "ter.eunuchus.html", "ter.phormio.html",
+    "ter.heauton.html", "ter.adel.html"
+  ],
+  "_verseNumberingNote": "v1.15.5. The sixteen plays of Plautus and Terence that this app quotes, fetched ONLY so that tools/number_excerpts.js can work out the verse number of every line: the Latin Library prints a number every fifth verse, which is enough to number the rest by counting forward and backward from it. The key is not a work id, so verify.js never looks at these pages, and no excerpt text comes from them - the Latin in the bank was already taken from the same source. Note the two page names that are not what you would guess: Casina is plautus/cas and Adelphoe is ter.adel.html. Terence is published as .html, which is why a page may now carry its own extension.",
   "_metreExamples": ["catullus"],
   "_metreExamplesNote": "v1.15.0. Pages fetched ONLY for the scansion examples on the metre reference pages (js/metres.js), not for any practice excerpt. The key is not a work id, so verify.js never looks at it; fetch_sources.js walks every array in this file, so the cache stays rebuildable and the provenance is recorded. tools/check_metre_quotes.js proves each quoted verse is verbatim. THE RULE (the user, v1.15.0): a metre page only shows example authors WHO ARE IN THE BANK - so the examples come from Ennius, Lucilius, Lucretius and Catullus, and Virgil, Horace and Martial stay out until they are added as authors. Only `catullus` is needed here, for Carmen 1, which is not itself an excerpt; every other example verse is quoted from js/fragments.js.",
 

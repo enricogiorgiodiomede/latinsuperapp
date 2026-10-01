@@ -12,6 +12,37 @@
 
   var VERSIONS = [
     {
+      v: '1.15.5', date: '01/10/2026', time: 'TBD', tz: 'CEST',
+      en: {
+        added: [
+          'VERSE NUMBERS. Seventy-seven excerpts now print them: all of Plautus and Terence but seven, and all three of Catullus. The first verse is numbered and then every fifth, the way a printed edition numbers a page, and the same numbers appear on the same lines of the English and the Italian. The metre labels have been pointing at verses since v1.15.3 - Trochaic Septenarius (vv. 755-760) - and until now there was no way to find v. 755 on the page.',
+          'Counting lines would have got this wrong, and in the places that matter most. A comic text splits a verse between two speakers wherever the speaker changes, prints two half-verses as one line, and sometimes skips verses in the middle; roughly one comic excerpt in five is not simply its nth line being its nth verse. So where the line count matches the citation the numbers come straight from the citation, and where it does not they come from matching every line against the Perseus edition of the play, which numbers each verse explicitly, and reading the shape off that.',
+          'Four translations have been re-divided so that they run line for line with the Latin again. In each of them one line of the translation had quietly come to carry two verses, which is invisible until you try to put a number on it and discover there is nowhere to put it. They read better beside the Latin now, which is the whole point of a line-for-line translation.'
+        ],
+        changed: [
+          'Seven excerpts are left unnumbered on purpose, and they are a list of things to fix rather than a limitation of the method. In each one the text and the citation disagree: the Amphitruo prologue prints twelve verses where its citation claims fourteen, the Andria excerpt ends two verses before its citation says, and three others are trimmed passages whose citations do not record the cut. Numbering them would mean printing a number that contradicts the citation above it, so they wait for the citations to be corrected.',
+          'A new tool checks the numbering rather than trusting it: that the first number is the verse the citation names, that the rest are multiples of five in order, that the lines between two numbers account for the difference where one line is one verse, and that the English and the Italian carry the same numbers on the same lines. That last one is also a standing check that the translations are still line-for-line.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'I NUMERI DEI VERSI. Settantasette estratti ora li stampano: tutto Plauto e Terenzio tranne sette, e tutti e tre i Catulli. È numerato il primo verso e poi ogni quinto, come fa un\'edizione a stampa sulla pagina, e gli stessi numeri compaiono sulle stesse righe dell\'inglese e dell\'italiano. Le etichette metriche indicano versi dalla v1.15.3 - Settenario Trocaico (vv. 755-760) - e fino a ora non c\'era modo di trovare il v. 755 nella pagina.',
+          'Contare le righe avrebbe dato risultati sbagliati, e proprio dove conta di più. Un testo comico spezza un verso fra due personaggi ogni volta che cambia chi parla, stampa due mezzi versi come una riga sola e qualche volta salta versi per strada: circa un estratto comico su cinque non ha semplicemente l\'ennesima riga uguale all\'ennesimo verso. Perciò dove il numero di righe coincide con la citazione i numeri vengono dalla citazione, e dove non coincide vengono dal confronto di ogni riga con l\'edizione Perseo della commedia, che numera ogni verso esplicitamente.',
+          'Quattro traduzioni sono state ridivise perché tornassero a correre riga per riga con il latino. In ciascuna una riga della traduzione aveva finito per portare due versi, cosa che non si vede finché non si prova a metterci un numero e ci si accorge che non c\'è dove metterlo. Ora si leggono meglio accanto al latino, che è tutto il senso di una traduzione riga per riga.'
+        ],
+        changed: [
+          'Sette estratti restano di proposito senza numeri, e sono un elenco di cose da correggere più che un limite del metodo. In ciascuno il testo e la citazione non concordano: il prologo dell\'Amphitruo stampa dodici versi dove la citazione ne dichiara quattordici, l\'estratto dell\'Andria finisce due versi prima di quanto dica la citazione, e altri tre sono passi tagliati la cui citazione non registra il taglio. Numerarli vorrebbe dire stampare un numero che contraddice la citazione sopra di esso, perciò aspettano che le citazioni siano corrette.',
+          'Un nuovo strumento controlla la numerazione invece di fidarsene: che il primo numero sia il verso indicato dalla citazione, che gli altri siano multipli di cinque in ordine, che le righe fra due numeri rendano conto della differenza dove una riga è un verso, e che inglese e italiano portino gli stessi numeri sulle stesse righe. Quest\'ultimo è anche un controllo permanente che le traduzioni siano ancora riga per riga.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.15.4', date: '01/10/2026', time: '00:11', tz: 'CEST',
       en: {
         added: [

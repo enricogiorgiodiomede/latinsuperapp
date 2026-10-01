@@ -6,6 +6,61 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.15.5] - 2026-10-01
+
+**VERSE NUMBERS ON THE EXCERPTS.** 77 excerpts now print them - 74 of the 80 comic ones and all 3 of
+Catullus - on the first verse and then every fifth, with the same numbers on the same lines of the English
+and the Italian. The metre labels have pointed at verses since v1.15.3; now the verses can be found.
+
+### Why counting lines would not do
+- A comic text **splits a verse between speakers** wherever the speaker changes, **prints two half-verses as
+  one line**, and sometimes **skips verses**. Sixteen of the eighty comic excerpts are not simply their nth
+  line being their nth verse.
+- So: where the line count matches the citation span, the numbers come **straight from the citation**, which
+  was taken from the same page as the Latin. Where it does not, every line is matched against the **Perseus
+  TEI edition of the play**, which numbers each verse explicitly, and the shape is read off that.
+- The two editions differ in spelling (*saeuos* / *saevus*) and sometimes in numbering, so the match is on
+  folded letters with a longest-common-subsequence score, and the edition supplies **the shape, never the
+  numbers**: those always come from the citation.
+
+### Added - tools
+- `tools/fetch_plays_perseus.js`: the sixteen comedies and Catullus from the Perseus TEI, cached as
+  { n, text } per verse. The Latin Library, where the Latin itself comes from, prints a number only every
+  fifth verse and wraps long verses onto a second physical line; on the Terence pages barely one line in
+  thirty carries a number that can be trusted by counting.
+- `tools/number_excerpts.js`: matches each line of the bank to its verse. It reports whether a line is a
+  whole verse, half of one, or two run together, and **refuses to place a line it cannot match**.
+- `tools/check_numbering.js`: the standing check. First number equals the cited first verse; the rest are
+  multiples of five in order; the lines between two numbers account for the difference where one line is one
+  verse; and the translations carry the same numbers on the same lines, which also proves they are still
+  line-for-line.
+- `fetch_sources.js` accepts a page that carries its own extension, because Terence is published as
+  ter.<play>.html rather than .shtml. The sixteen play pages are recorded in `sources.json` under a key
+  verify ignores.
+
+### Fixed
+- **Four translations had drifted out of line-for-line alignment**: in each, one line had come to carry two
+  verses. Asinaria I.3 and III.3, Menaechmi prologue and Heauton I.1 are re-divided, in both languages.
+  The fault is invisible until you try to put a number on the line and find there is nowhere to put it.
+- **Two excerpts carried a citation line inside the Latin itself** (Pseudolus I.1, Cato De Agri Cultura),
+  which the app already prints above the text. Removed.
+
+### Known, and deliberately left - seven excerpts whose citation and text disagree
+Each needs its citation corrected before it can be numbered, because the number printed on the first line
+would otherwise contradict the citation above it. What the alignment says:
+- **Amphitruo, Prologue, vv. 50-63** prints twelve verses, which are 52-63.
+- **Amphitruo I.1, vv. 342-350** begins at 343.
+- **Andria V.3, vv. 889-905** ends at 903.
+- **Hecyra IV.2, vv. 585-595** ends at 594.
+- **Bacchides V.2, vv. 1121-1151** is two passages, 1121-1126 and 1145-1152, with the cut unrecorded.
+- **Menaechmi V.2, vv. 829-852** skips verses in the middle.
+- **Pseudolus I.1, vv. 22-36** is fine in itself: its lines are 22, 22b, 23, 24, 24b ... and the sub-lettered
+  half-verses need the numbering to know that a letter is not a new verse.
+
+Verification: **check_numbering 77 checked, 0 failed**; **392 verbatim, 0 mismatched** (the Latin is untouched
+apart from the markers); **check_verses 60/0**; **check_metres 177/177/0**; **check_metre_quotes 32/0**;
+`lint_markdown` 0 leaking; read in the browser in both languages, console clean. Cache-bust: `?v=189` -> `?v=190`.
+
 ## [1.15.4] - 2026-09-29
 
 **THE TRAGIC AND ATELLAN METRES.** Ten more excerpts labelled - Pacuvius 3, Accius 2, Pomponius 3, Novius 2 -

@@ -74,11 +74,15 @@ function get(url) {
 
   fs.mkdirSync(CACHE, { recursive: true });
   for (const page of pages) {
-    const name = page.split('/').pop() + '.txt';
+    // Most Latin Library pages are <page>.shtml, but Terence is published as
+    // ter.<play>.html, so a page may carry its own extension. One that does is
+    // used as written; one that does not gets .shtml, as before.
+    const hasExt = /\.s?html$/.test(page);
+    const name = page.split('/').pop().replace(/\.s?html$/, '') + '.txt';
     const dest = path.join(CACHE, name);
     if (!force && fs.existsSync(dest)) { console.log('cached  ' + name); continue; }
     try {
-      const text = stripHtml(await get(HOST + page + '.shtml'));
+      const text = stripHtml(await get(HOST + page + (hasExt ? '' : '.shtml')));
       fs.writeFileSync(dest, text);
       console.log('fetched ' + name.padEnd(18) + text.length + ' chars');
     } catch (e) {
