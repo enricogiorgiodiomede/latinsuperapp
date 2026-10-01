@@ -128,8 +128,8 @@
     // naming its eight metres on a tablet would tell a reader nothing.
     'titus-maccius-plautus': {
       'amphitruo': { byCitation: {
-        '(Amphitruo, Prologue, vv. 50-63)': 'iambic-senarius',
-        '(Amphitruo, Act I, Scene 1, vv. 342-350)': 'trochaic-septenarius',
+        '(Amphitruo, Prologue, vv. 52-63)': 'iambic-senarius',
+        '(Amphitruo, Act I, Scene 1, vv. 343-350)': 'trochaic-septenarius',
         '(Amphitruo, Act I, Scene 1, vv. 427-440)': 'trochaic-septenarius',
         '(Amphitruo, Act II, Scene 2, vv. 839-842)': 'trochaic-septenarius',
         '(Amphitruo, Act V, Scene 1, vv. 1107-1116)': 'trochaic-septenarius'
@@ -153,7 +153,7 @@
         '(Bacchides, Act II, Scene 3, vv. 349-362)': 'iambic-senarius',
         '(Bacchides, Act III, Scene 1, vv. 368-381)': 'trochaic-septenarius',
         '(Bacchides, Act IV, Scene 9, vv. 925-945)': 'iambic-octonarius',
-        '(Bacchides, Act V, Scene 2, vv. 1121-1151)': 'canticum'
+        '(Bacchides, Act V, Scene 2, vv. 1121-1126, 1145-1152)': 'canticum'
       } },
       'casina': { byCitation: {
         '(Casina, Act I, vv. 89-103)': 'iambic-senarius',
@@ -167,7 +167,7 @@
         '(Menaechmi, Act I, Scene 1, vv. 77-95)': 'iambic-senarius',
         '(Menaechmi, Act II, Scene 2, vv. 285-298)': 'iambic-senarius',
         '(Menaechmi, Act V, Scene 1, vv. 701-752)': 'iambic-senarius',
-        '(Menaechmi, Act V, Scene 2, vv. 829-852)': 'trochaic-septenarius'
+        '(Menaechmi, Act V, Scene 2, vv. 828-837, 840-842, 844-852)': 'trochaic-septenarius'
       } },
       'miles-gloriosus': { byCitation: {
         '(Miles Gloriosus, Act I, Scene 1, vv. 1-18)': 'iambic-senarius',
@@ -204,12 +204,12 @@
         '(Andria, Act I, Scene 2, vv. 185-195)': 'iambic-octonarius',
         '(Andria, Act III, Scene 2, vv. 471-480)': 'iambic-senarius',
         '(Andria, Act III, Scene 3, vv. 550-555)': 'iambic-senarius',
-        '(Andria, Act V, Scene 3, vv. 889-905)': [{ m: 'iambic-senarius', from: 889, to: 895 }, { m: 'trochaic-septenarius', from: 896, to: 905 }]
+        '(Andria, Act V, Scene 3, vv. 889-903)': [{ m: 'iambic-senarius', from: 889, to: 895 }, { m: 'trochaic-septenarius', from: 896, to: 903 }]
       } },
       'hecyra': { byCitation: {
         '(Hecyra, Prologue, vv. 33-45)': 'iambic-senarius',
         '(Hecyra, Act I, Scene 1, vv. 58-70)': 'iambic-senarius',
-        '(Hecyra, Act IV, Scene 2, vv. 585-595)': 'iambic-octonarius',
+        '(Hecyra, Act IV, Scene 2, vv. 585-594)': 'iambic-octonarius',
         '(Hecyra, Act V, Scene 1, vv. 750-760)': [{ m: 'iambic-octonarius', from: 750, to: 750 }, { m: 'trochaic-septenarius', from: 751, to: 751 }, { m: 'iambic-octonarius', from: 752, to: 754 }, { m: 'trochaic-septenarius', from: 755, to: 760 }],
         '(Hecyra, Act V, Scene 3, vv. 833-840)': 'iambic-septenarius'
       } },

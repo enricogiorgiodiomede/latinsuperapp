@@ -61,6 +61,43 @@ Verification: **check_numbering 77 checked, 0 failed**; **392 verbatim, 0 mismat
 apart from the markers); **check_verses 60/0**; **check_metres 177/177/0**; **check_metre_quotes 32/0**;
 `lint_markdown` 0 leaking; read in the browser in both languages, console clean. Cache-bust: `?v=189` -> `?v=190`.
 
+### Follow-up, 2026-10-02: the seven, fixed
+
+**Every excerpt that can carry verse numbers now does: 84, with nothing left waiting.** Six of the seven were
+citation errors; the seventh was not.
+
+| excerpt | was | is |
+|---|---|---|
+| Amphitruo, Prologue | vv. 50-63 | **vv. 52-63** |
+| Amphitruo I.1 | vv. 342-350 | **vv. 343-350** |
+| Bacchides V.2 | vv. 1121-1151 | **vv. 1121-1126, 1145-1152** |
+| Menaechmi V.2 | vv. 829-852 | **vv. 828-837, 840-842, 844-852** |
+| Andria V.3 | vv. 889-905 | **vv. 889-903** |
+| Hecyra IV.2 | vv. 585-595 | **vv. 585-594** |
+| Pseudolus I.1 | vv. 22-36 | unchanged, and correct |
+
+### How the last one was settled
+- **The Latin Library prints the numbers of this play on lines of their own**, not at the end of a verse,
+  which is why reading the page by machine had failed and why this excerpt held out longest. Read properly it
+  gives everything: 828 for the first line, a line marked **829-830** which holds two verses, then 831, 835,
+  840, 845 and 850 exactly where the excerpt reaches them.
+- It also shows **two cuts, only one of which was marked**: the excerpt drops 838-839, where it already
+  carried a `[...]`, and 843, a verse the editors bracket as spurious, which was dropped silently. Both are
+  marked now, each on a line of its own.
+
+### The rest
+- **Pseudolus I.1 needed no correction at all.** Its citation was right; what it needed was for the numbering
+  to understand that its lines are 22, 22b, 23, 24, 24b and so on, and that **a letter is not a new verse**. A
+  sub-lettered line carries no number and does not advance the count.
+- **Bacchides V.2 marked its cut by appending `[...]` to the end of a verse.** A lacuna is not part of a
+  verse: it is on a line of its own now, which is also what lets the numbering restart cleanly at 1145.
+- A citation is a key as well as a label - `js/metres.js` looks a metre up by it - so all six moved in both
+  files, and the Andria label's own verse ranges moved with it (its second run now ends at 903, not 905).
+
+Verification: **check_numbering 84 checked, 0 failed, 0 waiting**; **392 verbatim, 0 mismatched**;
+**check_metres 177/177/0**; **check_verses 60/0**; **check_metre_quotes 32/0**; `lint_markdown` 0 leaking;
+read in the browser, console clean. Cache-bust: `?v=190` -> `?v=191`.
+
 ## [1.15.4] - 2026-09-29
 
 **THE TRAGIC AND ATELLAN METRES.** Ten more excerpts labelled - Pacuvius 3, Accius 2, Pomponius 3, Novius 2 -
