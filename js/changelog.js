@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.15.5', date: '01/10/2026', time: 'TBD', tz: 'CEST',
+      v: '1.15.5', date: '02/10/2026', time: '00:16', tz: 'CEST',
       en: {
         added: [
           'The seven are fixed, so every excerpt that can carry verse numbers now does: eighty-four of them. Six citations were wrong and are corrected, and the seventh excerpt needed the half-verses understood rather than the citation changed.',
