@@ -635,7 +635,13 @@ blockquote {
   color: var(--gray);
 }
 
-.try-another { margin-top: 20px; }
+/* The two step buttons: Previous excerpt mirrors Next excerpt, arrow first. */
+.step-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
 
 .choose-link { display: inline-block; margin: 0 0 10px; }
 

@@ -131,8 +131,12 @@
       var state = { idx: startIdx - 1 };
       var show = function () {
         holder.innerHTML = '';
-        holder.appendChild(buildFragment(fragments[state.idx], pool.workLabel, state.idx, fragments.length, function () {
-          state.idx = (state.idx + 1) % fragments.length; // step in order, wrap around
+        // One step function for both directions. The modulo is written with
+        // + length so that stepping back from the first excerpt lands on the
+        // last one rather than on -1.
+        holder.appendChild(buildFragment(fragments[state.idx], pool.workLabel, state.idx, fragments.length, function (delta) {
+          var n = fragments.length;
+          state.idx = ((state.idx + delta) % n + n) % n; // step in order, wrap around either way
           show();
           holder.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }));
@@ -276,7 +280,7 @@
     return name;
   }
 
-  function buildFragment(frag, workLabel, idx, total, onAnother) {
+  function buildFragment(frag, workLabel, idx, total, onStep) {
     var box = document.createElement('section');
     box.className = 'practice-excerpt';
 
@@ -366,12 +370,17 @@
     });
 
     if (total > 1) {
-      var another = document.createElement('button');
-      another.type = 'button';
-      another.className = 'btn btn-primary try-another';
-      another.textContent = I18n.t('practice.next');
-      another.addEventListener('click', onAnother);
-      box.appendChild(another);
+      var steps = document.createElement('div');
+      steps.className = 'step-row';
+      [['practice.prev', -1], ['practice.next', 1]].forEach(function (d) {
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'btn btn-primary step-btn';
+        btn.textContent = I18n.t(d[0]);
+        btn.addEventListener('click', function () { onStep(d[1]); });
+        steps.appendChild(btn);
+      });
+      box.appendChild(steps);
     }
 
     return box;

@@ -6,6 +6,70 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.15.6] - 2026-10-02
+
+**EDITORIAL VERSE NUMBERS FOR CAECILIUS AND LUCILIUS, AND A PREVIOUS EXCERPT BUTTON.** 11 more excerpts
+print verse numbers, in **Roman numerals**, because neither poet has verse numbers of his own: both survive
+only in quotation, and no one can say which verse of which comedy or which book any of these lines once was.
+The numerals are the app's own count of the verses printed, on the first and then every fifth.
+
+### The rule at a gap
+- These excerpts are **strings of clusters with lost verses between them**, and the user's rule is that the
+  count **runs straight through the gaps**: I, II, III, then after the jump IV, V. The numerals therefore
+  describe the verses actually printed rather than implying a figure for what is missing.
+- A `[...]` line **takes no numeral and does not advance the count**. A single-line excerpt is left alone.
+
+### Numbered (11)
+| author | excerpt | markers |
+|---|---|---|
+| Caecilius | Plocium, Gellius II.23.10 | I, V, X, XV |
+| Caecilius | Plocium, Gellius II.23.13 | I, V |
+| Caecilius | Plocium, Gellius II.23.21 | I |
+| Caecilius | Incertae fabulae, De Senectute 25 | I, V |
+| Lucilius | Book 26; Nonius 351,6 | I |
+| Lucilius | Book 1, Concilium Deorum | I, V, X |
+| Lucilius | Book 3, Iter Siculum | I, V, X |
+| Lucilius | Book 3; De Finibus I.9 | I, V |
+| Lucilius | Book 15, frr. 520-529 Warmington | I, V, X |
+| Lucilius | frr. 1145-1151 Warmington | I, V |
+| Lucilius | frr. 1342-1354 Krenkel | I, V, X |
+
+- The Plocium monologue was **already numbered I-XV on every line** (v1.15.3, to place the metre change at
+  IX); it now follows the same first-and-every-fifth rule as everything else, and its analysis says how to
+  find IX by counting on from V.
+- **Two translations were not line-for-line** and had to be re-divided first: the Plocium monologue (15
+  verses, 14 lines of translation) and frr. 1342-1354 Krenkel (one prose block for 13 verses).
+- Each of the 11 analyses now **states that the numerals are editorial**, in both languages, placed before
+  the proofread flag rather than after it where one exists.
+- frr. 1342-1354 refers to its own verses; those references were Arabic and are now **vv. I-V, vv. VI-VIII,
+  vv. IX-XIII**, and *patriai* at **v. XII**.
+
+### Changed - the numbering checker
+- `tools/check_numbering.js` **reads Roman numerals**: they must start at I, run in multiples of five, and
+  the verses between two markers must account for the difference exactly, gaps excluded from the count.
+  Editorial numbering gets a check Arabic numbering cannot have - **nothing missing off the end**, since
+  five or more verses after the last marker means a marker was dropped.
+- It found that **Pomponius, Galli Transalpini** (numbered in v1.15.4) carried its numerals on the Latin
+  only; the English and the Italian now carry them too.
+- Two cases it used to refuse, both correct: an excerpt may **open with a gap**, so the first numeral belongs
+  on the first VERSE and not the first line (Iter Siculum); and a **short editorial excerpt may number every
+  verse**, since with two verses "first and every fifth" says nothing and the analysis needs to name the
+  second one (Pomponius: the metre label covers v. I because v. II is only the four syllables Macrobius
+  kept).
+
+### Added - Previous excerpt
+- A **Previous excerpt** button on every practice page, left of the next one and mirrored: arrow first, then
+  the text. Both **wrap around**, back from the first to the last and forward from the last to the first.
+- `buildFragment` took an `onAnother` callback and now takes **`onStep(delta)`**; the index is
+  `((i + delta) % n + n) % n`, written that way so that stepping back from 0 lands on n-1 rather than -1.
+- **"Next fragment" is now "Next excerpt"**, in both languages (`practice.next`, and the new
+  `practice.prev`). The CSS rule `.try-another` became `.step-row`, a flex row with wrapping.
+
+Verification: **check_numbering 96 checked (12 editorial), 0 failed, 0 waiting**; **392 verbatim, 0
+mismatched**; **check_metres 177/177/0**; **check_verses 60/0**; **check_metre_quotes 32/0**;
+`lint_markdown` 0 leaking; both wrap-arounds exercised in the browser in both languages, console clean.
+Cache-bust: `?v=191` -> `?v=192`.
+
 ## [1.15.5] - 2026-10-01
 
 **VERSE NUMBERS ON THE EXCERPTS.** 77 excerpts now print them - 74 of the 80 comic ones and all 3 of

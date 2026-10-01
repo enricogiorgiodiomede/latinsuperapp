@@ -9,14 +9,29 @@
  * because the metre labels point at them - "Trochaic Septenarius (vv. 755-760)"
  * can only be followed if v. 755 is findable.
  *
- * This checks four things, and they are the four ways the numbering could lie:
+ * Two kinds of number appear, and the shape of the marker says which:
  *
- *   1. the first marker is the first verse the citation names;
- *   2. the markers run 5, 10, 15 ... in order, with nothing skipped except
- *      where the Latin itself skips (a [...] line);
+ *   ARABIC  the verse numbers of the edition. The first one must be the verse
+ *           the citation names, and the text between two markers must account
+ *           for the difference.
+ *   ROMAN   editorial numbers, this app's own, for a poet who survives only in
+ *           quotation and therefore has no numbering of his own (Caecilius,
+ *           Lucilius, Pomponius). These always start at I, and - the rule the
+ *           user set - they COUNT STRAIGHT THROUGH the gaps between clusters,
+ *           so that they describe the verses actually printed rather than
+ *           pretending to know how many are lost. A [...] line takes no
+ *           numeral and does not advance the count.
+ *
+ * This checks the ways the numbering could lie:
+ *
+ *   1. the first marker is on the first line, and is the verse the citation
+ *      names (Arabic) or I (Roman);
+ *   2. the markers run 5, 10, 15 ... in order, with nothing skipped;
  *   3. counting the lines from one marker to the next gives the next marker,
  *      so the numbers agree with the text between them;
- *   4. the English and the Italian carry the SAME markers on the SAME lines,
+ *   4. no multiple of five is missing off the end (Roman only, where the count
+ *      is exact);
+ *   5. the English and the Italian carry the SAME markers on the SAME lines,
  *      which is also a check that the translations are still line-for-line.
  *
  * An excerpt with no markers at all is listed as unnumbered, not failed: a
@@ -32,10 +47,22 @@ eval(fs.readFileSync(path.join(REPO, 'js/fragments.js'), 'utf8'));
 const AUTHORS = window.PracticeBank.authors;
 
 const isVerse = (l) => /^>\s*\S/.test(l);
-const MARK = /^>\s*\*\*(\d+)\.\*\*/;
-const GAP = /^>\s*\[\.\.\.\]/;
+const MARK = /^>\s*\*\*(\d+|[IVXLCDM]+)\.\*\*/;
+const GAP = /^>\s*\[?\.\.\.\]?\s*$/;
+const ROMAN = /^[IVXLCDM]+$/;
 
-let checked = 0, bad = 0, unnumbered = [];
+function unroman(s) {
+  const V = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 };
+  let n = 0;
+  for (let i = 0; i < s.length; i++) {
+    const cur = V[s[i]], next = V[s[i + 1]] || 0;
+    n += next > cur ? -cur : cur;
+  }
+  return n;
+}
+
+let checked = 0, bad = 0, editorial = 0;
+const unnumbered = [];
 const fail = (msg) => { bad++; console.log('FAIL ' + msg); };
 
 for (const slug of Object.keys(AUTHORS)) {
@@ -57,16 +84,40 @@ for (const slug of Object.keys(AUTHORS)) {
       if (!lineForLine) continue;
 
       const marks = lines.latin
-        .map((l, i) => { const m = l.match(MARK); return m ? { i: i, n: Number(m[1]) } : null; })
+        .map((l, i) => {
+          const m = l.match(MARK);
+          return m ? { i: i, n: ROMAN.test(m[1]) ? unroman(m[1]) : Number(m[1]), raw: m[1] } : null;
+        })
         .filter(Boolean);
       if (!marks.length) continue;                  // not numbered (yet)
       checked++;
 
-      // 1. the first marker is on the first line, and is the cited first verse
+      const romans = marks.filter(m => ROMAN.test(m.raw)).length;
+      if (romans && romans !== marks.length) {
+        fail(f.citation + ': Roman and Arabic numerals mixed in one excerpt');
+        continue;
+      }
+      const isEditorial = romans > 0;
+      if (isEditorial) editorial++;
+
+      // A very short editorial excerpt may number EVERY verse rather than the
+      // first and every fifth: two or three quoted lines give "first and every
+      // fifth" nothing to say, and the analysis sometimes needs to point at the
+      // second of them (Pomponius: the metre label covers v. I because v. II is
+      // only the four syllables Macrobius kept).
+      const totalVerses = lines.latin.filter(l => !GAP.test(l)).length;
+      const dense = isEditorial && marks.length === totalVerses && totalVerses < 5;
+
+      // 1. the first marker is on the first verse, and is where it should
+      //    start. An excerpt may OPEN with a gap, where the quotation begins
+      //    mid-thought, and that line takes no number.
       const cited = (f.citation || '').match(/vv?\.?\s*(\d+)(?:\s*-\s*(\d+))?/);
       const citedTo = cited && cited[2] ? Number(cited[2]) : 0;
-      if (marks[0].i !== 0) fail(f.citation + ': the first line carries no number');
-      else if (cited && marks[0].n !== Number(cited[1])) {
+      const firstVerse = lines.latin.findIndex(l => !GAP.test(l));
+      if (marks[0].i !== firstVerse) fail(f.citation + ': the first verse carries no number');
+      else if (isEditorial) {
+        if (marks[0].n !== 1) fail(f.citation + ': editorial numbering starts at ' + marks[0].raw + ', not I');
+      } else if (cited && marks[0].n !== Number(cited[1])) {
         fail(f.citation + ': starts at v. ' + marks[0].n + ' but the citation says ' + cited[1]);
       }
 
@@ -74,23 +125,36 @@ for (const slug of Object.keys(AUTHORS)) {
       //    between two markers account for the difference
       for (let k = 1; k < marks.length; k++) {
         const prev = marks[k - 1], cur = marks[k];
-        if (cur.n % 5 !== 0) fail(f.citation + ': v. ' + cur.n + ' is marked but is not a multiple of five');
+        if (!dense && cur.n % 5 !== 0) fail(f.citation + ': v. ' + cur.raw + ' is marked but is not a multiple of five');
+        if (cur.n <= prev.n) fail(f.citation + ': v. ' + cur.raw + ' comes after v. ' + prev.raw);
+        const between = lines.latin.slice(prev.i, cur.i);
+        const gaps = between.filter(l => GAP.test(l)).length;
+        const verses = between.length - gaps;       // lines, each one verse
         // Counting lines only proves anything where one line is one verse.
         // Where a comic text prints two half-verses as one line, or runs two
         // verses together, the count is legitimately short, and the numbers
         // came from the alignment rather than from counting in the first place.
+        // Editorial numbering has no such excuse: it was counted from the text.
         const span = citedTo ? citedTo - Number(cited[1]) + 1 : 0;
-        const oneToOne = span === lines.latin.length;
-        const between = lines.latin.slice(prev.i, cur.i);
-        const gaps = between.filter(l => GAP.test(l)).length;
-        const verses = between.length - gaps;       // lines, each one verse
-        if (oneToOne && !gaps && cur.n - prev.n !== verses) {
-          fail(f.citation + ': ' + verses + ' lines between v. ' + prev.n + ' and v. ' + cur.n +
+        const countable = isEditorial || (span === lines.latin.length && !gaps);
+        if (countable && cur.n - prev.n !== verses) {
+          fail(f.citation + ': ' + verses + ' verses between v. ' + prev.raw + ' and v. ' + cur.raw +
             ', which should be ' + (cur.n - prev.n));
         }
       }
 
-      // 4. the translations carry the same markers on the same lines
+      // 4. nothing missing off the end: if five or more verses follow the last
+      //    marker, a marker was dropped
+      if (isEditorial && !dense) {
+        const last = marks[marks.length - 1];
+        const after = lines.latin.slice(last.i + 1).filter(l => !GAP.test(l)).length;
+        if (after >= 5) {
+          fail(f.citation + ': ' + after + ' verses after the last marker (v. ' + last.raw +
+            '), so v. ' + (last.n + 5) + ' should be marked too');
+        }
+      }
+
+      // 5. the translations carry the same markers on the same lines
       for (const field of ['english', 'italian']) {
         if (lines[field].length !== lines.latin.length) {
           fail(f.citation + ': the ' + field + ' has ' + lines[field].length +
@@ -100,7 +164,7 @@ for (const slug of Object.keys(AUTHORS)) {
         const theirs = lines[field]
           .map((l, i) => { const m = l.match(MARK); return m ? m[1] + '@' + i : null; })
           .filter(Boolean).join(' ');
-        const ours = marks.map(m => m.n + '@' + m.i).join(' ');
+        const ours = marks.map(m => m.raw + '@' + m.i).join(' ');
         if (theirs !== ours) {
           fail(f.citation + ': the ' + field + ' markers are ' + (theirs || '(none)') +
             ' where the Latin has ' + ours);
@@ -122,7 +186,8 @@ for (const slug of Object.keys(AUTHORS)) {
   }
 }
 
-console.log('\n' + checked + ' numbered excerpts checked, ' + bad + ' failed');
+console.log('\n' + checked + ' numbered excerpts checked (' + editorial +
+  ' of them editorial), ' + bad + ' failed');
 if (unnumbered.length) {
   console.log(unnumbered.length + ' excerpts cite verse numbers but carry none yet:');
   unnumbered.forEach(c => console.log('   ' + c));

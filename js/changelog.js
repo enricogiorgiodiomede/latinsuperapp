@@ -12,6 +12,39 @@
 
   var VERSIONS = [
     {
+      v: '1.15.6', date: '02/10/2026', time: 'TBD', tz: 'CEST',
+      en: {
+        added: [
+          'PREVIOUS EXCERPT. Every practice page now has a Previous excerpt button, sitting to the left of the Next one and mirroring it: the arrow points left and the text follows it. Both wrap around, so stepping back from the first excerpt lands on the last one, and forward from the last one returns to the first. The other button is called Next excerpt now, which is the nicer word.',
+          'VERSE NUMBERS FOR CAECILIUS AND LUCILIUS. Eleven more excerpts print them, and these ones are Roman numerals, because neither poet has verse numbers of his own. Both survive only in quotation: nobody can say which verse of which comedy or which book any of these lines once was. So the numerals are this app\'s own count of the verses printed here, the first and then every fifth, and every one of those analyses now says as much.',
+          'The interesting part is what happens at a gap. These excerpts are strings of clusters with lost verses in between, and the count runs straight through them: I, II, III, then after the jump IV, V. The numbers describe the verses actually on the page rather than pretending to know how many are missing, and a line of dots takes no numeral and does not advance the count.',
+          'Two more translations have been re-divided so that they run line for line with the Latin: the husband\'s monologue from the Plocium, whose fifteen verses had fourteen lines of translation, and Lucilius\'s definition of virtue, which was one block of prose standing for thirteen verses. It is thirteen lines against thirteen verses now, and the numerals fall on the same lines in all three languages.'
+        ],
+        changed: [
+          'The numbering checker has been taught to read Roman numerals, and it found something straight away: the Pomponius fragment, numbered back in v1.15.4, carried its numerals on the Latin only, so there was nothing for the English and the Italian to line up against. They carry them now. The checker also allows two things it used to refuse, both of them correct: an excerpt may OPEN with a gap, in which case the first numeral belongs on the first verse and not on the first line, and a very short editorial excerpt may number every verse, since with two verses "the first and then every fifth" has nothing to say and the analysis needs to be able to point at the second one.',
+          'Lucilius\'s definition of virtue refers to its own verses, and those references were still in Arabic numerals while the text beside them had turned Roman. The structure it describes is vv. I-V, vv. VI-VIII and vv. IX-XIII now, and the archaic genitive patriai is at v. XII.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'ESTRATTO PRECEDENTE. Ogni pagina di pratica ha ora un pulsante Estratto precedente, alla sinistra di quello Successivo e speculare a esso: la freccia punta a sinistra e il testo la segue. Entrambi girano in tondo, perciò tornando indietro dal primo estratto si arriva all\'ultimo, e andando avanti dall\'ultimo si torna al primo. L\'altro pulsante ora si chiama Estratto successivo, che suona meglio.',
+          'I NUMERI DEI VERSI PER CECILIO E LUCILIO. Altri undici estratti li stampano, e questi sono numeri romani, perché nessuno dei due poeti ha numeri di verso propri. Entrambi sopravvivono solo in citazione: nessuno può dire quale verso di quale commedia o di quale libro sia stata ciascuna di queste righe. I numerali sono dunque il conteggio di questa app dei versi qui stampati, il primo e poi ogni quinto, e ognuna di quelle analisi ora lo dichiara.',
+          'La parte interessante è ciò che succede a un salto. Questi estratti sono catene di gruppi con versi perduti in mezzo, e il conteggio ci passa dritto attraverso: I, II, III, e dopo il salto IV, V. I numeri descrivono i versi che stanno davvero nella pagina, invece di far finta di sapere quanti ne manchino, e una riga di puntini non prende numerale e non fa avanzare il conto.',
+          'Altre due traduzioni sono state ridivise perché corressero riga per riga con il latino: il monologo del marito nel Plocium, i cui quindici versi avevano quattordici righe di traduzione, e la definizione della virtù di Lucilio, che era un unico blocco di prosa per tredici versi. Ora sono tredici righe contro tredici versi, e i numerali cadono sulle stesse righe in tutte e tre le lingue.'
+        ],
+        changed: [
+          'Il controllore della numerazione ha imparato a leggere i numeri romani, e ha trovato subito qualcosa: il frammento di Pomponio, numerato nella v1.15.4, portava i numerali solo sul latino, e inglese e italiano non avevano nulla con cui allinearsi. Ora li portano. Il controllore accetta anche due cose che prima rifiutava, entrambe corrette: un estratto può APRIRSI con un salto, e in quel caso il primo numerale va sul primo verso e non sulla prima riga; e un estratto editoriale molto breve può numerare ogni verso, dato che con due versi "il primo e poi ogni quinto" non ha nulla da dire e l\'analisi deve poter indicare il secondo.',
+          'La definizione della virtù di Lucilio rimanda ai propri versi, e quei rimandi erano ancora in numeri arabi mentre il testo accanto era passato ai romani. La struttura che descrive è ora vv. I-V, vv. VI-VIII e vv. IX-XIII, e il genitivo arcaico patriai sta al v. XII.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.15.5', date: '02/10/2026', time: '00:16', tz: 'CEST',
       en: {
         added: [
