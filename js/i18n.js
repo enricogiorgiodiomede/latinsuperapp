@@ -33,7 +33,7 @@
       'footer.index': 'An interactive companion to the Latin Authors writing project.',
       'footer.author': 'An interactive companion to the Latin Authors writing project.',
       'footer.practice': 'Attempt the Latin yourself, then reveal the translations to self-check.',
-      'footer.select': 'Pick a work, then practise translating its fragments.',
+      'footer.select': 'Pick a work, then practise translating its excerpts.',
       'footer.version': 'Every excerpt added in this update. Click one to practise it.',
       'footer.metres': 'How the verse is built, and how it sounded when it was read aloud.',
       'aria.eras': 'Eras',
@@ -135,8 +135,8 @@
       'link.chooseAnother': '← Choose another text',
       'link.backCategories': '← Back to the categories',
       'link.backToGroup': function (p) { return '← Back to ' + p.name; },
-      'practice.noFragment': 'No fragment is available here yet.',
-      'practice.counter': function (p) { return 'Fragment ' + p.n + ' of ' + p.total; },
+      'practice.noFragment': 'No excerpt is available here yet.',
+      'practice.counter': function (p) { return 'Excerpt ' + p.n + ' of ' + p.total; },
       'practice.yourTranslation': 'Your translation',
       'practice.placeholder': 'Type your translation here...',
       'reveal.showItalian': 'Show Italian',
@@ -157,11 +157,11 @@
       'link.backTo': function (p) { return '← Back to ' + p.name; },
 
       // --- select page ---
-      'select.lead': 'Pick a text to practise. Each one has several fragments you can cycle through.',
+      'select.lead': 'Pick a text to practise. Each one has several excerpts you can cycle through.',
       'select.leadGroups': 'Pick a category, then choose a text inside it.',
       'select.noTexts': 'No texts are available here yet.',
       'select.heading': function (p) { return 'Choose a comedy by ' + p.author; },
-      'select.fragmentsCount': function (p) { return p.n + (p.n === 1 ? ' fragment' : ' fragments'); },
+      'select.fragmentsCount': function (p) { return p.n + (p.n === 1 ? ' excerpt' : ' excerpts'); },
       'select.worksCount': function (p) { return p.n + (p.n === 1 ? ' text' : ' texts'); },
 
       // --- version list page (reached from the excerpt version badges) ---
@@ -323,8 +323,8 @@
       'link.chooseAnother': '← Scegli un altro testo',
       'link.backCategories': '← Torna alle categorie',
       'link.backToGroup': function (p) { return '← Torna a ' + p.name; },
-      'practice.noFragment': 'Qui non è ancora disponibile alcun frammento.',
-      'practice.counter': function (p) { return 'Frammento ' + p.n + ' di ' + p.total; },
+      'practice.noFragment': 'Qui non è ancora disponibile alcun estratto.',
+      'practice.counter': function (p) { return 'Estratto ' + p.n + ' di ' + p.total; },
       'practice.yourTranslation': 'La tua traduzione',
       'practice.placeholder': 'Scrivi qui la tua traduzione...',
       'reveal.showItalian': 'Mostra italiano',
@@ -345,11 +345,11 @@
       'link.backTo': function (p) { return '← Torna a ' + p.name; },
 
       // --- select page ---
-      'select.lead': 'Scegli un testo su cui esercitarti. Ognuno di essi ha diversi frammenti che puoi provare a tradurre.',
+      'select.lead': 'Scegli un testo su cui esercitarti. Ognuno di essi ha diversi estratti che puoi provare a tradurre.',
       'select.leadGroups': 'Scegli una categoria, poi scegli un testo al suo interno.',
       'select.noTexts': 'Qui non è ancora disponibile alcun testo.',
       'select.heading': function (p) { return 'Scegli un testo di ' + p.author; },
-      'select.fragmentsCount': function (p) { return p.n + (p.n === 1 ? ' frammento' : ' frammenti'); },
+      'select.fragmentsCount': function (p) { return p.n + (p.n === 1 ? ' estratto' : ' estratti'); },
       'select.worksCount': function (p) { return p.n + (p.n === 1 ? ' testo' : ' testi'); },
 
       // --- version list page (reached from the excerpt version badges) ---

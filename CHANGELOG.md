@@ -8,6 +8,16 @@ no build step and no dependencies.
 
 ## [1.15.6] - 2026-10-02
 
+### Follow-up, 2026-10-02: the counter says Excerpt too
+- The counter read **"Fragment 1 of 5"** above a button reading **"Next excerpt"**. It reads **"Excerpt 1 of
+  5"** now, and with it the three other strings that meant the same thing: `select.fragmentsCount` (the
+  "5 excerpts" on each work card), `select.lead` and `footer.select` (the lines above them), and
+  `practice.noFragment`. The Italian `footer.select` had said *estratti* all along, which is what settled
+  the word.
+- **`fragment.caveat` and `eval.scaledNote` keep the word**: there it means what survives of a lost
+  author, not a numbered passage to practise on, and *excerpt* would be wrong. The key NAMES are unchanged.
+- Cache-bust: `?v=192` -> `?v=193`.
+
 **EDITORIAL VERSE NUMBERS FOR CAECILIUS AND LUCILIUS, AND A PREVIOUS EXCERPT BUTTON.** 11 more excerpts
 print verse numbers, in **Roman numerals**, because neither poet has verse numbers of his own: both survive
 only in quotation, and no one can say which verse of which comedy or which book any of these lines once was.
