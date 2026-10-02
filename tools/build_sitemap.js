@@ -78,7 +78,10 @@ function erasFromDataJs() {
     const lookupAt = chunk.indexOf('imageLookup: {');
     if (lookupAt === -1) return;
     const slugs = [];
-    const slugRe = /'([a-z0-9-]+)': \[/g;
+    // Any quoted key, not just [a-z0-9-]: a narrower pattern would SILENTLY
+    // drop an author whose slug fell outside it. The cross-check against the
+    // practice bank below turns any remaining mismatch into a hard error.
+    const slugRe = /'([^']+)': \[/g;
     let s;
     while ((s = slugRe.exec(chunk.slice(lookupAt))) !== null) slugs.push(s[1]);
     if (slugs.length) eras.push({ id: mark.id, slugs: slugs });
@@ -90,9 +93,30 @@ function erasFromDataJs() {
 
 const ERAS = erasFromDataJs();
 
+// Every author in the practice bank must belong to an era, or the sitemap would
+// quietly leave out their author page. This is the guard against a parse of
+// ERA_CONFIG that went wrong, rather than against a deliberate omission.
+(function () {
+  const inEras = {};
+  ERAS.forEach(function (e) { e.slugs.forEach(function (s) { inEras[s] = true; }); });
+  const orphans = Object.keys(BANK).filter(function (s) { return !inEras[s]; });
+  if (orphans.length) {
+    throw new Error('in the practice bank but in no ERA_CONFIG.imageLookup, so missing from ' +
+      'the sitemap: ' + orphans.join(', '));
+  }
+})();
+
 // ---------------------------------------------------------------- the URLs
 
 const urls = [];
+
+// Query values are percent-encoded exactly as the pages build their own links
+// (js/home.js uses encodeURIComponent), so a sitemap URL and the canonical the
+// page writes for itself are the same string.
+function enc(value) {
+  return encodeURIComponent(value);
+}
+
 function add(loc) {
   if (urls.indexOf(loc) === -1) urls.push(loc);
 }
@@ -102,28 +126,28 @@ add(ORIGIN);
 // Era listings, minus the default era, whose URL duplicates the home page.
 const DEFAULT_ERA = 'archaic';
 ERAS.forEach(function (era) {
-  if (era.id !== DEFAULT_ERA) add(ORIGIN + 'index.html?era=' + era.id);
+  if (era.id !== DEFAULT_ERA) add(ORIGIN + 'index.html?era=' + enc(era.id));
 });
 
 // Authors, and the work chooser for those that have one.
 const missing = [];
 ERAS.forEach(function (era) {
   era.slugs.forEach(function (slug) {
-    add(ORIGIN + 'author.html?era=' + era.id + '&id=' + slug);
+    add(ORIGIN + 'author.html?era=' + enc(era.id) + '&id=' + enc(slug));
     const entry = BANK[slug];
     if (!entry) {
       missing.push(slug);
       return;
     }
     if (entry.needsSelection) {
-      add(ORIGIN + 'practice-select.html?era=' + era.id + '&id=' + slug);
+      add(ORIGIN + 'practice-select.html?era=' + enc(era.id) + '&id=' + enc(slug));
     }
   });
 });
 
 // Metres.
 add(ORIGIN + 'metre.html');
-METRE_IDS.forEach(function (id) { add(ORIGIN + 'metre.html?m=' + id); });
+METRE_IDS.forEach(function (id) { add(ORIGIN + 'metre.html?m=' + enc(id)); });
 
 // ---------------------------------------------------------------- the file
 
@@ -146,6 +170,23 @@ const xml =
   '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
   body + '\n' +
   '</urlset>\n';
+
+// Refuse to write anything Search Console would reject (sitemaps.org limits:
+// absolute URLs on the site's own host, under 2048 characters each, at most
+// 50,000 URLs and 50 MB). Cheap, and it fails here rather than in Search
+// Console a day later.
+(function validate() {
+  const problems = [];
+  if (!urls.length) problems.push('no URLs at all');
+  if (urls.length > 50000) problems.push(urls.length + ' URLs (limit 50,000)');
+  if (Buffer.byteLength(xml) > 50 * 1024 * 1024) problems.push('file over 50 MB');
+  urls.forEach(function (u) {
+    if (u.indexOf(ORIGIN) !== 0) problems.push('not on ' + ORIGIN + ': ' + u);
+    if (u.length >= 2048) problems.push('2048+ characters: ' + u.slice(0, 80) + '...');
+    if (/[\s<>"]/.test(u)) problems.push('unencoded character: ' + u);
+  });
+  if (problems.length) throw new Error('sitemap NOT written:\n  ' + problems.join('\n  '));
+})();
 
 fs.writeFileSync(OUT, xml);
 

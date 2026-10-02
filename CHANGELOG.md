@@ -8,6 +8,25 @@ no build step and no dependencies.
 
 ## [1.15.7] - 2026-10-02
 
+### Follow-up, 2026-10-02: sitemap investigation, and the generator hardened
+- **Search Console showed the sitemap as "Couldn't fetch", 0 discovered pages.** Investigated end to end and
+  **the sitemap itself is not at fault**: the live file is byte-identical to the generator's output (4,334
+  bytes, ASCII, LF, no BOM), is served `200 application/xml` with no `X-Robots-Tag`, **validates against the
+  official sitemaps.org 0.9 XSD with zero errors**, and all 40 `<loc>`s answer 200 directly on
+  `https://latinsuperapp.com` with no redirects and no duplicates. `robots.txt` allows it and advertises it.
+  With *Last read* empty and *Type* "Unknown", Search Console has not completed its first fetch; that status
+  is routinely shown for a just-submitted sitemap on a new property.
+- **Found on the way, not the cause:** `http://` URLs answer 200 instead of redirecting to `https://`, so
+  GitHub Pages' *Enforce HTTPS* is off and the whole site exists twice. Canonicals already point at https;
+  the setting needs switching on in the repo's Pages settings (not something the code can do).
+- **Latent generator bug fixed** in `tools/build_sitemap.js`: author slugs were read from `ERA_CONFIG` with
+  `/'([a-z0-9-]+)': \[/`, so a future slug outside that pattern would have been **silently left out** of the
+  sitemap. It now reads any quoted key, and **fails hard if any practice-bank author belongs to no era**.
+  Query values are now `encodeURIComponent`-ed the way `js/home.js` builds its own links, and the generator
+  refuses to write a sitemap with URLs off the origin, of 2048+ characters, with unencoded characters, or over
+  the 50,000-URL / 50 MB limits. Both guards were negative-tested on a scratch copy (an underscore slug is now
+  included; an author removed from its era stops the build). Current output is byte-identical: 40 URLs.
+
 ### Follow-up, 2026-10-02: the portraits are 83% lighter
 - The 22 portraits went from **11.18 MB to 1.88 MB**. Every image whose short side was over 640 px was
   resized to 640 px on that side - twice the largest size any portrait is drawn at (a ~323 px home-page card
