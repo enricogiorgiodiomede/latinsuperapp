@@ -29,7 +29,11 @@
         '<a class="back-link" href="index.html">' + Markdown.escapeHtml(I18n.t('link.backAuthors')) + '</a>';
       return;
     }
-    document.title = I18n.t('title.authorNamed', { name: author.name });
+    UI.setMeta({
+      title: I18n.t('title.authorNamed', { name: author.name }),
+      description: I18n.t('meta.author', { name: author.name, dates: author.dates }),
+      canonical: 'author.html?era=' + encodeURIComponent(era) + '&id=' + encodeURIComponent(slug)
+    });
     render(author);
   }).catch(function (err) {
     UI.showError(root, err.message);
@@ -58,13 +62,13 @@
 
     var portraits = document.createElement('div');
     portraits.className = 'detail-portraits';
-    UI.renderPortraits(portraits, author.images, author.name);
+    UI.renderPortraits(portraits, author.images, UI.portraitAlt(author));
     hero.appendChild(portraits);
 
     var heading = document.createElement('div');
     heading.className = 'detail-heading';
 
-    var name = document.createElement('h2');
+    var name = document.createElement('h1');
     name.className = 'detail-name';
     name.textContent = author.name;
     heading.appendChild(name);

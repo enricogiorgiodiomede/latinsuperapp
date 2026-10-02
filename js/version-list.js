@@ -114,7 +114,7 @@
              (a.ord - b.ord);
     });
 
-    var h = document.createElement('h2');
+    var h = document.createElement('h1');
     h.className = 'version-heading';
     h.textContent = I18n.t('version.heading', { version: target });
     if (target === LATEST_VERSION) {

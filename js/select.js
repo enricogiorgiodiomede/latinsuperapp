@@ -50,7 +50,13 @@
     var group = groupId ? PracticeBank.getGroup(author.slug, groupId) : null;
     if (!group) groupId = null;
     renderBreadcrumb(era, author, group);
-    document.title = I18n.t('title.selectNamed', { name: author.name });
+    var canonical = 'practice-select.html?era=' + encodeURIComponent(era) + '&id=' + encodeURIComponent(slug);
+    if (groupId) canonical += '&group=' + encodeURIComponent(groupId);
+    UI.setMeta({
+      title: I18n.t('title.selectNamed', { name: author.name }),
+      description: I18n.t('meta.select', { name: author.name }),
+      canonical: canonical
+    });
     render(author, group);
   }).catch(function (err) {
     UI.showError(root, err.message);
@@ -104,7 +110,7 @@
     // offering categories rather than only texts.
     var showGroups = items.some(function (i) { return i.kind === 'group'; });
 
-    var heading = document.createElement('h2');
+    var heading = document.createElement('h1');
     heading.className = 'detail-name';
     // Inside a category the heading is the category's own ("Choose a speech by
     // Cicero"); at the top level English keeps the bank's specific heading

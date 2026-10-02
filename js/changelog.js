@@ -12,6 +12,45 @@
 
   var VERSIONS = [
     {
+      v: '1.15.7', date: '02/10/2026', time: '00:00', tz: 'CEST',
+      en: {
+        added: [
+          'GOOGLE CAN FIND THE SITE NOW. Until today latinsuperapp.com had no robots.txt and no sitemap, and asking for https://latinsuperapp.com/robots.txt simply answered "not found". That matters more here than it would on most sites, because every link on this one is built by JavaScript as the page loads: a search engine that reads only the delivered HTML arrives at the home page and finds a page with no links on it at all. There is now a sitemap listing forty addresses - the home page, the Caesar\'s Age listing, all twenty authors, the eight work choosers, the metre index and the nine metre pages - and that list is the only route by which any of them can be discovered.',
+          'EVERY PAGE NOW SAYS WHAT IT IS. All six pages used to send search engines the same single sentence of description and the same heading - the site title - so from the outside they looked like six copies of one page. Each page now carries its own description, and the heading at the top is the thing the page is actually about: the author\'s name on an author page, the excerpt\'s title on a practice page, the metre\'s name on a metre page. On an author page the description is written for that author, in whichever of the two languages you are reading.',
+          'A FAVICON. The site had none at all: no little icon in the browser tab, and none beside the address in a list of search results. There is one now, a gold-edged L on deep red.',
+          'A NOT-FOUND PAGE OF OUR OWN. A mistyped address used to land on GitHub\'s grey error page. It now lands on a page in the site\'s own colours, with links back to the author list and to the metres.'
+        ],
+        changed: [
+          'Addresses that show the same thing now admit it. A metre page can be reached carrying four extra notes about the excerpt you came from - metre.html?m=saturnian plus era, author, work and excerpt number - and every combination of those was, to a search engine, a separate page with identical text on it. They all now point at the single address metre.html?m=saturnian. The home page does the same in reverse: index.html?era=archaic shows exactly what the bare address shows, because archaic is the era the home page opens on, so it defers to the bare one.',
+          'The trail at the top of each page - Home / Caesar\'s Age / Cicero - is now published in the form search engines read, so it can appear under a result instead of a bare address.',
+          'The portraits describe themselves properly. The alt text of a picture is what a screen reader speaks aloud and what a search engine reads, and here it had only ever been the author\'s bare name. It now reads "Portrait of ...", with one deliberate exception: on the Figulus page the picture is actually Pythagoras, so there the alt text says that, rather than naming a man it does not show.',
+          'The update pages now ask not to be listed in search results. They are near-identical to one another by design, and they are meant to be reached from the What\'s New panel rather than from a search.',
+          'Cache-bust: ?v=193 -> ?v=194.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'ORA GOOGLE PUÒ TROVARE IL SITO. Fino a oggi latinsuperapp.com non aveva né un robots.txt né una sitemap, e chiedere https://latinsuperapp.com/robots.txt rispondeva semplicemente "non trovato". Qui la cosa pesa più che altrove, perché ogni collegamento di questo sito viene costruito da JavaScript mentre la pagina si carica: un motore di ricerca che legge solo l\'HTML consegnato arriva alla home e trova una pagina senza alcun collegamento. Ora esiste una sitemap che elenca quaranta indirizzi - la home, la pagina dell\'età di Cesare, tutti e venti gli autori, gli otto selettori di opere, l\'indice dei metri e le nove pagine dei metri - ed è l\'unica via per cui possano essere scoperti.',
+          'ORA OGNI PAGINA DICE CHE COS\'È. Tutte e sei le pagine mandavano ai motori di ricerca la stessa unica frase di descrizione e lo stesso titolo - il nome del sito - così da fuori sembravano sei copie della stessa pagina. Ora ciascuna porta la propria descrizione, e il titolo in cima è ciò di cui la pagina parla davvero: il nome dell\'autore su una pagina d\'autore, il titolo del brano su una pagina di pratica, il nome del metro su una pagina di metrica. Sulla pagina di un autore la descrizione è scritta per quell\'autore, nella lingua in cui stai leggendo.',
+          'UNA FAVICON. Il sito non ne aveva nessuna: nessuna iconcina nella scheda del browser, e nessuna accanto all\'indirizzo in un elenco di risultati. Ora c\'è: una L bordata d\'oro su rosso scuro.',
+          'UNA PAGINA DI ERRORE NOSTRA. Un indirizzo sbagliato finiva sulla pagina grigia di errore di GitHub. Ora finisce su una pagina nei colori del sito, con i collegamenti per tornare all\'elenco degli autori e ai metri.'
+        ],
+        changed: [
+          'Gli indirizzi che mostrano la stessa cosa ora lo dichiarano. Una pagina di metrica può essere raggiunta portandosi dietro quattro indicazioni sul brano da cui vieni - metre.html?m=saturnian più età, autore, opera e numero del brano - e ogni combinazione era, per un motore di ricerca, una pagina distinta con dentro lo stesso testo. Ora puntano tutte a un solo indirizzo, metre.html?m=saturnian. La home fa lo stesso al contrario: index.html?era=archaic mostra esattamente ciò che mostra l\'indirizzo nudo, perché arcaica è l\'età da cui la home parte, e quindi cede il passo a quello.',
+          'Il percorso in cima a ogni pagina - Home / Età di Cesare / Cicerone - viene ora pubblicato anche nella forma che i motori di ricerca leggono, così può comparire sotto un risultato al posto di un indirizzo nudo.',
+          'I ritratti ora si descrivono come si deve. Il testo alternativo di un\'immagine è ciò che uno screen reader pronuncia e ciò che un motore di ricerca legge, e qui era sempre stato soltanto il nome dell\'autore. Ora dice "Ritratto di ...", con un\'eccezione voluta: nella pagina di Figulo il ritratto raffigura in realtà Pitagora, e lì il testo alternativo lo dice, invece di nominare un uomo che non mostra.',
+          'Le pagine degli aggiornamenti ora chiedono di non comparire nei risultati di ricerca. Sono quasi identiche tra loro per costruzione, e si raggiungono dal pannello Novità, non da una ricerca.',
+          'Cache-bust: ?v=193 -> ?v=194.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.15.6', date: '02/10/2026', time: '01:06', tz: 'CEST',
       en: {
         added: [

@@ -6,6 +6,62 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.15.7] - 2026-10-02
+
+**SEO FOUNDATION AND PER-PAGE TUNING.** The site was effectively unindexable: `robots.txt` returned 404,
+there was no sitemap, no `rel=canonical`, no structured data and no favicon anywhere in the repo, and all
+six pages shipped the same `meta description` and the same `<h1>`. Nothing here changes what a reader sees,
+apart from the new 404 page and the favicon.
+
+### Added
+- **`robots.txt`** - allows everything except `/batch/` and `/tools/` (authoring artefacts that happen to be
+  served), and points at the sitemap. `js/`, `css/` and the `*.md` era drafts are deliberately left
+  crawlable: `js/data.js` fetches `archaic_era_draft.md` / `caesar_era_draft.md` at runtime, so blocking
+  them would leave Googlebot with an empty shell.
+- **`sitemap.xml`** + **`tools/build_sitemap.js`** that generates it. 40 URLs: the home page,
+  `index.html?era=caesar`, 20 author pages, 8 work choosers, the metre index and 9 metre pages. The
+  generator reuses the `global.window = {}` + `eval` loading pattern from `tools/check_metres.js`;
+  era membership is read out of `ERA_CONFIG`'s `imageLookup` tables in `js/data.js`, which exports nothing.
+- **`.nojekyll`** - nothing in the repo starts with `_` today, but a future one would silently vanish.
+- **`404.html`** - site-styled, `noindex`, and deliberately carrying none of the data scripts, so a mistyped
+  URL does not pull the 4.8 MB practice bank just to say "not found".
+- **`favicon.svg`** - a gold-edged L on deep red, declared on all six pages plus the 404.
+- **`UI.setMeta()` and `UI.absoluteUrl()`** in `js/ui.js`, plus a `BreadcrumbList` JSON-LD emitted from the
+  existing `UI.renderBreadcrumb()` - so all five breadcrumbed pages get it with no call-site change.
+- A static `WebSite` JSON-LD block on `index.html`.
+- i18n keys `meta.author`, `meta.select`, `meta.practice`, `meta.metre` and `alt.portrait`, in both languages.
+
+### Changed
+- **Per-page `meta description`** on all six pages, replacing the one shared sentence, and a per-entity
+  description written at runtime by `UI.setMeta` on the author, practice, select and metre pages.
+- **The `<h1>` is now the page's subject.** `index.html` keeps the site title as its `h1`; on the other five
+  the site title becomes `<div class="site-title">` and the page's own heading is promoted to `h1`
+  (`js/author.js:71`, `js/select.js:113`, `js/metre-page.js:66` and `:131`, `js/practice.js:317`,
+  `js/version-list.js:117`). `css/styles.css` had no `h1` element rules, but three heading rules keyed on
+  `h2` without setting a `font-size`, so they gained `font-size: 1.5em` - the UA default for `h2` - and the
+  `h2` selectors now also match `h1`. Verified identical at 24px.
+- **Canonicals.** `index.html` ships a static one; the five parameterised pages deliberately ship none,
+  because a canonical of the bare path would tell Google that all 20 authors are the same page. They get a
+  per-entity canonical and `og:url` from `UI.setMeta` instead. `metre.html?m=X` canonicalises away the
+  `era/id/work/frag` parameters it only carries to rebuild its back-link, and `index.html?era=archaic`
+  canonicalises to `/`, archaic being the era the home page opens on.
+- `og:locale`, `theme-color` and the favicon link added to every page.
+- `version.html` is now `noindex,follow`: a per-release excerpt listing, near-identical across `?v=` values.
+- **Portrait `alt` text** now reads "Portrait of X" (`UI.portraitAlt`) instead of the bare name. The Nigidius
+  Figulus image is Pythagoras, so `IMAGE_NOTE` gained a `notLikeness` flag, surfaced as `imageNotLikeness`
+  on the author object; where it is set, the note itself is the alt, because naming Figulus as the sitter
+  would be false.
+- Cache-bust: `?v=193` -> `?v=194`.
+
+### Known limits, deliberately left for later
+- The page bodies are still built entirely in the browser, and `author.html` loads ~5.9 MB of blocking JS
+  (`js/fragments.js` alone is 4.86 MB) before any text paints. This is why the ~544 `practice.html?frag=`
+  URLs are **not** in the sitemap: 544 thin, JS-rendered URLs from a domain with no crawl history tends to
+  produce "Crawled - currently not indexed" rather than rankings. Add them once the 40 index cleanly.
+- No `hreflang`, because there is no Italian URL to point one at: language comes from `localStorage` and
+  switching reloads the same address. The Italian half of the site therefore remains unindexable.
+- ~13.3 MB of unoptimised portraits, six over 1 MB.
+
 ## [1.15.6] - 2026-10-02
 
 ### Follow-up, 2026-10-02: the counter says Excerpt too

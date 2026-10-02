@@ -24,6 +24,12 @@
       var requested = UI.getParam('era');
       var valid = state.eras.some(function (e) { return e.id === requested; });
       var initial = valid ? requested : 'archaic';
+      // '/' and index.html?era=archaic render the same page, because archaic is
+      // the default era - so the default canonicalises to the bare home URL and
+      // only the other eras are their own.
+      UI.setMeta({
+        canonical: initial === 'archaic' ? '/' : 'index.html?era=' + encodeURIComponent(initial)
+      });
       selectEra(initial, true);
     });
   }
@@ -123,7 +129,7 @@
 
     var portraits = document.createElement('div');
     portraits.className = 'card-portraits';
-    UI.renderPortraits(portraits, author.images, author.name);
+    UI.renderPortraits(portraits, author.images, UI.portraitAlt(author));
     card.appendChild(portraits);
 
     var body = document.createElement('div');

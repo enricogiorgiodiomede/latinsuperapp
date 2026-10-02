@@ -313,7 +313,12 @@
       it: 'Il ritratto è del tutto immaginario: è un\'illustrazione. Un busto fedele esiste, ma l\'illustrazione è più bella.'
     },
     // Caesar's Age - the image is actually Pythagoras.
+    // notLikeness marks a picture that is not of this author at all, as opposed
+    // to one that is merely invented or unreliable. The portrait's alt text
+    // uses the note itself in that case, because "Portrait of Figulus" would
+    // simply be false (see UI.portraitAlt in js/ui.js).
     'publius-nigidius-figulus': {
+      notLikeness: true,
       en: 'The portrait shown is Pythagoras, not Figulus - no accurate likeness of Nigidius Figulus survives. He is shown here because he tried to revive the Pythagorean tradition in Rome.',
       it: 'Il ritratto raffigura Pitagora, non Figulo - non sopravvive alcuna immagine fedele di Nigidio Figulo. È mostrato qui perché cercò di far rivivere a Roma la tradizione pitagorica.'
     }
@@ -550,6 +555,7 @@
       name: name,
       dates: dates,
       imageNote: (IMAGE_NOTE[slug] && IMAGE_NOTE[slug].en) || '',
+      imageNotLikeness: !!(IMAGE_NOTE[slug] && IMAGE_NOTE[slug].notLikeness),
       images: images.map(function (file) {
         return { src: cfg.imageDir + file };
       }),

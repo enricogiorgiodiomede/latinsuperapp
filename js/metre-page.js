@@ -56,14 +56,14 @@
 
   // ---------------------------------------------------------------- index
   function renderIndex() {
-    document.title = I18n.t('title.metres');
+    UI.setMeta({ title: I18n.t('title.metres'), canonical: 'metre.html' });
     UI.renderBreadcrumb(crumbEl, [
       { label: I18n.t('crumb.home'), href: 'index.html' },
       { label: I18n.t('crumb.metres') }
     ]);
     root.innerHTML = '';
 
-    var h = document.createElement('h2');
+    var h = document.createElement('h1');
     h.className = 'metre-index-heading';
     h.textContent = I18n.t('metre.indexHeading');
     root.appendChild(h);
@@ -87,7 +87,14 @@
 
   // ------------------------------------------------------------- one metre
   function renderMetre(m) {
-    document.title = I18n.t('title.metreNamed', { name: m.name });
+    // era/id/work/frag are carried through only to rebuild the back-link, so
+    // the canonical is ?m= alone. That folds every parameter variant of the
+    // same metre page into one URL instead of leaving dozens of duplicates.
+    UI.setMeta({
+      title: I18n.t('title.metreNamed', { name: m.name }),
+      description: I18n.t('meta.metre', { name: m.name }),
+      canonical: 'metre.html?m=' + encodeURIComponent(m.id)
+    });
     root.innerHTML = '';
 
     // Breadcrumb: the full trail when we know where the reader came from,
@@ -121,7 +128,7 @@
     }
 
     // --- title block
-    var h1 = document.createElement('h2');
+    var h1 = document.createElement('h1');
     h1.className = 'metre-title';
     h1.textContent = m.name;
     root.appendChild(h1);

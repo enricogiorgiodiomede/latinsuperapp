@@ -56,7 +56,14 @@
         '<a class="back-link" href="index.html">' + Markdown.escapeHtml(I18n.t('link.backAuthors')) + '</a>';
       return;
     }
-    document.title = I18n.t('title.practiceNamed', { name: author.name });
+    var canonical = 'practice.html?era=' + encodeURIComponent(era) + '&id=' + encodeURIComponent(slug);
+    if (workId) canonical += '&work=' + encodeURIComponent(workId);
+    if (fragParam) canonical += '&frag=' + encodeURIComponent(fragParam);
+    UI.setMeta({
+      title: I18n.t('title.practiceNamed', { name: author.name }),
+      description: I18n.t('meta.practice', { name: author.name }),
+      canonical: canonical
+    });
     render(author);
   }).catch(function (err) {
     UI.showError(root, err.message);
@@ -307,7 +314,7 @@
       var headline = document.createElement('div');
       headline.className = 'excerpt-headline';
       if (fTitle) {
-        var title = document.createElement('h2');
+        var title = document.createElement('h1');
         title.innerHTML = Markdown.renderInline(fTitle);
         headline.appendChild(title);
       }

@@ -1,0 +1,15 @@
+# latinsuperapp.com - crawling rules
+#
+# js/, css/ and the *.md era drafts MUST stay crawlable: the pages are built
+# client-side and js/data.js fetches archaic_era_draft.md / caesar_era_draft.md
+# at runtime, so blocking any of them would leave Googlebot with an empty shell.
+#
+# batch/ and tools/ are authoring artefacts that happen to be served; they are
+# not part of the site.
+
+User-agent: *
+Allow: /
+Disallow: /batch/
+Disallow: /tools/
+
+Sitemap: https://latinsuperapp.com/sitemap.xml

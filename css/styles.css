@@ -596,9 +596,13 @@ blockquote {
   margin: 20px 0;
 }
 
+/* The excerpt title is the page's own subject, so it is the h1 here; the h2
+   selector stays for any other heading inside the box. */
+.practice-excerpt h1,
 .practice-excerpt h2 {
   font-family: var(--font-serif);
   color: var(--terracotta-deep);
+  font-size: 1.5em;   /* the h2 default, so the h1 title is the same size as before */
   margin: 0 0 4px;
 }
 
@@ -986,6 +990,7 @@ body.cl-modal-open { overflow: hidden; }
    banner is 108px tall and hangs down past the title, so there the whole row
    has to stop short. */
 .practice-excerpt.has-papyrus .fragment-counter,
+.practice-excerpt.has-papyrus .excerpt-headline h1,
 .practice-excerpt.has-papyrus .excerpt-headline h2,
 .practice-excerpt.has-papyrus .excerpt-citation { padding-right: 152px; }
 .practice-excerpt.has-vip .fragment-counter,
@@ -1099,6 +1104,7 @@ body.cl-modal-open { overflow: hidden; }
   .excerpt-version-badge.is-papyrus { height: 26px; padding: 0 9px; }
   .papyrus-text { font-size: 0.72rem; }
   .practice-excerpt.has-papyrus .fragment-counter,
+  .practice-excerpt.has-papyrus .excerpt-headline h1,
   .practice-excerpt.has-papyrus .excerpt-headline h2,
   .practice-excerpt.has-papyrus .excerpt-citation { padding-right: 132px; }
   .excerpt-version-badge.is-vip { width: 72px; height: 94px; }
@@ -1106,9 +1112,11 @@ body.cl-modal-open { overflow: hidden; }
 }
 
 /* ===== version-list page (reached from the excerpt version badges) ===== */
+.version-page h1.version-heading,
 .version-page h2.version-heading {
   font-family: var(--font-serif);
   color: var(--deep-red);
+  font-size: 1.5em;   /* the h2 default, kept now that this heading is the h1 */
   margin: 0.2em 0 0.1em;
 }
 .version-latest-note {
@@ -1198,6 +1206,7 @@ body.cl-modal-open { overflow: hidden; }
   flex-wrap: wrap;
   gap: 2px 16px;
 }
+.excerpt-headline h1,
 .excerpt-headline h2 { margin: 0 0 4px; }
 /* Line the tablet's right edge up with the papyrus's right edge, directly
    below it. The card's content box stops 24px from the card edge and the
@@ -1413,7 +1422,7 @@ a.em-name:focus-visible { outline: 2px solid var(--deep-red); outline-offset: 3p
 }
 
 /* the index, when metre.html is opened with no metre named */
-.metre-index-heading { font-family: var(--font-serif); color: var(--deep-red); margin: 0.2em 0 0.1em; }
+.metre-index-heading { font-family: var(--font-serif); color: var(--deep-red); font-size: 1.5em; margin: 0.2em 0 0.1em; }
 .metre-lead { color: var(--ink-soft); margin: 0 0 18px; max-width: 70ch; }
 .metre-item {
   display: block;

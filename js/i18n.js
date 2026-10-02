@@ -60,6 +60,27 @@
       'title.metres': 'Metre - ' + SITE_EN,
       'title.metreNamed': function (p) { return p.name + ' - ' + SITE_EN; },
 
+      // --- meta descriptions (what a search result shows under the title) ---
+      // One HTML file serves many URLs, so these are written per entity at
+      // runtime by UI.setMeta; the static fallback lives in each .html head.
+      'meta.author': function (p) {
+        return p.name + ' (' + p.dates + '): life, main works and writing style, with a difficulty profile for translating them and Latin excerpts to practise on.';
+      },
+      'meta.select': function (p) {
+        return 'Choose which work of ' + p.name + ' to practise translating, with the number of Latin excerpts available for each text.';
+      },
+      'meta.practice': function (p) {
+        return 'Practise translating ' + p.name + ': the Latin text and its metre, with Italian and English translations and an analysis of the passage.';
+      },
+      'meta.metre': function (p) {
+        return p.name + ': how this Latin metre is built, how it sounds and which Roman poets wrote in it, with scanned examples.';
+      },
+
+      // Portrait alt text. The one image that depicts somebody else entirely
+      // (Pythagoras, on the Figulus page) uses its own note instead - see
+      // UI.portraitAlt.
+      'alt.portrait': function (p) { return 'Portrait of ' + p.name; },
+
       // --- loading placeholders ---
       'loading.author': 'Loading author...',
       'loading.excerpt': 'Loading excerpt...',
@@ -248,6 +269,22 @@
       'title.versionNamed': function (p) { return 'Aggiunti in v' + p.version + ' - ' + SITE_IT; },
       'title.metres': 'Metrica - ' + SITE_IT,
       'title.metreNamed': function (p) { return p.name + ' - ' + SITE_IT; },
+
+      // --- meta descriptions ---
+      'meta.author': function (p) {
+        return p.name + ' (' + p.dates + '): vita, opere principali e stile, con un profilo di difficoltà di traduzione ed estratti latini su cui esercitarsi.';
+      },
+      'meta.select': function (p) {
+        return 'Scegli quale opera di ' + p.name + ' tradurre, con il numero di estratti latini disponibili per ogni testo.';
+      },
+      'meta.practice': function (p) {
+        return 'Esercitati a tradurre ' + p.name + ': il testo latino e il suo metro, con traduzione italiana e inglese e analisi del passo.';
+      },
+      'meta.metre': function (p) {
+        return p.name + ': come è costruito questo metro latino, come suona e quali poeti romani lo hanno usato, con esempi scanditi.';
+      },
+
+      'alt.portrait': function (p) { return 'Ritratto di ' + p.name; },
 
       // --- loading placeholders ---
       'loading.author': 'Caricamento autore...',

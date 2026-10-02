@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Latin Super App">
+  <title>Latin Super App</title>
+  <rect width="64" height="64" rx="10" fill="#7c1f1f"/>
+  <rect x="3.5" y="3.5" width="57" height="57" rx="7.5" fill="none" stroke="#b8893b" stroke-width="3"/>
+  <path d="M19 14 H33 V41 H45 V50 H19 Z" fill="#fbf6ec"/>
+</svg>
