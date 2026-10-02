@@ -21,11 +21,12 @@
           'A NOT-FOUND PAGE OF OUR OWN. A mistyped address used to land on GitHub\'s grey error page. It now lands on a page in the site\'s own colours, with links back to the author list and to the metres.'
         ],
         changed: [
+          'THE PORTRAITS ARE 83% LIGHTER. Together they weighed 11.2 MB, with six of them over a megabyte each - Lucretius alone was 2.1 MB, for a picture never shown larger than a postcard. They weigh 1.9 MB now, Lucretius 317 KB and Cicero 105 KB, and they look the same: each was resized to twice the largest size the site ever draws it at, so it stays sharp on high-resolution screens. Pages with portraits load noticeably faster on a phone, and page speed is one of the things search engines rank by. Caesar\'s portrait was already small and was left exactly as it was.',
           'Addresses that show the same thing now admit it. A metre page can be reached carrying four extra notes about the excerpt you came from - metre.html?m=saturnian plus era, author, work and excerpt number - and every combination of those was, to a search engine, a separate page with identical text on it. They all now point at the single address metre.html?m=saturnian. The home page does the same in reverse: index.html?era=archaic shows exactly what the bare address shows, because archaic is the era the home page opens on, so it defers to the bare one.',
           'The trail at the top of each page - Home / Caesar\'s Age / Cicero - is now published in the form search engines read, so it can appear under a result instead of a bare address.',
           'The portraits describe themselves properly. The alt text of a picture is what a screen reader speaks aloud and what a search engine reads, and here it had only ever been the author\'s bare name. It now reads "Portrait of ...", with one deliberate exception: on the Figulus page the picture is actually Pythagoras, so there the alt text says that, rather than naming a man it does not show.',
           'The update pages now ask not to be listed in search results. They are near-identical to one another by design, and they are meant to be reached from the What\'s New panel rather than from a search.',
-          'Cache-bust: ?v=193 -> ?v=194.'
+          'Cache-bust: ?v=193 -> ?v=195.'
         ],
         deleted: [
           'Nothing was deleted.'
@@ -39,11 +40,12 @@
           'UNA PAGINA DI ERRORE NOSTRA. Un indirizzo sbagliato finiva sulla pagina grigia di errore di GitHub. Ora finisce su una pagina nei colori del sito, con i collegamenti per tornare all\'elenco degli autori e ai metri.'
         ],
         changed: [
+          'I RITRATTI PESANO L\'83% IN MENO. Insieme pesavano 11,2 MB, e sei superavano il megabyte ciascuno - il solo Lucrezio ne pesava 2,1, per un\'immagine mai mostrata più grande di una cartolina. Ora pesano 1,9 MB, Lucrezio 317 KB e Cicerone 105 KB, e hanno lo stesso aspetto: ognuno è stato ridimensionato al doppio della misura massima a cui il sito lo disegna, così resta nitido anche sugli schermi ad alta risoluzione. Le pagine con i ritratti si caricano sensibilmente più in fretta su un telefono, e la velocità delle pagine è uno dei criteri con cui i motori di ricerca ordinano i risultati. Il ritratto di Cesare era già leggero ed è rimasto esattamente com\'era.',
           'Gli indirizzi che mostrano la stessa cosa ora lo dichiarano. Una pagina di metrica può essere raggiunta portandosi dietro quattro indicazioni sul brano da cui vieni - metre.html?m=saturnian più età, autore, opera e numero del brano - e ogni combinazione era, per un motore di ricerca, una pagina distinta con dentro lo stesso testo. Ora puntano tutte a un solo indirizzo, metre.html?m=saturnian. La home fa lo stesso al contrario: index.html?era=archaic mostra esattamente ciò che mostra l\'indirizzo nudo, perché arcaica è l\'età da cui la home parte, e quindi cede il passo a quello.',
           'Il percorso in cima a ogni pagina - Home / Età di Cesare / Cicerone - viene ora pubblicato anche nella forma che i motori di ricerca leggono, così può comparire sotto un risultato al posto di un indirizzo nudo.',
           'I ritratti ora si descrivono come si deve. Il testo alternativo di un\'immagine è ciò che uno screen reader pronuncia e ciò che un motore di ricerca legge, e qui era sempre stato soltanto il nome dell\'autore. Ora dice "Ritratto di ...", con un\'eccezione voluta: nella pagina di Figulo il ritratto raffigura in realtà Pitagora, e lì il testo alternativo lo dice, invece di nominare un uomo che non mostra.',
           'Le pagine degli aggiornamenti ora chiedono di non comparire nei risultati di ricerca. Sono quasi identiche tra loro per costruzione, e si raggiungono dal pannello Novità, non da una ricerca.',
-          'Cache-bust: ?v=193 -> ?v=194.'
+          'Cache-bust: ?v=193 -> ?v=195.'
         ],
         deleted: [
           'Non è stato eliminato nulla.'

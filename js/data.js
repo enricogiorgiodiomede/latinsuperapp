@@ -55,17 +55,17 @@
       embeddedKey: '__CAESAR_MD__',
       imageLookup: {
         'marcus-terentius-varro': ['marcus-terentius-varro.jpg'],
-        'cornelius-nepos': ['cornelius-nepos.png'],
-        'quintus-hortensius-hortalus': ['quintus-hortensius-hortalus.png'],
+        'cornelius-nepos': ['cornelius-nepos.jpg'],
+        'quintus-hortensius-hortalus': ['quintus-hortensius-hortalus.jpg'],
         // Figulus has no ancient portrait; the image is Pythagoras, whose
         // tradition Nigidius tried to revive (see IMAGE_NOTE / the caption).
         'publius-nigidius-figulus': ['publius-nigidius-figulus.jpg'],
         'marcus-tullius-cicero': ['marcus-tullius-cicero.jpeg'],
         'gaius-julius-caesar': ['gaius-julius-caesar.jpg'],
         'aulus-hirtius': ['aulus-hirtius.jpg'],
-        'titus-lucretius-carus': ['titus-lucretius-carus.png'],
-        'gaius-sallustius-crispus': ['gaius-sallustius-crispus.png'],
-        'gaius-valerius-catullus': ['gaius-valerius-catullus.png']
+        'titus-lucretius-carus': ['titus-lucretius-carus.jpg'],
+        'gaius-sallustius-crispus': ['gaius-sallustius-crispus.jpg'],
+        'gaius-valerius-catullus': ['gaius-valerius-catullus.jpg']
       }
     }
   };

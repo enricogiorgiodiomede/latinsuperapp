@@ -8,6 +8,23 @@ no build step and no dependencies.
 
 ## [1.15.7] - 2026-10-02
 
+### Follow-up, 2026-10-02: the portraits are 83% lighter
+- The 22 portraits went from **11.18 MB to 1.88 MB**. Every image whose short side was over 640 px was
+  resized to 640 px on that side - twice the largest size any portrait is drawn at (a ~323 px home-page card
+  at mid width; 150 px on an author page), so they stay sharp on high-density screens - and saved as JPEG at
+  quality 85 with high-quality bicubic resampling. Done with System.Drawing (no new dependency).
+- **The five PNGs became JPEGs** (Nepos, Hortensius, Lucretius, Sallust, Catullus), so `ERA_CONFIG`'s
+  `imageLookup` in `js/data.js` now names `.jpg`. None of them used transparency: every sampled pixel was
+  fully opaque, and they were flattened onto `--stone-deep` (`#e8dcc8`), the `.portrait` box colour, anyway.
+  `.png` names were referenced nowhere else.
+- Biggest wins: Lucretius 2,137 KB -> 317 KB, Cicero 2,050 KB -> 105 KB, Hortensius 1,598 KB -> 175 KB,
+  Nepos 1,486 KB -> 176 KB. **Caesar was left alone**: 100 KB -> 97 KB was not worth a second JPEG
+  generation. The ten small archaic portraits (all under 640 px) were untouched.
+- No image carried an EXIF orientation, so none could come out rotated.
+- Noted, not changed: the Lucretius source has a Google Lens-style button baked into its top-right corner,
+  from however it was originally saved. The square crop on both pages cuts it off, so it never shows.
+- Cache-bust: `?v=194` -> `?v=195`.
+
 **SEO FOUNDATION AND PER-PAGE TUNING.** The site was effectively unindexable: `robots.txt` returned 404,
 there was no sitemap, no `rel=canonical`, no structured data and no favicon anywhere in the repo, and all
 six pages shipped the same `meta description` and the same `<h1>`. Nothing here changes what a reader sees,
@@ -60,7 +77,7 @@ apart from the new 404 page and the favicon.
   produce "Crawled - currently not indexed" rather than rankings. Add them once the 40 index cleanly.
 - No `hreflang`, because there is no Italian URL to point one at: language comes from `localStorage` and
   switching reloads the same address. The Italian half of the site therefore remains unindexable.
-- ~13.3 MB of unoptimised portraits, six over 1 MB.
+- ~~11.2 MB of unoptimised portraits, six over 1 MB.~~ Done in the follow-up above: 1.88 MB.
 
 ## [1.15.6] - 2026-10-02
 
