@@ -10,3 +10,6 @@ desktop.ini
 # Claude Code local preview/config
 .claude/
 tools/.cache/
+
+# Run log of the nightly daily-log task (tools/daily_log_git.js)
+logs/

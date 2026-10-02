@@ -8,6 +8,35 @@ no build step and no dependencies.
 
 ## [1.15.7] - 2026-10-02
 
+### Follow-up, 2026-10-02: the nightly daily-log job, and why it kept leaving .git locks
+- **Symptom:** stale `.git/HEAD.lock`, `index.lock` and `next-index-N.lock` blocking the morning's first
+  commit (18/09, 25/09, 26/09 noticed). **Not a crash.** On each of those nights the daily-log commit had
+  *succeeded* at the very minute of the lock (14c601e 23:59:50, dc8ea47 23:53:00, 5761c59 23:55:02).
+- **Root cause:** two jobs wrote the log. Besides the Claude Code task `daily-log-updater` (23:45), an old
+  Cowork task `daily-log-compliling` - auto-migrated on 25/09 to a cloud routine bound to this PC - ran git
+  **inside the Cowork Linux VM over a Plan 9 share of this folder, where unlink() is refused**. The VM log
+  shows it on every commit: `warning: unable to unlink '.git/HEAD.lock': Operation not permitted`. Git only
+  warns, so the job reported success and left its locks: **12 times since July**, one of them
+  (`objects/maintenance.lock`, 24/08) still in `.git`. Its commits are the ones stamped `+0000` and/or
+  authored `Claude <noreply@anthropic.com>`. It also had no format spec, and on 01/10 it appended an entry
+  without committing it, which the v1.15.6 follow-up's `git add -A` then swept into d2b553b.
+- **Second cause:** `daily-log-updater` itself could not run unattended. Every night its first git or edit
+  command stopped at a permission prompt ("Not auto-approving Bash in scheduled task"), which is why its runs
+  lasted ~5 seconds and only completed on days the user happened to be at the machine.
+- **Fixed:** the cloud routine is paused (not deleted). New **`tools/daily_log_git.js`** does every git step
+  of the task - `preflight` (clears ONLY the lock files git's own commit/pull/maintenance create, ONLY when no
+  `git.exe` is running, ONLY when older than 5 minutes; a younger one is left alone and reported), `plan`,
+  `log <day>`, and `commit` (snapshots the locks, runs `git commit --only -- daily_log.md` with a timeout,
+  and on any failure removes only the locks its own run created). Git runs with `GIT_TERMINAL_PROMPT=0` and a
+  120 s timeout, so a credential prompt or a hung push can no longer stall the night. Every step logs to
+  `logs/daily-log-task.log` (git-ignored); a failure also raises a Windows notification and exits non-zero.
+  The task's prompt now routes all git work through the script, so one narrow allow rule covers it. **The
+  entry format is unchanged.**
+- **Tested** on a scratch origin + clone: stale locks of 30 min and 39 days removed; a fresh one left alone
+  with a loud failure; a commit killed mid-flight by a hanging hook left `index.lock` + `next-index-N.lock`
+  (the exact symptom) and both were cleaned, HEAD untouched, the edit kept; the next run committed and pushed;
+  unrelated staged and modified files never rode along.
+
 ### Follow-up, 2026-10-02: sitemap investigation, and the generator hardened
 - **Search Console showed the sitemap as "Couldn't fetch", 0 discovered pages.** Investigated end to end and
   **the sitemap itself is not at fault**: the live file is byte-identical to the generator's output (4,334
