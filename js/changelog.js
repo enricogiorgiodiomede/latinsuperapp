@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.15.7', date: '02/10/2026', time: '18:12', tz: 'CEST',
+      v: '1.15.7', date: '07/10/2026', time: '00:05', tz: 'CEST',
       en: {
         added: [
           'GOOGLE CAN FIND THE SITE NOW. Until today latinsuperapp.com had no robots.txt and no sitemap, and asking for https://latinsuperapp.com/robots.txt simply answered "not found". That matters more here than it would on most sites, because every link on this one is built by JavaScript as the page loads: a search engine that reads only the delivered HTML arrives at the home page and finds a page with no links on it at all. There is now a sitemap listing forty addresses - the home page, the Caesar\'s Age listing, all twenty authors, the eight work choosers, the metre index and the nine metre pages - and that list is the only route by which any of them can be discovered.',
