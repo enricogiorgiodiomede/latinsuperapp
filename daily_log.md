@@ -461,6 +461,7 @@ The big web-app session: Caesar's Age was brought fully online as the app's seco
 ---
 
 ## 2026-07-01
+
 *(End-of-day log, 23:55.)*
 
 A polish day on Caesar's Age: a user review pass (v1.0.1), a layout fix for the Figulus hero, and a new bilingual "portrait likeness" note system across every author (v1.0.2).
@@ -479,6 +480,7 @@ A polish day on Caesar's Age: a user review pass (v1.0.1), a layout fix for the 
 ---
 
 ## 2026-07-05
+
 *(End-of-day log, 23:55.)*
 
 A Varro day: a new work-chooser for Varro plus ten new bilingual fragments (v1.1.0), then two passes lengthening those fragments to fuller verbatim extracts, and a small wording fix to the chooser footer.
@@ -494,6 +496,7 @@ A Varro day: a new work-chooser for Varro plus ten new bilingual fragments (v1.1
 ---
 
 ## 2026-07-06
+
 *(End-of-day log, 23:55.)*
 
 A planning-and-Caecilius day: first a full refresh of the `PROGRESS.md` handoff and the agreed roadmap for what to extend next, then the actual first step of that roadmap, extending Caecilius Statius (v1.1.1), followed by a same-day analysis-word-count fix.
@@ -509,6 +512,7 @@ A planning-and-Caecilius day: first a full refresh of the `PROGRESS.md` handoff 
 ---
 
 ## 2026-07-07
+
 *(End-of-day log, 23:55.)*
 
 A Terence-and-Lucilius day: the Terence practice bank doubled (v1.1.2), then Lucilius grew from a single fragment to a full eight across three releases (v1.1.3 and v1.1.4), the last of which folded in user-supplied verbatim lines and the user's own proofread corrections. Six commits, three shipped versions, cache v53 -> v59.
@@ -524,6 +528,7 @@ A Terence-and-Lucilius day: the Terence practice bank doubled (v1.1.2), then Luc
 ---
 
 ## 2026-07-08
+
 *(End-of-day log, compiled 2026-07-09.)*
 
 A Cato day: *De Agri Cultura* grew from 5 practice fragments to 10, with a difficulty-chart tweak and a follow-up pass lengthening three earlier excerpts. Two commits, one shipped version (v1.1.5), cache v59 -> v61.
@@ -537,6 +542,7 @@ A Cato day: *De Agri Cultura* grew from 5 practice fragments to 10, with a diffi
 ---
 
 ## 2026-07-09
+
 *(End-of-day log, completed 2026-07-10 from the day's commits. The earlier version of this entry was compiled at the start of the day, before the work shipped.)*
 
 A big Caesar's-Age day: Cornelius Nepos went from a single practice fragment to eight, a new per-excerpt version tracker was built, and a same-day follow-up corrected the tracker's back-fill and restyled its banner. Three commits, two shipped versions (v1.2.0 and v1.2.1), cache v61 -> v64.
@@ -552,6 +558,7 @@ A big Caesar's-Age day: Cornelius Nepos went from a single practice fragment to 
 ---
 
 ## 2026-07-14
+
 *(End-of-day log, 23:55.)*
 
 A single late-night commit (00:24) shipped v1.2.2, turning the per-excerpt version tracker from a passive label into a navigable feature and adding release times to the What's New log. One commit, one shipped version, cache v64 -> v65.
@@ -567,6 +574,7 @@ A single late-night commit (00:24) shipped v1.2.2, turning the per-excerpt versi
 ---
 
 ## 2026-07-19
+
 *(End-of-day log, 23:55.)*
 
 A single evening commit (21:12) shipped another v1.2.2 refinement, correcting six changelog dates so the What's New history reads in true chronological order. One commit, cache v65 -> v66.
@@ -580,6 +588,7 @@ A single evening commit (21:12) shipped another v1.2.2 refinement, correcting si
 ---
 
 ## 2026-07-20
+
 *(End-of-day log, 23:55.)*
 
 A single midday commit (12:57) shipped v1.3.0, the biggest Plautus expansion yet: three new comedies join the practice set, bringing Plautus up to all ten of his best-known plays. One work commit, cache v66 -> v67.
@@ -595,6 +604,7 @@ A single midday commit (12:57) shipped v1.3.0, the biggest Plautus expansion yet
 ---
 
 ## 2026-07-22
+
 *(End-of-day log, 23:55.)*
 
 Three commits polished the v1.3.0 Plautus batch shipped two days earlier, all citation and editorial-mark corrections rather than new content. Cache stepped v67 -> v70.
@@ -612,6 +622,7 @@ Three commits polished the v1.3.0 Plautus batch shipped two days earlier, all ci
 ---
 
 ## 2026-08-13
+
 *(End-of-day log, compiled 2026-08-18 from the day's commits.)*
 
 A Plautus-completion day: the seven under-length v1.3.0 excerpts were lengthened, the user finished proofreading *Truculentus*, and by evening the seven older comedies were topped up to five fragments each -- finishing Plautus's practice bank at all ten comedies. Three commits, two shipped versions (a v1.3.0 refinement and v1.4.0), cache v70 -> v72.
@@ -627,6 +638,7 @@ A Plautus-completion day: the seven under-length v1.3.0 excerpts were lengthened
 ---
 
 ## 2026-08-18
+
 *(End-of-day log, compiled 2026-08-20 from the day's commits.)*
 
 A four-commit day: a docs-only housekeeping fix in the morning, then the practice chooser was reworked to support nested categories, and the afternoon shipped the first half of the Cicero flesh-out -- five speeches, three excerpts each. Cache v72 -> v74.
@@ -644,6 +656,7 @@ A four-commit day: a docs-only housekeeping fix in the morning, then the practic
 ---
 
 ## 2026-08-20
+
 *(End-of-day log, compiled 2026-08-21 from the day's commits.)*
 
 An evening session finished the Cicero Speeches group: v1.6.0 split *In Catilinam* into its four separate speeches, then a same-evening follow-up restored a missing editorial supplement. Three commits, cache v74 -> v76.
@@ -659,6 +672,7 @@ An evening session finished the Cicero Speeches group: v1.6.0 split *In Catilina
 ---
 
 ## 2026-08-21
+
 *(End-of-day log, compiled 2026-08-22 from the day's commits.)*
 
 First of four planned batches deepening the Catilinarians before v1.7.0: *In Catilinam I* goes from 3 to 7 excerpts, since the user's textbook draws its Cicero only from the first speech (II, III and IV will get 5 each later). Two commits, cache v76 -> v77.
@@ -672,6 +686,7 @@ First of four planned batches deepening the Catilinarians before v1.7.0: *In Cat
 ---
 
 ## 2026-08-22
+
 *(End-of-day log, 23:55.)*
 
 The longest session of the flesh-out so far: the three remaining Catilinarian batches all landed in one evening, plus an extra fragment and a biography addition on top. Seven commits (four releases, three time corrections), cache v77 -> v81. *In Catilinam* is now complete at 32 excerpts and the Cicero Speeches group at 44.
@@ -691,6 +706,7 @@ The longest session of the flesh-out so far: the three remaining Catilinarian ba
 ---
 
 ## 2026-08-23
+
 *(End-of-day log, compiled 2026-08-24 from the day's commits.)*
 
 Three more Speeches-group releases in one evening session, following the roadmap saved the day before: the two remaining under-length works were brought up to size, then five brand-new speeches joined the group. Six commits (three releases, three time corrections), cache v81 -> v84.
@@ -708,6 +724,7 @@ Three more Speeches-group releases in one evening session, following the roadmap
 ---
 
 ## 2026-08-24
+
 *(End-of-day log, 23:55.)*
 
 An infrastructure commit first, then the Philippics finished in two releases. Five commits (one tooling, two releases, two time corrections), cache v84 -> v86. The evening also introduced a new standing habit: a translation-accuracy pass over every fragment of a touched work, old ones included.
@@ -727,6 +744,7 @@ An infrastructure commit first, then the Philippics finished in two releases. Fi
 ---
 
 ## 2026-08-25
+
 *(End-of-day log, compiled 2026-08-26 from the day's commits.)*
 
 Four releases in one evening working straight down the roadmap: Pro Caelio deepened and then corrected on the user's own source-checking, In Pisonem deepened, and In Verrem finally split into its real seven-speech shape after a months-old sourcing note turned out to be wrong. Nine commits (four releases, three time corrections, one renumbering/docs pass), cache v86 -> v91.
@@ -748,6 +766,7 @@ Four releases in one evening working straight down the roadmap: Pro Caelio deepe
 ---
 
 ## 2026-08-26
+
 *(End-of-day log, compiled 2026-08-28 from the day's commits.)*
 
 Two releases finished the Verrines outright: the five parts still empty after v1.7.5 got their first excerpts, then the user asked that no part of the case be left with only one or two, so five of the seven grew again the same evening. Five commits (two releases, two time corrections, one docs commit landing the previous day's log entry), cache v91 -> v93.
@@ -763,6 +782,7 @@ Two releases finished the Verrines outright: the five parts still empty after v1
 ---
 
 ## 2026-08-27
+
 *(End-of-day log, compiled 2026-08-28 from the day's commits.)*
 
 A quiet housekeeping release just after midnight, then Cicero's Letters built from scratch as four collections that evening, then a same-day follow-up that corrected four of those sources by declared emendation instead of trimming past them, reversing the project's long-standing default. Five commits (three releases -- one housekeeping, two content -- and two time corrections), cache v93 -> v96.
@@ -780,6 +800,7 @@ A quiet housekeeping release just after midnight, then Cicero's Letters built fr
 ---
 
 ## 2026-08-28
+
 *(End-of-day log, compiled 2026-08-29 from the day's commits.)*
 
 The Letters plan finished in two sittings: the undecided half of the collections first, a same-evening correction, then the two large collections closed out to 8 each. Five commits (three releases, two time corrections), cache v96 -> v99.
@@ -797,6 +818,7 @@ The Letters plan finished in two sittings: the undecided half of the collections
 ---
 
 ## 2026-08-29
+
 *(End-of-day log, compiled 2026-08-29 from the day's commits.)*
 
 A quiet morning correction to the previous day's emendation calls, then Cicero's Philosophical works group opened and very nearly finished in one evening: De Amicitia topped up, all the structural prep for both remaining groups done in the same release, then De Senectute added whole, then three more works went live together. Seven commits (four releases -- one small follow-up and three content -- and three time corrections), cache v99 -> v103.
@@ -816,6 +838,7 @@ A quiet morning correction to the previous day's emendation calls, then Cicero's
 ---
 
 ## 2026-08-30
+
 *(End-of-day log, compiled 2026-08-31 from 2026-08-30's commits.)*
 
 A long, steady evening that closed out the Philosophical group entirely. It opened with a bug-hunting follow-up rather than new content -- a class of translation error no existing check could catch -- then four straight content releases carried the group from 5 works to 9: Tusculanae Disputationes shipped, was immediately recomposed for honest book coverage (the project's first deliberate deletion of a live fragment), De Natura Deorum and De Divinatione shipped together, and a cross-reference follow-up caught two live rendering bugs before Paradoxa Stoicorum closed the group out. Nine commits (six content releases and follow-ups, three time-correction docs commits), cache v103 -> v109.
@@ -839,6 +862,7 @@ A long, steady evening that closed out the Philosophical group entirely. It open
 ---
 
 ## 2026-08-31
+
 *(End-of-day log, compiled 2026-08-31 from the day's commits.)*
 
 The Philosophical group closed, the Rhetorical group opened and closed on the same day, and Cicero reached all four of his categories complete. De Fato joined to finish Philosophical at 10 works, then De Oratore, Brutus and Orator opened Rhetorical, De Optimo Genere Oratorum and Topica followed as a pair, and a last release topped the first three back up to close the group at 5 works / 23 fragments -- and with it, Cicero himself. Twelve commits (four content releases, two follow-ups, five time/date-correction docs commits, plus yesterday's daily log committed at 18:20), cache v109 -> v115.
@@ -862,6 +886,7 @@ The Philosophical group closed, the Rhetorical group opened and closed on the sa
 ---
 
 ## 2026-09-01
+
 *(End-of-day log, compiled 2026-09-03 from the day's commits; no entry was made for 2026-09-02, on which nothing was committed.)*
 
 The busiest day yet: Cicero closed out for good just after midnight, then the whole afternoon and evening went to standing up Caesar and Hirtius from scratch and opening the Gallic War. Eighteen commits (seven content releases plus follow-ups, one same-day revert, ten time/date-correction docs commits), cache v115 -> v124.
@@ -891,6 +916,7 @@ The busiest day yet: Cicero closed out for good just after midnight, then the wh
 ---
 
 ## 2026-09-03
+
 *(End-of-day log, compiled 2026-09-03 from the day's commits.)*
 
 The Gallic War finished: Book V (the bad year), the rest of Book VI, and all nine chapters of Book VII closed the whole seven-book campaign, plus a citations/terminology pass and three same-release proofreading follow-ups. Ten commits (five content/follow-up releases, five time/date-correction docs commits), cache v124 -> v129.
