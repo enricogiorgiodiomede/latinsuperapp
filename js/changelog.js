@@ -26,7 +26,8 @@
           'The trail at the top of each page - Home / Caesar\'s Age / Cicero - is now published in the form search engines read, so it can appear under a result instead of a bare address.',
           'The portraits describe themselves properly. The alt text of a picture is what a screen reader speaks aloud and what a search engine reads, and here it had only ever been the author\'s bare name. It now reads "Portrait of ...", with one deliberate exception: on the Figulus page the picture is actually Pythagoras, so there the alt text says that, rather than naming a man it does not show.',
           'The update pages now ask not to be listed in search results. They are near-identical to one another by design, and they are meant to be reached from the What\'s New panel rather than from a search.',
-          'Cache-bust: ?v=193 -> ?v=195.'
+          'THE FAVICON IS PROPERLY GOLD. The L in the little icon was nearly white and its gold edge a muted brown-gold, so at the size a browser tab draws it the icon read as red and white. Both are now one warmer, fully saturated gold, the same on the L and the edge; the red and the shape are unchanged. Browsers hold on to favicons stubbornly, so the icon now carries the same version number as the rest of the site, and the new one replaces the old on the next visit.',
+          'Cache-bust: ?v=193 -> ?v=196.'
         ],
         deleted: [
           'Nothing was deleted.'
@@ -45,7 +46,8 @@
           'Il percorso in cima a ogni pagina - Home / Età di Cesare / Cicerone - viene ora pubblicato anche nella forma che i motori di ricerca leggono, così può comparire sotto un risultato al posto di un indirizzo nudo.',
           'I ritratti ora si descrivono come si deve. Il testo alternativo di un\'immagine è ciò che uno screen reader pronuncia e ciò che un motore di ricerca legge, e qui era sempre stato soltanto il nome dell\'autore. Ora dice "Ritratto di ...", con un\'eccezione voluta: nella pagina di Figulo il ritratto raffigura in realtà Pitagora, e lì il testo alternativo lo dice, invece di nominare un uomo che non mostra.',
           'Le pagine degli aggiornamenti ora chiedono di non comparire nei risultati di ricerca. Sono quasi identiche tra loro per costruzione, e si raggiungono dal pannello Novità, non da una ricerca.',
-          'Cache-bust: ?v=193 -> ?v=195.'
+          'LA FAVICON È DAVVERO D\'ORO. La L della piccola icona era quasi bianca e il suo bordo d\'oro un bruno-oro spento, così alla misura con cui la disegna una scheda del browser l\'icona sembrava rossa e bianca. Ora entrambi sono un unico oro più caldo e pieno, lo stesso sulla L e sul bordo; il rosso e la forma restano identici. I browser si tengono strette le favicon, perciò l\'icona porta ora lo stesso numero di versione del resto del sito, e la nuova sostituisce la vecchia alla visita successiva.',
+          'Cache-bust: ?v=193 -> ?v=196.'
         ],
         deleted: [
           'Non è stato eliminato nulla.'

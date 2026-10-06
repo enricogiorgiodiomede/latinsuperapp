@@ -8,6 +8,16 @@ no build step and no dependencies.
 
 ## [1.15.7] - 2026-10-02
 
+### Follow-up, 2026-10-07: a properly gold favicon
+- `favicon.svg`: the L (`#fbf6ec`, parchment) and the border (`#b8893b`, 51% saturation) are now one saturated
+  gold, **`#e2ac22`** (77%). The red field, the shape and every coordinate are unchanged. Checked side by side
+  at 16, 32, 64 and 128 px and in a dark tab strip: at 16 px the old icon read as red-and-white, the new one
+  as red-and-gold.
+- The favicon link on all seven pages (the six plus `404.html`) now carries the cache-bust,
+  `favicon.svg?v=196`. Browsers keep favicons in a cache of their own for a long time, so without a new URL
+  returning visitors would go on seeing the white L.
+- Cache-bust: `?v=195` -> `?v=196`.
+
 ### Follow-up, 2026-10-02: the nightly daily-log job, and why it kept leaving .git locks
 - **Symptom:** stale `.git/HEAD.lock`, `index.lock` and `next-index-N.lock` blocking the morning's first
   commit (18/09, 25/09, 26/09 noticed). **Not a crash.** On each of those nights the daily-log commit had
