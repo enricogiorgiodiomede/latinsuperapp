@@ -1159,6 +1159,8 @@ A day given over to one new idea, **metre**, from first page to a corrected scan
 
 ## 2026-09-29
 
+*(End-of-day log, 23:55.)*
+
 A day given to the **metre of drama**: the comic metres (v1.15.3), the tragic and Atellan metres (v1.15.4), and two follow-ups. **No change to any excerpt's Latin, translation or difficulty ranking**; the work is metre labels, four new metre pages, corrected analyses and two new tools. Labelled excerpts went **80 -> 166 -> 177, all linked**.
 
 **v1.15.3 -- the comic metres, with a source and a second opinion (14:35, cache v183 -> v185).** Every Plautus, Terence and Caecilius excerpt now carries a metre label: **86 newly labelled**. Labels for Plautus and Terence come from Timothy J. Moore's *The Meters of Roman Comedy* database via a new `tools/comic_metres.js`; Caecilius, who is not in it, is labelled by the app's own scanner. Added `tools/scan_drama.js`, a scansion engine that works from spelling alone and treats any vowel length it cannot fix as open ("a metre it refuses is refuted, one it allows is only possible"); it agrees with the database outright on 31 of 58 single-metre excerpts and on 48 with iambic shortening. Four new pages: **Iambic Senarius** (41 excerpts), **Iambic Septenarius** (3), **Iambic Octonarius** (9) and **Canticum** (7); the Trochaic Septenarius page gains its comic examples. A label can now be a list of verse ranges (Andria V.3, Hecyra V.1), keyed to the play's own verse numbers. **Seven analyses named the wrong metre and were corrected:** Miles Gloriosus III.1, Andria I.2, Heauton II.1 and IV.2, Hecyra V.3, Eunuchus IV.7 and Phormio II.1. Four scansion errors of my own were caught by `check_metre_quotes.js`.
@@ -1171,7 +1173,11 @@ A day given to the **metre of drama**: the comic metres (v1.15.3), the tragic an
 
 **Progress:** App at **v1.15.4, cache v188, 177 labelled, all linked**. check_metre_quotes 29/0, 392 verbatim 0 mismatched, both languages read in the browser with a clean console.
 
+---
+
 ## 2026-09-30
+
+*(End-of-day log, 23:55.)*
 
 A short late session (committed 00:11 CEST on 2026-10-01, which is 22:11 UTC): **one follow-up to v1.15.4**, finishing the metre pages and withdrawing one label.
 
@@ -1179,7 +1185,11 @@ A short late session (committed 00:11 CEST on 2026-10-01, which is 22:11 UTC): *
 
 **Progress:** App at **v1.15.4 (follow-up 3), cache v189**, still **177 labelled, all linked**. check_metre_quotes 32/0, 392 verbatim 0 mismatched, check_verses 60/0, EN and IT in step on all nine pages. Still outstanding: the Cicero backlog, Catullus and Sallust expansion, and the Augustan Era (awaiting the user's permission).
 
+---
+
 ## 2026-10-01
+
+*(End-of-day log, 23:55.)*
 
 Two commits (14:01 CEST and a follow-up at 00:16 CEST on 2026-10-02, which is 22:16 UTC): **v1.15.5, verse numbers on the excerpts**, and its follow-up that cleared every pending citation.
 
