@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.15.8', date: '07/10/2026', time: 'TBD', tz: 'CEST',
+      v: '1.15.8', date: '07/10/2026', time: '21:21', tz: 'CEST',
       en: {
         added: [
           'VERSE NUMBERS FOR THE TRAGEDIANS AND THE ATELLAN FARCE, which finishes the job: every multi-verse poem in the app now prints them. Twelve more excerpts got them - Pacuvius, Accius, Naevius and Ennius in editorial Roman numerals, by the rule set in v1.15.6, the first verse and then every fifth.',
