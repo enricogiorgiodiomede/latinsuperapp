@@ -111,7 +111,12 @@ for (const slug of Object.keys(AUTHORS)) {
       // 1. the first marker is on the first verse, and is where it should
       //    start. An excerpt may OPEN with a gap, where the quotation begins
       //    mid-thought, and that line takes no number.
-      const cited = (f.citation || '').match(/vv?\.?\s*(\d+)(?:\s*-\s*(\d+))?/);
+      // "vv. 829-852", and also "fr. 48-50 Ribbeck": where a citation names a
+      // run of numbered FRAGMENTS and the excerpt prints exactly that many
+      // lines, each line is one numbered fragment and those numbers are the
+      // edition's, not ours (Pomponius, Novius).
+      const cited = (f.citation || '').match(/vv?\.?\s*(\d+)(?:\s*-\s*(\d+))?/) ||
+        (f.citation || '').match(/\bfrr?\.\s*(\d+)(?:\s*-\s*(\d+))?/);
       const citedTo = cited && cited[2] ? Number(cited[2]) : 0;
       const firstVerse = lines.latin.findIndex(l => !GAP.test(l));
       if (marks[0].i !== firstVerse) fail(f.citation + ': the first verse carries no number');

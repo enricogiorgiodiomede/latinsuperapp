@@ -12,6 +12,43 @@
 
   var VERSIONS = [
     {
+      v: '1.15.8', date: '07/10/2026', time: 'TBD', tz: 'CEST',
+      en: {
+        added: [
+          'VERSE NUMBERS FOR THE TRAGEDIANS AND THE ATELLAN FARCE, which finishes the job: every multi-verse poem in the app now prints them. Twelve more excerpts got them - Pacuvius, Accius, Naevius and Ennius in editorial Roman numerals, by the rule set in v1.15.6, the first verse and then every fifth.',
+          'Two of the twelve are not ours at all, and that is the more interesting half. Pomponius\'s Fullones and Novius\'s Maccus Exul are cited as "fr. 48-50 Ribbeck" and print exactly three lines, so each line IS a separately numbered fragment of the play: 48, 49, 50. Those are Ribbeck\'s numbers, the metre labels have pointed at them since v1.15.4, and putting I, II, III over them would have hidden a real citation behind an invented one. They carry 48 and 50, by the same first-and-every-fifth rule.',
+          'That turned up a disagreement inside one excerpt. The Fullones note numbered its own lines 1, 2 and 3 while the metre label directly above it said "vv. 48-49". The note now says 48, 49 and 50, and agrees with the label, with Ribbeck, and with the numbers printed beside it.',
+          'THE VERRINES, FIRST INSTALMENT. Six Cicero notes rewritten at length - the three from the Divinatio in Caecilium and the three from the actio prima - each about two and a half times what it was. The pattern is the one used for the Catilinarians: the existing analysis kept whole, a paragraph of history or aftermath added, and a paragraph of grammar at the end.',
+          'Some of what the new paragraphs carry: the hundred and ten days the court gave Cicero to gather evidence in Sicily and the fifty he actually took; praevaricatio, the Roman crime of prosecuting in order to lose, which is what Verres was buying; the bribery scandal of 74 BC that is the reason everyone already believed the juries were for sale, and the law that split them three ways within months of this speech; the festival calendar Hortensius was trying to run the clock into; and the three Metelli - one consul, one president of this very court, one governor of Sicily - who are what Verres meant when he said he had a powerful man behind him.'
+        ],
+        changed: [
+          'Two citations on the metre pages were still counting in Arabic where the excerpt beside them had gone Roman in v1.15.6. The Lucilius example from Book 26 now cites vv. I-II, and the Naevius epitaph v. I.',
+          'The numbering checker reads a "fr. 48-50" citation as well as a "vv. 829-852" one, so the two Ribbeck excerpts are checked as strictly as everything else: the first number has to be the one the citation names, and the lines in between have to account for the difference. Tested by breaking it on purpose.',
+          '59 of Cicero\'s notes still carry the short early form, and they are concentrated in three places: the rest of the Verrines, the Philippics and the In Pisonem. They go on being done a work at a time.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'I NUMERI DEI VERSI PER I TRAGICI E PER L\'ATELLANA, il che chiude il lavoro: ogni componimento in versi dell\'app che abbia più di un verso ora li stampa. Altri dodici estratti li hanno ricevuti: Pacuvio, Accio, Nevio ed Ennio in numeri romani editoriali, secondo la regola fissata nella v1.15.6, il primo verso e poi ogni quinto.',
+          'Due dei dodici non sono affatto nostri, ed è la metà più interessante. I Fullones di Pomponio e il Maccus Exul di Novio sono citati come "fr. 48-50 Ribbeck" e stampano esattamente tre righe: ogni riga È un frammento della commedia numerato a sé, 48, 49, 50. Sono i numeri di Ribbeck, le etichette metriche li indicano dalla v1.15.4, e metterci sopra I, II, III avrebbe nascosto una citazione vera dietro una inventata. Portano 48 e 50, secondo la stessa regola del primo e ogni quinto.',
+          'La cosa ha fatto emergere una discordanza dentro un estratto. La nota dei Fullones numerava le proprie righe 1, 2 e 3 mentre l\'etichetta metrica appena sopra diceva "vv. 48-49". Ora la nota dice 48, 49 e 50, e concorda con l\'etichetta, con Ribbeck e con i numeri stampati accanto.',
+          'LE VERRINE, PRIMA PUNTATA. Sei note di Cicerone riscritte per esteso - le tre della Divinatio in Caecilium e le tre della actio prima - ciascuna lunga circa due volte e mezzo la precedente. Lo schema è quello usato per le Catilinarie: l\'analisi esistente conservata per intero, un paragrafo di storia o di seguito aggiunto, e un paragrafo di grammatica in chiusura.',
+          'Qualcosa di ciò che i nuovi paragrafi contengono: i centodieci giorni che il tribunale concesse a Cicerone per raccogliere le prove in Sicilia e i cinquanta che gli bastarono; la praevaricatio, il reato romano di accusare per perdere, che è ciò che Verre stava comprando; lo scandalo di corruzione del 74 a.C. per cui tutti già credevano che le giurie fossero in vendita, e la legge che le divise in tre pochi mesi dopo questa orazione; il calendario delle feste in cui Ortensio cercava di far scivolare il processo; e i tre Metelli - un console, un presidente di questo stesso tribunale, un governatore della Sicilia - che sono ciò che Verre intendeva dicendo di avere alle spalle un uomo potente.'
+        ],
+        changed: [
+          'Due citazioni nelle pagine dei metri contavano ancora in cifre arabe là dove l\'estratto accanto era passato ai numeri romani nella v1.15.6. L\'esempio di Lucilio dal libro 26 cita ora i vv. I-II, e l\'epitaffio di Nevio il v. I.',
+          'Il controllore della numerazione legge una citazione "fr. 48-50" come legge una "vv. 829-852", e così i due estratti di Ribbeck sono controllati con lo stesso rigore di tutti gli altri: il primo numero deve essere quello indicato dalla citazione, e le righe in mezzo devono rendere conto della differenza. Provato rompendolo di proposito.',
+          '59 note di Cicerone portano ancora la forma breve delle origini, e sono concentrate in tre punti: il resto delle Verrine, le Filippiche e l\'In Pisonem. Si continua a farle un\'opera per volta.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.15.7', date: '07/10/2026', time: '00:05', tz: 'CEST',
       en: {
         added: [

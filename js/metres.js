@@ -562,7 +562,7 @@
         {
           author: 'Gnaeus Naevius',
           slug: 'gnaeus-naevius', era: 'archaic',
-          where: 'Epitaphium, fr. 67, v. 1',
+          where: 'Epitaphium, fr. 67, v. I',
           gloss: 'The epitaph he is said to have written for himself - and the line that breaks both theories',
           plain: 'immortales mortales si foret fas flere,',
           source: 'bank',
@@ -1017,7 +1017,7 @@
         {
           author: 'Gaius Lucilius',
           slug: 'gaius-lucilius', era: 'archaic',
-          where: 'Saturae, Book 26, vv. 1-2',
+          where: 'Saturae, Book 26, vv. I-II',
           gloss: 'Refusing the richest contract in the Roman world, scanned line by line',
           plain: [
             'publicanus vero ut Asiae fiam, ut scripturarius,',

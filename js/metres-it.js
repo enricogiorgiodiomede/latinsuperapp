@@ -220,7 +220,7 @@
           ]
         },
         {
-          where: 'Epitaphium, fr. 67, v. 1',
+          where: 'Epitaphium, fr. 67, v. I',
           gloss: 'L\'epitaffio che si dice abbia scritto per sé, e il verso che manda in crisi entrambe le teorie',
           readings: [
             {

@@ -6,6 +6,78 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.15.8] - 2026-10-07
+
+**THE LAST OF THE VERSE NUMBERING, AND THE VERRINES BEGUN.** 12 more excerpts print verse numbers, which
+completes the project started in v1.15.5: **every multi-verse poem in the bank now carries them**. And the
+Cicero note-lengthening pass resumes after v1.14.7, with the first six of the Verrines.
+
+### Numbered (12)
+| author | excerpt | numerals |
+|---|---|---|
+| Naevius | Bellum Poenicum I, fr. 8 | I |
+| Naevius | Bellum Poenicum, fr. 40 | I |
+| Naevius | Epitaphium, fr. 67 | I |
+| Ennius | Annales I, in Cicero, De Divinatione I.40-41 | I, V, X, XV |
+| Ennius | Annales IX | I |
+| Pacuvius | Niptra, Tusculanae II.50 | I |
+| Pacuvius | Chryses, De Divinatione I.131 (both) | I |
+| Accius | Brutus, De Divinatione I.44 | I, V, X |
+| Accius | Brutus, De Divinatione I.45 | I, V, X |
+| Pomponius | Fullones, fr. 48-50 Ribbeck | **48, 50 (Arabic)** |
+| Novius | Maccus Exul, fr. 48-50 Ribbeck | **48, 50 (Arabic)** |
+
+- **Ten are editorial**, by the v1.15.6 rule: first verse I, then every fifth, with the analysis saying in
+  both languages that the numerals are the app's. The Epitaphium gets its own wording, because it is a
+  complete four-line poem and not a scrap of a longer one.
+- **Two are not.** `fr. 48-50 Ribbeck` + exactly three printed lines means each line **is** a numbered
+  fragment: 48, 49, 50. Those numbers are Ribbeck's, the metre labels have cited them since v1.15.4
+  (`[{ m: 'iambic-senarius', from: 48, to: 49 }, ...]`), and the Maccus analysis already said "Line 48".
+  Printing Roman numerals over them would have replaced a real citation with an invented one. Their note
+  says whose numbers they are.
+- **Found on the way:** the Fullones note numbered its own lines **1, 2, 3** while the label above it said
+  vv. 48-49. Now 48, 49, 50.
+
+### Changed - the metre pages
+- Two `where:` citations still counted in Arabic after the excerpts beside them went Roman in v1.15.6:
+  `Saturae, Book 26, vv. 1-2` -> `vv. I-II`, and `Epitaphium, fr. 67, v. 1` -> `v. I` (the latter in
+  `js/metres.js` and `js/metres-it.js` both).
+
+### Changed - the numbering checker
+- `tools/check_numbering.js` now reads a **`fr. N-M`** citation as a span, as it already read `vv. N-M`, so
+  the two Ribbeck excerpts get the full check rather than falling through it: first marker equals the cited
+  first number, and the lines between two markers account for the difference. **Negative-tested** by moving
+  the Fullones first marker from 48 to 49, which produced four failures, including the two translations.
+
+### Changed - Cicero, the Verrines (6 notes)
+Resuming the pass of v1.14.5-v1.14.7 (In Catilinam I, II, III), on the same pattern: the existing analysis
+kept whole, **a paragraph of history or aftermath** inserted, and **a closing paragraph of grammar**. Lengths
+went from 1,323-1,612 characters to 3,373-3,758, in both languages.
+
+| excerpt | the new history paragraph |
+|---|---|
+| Divinatio in Caecilium 1-2 | the 110 days granted and the 50 taken; Messana as the one hostile town; *praevaricatio*, and the quaestor-governor bond Cicero keeps hinting at |
+| Divinatio in Caecilium 19-20 | the *lex Calpurnia* of 149 BC and the first standing court; 80 years of fighting over who sat on it; the 100 million as a claim against the ~3 million actually assessed |
+| Divinatio in Caecilium 40-43 | Cicero at 36, with the aedileship being voted on during the trial; Crassus on stage fright in the *De Oratore*, and Quintilian approving of it; Caecilius leaving the record on the spot |
+| In Verrem I, ch. I | the Oppianicus scandal of 74 BC, the prosecuted juror and the censors' purge; the *lex Aurelia* months later; Pompey and Crassus unpicking Sulla in the same year |
+| In Verrem I, ch. XI | the actual calendar - 5 August, Pompey's 15 days of votive games, the *ludi Romani*; *comperendinatio* as a feature of the court; Massilia, and Antony, the proscription and the Corinthian bronzes |
+| In Verrem I, ch. XIV | the three Metelli: Quintus consul for 69, Marcus drawing the praetorship over this court, Lucius already governing Sicily and leaning on the witnesses |
+
+- The grammar paragraphs stay on what the excerpt actually does: the delayed `id` of the first Verrine
+  sentence, `fore uti` for a verb with no future passive, `ne` after a noun of fearing, `quo` + comparative
+  for purpose, the oath formula `ita mihi deos velim propitios ut ...`, and the imperfect subjunctives that
+  carry Verres's own words through 15 lines of *oratio obliqua*.
+- Where a note ended on a remark about the SOURCE (the lost decorated initial, the chapter numeral), the
+  history paragraph goes **in front of** it so the footnote stays a footnote; the grammar paragraph always
+  ends the note, as it does in every note extended so far.
+- **59 Cicero notes still carry the short early form**, concentrated in the rest of the Verrines, the
+  Philippics and the In Pisonem.
+
+Verification: **check_numbering 108 checked (22 editorial), 0 failed**; **392 verbatim, 0 mismatched**;
+**check_metres 177/177/0**; **check_verses 60/0**; **check_metre_quotes 32/0**; `lint_markdown` 0 leaking;
+`lint_register` and `lint_ablatives` 0 to look at; `lint_translations` unchanged at 6 pre-existing flags.
+No em dashes, no backticks and no fake accents in the new prose. Cache-bust: `?v=196` -> `?v=197`.
+
 ## [1.15.7] - 2026-10-02
 
 ### Follow-up, 2026-10-07: a properly gold favicon
