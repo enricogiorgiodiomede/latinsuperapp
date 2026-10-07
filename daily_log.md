@@ -1302,3 +1302,23 @@ A two-part day: a late-night session finishing the verse numbering (**v1.15.6**)
 - **Nightly daily-log job fixed:** the stale `.git` lock files came from an old Cowork routine running git in a Linux VM that cannot unlink files; it is now paused. The new `tools/daily_log_git.js` handles every git step of the daily-log task (safe lock clean-up, `commit --only` with a timeout, logging to `logs/daily-log-task.log`, Windows notification on failure).
 
 **Progress:** App at **v1.15.7 plus follow-ups, cache v195**. 96 numbered excerpts (12 editorial) 0 failed, 392 verbatim 0 mismatched, metres 177/177/0, check_verses 60/0, check_metre_quotes 32/0. Live at latinsuperapp.com with a sitemap submitted to Search Console. Still outstanding: the Cicero backlog, Catullus and Sallust expansion, and the Augustan Era (awaiting the user's permission).
+
+---
+
+## 2026-10-07
+
+*(End-of-day log, 23:55.)*
+
+Two sessions: a just-after-midnight **favicon fix** closing out v1.15.7, then an evening release, **v1.15.8**, that finishes the verse-numbering project and restarts the Cicero note-lengthening pass on the Verrines. **No change to any excerpt's Latin or to any difficulty ranking.**
+
+**v1.15.7 follow-up -- a properly gold favicon (00:05 CEST, cache v195 -> v196).** At tab size the icon read as red and white, because the L was parchment (#fbf6ec) and the border a muted gold (#b8893b). Both are now one saturated gold, #e2ac22; the red field and the shape are unchanged. The favicon link on all seven pages now carries the cache-bust (`favicon.svg?v=196`), since browsers cache favicons separately and for a long time. The release time in `js/changelog.js` was then set from the commit (07/10/2026, 00:05 CEST).
+
+**v1.15.8 -- the last of the verse numbering (21:21 CEST, cache v196 -> v197).** Twelve more excerpts print verse numbers, so every multi-verse poem in the bank now carries them, completing the work begun in v1.15.5.
+- **Editorial Roman numerals** for Pacuvius, Accius, Naevius and Ennius, by the v1.15.6 rule (first verse, then every fifth), with each analysis saying in both languages that the numerals are the app's. Naevius's Epitaphium gets its own wording, being a complete four-line poem rather than a scrap of a longer one.
+- **Ribbeck's numbers kept** for Pomponius's *Fullones* and Novius's *Maccus Exul*: cited as "fr. 48-50 Ribbeck", each printed line is a separately numbered fragment, so they carry 48 and 50 rather than invented numerals. This exposed the Fullones note numbering its lines 1, 2, 3 under a "vv. 48-49" label; it now says 48, 49, 50.
+- **Metre pages:** two citations still Arabic after v1.15.6 were fixed (Lucilius Saturae Book 26 now vv. I-II, the Naevius epitaph v. I), in `js/metres.js` and `js/metres-it.js`.
+- **Tooling:** `tools/check_numbering.js` now reads a "fr. N-M" citation as a span, so the two Ribbeck excerpts get the full first-marker and line-count check; negative-tested.
+
+**v1.15.8 -- the Verrines begun.** The Cicero note-lengthening pass resumes (last touched in v1.14.7) with the first six Verrines: three from the *Divinatio in Caecilium* and three from the *actio prima*. Each keeps its old analysis and gains a paragraph of history and a closing paragraph of grammar, growing from 1,323-1,612 to 3,373-3,758 characters, in both languages. 59 of Cicero's notes still carry the short early form. PROGRESS.md, left at v=193, was brought up to v=197 with the pages, and the release time was set from the actual commit.
+
+**Progress:** App at **v1.15.8, cache v197**. check_numbering 108/0 (22 editorial), 392 verbatim 0 mismatched, metres 177/177/0, check_verses 60/0, check_metre_quotes 32/0, register and ablatives 0. Verse numbering complete across the bank. Still outstanding: the Cicero backlog (59 notes: rest of the Verrines, Philippics, In Pisonem), Catullus and Sallust expansion, and the Augustan Era (awaiting the user's permission).
