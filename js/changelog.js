@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.15.9', date: '09/10/2026', time: '19:58', tz: 'CEST',
+      v: '1.15.9', date: '09/10/2026', time: '20:15', tz: 'CEST',
       en: {
         added: [
           'HOW TO USE THE APP. A short panel on a sheet of papyrus now covers the page the first time the app is opened, and says in four lines what to click: the era buttons on the banner, the era introduction and the roster below it, an author\'s page, and the Practice translation button that starts the exercise. A red OK closes it, and a tick box next to that turns it off for good.',
