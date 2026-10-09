@@ -6,6 +6,78 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.15.9] - 2026-10-09
+
+**FOUR THINGS FROM READER FEEDBACK, AND THE SECOND INSTALMENT OF THE VERRINES.** A welcome panel that
+explains what to click, a hamburger that folds the banner away, a way back up to the practice button, and
+the fix for a metre tablet that ran off a phone screen.
+
+### Added - the welcome panel (`js/welcome.js`)
+- A papyrus sheet over the whole page on first open, holding the four instructions the user supplied, a red
+  **OK** and a **Never show me this again** tick box beside it.
+- **Once per SESSION, not per page.** Six separate HTML pages means a visit walks through three of them in a
+  minute; `sessionStorage` shows it on the first load and keeps quiet after, `localStorage` turns it off for
+  good. Both reads and writes are wrapped, so a privacy mode that throws just shows the panel again.
+- **z-index 200, above the consent bar's 60**, so a first-time visitor reads this and finds the cookie
+  question waiting underneath. Neither feature knows about the other. `body.welcome-open` locks page scroll.
+- Closed by **OK or Escape only**. Scrim-click was written first and removed: a stray click outside the panel
+  dismissing the one thing that explains the app is a bad trade, and it fired by accident during testing.
+- Tab is trapped inside the panel while it is open; focus returns to where it was on close.
+- The papyrus is three layers of CSS - horizontal fibres, vertical fibres, and a sheet gradient - with no
+  image file, so it costs nothing to load.
+- Not on `404.html`, which deliberately carries none of the app's scripts.
+
+### Added - the banner hamburger (`js/menu.js`, `.era-bar`)
+- The era menu is now wrapped in `.era-bar` with the button at its left, which is the bottom-left of the red
+  banner. Collapsed, `.site-header.is-collapsed` hides the era buttons and the subtitle.
+- **279px -> 152px on a 375px phone**, 208px -> 119px on a desktop. The header is `position: sticky`, so that
+  height was being paid on every screen of every page.
+- Remembered in `localStorage` across pages: a banner that sprang open again on every navigation would be
+  worse than no control. `aria-expanded` and the label flip with the state.
+
+### Added - back up to the practice button (`js/author.js`)
+- A `.btn-to-practice` at the foot of every author page, arrow first, which scrolls to the real button and
+  focuses it.
+- **Order matters and cost a bug.** `scrollIntoView({behavior:'smooth'})` followed immediately by `focus()`
+  has the focus cancel the scroll that is still running - even with `preventScroll: true` - so the first
+  version left the reader exactly where they were with the button focused off screen. Focus first, scroll
+  second.
+
+### Changed - two metres on a narrow screen
+- The tablet is `white-space: nowrap` and hard right, so the Hecyra V.1 excerpt (Iambic Octonarius +
+  Trochaic Septenarius) ran **224px past the right edge of its own card on a 375px screen**. Measured before
+  and after on the live page.
+- Below 560px, `.excerpt-metre.is-multi` becomes a column: label on its own line, then one metre per line.
+  **The rule is general** - any excerpt with more than one metre, on any narrow screen. Four excerpts have
+  two metres today (Caecilius *Plocium*, Terence *Andria* and *Hecyra*, Pomponius *Fullones*).
+- `buildMetreNote` now wraps each metre and its verses in one `.em-group`, because the stacking unit has to
+  be the whole group or a name would be parted from the verses it covers.
+
+### Changed - Cicero, the Verrines (6 more notes)
+Same pattern as v1.15.8. 1,222-1,597 characters to 3,125-3,572, both languages.
+
+| excerpt | the new history paragraph |
+|---|---|
+| In Verrem II.1.46-47 | Dolabella condemned in 78 BC on the evidence of Verres, his own legate; Delos after Mithridates's admiral, and the pirates who came a decade after Verres |
+| In Verrem II.1.53-54 | Pamphylia; Artemis Pergaia, whose gold survives only on the city's coins because the temple has never been found; why the harpist joke needs a jury that reads Greek |
+| In Verrem II.1.104-105 | Chelidon, who left Verres her estate; the *lex Voconia* of 169 BC as a trap for the unadvised; the praetor's edict fixed permanently under Hadrian, which ended this kind of sale |
+| In Verrem II.2.2-3 | the two slave wars of 135-132 and 104-100 BC that "Sicily never revolted" quietly does not count, and why; the grain tithe inherited from Hiero II |
+| In Verrem II.2.86 | 409, 146, the 70s: looted, restored and looted again over three centuries, and Scipio's inscriptions on the statue bases that let Cicero prove ownership at Segesta |
+| In Verrem II.2.192 | Hortensius consul the next year, then increasingly Cicero's colleague; the *Brutus*; and the lost *Hortensius*, the book Augustine read at nineteen |
+
+- **54 Cicero notes still carry the short early form.** See `cicero-note-lengthening` in memory.
+
+### Strings
+- 11 new i18n keys in each language: `welcome.*`, `aria.welcome`, `aria.collapseMenu`, `aria.expandMenu`,
+  `btn.backToPractice`.
+- The user's English wording is kept verbatim, including "difficulty metre". The Italian says *misuratore di
+  difficoltà*, because *metro* there would collide with the nine metre pages.
+
+Verification: **392 verbatim, 0 mismatched**; **check_numbering 108/0**; **check_metres 177/177/0**;
+**check_verses 60/0**; **check_metre_quotes 32/0**; `lint_markdown` 0 leaking; `lint_register` and
+`lint_ablatives` 0. All four UI changes exercised in the browser at 375px and desktop, in both languages,
+console clean. Cache-bust: `?v=197` -> `?v=198`.
+
 ## [1.15.8] - 2026-10-07
 
 **THE LAST OF THE VERSE NUMBERING, AND THE VERRINES BEGUN.** 12 more excerpts print verse numbers, which

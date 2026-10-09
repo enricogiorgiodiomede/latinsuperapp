@@ -250,6 +250,11 @@
       }
     });
 
+    // Each metre and its verses go in one wrapper. On a phone a tablet naming
+    // two metres used to run off the right of the screen, so the CSS stacks
+    // them one per line there - and a stacking unit has to be the whole group,
+    // or a name would be parted from the verses it covers.
+    if (groups.length > 1) note.classList.add('is-multi');
     groups.forEach(function (group, i) {
       if (i) {
         var sep = document.createElement('span');
@@ -257,13 +262,16 @@
         sep.textContent = ',';
         note.appendChild(sep);
       }
-      note.appendChild(metreName(group, idx));
+      var wrap = document.createElement('span');
+      wrap.className = 'em-group';
+      wrap.appendChild(metreName(group, idx));
       if (group.ranges.length) {
         var vv = document.createElement('span');
         vv.className = 'em-verses';
         vv.textContent = ' (' + group.ranges.join(', ') + ')';
-        note.appendChild(vv);
+        wrap.appendChild(vv);
       }
+      note.appendChild(wrap);
     });
     return note;
   }

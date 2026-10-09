@@ -12,6 +12,43 @@
 
   var VERSIONS = [
     {
+      v: '1.15.9', date: '09/10/2026', time: 'TBD', tz: 'CEST',
+      en: {
+        added: [
+          'HOW TO USE THE APP. A short panel on a sheet of papyrus now covers the page the first time the app is opened, and says in four lines what to click: the era buttons on the banner, the era introduction and the roster below it, an author\'s page, and the Practice translation button that starts the exercise. A red OK closes it, and a tick box next to that turns it off for good.',
+          'It shows once per session rather than once per page. The app is six separate pages, so walking from the home page to an author to a practice page would otherwise have opened it three times in a minute; closing the browser and coming back shows it again, which is what opening the app means. It also sits above the cookie bar on purpose, so a brand-new visitor reads how the app works first and finds the cookie question waiting underneath.',
+          'A HAMBURGER THAT FOLDS THE BANNER AWAY, at the bottom-left of the red bar. The era buttons and the subtitle go, the title stays, and the banner loses nearly half its height - on a phone it goes from 279 pixels to 152, which on an 812-pixel screen is most of a paragraph given back. The banner is sticky, so that space was being spent on every screen of every page. The choice is remembered until it is changed.',
+          'A BUTTON BACK UP TO PRACTICE TRANSLATION at the foot of every author page. An author page runs to several screens of biography, works, style, legacy and the difficulty chart, and the one button that actually starts the exercise was at the top of all of it. The new one carries an upward arrow, scrolls back to the real button and focuses it, so what the arrow points at is where the reader lands.',
+          'THE VERRINES, SECOND INSTALMENT. Six more Cicero notes rewritten at length - the three of De praetura urbana and the three of De praetura Siciliensi - keeping their old analysis and gaining a paragraph of history and a closing paragraph of grammar. Delos and the end of Dolabella, who was convicted on his own legate\'s evidence; the goddess of Perge, whose gold survives only on coins; Chelidon, who left Verres her estate; the two slave wars that Sicily\'s perfect loyalty quietly does not count; Himera looted, restored and looted again across three centuries; and Hortensius, who lost this case, lost nothing else, and wrote the book that converted Augustine.'
+        ],
+        changed: [
+          'On a phone, an excerpt in two metres printed them side by side and the second ran off the screen - 224 pixels past the edge of the card on a 375-pixel screen, on the Terence passage from the Hecyra. Below 560 pixels the tablet now stacks them one per line, and the rule is general: whenever there is more than one metre, a narrow screen gets one metre per line, each with its own verses. A single metre is unchanged, and so is every width above that.',
+          'The metre and the verses it covers are now one unit in the markup rather than two loose pieces, which is what lets them stack without a metre ever being parted from the verses it names.',
+          '54 of Cicero\'s notes still carry the short early form, concentrated in the rest of the Verrines, the Philippics and the In Pisonem.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'COME USARE L\'APP. Un breve riquadro su un foglio di papiro copre ora la pagina la prima volta che si apre l\'app, e dice in quattro righe su che cosa cliccare: i pulsanti delle epoche sul banner, l\'introduzione all\'epoca e l\'elenco degli autori sotto, la pagina di un autore, e il pulsante Esercitati a tradurre da cui comincia l\'esercizio. Un OK rosso lo chiude, e una casella accanto lo disattiva per sempre.',
+          'Compare una volta per sessione, non una volta per pagina. L\'app è fatta di sei pagine distinte, e altrimenti passando dalla home a un autore a una pagina di pratica si sarebbe aperto tre volte in un minuto; chiudendo il browser e tornando ricompare, che è ciò che vuol dire aprire l\'app. Sta inoltre di proposito sopra la barra dei cookie, così che un visitatore nuovo legga prima come funziona l\'app e trovi sotto, ad aspettarlo, la domanda sui cookie.',
+          'UN HAMBURGER CHE RIPIEGA IL BANNER, in basso a sinistra della barra rossa. Spariscono i pulsanti delle epoche e il sottotitolo, resta il titolo, e il banner perde quasi metà della propria altezza: su telefono passa da 279 pixel a 152, che su uno schermo di 812 pixel è quasi un paragrafo restituito. Il banner è fisso in alto, e quello spazio veniva speso su ogni schermata di ogni pagina. La scelta viene ricordata finché non la si cambia.',
+          'UN PULSANTE CHE RIPORTA A ESERCITATI A TRADURRE in fondo a ogni pagina d\'autore. Una pagina d\'autore occupa diverse schermate fra biografia, opere, stile, eredità e grafico della difficoltà, e l\'unico pulsante che fa davvero cominciare l\'esercizio stava in cima a tutto questo. Il nuovo porta una freccia verso l\'alto, riporta scorrendo al pulsante vero e gli dà il fuoco, così che il lettore arrivi proprio dove la freccia indica.',
+          'LE VERRINE, SECONDA PUNTATA. Altre sei note di Cicerone riscritte per esteso - le tre del De praetura urbana e le tre del De praetura Siciliensi - che conservano la vecchia analisi e guadagnano un paragrafo di storia e un paragrafo di grammatica in chiusura. Delo e la fine di Dolabella, condannato sulla testimonianza del proprio legato; la dea di Perge, il cui oro sopravvive solo sulle monete; Chelidone, che lasciò a Verre il patrimonio; le due guerre servili che la perfetta fedeltà della Sicilia non conta; Imera saccheggiata, restituita e saccheggiata di nuovo nell\'arco di tre secoli; e Ortensio, che perse questa causa, non perse nient\'altro e scrisse il libro che convertì Agostino.'
+        ],
+        changed: [
+          'Su telefono, un estratto in due metri li stampava affiancati e il secondo usciva dallo schermo: 224 pixel oltre il bordo della scheda su uno schermo da 375 pixel, nel passo di Terenzio dall\'Hecyra. Sotto i 560 pixel la targhetta li impila ora uno per riga, e la regola è generale: ogni volta che i metri sono più di uno, su schermo stretto si va a capo, ciascuno con i propri versi. Con un metro solo non cambia nulla, e nemmeno al di sopra di quella larghezza.',
+          'Il metro e i versi che copre sono ora un\'unità sola nel markup invece di due pezzi sciolti, ed è ciò che permette di impilarli senza che un metro venga mai separato dai versi che nomina.',
+          '54 note di Cicerone portano ancora la forma breve delle origini, concentrate nel resto delle Verrine, nelle Filippiche e nell\'In Pisonem.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.15.8', date: '07/10/2026', time: '21:21', tz: 'CEST',
       en: {
         added: [

@@ -123,6 +123,29 @@
       root.appendChild(buildDifficultyProfile(rating));
     }
 
+    // --- Back up to the practice button ---
+    // An author page is long: biography, works, style, legacy and the chart.
+    // By the time a reader reaches the bottom, the one button that actually
+    // starts the exercise is several screens above them, so put a way back to
+    // it at the end. It scrolls rather than navigates, and then focuses the
+    // real button, so what the arrow points at is where the reader lands.
+    var toPractice = document.createElement('button');
+    toPractice.type = 'button';
+    toPractice.className = 'btn-to-practice';
+    toPractice.textContent = I18n.t('btn.backToPractice');
+    toPractice.addEventListener('click', function () {
+      // Focus FIRST, then scroll. A focus() call right after a smooth
+      // scrollIntoView cancels the scroll that is still running, even with
+      // preventScroll, so doing it the other way round leaves the reader
+      // exactly where they were with the button focused off screen.
+      try { practiceBtn.focus({ preventScroll: true }); } catch (e) { /* older browsers */ }
+      practiceBtn.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+    var toPracticeRow = document.createElement('div');
+    toPracticeRow.className = 'to-practice-row';
+    toPracticeRow.appendChild(toPractice);
+    root.appendChild(toPracticeRow);
+
     var back = document.createElement('a');
     back.className = 'back-link';
     back.href = 'index.html';
