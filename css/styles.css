@@ -70,37 +70,39 @@ a { color: var(--terracotta-deep); }
   position: absolute;
   top: 14px;
   right: 20px;
-  display: flex;
-  gap: 6px;
-  z-index: 2;
+  z-index: 3;
 }
 
-.lang-flag {
-  display: inline-flex;
+/* The square button: the flag of the language in use, with its initials under
+   it. One control instead of one per language, because the old pair reached
+   far enough across a phone header to sit on top of the title. */
+.lang-current {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 5px;
-  padding: 4px 8px;
-  background: rgba(255, 255, 255, 0.10);
-  border: 1px solid rgba(255, 255, 255, 0.30);
-  border-radius: 6px;
+  justify-content: center;
+  gap: 3px;
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  border-radius: 8px;
   color: var(--parchment);
   font-family: var(--font-ui);
-  font-size: 0.72rem;
+  font-size: 0.64rem;
   font-weight: 700;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.6px;
   cursor: pointer;
-  opacity: 0.6;
-  transition: opacity 0.18s ease, background 0.18s ease, transform 0.18s ease;
+  transition: background 0.18s ease, border-color 0.18s ease;
 }
 
-.lang-flag:hover { opacity: 0.92; background: rgba(255, 255, 255, 0.20); }
-
-.lang-flag.active {
-  opacity: 1;
+.lang-current:hover { background: rgba(255, 255, 255, 0.24); border-color: var(--gold); }
+.lang-current:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+.lang-current[aria-expanded="true"] {
   background: var(--parchment);
   color: var(--deep-red);
   border-color: var(--gold);
-  box-shadow: var(--shadow);
 }
 
 .flag-svg {
@@ -113,8 +115,52 @@ a { color: var(--terracotta-deep); }
 
 .lang-code { line-height: 1; }
 
+/* The drop-down. It hangs from the right edge so it cannot push past the side
+   of a narrow screen, and closes as soon as a language is chosen. */
+.lang-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  min-width: 150px;
+  padding: 5px;
+  background: var(--parchment);
+  border: 1px solid var(--gold);
+  border-radius: 8px;
+  box-shadow: var(--shadow-lift);
+  animation: fadein 0.15s ease;
+}
+
+.lang-menu[hidden] { display: none; }
+
+.lang-option {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  padding: 8px 10px;
+  background: none;
+  border: 0;
+  border-radius: 6px;
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: 0.88rem;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.14s ease;
+}
+
+.lang-option:hover { background: var(--stone-deep); }
+.lang-option:focus-visible { outline: 2px solid var(--deep-red); outline-offset: -2px; }
+
+.lang-option.is-active {
+  font-weight: 700;
+  color: var(--deep-red);
+  background: var(--stone);
+}
+
 @media (max-width: 560px) {
-  .site-title { padding-right: 84px; }
+  /* One 42px button plus the 14px gutter, instead of two pills. */
+  .site-title { padding-right: 62px; }
   .lang-toggle { top: 12px; right: 14px; }
 }
 

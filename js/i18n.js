@@ -511,6 +511,11 @@
   // --- header flag toggle --------------------------------------------------
   // Inline-SVG flags (regional-indicator emoji do not render as flags on
   // Windows, so we draw them). UK = English, tricolore = Italian.
+  // The Union Flag needs a clipPath, and the flag is now drawn twice on a page
+  // (on the button and again in the menu), so the id has to be unique or the
+  // second <svg> defines an id the document already has.
+  var flagSeq = 0;
+
   function flagSvg(code) {
     if (code === 'it') {
       return '<svg viewBox="0 0 3 2" class="flag-svg" aria-hidden="true">' +
@@ -519,9 +524,10 @@
         '<rect width="1" height="2" x="2" fill="#ce2b37"/></svg>';
     }
     // Simplified Union Flag.
+    var clip = 'uk-clip-' + (++flagSeq);
     return '<svg viewBox="0 0 60 30" class="flag-svg" aria-hidden="true">' +
-      '<clipPath id="uk-clip"><rect width="60" height="30"/></clipPath>' +
-      '<g clip-path="url(#uk-clip)">' +
+      '<clipPath id="' + clip + '"><rect width="60" height="30"/></clipPath>' +
+      '<g clip-path="url(#' + clip + ')">' +
       '<rect width="60" height="30" fill="#012169"/>' +
       '<path d="M0,0 L60,30 M60,0 L0,30" stroke="#ffffff" stroke-width="6"/>' +
       '<path d="M0,0 L60,30 M60,0 L0,30" stroke="#C8102E" stroke-width="4"/>' +
@@ -531,22 +537,77 @@
   }
 
   var LANG_LABELS = { en: 'EN', it: 'IT' };
+  var LANG_NAMES = { en: 'English', it: 'Italiano' };
 
+  // One small square button showing the language in use, which opens a short
+  // menu and shuts again as soon as a language is picked.
+  //
+  // It replaced a row of one button per language. Two pills in the top-right
+  // corner of a sticky banner is a lot of width to spend on a control most
+  // readers touch once or never, and on a phone they reached far enough across
+  // the header to sit on top of the title.
+  //
+  // The default is English and has always been: readLang() falls back to 'en'
+  // and never consults navigator.language, so an Italian browser still opens
+  // the app in English until the reader says otherwise.
   function renderToggle() {
-    var host = global.document.getElementById('lang-toggle');
+    var doc = global.document;
+    var host = doc.getElementById('lang-toggle');
     if (!host) return;
     host.innerHTML = '';
-    host.setAttribute('role', 'group');
-    host.setAttribute('aria-label', lang === 'it' ? 'Lingua' : 'Language');
+    host.removeAttribute('role');
+    host.removeAttribute('aria-label');
+
+    var isIt = lang === 'it';
+    var trigger = doc.createElement('button');
+    trigger.type = 'button';
+    trigger.className = 'lang-current';
+    trigger.setAttribute('aria-haspopup', 'true');
+    trigger.setAttribute('aria-expanded', 'false');
+    trigger.title = isIt ? 'Lingua' : 'Language';
+    trigger.setAttribute('aria-label', (isIt ? 'Lingua: ' : 'Language: ') + LANG_NAMES[lang]);
+    trigger.innerHTML = flagSvg(lang) + '<span class="lang-code">' + LANG_LABELS[lang] + '</span>';
+    host.appendChild(trigger);
+
+    var menu = doc.createElement('div');
+    menu.className = 'lang-menu';
+    menu.hidden = true;
+
+    function close() {
+      menu.hidden = true;
+      trigger.setAttribute('aria-expanded', 'false');
+    }
+    function open() {
+      menu.hidden = false;
+      trigger.setAttribute('aria-expanded', 'true');
+    }
+
     SUPPORTED.forEach(function (code) {
-      var btn = global.document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'lang-flag' + (code === lang ? ' active' : '');
-      btn.setAttribute('aria-pressed', code === lang ? 'true' : 'false');
-      btn.title = code === 'it' ? 'Italiano' : 'English';
-      btn.innerHTML = flagSvg(code) + '<span class="lang-code">' + LANG_LABELS[code] + '</span>';
-      btn.addEventListener('click', function () { setLang(code); });
-      host.appendChild(btn);
+      var opt = doc.createElement('button');
+      opt.type = 'button';
+      opt.className = 'lang-option' + (code === lang ? ' is-active' : '');
+      opt.setAttribute('aria-current', code === lang ? 'true' : 'false');
+      opt.innerHTML = flagSvg(code) + '<span>' + LANG_NAMES[code] + '</span>';
+      opt.addEventListener('click', function () {
+        // Choosing the language already in use just folds the menu away:
+        // setLang returns early rather than reloading the page for nothing.
+        close();
+        trigger.focus();
+        setLang(code);
+      });
+      menu.appendChild(opt);
+    });
+    host.appendChild(menu);
+
+    trigger.addEventListener('click', function (e) {
+      e.stopPropagation();
+      if (menu.hidden) open(); else close();
+    });
+    doc.addEventListener('click', function (e) {
+      if (!menu.hidden && !host.contains(e.target)) close();
+    });
+    doc.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && !menu.hidden) { close(); trigger.focus(); }
     });
   }
 

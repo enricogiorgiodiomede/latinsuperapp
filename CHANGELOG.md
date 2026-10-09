@@ -8,6 +8,21 @@ no build step and no dependencies.
 
 ## [1.15.9] - 2026-10-09
 
+### Follow-up, 2026-10-09: one square button for the language
+- The two side-by-side flag buttons became **one 42x42 button** carrying the flag of the language in use with
+  its initials under it, plus a drop-down listing both languages by name. Picking one closes the menu; picking
+  the language already in use closes it without reloading, because `setLang` returns early.
+- **The reason was the phone header.** Two pills at 20px from the right reached back far enough that the
+  title wrapped around them; the title text now ends at x=277 with the button starting at x=319, so
+  `.site-title`'s reserved padding drops from 84px to 62px and "Latin Authors: Explore" fits on one line.
+- The menu is anchored to the **right** edge (`right: 0`) so it cannot push past the side of a narrow screen -
+  measured at 211-361 within a 375px viewport. It closes on **Escape**, on a click outside, and on choosing.
+- **The Union Flag's `clipPath` id is now unique per call.** The flag is drawn twice on a page (the button and
+  the menu row), and the old hard-coded `id="uk-clip"` would have been defined twice in one document.
+- **English stays the default and nothing about that changed:** `readLang()` falls back to `'en'` and never
+  looks at `navigator.language`.
+- Cache-bust: `?v=198` -> `?v=199`.
+
 **FOUR THINGS FROM READER FEEDBACK, AND THE SECOND INSTALMENT OF THE VERRINES.** A welcome panel that
 explains what to click, a hamburger that folds the banner away, a way back up to the practice button, and
 the fix for a metre tablet that ran off a phone screen.
