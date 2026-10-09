@@ -1322,3 +1322,25 @@ Two sessions: a just-after-midnight **favicon fix** closing out v1.15.7, then an
 **v1.15.8 -- the Verrines begun.** The Cicero note-lengthening pass resumes (last touched in v1.14.7) with the first six Verrines: three from the *Divinatio in Caecilium* and three from the *actio prima*. Each keeps its old analysis and gains a paragraph of history and a closing paragraph of grammar, growing from 1,323-1,612 to 3,373-3,758 characters, in both languages. 59 of Cicero's notes still carry the short early form. PROGRESS.md, left at v=193, was brought up to v=197 with the pages, and the release time was set from the actual commit.
 
 **Progress:** App at **v1.15.8, cache v197**. check_numbering 108/0 (22 editorial), 392 verbatim 0 mismatched, metres 177/177/0, check_verses 60/0, check_metre_quotes 32/0, register and ablatives 0. Verse numbering complete across the bank. Still outstanding: the Cicero backlog (59 notes: rest of the Verrines, Philippics, In Pisonem), Catullus and Sallust expansion, and the Augustan Era (awaiting the user's permission).
+
+---
+
+## 2026-10-09
+
+*(End-of-day log, 23:55.)*
+
+One release, **v1.15.9**, with two same-day follow-ups. Four pieces of reader feedback became a welcome panel, a foldaway banner, a way back to practice and six more Verrine notes; the follow-ups then reworked the language control. **No change to any excerpt's Latin or to any difficulty ranking.**
+
+**v1.15.9 -- welcome panel, foldaway banner, way back to practice (19:58 CEST, cache v198).**
+- **Welcome panel:** the new `js/welcome.js` puts a papyrus panel (three CSS layers, no image) over the page on first open, with the four instructions, a red OK and a "never show me this again" tick box. It shows once per session rather than once per page, since a single visit walks through about three of the six pages. It sits above the consent bar (z-index 200 against 60); OK and Escape close it. Scrim-click was written and removed after it fired by accident in testing.
+- **Foldaway banner:** a hamburger at the bottom-left of the banner folds away the era buttons and subtitle (279 px to 152 px on a 375 px phone, 208 px to 119 px on desktop), remembered across pages.
+- **Back to practice:** a button at the foot of every author page scrolls up to Practice translation. Focus is set before the smooth `scrollIntoView`, because a later `focus()` cancels the scroll in flight.
+- **Phone fix:** an excerpt in two metres (Hecyra V.1) ran 224 px past the card edge. Below 560 px multi-metre excerpts now stack one metre per line, each wrapped with its own verses.
+- **Cicero:** six more Verrine notes (from *De praetura urbana* and *De praetura Siciliensi*) lengthened from 1,222-1,597 to 3,125-3,572 characters in both languages; 54 short early notes remain.
+- Release time was set from the actual commit (19:58).
+
+**v1.15.9 follow-up -- one square button for the language (20:15, cache v199).** The two flag pills became a single 42x42 button showing the current flag and initials, with a drop-down listing both languages that closes on choosing, Escape or an outside click. Reason: on a phone the pills made the title wrap; "Latin Authors: Explore" now fits on one line and `.site-title` padding dropped from 84 to 62 px. The menu is anchored right (measured inside a 375 px viewport) and the Union Flag's clipPath id is now unique per call. English stays the default.
+
+**v1.15.9 follow-up -- a language button inside the welcome panel (20:32, cache v200).** The panel covers the banner, so a reader without English could not reach the language control. The same control now appears in the panel's corner (`I18n.renderLangControl(host)`, one shared `setLang`); after the reload the panel reappears translated, because it is only skipped once marked seen on close. Escape now has two levels (menu first, then panel) and the focus trap ignores hidden elements. Release time re-set from the latest commit (20:32).
+
+**Progress:** App at **v1.15.9 plus two follow-ups, cache v200**. 392 verbatim 0 mismatched, numbering 108/0, metres 177/177/0, verses 60/0, metre quotes 32/0, register and ablatives 0. Still outstanding: the Cicero backlog (54 notes), Catullus and Sallust expansion, and the Augustan Era (awaiting the user's permission).
