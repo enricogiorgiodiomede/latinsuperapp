@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.15.10', date: '10/10/2026', time: 'TBD', tz: 'CEST',
+      v: '1.15.10', date: '10/10/2026', time: '01:39', tz: 'CEST',
       en: {
         added: [
           'LUCRETIUS JOINS THE SAME STANDARD AS EVERYONE ELSE, starting with Book I. The Latin used to be numbered at the opening of each sentence, with the English and the Italian below it in prose paragraphs covering a range of verses - "1-9.", "10-13." - which meant that, alone in the app, you could not look down from a Latin verse and find the line that translates it. Now the Latin carries the first verse of the excerpt and then every fifth, exactly as Catullus, Plautus and Terence do, and both translations run one line per verse with the same numbers on the same lines.',
