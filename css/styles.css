@@ -1651,13 +1651,56 @@ body.welcome-open { overflow: hidden; }
   animation: fadein 0.25s ease;
 }
 
+/* Title on the left, the language control on the right. The panel covers the
+   banner, so a reader without English needs a way to change language from
+   inside it; it is the same control, and picking a language reloads the page
+   and brings the panel back translated. */
+.welcome-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
 .welcome-title {
-  margin: 0 0 14px;
+  margin: 0;
   font-family: var(--font-serif);
   font-size: 1.22rem;
   font-weight: 700;
   letter-spacing: 0.6px;
   color: var(--deep-red);
+}
+
+/* The banner instance is pinned to the corner of the header; this one sits in
+   a flex row, so it only has to be a positioning context for its own menu. */
+.lang-toggle.is-inline {
+  position: relative;
+  top: auto;
+  right: auto;
+  flex: 0 0 auto;
+  z-index: 1;
+}
+
+/* On papyrus the header's translucent-white button would be nearly invisible,
+   so the inline one is drawn in the panel's own ink and gold. */
+.is-inline .lang-current {
+  width: 38px;
+  height: 38px;
+  background: rgba(120, 90, 50, 0.10);
+  border-color: #c3a469;
+  color: #5c4a30;
+}
+
+.is-inline .lang-current:hover {
+  background: rgba(120, 90, 50, 0.18);
+  border-color: var(--gold);
+}
+
+.is-inline .lang-current[aria-expanded="true"] {
+  background: var(--parchment);
+  color: var(--deep-red);
+  border-color: var(--gold);
 }
 
 /* The dashes are the list markers, with the gap the user asked for between the
@@ -1735,6 +1778,7 @@ body.welcome-open { overflow: hidden; }
 
 @media (max-width: 560px) {
   .welcome-panel { padding: 20px 18px 16px; }
+  .welcome-head { gap: 10px; }
   .welcome-title { font-size: 1.06rem; }
   .welcome-steps li { font-size: 0.88rem; padding-left: 17px; }
   .welcome-footer { gap: 12px; }

@@ -8,6 +8,27 @@ no build step and no dependencies.
 
 ## [1.15.9] - 2026-10-09
 
+### Follow-up, 2026-10-09: a language button inside the welcome panel
+- **The panel covers the banner and the app opens in English**, so a reader without English met instructions
+  they could not read and could not reach the control that would translate them. The panel now carries one
+  in its top corner, beside the title.
+- **It is the same control, not a second one.** `renderToggle` in `js/i18n.js` takes a host element now and
+  is exported as `I18n.renderLangControl(host)`; `welcome.js` calls it for a `.lang-toggle.is-inline` div in
+  the panel header. Both write the same key through the same `setLang`, so there is no state to keep in step.
+- **The reload lands back on the panel, translated.** `setLang` reloads, and `boot()` only skips the panel
+  when `sessionStorage` says it was SEEN - which is written on close, not on open. So the panel reappears in
+  the language just chosen. That fell out of the existing design rather than needing anything new.
+- `.lang-toggle.is-inline` drops the absolute positioning and becomes a positioning context for its own menu;
+  the button is redrawn in the panel's ink and gold, since the header's translucent white would be invisible
+  on papyrus. Measured: the menu stays inside the panel's box, so the panel's `overflow-y: auto` cannot clip
+  it.
+- **Escape now has two levels.** The panel's key handler is a capture listener, so it ran before the menu's;
+  it now stands aside while a language menu is open, and the first Escape closes the menu while the second
+  closes the panel.
+- The focus trap filters to elements that are actually on screen. With the menu folded away its options are
+  `display: none`, and a hidden element cannot take focus, so including them would have broken the Tab wrap.
+- Cache-bust: `?v=199` -> `?v=200`.
+
 ### Follow-up, 2026-10-09: one square button for the language
 - The two side-by-side flag buttons became **one 42x42 button** carrying the flag of the language in use with
   its initials under it, plus a drop-down listing both languages by name. Picking one closes the menu; picking

@@ -550,9 +550,16 @@
   // The default is English and has always been: readLang() falls back to 'en'
   // and never consults navigator.language, so an Italian browser still opens
   // the app in English until the reader says otherwise.
-  function renderToggle() {
+  //
+  // It takes a host, so the same control can be built somewhere other than the
+  // banner. The welcome panel needs one, because it covers the banner and an
+  // Italian reader would otherwise have no way to read the instructions. The
+  // two are not kept in step with each other - they ARE each other: both write
+  // the same localStorage key through the same setLang, and the page reloads,
+  // so whichever one is used the whole app follows.
+  function renderToggle(host) {
     var doc = global.document;
-    var host = doc.getElementById('lang-toggle');
+    host = host || doc.getElementById('lang-toggle');
     if (!host) return;
     host.innerHTML = '';
     host.removeAttribute('role');
@@ -632,6 +639,7 @@
     t: t,
     setLang: setLang,
     applyStatic: applyStatic,
+    renderLangControl: renderToggle,
     SUPPORTED: SUPPORTED
   };
 })(window);

@@ -56,11 +56,25 @@
 
   function onKey(e) {
     if (!overlay) return;
-    if (e.key === 'Escape') { e.preventDefault(); close(false); return; }
+    if (e.key === 'Escape') {
+      // Let the language menu swallow the first Escape: shutting an open
+      // drop-down should not also dismiss the panel underneath it.
+      var openMenu = overlay.querySelector('.lang-menu:not([hidden])');
+      if (openMenu) return;
+      e.preventDefault();
+      close(false);
+      return;
+    }
     // A light focus trap: the panel is the only thing the user can reach while
     // it covers the page, so Tab must not wander into the page behind it.
     if (e.key !== 'Tab') return;
-    var items = overlay.querySelectorAll('input, button');
+    // Only what is actually on screen: when the language menu is folded away
+    // its options are display:none, and a hidden element cannot take focus,
+    // so including them would break the wrap at either end.
+    var items = [];
+    Array.prototype.forEach.call(overlay.querySelectorAll('input, button'), function (el) {
+      if (el.offsetParent !== null) items.push(el);
+    });
     if (!items.length) return;
     var first = items[0], last = items[items.length - 1];
     if (e.shiftKey && doc.activeElement === first) { e.preventDefault(); last.focus(); }
@@ -81,10 +95,27 @@
     panel.setAttribute('aria-modal', 'true');
     panel.setAttribute('aria-label', t('aria.welcome', 'How to use the app'));
 
+    // Title on the left, the language control on the right. The panel covers
+    // the banner, so without a control here a reader who does not have English
+    // cannot reach the one in the header and cannot read the instructions
+    // either. It is the same control, built by i18n.js: picking a language
+    // reloads the page, and because the panel only records itself as seen when
+    // it is CLOSED, it comes straight back in the language just chosen.
+    var head = doc.createElement('div');
+    head.className = 'welcome-head';
+
     var h = doc.createElement('h2');
     h.className = 'welcome-title';
     h.textContent = t('welcome.title', 'HOW TO USE THE APP:');
-    panel.appendChild(h);
+    head.appendChild(h);
+
+    if (global.I18n && typeof global.I18n.renderLangControl === 'function') {
+      var langHost = doc.createElement('div');
+      langHost.className = 'lang-toggle is-inline';
+      head.appendChild(langHost);
+      global.I18n.renderLangControl(langHost);
+    }
+    panel.appendChild(head);
 
     var list = doc.createElement('ul');
     list.className = 'welcome-steps';
