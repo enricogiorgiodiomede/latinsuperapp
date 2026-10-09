@@ -12,6 +12,41 @@
 
   var VERSIONS = [
     {
+      v: '1.15.10', date: '10/10/2026', time: 'TBD', tz: 'CEST',
+      en: {
+        added: [
+          'LUCRETIUS JOINS THE SAME STANDARD AS EVERYONE ELSE, starting with Book I. The Latin used to be numbered at the opening of each sentence, with the English and the Italian below it in prose paragraphs covering a range of verses - "1-9.", "10-13." - which meant that, alone in the app, you could not look down from a Latin verse and find the line that translates it. Now the Latin carries the first verse of the excerpt and then every fifth, exactly as Catullus, Plautus and Terence do, and both translations run one line per verse with the same numbers on the same lines.',
+          'All ten excerpts of Book I are converted: 170 verses, which is 340 lines of translation rewritten. This was not a matter of chopping the old paragraphs at the full stops. Latin hexameter puts its words in an order English and Italian cannot keep, so each line had to be made to carry the content of its own verse and still read as a sentence running on into the next - which is what a line-for-line translation is for, and why it is worth having beside the Latin.',
+          'The Latin itself was not retyped and has not moved. Only the markers did, off the sentence openings and onto verse 1 and every fifth verse; the automatic check that compares every line, letter by letter and space by space, against the source page still passes on all sixty Lucretius excerpts.',
+          'THE VERRINES, THIRD INSTALMENT. The three notes of De frumento, the book about the corn tithe, rewritten at length with a paragraph of history and a closing paragraph of grammar: Apronius, who actually collected the tithe, and the story Cicero told against himself about coming home from Sicily to find that nobody in Italy had noticed; the registers in section 120, which are among the oldest agricultural statistics to survive from the Roman world and survive only because a prosecutor copied them into a speech; and the company that section 207 keeps, with Sallust\'s Mithridates and Tacitus\'s British chieftain, except that this one was said by a Roman to Romans in a Roman court.'
+        ],
+        changed: [
+          'The two checkers now divide the work rather than fight over it. The Lucretius tool still proves every Latin line verbatim against the source page and every marker on its own verse, whichever standard the excerpt is in; when it finds the translations running line for line it stands aside and lets the numbering tool check them, which is the tool that already owns that form for Catullus, Plautus and Terence. It says which standard each excerpt is in as it goes.',
+          'Five books of Lucretius are still on the old standard, 850 verses of it. They will be converted a book at a time.',
+          '51 of Cicero\'s notes still carry the short early form, concentrated in the last two Verrines, the Philippics and the In Pisonem.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'LUCREZIO PASSA ALLO STESSO STANDARD DI TUTTI GLI ALTRI, a cominciare dal libro I. Il latino era numerato all\'inizio di ogni frase, con l\'inglese e l\'italiano sotto in paragrafi di prosa che coprivano un intervallo di versi - "1-9.", "10-13." - il che significava che, unico caso nell\'app, da un verso latino non si poteva scendere con l\'occhio e trovare la riga che lo traduce. Ora il latino porta il primo verso dell\'estratto e poi ogni quinto, esattamente come Catullo, Plauto e Terenzio, e le due traduzioni corrono una riga per verso con gli stessi numeri sulle stesse righe.',
+          'Tutti e dieci gli estratti del libro I sono convertiti: 170 versi, cioè 340 righe di traduzione riscritte. Non si è trattato di spezzare i vecchi paragrafi ai punti fermi. L\'esametro latino dispone le parole in un ordine che l\'inglese e l\'italiano non possono mantenere, e perciò ogni riga è stata costruita in modo da portare il contenuto del proprio verso e insieme da leggersi come una frase che prosegue nella successiva: è a questo che serve una traduzione riga per riga, ed è per questo che vale la pena averla accanto al latino.',
+          'Il latino non è stato riscritto e non si è mosso. Si sono spostati solo i numeri, via dagli inizi di frase e sul verso 1 e su ogni quinto verso; il controllo automatico che confronta ogni riga con la pagina di origine, lettera per lettera e spazio per spazio, continua a passare su tutti e sessanta gli estratti di Lucrezio.',
+          'LE VERRINE, TERZA PUNTATA. Le tre note del De frumento, il libro sulla decima del grano, riscritte per esteso con un paragrafo di storia e uno di grammatica in chiusura: Apronio, che la decima la riscuoteva davvero, e l\'aneddoto che Cicerone raccontava a proprio danno sul ritorno dalla Sicilia, quando scoprì che in Italia nessuno se n\'era accorto; i registri del paragrafo 120, fra le più antiche statistiche agricole giunte dal mondo romano, e giunte solo perché un accusatore le trascrisse in un\'orazione; e la compagnia in cui sta il paragrafo 207, con il Mitridate di Sallustio e il capo britanno di Tacito, salvo che questo lo disse un Romano a dei Romani in un tribunale romano.'
+        ],
+        changed: [
+          'I due controllori ora si dividono il lavoro invece di contenderselo. Lo strumento di Lucrezio continua a dimostrare che ogni riga latina è identica alla pagina di origine e che ogni numero sta sul proprio verso, qualunque sia lo standard dell\'estratto; quando trova le traduzioni disposte riga per riga si fa da parte e lascia che le controlli lo strumento della numerazione, che già si occupa di quella forma per Catullo, Plauto e Terenzio. E dichiara, estratto per estratto, in quale standard si trovi.',
+          'Cinque libri di Lucrezio sono ancora sul vecchio standard, per 850 versi. Saranno convertiti un libro alla volta.',
+          '51 note di Cicerone portano ancora la forma breve delle origini, concentrate nelle ultime due Verrine, nelle Filippiche e nell\'In Pisonem.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.15.9', date: '09/10/2026', time: '20:32', tz: 'CEST',
       en: {
         added: [

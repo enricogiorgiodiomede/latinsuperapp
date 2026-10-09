@@ -6,6 +6,68 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.15.10] - 2026-10-10
+
+**LUCRETIUS MOVES ONTO THE LINE-FOR-LINE STANDARD, BOOK I FIRST, AND THE VERRINES REACH DE FRUMENTO.**
+Lucretius was the last author in the bank on a standard of his own. The Latin was numbered at each SENTENCE
+opening and the translations were prose paragraphs carrying a verse range (`**1-9.**`), so a reader could
+not look down from a Latin verse and find the line that renders it. Book I now matches Catullus, Plautus
+and Terence: **first verse, then every fifth**, with both translations one line per verse and the same
+markers on the same lines.
+
+### Converted - De Rerum Natura I (10 excerpts, 170 verses)
+| excerpt | verses | markers |
+|---|---|---|
+| vv. 1-20 | 20 | 1, 5, 10, 15, 20 |
+| vv. 21-43 | 23 | 21, 25, 30, 35, 40 |
+| vv. 50-61 | 12 | 50, 55, 60 |
+| vv. 62-79 | 18 | 62, 65, 70, 75 |
+| vv. 80-101 | 22 | 80, 85, 90, 95, 100 |
+| vv. 136-145 | 10 | 136, 140, 145 |
+| vv. 146-158 | 13 | 146, 150, 155 |
+| vv. 311-321 | 11 | 311, 315, 320 |
+| vv. 926-950 | 25 | 926, 930, 935, 940, 945, 950 |
+| vv. 968-983 | 16 | 968, 970, 975, 980 |
+
+- **340 lines of translation rewritten**, not re-split. Hexameter word order cannot be carried into English
+  or Italian, so each line had to be made to render its own verse AND to read on into the next; the old
+  paragraphs supplied the content, not the line breaks.
+- **The Latin was not retyped and did not move.** Only the markers did. `verify` still reports 392 verbatim
+  and `check_verses` still proves every Lucretius line against the cached source page, letter by letter.
+- One line of the new English rendered a Latin ablative absolute as a dangling English one ("the solemn rite
+  once done"); `lint_ablatives` caught it and it is attached now ("when the solemn rite was done").
+
+### Changed - the two checkers divide the work
+- `tools/check_verses.js` keeps rules 1-3 for every Lucretius excerpt in either standard: the right number
+  of lines, every `**n.**` on verse n, and every line verbatim against the source. Rule 4, the translation
+  ranges, now **stands aside when it finds the translations running line-for-line**, because
+  `tools/check_numbering.js` already owns that form for Catullus, Plautus, Terence, Caecilius and Lucilius.
+  The OK line says which standard each excerpt is in.
+- No excerpt can fall between the two: `check_numbering` detects the line-for-line form by line count, so a
+  converted excerpt leaves one tool's remit and enters the other's in the same move. 60 verse excerpts
+  checked, 0 failed; 118 numbered excerpts checked, 0 failed (up from 108: the ten converted).
+
+### Still to do
+- **Books II to VI, 50 excerpts and 850 verses**, remain on the sentence-block standard. One book per
+  release.
+
+### Changed - Cicero, the Verrines (3 notes, De frumento)
+| excerpt | the new history paragraph |
+|---|---|
+| In Verrem II.3.47 | Apronius, who bought the tithe; the *decumae* as a century-old system whose only broken part was that the winning bidder could not be argued with; Cicero home from Sicily in 74 BC to find nobody had noticed, as he tells it in the *Pro Plancio* |
+| In Verrem II.3.120 | the registers as among the oldest agricultural statistics from the Roman world, surviving only inside a speech; the fifty days of evidence-gathering; Sicily and Sardinia feeding Rome until Egypt in 30 BC |
+| In Verrem II.3.207 | the family the sentence belongs to - Sallust's Mithridates, Tacitus's *solitudinem faciunt* - and why this one is different; Caesar's *lex Iulia de repetundis* eleven years later |
+
+- Grammar paragraphs on `curare` + gerundive, the relative-correlative with the relative clause first,
+  `vererere` for `vererēris` (which students read as an infinitive), `si qui` for `si aliqui`, the relative
+  of characteristic after a negative antecedent, and `deerunt` against `deerit`.
+- **51 Cicero notes still carry the short early form.**
+
+Verification: **392 verbatim, 0 mismatched**; **check_verses 60/0**; **check_numbering 118/0**;
+**check_metres 177/177/0**; **check_metre_quotes 32/0**; `lint_markdown` 0 leaking; `lint_register` and
+`lint_ablatives` 0 to look at. No em dashes, backticks or fake accents in the new text. Read in the browser
+in both languages. Cache-bust: `?v=200` -> `?v=201`.
+
 ## [1.15.9] - 2026-10-09
 
 ### Follow-up, 2026-10-09: a language button inside the welcome panel

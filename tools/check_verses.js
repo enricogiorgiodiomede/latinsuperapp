@@ -174,8 +174,17 @@ for (const author of Object.values(AUTHORS)) {
       }
       if (!matched && !gapAfter.size) bad.push('the first verse is not a line of the source page: ' + JSON.stringify(onPage[0]));
 
-      // 4. translation ranges
-      for (const lang of ['english', 'italian']) {
+      // 4. translation ranges - unless the excerpt has been converted to the
+      // LINE-FOR-LINE standard, which v1.15.10 started moving Lucretius onto:
+      // one translation line per verse, the same markers on the same lines.
+      // That form is checked by tools/check_numbering.js, which owns it for
+      // Catullus, Plautus and Terence already, so this tool only has to notice
+      // it and stand aside. Rules 1 to 3 above still ran: the Latin is still
+      // proved verbatim against the source page, whichever standard it is in.
+      const lineForLine = ['english', 'italian'].every(
+        lang => f[lang].split('\n').filter(l => /^>\s*\S/.test(l)).length === lines.length);
+
+      for (const lang of (lineForLine ? [] : ['english', 'italian'])) {
         const marks = [];
         // `**14-16.**`, `**974.**`, or `**655-659, 680.**` for a block that ends on a
         // transposed verse; the block's end is its last number.
@@ -203,7 +212,7 @@ for (const author of Object.values(AUTHORS)) {
         failed++;
         console.log('FAIL ' + f.citation + '\n  ' + bad.join('\n  '));
       } else {
-        console.log('OK   ' + f.citation + '  (' + lines.length + ' verses, ' + starts.length + ' blocks)');
+        console.log('OK   ' + f.citation + '  (' + lines.length + ' verses, ' + (lineForLine ? 'line-for-line' : starts.length + ' blocks') + ')');
       }
     }
   }
