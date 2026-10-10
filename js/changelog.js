@@ -12,6 +12,37 @@
 
   var VERSIONS = [
     {
+      v: '1.15.14', date: '10/10/2026', time: 'TBD', tz: 'CEST',
+      en: {
+        added: [
+          'LUCRETIUS BOOK V GOES LINE FOR LINE, the fifth of six: 10 excerpts, 173 verses, 346 lines of translation rewritten. Fifty of the sixty excerpts are now on the standard the rest of the app uses, and one book is left. This is the history of the world: the first humans tougher than us and poorer, the first compacts not to harm one another, where the gods came from, and the closing judgement that everything we have was taught by practice and a mind that never tires.',
+          'THE IN PISONEM, all seven notes that still had the short early form, rewritten at length. Why no prosecution was ever possible, Piso being Caesar\'s father-in-law, and what a speech is for when a trial is not available; why the fifth hour and a pair of slippers are the whole of a charge, and why the one man who could have confirmed the scene was two years dead; Gabinius condemned for extortion two years later with Cicero forced to defend him; what Caesar\'s land law had just done to Capua, which is why the insult is hastily withdrawn; the difference between suffering and punishment, worked out on three Romans everybody honoured; and the Greek in Piso\'s household, who is almost certainly Philodemus - whose carbonised library at Herculaneum is the only one to survive from antiquity and is still being unrolled.'
+        ],
+        changed: [
+          'The converter learned about a lacuna. The excerpt on the first human compacts prints the gap the manuscripts leave between vv. 1012 and 1013 as a row of dots on a line of its own, and a line of dots is not a verse: it now takes no number and does not move the count on, so the markers read 1011, 1015, 1020, 1025 rather than running a verse late from there to the end. The two translations carry the gap in the same position, and the Lucretius checker counts all three the same way.',
+          'Book VI, ten excerpts and 201 verses, is the last one on the old standard.',
+          '29 of Cicero\'s notes still carry the short early form, and they are nearly all in the Philippics now.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'IL LIBRO V DI LUCREZIO PASSA ALLA DISPOSIZIONE RIGA PER RIGA, il quinto di sei: 10 estratti, 173 versi, 346 righe di traduzione riscritte. Cinquanta dei sessanta estratti sono ormai sullo standard che usa tutto il resto dell\'app, e resta un libro solo. È la storia del mondo: i primi uomini più duri di noi e più poveri, i primi patti di non farsi del male a vicenda, da dove vengono gli dèi, e il giudizio conclusivo che tutto ciò che abbiamo ce lo hanno insegnato la pratica e una mente instancabile.',
+          'L\'IN PISONEM: tutte e sette le note che portavano ancora la forma breve delle origini, riscritte per esteso. Perché un processo non fu mai possibile, essendo Pisone il suocero di Cesare, e a che cosa serve un\'orazione quando un processo non è disponibile; perché la quinta ora e un paio di pantofole sono un\'accusa intera, e perché l\'unico uomo che avrebbe potuto confermare la scena era morto da due anni; Gabinio condannato per concussione due anni dopo, con Cicerone costretto a difenderlo; che cosa aveva appena fatto a Capua la legge agraria di Cesare, ed è per questo che l\'insulto viene ritirato in fretta; la differenza fra sofferenza e castigo, ricavata su tre Romani che tutti onoravano; e il Greco di casa Pisone, che è quasi certamente Filodemo, la cui biblioteca carbonizzata di Ercolano è l\'unica giuntaci dall\'antichità e che ancora oggi si continua ad aprire.'
+        ],
+        changed: [
+          'Il convertitore ha imparato a riconoscere una lacuna. L\'estratto sui primi patti umani stampa su una riga a sé la lacuna che i manoscritti lasciano fra i vv. 1012 e 1013, e una riga di puntini non è un verso: ora non prende numero e non fa avanzare il conto, cosicché i segni dicono 1011, 1015, 1020, 1025 invece di sbagliare di un verso da lì fino alla fine. Le due traduzioni portano la lacuna nella stessa posizione, e il controllore di Lucrezio conta tutte e tre le colonne allo stesso modo.',
+          'Il libro VI, dieci estratti e 201 versi, è l\'ultimo rimasto sul vecchio standard.',
+          '29 note di Cicerone portano ancora la forma breve delle origini, e sono ormai quasi tutte nelle Filippiche.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.15.13', date: '10/10/2026', time: '12:25', tz: 'CEST',
       en: {
         added: [

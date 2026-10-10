@@ -181,8 +181,12 @@ for (const author of Object.values(AUTHORS)) {
       // Catullus, Plautus and Terence already, so this tool only has to notice
       // it and stand aside. Rules 1 to 3 above still ran: the Latin is still
       // proved verbatim against the source page, whichever standard it is in.
+      // `lines` already has the [...] marks taken out, so the translations are
+      // counted the same way: a lacuna is not a verse in any of the three.
       const lineForLine = ['english', 'italian'].every(
-        lang => f[lang].split('\n').filter(l => /^>\s*\S/.test(l)).length === lines.length);
+        lang => f[lang].split('\n')
+          .filter(l => /^>\s*\S/.test(l) && l.replace(/^>\s*/, '').trim() !== '[...]')
+          .length === lines.length);
 
       for (const lang of (lineForLine ? [] : ['english', 'italian'])) {
         const marks = [];

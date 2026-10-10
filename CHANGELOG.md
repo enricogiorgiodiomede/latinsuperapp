@@ -6,6 +6,61 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.15.14] - 2026-10-10
+
+**LUCRETIUS BOOK V, AND THE IN PISONEM.** The fifth of six books moves onto the line-for-line standard -
+**173 verses, 346 lines of translation rewritten** - and the Cicero pass finishes the *In Pisonem*, its
+seven remaining short notes.
+
+### Converted - De Rerum Natura V (10 excerpts, 173 verses)
+| excerpt | verses | markers |
+|---|---|---|
+| vv. 1-12 | 12 | 1, 5, 10 |
+| vv. 222-234 | 13 | 222, 225, 230 |
+| vv. 837-854 | 18 | 837, 840, 845, 850 |
+| vv. 925-944 | 20 | 925, 930, 935, 940 |
+| vv. 1011-1027 | 17 **+ a lacuna** | 1011, 1015, 1020, 1025 |
+| vv. 1120-1135 | 16 | 1120, 1125, 1130, 1135 |
+| vv. 1161-1182 | 22 | 1161, 1165, 1170, 1175, 1180 |
+| vv. 1183-1203 | 21 | 1183, 1185, 1190, 1195, 1200 |
+| vv. 1218-1240 | 23 | 1218, 1220, 1225, 1230, 1235, 1240 |
+| vv. 1448-1457 | 10 | 1448, 1450, 1455 |
+
+- **Fifty of sixty converted**, 819 verses of 1,020. Book VI alone remains.
+
+### The lacuna
+- **vv. 1011-1027 prints 18 lines for 17 verses.** The Latin Library marks the gap the manuscripts leave
+  between vv. 1012 and 1013, and the app has carried it as a `[...]` on a line of its own since v1.14.7. A
+  line of dots is not a verse, so counting lines would have numbered everything after it one verse late.
+- `lucr_apply.js` now detects a gap line, gives it **no marker**, does **not advance the count**, and
+  **asserts that both translations carry the gap in the same position** - so the three columns cannot drift
+  apart.
+- `check_verses.js` already stripped `[...]` from its Latin line list but not from the translations, so its
+  line-for-line test saw 17 against 18 and fell back to the old block rule. It now counts all three the
+  same way, and reports the excerpt as **17 verses, line-for-line**.
+
+### Changed - Cicero, In Pisonem (7 notes)
+| excerpt | the new history paragraph |
+|---|---|
+| ch. I | Piso as Caesar's father-in-law, so no prosecution was possible; what a published invective is for when a trial is not; *vituperatio* as a school exercise with fixed headings |
+| ch. VI | the Roman hour, and *soleae* as indoor dinner shoes - the charge is being dressed for dinner at eleven; and the C. Piso brought along as witness, who had died two years before |
+| ch. X | Gabinius condemned for extortion in 54 BC, with Cicero forced by Pompey to defend him; the ancient derivation of *consul* from *consulere*, still disputed |
+| ch. XI | Capua punished in 211 BC and refounded by Caesar's land law in 59, four years earlier - which is why the insult is withdrawn mid-paragraph; Decius Magius and Taurea Vibellius |
+| ch. XIX | Regulus's torture absent from Polybius; Marius at Minturnae; Marcellus drowned in 148 - all three honoured, which is what makes the distinction hold; Ennius's lost *Thyestes* |
+| ch. XXVI | the Milanese auctioneer grandfather as a half-truth that works; Crassus and Cotta, both in the *De Oratore* Cicero was writing that same year, hunting the Alps for a triumph |
+| ch. XXVIII | the Greek is Philodemus of Gadara, and the Villa of the Papyri at Herculaneum is thought to be Piso's house - its carbonised rolls are the only ancient library to survive, and are still being read |
+
+- Grammar paragraphs on the locatives `militiae ... domi`, virtual oratio obliqua again (`quod diceres`),
+  `consulo` taking the accusative to consult and the **dative** to take thought for - the whole etymology
+  turns on the case - the personal construction of `videor`, comparative + `quam ut` for "too X to Y", and
+  **five historic infinitives** in the last paragraph, the same construction as `dicere omnes` in the fifth
+  Verrine.
+- Lengths 1,075-1,355 characters to 3,099-3,451. **29 Cicero notes still carry the short early form**, and
+  they are nearly all Philippics now.
+
+Verification: **392 verbatim, 0 mismatched**; **check_verses 60/0** (50 line-for-line); **check_numbering
+158/0**; `lint_markdown`, `lint_register`, `lint_ablatives` all clean. Cache-bust: `?v=204` -> `?v=205`.
+
 ## [1.15.13] - 2026-10-10
 
 **LUCRETIUS BOOK IV, AND THE PRO CAELIO.** The fourth of six books moves onto the line-for-line standard -
