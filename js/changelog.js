@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.15.13', date: '10/10/2026', time: 'TBD', tz: 'CEST',
+      v: '1.15.13', date: '10/10/2026', time: '12:25', tz: 'CEST',
       en: {
         added: [
           'LUCRETIUS BOOK IV GOES LINE FOR LINE, the fourth of six: 10 excerpts, 166 verses, 332 lines of translation rewritten. Forty of the sixty excerpts are now on the standard the rest of the app uses, and two books remain. This is the book on how we know anything at all, which ends in the long attack on love, so it holds both the square tower that looks round from a distance and the catalogue of what men call the women they are besotted with.',
