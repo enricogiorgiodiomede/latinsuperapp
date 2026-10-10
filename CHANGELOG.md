@@ -6,6 +6,69 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.15.15] - 2026-10-10
+
+**LUCRETIUS BOOK VI, AND PHILIPPICA I. THE LINE-FOR-LINE PROJECT IS FINISHED.** The last of the six books
+moves onto the standard - **200 verses, 402 lines of translation rewritten** - which puts **all 60 Lucretius
+excerpts and all 1,018 of their verses** on the same footing as Catullus, Plautus and Terence. The Cicero
+pass takes six of the seven remaining short notes in *Philippica I*.
+
+### Converted - De Rerum Natura VI (10 excerpts, 200 verses)
+| excerpt | verses | markers |
+|---|---|---|
+| vv. 9-23 | 15 | 9, 10, 15, 20 |
+| vv. 387-399 | 13 | 387, 390, 395 |
+| vv. 647-669 | 23 | 647, 650, 655, 660, 665 |
+| vv. 738-755, 760-766 | 25 **+ a lacuna** | 738, 740, 745, 750, 755, 760, 765 |
+| vv. 906-916 | 11 | 906, 910, 915 |
+| vv. 1138-1162 | 25 | 1138, 1140, 1145, 1150, 1155, 1160 |
+| vv. 1163-1181 | 19 | 1163, 1165, 1170, 1175, 1180 |
+| vv. 1205-1229 | 25 | 1205, 1210, 1215, 1220, 1225 |
+| vv. 1230-1253 | 24 | 1230, 1235, 1240, 1245, 1250 |
+| vv. 1267-1286 | 20 | 1267, 1270, 1275, 1280, 1285 |
+
+- **Sixty of sixty converted, 1,018 verses.** `check_verses` reports every one of the 60 as
+  `line-for-line`; no Lucretius excerpt is on the old block standard any more.
+
+### The excerpt that needed its numbers by hand
+- **vv. 738-755, 760-766** is the only excerpt in the whole poem that is *both* trimmed *and* carries a
+  lacuna. Counting up from the first verse would have run 18 short of 760; counting lines would have run one
+  late after the gap. Either way the markers land on the wrong verses.
+- `lucr_apply.js` already took an optional `nums` array for transposed verses, so the fix was to supply one
+  with a `null` where the gap falls:
+  `[738, ..., 755, null, 760, ..., 766]`. The `null` line takes no marker and does not advance the count.
+- Result: **738, 740, 745, 750, 755, 760, 765**, with the two translations carrying the gap in the same
+  position. `check_verses` reads it as 25 verses, line-for-line.
+
+### The two checkers now divide by rule, not by author
+- `check_verses.js` owns the sentence-block standard, `check_numbering.js` the line-for-line one. While
+  Lucretius was half converted the risk was an excerpt belonging to neither. Both now decide from the text
+  in front of them - whether the translations carry one line per verse - so every excerpt is owned by
+  exactly one of them: **60 verse excerpts, 168 numbered excerpts, 0 failed**.
+
+### Changed - Cicero, Philippica I (6 notes)
+| excerpt | the new history paragraph |
+|---|---|
+| I.1-2 | the Athenian oath of 403 BC behind *amnestia*, and what the Tellus deal actually traded - the killers' lives for Caesar's acts, including the papers Antony held; the imperfects that never say the good behaviour has stopped |
+| I.7 | the news at Leucopetra, not just the south wind; Brutus at Velia, the last time they met; Cicero reaching Rome on 31 August, missing the session of the first, and Antony threatening in the Senate to pull his house down |
+| I.18 | the forged *chirographa* - Deiotarus's kingdom, Latin rights for Sicily; Cicero to Atticus on what was being done in Caesar's name; and the trap, since Antony's own two laws of June 44 overturned Caesarian ones |
+| I.26 | Cicero named these speeches the *Philippics* himself, in a letter to Brutus, as a joke; the bronze formula he takes apart; Antony's reply of 19 September, the undelivered *Second*, and 1 January 43 |
+| I.33-34 | M. Antonius the orator hunted down in 87 BC with his head set on the rostra - which is all *acerbissimum eius supremum diem* has to say; the same platform fourteen months later; and the *De Oratore*, where that grandfather speaks |
+| I.38 | 43 BC, the proscription, Formiae on 7 December and Plutarch's neck out of the litter; then Plutarch again, on Augustus and the grandson caught reading Cicero |
+
+- Grammar paragraphs on `antequam` + subjunctive for anticipated action, the gerundive of obligation with a
+  dative of agent, the **connecting relative** (`quae` opening a sentence is a demonstrative), relatives of
+  characteristic, a conditional nested inside a conditional (`si quaereres ... si dedisset`), the **genitive
+  of characteristic** (`est amicorum ... dicere`), `hocine` with `-ne` welded inside the word, infinitives
+  as subjects with a neuter predicate, `memini` + genitive, and `quod` of fact.
+- Lengths 1,042-1,520 characters to 2,984-3,274 EN / 2,992-3,404 IT. **25 Cicero notes in the speeches
+  still carry the short early form**: the last of *Philippica I*, then II, IV and XIV, three in the
+  *Pro Caelio* and one in the *In Pisonem*.
+
+Verification: **392 verbatim, 0 mismatched**; **check_verses 60/0** (all 60 line-for-line);
+**check_numbering 168/0**; `check_metres` 177/0, `check_metre_quotes` 32/0; `lint_markdown`,
+`lint_register`, `lint_ablatives` all clean. Cache-bust: `?v=205` -> `?v=206`.
+
 ## [1.15.14] - 2026-10-10
 
 **LUCRETIUS BOOK V, AND THE IN PISONEM.** The fifth of six books moves onto the line-for-line standard -

@@ -12,6 +12,37 @@
 
   var VERSIONS = [
     {
+      v: '1.15.15', date: '10/10/2026', time: '15:47', tz: 'CEST',
+      en: {
+        added: [
+          'LUCRETIUS BOOK VI GOES LINE FOR LINE, and that finishes the job: 10 excerpts, 200 verses, 402 lines of translation rewritten. All sixty Lucretius excerpts and all 1,018 of their verses are now on the same standard as Catullus, Plautus and Terence - the Latin marking the first verse and then every fifth, one line of English and one line of Italian for every line of Latin, so you can always see which verse you are on. Book VI is thunder, lightning, the magnet, and then the plague of Athens, on which the poem simply stops.',
+          'PHILIPPICA I, six of the seven notes that still had the short early form, rewritten at length. The Athenian oath of 403 BC behind the word amnestia and what the deal in the temple of Tellus actually traded away; what really turned Cicero round at Leucopetra, his last meeting with Brutus at Velia, and the Senate session he missed while Antony threatened to pull his house down; the forged notes in Caesar\'s hand that gave Deiotarus his kingdom back, and the trap Cicero is setting with them; who named these speeches the Philippics (he did, in a letter, as a joke); the grandfather whose head ended on the rostra in 87 BC, and the same platform fourteen months later; and the close, where he says he has lived long enough, with Plutarch\'s story of Augustus caught reading him years afterwards.'
+        ],
+        changed: [
+          'The hardest excerpt in the book needed its numbers dictated to the converter by hand. The passage on the Avernian places runs vv. 738-755 and then jumps to 760, and it also carries a lacuna in the middle, so neither counting up from the first verse nor counting lines would have landed on the right numerals. It now reads 738, 740, 745, 750, 755, 760, 765, with the gap taking no number and the two translations carrying it in the same place.',
+          'With the conversion finished, the two verse checkers divide the work by rule rather than by author: on whichever standard an excerpt is written, one of them owns it, and a half-converted poet can no longer fall between them.',
+          '25 of Cicero\'s notes in the speeches still carry the short early form: the last of Philippica I, then II, IV and XIV, three in the Pro Caelio and one in the In Pisonem.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'IL LIBRO VI DI LUCREZIO PASSA ALLA DISPOSIZIONE RIGA PER RIGA, e con questo il lavoro è finito: 10 estratti, 200 versi, 402 righe di traduzione riscritte. Tutti e sessanta gli estratti di Lucrezio e tutti i loro 1.018 versi sono ora sullo stesso standard di Catullo, Plauto e Terenzio: il latino segna il primo verso e poi ogni quinto, una riga di inglese e una di italiano per ogni riga di latino, così da sapere sempre a che verso si è. Il libro VI è il tuono, il fulmine, la calamita, e poi la peste di Atene, sulla quale il poema semplicemente si interrompe.',
+          'LA PRIMA FILIPPICA: sei delle sette note che portavano ancora la forma breve delle origini, riscritte per esteso. Il giuramento ateniese del 403 a.C. dietro la parola amnestia e che cosa barattò davvero l\'accordo nel tempio di Tellure; che cosa fece tornare indietro Cicerone a Leucopetra, il suo ultimo incontro con Bruto a Velia e la seduta del senato che mancò mentre Antonio minacciava di abbattergli la casa; i biglietti falsi di pugno di Cesare che restituirono il regno a Deiotaro, e la trappola che Cicerone sta preparando con essi; chi diede a queste orazioni il nome di Filippiche (lui stesso, in una lettera, per scherzo); il nonno la cui testa finì sui rostri nell\'87 a.C., e la stessa tribuna quattordici mesi dopo; e la chiusa, dove dice di aver vissuto abbastanza, con il racconto di Plutarco su Augusto sorpreso a leggerlo anni più tardi.'
+        ],
+        changed: [
+          'L\'estratto più difficile del libro ha richiesto che i numeri fossero dettati al convertitore a mano. Il passo sui luoghi Averni va dai vv. 738-755 e poi salta al 760, e porta anche una lacuna nel mezzo: né contare dal primo verso né contare le righe avrebbe dato i numeri giusti. Ora si legge 738, 740, 745, 750, 755, 760, 765, con la lacuna che non prende numero e le due traduzioni che la portano nella stessa posizione.',
+          'Finita la conversione, i due controllori dei versi si dividono il lavoro per regola e non per autore: su qualunque standard sia scritto un estratto, uno dei due lo prende in carico, e un poeta convertito a metà non può più cadere in mezzo.',
+          '25 note di Cicerone nelle orazioni portano ancora la forma breve delle origini: l\'ultima della Prima Filippica, poi la II, la IV e la XIV, tre nella Pro Caelio e una nell\'In Pisonem.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.15.14', date: '10/10/2026', time: '14:29', tz: 'CEST',
       en: {
         added: [
