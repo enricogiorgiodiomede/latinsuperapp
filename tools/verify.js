@@ -20,7 +20,7 @@
 'use strict';
 const fs = require('fs');
 const path = require('path');
-const { normalise, verseText, VERSE_PAGE } = require('./strip');
+const { normalise, verseText, VERSE_PAGE, stripBareSections, barePages, cacheName } = require('./strip');
 
 const REPO = path.join(__dirname, '..');
 const CACHE = path.join(__dirname, '.cache');
@@ -30,7 +30,7 @@ const cfg = JSON.parse(fs.readFileSync(path.join(__dirname, 'sources.json'), 'ut
 const SRC = {};
 for (const [work, pages] of Object.entries(cfg)) {
   if (work.startsWith('_') || !Array.isArray(pages)) continue;
-  SRC[work] = pages.map(p => p.split('/').pop() + '.txt');
+  SRC[work] = pages.map(cacheName);
 }
 
 // Verse pages print line numbers at the end of every fifth line; those are the
@@ -40,8 +40,17 @@ for (const [work, pages] of Object.entries(cfg)) {
 const verseFiles = new Set();
 for (const [work, pages] of Object.entries(cfg)) {
   if (work.startsWith('_') || !Array.isArray(pages)) continue;
-  pages.filter(p => VERSE_PAGE.test(p)).forEach(p => verseFiles.add(p.split('/').pop() + '.txt'));
+  pages.filter(p => VERSE_PAGE.test(p)).forEach(p => verseFiles.add(cacheName(p)));
 }
+// Pages that print their subsection numbers as bare digits (strip.js).
+const bareFiles = barePages();
+// Pages that open every paragraph of a speech with a double quote and never
+// close it (Sallust's Iugurtha: `"Comparate nunc, Quirites`). That is the
+// typesetter's way of saying "still inside the speech", not text, and an
+// excerpt cut from the middle of a speech would carry stray openers. On these
+// pages only, the mark is dropped from both sides before comparing; the batch
+// removes it from the excerpt with `fix`. sources.json `_paragraphQuotes`.
+const quoteFiles = new Set((cfg._paragraphQuotes || []).map(cacheName));
 
 const flat = {};
 for (const files of Object.values(SRC)) {
@@ -50,7 +59,8 @@ for (const files of Object.values(SRC)) {
     const p = path.join(CACHE, f);
     if (!fs.existsSync(p)) continue;
     const text = fs.readFileSync(p, 'utf8');
-    flat[f] = normalise(verseFiles.has(f) ? verseText(text) : text);
+    flat[f] = normalise(verseFiles.has(f) ? verseText(text) : bareFiles.has(f) ? stripBareSections(text) : text);
+    if (quoteFiles.has(f)) flat[f] = normalise(flat[f].split('"').join(' '));
   }
 }
 if (!Object.keys(flat).length) {
@@ -98,7 +108,8 @@ for (const author of Object.values(AUTHORS)) {
         console.log('FAIL ' + f.citation + '  stale emendation: the fragment no longer contains "' + stale + '"');
         continue;
       }
-      const clean = normalise(raw.split('\n').map(l => l.replace(/^>\s?/, '')).join(' '));
+      let clean = normalise(raw.split('\n').map(l => l.replace(/^>\s?/, '')).join(' '));
+      if (SRC[w.id].some(x => quoteFiles.has(x))) clean = normalise(clean.split('"').join(' '));
       const pieces = clean.split('[...]').map(s => s.trim()).filter(Boolean);
       const files = SRC[w.id].filter(x => flat[x]);
       const hit = files.some(x => {

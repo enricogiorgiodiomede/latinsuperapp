@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(Pro Caelio 12)",
+    "field": "analysis",
+    "find": " This is the only emended word in the whole practice bank.",
+    "replace": ""
+  },
+  {
+    "cit": "(Pro Caelio 12)",
+    "field": "analysisIt",
+    "find": " È l'unica parola emendata dell'intera raccolta di esercizi.",
+    "replace": ""
+  }
+]

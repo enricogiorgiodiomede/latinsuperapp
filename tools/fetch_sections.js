@@ -5,6 +5,7 @@
  *   node tools/fetch_sections.js phi0448.phi001 6.13
  *   node tools/fetch_sections.js phi0448.phi002 1.7
  *   node tools/fetch_sections.js phi0448.phi001 8.0      # the Book VIII preface
+ *   node tools/fetch_sections.js phi0631.phi002 85 perseus-lat3   # Sallust, Iugurtha 85
  *
  * WHY THIS EXISTS. The Latin Library prints bracketed chapter numbers `[n]` and
  * nothing else - no subsection numbering of any kind. Standard editions divide
@@ -48,6 +49,18 @@ function get(url) {
 // tags are simply dropped.
 function sections(xml) {
   const out = [];
+  // Sallust (edition perseus-lat3) is encoded differently: a chapter is one
+  // <div> of <p>s and each section opens with an empty
+  // <milestone unit="section" n="N"/>. Same output, different markup.
+  if (/<milestone[^>]*unit="section"/.test(xml)) {
+    const body = xml.slice(xml.indexOf('<body'), xml.lastIndexOf('</body>'));
+    const parts = body.split(/<milestone[^>]*unit="section"[^>]*\bn="([^"]+)"[^>]*\/>/);
+    for (let i = 1; i < parts.length; i += 2) {
+      const text = parts[i + 1].replace(/<[^>]+>/g, ' ').replace(/&[a-z]+;/g, ' ').replace(/\s+/g, ' ').trim();
+      if (text) out.push({ n: parts[i], text });
+    }
+    return out;
+  }
   const rx = /<div[^>]*subtype="section"[^>]*\bn="([^"]+)"[^>]*>([\s\S]*?)(?=<div[^>]*subtype="section"|<\/div><\/div><\/div>)/g;
   let m;
   while ((m = rx.exec(xml))) {
@@ -58,12 +71,14 @@ function sections(xml) {
 }
 
 async function main() {
-  const [work, ref] = process.argv.slice(2);
+  const [work, ref, edition] = process.argv.slice(2);
   if (!work || !ref) {
-    console.error('usage: node tools/fetch_sections.js <textgroup.work> <book.chapter>');
+    console.error('usage: node tools/fetch_sections.js <textgroup.work> <book.chapter> [edition]');
     process.exit(1);
   }
-  const urn = 'urn:cts:latinLit:' + work + '.perseus-lat2:' + ref;
+  // Caesar is perseus-lat2, the default. Sallust exists only as perseus-lat3
+  // (lat2 answers HTTP 500), so the edition can be named.
+  const urn = 'urn:cts:latinLit:' + work + '.' + (edition || 'perseus-lat2') + ':' + ref;
   const xml = await get(API + encodeURIComponent(urn));
   const secs = sections(xml);
   if (!secs.length) throw new Error('no sections found for ' + urn);

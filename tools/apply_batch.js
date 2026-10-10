@@ -215,6 +215,17 @@ const firstSection = (f) => {
   if (t) return romanToInt(t[1]) * 100000 + parseInt(t[2], 10) * 10;
   const l = f.citation.match(/([IVXLCDM]+)\.(\d+)(?:-\d+)?([a-z]?)\)$/);
   if (l) return romanToInt(l[1]) * 100000 + parseInt(l[2], 10) * 10 + (l[3] ? 1 : 0);
+  // A single-book prose work cited by ARABIC chapter and section - Sallust,
+  // "(De Coniuratione Catilinae 20.2-8)", or across a chapter boundary
+  // "(... 3.3-4.5)". The plain-digits rule below would sort these on the
+  // SECTION, putting 51.20-29 at 20. The section goes in as a fraction, so a
+  // chapter cited whole (5) and one cited in part (5.1-8, 20.9-17) share one
+  // scale and two excerpts of the same chapter keep their order. The comma test
+  // is the same guard as above, against a source reference in an archaic
+  // fragment's citation.
+  const a = f.citation.indexOf(',') === -1
+    && f.citation.match(/ (\d+)\.(\d+)(?:-\d+(?:\.\d+)?)?\)$/);
+  if (a) return parseInt(a[1], 10) + parseInt(a[2], 10) / 1000;
   const m = f.citation.match(/(\d+)(?:-\d+)?\)$/);
   if (m) return parseInt(m[1], 10);
   const r = f.citation.match(/ch\. ([IVXLCDM]+)\)$/);

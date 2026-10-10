@@ -1,0 +1,8 @@
+{
+  "_comment": "v1.16.0 - the one Iugurtha excerpt. The page prints no subsection numbers, so the Latin's come from Perseus (phi0631.phi002, edition perseus-lat3, Ahlberg). Two overrides, both spelling: Perseus opens section 13 `conparate` and section 14 `nunc vos existumate`, the Latin Library `Comparate` and `existimate`. The translations already carry their markers from batch/frags1160b.js.",
+  "(Bellum Iugurthinum 85.10-17)": {
+    "author": "gaius-sallustius-crispus", "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.85.json", "range": "10-17",
+    "overrides": { "13": "Comparate nunc, Quirites", "14": "Nunc vos existimate" }
+  }
+}

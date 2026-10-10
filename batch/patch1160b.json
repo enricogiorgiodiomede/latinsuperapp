@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(De Coniuratione Catilinae 5)",
+    "field": "analysis",
+    "find": "called it the \"paradoxical portrait\".",
+    "replace": "called it the \"paradoxical portrait\". Cicero had sketched the same double Catiline some fourteen years before Sallust wrote, to excuse a client who had once followed him (Pro Caelio 12, which this app carries)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 5)",
+    "field": "analysisIt",
+    "find": "l'ha chiamata \"ritratto paradossale\".",
+    "replace": "l'ha chiamata \"ritratto paradossale\". Cicerone aveva abbozzato lo stesso Catilina a due facce circa quattordici anni prima che Sallustio scrivesse, per scusare un cliente che un tempo lo aveva seguito (Pro Caelio 12, che quest'app contiene)."
+  }
+]

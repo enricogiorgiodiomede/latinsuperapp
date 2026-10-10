@@ -1,0 +1,9 @@
+{
+  "_comment": "v1.16.0 - Sallust opens: four chapters of the Catilina (the proem, the author on himself, and the two 'before' chapters of the archaeology) plus the two v1.0.0 launch excerpts rebuilt through the pipeline (Cat. 5, now whole with section 9, and Iug. 85, now the unbroken run 10-17). sall.1 prints its subsection numbers as BARE DIGITS, which extract.js turns into **n.**, so every Catilina passage starts ON its digit. sall.2 prints none; batch/marks1160.json adds them from Perseus.",
+  "cat.1": ["sall.1", "1 Omnis homines, qui sese student", "alterum alterius auxilio eget."],
+  "cat.3": ["sall.1", "3 Sed ego adulescentulus initio", "quam initium narrandi faciam."],
+  "cat.5": ["sall.1", "1 L. Catilina, nobili genere natus", "flagitiosissuma facta sit, disserere."],
+  "cat.7": ["sall.1", "1 Sed ea tempestate coepere", "longius nos ab incepto traheret."],
+  "cat.9": ["sall.1", "1 Igitur domi militiaeque boni mores", "ignoscere quam persequi malebant."],
+  "iug.85": ["sall.2", "Bellum me gerere cum Iugurtha iussistis", "ex virtute nobilitas coepit."]
+}

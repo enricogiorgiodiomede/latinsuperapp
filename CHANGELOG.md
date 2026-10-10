@@ -6,6 +6,112 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.16.0] - 2026-10-11
+
+**SALLUST BEGINS.** The author leaves the launch catch-all and gets what Caesar has: a work per monograph,
+a chooser, the Latin Library's text proved verbatim, and arabic subsection numbers in the Latin and in both
+translations. **The plan is 70 excerpts, Caesar's count: De Coniuratione Catilinae 30, Bellum Iugurthinum
+40**, five per release from here to v1.16.13, the Catilina first. This release adds **four new excerpts**,
+**rebuilds the two v1.0.0 ones** on the new standard, and takes **five more Cicero notes** to the long form.
+
+### Added - De Coniuratione Catilinae (4 new)
+| excerpt | what it is |
+|---|---|
+| 1 | The proem: mind over body, and a life without memory is the life of cattle |
+| 3.3-4.5 | Sallust on himself - corrupted by ambition, retired, and why he writes history; the thesis of the book |
+| 7 | The archaeology, bright half: liberty releases the competition for glory |
+| 9 | The archaeology, last good page: *concordia maxuma, minuma avaritia* |
+
+### Rebuilt - the two launch excerpts (tags stay 1.0.0)
+- **De Coniuratione Catilinae 5** was `5.1-8` from LacusCurtius, unnumbered, with a paragraph break after
+  section 5. It is now the **whole chapter from the Latin Library**: section 9 added (the sentence that
+  announces the digression on Rome's past), the break removed, sections numbered 1-9 in all three texts.
+  Three readings changed with the source: *fuere ibique* (no comma), *adpetens*, *inmoderata*. Both
+  translations were re-made against the Latin: section 4 is one sentence again, *L. Sullae* keeps its
+  praenomen, *lubido ... invaserat* no longer "seized him to seize". The description said the portrait
+  "arrives right after the digression on Rome's decay"; it comes BEFORE it, and now says so.
+- **Bellum Iugurthinum 85** stitched sections 1, 4 and 10-13 from Splash Latino, with one cut marked and one
+  not, under the bare citation `85`. It is now the unbroken run **85.10-17** from the Latin Library, numbered
+  from Perseus. The opening of the speech (85.1-4) is no longer in the bank, by the user's choice; the second
+  Marius excerpt, 85.29-37, comes in v1.16.12.
+- Both notes were rewritten in the new shape. The old analyses are kept inside them with three errors
+  corrected: the *animus* sentence has three phrases after *simulator ac dissimulator*, not "four
+  participial phrases" and no relative clause; *satis eloquentiae, sapientiae parum* are partitive
+  genitives in chiasmus, not "genitives of quality"; and the note on Marius discussed 85.1 and 85.4,
+  which the excerpt no longer holds.
+
+### The notes
+Every Sallust note now runs `Where we are` -> what the passage does -> the style -> `The corruption theme`
+-> `Grammar notes`, 4,500 to 7,000 characters in each language. The two threads the user asked for:
+- **Style**: the archaising forms as the page prints them (*omnis* accusative plural, *maxume*, *lubido*,
+  *-undus*, perfects in *-ere*, *tempestas* for *tempus*, *supplicium* = worship, *prosapia*), asyndeton,
+  *variatio* and *inconcinnitas* shown on the actual phrases (*in suppliciis deorum magnifici, domi parci,
+  in amicos fideles*), first-position *igitur*, the verbless portrait, Quintilian's two verdicts.
+- **Corruption**: the proem as a yardstick (*ventri oboedientia* is cattle in ch. 1 and Romans by ch. 13);
+  Sallust as his own first exhibit; Catiline as the product of *luxuria atque avaritia* and not their cause;
+  ch. 7 and 9 as the "before" picture whose value words (*lubido*, *audacia*, *concordia*) change sign later;
+  and in the Iugurtha the disease of birth, with Albinus and Bestia identified.
+- **A warning about spelling** in Iug. 85.10-17: the Latin Library modernises this chapter (*aegerrime,
+  vestris, existimate, fortissimum, optimos*) where a critical edition prints the *-umus* forms. The note says
+  so, so that a reader with a school edition is not puzzled.
+- Cat. 9 says outright that the picture of early harmony is a postcard, and that Sallust withdrew it in the
+  *Histories*.
+
+### Cicero - five more notes at length (20 left)
+The five stragglers, which closes three speeches: **Pro Caelio 12, 18 and 37-38**, **In Pisonem ch. XLI**,
+**Philippica I.11-12**. Each keeps its analysis and gains a history paragraph and a `Grammar notes.` paragraph
+(3,650-4,030 EN). New material: Cicero's own plan to defend Catiline in 65 BC (Ad Atticum I.2) and Sallust's
+portrait as the heir of this one; Ptolemy the Flute-player, the murdered envoy Dio and Atratinus's "pretty
+little Jason"; the Megalesia as a THEATRE festival, four of Terence's six comedies; Piso's Macedonia, the
+schoolboys learning the *In Pisonem* like a dictation, and Cicero praising the same Piso in the First
+Philippic; and the real business of 1 September 44, a day of thanksgiving for the dead Caesar.
+- The first grammar paragraphs came out at 1,300-1,900 characters and took the notes to 4,450-5,100. They
+  were cut back to the usual size before release (`batch/cic1160_grammar.json`).
+- **Corrected in Pro Caelio 12**: the textual note ended "This is the only emended word in the whole practice
+  bank." That was true in v1.7.x; 42 fragments carry an emendation now. The sentence is gone, both languages.
+- `extend_notes.js` now also recognises `A note on the text` / `Una nota sul testo` as a closing source
+  footnote, so the history paragraph went in front of it.
+- **Cross-link wired both ways**: Pro Caelio 12 <-> De Coniuratione Catilinae 5.
+- Left: Philippica II (8), IV (5), XIV (7).
+
+### Tooling
+- **`sources.json`**: `de-coniuratione-catilinae` -> `sall.1.html`, `bellum-iugurthinum` -> `sall.2.html`,
+  plus two new page lists, `_bareSections` and `_paragraphQuotes`.
+- **`strip.js`**: `&#150;` and `&ndash;` become `-`, `&mdash;` becomes `--` (the Catilina's en dashes were
+  landing in the cache as the invisible control character U+0096, the Iugurtha's em dashes as the literal
+  entity). New `stripBareSections` / `markBareSections` for a page that prints subsection numbers as bare
+  digits, and `cacheName`, the one place a page name becomes a cache file.
+- **`verify.js` and `check_verses.js` mapped `sall.1.html` to `sall.1.html.txt`**, a file `fetch_sources.js`
+  never writes. Latent since Terence's `.html` pages arrived, because no WORK pointed at one until now.
+- **`extract.js`** marks the bare digits as `**n.**`; **`verify.js`** strips them, and on a
+  `_paragraphQuotes` page drops the typesetter's unclosed `"` from both sides.
+- **`fetch_sections.js`** takes an edition (Sallust is `perseus-lat3` only; `lat2` answers HTTP 500) and
+  reads `<milestone unit="section">` as well as `<div subtype="section">`.
+- **`apply_batch.js` sorted `(… 5.1-8)` on the SECTION**, so 51.20-29 would have landed at 20. An arabic
+  `chapter.section` citation now sorts as chapter + section/1000; no other citation in the bank reaches the
+  rule.
+- **`check_context.js`**: Sallust joins the dated authors, and his titles the cross-reference list.
+- **New `tools/diff_edition.js`**: word-diff of a page chapter against the numbered edition, with section
+  boundaries compared on a bare-digit page. It found the one boundary the two editions disagree on (Cat.
+  3.5, two words apart; the page is followed) and every modernised spelling in Iug. 85.
+- **New `tools/patch_fields.js`**: guarded find-and-replace for a correction made after a batch is applied.
+  It retries the write, because on this machine the open failed twice with `UNKNOWN` while something else
+  held `js/fragments.js`; nothing had been written either time.
+- `create_works.js` holds the Sallust pair; `batch/migrate1160.js` is the one-off that removed
+  `sallust-excerpts` and made him a chooser author.
+
+### Changed
+- **Sallust is a chooser author** (`needsSelection`, "Choose a work by Sallust"). A bookmarked
+  `practice.html?...&frag=N` from before the split carries no `work`, so it still opens, on the flat run of
+  all six: `frag=1` was the portrait of Catiline and is now chapter 1. Checked in the preview; nothing throws.
+- `sitemap.xml` gains his `practice-select.html` URL (41 URLs).
+
+Verification: **398 verbatim, 0 mismatched** (392 + 6); **check_sections** 266 checked, nothing flagged in
+Sallust; **check_context** clean for 1.16.0 and for the two rebuilt 1.0.0 excerpts; check_numbering 168/0,
+check_verses 60/0; `lint_markdown`, `lint_register`, `lint_ablatives`, `lint_translations` clean. Bank
+**548** (544 + 4). Cache-bust: `?v=206` -> `?v=208` (207 was spent on the preview check, before a wording fix in
+`js/changelog.js`; the token moves after the last JS edit).
+
 ## [1.15.15] - 2026-10-10
 
 **LUCRETIUS BOOK VI, AND PHILIPPICA I. THE LINE-FOR-LINE PROJECT IS FINISHED.** The last of the six books

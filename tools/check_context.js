@@ -57,7 +57,10 @@ const only = argv.filter(function (a) { return a.charAt(0) !== '-'; })[0] || nul
 // the whole bank were his philosophical works, where the year is beside the
 // point, and his speeches carry their date in the description already.
 const DATED_AUTHORS = {
-  'gaius-julius-caesar': 1, 'aulus-hirtius': 1, 'cornelius-nepos': 1
+  'gaius-julius-caesar': 1, 'aulus-hirtius': 1, 'cornelius-nepos': 1,
+  // v1.16.0. Both monographs are narrative history, and even the prefaces and
+  // the digressions are dated by what they frame.
+  'gaius-sallustius-crispus': 1
 };
 
 // Names the reader is not owed a gloss for: they are either the author, the
@@ -209,7 +212,7 @@ for (const slug of Object.keys(AUTHORS)) {
       // to Quintus are cited `Ad Quintum fratrem` in the bank: without both, the
       // Lucretius notes of v1.14.0 had their Cicero references read as chapters
       // of De Rerum Natura.
-      const re = /(?:[`*]?(De Bello Gallico|De Bello Civili|Bellum Alexandrinum|De Rerum Natura|Ad Atticum|Ad Familiares|Ad Quintum [Ff]ratrem|Ad Brutum|De Divinatione|De Officiis|De Re Publica|Tusculanae Disputationes|Tusculanae|Agricola|Livy|Livio|Plutarch|Plutarco|Suetonius|Svetonio|Appian|Appiano|Dio|Dione)[`*]?[, ]\s*[`*]?)?\b([IVXLCDM]{1,5})\.(\d+)\b/g;
+      const re = /(?:[`*]?(De Bello Gallico|De Bello Civili|Bellum Alexandrinum|De Coniuratione Catilinae|Bellum Catilinae|Bellum Iugurthinum|De Rerum Natura|Ad Atticum|Ad Familiares|Ad Quintum [Ff]ratrem|Ad Brutum|De Divinatione|De Officiis|De Re Publica|Tusculanae Disputationes|Tusculanae|Agricola|Livy|Livio|Plutarch|Plutarco|Suetonius|Svetonio|Appian|Appiano|Dio|Dione)[`*]?[, ]\s*[`*]?)?\b([IVXLCDM]{1,5})\.(\d+)\b/g;
       let m;
       while ((m = re.exec(prose))) {
         if (!romanOk(m[2])) continue;

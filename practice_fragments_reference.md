@@ -9,6 +9,83 @@ Difficulty is varied on purpose within each text (some passages harder than othe
 
 ---
 
+## Gaius Sallustius Crispus (`gaius-sallustius-crispus`) - needsSelection, one work per monograph [v1.16.0, 2026-10-11]
+
+**THE PLAN (the user, 11/10/2026): 70 excerpts, the same count as Caesar - De Coniuratione Catilinae 30,
+Bellum Iugurthinum 40.** "We need to prove he isn't just a practice author or a lesser known author to be
+skimmed." **5 per release, v1.16.0 to v1.16.13, stop and report after each; the Catilina complete first in
+chapter order, then the Iugurtha.** The two v1.0.0 launch excerpts count toward the 70 and were rebuilt in
+v1.16.0. The user's picks are starred; section cuts are provisional until each batch and are finalised
+against the numbered text so every excerpt opens and closes on a sentence.
+
+**De Coniuratione Catilinae (`de-coniuratione-catilinae`) - 30**
+- **v1.16.0 (DONE, 5):** ★1 · ★3.3-4.5 · ★5 (launch excerpt rebuilt whole, section 9 added, no break) · ★7 · ★9
+- v1.16.1: ★10 · ★11 · ★12 · ★13 (the digression is 7, 9, 10-13: six) · 14
+- v1.16.2: 15 · ★20.2-8 · ★20.9-17 · 22 · 23
+- v1.16.3: ★25 Sempronia · 31.4-9 · 33 · 35 · 37
+- v1.16.4: 38 · ★51.1-8 · ★51.20-29 · ★52.7-12 · ★52.19-23
+- v1.16.5: 54 · 55 · ★58 (Pistoia) · 60 · ★61
+
+**Bellum Iugurthinum (`bellum-iugurthinum`) - 40**
+- **v1.16.0 (DONE, 1):** ★85.10-17 (launch excerpt rebuilt as one unbroken run; the old one stitched 85.1, 4, 10-13)
+- v1.16.6: ★1 · ★4 · ★5 · 6 · 8
+- v1.16.7: 10 · 12 · ★14 (two excerpts) · 15
+- v1.16.8: ★17 · ★18 · ★19 (the African excursus - "that digression" near the start) · 26 · 29
+- v1.16.9: 31 (two excerpts) · 34 · ★35 (35.10 is *urbem venalem et mature perituram*) · 38
+- v1.16.10: 41 · 42 · 44 · 51 · 63
+- v1.16.11: 64 · 67 · 72 · 73 · 79
+- v1.16.12: ★85.29-37 (the second Marius excerpt) · 86 · 91 · 93 · ★95-96 (Marius and Sulla)
+- v1.16.13: 101 · 102 · 113 · 114
+
+**SOURCE.** Latin from the Latin Library, `sall.1.html` (Catilina) and `sall.2.html` (Iugurtha), cached as
+`sall.1.txt` / `sall.2.txt`. Subsection boundaries and the typo diff from **Perseus `phi0631.phi001` /
+`phi0631.phi002`, edition `perseus-lat3`** (Ahlberg): `node tools/fetch_sections.js phi0631.phi002 85 perseus-lat3`.
+- **The Catilina page prints its subsection numbers as bare digits** (`[5] 1 L. Catilina ... est.4 Animus`).
+  `extract.js` turns them into `**n.**`, so **start every Catilina passage ON its digit**
+  (`"3 Sed ego adulescentulus"`), and `verify.js` strips them (sources.json `_bareSections`). The page IS the
+  numbered edition there; Perseus is the second witness, checked with `tools/diff_edition.js`.
+- **The Iugurtha page prints chapter numbers only.** Sections come from Perseus through `mark_sections.js`,
+  like Caesar's. It also opens every paragraph of a speech with a `"` it never closes: drop each with a
+  `fix` pair (sources.json `_paragraphQuotes` makes verify.js ignore the mark on that page).
+- **Known disagreement:** Cat. 3.5 - the page starts the section at *ac me, cum*, Perseus two words later
+  at *quom*. The page is followed. (Cat. 3.2 *actorem* / Perseus *auctorem* is a real variant, outside the
+  excerpt.)
+- **NEITHER PAGE IS CONSISTENTLY ARCHAISING.** The Catilina keeps *maxuma, lubido, divorsa, pessuma,
+  capiundae* but prints *cuius, cuiquam, cum, arduus* (Perseus *quoius, quoiquam, quom, arduos*). The
+  Iugurtha normalises further: *aegerrime, vestris, existimo, fortissimum, optimos* in ch. 85. **A note
+  describes the forms the app prints**, and where a chapter is heavily modernised it says so in a
+  paragraph headed "A warning about spelling" (Iug. 85.10-17 is the model).
+
+**CONVENTIONS.**
+- Layout as Caesar: `> [5] **1.** ...` in all three texts, **one paragraph per chapter and never a break
+  inside one** (the user asked for the break in Cat. 5 to go; it also keeps `check_numbering.js` from
+  reading a later paragraph as verse). An excerpt across two chapters is two paragraphs, numbering
+  restarting.
+- Citations are ARABIC: `(De Coniuratione Catilinae 5)` whole chapter, `(... 20.2-8)` part,
+  `(... 3.3-4.5)` across a boundary, `(Bellum Iugurthinum 95-96)` two whole chapters. `apply_batch.js`
+  sorts them as chapter + section/1000.
+- **Notes (the user, 11/10/2026): focus on Sallust's STYLE - syntax, figures, archaism - and on HOW HE
+  PAINTS ROME'S CORRUPTION.** Shape, with bold leads: `Where we are` (year, place, people) -> what the
+  passage does -> the style -> `The corruption theme` -> `Grammar notes`. The v1.16.0 notes run
+  4,500-7,000 characters. Comparison with Cicero and Caesar only where the contrast is largest.
+- *Virtus* is "excellence" in the English and "virtù" in the Italian, with the gloss in the Grammar notes
+  of Cat. 1. *Quirites* is "fellow citizens" / "Quiriti". *Imagines* are "ancestor masks" / "maschere di
+  antenati".
+- A correction after a batch is applied goes through `tools/patch_fields.js` AND into the batch file.
+
+**CROSS-LINKS.** Wired both ways in v1.16.0: Cat. 5 <-> Pro Caelio 12 (Cicero's own double portrait of
+Catiline). **To wire when their chapters arrive:** Cat. 31.4-9 <-> In Catilinam I; Cat. 51 <-> In Catilinam
+IV.7 (whose English note says *Bellum Catilinae* (51) and whose Italian says *De Coniuratione Catilinae* -
+make them agree then); Cat. 51.20 (death as rest) <-> the Lucretius death passages; Cat. 9 already points
+forward to 51 and 52 in prose. De Oratore II.35-36 mentions "the Bellum Iugurthinum excerpt", singular -
+reword once there are several.
+
+**FLAGS FOR LATER BATCHES.** Cat. 14.2 has one crude anatomical word in a list (not an explicit stretch;
+raise it in the v1.16.1 report). Iug. 85.1-4, the opening of Marius's speech, was in the launch excerpt
+and is no longer in the bank - the user chose 85.10-17 + 85.29-37.
+
+---
+
 ## Titus Lucretius Carus (`titus-lucretius-carus`) - needsSelection, one work per book [v1.14.0, 2026-09-13]
 
 **THE PLAN (the user, 13/09/2026): 60 excerpts, 10 per book**, counts adjustable where a book has more good

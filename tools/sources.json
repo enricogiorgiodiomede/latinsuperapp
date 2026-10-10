@@ -70,6 +70,13 @@
   "drn-v": ["lucretius/lucretius5"],
   "drn-vi": ["lucretius/lucretius6"],
 
+  "_sallust": "SALLUST, added v1.16.0. Both monographs are published as .html, so the pages are listed WITH the extension (the cache drops it: sall.1.txt, sall.2.txt). The CATILINA page prints the editorial subsection numbers as BARE DIGITS in the running text ([5] 1 L. Catilina ... est.4 Animus), which is why it is listed under `_bareSections`: extract.js turns them into the app's **n.** and verify.js removes them before comparing (strip.js). The IUGURTHA page prints chapter numbers only, so its subsections come from Perseus (tools/fetch_sections.js phi0631.phi002 <chapter> perseus-lat3) through mark_sections.js, as Caesar's do. The Iugurtha page also opens every paragraph of a speech with a double quote and never closes it; trim it with `fix` when a speech excerpt starts on one. NEITHER PAGE IS CONSISTENTLY ARCHAISING, so a note must describe the forms the app actually prints and never the ones a critical edition would: the Catilina keeps maxuma, lubido, divorsa, pessuma, capiundae but prints cuius, cuiquam, cum, arduus where Perseus (Ahlberg) has quoius, quoiquam, quom, arduos; the Iugurtha normalises further and in places prints aegerrime, vestris, existimo, fortissimum, optimos. tools/diff_edition.js lists every such difference for a chapter. Known boundary disagreement: Cat. 3.5 - the page starts the section at `ac me, cum`, Perseus two words later at `quom`; the page is followed.",
+  "_bareSections": ["sall.1.html"],
+  "_paragraphQuotes": ["sall.2.html"],
+
+  "de-coniuratione-catilinae": ["sall.1.html"],
+  "bellum-iugurthinum": ["sall.2.html"],
+
   "_comicMetres": "v1.15.3. The metre of each Plautus and Terence excerpt comes from Timothy J. Moore, The Meters of Roman Comedy (https://hdwlabs.artsci.wustl.edu/romancomedy/), which publishes the whole database as one TSV at /tsv/current.tsv. tools/comic_metres.js reads it from tools/.cache/moore-meters.tsv; re-fetch that file if it is missing. It is metre data, not Latin text, so it is not part of the verify.js chain, and no excerpt text comes from it. tools/scan_drama.js is the independent check: it scans from the spelling alone and can refute a metre, never prove one.",
   "_verseNumbering": [
     "plautus/amphitruo", "plautus/asinaria", "plautus/aulularia", "plautus/bacchides",

@@ -82,7 +82,7 @@ inconsistent; it reads the markdown and never modifies it.)
 - `practice.html?era=archaic&id=<slug>` - practice: the Latin excerpt with a textarea to
   attempt a translation and reveal buttons for the Italian, English, and analysis.
 - `practice-select.html?era=<era>&id=<slug>` - the text chooser, for authors with several
-  works (Plautus, Terence, Lucretius, and Cicero, who nests one level deeper:
+  works (Plautus, Terence, Lucretius, Sallust, and Cicero, who nests one level deeper:
   category then work).
 - `version.html?v=<version>` - every excerpt added in one release, reached by clicking an
   excerpt's version badge.

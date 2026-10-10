@@ -20,6 +20,11 @@ const [specFile, outFile] = process.argv.slice(2);
 if (!specFile || !outFile) throw new Error('usage: extract.js <spec.json> <out.json>');
 
 const CACHE = path.join(__dirname, '.cache');
+// On a page that prints its subsection numbers as bare digits the passage
+// comes out with them already turned into the app's `**n.**` (strip.js). Start
+// the passage ON the digit - "3 Sed ego adulescentulus" - to keep its number.
+const { markBareSections, barePages } = require('./strip');
+const BARE = barePages();
 const spec = JSON.parse(fs.readFileSync(path.resolve(specFile), 'utf8'));
 const out = {};
 let bad = 0;
@@ -35,6 +40,7 @@ for (const [key, entry] of Object.entries(spec)) {
   if (i < 0) { out[key] = 'ERR start not found'; bad++; continue; }
   if (j < 0) { out[key] = 'ERR end not found'; bad++; continue; }
   out[key] = flat.slice(i, j + to.length);
+  if (BARE.has(page + '.txt')) out[key] = markBareSections(out[key]);
 }
 
 fs.writeFileSync(path.resolve(outFile), JSON.stringify(out, null, 2));

@@ -1,0 +1,8 @@
+[
+  { "cit": "(Bellum Iugurthinum 85.10-17)", "field": "analysis",
+    "find": "men who do things back to front. He has done",
+    "replace": "men who do things back to front. What they read too late is *acta maiorum et Graecorum militaria praecepta*, family history and Greek manuals of tactics: book learning, and foreign book learning at that. He has done" },
+  { "cit": "(Bellum Iugurthinum 85.10-17)", "field": "analysisIt",
+    "find": "gente che fa le cose alla rovescia. Lui ha fatto",
+    "replace": "gente che fa le cose alla rovescia. Quello che leggono in ritardo sono gli *acta maiorum et Graecorum militaria praecepta*, storia di famiglia e manuali greci di tattica: cultura libresca, e per di più straniera. Lui ha fatto" }
+]

@@ -12,6 +12,47 @@
 
   var VERSIONS = [
     {
+      v: '1.16.0', date: '11/10/2026', time: '01:12', tz: 'CEST',
+      en: {
+        added: [
+          'SALLUST BEGINS. Until today he had two excerpts and no chooser; the plan now is seventy, the same number as Caesar - thirty from the De Coniuratione Catilinae and forty from the Bellum Iugurthinum, five at a time, the Catilina first. He gets what Caesar has: a page to choose the work from, and the standard subsection numbers printed in the Latin and in both translations, so that section 4 of the Latin sits against section 4 of the English and the Italian.',
+          'FOUR NEW EXCERPTS from the opening of the Catilina. Chapter 1, the first sentence of the book, which is not about Catiline at all: do not go through life in silence like cattle. Chapters 3-4, Sallust on himself - a young man caught by ambition like everyone else, now retired, explaining why he would rather write history than farm or hunt, both of which he calls work for slaves. Chapter 7, what freedom did to Rome once the kings were gone: a generation competing to be seen doing something brave. Chapter 9, the last page of the good old days, where harmony is greatest and greed is least.',
+          'Every Sallust note follows two threads. One is HOW HE WRITES: the old-fashioned spellings he took from Cato, the lists with the connecting words removed, and above all his refusal to let a sentence balance - three phrases, three different constructions, on purpose. The other is HOW HE PAINTS ROME GOING BAD: the belly that belongs to cattle on page one and to Romans twelve chapters later, the words like lubido and audacia that are innocent in the good chapters and poisonous afterwards, and Catiline as the product of the disease, not its cause. Each note ends with a paragraph of grammar.',
+          'FIVE MORE CICERO NOTES rewritten at length, which finishes three speeches: Pro Caelio 12, 18 and 37-38, the last chapter of the In Pisonem, and the Hannibal-at-the-gates passage of the First Philippic. Inside them: Cicero once planned to defend Catiline in court himself; a prosecutor called Caelius a pretty little Jason, which is why Cicero went looking for a Medea; the games the jury were missing were a theatre festival, the one where Terence had first been staged; every schoolboy in Rome learned the attack on Piso by heart, and eleven years later Cicero praised the same Piso for standing up to Antony.'
+        ],
+        changed: [
+          'The two Sallust excerpts that have been here since launch were rebuilt. Catiline\'s portrait is now the whole of chapter 5, including the closing sentence that turns from the man to the city that produced him, with no gap in the middle and its nine sections numbered. Marius\'s speech used to be stitched from scattered sentences of chapter 85; it is now one unbroken run, sections 10 to 17, and the second half of the speech will follow as its own excerpt. Both keep their original 1.0.0 tag.',
+          'Both were re-translated against the Latin, and three mistakes in the old notes were corrected. The old description also said the portrait of Catiline comes after the digression on Rome\'s decay. It comes before it, and introduces it.',
+          'A warning for anyone reading with a school edition: the source used here modernises some of Sallust\'s spellings in the Marius speech (aegerrime, fortissimum, optimos) where a critical edition prints the old ones (aegerrume, fortissumum, optumos). The note on that excerpt says so.',
+          'Sallust now opens on a page where you choose between his two works. An old bookmark to one of his excerpts still opens, but the numbering now runs through all six, so it may show a different passage.',
+          'A sentence in the note on Pro Caelio 12 claimed that passage held the only corrected word in the whole collection. That stopped being true long ago and has been removed.',
+          '20 of Cicero\'s notes in the speeches still carry the short early form: Philippica II, IV and XIV.'
+        ],
+        deleted: [
+          'The opening sentences of Marius\'s speech (Bellum Iugurthinum 85, sections 1 and 4), which were part of the old stitched excerpt, are no longer in the collection.'
+        ]
+      },
+      it: {
+        added: [
+          'COMINCIA SALLUSTIO. Fino a oggi aveva due estratti e nessuna pagina di scelta; ora il piano è di settanta, lo stesso numero di Cesare: trenta dal De Coniuratione Catilinae e quaranta dal Bellum Iugurthinum, cinque alla volta, prima il Catilina. Riceve ciò che ha Cesare: una pagina da cui scegliere l\'opera, e i numeri di paragrafo delle edizioni stampati nel latino e in entrambe le traduzioni, così che il paragrafo 4 del latino stia di fronte al paragrafo 4 dell\'italiano e dell\'inglese.',
+          'QUATTRO NUOVI ESTRATTI dall\'apertura del Catilina. Il capitolo 1, la prima frase del libro, che non parla affatto di Catilina: non attraversare la vita in silenzio come il bestiame. I capitoli 3-4, Sallustio su se stesso: un ragazzo preso dall\'ambizione come tutti, ora ritirato, che spiega perché preferisce scrivere storia invece di coltivare o cacciare, attività che chiama entrambe lavori da schiavi. Il capitolo 7, che cosa fece la libertà a Roma una volta cacciati i re: una generazione in gara per farsi vedere mentre compiva qualcosa di coraggioso. Il capitolo 9, l\'ultima pagina dei bei tempi andati, dove la concordia è massima e l\'avidità minima.',
+          'Ogni nota su Sallustio segue due fili. Uno è COME SCRIVE: le grafie antiquate prese da Catone, gli elenchi senza congiunzioni, e soprattutto il rifiuto di lasciare che una frase si bilanci - tre espressioni, tre costruzioni diverse, apposta. L\'altro è COME DIPINGE ROMA CHE SI GUASTA: il ventre che alla prima pagina è del bestiame e dodici capitoli dopo dei Romani, parole come lubido e audacia che nei capitoli buoni sono innocenti e in seguito velenose, e Catilina come prodotto della malattia, non come sua causa. Ogni nota si chiude con un paragrafo di grammatica.',
+          'ALTRE CINQUE NOTE DI CICERONE riscritte per esteso, il che completa tre orazioni: Pro Caelio 12, 18 e 37-38, l\'ultimo capitolo dell\'In Pisonem e il passo di Annibale alle porte della Prima Filippica. Dentro: Cicerone una volta progettò di difendere lui stesso Catilina in tribunale; un accusatore chiamò Celio un Giasone belloccio, ed è per questo che Cicerone andò a cercare una Medea; i giochi a cui i giudici rinunciavano erano una festa teatrale, quella in cui Terenzio era andato in scena per la prima volta; tutti gli scolari di Roma imparavano a memoria l\'attacco a Pisone, e undici anni dopo Cicerone lodò lo stesso Pisone per aver tenuto testa ad Antonio.'
+        ],
+        changed: [
+          'I due estratti di Sallustio presenti fin dal lancio sono stati ricostruiti. Il ritratto di Catilina è ora l\'intero capitolo 5, compresa la frase finale che passa dall\'uomo alla città che lo ha prodotto, senza stacco nel mezzo e con i nove paragrafi numerati. Il discorso di Mario era cucito insieme da frasi sparse del capitolo 85; ora è un unico brano continuo, paragrafi da 10 a 17, e la seconda metà del discorso seguirà come estratto a sé. Entrambi conservano l\'etichetta originale 1.0.0.',
+          'Entrambi sono stati ritradotti sul latino, e tre errori nelle vecchie note sono stati corretti. La vecchia descrizione diceva anche che il ritratto di Catilina viene dopo la digressione sulla decadenza di Roma. Viene prima, e la introduce.',
+          'Un avvertimento per chi legge con un\'edizione scolastica: la fonte usata qui modernizza alcune grafie di Sallustio nel discorso di Mario (aegerrime, fortissimum, optimos) dove un\'edizione critica stampa quelle antiche (aegerrume, fortissumum, optumos). La nota a quell\'estratto lo dice.',
+          'Sallustio si apre ora su una pagina in cui si sceglie fra le sue due opere. Un vecchio segnalibro a uno dei suoi estratti si apre ancora, ma la numerazione ora scorre su tutti e sei, quindi può mostrare un passo diverso.',
+          'Una frase nella nota a Pro Caelio 12 sosteneva che quel passo contenesse l\'unica parola corretta dell\'intera raccolta. Non era più vero da tempo ed è stata tolta.',
+          '20 note di Cicerone nelle orazioni portano ancora la forma breve delle origini: le Filippiche II, IV e XIV.'
+        ],
+        deleted: [
+          'Le frasi iniziali del discorso di Mario (Bellum Iugurthinum 85, paragrafi 1 e 4), che facevano parte del vecchio estratto cucito, non sono più nella raccolta.'
+        ]
+      }
+    },
+    {
       v: '1.15.15', date: '10/10/2026', time: '14:56', tz: 'CEST',
       en: {
         added: [

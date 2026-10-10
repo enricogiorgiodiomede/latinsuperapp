@@ -18,7 +18,13 @@ function stripHtml(html) {
     .replace(/&quot;/g, '"')
     .replace(/&#39;/g, "'")
     .replace(/&#8217;/g, "'")
-    .replace(/&#151;|&#8212;/g, '--')
+    .replace(/&#151;|&#8212;|&mdash;/g, '--')
+    // Sallust (v1.16.0). The Catilina page sets its parentheses off with
+    // &#150;, the Windows-1252 en dash, which the numeric rule below would turn
+    // into the C1 control character U+0096 - invisible in the cache and in the
+    // app. The Iugurtha page uses &mdash; for the same job, which no rule
+    // decoded at all, so it stayed in the cache as the literal entity.
+    .replace(/&#150;|&#8211;|&ndash;/g, '-')
     // Accented letters arrive as named entities in a handful of pages - the
     // transliterated Greek of ad Quintum III and ad Brutum I is full of
     // &ocirc; and &ecirc;. Left undecoded they end up in the cache as literal
@@ -72,6 +78,36 @@ function normalise(text) {
     .trim();
 }
 
+// A few prose pages print the editorial SUBSECTION numbers as bare digits in
+// the running text - `[5] 1 L. Catilina ... credibile est.4 Animus audax` - and
+// the only one in use is Sallust's Catilina (sources.json lists them under
+// `_bareSections`). Latin prose never contains a digit, so on such a page every
+// run of digits outside square brackets is a section number and nothing else.
+// stripBareSections() removes them, for verify.js; markBareSections() turns
+// them into the app's own `**n.**`, for extract.js - the page IS a numbered
+// edition, so its boundaries are used as printed and never derived.
+const BARE = /(?<![\[\d])(\d+)(?![\]\d])/g;
+function stripBareSections(text) {
+  return text.replace(BARE, ' ');
+}
+function markBareSections(text) {
+  return text.replace(BARE, ' **$1.** ').replace(/\s+/g, ' ').trim();
+}
+function barePages() {
+  const cfg = JSON.parse(require('fs').readFileSync(require('path').join(__dirname, 'sources.json'), 'utf8'));
+  return new Set((cfg._bareSections || []).map(cacheName));
+}
+
+// The cache file a sources.json page is stored under. Most pages are
+// <page>.shtml and are listed without the extension; Terence and Sallust are
+// published as .html and are listed WITH it, and the extension is not part of
+// the cache name. fetch_sources.js always wrote it this way; verify.js and
+// check_verses.js did not strip it, which went unnoticed only because no work
+// id pointed at such a page before Sallust.
+function cacheName(page) {
+  return page.split('/').pop().replace(/\.s?html$/, '') + '.txt';
+}
+
 // Verse pages (Lucretius) print a line number every five verses at the end of
 // the line, after a run of spaces - `immortali aevo summa cum pace fruatur 45` -
 // sometimes with a letter for an editor's inserted line (`164a`), and mark a
@@ -96,4 +132,7 @@ function verseText(text) {
   return verseLines(text).filter(v => !v.lacuna).map(v => v.text).join('\n');
 }
 
-module.exports = { stripHtml: stripHtml, normalise: normalise, verseLines: verseLines, verseText: verseText, VERSE_PAGE: VERSE_PAGE };
+module.exports = {
+  stripHtml: stripHtml, normalise: normalise, verseLines: verseLines, verseText: verseText, VERSE_PAGE: VERSE_PAGE,
+  stripBareSections: stripBareSections, markBareSections: markBareSections, barePages: barePages, cacheName: cacheName
+};

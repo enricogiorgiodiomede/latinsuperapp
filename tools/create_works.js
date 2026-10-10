@@ -13,9 +13,16 @@ const fs = require('fs');
 const path = require('path');
 const P = path.join(__dirname, '..', 'js', 'fragments.js');
 
+// v1.16.0: SALLUST. Two flat works on the Hirtius pattern, one per monograph,
+// run with --author=gaius-sallustius-crispus AFTER batch/migrate1160.js has
+// removed the launch catch-all `sallust-excerpts` and made him a chooser author.
+// Both are cited by ARABIC chapter and section, which apply_batch's
+// firstSection sorts on one scale (chapter + section/1000), so each work can
+// hold whole chapters and parts of chapters together. The array below is
+// rewritten for each new author; the Hirtius pair it held is in git (v1.13.0).
 const NEW = [
-  { id: 'bellum-gallicum-viii', label: 'De Bello Gallico VIII', labelIt: 'De Bello Gallico VIII' },
-  { id: 'bellum-alexandrinum', label: 'Bellum Alexandrinum', labelIt: 'Bellum Alexandrinum' }
+  { id: 'de-coniuratione-catilinae', label: 'De Coniuratione Catilinae', labelIt: 'De Coniuratione Catilinae' },
+  { id: 'bellum-iugurthinum', label: 'Bellum Iugurthinum', labelIt: 'Bellum Iugurthinum' }
 ];
 
 // Same guard as apply_batch.js: with git's core.autocrlf=true a checkout hands
