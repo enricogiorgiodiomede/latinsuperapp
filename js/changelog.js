@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.15.15', date: '10/10/2026', time: '15:47', tz: 'CEST',
+      v: '1.15.15', date: '10/10/2026', time: '14:56', tz: 'CEST',
       en: {
         added: [
           'LUCRETIUS BOOK VI GOES LINE FOR LINE, and that finishes the job: 10 excerpts, 200 verses, 402 lines of translation rewritten. All sixty Lucretius excerpts and all 1,018 of their verses are now on the same standard as Catullus, Plautus and Terence - the Latin marking the first verse and then every fifth, one line of English and one line of Italian for every line of Latin, so you can always see which verse you are on. Book VI is thunder, lightning, the magnet, and then the plague of Athens, on which the poem simply stops.',
