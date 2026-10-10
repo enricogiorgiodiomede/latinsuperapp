@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.16.0', date: '11/10/2026', time: '01:12', tz: 'CEST',
+      v: '1.16.0', date: '11/10/2026', time: '01:13', tz: 'CEST',
       en: {
         added: [
           'SALLUST BEGINS. Until today he had two excerpts and no chooser; the plan now is seventy, the same number as Caesar - thirty from the De Coniuratione Catilinae and forty from the Bellum Iugurthinum, five at a time, the Catilina first. He gets what Caesar has: a page to choose the work from, and the standard subsection numbers printed in the Latin and in both translations, so that section 4 of the Latin sits against section 4 of the English and the Italian.',
