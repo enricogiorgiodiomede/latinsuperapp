@@ -12,6 +12,37 @@
 
   var VERSIONS = [
     {
+      v: '1.15.13', date: '10/10/2026', time: 'TBD', tz: 'CEST',
+      en: {
+        added: [
+          'LUCRETIUS BOOK IV GOES LINE FOR LINE, the fourth of six: 10 excerpts, 166 verses, 332 lines of translation rewritten. Forty of the sixty excerpts are now on the standard the rest of the app uses, and two books remain. This is the book on how we know anything at all, which ends in the long attack on love, so it holds both the square tower that looks round from a distance and the catalogue of what men call the women they are besotted with.',
+          'PRO CAELIO, the five notes that still had the short early form, rewritten at length. What happened to everyone afterwards - Caelius acquitted and dead in a rising twelve years later, the boy prosecutor Atratinus outliving them all as consul, Clodia vanishing from the record on the day of this speech; why the slip of the tongue about her husband is loaded, and the Bona Dea trial that made Clodius and Cicero enemies; why Appius Claudius Caecus is the right ghost to summon, being the oldest voice in Latin oratory; the Stoic position Cicero declines in the paragraph about youth, and the much sterner version he wrote for his own son twelve years later; and the quarter-as, which was the real price of a bath and also, in a nickname Caelius had coined and Cicero never repeats, the price of Clodia.'
+        ],
+        changed: [
+          'Converting Book IV cleared three of the six standing translation-length warnings. Those excerpts had English and Italian running half as long again as the Latin, which the old prose blocks made easy to miss; set out one line per verse, the slack shows up at once and comes out in the writing.',
+          'Books V and VI, twenty excerpts and 374 verses, are still on the old standard. One book per release.',
+          '36 of Cicero\'s notes still carry the short early form: the Philippics, the In Pisonem and a handful of singles.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'IL LIBRO IV DI LUCREZIO PASSA ALLA DISPOSIZIONE RIGA PER RIGA, il quarto di sei: 10 estratti, 166 versi, 332 righe di traduzione riscritte. Quaranta dei sessanta estratti sono ormai sullo standard che usa tutto il resto dell\'app, e restano due libri. È il libro su come conosciamo qualcosa, che si chiude con il lungo attacco all\'amore: contiene dunque sia la torre quadrata che da lontano sembra rotonda sia il catalogo dei nomi che gli uomini danno alle donne di cui sono invaghiti.',
+          'PRO CAELIO: le cinque note che portavano ancora la forma breve delle origini, riscritte per esteso. Che cosa ne fu poi di tutti - Celio assolto e morto dodici anni dopo in una rivolta, il ragazzo accusatore Atratino che sopravvive a tutti e arriva al consolato, Clodia che sparisce dalle fonti il giorno di questa orazione; perché il lapsus sul marito è così carico, e il processo per la Bona Dea che rese Clodio e Cicerone nemici; perché Appio Claudio Cieco è il fantasma giusto da evocare, essendo la voce più antica dell\'oratoria latina; la posizione stoica che Cicerone rifiuta nel paragrafo sulla gioventù, e la versione molto più severa che scrisse per il proprio figlio dodici anni dopo; e il quarto di asse, che era il prezzo reale di un bagno e insieme, in un soprannome coniato da Celio e che Cicerone non ripete mai, il prezzo di Clodia.'
+        ],
+        changed: [
+          'La conversione del libro IV ha risolto tre dei sei avvisi permanenti sulla lunghezza delle traduzioni. In quegli estratti l\'inglese e l\'italiano correvano una volta e mezzo il latino, cosa che i vecchi blocchi di prosa rendevano facile non notare; disposti una riga per verso, l\'eccesso salta subito agli occhi e si elimina scrivendo.',
+          'I libri V e VI, venti estratti e 374 versi, sono ancora sul vecchio standard. Un libro per aggiornamento.',
+          '36 note di Cicerone portano ancora la forma breve delle origini: le Filippiche, l\'In Pisonem e qualche nota sparsa.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.15.12', date: '10/10/2026', time: '02:16', tz: 'CEST',
       en: {
         added: [

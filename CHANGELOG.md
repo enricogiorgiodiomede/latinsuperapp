@@ -6,6 +6,56 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.15.13] - 2026-10-10
+
+**LUCRETIUS BOOK IV, AND THE PRO CAELIO.** The fourth of six books moves onto the line-for-line standard -
+**166 verses, 332 lines of translation rewritten** - and the Cicero pass leaves the Verrines for the
+*Pro Caelio*, taking its five remaining short notes.
+
+### Converted - De Rerum Natura IV (10 excerpts, 166 verses)
+| excerpt | verses | markers |
+|---|---|---|
+| vv. 353-363 | 11 | 353, 355, 360 |
+| vv. 436-446 | 11 | 436, 440, 445 |
+| vv. 469-477 | 9 | 469, 470, 475 |
+| vv. 823-842 | 20 | 823, 825, 830, 835, 840 |
+| vv. 962-986 | 25 | 962, 965, 970, 975, 980, 985 |
+| vv. 1058-1078 | 21 | 1058, 1060, 1065, 1070, 1075 |
+| vv. 1121-1140 | 20 | 1121, 1125, 1130, 1135, 1140 |
+| vv. 1149-1170 | 22 | 1149, 1150, 1155, 1160, 1165, 1170 |
+| vv. 1192-1208 | 17 | 1192, 1195, 1200, 1205 |
+| vv. 1278-1287 | 10 | 1278, 1280, 1285 |
+
+- **Forty of sixty converted**, 646 verses of 1,020.
+- **The conversion cleared three standing translation-length warnings.** `lint_translations` had been
+  flagging vv. 436-446, 469-477 and 1149-1170 for months as English or Italian running about half as long
+  again as the Latin - the sort of slack a prose block hides and a line-for-line layout cannot. The count
+  went from 6 flags to 3, and the three that remain are in Cato, Pro Milone and Philippica I.
+- `lint_register` caught one new "in order that" in the English of vv. 823-842, now "so that";
+  `lint_ablatives` was clean for the first time in three books.
+
+### Changed - Cicero, Pro Caelio (5 notes)
+| excerpt | the new history paragraph |
+|---|---|
+| Pro Caelio 1 | what became of everyone: Caelius acquitted, tribune, praetor, dead in 48 BC; Atratinus consul in 34 BC and alive under Augustus; Clodia vanishing from the record; the *ludi Megalenses* and the Great Mother's temple above the court |
+| Pro Caelio 32 | Metellus Celer's sudden death in 59 BC and the poisoning rumour; the Bona Dea trial of 61 BC, Cicero's testimony, the bought acquittal and the exile that followed |
+| Pro Caelio 33-34 | Appius Claudius Caecus as the oldest voice in Latin oratory (the *Brutus* says his Pyrrhus speech was still readable); Quinta Claudia and the Great Mother's ship, invoked during the Great Mother's own festival |
+| Pro Caelio 42 | why a character defence answers nothing in a charge *de vi*, and why that did not matter in a Roman court; the Stoic line Cicero walks round, and the sterner version he wrote for his own son in the *De Officiis* twelve years later |
+| Pro Caelio 62 | the *quadrans* as the real entry fee at the baths; Quintilian preserving *quadrantaria Clytaemnestra*, the nickname Caelius coined and Cicero never repeats |
+
+- Grammar paragraphs on the seven potential subjunctives hanging from a single `si` in section 1, `quin`
+  after a negated verb of doubting, the anacoluthon that ends section 32, relatives of PURPOSE against a
+  future indicative in the same sentence, the `dum modo` proviso that turns a permission into a limit, and
+  a deliberate switch to the indicative for sarcasm at the end of section 62.
+- Lengths 1,192-1,377 characters to 3,220-3,377. **36 Cicero notes still carry the short early form.**
+
+### Still to do
+- **Lucretius V-VI: 20 excerpts, 374 verses.**
+
+Verification: **392 verbatim, 0 mismatched**; **check_verses 60/0** (40 line-for-line); **check_numbering
+148/0**; `lint_markdown`, `lint_register`, `lint_ablatives` all clean; `lint_translations` 6 flags -> 3.
+Cache-bust: `?v=203` -> `?v=204`.
+
 ## [1.15.12] - 2026-10-10
 
 **LUCRETIUS BOOK III, AND THE VERRINES FINISHED.** The third of six books moves onto the line-for-line
