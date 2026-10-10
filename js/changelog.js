@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.15.14', date: '10/10/2026', time: 'TBD', tz: 'CEST',
+      v: '1.15.14', date: '10/10/2026', time: '14:29', tz: 'CEST',
       en: {
         added: [
           'LUCRETIUS BOOK V GOES LINE FOR LINE, the fifth of six: 10 excerpts, 173 verses, 346 lines of translation rewritten. Fifty of the sixty excerpts are now on the standard the rest of the app uses, and one book is left. This is the history of the world: the first humans tougher than us and poorer, the first compacts not to harm one another, where the gods came from, and the closing judgement that everything we have was taught by practice and a mind that never tires.',
