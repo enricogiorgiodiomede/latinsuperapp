@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.15.11', date: '10/10/2026', time: 'TBD', tz: 'CEST',
+      v: '1.15.11', date: '10/10/2026', time: '02:00', tz: 'CEST',
       en: {
         added: [
           'LUCRETIUS BOOK II GOES LINE FOR LINE, the second of six. Ten more excerpts, 147 verses, 294 lines of translation rewritten, and the same rule as Book I: the Latin carries the first verse and then every fifth, and the English and the Italian run one line per verse with the same numbers on the same lines. Twenty of the sixty Lucretius excerpts are now on the standard the rest of the app uses.',
