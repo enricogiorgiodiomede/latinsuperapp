@@ -1344,3 +1344,29 @@ One release, **v1.15.9**, with two same-day follow-ups. Four pieces of reader fe
 **v1.15.9 follow-up -- a language button inside the welcome panel (20:32, cache v200).** The panel covers the banner, so a reader without English could not reach the language control. The same control now appears in the panel's corner (`I18n.renderLangControl(host)`, one shared `setLang`); after the reload the panel reappears translated, because it is only skipped once marked seen on close. Escape now has two levels (menu first, then panel) and the focus trap ignores hidden elements. Release time re-set from the latest commit (20:32).
 
 **Progress:** App at **v1.15.9 plus two follow-ups, cache v200**. 392 verbatim 0 mismatched, numbering 108/0, metres 177/177/0, verses 60/0, metre quotes 32/0, register and ablatives 0. Still outstanding: the Cicero backlog (54 notes), Catullus and Sallust expansion, and the Augustan Era (awaiting the user's permission).
+
+---
+
+## 2026-10-10
+
+*(End-of-day log, 23:55.)*
+
+Six releases, **v1.15.10 to v1.15.15**, one per book of the *De Rerum Natura*: Lucretius moves from his own sentence-block layout onto the line-for-line standard of Catullus, Plautus and Terence, and each release also carries a batch of the Cicero note-lengthening pass. An evening commit then moved the two scripts that did the work into `tools/`. **No change to any excerpt's Latin or to any difficulty ranking**: the Latin was not retyped and did not move, only the verse markers did.
+
+**Lucretius line-for-line -- all six books (cache v200 -> v206).** Lucretius was the last author numbered at each sentence opening with prose-paragraph translations, so a reader could not look down from a Latin verse to the line rendering it. Each excerpt now marks the first verse and every fifth, with both translations one line per verse. The lines were rewritten, not re-split, since hexameter word order cannot be carried into English or Italian; the old paragraphs supplied the content, not the breaks.
+- **v1.15.10, Book I (01:39 CEST):** 10 excerpts, 170 verses, 340 translation lines.
+- **v1.15.11, Book II (02:00):** 10 excerpts, 147 verses, 294 lines. vv. 646-659, 680 prints fourteen consecutive verses and one from thirty-one lines later, so an excerpt can now declare its verse numbers outright with a `nums` list; the markers read 646, 650, 655, 680.
+- **v1.15.12, Book III (02:16):** 10 excerpts, 163 verses, 326 lines. The two long speeches now keep their quotation marks on the verses that carry them, which the prose blocks could not show.
+- **v1.15.13, Book IV (12:25):** 10 excerpts, 166 verses, 332 lines. The layout exposed slack in three translations running about half as long again as the Latin; `lint_translations` went from 6 flags to 3 (the rest are in Cato, Pro Milone and Philippica I).
+- **v1.15.14, Book V (14:29):** 10 excerpts, 173 verses, 346 lines. vv. 1011-1027 prints 18 lines for 17 verses because of the `[...]` lacuna line; the converter now gives a gap line no marker, does not advance the count, and asserts both translations carry the gap in the same position.
+- **v1.15.15, Book VI (14:56):** 10 excerpts, 200 verses, 402 lines. vv. 738-755, 760-766 is the only excerpt both trimmed and gapped, so it takes an explicit `nums` array with a null at the gap. This finishes the job: all 60 excerpts and 1,018 verses are on the one standard.
+
+**Checkers.** `tools/check_verses.js` and `check_numbering` now divide the work by the form of the text rather than the author's name: the first keeps proving the Latin verbatim and owns the sentence-block standard, standing aside on rule 4 when it finds line-for-line translations, which `check_numbering` owns and detects by line count. In v1.15.14 `check_verses` was fixed to strip `[...]` from the translations as well as the Latin, having compared 17 lines against 18 and fallen back to the old block rule. Along the way `lint_ablatives` twice caught a new English line with a dangling ablative absolute (Books I and III) and `lint_register` one "in order that" (Book IV); all corrected.
+
+**Cicero note-lengthening.** Thirty-one notes rewritten at length in both languages, each keeping its analysis and gaining history and grammar paragraphs (roughly 1,050-1,400 characters to 2,900-3,650): three *De frumento*, five *De signis* and five *De suppliciis*, which **completes the Verrines** (all 25 notes); the five remaining *Pro Caelio* notes; all seven short *In Pisonem* notes, finishing that speech; and six of the seven in *Philippica I*. Read against the paragraphs they sit beside, five of the six Philippica I notes needed correcting for contradicting or repeating the existing analysis. The backlog fell from 54 to 25, all in the speeches.
+
+**Tools promoted (19:36).** `tools/apply_verse_lines.js` and `tools/extend_notes.js`, until then throwaway scripts in a session temp folder, are now in the repo. Both take `<author-slug> <batch.json>` instead of hardcoding Lucretius and Cicero, resolve the project root from `__dirname`, and print the checks to run next; the converter also asserts that every null in a `nums` list falls on a lacuna in the Latin. `extend_notes.js` states in its header that it cannot check a new paragraph against the one it is appended to. Both were verified idempotent against the current bank, and `tools/README.md` gained rows for them and for `check_verses` and `check_numbering`.
+
+Each release also updated CHANGELOG.md, PROGRESS.md, `js/changelog.js` and the cache-bust on all seven pages, and had its release time set from the actual commit.
+
+**Progress:** App at **v1.15.15, cache v206**. 392 verbatim 0 mismatched, check_verses 60/0 (all 60 line-for-line), check_numbering 168/0, metres 177/177/0, markdown, register and ablatives clean. Lucretius line-for-line complete. Still outstanding: the Cicero backlog (25 notes in the speeches), Catullus and Sallust expansion, and the Augustan Era (awaiting the user's permission).
