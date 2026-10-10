@@ -6,6 +6,56 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.15.12] - 2026-10-10
+
+**LUCRETIUS BOOK III, AND THE VERRINES FINISHED.** The third of six books moves onto the line-for-line
+standard - **163 verses, 326 lines of translation rewritten** - and the Cicero pass completes the Verrines
+with all five notes of *De suppliciis*, the twenty-first to twenty-fifth of twenty-five.
+
+### Converted - De Rerum Natura III (10 excerpts, 163 verses)
+| excerpt | verses | markers |
+|---|---|---|
+| vv. 1-13 | 13 | 1, 5, 10 |
+| vv. 14-30 | 17 | 14, 15, 20, 25, 30 |
+| vv. 59-73 | 15 | 59, 60, 65, 70 |
+| vv. 152-160 | 9 | 152, 155, 160 |
+| vv. 830-842 | 13 | 830, 835, 840 |
+| vv. 894-911 | 18 | 894, 895, 900, 905, 910 |
+| vv. 931-951 | 21 | 931, 935, 940, 945, 950 |
+| vv. 952-977 | 26 | 952, 955, 960, 965, 970, 975 |
+| vv. 995-1002 | 8 | 995, 1000 |
+| vv. 1053-1075 | 23 | 1053, 1055, 1060, 1065, 1070, 1075 |
+
+- **Thirty of the sixty Lucretius excerpts are now converted**, 480 verses of 1,020.
+- Two long speeches in this book (Nature's rebuke at 931-951 and 952-977) run as quoted direct speech across
+  twenty verses; the line-for-line layout keeps the opening and closing quotation marks on the verses that
+  carry them, which the old prose blocks could not show.
+- `lint_ablatives` again caught one new English line rendering a Latin ablative absolute as a dangling
+  English one ("their life once done"); attached as "when their life is done".
+
+### Changed - Cicero, the Verrines complete (5 notes, De suppliciis)
+| excerpt | the new history paragraph |
+|---|---|
+| In Verrem II.5.26-27 | the slave war of 73-71 BC and Verres's real claim to have kept Spartacus off Sicily; the eight-bearer litter as eastern royalty rather than Roman office |
+| In Verrem II.5.100 | the *lex Gabinia* three years later and Pompey clearing the sea in three months; the Great Harbour as the water where the Athenian expedition died in 413 BC, which Cicero never mentions |
+| In Verrem II.5.118-119 | the Lautumiae, the Athenian prison of 413 BC and still the provincial jail; the captains as allies and not citizens, which is the first step of the book's climb |
+| In Verrem II.5.162-163 | the *leges Porciae* and the *lex Sempronia* as the actual content of citizenship; *civis Romanus sum* in Acts, and Palmerston quoting it to the Commons in 1850 |
+| In Verrem II.5.169-170 | the six thousand crosses from Capua to Rome in 71 BC, two years before the trial, which is the register of *servitutis extremum summumque supplicium* |
+
+- Grammar paragraphs on the **iterative pluperfect-plus-imperfect** (whenever), the **historic infinitive**,
+  three stacked ablative absolutes, `quin` after a negative, the double dative with a person added,
+  **virtual oratio obliqua** (`quoniam se civem Romanum esse diceret` - Verres's reason, therefore
+  subjunctive), and `post conditam Messanam`.
+- **All 25 Verrine notes now carry the history and grammar paragraphs.** 41 Cicero notes still have the short
+  early form: the Philippics, the In Pisonem, the Pro Caelio and a few singles.
+
+### Still to do
+- **Lucretius IV-VI: 30 excerpts, 540 verses.** One book per release.
+
+Verification: **392 verbatim, 0 mismatched**; **check_verses 60/0** (30 line-for-line); **check_numbering
+138/0**; `lint_markdown`, `lint_register`, `lint_ablatives` clean. No em dashes, backticks or fake accents.
+Cache-bust: `?v=202` -> `?v=203`.
+
 ## [1.15.11] - 2026-10-10
 
 **LUCRETIUS BOOK II, AND ALL FIVE NOTES OF DE SIGNIS.** The second of six books moves onto the line-for-line

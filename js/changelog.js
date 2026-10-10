@@ -12,6 +12,35 @@
 
   var VERSIONS = [
     {
+      v: '1.15.12', date: '10/10/2026', time: 'TBD', tz: 'CEST',
+      en: {
+        added: [
+          'LUCRETIUS BOOK III GOES LINE FOR LINE, the third of six: 10 excerpts, 163 verses, 326 lines of translation rewritten. Half of Lucretius is now on the standard the rest of the app uses, and this is the half most people come for - the hymn to Epicurus, the proof that death is nothing to us, Nature standing up to deliver her rebuke, and the Sisyphus who is a candidate for office.',
+          'THE VERRINES ARE FINISHED. All five notes of De suppliciis are rewritten at length, and with them the last of the twenty-five. Verres claiming to have kept Spartacus off the island, which is a real defence and is why Cicero answers it by accounting for the three years hour by hour; the pirate squadron in the Great Harbour of Syracuse, three years before Pompey cleared the sea and in the same water where the Athenian expedition had died; the stone quarries that still stand at Syracuse, where the lictor sold a clean stroke of the axe to the parents waiting at the door; the two laws that were the real content of Roman citizenship, and what became of civis Romanus sum afterwards, in the Acts of the Apostles and in the House of Commons in 1850; and the six thousand crosses along the road from Capua that the jury had ridden past two years before, which is what Cicero is invoking when he calls crucifixion the punishment of slaves.'
+        ],
+        changed: [
+          'Books IV to VI, thirty excerpts and 540 verses, are still on the old standard. One book per release.',
+          '41 of Cicero\'s notes still carry the short early form, and the Verrines are no longer among them. What is left is the Philippics, the In Pisonem, the Pro Caelio and a handful of singles.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'IL LIBRO III DI LUCREZIO PASSA ALLA DISPOSIZIONE RIGA PER RIGA, il terzo di sei: 10 estratti, 163 versi, 326 righe di traduzione riscritte. Metà di Lucrezio è ormai sullo standard che usa tutto il resto dell\'app, ed è la metà per cui la maggior parte dei lettori arriva: l\'inno a Epicuro, la dimostrazione che la morte non è nulla per noi, la Natura che si alza a pronunciare il suo rimprovero, e il Sisifo che è un candidato alle cariche.',
+          'LE VERRINE SONO FINITE. Tutte e cinque le note del De suppliciis sono riscritte per esteso, e con esse l\'ultima delle venticinque. Verre che sostiene di aver tenuto Spartaco lontano dall\'isola, che è una difesa vera ed è il motivo per cui Cicerone gli risponde rendicontando i tre anni ora per ora; la squadra di pirati nel Porto Grande di Siracusa, tre anni prima che Pompeo ripulisse il mare e nella stessa acqua in cui era morta la spedizione ateniese; le latomie che a Siracusa esistono ancora, dove il littore vendeva un colpo netto di scure ai genitori in attesa alla porta; le due leggi che erano il contenuto concreto della cittadinanza romana, e che cosa ne fu poi del civis Romanus sum, negli Atti degli Apostoli e alla Camera dei Comuni nel 1850; e le seimila croci lungo la strada da Capua davanti alle quali la giuria era passata due anni prima, che è ciò che Cicerone evoca quando chiama la crocifissione il supplizio degli schiavi.'
+        ],
+        changed: [
+          'I libri dal IV al VI, trenta estratti e 540 versi, sono ancora sul vecchio standard. Un libro per aggiornamento.',
+          '41 note di Cicerone portano ancora la forma breve delle origini, e le Verrine non sono più fra queste. Restano le Filippiche, l\'In Pisonem, la Pro Caelio e qualche nota sparsa.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.15.11', date: '10/10/2026', time: '02:00', tz: 'CEST',
       en: {
         added: [
