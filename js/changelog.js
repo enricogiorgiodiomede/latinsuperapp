@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.15.12', date: '10/10/2026', time: 'TBD', tz: 'CEST',
+      v: '1.15.12', date: '10/10/2026', time: '02:16', tz: 'CEST',
       en: {
         added: [
           'LUCRETIUS BOOK III GOES LINE FOR LINE, the third of six: 10 excerpts, 163 verses, 326 lines of translation rewritten. Half of Lucretius is now on the standard the rest of the app uses, and this is the half most people come for - the hymn to Epicurus, the proof that death is nothing to us, Nature standing up to deliver her rebuke, and the Sisyphus who is a candidate for office.',
