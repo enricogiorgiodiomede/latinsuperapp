@@ -12,6 +12,37 @@
 
   var VERSIONS = [
     {
+      v: '1.15.11', date: '10/10/2026', time: 'TBD', tz: 'CEST',
+      en: {
+        added: [
+          'LUCRETIUS BOOK II GOES LINE FOR LINE, the second of six. Ten more excerpts, 147 verses, 294 lines of translation rewritten, and the same rule as Book I: the Latin carries the first verse and then every fifth, and the English and the Italian run one line per verse with the same numbers on the same lines. Twenty of the sixty Lucretius excerpts are now on the standard the rest of the app uses.',
+          'One of them needed the numbering taught a new trick. The excerpt that ends the discussion of the gods prints fourteen consecutive verses and then one brought in from far away, v. 680, so counting upward from the first verse would have labelled it 660 and been wrong. An excerpt can now declare its verse numbers outright, and that one does: the markers read 646, 650, 655 and 680.',
+          'THE VERRINES, FOURTH INSTALMENT: all five notes of De signis, the book about the stolen art. Cicero writing to Atticus in those same years to buy Greek statues for his own villa, which is what the pose of the plain Roman is worth; Heius of Messana, put on the stand although he had come to Rome to speak FOR Verres; what became of the Cupid that Mummius spared, carried off by Caligula and burned under Nero; Segesta\'s claim to be Rome\'s Trojan kin, which is why Scipio sent its Diana home with his name on the base; the slave kingdom at Henna that Cicero leaves carefully outside the frame; and the awkward fact that Marcellus, his model of restraint, is the man Livy blames for teaching Rome to loot Greek art in the first place.'
+        ],
+        changed: [
+          'Books III to VI, forty excerpts and 703 verses, are still on the old standard. One book per release.',
+          '46 of Cicero\'s notes still carry the short early form. After De signis the Verrines have one book left, and then the Philippics and the In Pisonem are what remain.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'IL LIBRO II DI LUCREZIO PASSA ALLA DISPOSIZIONE RIGA PER RIGA, il secondo di sei. Altri dieci estratti, 147 versi, 294 righe di traduzione riscritte, e la stessa regola del libro I: il latino porta il primo verso e poi ogni quinto, e l\'inglese e l\'italiano corrono una riga per verso con gli stessi numeri sulle stesse righe. Venti dei sessanta estratti di Lucrezio sono ormai sullo standard che usa tutto il resto dell\'app.',
+          'Uno di essi ha richiesto che alla numerazione si insegnasse una cosa nuova. L\'estratto che chiude il discorso sugli dèi stampa quattordici versi consecutivi e poi uno venuto da lontano, il v. 680: contando in avanti dal primo verso lo si sarebbe etichettato 660, e sarebbe stato sbagliato. Ora un estratto può dichiarare apertamente i propri numeri di verso, e quello lo fa: i segni dicono 646, 650, 655 e 680.',
+          'LE VERRINE, QUARTA PUNTATA: tutte e cinque le note del De signis, il libro sull\'arte rubata. Cicerone che in quegli stessi anni scrive ad Attico per comprare statue greche per la propria villa, il che dice quanto valga la posa del Romano semplice; Heio di Messana, messo sul banco dei testimoni benché fosse venuto a Roma a parlare A FAVORE di Verre; che fine fece il Cupido risparmiato da Mummio, portato via da Caligola e bruciato sotto Nerone; la pretesa di Segesta di essere parente troiana di Roma, ed è per questo che Scipione le rimandò la Diana con il proprio nome sulla base; il regno di schiavi di Enna, che Cicerone lascia con cura fuori dall\'inquadratura; e il fatto scomodo che Marcello, il suo modello di misura, è l\'uomo che Livio accusa di aver insegnato a Roma a saccheggiare l\'arte greca.'
+        ],
+        changed: [
+          'I libri dal III al VI, quaranta estratti e 703 versi, sono ancora sul vecchio standard. Un libro per aggiornamento.',
+          '46 note di Cicerone portano ancora la forma breve delle origini. Dopo il De signis alle Verrine resta un libro, e poi restano le Filippiche e l\'In Pisonem.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.15.10', date: '10/10/2026', time: '01:39', tz: 'CEST',
       en: {
         added: [

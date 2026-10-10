@@ -6,6 +6,59 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.15.11] - 2026-10-10
+
+**LUCRETIUS BOOK II, AND ALL FIVE NOTES OF DE SIGNIS.** The second of six books moves onto the line-for-line
+standard: 10 excerpts, **147 verses, 294 lines of translation rewritten**. Twenty of the sixty Lucretius
+excerpts are now on the standard the rest of the app uses.
+
+### Converted - De Rerum Natura II (10 excerpts, 147 verses)
+| excerpt | verses | markers |
+|---|---|---|
+| vv. 1-13 | 13 | 1, 5, 10 |
+| vv. 14-33 | 20 | 14, 15, 20, 25, 30 |
+| vv. 112-124 | 13 | 112, 115, 120 |
+| vv. 216-224 | 9 | 216, 220 |
+| vv. 251-262 | 12 | 251, 255, 260 |
+| vv. 352-366 | 15 | 352, 355, 360, 365 |
+| vv. 646-659, 680 | 15 | **646, 650, 655, 680** |
+| vv. 991-1012 | 22 | 991, 995, 1000, 1005, 1010 |
+| vv. 1023-1039 | 17 | 1023, 1025, 1030, 1035 |
+| vv. 1164-1174 | 11 | 1164, 1165, 1170 |
+
+### The transposed verse
+- **vv. 646-659, 680** prints fourteen consecutive verses and then one carried in from thirty-one lines
+  later. Counting upward from the first verse would have numbered the last line **660**, which is wrong.
+- The converter now accepts an explicit `nums` list per excerpt and asserts it starts at the cited first
+  verse, so a transposed line keeps its own number. The standing rule (a verse moved in from far away keeps
+  its number) was already in the citation and the old block marker `**655-659, 680.**`; now it is in the
+  text too.
+- `check_numbering` handles it without changes: its line-count rule is gated on the citation span matching
+  the line count, which it does not here, so only the first-marker and multiple-of-five rules apply, and
+  both hold.
+
+### Changed - Cicero, the Verrines (5 notes, De signis)
+| excerpt | the new history paragraph |
+|---|---|
+| In Verrem II.4.1-2 | Cicero writing to Atticus in the same years for Greek statues for his Tusculan villa - the line he defends is buying against taking, not knowing against not knowing |
+| In Verrem II.4.4-5 | Heius on the Messana deputation that came to speak FOR Verres, called as a witness anyway; and Praxiteles's Eros, spared by Mummius, taken by Caligula, returned by Claudius, taken by Nero and burned |
+| In Verrem II.4.77 | Segesta's Elymians as Trojan kin rather than allies, which is what Scipio's restitution meant; the inscription still legible, which is why the empty pedestal is an exhibit |
+| In Verrem II.4.106-107 | the delegation Rome sent to Henna after the prodigies of 133 BC; and Eunus's slave kingdom there from 135 BC, which the jury knew and Cicero leaves outside the frame |
+| In Verrem II.4.115 | Livy and Plutarch on Marcellus as the man who taught Rome to admire and loot Greek art - so the model of restraint started the fashion; and the distinction that saves the comparison, enemy city at the end of a siege against allied city in a year of peace |
+
+- Grammar paragraphs on the future imperative in `-tote`, `quin` + subjunctive after a negative (twice, doing
+  two different jobs), iterative `ut` + indicative, the impersonal passive of `persuadeo`, the personal
+  construction of `dicor`, the double dative, and the chiasmus of `conditas` and `captas`.
+- Lengths 1,055-1,306 characters to 2,880-3,246, both languages. **46 Cicero notes still carry the short
+  early form.**
+
+### Still to do
+- **Lucretius III-VI: 40 excerpts, 703 verses.** One book per release.
+
+Verification: **392 verbatim, 0 mismatched**; **check_verses 60/0** (20 now reported line-for-line);
+**check_numbering 128/0**; **check_metres 177/177/0**; `lint_markdown`, `lint_register` and `lint_ablatives`
+all clean. No em dashes, backticks or fake accents in the new text. Cache-bust: `?v=201` -> `?v=202`.
+
 ## [1.15.10] - 2026-10-10
 
 **LUCRETIUS MOVES ONTO THE LINE-FOR-LINE STANDARD, BOOK I FIRST, AND THE VERRINES REACH DE FRUMENTO.**
