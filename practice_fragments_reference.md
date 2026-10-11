@@ -74,7 +74,15 @@ against the numbered text so every excerpt opens and closes on a sentence.
 - A correction after a batch is applied goes through `tools/patch_fields.js` AND into the batch file.
 
 **CROSS-LINKS.** Wired both ways in v1.16.0: Cat. 5 <-> Pro Caelio 12 (Cicero's own double portrait of
-Catiline). **To wire when their chapters arrive:** Cat. 31.4-9 <-> In Catilinam I; Cat. 51 <-> In Catilinam
+Catiline). **Added in the 12/10 follow-up, from the user's notes:** Cat. 7 <-> Cat. 9; Cat. 7 and 9 <->
+De Rerum Natura V, vv. 1011-1027 (and 925-944 named in Cat. 7) - the user's reading: both say humans were
+harder once and softened, a good bargain for Lucretius, loss in every respect for Sallust; Cat. 3.3-4.5 and
+Cat. 7 -> De Agri Cultura, Praefatio. **The user's theses for the Catilina, to carry through the later
+notes:** the proem exists to justify leaving politics, and history is the one dutiful way to serve a corrupt
+state; Sallust is the man who tasted corruption and backed away, and the one who brought the monograph to
+Rome, picking episodes emblematic of the corruption; Catiline is its biggest symptom, a man with every
+gift spent the wrong way; the good days end with the Punic wars (no enemy to fear, wealth by trade); and
+Sallust stays readable where Tacitus, who takes the style to its limit, does not. **To wire when their chapters arrive:** Cat. 31.4-9 <-> In Catilinam I; Cat. 51 <-> In Catilinam
 IV.7 (whose English note says *Bellum Catilinae* (51) and whose Italian says *De Coniuratione Catilinae* -
 make them agree then); Cat. 51.20 (death as rest) <-> the Lucretius death passages; Cat. 9 already points
 forward to 51 and 52 in prose. De Oratore II.35-36 mentions "the Bellum Iugurthinum excerpt", singular -

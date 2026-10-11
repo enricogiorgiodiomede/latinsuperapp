@@ -112,6 +112,42 @@ check_verses 60/0; `lint_markdown`, `lint_register`, `lint_ablatives`, `lint_tra
 **548** (544 + 4). Cache-bust: `?v=206` -> `?v=208` (207 was spent on the preview check, before a wording fix in
 `js/changelog.js`; the token moves after the last JS edit).
 
+### Follow-up, 2026-10-12: the user's notes on the first Sallust batch
+
+The user read the five Catilina excerpts and sent a note on each. All five are folded into the analyses,
+English and Italian; no excerpt, translation or tag changes, and the release stays 1.16.0.
+
+- **Cat. 1** - a new paragraph, *Why a history book opens like this*: the chapter is the foundation for the
+  decision to leave politics. Power and riches do not last, so politics is not the best use of a life; what
+  the mind produces does, and for Sallust that is history, done with the intellect and, on his account, the
+  one way left to serve a corrupt state dutifully. Also the Aristotelian side of the mind-and-body sentence,
+  man as the animal that has reason.
+- **Cat. 3.3-4.5** - the confession is read the user's way: it neither denies nor justifies, it presents
+  **the man who tasted corruption and backed away from it**, which almost nobody else in the book does
+  (Cassius Dio's objection stays, as a qualification). **Sallust brought the monograph to Rome** as the
+  alternative to the annals, and his two episodes are chosen because they show Rome's corruption at work.
+  The last clause hands over to chapter 5. One caveat is mine and is stated in the note: Coelius Antipater
+  had written a single-war history some seventy years earlier.
+- **Cat. 5** - Catiline had everything he could have used for good and spent it for evil, pushed by the
+  vices of his time and by his own debts and conscience. New paragraph, *And yet the chapter can be read*:
+  for all the *brevitas*, *inconcinnitas* and asyndeton a prepared reader gets through it, which would not
+  be true of Tacitus, who takes the same style to its limit.
+- **Cat. 7** - two new paragraphs. *When did this Rome end?*: with the Punic wars won, Rome a sea power,
+  Carthage gone in 146 BC, the fear of an enemy over and wealth arriving by trade; glory replaced by money
+  and power as the thing competed for; Cato's line between farmer and trader (De Agri Cultura, Praefatio).
+  *Lucretius tells the same story the other way up*: De Rerum Natura V, vv. 925-944 and 1011-1027, strength
+  then softening, a good bargain for Lucretius and pure loss for Sallust.
+- **Cat. 9** - the page that stands immediately before everything goes wrong and lists each good quality so
+  that chapters 10-13 can reverse it; a new paragraph tying it to chapter 7, with the same Lucretius
+  reference.
+- **Cross-links wired both ways**: Cat. 7 <-> Cat. 9; Cat. 7 and 9 <-> De Rerum Natura V, vv. 1011-1027
+  (one sentence added to that note, tag untouched at 1.14.7); Cat. 3.3-4.5 and Cat. 7 -> Cato's preface.
+- Applied with `tools/patch_fields.js` from `batch/patch1160c.js`, which also keeps `batch/frags1160a.js`
+  and `frags1160b.js` in step. The five notes now run 5,700-6,800 characters.
+
+Verification: **398 verbatim, 0 mismatched**; check_context clean for 1.16.0; check_verses 60/0,
+check_numbering 168/0; `lint_markdown` clean. Cache-bust: `?v=208` -> `?v=209`.
+
 ## [1.15.15] - 2026-10-10
 
 **LUCRETIUS BOOK VI, AND PHILIPPICA I. THE LINE-FOR-LINE PROJECT IS FINISHED.** The last of the six books

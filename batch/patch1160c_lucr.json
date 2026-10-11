@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(De Rerum Natura V, vv. 1011-1027)",
+    "field": "analysis",
+    "find": "which is the point where an Epicurean is asked to get off.",
+    "replace": "which is the point where an Epicurean is asked to get off. **Sallust read the same two curves the other way.** In his sketch of early Rome (De Coniuratione Catilinae 7 and De Coniuratione Catilinae 9, both in this app) the hard first generations are the good ones, and the softening that comes with wealth and safety is loss and nothing else."
+  },
+  {
+    "cit": "(De Rerum Natura V, vv. 1011-1027)",
+    "field": "analysisIt",
+    "find": "ed è il punto in cui a un epicureo si chiede di scendere.",
+    "replace": "ed è il punto in cui a un epicureo si chiede di scendere. **Sallustio lesse le stesse due curve al contrario.** Nel suo abbozzo della Roma delle origini (De Coniuratione Catilinae 7 e De Coniuratione Catilinae 9, entrambi in quest'app) le prime generazioni, dure, sono quelle buone, e l'ammorbidimento che arriva con la ricchezza e la sicurezza è una perdita e nient'altro."
+  }
+]
