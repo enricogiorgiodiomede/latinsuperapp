@@ -20,7 +20,7 @@ against the numbered text so every excerpt opens and closes on a sentence.
 
 **De Coniuratione Catilinae (`de-coniuratione-catilinae`) - 30**
 - **v1.16.0 (DONE, 5):** ★1 · ★3.3-4.5 · ★5 (launch excerpt rebuilt whole, section 9 added, no break) · ★7 · ★9
-- v1.16.1: ★10 · ★11 · ★12 · ★13 (the digression is 7, 9, 10-13: six) · 14
+- **v1.16.1 (DONE, 5):** ★10 · ★11 · ★12 · ★13 (the digression is 7, 9, 10-13: six) · 14 (whole, with *pene* in 14.2 - the user's decision)
 - v1.16.2: 15 · ★20.2-8 · ★20.9-17 · 22 · 23
 - v1.16.3: ★25 Sempronia · 31.4-9 · 33 · 35 · 37
 - v1.16.4: 38 · ★51.1-8 · ★51.20-29 · ★52.7-12 · ★52.19-23
@@ -88,8 +88,13 @@ make them agree then); Cat. 51.20 (death as rest) <-> the Lucretius death passag
 forward to 51 and 52 in prose. De Oratore II.35-36 mentions "the Bellum Iugurthinum excerpt", singular -
 reword once there are several.
 
-**FLAGS FOR LATER BATCHES.** Cat. 14.2 has one crude anatomical word in a list (not an explicit stretch;
-raise it in the v1.16.1 report). Iug. 85.1-4, the opening of Marius's speech, was in the launch excerpt
+**Wired in v1.16.1, both ways:** Cat. 14 <-> In Catilinam II.7; Cat. 11 <-> In Verrem II.4.1-2. One way: Cat. 12 ->
+Verrines and In Pisonem; Cat. 14 -> Pro Caelio 12; Cat. 13 -> De Rerum Natura V, vv. 1011-1027; Philippica II.44 ->
+De Bello Civili II.42 (Curio's death). **Readings to remember:** 10.3 the page prints *primo imperi, deinde pecuniae*
+(manuscripts the reverse); 14.5 *molles etiam* (others *aetate*); boundaries 10.4 and 13.5 follow the page.
+*Virtus* is "virtue" where it stands against *vitium* (11.1, 12.1), "excellence" elsewhere.
+
+**FLAGS FOR LATER BATCHES.** Cat. 14.2 stays as printed (decided). Iug. 85.1-4, the opening of Marius's speech, was in the launch excerpt
 and is no longer in the bank - the user chose 85.10-17 + 85.29-37.
 
 ---

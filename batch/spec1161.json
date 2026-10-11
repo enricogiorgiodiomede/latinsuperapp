@@ -1,0 +1,28 @@
+{
+  "_comment": "v1.16.1 - De Coniuratione Catilinae 10-14: the dark half of the archaeology (10-13) and Catiline's following (14), each a whole chapter. sall.1 prints bare section digits, so every passage starts ON its digit. Two boundaries differ from Perseus (10.4 at Namque, not at pro his; 13.5 at animus, not at ad facinora) and two wordings are variants (10.3 primo imperi, deinde pecuniae against the manuscripts' pecuniae ... imperi; 14.5 molles etiam against aetate): the page is followed and both variants are explained in the notes.",
+  "cat.10": [
+    "sall.1",
+    "1 Sed ubi labore atque iustitia",
+    "crudele intolerandumque factum."
+  ],
+  "cat.11": [
+    "sall.1",
+    "1 Sed primo magis ambitio quam avaritia",
+    "moribus victoriae temperarent."
+  ],
+  "cat.12": [
+    "sall.1",
+    "1 Postquam divitiae honori esse coepere",
+    "id demum esset imperio uti."
+  ],
+  "cat.13": [
+    "sall.1",
+    "1 Nam quid ea memorem",
+    "quaestui atque sumptui deditus erat."
+  ],
+  "cat.14": [
+    "sall.1",
+    "1 In tanta tamque corrupta civitate",
+    "haec fama valebat."
+  ]
+}

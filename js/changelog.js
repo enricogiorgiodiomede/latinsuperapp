@@ -12,6 +12,41 @@
 
   var VERSIONS = [
     {
+      v: '1.16.1', date: '12/10/2026', time: '01:08', tz: 'CEST',
+      en: {
+        added: [
+          'FIVE MORE CHAPTERS OF SALLUST, 10 to 14 of the De Coniuratione Catilinae: the dark half of his history of Rome, and the return to Catiline. Chapter 10 is the hinge of the whole book - Carthage is destroyed, Rome has no one left to fear, and Fortune "begins to turn savage". Chapter 11 ranks the two vices (ambition is the better one) and blames Sulla, whose soldiers came home from Asia having learned to drink, to take lovers and to admire works of art, which Sallust counts as the worst of the three. Chapter 12 is the moment money becomes an honour, with a walk through Rome to compare the villas of the rich with the temples of the ancestors.',
+          'Chapter 13 closes the flashback with private citizens flattening mountains and building over the sea, people who eat before they are hungry and sleep before they are tired. Chapter 14 takes the story back to Catiline and calls the roll of his followers: gamblers, gluttons, debtors, perjurers, and above all the young, each bought with whatever he wanted most. It ends with a rumour that Sallust reports and then refuses to vouch for.',
+          'Every note shows how the chapters answer one another. Chapter 10 reverses chapter 9 line by line. The "belly" that belonged to cattle on the first page of the book now belongs to Romans. The prostitutes and horses the old Romans did without in chapter 7 turn up on Catiline\'s shopping list in chapter 14. And each note is tied to another author here: Cicero\'s own list of Catiline\'s friends, Verres the art thief, Lucretius on desire outrunning need.',
+          'FOUR MORE CICERO NOTES rewritten at length, in the Second Philippic. The speech was never actually delivered. Cicero was left out of the plot to kill Caesar and later joked that if he had been invited to "that splendid dinner" there would have been no leftovers, meaning Antony. Antony really was a bankrupt as a boy, through his father. And the morning he was sick on the tribunal became a textbook example for teachers of rhetoric.'
+        ],
+        changed: [
+          'Two places where the Latin printed here differs from what a school edition may have are now explained in the notes: in chapter 10 the source prints "first for power, then for money" where the manuscripts have the reverse, and in chapter 14 it prints "still soft" where others read "soft with youth".',
+          'The notes on In Catilinam II.7 and on the opening of the Verrine on the statues now point across to the new Sallust chapters that treat the same people.',
+          '16 of Cicero\'s notes in the speeches still carry the short early form: four in Philippica II, then IV and XIV.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'ALTRI CINQUE CAPITOLI DI SALLUSTIO, dal 10 al 14 del De Coniuratione Catilinae: la metà buia della sua storia di Roma, e il ritorno a Catilina. Il capitolo 10 è il cardine di tutto il libro: Cartagine è distrutta, Roma non ha più nessuno da temere, e la Fortuna "comincia a infierire". Il capitolo 11 mette in classifica i due vizi (l\'ambizione è il migliore) e dà la colpa a Silla, i cui soldati tornarono dall\'Asia dopo aver imparato a bere, ad amoreggiare e ad ammirare le opere d\'arte, che per Sallustio è la peggiore delle tre cose. Il capitolo 12 è il momento in cui il denaro diventa un onore, con una passeggiata per Roma a confrontare le ville dei ricchi con i templi degli antenati.',
+          'Il capitolo 13 chiude il flashback con dei privati che spianano i monti e costruiscono sul mare, gente che mangia prima di avere fame e dorme prima di essere stanca. Il capitolo 14 riporta il racconto a Catilina e fa l\'appello dei suoi seguaci: giocatori, crapuloni, indebitati, spergiuri, e soprattutto i giovani, comprati ciascuno con ciò che desiderava di più. Finisce con una diceria che Sallustio riferisce e per la quale poi rifiuta di garantire.',
+          'Ogni nota mostra come i capitoli si rispondano. Il capitolo 10 rovescia il capitolo 9 riga per riga. Il "ventre" che alla prima pagina del libro era del bestiame ora è dei Romani. Le prostitute e i cavalli di cui gli antichi Romani facevano a meno nel capitolo 7 ricompaiono nella lista della spesa di Catilina nel capitolo 14. E ogni nota è collegata a un altro autore presente qui: l\'elenco che Cicerone stesso fa degli amici di Catilina, Verre ladro d\'arte, Lucrezio sul desiderio che corre più veloce del bisogno.',
+          'ALTRE QUATTRO NOTE DI CICERONE riscritte per esteso, nella Seconda Filippica. L\'orazione non fu mai pronunciata davvero. Cicerone fu lasciato fuori dalla congiura contro Cesare e più tardi scherzò che, se fosse stato invitato a "quello splendido banchetto", non ci sarebbero stati avanzi, cioè Antonio. Antonio era davvero un fallito da ragazzo, per colpa del padre. E la mattina in cui vomitò sul tribunale divenne un esempio da manuale per i maestri di retorica.'
+        ],
+        changed: [
+          'Due punti in cui il latino stampato qui differisce da quello che può avere un\'edizione scolastica sono ora spiegati nelle note: nel capitolo 10 la fonte stampa "prima di potere, poi di denaro" dove i manoscritti hanno l\'ordine inverso, e nel capitolo 14 stampa "ancora molli" dove altri leggono "molli per l\'età".',
+          'Le note a In Catilinam II.7 e all\'apertura della Verrina sulle statue rimandano ora ai nuovi capitoli di Sallustio che trattano le stesse persone.',
+          '16 note di Cicerone nelle orazioni portano ancora la forma breve delle origini: quattro nella Seconda Filippica, poi la IV e la XIV.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.16.0', date: '11/10/2026', time: '01:13', tz: 'CEST',
       en: {
         added: [

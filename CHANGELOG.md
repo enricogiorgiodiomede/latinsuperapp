@@ -6,6 +6,67 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.16.1] - 2026-10-12
+
+**THE DARK HALF OF THE DIGRESSION, AND CATILINE'S FOLLOWING.** Five whole chapters of the *De Coniuratione
+Catilinae*, 10 to 14, which closes the "archaeology" at the six the plan gave it (7, 9, 10-13) and takes the
+story back to Catiline. Four more Philippica II notes go to the long form. Sallust is at 11 of 70.
+
+### Added - De Coniuratione Catilinae (5)
+| excerpt | what it is |
+|---|---|
+| 10 | The turning point: Carthage falls in 146 BC, *saevire fortuna ac miscere omnia coepit*, greed and ambition |
+| 11 | Ambition the better vice, greed the worse; Sulla's army in Asia learns *amare, potare ... mirari* |
+| 12 | *Postquam divitiae honori esse coepere*; villas like cities against the temples of the ancestors |
+| 13 | Mountains levelled and seas built over; appetite before need; the bridge back to Catiline |
+| 14 | The roll-call of his following, the young bought one by one, and the rumour Sallust will not vouch for |
+
+- **Chapter 14 is whole, crude word included** (*manu, ventre, pene*, 14.2): the user's decision. The note
+  explains why Sallust names the three parts of the body.
+- **The notes carry the user's theses from the start** instead of having them added afterwards: the end of the
+  fear of Carthage and wealth by sea (10), the redefinition of what is competed for (12), Catiline as the
+  biggest symptom and not the cause (10, 13, 14). Each is tied to its neighbours - 10 reverses 9 line by line,
+  12 is the negative of 9 and the explanation of the portrait in 5, 13 returns the belly of chapter 1, 14
+  inverts the *scorta* and horses of 7.
+- **Style, on the actual phrases**: the five-clause *ubi* period that collapses into one short main clause
+  (10.1), the double chiasmus of *rapere omnes, omnes trahere, domum alius, alius agros* (11.4), the runs of
+  historic infinitives (11, 12, 13), *variatio* inside a single list (10.4), and the one near-Ciceronian
+  period in the book so far, spent on a list of criminals (14.2-3).
+- **Two readings where the Latin Library and the manuscripts part**, both explained in the notes and both
+  found by `tools/diff_edition.js`: 10.3 *primo imperi, deinde pecuniae* (the manuscripts have the reverse;
+  editors swap it to agree with 11.1) and 14.5 *molles etiam* (others *aetate*). Two section boundaries
+  differ from Perseus by a clause (10.4, 13.5); the page is followed.
+
+### Cross-references to other authors
+- **Cicero, In Catilinam II.7** <-> Cat. 14: the same crowd listed by an orator and by an analyst. Wired both ways.
+- **Cicero, In Verrem II.4.1-2** <-> Cat. 11: the soldier who learns to admire art and then to steal it, and
+  Verres as the finished type. Wired both ways.
+- Cat. 12 -> the Verrines and the In Pisonem (provincials plundered); Cat. 14 -> Pro Caelio 12 (Caelius among
+  the young men); Cat. 13 -> De Rerum Natura V, vv. 1011-1027 (desire outrunning need); Cat. 10 -> Cato, and
+  the Scipio Nasica story.
+
+### Cicero - four Philippica II notes at length (16 left)
+**Philippica II.1, 28-29, 44, 63**, each with a history paragraph and a `Grammar notes.` paragraph, 3,140 to
+3,800 characters in English. New material: the speech was never delivered, went to Atticus in draft, and
+Juvenal's "divine Philippic"; Cicero left out of the plot, *tibi gratulor, mihi gaudeo*, and the joke about
+the leftovers of the Ides; Antony's bankrupt father, Curio's six million and his death in Africa (-> De
+Bello Civili II.42), the stepfather Cicero executed; Hippias the mime, Antony's Hercules, the riots of 47 BC,
+and Quintilian taking the sentence apart. Left: Philippica II (4), IV (5), XIV (7).
+
+### Tooling
+- `tools/check_context.js`: *Institutio Oratoria* and *Annals* / *Annali* join the titles a cross-reference
+  may name. Without them `Institutio Oratoria VIII.4.8` inside a Philippic note was read as "Philippica
+  VIII.4" and reported as a dangling reference.
+
+Translation pass over the touched work: the five earlier Catilina excerpts were re-read against the Latin in
+the v1.16.0 follow-up two days ago and are unchanged. One rendering to know about: *virtus* is "virtue" in
+11.1 and 12.1, where it stands against *vitium* and beside *innocentia*, and "excellence" in the proem; the
+Grammar notes of 12 say so.
+
+Verification: **403 verbatim, 0 mismatched** (398 + 5); check_sections, check_context, lint_register,
+lint_ablatives and lint_translations all report 0 to look at for 1.16.1; check_numbering 168/0, check_verses
+60/0; `lint_markdown` clean. Bank **553**. Cache-bust: `?v=209` -> `?v=210`.
+
 ## [1.16.0] - 2026-10-11
 
 **SALLUST BEGINS.** The author leaves the launch catch-all and gets what Caesar has: a work per monograph,

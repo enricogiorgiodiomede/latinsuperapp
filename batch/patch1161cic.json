@@ -1,0 +1,26 @@
+[
+  {
+    "cit": "(In Catilinam II.7)",
+    "field": "analysis",
+    "find": "Cicero makes it impossible to ask what those people wanted.",
+    "replace": "Cicero makes it impossible to ask what those people wanted. Sallust's own roll-call of the same following is in this app (De Coniuratione Catilinae 14): no less hostile, but sorted by motive, the ruined, the indebted, the convicted, the hired, and closed by a rumour he declines to vouch for."
+  },
+  {
+    "cit": "(In Catilinam II.7)",
+    "field": "analysisIt",
+    "find": "Cicerone rende impossibile chiedersi che cosa volesse quella gente.",
+    "replace": "Cicerone rende impossibile chiedersi che cosa volesse quella gente. L'appello che Sallustio fa dello stesso seguito è in quest'app (De Coniuratione Catilinae 14): non meno ostile, ma ordinato per movente, i rovinati, gli indebitati, i condannati, i prezzolati, e chiuso da una diceria per la quale rifiuta di garantire."
+  },
+  {
+    "cit": "(In Verrem II.4.1-2)",
+    "field": "analysis",
+    "find": "because he would not give up his Corinthian bronzes.",
+    "replace": "because he would not give up his Corinthian bronzes. Sallust traces the whole type back one generation, to Sulla's army in Asia, where Roman soldiers first learned to admire statues and paintings and then to steal them (De Coniuratione Catilinae 11, in this app)."
+  },
+  {
+    "cit": "(In Verrem II.4.1-2)",
+    "field": "analysisIt",
+    "find": "perché non voleva cedere i suoi bronzi di Corinto.",
+    "replace": "perché non voleva cedere i suoi bronzi di Corinto. Sallustio fa risalire l'intero tipo a una generazione prima, all'esercito di Silla in Asia, dove i soldati romani impararono per la prima volta ad ammirare statue e quadri e poi a rubarli (De Coniuratione Catilinae 11, in quest'app)."
+  }
+]

@@ -79,7 +79,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the **7** HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html version.html metre.html 404.html`)
-   whenever you change a JS/CSS file. **Currently `v=209`.** Bump it AFTER the last JS/CSS edit of the release, not before: in v1.15.0 the
+   whenever you change a JS/CSS file. **Currently `v=210`.** Bump it AFTER the last JS/CSS edit of the release, not before: in v1.15.0 the
    token moved first and js/changelog.js changed afterwards, so the preview browser cached a stale copy
    under the new token.
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
@@ -154,7 +154,7 @@ The full Italian translation pass is **DONE**.
 | **Gaius Julius Caesar** *(needsSelection, NESTED chooser, v1.11.0)* | Good Exercise | **Two groups, ten book-works**: `bellum-gallicum` = `bg-i`..`bg-vii`, `bellum-civile` = `bc-i`..`bc-iii`, all mapped in sources.json. Filled so far: **Book I 6** (1, 13, 29, 39, 40.10-15, 53) · **Book II 4** (1, 20-21, 25, 27-28) · **Book III 3** (13, 14, 16) · **Book IV 5** (5, 14-15, 17, 25, 33) · **Book V 7** (7, 14, 27, 30, 37, 44, 48) · **Book VI 6** (11, 13, 14, 16, 21, 28) · **Book VII 9** (3, 4, 14, 15, 28, 52, 73, 77.12-16, 89) · **BC I 1** (7) = **41**. **THE GALLIC WAR IS COMPLETE at its allocated 40**, all seven books closed; what remains of the campaign is the Civil War (29 new) and Hirtius (42 new). Empty books are hidden by `PracticeBank.works()` until filled. |
 | **Aulus Hirtius** *(needsSelection, flat chooser, v1.11.0)* | Manageable | **Two works**: `bellum-gallicum-viii` (BG VIII praef.) · `bellum-alexandrinum` (1, 2). Work ids deliberately distinct from Caesar's - sources.json is keyed by work id and shared across authors. (3) |
 | Titus Lucretius Carus | Very Difficult | DRN I.80-101 Iphigenia (1) |
-| **Gaius Sallustius Crispus** *(needsSelection, flat chooser, v1.16.0)* | START PRAYING, BOY | **THE PLAN: 70 = Caesar's count. De Coniuratione Catilinae 30 (v1.16.0-v1.16.5) then Bellum Iugurthinum 40 (v1.16.6-v1.16.13), 5 per release, stop and report after each.** Two works, `de-coniuratione-catilinae` and `bellum-iugurthinum`, cited by ARABIC chapter and section with `**n.**` subsections like Caesar. Filled so far: **Catilina 5** (1, 3.3-4.5, 5, 7, 9) · **Iugurtha 1** (85.10-17) = **6**. Full chapter list per release in `practice_fragments_reference.md`. |
+| **Gaius Sallustius Crispus** *(needsSelection, flat chooser, v1.16.0)* | START PRAYING, BOY | **THE PLAN: 70 = Caesar's count. De Coniuratione Catilinae 30 (v1.16.0-v1.16.5) then Bellum Iugurthinum 40 (v1.16.6-v1.16.13), 5 per release, stop and report after each.** Two works, `de-coniuratione-catilinae` and `bellum-iugurthinum`, cited by ARABIC chapter and section with `**n.**` subsections like Caesar. Filled so far: **Catilina 10** (1, 3.3-4.5, 5, 7, 9, 10, 11, 12, 13, 14) · **Iugurtha 1** (85.10-17) = **11**. Next: v1.16.2 = Cat. 15, 20.2-8, 20.9-17, 22, 23. Full chapter list per release in `practice_fragments_reference.md`. |
 | Gaius Valerius Catullus | Manageable | carmina 3 · 101 · 64.1-7 (3) |
 
 Caesar images live in `images_caesar/` (Figulus's portrait is Pythagoras - no ancient likeness of
