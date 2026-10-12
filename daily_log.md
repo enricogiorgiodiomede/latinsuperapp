@@ -1370,3 +1370,48 @@ Six releases, **v1.15.10 to v1.15.15**, one per book of the *De Rerum Natura*: L
 Each release also updated CHANGELOG.md, PROGRESS.md, `js/changelog.js` and the cache-bust on all seven pages, and had its release time set from the actual commit.
 
 **Progress:** App at **v1.15.15, cache v206**. 392 verbatim 0 mismatched, check_verses 60/0 (all 60 line-for-line), check_numbering 168/0, metres 177/177/0, markdown, register and ablatives clean. Lucretius line-for-line complete. Still outstanding: the Cicero backlog (25 notes in the speeches), Catullus and Sallust expansion, and the Augustan Era (awaiting the user's permission).
+
+---
+
+## 2026-10-11
+
+*(End-of-day log, 23:55.)*
+
+One release, **v1.16.0** (01:13 CEST): the Sallust expansion begins, and the Cicero note-lengthening pass continues alongside it.
+
+**Sallust gets two works (cache v208).** Sallust leaves the launch catch-all for two works behind a chooser, `de-coniuratione-catilinae` and `bellum-iugurthinum`, cited by arabic chapter and section with **n.** subsection markers in the Latin and in both translations, as Caesar and Hirtius are. The plan is 70 excerpts, Caesar's count: 30 from the *Catilina* and 40 from the *Iugurtha*, five per release through v1.16.13.
+- **Added:** *De Coniuratione Catilinae* 1, 3.3-4.5, 7 and 9.
+- **Rebuilt from the Latin Library, tags kept at 1.0.0:** *Cat.* 5 (now the whole chapter, section 9 added and the break inside it removed) and *Bellum Iugurthinum* 85.10-17 (one unbroken run in place of the stitched 85.1, 4, 10-13).
+- The notes follow style and the theme of Rome's corruption, and end on grammar.
+
+**Cicero note-lengthening.** Five more notes rewritten at length: *Pro Caelio* 12, 18 and 37-38, *In Pisonem* ch. XLI and *Philippica* I.11-12. The backlog fell from 25 to 20, all in *Philippica* II, IV and XIV.
+
+**Tooling.** `tools/sources.json` gained the Sallust entries; `strip`, `extract` and `verify` now handle bare-digit section numbers and unclosed paragraph quotes; the `.html` cache-name bug in `verify` and `check_verses` was fixed; `fetch_sections` reads Perseus lat3 milestones; `apply_batch` got an arabic chapter.section sort key. Two new tools: `tools/diff_edition.js` and `tools/patch_fields.js`. `tools/README.md`, `create_works.js`, `check_context.js` and `extend_notes.js` were touched to match, and `sitemap.xml` gained three URLs.
+
+The release also updated CHANGELOG.md, PROGRESS.md, README.md, `js/changelog.js`, `practice_fragments_reference.md` and the cache-bust on all seven pages; a second commit set the release time from the actual commit (01:13 CEST).
+
+**Progress:** App at **v1.16.0, cache v208**, bank 548. 398 verbatim 0 mismatched, check_numbering 168/0, check_verses 60/0, lints clean. Sallust at 6 of 70. Still outstanding: the rest of Sallust (v1.16.1 to v1.16.13), the Cicero backlog (20 notes, all Philippics), Catullus, and the Augustan Era (awaiting the user's permission).
+
+---
+
+## 2026-10-12
+
+*(End-of-day log, 23:55.)*
+
+A follow-up to v1.16.0 and one release, **v1.16.1**: the second Sallust batch and four more Cicero notes.
+
+**v1.16.0 follow-up -- the user's notes on the first Sallust batch (00:37 CEST, cache v209).** Folded into the five *Catilina* analyses in both languages, with no change to any excerpt, translation or tag.
+- ***Cat.* 1:** why a history book opens with philosophy -- the foundation for leaving politics, and history as the one dutiful way to serve a corrupt state.
+- ***Cat.* 3.3-4.5:** the man who tasted corruption and backed away; Sallust brings the monograph to Rome; the last clause hands over to chapter 5.
+- ***Cat.* 5:** every gift spent the wrong way, and a chapter that stays readable where Tacitus would not.
+- ***Cat.* 7 and 9:** tied to each other, to the end of the Punic wars, to Cato's preface and to Lucretius V, vv. 925-944 and 1011-1027, whose note now points back.
+
+**v1.16.1 -- *Catilina* 10-14 (01:08 CEST, cache v210).** *De Coniuratione Catilinae* 10, 11, 12, 13 and 14, each a whole chapter: the dark half of the digression on Rome's past (the fall of Carthage, Sulla's army in Asia, wealth as an honour, mountains levelled and seas built over) and the roll-call of Catiline's following. Chapter 14 is kept whole, 14.2 as printed. The notes carry the user's theses from the start and tie each chapter to its neighbours and to other authors in the app; cross-links are wired both ways (*Cat.* 14 with *In Catilinam* II.7, *Cat.* 11 with *In Verrem* II.4.1-2). Two readings where the Latin Library and the manuscripts part (10.3 and 14.5) are explained in the notes.
+
+**Cicero note-lengthening.** *Philippica* II.1, 28-29, 44 and 63 lengthened. 16 short notes remain: *Philippica* II 4, IV 5, XIV 7.
+
+**Tooling.** `tools/check_context.js` now recognises *Institutio Oratoria* and *Annals* as titles.
+
+Both commits updated CHANGELOG.md, PROGRESS.md, `js/changelog.js`, `practice_fragments_reference.md` and the cache-bust on all seven pages.
+
+**Progress:** App at **v1.16.1, cache v210**, bank 553. 403 verbatim 0 mismatched, check_numbering 168/0, check_verses 60/0, every checker 0 for 1.16.1. Sallust at 11 of 70. Still outstanding: the rest of Sallust (next is v1.16.2), the Cicero backlog (16 notes, all Philippics), Catullus, and the Augustan Era (awaiting the user's permission).
