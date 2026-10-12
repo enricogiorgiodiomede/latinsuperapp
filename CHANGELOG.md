@@ -67,6 +67,46 @@ Verification: **403 verbatim, 0 mismatched** (398 + 5); check_sections, check_co
 lint_ablatives and lint_translations all report 0 to look at for 1.16.1; check_numbering 168/0, check_verses
 60/0; `lint_markdown` clean. Bank **553**. Cache-bust: `?v=209` -> `?v=210`.
 
+### Follow-up, 2026-10-13: Cicero for school - Pro Caelio 47-50 and De Oratore I.30-34
+
+An unplanned addition at the user's request, kept inside 1.16.1: the passages are being read at school.
+**Three new excerpts and one rebuilt**, each with a long note (5,700 to 7,400 characters): setting, argument,
+rhetoric, history, textual note, grammar.
+
+| excerpt | status | what it is |
+|---|---|---|
+| Pro Caelio 47-48 | new (my pick) | Caelius's working day, what Baiae shouts, and the premise: *quando ... fuit, ut, quod licet, non liceret?* |
+| Pro Caelio 49-50 | new (the user's) | The one-sentence portrait of the unnamed woman, *adulter an amator*, and the dilemma put to Clodia by name |
+| De Oratore I.30-31 | new | Crassus opens the praise of eloquence: *tenere hominum mentis*, and the three *quid est tam ... quam* |
+| De Oratore I.32-34 | **rebuilt**, tag stays 1.10.0 | The rest of the speech: the orator as protector, *sermo facetus*, what sets us above the beasts, the founding of cities, *pergite, adulescentes* |
+
+- **Why 47-48 as the free choice**: it is the first half of the argument that 49-50 completes (prostitutes were
+  never forbidden; this woman lives like one), and it ends on *mulierem nullam nominabo*, which 50 breaks in
+  its first line. The two read as one continuous passage.
+- **De Oratore I.32-33 was already in the bank** (v1.10.0), starting half-way through section 32. The user
+  asked for I.30-34 in two parts, so it was taken out (`batch/remove1161b.js`) and put back through the
+  pipeline as **I.32-34**: the whole of section 32 in front, section 34 behind. Its translation of 32b-33 is
+  unchanged and its five paragraphs of analysis are kept inside the new note. Two things in the old note were
+  corrected: "in the year of the conference of Luca" (Luca was 56 BC, the book is 55) and "Orator 120, in this
+  release". The pointer in the note on I.19-20 now says I.32-34.
+- **Emendations, declared on the fragment and in the note**: Pro Caelio 47 `nihihne` -> `nihilne` (not a
+  word) and the missing space in `solum,verum`; De Oratore I.33 `Vt` -> `Ut` as before. Left as the source
+  prints them and explained: *ipse inspectante* (most editions *ipso*), *provocare integer* (others
+  *improbos*), the bracketed *[coetus]*, and the opening quotation mark in I.30 that the excerpt never closes
+  because Crassus is still speaking.
+- **Cross-references**: Pro Caelio 47-48 <-> Sallust Cat. 13 (Baiae and the villas on the bay) and De Oratore
+  I.32-34 <-> Sallust Cat. 1 (what sets us above the animals: speech for the orator, mind for the historian),
+  both wired both ways. One way: 49-50 -> Ad Familiares XIV.4 and Catullus; I.30-31 -> I.19-20 and the Sallust
+  excerpts (*concinnitas* against *inconcinnitas*); I.32-34 -> De Rerum Natura V, vv. 1011-1027 and Orator 120.
+- **Not done**: the standing re-read of every OLDER translation in the two touched works (eight in the Pro
+  Caelio, seven in the De Oratore). The automatic checks pass for all of them; the clause-by-clause pass is
+  owed and is flagged to the user.
+- Cicero is at **219** (Pro Caelio 10, De Oratore 9). Bank **556**.
+
+Verification: **406 verbatim, 0 mismatched** (403 + 4 new or rebuilt - 1 removed); check_context,
+lint_register and lint_ablatives report nothing for the four; lint_translations unchanged at 3 old flags;
+check_numbering 168/0, check_verses 60/0; `lint_markdown` clean. Cache-bust: `?v=210` -> `?v=211`.
+
 ## [1.16.0] - 2026-10-11
 
 **SALLUST BEGINS.** The author leaves the launch catch-all and gets what Caesar has: a work per monograph,

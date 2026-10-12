@@ -1,0 +1,23 @@
+{
+  "_comment": "v1.16.1 follow-up - Cicero for school: Pro Caelio 47-48 and 49-50, De Oratore I.30-31 and I.32-34 (the last replaces the v1.10.0 I.32-33). Source misprint in cael 47: nihihne for nihilne, emended on the fragment.",
+  "cael.47": [
+    "cael",
+    "An hic, si sese isti vitae dedidisset",
+    "tantum in medio relinquam."
+  ],
+  "cael.49": [
+    "cael",
+    "Si quae non nupta mulier domum suam",
+    "ad se defendendum facultatem dabit."
+  ],
+  "deor.30": [
+    "oratore1",
+    "Qui cum ita esset exorsus",
+    "senatus gravitatem unius oratione converti?"
+  ],
+  "deor.32": [
+    "oratore1",
+    "Quid tam porro regium",
+    "rei publicae emolumento esse possitis."
+  ]
+}

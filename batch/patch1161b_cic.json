@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(De Oratore I.19-20)",
+    "field": "analysis",
+    "find": "**De Oratore I.32-33**, in this app,",
+    "replace": "**De Oratore I.32-34**, in this app,"
+  },
+  {
+    "cit": "(De Oratore I.19-20)",
+    "field": "analysisIt",
+    "find": "Il **De Oratore I.32-33** dell'app",
+    "replace": "Il **De Oratore I.32-34** dell'app"
+  }
+]

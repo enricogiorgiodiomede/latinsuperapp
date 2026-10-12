@@ -99,6 +99,19 @@ and is no longer in the bank - the user chose 85.10-17 + 85.29-37.
 
 ---
 
+## Cicero - school additions [v1.16.1 follow-up, 2026-10-13]
+
+The user is reading these at school and asked for them as an emergency, inside v1.16.1: **Pro Caelio 47-48**
+(my pick, the lead-in) and **49-50** (theirs), and **De Oratore I.30-34 in two parts**, I.30-31 new and the old
+v1.10.0 **I.32-33 rebuilt as I.32-34** (tag kept). Long notes in the plain Cicero shape ("a comprehensive
+analysis"): setting, argument, rhetoric, history, `A note on the text.`, `Grammar notes.` - 5,700 to 7,400
+characters. *Meretrix* is "prostitute" / "prostituta" throughout. Source misprint emended: Pro Caelio 47
+*nihihne* -> *nihilne*. **Perseus is no second witness for Cicero through `fetch_sections.js`** (a section is
+the leaf there, so it finds no sections): the passages were proofread by reading. **Owed:** the
+clause-by-clause re-read of the fifteen older translations in the two works. Cicero 219, bank 556.
+
+---
+
 ## Titus Lucretius Carus (`titus-lucretius-carus`) - needsSelection, one work per book [v1.14.0, 2026-09-13]
 
 **THE PLAN (the user, 13/09/2026): 60 excerpts, 10 per book**, counts adjustable where a book has more good

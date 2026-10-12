@@ -1,0 +1,26 @@
+[
+  {
+    "cit": "(De Coniuratione Catilinae 13)",
+    "field": "analysis",
+    "find": "the *piscinarii*, the fishpond set.",
+    "replace": "the *piscinarii*, the fishpond set. Baiae, the resort on that bay, is where Cicero sets the parties of Clodia (Pro Caelio 47-48 and Pro Caelio 49-50, in this app)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 13)",
+    "field": "analysisIt",
+    "find": "i *piscinarii*, quelli delle peschiere.",
+    "replace": "i *piscinarii*, quelli delle peschiere. Baia, la località di villeggiatura su quel golfo, è il luogo in cui Cicerone ambienta le feste di Clodia (Pro Caelio 47-48 e Pro Caelio 49-50, in quest'app)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 1)",
+    "field": "analysis",
+    "find": "the human being as the animal that has reason.",
+    "replace": "the human being as the animal that has reason. Cicero's Crassus gives the other classic answer to what sets us above the beasts, and it is speech (De Oratore I.32-34, in this app)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 1)",
+    "field": "analysisIt",
+    "find": "l'essere umano come animale dotato di ragione.",
+    "replace": "l'essere umano come animale dotato di ragione. Il Crasso di Cicerone dà l'altra risposta classica alla domanda su che cosa ci metta al di sopra delle bestie, ed è la parola (De Oratore I.32-34, in quest'app)."
+  }
+]
