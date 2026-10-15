@@ -1,0 +1,38 @@
+[
+  {
+    "cit": "(In Catilinam I.1-2)",
+    "field": "analysis",
+    "find": "Cicero's characteristic *tricolon crescens*.",
+    "replace": "Cicero's characteristic *tricolon crescens*. Sallust puts the same opening words, turned the other way, into Catiline's own mouth eighteen months earlier, urging his followers to stop putting up with the nobility (De Coniuratione Catilinae 20.9-17, in this app)."
+  },
+  {
+    "cit": "(In Catilinam I.1-2)",
+    "field": "analysisIt",
+    "find": "il caratteristico *tricolon crescens* ciceroniano.",
+    "replace": "il caratteristico *tricolon crescens* ciceroniano. Sallustio mette le stesse parole d'apertura, girate dall'altra parte, in bocca a Catilina diciotto mesi prima, mentre spinge i suoi a non sopportare più la nobiltà (De Coniuratione Catilinae 20.9-17, in quest'app)."
+  },
+  {
+    "cit": "(De Amicitia 20)",
+    "field": "analysis",
+    "find": "responding to the same things.",
+    "replace": "responding to the same things. Sallust gives Catiline a definition of the same shape with the warmth taken out: *idem velle atque idem nolle*, to want and refuse the same things, which is friendship reduced to complicity (De Coniuratione Catilinae 20.2-8, in this app)."
+  },
+  {
+    "cit": "(De Amicitia 20)",
+    "field": "analysisIt",
+    "find": "che rispondono alle stesse cose.",
+    "replace": "che rispondono alle stesse cose. Sallustio dà a Catilina una definizione della stessa forma da cui è stato tolto il calore: *idem velle atque idem nolle*, volere e non volere le stesse cose, cioè l'amicizia ridotta a complicità (De Coniuratione Catilinae 20.2-8, in quest'app)."
+  },
+  {
+    "cit": "(In Catilinam IV.3)",
+    "field": "analysis",
+    "find": "in front of men who have to vote within the hour.",
+    "replace": "in front of men who have to vote within the hour. Nineteen years later he quoted the same sentence about himself at the end of the Second Philippic, raising the stakes from consul to old man (Philippica II.118-119, in this app)."
+  },
+  {
+    "cit": "(In Catilinam IV.3)",
+    "field": "analysisIt",
+    "find": "davanti a uomini che devono votare entro un'ora.",
+    "replace": "davanti a uomini che devono votare entro un'ora. Diciannove anni dopo citò la stessa frase su se stesso alla fine della Seconda Filippica, alzando la posta da console a vecchio (Philippica II.118-119, in quest'app)."
+  }
+]

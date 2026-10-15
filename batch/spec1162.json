@@ -1,0 +1,28 @@
+{
+  "_comment": "v1.16.2 - De Coniuratione Catilinae 15, 20.2-8, 20.9-17, 22, 23. sall.1 bare section digits: start ON the digit. Page quirks handled in batch/frags1162.js: a doubled \"4\" in 15 (fix), paragraph-opening quotes in the speech of 20 (sall.1 joins _paragraphQuotes; fix), plus-sign daggers in 22 (emend). Boundaries that differ from Perseus, page followed: 15.4/5 (Perseus agrees on 5 at Igitur), 20.4, 20.10, 22.4.",
+  "cat.15": [
+    "sall.1",
+    "1 Iam primum adulescens Catilina",
+    "vultuque vecordia inerat."
+  ],
+  "cat.20a": [
+    "sall.1",
+    "2 \"Ni virtus fidesque vostra",
+    "repulsas, iudicia, egestatem."
+  ],
+  "cat.20b": [
+    "sall.1",
+    "9 Quae quousque tandem patiemini",
+    "imperare parati estis.\""
+  ],
+  "cat.22": [
+    "sall.1",
+    "1 Fuere ea tempestate, qui dicerent",
+    "parum comperta est."
+  ],
+  "cat.23": [
+    "sall.1",
+    "1 Sed in ea coniuratione fuit Q. Curius",
+    "invidia atque superbia post fuere."
+  ]
+}

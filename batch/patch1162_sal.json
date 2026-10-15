@@ -1,0 +1,26 @@
+[
+  {
+    "cit": "(De Coniuratione Catilinae 13)",
+    "field": "analysis",
+    "find": "the *piscinarii*, the fishpond set.",
+    "replace": "the *piscinarii*, the fishpond set. Catiline will throw the same mountains and seas at the rich in his speech to the conspirators (De Coniuratione Catilinae 20.9-17)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 13)",
+    "field": "analysisIt",
+    "find": "i *piscinarii*, quelli delle peschiere.",
+    "replace": "i *piscinarii*, quelli delle peschiere. Catilina rinfaccerà ai ricchi gli stessi monti e mari nel suo discorso ai congiurati (De Coniuratione Catilinae 20.9-17)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 85.10-17)",
+    "field": "analysis",
+    "find": "brings a disease of his own.",
+    "replace": "brings a disease of his own. The same contempt for new men nearly kept Cicero from the consulship of 63 BC, and only fear overcame it (De Coniuratione Catilinae 23, in this app)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 85.10-17)",
+    "field": "analysisIt",
+    "find": "porta una malattia sua.",
+    "replace": "porta una malattia sua. Lo stesso disprezzo per gli uomini nuovi per poco non tenne Cicerone lontano dal consolato del 63 a.C., e solo la paura lo vinse (De Coniuratione Catilinae 23, in quest'app)."
+  }
+]

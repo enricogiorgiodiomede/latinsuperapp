@@ -35,7 +35,7 @@ if (!slug || !batch) {
 
 // A final paragraph that opens like one of these is a footnote about the source
 // text, not part of the argument, so the history paragraph goes before it.
-const SOURCE_NOTE = /^(A note on the text|One oddity of the source|The source prints|One thing to know about the source|One small textual point|The Latin Library prints|Una stranezza della fonte|La fonte stampa|Una cosa da sapere sulla fonte|Un piccolo punto testuale|Una nota sul testo)/;
+const SOURCE_NOTE = /^(A note on the text|One note on the source text|One oddity of the source|The source prints|One thing to know about the source|One small textual point|The Latin Library prints|Una stranezza della fonte|La fonte stampa|Una cosa da sapere sulla fonte|Un piccolo punto testuale|Una nota sul testo)/;
 
 const JOBS = JSON.parse(fs.readFileSync(batch, 'utf8'));
 let src = fs.readFileSync('js/fragments.js', 'utf8');

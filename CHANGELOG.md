@@ -6,6 +6,53 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.16.2] - 2026-10-15
+
+**CATILINE'S CRIMES, HIS SPEECH, THE OATH AND THE LEAK.** Five excerpts of the *De Coniuratione Catilinae* -
+chapter 15, the speech of chapter 20 in two halves, chapters 22 and 23 - and the last four Philippica II
+notes, which finishes the Second Philippic. Sallust is at 16 of 70.
+
+### Added - De Coniuratione Catilinae (5)
+| excerpt | what it is |
+|---|---|
+| 15 | His crimes *contra ius fasque*, the son killed for Aurelia Orestilla, and a guilty conscience written on a body |
+| 20.2-8 | The speech, first half: *idem velle atque idem nolle*, and the grievance - a powerful few own the state |
+| 20.9-17 | Second half: *Quae quousque tandem patiemini?*, the rich described in Sallust's own words, *vel imperatore vel milite me utimini* |
+| 22 | The blood-and-wine oath, reported, doubted, and left unconfirmed in the first person |
+| 23 | Curius promises Fulvia *maria montisque*, she talks, and fear gets the new man Cicero elected |
+
+- **The user's theses are in from the start**: *contra ius fasque* tied back to chapter 13 (against nature) and
+  Catiline as the extreme case of a corrupt society (15); Sallust's first-person verdicts and how he marks a
+  rumour (15, 22); the symptom speaking the diagnosis - the speech is built out of the digression (20).
+- **Cross-references, all wired both ways**: Cat. 20.9-17 <-> In Catilinam I.1-2 (*quousque tandem*, given to
+  Catiline first); Cat. 20.2-8 <-> De Amicitia 20 (friendship with the virtue taken out); Cat. 15 <-> De Rerum
+  Natura III, vv. 152-160 (the mind written on the body); Cat. 23 <-> Bellum Iugurthinum 85.10-17 (contempt for
+  new men); Cat. 13 <-> Cat. 20.9-17 (the mountains and seas come back in Catiline's mouth).
+- **Page quirks, all handled and declared**: the Latin Library numbers both of 15.4 and 15.5 "4" (`fix`
+  renumbers the marker; the words are untouched); the speech of chapter 20 opens each paragraph with an
+  unclosed quotation mark, so **sall.1 joins `_paragraphQuotes`** and the marks go with `fix`, as in
+  Iug. 85; the daggers round the corrupt *dictitare* (22.2) are printed as plus signs and restored by
+  `emend`. Boundaries that differ from Perseus by a clause (20.4, 20.10, 22.4) follow the page.
+
+### Cicero - the Second Philippic is finished (12 short notes left)
+**Philippica II.67, 85-86, 104, 118-119** lengthened, 3,440-3,850 characters in English: Pompey's house in the
+Carinae and the actress Cytheris (Gallus's Lycoris); the Lupercalia, Plutarch and Shakespeare's Casca, the
+refusal entered in the calendar; Varro's library, proscription and escape; and *hoc ipso in templo* - the
+temple of Concord, where Cicero spoke on 5 December 63, quoting his own Fourth Catilinarian (wired both
+ways with In Catilinam IV.3). Left: Philippica IV (5) and XIV (7).
+
+### Tooling
+- `tools/extend_notes.js` also recognises *One note on the source text* as a closing footnote.
+- `tools/check_context.js` knows *In Catilinam* as a title: without it the pointer to In Catilinam IV.3 in a
+  Philippic note read as "Philippica IV.3".
+
+Translation pass over the touched work: the ten earlier Catilina excerpts were re-read against the Latin in the
+two follow-ups of the last four days and are unchanged.
+
+Verification: **412 verbatim, 0 mismatched** (407 + 5); check_sections, check_context, lint_register,
+lint_ablatives and lint_translations report 0 for 1.16.2; check_numbering 168/0, check_verses 60/0;
+`lint_markdown` clean. Bank **562**. Cache-bust: `?v=212` -> `?v=213`.
+
 ## [1.16.1] - 2026-10-12
 
 **THE DARK HALF OF THE DIGRESSION, AND CATILINE'S FOLLOWING.** Five whole chapters of the *De Coniuratione

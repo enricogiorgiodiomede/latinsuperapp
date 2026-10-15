@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(De Rerum Natura III, vv. 152-160)",
+    "field": "analysis",
+    "find": "is exactly where modern medicine stands.",
+    "replace": "is exactly where modern medicine stands. Sallust paints the same mind written on a body in Catiline after his crimes: bloodless colour, foul eyes, a walk now quick and now slow (De Coniuratione Catilinae 15, in this app)."
+  },
+  {
+    "cit": "(De Rerum Natura III, vv. 152-160)",
+    "field": "analysisIt",
+    "find": "è esattamente la posizione della medicina moderna.",
+    "replace": "è esattamente la posizione della medicina moderna. Sallustio dipinge la stessa mente scritta su un corpo in Catilina dopo i suoi delitti: colorito esangue, occhi torvi, un'andatura ora rapida ora lenta (De Coniuratione Catilinae 15, in quest'app)."
+  }
+]

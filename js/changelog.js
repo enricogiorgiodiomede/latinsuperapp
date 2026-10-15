@@ -12,6 +12,37 @@
 
   var VERSIONS = [
     {
+      v: '1.16.2', date: '15/10/2026', time: '15:54', tz: 'CEST',
+      en: {
+        added: [
+          'FIVE MORE EXCERPTS OF SALLUST\'S CATILINA. Chapter 15 returns to Catiline himself: the crimes of his youth "against human and divine law", the son he is believed to have killed to clear the way for a new marriage, and a guilty conscience you can see in his face and in his walk. Chapter 20 is his secret speech to the conspirators, in two halves - and Sallust gives him a real grievance and very good lines, including a famous definition of friendship as wanting and refusing the same things.',
+          'The second half of that speech opens with the words Cicero would fire at Catiline a year and a half later, "How long...?", turned the other way round, and it attacks the rich in the very words Sallust used a few chapters earlier. Chapter 22 is the story that the conspirators swore an oath over blood mixed with wine - which Sallust reports, doubts, and refuses to vouch for. Chapter 23 is how the plot leaked: a bankrupt conspirator promised his mistress "seas and mountains" (the origin of the Italian "promettere mari e monti"), she told everyone, and the scare got Cicero elected consul.',
+          'THE SECOND PHILIPPIC IS FINISHED: its last four notes rewritten at length. Antony buys up the dead Pompey\'s house and lets it be looted; the morning of the Lupercalia when he offered Caesar a crown, the scene Shakespeare took from Plutarch; Antony squatting in the villa of Varro, the most learned man in Rome; and Cicero\'s last page, where he quotes a speech he made against Catiline nineteen years earlier and says he would welcome death.'
+        ],
+        changed: [
+          'Every new Sallust note is linked to the other passages in the app that answer it: Cicero\'s First Catilinarian, Cicero\'s own definition of friendship, Lucretius on fear showing in the body, and Marius\'s speech against the nobles\' contempt for new men. Those passages now point back.',
+          '12 of Cicero\'s notes in the speeches still carry the short early form: Philippica IV and XIV.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'ALTRI CINQUE BRANI DEL CATILINA DI SALLUSTIO. Il capitolo 15 torna a Catilina in persona: i delitti della giovinezza "contro il diritto umano e divino", il figlio che si crede abbia ucciso per fare spazio a un nuovo matrimonio, e una coscienza colpevole che si vede nel volto e nell\'andatura. Il capitolo 20 è il suo discorso segreto ai congiurati, in due metà - e Sallustio gli dà una lamentela vera e battute molto buone, compresa una famosa definizione dell\'amicizia come volere e non volere le stesse cose.',
+          'La seconda metà di quel discorso si apre con le parole che Cicerone scaglierà contro Catilina un anno e mezzo dopo, "Fino a quando...?", girate al contrario, e attacca i ricchi con le stesse parole che Sallustio aveva usato pochi capitoli prima. Il capitolo 22 è la storia secondo cui i congiurati giurarono su sangue mescolato a vino - che Sallustio riferisce, mette in dubbio e per la quale rifiuta di garantire. Il capitolo 23 racconta come trapelò la congiura: un congiurato in bancarotta promise all\'amante "mari e monti" (l\'origine dell\'espressione italiana), lei lo raccontò a tutti, e la paura fece eleggere console Cicerone.',
+          'LA SECONDA FILIPPICA È COMPLETA: le sue ultime quattro note riscritte per esteso. Antonio compra la casa di Pompeo morto e la lascia saccheggiare; la mattina dei Lupercali in cui offrì una corona a Cesare, la scena che Shakespeare prese da Plutarco; Antonio che occupa la villa di Varrone, l\'uomo più dotto di Roma; e l\'ultima pagina di Cicerone, dove cita un discorso tenuto contro Catilina diciannove anni prima e dice che accoglierebbe la morte.'
+        ],
+        changed: [
+          'Ogni nuova nota su Sallustio è collegata agli altri passi dell\'app che le rispondono: la Prima Catilinaria di Cicerone, la definizione ciceroniana dell\'amicizia, Lucrezio sulla paura che si vede nel corpo, e il discorso di Mario contro il disprezzo dei nobili per gli uomini nuovi. Quei passi ora rimandano indietro.',
+          '12 note di Cicerone nelle orazioni portano ancora la forma breve delle origini: le Filippiche IV e XIV.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.16.1', date: '12/10/2026', time: '01:08', tz: 'CEST',
       en: {
         added: [
