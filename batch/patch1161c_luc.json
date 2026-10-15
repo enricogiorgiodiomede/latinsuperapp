@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(De Rerum Natura III, vv. 59-73)",
+    "field": "analysis",
+    "find": "were the recent past, and the near future.",
+    "replace": "were the recent past, and the near future. Sallust tells the same story in prose, with the same two vices and with Sulla's army at the centre of it (De Coniuratione Catilinae 10 and De Coniuratione Catilinae 11, in this app)."
+  },
+  {
+    "cit": "(De Rerum Natura III, vv. 59-73)",
+    "field": "analysisIt",
+    "find": "erano il passato recente, e il futuro prossimo.",
+    "replace": "erano il passato recente, e il futuro prossimo. Sallustio racconta la stessa storia in prosa, con gli stessi due vizi e con l'esercito di Silla al centro (De Coniuratione Catilinae 10 e De Coniuratione Catilinae 11, in quest'app)."
+  }
+]

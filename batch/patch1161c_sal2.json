@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(De Coniuratione Catilinae 12)",
+    "field": "analysis",
+    "find": "and he knew from the inside how the governing class worked; that is why, as the author page in this app says of his portrait of Catiline, he can take a mechanism apart with surgical precision.",
+    "replace": "and, as the author page in this app says of his portrait of Catiline, he had looked at the governing class closely enough to understand how it worked; that is why he can take a mechanism apart with surgical precision."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 12)",
+    "field": "analysisIt",
+    "find": "e sapeva dall'interno come funzionava la classe dirigente; è per questo che, come dice del suo ritratto di Catilina la pagina dell'autore in quest'app, sa smontare un meccanismo con precisione chirurgica.",
+    "replace": "e, come dice del suo ritratto di Catilina la pagina dell'autore in quest'app, aveva guardato la classe dirigente abbastanza da vicino da capire come funzionava; è per questo che sa smontare un meccanismo con precisione chirurgica."
+  }
+]

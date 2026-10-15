@@ -107,6 +107,40 @@ Verification: **406 verbatim, 0 mismatched** (403 + 4 new or rebuilt - 1 removed
 lint_register and lint_ablatives report nothing for the four; lint_translations unchanged at 3 old flags;
 check_numbering 168/0, check_verses 60/0; `lint_markdown` clean. Cache-bust: `?v=210` -> `?v=211`.
 
+### Follow-up, 2026-10-15: the user's notes on Catilina 10-14, and a tenth De Oratore excerpt
+
+The user's notes on the five chapters of this release are folded into the analyses, English and Italian; no
+excerpt, translation or tag changes. One new paragraph or more per chapter, placed after its corruption theme:
+
+- **Cat. 10** - *Sallust described extinction before it had a name*: the decline as what psychology calls
+  extinction, a learned behaviour fading once what sustained it is gone, and for Sallust that was *metus
+  hostilis*; section 6 (*primo paulatim*) describes exactly the slow fading.
+- **Cat. 11** - three paragraphs. Caesar in Pompey's camp at Pharsalus, moralist for once (**De Bello Civili
+  III.96**, wired both ways); luxury in an army as the one luxury Rome could not forgive, *contra morem
+  maiorum*. *What is wrong is not the admiring*: admiring art is ordinary, looting it is not, least of all from
+  Romans - the army has turned on the people. And Lucretius on greed with no ceiling (**De Rerum Natura III,
+  vv. 59-73**, *avarities et honorum caeca cupido*, wired both ways).
+- **Cat. 12** - *This is not neutral, and it is not meant to be*: section 5 and the last clause are Sallust's
+  own verdicts; the insider's precision (as the author page says) is not detachment, and he wants the reader
+  indignant.
+- **Cat. 13** - *Twice in the first person* (*memorem*, *mihi videntur*); luxury against their own nature and
+  against nature itself; forward to *contra ius fasque* in chapter 15. Catiline the extreme case, not an
+  isolated one.
+- **Cat. 14** - *Two kinds of follower*: the worst a corrupt city could supply, and the young, the easiest to
+  deceive.
+
+**De Oratore II.51-54 added, so the work has ten excerpts** (the user: "10 of them, better than 9"). Chosen
+because it is Cicero on how Romans wrote history - the pontiff's whitened board and the *annales maximi*, Cato,
+Pictor and Piso compared with the Greek chroniclers before Herodotus, *unam dicendi laudem putant esse
+brevitatem*, and Coelius Antipater - which is the background to the Sallust excerpts. Long note in the plain
+Cicero shape (about 6,900 characters), with the line from this page to Sallust (who made Cato's brevity an art)
+and Livy. **Wired both ways** with Cat. 1 (where Sallust's brevity comes from) and Cat. 3.3-4.5 (Coelius and
+the monograph); one way to De Oratore II.62-63.
+
+Verification: **407 verbatim, 0 mismatched**; check_context, lint_register, lint_ablatives clean for the
+touched fragments; check_numbering 168/0, check_verses 60/0; `lint_markdown` clean. Cicero **220**, bank
+**557**. Cache-bust: `?v=211` -> `?v=212`.
+
 ## [1.16.0] - 2026-10-11
 
 **SALLUST BEGINS.** The author leaves the launch catch-all and gets what Caesar has: a work per monograph,

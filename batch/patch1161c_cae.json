@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(De Bello Civili III.96)",
+    "field": "analysis",
+    "find": "a camp furnished like a dinner party on the morning of a battle is an argument that needs no adverb.",
+    "replace": "a camp furnished like a dinner party on the morning of a battle is an argument that needs no adverb. Sallust makes the same diagnosis of an earlier army, Sulla's, which went soft in Asia and came home to loot its own country (De Coniuratione Catilinae 11, in this app)."
+  },
+  {
+    "cit": "(De Bello Civili III.96)",
+    "field": "analysisIt",
+    "find": "è un argomento che non ha bisogno di avverbi.",
+    "replace": "è un argomento che non ha bisogno di avverbi. Sallustio fa la stessa diagnosi di un esercito precedente, quello di Silla, che si rammollì in Asia e tornò a saccheggiare la propria patria (De Coniuratione Catilinae 11, in quest'app)."
+  }
+]

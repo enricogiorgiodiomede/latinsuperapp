@@ -94,6 +94,15 @@ De Bello Civili II.42 (Curio's death). **Readings to remember:** 10.3 the page p
 (manuscripts the reverse); 14.5 *molles etiam* (others *aetate*); boundaries 10.4 and 13.5 follow the page.
 *Virtus* is "virtue" where it stands against *vitium* (11.1, 12.1), "excellence" elsewhere.
 
+**The user's notes on 10-14 (15/10, folded into v1.16.1) - theses to carry forward:** the decline is what
+psychology calls EXTINCTION (*metus hostilis* removed, the learned behaviour fades); luxury in an ARMY is the
+unforgivable kind, and the scandal is not admiring art but looting it from Romans - the army turned on the
+people; greed has no ceiling (Lucretius III, vv. 59-73, wired both ways; Caesar's De Bello Civili III.96,
+wired both ways); **Sallust is NOT NEUTRAL** - an insider's precision with his own verdicts, first-person
+verbs, and he wants indignation; luxury goes against one's own nature and against nature itself, which
+leads to *contra ius fasque* in ch. 15; Catiline the extreme case of a corrupt society, surrounded by the
+most corrupt and by the most deceivable.
+
 **FLAGS FOR LATER BATCHES.** Cat. 14.2 stays as printed (decided). Iug. 85.1-4, the opening of Marius's speech, was in the launch excerpt
 and is no longer in the bank - the user chose 85.10-17 + 85.29-37.
 
@@ -109,6 +118,8 @@ characters. *Meretrix* is "prostitute" / "prostituta" throughout. Source misprin
 *nihihne* -> *nihilne*. **Perseus is no second witness for Cicero through `fetch_sections.js`** (a section is
 the leaf there, so it finds no sections): the passages were proofread by reading. **Owed:** the
 clause-by-clause re-read of the fifteen older translations in the two works. Cicero 219, bank 556.
+**15/10: De Oratore II.51-54 added** (the user wanted ten, not nine): the annales maximi, Cato/Pictor/Piso,
+*brevitas*, Coelius Antipater; wired both ways with Sallust Cat. 1 and Cat. 3.3-4.5. Cicero 220, bank 557.
 
 ---
 
