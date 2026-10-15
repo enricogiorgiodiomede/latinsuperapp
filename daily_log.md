@@ -1415,3 +1415,20 @@ A follow-up to v1.16.0 and one release, **v1.16.1**: the second Sallust batch an
 Both commits updated CHANGELOG.md, PROGRESS.md, `js/changelog.js`, `practice_fragments_reference.md` and the cache-bust on all seven pages.
 
 **Progress:** App at **v1.16.1, cache v210**, bank 553. 403 verbatim 0 mismatched, check_numbering 168/0, check_verses 60/0, every checker 0 for 1.16.1. Sallust at 11 of 70. Still outstanding: the rest of Sallust (next is v1.16.2), the Cicero backlog (16 notes, all Philippics), Catullus, and the Augustan Era (awaiting the user's permission).
+
+---
+
+## 2026-10-13
+
+*(End-of-day log, 23:55.)*
+
+One commit, a **v1.16.1 follow-up**: Cicero passages added at the user's request because they are being read at school. No version bump.
+
+**Cicero for school (01:28 CEST, cache v211).** Three new excerpts: *Pro Caelio* 47-48 and 49-50, and *De Oratore* I.30-31. *De Oratore* I.32-33 (v1.10.0) is rebuilt as I.32-34 with its tag kept, so that together with I.30-31 the whole of Crassus's praise of eloquence can be read. Each carries a long note: setting, argument, rhetoric, history, a note on the text, and grammar.
+- **Emendations, declared in the notes:** *Pro Caelio* 47 *nihihne* -> *nihilne* plus a missing space; *De Oratore* I.33 *Vt* -> *Ut* as before.
+- **Cross-links with Sallust, both ways:** *Pro Caelio* 47-48 with *Cat.* 13, *De Oratore* I.32-34 with *Cat.* 1. The pointer in the I.19-20 note now says I.32-34.
+- **Flagged, not done:** the clause-by-clause re-read of the fifteen older translations in the two works.
+
+The commit added the batch files (`batch/frags1161b.js`, passages, spec, two cross-link patches and a removal script) and updated `js/fragments.js`, CHANGELOG.md, PROGRESS.md, `js/changelog.js`, `practice_fragments_reference.md` and the cache-bust on all seven pages.
+
+**Progress:** App at **v1.16.1, cache v211**, bank 556 (Cicero 219). 406 verbatim 0 mismatched, check_numbering 168/0, check_verses 60/0, lints clean for the four passages. Sallust at 11 of 70. Still outstanding: the translation re-read in *Pro Caelio* and *De Oratore*, the rest of Sallust (next is v1.16.2), the Cicero backlog (16 notes, all Philippics), Catullus, and the Augustan Era (awaiting the user's permission).
