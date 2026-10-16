@@ -1432,3 +1432,27 @@ One commit, a **v1.16.1 follow-up**: Cicero passages added at the user's request
 The commit added the batch files (`batch/frags1161b.js`, passages, spec, two cross-link patches and a removal script) and updated `js/fragments.js`, CHANGELOG.md, PROGRESS.md, `js/changelog.js`, `practice_fragments_reference.md` and the cache-bust on all seven pages.
 
 **Progress:** App at **v1.16.1, cache v211**, bank 556 (Cicero 219). 406 verbatim 0 mismatched, check_numbering 168/0, check_verses 60/0, lints clean for the four passages. Sallust at 11 of 70. Still outstanding: the translation re-read in *Pro Caelio* and *De Oratore*, the rest of Sallust (next is v1.16.2), the Cicero backlog (16 notes, all Philippics), Catullus, and the Augustan Era (awaiting the user's permission).
+
+---
+
+## 2026-10-15
+
+*(End-of-day log, 23:55.)*
+
+Two commits: a last **v1.16.1 follow-up** and the release of **v1.16.2**, the third Sallust batch, which also finishes the Second Philippic notes.
+
+**v1.16.1 follow-up -- the user's notes on *Catilina* 10-14 (14:54, cache v212).** Folded into the five analyses in both languages: extinction and *metus hostilis* (10); Caesar in Pompey's camp, looting rather than admiring, the army turned on the people, Lucretius on greed with no ceiling (11); Sallust's own, non-neutral verdicts (12, 13); "against nature", pointing forward to *contra ius fasque* in chapter 15 (13); the two kinds of follower (14).
+- **Cross-links, both ways:** *Cat.* 11 with *De Bello Civili* III.96 and *De Rerum Natura* III, vv. 59-73; *De Oratore* II.51-54 with *Cat.* 1 and *Cat.* 3.3-4.5.
+- **New Cicero excerpt:** *De Oratore* II.51-54 (the *annales maximi*, Cato's *brevitas*, Coelius Antipater - the background to Sallust), bringing *De Oratore* to ten excerpts. Cicero 220, bank 557.
+
+**v1.16.2 -- *Catilina* 15, 20, 22, 23 (15:54, cache v213).** Five new excerpts from *De Coniuratione Catilinae*: 15 (*contra ius fasque*, the guilty conscience on the body), 20.2-8 and 20.9-17 (Catiline's speech in two halves), 22 (the blood oath, reported and doubted) and 23 (the leak through Curius and Fulvia, and Cicero elected out of fear). Sallust now at 16 of 70.
+- **Notes** carry the user's theses from the start. Wired both ways: 20.9-17 with *In Catilinam* I.1-2, 20.2-8 with *De Amicitia* 20, 15 with *De Rerum Natura* III, vv. 152-160, 23 with *Bellum Iugurthinum* 85.10-17, and 13 with 20.9-17.
+- **Page quirks declared:** the doubled "4" in chapter 15, the paragraph quotes of the speech (`sall.1` added to `_paragraphQuotes`), the plus-sign daggers round *dictitare* in 22.
+
+**Cicero note-lengthening.** *Philippica* II.67, 85-86, 104 and 118-119 lengthened, which finishes the Second Philippic; 118-119 wired both ways with *In Catilinam* IV.3. 12 short notes left (*Philippica* IV and XIV).
+
+**Tooling.** Small one-line updates to `tools/check_context.js`, `tools/extend_notes.js` and `tools/sources.json`.
+
+Both commits added their batch files and updated `js/fragments.js`, CHANGELOG.md, PROGRESS.md, `js/changelog.js`, `practice_fragments_reference.md` and the cache-bust on all seven pages.
+
+**Progress:** App at **v1.16.2, cache v213**, bank 562. 412 verbatim 0 mismatched, every checker 0 for 1.16.2, check_numbering 168/0, check_verses 60/0. Sallust at 16 of 70. Still outstanding: the rest of Sallust (next is v1.16.3), the Cicero backlog (12 notes, *Philippica* IV and XIV), the translation re-read in *Pro Caelio* and *De Oratore*, Catullus, and the Augustan Era (awaiting the user's permission).
