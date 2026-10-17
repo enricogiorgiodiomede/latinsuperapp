@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.16.3', date: '17/10/2026', time: '15:36', tz: 'CEST',
+      v: '1.16.3', date: '17/10/2026', time: '15:38', tz: 'CEST',
       en: {
         added: [
           'FIVE MORE EXCERPTS OF SALLUST\'S CATILINA. Chapter 25 is the portrait of Sempronia, a woman of noble birth, beauty, education and wit, who had every gift Rome could give and no restraint at all - the most famous picture of a Roman woman in Latin prose. Chapter 31 is the day of Cicero\'s First Catilinarian, which Sallust dismisses in two adjectives, and of Catiline\'s reply: a sneer at the consul as a mere "lodger" in Rome, and the threat to put out the fire around him by bringing everything down.',
