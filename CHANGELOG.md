@@ -53,6 +53,30 @@ Verification: **412 verbatim, 0 mismatched** (407 + 5); check_sections, check_co
 lint_ablatives and lint_translations report 0 for 1.16.2; check_numbering 168/0, check_verses 60/0;
 `lint_markdown` clean. Bank **562**. Cache-bust: `?v=212` -> `?v=213`.
 
+### Follow-up, 2026-10-17: the user's notes on Catilina 15-23
+
+The user's notes on this release are folded into the five analyses, English and Italian; no excerpt,
+translation or tag changes. One new paragraph each, after the corruption theme:
+
+- **Cat. 15** - *The most prominent symptom*: the only portrait in which one man breaks human and divine law
+  at once; the Vestal as sacrilege, not gossip, and the indignation Sallust wants; a pointer to chapter 25
+  that does not give it away.
+- **Cat. 20.2-8** - *Why he calls them friends, and why that should frighten us*: the definition fits men he
+  treats as equals in virtue and vice; the speech is grounded, appealing, and therefore the measure of how
+  dangerous he was. **Wired both ways with Cat. 5** (*magis magisque in dies animus* / *mihi in dies magis animus
+  accenditur*), and pointed at the second half.
+- **Cat. 20.9-17** - *The saviour's speech*: the contrasts (rich and poor, free and not) that make the plot look
+  like the state's only cure; "the right diagnosis and the wrong cure", with Sallust's harsher verdict beside it.
+- **Cat. 22** - *An initiation, in the right order*: speech, cup, plan - a rite with no way back; and the
+  usefulness of the story to Cicero.
+- **Cat. 23** - *Why the nobles voted for him*, from the other sources: the Catiline-Antonius pact and the
+  bribery, Crassus in the background, the speech in the white toga, the campaign handbook attributed to
+  Quintus, and the result (first, by every voting unit, in his first eligible year). And on Sallust and Cicero:
+  the forged pair of invectives shows what antiquity assumed; in the book the hostility is coolness.
+
+Verification: **412 verbatim, 0 mismatched**; check_context clean for 1.16.2; `lint_markdown` clean.
+Cache-bust: `?v=213` -> `?v=214`.
+
 ## [1.16.1] - 2026-10-12
 
 **THE DARK HALF OF THE DIGRESSION, AND CATILINE'S FOLLOWING.** Five whole chapters of the *De Coniuratione

@@ -21,6 +21,7 @@
         ],
         changed: [
           'Every new Sallust note is linked to the other passages in the app that answer it: Cicero\'s First Catilinarian, Cicero\'s own definition of friendship, Lucretius on fear showing in the body, and Marius\'s speech against the nobles\' contempt for new men. Those passages now point back.',
+          'The notes on Sallust\'s chapters 15 to 23 were deepened from a reader\'s comments. Chapter 15 now explains why Catiline is the most prominent symptom of the sick city: he alone breaks human and divine law together. The two halves of the speech in chapter 20 now show why it is so dangerous - it is grounded, appealing and makes Catiline look like a saviour - and the first half is linked to the portrait in chapter 5. Chapter 22 reads the blood oath as an initiation with no way back. And chapter 23 now explains, from the other ancient sources, why a frightened nobility voted for Cicero.',
           '12 of Cicero\'s notes in the speeches still carry the short early form: Philippica IV and XIV.'
         ],
         deleted: [
@@ -35,6 +36,7 @@
         ],
         changed: [
           'Ogni nuova nota su Sallustio è collegata agli altri passi dell\'app che le rispondono: la Prima Catilinaria di Cicerone, la definizione ciceroniana dell\'amicizia, Lucrezio sulla paura che si vede nel corpo, e il discorso di Mario contro il disprezzo dei nobili per gli uomini nuovi. Quei passi ora rimandano indietro.',
+          'Le note ai capitoli dal 15 al 23 di Sallustio sono state approfondite a partire dai commenti di un lettore. Il capitolo 15 ora spiega perché Catilina è il sintomo più evidente della città malata: lui solo infrange insieme il diritto umano e quello divino. Le due metà del discorso del capitolo 20 mostrano ora perché sia così pericoloso - è fondato, attraente e fa sembrare Catilina un salvatore - e la prima metà è collegata al ritratto del capitolo 5. Il capitolo 22 legge il giuramento di sangue come un\'iniziazione senza ritorno. E il capitolo 23 spiega ora, con le altre fonti antiche, perché una nobiltà spaventata votò per Cicerone.',
           '12 note di Cicerone nelle orazioni portano ancora la forma breve delle origini: le Filippiche IV e XIV.'
         ],
         deleted: [

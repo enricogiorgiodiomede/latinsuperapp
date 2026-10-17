@@ -103,6 +103,14 @@ verbs, and he wants indignation; luxury goes against one's own nature and agains
 leads to *contra ius fasque* in ch. 15; Catiline the extreme case of a corrupt society, surrounded by the
 most corrupt and by the most deceivable.
 
+**The user's notes on 15-23 (17/10, folded into v1.16.2) - carry forward:** Catiline the MOST PROMINENT symptom,
+the only one breaking human and divine law together (Sempronia in 25 is the same pattern on the human side -
+do not anticipate more than that); the speech of 20 is grounded and appealing, makes him look like a saviour,
+and so shows how dangerous he was - "the right diagnosis, the wrong cure" is the user's reading; the blood
+oath is an INITIATION (speech, cup, plan); explain political outcomes from the other sources when Sallust
+gives only the motive (they asked why the nobles elected Cicero). They see Sallust as a Caesarian who
+despised Cicero - the notes say the hostility shows as coolness.
+
 **FLAGS FOR LATER BATCHES.** Cat. 14.2 stays as printed (decided). Iug. 85.1-4, the opening of Marius's speech, was in the launch excerpt
 and is no longer in the bank - the user chose 85.10-17 + 85.29-37.
 
