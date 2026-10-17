@@ -1,0 +1,38 @@
+[
+  {
+    "cit": "(Pro Caelio 49-50)",
+    "field": "analysis",
+    "find": "It is a portrait drawn by her enemy for a jury on a public holiday, and it should be read as one.",
+    "replace": "It is a portrait drawn by her enemy for a jury on a public holiday, and it should be read as one. Sallust's Sempronia, written some twenty years later, is built from the same parts - the noble birth, the culture, the parties and the music, the pursuit of men - and asks for the same caution (De Coniuratione Catilinae 25, in this app)."
+  },
+  {
+    "cit": "(Pro Caelio 49-50)",
+    "field": "analysisIt",
+    "find": "È un ritratto disegnato dal suo nemico per una giuria in un giorno di festa, e va letto come tale.",
+    "replace": "È un ritratto disegnato dal suo nemico per una giuria in un giorno di festa, e va letto come tale. La Sempronia di Sallustio, scritta una ventina d'anni dopo, è costruita con gli stessi elementi - la nascita nobile, la cultura, le feste e la musica, la caccia agli uomini - e chiede la stessa cautela (De Coniuratione Catilinae 25, in quest'app)."
+  },
+  {
+    "cit": "(In Catilinam I.1-2)",
+    "field": "analysis",
+    "find": "The silence those empty seats made is the thing the speech keeps returning to.",
+    "replace": "The silence those empty seats made is the thing the speech keeps returning to. Sallust's account of the same session, with Catiline's reply and his threat to put out the fire with a ruin, is in this app (De Coniuratione Catilinae 31.4-9); he gives the speech itself two adjectives."
+  },
+  {
+    "cit": "(In Catilinam I.1-2)",
+    "field": "analysisIt",
+    "find": "Il silenzio di quei posti vuoti è la cosa a cui il discorso torna di continuo.",
+    "replace": "Il silenzio di quei posti vuoti è la cosa a cui il discorso torna di continuo. Il racconto che Sallustio fa della stessa seduta, con la risposta di Catilina e la sua minaccia di spegnere l'incendio con la rovina, è in quest'app (De Coniuratione Catilinae 31.4-9); al discorso in sé concede due aggettivi."
+  },
+  {
+    "cit": "(In Catilinam II.7)",
+    "field": "analysis",
+    "find": "it is dirt to be pumped out, and nobody negotiates with dirt.",
+    "replace": "it is dirt to be pumped out, and nobody negotiates with dirt. Sallust uses the same image for the whole urban plebs of 63 BC, *Romam sicut in sentinam confluxerant*, which makes it a diagnosis of a city rather than of a conspiracy (De Coniuratione Catilinae 37, in this app)."
+  },
+  {
+    "cit": "(In Catilinam II.7)",
+    "field": "analysisIt",
+    "find": "è sporcizia da pompare fuori, e con la sporcizia non si tratta.",
+    "replace": "è sporcizia da pompare fuori, e con la sporcizia non si tratta. Sallustio usa la stessa immagine per tutta la plebe urbana del 63 a.C., *Romam sicut in sentinam confluxerant*, e così ne fa la diagnosi di una città più che di una congiura (De Coniuratione Catilinae 37, in quest'app)."
+  }
+]

@@ -6,6 +6,47 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.16.3] - 2026-10-17
+
+**SEMPRONIA, THE SENATE SCENE, TWO DOCUMENTS AND THE PLEBS.** Five excerpts of the *De Coniuratione
+Catilinae* - 25, 31.4-9, 33, 35, 37 - and the five Philippica IV notes, which finishes the Fourth Philippic.
+Sallust is at 21 of 70.
+
+### Added - De Coniuratione Catilinae (5)
+| excerpt | what it is |
+|---|---|
+| 25 | Sempronia: Catiline's pattern on the human side - every gift, no restraint, and admiration at the end |
+| 31.4-9 | 8 November 63 BC: the First Catilinarian in two adjectives, *inquilinus civis urbis Romae*, *incendium meum ruina restinguam* |
+| 33 | Manlius's message: debt, the moneylenders and the praetor, and *non imperium neque divitias ... sed libertatem* (the sentence the Declaration of Arbroath borrowed) |
+| 35 | Catiline's letter to Catulus, probably a real document: *dignitas*, the cause of the wretched, and Orestilla |
+| 37 | Why the plebs sided with him: the poor with nothing to lose, the city as a bilge, Sulla's veterans, party strife returned |
+
+- **The user's theses are in from the start**: Sempronia as the same disease one degree lower than Catiline
+  (human law only), told without spoiling more than chapter 15's pointer promised; Sallust's coolness to
+  Cicero (31.6); the real grievance and the wrong cure (33, 35); the whole city sick, Catiline its most
+  prominent symptom (37).
+- **Cross-references, all wired both ways**: Cat. 25 <-> Pro Caelio 49-50 (Sempronia and Clodia); Cat. 31.4-9
+  <-> In Catilinam I.1-2 (the same session); Cat. 37 <-> In Catilinam II.7 (*sentina*); Cat. 35 <-> De Bello
+  Civili I.7 (*dignitas* and the public cause, fourteen years apart); Cat. 33 <-> Philippica IV.15 (the army
+  Catiline forged). One way: Cat. 35 -> De Oratore II.51-54 (Catulus's father).
+- **Page quirks**: the Latin Library prints no number for 25.5; `fix` adds the marker. The real quotations of
+  31.9, 33 and 35 are kept. 37.8's boundary follows the page.
+
+### Cicero - the Fourth Philippic is finished (7 short notes left)
+**Philippica IV.1-2, 5, 8, 12, 15** lengthened, 2,830-3,230 characters in English: Cicero's return on 20
+December 44 BC and the *tollendum* joke about Octavian; the executions at Brundisium that cost Antony the
+Martian and Fourth legions; Decimus Brutus on the Ides and the legal tangle over Cisalpine Gaul; the new
+consuls Hirtius (an author in this app) and Pansa, Mutina, and what came after; Spartacus and Antony's boast.
+The note on IV.1-2 now flags *num vero* as the source's probable misprint for *nunc vero*. Left: Philippica
+XIV (7).
+
+Translation pass over the touched work: the fifteen earlier Catilina excerpts were re-read in the follow-ups
+of 12, 15 and 17 October and are unchanged.
+
+Verification: **417 verbatim, 0 mismatched** (412 + 5); check_sections, check_context, lint_register,
+lint_ablatives and lint_translations report 0 for 1.16.3; check_numbering 168/0, check_verses 60/0;
+`lint_markdown` clean. Bank **567**. Cache-bust: `?v=214` -> `?v=215`.
+
 ## [1.16.2] - 2026-10-15
 
 **CATILINE'S CRIMES, HIS SPEECH, THE OATH AND THE LEAK.** Five excerpts of the *De Coniuratione Catilinae* -

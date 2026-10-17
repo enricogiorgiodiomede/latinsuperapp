@@ -1,0 +1,28 @@
+{
+  "_comment": "v1.16.3 - De Coniuratione Catilinae 25, 31.4-9, 33, 35, 37. sall.1 bare digits: start ON the digit. 25 has no printed 5 (fix in the batch). 31.9, 33 and 35 contain real quotations opened and closed on the page and keep them. 37.8 boundary follows the page.",
+  "cat.25": [
+    "sall.1",
+    "1 Sed in iis erat Sempronia",
+    "multusque lepos inerat."
+  ],
+  "cat.31": [
+    "sall.1",
+    "4 At Catilinae crudelis animus",
+    "ruina restinguam.\""
+  ],
+  "cat.33": [
+    "sall.1",
+    "1 \"Deos hominesque testamur",
+    "sanguinem nostrum pereamus!\""
+  ],
+  "cat.35": [
+    "sall.1",
+    "1 \"L. Catilina Q. Catulo.",
+    "Haveto!\""
+  ],
+  "cat.37": [
+    "sall.1",
+    "1 Neque solum illis aliena mens",
+    "in civitatem revorterat."
+  ]
+}

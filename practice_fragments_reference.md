@@ -22,7 +22,7 @@ against the numbered text so every excerpt opens and closes on a sentence.
 - **v1.16.0 (DONE, 5):** ★1 · ★3.3-4.5 · ★5 (launch excerpt rebuilt whole, section 9 added, no break) · ★7 · ★9
 - **v1.16.1 (DONE, 5):** ★10 · ★11 · ★12 · ★13 (the digression is 7, 9, 10-13: six) · 14 (whole, with *pene* in 14.2 - the user's decision)
 - **v1.16.2 (DONE, 5):** 15 · ★20.2-8 · ★20.9-17 · 22 · 23 (wired both ways: 20.9-17 <-> In Cat. I.1-2, 20.2-8 <-> De Amicitia 20, 15 <-> DRN III, vv. 152-160, 23 <-> Iug. 85.10-17, 13 <-> 20.9-17; sall.1 now in `_paragraphQuotes`; 15 has a doubled "4" on the page, 22 has +dictitare+ -> †dictitare†)
-- v1.16.3: ★25 Sempronia · 31.4-9 · 33 · 35 · 37
+- **v1.16.3 (DONE, 5):** ★25 Sempronia · 31.4-9 · 33 · 35 · 37 (wired both ways: 25 <-> Pro Caelio 49-50, 31.4-9 <-> In Cat. I.1-2, 37 <-> In Cat. II.7, 35 <-> BC I.7, 33 <-> Phil. IV.15; 25.5 has no printed number, `fix` adds it; 35 is probably a genuine document, not Sallust's style)
 - v1.16.4: 38 · ★51.1-8 · ★51.20-29 · ★52.7-12 · ★52.19-23
 - v1.16.5: 54 · 55 · ★58 (Pistoia) · 60 · ★61
 

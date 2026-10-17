@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(De Coniuratione Catilinae 33)",
+    "field": "analysis",
+    "find": "and its real readers are Sallust's, who know how it ended.",
+    "replace": "and its real readers are Sallust's, who know how it ended. Twenty years later Cicero could still tell a crowd that Catiline had no army and forged one out of nothing (Philippica IV.15, in this app): this is the army he meant."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 33)",
+    "field": "analysisIt",
+    "find": "e i suoi veri lettori sono quelli di Sallustio, che sanno come andò a finire.",
+    "replace": "e i suoi veri lettori sono quelli di Sallustio, che sanno come andò a finire. Vent'anni dopo Cicerone poteva ancora dire a una folla che Catilina non aveva un esercito e se lo forgiò dal nulla (Philippica IV.15, in quest'app): è questo l'esercito di cui parlava."
+  }
+]

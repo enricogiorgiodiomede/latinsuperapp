@@ -12,6 +12,37 @@
 
   var VERSIONS = [
     {
+      v: '1.16.3', date: '17/10/2026', time: '15:36', tz: 'CEST',
+      en: {
+        added: [
+          'FIVE MORE EXCERPTS OF SALLUST\'S CATILINA. Chapter 25 is the portrait of Sempronia, a woman of noble birth, beauty, education and wit, who had every gift Rome could give and no restraint at all - the most famous picture of a Roman woman in Latin prose. Chapter 31 is the day of Cicero\'s First Catilinarian, which Sallust dismisses in two adjectives, and of Catiline\'s reply: a sneer at the consul as a mere "lodger" in Rome, and the threat to put out the fire around him by bringing everything down.',
+          'Chapters 33 and 35 are two documents. The first is the rebel commander Manlius\'s message about debt and cruel moneylenders, with a sentence about freedom that the Scottish barons borrowed in the Declaration of Arbroath fourteen centuries later. The second is Catiline\'s own letter to a senior senator, probably genuine, defending his honour and asking him to look after his wife. Chapter 37 explains, almost like a sociologist, why the common people of Rome were on Catiline\'s side.',
+          'THE FOURTH PHILIPPIC IS FINISHED: its five notes rewritten at length. Cicero\'s return to politics on 20 December 44 BC, and his joke about the young Octavian that Octavian never forgot; the legions that deserted Antony after he had soldiers executed; Decimus Brutus, the assassin who escorted Caesar to the senate; the two new consuls, one of them Hirtius, who has his own page in this app; and Spartacus.'
+        ],
+        changed: [
+          'The new Sallust notes are linked both ways to the passages in the app that answer them: Cicero\'s Clodia beside Sempronia, the First and Second Catilinarians, Caesar\'s own speech to his troops before the Rubicon beside Catiline\'s letter, and Cicero\'s later boast about Catiline\'s army.',
+          '7 of Cicero\'s notes in the speeches still carry the short early form, all in Philippica XIV.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'ALTRI CINQUE BRANI DEL CATILINA DI SALLUSTIO. Il capitolo 25 è il ritratto di Sempronia, una donna di nascita nobile, bellezza, cultura e spirito, che aveva ogni dote che Roma potesse dare e nessun freno - il più celebre ritratto di una donna romana nella prosa latina. Il capitolo 31 è il giorno della Prima Catilinaria di Cicerone, che Sallustio liquida in due aggettivi, e della risposta di Catilina: uno sfregio al console come semplice "inquilino" di Roma, e la minaccia di spegnere l\'incendio che lo circonda facendo crollare tutto.',
+          'I capitoli 33 e 35 sono due documenti. Il primo è il messaggio del comandante ribelle Manlio sui debiti e sugli usurai spietati, con una frase sulla libertà che i baroni scozzesi presero in prestito nella Dichiarazione di Arbroath quattordici secoli dopo. Il secondo è la lettera di Catilina stesso a un senatore autorevole, probabilmente autentica, in cui difende il proprio onore e gli chiede di proteggere sua moglie. Il capitolo 37 spiega, quasi da sociologo, perché il popolo di Roma stava dalla parte di Catilina.',
+          'LA QUARTA FILIPPICA È COMPLETA: le sue cinque note riscritte per esteso. Il ritorno di Cicerone alla politica il 20 dicembre del 44 a.C., e la sua battuta sul giovane Ottaviano che Ottaviano non dimenticò mai; le legioni che disertarono Antonio dopo che questi aveva fatto giustiziare dei soldati; Decimo Bruto, il cesaricida che accompagnò Cesare in senato; i due nuovi consoli, uno dei quali è Irzio, che ha una sua pagina in quest\'app; e Spartaco.'
+        ],
+        changed: [
+          'Le nuove note su Sallustio sono collegate in entrambe le direzioni ai passi dell\'app che rispondono loro: la Clodia di Cicerone accanto a Sempronia, la Prima e la Seconda Catilinaria, il discorso di Cesare ai soldati prima del Rubicone accanto alla lettera di Catilina, e il vanto che Cicerone fece più tardi sull\'esercito di Catilina.',
+          '7 note di Cicerone nelle orazioni portano ancora la forma breve delle origini, tutte nella Quattordicesima Filippica.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.16.2', date: '15/10/2026', time: '15:54', tz: 'CEST',
       en: {
         added: [

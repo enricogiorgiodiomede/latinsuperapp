@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(Philippica IV.1-2)",
+    "field": "analysis",
+    "find": "Octavian, the *C. Caesar* of section 2, was Caesar's great-nephew and adopted heir, nineteen years old, and he had raised three thousand of Caesar's veterans in Campania that autumn on his own authority and his own money: an illegal army that the senate now thanked.",
+    "replace": "The private army of section 2 was some three thousand of Caesar's veterans from Campania, recruited in October."
+  },
+  {
+    "cit": "(Philippica IV.1-2)",
+    "field": "analysisIt",
+    "find": "Ottaviano, il *C. Caesar* del paragrafo 2, era pronipote e figlio adottivo di Cesare, aveva diciannove anni, e quell'autunno aveva arruolato in Campania tremila veterani di Cesare di sua iniziativa e a sue spese: un esercito illegale che ora il senato ringraziava.",
+    "replace": "L'esercito privato del paragrafo 2 erano circa tremila veterani di Cesare della Campania, arruolati a ottobre."
+  }
+]

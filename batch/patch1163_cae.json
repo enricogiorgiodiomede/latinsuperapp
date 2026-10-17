@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(De Bello Civili I.7)",
+    "field": "analysis",
+    "find": "A private grievance has been converted into a public duty in the space of one chapter.",
+    "replace": "A private grievance has been converted into a public duty in the space of one chapter. Catiline's letter to Catulus, fourteen years earlier, makes the same move in the same vocabulary: wrongs, insults, a *dignitas* denied, and therefore the *publica causa miserorum* (De Coniuratione Catilinae 35, in this app)."
+  },
+  {
+    "cit": "(De Bello Civili I.7)",
+    "field": "analysisIt",
+    "find": "Una lagnanza privata è diventata un dovere civico nello spazio di un capitolo.",
+    "replace": "Una lagnanza privata è diventata un dovere civico nello spazio di un capitolo. La lettera di Catilina a Catulo, quattordici anni prima, fa la stessa mossa con lo stesso lessico: offese, oltraggi, una *dignitas* negata, e dunque la *publica causa miserorum* (De Coniuratione Catilinae 35, in quest'app)."
+  }
+]
