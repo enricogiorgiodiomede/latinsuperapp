@@ -1456,3 +1456,25 @@ Two commits: a last **v1.16.1 follow-up** and the release of **v1.16.2**, the th
 Both commits added their batch files and updated `js/fragments.js`, CHANGELOG.md, PROGRESS.md, `js/changelog.js`, `practice_fragments_reference.md` and the cache-bust on all seven pages.
 
 **Progress:** App at **v1.16.2, cache v213**, bank 562. 412 verbatim 0 mismatched, every checker 0 for 1.16.2, check_numbering 168/0, check_verses 60/0. Sallust at 16 of 70. Still outstanding: the rest of Sallust (next is v1.16.3), the Cicero backlog (12 notes, *Philippica* IV and XIV), the translation re-read in *Pro Caelio* and *De Oratore*, Catullus, and the Augustan Era (awaiting the user's permission).
+
+---
+
+## 2026-10-17
+
+*(End-of-day log, 23:55.)*
+
+Three commits: a **v1.16.2 follow-up** with the user's notes, the release of **v1.16.3** (the fourth Sallust batch, which also finishes the Fourth Philippic notes), and a docs fix for its release time.
+
+**v1.16.2 follow-up -- the user's notes on *Catilina* 15-23 (14:59, cache v214).** Folded into the five analyses in both languages: Catiline as the most prominent symptom, breaking human and divine law together (15); why he calls the conspirators friends, and why the appealing speech shows how dangerous he was, wired both ways with *Cat.* 5 (20.2-8); the saviour's speech built on contrasts (20.9-17); the blood oath as an initiation (22); why a frightened nobility voted for Cicero, from the other sources, and Sallust's coolness towards him (23). New patch files `batch/patch1162b.js`/`.json`. verify 412 verbatim, 0 mismatched; check_context and lint_markdown clean.
+
+**v1.16.3 -- *Catilina* 25, 31, 33, 35, 37 (15:38, cache v215).** Five new excerpts from *De Coniuratione Catilinae*: 25 (Sempronia), 31.4-9 (the senate scene of 8 November 63 and *incendium meum ruina restinguam*), 33 (Manlius's message), 35 (Catiline's letter to Catulus) and 37 (why the plebs sided with him). Sallust now at 21 of 70.
+- **Wired both ways:** 25 with *Pro Caelio* 49-50, 31.4-9 with *In Catilinam* I.1-2, 37 with *In Catilinam* II.7, 35 with *De Bello Civili* I.7, 33 with *Philippica* IV.15.
+- **Page quirk fixed:** the source prints no number for 25.5.
+
+**Cicero note-lengthening.** *Philippica* IV.1-2, 5, 8, 12 and 15 lengthened, which finishes the Fourth Philippic; 7 short notes left, all *Philippica* XIV.
+
+**Docs.** The v1.16.3 release time in `js/changelog.js` set from the actual commit (17/10/2026, 15:38 CEST).
+
+Both release commits added their batch files and updated `js/fragments.js`, CHANGELOG.md, PROGRESS.md, `js/changelog.js`, `practice_fragments_reference.md` and the cache-bust on all seven pages.
+
+**Progress:** App at **v1.16.3, cache v215**, bank 567. 417 verbatim 0 mismatched, every checker 0 for 1.16.3, check_numbering 168/0, check_verses 60/0. Sallust at 21 of 70. Still outstanding: the rest of Sallust (next is v1.16.4), the Cicero backlog (7 notes, all *Philippica* XIV), the translation re-read in *Pro Caelio* and *De Oratore*, Catullus, and the Augustan Era (awaiting the user's permission).
