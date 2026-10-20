@@ -47,6 +47,29 @@ Verification: **417 verbatim, 0 mismatched** (412 + 5); check_sections, check_co
 lint_ablatives and lint_translations report 0 for 1.16.3; check_numbering 168/0, check_verses 60/0;
 `lint_markdown` clean. Bank **567**. Cache-bust: `?v=214` -> `?v=215`.
 
+### Follow-up, 2026-10-21: the user's notes on Catilina 25-37
+
+The user's notes on this release are folded into the five analyses, English and Italian; no excerpt,
+translation or tag changes.
+
+- **Cat. 25** - *A type more than a person*: Sempronia as the conspiracy's women given a face, a matron whose
+  gifts exceed the role and whose vices are men's; the female counterpart of Catiline on a smaller scale,
+  with *nimis alta* (chapter 5) as the link.
+- **Cat. 31.4-9** - *Attack the man, not the charge*: Catiline answers Cicero's class, not the accusations, and
+  the threat to bring everything down is the *nimis alta* of chapter 5 at the last. And, at the user's
+  request, *Two accounts of the same morning*: Cicero's version the next day (Catiline greeted by nobody, the
+  benches emptied, falling silent *conscientia convictus*) against Sallust's (a reply, an insult, a threat),
+  and why each author told it his way. **Wired both ways with In Catilinam II.12-13.**
+- **Cat. 33** - *Good men with the wrong method?*: the rebels as Catiline on a smaller scale, and why a
+  rebellion with a case is the dangerous kind.
+- **Cat. 35** - *Catiline as he saw himself*: wounded pride, the *homo novus* he cannot stand (linked to
+  *inquilinus* in 31.4-9), the hero of his own letter; "noble intent, monstrous method".
+- **Cat. 37** - *Sulla's long shadow, and a city far gone*: Sulla in chapters 5, 11 and 37, and what it means
+  that nobody deserted Catiline.
+
+Verification: **417 verbatim, 0 mismatched**; check_context clean for 1.16.3; `lint_markdown` clean.
+Cache-bust: `?v=215` -> `?v=216`.
+
 ## [1.16.2] - 2026-10-15
 
 **CATILINE'S CRIMES, HIS SPEECH, THE OATH AND THE LEAK.** Five excerpts of the *De Coniuratione Catilinae* -

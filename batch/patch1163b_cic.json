@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(In Catilinam II.12-13)",
+    "field": "analysis",
+    "find": "This is the same confrontation described from the other side in the first speech at 8-9.",
+    "replace": "This is the same confrontation described from the other side in the first speech at 8-9. Sallust tells the session differently: in his version Catiline does not fall silent but answers back, sneers at the consul as a lodger in Rome and walks out threatening ruin (De Coniuratione Catilinae 31.4-9, in this app)."
+  },
+  {
+    "cit": "(In Catilinam II.12-13)",
+    "field": "analysisIt",
+    "find": "È lo stesso confronto descritto dall'altro lato nella prima orazione, ai paragrafi 8-9.",
+    "replace": "È lo stesso confronto descritto dall'altro lato nella prima orazione, ai paragrafi 8-9. Sallustio racconta la seduta in un altro modo: nella sua versione Catilina non ammutolisce ma ribatte, schernisce il console come inquilino di Roma ed esce minacciando la rovina (De Coniuratione Catilinae 31.4-9, in quest'app)."
+  }
+]

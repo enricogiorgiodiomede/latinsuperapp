@@ -111,6 +111,12 @@ oath is an INITIATION (speech, cup, plan); explain political outcomes from the o
 gives only the motive (they asked why the nobles elected Cicero). They see Sallust as a Caesarian who
 despised Cicero - the notes say the hostility shows as coolness.
 
+**The user's notes on 25-37 (21/10, folded into v1.16.3) - carry forward:** portraits are often TYPES (Sempronia =
+the conspiracy's women; a smaller female Catiline); Catiline answers class, not charges, and his last threat is
+*nimis alta* (5.5) at the end; COMPARE SALLUST WITH CICERO'S OWN ACCOUNT where both exist (they asked for it at
+31; In Cat. II.12-13 is Cicero's); the rebels and Catiline as "good men with the wrong method" - noble intent,
+monstrous method; Sulla as the root of the corruption (5, 11, 37); Rome "very cooked" = nobody deserted.
+
 **FLAGS FOR LATER BATCHES.** Cat. 14.2 stays as printed (decided). Iug. 85.1-4, the opening of Marius's speech, was in the launch excerpt
 and is no longer in the bank - the user chose 85.10-17 + 85.29-37.
 

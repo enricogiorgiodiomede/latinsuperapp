@@ -21,6 +21,7 @@
         ],
         changed: [
           'The new Sallust notes are linked both ways to the passages in the app that answer them: Cicero\'s Clodia beside Sempronia, the First and Second Catilinarians, Caesar\'s own speech to his troops before the Rubicon beside Catiline\'s letter, and Cicero\'s later boast about Catiline\'s army.',
+          'The notes on Sallust\'s chapters 25 to 37 were deepened from a reader\'s comments. Sempronia is now read as a type - the women of the conspiracy given a face, a smaller female Catiline. Chapter 31 now compares Sallust\'s account of the senate session of 8 November 63 BC with Cicero\'s own, told the next day, where Catiline is shunned and falls silent instead of answering back. Chapters 33 and 35 show the rebels and Catiline as they saw themselves, men with a real cause and a monstrous method, and chapter 37 counts how often Sulla\'s shadow falls across the book.',
           '7 of Cicero\'s notes in the speeches still carry the short early form, all in Philippica XIV.'
         ],
         deleted: [
@@ -35,6 +36,7 @@
         ],
         changed: [
           'Le nuove note su Sallustio sono collegate in entrambe le direzioni ai passi dell\'app che rispondono loro: la Clodia di Cicerone accanto a Sempronia, la Prima e la Seconda Catilinaria, il discorso di Cesare ai soldati prima del Rubicone accanto alla lettera di Catilina, e il vanto che Cicerone fece più tardi sull\'esercito di Catilina.',
+          'Le note ai capitoli dal 25 al 37 di Sallustio sono state approfondite a partire dai commenti di un lettore. Sempronia è ora letta come un tipo - le donne della congiura a cui si dà un volto, un Catilina femminile in scala ridotta. Il capitolo 31 confronta ora il racconto di Sallustio della seduta dell\'8 novembre 63 a.C. con quello di Cicerone stesso, fatto il giorno dopo, in cui Catilina viene evitato da tutti e ammutolisce invece di ribattere. I capitoli 33 e 35 mostrano i ribelli e Catilina come vedevano se stessi, uomini con una causa vera e un metodo mostruoso, e il capitolo 37 conta quante volte l\'ombra di Silla cade sul libro.',
           '7 note di Cicerone nelle orazioni portano ancora la forma breve delle origini, tutte nella Quattordicesima Filippica.'
         ],
         deleted: [
