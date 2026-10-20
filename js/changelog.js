@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.16.4', date: '21/10/2026', time: '01:45', tz: 'CEST',
+      v: '1.16.4', date: '21/10/2026', time: '01:40', tz: 'CEST',
       en: {
         added: [
           'FIVE MORE EXCERPTS OF SALLUST\'S CATILINA, AND THE GREAT DEBATE. Chapter 38 explains the politics of the age in four sentences: since 70 BC every politician in Rome had fought under a fine name, the rights of the people or the authority of the senate, and every one of them for himself - written by a man who had been a rabble-rousing tribune himself.',
