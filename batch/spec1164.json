@@ -1,0 +1,28 @@
+{
+  "_comment": "v1.16.4 - De Coniuratione Catilinae 38, 51.1-8, 51.20-31, 52.7-12, 52.19-23. sall.1 bare digits: start ON the digit. The speeches of Caesar (51) and Cato (52) open paragraphs with an unclosed quote (51.1, 51.25, 52.7, 52.19): fix removes them. Boundaries that differ from Perseus, page followed: 38.3 (page at Namque, Perseus at post), 51.26 (page at ceterum, Perseus at Illis). 51.20-31 rather than the planned 20-29, so the Thirty Tyrants example ends where Caesar ends it.",
+  "cat.38": [
+    "sall.1",
+    "1 Nam postquam Cn. Pompeio",
+    "victoriam crudeliter exercebant."
+  ],
+  "cat.51a": [
+    "sall.1",
+    "1 \"Omnis homines, patres conscripti",
+    "quae legibus conparata sunt."
+  ],
+  "cat.51b": [
+    "sall.1",
+    "20 De poena possum equidem dicere",
+    "stultae laetitiae gravis poenas dedit."
+  ],
+  "cat.52a": [
+    "sall.1",
+    "7 \"Saepe numero, patres conscripti",
+    "bonos omnis perditum eant!"
+  ],
+  "cat.52b": [
+    "sall.1",
+    "19 \"Nolite existumare maiores nostros",
+    "in vacuam rem publicam."
+  ]
+}

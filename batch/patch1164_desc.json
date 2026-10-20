@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(De Coniuratione Catilinae 51.20-31)",
+    "field": "description",
+    "find": "*omnia mala exempla ex rebus bonis orta sunt*",
+    "replace": "\"omnia mala exempla ex rebus bonis orta sunt\""
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 51.20-31)",
+    "field": "descriptionIt",
+    "find": "*omnia mala exempla ex rebus bonis orta sunt*",
+    "replace": "\"omnia mala exempla ex rebus bonis orta sunt\""
+  }
+]

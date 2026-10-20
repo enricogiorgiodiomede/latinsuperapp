@@ -1,0 +1,26 @@
+[
+  {
+    "cit": "(De Coniuratione Catilinae 38)",
+    "field": "analysis",
+    "find": "(III.82)",
+    "replace": "(Thucydides III.82)"
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 38)",
+    "field": "analysisIt",
+    "find": "(III.82)",
+    "replace": "(Thucydides III.82)"
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 52.7-12)",
+    "field": "analysis",
+    "find": "(III.82)",
+    "replace": "(Thucydides III.82)"
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 52.7-12)",
+    "field": "analysisIt",
+    "find": "(III.82)",
+    "replace": "(Thucydides III.82)"
+  }
+]

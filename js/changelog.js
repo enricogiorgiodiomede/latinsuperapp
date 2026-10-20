@@ -12,6 +12,37 @@
 
   var VERSIONS = [
     {
+      v: '1.16.4', date: '21/10/2026', time: '01:45', tz: 'CEST',
+      en: {
+        added: [
+          'FIVE MORE EXCERPTS OF SALLUST\'S CATILINA, AND THE GREAT DEBATE. Chapter 38 explains the politics of the age in four sentences: since 70 BC every politician in Rome had fought under a fine name, the rights of the people or the authority of the senate, and every one of them for himself - written by a man who had been a rabble-rousing tribune himself.',
+          'Then the debate of 5 December 63 BC on what to do with the arrested conspirators, in four excerpts. Julius Caesar asks the senate to decide without anger, says that death is a rest from troubles and no punishment at all, and warns that every bad precedent began as a good measure. Cato answers that Rome has lost the true names of things, and that the ancestors made it great not by arms but by hard work, just rule and free minds. The notes set Sallust\'s account beside Cicero\'s, who spoke in the same debate and whom Sallust leaves out of it.',
+          'Four of the last seven short Cicero notes rewritten at length, all from the Fourteenth Philippic, Cicero\'s last surviving speech: the battle of Forum Gallorum, the rumour that Cicero wanted to be dictator, the surveyor who had already divided up Rome, and the crowd that carried him to the Capitol.'
+        ],
+        changed: [
+          'The new Sallust notes are linked both ways to the passages in the app that answer them: Cicero\'s Fourth Catilinarian, given in the same debate; Lucretius on why death is nothing to us; Caesar\'s mercy at Corfinium; and the Elder Cato\'s preface on farmers, which his great-grandson echoes.',
+          '3 of Cicero\'s notes in the speeches still carry the short early form, all in Philippica XIV.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'ALTRI CINQUE BRANI DEL CATILINA DI SALLUSTIO, E IL GRANDE DIBATTITO. Il capitolo 38 spiega la politica dell\'epoca in quattro frasi: dal 70 a.C. ogni politico di Roma aveva combattuto sotto un nome onorevole, i diritti del popolo o l\'autorità del senato, e ciascuno per sé - scritto da un uomo che era stato a sua volta un tribuno agitatore di folle.',
+          'Poi il dibattito del 5 dicembre del 63 a.C. sulla sorte dei congiurati arrestati, in quattro brani. Giulio Cesare chiede al senato di decidere senza ira, dice che la morte è un riposo dagli affanni e non una pena, e avverte che ogni cattivo precedente è nato da una buona misura. Catone risponde che Roma ha perduto i veri nomi delle cose, e che gli antenati la resero grande non con le armi ma con l\'operosità, il dominio giusto e le menti libere. Le note mettono il racconto di Sallustio accanto a quello di Cicerone, che parlò nello stesso dibattito e che Sallustio lascia fuori.',
+          'Quattro delle ultime sette note brevi di Cicerone riscritte per esteso, tutte della Quattordicesima Filippica, l\'ultimo discorso di Cicerone che ci sia giunto: la battaglia di Forum Gallorum, la voce che Cicerone volesse farsi dittatore, l\'agrimensore che aveva già diviso Roma, e la folla che lo portò in Campidoglio.'
+        ],
+        changed: [
+          'Le nuove note su Sallustio sono collegate in entrambe le direzioni ai passi dell\'app che rispondono loro: la Quarta Catilinaria di Cicerone, pronunciata nello stesso dibattito; Lucrezio sul perché la morte non è nulla per noi; la clemenza di Cesare a Corfinio; e la prefazione di Catone il Vecchio sui contadini, a cui fa eco il suo pronipote.',
+          '3 note di Cicerone nelle orazioni portano ancora la forma breve delle origini, tutte nella Quattordicesima Filippica.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.16.3', date: '17/10/2026', time: '15:38', tz: 'CEST',
       en: {
         added: [

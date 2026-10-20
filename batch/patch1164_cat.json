@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(De Agri Cultura, Praefatio)",
+    "field": "analysis",
+    "find": "What they get out of it is, as with all of Cato, something they were not necessarily expecting.",
+    "replace": "What they get out of it is, as with all of Cato, something they were not necessarily expecting.\n\n**The great-grandson.** Sallust, whose Latin borrows heavily from Cato's, uses this preface twice. His account of the early Romans draws the same line between the honest life and the life of profit (De Coniuratione Catilinae 7, in this app); and in the senate debate of December 63 BC he has Cato's great-grandson, Cato the Younger, tell the senators that the ancestors made Rome great not by arms but by *domi industria*, hard work at home (De Coniuratione Catilinae 52.19-23, in this app)."
+  },
+  {
+    "cit": "(De Agri Cultura, Praefatio)",
+    "field": "analysisIt",
+    "find": "Ciò che ne ricava è, come sempre con Catone, qualcosa che non si aspettava necessariamente.",
+    "replace": "Ciò che ne ricava è, come sempre con Catone, qualcosa che non si aspettava necessariamente.\n\n**Il pronipote.** Sallustio, il cui latino prende molto in prestito da quello di Catone, usa questa prefazione due volte. Il suo racconto dei primi Romani traccia la stessa linea fra la vita onesta e la vita del guadagno (De Coniuratione Catilinae 7, in quest'app); e nel dibattito in senato del dicembre del 63 a.C. fa dire al pronipote di Catone, Catone l'Uticense, che gli antenati resero grande Roma non con le armi ma con la *domi industria*, l'operosità in patria (De Coniuratione Catilinae 52.19-23, in quest'app)."
+  }
+]

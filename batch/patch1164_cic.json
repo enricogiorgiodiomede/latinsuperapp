@@ -1,0 +1,26 @@
+[
+  {
+    "cit": "(In Catilinam IV.7)",
+    "field": "analysis",
+    "find": "Sallust rewrote this same debate a generation later in the *Bellum Catilinae* (51), giving Caesar a full speech of his own; the overlap is easy to spot, since Sallust's Caesar also argues that death ends suffering instead of inflicting it, that perpetual imprisonment is the heavier penalty, and that the real danger lies in the precedent a hasty execution would set.",
+    "replace": "Sallust rewrote this same debate twenty years later in the *De Coniuratione Catilinae*, giving Caesar a full speech of his own (De Coniuratione Catilinae 51.1-8 and 51.20-31, in this app). The overlap is easy to spot: Sallust's Caesar calls death *aerumnarum requiem, non cruciatum*, a rest from troubles and not a torment, where Cicero reports *laborum ac miseriarum quietem*, and he too warns that the real danger lies in the precedent a hasty execution would set. What Sallust leaves out is this speech. In his account of the debate only Caesar and Cato speak, and the consul who presided says nothing at all."
+  },
+  {
+    "cit": "(In Catilinam IV.7)",
+    "field": "analysisIt",
+    "find": "Sallustio riscrisse questo stesso dibattito una generazione più tardi nel *De Coniuratione Catilinae* (51), dando a Cesare un discorso tutto suo; la sovrapposizione si riconosce subito, perché anche il Cesare di Sallustio sostiene che la morte pone fine alla sofferenza invece di infliggerla, che il carcere perpetuo è la pena più pesante, e che il pericolo vero sta nel precedente che un'esecuzione affrettata creerebbe.",
+    "replace": "Sallustio riscrisse questo stesso dibattito vent'anni dopo nel *De Coniuratione Catilinae*, dando a Cesare un discorso tutto suo (De Coniuratione Catilinae 51.1-8 e 51.20-31, in quest'app). La sovrapposizione si riconosce subito: il Cesare di Sallustio chiama la morte *aerumnarum requiem, non cruciatum*, un riposo dagli affanni e non un tormento, dove Cicerone riferisce *laborum ac miseriarum quietem*, e anche lui avverte che il pericolo vero sta nel precedente che un'esecuzione affrettata creerebbe. Ciò che Sallustio tralascia è proprio questo discorso. Nel suo racconto del dibattito parlano solo Cesare e Catone, e il console che presiedeva non dice nulla."
+  },
+  {
+    "cit": "(In Catilinam IV.15-16)",
+    "field": "analysis",
+    "find": "which is a claim about the conspiracy rather than about them.",
+    "replace": "which is a claim about the conspiracy rather than about them.\n\n**The same room, seen by Sallust.** Twenty years later Sallust put a very different speech into the mouth of Cato, who spoke in this debate after Cicero. In his version the senators are not united at all: each of them makes his plans apart, a slave at home to pleasure and here to money or favour, so that the state is left with no one to defend it (De Coniuratione Catilinae 52.19-23, in this app). Cicero needed the room to believe in its concord; Sallust wrote after the civil wars had shown how long it lasted."
+  },
+  {
+    "cit": "(In Catilinam IV.15-16)",
+    "field": "analysisIt",
+    "find": "il che è un'affermazione sulla congiura più che su di loro.",
+    "replace": "il che è un'affermazione sulla congiura più che su di loro.\n\n**La stessa sala, vista da Sallustio.** Vent'anni dopo Sallustio mise un discorso molto diverso in bocca a Catone, che in questo dibattito parlò dopo Cicerone. Nella sua versione i senatori non sono affatto uniti: ciascuno fa i suoi piani a parte, schiavo a casa dei piaceri e qui del denaro o del favore, così che lo stato resta senza nessuno a difenderlo (De Coniuratione Catilinae 52.19-23, in quest'app). Cicerone aveva bisogno che la sala credesse nella sua concordia; Sallustio scriveva dopo che le guerre civili avevano mostrato quanto fosse durata."
+  }
+]

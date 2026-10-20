@@ -1,0 +1,50 @@
+[
+  {
+    "cit": "(De Coniuratione Catilinae 9)",
+    "field": "analysis",
+    "find": "when he argues against executing the conspirators.",
+    "replace": "when he argues against executing the conspirators (De Coniuratione Catilinae 51.1-8)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 9)",
+    "field": "analysisIt",
+    "find": "quando parlerà contro la condanna a morte dei congiurati.",
+    "replace": "quando parlerà contro la condanna a morte dei congiurati (De Coniuratione Catilinae 51.1-8)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 9)",
+    "field": "analysis",
+    "find": "recklessness in crime now goes by the name of courage.",
+    "replace": "recklessness in crime now goes by the name of courage (De Coniuratione Catilinae 52.7-12)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 9)",
+    "field": "analysisIt",
+    "find": "e la temerarietà nel delitto si chiama ormai coraggio.",
+    "replace": "e la temerarietà nel delitto si chiama ormai coraggio (De Coniuratione Catilinae 52.7-12)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 11)",
+    "field": "analysis",
+    "find": "in his speech in chapter 51:",
+    "replace": "in his speech in chapter 51 (De Coniuratione Catilinae 51.20-31):"
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 11)",
+    "field": "analysisIt",
+    "find": "nel suo discorso del capitolo 51:",
+    "replace": "nel suo discorso del capitolo 51 (De Coniuratione Catilinae 51.20-31):"
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 20.2-8)",
+    "field": "analysis",
+    "find": "Rome has lost the true names of things.",
+    "replace": "Rome has lost the true names of things (De Coniuratione Catilinae 52.7-12)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 20.2-8)",
+    "field": "analysisIt",
+    "find": "Roma ha perduto i veri nomi delle cose.",
+    "replace": "Roma ha perduto i veri nomi delle cose (De Coniuratione Catilinae 52.7-12)."
+  }
+]

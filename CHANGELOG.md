@@ -6,6 +6,50 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.16.4] - 2026-10-21
+
+**THE TRIBUNES AND THE NOBLES, AND THE GREAT DEBATE.** Five excerpts of the *De Coniuratione Catilinae* -
+38, 51.1-8, 51.20-31, 52.7-12, 52.19-23 - and four of the seven Philippica XIV notes. Sallust is at 26 of 70.
+
+### Added - De Coniuratione Catilinae (5)
+| excerpt | what it is |
+|---|---|
+| 38 | the parties after 70 BC: *honestis nominibus*, *bonum publicum simulantes*, Thucydides on Corcyra, and Sallust himself a tribune in 52 BC |
+| 51.1-8 | Caesar's opening, 5 December 63 BC: reason against *lubido*, the Rhodians and Carthage (both examples bent), *dignitas*, the *novum consilium* |
+| 51.20-31 | death as a rest (Epicurus), the Porcian-law dilemma, *omnia mala exempla ex rebus bonis orta sunt*, the Thirty at Athens |
+| 52.7-12 | Cato: *opulentia neglegentiam tolerabat*, *vera vocabula rerum amisimus*, *sint sane* |
+| 52.19-23 | not by arms: *domi industria, foris iustum imperium*, *publice egestatem, privatim opulentiam*, *in vacuam rem publicam* |
+
+- **The second Caesar excerpt is 51.20-31, not the planned 51.20-29**, so the Thirty Tyrants example ends
+  where Caesar ends it (228 words, inside the range of the earlier excerpts).
+- **Compared with Cicero's own account**, the user's standing request: Caesar's death-as-rest against
+  Cicero's report of it (In Catilinam IV.7); Sallust leaving the Fourth Catilinarian out of the debate;
+  Cato's divided senate against Cicero's united one (In Catilinam IV.15-16); Cicero's letter to Atticus on
+  why Cato's motion carried.
+- **Cross-references, all wired both ways**: Cat. 51.20-31 <-> De Rerum Natura III, vv. 830-842 and In
+  Catilinam IV.7; Cat. 51.1-8 <-> In Catilinam IV.7 and De Bello Civili I.23 (Corfinium); Cat. 52.19-23 <->
+  In Catilinam IV.15-16 and De Agri Cultura, Praefatio (which now points back to Cat. 7 as well). The forward
+  pointers in Cat. 9, 11 and 20.2-8 now name the excerpts they point at.
+- **In Catilinam IV.7** now calls the book *De Coniuratione Catilinae* in English as in Italian, and no longer
+  says that Sallust's Caesar calls imprisonment the heavier penalty (Cicero says it; Sallust's Caesar does not).
+- **Page quirks**: the speeches open paragraphs with a quote that is never closed (51.1, 51.25, 52.7, 52.19),
+  removed with `fix`; 51.24 *neglegeris* (Perseus *neglexeris*) is kept and explained in the grammar notes;
+  the 38.3 and 51.26 boundaries follow the page. `check_context` clears one reference (Ad Atticum XII.21,
+  summarised in the sentence that cites it).
+
+### Cicero - Philippica XIV, 4 of 7
+**Philippica XIV.1-2, 6, 10, 12** lengthened, 2,860-3,100 characters in English: the last surviving speech,
+21 April 43 BC, and the battle of Forum Gallorum taken apart; why Antony was still not a *hostis*; the rumour
+of the fasces and Decidius Saxa's end in Syria; the fifty-day thanksgiving and Valerius Maximus's
+five-thousand rule. Left: Philippica XIV.23, 27, 31-32 (3), for v1.16.5.
+
+Translation pass over the touched work: the five v1.16.3 Catilina excerpts re-read clause by clause, unchanged
+(the fifteen before them were re-read in the follow-ups of 12, 15 and 17 October).
+
+Verification: **422 verbatim, 0 mismatched** (417 + 5); check_context, lint_register, lint_ablatives and
+lint_translations report 0 for 1.16.4, check_sections nothing new; check_numbering 168/0, check_verses 60/0;
+`lint_markdown` clean. Bank **572**. Cache-bust: `?v=216` -> `?v=217`.
+
 ## [1.16.3] - 2026-10-17
 
 **SEMPRONIA, THE SENATE SCENE, TWO DOCUMENTS AND THE PLEBS.** Five excerpts of the *De Coniuratione

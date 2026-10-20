@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(De Bello Civili I.23)",
+    "field": "analysis",
+    "find": "He notes the seven days, because in this book time lost is the thing he counts.",
+    "replace": "He notes the seven days, because in this book time lost is the thing he counts.\n\n**The policy, fourteen years earlier.** Caesar argued for restraint long before he had armies to practise it with. In the senate debate of 5 December 63 BC on Catiline's accomplices, Sallust has him begin by telling the senators that whoever deliberates must be free of hatred, friendship, anger and pity, and by recalling the ancestors who let the Rhodians go unpunished (De Coniuratione Catilinae 51.1-8, in this app). At Corfinium the argument became a method."
+  },
+  {
+    "cit": "(De Bello Civili I.23)",
+    "field": "analysisIt",
+    "find": "I sette giorni li annota, perché in questo libro il tempo perduto è la cosa che conta.",
+    "replace": "I sette giorni li annota, perché in questo libro il tempo perduto è la cosa che conta.\n\n**La politica, quattordici anni prima.** Cesare sosteneva la moderazione molto prima di avere eserciti con cui praticarla. Nel dibattito in senato del 5 dicembre del 63 a.C. sui complici di Catilina, Sallustio gli fa cominciare il discorso dicendo ai senatori che chi delibera deve essere libero da odio, amicizia, ira e pietà, e ricordando gli antenati che lasciarono impuniti i Rodii (De Coniuratione Catilinae 51.1-8, in quest'app). A Corfinio l'argomento divenne un metodo."
+  }
+]

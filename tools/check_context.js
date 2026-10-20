@@ -158,6 +158,8 @@ const VOCAB = nameVocabulary();
 // belongs here once the sentence around it has been made to carry its own
 // summary, so that the reader who cannot open that chapter is not left short.
 const CLEARED = {
+  // Cicero's letter on the vote for Cato's motion is summarised in the sentence that cites it.
+  '(De Coniuratione Catilinae 52.7-12) | ref | Ad Atticum XII.21': 1,
   // Not a name: 'Raraque' is 'rara' plus '-que', capitalised because it opens a
   // sentence in the source's punctuation (De Rerum Natura IV, v. 443). The pass
   // reads any capitalised Latin word as a possible proper name.
