@@ -21,7 +21,8 @@
         ],
         changed: [
           'The new Sallust notes are linked both ways to the passages in the app that answer them: Cicero\'s Fourth Catilinarian, given in the same debate; Lucretius on why death is nothing to us; Caesar\'s mercy at Corfinium; and the Elder Cato\'s preface on farmers, which his great-grandson echoes.',
-          '3 of Cicero\'s notes in the speeches still carry the short early form, all in Philippica XIV.'
+          '3 of Cicero\'s notes in the speeches still carry the short early form, all in Philippica XIV.',
+          'The short description above each excerpt now shows titles in italics. Before, about thirty of them showed the asterisks meant to make the italics, one at each end of the title.'
         ],
         deleted: [
           'Nothing was deleted.'
@@ -35,7 +36,8 @@
         ],
         changed: [
           'Le nuove note su Sallustio sono collegate in entrambe le direzioni ai passi dell\'app che rispondono loro: la Quarta Catilinaria di Cicerone, pronunciata nello stesso dibattito; Lucrezio sul perché la morte non è nulla per noi; la clemenza di Cesare a Corfinio; e la prefazione di Catone il Vecchio sui contadini, a cui fa eco il suo pronipote.',
-          '3 note di Cicerone nelle orazioni portano ancora la forma breve delle origini, tutte nella Quattordicesima Filippica.'
+          '3 note di Cicerone nelle orazioni portano ancora la forma breve delle origini, tutte nella Quattordicesima Filippica.',
+          'La breve descrizione sopra ogni brano ora mostra i titoli in corsivo. Prima una trentina di descrizioni mostravano gli asterischi che dovevano produrre il corsivo, uno a ogni capo del titolo.'
         ],
         deleted: [
           'Non è stato eliminato nulla.'

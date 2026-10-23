@@ -50,6 +50,14 @@ Verification: **422 verbatim, 0 mismatched** (417 + 5); check_context, lint_regi
 lint_translations report 0 for 1.16.4, check_sections nothing new; check_numbering 168/0, check_verses 60/0;
 `lint_markdown` clean. Bank **572**. Cache-bust: `?v=216` -> `?v=218` (217 for the release, 218 for the time fix).
 
+### Follow-up, 2026-10-23: italics in excerpt descriptions
+
+The practice page set each fragment's `description` / `descriptionIt` as `textContent`, so the 33 descriptions
+that italicise a title (`*Odusia*`, `*Bellum Poenicum*`, `*Mostellaria*`...) showed their asterisks. They now go
+through `Markdown.renderInline`, like the title above them: inline only, HTML escaped first, no data changed.
+`lint_markdown` gains a guard: if `js/practice.js` ever goes back to plain text, every description carrying
+markdown is reported (tested: 33 reported with the old line, 0 with the new). Cache-bust: `?v=218` -> `?v=219`.
+
 ## [1.16.3] - 2026-10-17
 
 **SEMPRONIA, THE SENATE SCENE, TWO DOCUMENTS AND THE PLEBS.** Five excerpts of the *De Coniuratione

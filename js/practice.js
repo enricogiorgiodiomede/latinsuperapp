@@ -339,7 +339,8 @@
     if (fDesc) {
       var desc = document.createElement('p');
       desc.className = 'excerpt-description';
-      desc.textContent = fDesc;
+      // Inline only, like the title: descriptions italicise work titles.
+      desc.innerHTML = Markdown.renderInline(fDesc);
       box.appendChild(desc);
     }
 

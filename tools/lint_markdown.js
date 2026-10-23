@@ -79,5 +79,19 @@ for (const rel of FILES) {
     console.log('   ' + html.slice(Math.max(0, at - 70), at + 70).replace(/\s+/g, ' '));
   });
 }
+// A fragment description only renders emphasis because js/practice.js passes
+// it through Markdown.renderInline. Until 23/10/2026 it was set as textContent
+// and 32 descriptions showed their asterisks. If that line ever goes back to
+// plain text, every description carrying markdown is reported here.
+const practice = fs.readFileSync(path.join(ROOT, 'js/practice.js'), 'utf8');
+if (!/desc\.innerHTML\s*=\s*Markdown\.renderInline\(/.test(practice)) {
+  fs.readFileSync(path.join(ROOT, 'js/fragments.js'), 'utf8').split(/\r?\n/).forEach((line, i) => {
+    if (!/"description(?:It)?":\s*"/.test(line)) return;
+    if (line.indexOf('*') === -1 && line.indexOf(BACKTICK) === -1) return;
+    bad++;
+    console.log('js/fragments.js:' + (i + 1) + '  description has markdown, but js/practice.js renders it as plain text');
+  });
+}
+
 console.log('\n' + checked + ' lines with emphasis checked, ' + bad + ' leaking a literal asterisk or backtick');
 process.exit(bad ? 1 : 0);
