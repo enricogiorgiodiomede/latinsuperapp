@@ -1478,3 +1478,26 @@ Three commits: a **v1.16.2 follow-up** with the user's notes, the release of **v
 Both release commits added their batch files and updated `js/fragments.js`, CHANGELOG.md, PROGRESS.md, `js/changelog.js`, `practice_fragments_reference.md` and the cache-bust on all seven pages.
 
 **Progress:** App at **v1.16.3, cache v215**, bank 567. 417 verbatim 0 mismatched, every checker 0 for 1.16.3, check_numbering 168/0, check_verses 60/0. Sallust at 21 of 70. Still outstanding: the rest of Sallust (next is v1.16.4), the Cicero backlog (7 notes, all *Philippica* XIV), the translation re-read in *Pro Caelio* and *De Oratore*, Catullus, and the Augustan Era (awaiting the user's permission).
+
+---
+
+## 2026-10-21
+
+*(End-of-day log, 23:55.)*
+
+Three commits, all just after midnight: a **v1.16.3 follow-up** with the user's notes, the release of **v1.16.4** (the fifth Sallust batch, with the Caesar-Cato debate), and a docs fix for its release time.
+
+**v1.16.3 follow-up -- the user's notes on *Catilina* 25-37 (01:09, cache v216).** Folded into the five analyses in both languages: Sempronia as a type, a smaller female Catiline (25); Catiline attacking Cicero's class rather than the charges, the *nimis alta* of chapter 5 in his last threat, and Sallust's account of 8 November set beside Cicero's own in the Second Catilinarian, wired both ways with *In Catilinam* II.12-13 (31.4-9); the rebels as good men with the wrong method (33); Catiline as he saw himself, against the *homo novus* (35); Sulla's shadow and a city where nobody deserted (37). New patch files `batch/patch1163b.js` and its Sallust/Cicero JSON. verify 417 verbatim, 0 mismatched; check_context and lint_markdown clean.
+
+**v1.16.4 -- *Catilina* 38, 51 and 52 (01:40, cache v217).** Five new excerpts from *De Coniuratione Catilinae*: 38 (the parties after 70 BC), 51.1-8 and 51.20-31 (Caesar's speech) and 52.7-12 and 52.19-23 (Cato's reply). 51.20-31 replaces the planned 20-29 so the Thirty Tyrants example is complete. Sallust now at 26 of 70.
+- **Sallust against Cicero:** the notes compare the debate with Cicero's own account (*In Catilinam* IV.7, IV.11, IV.15-16; *Ad Atticum* XII.21), and *In Catilinam* IV.7 now agrees on the title and on what Sallust's Caesar says.
+- **Wired both ways:** Lucretius III 830-842, *In Catilinam* IV.7 and IV.15-16, *De Bello Civili* I.23 and the *De Agri Cultura* Praefatio.
+- **Tooling:** `tools/check_context.js` given two more entries.
+
+**Cicero note-lengthening.** *Philippica* XIV.1-2, 6, 10 and 12 lengthened (history paragraph + grammar notes); 3 short notes left, all *Philippica* XIV.
+
+**Docs.** The v1.16.4 release time set from the actual commit (21/10/2026, 01:40 CEST).
+
+Both content commits added their batch files and updated `js/fragments.js`, CHANGELOG.md, PROGRESS.md, `js/changelog.js`, `practice_fragments_reference.md` and the cache-bust on all seven pages.
+
+**Progress:** App at **v1.16.4, cache v217**, bank 572. 422 verbatim 0 mismatched. Sallust at 26 of 70. Still outstanding: the rest of Sallust (next is v1.16.5), the Cicero backlog (3 notes, all *Philippica* XIV), the translation re-read in *Pro Caelio* and *De Oratore*, Catullus, and the Augustan Era (awaiting the user's permission).
