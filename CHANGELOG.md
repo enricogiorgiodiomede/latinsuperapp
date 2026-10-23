@@ -46,7 +46,7 @@ Translation pass over the touched work: the five v1.16.4 Catilina excerpts re-re
 
 Verification: **427 verbatim, 0 mismatched** (422 + 5); check_context, lint_register, lint_ablatives and
 lint_translations report 0 for 1.16.5, check_sections nothing new; check_numbering 168/0, check_verses 60/0;
-`lint_markdown` clean. Bank **577**. Cache-bust: `?v=220` -> `?v=221`.
+`lint_markdown` clean. Bank **577**. Cache-bust: `?v=220` -> `?v=222` (221 for the release, 222 for the time fix).
 
 ## [1.16.4] - 2026-10-21
 

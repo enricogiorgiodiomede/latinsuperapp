@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.16.5', date: '23/10/2026', time: '23:00', tz: 'CEST',
+      v: '1.16.5', date: '23/10/2026', time: '22:55', tz: 'CEST',
       en: {
         added: [
           'SALLUST\'S CATILINA IS COMPLETE: thirty excerpts, the whole story from the preface to the last battle. The final five begin with Sallust\'s own portrait of Caesar and Cato side by side - one great for giving and forgiving, the other for giving nothing away - and the execution of the conspirators in the Tullianum, the underground cell at the foot of the Capitol.',
