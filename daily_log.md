@@ -1501,3 +1501,27 @@ Three commits, all just after midnight: a **v1.16.3 follow-up** with the user's 
 Both content commits added their batch files and updated `js/fragments.js`, CHANGELOG.md, PROGRESS.md, `js/changelog.js`, `practice_fragments_reference.md` and the cache-bust on all seven pages.
 
 **Progress:** App at **v1.16.4, cache v217**, bank 572. 422 verbatim 0 mismatched. Sallust at 26 of 70. Still outstanding: the rest of Sallust (next is v1.16.5), the Cicero backlog (3 notes, all *Philippica* XIV), the translation re-read in *Pro Caelio* and *De Oratore*, Catullus, and the Augustan Era (awaiting the user's permission).
+
+---
+
+## 2026-10-23
+
+*(End-of-day log, 23:55.)*
+
+Four commits in the evening: two **v1.16.4 follow-ups** (an italics fix on the practice page and the user's notes on the last Catilina batch), the release of **v1.16.5**, which completes the *Catilina* at 30 excerpts and finishes the Cicero note-lengthening pass, and a docs fix for its release time.
+
+**v1.16.4 follow-up -- italics in excerpt descriptions (21:36, cache v219).** The practice page set `description`/`descriptionIt` as plain text, so the 33 descriptions that italicise a title showed literal asterisks. `js/practice.js` now sends them through `Markdown.renderInline`, like the title, and `tools/lint_markdown.js` reports any description containing markdown if the page ever goes back to plain text.
+
+**v1.16.4 follow-up -- the user's notes on *Catilina* 38-52 (22:35, cache v220).** Folded into the five analyses in both languages: chapter 38 read as the hypocrisy of the fine party names; Caesar's two excerpts linked as cause and effect, with Cicero's exile in 58 BC as the precedent coming home and Caesar's real proposal (51.43); Cato's call to act and the road from the *mos maiorum* to the *more maiorum supplicium* (52.36). New patch files `batch/patch1164b.js` and `batch/patch1164b_sal.json`.
+
+**v1.16.5 -- the *Catilina* complete at 30 (22:55, cache v221).** Five new excerpts from *De Coniuratione Catilinae*: 54 (Caesar and Cato compared), 55 (the Tullianum), 58.8-21 (Catiline's speech at Pistoria), 60 (the battle) and 61 (the field after it). 58 is cut so its last order meets its fulfilment in 61.7. Sallust now at 31 of 70.
+- **Sallust against Cicero:** the notes compare with Cicero (*vixerunt*, his own Cato, *Pro Caelio* 12), and the new excerpts are wired both ways with *Pro Caelio* 12, *De Bello Civili* I.76 and *Philippica* XIV.12; the earlier Catilina notes now point forward to 58, 60 and 61.
+- **Verification:** chapter 54 is unreachable on the Perseus API, so it was diffed by hand against the GitHub XML. `tools/check_context.js` given two more entries.
+
+**Cicero note-lengthening -- finished.** *Philippica* XIV.23, 27 and 31-32 lengthened: no short notes remain in Cicero's speeches, closing the standing job.
+
+**Docs.** The v1.16.5 release time set from the actual commit (23/10/2026, 22:55 CEST).
+
+The content commits added their batch files and updated `js/fragments.js`, CHANGELOG.md, `js/changelog.js` and the cache-bust on all seven pages (plus PROGRESS.md and `practice_fragments_reference.md` for the two Sallust commits).
+
+**Progress:** App at **v1.16.5, cache v221**, bank 577. Verify 427 verbatim, 0 mismatched. Sallust at 31 of 70 with the *Catilina* complete; next is v1.16.6, the start of the *Iugurtha*. Still outstanding: the rest of Sallust, the translation re-read in *Pro Caelio* and *De Oratore*, Catullus, and the Augustan Era (awaiting the user's permission).
