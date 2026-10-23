@@ -158,6 +158,8 @@ const VOCAB = nameVocabulary();
 // belongs here once the sentence around it has been made to carry its own
 // summary, so that the reader who cannot open that chapter is not left short.
 const CLEARED = {
+  // Cicero's 'Plato's Republic, not the dregs of Romulus' letter, quoted and summarised where it is cited.
+  '(De Coniuratione Catilinae 54) | ref | Ad Atticum II.1': 1,
   // Cicero's letter on the vote for Cato's motion is summarised in the sentence that cites it.
   '(De Coniuratione Catilinae 52.7-12) | ref | Ad Atticum XII.21': 1,
   // Not a name: 'Raraque' is 'rara' plus '-que', capitalised because it opens a

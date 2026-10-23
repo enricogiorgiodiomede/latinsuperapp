@@ -1,0 +1,26 @@
+[
+  {
+    "cit": "(Pro Caelio 12)",
+    "field": "analysis",
+    "find": "strength of mind and body joined to a twisted nature (De Coniuratione Catilinae 5, also in this app).",
+    "replace": "strength of mind and body joined to a twisted nature (De Coniuratione Catilinae 5, also in this app). And he ended the book with the same man dying in the front rank at Pistoria, still keeping on his face the fierceness he had had in life (De Coniuratione Catilinae 60 and 61, also in this app)."
+  },
+  {
+    "cit": "(Pro Caelio 12)",
+    "field": "analysisIt",
+    "find": "forza d'animo e di corpo unita a un'indole perversa (De Coniuratione Catilinae 5, anch'esso in quest'app).",
+    "replace": "forza d'animo e di corpo unita a un'indole perversa (De Coniuratione Catilinae 5, anch'esso in quest'app). E chiuse il libro con lo stesso uomo che muore in prima fila a Pistoia, conservando sul volto la fierezza che aveva avuto da vivo (De Coniuratione Catilinae 60 e 61, anch'essi in quest'app)."
+  },
+  {
+    "cit": "(Philippica XIV.12)",
+    "field": "analysis",
+    "find": "The legions destroyed at Forum Gallorum were Roman, and the word *hostis* is there to make the senate forget it.",
+    "replace": "The legions destroyed at Forum Gallorum were Roman, and the word *hostis* is there to make the senate forget it. The rule had been bent before. Twenty years earlier the consul Gaius Antonius was hailed *imperator* for the victory over Catiline at Pistoria although, Cassius Dio says, fewer of the enemy had fallen than the rule required - and they were Romans too (De Coniuratione Catilinae 60, in this app)."
+  },
+  {
+    "cit": "(Philippica XIV.12)",
+    "field": "analysisIt",
+    "find": "Le legioni distrutte a Forum Gallorum erano romane, e la parola *hostis* serve a farlo dimenticare al senato.",
+    "replace": "Le legioni distrutte a Forum Gallorum erano romane, e la parola *hostis* serve a farlo dimenticare al senato. La regola era già stata piegata. Vent'anni prima il console Gaio Antonio era stato salutato *imperator* per la vittoria su Catilina a Pistoia benché, dice Cassio Dione, fossero caduti meno nemici di quanti la regola richiedesse - e anche quelli erano Romani (De Coniuratione Catilinae 60, in quest'app)."
+  }
+]

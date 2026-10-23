@@ -12,6 +12,35 @@
 
   var VERSIONS = [
     {
+      v: '1.16.5', date: '23/10/2026', time: '23:00', tz: 'CEST',
+      en: {
+        added: [
+          'SALLUST\'S CATILINA IS COMPLETE: thirty excerpts, the whole story from the preface to the last battle. The final five begin with Sallust\'s own portrait of Caesar and Cato side by side - one great for giving and forgiving, the other for giving nothing away - and the execution of the conspirators in the Tullianum, the underground cell at the foot of the Capitol.',
+          'Then the end. Catiline\'s last speech to his army, trapped between two Roman armies near Pistoia, tells them that daring is their only wall and that if they must die they should leave the enemy a bloody victory. The battle follows, with Catiline fighting in the front line and dying in the thickest of the enemy, and the book ends on the field: no rebel taken alive, and the winners turning over the bodies to find their friends and relatives.',
+          'The last three short Cicero notes rewritten at length, which finishes a job that has run alongside the last six releases: every note on Cicero\'s speeches is now in the long form. They cover Caesar\'s triumphs, Hirtius\'s counter-attack at Forum Gallorum and his death a week later, and the legion that held Alba Fucens.'
+        ],
+        changed: [
+          'The new Sallust notes are linked both ways to the passages that answer them: Cicero\'s own portrait of Catiline as a monster of opposites, Caesar\'s picture of Petreius - the same man who beat Catiline - and Cicero on the rule of five thousand dead for a general\'s title. The earlier Catilina notes now point forward to the speech, the battle and the end.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'IL CATILINA DI SALLUSTIO È COMPLETO: trenta brani, tutta la storia dal proemio all\'ultima battaglia. Gli ultimi cinque cominciano con il ritratto che Sallustio fa di Cesare e Catone fianco a fianco - l\'uno grande per il donare e il perdonare, l\'altro per il non elargire nulla - e con l\'esecuzione dei congiurati nel Tulliano, la cella sotterranea ai piedi del Campidoglio.',
+          'Poi la fine. L\'ultimo discorso di Catilina al suo esercito, stretto fra due eserciti romani presso Pistoia, dice ai soldati che l\'audacia è il loro unico muro e che, se devono morire, lascino al nemico una vittoria sanguinosa. Segue la battaglia, con Catilina che combatte in prima fila e muore nel folto dei nemici, e il libro si chiude sul campo: nessun ribelle preso vivo, e i vincitori che rivoltano i corpi e vi trovano amici e parenti.',
+          'Le ultime tre note brevi di Cicerone riscritte per esteso, il che conclude un lavoro che ha accompagnato le ultime sei versioni: tutte le note sulle orazioni di Cicerone hanno ora la forma estesa. Parlano dei trionfi di Cesare, del contrattacco di Irzio a Forum Gallorum e della sua morte una settimana dopo, e della legione che tenne Alba Fucens.'
+        ],
+        changed: [
+          'Le nuove note su Sallustio sono collegate in entrambe le direzioni ai passi che rispondono loro: il ritratto che Cicerone fa di Catilina come mostro fatto di contrari, il Petreio di Cesare - lo stesso uomo che sconfisse Catilina - e Cicerone sulla regola dei cinquemila morti per il titolo di generale. Le note precedenti del Catilina rimandano ora al discorso, alla battaglia e alla fine.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.16.4', date: '21/10/2026', time: '01:40', tz: 'CEST',
       en: {
         added: [

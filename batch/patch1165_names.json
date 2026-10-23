@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(De Coniuratione Catilinae 55)",
+    "field": "analysis",
+    "find": "The other four conspirators, named in a single closing clause,",
+    "replace": "The other four conspirators - Cethegus, Statilius, Gabinius and Caeparius - named in a single closing clause,"
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 55)",
+    "field": "analysisIt",
+    "find": "Gli altri quattro congiurati, nominati in un'unica proposizione finale,",
+    "replace": "Gli altri quattro congiurati - Cetego, Statilio, Gabinio e Cepario - nominati in un'unica proposizione finale,"
+  }
+]

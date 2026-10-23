@@ -1,0 +1,8 @@
+{
+  "_comment": "v1.16.5 - De Coniuratione Catilinae 54, 55, 58.8-21, 60, 61: closes the Catilina at 30. sall.1 bare digits: start ON the digit. Chapter 54 cannot be fetched from the Perseus CTS API (HTTP 500: in the perseus-lat3 XML its chapter marker is a milestone inside div 53); compared by hand against the GitHub XML of the same edition: one difference, novom/novum. 55.1 prints 'quae supplicium postulabat' where Perseus has 'quae ad supplicium postulabantur' (kept, explained). 58.18 opens with an unclosed quote and 58.21 closes the speech: fix removes both. Boundaries that differ from Perseus, page followed: 55.3, 58.10, 58.14. 61 ends before the page's footer links.",
+  "cat.54": ["sall.1", "1 Igitur iis genus", "eo magis illum sequebatur."],
+  "cat.55": ["sall.1", "1 Postquam, ut dixi", "supplicium sumptum est."],
+  "cat.58": ["sall.1", "8 Quapropter vos moneo", "hostibus relinquatis!\""],
+  "cat.60": ["sall.1", "1 Sed ubi omnibus rebus", "ibique pugnans confoditur."],
+  "cat.61": ["sall.1", "1 Sed confecto proelio", "gaudia agitabantur."]
+}

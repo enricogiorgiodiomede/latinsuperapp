@@ -6,6 +6,48 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.16.5] - 2026-10-23
+
+**THE CATILINA IS COMPLETE, AND SO IS THE CICERO NOTE PASS.** Five excerpts of the *De Coniuratione
+Catilinae* - 54, 55, 58.8-21, 60, 61 - bring the work to its planned **30**; the last three short Philippica XIV
+notes finish the long-running pass over Cicero's speeches. Sallust is at 31 of 70; the Iugurtha starts in v1.16.6.
+
+### Added - De Coniuratione Catilinae (5)
+| excerpt | what it is |
+|---|---|
+| 54 | Sallust's own *synkrisis* of Caesar and Cato: *dando, sublevando, ignoscundo* against *nihil largiundo*, the *bellum novum* Caesar longed for, *esse quam videri bonus malebat* |
+| 55 | the Tullianum: the *ekphrasis* of the cell, *laqueo gulam fregere*, Lentulus's end *dignum moribus factisque suis* - and the consul never named |
+| 58.8-21 | Catiline's last speech, at Pistoria: *divitias, decus, gloriam, praeterea libertatem*, *pro potentia paucorum*, *audacia pro muro habetur*, *cruentam atque luctuosam victoriam* |
+| 60 | the battle: *gladiis res geritur*, Catiline *strenui militis et boni imperatoris*, Manlius falls, Catiline *memor generis atque pristinae suae dignitatis* |
+| 61 | the field: wounds in front, Catiline still breathing among the enemy dead, no freeborn rebel taken alive, *laetitia, maeror, luctus atque gaudia* |
+
+- **58 is cut at 8-21** (the whole speech is 365 words), so that Catiline's last order - leave the enemy a
+  bloody and grievous victory - can be read against its fulfilment in 61.7.
+- **Compared with Cicero**: Cicero's *vixerunt*, the torchlight and "father of his country", none of which
+  Sallust gives (55); Cicero's Cato, the Plato's-Republic letter and the Pro Murena teasing, against Sallust's
+  (54); Cicero's own late portrait of Catiline as a monster of opposites (61).
+- **Cross-references, wired both ways**: Cat. 61 <-> Pro Caelio 12; Cat. 60 <-> De Bello Civili I.76 (Petreius,
+  the man who beat Catiline) and Philippica XIV.12 (Antonius hailed *imperator* below the five-thousand rule).
+  Inside the Catilina, 5, 20.9-17, 33 and 37 now point forward to 58, 60 and 61.
+- **Page quirks**: chapter 54 cannot be fetched from the Perseus CTS API (HTTP 500 - in the perseus-lat3 XML its
+  chapter marker is a milestone inside div 53); compared by hand against the same edition's XML on GitHub, one
+  difference (*novom/novum*). 55.1 prints *quae supplicium postulabat* (Perseus *quae ad supplicium
+  postulabantur*), kept and explained. 58.18's unclosed quote and 58.21's closing one are removed with `fix`;
+  55.3, 58.10 and 58.14 boundaries follow the page; 61 stops before the page's footer links. `check_context`
+  clears one reference (Ad Atticum II.1, summarised where it is cited).
+
+### Cicero - the note pass is finished
+**Philippica XIV.23, 27, 31-32** lengthened, 3,070-3,310 characters in English: Servilius Isauricus and the
+civil wars without thanksgivings, Zela and the four triumphs of 46; Hirtius's counter-attack at Forum Gallorum
+and his death a week later; the Martian legion, Alba Fucens and the monument nobody knows was built. **No short
+notes remain in Cicero's speeches.**
+
+Translation pass over the touched work: the five v1.16.4 Catilina excerpts re-read clause by clause, unchanged.
+
+Verification: **427 verbatim, 0 mismatched** (422 + 5); check_context, lint_register, lint_ablatives and
+lint_translations report 0 for 1.16.5, check_sections nothing new; check_numbering 168/0, check_verses 60/0;
+`lint_markdown` clean. Bank **577**. Cache-bust: `?v=220` -> `?v=221`.
+
 ## [1.16.4] - 2026-10-21
 
 **THE TRIBUNES AND THE NOBLES, AND THE GREAT DEBATE.** Five excerpts of the *De Coniuratione Catilinae* -

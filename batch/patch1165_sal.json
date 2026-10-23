@@ -1,0 +1,50 @@
+[
+  {
+    "cit": "(De Coniuratione Catilinae 5)",
+    "field": "analysis",
+    "find": "The excerpts of chapters 7 and 9 come from it.",
+    "replace": "The excerpts of chapters 7 and 9 come from it.\n\n**Where the portrait ends.** The gifts of section 1, strength of mind and body, last to the end of the book. At Pistoria Catiline fights in the front line as a good soldier and a good general at once, and dies charging into the enemy (De Coniuratione Catilinae 60); he is found among the enemy dead with the old fierceness still on his face (De Coniuratione Catilinae 61)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 5)",
+    "field": "analysisIt",
+    "find": "I brani dei capitoli 7 e 9 vengono da lì.",
+    "replace": "I brani dei capitoli 7 e 9 vengono da lì.\n\n**Dove finisce il ritratto.** Le doti del paragrafo 1, la forza d'animo e di corpo, durano fino alla fine del libro. A Pistoia Catilina combatte in prima fila da buon soldato e buon comandante insieme, e muore gettandosi sui nemici (De Coniuratione Catilinae 60); viene trovato fra i cadaveri nemici con l'antica fierezza ancora sul volto (De Coniuratione Catilinae 61)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 33)",
+    "field": "analysis",
+    "find": "the anaphora of a speaker listing precedents.",
+    "replace": "the anaphora of a speaker listing precedents. Manlius himself died in the front rank at Pistoria (De Coniuratione Catilinae 60)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 33)",
+    "field": "analysisIt",
+    "find": "l'anafora di chi elenca dei precedenti.",
+    "replace": "l'anafora di chi elenca dei precedenti. Manlio stesso cadde in prima fila a Pistoia (De Coniuratione Catilinae 60)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 37)",
+    "field": "analysis",
+    "find": "When the whole city is sick and nobody deserts the man promising to burn it, Rome is in a desperate state.",
+    "replace": "When the whole city is sick and nobody deserts the man promising to burn it, Rome is in a desperate state. At the end nobody surrendered either: of Catiline's whole army not one freeborn citizen was taken alive (De Coniuratione Catilinae 61)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 37)",
+    "field": "analysisIt",
+    "find": "Quando tutta la città è malata e nessuno abbandona l'uomo che promette di bruciarla, Roma è ridotta allo stremo.",
+    "replace": "Quando tutta la città è malata e nessuno abbandona l'uomo che promette di bruciarla, Roma è ridotta allo stremo. E alla fine nessuno si arrese: di tutto l'esercito di Catilina nessun cittadino nato libero fu preso vivo (De Coniuratione Catilinae 61)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 20.9-17)",
+    "field": "analysis",
+    "find": "the restlessness of the rich in five words.",
+    "replace": "the restlessness of the rich in five words. Catiline's second and last speech, to his army before the final battle, uses the same language of freedom against the few (De Coniuratione Catilinae 58.8-21)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 20.9-17)",
+    "field": "analysisIt",
+    "find": "l'irrequietezza dei ricchi in cinque parole.",
+    "replace": "l'irrequietezza dei ricchi in cinque parole. Il secondo e ultimo discorso di Catilina, all'esercito prima della battaglia finale, usa lo stesso linguaggio della libertà contro i pochi (De Coniuratione Catilinae 58.8-21)."
+  }
+]
