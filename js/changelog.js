@@ -21,6 +21,7 @@
         ],
         changed: [
           'The new Sallust notes are linked both ways to the passages in the app that answer them: Cicero\'s Fourth Catilinarian, given in the same debate; Lucretius on why death is nothing to us; Caesar\'s mercy at Corfinium; and the Elder Cato\'s preface on farmers, which his great-grandson echoes.',
+          'The notes on Sallust\'s chapters 38 to 52 were deepened from a reader\'s comments. Chapter 38 now reads the fine party names as plain hypocrisy, one of the low points of Sallust\'s Rome. Caesar\'s two excerpts are linked as cause and effect: his warning against deciding in anger, and what follows when the senate does - a harsh measure against the guilty that ends up used on the innocent, as it did when Cicero was exiled five years later. The Cato notes now explain why he called talk of mercy dangerous, and how his call to return to the ancestors\' ways led straight to the death sentence.',
           '3 of Cicero\'s notes in the speeches still carry the short early form, all in Philippica XIV.',
           'The short description above each excerpt now shows titles in italics. Before, about thirty of them showed the asterisks meant to make the italics, one at each end of the title.'
         ],
@@ -36,6 +37,7 @@
         ],
         changed: [
           'Le nuove note su Sallustio sono collegate in entrambe le direzioni ai passi dell\'app che rispondono loro: la Quarta Catilinaria di Cicerone, pronunciata nello stesso dibattito; Lucrezio sul perché la morte non è nulla per noi; la clemenza di Cesare a Corfinio; e la prefazione di Catone il Vecchio sui contadini, a cui fa eco il suo pronipote.',
+          'Le note ai capitoli dal 38 al 52 di Sallustio sono state approfondite a partire dai commenti di un lettore. Il capitolo 38 legge ora i bei nomi dei partiti come pura ipocrisia, uno dei punti più bassi della Roma di Sallustio. I due brani di Cesare sono collegati come causa ed effetto: il suo invito a non decidere nell\'ira, e ciò che accade quando il senato lo fa - una misura dura contro i colpevoli che finisce usata contro gli innocenti, come accadde quando Cicerone fu esiliato cinque anni dopo. Le note su Catone spiegano ora perché considerava pericoloso parlare di misericordia, e come il suo appello a tornare alle usanze degli antenati portasse dritto alla condanna a morte.',
           '3 note di Cicerone nelle orazioni portano ancora la forma breve delle origini, tutte nella Quattordicesima Filippica.',
           'La breve descrizione sopra ogni brano ora mostra i titoli in corsivo. Prima una trentina di descrizioni mostravano gli asterischi che dovevano produrre il corsivo, uno a ogni capo del titolo.'
         ],

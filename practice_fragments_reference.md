@@ -117,6 +117,8 @@ the conspiracy's women; a smaller female Catiline); Catiline answers class, not 
 31; In Cat. II.12-13 is Cicero's); the rebels and Catiline as "good men with the wrong method" - noble intent,
 monstrous method; Sulla as the root of the corruption (5, 11, 37); Rome "very cooked" = nobody deserted.
 
+**The user's notes on 38-52 (23/10, folded into v1.16.4) - carry forward:** ch. 38 = the hypocrisy of the fine names, conspiracy as one frame of a longer story; Caesar's maxim on passion as real psychology, his two excerpts linked as cause -> effect, Cicero's exile in 58 as the precedent coming home; Caesar proposed confiscation + life in chains (51.43), NOT flogging (the user first read the flogging questions as a plea for it - corrected); Cato = act now, mercy-talk dangerous, return to the *mos maiorum* -> *more maiorum supplicium* (52.36). For 54: build on the contrast already drawn, do not repeat it.
+
 **FLAGS FOR LATER BATCHES.** Cat. 14.2 stays as printed (decided). Iug. 85.1-4, the opening of Marius's speech, was in the launch excerpt
 and is no longer in the bank - the user chose 85.10-17 + 85.29-37.
 

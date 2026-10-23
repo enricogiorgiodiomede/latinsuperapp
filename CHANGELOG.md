@@ -58,6 +58,27 @@ through `Markdown.renderInline`, like the title above them: inline only, HTML es
 `lint_markdown` gains a guard: if `js/practice.js` ever goes back to plain text, every description carrying
 markdown is reported (tested: 33 reported with the old line, 0 with the new). Cache-bust: `?v=218` -> `?v=219`.
 
+### Follow-up, 2026-10-23: the user's notes on Catilina 38-52
+
+The user's notes on this release are folded into the five analyses, English and Italian; no excerpt,
+translation or tag changes.
+
+- **Cat. 38** - *From shared values to private gain*: the hypocrisy of the fine names, one of the lowest points
+  of Sallust's Rome, and the conspiracy as one frame of a longer story.
+- **Cat. 51.1-8** - *Decide with a cool head*: the maxim on passion and judgement as real psychology (with the
+  caveat that it is a Greek commonplace, Aristotle and the Stoics, not Caesar's invention); **linked to 51.20-31
+  as cause and effect**. *The consequence came*: Clodius's law and Cicero's exile in 58 BC.
+- **Cat. 51.20-31** - *Why the questions to Silanus matter*: the flogging questions are a trap, not a plea for
+  flogging; *quid in alios statuatis*; **linked back to 51.1-8**. *So what does Caesar propose?*: confiscation
+  and life in chains (51.43), answering both objections.
+- **Cat. 52.7-12** - *The contrast could not be greater*: mercy as dangerous talk, with Cato's own 52.4, 52.18
+  and *vigilando, agundo, bene consulundo* (52.29).
+- **Cat. 52.19-23** - *Back to the ancestors, and so to the death penalty*: Torquatus (52.30) and *more maiorum*
+  (52.36), and the irony that Caesar had argued the ancestors' custom was superseded by the laws.
+
+Verification: **422 verbatim, 0 mismatched**; check_context clean for 1.16.4; `lint_markdown` clean.
+Cache-bust: `?v=219` -> `?v=220`.
+
 ## [1.16.3] - 2026-10-17
 
 **SEMPRONIA, THE SENATE SCENE, TWO DOCUMENTS AND THE PLEBS.** Five excerpts of the *De Coniuratione
