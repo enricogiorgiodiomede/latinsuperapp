@@ -63,19 +63,26 @@ The project targets an intermediate Latin student audience (Liceo Scientifico le
 
 ### Augustan Era (44 BC -- 14 AD)
 
-**Mainstream**
-- Gaius Cornelius Gallus (70--26 BC)
-- Titus Livius -- Livy (64/59 BC -- 17 AD)
-- Publius Vergilius Maro -- Virgil (70--19 BC)
-- Albius Tibullus (c. 55--19 BC)
-- Marcus Vitruvius Pollio -- Vitruvius (c. 80--15 BC)
-- Sextus Propertius (c. 50--15 BC)
-- Quintus Horatius Flaccus -- Horace (65--8 BC)
-- Publius Ovidius Naso -- Ovid (43 BC -- 17/18 AD)
+**Order of entries** (agreed 2026-10-24): broadly chronological by birth, mainstream and lesser known in a single sequence, with two deliberate exceptions: Augustus opens the era as its introduction, and Gallus comes before Virgil.
 
-**Lesser Known**
-- Hyginus (c. 64 BC -- 17 AD)
-- Grattius (fl. late I century BC)
+1. Gaius Octavius -- Augustus (63 BC -- 14 AD) -- *Res Gestae Divi Augusti* -- mainstream, provisional tier D
+2. Marcus Vitruvius Pollio -- Vitruvius (c. 80--15 BC) -- mainstream
+3. Gaius Cornelius Gallus (70/69--26 BC) -- mainstream
+4. Publius Vergilius Maro -- Virgil (70--19 BC) -- mainstream
+5. Quintus Horatius Flaccus -- Horace (65--8 BC) -- mainstream
+6. Titus Livius -- Livy (64 or 59 BC -- 17 AD) -- mainstream
+7. Albius Tibullus (c. 55--19 BC) -- mainstream
+8. Sulpicia (fl. late I century BC) -- lesser known, own entry, rated (not NC: her whole output probably survives), provisional tier D
+9. Sextus Propertius (c. 50--15 BC) -- mainstream
+10. Publius Ovidius Naso -- Ovid (43 BC -- 17/18 AD) -- mainstream
+11. Gaius Julius Hyginus (c. 64 BC -- 17 AD) -- lesser known
+12. Grattius (fl. late I century BC) -- lesser known
+
+**Possible additions (later, not now):** Marcus Manilius (*Astronomica*), Pompeius Trogus (*Historiae Philippicae*, via Justin's epitome).
+
+**Notes:** Gallus survives in about ten lines (Qasr Ibrim papyrus), so expect a biography-heavy entry. Hyginus: the transmitted *Fabulae* and *De Astronomia* are probably by a later namesake; flag the attribution in the entry. Hyginus + Grattius as a paired entry is proposed, not yet decided.
+
+**Files:** `augustan_era_draft.md` (English, Latin + English only) and `italian_translations_augustan.md` (Italian mirror, no English translations).
 
 ### Early Imperial Era (I--II century AD)
 
