@@ -376,3 +376,226 @@ His other legacy is a warning. Gallus was the first great writer of the Augustan
 About ten lines of verse, several of them broken, cannot support a reliable rating. What survives is not especially hard: the syntax of the papyrus is clear, the vocabulary standard, and the main obstacles are the archaic spelling, the gaps in the text and the elegiac metre itself. But nine lines cannot tell us how Gallus handled the long, dense, allusive elegies his contemporaries admired, and Quintilian's *durior* suggests that he was not an easy read. So NC, as with Livius Andronicus. What NC does not measure is importance, and here Gallus ranks with anyone in the era: without him there would be no Tibullus, no Propertius, and no Ovid as we know them.
 
 ---
+
+# PUBLIUS VERGILIUS MARO -- VIRGIL (70 -- 19 BC)
+
+## Biography
+
+Virgil is the most famous Latin poet who ever lived, and possibly the most famous Latin author of any kind. He is also, by every ancient account, one of the shyest, most awkward and most anxious men ever to become a celebrity. Most of what we know about his life comes from a biography by Suetonius that survives in a version by the fourth-century grammarian Donatus, and from the commentary of Servius. Some of it is legend. All of it is worth telling.
+
+**A laurel in a ditch.** Publius Vergilius Maro was born on 15 October 70 BC in the village of Andes, near Mantua, in what was then Cisalpine Gaul. His father was a man of modest origins: according to Donatus, either a potter or the hired hand of a minor official called Magius, who did well enough to marry his employer's daughter, Magia Polla, and to buy land and bees of his own. Before Virgil was born, his mother dreamed that she gave birth to a laurel branch, which took root and grew at once into a fully grown tree covered in fruit and flowers. The next day she gave birth in a ditch by the side of the road, on the way to the country. The baby, we are told, did not cry, and had such a gentle expression that everyone took it as a sign of good fortune. A poplar planted on the spot grew so fast that local women started praying to it. Every great Roman got a few omens; Virgil got a botanical garden.
+
+**The maiden.** He was educated at Cremona and Milan, then in Rome, where he studied rhetoric to become a lawyer. It did not go well. Donatus says he pleaded exactly one case in court, and spoke so slowly that he seemed almost uneducated. He then turned to medicine and, above all, mathematics, before ending up at Naples in the Epicurean school of Siro. He was tall, dark-skinned, with the face of a countryman, and in poor health all his life: he suffered from his stomach, his throat and headaches, and often coughed up blood. In Naples people called him *Parthenias*, "the maiden", because of the modesty of his life. When he did become famous, on the rare occasions he visited Rome and people recognised him in the street and pointed him out, he would duck into the nearest house to escape them.
+
+**The farm.** In 41 BC, after Philippi, the triumvirs confiscated land all over northern Italy to settle their veterans, and the Virgil family farm was among them. According to the ancient commentators, Virgil was nearly killed by the veteran who took it, and only got it back (if he ever did) thanks to influential friends, among them Asinius Pollio and Cornelius Gallus. The experience went straight into his first book. The opening poem of the *Eclogues* is a dialogue between a shepherd who has kept his land and one who has been thrown off it, and the dispossessed shepherd's question to the new soldier-owner, *impius haec tam culta novalia miles habebit?*, "is some godless soldier going to have these well-tended fields?", is the civil wars seen from the farmyard.
+
+**Maecenas, and a bear licking her cubs.** The *Eclogues* made him famous almost overnight: they were even performed on stage by actors, to wild applause. They also brought him into the circle of Maecenas, who became his patron and friend, and who asked him for a poem on farming. Virgil spent seven years on the four books of the *Georgics*, about 2,200 lines, which works out at less than a line a day. His method, as Donatus describes it, explains why. Every morning he dictated a large number of verses; then he spent the rest of the day reworking them and cutting them down to a very few, saying that he produced his poems the way a she-bear produces her cubs: by licking them into shape. In 29 BC he read the finished *Georgics* to Octavian, just back from Actium, at Atella in Campania. The reading took four days, and whenever Virgil's voice gave out, Maecenas took over.
+
+**The Aeneid, and an emperor who would not wait.** For the last eleven years of his life he worked on the *Aeneid*. He first wrote the whole story out in prose and divided it into twelve books, then turned it into verse piece by piece, in no particular order, as the mood took him. Where he could not yet find the right line, he left a half-line and moved on, calling these unfinished verses "props" (*tibicines*), put in to hold up the building until the real columns were ready. Fifty-eight of those half-lines are still in the poem, and one of them appears in the excerpt below. Augustus could hardly bear the wait. While fighting in Spain in 26-25 BC he wrote to Virgil begging, half jokingly and half threateningly, for "even a first sketch or any section at all" of the poem. Virgil replied that he had nothing worthy to send, and that he had taken on something so enormous that he sometimes thought he must have been out of his mind to start it.
+
+**Octavia faints.** Eventually he gave in, and read three books to Augustus and his family: Books II, IV and VI. Book VI ends with Aeneas in the underworld, where his father Anchises shows him the souls of the great Romans of the future waiting to be born. Last of all comes a young man of extraordinary promise, surrounded by mourning, and Anchises, weeping, reveals who he is: *tu Marcellus eris*, "you will be Marcellus". This was Augustus's nephew, son-in-law and intended heir, who had died in 23 BC at the age of nineteen, and his mother, Augustus's sister Octavia, was in the room. Donatus says that when Virgil reached those lines she fainted, and was revived only with difficulty; later tradition adds that Augustus and Octavia both wept, and that Octavia rewarded the poet with ten thousand sesterces for every line. It is the best evidence we have of what Virgil's poetry could do to an audience. These were not readers studying a set text. They were a grieving family hearing their dead boy turned into the last and saddest of Rome's heroes, in lines so beautiful that they could not bear them.
+
+**Best or bust.** Virgil was, in the most literal sense, a perfectionist: he would rather have no poem than an imperfect one. In 19 BC, with the *Aeneid* complete in draft, he set out for Greece and Asia, planning to spend three more years revising it and then devote the rest of his life to philosophy. In Athens he met Augustus, who persuaded him to come home. On a visit to Megara in the burning sun he fell ill; the illness worsened on the voyage, and he died at Brundisium on 21 September 19 BC, a few weeks short of his fifty-first birthday. Before leaving Italy he had asked his friend Varius to burn the *Aeneid* if anything happened to him, and on his deathbed he called for the manuscript boxes so that he could burn it himself. Nobody brought them. In his will he left the manuscript to Varius and Plotius Tucca, on condition that they publish nothing he had not already published. Augustus overruled the will, and ordered them to publish the poem exactly as it was, adding nothing and correcting only what was obviously wrong: which is why the half-lines are still there. We have the most important poem in Latin literature because the emperor refused to respect a dead man's wishes. It is very nearly a matter of luck.
+
+**Fame, fortune and thieves.** He died rich, with a fortune of almost ten million sesterces from the generosity of his friends, and a house on the Esquiline next to the gardens of Maecenas, which he hardly used. He was buried at Naples, under an epitaph that sums up his whole career in two lines: *Mantua me genuit, Calabri rapuere, tenet nunc / Parthenope; cecini pascua, rura, duces*, "Mantua bore me, Calabria took me, now Naples holds me; I sang of pastures, fields and leaders". He also had his critics, who accused him of stealing whole lines from Homer. His answer, according to Donatus, was the best literary comeback in antiquity: "Why don't they try the same thefts themselves? They will find it is easier to steal the club from Hercules than a line from Homer."
+
+## Most Important Works
+
+- **Bucolica** or **Eclogae** (*Eclogues*, c. 42-38 BC) -- ten short pastoral poems, modelled on the Greek idylls of Theocritus, set in an imaginary countryside of singing shepherds that later centuries would call Arcadia. The themes alternate between love (Eclogues 2, 8 and 10, the last one for Gallus), singing contests and poetry (3, 5, 7), the land confiscations and the intrusion of history into the countryside (1 and 9), and grand visions of the cosmos and the future (4 and 6). The fourth, which announces the birth of a child who will bring back the Golden Age, was later read by Christians as a prophecy of Christ. [Complete]
+- **Georgica** (*Georgics*, c. 37-29 BC) -- a didactic poem on farming in four books, dedicated to Maecenas. Book I is about crops and the weather, Book II about trees and vines (with the famous praise of Italy), Book III about cattle, horses and sheep (ending in a terrible plague), Book IV about bees. On the surface it is a manual; underneath, it is a poem about work (*labor omnia vicit / improbus*, "relentless work conquered everything"), about Italy, and about how order can be rebuilt after the chaos of civil war. It ends with the myth of Aristaeus, who loses his bees and gets them back, and of Orpheus, who loses Eurydice and does not. [Complete]
+- **Aeneis** (*Aeneid*, c. 29-19 BC) -- the national epic of Rome, in twelve books, unfinished at the poet's death. The first six books, the wanderings of Aeneas from burning Troy to Italy, are Virgil's *Odyssey*; the last six, the war in Latium, are his *Iliad*. Its hero is defined not by anger, like Achilles, or cunning, like Ulysses, but by *pietas*, duty to the gods, to his family and to his mission. Its great theme is the price of that mission: Rome is founded, but at the cost of Troy, of Dido, of Turnus and of countless young men, and the poem ends abruptly, with Aeneas killing Turnus in a moment of rage. It is a celebration of Augustan Rome and, at the same time, one of the saddest poems ever written about what empires cost. [Complete, but unrevised]
+- **Appendix Vergiliana** -- a collection of minor poems attributed to Virgil in antiquity (the *Culex*, the *Ciris*, the *Moretum* and others), almost all of them written by other people and later attached to his name, which is what happens when you become the most famous poet in the world. [Mostly spurious]
+
+## Writing Style and Difficulty
+
+Virgil is the point at which Latin poetry reaches stylistic perfection, and he made the dactylic hexameter what it would be for the rest of antiquity. Ennius had brought the hexameter into Latin two centuries earlier, and Lucretius and Catullus had refined it; but it was Virgil who fixed its rules, its rhythms, its pauses and its endings, so completely that after him every Latin epic poet wrote Virgil's hexameter, and every poet who wrote in hexameters in the genres he touched, pastoral and didactic as well as epic, wrote in his shadow. Every line is weighed. The sound imitates the sense: slow, heavy spondees for effort, grief or great size, quick dactyls for speed. Words are placed for emphasis at the start of the line or at its main pause. And there is not a word too many. For a translator, this perfection is precisely the problem.
+
+The difficulties come in layers. The first is **poetic word order**. Adjectives and nouns are separated across the line, often framing it, and the most famous device of all is the transferred epithet (*hypallage*), where an adjective is attached grammatically to one noun while it really describes another, for the sake of the meaning and of the metre. The seventh line of the *Aeneid* is the classic example: *altae moenia Romae*, literally "the walls of high Rome", where we would expect "the high walls of Rome". Then come **poetic plurals** (*colla* for a single neck, *silentia* for silence), Greek forms and case endings for Greek names, archaisms (*olli* for *illi*, *aulai* for *aulae*), and **elision**, where a final vowel or *-m* before another vowel disappears in pronunciation, sometimes several times in one line, so that words have to be mentally pulled apart before they can be read. **Lexicon: MEDIUM to HIGH; Syntactic complexity: HIGH; Stylistic figures: HIGH.**
+
+The second layer is **allusion**. Virgil writes with the whole of Greek and Latin literature open on the desk: Homer above all, but also Hesiod, Theocritus, Apollonius of Rhodes, Ennius, Lucretius and Catullus. Myths are referred to, not told; a single epithet can stand for a whole story. And compared with Horace, the Latin is honest: there is none of Horace's wilful game-playing with word order. But the density of everything at once makes Virgil hard all the time. **Allusion density: HIGH.**
+
+Difficulty also varies a great deal across his works, and here a widespread school habit is simply wrong. Students are very often started on the *Aeneid*, as if Virgil's most famous poem were the natural way in. It is not. The **Eclogues** are the right place to begin: they are short, the vocabulary is limited, the situations are simple, and a student can translate a whole poem from beginning to end and enjoy the rare satisfaction of having actually finished a work of Virgil. They range from B to low A. The **Aeneid** is a step up: the narrative helps, but the speeches, the similes and the sheer density of the verse put it in the middle to upper range of A. The **Georgics** are the hardest of the three, and probably the hardest Latin poetry of the whole era outside Horace's lyrics: technical farming vocabulary, rare plant and animal names, Greek words, mythological allusions and a compressed didactic syntax all at once. At their most difficult they push into S territory.
+
+## Latin Excerpts
+
+### Excerpt 1: Bucolica (Eclogue) 2.6-18 -- Corydon's Complaint
+
+**Source:** Virgil, *Bucolica*, Eclogue 2, lines 6-18, from *The Latin Library* (thelatinlibrary.com/vergil/ec2.shtml)
+
+**Context:** Eclogue 2 is a love complaint. The shepherd Corydon is in love with Alexis, a beautiful young slave who is his master's favourite, and who does not care for him at all. The first five lines, spoken by the narrator, tell us that Corydon keeps coming alone to a grove of beech trees to pour out his "unpolished" song to the mountains and the woods, in vain. Then Corydon begins to speak, and these are the first thirteen lines of his monologue. Virgil's model is the eleventh *Idyll* of Theocritus, in which the Cyclops Polyphemus sings to the sea nymph Galatea, who will not have him either. Keep that Cyclops in mind: he comes back in Excerpt 3. (The ancient biographers, inevitably, identified Alexis with a real slave boy given to Virgil by Pollio; there is no way of knowing, and in Greek pastoral the love of a shepherd for a boy was a standard literary situation.)
+
+**Latin Text:**
+
+> 'O crudelis Alexi, nihil mea carmina curas?
+> nil nostri miserere? mori me denique cogis?
+> nunc etiam pecudes umbras et frigora captant,
+> nunc virides etiam occultant spineta lacertos,
+> Thestylis et rapido fessis messoribus aestu               10
+> alia serpyllumque herbas contundit olentis.
+> at mecum raucis, tua dum vestigia lustro,
+> sole sub ardenti resonant arbusta cicadis.
+> nonne fuit satius tristis Amaryllidos iras
+> atque superba pati fastidia? nonne Menalcan,               15
+> quamvis ille niger, quamvis tu candidus esses?
+> o formose puer, nimium ne crede colori;
+> alba ligustra cadunt, vaccinia nigra leguntur.
+
+**English Translation:**
+
+"O cruel Alexis, do you care nothing for my songs?
+Have you no pity for me? Will you drive me to my death at last?
+Now even the flocks are looking for shade and cool air,
+now even the thornbushes hide the green lizards,
+and Thestylis, for the reapers worn out by the scorching heat,
+is pounding garlic and thyme, the fragrant herbs.
+But with me, as I follow your footsteps,
+under the blazing sun, the orchards ring with hoarse cicadas.
+Would it not have been better to put up with Amaryllis's
+bitter rages and her proud disdain? Or with Menalcas,
+however dark he was, however fair you are?
+O beautiful boy, do not trust your colouring too much:
+the white privet flowers fall, the dark bilberries are picked."
+
+**Analysis:**
+
+This is the kind of passage that makes the Eclogues the right place to start Virgil. The situation is simple, the sentences are short, and almost every line is a complete thought. The difficulties are real but manageable, and they are exactly the ones you will meet everywhere else in Virgil.
+
+Start with the traps. *Nil nostri miserere*: *misereor* takes the genitive, and *nostri* is a poetic plural for *mei*, "of me". *Alia* in line 11 is not "other things" but the neuter plural of *alium*, "garlic", one of the classic false friends of Latin poetry; *olentis* is the old accusative plural for *olentes*, agreeing with *herbas*, and *serpyllum* is a Greek plant name, wild thyme. *Satius* is the comparative of *satis*, "better", and *quamvis... esses* is a concessive subjunctive. Line 15 ends on *Menalcan*, a Greek accusative. And *vaccinia* in the last line has been argued over for centuries: it may be bilberries or a kind of dark hyacinth; either way, it is the dark flower or fruit that people pick, against the white flower that is left to fall.
+
+Then look at how the lines are built. *raucis... cicadis* frames lines 12 and 13 together, the hoarse cicadas surrounding the whole scene with their noise, while Corydon wanders in the noonday heat, the one time of day when every sensible creature, even the lizards, is in the shade. The repeated *nunc etiam... nunc... etiam* stresses that the whole world is resting except him. The last line is a perfect chiasmus: *alba ligustra cadunt, vaccinia nigra leguntur*, adjective-noun-verb, noun-adjective-verb, white against black, falling against being chosen. It is a proverb in miniature, telling a beautiful boy that beauty fades and fair skin is no guarantee of being wanted, and it is the first line of Virgil that many readers learn by heart.
+
+Finally, notice the tone. Corydon is pathetic and a little ridiculous: he is literally out in the midday sun, he lists the people he could have had instead, and in the very next lines (not in the excerpt) he starts boasting about how many sheep he owns. Virgil lets us smile at him and feel for him at the same time, which is the emotional key to all of Virgil.
+
+---
+
+### Excerpt 2: Georgica IV.1-24 -- A Home for the Bees
+
+**Source:** Virgil, *Georgica*, Book IV, lines 1-24, from *The Latin Library* (thelatinlibrary.com/vergil/geo4.shtml). The dashes around *nam pabula venti / ferre domum prohibent* in the source have been printed as parentheses.
+
+**Context:** The opening of the last book of the *Georgics*. After crops, trees and livestock, Virgil turns to bees, and announces his subject to Maecenas in the first seven lines with a mixture of solemnity and irony: he is going to write about the bees as if they were a nation, with leaders, customs and wars. Then, with the word *Principio*, "first of all", the farming manual begins, and the first practical problem is where to put the hives. This is the book that ends with Aristaeus and Orpheus, and that Servius believed originally ended with the praise of Gallus.
+
+**Latin Text:**
+
+> Protinus aerii mellis caelestia dona
+> exsequar: hanc etiam, Maecenas, adspice partem.
+> Admiranda tibi levium spectacula rerum
+> magnanimosque duces totiusque ordine gentis
+> mores et studia et populos et proelia dicam.               5
+> In tenui labor; at tenuis non gloria, si quem
+> numina laeva sinunt auditque vocatus Apollo.
+> Principio sedes apibus statioque petenda,
+> quo neque sit ventis aditus (nam pabula venti
+> ferre domum prohibent) neque oves haedique petulci               10
+> floribus insultent aut errans bucula campo
+> decutiat rorem et surgentes atterat herbas.
+> Absint et picti squalentia terga lacerti
+> pinguibus a stabulis meropesque aliaeque volucres
+> et manibus Procne pectus signata cruentis;               15
+> omnia nam late vastant ipsasque volantes
+> ore ferunt dulcem nidis immitibus escam.
+> At liquidi fontes et stagna virentia musco
+> adsint et tenuis fugiens per gramina rivus,
+> palmaque vestibulum aut ingens oleaster inumbret,               20
+> ut, cum prima novi ducent examina reges
+> vere suo ludetque favis emissa iuventus,
+> vicina invitet decedere ripa calori,
+> obviaque hospitiis teneat frondentibus arbos.
+
+**English Translation:**
+
+Next I shall go on to the heavenly gift of honey that comes from the air:
+look on this part too, Maecenas.
+I shall tell you of a marvellous spectacle of tiny things:
+great-hearted leaders and, in due order, a whole nation's
+customs and pursuits, its peoples and its battles.
+The labour is on a slight subject; but not slight the glory, if the unfriendly
+powers allow a poet, and Apollo hears when he is called.
+First of all, a home and a settled place must be found for the bees,
+where the winds can find no way in (for the winds stop them
+from carrying their food home), where no sheep and frisky kids
+trample on the flowers, and no heifer, straying across the plain,
+shakes off the dew and wears down the growing grass.
+Keep away from the rich hives the painted lizard with its scaly back,
+and the bee-eaters and the other birds,
+and Procne, her breast marked by bloodstained hands;
+for they lay everything waste far and wide, and snatch the bees
+themselves in flight, in their beaks, a sweet morsel for their pitiless nests.
+But let there be clear springs nearby, and pools green with moss,
+and a thin stream slipping away through the grass,
+and let a palm or a great wild olive shade the entrance,
+so that, when the new kings lead out the first swarms
+in their own springtime, and the young ones, let out of the combs, are at play,
+a nearby bank may invite them to escape the heat,
+and a tree in their path may hold them in its leafy welcome.
+
+**Analysis:**
+
+The first seven lines are a small manifesto. *In tenui labor; at tenuis non gloria*: "the labour is on something slight, but the glory is not slight". The same adjective is used twice, first for the subject and then, negated, for the fame, a figure called polyptoton, and the line is a Callimachean declaration: small subjects, perfectly treated, can win great glory. At the same time Virgil plays the epic game in miniature: *magnanimos duces*, *populos*, *proelia* are the vocabulary of the *Aeneid*, applied to insects. The Romans thought the leader of the hive was a male, a king, which is why the bees have *reges* in line 21. Throughout Book IV the hive is a little model of the Roman state, hard-working, disciplined, and ready to die for its leader, and the reader is never quite sure how seriously to take the comparison.
+
+From line 8 the manual begins, and with it the Georgics' typical difficulties. The syntax is instruction in the subjunctive: a gerundive of obligation (*petenda*, "must be found"), a relative clause of characteristic (*quo neque sit... neque... insultent... aut... decutiat... atterat*), and a series of jussives, *absint*, *adsint*, *inumbret*, "let them be absent", "let there be", "let it shade". The vocabulary is technical and zoological: *meropes* are bee-eaters, *oleaster* is the wild olive, *bucula* is a young cow, *haedi petulci* are kids that butt and frisk. And then, in the middle of the birdwatching, a myth arrives without warning: *manibus Procne pectus signata cruentis*. Procne killed her son Itys in revenge on her husband and was turned into a swallow, and the red mark on the swallow's breast was said to be the blood from her hands. Virgil does not explain any of this; he expects you to know. Note also the Greek-style accusative of respect, *pectus signata*, "marked as to the breast", and the framing of the line by *manibus... cruentis*, which encloses Procne in her own bloodstained hands.
+
+The last section turns from danger to welcome. Notice how the future tenses (*ducent*, *ludet*) and the purpose clause (*ut... invitet... teneat*) imagine the young swarm's first spring, and how the vocabulary becomes almost human: *iuventus* is "the youth" of a city, *ludet* is play, *hospitiis* is hospitality. *Decedere calori* is a dative after a verb of yielding: "to give way to the heat", that is, to get out of it. The hive becomes a city, with a shaded entrance and a riverside park. This is the Georgics at their best and their hardest: a farming instruction, a lesson in natural history, a myth and a political allegory, all in the same twenty-four lines.
+
+---
+
+### Excerpt 3: Aeneis III.655-665 -- Polyphemus
+
+**Source:** Virgil, *Aeneis*, Book III, lines 655-665, from *The Latin Library* (thelatinlibrary.com/vergil/aen3.shtml)
+
+**Context:** In Book III Aeneas is telling Dido the story of his wanderings. Landing in Sicily, near Etna, the Trojans meet a ragged, starving Greek called Achaemenides, one of Ulysses' men, who was left behind when Ulysses escaped from the cave of the Cyclops. He has been hiding in the woods for three months, and he has just finished begging the Trojans to take him away, or kill him, when the Cyclops himself appears on the mountain. Virgil is rewriting *Odyssey* IX, but from the other side: we see Polyphemus after the blinding.
+
+**Latin Text:**
+
+> Vix ea fatus erat summo cum monte videmus               655
+> ipsum inter pecudes vasta se mole moventem
+> pastorem Polyphemum et litora nota petentem,
+> monstrum horrendum, informe, ingens, cui lumen ademptum.
+> trunca manum pinus regit et vestigia firmat;
+> lanigerae comitantur oves; ea sola voluptas               660
+> solamenque mali.
+> postquam altos tetigit fluctus et ad aequora venit,
+> luminis effossi fluidum lavit inde cruorem
+> dentibus infrendens gemitu, graditurque per aequor
+> iam medium, necdum fluctus latera ardua tinxit.                665
+
+**English Translation:**
+
+He had scarcely spoken these words when, high on the mountain, we see
+the shepherd Polyphemus himself, moving his vast bulk among his flocks
+and making for the shore he knew so well:
+a monster, horrible, shapeless, huge, whose sight had been taken from him.
+A lopped pine trunk guides his hand and steadies his steps;
+his woolly sheep go with him, his only pleasure
+and the comfort of his misery.
+When he reached the deep water and came to the sea,
+he washed away the blood still oozing from his gouged-out eye,
+gnashing his teeth and groaning; and he walks through the sea,
+right out into the middle, and still the waves have not wet his towering sides.
+
+**Analysis:**
+
+Line 658 is one of the most famous lines in Latin poetry, and it is famous for its sound: *monstrum horrendum, informe, ingens, cui lumen ademptum*. Read it aloud with the elisions, as a Roman would have heard it: *monstr'horrend'inform'ingens*. Three times in a row the final syllable of a word disappears into the next one (this fusion of vowels across words is called *synaloephe*), so that four words collapse into one long, shapeless mass of sound, exactly like the shapeless mass of the giant. The metre does the same: the first four feet of the line are all spondees, long syllable after long syllable, so the line moves as heavily and slowly as Polyphemus himself, lumbering down the mountain. Then the movement changes. After the pile of adjectives, the line ends with the ordinary, quiet cadence of the hexameter, *lumen ademptum*, and a bare, short relative clause: "whose sight had been taken". After the horror, the pity. That is Virgil's emotional method in a single verse: the sound makes us feel the monster's size, and the last words make us feel his loss.
+
+The rest of the passage keeps the pity going. The giant leans on a pine trunk like an old man on a stick; his sheep, his only joy, walk beside him; he washes his wound in the sea, groaning. Notice the shift of tenses: the narration moves between historic presents (*videmus*, *regit*, *comitantur*, *graditur*) and perfects (*tetigit*, *venit*, *lavit*), which keeps the scene vivid and slightly unstable. Notice also the half-line, *solamenque mali.* (661): this is one of Virgil's unfinished "props", left in the poem when he died. Some manuscripts fill it out with *de collo fistula pendet*, "a pipe hangs from his neck", but that is a later addition, and modern editors leave the line as Virgil left it. And, if you have read Excerpt 1, notice the word *informe*. In Eclogue 2, a few lines after our excerpt ends, Corydon, the lovesick shepherd modelled on Theocritus's lovesick Cyclops, insists *nec sum adeo informis*, "I am not so ugly". Here, at last, is the Cyclops himself, and he is *informis* indeed. Between the Eclogues and the Aeneid, Virgil has turned a comic figure of pastoral into a figure of tragedy.
+
+---
+
+## Legacy and Impact
+
+Virgil's legacy is so vast that it is hard to know where it ends. Within a few years of his death his poems were being taught in Roman schools, and they remained the basic school text of Latin education for the whole of antiquity and beyond. People scratched lines of the *Aeneid* on the walls of Pompeii. Later Romans even used his poems as an oracle, opening the book at random and reading the first line they found as a prophecy of their future, a practice called the *sortes Vergilianae*.
+
+He became, above all, the model of stylistic perfection: the poet against whom every later Latin poet measured himself. That was especially true for epic. Every Roman epic of the Early Imperial Era was written in his shadow and had to find a way to deal with him. Lucan's *Bellum Civile* (or *Pharsalia*) is in many ways an anti-*Aeneid*, a civil-war epic without gods, without a hero and without hope. Statius ends his *Thebaid* by telling his own poem not to rival "the divine *Aeneid*" but to follow it from a distance and always worship its footprints. Silius Italicus, the author of the *Punica*, owned Virgil's tomb at Naples, visited it as if it were a temple, and celebrated Virgil's birthday more devoutly than his own. The hexameter they all wrote was Virgil's hexameter.
+
+His survival into the Middle Ages owes a great deal to an extraordinary stroke of luck. Eclogue 4, written around 40 BC, announces the birth of a child under whom a new Golden Age will begin. Virgil almost certainly meant the child of a Roman aristocrat, probably connected with the political settlement of that year. But to Christian readers, beginning with Lactantius and the emperor Constantine, the poem looked like a prophecy of the birth of Christ, written by a pagan who had somehow been allowed to glimpse the truth. Virgil was promoted from poet to prophet, and his works were copied, read and protected by the Church with a reverence given to almost no other pagan author. Medieval legend went further and turned him into a magician: in Naples it was said that the city stood safe as long as an egg he had hidden in the foundations of the Castel dell'Ovo remained unbroken.
+
+All this made him so famous that his fame eventually outgrew his poetry, and shifted from his works to his figure. The decisive moment was Dante. In the *Divine Comedy*, Dante chooses Virgil as his guide through Hell and Purgatory, greets him as "my master and my author", and even has the poet Statius claim that Virgil's fourth Eclogue made him a Christian: "through you I became a poet, through you a Christian". From then on, for a great many people, Virgil is first of all "Dante's guide", or simply "the man who wrote the *Aeneid*", rather than the author of poems they have actually read. The process has gone all the way to video games: the *Devil May Cry* series has twin brothers called Dante and Vergil. It is a strange fate for the shy man from Mantua who hid in doorways to avoid being recognised: to become so famous that people know his name without knowing why.
+
+---
+
+## Final Rating
+
+**Tier: A (Very Difficult)**
+
+Virgil is hard in almost every criterion at once: poetic word order and transferred epithets, poetic plurals, Greek forms, archaisms, elision, technical vocabulary in the *Georgics*, and a density of literary and mythological allusion that rarely lets up. What keeps him from S is his honesty: compared with Horace there is no wilful game-playing with the reader, the narrative of the *Aeneid* carries you forward, and the Eclogues offer a genuinely approachable way in. Taken work by work: the **Eclogues** from B to low A, and the right place to start; the **Aeneid** in the middle to upper range of A; the **Georgics** the hardest of all, pushing into S. Overall, a firm A. Do not start with the *Aeneid*.
+
+---

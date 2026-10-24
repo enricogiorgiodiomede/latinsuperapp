@@ -374,3 +374,224 @@ L'altra sua eredità è un avvertimento. Gallo fu il primo grande scrittore dell
 Una decina di versi, diversi dei quali spezzati, non possono sostenere una valutazione affidabile. Ciò che sopravvive non è particolarmente difficile: la sintassi del papiro è chiara, il lessico standard, e gli ostacoli principali sono la grafia arcaica, le lacune del testo e il metro elegiaco stesso. Ma nove versi non possono dirci come Gallo gestisse le elegie lunghe, dense e allusive che i contemporanei ammiravano, e il *durior* di Quintiliano fa pensare che non fosse una lettura facile. Quindi NC, come per Livio Andronico. Ciò che l'NC non misura è l'importanza, e qui Gallo sta alla pari con chiunque nell'epoca: senza di lui non ci sarebbero stati Tibullo, Properzio e l'Ovidio che conosciamo.
 
 ---
+
+## PUBLIO VIRGILIO MARONE -- VIRGILIO (70 -- 19 a.C.)
+
+### Biografia *(italiano)*
+
+Virgilio è il poeta latino più famoso che sia mai esistito, e forse l'autore latino più famoso in assoluto. È anche, a detta di tutte le fonti antiche, uno degli uomini più timidi, impacciati e ansiosi che siano mai diventati delle celebrità. Quasi tutto ciò che sappiamo della sua vita viene da una biografia di Svetonio giunta a noi nella versione del grammatico del IV secolo Elio Donato, e dal commento di Servio. Una parte è leggenda. Tutto merita di essere raccontato.
+
+**Un alloro in un fosso.** Publio Virgilio Marone nacque il 15 ottobre del 70 a.C. nel villaggio di Andes, vicino a Mantova, in quella che allora era la Gallia Cisalpina. Il padre era un uomo di origini modeste: secondo Donato, o un vasaio o il garzone di un piccolo funzionario di nome Magio, ma se la cavò abbastanza bene da sposare la figlia del suo padrone, Magia Polla, e da comprarsi terre e api. Prima che Virgilio nascesse, la madre sognò di partorire un ramo d'alloro che metteva subito radici e diventava un albero adulto, carico di frutti e di fiori. Il giorno dopo partorì in un fosso a bordo della strada, mentre andava in campagna. Il neonato, ci dicono, non pianse, e aveva un'espressione così dolce che tutti la presero per un segno di buona sorte. Un pioppo piantato sul posto crebbe così in fretta che le donne del luogo cominciarono a pregarlo. Ogni grande romano ebbe qualche presagio; Virgilio ebbe un orto botanico.
+
+**La verginella.** Studiò a Cremona e a Milano, poi a Roma, dove si dedicò alla retorica per diventare avvocato. Non andò bene. Donato racconta che discusse esattamente una causa in tribunale, e parlava così lentamente da sembrare quasi un ignorante. Passò allora alla medicina e soprattutto alla matematica, prima di approdare a Napoli, alla scuola epicurea di Sirone. Era alto, di carnagione scura, con una faccia da contadino, e per tutta la vita ebbe una salute fragile: soffriva di stomaco, di gola e di mal di testa, e spesso sputava sangue. A Napoli lo chiamavano *Parthenias*, "la verginella", per la riservatezza della sua vita. Quando divenne famoso, nelle rare occasioni in cui andava a Roma e la gente lo riconosceva per strada e lo indicava, si infilava nella casa più vicina per sfuggire.
+
+**Il podere.** Nel 41 a.C., dopo Filippi, i triumviri confiscarono terre in tutta l'Italia settentrionale per sistemarvi i veterani, e anche il podere di famiglia di Virgilio fu tra queste. Secondo i commentatori antichi, Virgilio rischiò di essere ucciso dal veterano che se lo prese, e lo riebbe (se mai lo riebbe) solo grazie ad amici influenti, tra cui Asinio Pollione e Cornelio Gallo. L'esperienza finì dritta nel suo primo libro. Il carme d'apertura delle *Bucoliche* è un dialogo tra un pastore che ha conservato la sua terra e uno che ne è stato cacciato, e la domanda del pastore espropriato sul nuovo padrone soldato, *impius haec tam culta novalia miles habebit?*, "un soldato empio avrà questi campi così ben coltivati?", è la guerra civile vista dall'aia.
+
+**Mecenate, e un'orsa che lecca i suoi cuccioli.** Le *Bucoliche* lo resero famoso quasi da un giorno all'altro: furono perfino recitate a teatro da attori, tra applausi entusiastici. Lo portarono anche nel circolo di Mecenate, che divenne il suo patrono e amico, e che gli chiese un poema sull'agricoltura. Virgilio impiegò sette anni per i quattro libri delle *Georgiche*, circa 2.200 versi, cioè meno di un verso al giorno. Il suo metodo, come lo descrive Donato, spiega perché. Ogni mattina dettava un gran numero di versi; poi passava il resto della giornata a rielaborarli e a ridurli a pochissimi, dicendo che partoriva le sue poesie come l'orsa partorisce i suoi cuccioli: dando loro forma a forza di leccarli. Nel 29 a.C. lesse le *Georgiche* finite a Ottaviano, appena tornato da Azio, ad Atella in Campania. La lettura durò quattro giorni, e ogni volta che la voce di Virgilio cedeva, gli dava il cambio Mecenate.
+
+**L'Eneide, e un imperatore che non sapeva aspettare.** Per gli ultimi undici anni della sua vita lavorò all'*Eneide*. Prima scrisse l'intera storia in prosa e la divise in dodici libri, poi la trasformò in versi un pezzo alla volta, senza un ordine preciso, secondo l'ispirazione. Dove non trovava ancora il verso giusto, lasciava un mezzo verso e andava avanti, chiamando questi versi incompiuti "puntelli" (*tibicines*), messi lì a sorreggere l'edificio finché non fossero pronte le vere colonne. Cinquantotto di questi mezzi versi sono ancora nel poema, e uno compare nel brano qui sotto. Augusto non riusciva quasi ad aspettare. Mentre combatteva in Spagna, nel 26-25 a.C., scrisse a Virgilio supplicandolo, tra lo scherzo e la minaccia, di mandargli "anche solo un primo abbozzo o un pezzo qualsiasi" del poema. Virgilio rispose che non aveva nulla di degno da mandare, e che si era imbarcato in un'impresa così enorme da pensare a volte di essere stato fuori di senno a cominciarla.
+
+**Ottavia sviene.** Alla fine cedette, e lesse tre libri ad Augusto e alla sua famiglia: il II, il IV e il VI. Il libro VI si chiude con Enea negli Inferi, dove il padre Anchise gli mostra le anime dei grandi Romani del futuro in attesa di nascere. Per ultimo viene un giovane di straordinaria promessa, circondato dal lutto, e Anchise, in lacrime, rivela chi è: *tu Marcellus eris*, "tu sarai Marcello". Era il nipote, genero ed erede designato di Augusto, morto nel 23 a.C. a diciannove anni, e sua madre, Ottavia, sorella di Augusto, era nella stanza. Donato racconta che, quando Virgilio arrivò a quei versi, lei svenne e fu rianimata a fatica; la tradizione successiva aggiunge che Augusto e Ottavia piansero entrambi, e che Ottavia ricompensò il poeta con diecimila sesterzi per ogni verso. È la prova migliore che abbiamo di ciò che la poesia di Virgilio poteva fare a chi l'ascoltava. Non erano lettori che studiavano un testo scolastico. Erano una famiglia in lutto che sentiva il proprio ragazzo morto trasformato nell'ultimo e nel più triste degli eroi di Roma, in versi così belli da non poterli sopportare.
+
+**O perfetto o niente.** Virgilio era un perfezionista nel senso più letterale: preferiva non avere alcun poema piuttosto che un poema imperfetto. Nel 19 a.C., con l'*Eneide* completa in prima stesura, partì per la Grecia e l'Asia, con l'idea di passare altri tre anni a rivederla e di dedicare poi il resto della vita alla filosofia. Ad Atene incontrò Augusto, che lo convinse a tornare a casa. Durante una visita a Megara sotto il sole cocente si ammalò; la malattia peggiorò durante la navigazione, e morì a Brindisi il 21 settembre del 19 a.C., poche settimane prima di compiere cinquantun anni. Prima di lasciare l'Italia aveva chiesto all'amico Vario di bruciare l'*Eneide* se gli fosse successo qualcosa, e sul letto di morte chiese le casse con i manoscritti per bruciarla da sé. Nessuno gliele portò. Nel testamento lasciò il manoscritto a Vario e a Plozio Tucca, a condizione che non pubblicassero nulla che lui non avesse già pubblicato. Augusto annullò quella volontà e ordinò di pubblicare il poema così com'era, senza aggiungere nulla e correggendo solo ciò che era evidentemente sbagliato: ed è per questo che i mezzi versi sono ancora lì. Abbiamo il poema più importante della letteratura latina perché l'imperatore si rifiutò di rispettare le ultime volontà di un morto. È quasi una questione di fortuna.
+
+**Fama, ricchezza e ladri.** Morì ricco, con un patrimonio di quasi dieci milioni di sesterzi frutto della generosità degli amici, e una casa sull'Esquilino accanto ai giardini di Mecenate, che usava pochissimo. Fu sepolto a Napoli, sotto un epitaffio che riassume tutta la sua carriera in due versi: *Mantua me genuit, Calabri rapuere, tenet nunc / Parthenope; cecini pascua, rura, duces*, "Mantova mi generò, la Calabria mi rapì, ora mi tiene Napoli; cantai i pascoli, i campi, i condottieri". Ebbe anche i suoi detrattori, che lo accusavano di rubare interi versi a Omero. La sua risposta, secondo Donato, fu la migliore battuta letteraria dell'antichità: "Perché non provano anche loro a fare gli stessi furti? Si accorgeranno che è più facile rubare la clava a Ercole che un verso a Omero."
+
+### Opere principali *(italiano)*
+
+- **Bucolica** o **Eclogae** (*Bucoliche*, c. 42-38 a.C.) -- dieci brevi carmi pastorali, modellati sugli idilli greci di Teocrito, ambientati in una campagna immaginaria di pastori cantori che i secoli successivi avrebbero chiamato Arcadia. I temi si alternano tra l'amore (Bucoliche 2, 8 e 10, l'ultima per Gallo), le gare di canto e la poesia (3, 5, 7), le confische delle terre e l'irruzione della storia nella campagna (1 e 9), e grandi visioni del cosmo e del futuro (4 e 6). La quarta, che annuncia la nascita di un bambino che riporterà l'età dell'oro, fu poi letta dai cristiani come una profezia di Cristo. [Complete]
+- **Georgica** (*Georgiche*, c. 37-29 a.C.) -- un poema didascalico sull'agricoltura in quattro libri, dedicato a Mecenate. Il libro I tratta dei cereali e del tempo atmosferico, il II degli alberi e delle viti (con il celebre elogio dell'Italia), il III di bovini, cavalli e pecore (con una terribile pestilenza finale), il IV delle api. In superficie è un manuale; sotto, è un poema sul lavoro (*labor omnia vicit / improbus*, "la fatica ostinata vinse ogni cosa"), sull'Italia e su come si possa ricostruire l'ordine dopo il caos della guerra civile. Si chiude con il mito di Aristeo, che perde le sue api e le ritrova, e di Orfeo, che perde Euridice e non la ritrova. [Complete]
+- **Aeneis** (*Eneide*, c. 29-19 a.C.) -- l'epica nazionale di Roma, in dodici libri, rimasta incompiuta alla morte del poeta. I primi sei libri, le peregrinazioni di Enea da Troia in fiamme fino all'Italia, sono la sua *Odissea*; gli ultimi sei, la guerra nel Lazio, sono la sua *Iliade*. Il suo eroe non si definisce per l'ira, come Achille, né per l'astuzia, come Ulisse, ma per la *pietas*, il dovere verso gli dèi, la famiglia e la missione. Il grande tema è il prezzo di quella missione: Roma viene fondata, ma a spese di Troia, di Didone, di Turno e di innumerevoli giovani, e il poema si chiude bruscamente, con Enea che uccide Turno in un momento di furia. È una celebrazione della Roma augustea e, allo stesso tempo, uno dei poemi più tristi mai scritti su ciò che costano gli imperi. [Completa, ma non rivista]
+- **Appendix Vergiliana** -- una raccolta di poemetti minori attribuiti a Virgilio nell'antichità (il *Culex*, la *Ciris*, il *Moretum* e altri), quasi tutti scritti da altri e poi attaccati al suo nome, che è ciò che succede quando si diventa il poeta più famoso del mondo. [Per lo più spuria]
+
+### Stile e difficoltà *(italiano)*
+
+Virgilio è il punto in cui la poesia latina raggiunge la perfezione stilistica, ed è lui a fare dell'esametro dattilico ciò che sarebbe stato per il resto dell'antichità. Ennio aveva introdotto l'esametro in latino due secoli prima, e Lucrezio e Catullo lo avevano raffinato; ma fu Virgilio a fissarne le regole, i ritmi, le pause e le chiuse in modo così completo che dopo di lui ogni poeta epico latino scrisse l'esametro di Virgilio, e ogni poeta che scrisse in esametri nei generi da lui toccati, la poesia pastorale e quella didascalica oltre all'epica, scrisse alla sua ombra. Ogni verso è soppesato. Il suono imita il senso: spondei lenti e pesanti per la fatica, il dolore o la grandezza, dattili rapidi per la velocità. Le parole sono collocate per dare enfasi all'inizio del verso o alla cesura principale. E non c'è una parola di troppo. Per chi traduce, questa perfezione è proprio il problema.
+
+Le difficoltà si presentano a strati. Il primo è l'**ordine poetico delle parole**. Aggettivi e sostantivi sono separati nel verso, spesso incorniciandolo, e il procedimento più famoso di tutti è l'ipallage, in cui un aggettivo viene legato grammaticalmente a un sostantivo mentre in realtà ne descrive un altro, per ragioni di senso e di metro. Il settimo verso dell'*Eneide* è l'esempio classico: *altae moenia Romae*, alla lettera "le mura dell'alta Roma", dove ci aspetteremmo "le alte mura di Roma". Poi vengono i **plurali poetici** (*colla* per un solo collo, *silentia* per il silenzio), le forme e le desinenze greche per i nomi greci, gli arcaismi (*olli* per *illi*, *aulai* per *aulae*) e l'**elisione**, in cui una vocale finale o una *-m* davanti a un'altra vocale scompare nella pronuncia, a volte più volte nello stesso verso, così che le parole vanno separate mentalmente prima di poterle leggere. **Lessico: da MEDIO ad ALTO; Complessità sintattica: ALTA; Figure retoriche: ALTE.**
+
+Il secondo strato è l'**allusione**. Virgilio scrive con tutta la letteratura greca e latina aperta sul tavolo: Omero soprattutto, ma anche Esiodo, Teocrito, Apollonio Rodio, Ennio, Lucrezio e Catullo. I miti vengono evocati, non raccontati; un solo epiteto può stare per un'intera storia. E rispetto a Orazio il latino è onesto: non c'è nulla dei giochi deliberati di Orazio con l'ordine delle parole. Ma la densità di tutto insieme rende Virgilio difficile in ogni momento. **Densità allusiva: ALTA.**
+
+La difficoltà varia molto anche da un'opera all'altra, e qui un'abitudine scolastica diffusa è semplicemente sbagliata. Molto spesso si fa cominciare gli studenti dall'*Eneide*, come se il poema più famoso di Virgilio fosse la porta d'ingresso naturale. Non lo è. Le **Bucoliche** sono il punto giusto da cui partire: sono brevi, il lessico è limitato, le situazioni sono semplici, e uno studente può tradurre un intero carme dall'inizio alla fine e provare la rara soddisfazione di aver davvero finito un'opera di Virgilio. Vanno dalla B alla A bassa. L'**Eneide** è un gradino più su: la narrazione aiuta, ma i discorsi, le similitudini e la pura densità del verso la collocano nella fascia media e alta della A. Le **Georgiche** sono le più difficili delle tre, e probabilmente la poesia latina più difficile dell'intera epoca dopo la lirica di Orazio: lessico tecnico agricolo, nomi rari di piante e animali, parole greche, allusioni mitologiche e una sintassi didascalica compressa, tutto insieme. Nei punti più difficili sconfinano nel territorio della S.
+
+### Brano 1: Bucolica 2.6-18 -- Il lamento di Coridone
+
+**Fonte:** Virgilio, *Bucolica*, Bucolica 2, versi 6-18, da *The Latin Library* (thelatinlibrary.com/vergil/ec2.shtml)
+
+**Contesto:** La seconda *Bucolica* è un lamento d'amore. Il pastore Coridone è innamorato di Alessi, un bel giovane schiavo prediletto dal suo padrone, a cui di lui non importa nulla. I primi cinque versi, pronunciati dal narratore, ci dicono che Coridone continua a venire da solo in un bosco di faggi a sfogare il suo canto "rozzo" ai monti e ai boschi, invano. Poi Coridone comincia a parlare, e questi sono i primi tredici versi del suo monologo. Il modello di Virgilio è l'undicesimo *Idillio* di Teocrito, in cui il Ciclope Polifemo canta alla ninfa marina Galatea, che neanche lei vuole saperne di lui. Teniamo a mente quel Ciclope: torna nel Brano 3. (I biografi antichi, inevitabilmente, identificarono Alessi con un vero giovane schiavo regalato a Virgilio da Pollione; non c'è modo di saperlo, e nella poesia pastorale greca l'amore di un pastore per un ragazzo era una situazione letteraria tipica.)
+
+**Testo latino:**
+
+> 'O crudelis Alexi, nihil mea carmina curas?
+> nil nostri miserere? mori me denique cogis?
+> nunc etiam pecudes umbras et frigora captant,
+> nunc virides etiam occultant spineta lacertos,
+> Thestylis et rapido fessis messoribus aestu               10
+> alia serpyllumque herbas contundit olentis.
+> at mecum raucis, tua dum vestigia lustro,
+> sole sub ardenti resonant arbusta cicadis.
+> nonne fuit satius tristis Amaryllidos iras
+> atque superba pati fastidia? nonne Menalcan,               15
+> quamvis ille niger, quamvis tu candidus esses?
+> o formose puer, nimium ne crede colori;
+> alba ligustra cadunt, vaccinia nigra leguntur.
+
+**Traduzione italiana** *(originale)*:
+
+> "O crudele Alessi, non t'importa nulla dei miei canti?
+> Non hai pietà di me? Mi costringerai infine a morire?
+> Ora perfino le greggi cercano l'ombra e il fresco,
+> ora perfino i rovi nascondono le verdi lucertole,
+> e Testili, per i mietitori sfiniti dalla calura rovente,
+> pesta aglio e serpillo, erbe profumate.
+> Ma con me, mentre seguo le tue orme,
+> sotto il sole ardente i frutteti risuonano di roche cicale.
+> Non sarebbe stato meglio sopportare le amare collere
+> di Amarillide e i suoi sdegni superbi? O Menalca,
+> benché lui fosse scuro, benché tu fossi chiaro?
+> O bel ragazzo, non fidarti troppo del colore:
+> i bianchi ligustri cadono, i neri mirtilli si raccolgono."
+
+**Analisi:**
+
+È proprio il tipo di brano che fa delle *Bucoliche* il punto giusto da cui cominciare Virgilio. La situazione è semplice, le frasi sono brevi, e quasi ogni verso è un pensiero compiuto. Le difficoltà ci sono ma sono gestibili, e sono esattamente quelle che si incontreranno ovunque in Virgilio.
+
+Cominciamo dalle trappole. *Nil nostri miserere*: *misereor* regge il genitivo, e *nostri* è un plurale poetico per *mei*, "di me". *Alia* al verso 11 non significa "altre cose", ma è il neutro plurale di *alium*, "aglio", uno dei classici falsi amici della poesia latina; *olentis* è l'antico accusativo plurale per *olentes*, concordato con *herbas*, e *serpyllum* è un nome di pianta greco, il timo selvatico. *Satius* è il comparativo di *satis*, "meglio", e *quamvis... esses* è un congiuntivo concessivo. Il verso 15 si chiude con *Menalcan*, un accusativo alla greca. E *vaccinia* nell'ultimo verso è discusso da secoli: possono essere mirtilli o una specie di giacinto scuro; in ogni caso, è il fiore o il frutto scuro che si raccoglie, contrapposto al fiore bianco che si lascia cadere.
+
+Poi si guardi come sono costruiti i versi. *raucis... cicadis* incornicia insieme i versi 12 e 13, le roche cicale che circondano tutta la scena con il loro frinire, mentre Coridone vaga nella calura di mezzogiorno, l'unica ora del giorno in cui ogni creatura assennata, perfino le lucertole, sta all'ombra. La ripetizione *nunc etiam... nunc... etiam* sottolinea che tutto il mondo riposa tranne lui. L'ultimo verso è un chiasmo perfetto: *alba ligustra cadunt, vaccinia nigra leguntur*, aggettivo-sostantivo-verbo, sostantivo-aggettivo-verbo, bianco contro nero, cadere contro essere scelti. È un proverbio in miniatura, che dice a un bel ragazzo che la bellezza sfiorisce e che una pelle chiara non garantisce di essere desiderati, ed è il primo verso di Virgilio che molti lettori imparano a memoria.
+
+Infine si noti il tono. Coridone è patetico e un po' ridicolo: è letteralmente sotto il sole di mezzogiorno, elenca le persone che avrebbe potuto avere al posto di Alessi, e nei versi immediatamente successivi (non compresi nel brano) comincia a vantarsi di quante pecore possiede. Virgilio ci fa sorridere di lui e insieme commuovere per lui, ed è la chiave emotiva di tutto Virgilio.
+
+---
+
+### Brano 2: Georgica IV.1-24 -- Una casa per le api
+
+**Fonte:** Virgilio, *Georgica*, libro IV, versi 1-24, da *The Latin Library* (thelatinlibrary.com/vergil/geo4.shtml). Le lineette intorno a *nam pabula venti / ferre domum prohibent* nella fonte sono state rese con parentesi.
+
+**Contesto:** L'inizio dell'ultimo libro delle *Georgiche*. Dopo i cereali, gli alberi e il bestiame, Virgilio passa alle api, e annuncia il suo argomento a Mecenate nei primi sette versi con un misto di solennità e ironia: scriverà delle api come se fossero un popolo, con capi, costumi e guerre. Poi, con la parola *Principio*, "prima di tutto", comincia il manuale di agricoltura, e il primo problema pratico è dove mettere le arnie. È il libro che si chiude con Aristeo e Orfeo, e che secondo Servio terminava in origine con l'elogio di Gallo.
+
+**Testo latino:**
+
+> Protinus aerii mellis caelestia dona
+> exsequar: hanc etiam, Maecenas, adspice partem.
+> Admiranda tibi levium spectacula rerum
+> magnanimosque duces totiusque ordine gentis
+> mores et studia et populos et proelia dicam.               5
+> In tenui labor; at tenuis non gloria, si quem
+> numina laeva sinunt auditque vocatus Apollo.
+> Principio sedes apibus statioque petenda,
+> quo neque sit ventis aditus (nam pabula venti
+> ferre domum prohibent) neque oves haedique petulci               10
+> floribus insultent aut errans bucula campo
+> decutiat rorem et surgentes atterat herbas.
+> Absint et picti squalentia terga lacerti
+> pinguibus a stabulis meropesque aliaeque volucres
+> et manibus Procne pectus signata cruentis;               15
+> omnia nam late vastant ipsasque volantes
+> ore ferunt dulcem nidis immitibus escam.
+> At liquidi fontes et stagna virentia musco
+> adsint et tenuis fugiens per gramina rivus,
+> palmaque vestibulum aut ingens oleaster inumbret,               20
+> ut, cum prima novi ducent examina reges
+> vere suo ludetque favis emissa iuventus,
+> vicina invitet decedere ripa calori,
+> obviaque hospitiis teneat frondentibus arbos.
+
+**Traduzione italiana** *(originale)*:
+
+> Ora proseguirò con il dono celeste del miele che viene dall'aria:
+> guarda anche questa parte, Mecenate.
+> Ti canterò uno spettacolo meraviglioso di cose minuscole:
+> capi magnanimi e, con ordine, di un intero popolo
+> i costumi, le occupazioni, le genti e le battaglie.
+> Piccolo è l'argomento della fatica, ma non piccola la gloria, se gli dèi
+> avversi lo permettono a un poeta, e Apollo, invocato, lo ascolta.
+> Prima di tutto bisogna cercare per le api una sede e una dimora stabile,
+> dove i venti non trovino accesso (perché i venti impediscono
+> di portare a casa il cibo), dove pecore e capretti saltellanti
+> non calpestino i fiori, né una giovenca vagando per il campo
+> scuota via la rugiada e schiacci l'erba che cresce.
+> Stiano lontani dalle ricche arnie la lucertola dipinta dal dorso squamoso,
+> i gruccioni e gli altri uccelli,
+> e Procne, il petto segnato dalle mani insanguinate:
+> devastano tutto in largo e afferrano le api stesse
+> in volo, nel becco, dolce boccone per i loro nidi spietati.
+> Ci siano invece vicino fonti limpide e stagni verdi di muschio,
+> e un ruscello sottile che fugge tra l'erba,
+> e una palma o un grande oleastro faccia ombra all'ingresso,
+> perché, quando i nuovi re guideranno i primi sciami
+> nella loro primavera, e la gioventù uscita dai favi si metterà a giocare,
+> la riva vicina li inviti a sottrarsi al caldo
+> e un albero, sulla loro strada, li trattenga nella sua ospitalità di foglie.
+
+**Analisi:**
+
+I primi sette versi sono un piccolo manifesto. *In tenui labor; at tenuis non gloria*: "la fatica riguarda una cosa piccola, ma la gloria non è piccola". Lo stesso aggettivo è usato due volte, prima per l'argomento e poi, negato, per la fama, una figura chiamata poliptoto, e il verso è una dichiarazione callimachea: argomenti piccoli, trattati alla perfezione, possono conquistare una grande gloria. Allo stesso tempo Virgilio gioca all'epica in miniatura: *magnanimos duces*, *populos*, *proelia* sono il lessico dell'*Eneide*, applicato agli insetti. I Romani pensavano che il capo dell'alveare fosse un maschio, un re, ed è per questo che le api hanno dei *reges* al verso 21. In tutto il libro IV l'alveare è un piccolo modello dello Stato romano, laborioso, disciplinato e pronto a morire per il suo capo, e il lettore non è mai del tutto sicuro di quanto prendere sul serio il paragone.
+
+Dal verso 8 comincia il manuale, e con esso le difficoltà tipiche delle *Georgiche*. La sintassi è quella delle istruzioni al congiuntivo: un gerundivo di obbligo (*petenda*, "deve essere cercata"), una relativa caratterizzante (*quo neque sit... neque... insultent... aut... decutiat... atterat*) e una serie di esortativi, *absint*, *adsint*, *inumbret*, "stiano lontani", "ci siano", "faccia ombra". Il lessico è tecnico e zoologico: i *meropes* sono i gruccioni, l'*oleaster* è l'olivo selvatico, la *bucula* è una giovenca, gli *haedi petulci* sono capretti che cozzano e saltellano. E poi, nel mezzo del birdwatching, arriva un mito senza preavviso: *manibus Procne pectus signata cruentis*. Procne uccise il figlio Iti per vendicarsi del marito e fu trasformata in rondine, e la macchia rossa sul petto della rondine era considerata il sangue delle sue mani. Virgilio non spiega nulla di tutto ciò; si aspetta che lo sappiate. Si notino anche l'accusativo di relazione alla greca, *pectus signata*, "segnata quanto al petto", e la cornice del verso formata da *manibus... cruentis*, che racchiude Procne nelle sue stesse mani insanguinate.
+
+L'ultima parte passa dal pericolo all'accoglienza. Si noti come i futuri (*ducent*, *ludet*) e la finale (*ut... invitet... teneat*) immaginano la prima primavera del giovane sciame, e come il lessico diventa quasi umano: *iuventus* è "la gioventù" di una città, *ludet* è il gioco, *hospitiis* è l'ospitalità. *Decedere calori* è un dativo dopo un verbo che indica il cedere: "cedere al caldo", cioè sottrarsi a esso. L'alveare diventa una città, con un ingresso all'ombra e un parco sul fiume. Sono le *Georgiche* al loro meglio e al loro più difficile: un'istruzione agricola, una lezione di storia naturale, un mito e un'allegoria politica, tutto negli stessi ventiquattro versi.
+
+---
+
+### Brano 3: Aeneis III.655-665 -- Polifemo
+
+**Fonte:** Virgilio, *Aeneis*, libro III, versi 655-665, da *The Latin Library* (thelatinlibrary.com/vergil/aen3.shtml)
+
+**Contesto:** Nel libro III Enea racconta a Didone le sue peregrinazioni. Sbarcati in Sicilia, vicino all'Etna, i Troiani incontrano un greco lacero e affamato di nome Achemenide, uno dei compagni di Ulisse, abbandonato quando Ulisse fuggì dalla grotta del Ciclope. Si nasconde nei boschi da tre mesi, e ha appena finito di supplicare i Troiani di portarlo via, o di ucciderlo, quando il Ciclope in persona compare sul monte. Virgilio riscrive il libro IX dell'*Odissea*, ma dall'altra parte: vediamo Polifemo dopo l'accecamento.
+
+**Testo latino:**
+
+> Vix ea fatus erat summo cum monte videmus               655
+> ipsum inter pecudes vasta se mole moventem
+> pastorem Polyphemum et litora nota petentem,
+> monstrum horrendum, informe, ingens, cui lumen ademptum.
+> trunca manum pinus regit et vestigia firmat;
+> lanigerae comitantur oves; ea sola voluptas               660
+> solamenque mali.
+> postquam altos tetigit fluctus et ad aequora venit,
+> luminis effossi fluidum lavit inde cruorem
+> dentibus infrendens gemitu, graditurque per aequor
+> iam medium, necdum fluctus latera ardua tinxit.                665
+
+**Traduzione italiana** *(originale)*:
+
+> Aveva appena detto queste parole, quando in cima al monte vediamo
+> il pastore Polifemo in persona, che muove la sua mole immensa tra le greggi
+> e si dirige verso la riva che conosce bene:
+> un mostro orrendo, deforme, enorme, a cui era stata tolta la vista.
+> Un tronco di pino mozzato gli guida la mano e gli rende saldi i passi;
+> lo accompagnano le pecore lanose, il suo unico piacere
+> e conforto della sua sventura.
+> Quando raggiunse le onde profonde e arrivò al mare,
+> lavò via il sangue che ancora colava dall'occhio cavato,
+> digrignando i denti con un gemito; e cammina nel mare
+> fino in mezzo al largo, e ancora le onde non gli hanno bagnato gli alti fianchi.
+
+**Analisi:**
+
+Il verso 658 è uno dei più famosi della poesia latina, ed è famoso per il suo suono: *monstrum horrendum, informe, ingens, cui lumen ademptum*. Lo si legga ad alta voce con le elisioni, come lo avrebbe sentito un Romano: *monstr'horrend'inform'ingens*. Per tre volte di seguito la sillaba finale di una parola scompare nella successiva (questa fusione di vocali tra parole si chiama *sinalefe*), così che quattro parole collassano in un'unica, lunga massa sonora informe, esattamente come la massa informe del gigante. Il metro fa lo stesso: i primi quattro piedi del verso sono tutti spondei, sillaba lunga dopo sillaba lunga, così che il verso si muove pesante e lento come Polifemo stesso, che scende arrancando dal monte. Poi il movimento cambia. Dopo il mucchio di aggettivi, il verso si chiude con la cadenza ordinaria e tranquilla dell'esametro, *lumen ademptum*, e una relativa nuda e breve: "a cui era stata tolta la vista". Dopo l'orrore, la pietà. È il metodo emotivo di Virgilio in un solo verso: il suono ci fa sentire la mole del mostro, e le ultime parole ci fanno sentire la sua perdita.
+
+Il resto del brano mantiene la pietà. Il gigante si appoggia a un tronco di pino come un vecchio al bastone; le sue pecore, la sua unica gioia, gli camminano accanto; lava la ferita nel mare, gemendo. Si noti l'alternanza dei tempi: la narrazione passa dai presenti storici (*videmus*, *regit*, *comitantur*, *graditur*) ai perfetti (*tetigit*, *venit*, *lavit*), il che tiene la scena viva e un po' instabile. Si noti anche il mezzo verso, *solamenque mali.* (661): è uno dei "puntelli" incompiuti di Virgilio, rimasto nel poema alla sua morte. Alcuni manoscritti lo completano con *de collo fistula pendet*, "una zampogna gli pende dal collo", ma è un'aggiunta posteriore, e gli editori moderni lasciano il verso come Virgilio lo lasciò. E, se avete letto il Brano 1, si noti la parola *informe*. Nella seconda *Bucolica*, pochi versi dopo la fine del nostro brano, Coridone, il pastore innamorato modellato sul Ciclope innamorato di Teocrito, insiste *nec sum adeo informis*, "non sono poi così brutto". Qui, finalmente, c'è il Ciclope in persona, ed è davvero *informis*. Tra le *Bucoliche* e l'*Eneide*, Virgilio ha trasformato una figura comica della poesia pastorale in una figura tragica.
+
+---
+
+### Eredità e Impatto
+
+L'eredità di Virgilio è così vasta che è difficile dire dove finisca. Pochi anni dopo la sua morte le sue poesie si insegnavano già nelle scuole romane, e rimasero il testo scolastico di base dell'educazione latina per tutta l'antichità e oltre. La gente graffiva versi dell'*Eneide* sui muri di Pompei. I Romani successivi usarono perfino le sue poesie come oracolo, aprendo il libro a caso e leggendo il primo verso che trovavano come profezia del proprio futuro, una pratica chiamata *sortes Vergilianae*.
+
+Divenne, soprattutto, il modello della perfezione stilistica: il poeta con cui ogni poeta latino successivo dovette misurarsi. Questo valse in particolare per l'epica. Ogni poema epico romano della prima età imperiale fu scritto alla sua ombra e dovette trovare un modo di fare i conti con lui. Il *Bellum Civile* (o *Pharsalia*) di Lucano è per molti versi un anti-*Eneide*, un'epica della guerra civile senza dèi, senza un eroe e senza speranza. Stazio chiude la sua *Tebaide* raccomandando al proprio poema di non rivaleggiare con "la divina *Eneide*", ma di seguirla da lontano e di adorarne sempre le orme. Silio Italico, l'autore dei *Punica*, possedeva la tomba di Virgilio a Napoli, la visitava come un tempio e celebrava il compleanno di Virgilio con più devozione del proprio. L'esametro che scrissero tutti era l'esametro di Virgilio.
+
+La sua sopravvivenza nel Medioevo deve molto a uno straordinario colpo di fortuna. La quarta *Bucolica*, scritta intorno al 40 a.C., annuncia la nascita di un bambino sotto il quale comincerà una nuova età dell'oro. Virgilio intendeva quasi certamente il figlio di un aristocratico romano, probabilmente legato agli accordi politici di quell'anno. Ma ai lettori cristiani, a partire da Lattanzio e dall'imperatore Costantino, il carme sembrò una profezia della nascita di Cristo, scritta da un pagano a cui era stato in qualche modo concesso di intravedere la verità. Virgilio fu promosso da poeta a profeta, e le sue opere furono copiate, lette e protette dalla Chiesa con una reverenza riservata a pochissimi altri autori pagani. La leggenda medievale andò oltre e lo trasformò in un mago: a Napoli si diceva che la città sarebbe rimasta salva finché un uovo da lui nascosto nelle fondamenta di Castel dell'Ovo fosse rimasto intatto.
+
+Tutto questo lo rese così famoso che la sua fama finì per superare la sua poesia, e per spostarsi dalle sue opere alla sua figura. Il momento decisivo fu Dante. Nella *Divina Commedia* Dante sceglie Virgilio come guida attraverso l'Inferno e il Purgatorio, lo saluta come "lo mio maestro e 'l mio autore", e fa perfino dire al poeta Stazio che la quarta *Bucolica* di Virgilio lo rese cristiano: "Per te poeta fui, per te cristiano". Da allora, per moltissime persone, Virgilio è prima di tutto "la guida di Dante", o semplicemente "quello che ha scritto l'*Eneide*", più che l'autore di poesie che hanno davvero letto. Il processo è arrivato fino ai videogiochi: la serie *Devil May Cry* ha due fratelli gemelli che si chiamano Dante e Vergil. È uno strano destino per l'uomo timido di Mantova che si infilava nei portoni per non farsi riconoscere: diventare così famoso che la gente conosce il suo nome senza sapere perché.
+
+---
+
+### Valutazione finale *(italiano)*
+
+**Tier: A (Very Difficult)**
+
+Virgilio è difficile in quasi tutti i criteri contemporaneamente: ordine poetico delle parole e ipallagi, plurali poetici, forme greche, arcaismi, elisioni, lessico tecnico nelle *Georgiche* e una densità di allusioni letterarie e mitologiche che raramente concede tregua. Ciò che lo tiene lontano dalla S è la sua onestà: rispetto a Orazio non c'è nessun gioco deliberato con il lettore, la narrazione dell'*Eneide* trascina avanti, e le *Bucoliche* offrono una porta d'ingresso davvero accessibile. Opera per opera: le **Bucoliche** dalla B alla A bassa, e il punto giusto da cui partire; l'**Eneide** nella fascia media e alta della A; le **Georgiche** le più difficili di tutte, fino a sconfinare nella S. Nel complesso, una A netta. Non cominciate dall'*Eneide*.
+
+---
