@@ -274,3 +274,105 @@ And then, of course, there is Leonardo's *Vitruvian Man*, which made Vitruvius's
 Vitruvius is prose, and in the Augustan Era that already puts him on the easier side. His grammar is standard, his stories are told in plain narrative Latin, and he uses almost no rhetorical figures or literary allusion. What lifts him above D is his lexicon: a dense, technical vocabulary full of Greek loan-words, many of them missing from school dictionaries, together with a loose and sometimes awkward sentence structure that makes his descriptions harder to follow than to parse, especially without the lost diagrams. The narrative prefaces, like the Archimedes story, sit close to D; the technical chapters on temples or machines can touch B. On balance, a solid C: approachable for any student who has read Caesar and Cicero, provided they keep a good dictionary and a lot of patience within reach.
 
 ---
+
+# GAIUS CORNELIUS GALLUS (70/69 -- 26 BC)
+
+## Biography
+
+Gaius Cornelius Gallus was the most dangerous kind of man to be in Augustan Rome: brilliant at two things at once. He invented a whole genre of Latin poetry, and he governed Egypt. The second of these killed him, and in killing him it took most of the first one with it.
+
+**A provincial from Fréjus.** He was born in 70 or 69 BC at Forum Iulii, modern Fréjus on the coast of Provence, in the province of Gallia Narbonensis, probably into a family of no particular distinction; his name may even suggest Gallic origins. He was almost exactly the same age as Virgil, and like Virgil he came to Rome from the provinces with nothing but talent. The first time he appears in history is in a letter of 43 BC from Asinius Pollio to Cicero, where he is mentioned in passing as "my friend Cornelius Gallus". Within a few years he was one of the most admired young poets in the city.
+
+**Virgil's friend.** Gallus and Virgil were close friends, and the friendship is written into the *Eclogues*. According to the ancient commentators, when Virgil's family farm near Mantua was confiscated for veterans after Philippi, Gallus was one of the influential men who helped him. Virgil paid him back in the only currency a poet has. In *Eclogue* 6 he imagines Gallus being led up Mount Helicon by one of the Muses, where the whole chorus of Apollo rises to greet him and he is handed the pipes of Hesiod: a solemn consecration as a poet. And the whole of *Eclogue* 10, the last poem of the book, is dedicated to him: *pauca meo Gallo*, "a few verses for my Gallus". In it Gallus is lying under a rock in Arcadia, dying of love, while shepherds, gods and even the sheep gather round to ask what is wrong. It is Gallus who speaks the most famous line of the poem, *omnia vincit Amor: et nos cedamus Amori*, "Love conquers all: let us too give in to Love". Ancient commentators believed that some of the lines Virgil gives him there were adapted from Gallus's own poems, which would make *Eclogue* 10 the best surviving witness to what they sounded like.
+
+**Lycoris.** The woman Gallus suffers for in *Eclogue* 10, and the heroine of his four books of love elegies, is called Lycoris. Her real name, according to the commentators, was Volumnia Cytheris, and she was the most famous actress in Rome: a freedwoman who performed in mime, the scandalous, semi-improvised popular theatre of the day, and who had previously been the mistress of Mark Antony, with whom she toured Italy in a litter, to the horror of respectable society. Cicero once found himself at a dinner party next to her and wrote to a friend, plainly embarrassed, that he had had no idea she would be there. In *Eclogue* 10 Lycoris has left Gallus to follow a soldier to the snows of the Alps and the Rhine. The pattern of Roman love elegy, the poet devoted to a beautiful, unfaithful woman under a Greek pseudonym, begins here.
+
+**The general.** Unlike almost every other Roman poet, Gallus was also a successful soldier. In the final campaign against Antony and Cleopatra in 30 BC he commanded Octavian's legions in the west of Egypt, captured the town of Paraetonium and drove back Antony's attack on it. He then played a part in the capture of Cleopatra: according to Plutarch, Gallus kept the queen talking at the barred door of her mausoleum while his colleague Proculeius climbed in through a window behind her. Octavian rewarded him with the greatest prize available to a man of his rank: in 30 BC Gallus became the first Roman prefect of Egypt.
+
+**Too much glory.** Egypt was not an ordinary province. It was the richest territory in the empire and the granary of Rome, and Augustus governed it as his personal possession, through a man of equestrian rank, not a senator, so that nobody powerful enough to rebel could ever control it. Gallus did his job extremely well. He crushed a revolt in Upper Egypt, took five cities in fifteen days, pushed beyond the First Cataract of the Nile, and received ambassadors from the king of Ethiopia. Then he made the fatal mistake of telling everybody. In April 29 BC he set up at Philae a stone inscription in three languages (Latin, Greek and Egyptian hieroglyphs) in which he boasted that he had led an army "where neither the Roman people nor the kings of Egypt had ever carried arms", and mentioned Octavian only briefly. According to Cassius Dio, he also put up statues of himself all over Egypt, had his achievements carved on the pyramids, and, worst of all, said disrespectful things about Augustus, probably after a few drinks.
+
+**The fall.** In 27 or 26 BC he was recalled and denounced by a former friend. Augustus formally renounced his friendship (*renuntiatio amicitiae*) and banned him from his house and his provinces, which in Augustan Rome was the end of a career and very nearly the end of a life. The Senate, eager to show its loyalty, piled on: it voted to have him tried, exiled, and his property handed over to Augustus. Gallus did not wait for the verdict. He killed himself in 26 BC, at the age of forty-three. Suetonius says that Augustus wept when he heard the news, and complained that he alone was not allowed to be angry with his friends only as much as he wanted. Ovid, who knew something about displeasing Augustus, later summed up the case in two lines: it was not writing about Lycoris that ruined Gallus, but not holding his tongue when he had had too much wine.
+
+**Erased.** What followed is often called a *damnatio memoriae*, and although the term is modern and there is no record of a formal decree under that name, the effect was very much the same: Gallus was removed from the record. The Philae inscription was smashed and its pieces used as building material for a later temple, where archaeologists found it in 1896. In Alexandria he had built a new forum for Octavian and dedicated an obelisk there in his own name; his inscription was removed and replaced. That obelisk was later brought to Rome by Caligula and now stands in the middle of St Peter's Square, and in the 1960s the archaeologist Filippo Magi realised that the rows of small holes on its base were the fixing holes of bronze letters from the original dedication. When he joined the dots, they spelled out the name of Gallus. Every pilgrim who has ever crossed St Peter's Square has walked past the one monument in Rome that still, invisibly, carries his name. The fourth-century commentator Servius adds a more famous and more doubtful story: that the fourth book of Virgil's *Georgics* originally ended with a long praise of Gallus, and that after his fall Augustus ordered Virgil to replace it, which is how we got the story of Aristaeus and Orpheus instead. Most modern scholars think this is a legend, but it says a great deal that ancient readers found it believable.
+
+His poetry did not vanish immediately. Ovid could still promise that "Gallus will be known in the West, Gallus in the East, and his Lycoris with him", and Quintilian read and ranked him at the end of the first century AD. But no manuscript of his four books survived the end of antiquity. Until 1978, the founder of Latin love elegy was represented by exactly one line.
+
+## Most Important Works
+
+- **Amores** (*Love Poems*, probably in the 40s and 30s BC) -- four books of love elegies addressed to Lycoris, the work that founded Roman love elegy as a genre. Before 1978 only one pentameter survived, quoted by a late geographer for its description of a river: *uno tellures dividit amne duas*, "with a single stream it divides two lands". In 1978 a papyrus found at Qasr Ibrim in Egyptian Nubia gave us about ten more lines (see the excerpt below). [Fragmentary]
+- **Translations or adaptations of Euphorion** -- Virgil's *Eclogues* hint that Gallus adapted the obscure, learned Greek poet Euphorion of Chalcis, the kind of Alexandrian model the neoterics loved, possibly including a poem on the origin of the Grynean grove of Apollo. [Lost]
+- **The Philae inscription** (29 BC) -- not literature, but the only surviving text certainly written in Gallus's name: his official account of his victories in Egypt, in Latin and Greek, with an Egyptian version in hieroglyphs. It is now in the Egyptian Museum in Cairo. [Survives, damaged]
+
+## Writing Style and Difficulty
+
+With about ten lines of verse, there is very little to say about Gallus's style from his own words, and anything we say rests largely on what others said about him. Quintilian, ranking the Latin elegists, called Tibullus the most polished and elegant, said some preferred Propertius, found Ovid too playful, and described Gallus as *durior*, "rather harsh". That fits what the papyrus shows. His couplets are self-contained, each making a single point and stopping. He ends a pentameter on a five-syllable word, *historiae*, which Ovid, a generation later, would almost never do. And his spelling is old-fashioned: *quom* for *cum*, *spolieis* and *deiuitiora* with *ei* for long *i*, *Kato* with a K. These may be the habits of the copyist rather than of the poet, but they give the lines an archaic look that fits an author writing at the very beginning of the Augustan age, closer to Catullus than to Ovid.
+
+The papyrus also confirms, at least in miniature, what the ancients said of his range: in nine lines he moves from his mistress, to Caesar's glory, to the Muses, to the literary critics whose judgement he fears. Love, politics and poetry in one breath. That combination, the love poet who also writes for the regime and keeps one eye on his critics, is exactly the tension that runs through the whole of Augustan elegy.
+
+## Latin Excerpt
+
+### Excerpt: Gallus fr. 2 (the Qasr Ibrim papyrus)
+
+**Source:** Gallus, fragment 2 Courtney, from *Living Poets*, Durham University (livingpoets.awh.durham.ac.uk/w/index.php/Gallus_fr._2), following the text first published by R. D. Anderson, P. J. Parsons and R. G. M. Nisbet in the *Journal of Roman Studies* (1979). The Latin Library and Splash Latino do not carry Gallus. Square brackets mark letters lost on the papyrus and restored by editors; dots mark letters that are lost or illegible.
+
+**Context:** In 1978 an expedition of the Egypt Exploration Society was excavating Qasr Ibrim, a fortress on a cliff above the Nile in Nubia, far to the south of Egypt, where a Roman garrison was stationed around 25-21 BC. In a heap of rubbish from the Roman occupation they found a scrap of papyrus with Latin elegiac couplets written on it, with the name *Lycoris* in the first surviving line. Since Lycoris was Gallus's mistress, and since no other poet is known to have used the name, the lines were identified as his. The papyrus was probably copied within a few decades of the poems being written, possibly in the poet's own lifetime, which makes it the oldest surviving manuscript of Latin poetry. That Gallus's poems should reappear in Egypt, the province that ruined him, carried there perhaps by one of the soldiers who served under his successor, is an irony he would have appreciated.
+
+**Latin Text:**
+
+> ] tristia nequit[ia fact]a, Lycori, tua.
+>
+> fata mihi, Caesar, tum erunt mea dulcia quom tu
+> maxima Romanae pars eris historiae,
+> postque tuum reditum multorum templa deorum
+> fixa legam spolieis deiuitiora tueis.
+>
+> . . . . . ] . . . . . tandem fecerunt c[ar]mina Musae
+> quae possem domina deicere digna mea.
+> . . . . . . . . . . . ] . atur idem tibi, non ego, Visce,
+> . . ] . . . . . . . . l . Kato, iudice te uereor.
+
+**English Translation:**
+
+> ... made sad, Lycoris, by your wickedness.
+>
+> My fate will be sweet to me, Caesar, at the moment when you
+> become the greatest part of Roman history,
+> and when, after your return, I read that the temples of many gods
+> are the richer for your spoils hung up in them.
+>
+> ... at last the Muses have made poems
+> that I could recite, worthy of my mistress.
+> ... the same to you, I do not, Viscus,
+> ... Cato, with you as my judge, fear.
+
+**Analysis:**
+
+These nine lines, some of them broken, are almost everything we have of the man who invented Latin love elegy, so every word has been argued over. The first line, of which only the end survives, is a pentameter addressed to Lycoris, accusing her of *nequitia*, a word that means anything from naughtiness to sheer wickedness and will become a key word of later elegy, where the lover's *nequitia* and the mistress's are both on display. That single half-line already contains the whole elegiac situation: the poet, the woman, and the hurt.
+
+The next four lines are a complete epigram of a completely different kind: a political compliment. "My fate will be sweet to me, Caesar, when you become the greatest part of Roman history." Which Caesar is meant is debated. Many scholars think it is Julius Caesar, about to leave for his planned war against Parthia in 44 BC, which would date the poem before the Ides of March; others think it is Octavian. Either way, the lines show that the founder of love elegy was also, already, writing praise of the ruler, the same mix that Propertius and Ovid would handle so uneasily. The grammar is clean: a future *erunt* answered by *quom tu... eris* (with *quom*, the old spelling of *cum*), then *legam*, "I shall read", governing an indirect statement with *esse* understood, *templa... deiuitiora*, "that the temples are richer". *Fixa... spolieis... tueis* refers to the Roman custom of nailing captured arms and trophies to the walls of temples.
+
+The last four lines are literary: at last the Muses have produced poems "worthy of my mistress", and the poet wonders how they will be received by two critics, Viscus and Cato. Viscus is probably one of the Visci brothers whom Horace lists among the readers whose approval he wants; Cato is almost certainly Valerius Cato, the grammarian and poet who was the great authority of the neoteric generation. So in nine lines Gallus places himself exactly: between his mistress, the most powerful man in Rome, and the literary establishment.
+
+Formally, each couplet stands alone, and the pentameters end on a two-syllable word (*tua*, *mea*) or, unusually, on a longer one (*historiae*, *uereor*). Later elegists, above all Ovid, made the two-syllable ending almost compulsory, so the papyrus gives us a glimpse of the genre before its rules were fixed. Notice also the old-fashioned spellings, *spolieis*, *deiuitiora*, *deicere* (for *dicere*), *quom*, *Kato*, and the use of *u* for consonantal *v* (*deiuitiora*, *uereor*), which is how the Romans themselves wrote it.
+
+A word of caution: a minority of scholars have doubted that these lines are by Gallus at all, or have found them disappointingly flat for such a famous poet. Most accept them. Whether they are his best lines is another question, and an unfair one: they are simply the lines that happened to end up on a rubbish heap in Nubia.
+
+---
+
+## Legacy and Impact
+
+Gallus is the clearest case in the whole project of an author whose importance has nothing to do with how much of him survives. He is the founder of Latin love elegy as a genre. Catullus had written love poems in elegiac couplets, but Gallus seems to have been the first to make an entire book, and then four, out of elegies about a single mistress under a Greek pseudonym, and in doing so he fixed the shape of the genre that Tibullus, Propertius and Ovid would bring to its peak. The ancients were in no doubt about this. When Ovid lists the line of Roman elegists, Gallus comes first; when Quintilian claims that in elegy "we challenge the Greeks", Gallus is one of the four names he gives; and Virgil's *Eclogue* 10 turns him into the very image of the elegiac lover, suffering in Arcadia, defeated by Love.
+
+Many of the conventions of Roman elegy probably go back to him: the poet as the slave of his mistress (*servitium amoris*), love as a kind of military service (*militia amoris*), the beloved under a pseudonym that hides a real woman, the poet who refuses war and career in favour of love and then writes about Caesar's victories anyway. We cannot prove most of this from his own lines, because the lines are gone. But the genre he started is one of the great Roman contributions to European literature, and it runs from the Augustan elegists to the troubadours, Petrarch, and every love poet who has ever complained in verse about a cruel beloved.
+
+His other legacy is a warning. Gallus was the first great writer of the Augustan age to discover that the regime gave a great deal and could take it all back. His fall in 26 BC came only a year after the "restored Republic" of 27 BC, and it showed everyone, poets included, where the limits were. Ovid would learn the same lesson thirty-four years later.
+
+---
+
+## Final Rating
+
+**Tier: NC (Not Comparable)**
+
+About ten lines of verse, several of them broken, cannot support a reliable rating. What survives is not especially hard: the syntax of the papyrus is clear, the vocabulary standard, and the main obstacles are the archaic spelling, the gaps in the text and the elegiac metre itself. But nine lines cannot tell us how Gallus handled the long, dense, allusive elegies his contemporaries admired, and Quintilian's *durior* suggests that he was not an easy read. So NC, as with Livius Andronicus. What NC does not measure is importance, and here Gallus ranks with anyone in the era: without him there would be no Tibullus, no Propertius, and no Ovid as we know them.
+
+---

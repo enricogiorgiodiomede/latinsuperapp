@@ -274,3 +274,103 @@ E poi, naturalmente, c'è l'*Uomo vitruviano* di Leonardo, che ha reso famoso il
 Vitruvio scrive in prosa, e nell'età augustea questo lo colloca già dalla parte più facile. La grammatica è standard, le storie sono raccontate in un latino narrativo semplice, e non usa quasi figure retoriche né allusioni letterarie. Ciò che lo solleva sopra la D è il lessico: un vocabolario tecnico e fitto, pieno di prestiti greci, molti dei quali assenti dai vocabolari scolastici, insieme a una struttura delle frasi sciolta e a volte goffa, che rende le sue descrizioni più difficili da seguire che da analizzare, soprattutto senza i disegni perduti. Le prefazioni narrative, come la storia di Archimede, sono vicine alla D; i capitoli tecnici su templi e macchine possono toccare la B. Nel complesso, una C solida: alla portata di qualsiasi studente che abbia letto Cesare e Cicerone, purché tenga a portata di mano un buon vocabolario e molta pazienza.
 
 ---
+
+## GAIO CORNELIO GALLO (70/69 -- 26 a.C.)
+
+### Biografia *(italiano)*
+
+Gaio Cornelio Gallo era il tipo d'uomo più pericoloso da essere nella Roma augustea: brillante in due cose contemporaneamente. Inventò un intero genere della poesia latina, e governò l'Egitto. La seconda cosa lo uccise, e uccidendolo si portò via quasi tutta la prima.
+
+**Un provinciale di Fréjus.** Nacque nel 70 o nel 69 a.C. a Forum Iulii, l'odierna Fréjus sulla costa della Provenza, nella provincia della Gallia Narbonense, probabilmente in una famiglia senza particolare prestigio; il suo stesso nome potrebbe far pensare a origini galliche. Aveva quasi esattamente l'età di Virgilio, e come Virgilio arrivò a Roma dalla provincia con nient'altro che il suo talento. La prima volta che compare nella storia è in una lettera del 43 a.C. di Asinio Pollione a Cicerone, dove viene nominato di sfuggita come "il mio amico Cornelio Gallo". Nel giro di pochi anni era uno dei giovani poeti più ammirati della città.
+
+**L'amico di Virgilio.** Gallo e Virgilio erano amici stretti, e la loro amicizia è scritta nelle *Bucoliche*. Secondo i commentatori antichi, quando il podere di famiglia di Virgilio vicino a Mantova fu confiscato per i veterani dopo Filippi, Gallo fu tra gli uomini influenti che lo aiutarono. Virgilio lo ripagò nell'unica moneta che un poeta possiede. Nella sesta *Bucolica* immagina Gallo condotto da una delle Muse sull'Elicona, dove l'intero coro di Apollo si alza per salutarlo e gli vengono consegnate le zampogne di Esiodo: una solenne consacrazione a poeta. E tutta la decima *Bucolica*, l'ultimo carme della raccolta, è dedicata a lui: *pauca meo Gallo*, "pochi versi per il mio Gallo". Vi si vede Gallo disteso sotto una rupe in Arcadia, morente d'amore, mentre pastori, dèi e perfino le pecore gli si raccolgono intorno per chiedergli che cosa abbia. È Gallo a pronunciare il verso più famoso del carme, *omnia vincit Amor: et nos cedamus Amori*, "l'Amore vince tutto: cediamo anche noi all'Amore". I commentatori antichi credevano che alcuni dei versi che Virgilio gli attribuisce fossero adattati dalle poesie di Gallo stesso, il che farebbe della decima *Bucolica* la migliore testimonianza rimasta di come suonassero.
+
+**Licoride.** La donna per cui Gallo soffre nella decima *Bucolica*, e protagonista dei suoi quattro libri di elegie d'amore, si chiama Licoride. Il suo vero nome, secondo i commentatori, era Volumnia Citeride, ed era l'attrice più famosa di Roma: una liberta che recitava nel mimo, il teatro popolare scandaloso e semi-improvvisato dell'epoca, e che in precedenza era stata l'amante di Marco Antonio, con cui aveva girato l'Italia in lettiga, nell'orrore della buona società. Una volta Cicerone si trovò a cena accanto a lei e scrisse a un amico, visibilmente imbarazzato, che non aveva la minima idea che ci sarebbe stata. Nella decima *Bucolica* Licoride ha lasciato Gallo per seguire un soldato tra le nevi delle Alpi e del Reno. Lo schema dell'elegia d'amore romana, il poeta devoto a una donna bella e infedele nascosta sotto uno pseudonimo greco, comincia qui.
+
+**Il generale.** A differenza di quasi tutti gli altri poeti romani, Gallo fu anche un soldato di successo. Nella campagna finale contro Antonio e Cleopatra, nel 30 a.C., comandò le legioni di Ottaviano nell'Egitto occidentale, conquistò la città di Paretonio e respinse l'attacco di Antonio. Ebbe poi un ruolo nella cattura di Cleopatra: secondo Plutarco, Gallo tenne la regina occupata a parlare davanti alla porta sbarrata del suo mausoleo, mentre il collega Proculeio entrava da una finestra alle sue spalle. Ottaviano lo ricompensò con il premio più alto possibile per un uomo del suo rango: nel 30 a.C. Gallo divenne il primo prefetto romano d'Egitto.
+
+**Troppa gloria.** L'Egitto non era una provincia qualsiasi. Era il territorio più ricco dell'impero e il granaio di Roma, e Augusto lo governava come un possesso personale, attraverso un uomo di rango equestre e non un senatore, perché nessuno abbastanza potente da ribellarsi potesse mai controllarlo. Gallo fece il suo lavoro benissimo. Schiacciò una rivolta nell'Alto Egitto, prese cinque città in quindici giorni, si spinse oltre la Prima Cateratta del Nilo e ricevette gli ambasciatori del re d'Etiopia. Poi commise l'errore fatale di farlo sapere a tutti. Nell'aprile del 29 a.C. fece erigere a File un'iscrizione in tre lingue (latino, greco e geroglifici egizi) in cui si vantava di aver condotto un esercito "dove né il popolo romano né i re d'Egitto avevano mai portato le armi", nominando Ottaviano solo di sfuggita. Secondo Cassio Dione, fece anche innalzare statue di se stesso in tutto l'Egitto, incidere le sue imprese sulle piramidi e, cosa peggiore di tutte, disse cose irrispettose su Augusto, probabilmente dopo qualche bicchiere di troppo.
+
+**La caduta.** Nel 27 o nel 26 a.C. fu richiamato e denunciato da un ex amico. Augusto gli tolse formalmente la propria amicizia (*renuntiatio amicitiae*) e gli vietò la sua casa e le sue province, cosa che nella Roma augustea significava la fine di una carriera e quasi la fine di una vita. Il Senato, ansioso di mostrare la propria fedeltà, rincarò la dose: votò perché fosse processato, esiliato e i suoi beni consegnati ad Augusto. Gallo non aspettò la sentenza. Si tolse la vita nel 26 a.C., a quarantatré anni. Svetonio racconta che Augusto pianse alla notizia, lamentandosi di essere l'unico a non potersi arrabbiare con gli amici solo quanto voleva. Ovidio, che di dispiaceri dati ad Augusto qualcosa sapeva, riassunse in seguito il caso in due versi: non fu scrivere di Licoride a rovinare Gallo, ma il non aver tenuto a freno la lingua quando aveva bevuto troppo vino.
+
+**Cancellato.** Ciò che seguì viene spesso chiamato *damnatio memoriae*, e anche se il termine è moderno e non ci è noto alcun decreto formale con quel nome, l'effetto fu esattamente quello: Gallo fu cancellato dalla memoria pubblica. L'iscrizione di File fu fatta a pezzi e usata come materiale da costruzione per un tempio più tardo, dove gli archeologi la ritrovarono nel 1896. Ad Alessandria aveva costruito un nuovo foro per Ottaviano e vi aveva dedicato un obelisco a proprio nome; la sua iscrizione fu rimossa e sostituita. Quell'obelisco fu poi portato a Roma da Caligola e oggi si trova al centro di piazza San Pietro, e negli anni Sessanta l'archeologo Filippo Magi si accorse che le file di piccoli fori sulla sua base erano i fori di fissaggio delle lettere di bronzo della dedica originale. Unendo i puntini, ne uscì il nome di Gallo. Ogni pellegrino che abbia mai attraversato piazza San Pietro è passato accanto all'unico monumento di Roma che porta ancora, invisibile, il suo nome. Il commentatore del IV secolo Servio aggiunge una storia più famosa e più dubbia: che il quarto libro delle *Georgiche* di Virgilio si chiudesse in origine con un lungo elogio di Gallo, e che dopo la sua caduta Augusto ordinasse a Virgilio di sostituirlo, ed è così che avremmo avuto al suo posto la storia di Aristeo e di Orfeo. La maggior parte degli studiosi moderni la considera una leggenda, ma dice molto che i lettori antichi la trovassero credibile.
+
+La sua poesia non scomparve subito. Ovidio poteva ancora promettere che "Gallo sarà conosciuto in Occidente, Gallo in Oriente, e con lui la sua Licoride", e Quintiliano lo leggeva e lo classificava alla fine del I secolo d.C. Ma nessun manoscritto dei suoi quattro libri sopravvisse alla fine dell'antichità. Fino al 1978, il fondatore dell'elegia d'amore latina era rappresentato da un solo verso.
+
+### Opere principali *(italiano)*
+
+- **Amores** (*Poesie d'amore*, probabilmente anni 40 e 30 a.C.) -- quattro libri di elegie d'amore indirizzate a Licoride, l'opera che fondò l'elegia d'amore romana come genere. Prima del 1978 sopravviveva un solo pentametro, citato da un geografo tardo per la sua descrizione di un fiume: *uno tellures dividit amne duas*, "con un solo corso d'acqua divide due terre". Nel 1978 un papiro trovato a Qasr Ibrim, nella Nubia egiziana, ci ha restituito una decina di versi in più (si veda il brano qui sotto). [Frammentaria]
+- **Traduzioni o adattamenti di Euforione** -- le *Bucoliche* di Virgilio lasciano intendere che Gallo adattò l'oscuro e dotto poeta greco Euforione di Calcide, proprio il tipo di modello alessandrino amato dai neoteroi, forse con un poemetto sull'origine del bosco di Grinio sacro ad Apollo. [Perduti]
+- **L'iscrizione di File** (29 a.C.) -- non è letteratura, ma è l'unico testo sopravvissuto scritto con certezza a nome di Gallo: il suo resoconto ufficiale delle vittorie in Egitto, in latino e in greco, con una versione egizia in geroglifici. Oggi è al Museo Egizio del Cairo. [Conservata, danneggiata]
+
+### Stile e difficoltà *(italiano)*
+
+Con una decina di versi, c'è ben poco da dire sullo stile di Gallo a partire dalle sue parole, e quel che si dice si basa in gran parte su ciò che altri dissero di lui. Quintiliano, stilando la classifica degli elegiaci latini, definì Tibullo il più terso ed elegante, disse che alcuni preferivano Properzio, trovò Ovidio troppo giocoso e descrisse Gallo come *durior*, "piuttosto duro". È coerente con ciò che mostra il papiro. I suoi distici sono autonomi, ognuno esprime un solo concetto e si ferma. Chiude un pentametro con una parola di cinque sillabe, *historiae*, cosa che Ovidio, una generazione dopo, non avrebbe quasi mai fatto. E la sua grafia è antiquata: *quom* per *cum*, *spolieis* e *deiuitiora* con *ei* per la *i* lunga, *Kato* con la K. Possono essere abitudini del copista più che del poeta, ma danno ai versi un aspetto arcaico che si addice a un autore che scrive proprio all'inizio dell'età augustea, più vicino a Catullo che a Ovidio.
+
+Il papiro conferma anche, almeno in miniatura, ciò che gli antichi dicevano della sua varietà: in nove versi passa dalla sua amante, alla gloria di Cesare, alle Muse, ai critici letterari di cui teme il giudizio. Amore, politica e poesia in un solo respiro. Proprio questa combinazione, il poeta d'amore che scrive anche per il regime e tiene d'occhio i suoi critici, è la tensione che attraversa tutta l'elegia augustea.
+
+### Brano: Gallo fr. 2 (il papiro di Qasr Ibrim)
+
+**Fonte:** Gallo, frammento 2 Courtney, da *Living Poets*, Durham University (livingpoets.awh.durham.ac.uk/w/index.php/Gallus_fr._2), che segue il testo pubblicato per la prima volta da R. D. Anderson, P. J. Parsons e R. G. M. Nisbet nel *Journal of Roman Studies* (1979). The Latin Library e Splash Latino non riportano Gallo. Le parentesi quadre indicano lettere perdute sul papiro e integrate dagli editori; i puntini indicano lettere perdute o illeggibili.
+
+**Contesto:** Nel 1978 una spedizione dell'Egypt Exploration Society stava scavando Qasr Ibrim, una fortezza su una rupe sopra il Nilo in Nubia, molto a sud dell'Egitto, dove intorno al 25-21 a.C. era di stanza una guarnigione romana. In un cumulo di rifiuti dell'occupazione romana trovarono un frammento di papiro con alcuni distici elegiaci latini, con il nome *Lycoris* nel primo verso superstite. Poiché Licoride era l'amante di Gallo, e poiché nessun altro poeta risulta aver usato quel nome, i versi furono identificati come suoi. Il papiro fu copiato probabilmente pochi decenni dopo la composizione delle poesie, forse mentre il poeta era ancora vivo, il che ne fa il più antico manoscritto di poesia latina che si conservi. Che le poesie di Gallo ricompaiano proprio in Egitto, la provincia che lo rovinò, portate lì forse da uno dei soldati del suo successore, è un'ironia che lui avrebbe apprezzato.
+
+**Testo latino:**
+
+> ] tristia nequit[ia fact]a, Lycori, tua.
+>
+> fata mihi, Caesar, tum erunt mea dulcia quom tu
+> maxima Romanae pars eris historiae,
+> postque tuum reditum multorum templa deorum
+> fixa legam spolieis deiuitiora tueis.
+>
+> . . . . . ] . . . . . tandem fecerunt c[ar]mina Musae
+> quae possem domina deicere digna mea.
+> . . . . . . . . . . . ] . atur idem tibi, non ego, Visce,
+> . . ] . . . . . . . . l . Kato, iudice te uereor.
+
+**Traduzione italiana** *(originale)*:
+
+> ... rese tristi, Licoride, dalla tua malvagità.
+>
+> Il mio destino mi sarà dolce, Cesare, nel momento in cui tu
+> diventerai la parte più grande della storia di Roma,
+> e quando, dopo il tuo ritorno, leggerò che i templi di molti dèi
+> sono più ricchi delle tue spoglie appese.
+>
+> ... finalmente le Muse hanno creato poesie
+> che potrei recitare, degne della mia signora.
+> ... la stessa cosa a te, io non, Visco,
+> ... Catone, con te come giudice, temo.
+
+**Analisi:**
+
+Questi nove versi, alcuni spezzati, sono quasi tutto ciò che abbiamo dell'uomo che inventò l'elegia d'amore latina, e così ogni parola è stata discussa. Il primo verso, di cui resta solo la fine, è un pentametro rivolto a Licoride, accusata di *nequitia*, una parola che va dalla birichinata alla vera e propria malvagità e che diventerà una parola chiave dell'elegia successiva, dove la *nequitia* dell'amante e quella della donna sono entrambe in mostra. Quel solo mezzo verso contiene già l'intera situazione elegiaca: il poeta, la donna e la ferita.
+
+I quattro versi successivi sono un epigramma completo di tutt'altro genere: un complimento politico. "Il mio destino mi sarà dolce, Cesare, quando diventerai la parte più grande della storia di Roma." Quale Cesare sia è discusso. Molti studiosi pensano a Giulio Cesare, in procinto di partire per la guerra progettata contro i Parti nel 44 a.C., il che daterebbe il carme prima delle Idi di marzo; altri pensano a Ottaviano. In ogni caso, i versi mostrano che il fondatore dell'elegia d'amore scriveva già anche lodi del sovrano, la stessa miscela che Properzio e Ovidio avrebbero maneggiato con tanto disagio. La grammatica è pulita: un futuro *erunt* a cui risponde *quom tu... eris* (con *quom*, la grafia antica di *cum*), poi *legam*, "leggerò", che regge un'infinitiva con *esse* sottinteso, *templa... deiuitiora*, "che i templi sono più ricchi". *Fixa... spolieis... tueis* allude all'usanza romana di inchiodare armi e trofei catturati alle pareti dei templi.
+
+Gli ultimi quattro versi sono letterari: finalmente le Muse hanno prodotto poesie "degne della mia signora", e il poeta si chiede come le accoglieranno due critici, Visco e Catone. Visco è probabilmente uno dei fratelli Visci che Orazio elenca tra i lettori di cui desidera l'approvazione; Catone è quasi certamente Valerio Catone, il grammatico e poeta che fu la grande autorità della generazione dei neoteroi. Così in nove versi Gallo si colloca con esattezza: tra la sua amante, l'uomo più potente di Roma e l'establishment letterario.
+
+Sul piano formale, ogni distico è autonomo, e i pentametri terminano con una parola di due sillabe (*tua*, *mea*) o, insolitamente, con una più lunga (*historiae*, *uereor*). Gli elegiaci successivi, soprattutto Ovidio, resero la chiusa bisillabica quasi obbligatoria, quindi il papiro ci fa intravedere il genere prima che le sue regole si fissassero. Si notino anche le grafie antiquate, *spolieis*, *deiuitiora*, *deicere* (per *dicere*), *quom*, *Kato*, e l'uso di *u* per la *v* consonantica (*deiuitiora*, *uereor*), che è il modo in cui scrivevano i Romani stessi.
+
+Una parola di cautela: una minoranza di studiosi ha dubitato che questi versi siano davvero di Gallo, o li ha trovati deludentemente piatti per un poeta così famoso. La maggior parte li accetta. Se siano i suoi versi migliori è un'altra questione, e ingiusta: sono semplicemente i versi che per caso sono finiti in un mucchio di rifiuti in Nubia.
+
+---
+
+### Eredità e Impatto
+
+Gallo è il caso più chiaro dell'intero progetto di un autore la cui importanza non ha nulla a che fare con quanto di lui sopravvive. È il fondatore dell'elegia d'amore latina come genere. Catullo aveva scritto poesie d'amore in distici elegiaci, ma Gallo sembra essere stato il primo a fare un intero libro, e poi quattro, di elegie su un'unica amante nascosta sotto uno pseudonimo greco, fissando così la forma del genere che Tibullo, Properzio e Ovidio avrebbero portato al suo apice. Gli antichi non avevano dubbi in proposito. Quando Ovidio elenca la serie degli elegiaci romani, Gallo è il primo; quando Quintiliano afferma che nell'elegia "sfidiamo i Greci", Gallo è uno dei quattro nomi che fa; e la decima *Bucolica* di Virgilio lo trasforma nell'immagine stessa dell'amante elegiaco, sofferente in Arcadia, vinto dall'Amore.
+
+Molte convenzioni dell'elegia romana risalgono probabilmente a lui: il poeta schiavo della sua donna (*servitium amoris*), l'amore come una sorta di servizio militare (*militia amoris*), l'amata sotto uno pseudonimo che nasconde una donna reale, il poeta che rifiuta la guerra e la carriera in nome dell'amore e poi scrive comunque delle vittorie di Cesare. Per lo più non possiamo dimostrarlo con i suoi versi, perché i versi non ci sono più. Ma il genere che inaugurò è uno dei grandi contributi romani alla letteratura europea, e corre dagli elegiaci augustei ai trovatori, a Petrarca, fino a ogni poeta d'amore che si sia mai lamentato in versi di un'amata crudele.
+
+L'altra sua eredità è un avvertimento. Gallo fu il primo grande scrittore dell'età augustea a scoprire che il regime dava molto e poteva riprendersi tutto. La sua caduta nel 26 a.C. arrivò appena un anno dopo la "Repubblica restaurata" del 27 a.C., e mostrò a tutti, poeti compresi, dove fossero i limiti. Ovidio avrebbe imparato la stessa lezione trentaquattro anni dopo.
+
+---
+
+### Valutazione finale *(italiano)*
+
+**Tier: NC (Not Comparable)**
+
+Una decina di versi, diversi dei quali spezzati, non possono sostenere una valutazione affidabile. Ciò che sopravvive non è particolarmente difficile: la sintassi del papiro è chiara, il lessico standard, e gli ostacoli principali sono la grafia arcaica, le lacune del testo e il metro elegiaco stesso. Ma nove versi non possono dirci come Gallo gestisse le elegie lunghe, dense e allusive che i contemporanei ammiravano, e il *durior* di Quintiliano fa pensare che non fosse una lettura facile. Quindi NC, come per Livio Andronico. Ciò che l'NC non misura è l'importanza, e qui Gallo sta alla pari con chiunque nell'epoca: senza di lui non ci sarebbero stati Tibullo, Properzio e l'Ovidio che conosciamo.
+
+---
