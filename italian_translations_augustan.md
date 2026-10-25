@@ -595,3 +595,290 @@ Tutto questo lo rese così famoso che la sua fama finì per superare la sua poes
 Virgilio è difficile in quasi tutti i criteri contemporaneamente: ordine poetico delle parole e ipallagi, plurali poetici, forme greche, arcaismi, elisioni, lessico tecnico nelle *Georgiche* e una densità di allusioni letterarie e mitologiche che raramente concede tregua. Ciò che lo tiene lontano dalla S è la sua onestà: rispetto a Orazio non c'è nessun gioco deliberato con il lettore, la narrazione dell'*Eneide* trascina avanti, e le *Bucoliche* offrono una porta d'ingresso davvero accessibile. Opera per opera: le **Bucoliche** dalla B alla A bassa, e il punto giusto da cui partire; l'**Eneide** nella fascia media e alta della A; le **Georgiche** le più difficili di tutte, fino a sconfinare nella S. Nel complesso, una A netta. Non cominciate dall'*Eneide*.
 
 ---
+
+## QUINTO ORAZIO FLACCO -- ORAZIO (65 -- 8 a.C.)
+
+### Biografia *(italiano)*
+
+Se Virgilio è il genio timido dell'età augustea, Orazio è la sua compagnia migliore. È l'amico che non si prende mai troppo sul serio, che ti dice in faccia i tuoi vizi e poi ti versa una coppa di Falerno per aiutarti a berci sopra. Ride degli avidi, degli ambiziosi, dei seccatori e degli arrampicatori sociali, e ride altrettanto di se stesso: basso, grasso, precocemente grigio, pronto ad arrabbiarsi e pronto a calmarsi di nuovo, e, per sua stessa definizione, "un porco del gregge di Epicuro". E poi, dopo averti fatto ridere, scrive alcune delle poesie liriche più belle della letteratura latina. È il grande poeta lirico dell'età augustea, e probabilmente il poeta più citabile che Roma abbia mai prodotto.
+
+**Il figlio del liberto.** Quinto Orazio Flacco nacque l'8 dicembre del 65 a.C. a Venosa, una colonia militare al confine tra l'Apulia e la Lucania, nell'Italia meridionale. Il padre era un liberto, un ex schiavo, che lavorava come *coactor*, esattore dei pagamenti nelle aste: un mestiere modesto, ma redditizio. Prese una decisione che cambiò la vita del figlio: invece di mandarlo alla scuola del posto, dove andavano i figli dei centurioni con le loro cartelle e le loro tavolette, lo portò a Roma perché studiasse insieme ai figli dei senatori e dei cavalieri, e lo accompagnò di persona a ogni lezione, come custode. Orazio non lo dimenticò mai. In una delle sue satire scrive che, se ha qualche buona qualità, la deve a suo padre, e che non lo scambierebbe con nessun padre nobile di Roma. Il suo maestro a Roma, Orbilio, è ricordato in letteratura per una cosa sola: Orazio lo chiama *plagosus*, "manesco", la prima celebre bacchettata scolastica della storia.
+
+**L'ufficiale che scappò.** Intorno al 45 a.C. andò ad Atene a completare la sua formazione filosofica, ed era lì quando Cesare fu assassinato. Bruto arrivò ad Atene a reclutare giovani Romani per la causa della Repubblica, e Orazio, figlio di un ex schiavo, si ritrovò nominato *tribunus militum*, uno degli ufficiali superiori di una legione: segno del suo talento, o di quanto Bruto fosse disperato. A Filippi, nel 42 a.C., l'esercito repubblicano fu distrutto, e Orazio, per sua allegra ammissione, scappò. In un'ode scritta anni dopo ricorda a un vecchio compagno d'armi il giorno "in cui con te provai la fuga veloce, lasciando non troppo gloriosamente il mio piccolo scudo" (*relicta non bene parmula*), e aggiunge che il dio Mercurio lo raccolse in una nube e lo portò fuori dalla battaglia. È anche una battuta letteraria: i lirici greci Archiloco, Alceo e Anacreonte si erano tutti vantati di aver gettato lo scudo per salvarsi la vita, e così Orazio fa della propria vigliaccheria un titolo per entrare nel club.
+
+**La povertà mi fece poeta.** Tornò in Italia grazie a un'amnistia e trovò il padre morto e la terra di famiglia confiscata. Si comprò un posto da scrivano all'erario e, come racconta, "la povertà audace mi spinse a scrivere versi". I versi erano abbastanza buoni da attirare l'attenzione di Virgilio e di Vario, che intorno al 38 a.C. lo presentarono a Mecenate.
+
+**Mecenate.** Il primo incontro, come lo descrive Orazio, fu un disastro di timidezza. Balbettò poche parole, "perché un pudore muto mi impediva di dire di più"; Mecenate rispose brevemente, come era sua abitudine; Orazio se ne andò. Poi, nove mesi dopo, Mecenate lo richiamò e gli chiese di entrare nel suo circolo di amici. Fu l'inizio di una delle grandi amicizie dell'antichità. Mecenate gli diede sicurezza economica e, intorno al 33 a.C., un podere sui colli della Sabina, a nordest di Roma, il luogo che Orazio amò più di ogni altro al mondo e che compare di continuo nelle sue poesie come simbolo della vita tranquilla e indipendente. In cambio Orazio gli diede le dediche dei suoi libri, la sua fedeltà e una promessa: in un'ode giura che non sopravvivrà all'amico, e che quando Mecenate se ne andrà, se ne andranno insieme. Mantenne quasi la parola. Mecenate morì nell'8 a.C., lasciando un testamento in cui chiedeva ad Augusto di "ricordarti di Orazio come ti ricorderesti di me". Orazio morì meno di due mesi dopo, e fu sepolto accanto a lui sull'Esquilino.
+
+**L'ammiratore imperiale.** Augusto lo stimava moltissimo e lo voleva vicino. Offrì a Orazio il posto di suo segretario personale, e Orazio declinò con garbo, adducendo la salute cagionevole; Augusto, a suo merito, non se la prese, e continuò a scrivergli lettere scherzose. In una lo chiama "omuncolo graziosissimo". In un'altra, dopo aver ricevuto un suo libretto di poesie, scherza dicendo che Orazio sembra temere che i suoi libri siano più grandi di lui, visto che ciò che gli manca in altezza lo compensa in pancia. E in una terza si lamenta, mezzo sul serio, che Orazio non gli abbia mai dedicato una poesia: "Hai paura che agli occhi dei posteri ti faccia cattiva fama sembrare mio amico?" Orazio colse l'allusione e gli scrisse una lunga lettera in versi, la prima del secondo libro delle *Epistole*. Nel 17 a.C. Augusto lo scelse per scrivere l'inno ufficiale dei Giochi Secolari, il *Carmen Saeculare*: il figlio del liberto che aveva combattuto contro l'erede di Cesare a Filippi era diventato il poeta ufficiale del suo regime.
+
+**Gli ultimi anni.** Passò gli ultimi anni tra Roma e il podere in Sabina, scrivendo il suo ultimo libro di odi e le lettere letterarie, e morì il 27 novembre dell'8 a.C., pochi giorni prima di compiere cinquantasette anni, lasciando Augusto come erede. Aveva previsto la propria fama alla fine del terzo libro delle odi, in uno dei vanti più orgogliosi della letteratura: *exegi monumentum aere perennius*, "ho innalzato un monumento più duraturo del bronzo", e *non omnis moriar*, "non morirò del tutto". Aveva ragione.
+
+### Opere principali *(italiano)*
+
+- **Sermones** (*Satire*, libro I c. 35 a.C., libro II c. 30 a.C.) -- due libri di "conversazioni" in esametri, diciotto componimenti in tutto, nella tradizione di Lucilio ma più garbati e autoironici. Il motto di Orazio è *ridentem dicere verum*, "dire la verità ridendo". I bersagli sono i vizi della vita romana quotidiana: avidità, ambizione, adulterio, ghiottoneria, superstizione e quell'irrequieta insoddisfazione che fa desiderare a tutti la vita di qualcun altro. Tra le più famose: il viaggio a Brindisi (I.5), il seccatore che non lascia andare Orazio sulla Via Sacra (I.9), e il topo di città e il topo di campagna (II.6). [Complete]
+- **Epodi** o **Iambi** (*Epodi*, c. 30 a.C.) -- diciassette componimenti in versi giambici modellati sul poeta greco Archiloco, il fondatore dell'invettiva poetica. Comprendono maledizioni e insulti (contro il poeta Mevio, contro la strega Canidia), ma anche poesie angosciate sulle guerre civili, una celebrazione della vittoria di Azio e il celebre elogio della vita di campagna, *Beatus ille*, che alla fine si rivela pronunciato da un usuraio che subito torna a prestare denaro a interesse. [Completi]
+- **Carmina** (*Odi*, libri I-III 23 a.C., libro IV c. 13 a.C.) -- centotré poesie liriche nei metri dei poeti greci Alceo e Saffo, il capolavoro di Orazio e il suo titolo per dirsi il primo ad aver portato la lirica greca in latino. I temi sono l'amicizia, l'amore, il vino, le stagioni, la brevità della vita e la necessità di godere saggiamente del presente, la moderazione (l'*aurea mediocritas*), Roma e il suo rinnovamento morale (le sei "Odi romane" che aprono il libro III), Augusto e Azio (*Nunc est bibendum*, sulla morte di Cleopatra) e l'immortalità della poesia. [Complete]
+- **Carmen Saeculare** (*Carme secolare*, 17 a.C.) -- l'inno ufficiale dei Giochi Secolari, la festa che segnava l'inizio di una nuova età per Roma, cantato da un coro di ventisette ragazzi e ventisette ragazze sul Palatino e sul Campidoglio. Una preghiera ad Apollo e a Diana per la prosperità di Roma, delle sue famiglie e dei suoi raccolti. Il resoconto ufficiale dei giochi, inciso su pietra e ritrovato in parte nel 1890, lo nomina ancora: *carmen composuit Q. Horatius Flaccus*. [Completo]
+- **Epistulae** (*Epistole*, libro I c. 20 a.C., libro II c. 19-12 a.C.) -- due libri di lettere in versi agli amici, più filosofiche e più serene delle *Satire*. Il loro argomento è come vivere: indipendenza, contentezza, amicizia, conoscenza di sé. Contengono alcune delle sue frasi più famose: *sapere aude*, "osa essere saggio", *nil admirari*, "non stupirsi di nulla", e *Graecia capta ferum victorem cepit*, "la Grecia conquistata conquistò il suo rozzo vincitore". [Complete]
+- **Ars Poetica** (*L'arte poetica*, detta anche *Epistula ad Pisones*) -- una lunga lettera in versi di 476 esametri su come scrivere poesia, soprattutto teatro: unità, coerenza dei personaggi, convenienza dello stile, necessità di cominciare *in medias res*, di rivedere per anni (*nonumque prematur in annum*, "lo si tenga nascosto fino al nono anno") e di mirare insieme all'utile e al piacere. È l'opera di teoria letteraria più influente mai scritta in latino. [Completa]
+
+### Stile e difficoltà *(italiano)*
+
+Virgilio è difficile, ma resta leggibile. Orazio è un'altra faccenda. Virgilio ti fa lavorare; Orazio gioca con te.
+
+Il primo gioco è l'**iperbato**, che in Orazio raggiunge estensioni che non si trovano altrove. Parole che grammaticalmente vanno insieme, un aggettivo e il suo sostantivo, una preposizione e il suo complemento, vengono separate e collocate alle estremità opposte di un verso, o di un'intera strofa, con altre parole incastrate in mezzo. Nelle *Odi* non è decorazione ma struttura: ogni parola sta esattamente nel punto in cui il suo suono, il suo metro e il suo significato rendono di più. Nietzsche descrisse un'ode di Orazio come un mosaico di parole in cui ogni singola parola, con il suo suono, la sua posizione e il suo significato, irradia la propria forza a destra, a sinistra e sull'insieme. Per chi traduce, quel mosaico va smontato tessera per tessera prima di poterlo ricomporre in italiano. Orazio stesso diede un nome alla tecnica nell'*Ars Poetica*: la *callida iunctura*, il "nesso sapiente", grazie al quale una parola nota, inserita in un accostamento inatteso, diventa nuova. In pratica, per lo studente, buona parte della *callida iunctura* è semplicemente altro iperbato.
+
+Il secondo è il **lessico**. Orazio inserisce in latino parole e costruzioni greche senza preavviso, usa parole rare e neoformazioni (nell'*Ars Poetica* difende esplicitamente il diritto del poeta di coniare parole nuove, purché lo faccia con misura) e allude di continuo a poesie liriche greche che il lettore dovrebbe riconoscere. **Lessico: ALTO; Densità allusiva: ALTA.**
+
+Il terzo è il **sermo cotidianus** delle *Satire* e delle *Epistole*. Qui il problema è l'opposto delle *Odi*: non la compressione in un mosaico perfetto, ma la conversazione. Orazio scrive come parlavano i Romani colti, a raffica e in modo disorientante: cambi di interlocutore non annunciati, obiezioni immaginarie, frasi a metà, ellissi, espressioni colloquiali, battute che dipendono da un tono di voce che noi non possiamo sentire. Le *Satire* sono il punto di partenza consigliato per Orazio, e giustamente, perché l'ordine delle parole è più vicino alla prosa e le situazioni sono spesso divertenti. Ma restano insidiose. **Complessità sintattica: ALTA; Figure retoriche: ALTE.**
+
+E se si prova a scandirlo, le *Odi* sono un incubo a parte. Virgilio scrisse in un solo metro. Orazio ne usa una dozzina circa: la strofe saffica, la strofe alcaica, diversi sistemi asclepiadei, distici archilochei e pitiambici e altro ancora, ognuno con le sue regole, le sue sillabe fisse e variabili e le sue pause, che cambiano da una poesia all'altra.
+
+Niente di tutto ciò è un motivo per evitarlo. Orazio è uno degli autori latini più interessanti da tradurre proprio perché ogni verso è un enigma con una soluzione, e la soluzione vale sempre la pena di essere trovata.
+
+### Brano 1: Carmina II.10 -- L'aurea medietà
+
+**Fonte:** Orazio, *Carmina* (*Odi*), libro II, carme 10, da *The Latin Library* (thelatinlibrary.com/horace/carm2.shtml)
+
+**Contesto:** Un'ode rivolta a un amico di nome Licinio, probabilmente Licinio Murena, cognato di Mecenate e uomo dal temperamento notoriamente impulsivo. Il tema è l'*aurea mediocritas*, l'"aurea medietà": l'idea aristotelica che la virtù stia tra due estremi, applicata qui alla fortuna e all'ambizione. L'ironia è dolorosa. Se questo Licinio è Murena, il consiglio non lo seguì: intorno al 23-22 a.C., più o meno quando uscì questo libro di odi, fu coinvolto in una congiura contro Augusto e messo a morte. Il metro è la strofe saffica: tre versi lunghi e un quarto verso breve, l'*adonio*.
+
+**Testo latino:**
+
+> Rectius vives, Licini, neque altum
+> semper urgendo neque, dum procellas
+> cautus horrescis, nimium premendo
+> litus iniquum.
+>
+> Auream quisquis mediocritatem
+> diligit, tutus caret obsoleti
+> sordibus tecti, caret invidenda
+> sobrius aula.
+>
+> Saepius ventis agitatur ingens
+> pinus et celsae graviore casu
+> decidunt turres feriuntque summos
+> fulgura montis.
+>
+> Sperat infestis, metuit secundis
+> alteram sortem bene praeparatum
+> pectus. Informis hiemes reducit
+> Iuppiter, idem
+>
+> summovet. Non, si male nunc, et olim
+> sic erit: quondam cithara tacentem
+> suscitat Musam neque semper arcum
+> tendit Apollo.
+>
+> Rebus angustis animosus atque
+> fortis appare; sapienter idem
+> contrahes vento nimium secundo
+> turgida vela.
+
+**Traduzione italiana** *(originale)*:
+
+Vivrai più saggiamente, Licinio, senza spingerti
+sempre al largo e senza, mentre per prudenza
+temi le tempeste, stringere troppo
+la costa insidiosa.
+
+Chiunque ama l'aurea medietà
+è al sicuro: non conosce lo squallore
+di una casa in rovina, e, misurato, non conosce
+una reggia che suscita invidia.
+
+Più spesso è scosso dai venti il pino
+gigantesco, e le alte torri crollano
+con rovina più grave, e i fulmini colpiscono
+le vette più alte dei monti.
+
+Un cuore ben preparato spera nelle avversità
+e teme nella prosperità
+un cambio di sorte. Giove riporta
+gli inverni deformi, e lo stesso
+
+li allontana. Se ora va male, non sarà
+sempre così: talvolta Apollo risveglia
+con la cetra la Musa silenziosa, e non
+sempre tende l'arco.
+
+Nelle strettezze mostrati animoso
+e forte; e allo stesso modo, saggiamente,
+quando il vento è troppo favorevole ammainerai
+le vele gonfie.
+
+**Analisi:**
+
+Prima di tutto, un avvertimento sulla famosa espressione. *Aurea mediocritas* non significa "aurea mediocrità" nel senso moderno di essere mediocri e senza ambizioni. La *mediocritas* è il punto di mezzo tra due estremi, il giusto mezzo aristotelico, ed è "aurea" perché è preziosa. Il ragionamento dell'ode non è "punta in basso", ma "non andare agli estremi, in nessuna direzione": non troppo al largo, non troppo vicino agli scogli; né una catapecchia né una reggia; né disperazione nei momenti brutti né eccesso di sicurezza in quelli belli.
+
+La struttura è ad anello. L'ode si apre e si chiude con la stessa immagine, la navigazione: nella prima strofa Licinio non deve né spingersi troppo al largo né stringere troppo la costa, nell'ultima deve essere coraggioso quando il vento è contrario e ammainare le vele quando è troppo favorevole. In mezzo, la terza strofa è un tricolon di disastri che colpiscono ciò che sta più in alto (il pino più alto, le torri più alte, le vette dei monti), e la quarta e la quinta si rivolgono agli dèi: Giove porta gli inverni e li porta via, e Apollo non scocca sempre le sue frecce. La fortuna cambia sempre; il saggio se lo aspetta.
+
+È un buon punto per osservare l'ordine delle parole di Orazio al lavoro. Nella seconda strofa, *obsoleti* aspetta l'inizio del verso successivo per trovare il suo sostantivo, *tecti*; *invidenda* è separato da *aula* da *sobrius*. Il senso scavalca anche la fine delle strofe: la quarta strofa termina con *idem*, e il verbo, *summovet*, arriva solo all'inizio della quinta, così che Giove porta via l'inverno letteralmente al di là dello stacco. La grammatica, una volta riuniti i pezzi, è per lo più lineare: un futuro usato come consiglio (*Rectius vives*, *contrahes*), gerundi all'ablativo (*urgendo*, *premendo*, "spingendo", "stringendo"), dativi con *sperat* e *metuit* (*infestis*, *secundis*, "nelle circostanze avverse e favorevoli") e un imperativo, *appare*. Si notino *montis* e *Informis*, antichi accusativi plurali in *-is*. E se avete letto la voce su Virgilio, si noti *Informis hiemes*, "inverni deformi": lo stesso aggettivo che Virgilio usa per Polifemo.
+
+---
+
+### Brano 2: Epodi 10 -- Una maledizione per Mevio
+
+**Fonte:** Orazio, *Epodi*, componimento 10 (completo), da *The Latin Library* (thelatinlibrary.com/horace/epodes.shtml)
+
+**Contesto:** Un *propemptikon* è una poesia di commiato, che augura a un amico un buon viaggio; Orazio stesso ne scrisse uno famoso per la nave di Virgilio (*Odi* I.3). L'Epodo 10 è l'esatto contrario: un anti-*propemptikon*, una poesia che augura a una nave ogni possibile disastro, perché a bordo c'è Mevio. Mevio era un cattivo poeta, e Virgilio lo aveva già preso in giro nelle *Bucoliche* insieme al suo complice Bavio: "chi non odia Bavio, ami pure i tuoi carmi, Mevio". Nessuno sa esattamente che cosa abbia fatto Mevio per meritarsi tutto questo; forse, semplicemente, scriveva male. Il modello è Archiloco, l'inventore greco dell'invettiva poetica: su un papiro si conserva una maledizione attribuita a lui contro un ex amico, a cui augura di naufragare nudo sulla costa della Tracia. Il metro è il distico epodico: un trimetro giambico seguito da un dimetro giambico più breve.
+
+**Testo latino:**
+
+> Mala soluta navis exit alite
+> ferens olentem Mevium.
+> ut horridis utrumque verberes latus,
+> Auster, memento fluctibus;
+> niger rudentis Eurus inverso mari
+> fractosque remos differat;
+> insurgat Aquilo, quantus altis montibus
+> frangit trementis ilices;
+> nec sidus atra nocte amicum adpareat,
+> qua tristis Orion cadit;
+> quietiore nec feratur aequore
+> quam Graia victorum manus,
+> cum Pallas usto vertit iram ab Ilio
+> in inpiam Aiacis ratem.
+> o quantus instat navitis sudor tuis
+> tibique pallor luteus
+> et illa non virilis heiulatio
+> preces et aversum ad Iovem,
+> Ionius udo cum remugiens sinus
+> Noto carinam ruperit.
+> opima quodsi praeda curvo litore
+> porrecta mergos iuverit,
+> libidinosus immolabitur caper
+> et agna Tempestatibus.
+
+**Traduzione italiana** *(originale)*:
+
+Sotto un cattivo presagio la nave scioglie gli ormeggi e salpa,
+portando il fetido Mevio.
+Ricordati, Austro, di sferzarle entrambi i fianchi
+con onde furiose;
+il nero Euro, rovesciando il mare,
+ne disperda le gomene e i remi spezzati;
+si levi l'Aquilone, forte come quando sugli alti monti
+schianta i lecci tremanti;
+e nessuna stella amica appaia nella notte nera
+dove tramonta il cupo Orione;
+e non sia portato su un mare più calmo
+di quello della schiera dei Greci vincitori,
+quando Pallade distolse la sua ira da Ilio incendiata
+contro la nave empia di Aiace.
+Oh, quanto sudore attende i tuoi marinai,
+e te un pallore giallastro,
+e quel lamento per nulla virile,
+e preghiere a un Giove che ti volta le spalle,
+quando il golfo Ionio, muggendo sotto l'Austro
+piovoso, ti avrà fracassato la chiglia!
+E se, ricca preda distesa sulla spiaggia ricurva,
+farai la gioia degli uccelli marini,
+un caprone lascivo sarà immolato,
+e un'agnella, alle Tempeste.
+
+**Analisi:**
+
+La battuta sta nella forma. Una poesia di commiato dovrebbe pregare per un mare calmo, venti favorevoli e una stella amica; Orazio passa in rassegna la stessa lista al contrario. Ogni vento della rosa viene chiamato in causa a turno (l'Austro da sud, l'Euro da est, l'Aquilone da nord, poi il Noto, un altro nome del vento del sud), ciascuno con un'istruzione, in una serie di congiuntivi esortativi (*differat*, *insurgat*, *adpareat*, *feratur*) e un imperativo futuro con una proposizione introdotta da *ut* (*ut... verberes... memento*, "ricordati di sferzare"). L'ultimo distico completa la parodia: un viaggiatore arrivato sano e salvo farebbe un'offerta di ringraziamento agli dèi del mare; Orazio ne promette una alle Tempeste se Mevio annega.
+
+Nel mezzo arriva un mito, come sempre in Orazio, senza spiegazioni. Dopo la caduta di Troia, Aiace d'Oileo trascinò via Cassandra dall'altare di Pallade Atena, e la dea si vendicò facendo naufragare la sua nave sulla via del ritorno. Il lettore dovrebbe conoscere la storia e godersi l'iperbole: Mevio merita la stessa tempesta che gli dèi scatenarono contro il peggior sacrilegio della guerra di Troia.
+
+Il lessico fa parte del divertimento. *Olentem*, "puzzolente", è l'unica cosa che ci viene detta di Mevio. Il *pallor luteus* è un pallore giallastro, malaticcio; *heiulatio* è una parola rara per un lamento forte e indecoroso, dal verbo *heiulare*, e Orazio aggiunge *non virilis*, "per nulla virile", perché l'insulto vada a segno. I *rudentes* sono le funi e il sartiame della nave; i *mergi* sono uccelli marini che si tuffano, cormorani o gabbiani. E si guardi la grammatica del culmine: *cum... ruperit*, un futuro anteriore, "quando il golfo ti avrà spezzato la chiglia", seguito da *quodsi... iuverit*, "ma se avrai fatto la gioia degli uccelli", che immaginano entrambi la morte di Mevio come già avvenuta. *Rudentis*, *trementis*: di nuovo antichi accusativi plurali in *-is*. Il *libidinosus caper* potrebbe essere un'ultima frecciata: il caprone era proverbialmente lascivo, e un po' troppo adatto come offerta per Mevio.
+
+Una nota sul testo: The Latin Library stampa *ilics*, che non è una parola, per *ilices* ("lecci") al verso 8, e omette la punteggiatura alla fine del verso 20, dopo *ruperit*. Entrambi gli errori sono stati corretti. *Inpiam* è la grafia della fonte per *impiam*, ed è stata mantenuta.
+
+---
+
+### Brano 3: Sermones I.5.1-26 -- Il viaggio a Brindisi
+
+**Fonte:** Orazio, *Sermones* (*Satire*), libro I, componimento 5, versi 1-26, da *The Latin Library* (thelatinlibrary.com/horace/serm1.shtml)
+
+**Contesto:** Nel 37 a.C. (o forse nel 38) Mecenate viaggiò da Roma a Brindisi per una delicata missione diplomatica, per ricucire i rapporti tra Ottaviano e Antonio, e portò con sé Orazio, insieme a Virgilio, Vario e altri amici. Orazio trasformò il viaggio in una satira, un diario di viaggio in versi, modellato sull'*Iter Siculum*, il "Viaggio in Sicilia", di Lucilio (i cui frammenti sono nel capitolo sull'età arcaica). La battuta del componimento è che Orazio non ci dice quasi nulla della diplomazia, e tutto sull'acqua cattiva, le locande cattive, le zanzare, i suoi occhi infiammati e i buffoni incontrati lungo la strada. Questi sono i primi ventisei versi: da Roma ad Ariccia, poi in barca lungo il canale attraverso le Paludi Pontine, fino ad Anxur, l'odierna Terracina.
+
+**Testo latino:**
+
+> Egressum magna me accepit Aricia Roma
+> hospitio modico; rhetor comes Heliodorus,
+> Graecorum longe doctissimus; inde Forum Appi
+> differtum nautis cauponibus atque malignis.
+> hoc iter ignavi divisimus, altius ac nos
+> praecinctis unum: minus est gravis Appia tardis.
+> hic ego propter aquam, quod erat deterrima, ventri
+> indico bellum, cenantis haud animo aequo
+> exspectans comites. iam nox inducere terris
+> umbras et caelo diffundere signa parabat:
+> tum pueri nautis, pueris convicia nautae
+> ingerere: 'huc adpelle'; 'trecentos inseris'; 'ohe,
+> iam satis est.' dum aes exigitur, dum mula ligatur,
+> tota abit hora. mali culices ranaeque palustres
+> avertunt somnos; absentem cantat amicam
+> multa prolutus vappa nauta atque viator
+> certatim; tandem fessus dormire viator
+> incipit ac missae pastum retinacula mulae
+> nauta piger saxo religat stertitque supinus.
+> iamque dies aderat, nil cum procedere lintrem
+> sentimus, donec cerebrosus prosilit unus
+> ac mulae nautaeque caput lumbosque saligno
+> fuste dolat: quarta vix demum exponimur hora.
+> ora manusque tua lavimus, Feronia, lympha.
+> milia tum pransi tria repimus atque subimus
+> inpositum saxis late candentibus Anxur.
+
+**Traduzione italiana** *(originale)*:
+
+Uscito dalla grande Roma, mi accolse Ariccia
+con un'ospitalità modesta; mio compagno era il retore Eliodoro,
+di gran lunga il più dotto dei Greci. Di lì al Foro di Appio,
+gremito di barcaioli e di osti disonesti.
+Questo tratto, da pigri, lo dividemmo in due giorni, mentre chi ha la veste
+più succinta di noi lo fa in uno: l'Appia è meno faticosa se la si prende con calma.
+Qui io, per via dell'acqua, che era pessima,
+dichiaro guerra al mio stomaco, e aspetto, di malumore,
+che i compagni finiscano di cenare. Già la notte si preparava
+a stendere le ombre sulla terra e a spargere le stelle nel cielo.
+Allora gli schiavi cominciano a coprire di insulti i barcaioli, i barcaioli gli schiavi:
+"Accosta qui!" "Ne stai stipando trecento! Ehi,
+basta così!" Mentre si riscuote il prezzo e si attacca la mula,
+se ne va un'ora intera. Le maledette zanzare e le rane della palude
+tengono lontano il sonno; un barcaiolo, fradicio di vino scadente,
+canta la ragazza lasciata a casa, e un viaggiatore
+gli fa a gara: alla fine il viaggiatore, sfinito, comincia ad addormentarsi,
+e il barcaiolo pigro manda la mula al pascolo, ne lega la fune
+a un sasso e russa supino.
+Era ormai giorno quando ci accorgiamo che la barca
+non si muove affatto, finché una testa calda salta giù
+e con un randello di salice lavora di santa ragione
+la testa e i fianchi della mula e del barcaiolo. Alla fine, appena alla quarta ora, ci sbarcano.
+Ci laviamo il viso e le mani nella tua fonte, Feronia.
+Poi, dopo pranzo, ci trasciniamo per tre miglia e saliamo
+ad Anxur, posta sulle sue rocce bianche che brillano da lontano.
+
+**Analisi:**
+
+Ecco il *sermo cotidianus* in azione, ed è chiaro perché le *Satire* sono insieme il modo migliore per entrare in Orazio e comunque insidiose. La narrazione è semplice, un diario di viaggio giorno per giorno, e l'ordine delle parole è vicino alla prosa. Ma la trama cambia ogni pochi versi. I versi 9-10 sono una parodia deliberata dell'epica: *iam nox inducere terris / umbras et caelo diffundere signa parabat*, "già la notte si preparava a stendere le ombre sulla terra e a spargere le stelle nel cielo", un perfetto verso virgiliano sul calare della notte, seguito subito dagli schiavi e dai barcaioli che si urlano addosso. Le grida sono puro latino parlato, riportate senza alcuna indicazione di chi parla: *huc adpelle* ("accosta qui!"), *trecentos inseris* ("ne stai stipando trecento"), *ohe, iam satis est* ("ehi, basta così!"). Chi traduce deve ricostruire gli interlocutori dal senso.
+
+Si guardi la grammatica. *Ingerere* al verso 12 è un infinito storico, usato al posto di un verbo di modo finito per descrivere una scena vivace ("cominciarono a coprire"); la narrazione salta di continuo tra perfetti (*accepit*, *divisimus*, *lavimus*) e presenti storici (*indico*, *avertunt*, *sentimus*, *exponimur*, *repimus*). *Ventri indico bellum*, "dichiaro guerra al mio stomaco", è linguaggio militare in chiave comica per dire che rinuncia a mangiare, perché l'acqua è troppo pericolosa da bere. *Altius praecinctis*, "quelli con la veste più succinta della nostra", allude ai viaggiatori che si tirano su la tunica per camminare più svelti. La *vappa* è il vino svanito. *Cerebrosus* è una "testa calda", da *cerebrum*. E *dolat*, da *dolare*, normalmente significa sgrossare il legno con l'ascia: il passeggero "lavora di pialla" la mula e il barcaiolo con il suo randello.
+
+Poi c'è la geografia, che è reale. Aricia è l'odierna Ariccia, nei Castelli Romani, la prima tappa a sud di Roma sulla via Appia. Il Foro di Appio era l'inizio di un canale attraverso le Paludi Pontine, che si percorreva di notte su una chiatta trainata da una mula lungo l'argine, ed è così che la mula e il barcaiolo finiscono per addormentarsi entrambi. La fonte della dea Feronia e la città di Anxur, con il tempio di Giove Anxur sulle sue rupi bianche e lucenti, si trovano a Terracina, dove il canale finiva. La missione diplomatica, la ragione dell'intero viaggio, viene menzionata in un solo verso poco più avanti. Tutto il resto sono zanzare.
+
+---
+
+### Eredità e Impatto
+
+Orazio sopravvisse all'antichità grazie a due tipi diversi di lettori. Per le scuole fu subito un classico: entro una generazione dalla sua morte veniva insegnato agli scolari romani, e Quintiliano lo definì "quasi l'unico lirico latino degno di essere letto". Per i lettori cristiani della tarda antichità e del Medioevo contavano soprattutto le *Satire* e le *Epistole*. Un poeta che smascherava l'avidità, l'ambizione, il lusso e l'ipocrisia, che predicava la contentezza e la moderazione e che rideva della vanità dei desideri umani poteva essere letto come un moralista, e i lettori medievali lo chiamavano *Horatius ethicus*, "Orazio il moralista". Fu copiato nei monasteri di tutta Europa, e se ne conservano circa 850 manoscritti, più che di quasi ogni altro poeta classico.
+
+Questa reputazione si vede ancora in Dante. Nel quarto canto dell'*Inferno*, tra i grandi poeti dell'antichità nel Limbo, Orazio compare secondo solo a Omero, e Dante lo chiama "Orazio satiro": per Dante l'autore delle *Satire* veniva prima dell'autore delle *Odi*. Petrarca, che lo amava, gli scrisse una lettera in versi. Nel Rinascimento le *Odi* tornarono in primo piano e divennero il modello della poesia lirica in tutta Europa: Ronsard in Francia, Ben Jonson in Inghilterra e, in Italia, i poeti che cercarono di riprodurne i metri in italiano, fino, secoli dopo, alle *Odi barbare* di Carducci. L'*Ars Poetica*, intanto, divenne il manuale della teoria letteraria classica, antenata diretta dell'*Art poétique* di Boileau e dell'*Essay on Criticism* di Pope. Per secoli Orazio non fu solo un poeta, ma il maestro di stile, l'autorità che gli Europei colti citavano su come scrivere, come giudicare e come vivere.
+
+E poi il mondo moderno ha dimenticato quasi tutto e ha conservato due parole. *Carpe diem* viene da una breve ode di otto versi, *Odi* I.11, rivolta a una donna di nome Leuconoe che cerca di sapere dagli astrologi quanto tempo resti da vivere a lei e al poeta. Orazio le dice di smettere di chiedere, perché nessuno può saperlo, e di essere saggia, filtrare il vino, accorciare le lunghe speranze e *carpe diem, quam minimum credula postero*: "cogli il giorno, fidandoti il meno possibile del domani". *Carpere* è un verbo da giardiniere: si coglie un frutto quando è maturo, con cura, uno alla volta. Il messaggio è epicureo, e riguarda la misura: non sprecare il presente preoccupandoti di un futuro che non puoi controllare. La cultura moderna, aiutata da un film famoso, lo ha trasformato nel suo contrario: "YOLO", vivi come se non ci fosse un domani, fai festa più che puoi perché potresti morire. È difficile immaginare un fraintendimento peggiore. L'uomo che scrisse *carpe diem* scrisse anche l'ode sull'aurea medietà, l'avvertimento di ammainare le vele quando il vento è troppo favorevole e due libri di satire contro chi non sa controllare i propri appetiti.
+
+Letto come si deve, Orazio è molto più di uno slogan: un satirico che ride di tutti, compreso se stesso, un moralista che non predica mai, un amico fedele fino alla fine e uno dei più grandi poeti lirici che siano mai esistiti.
+
+---
+
+### Valutazione finale *(italiano)*
+
+**Tier: S (GOD PLEASE HELP)**
+
+Orazio è al vertice o quasi in quasi tutti i criteri. Nelle *Odi* l'iperbato è più estremo che in qualsiasi altro poeta latino, il lessico mescola parole greche, parole rare e neoformazioni, le allusioni alla lirica greca sono continue e mai spiegate, e i metri cambiano da una poesia all'altra. Nelle *Satire* e nelle *Epistole* la sfida si sposta sulla conversazione rapida e colloquiale, con cambi di interlocutore mai segnalati e battute che dipendono dal tono. È di gran lunga più difficile di Virgilio, che è difficile ma onesto; Orazio è difficile di proposito. Le *Satire* sono il punto giusto da cui cominciare, ma anche loro sono insidiose; le *Odi* sono la vera vetta. Una S medio-alta, e ben meritata. E vale ogni minuto speso.
+
+---

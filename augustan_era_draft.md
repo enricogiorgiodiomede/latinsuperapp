@@ -599,3 +599,292 @@ All this made him so famous that his fame eventually outgrew his poetry, and shi
 Virgil is hard in almost every criterion at once: poetic word order and transferred epithets, poetic plurals, Greek forms, archaisms, elision, technical vocabulary in the *Georgics*, and a density of literary and mythological allusion that rarely lets up. What keeps him from S is his honesty: compared with Horace there is no wilful game-playing with the reader, the narrative of the *Aeneid* carries you forward, and the Eclogues offer a genuinely approachable way in. Taken work by work: the **Eclogues** from B to low A, and the right place to start; the **Aeneid** in the middle to upper range of A; the **Georgics** the hardest of all, pushing into S. Overall, a firm A. Do not start with the *Aeneid*.
 
 ---
+
+# QUINTUS HORATIUS FLACCUS -- HORACE (65 -- 8 BC)
+
+## Biography
+
+If Virgil is the shy genius of the Augustan Age, Horace is its best company. He is the friend who never takes himself too seriously, who will tell you your vices to your face, and then pour you a cup of Falernian to help you drink over them. He laughs at the greedy, the ambitious, the bores and the social climbers, and he laughs just as hard at himself: short, fat, prematurely grey, quick to lose his temper and quick to calm down again, and, by his own description, "a pig from Epicurus's herd". And then, having made you laugh, he writes some of the most beautiful lyric poetry in Latin. He is the great lyric poet of the Augustan Age, and probably the most quotable poet Rome ever produced.
+
+**The freedman's son.** Quintus Horatius Flaccus was born on 8 December 65 BC at Venusia, a military colony on the border between Apulia and Lucania in southern Italy. His father was a freedman, a former slave, who worked as a *coactor*, a collector of payments at auctions: a modest job, but a profitable one. He made one decision that changed his son's life: instead of sending the boy to the local school, where the sons of centurions went with their satchels and their writing tablets, he took him to Rome to be educated alongside the children of senators and knights, and went with him to every lesson himself, as a guardian. Horace never forgot it. In one of his satires he writes that if he has any good qualities at all, he owes them to his father, and that he would not swap him for any noble parent in Rome. His schoolmaster in Rome, Orbilius, is remembered in literature for one thing only: Horace calls him *plagosus*, "fond of the whip", the earliest famous school beating in history.
+
+**The general who ran away.** Around 45 BC he went to Athens to finish his education in philosophy, which is where he was when Caesar was murdered. Brutus came to Athens recruiting young Romans for the cause of the Republic, and Horace, the son of a former slave, found himself made a *tribunus militum*, one of the senior officers of a legion: a sign either of his talent or of how desperate Brutus was. At Philippi in 42 BC the republican army was destroyed, and Horace, by his own cheerful admission, ran. In an ode written years later he reminds an old comrade of the day "when I felt that swift flight with you, and left my little shield behind, not very gloriously" (*relicta non bene parmula*), and adds that the god Mercury picked him up in a cloud and carried him out of the battle. The joke is a literary one too: the Greek lyric poets Archilochus, Alcaeus and Anacreon had all boasted of throwing away their shields and running for their lives, so Horace makes his own cowardice a qualification for joining the club.
+
+**Poverty made me a poet.** He came back to Italy under an amnesty to find his father dead and the family land confiscated. He bought himself a job as a clerk in the treasury, and, as he says, "bold poverty drove me to write verses". The verses were good enough to catch the attention of Virgil and Varius, who in about 38 BC introduced him to Maecenas.
+
+**Maecenas.** The first meeting, as Horace describes it, was a disaster of shyness. He stammered out a few words, "for speechless shame stopped me from saying more"; Maecenas answered briefly, as was his habit; Horace went away. Then, nine months later, Maecenas called him back and asked him to join his circle of friends. It was the beginning of one of the great friendships of antiquity. Maecenas gave him financial security and, around 33 BC, a farm in the Sabine hills northeast of Rome, the place Horace loved most in the world, which appears again and again in his poems as the symbol of the quiet, independent life. In return Horace gave him the dedications of his books, his loyalty, and a promise: in one ode he swears that he will not outlive his friend, and that when Maecenas goes, they will go together. He very nearly kept it. Maecenas died in 8 BC, leaving a will that asked Augustus to "remember Horace as you would remember me". Horace died less than two months later, and was buried next to him on the Esquiline.
+
+**The emperor's admirer.** Augustus liked him enormously, and wanted him close. He offered Horace the post of his private secretary, and Horace politely declined, pleading poor health; Augustus, to his credit, took no offence, and went on writing him teasing letters. In one he calls Horace "a most charming little man". In another, after receiving a slim book of his poems, he jokes that Horace seems to be afraid his books will be bigger than he is, since what Horace lacks in height he makes up for in girth. And in a third he complains, half seriously, that Horace never addresses any of his poems to him: "Are you afraid that being seen as my friend will damage your reputation with posterity?" Horace took the hint, and wrote him a long verse letter, the first in his second book of *Epistles*. In 17 BC Augustus chose him to write the official hymn for the Secular Games, the *Carmen Saeculare*: the freedman's son who had fought against Caesar's heir at Philippi had become the poet laureate of his regime.
+
+**The last years.** He spent his last years between Rome and his Sabine farm, writing his last book of odes and his literary letters, and he died on 27 November 8 BC, a few days before his fifty-seventh birthday, leaving Augustus as his heir. He had predicted his own fame at the end of his third book of odes, in one of the proudest boasts in literature: *exegi monumentum aere perennius*, "I have built a monument more lasting than bronze", and *non omnis moriar*, "I shall not wholly die". He was right.
+
+## Most Important Works
+
+- **Sermones** (*Satires*, Book I c. 35 BC, Book II c. 30 BC) -- two books of hexameter "conversations", eighteen poems in all, in the tradition of Lucilius but gentler and more self-ironic. Horace's motto is *ridentem dicere verum*, "to tell the truth while laughing". The targets are the vices of everyday Roman life: greed, ambition, adultery, gluttony, superstition and the restless discontent that makes everyone want someone else's life. Among the most famous: the journey to Brundisium (I.5), the bore who will not let Horace go on the Via Sacra (I.9), and the town mouse and the country mouse (II.6). [Complete]
+- **Epodi** or **Iambi** (*Epodes*, c. 30 BC) -- seventeen poems of iambic verse modelled on the Greek poet Archilochus, the founder of poetic invective. They include curses and insults (against the poet Mevius, against the witch Canidia), but also anguished poems on the civil wars, a celebration of the victory at Actium, and the famous praise of country life, *Beatus ille*, which turns out at the very end to have been spoken by a moneylender who promptly goes back to lending money. [Complete]
+- **Carmina** (*Odes*, Books I-III 23 BC, Book IV c. 13 BC) -- one hundred and three lyric poems in the metres of the Greek poets Alcaeus and Sappho, Horace's masterpiece and his claim to be the first to bring Greek lyric into Latin. The themes are friendship, love, wine, the seasons, the shortness of life and the need to enjoy the present wisely, moderation (the *aurea mediocritas*), Rome and its moral renewal (the six "Roman Odes" that open Book III), Augustus and Actium (*Nunc est bibendum*, on the death of Cleopatra), and the immortality of poetry. [Complete]
+- **Carmen Saeculare** (*Secular Hymn*, 17 BC) -- the official hymn for the Secular Games, the festival that marked the beginning of a new age for Rome, sung by a choir of twenty-seven boys and twenty-seven girls on the Palatine and the Capitol. A prayer to Apollo and Diana for the prosperity of Rome, its families and its harvests. The official record of the games, carved on stone and partly found in 1890, still names him: *carmen composuit Q. Horatius Flaccus*. [Complete]
+- **Epistulae** (*Epistles*, Book I c. 20 BC, Book II c. 19-12 BC) -- two books of verse letters to friends, more philosophical and more serene than the *Satires*. Their subject is how to live: independence, contentment, friendship, self-knowledge. They contain some of his most famous phrases: *sapere aude*, "dare to be wise", *nil admirari*, "to be astonished by nothing", and *Graecia capta ferum victorem cepit*, "captive Greece took her savage conqueror captive". [Complete]
+- **Ars Poetica** (*The Art of Poetry*, also called the *Epistula ad Pisones*) -- a long verse letter of 476 lines on how to write poetry, especially drama: unity, consistency of character, appropriateness of style, the need to start *in medias res*, to revise for years (*nonumque prematur in annum*, "let it be kept back until the ninth year"), and to aim at both instruction and pleasure. It is the most influential work of literary theory ever written in Latin. [Complete]
+
+## Writing Style and Difficulty
+
+Virgil is difficult, but he is still readable. Horace is a different matter. Virgil makes you work; Horace plays games with you.
+
+The first game is **hyperbaton**, and in Horace it reaches lengths found nowhere else. Words that belong together grammatically, an adjective and its noun, a preposition and its object, are pulled apart and placed at opposite ends of a line, or of a whole stanza, with other words packed in between. In the *Odes* this is not decoration but structure: every word sits in exactly the place where its sound, its metre and its meaning do the most work. Nietzsche described an ode of Horace as a mosaic of words in which every single word, by its sound, its position and its meaning, radiates its force to right and left and over the whole. For the translator, that mosaic has to be taken apart tile by tile before it can be put back together in Italian or English. Horace himself gave the technique a name in the *Ars Poetica*: the *callida iunctura*, the "clever joining", by which a familiar word, placed in an unexpected combination, becomes new. In practice, for the student, a great deal of *callida iunctura* is simply more hyperbaton.
+
+The second is **vocabulary**. Horace drops Greek words and Greek constructions into Latin without warning, uses rare words and new formations (in the *Ars Poetica* he explicitly defends the poet's right to coin new words, as long as it is done sparingly), and alludes constantly to Greek lyric poems the reader is expected to recognise. **Lexicon: HIGH; Allusion density: HIGH.**
+
+The third is the **sermo cotidianus** of the *Satires* and *Epistles*. Here the problem is the opposite of the *Odes*: not compression into a perfect mosaic, but conversation. Horace writes the way educated Romans talked, rapid-fire and disorienting: unannounced changes of speaker, imaginary objections, half-sentences, ellipses, colloquial idioms, jokes that depend on a tone of voice we cannot hear. The *Satires* are the recommended starting point for Horace, and rightly, because the word order is closer to prose and the situations are often funny. But they are still tricky. **Syntactic complexity: HIGH; Stylistic figures: HIGH.**
+
+And if you are trying to scan him, the *Odes* are a nightmare of their own. Virgil wrote in one metre. Horace uses around a dozen: the Sapphic stanza, the Alcaic stanza, several kinds of Asclepiad system, Archilochian and Pythiambic couplets, and more, each with its own rules, its own fixed and variable syllables and its own pauses, changing from one poem to the next.
+
+None of this is a reason to avoid him. Horace is one of the most interesting authors in Latin to translate precisely because every line is a puzzle with a solution, and the solution is always worth finding.
+
+## Latin Excerpts
+
+### Excerpt 1: Carmina II.10 -- The Golden Mean
+
+**Source:** Horace, *Carmina* (*Odes*), Book II, poem 10, from *The Latin Library* (thelatinlibrary.com/horace/carm2.shtml)
+
+**Context:** An ode addressed to a friend called Licinius, probably Licinius Murena, the brother-in-law of Maecenas, and a man with a famously impulsive temperament. The theme is the *aurea mediocritas*, the "golden mean": the Aristotelian idea that virtue lies between two extremes, applied here to fortune and ambition. The irony is painful. If this Licinius is Murena, he did not take the advice: around 23-22 BC, about the time this book of odes was published, he was implicated in a conspiracy against Augustus and executed. The metre is the Sapphic stanza: three long lines and a short fourth line, the *adonius*.
+
+**Latin Text:**
+
+> Rectius vives, Licini, neque altum
+> semper urgendo neque, dum procellas
+> cautus horrescis, nimium premendo
+> litus iniquum.
+>
+> Auream quisquis mediocritatem
+> diligit, tutus caret obsoleti
+> sordibus tecti, caret invidenda
+> sobrius aula.
+>
+> Saepius ventis agitatur ingens
+> pinus et celsae graviore casu
+> decidunt turres feriuntque summos
+> fulgura montis.
+>
+> Sperat infestis, metuit secundis
+> alteram sortem bene praeparatum
+> pectus. Informis hiemes reducit
+> Iuppiter, idem
+>
+> summovet. Non, si male nunc, et olim
+> sic erit: quondam cithara tacentem
+> suscitat Musam neque semper arcum
+> tendit Apollo.
+>
+> Rebus angustis animosus atque
+> fortis appare; sapienter idem
+> contrahes vento nimium secundo
+> turgida vela.
+
+**English Translation:**
+
+You will live more wisely, Licinius, by neither always
+pressing out into the open sea nor, while in your caution
+you shudder at the storms, hugging too closely
+the treacherous shore.
+
+Whoever loves the golden mean
+is safe: he is free of the squalor
+of a crumbling house, and, temperate, he is free
+of a palace that breeds envy.
+
+The giant pine is shaken more often
+by the winds, and lofty towers fall
+with a heavier crash, and the lightning strikes
+the highest peaks of the mountains.
+
+A heart well prepared hopes in bad times
+and fears in good times
+for a change of fortune. Jupiter brings back
+the ugly winters; he also
+
+takes them away. If things are bad now, they will not
+always be so: sometimes Apollo wakes
+the silent Muse with his lyre, and does not
+always draw his bow.
+
+In hard times show yourself spirited
+and brave; and in the same way, wisely,
+when the wind is too favourable you will take in
+your swelling sails.
+
+**Analysis:**
+
+First, a warning about the famous phrase. *Aurea mediocritas* does not mean "golden mediocrity" in the modern sense of being average and unambitious. *Mediocritas* is the middle point between two extremes, the Aristotelian mean, and it is "golden" because it is precious. The poem's argument is not "aim low" but "do not go to extremes, in either direction": not too far out to sea, not too close to the rocks; not a slum, not a palace; not despair in bad times, not overconfidence in good ones.
+
+The structure is a ring. The ode opens and closes with the same image, sailing: in the first stanza Licinius must neither push out too far nor hug the coast, in the last he must be brave when the wind is against him and take in sail when it is too favourable. In between, the third stanza is a tricolon of disasters that strike whatever stands highest (the tallest pine, the highest towers, the mountain peaks), and the fourth and fifth turn to the gods: Jupiter brings winters and takes them away, and Apollo does not always shoot his arrows. Fortune always changes; a wise man expects it.
+
+This is a good place to watch Horace's word order at work. In the second stanza, *obsoleti* waits until the start of the next line for its noun, *tecti*; *invidenda* is separated from *aula* by *sobrius*. The sense also runs across the ends of stanzas: the fourth stanza ends on *idem*, and the verb, *summovet*, only arrives at the start of the fifth, so that Jupiter literally takes the winter away across the gap. The grammar is mostly straightforward once the words have been reunited: a future used as advice (*Rectius vives*, *contrahes*), gerunds in the ablative (*urgendo*, *premendo*, "by pressing"), datives with *sperat* and *metuit* (*infestis*, *secundis*, "in adverse and favourable circumstances"), and an imperative, *appare*. Note *montis* and *Informis*, old accusative plurals in *-is*. And if you have read the Virgil entry, notice *Informis hiemes*, "ugly winters": the same adjective Virgil uses for Polyphemus.
+
+---
+
+### Excerpt 2: Epodi 10 -- A Curse on Mevius
+
+**Source:** Horace, *Epodi*, poem 10 (complete), from *The Latin Library* (thelatinlibrary.com/horace/epodes.shtml)
+
+**Context:** A *propempticon* is a send-off poem, wishing a friend a safe voyage; Horace himself wrote a famous one for Virgil's ship (*Odes* I.3). Epode 10 is the exact opposite: an anti-*propempticon*, a poem wishing a ship every possible disaster, because Mevius is on board. Mevius was a bad poet, and Virgil had already mocked him in the *Eclogues* along with his partner in crime Bavius: "whoever does not hate Bavius, let him love your poems, Mevius". Nobody knows exactly what Mevius did to deserve this; it may simply be that he wrote badly. The model is Archilochus, the Greek inventor of poetic invective, one of whose curses on a former friend, wishing him shipwrecked naked on the coast of Thrace, survives on a papyrus. The metre is the epodic couplet: an iambic trimeter followed by a shorter iambic dimeter.
+
+**Latin Text:**
+
+> Mala soluta navis exit alite
+> ferens olentem Mevium.
+> ut horridis utrumque verberes latus,
+> Auster, memento fluctibus;
+> niger rudentis Eurus inverso mari
+> fractosque remos differat;
+> insurgat Aquilo, quantus altis montibus
+> frangit trementis ilices;
+> nec sidus atra nocte amicum adpareat,
+> qua tristis Orion cadit;
+> quietiore nec feratur aequore
+> quam Graia victorum manus,
+> cum Pallas usto vertit iram ab Ilio
+> in inpiam Aiacis ratem.
+> o quantus instat navitis sudor tuis
+> tibique pallor luteus
+> et illa non virilis heiulatio
+> preces et aversum ad Iovem,
+> Ionius udo cum remugiens sinus
+> Noto carinam ruperit.
+> opima quodsi praeda curvo litore
+> porrecta mergos iuverit,
+> libidinosus immolabitur caper
+> et agna Tempestatibus.
+
+**English Translation:**
+
+Under an evil omen the ship slips its moorings and sets out,
+carrying stinking Mevius.
+Remember, South Wind, to lash both its sides
+with savage waves;
+let the black East Wind, turning the sea upside down,
+scatter its rigging and its broken oars;
+let the North Wind rise, as strong as when on the high mountains
+it shatters the trembling holm-oaks;
+and let no friendly star appear in the black night
+where grim Orion sets;
+and may he be carried on no calmer sea
+than the victorious army of the Greeks
+when Pallas turned her anger from burnt Troy
+onto the impious ship of Ajax.
+Oh, what sweat is waiting for your sailors,
+and for you, a sickly yellow pallor,
+and that unmanly wailing,
+and prayers to a Jupiter who has turned away,
+when the Ionian gulf, bellowing under the rainy
+South Wind, has smashed your keel!
+And if you end up as a rich prize stretched out on the curving shore,
+and make a feast for the seabirds,
+a lustful billy goat will be sacrificed,
+and a lamb, to the Storms.
+
+**Analysis:**
+
+The joke is in the form. A send-off poem should pray for calm seas, favourable winds and a friendly star; Horace runs through the same checklist in reverse. Every wind of the compass is called up in turn (Auster from the south, Eurus from the east, Aquilo from the north, then Notus, another name for the south wind), each with an instruction, in a series of jussive subjunctives (*differat*, *insurgat*, *adpareat*, *feratur*) and a future imperative with an *ut* clause (*ut... verberes... memento*, "remember to lash"). The last couplet completes the parody: a traveller who arrived safely would make a thank-offering to the gods of the sea; Horace promises one to the Storms if Mevius drowns.
+
+In the middle, a myth arrives, as always in Horace, without explanation. After the fall of Troy, the lesser Ajax dragged Cassandra away from the altar of Pallas Athena, and the goddess took her revenge by wrecking his ship on the way home. The reader is supposed to know the story, and to enjoy the hyperbole: Mevius deserves the same storm that the gods sent against the worst sacrilege of the Trojan War.
+
+The vocabulary is part of the fun. *Olentem*, "smelly", is the only thing we are told about Mevius. *Pallor luteus* is a yellowish, sickly pallor; *heiulatio* is a rare word for loud, undignified wailing, from the verb *heiulare*, and Horace adds *non virilis*, "unmanly", to make sure the insult lands. *Rudentes* are a ship's ropes and rigging; *mergi* are diving seabirds, cormorants or gulls. And look at the grammar of the climax: *cum... ruperit*, a future perfect, "when the gulf has broken your keel", followed by *quodsi... iuverit*, "but if you have pleased the birds", both imagining Mevius's death as already accomplished. *Rudentis*, *trementis*: old accusative plurals in *-is* again. *Libidinosus caper* may be a final dig: the goat was proverbially lustful, and a little too appropriate as an offering for Mevius.
+
+A note on the text: The Latin Library prints *ilics*, which is not a word, for *ilices* ("holm-oaks") in line 8, and leaves out the punctuation at the end of line 20, after *ruperit*. Both are corrected here. *Inpiam* is the source's spelling of *impiam*, and has been kept.
+
+---
+
+### Excerpt 3: Sermones I.5.1-26 -- The Journey to Brundisium
+
+**Source:** Horace, *Sermones* (*Satires*), Book I, poem 5, lines 1-26, from *The Latin Library* (thelatinlibrary.com/horace/serm1.shtml)
+
+**Context:** In 37 BC (or possibly 38) Maecenas travelled from Rome to Brundisium on a delicate diplomatic mission, to patch up the relationship between Octavian and Antony, and he took Horace along, together with Virgil, Varius and other friends. Horace turned the journey into a satire, a travel diary in verse, modelled on the *Iter Siculum*, the "Journey to Sicily", of Lucilius (whose fragments are in the Archaic Era chapter). The joke of the poem is that Horace tells us almost nothing about the diplomacy, and everything about bad water, bad inns, mosquitoes, his sore eyes and the comedians they met along the way. These are the first twenty-six lines: from Rome to Aricia, then by canal-boat through the Pontine Marshes, to Anxur, modern Terracina.
+
+**Latin Text:**
+
+> Egressum magna me accepit Aricia Roma
+> hospitio modico; rhetor comes Heliodorus,
+> Graecorum longe doctissimus; inde Forum Appi
+> differtum nautis cauponibus atque malignis.
+> hoc iter ignavi divisimus, altius ac nos
+> praecinctis unum: minus est gravis Appia tardis.
+> hic ego propter aquam, quod erat deterrima, ventri
+> indico bellum, cenantis haud animo aequo
+> exspectans comites. iam nox inducere terris
+> umbras et caelo diffundere signa parabat:
+> tum pueri nautis, pueris convicia nautae
+> ingerere: 'huc adpelle'; 'trecentos inseris'; 'ohe,
+> iam satis est.' dum aes exigitur, dum mula ligatur,
+> tota abit hora. mali culices ranaeque palustres
+> avertunt somnos; absentem cantat amicam
+> multa prolutus vappa nauta atque viator
+> certatim; tandem fessus dormire viator
+> incipit ac missae pastum retinacula mulae
+> nauta piger saxo religat stertitque supinus.
+> iamque dies aderat, nil cum procedere lintrem
+> sentimus, donec cerebrosus prosilit unus
+> ac mulae nautaeque caput lumbosque saligno
+> fuste dolat: quarta vix demum exponimur hora.
+> ora manusque tua lavimus, Feronia, lympha.
+> milia tum pransi tria repimus atque subimus
+> inpositum saxis late candentibus Anxur.
+
+**English Translation:**
+
+When I had left great Rome, Aricia welcomed me
+with modest hospitality; my companion was the rhetorician Heliodorus,
+by far the most learned of the Greeks. From there to Forum Appii,
+crammed with boatmen and crooked innkeepers.
+This stretch we lazily split into two days, though travellers more briskly
+girt than us do it in one: the Appian Way is less of a strain if you take it slowly.
+Here, because of the water, which was foul,
+I declare war on my stomach, and wait, in no good temper,
+while my companions have their dinner. Now night was getting ready
+to draw its shadows over the earth and scatter the stars across the sky.
+Then the slaves start hurling abuse at the boatmen, the boatmen at the slaves:
+"Pull in here!" "You're cramming in three hundred! Hey,
+that's enough!" While the fares are collected and the mule is harnessed,
+a whole hour goes by. Damned mosquitoes and marsh frogs
+keep sleep away; a boatman, soaked in cheap wine,
+sings of the girlfriend he left behind, and a passenger
+competes with him: at last the passenger, worn out, starts to fall asleep,
+and the lazy boatman lets the mule out to graze, ties its rope
+to a stone, and lies on his back snoring.
+Day was already breaking when we realise that the boat
+is not moving at all, until one hothead jumps out
+and with a willow cudgel gives both mule and boatman
+a beating on the head and back. At last, only at the fourth hour, we are put ashore.
+We wash our faces and hands in your spring, Feronia.
+Then, after lunch, we crawl three miles and climb up
+to Anxur, perched on its far-gleaming white rocks.
+
+**Analysis:**
+
+This is the *sermo cotidianus* in action, and it shows why the *Satires* are both the best way into Horace and still tricky. The narrative is simple, a day-by-day travel diary, and the word order is close to prose. But the texture changes every few lines. Lines 9-10 are a deliberate parody of epic: *iam nox inducere terris / umbras et caelo diffundere signa parabat*, "now night was preparing to draw its shadows over the earth and scatter the stars across the sky", a perfect Virgilian line about nightfall, followed immediately by the slaves and the boatmen screaming at each other. The shouting itself is pure spoken Latin, given without any indication of who is speaking: *huc adpelle* ("pull in here!"), *trecentos inseris* ("you're cramming in three hundred"), *ohe, iam satis est* ("hey, that's enough!"). The translator has to work out the speakers from the sense.
+
+Watch the grammar. *Ingerere* in line 12 is a historic infinitive, used instead of a finite verb to describe a lively scene ("they started hurling"); the narrative jumps constantly between perfects (*accepit*, *divisimus*, *lavimus*) and historic presents (*indico*, *avertunt*, *sentimus*, *exponimur*, *repimus*). *Ventri indico bellum*, "I declare war on my stomach", is mock-military language for refusing to eat, because the water is too dangerous to drink. *Altius praecinctis*, "those girt higher than us", refers to travellers who hitch their tunics up to walk faster. *Vappa* is wine that has gone flat. *Cerebrosus* is a "hothead", from *cerebrum*. And *dolat*, from *dolare*, normally means to hew wood with an axe: the passenger "carpenters" the mule and the boatman with his cudgel.
+
+Then there is the geography, which is real. Aricia is modern Ariccia in the Alban Hills, the first stop south of Rome on the Appian Way. Forum Appii was the start of a canal through the Pontine Marshes, travelled overnight in a barge towed by a mule along the bank, which is how the mule and the boatman both come to be asleep. The spring of the goddess Feronia and the town of Anxur, with the temple of Jupiter Anxur on its gleaming white cliffs, are at Terracina, where the canal ended. The diplomatic mission, the reason for the whole trip, is mentioned in a single line a little later. Everything else is mosquitoes.
+
+---
+
+## Legacy and Impact
+
+Horace survived antiquity thanks to two different kinds of readers. For the schools, he was immediately a classic: within a generation of his death he was being taught to Roman schoolboys, and Quintilian called him "almost the only Roman lyric poet worth reading". For Christian readers in late antiquity and the Middle Ages, it was above all the *Satires* and the *Epistles* that mattered. A poet who exposed greed, ambition, luxury and hypocrisy, who preached contentment and moderation, and who laughed at the vanity of human desires could be read as a moralist, and medieval readers called him *Horatius ethicus*, "Horace the moralist". He was copied in monasteries all over Europe, and around 850 manuscripts survive, more than for almost any other classical poet.
+
+That reputation is still visible in Dante. In the fourth canto of the *Inferno*, among the great poets of antiquity in Limbo, Horace appears second only to Homer, and Dante calls him *Orazio satiro*, "Horace the satirist": for Dante, the author of the *Satires* came before the author of the *Odes*. Petrarch, who loved him, wrote him a letter in verse. In the Renaissance the *Odes* came back into their own and became the model of lyric poetry across Europe: Ronsard in France, Ben Jonson in England, and in Italy the poets who tried to reproduce his metres in Italian, culminating centuries later in Carducci's *Odi barbare*. The *Ars Poetica*, meanwhile, became the rulebook of classical literary theory, the direct ancestor of Boileau's *Art poétique* and Pope's *Essay on Criticism*. For centuries Horace was not just a poet but the master of style, the authority educated Europeans quoted on how to write, how to judge and how to live.
+
+And then the modern world forgot almost all of it and kept two words. *Carpe diem* comes from a short ode of eight lines, *Odes* I.11, addressed to a woman called Leuconoe who is trying to find out from astrologers how long she and the poet have to live. Horace tells her to stop asking, because nobody can know, and to be wise, strain the wine, cut back long hopes, and *carpe diem, quam minimum credula postero*: "pluck the day, trusting as little as possible in tomorrow". *Carpere* is a gardener's verb: you pluck a fruit when it is ripe, carefully, one at a time. The message is Epicurean, and it is about moderation: do not waste the present worrying about a future you cannot control. Modern culture, helped along by a famous film, has turned it into the opposite: "YOLO", live as if there were no tomorrow, party as hard as you can because you might die. It is hard to think of a worse misreading. The man who wrote *carpe diem* also wrote the ode on the golden mean, the warning to take in sail when the wind is too favourable, and two books of satires against people who cannot control their appetites.
+
+Read him properly, and Horace is far more than a slogan: a satirist who laughs at everyone including himself, a moralist who never preaches, a friend who is loyal to the end, and one of the greatest lyric poets who ever lived.
+
+---
+
+## Final Rating
+
+**Tier: S (GOD PLEASE HELP)**
+
+Horace scores at or near the top in almost every criterion. In the *Odes*, the hyperbaton is more extreme than in any other Latin poet, the vocabulary mixes Greek words, rare words and new formations, the allusions to Greek lyric are constant and unexplained, and the metres change from poem to poem. In the *Satires* and *Epistles*, the challenge shifts to rapid, colloquial conversation, with changes of speaker that are never signalled and jokes that depend on tone. He is leagues harder than Virgil, who is difficult but honest; Horace is difficult on purpose. The *Satires* are the right place to start, but even they are tricky; the *Odes* are where the real summit is. Mid to high S, and well deserved. And worth every minute.
+
+---
