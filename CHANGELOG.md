@@ -38,7 +38,7 @@ Translation pass over the touched work: Iug. 85.10-17 re-read clause by clause, 
 
 Verification: **432 verbatim, 0 mismatched** (427 + 5); check_context, lint_register, lint_ablatives and
 lint_translations report 0 for 1.16.6, check_sections nothing new; check_numbering 168/0, check_verses 60/0;
-`lint_markdown` clean. Bank **582**. Cache-bust: `?v=223` -> `?v=224`.
+`lint_markdown` clean. Bank **582**. Cache-bust: `?v=223` -> `?v=225` (224 for the release, 225 for the time fix).
 
 ## [1.16.5] - 2026-10-23
 

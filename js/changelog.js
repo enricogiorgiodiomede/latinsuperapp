@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.16.6', date: '26/10/2026', time: '01:50', tz: 'CET',
+      v: '1.16.6', date: '26/10/2026', time: '01:45', tz: 'CET',
       en: {
         added: [
           'SALLUST\'S SECOND BOOK BEGINS: the first five excerpts of the Jugurthine War. Sallust opens with philosophy again - the mind is the commander of life, and men who blame fortune are the authors of their own ruin - and then defends his choice to write history instead of doing politics, with the famous image of the wax masks of the ancestors that set great Romans on fire for virtue.',
