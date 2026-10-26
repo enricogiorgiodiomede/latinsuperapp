@@ -119,6 +119,8 @@ monstrous method; Sulla as the root of the corruption (5, 11, 37); Rome "very co
 
 **The user's notes on 38-52 (23/10, folded into v1.16.4) - carry forward:** ch. 38 = the hypocrisy of the fine names, conspiracy as one frame of a longer story; Caesar's maxim on passion as real psychology, his two excerpts linked as cause -> effect, Cicero's exile in 58 as the precedent coming home; Caesar proposed confiscation + life in chains (51.43), NOT flogging (the user first read the flogging questions as a plea for it - corrected); Cato = act now, mercy-talk dangerous, return to the *mos maiorum* -> *more maiorum supplicium* (52.36). For 54: build on the contrast already drawn, do not repeat it.
 
+**The user's notes on 54-61 (26/10, folded into v1.16.5) - carry forward into the Iugurtha:** Sallust owed Caesar his career (expelled 50 BC, Africa, the extortion charge) and the portraits show it; Sallust gives Cicero his due without the boasting; Catiline as a man who refused to live "like cattle" - the parallel with Sallust (1.1 *veluti pecora* / 58.21 *sicuti pecora*) and its limit; virtue used against Rome; Cicero hoped removing the bad would save the state, Sallust shows corruption outliving the battle - the civil wars ahead. Corrections given: Cato the Elder was Cato's GREAT-grandfather; "concussione" = extortion (*repetundae*), and Sallust was accused, never tried to a verdict; Catiline did not "back away" from corruption (5.2).
+
 **FLAGS FOR LATER BATCHES.** Cat. 14.2 stays as printed (decided). Iug. 85.1-4, the opening of Marius's speech, was in the launch excerpt
 and is no longer in the bank - the user chose 85.10-17 + 85.29-37.
 

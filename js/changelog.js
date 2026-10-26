@@ -20,6 +20,7 @@
           'The last three short Cicero notes rewritten at length, which finishes a job that has run alongside the last six releases: every note on Cicero\'s speeches is now in the long form. They cover Caesar\'s triumphs, Hirtius\'s counter-attack at Forum Gallorum and his death a week later, and the legion that held Alba Fucens.'
         ],
         changed: [
+          'The notes on the last five chapters of the Catilina were deepened from a reader\'s comments. The portrait of Caesar is now read as the work of a man Caesar had rescued from disgrace; the execution chapter explains what Sallust still grants Cicero without the boasting; the last speech and the battle show Catiline as he saw himself, and the uncomfortable likeness between him and Sallust; and the final chapter sets Sallust\'s bleak ending against Cicero\'s hope that removing Catiline would save the Republic.',
           'The new Sallust notes are linked both ways to the passages that answer them: Cicero\'s own portrait of Catiline as a monster of opposites, Caesar\'s picture of Petreius - the same man who beat Catiline - and Cicero on the rule of five thousand dead for a general\'s title. The earlier Catilina notes now point forward to the speech, the battle and the end.'
         ],
         deleted: [
@@ -33,6 +34,7 @@
           'Le ultime tre note brevi di Cicerone riscritte per esteso, il che conclude un lavoro che ha accompagnato le ultime sei versioni: tutte le note sulle orazioni di Cicerone hanno ora la forma estesa. Parlano dei trionfi di Cesare, del contrattacco di Irzio a Forum Gallorum e della sua morte una settimana dopo, e della legione che tenne Alba Fucens.'
         ],
         changed: [
+          'Le note sugli ultimi cinque capitoli del Catilina sono state approfondite a partire dai commenti di un lettore. Il ritratto di Cesare è ora letto come l\'opera di un uomo che Cesare aveva salvato dal disonore; il capitolo dell\'esecuzione spiega che cosa Sallustio riconosca ancora a Cicerone, senza le vanterie; l\'ultimo discorso e la battaglia mostrano Catilina come vedeva se stesso, e la scomoda somiglianza fra lui e Sallustio; e il capitolo finale mette la fine cupa di Sallustio a confronto con la speranza di Cicerone che eliminare Catilina avrebbe salvato la repubblica.',
           'Le nuove note su Sallustio sono collegate in entrambe le direzioni ai passi che rispondono loro: il ritratto che Cicerone fa di Catilina come mostro fatto di contrari, il Petreio di Cesare - lo stesso uomo che sconfisse Catilina - e Cicerone sulla regola dei cinquemila morti per il titolo di generale. Le note precedenti del Catilina rimandano ora al discorso, alla battaglia e alla fine.'
         ],
         deleted: [

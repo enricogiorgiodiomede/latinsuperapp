@@ -48,6 +48,27 @@ Verification: **427 verbatim, 0 mismatched** (422 + 5); check_context, lint_regi
 lint_translations report 0 for 1.16.5, check_sections nothing new; check_numbering 168/0, check_verses 60/0;
 `lint_markdown` clean. Bank **577**. Cache-bust: `?v=220` -> `?v=222` (221 for the release, 222 for the time fix).
 
+### Follow-up, 2026-10-26: the user's notes on Catilina 54-61
+
+The user's notes on this release are folded into the five analyses, English and Italian; no excerpt,
+translation or tag changes.
+
+- **Cat. 54** - *A portrait by a man who owed Caesar everything*: *clementia* and friends before self, Sallust's
+  expulsion from the senate in 50 BC, Caesar's patronage and the extortion charge after Africa; Cato's severity
+  as the Censor's family trait (great-grandfather, linked to De Agri Cultura, Praefatio).
+- **Cat. 55** - *Cicero's due, without the boasting*: the act, not the celebration; *luculentam atque utilem rei
+  publicae* (31.6); the death told with Sallust's *brevitas*.
+- **Cat. 58.8-21** - *Catiline and Sallust*: Catiline as he claimed to be; *veluti pecora* (1.1) against *sicuti
+  pecora* (58.21); the parallel and its limit (5.2) - corruption cannot be fought head on.
+- **Cat. 60** - *The reckoning*: tools for good used for evil, a hero for one page, praise for the soldier not the
+  cause; **linked to 58.8-21**.
+- **Cat. 61** - *The toll, and the difference from Cicero*: a war of Romans against Romans, a near-Pyrrhic
+  victory, Cicero's hope in the *concordia* of the *boni* (In Catilinam IV.15-16) against Sallust's realism, the
+  ending that looks to the civil wars (Sallust died before Actium).
+
+Verification: **427 verbatim, 0 mismatched**; check_context clean for 1.16.5; `lint_markdown` clean.
+Cache-bust: `?v=222` -> `?v=223`.
+
 ## [1.16.4] - 2026-10-21
 
 **THE TRIBUNES AND THE NOBLES, AND THE GREAT DEBATE.** Five excerpts of the *De Coniuratione Catilinae* -

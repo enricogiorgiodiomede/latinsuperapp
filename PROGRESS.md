@@ -79,7 +79,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the **7** HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html version.html metre.html 404.html`)
-   whenever you change a JS/CSS file. **Currently `v=222`.** Bump it AFTER the last JS/CSS edit of the release, not before: in v1.15.0 the
+   whenever you change a JS/CSS file. **Currently `v=223`.** Bump it AFTER the last JS/CSS edit of the release, not before: in v1.15.0 the
    token moved first and js/changelog.js changed afterwards, so the preview browser cached a stale copy
    under the new token.
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
@@ -643,10 +643,7 @@ Both `caesar_era_draft.md` (English) and `italian_translations_caesar.md` (Itali
 - Legacy includes Petrarch's 14th-century study of the *Codex Veronensis* and the Catullan model behind the *Canzoniere*.
 - Tier C (Manageable): polymetrics/epigrams D-to-C, carmina docta low B.
 
-**Next step:** the **Archaic extension + Caesar flesh-out** plan above (set 2026-07-06). Do NOT start the
-Augustan Era yet - the user hasn't written that draft and has deferred it. (Augustan authors, for later:
-Cornelius Gallus, Livy, Virgil, Tibullus, Vitruvius, Propertius, Horace, Ovid; Hyginus, Grattius -
-confirm permission before starting per CLAUDE.md.)
+**Next step (as of 2026-10-24): START THE AUGUSTAN ERA DRAFT.** The user has cleared this for the next chat. Confirm permission per CLAUDE.md before writing the first entry. Augustan Era authors: Cornelius Gallus, Livy, Virgil, Tibullus, Vitruvius, Propertius, Horace, Ovid (mainstream); Hyginus, Grattius (lesser known). Follow the same two-file structure: `augustan_era_draft.md` (English) + `italian_translations_augustan.md` (Italian). App flesh-out of Caesar's Age (Sallust *Iugurtha*, Catullus, translation re-reads) can continue in parallel or after.
 
 **Optional (Archaic bank)**: mirror new practice fragment Italians into `italian_translations_archaic.md`; or add more Plautus/Terence fragments (user deferred this decision).
 
