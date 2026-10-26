@@ -40,6 +40,26 @@ Verification: **432 verbatim, 0 mismatched** (427 + 5); check_context, lint_regi
 lint_translations report 0 for 1.16.6, check_sections nothing new; check_numbering 168/0, check_verses 60/0;
 `lint_markdown` clean. Bank **582**. Cache-bust: `?v=223` -> `?v=225` (224 for the release, 225 for the time fix).
 
+### Follow-up, 2026-10-26: the user's notes on Iugurtha 1-8
+
+The user's notes on this release are folded into the five analyses, English and Italian; no excerpt or
+translation changes.
+
+- **Iug. 1** - *Body over mind, and what it costs*: the consequences of choosing the body, and blaming bad luck as
+  an ancient and modern way of not blaming yourself.
+- **Iug. 4** - *Irony, and the first person*: the idle accusing Sallust of idleness; history as the one way left
+  to serve by merit; 4.9 as Sallust's bluntest first-person verdict (with Cat. 36.4 and 3.3-4.5 noted as the
+  other first-person passages).
+- **Iug. 5** - *Divina et humana*: from one man *contra ius fasque* to a whole war; **wired both ways with Cat. 15**.
+- **Iug. 6** - *The real culprit*: the war as the occasion that exposes the disease, with the caveat that Sallust
+  does not make Jugurtha innocent.
+- **Iug. 8** - *Ambition turned upside down*: Scipio's noble warning that could not beat corruption, the
+  corruption reaching an allied kingdom, and the return of the sentence at 35.10. **Corrected at the user's
+  prompting**: the three phrases of 8.1 grow LONGER (two, three, four words); the note had said shorter.
+
+Verification: **432 verbatim, 0 mismatched**; check_context clean for 1.16.6; `lint_markdown` clean.
+Cache-bust: `?v=225` -> `?v=226`.
+
 ## [1.16.5] - 2026-10-23
 
 **THE CATILINA IS COMPLETE, AND SO IS THE CICERO NOTE PASS.** Five excerpts of the *De Coniuratione

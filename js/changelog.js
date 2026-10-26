@@ -19,6 +19,7 @@
           'Then the story itself: why this war matters (it was the first time anyone stood up to the arrogance of the Roman nobility), and the young Jugurtha, a Numidian prince with every virtue the old Romans had - until, at the siege of Numantia, Roman officers taught him that at Rome everything is for sale.'
         ],
         changed: [
+          'The notes on the first five chapters of the Jugurthine War were deepened from a reader\'s comments: the preface as a portrait of people who blame bad luck for their own choices, Sallust\'s irony against critics who called his history idleness, the war as an even bigger emblem of corruption than Catiline\'s plot, and young Jugurtha as a man Rome taught to buy - not an innocent one. A slip in the note on Numantia was also corrected.',
           'The new notes are linked both ways to the passages that answer them: the Catilina\'s own preface and portrait of Catiline, Cicero on the images of great men left by writers, Cicero\'s dialogue on friendship with the same Scipio who warns Jugurtha, and Lucretius on death.'
         ],
         deleted: [
@@ -31,6 +32,7 @@
           'Poi la storia vera e propria: perché questa guerra conta (fu la prima volta che qualcuno tenne testa alla superbia della nobiltà romana), e il giovane Giugurta, un principe numida con tutte le virtù degli antichi Romani - finché, all\'assedio di Numanzia, alcuni ufficiali romani non gli insegnarono che a Roma tutto è in vendita.'
         ],
         changed: [
+          'Le note ai primi cinque capitoli della Guerra giugurtina sono state approfondite a partire dai commenti di un lettore: il proemio come ritratto di chi incolpa la sfortuna per le proprie scelte, l\'ironia di Sallustio contro i critici che chiamavano ozio la sua storia, la guerra come emblema della corruzione ancora più grande della congiura di Catilina, e il giovane Giugurta come un uomo a cui Roma insegnò a comprare - non un innocente. È stata anche corretta una svista nella nota su Numanzia.',
           'Le nuove note sono collegate in entrambe le direzioni ai passi che rispondono loro: il proemio e il ritratto di Catilina nel Catilina, Cicerone sulle immagini dei grandi uomini lasciate dagli scrittori, il dialogo di Cicerone sull\'amicizia con lo stesso Scipione che mette in guardia Giugurta, e Lucrezio sulla morte.'
         ],
         deleted: [

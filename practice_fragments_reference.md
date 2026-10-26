@@ -121,6 +121,8 @@ monstrous method; Sulla as the root of the corruption (5, 11, 37); Rome "very co
 
 **The user's notes on 54-61 (26/10, folded into v1.16.5) - carry forward into the Iugurtha:** Sallust owed Caesar his career (expelled 50 BC, Africa, the extortion charge) and the portraits show it; Sallust gives Cicero his due without the boasting; Catiline as a man who refused to live "like cattle" - the parallel with Sallust (1.1 *veluti pecora* / 58.21 *sicuti pecora*) and its limit; virtue used against Rome; Cicero hoped removing the bad would save the state, Sallust shows corruption outliving the battle - the civil wars ahead. Corrections given: Cato the Elder was Cato's GREAT-grandfather; "concussione" = extortion (*repetundae*), and Sallust was accused, never tried to a verdict; Catiline did not "back away" from corruption (5.2).
 
+**The user's notes on Iug. 1-8 (folded into v1.16.6) - carry forward:** blaming fortune as self-deception (1); Sallust's irony and his bluntest first person (4.9); the war bigger than the conspiracy as an emblem, *divina et humana* (5 <-> Cat. 15); corruption, not Jugurtha, as the book's enemy - but Jugurtha NOT innocent (his ambition, the murders of Hiempsal and Adherbal: write that in when 12 and 26 come); ambition turned upside down, Scipio's noble warning that fails, corruption reaching an allied kingdom; *Romae omnia venalia* returns at 35.10 (wire 8 <-> 35 when 35 is added). Corrections given: 8.1 phrases grow longer (my slip); 4.9 is not Sallust's only first person (Cat. 36.4, 3.3-4.5) but the bluntest.
+
 **FLAGS FOR LATER BATCHES.** Cat. 14.2 stays as printed (decided). Iug. 85.1-4, the opening of Marius's speech, was in the launch excerpt
 and is no longer in the bank - the user chose 85.10-17 + 85.29-37.
 
