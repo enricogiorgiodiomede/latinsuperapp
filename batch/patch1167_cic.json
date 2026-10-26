@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(De Amicitia 64)",
+    "field": "analysis",
+    "find": "because passing only one half of it is easy.",
+    "replace": "because passing only one half of it is easy. Sallust's dying Micipsa states the royal version of the same creed - friends, not armies or treasure, are a kingdom's defence, and they cannot be bought with gold - and the rest of the Iugurtha shows how little it was worth in Roman politics (Bellum Iugurthinum 10, in this app)."
+  },
+  {
+    "cit": "(De Amicitia 64)",
+    "field": "analysisIt",
+    "find": "perché superarne una metà sola è facile.",
+    "replace": "perché superarne una metà sola è facile. Il Micipsa morente di Sallustio enuncia la versione regale dello stesso credo - sono gli amici, non gli eserciti o i tesori, la difesa di un regno, e non si comprano con l'oro - e il resto del Bellum Iugurthinum mostra quanto poco valesse nella politica romana (Bellum Iugurthinum 10, in quest'app)."
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "_comment": "v1.16.7 - Bellum Iugurthinum 10, 12, 14.1-6, 14.20-25, 15. sall.2: chapter numbers only, sections via tools/xml_sections.js + batch/marks1167.json. Paragraph-opening quotes in the speeches (10, 14) removed with fix in the batch.",
+  "iug.10": ["sall.2", "\"Parvum ego te, Iugurtha", "meliores liberos sumpsisse videar quam genuisse.\""],
+  "iug.12": ["sall.2", "Primo conventu, quem ab regulis", "caput eius, uti iussi erant, ad Iugurtham referunt."],
+  "iug.14a": ["sall.2", "\"Patres conscripti, Micipsa pater meus", "frustra a vobis auxilium petere."],
+  "iug.14b": ["sall.2", "Tantum illud vereor", "familiae nostrae tabescere.\""],
+  "iug.15": ["sall.2", "Postquam rex finem loquendi", "a consueta libidine continuit."]
+}

@@ -6,6 +6,37 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.16.7] - 2026-10-26
+
+**MICIPSA, HIEMPSAL, ADHERBAL, AND A BOUGHT SENATE.** Five excerpts of the *Bellum Iugurthinum* - 10, 12,
+14.1-6, 14.20-25, 15. Sallust is at 41 of 70 (Catilina 30, Iugurtha 11).
+
+### Added - Bellum Iugurthinum (5)
+| excerpt | what it is |
+|---|---|
+| 10 | Micipsa's deathbed speech: friends cannot be bought with gold, *concordia parvae res crescunt, discordia maximae dilabuntur* - and Jugurtha knew he did not mean it (11.1) |
+| 12 | the murder of Hiempsal: false keys, a night raid in historic infinitives, the king found in a slave woman's hut, the head carried to Jugurtha |
+| 14.1-6 | Adherbal before the senate, the opening: Numidia as Rome's *procuratio*, *fides* not fortune, Masinissa's grandson asking in vain |
+| 14.20-25 | the close: *privata amicitia* and senators worked on one by one, the apostrophe to the dead brother, *neque vivere libet neque mori licet* |
+| 15 | the bought reply: *largitione magis quam causa freti*, *gratia depravata*, the few against the many, and Scaurus *vitia sua callide occultans* |
+
+- **Adherbal's speech (929 words) is taken as its opening and its close**, 212 and 227 words, so the second half
+  can sit next to Scipio's warning in 8 and the senate's reply in 15.
+- **The user's theses are in from the start**: Jugurtha NOT innocent (12, his first crime); the speech to be weighed
+  (10, *ficta locutum*); eloquence and justice losing to money (14, 15); Cicero's other, admiring Scaurus (15).
+- **Cross-references, wired both ways**: Iug. 10 <-> De Amicitia 64; Iug. 15 <-> Cat. 54 (Cato *esse quam
+  videri* against Scaurus); Iug. 6 -> 12 and Iug. 8 -> 10, 14.20-25, 15 inside the Iugurtha.
+- **Page quirks**: the speeches in 10 and 14 open paragraphs with quotes, removed with `fix`; 14.24 prints *neu
+  vivere* where the editions read *neu iure* (kept, explained); overrides for the page's *Parvum* (10.1) and
+  *Quae cum* (14.2) in batch/marks1167.json. check_sections caught a sentence split in the English of 14.21,
+  rejoined on the Latin's colon.
+
+Translation pass over the touched work: the five v1.16.6 Iugurtha excerpts re-read clause by clause, unchanged.
+
+Verification: **437 verbatim, 0 mismatched** (432 + 5); check_context, lint_register, lint_ablatives and
+lint_translations report 0 for 1.16.7, check_sections nothing new; check_numbering 168/0, check_verses 60/0;
+`lint_markdown` clean. Bank **587**. Cache-bust: `?v=226` -> `?v=227`.
+
 ## [1.16.6] - 2026-10-26
 
 **THE IUGURTHA BEGINS.** Five excerpts of the *Bellum Iugurthinum* - 1, 4, 5, 6, 8: the preface, the subject, and

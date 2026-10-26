@@ -1,0 +1,20 @@
+[
+  {
+    "cit": "(Bellum Iugurthinum 14.20-25)",
+    "field": "english",
+    "find": "some care for human affairs might arise! Then indeed he,",
+    "replace": "some care for human affairs might arise: then indeed he,"
+  },
+  {
+    "cit": "(Bellum Iugurthinum 14.1-6)",
+    "field": "analysis",
+    "find": "Adherbal begins with his father's deathbed instructions,",
+    "replace": "Adherbal begins with the deathbed instructions of his father Micipsa,"
+  },
+  {
+    "cit": "(Bellum Iugurthinum 14.1-6)",
+    "field": "analysisIt",
+    "find": "Aderbale comincia con le istruzioni del padre morente,",
+    "replace": "Aderbale comincia con le istruzioni del padre Micipsa morente,"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "_comment": "v1.16.7 - Iugurtha 10, 12, 14.1-6, 14.20-25, 15. Section files from tools/xml_sections.js. Overrides only where the page spells the first word of a section differently. Translations carry their markers from batch/frags1167*.js.",
+  "(Bellum Iugurthinum 10)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.10.json",
+    "overrides": {
+      "1": "Parvum ego te"
+    }
+  },
+  "(Bellum Iugurthinum 12)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.12.json"
+  },
+  "(Bellum Iugurthinum 14.1-6)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.14.json",
+    "range": "1-6",
+    "overrides": {
+      "2": "Quae cum praecepta"
+    }
+  },
+  "(Bellum Iugurthinum 14.20-25)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.14.json",
+    "range": "20-25"
+  },
+  "(Bellum Iugurthinum 15)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.15.json"
+  }
+}

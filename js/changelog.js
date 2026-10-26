@@ -12,6 +12,33 @@
 
   var VERSIONS = [
     {
+      v: '1.16.7', date: '26/10/2026', time: '16:30', tz: 'CET',
+      en: {
+        added: [
+          'FIVE MORE EXCERPTS OF THE JUGURTHINE WAR. The dying King Micipsa tells his adopted nephew Jugurtha that friends, not armies or gold, protect a kingdom - "by concord small things grow, by discord the greatest fall apart" - and Jugurtha knows he does not mean a word. Within months Jugurtha has his cousin Hiempsal murdered at night; the young king is found hiding in a slave woman\'s hut.',
+          'Then Rome. The other cousin, Adherbal, driven out of his kingdom, pleads before the senate in two excerpts from one of the longest speeches in the book, warning that Jugurtha\'s money is working on the senators one by one. The senate\'s reply is bought, and the honest few are led by a man Sallust paints as a hypocrite.'
+        ],
+        changed: [
+          'The new notes are linked both ways to the passages that answer them: Cicero on how rare true friendship is among politicians, and Sallust\'s own portrait of Cato, the man who preferred to be good rather than seem good.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'ALTRI CINQUE BRANI DELLA GUERRA GIUGURTINA. Il re Micipsa, morente, dice al nipote adottivo Giugurta che sono gli amici, non gli eserciti o l\'oro, a difendere un regno - "con la concordia le piccole cose crescono, con la discordia le più grandi vanno in rovina" - e Giugurta sa che non ne pensa una parola. Nel giro di pochi mesi Giugurta fa assassinare di notte il cugino Iempsale; il giovane re viene trovato nascosto nella capanna di una schiava.',
+          'Poi Roma. L\'altro cugino, Aderbale, cacciato dal regno, perora la sua causa davanti al senato in due brani di uno dei discorsi più lunghi del libro, avvertendo che il denaro di Giugurta sta lavorando i senatori uno per uno. La risposta del senato è comprata, e i pochi onesti sono guidati da un uomo che Sallustio dipinge come un ipocrita.'
+        ],
+        changed: [
+          'Le nuove note sono collegate in entrambe le direzioni ai passi che rispondono loro: Cicerone su quanto sia rara la vera amicizia fra i politici, e il ritratto che Sallustio fa di Catone, l\'uomo che preferiva essere buono piuttosto che sembrarlo.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.16.6', date: '26/10/2026', time: '01:45', tz: 'CET',
       en: {
         added: [
