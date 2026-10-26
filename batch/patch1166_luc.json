@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(De Rerum Natura III, vv. 830-842)",
+    "field": "analysis",
+    "find": "the pontifex maximus said it aloud to the Roman senate.",
+    "replace": "the pontifex maximus said it aloud to the Roman senate. Sallust, writing a few years after Lucretius, gave the Roman answer to the same fear: not indifference to the end but the hope that glory makes mortals eternal (Bellum Iugurthinum 1, in this app)."
+  },
+  {
+    "cit": "(De Rerum Natura III, vv. 830-842)",
+    "field": "analysisIt",
+    "find": "il pontefice massimo la pronunciò ad alta voce davanti al senato di Roma.",
+    "replace": "il pontefice massimo la pronunciò ad alta voce davanti al senato di Roma. Sallustio, scrivendo pochi anni dopo Lucrezio, diede alla stessa paura la risposta romana: non l'indifferenza verso la fine, ma la speranza che la gloria renda eterni i mortali (Bellum Iugurthinum 1, in quest'app)."
+  }
+]

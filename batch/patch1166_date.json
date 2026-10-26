@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(Bellum Iugurthinum 6)",
+    "field": "analysis",
+    "find": "Numidia, in the 140s BC.",
+    "replace": "Numidia, around 145 BC."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 6)",
+    "field": "analysisIt",
+    "find": "La Numidia, negli anni Quaranta del II secolo a.C.",
+    "replace": "La Numidia, intorno al 145 a.C."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "cit": "(Pro Archia 14)",
+    "field": "analysis",
+    "find": "produced from memory at the moment they are needed.",
+    "replace": "produced from memory at the moment they are needed. Twenty years later Sallust made the same argument for history with the wax masks of the ancestors: it was not the wax that set great men on fire for virtue, but the memory of great deeds (Bellum Iugurthinum 4, in this app)."
+  },
+  {
+    "cit": "(Pro Archia 14)",
+    "field": "analysisIt",
+    "find": "tirati fuori a memoria nel momento in cui servono.",
+    "replace": "tirati fuori a memoria nel momento in cui servono. Vent'anni dopo Sallustio fece lo stesso ragionamento per la storia con le maschere di cera degli antenati: non era la cera ad accendere alla virtù i grandi uomini, ma il ricordo delle grandi imprese (Bellum Iugurthinum 4, in quest'app)."
+  },
+  {
+    "cit": "(De Amicitia 102)",
+    "field": "analysis",
+    "find": "a way of writing about his own hope of being remembered.",
+    "replace": "a way of writing about his own hope of being remembered. Sallust shows the same Scipio in 133 BC, after Numantia, taking the young Jugurtha aside to warn him against buying private friends at Rome (Bellum Iugurthinum 8, in this app)."
+  },
+  {
+    "cit": "(De Amicitia 102)",
+    "field": "analysisIt",
+    "find": "un modo di scrivere della propria speranza di essere ricordato.",
+    "replace": "un modo di scrivere della propria speranza di essere ricordato. Sallustio mostra lo stesso Scipione nel 133 a.C., dopo Numanzia, mentre prende in disparte il giovane Giugurta per metterlo in guardia contro l'acquisto di amici privati a Roma (Bellum Iugurthinum 8, in quest'app)."
+  }
+]

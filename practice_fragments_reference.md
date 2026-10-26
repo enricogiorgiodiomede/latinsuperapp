@@ -28,7 +28,7 @@ against the numbered text so every excerpt opens and closes on a sentence.
 
 **Bellum Iugurthinum (`bellum-iugurthinum`) - 40**
 - **v1.16.0 (DONE, 1):** ★85.10-17 (launch excerpt rebuilt as one unbroken run; the old one stitched 85.1, 4, 10-13)
-- v1.16.6: ★1 · ★4 · ★5 · 6 · 8
+- **v1.16.6 (DONE, 5) - the Iugurtha begins:** ★1 · ★4 · ★5 · 6 · 8 (wired both ways: 1 <-> Cat. 1 and DRN III 830-842, 4 <-> Cat. 3.3-4.5, Pro Archia 14, Iug. 85.10-17, 5 <-> Cat. 3.3-4.5, 6 <-> Cat. 5, 8 <-> Cat. 10 and De Amicitia 102; sections from tools/xml_sections.js - the CTS API fails or overruns on these chapters)
 - v1.16.7: 10 · 12 · ★14 (two excerpts) · 15
 - v1.16.8: ★17 · ★18 · ★19 (the African excursus - "that digression" near the start) · 26 · 29
 - v1.16.9: 31 (two excerpts) · 34 · ★35 (35.10 is *urbem venalem et mature perituram*) · 38

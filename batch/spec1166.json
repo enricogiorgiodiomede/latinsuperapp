@@ -1,0 +1,8 @@
+{
+  "_comment": "v1.16.6 - Bellum Iugurthinum 1, 4, 5, 6, 8: the Iugurtha begins. sall.2 prints chapter numbers only; sections come from Perseus phi0631.phi002 perseus-lat3 through mark_sections (batch/marks1166.json). The CTS API answers 500 for 4 and 5 and overruns into the next chapter for 6 and 8, so every section file was built with the new tools/xml_sections.js from the GitHub XML. The page modernises spelling throughout (maxime, cuius, existimo); 4.4 prints 'adeptus sum' where Perseus has 'sim' (kept, explained).",
+  "iug.1": ["sall.2", "Falso queritur de natura", "gloria aeterni fierent."],
+  "iug.4": ["sall.2", "Ceterum ex aliis negotiis", "Nunc ad inceptum redeo."],
+  "iug.5": ["sall.2", "Bellum scripturus sum", "quo liberos suos domi habuit."],
+  "iug.6": ["sall.2", "Qui ubi primum adolevit", "bellum oriretur, anxius erat."],
+  "iug.8": ["sall.2", "Ea tempestate in exercitu nostro", "pecunia praecipitem casurum."]
+}

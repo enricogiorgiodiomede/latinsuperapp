@@ -12,6 +12,33 @@
 
   var VERSIONS = [
     {
+      v: '1.16.6', date: '26/10/2026', time: '01:50', tz: 'CET',
+      en: {
+        added: [
+          'SALLUST\'S SECOND BOOK BEGINS: the first five excerpts of the Jugurthine War. Sallust opens with philosophy again - the mind is the commander of life, and men who blame fortune are the authors of their own ruin - and then defends his choice to write history instead of doing politics, with the famous image of the wax masks of the ancestors that set great Romans on fire for virtue.',
+          'Then the story itself: why this war matters (it was the first time anyone stood up to the arrogance of the Roman nobility), and the young Jugurtha, a Numidian prince with every virtue the old Romans had - until, at the siege of Numantia, Roman officers taught him that at Rome everything is for sale.'
+        ],
+        changed: [
+          'The new notes are linked both ways to the passages that answer them: the Catilina\'s own preface and portrait of Catiline, Cicero on the images of great men left by writers, Cicero\'s dialogue on friendship with the same Scipio who warns Jugurtha, and Lucretius on death.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'COMINCIA IL SECONDO LIBRO DI SALLUSTIO: i primi cinque brani della Guerra giugurtina. Sallustio apre di nuovo con la filosofia - l\'animo è il comandante della vita, e chi incolpa la fortuna è l\'autore della propria rovina - e poi difende la sua scelta di scrivere storia invece di fare politica, con la celebre immagine delle maschere di cera degli antenati che accendevano alla virtù i grandi Romani.',
+          'Poi la storia vera e propria: perché questa guerra conta (fu la prima volta che qualcuno tenne testa alla superbia della nobiltà romana), e il giovane Giugurta, un principe numida con tutte le virtù degli antichi Romani - finché, all\'assedio di Numanzia, alcuni ufficiali romani non gli insegnarono che a Roma tutto è in vendita.'
+        ],
+        changed: [
+          'Le nuove note sono collegate in entrambe le direzioni ai passi che rispondono loro: il proemio e il ritratto di Catilina nel Catilina, Cicerone sulle immagini dei grandi uomini lasciate dagli scrittori, il dialogo di Cicerone sull\'amicizia con lo stesso Scipione che mette in guardia Giugurta, e Lucrezio sulla morte.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.16.5', date: '23/10/2026', time: '22:55', tz: 'CEST',
       en: {
         added: [

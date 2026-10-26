@@ -6,6 +6,40 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.16.6] - 2026-10-26
+
+**THE IUGURTHA BEGINS.** Five excerpts of the *Bellum Iugurthinum* - 1, 4, 5, 6, 8: the preface, the subject, and
+young Jugurtha from the Numidian court to Numantia. Sallust is at 36 of 70 (Catilina 30, Iugurtha 6).
+
+### Added - Bellum Iugurthinum (5)
+| excerpt | what it is |
+|---|---|
+| 1 | the preface: *falso queritur*, the mind as *dux atque imperator vitae*, virtue beyond fortune's reach, *diffluxere*, *regerentur magis quam regerent casus* |
+| 4 | the defence of history and the ancestor masks: *salutare plebem*, *non ceram illam neque figuram*, new men climbing *per latrocinia*, *piget taedetque* |
+| 5 | the subject: *magnum et atrox variaque victoria*, *superbiae nobilitatis obviam itum est*, the forecast of civil war, Masinissa to Jugurtha |
+| 6 | young Jugurtha, Catiline's portrait turned the other way: *plurimum facere, minimum ipse de se loqui*, and Micipsa's fear |
+| 8 | Numantia: *clari magis quam honesti*, *Romae omnia venalia esse*, Scipio's warning *periculose a paucis emi quod multorum esset* |
+
+- **The user's theses are in from the start**: history as the honest way to serve a corrupt state, Sallust not
+  neutral (4.9), the monograph built on an emblematic episode (5), the portrait as a type (6), the corruption
+  coming from Rome (8); and a "warning about spelling" in 1 and 4, since the page modernises the Iugurtha heavily.
+- **Cross-references, wired both ways**: Iug. 1 <-> Cat. 1 and De Rerum Natura III, vv. 830-842; Iug. 4 <-> Cat.
+  3.3-4.5, Pro Archia 14 and Iug. 85.10-17; Iug. 5 <-> Cat. 3.3-4.5; Iug. 6 <-> Cat. 5; Iug. 8 <-> Cat. 10 and De
+  Amicitia 102 (Scipio). One way: Iug. 5 -> Cat. 38; Iug. 6 -> Cat. 7.
+- **New tool, `tools/xml_sections.js`**: builds the Perseus section files from the PerseusDL XML on GitHub. In the
+  perseus-lat3 XML of both monographs many chapters are a `<milestone unit="chapter"/>` inside the previous
+  chapter's `<div>` (47 in the Iugurtha), so the CTS API answers 500 for them (Iug. 4, 5; Cat. 54) and, for the
+  chapter before, returns a file that runs on into the next one (Iug. 6 came back with chapter 7 attached, 8
+  with 9). Use it for every Sallust chapter. It also confirms the hand comparison of Cat. 54 in v1.16.5.
+- **Page quirks**: 4.4 prints *adeptus sum* where the editions have *sim* (kept, explained); one `overrides` entry
+  in batch/marks1166.json for the page's *Cuius* at 4.2.
+
+Translation pass over the touched work: Iug. 85.10-17 re-read clause by clause, unchanged.
+
+Verification: **432 verbatim, 0 mismatched** (427 + 5); check_context, lint_register, lint_ablatives and
+lint_translations report 0 for 1.16.6, check_sections nothing new; check_numbering 168/0, check_verses 60/0;
+`lint_markdown` clean. Bank **582**. Cache-bust: `?v=223` -> `?v=224`.
+
 ## [1.16.5] - 2026-10-23
 
 **THE CATILINA IS COMPLETE, AND SO IS THE CICERO NOTE PASS.** Five excerpts of the *De Coniuratione

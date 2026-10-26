@@ -1,0 +1,31 @@
+{
+  "_comment": "v1.16.6 - Iugurtha 1, 4, 5, 6, 8. Section files built by tools/xml_sections.js from the perseus-lat3 XML (the CTS API answers 500 for 4 and 5 and overruns for 6 and 8). Overrides only where the page spells the first word of a section differently. The translations carry their markers from batch/frags1166.js.",
+  "(Bellum Iugurthinum 1)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.1.json"
+  },
+  "(Bellum Iugurthinum 4)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.4.json",
+    "overrides": {
+      "2": "Cuius de virtute"
+    }
+  },
+  "(Bellum Iugurthinum 5)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.5.json"
+  },
+  "(Bellum Iugurthinum 6)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.6.json"
+  },
+  "(Bellum Iugurthinum 8)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.8.json"
+  }
+}
