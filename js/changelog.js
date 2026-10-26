@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.16.7', date: '26/10/2026', time: '16:30', tz: 'CET',
+      v: '1.16.7', date: '26/10/2026', time: '16:28', tz: 'CET',
       en: {
         added: [
           'FIVE MORE EXCERPTS OF THE JUGURTHINE WAR. The dying King Micipsa tells his adopted nephew Jugurtha that friends, not armies or gold, protect a kingdom - "by concord small things grow, by discord the greatest fall apart" - and Jugurtha knows he does not mean a word. Within months Jugurtha has his cousin Hiempsal murdered at night; the young king is found hiding in a slave woman\'s hut.',
