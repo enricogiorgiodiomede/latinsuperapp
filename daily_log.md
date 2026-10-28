@@ -1525,3 +1525,51 @@ Four commits in the evening: two **v1.16.4 follow-ups** (an italics fix on the p
 The content commits added their batch files and updated `js/fragments.js`, CHANGELOG.md, `js/changelog.js` and the cache-bust on all seven pages (plus PROGRESS.md and `practice_fragments_reference.md` for the two Sallust commits).
 
 **Progress:** App at **v1.16.5, cache v221**, bank 577. Verify 427 verbatim, 0 mismatched. Sallust at 31 of 70 with the *Catilina* complete; next is v1.16.6, the start of the *Iugurtha*. Still outstanding: the rest of Sallust, the translation re-read in *Pro Caelio* and *De Oratore*, Catullus, and the Augustan Era (awaiting the user's permission).
+
+---
+
+## 2026-10-24
+
+*(Documentation and handoff session.)*
+
+A context-window rollover from the previous session had left two documentation tasks pending. Both were completed, and the project records were brought fully up to date in preparation for starting the Augustan Era draft in the next chat.
+
+**Files modified:**
+
+- `daily_log.md` (updated) -- Housekeeping: removed a duplicate "2026-06-28 (evening session)" entry that had been accidentally inserted during the context handoff. Separately, added the pending **2026-06-29 entry** (which had been the last task before the previous session's context ran out): records the completion of the Caesar's Era draft in both `caesar_era_draft.md` and `italian_translations_caesar.md` -- Lucretius and Sallust legacy sections, full Catullus entry (biography, works, neoteroi, style, three excerpts, neoteric circle sidebar, legacy with Petrarch paragraph), Italian header standardisation ("Eredità e Impatto" throughout).
+
+- `PROGRESS.md` (updated) -- Caesar's Era draft state table updated to show Lucretius (A High End, done 2026-06-29), Sallust (S, done 2026-06-29), and Catullus (C, done 2026-06-29) as complete. The "RESUME HERE" banner and next-step note updated to reflect that both draft files are fully in sync and the Augustan Era draft is the next writing task.
+
+- `progress_notes.md` (updated) -- **Sessions 4, 5, and 6 written** (the Caesar's Era equivalent of the Archaic Era's Sessions 1-3). Each session follows the standard format (What we built / Decisions made / Authors covered with full per-author summaries). Session 4: Era intro + Varro + Nepos + Hortalus/Figulus. Session 5: Cicero + Caesar/Hirtius (paired) + Italian drafts for Lucretius and Sallust. Session 6: English Lucretius + Sallust + full Catullus + legacy sections + Petrarch addition + Italian header fix. The note closes with "THE CAESAR'S ERA IS COMPLETE."
+
+**No app changes in this session.** Cache and fragment count unchanged: v1.16.5, ?v=221, bank 577.
+
+**Progress:** Documentation fully up to date. App at v1.16.5, cache v221, bank 577. Sallust at 31 of 70 (*Catilina* complete, *Iugurtha* next). **Augustan Era draft cleared to begin in the next chat** -- confirm permission per CLAUDE.md before starting the first entry.
+
+---
+
+## 2026-10-26
+
+*(End-of-day log, 23:55.)*
+
+Eight commits across the day: two new **Augustan Era** draft entries just after midnight, then on the app side a **v1.16.5 follow-up**, the release of **v1.16.6** (the *Bellum Iugurthinum* begins), its follow-up with the user's notes, and the release of **v1.16.7**, plus two docs commits fixing release times.
+
+**Augustan Era -- Horace (00:03).** Full entry added to `augustan_era_draft.md` with its Italian mirror in `italian_translations_augustan.md`: excerpts from *Carmina* II.10, *Epodi* 10 and *Sermones* I.5.1-26, provisional tier **S**. The Latin was checked against The Latin Library; two misprints in Epode 10 were corrected and noted.
+
+**Augustan Era -- Livy (00:20).** Entry added in both files: *Ab Urbe Condita* XXV.31.4-11 and XXXIX.8.3-8, plus the lost Book CXX on Cicero's death as quoted by Seneca the Elder (*Suasoriae* 6.17, 6.22), provisional tier **B**. Latin checked against The Latin Library.
+
+**v1.16.5 follow-up -- the user's notes on *Catilina* 54-61 (01:21, cache v223).** Folded into the five analyses in both languages: Sallust's debt to Caesar behind the portrait in 54; what Sallust still grants Cicero in 55; Catiline and Sallust (*veluti pecora* / *sicuti pecora*) in 58.8-21, linked to 60; the toll of 61 set against Cicero's hope in the concord of the *boni*. New patch files `batch/patch1165b.js` and `batch/patch1165b_sal.json`.
+
+**v1.16.6 -- the *Iugurtha* begins (01:45, cache v224).** Five excerpts: the preface (1), the defence of history and the ancestor masks (4), the subject and the family tree (5), young Jugurtha (6), and Numantia with *Romae omnia venalia esse* (8). Wired both ways with *Cat.* 1, 3.3-4.5, 5, 10, *Iug.* 85.10-17, *Pro Archia* 14, *De Amicitia* 102 and *De Rerum Natura* III 830-842.
+- **New tool:** `tools/xml_sections.js` builds the Perseus section files from the PerseusDL XML on GitHub, because many Sallust chapters are milestones inside the previous chapter's div (the CTS API answers 500 for them and overruns into the next chapter for the one before).
+- **Verification:** verify 432/0, bank 582.
+
+**v1.16.6 follow-up -- the user's notes on *Iugurtha* 1-8 (15:31, cache v226).** Folded into the five analyses in both languages: blaming fortune (1); the irony and the first person of 4.9; *divina et humana* from one man to a war (5, wired both ways with *Cat.* 15); the real culprit, without making Jugurtha innocent (6); ambition turned upside down and the return of the sentence at 35.10 (8). Corrected: the phrases of 8.1 grow longer. New `batch/patch1166b.js` and `batch/patch1166b_sal.json`.
+
+**v1.16.7 -- *Bellum Iugurthinum* 10, 12, 14.1-6, 14.20-25, 15 (16:28, cache v227).** Micipsa's deathbed speech (10), the murder of Hiempsal (12), Adherbal before the senate in two excerpts (14.1-6, 14.20-25), and the senate's bought reply with Scaurus (15). Wired both ways with *De Amicitia* 64 and *Cat.* 54; inside the *Iugurtha*, 6 -> 12 and 8 -> 10, 14.20-25, 15. Verify 437/0, bank 587.
+
+**Docs.** The v1.16.6 and v1.16.7 release times set from the actual commits (26/10/2026, 01:45 and 16:28 CET).
+
+The app commits added their batch files and updated `js/fragments.js`, CHANGELOG.md, `js/changelog.js`, PROGRESS.md, `practice_fragments_reference.md` and the cache-bust on all seven pages.
+
+**Progress:** App at **v1.16.7**, bank 587, verify 437/0. Sallust at 41 of 70 (*Catilina* 30 complete, *Iugurtha* 10); next is v1.16.8 (*Iug.* 17, 18, 19, 26, 29) after the user's notes on v1.16.7. Augustan Era draft under way, with Horace (S) and Livy (B) written. Still outstanding: the rest of Sallust, the translation re-read in *Pro Caelio* and *De Oratore*, Catullus, and the remaining Augustan entries.
