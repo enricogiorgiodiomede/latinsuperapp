@@ -1573,3 +1573,17 @@ Eight commits across the day: two new **Augustan Era** draft entries just after 
 The app commits added their batch files and updated `js/fragments.js`, CHANGELOG.md, `js/changelog.js`, PROGRESS.md, `practice_fragments_reference.md` and the cache-bust on all seven pages.
 
 **Progress:** App at **v1.16.7**, bank 587, verify 437/0. Sallust at 41 of 70 (*Catilina* 30 complete, *Iugurtha* 10); next is v1.16.8 (*Iug.* 17, 18, 19, 26, 29) after the user's notes on v1.16.7. Augustan Era draft under way, with Horace (S) and Livy (B) written. Still outstanding: the rest of Sallust, the translation re-read in *Pro Caelio* and *De Oratore*, Catullus, and the remaining Augustan entries.
+
+---
+
+## 2026-10-29
+
+*(End-of-day log, 23:55.)*
+
+Two commits in the evening, both on the **Augustan Era** draft: two new entries, Tibullus and Sulpicia, each with its Italian mirror. No app release today.
+
+**Augustan Era -- Tibullus, plus a Virgil/Horace comparison (21:32).** Full entry added to `augustan_era_draft.md` with excerpts from the *Elegiae* (I.3.1-10 + 53-58 and I.10.1-14), provisional tier **C**. The Virgil and Horace biographies gained a comparison of the two poets: Virgil reaching for the stars and beyond, Horace reminding us of our humanity. The Italian mirror of all of this went into `italian_translations_augustan.md`. Latin checked against The Latin Library.
+
+**Augustan Era -- Sulpicia (22:50).** Entry added in both files with two complete poems, [Tib.] III.13 and III.18, provisional tier **C**. Latin checked against The Latin Library.
+
+**Progress:** App unchanged at **v1.16.7** (bank 587, verify 437/0); Sallust still at 41 of 70, with v1.16.8 (*Iug.* 17, 18, 19, 26, 29) waiting on the user's notes on v1.16.7. The Augustan Era draft now has Horace (S), Livy (B), Tibullus (C) and Sulpicia (C). Next in the agreed order is Propertius, then Ovid, Hyginus and Grattius. Still outstanding: the rest of Sallust, the translation re-read in *Pro Caelio* and *De Oratore*, and Catullus.
