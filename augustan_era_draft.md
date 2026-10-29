@@ -381,7 +381,7 @@ About ten lines of verse, several of them broken, cannot support a reliable rati
 
 ## Biography
 
-Virgil is the most famous Latin poet who ever lived, and possibly the most famous Latin author of any kind. He is also, by every ancient account, one of the shyest, most awkward and most anxious men ever to become a celebrity. Most of what we know about his life comes from a biography by Suetonius that survives in a version by the fourth-century grammarian Donatus, and from the commentary of Servius. Some of it is legend. All of it is worth telling.
+Virgil is the most famous Latin poet who ever lived, and possibly the most famous Latin author of any kind. He is also, by every ancient account, one of the shyest, most awkward and most anxious men ever to become a celebrity. Most of what we know about his life comes from a biography by Suetonius that survives in a version by the fourth-century grammarian Donatus, and from the commentary of Servius. Some of it is legend. All of it is worth telling. And set him beside his friend Horace, and the difference between them is clear at once: Virgil is always aiming at the stars and beyond, at fate, empire, the gods and the meaning of history, while Horace is content to remind us of our humanity. Both are reasons to enjoy them fully.
 
 **A laurel in a ditch.** Publius Vergilius Maro was born on 15 October 70 BC in the village of Andes, near Mantua, in what was then Cisalpine Gaul. His father was a man of modest origins: according to Donatus, either a potter or the hired hand of a minor official called Magius, who did well enough to marry his employer's daughter, Magia Polla, and to buy land and bees of his own. Before Virgil was born, his mother dreamed that she gave birth to a laurel branch, which took root and grew at once into a fully grown tree covered in fruit and flowers. The next day she gave birth in a ditch by the side of the road, on the way to the country. The baby, we are told, did not cry, and had such a gentle expression that everyone took it as a sign of good fortune. A poplar planted on the spot grew so fast that local women started praying to it. Every great Roman got a few omens; Virgil got a botanical garden.
 
@@ -604,7 +604,7 @@ Virgil is hard in almost every criterion at once: poetic word order and transfer
 
 ## Biography
 
-If Virgil is the shy genius of the Augustan Age, Horace is its best company. He is the friend who never takes himself too seriously, who will tell you your vices to your face, and then pour you a cup of Falernian to help you drink over them. He laughs at the greedy, the ambitious, the bores and the social climbers, and he laughs just as hard at himself: short, fat, prematurely grey, quick to lose his temper and quick to calm down again, and, by his own description, "a pig from Epicurus's herd". And then, having made you laugh, he writes some of the most beautiful lyric poetry in Latin. He is the great lyric poet of the Augustan Age, and probably the most quotable poet Rome ever produced.
+If Virgil is the shy genius of the Augustan Age, Horace is its best company. He is the friend who never takes himself too seriously, who will tell you your vices to your face, and then pour you a cup of Falernian to help you drink over them. He laughs at the greedy, the ambitious, the bores and the social climbers, and he laughs just as hard at himself: short, fat, prematurely grey, quick to lose his temper and quick to calm down again, and, by his own description, "a pig from Epicurus's herd". And then, having made you laugh, he writes some of the most beautiful lyric poetry in Latin. He is the great lyric poet of the Augustan Age, and probably the most quotable poet Rome ever produced. Where Virgil is always aiming at the stars and beyond, Horace is content to remind us of our humanity: friends, wine, the turning seasons, the limits of a single life, and how to live well inside them. Both are reasons to enjoy them fully.
 
 **The freedman's son.** Quintus Horatius Flaccus was born on 8 December 65 BC at Venusia, a military colony on the border between Apulia and Lucania in southern Italy. His father was a freedman, a former slave, who worked as a *coactor*, a collector of payments at auctions: a modest job, but a profitable one. He made one decision that changed his son's life: instead of sending the boy to the local school, where the sons of centurions went with their satchels and their writing tablets, he took him to Rome to be educated alongside the children of senators and knights, and went with him to every lesson himself, as a guardian. Horace never forgot it. In one of his satires he writes that if he has any good qualities at all, he owes them to his father, and that he would not swap him for any noble parent in Rome. His schoolmaster in Rome, Orbilius, is remembered in literature for one thing only: Horace calls him *plagosus*, "fond of the whip", the earliest famous school beating in history.
 
@@ -1013,5 +1013,165 @@ The Renaissance made him a hero. Dante, in the *Inferno*, calls him "Livy, who d
 **Tier: B (Difficult)**
 
 Livy is prose, with standard vocabulary and few literary allusions, so he is in a different league from Virgil and Horace. But he is not easy. His long periods, packed with participles, ablatives absolute and subordinate clauses, demand that the reader hold the whole structure in mind until the main verb arrives; his speeches in indirect discourse can run for paragraphs; the historic infinitive, the poetic colouring of the first decade and his love of *variatio* all catch out the unwary. And then there is the sheer patience required: Livy rewards the reader who keeps going, and punishes the one who loses concentration halfway through a sentence. He is clearly harder than Caesar and Nepos, and at the level of Cicero's speeches: demanding but approachable with preparation, which is exactly what a B means. The later decades, with their long military narratives, sit closer to C; the first decade and the big speeches touch the upper range of B.
+
+---
+
+# ALBIUS TIBULLUS (c. 55 -- 19 BC)
+
+## Biography
+
+Tibullus is the least famous of the great Augustan poets today, and the one the Romans themselves considered the most elegant. He wrote love elegies, like Gallus before him and Propertius and Ovid after him, but his are unlike anyone else's: dreamy, gentle and melancholy, full of the countryside, of simple rustic gods, of peace, and of a constant, quiet awareness of death. If Propertius is the passionate one and Ovid the clever one, Tibullus is the daydreamer: the poet who, in the middle of a love poem, drifts off into a fantasy of living on a farm with his girlfriend, and then wakes up to find that she has left him for someone richer.
+
+**A handsome knight from the Latin countryside.** We know very little about his life, and his dates are approximate: he was born around 55 BC, probably on his family's estate at Pedum, in the hills between Tibur (Tivoli) and Praeneste (Palestrina), east of Rome. His family was of equestrian rank and had been rich, but lost much of its land, probably in the confiscations of the civil wars: in his first poem he calls himself the guardian of a field "once prosperous, now poor". A short ancient biography adds two details that tell us a lot: he was "remarkable for his good looks and for the care he took of his appearance". Unlike his friend Horace, who was short, fat and proud of it, Tibullus was the handsome one.
+
+**Messalla's man.** Instead of joining the circle of Maecenas, Tibullus attached himself to Marcus Valerius Messalla Corvinus, a great aristocrat, general and orator who had fought for Brutus at Philippi and later for Octavian at Actium, and who kept a literary circle of his own, more independent of Augustus than Maecenas's. It is through Messalla that we meet Tibullus's other surprise: the poet who wrote that he hated war actually went to war. He served on Messalla's staff in his campaign in Aquitania, in southwestern Gaul, around 28-27 BC, and won military decorations, which he mentions with some pride. A little earlier, around 30 BC, he had set out with Messalla for the East, and fell ill on the way, on the island of Corcyra (Corfu), the land of the Phaeacians in the *Odyssey*. Messalla sailed on without him. Tibullus, convinced he was dying, wrote one of his most famous elegies about it (it is the first excerpt below). He recovered, and lived to complain about it.
+
+**Horace's gloomy friend.** Horace wrote two poems to a friend called Albius, and almost everyone agrees that this is Tibullus. In one ode Horace tells him to stop grieving so much over "cruel Glycera", a girl who left him for a younger man, and to stop "chanting pitiful elegies": the most affectionate possible way of telling a friend that his poetry is a little repetitive. In a verse letter Horace imagines him wandering silently through the healthy woods of his estate at Pedum, thinking about what is worthy of a wise and good man, and reminds him that the gods have given him beauty, wealth and the art of enjoying them. And then he signs off with the line we already know: if you want a laugh, come and see me, "fat and sleek, with well-cared-for skin, a pig from Epicurus's herd". It is the perfect portrait of the two of them: the melancholy, handsome Tibullus, and Horace trying to cheer him up.
+
+**Delia, Marathus and Nemesis.** Tibullus's two books are built around three loves. In Book I the woman is **Delia**, a Greek pseudonym, like Gallus's Lycoris; according to Apuleius her real name was Plania, and *Delia* is a learned pun on it. She is apparently married, or at any rate guarded by someone, and in one poem Tibullus teaches her all the tricks for deceiving a husband or a doorkeeper, only to discover in a later poem that she is now using the same tricks against him. Ovid, defending his own *Ars Amatoria* from exile, would later point out that Tibullus had written exactly the same kind of advice and had never been punished for it. In Book I there is also **Marathus**, a beautiful boy whose love affairs Tibullus follows with jealousy, and on whose behalf the rustic god Priapus delivers a comic lecture on the art of courtship. In Book II the woman is **Nemesis**, whose name means "Retribution", and who lives up to it: she is greedy, and wants presents, and Tibullus, the poet of simple country poverty, ends up declaring that he would even sell his ancestral estate to keep her happy.
+
+**Death with Virgil.** He died young, in 19 BC, the same year as Virgil. A contemporary poet, Domitius Marsus, wrote an epitaph for the two of them: "Unjust death sent you too, Tibullus, as a young man, to be Virgil's companion in the Elysian fields." Ovid, who was barely twenty and never had the chance to become his friend, wrote a long lament for him, in which both of his mistresses turn up at the funeral. Delia says that he was happier while he loved her; Nemesis answers that it was her hand he held as he died. Years later, Ovid remembered with regret that "greedy fate did not give Tibullus time for my friendship". Quintilian, a century after his death, still thought him the most polished and elegant of the Roman elegists.
+
+## Most Important Works
+
+- **Elegiae, Book I** (c. 27-26 BC) -- ten elegies, mostly about Delia and the boy Marathus, but also about Messalla's triumph, the countryside and death. The first poem sets out Tibullus's whole programme: let others pile up gold and fight wars; he wants a small farm, a quiet life, the old gods of the countryside, and Delia beside him at the end. [Complete]
+- **Elegiae, Book II** (c. 19 BC) -- six elegies, published shortly before or after his death: a country festival, a birthday poem, a celebration of Messalla's son, and the poems for Nemesis, the greedy mistress. [Complete]
+- **The Corpus Tibullianum, Book III** -- a collection of poems by other members of Messalla's circle, transmitted with Tibullus's two books and long attributed to him: the elegies of a poet calling himself Lygdamus, a long and rather clumsy *Panegyric of Messalla* in hexameters, a cycle of poems about the love of Sulpicia for Cerinthus, and Sulpicia's own six short elegies (which have their own entry in this chapter). Many editions split this material into Books III and IV. [Complete; mostly not by Tibullus]
+
+## Writing Style and Difficulty
+
+Tibullus is the purest, smoothest and least showy of the elegists. His vocabulary is clean and classical, with very few Greek words and very few rare ones. He almost never uses mythology, which sets him apart from Propertius and Ovid: where they compare their mistresses to half the heroines of Greek legend, Tibullus talks about vines, sheep, rustic altars, the household gods and the harvest. His sentences are mostly short and clear, and his elegiac couplets are regular and musical: Quintilian's *tersus atque elegans*, "polished and elegant", is exactly right. **Lexicon: LOW to MEDIUM; Allusion density: LOW.**
+
+The difficulty of Tibullus lies elsewhere, in the way his poems move. They do not follow a logical argument. They drift, from one image to another, by association, like a daydream: a poem that begins with the poet sick on Corfu moves to his memories of leaving Delia, to the Golden Age, to his own death, to the Elysian Fields, to Tartarus, and finally to a fantasy of coming home unexpectedly and finding Delia waiting for him. Each sentence is clear; the problem is understanding why it follows the previous one. Add the usual poetic word order of the couplet, some enjambment, and the conventions of the elegiac genre (the locked door, the guardian, the rival, the lover as slave), and Tibullus is not trivial. But compared with what comes next, Propertius, he is a gentle walk in the country. **Syntactic complexity: MEDIUM; Stylistic figures: MEDIUM.**
+
+## Latin Excerpts
+
+### Excerpt 1: Elegiae I.3.1-10 and 53-58 -- Sick on Corfu
+
+**Source:** Tibullus, *Elegiae*, Book I, poem 3, lines 1-10 and 53-58, from *The Latin Library* (thelatinlibrary.com/tibullus1.html). The Latin Library capitalises the first word of every line, as many printed editions do; this has been kept.
+
+**Context:** Around 30 BC, Messalla set off for the East, and Tibullus went with him, but fell ill on Corcyra (Corfu), which he calls Phaeacia, after the island of King Alcinous in the *Odyssey*. Messalla and his staff sailed on. Alone and feverish, Tibullus writes to his patron, and then to Death itself, convinced that he is about to die far from home. In the lines between the two parts of the excerpt, he remembers how reluctant he was to leave Delia in Rome, and confesses that he invented every excuse to delay the departure: bad omens, birds, and even "the sacred day of Saturn", one of the earliest references in Latin literature to the Jewish Sabbath. Then he imagines his own death and writes his own epitaph.
+
+**Latin Text:**
+
+> Ibitis Aegaeas sine me, Messalla, per undas,
+> O utinam memores ipse cohorsque mei.
+> Me tenet ignotis aegrum Phaeacia terris,
+> Abstineas avidas, Mors, modo, nigra, manus.
+> Abstineas, Mors atra, precor: non hic mihi mater
+> Quae legat in maestos ossa perusta sinus,
+> Non soror, Assyrios cineri quae dedat odores
+> Et fleat effusis ante sepulcra comis,
+> Delia non usquam; quae me cum mitteret urbe,
+> Dicitur ante omnes consuluisse deos.
+>
+> ...
+>
+> Quodsi fatales iam nunc explevimus annos,
+> Fac lapis inscriptis stet super ossa notis:
+> 'Hic iacet inmiti consumptus morte Tibullus,
+> Messallam terra dum sequiturque mari.'
+> Sed me, quod facilis tenero sum semper Amori,
+> Ipsa Venus campos ducet in Elysios.
+
+**English Translation:**
+
+You will sail across the Aegean waves without me, Messalla:
+oh, if only you and your staff would remember me!
+Phaeacia holds me here, sick, in an unknown land.
+Keep your greedy hands away from me, black Death, I beg you;
+keep them away, dark Death, I pray. I have no mother here
+to gather my burnt bones into her grieving lap,
+no sister to pour Assyrian perfumes on my ashes
+and weep before my tomb with her hair let loose,
+and nowhere is Delia, who, when she sent me off from the city,
+is said to have consulted every god first.
+
+...
+
+But if I have already completed the years that fate allotted me,
+let a stone stand over my bones, with these words carved on it:
+"Here lies Tibullus, taken by cruel death
+while he was following Messalla over land and sea."
+But because I have always been an easy prey for tender Love,
+Venus herself will lead me to the Elysian Fields.
+
+**Analysis:**
+
+The opening is a send-off poem in reverse, like Horace's Epode 10, but in a completely different key: here it is the poet who stays behind, and the one in danger. The first line already sets the tone: *Ibitis... sine me*, "you will go without me", with *sine me* placed right in the middle, between the Aegean and the waves. Then comes the plea to Death, repeated twice with anaphora, *Abstineas... abstineas*, a jussive subjunctive softened into a prayer by *modo* and *precor*. The image of Death with "greedy hands" (*avidas... manus*) is typical Tibullus: concrete, physical, almost a figure from a painting.
+
+Then the heart of the passage: what frightens him is not death itself but dying alone, without the women who would perform his funeral rites. A Roman funeral needed family: a mother to gather the bones from the pyre, a sister to pour perfumes and mourn with her hair unbound. The list builds up in a series of negatives, *non hic mihi mater... non soror... Delia non usquam*, each clause longer and more detailed than the last, until the climax: the woman he loves is nowhere near. Notice the relative clauses of purpose with the subjunctive (*quae legat*, *quae dedat... et fleat*): "no mother who might gather", "no sister who might give". *Assyrios... odores* is a typical poetic touch: Eastern perfumes, the most precious kind.
+
+The second part, after the gap, is Tibullus's epitaph for himself, written in the form of a real Roman tomb inscription, beginning with the formula *Hic iacet*, "here lies". It is a moving and slightly self-pitying piece of self-promotion: the poet dies in the service of his patron, *Messallam terra dum sequiturque mari* (with *-que* attached, as poets often do, to the second word of the clause rather than the first). And then the typical Tibullan turn: because he has always been "easy" (*facilis*) for Love, Venus herself will guide him to the Elysian Fields. Love has a paradise of its own, and he has earned his place in it. Grammatically, note *fatales... annos*, "the years given by fate", *explevimus*, a poetic plural for "I have completed", and *Fac... stet*, an imperative of *facio* followed by a subjunctive without *ut*: "make a stone stand".
+
+He did not die, of course. He went home, and wrote the poem.
+
+---
+
+### Excerpt 2: Elegiae I.10.1-14 -- Who Invented the Sword?
+
+**Source:** Tibullus, *Elegiae*, Book I, poem 10, lines 1-14, from *The Latin Library* (thelatinlibrary.com/tibullus1.html)
+
+**Context:** The last poem of Book I, and one of the most unusual poems in Latin: an elegy against war. Tibullus has apparently been called up for military service, and does not want to go. He begins by asking who invented the sword, blames gold for the end of the peaceful Golden Age, and prays to the household gods of his childhood to protect him. Coming from a man who had actually served with distinction in Messalla's campaigns, and written in an age that celebrated Actium and the conquests of Augustus, it is a quietly remarkable piece of writing.
+
+**Latin Text:**
+
+> Quis fuit, horrendos primus qui protulit enses?
+> Quam ferus et vere ferreus ille fuit!
+> Tum caedes hominum generi, tum proelia nata,
+> Tum brevior dirae mortis aperta via est.
+> An nihil ille miser meruit, nos ad mala nostra
+> Vertimus, in saevas quod dedit ille feras?
+> Divitis hoc vitium est auri, nec bella fuerunt,
+> Faginus adstabat cum scyphus ante dapes.
+> Non arces, non vallus erat, somnumque petebat
+> Securus sparsas dux gregis inter oves.
+> Tunc mihi vita foret, volgi nec tristia nossem
+> Arma nec audissem corde micante tubam;
+> Nunc ad bella trahor, et iam quis forsitan hostis
+> Haesura in nostro tela gerit latere.
+
+**English Translation:**
+
+Who was the first to bring out the horrifying sword?
+How savage he was, how truly made of iron!
+Then slaughter was born for the human race, then battles,
+then a shorter road was opened to grim death.
+Or is that poor wretch not to blame at all, and was it we who turned to our own ruin
+what he gave us to use against savage beasts?
+This is the fault of rich gold: there were no wars
+while a beechwood cup still stood beside the meal.
+There were no citadels, no palisades, and the leader of the flock
+looked for sleep without a care among his scattered sheep.
+That was the time I should have lived, and never known
+the grim weapons of the crowd, nor heard the trumpet with a pounding heart.
+Now I am being dragged off to war, and perhaps some enemy
+is already carrying the weapon that will lodge in my side.
+
+**Analysis:**
+
+The poem opens with a question and a pun. *Quam ferus et vere ferreus ille fuit!*: "how savage, and truly made of iron, he was". *Ferus* ("wild, savage") and *ferreus* ("made of iron") sound almost the same, and the man who invented iron weapons is himself iron-hearted. The pun also hides a myth, without naming it: in the ancient story of the ages of the world, the age of iron was the last and worst, the age of war and greed. Tibullus never says so; he lets the adjective do the work.
+
+The next lines build on the same idea with anaphora (*Tum... tum... tum*, "then... then... then"), and then the poet corrects himself: perhaps the inventor is innocent, and it is we who turned against each other a weapon meant for wild animals. *Nos ad mala nostra / Vertimus*: the guilt moves from one man to all of us. The real culprit is named in line 7: *Divitis hoc vitium est auri*, "this is the fault of rich gold". In the old days, when people drank from a simple beechwood cup (*faginus... scyphus*), there were no wars, no fortresses, and the shepherd slept peacefully among his sheep. This is the Tibullan ideal in four lines: poverty, simplicity and peace, the countryside against the city, the beechwood cup against gold.
+
+Then comes the turn from the general to the personal, which is the emotional key of the poem. *Tunc mihi vita foret*, "that was when I should have lived" (an imperfect subjunctive of wish, *foret* for *esset*), followed by two pluperfect subjunctives of unreal past condition, *nossem* (for *novissem*) and *audissem*: "I would not have known, I would not have heard". And then, with a brutal present tense, reality: *Nunc ad bella trahor*, "now I am being dragged off to war". The last couplet is one of the most striking images in Augustan poetry: somewhere, at this very moment, an enemy is already carrying the weapon that will stick in the poet's side. *Haesura* is a future participle, "destined to stick", placed at the head of the line, so that the weapon is in the reader's mind before the enemy who carries it. Note also *volgi*, the old spelling of *vulgi*, and *quis*, here the indefinite "some", as it often is after *si*, *nisi* and *ne*, and here after *forsitan*.
+
+---
+
+## Legacy and Impact
+
+In antiquity Tibullus was admired more than he is today. Quintilian ranked him first among the Roman elegists, "most polished and elegant", ahead of Propertius and Ovid. Ovid himself, who loved him, placed him in the line of the great elegists between Gallus and Propertius, mourned him in one of his finest poems, and saw him as the model of the gentle, refined love poet. His influence on the countryside of later Latin poetry, on its rustic festivals, its simple gods and its dream of peace far from war and wealth, was deep and lasting.
+
+Since then, he has suffered the fate of the quiet. In the Renaissance and in the eighteenth century, readers who found Propertius too difficult and Ovid too cynical loved Tibullus for his purity and his gentle melancholy, and he was imitated by poets writing in Latin and in the modern languages. But the nineteenth and twentieth centuries preferred Propertius's passion and Ovid's wit, and Tibullus slipped into the background, read mostly by specialists. He also has the strange distinction of being the poet whose name protected someone else's work: it is only because the poems of Sulpicia were copied as part of the *Corpus Tibullianum* that the only surviving poems by a Roman woman reached us at all.
+
+He deserves better. His anti-war elegy, written in the age of Augustus's triumphs, still reads as one of the most humane poems of antiquity, and his dream of the small farm and the beechwood cup is the ancestor of every poem that has ever preferred a quiet life to a glorious one.
+
+---
+
+## Final Rating
+
+**Tier: C (Manageable)**
+
+Tibullus is the most accessible of the Augustan poets. His vocabulary is pure and classical, his sentences are mostly short and clear, he uses almost no mythology, and his couplets are smooth and regular. He is still verse, with the normal poetic word order and the conventions of the elegiac genre, and his habit of drifting from one image to another by association means that the logic of a whole poem can be harder to follow than any single sentence in it. But he never plays games with the reader the way Horace does, and he never buries him under learned allusions the way Propertius will. A solid C: the right place to begin with Latin elegy, before Ovid, and long before Propertius.
 
 ---

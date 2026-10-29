@@ -379,7 +379,7 @@ Una decina di versi, diversi dei quali spezzati, non possono sostenere una valut
 
 ### Biografia *(italiano)*
 
-Virgilio è il poeta latino più famoso che sia mai esistito, e forse l'autore latino più famoso in assoluto. È anche, a detta di tutte le fonti antiche, uno degli uomini più timidi, impacciati e ansiosi che siano mai diventati delle celebrità. Quasi tutto ciò che sappiamo della sua vita viene da una biografia di Svetonio giunta a noi nella versione del grammatico del IV secolo Elio Donato, e dal commento di Servio. Una parte è leggenda. Tutto merita di essere raccontato.
+Virgilio è il poeta latino più famoso che sia mai esistito, e forse l'autore latino più famoso in assoluto. È anche, a detta di tutte le fonti antiche, uno degli uomini più timidi, impacciati e ansiosi che siano mai diventati delle celebrità. Quasi tutto ciò che sappiamo della sua vita viene da una biografia di Svetonio giunta a noi nella versione del grammatico del IV secolo Elio Donato, e dal commento di Servio. Una parte è leggenda. Tutto merita di essere raccontato. E se lo si mette accanto al suo amico Orazio, la differenza tra i due salta subito agli occhi: Virgilio punta sempre alle stelle e oltre, al destino, all'impero, agli dèi e al senso della storia, mentre Orazio si accontenta di ricordarci la nostra umanità. Sono entrambe ragioni per goderseli fino in fondo.
 
 **Un alloro in un fosso.** Publio Virgilio Marone nacque il 15 ottobre del 70 a.C. nel villaggio di Andes, vicino a Mantova, in quella che allora era la Gallia Cisalpina. Il padre era un uomo di origini modeste: secondo Donato, o un vasaio o il garzone di un piccolo funzionario di nome Magio, ma se la cavò abbastanza bene da sposare la figlia del suo padrone, Magia Polla, e da comprarsi terre e api. Prima che Virgilio nascesse, la madre sognò di partorire un ramo d'alloro che metteva subito radici e diventava un albero adulto, carico di frutti e di fiori. Il giorno dopo partorì in un fosso a bordo della strada, mentre andava in campagna. Il neonato, ci dicono, non pianse, e aveva un'espressione così dolce che tutti la presero per un segno di buona sorte. Un pioppo piantato sul posto crebbe così in fretta che le donne del luogo cominciarono a pregarlo. Ogni grande romano ebbe qualche presagio; Virgilio ebbe un orto botanico.
 
@@ -600,7 +600,7 @@ Virgilio è difficile in quasi tutti i criteri contemporaneamente: ordine poetic
 
 ### Biografia *(italiano)*
 
-Se Virgilio è il genio timido dell'età augustea, Orazio è la sua compagnia migliore. È l'amico che non si prende mai troppo sul serio, che ti dice in faccia i tuoi vizi e poi ti versa una coppa di Falerno per aiutarti a berci sopra. Ride degli avidi, degli ambiziosi, dei seccatori e degli arrampicatori sociali, e ride altrettanto di se stesso: basso, grasso, precocemente grigio, pronto ad arrabbiarsi e pronto a calmarsi di nuovo, e, per sua stessa definizione, "un porco del gregge di Epicuro". E poi, dopo averti fatto ridere, scrive alcune delle poesie liriche più belle della letteratura latina. È il grande poeta lirico dell'età augustea, e probabilmente il poeta più citabile che Roma abbia mai prodotto.
+Se Virgilio è il genio timido dell'età augustea, Orazio è la sua compagnia migliore. È l'amico che non si prende mai troppo sul serio, che ti dice in faccia i tuoi vizi e poi ti versa una coppa di Falerno per aiutarti a berci sopra. Ride degli avidi, degli ambiziosi, dei seccatori e degli arrampicatori sociali, e ride altrettanto di se stesso: basso, grasso, precocemente grigio, pronto ad arrabbiarsi e pronto a calmarsi di nuovo, e, per sua stessa definizione, "un porco del gregge di Epicuro". E poi, dopo averti fatto ridere, scrive alcune delle poesie liriche più belle della letteratura latina. È il grande poeta lirico dell'età augustea, e probabilmente il poeta più citabile che Roma abbia mai prodotto. Se Virgilio punta sempre alle stelle e oltre, Orazio si accontenta di ricordarci la nostra umanità: gli amici, il vino, il volgere delle stagioni, i limiti di una sola vita e il modo di viverla bene al loro interno. Sono entrambe ragioni per goderseli fino in fondo.
 
 **Il figlio del liberto.** Quinto Orazio Flacco nacque l'8 dicembre del 65 a.C. a Venosa, una colonia militare al confine tra l'Apulia e la Lucania, nell'Italia meridionale. Il padre era un liberto, un ex schiavo, che lavorava come *coactor*, esattore dei pagamenti nelle aste: un mestiere modesto, ma redditizio. Prese una decisione che cambiò la vita del figlio: invece di mandarlo alla scuola del posto, dove andavano i figli dei centurioni con le loro cartelle e le loro tavolette, lo portò a Roma perché studiasse insieme ai figli dei senatori e dei cavalieri, e lo accompagnò di persona a ogni lezione, come custode. Orazio non lo dimenticò mai. In una delle sue satire scrive che, se ha qualche buona qualità, la deve a suo padre, e che non lo scambierebbe con nessun padre nobile di Roma. Il suo maestro a Roma, Orbilio, è ricordato in letteratura per una cosa sola: Orazio lo chiama *plagosus*, "manesco", la prima celebre bacchettata scolastica della storia.
 
@@ -1005,5 +1005,163 @@ Il Rinascimento ne fece un eroe. Dante, nell'*Inferno*, lo chiama "Livio... che 
 **Tier: B (Difficult)**
 
 Livio scrive in prosa, con un lessico standard e poche allusioni letterarie, quindi gioca in un altro campionato rispetto a Virgilio e Orazio. Ma non è facile. I suoi lunghi periodi, carichi di participi, ablativi assoluti e subordinate, richiedono al lettore di tenere a mente l'intera struttura finché non arriva il verbo principale; i suoi discorsi indiretti possono durare paragrafi interi; l'infinito storico, la coloritura poetica della prima decade e il suo amore per la *variatio* colgono di sorpresa i distratti. E poi c'è la pura pazienza necessaria: Livio premia chi va avanti e punisce chi perde la concentrazione a metà di una frase. È chiaramente più difficile di Cesare e di Nepote, e al livello delle orazioni di Cicerone: impegnativo ma affrontabile con preparazione, che è esattamente ciò che significa B. Le decadi più tarde, con le loro lunghe narrazioni militari, si avvicinano alla C; la prima decade e i grandi discorsi toccano la fascia alta della B.
+
+---
+
+## ALBIO TIBULLO (c. 55 -- 19 a.C.)
+
+### Biografia *(italiano)*
+
+Tibullo è oggi il meno famoso dei grandi poeti augustei, e quello che i Romani stessi consideravano il più elegante. Scrisse elegie d'amore, come Gallo prima di lui e Properzio e Ovidio dopo di lui, ma le sue non somigliano a quelle di nessun altro: sognanti, dolci e malinconiche, piene di campagna, di semplici dèi rustici, di pace e di una costante, quieta consapevolezza della morte. Se Properzio è il passionale e Ovidio l'arguto, Tibullo è il sognatore a occhi aperti: il poeta che, nel mezzo di una poesia d'amore, si perde nella fantasia di vivere in una fattoria con la sua ragazza, e poi si risveglia scoprendo che lei lo ha lasciato per qualcuno più ricco.
+
+**Un bel cavaliere della campagna laziale.** Della sua vita sappiamo pochissimo, e le date sono approssimative: nacque intorno al 55 a.C., probabilmente nella tenuta di famiglia a Pedum, sulle colline tra Tibur (Tivoli) e Praeneste (Palestrina), a est di Roma. La famiglia era di rango equestre ed era stata ricca, ma perse buona parte delle sue terre, probabilmente nelle confische delle guerre civili: nella sua prima poesia si definisce custode di un campo "un tempo prospero, ora povero". Una breve biografia antica aggiunge due dettagli che dicono molto: era "notevole per la bellezza e per la cura che dedicava al proprio aspetto". A differenza dell'amico Orazio, basso, grasso e fiero di esserlo, Tibullo era quello bello.
+
+**L'uomo di Messalla.** Invece di entrare nel circolo di Mecenate, Tibullo si legò a Marco Valerio Messalla Corvino, un grande aristocratico, generale e oratore che aveva combattuto per Bruto a Filippi e poi per Ottaviano ad Azio, e che aveva un circolo letterario tutto suo, più indipendente da Augusto di quello di Mecenate. È attraverso Messalla che incontriamo l'altra sorpresa di Tibullo: il poeta che scriveva di odiare la guerra, la guerra la fece davvero. Servì nello stato maggiore di Messalla durante la campagna in Aquitania, nella Gallia sud-occidentale, intorno al 28-27 a.C., e ottenne decorazioni militari, che ricorda con un certo orgoglio. Poco prima, intorno al 30 a.C., era partito con Messalla per l'Oriente, e si era ammalato lungo il viaggio, sull'isola di Corcira (Corfù), la terra dei Feaci dell'*Odissea*. Messalla proseguì senza di lui. Tibullo, convinto di morire, ci scrisse sopra una delle sue elegie più famose (è il primo brano qui sotto). Guarì, e visse abbastanza da lamentarsene.
+
+**L'amico malinconico di Orazio.** Orazio scrisse due componimenti a un amico di nome Albio, e quasi tutti concordano che si tratti di Tibullo. In un'ode Orazio gli dice di smettere di affliggersi tanto per la "crudele Glicera", una ragazza che lo aveva lasciato per uno più giovane, e di smettere di "cantare elegie lamentose": il modo più affettuoso possibile per dire a un amico che la sua poesia è un po' ripetitiva. In un'epistola in versi Orazio lo immagina mentre vaga in silenzio per i boschi salubri della sua tenuta di Pedum, riflettendo su ciò che è degno di un uomo saggio e buono, e gli ricorda che gli dèi gli hanno dato bellezza, ricchezza e l'arte di goderne. E poi si congeda con il verso che conosciamo già: se vuoi farti una risata, vieni a trovarmi, "grasso e lucido, con la pelle ben curata, un porco del gregge di Epicuro". È il ritratto perfetto dei due: il bello e malinconico Tibullo, e Orazio che cerca di tirarlo su di morale.
+
+**Delia, Marato e Nemesi.** I due libri di Tibullo sono costruiti intorno a tre amori. Nel libro I la donna è **Delia**, uno pseudonimo greco, come la Licoride di Gallo; secondo Apuleio il suo vero nome era Plania, e *Delia* ne è un dotto gioco di parole. A quanto pare è sposata, o comunque sorvegliata da qualcuno, e in una poesia Tibullo le insegna tutti i trucchi per ingannare un marito o un portinaio, salvo scoprire in una poesia successiva che ora lei usa gli stessi trucchi contro di lui. Ovidio, difendendo dall'esilio la propria *Ars Amatoria*, avrebbe poi fatto notare che Tibullo aveva scritto esattamente lo stesso genere di consigli senza essere mai punito. Nel libro I c'è anche **Marato**, un bel ragazzo di cui Tibullo segue le avventure amorose con gelosia, e per conto del quale il dio rustico Priapo tiene una comica lezione sull'arte del corteggiamento. Nel libro II la donna è **Nemesi**, il cui nome significa "Vendetta", e che è all'altezza del nome: è avida, vuole regali, e Tibullo, il poeta della semplice povertà campestre, finisce per dichiarare che venderebbe perfino la tenuta degli avi pur di accontentarla.
+
+**Una morte accanto a Virgilio.** Morì giovane, nel 19 a.C., lo stesso anno di Virgilio. Un poeta contemporaneo, Domizio Marso, scrisse un epitaffio per entrambi: "Una morte ingiusta mandò anche te, Tibullo, ancora giovane, nei campi Elisi a far compagnia a Virgilio." Ovidio, che aveva appena vent'anni e non ebbe mai l'occasione di diventargli amico, scrisse per lui un lungo lamento, in cui al funerale si presentano entrambe le sue amanti. Delia dice che lui era più felice quando amava lei; Nemesi risponde che era la sua mano quella che lui stringeva mentre moriva. Anni dopo, Ovidio ricordava con rammarico che "il fato avaro non diede a Tibullo il tempo della mia amicizia". Quintiliano, un secolo dopo la sua morte, lo considerava ancora il più terso ed elegante degli elegiaci romani.
+
+### Opere principali *(italiano)*
+
+- **Elegiae, libro I** (c. 27-26 a.C.) -- dieci elegie, per lo più su Delia e sul ragazzo Marato, ma anche sul trionfo di Messalla, sulla campagna e sulla morte. La prima poesia espone l'intero programma di Tibullo: altri accumulino oro e facciano guerre; lui vuole un piccolo podere, una vita tranquilla, gli antichi dèi della campagna, e Delia accanto a sé alla fine. [Completo]
+- **Elegiae, libro II** (c. 19 a.C.) -- sei elegie, pubblicate poco prima o poco dopo la sua morte: una festa campestre, una poesia di compleanno, una celebrazione del figlio di Messalla e le poesie per Nemesi, l'amante avida. [Completo]
+- **Il Corpus Tibullianum, libro III** -- una raccolta di poesie di altri membri del circolo di Messalla, trasmessa insieme ai due libri di Tibullo e a lungo attribuita a lui: le elegie di un poeta che si fa chiamare Ligdamo, un lungo e piuttosto goffo *Panegirico di Messalla* in esametri, un ciclo di poesie sull'amore di Sulpicia per Cerinto, e le sei brevi elegie di Sulpicia stessa (che hanno una voce propria in questo capitolo). Molte edizioni dividono questo materiale nei libri III e IV. [Completo; per lo più non di Tibullo]
+
+### Stile e difficoltà *(italiano)*
+
+Tibullo è il più puro, il più levigato e il meno appariscente degli elegiaci. Il suo lessico è pulito e classico, con pochissime parole greche e pochissime parole rare. Quasi non usa la mitologia, cosa che lo distingue da Properzio e da Ovidio: dove loro paragonano le loro amanti a mezza leggenda greca, Tibullo parla di viti, pecore, altari rustici, dèi domestici e mietitura. Le sue frasi sono per lo più brevi e chiare, e i suoi distici elegiaci sono regolari e musicali: il *tersus atque elegans* di Quintiliano, "terso ed elegante", è esattamente giusto. **Lessico: da BASSO a MEDIO; Densità allusiva: BASSA.**
+
+La difficoltà di Tibullo sta altrove, nel modo in cui si muovono le sue poesie. Non seguono un ragionamento logico. Scivolano da un'immagine all'altra per associazione, come un sogno a occhi aperti: una poesia che comincia con il poeta malato a Corfù passa ai ricordi della partenza da Delia, all'età dell'oro, alla propria morte, ai Campi Elisi, al Tartaro e infine alla fantasia di tornare a casa all'improvviso e trovare Delia ad aspettarlo. Ogni frase è chiara; il problema è capire perché segua la precedente. Si aggiungano il consueto ordine poetico delle parole nel distico, qualche enjambement e le convenzioni del genere elegiaco (la porta chiusa, il guardiano, il rivale, l'amante schiavo), e Tibullo non è banale. Ma rispetto a ciò che viene dopo, Properzio, è una tranquilla passeggiata in campagna. **Complessità sintattica: MEDIA; Figure retoriche: MEDIE.**
+
+### Brano 1: Elegiae I.3.1-10 e 53-58 -- Malato a Corfù
+
+**Fonte:** Tibullo, *Elegiae*, libro I, carme 3, versi 1-10 e 53-58, da *The Latin Library* (thelatinlibrary.com/tibullus1.html). The Latin Library scrive con la maiuscola la prima parola di ogni verso, come molte edizioni a stampa; è stato mantenuto così.
+
+**Contesto:** Intorno al 30 a.C. Messalla partì per l'Oriente, e Tibullo andò con lui, ma si ammalò a Corcira (Corfù), che chiama Feacia, dall'isola del re Alcinoo nell'*Odissea*. Messalla e il suo seguito proseguirono per mare. Solo e febbricitante, Tibullo scrive al suo patrono, e poi alla Morte stessa, convinto di stare per morire lontano da casa. Nei versi tra le due parti del brano ricorda quanto fosse riluttante a lasciare Delia a Roma, e confessa di aver inventato ogni scusa per ritardare la partenza: cattivi presagi, uccelli, e perfino "il giorno sacro a Saturno", uno dei primi riferimenti della letteratura latina al sabato ebraico. Poi immagina la propria morte e scrive il proprio epitaffio.
+
+**Testo latino:**
+
+> Ibitis Aegaeas sine me, Messalla, per undas,
+> O utinam memores ipse cohorsque mei.
+> Me tenet ignotis aegrum Phaeacia terris,
+> Abstineas avidas, Mors, modo, nigra, manus.
+> Abstineas, Mors atra, precor: non hic mihi mater
+> Quae legat in maestos ossa perusta sinus,
+> Non soror, Assyrios cineri quae dedat odores
+> Et fleat effusis ante sepulcra comis,
+> Delia non usquam; quae me cum mitteret urbe,
+> Dicitur ante omnes consuluisse deos.
+>
+> ...
+>
+> Quodsi fatales iam nunc explevimus annos,
+> Fac lapis inscriptis stet super ossa notis:
+> 'Hic iacet inmiti consumptus morte Tibullus,
+> Messallam terra dum sequiturque mari.'
+> Sed me, quod facilis tenero sum semper Amori,
+> Ipsa Venus campos ducet in Elysios.
+
+**Traduzione italiana** *(originale)*:
+
+Andrete per le onde dell'Egeo senza di me, Messalla:
+oh, se almeno tu e il tuo seguito vi ricordaste di me!
+La Feacia mi trattiene qui, malato, in una terra sconosciuta.
+Tieni lontane da me le tue mani avide, nera Morte, ti prego;
+tienile lontane, cupa Morte, ti supplico. Non ho qui una madre
+che raccolga in grembo, piangendo, le mie ossa bruciate,
+non una sorella che versi profumi d'Assiria sulle mie ceneri
+e pianga davanti al mio sepolcro con i capelli sciolti,
+e Delia non c'è da nessuna parte, lei che, quando mi lasciò partire dalla città,
+si dice abbia consultato prima tutti gli dèi.
+
+...
+
+Ma se ho già compiuto gli anni che il fato mi ha assegnato,
+fa' che sopra le mie ossa stia una pietra con queste parole incise:
+"Qui giace Tibullo, portato via da una morte crudele
+mentre seguiva Messalla per terra e per mare."
+Ma poiché sono sempre stato una facile preda del tenero Amore,
+sarà Venere in persona a condurmi nei Campi Elisi.
+
+**Analisi:**
+
+L'apertura è una poesia di commiato rovesciata, come l'Epodo 10 di Orazio, ma in una tonalità completamente diversa: qui è il poeta a restare indietro, ed è lui in pericolo. Il primo verso dà già il tono: *Ibitis... sine me*, "andrete senza di me", con *sine me* collocato proprio nel mezzo, tra l'Egeo e le onde. Poi arriva la supplica alla Morte, ripetuta due volte in anafora, *Abstineas... abstineas*, un congiuntivo esortativo addolcito in preghiera da *modo* e *precor*. L'immagine della Morte con le "mani avide" (*avidas... manus*) è tipicamente tibulliana: concreta, fisica, quasi una figura dipinta.
+
+Poi il cuore del brano: ciò che lo spaventa non è la morte in sé, ma morire da solo, senza le donne che celebrerebbero i suoi riti funebri. Un funerale romano aveva bisogno della famiglia: una madre che raccogliesse le ossa dal rogo, una sorella che versasse i profumi e piangesse con i capelli sciolti. L'elenco cresce in una serie di negazioni, *non hic mihi mater... non soror... Delia non usquam*, ogni proposizione più lunga e dettagliata della precedente, fino al culmine: la donna che ama non è da nessuna parte. Si notino le relative finali al congiuntivo (*quae legat*, *quae dedat... et fleat*): "nessuna madre che raccolga", "nessuna sorella che versi". *Assyrios... odores* è un tipico tocco poetico: profumi d'Oriente, i più preziosi.
+
+La seconda parte, dopo la lacuna, è l'epitaffio di Tibullo per se stesso, scritto nella forma di una vera iscrizione funeraria romana, che comincia con la formula *Hic iacet*, "qui giace". È un pezzo di autopromozione commovente e un po' autocommiserativo: il poeta muore al servizio del suo patrono, *Messallam terra dum sequiturque mari* (con il *-que* attaccato, come spesso fanno i poeti, alla seconda parola della proposizione invece che alla prima). E poi la tipica svolta tibulliana: poiché è sempre stato "facile" (*facilis*) per l'Amore, Venere in persona lo guiderà ai Campi Elisi. L'amore ha un paradiso tutto suo, e lui si è guadagnato il posto. Dal punto di vista grammaticale, si notino *fatales... annos*, "gli anni assegnati dal fato", *explevimus*, plurale poetico per "ho compiuto", e *Fac... stet*, un imperativo di *facio* seguito da un congiuntivo senza *ut*: "fa' che una pietra stia".
+
+Naturalmente non morì. Tornò a casa, e scrisse la poesia.
+
+---
+
+### Brano 2: Elegiae I.10.1-14 -- Chi inventò la spada?
+
+**Fonte:** Tibullo, *Elegiae*, libro I, carme 10, versi 1-14, da *The Latin Library* (thelatinlibrary.com/tibullus1.html)
+
+**Contesto:** L'ultima poesia del libro I, e una delle poesie più insolite della letteratura latina: un'elegia contro la guerra. A quanto pare Tibullo è stato richiamato alle armi, e non vuole partire. Comincia chiedendosi chi abbia inventato la spada, dà la colpa all'oro per la fine della pacifica età dell'oro e prega gli dèi domestici della sua infanzia di proteggerlo. Detto da un uomo che aveva davvero servito con onore nelle campagne di Messalla, e scritto in un'epoca che celebrava Azio e le conquiste di Augusto, è un testo silenziosamente straordinario.
+
+**Testo latino:**
+
+> Quis fuit, horrendos primus qui protulit enses?
+> Quam ferus et vere ferreus ille fuit!
+> Tum caedes hominum generi, tum proelia nata,
+> Tum brevior dirae mortis aperta via est.
+> An nihil ille miser meruit, nos ad mala nostra
+> Vertimus, in saevas quod dedit ille feras?
+> Divitis hoc vitium est auri, nec bella fuerunt,
+> Faginus adstabat cum scyphus ante dapes.
+> Non arces, non vallus erat, somnumque petebat
+> Securus sparsas dux gregis inter oves.
+> Tunc mihi vita foret, volgi nec tristia nossem
+> Arma nec audissem corde micante tubam;
+> Nunc ad bella trahor, et iam quis forsitan hostis
+> Haesura in nostro tela gerit latere.
+
+**Traduzione italiana** *(originale)*:
+
+Chi fu il primo a tirar fuori le orrende spade?
+Quanto fu feroce, e davvero di ferro!
+Allora nacquero le stragi per il genere umano, allora le battaglie,
+allora si aprì una via più breve verso la morte crudele.
+O forse quel disgraziato non ha alcuna colpa, e siamo stati noi a volgere a nostro danno
+ciò che lui ci aveva dato contro le bestie feroci?
+È colpa dell'oro che rende ricchi: non c'erano guerre
+quando accanto alle vivande stava una coppa di faggio.
+Non c'erano rocche, non c'erano palizzate, e il capo del gregge
+cercava il sonno senza pensieri tra le pecore sparse.
+Allora avrei voluto vivere, senza conoscere
+le tristi armi della folla, senza sentire la tromba con il cuore che batte.
+Ora vengo trascinato in guerra, e forse qualche nemico
+porta già le armi che si conficcheranno nel mio fianco.
+
+**Analisi:**
+
+La poesia si apre con una domanda e un gioco di parole. *Quam ferus et vere ferreus ille fuit!*: "quanto fu feroce, e davvero di ferro". *Ferus* ("selvaggio, feroce") e *ferreus* ("di ferro") suonano quasi uguali, e l'uomo che inventò le armi di ferro ha lui stesso un cuore di ferro. Il gioco di parole nasconde anche un mito, senza nominarlo: nell'antico racconto delle età del mondo, l'età del ferro era l'ultima e la peggiore, l'età della guerra e dell'avidità. Tibullo non lo dice mai; lascia lavorare l'aggettivo.
+
+I versi successivi sviluppano la stessa idea con un'anafora (*Tum... tum... tum*, "allora... allora... allora"), e poi il poeta si corregge: forse l'inventore è innocente, e siamo noi ad aver rivolto gli uni contro gli altri un'arma pensata per le bestie feroci. *Nos ad mala nostra / Vertimus*: la colpa passa da un uomo a tutti noi. Il vero colpevole è nominato al verso 7: *Divitis hoc vitium est auri*, "è colpa dell'oro che rende ricchi". Nei tempi antichi, quando si beveva da una semplice coppa di faggio (*faginus... scyphus*), non c'erano guerre né fortezze, e il pastore dormiva tranquillo tra le sue pecore. È l'ideale tibulliano in quattro versi: povertà, semplicità e pace, la campagna contro la città, la coppa di faggio contro l'oro.
+
+Poi arriva il passaggio dal generale al personale, che è la chiave emotiva della poesia. *Tunc mihi vita foret*, "allora avrei voluto vivere" (un congiuntivo imperfetto desiderativo, *foret* per *esset*), seguito da due congiuntivi piuccheperfetti dell'irrealtà nel passato, *nossem* (per *novissem*) e *audissem*: "non avrei conosciuto, non avrei sentito". E poi, con un brutale presente, la realtà: *Nunc ad bella trahor*, "ora vengo trascinato in guerra". L'ultimo distico è una delle immagini più forti della poesia augustea: da qualche parte, in questo stesso momento, un nemico porta già l'arma che si conficcherà nel fianco del poeta. *Haesura* è un participio futuro, "destinata a conficcarsi", posto all'inizio del verso, così che l'arma è nella mente del lettore prima del nemico che la porta. Si notino anche *volgi*, la grafia antica di *vulgi*, e *quis*, qui indefinito, "qualche", come spesso accade dopo *si*, *nisi* e *ne*, e qui dopo *forsitan*.
+
+---
+
+### Eredità e Impatto
+
+Nell'antichità Tibullo era ammirato più di quanto lo sia oggi. Quintiliano lo mise al primo posto tra gli elegiaci romani, "il più terso ed elegante", davanti a Properzio e a Ovidio. Ovidio stesso, che lo amava, lo collocò nella serie dei grandi elegiaci tra Gallo e Properzio, lo pianse in una delle sue poesie più belle e vide in lui il modello del poeta d'amore gentile e raffinato. La sua influenza sulla campagna della poesia latina successiva, sulle sue feste rustiche, i suoi dèi semplici e il suo sogno di pace lontano dalla guerra e dalla ricchezza, fu profonda e duratura.
+
+Da allora ha subito il destino dei silenziosi. Nel Rinascimento e nel Settecento, i lettori che trovavano Properzio troppo difficile e Ovidio troppo cinico amavano Tibullo per la sua purezza e la sua dolce malinconia, e fu imitato da poeti che scrivevano in latino e nelle lingue moderne. Ma l'Ottocento e il Novecento preferirono la passione di Properzio e l'arguzia di Ovidio, e Tibullo scivolò sullo sfondo, letto soprattutto dagli specialisti. Ha anche lo strano primato di essere il poeta il cui nome ha protetto l'opera di qualcun altro: è solo perché le poesie di Sulpicia furono copiate all'interno del *Corpus Tibullianum* che le uniche poesie di una donna romana sono giunte fino a noi.
+
+Meriterebbe di più. La sua elegia contro la guerra, scritta nell'età dei trionfi di Augusto, si legge ancora oggi come una delle poesie più umane dell'antichità, e il suo sogno del piccolo podere e della coppa di faggio è l'antenato di ogni poesia che abbia mai preferito una vita tranquilla a una vita gloriosa.
+
+---
+
+### Valutazione finale *(italiano)*
+
+**Tier: C (Manageable)**
+
+Tibullo è il più accessibile dei poeti augustei. Il suo lessico è puro e classico, le sue frasi sono per lo più brevi e chiare, quasi non usa la mitologia e i suoi distici sono levigati e regolari. Resta comunque poesia, con il normale ordine poetico delle parole e le convenzioni del genere elegiaco, e la sua abitudine di passare da un'immagine all'altra per associazione fa sì che la logica di un'intera poesia possa essere più difficile da seguire di qualsiasi singola frase al suo interno. Ma non gioca mai con il lettore come fa Orazio, e non lo seppellisce mai sotto allusioni erudite come farà Properzio. Una C solida: il punto giusto da cui cominciare con l'elegia latina, prima di Ovidio, e molto prima di Properzio.
 
 ---
