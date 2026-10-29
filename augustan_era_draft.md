@@ -1295,3 +1295,184 @@ Her real importance is simple and immense. She is the only woman of classical Ro
 Sulpicia's poems are short, complete and written in plain vocabulary, with almost no mythology and no learned digressions: with all forty lines in front of you, you can finish her entire works, which is a rare pleasure. That is what pulls her towards D. But her syntax is genuinely compressed, with double negatives, comparisons inside comparisons, abstract datives and decisive words held back until the end of a long sentence, and line for line she can be harder than Tibullus. So C, at the easy end of it: the shortest exam in the project, but not a free pass.
 
 ---
+
+# SEXTUS PROPERTIUS (c. 50 -- after 16 BC)
+
+## Biography
+
+If Tibullus is the daydreamer of Roman elegy, Propertius is its storm. He is passionate, obsessive, jealous, self-pitying, funny, learned, morbid, proud and completely unpredictable, often all within the same poem. He spent five years writing about one woman, Cynthia, and he made her the most vivid woman in Latin poetry: we see her asleep, drunk, furious, sick, beautiful, unfaithful, dead and, in his most extraordinary poem, back from the dead to tell him off. He is also, by common consent, the most difficult of the Roman elegists: a poet so dense, so allusive and so badly preserved that even professional Latinists argue over what he is saying in half his lines. And he is worth every bit of the effort.
+
+**The Umbrian.** Sextus Propertius was born around 50 BC, perhaps a little later, at Asisium, modern Assisi, in Umbria: the same hill town that would later give the world Saint Francis. He was proud of it, and calls Umbria "the homeland of the Roman Callimachus", that is, of himself. His family were local landowners of some standing, but the civil wars hit them hard. His father died when he was young. In 41-40 BC, during the Perusine War, when Octavian besieged Lucius Antonius in nearby Perusia (Perugia), a relative of Propertius was killed and left unburied in the Etruscan hills, and the family lost much of its land in the confiscations that followed: "the grim surveyor's rod took away our well-tilled wealth". Like Virgil and Tibullus, he grew up knowing exactly what the new regime had cost.
+
+**No lawyer.** His mother brought him to Rome and expected him to do the sensible thing: study law, speak in the Forum, start a public career. He tried. Then, as he tells it in his last book, the god Apollo himself forbade him to "thunder out words in the insane Forum", and told him to write elegies instead, adding, helpfully, that he would always be at the mercy of a girl. Apollo was right on both counts.
+
+**Cynthia.** The girl was Cynthia, and she is the first word of his first book: *Cynthia prima suis miserum me cepit ocellis*, "Cynthia was the first to capture me, poor wretch, with her eyes". According to Apuleius her real name was Hostia; *Cynthia* is a learned pseudonym, from Mount Cynthus on Delos, the birthplace of Apollo, the god of poetry. She seems to have been a sophisticated, independent woman of the demi-monde, probably older than he was, beautiful, witty, a reader and even a writer of poetry, and, by his account, magnificently impossible. The affair lasted about five years, broke down several times, and ended for good at the close of Book III, where Propertius bids her a bitter farewell. She then returned in Book IV, twice, once as a ghost.
+
+**Maecenas comes calling.** His first book, published around 29-28 BC and known simply as the *Cynthia* or the *Monobiblos* (the "single book"), was an immediate success, and it brought him an invitation into the circle of Maecenas. His next books are dedicated to him, and they show Propertius trying to stay himself inside the official culture of Augustan Rome. When Maecenas asks him for epic, he answers with the most famous *recusatio* in elegy: he cannot sing of Caesar's wars, because his only war is in bed. When Augustus withdraws a law that would have forced men of his class to marry, Propertius celebrates in verse, and adds the most un-Augustan line of the age: "no son of mine will ever be a soldier". He got away with it. It is a measure of how much freedom the poets of Maecenas still had in the 20s BC.
+
+**Horace's rival?** Horace and Propertius belonged to the same circle and never once mention each other, which, for two poets so fond of naming their friends, is a silence that says a lot. Many scholars think Horace was mocking him in a letter of around 19 BC, where he describes two poets in Rome who flatter each other shamelessly at recitations: "I come away an Alcaeus by his vote; and what is he by mine? Who but Callimachus?" Propertius was the only poet in Rome who called himself the Roman Callimachus. If the jab was meant for him, it is one of the best literary insults of antiquity.
+
+**Ovid's friend.** Ovid, much younger, was his friend and admirer, and remembered him reciting his love poems (his "fires", as Ovid puts it) to their circle. In Ovid's list of Roman elegists, Propertius is the third, between Tibullus and Ovid himself.
+
+**Death, and a descendant.** His last datable poem was written in 16 BC; after that he disappears, and we do not know when he died. But his family went on writing. A century later, Pliny the Younger describes a recitation by a certain Passennus Paulus, a descendant of Propertius who wrote elegies in the family style. He began his first poem, as poets do, with an address to a friend in the audience: *Prisce, iubes...*, "Priscus, you bid me...". Whereupon Priscus, a distinguished jurist sitting in the front row, called out: "I most certainly do not bid you!" The audience collapsed, and the recitation never quite recovered. Pliny adds, in fairness, that Priscus was generally thought to be a little unhinged.
+
+## Most Important Works
+
+- **Elegiae, Book I** (*Cynthia* or *Monobiblos*, c. 29-28 BC) -- twenty-two elegies, almost all about Cynthia: falling in love, jealousy, a night spent outside her locked door, her plan to leave him for a trip abroad, and two final poems on the dead of the Perusine War. [Complete]
+- **Elegiae, Book II** (c. 26-25 BC) -- the longest book, and possibly two books run together in the manuscripts: more Cynthia, the *recusatio* to Maecenas, the celebration of the withdrawn marriage law, and a famous poem on the image of Love as a winged boy. [Complete, but the text is in poor condition]
+- **Elegiae, Book III** (c. 23-22 BC) -- a more varied book, in which Propertius presents himself as the Roman Callimachus, writes about politics, money, death and the Parthian expedition, and ends with his farewell to Cynthia. [Complete]
+- **Elegiae, Book IV** (c. 16 BC) -- a new kind of poetry: alongside the last Cynthia poems, a series of "Roman" elegies explaining the origins of Roman cults, places and names (the god Vertumnus, the traitor Tarpeia, Hercules at the site of Rome, the temple of Jupiter Feretrius, Apollo at Actium), modelled on the *Aetia* of Callimachus, and the speech of the dead noblewoman Cornelia from her tomb, often called the "queen of elegies". [Complete]
+
+## Writing Style and Difficulty
+
+The best way to understand Propertius's style is to compare him with Tibullus. Tibullus avoids mythology; Propertius cannot get through ten lines without it. When Cynthia falls asleep, she is like Ariadne abandoned on Naxos, Andromeda freed from her rock and a Bacchant collapsed beside a river, all in the first six lines of the poem. His model is not Tibullus but Callimachus, the most learned poet of Hellenistic Alexandria, and he fills his poems with rare myths, obscure place names, and allusions that are never explained, because explaining them would spoil the pleasure for a learned reader. For a modern student, they are an obstacle course. **Allusion density: HIGH.**
+
+His Latin is just as demanding. Propertius compresses ruthlessly: he leaves out connectives, jumps from one idea to the next without warning, changes the addressee halfway through a poem, and lets speeches begin and end without saying who is speaking. His word order is bold even by the standards of verse, his use of cases stretches the grammar (an ablative can be means, cause, place and manner at once), he uses words in unusual senses, and he loves sudden shifts of tone, from tragedy to farce and back again in a single couplet. Where Tibullus drifts gently from image to image, Propertius leaps. **Syntactic complexity: HIGH; Stylistic figures: HIGH; Lexicon: MEDIUM to HIGH.**
+
+And then there is the text. Propertius survives in a small number of late medieval manuscripts, the oldest from the twelfth century, and they are full of errors. Words are corrupted, lines are missing, couplets have migrated from one poem to another, and the boundaries between poems are often uncertain. Modern editors disagree on hundreds of readings, move couplets around, and even divide Book II into two. The great Latin scholar A. E. Housman devoted years of his life to Propertius and never finished his edition. So when you are stuck in Propertius, it is not always your fault: sometimes the Latin is genuinely broken.
+
+How much harder is he than Tibullus? Two full tiers. Tibullus is a C, the most accessible poet of the age; Propertius sits in the upper part of A, alongside the hardest parts of Virgil, and only Horace's *Odes* are clearly worse.
+
+## Latin Excerpts
+
+### Excerpt 1: Elegiae IV.7.1-18 -- Cynthia's Ghost
+
+**Source:** Propertius, *Elegiae*, Book IV, poem 7, lines 1-18, from *The Latin Library* (thelatinlibrary.com/prop4.html). The text writes consonantal *v* as *u* (*uisa*, *uestis*), which has been kept.
+
+**Context:** Years after the farewell at the end of Book III, Cynthia is dead, and has only just been buried. One night, as Propertius lies awake in his cold bed, she appears to him: the same hair, the same eyes, but with her dress scorched by the pyre and her lips worn by the water of Lethe, the river of the underworld. And she is not there to forgive him. In the rest of the poem she accuses him of neglecting her funeral, accuses her slaves of having poisoned her, orders him to burn the poems he wrote about her, tells him which of her maids to reward and which to punish, and finally announces that soon she will have him all to herself again, in the underworld: "Others may have you now; soon I alone will hold you." It is one of the strangest and most powerful poems in Latin, a love poem, a ghost story and a domestic quarrel all at once. These are its first eighteen lines.
+
+**Latin Text:**
+
+> Sunt aliquid Manes: letum non omnia finit,
+> luridaque euictos effugit umbra rogos.
+> Cynthia namque meo uisa est incumbere fulcro,
+> murmur ad extremae nuper humata uiae,
+> cum mihi somnus ab exsequiis penderet amoris,
+> et quererer lecti frigida regna mei.
+> eosdem habuit secum quibus est elata capillos,
+> eosdem oculos; lateri uestis adusta fuit,
+> et solitum digito beryllon adederat ignis,
+> summaque Lethaeus triuerat ora liquor.
+> spirantisque animos et uocem misit: at illi
+> pollicibus fragiles increpuere manus:
+> "perfide nec cuiquam melior sperande puellae,
+> in te iam uires somnus habere potest?
+> iamne tibi exciderant uigilacis furta Suburae
+> et mea nocturnis trita fenestra dolis?
+> per quam demisso quotiens tibi fune pependi,
+> alterna ueniens in tua colla manu!
+
+**English Translation:**
+
+The spirits of the dead are something real: death does not end everything,
+and a pale ghost escapes the pyre that has overcome its body.
+For Cynthia seemed to lean over the head of my bed,
+Cynthia, buried only lately by the roar at the edge of the road,
+when, after my love's funeral, sleep was hanging over me
+and I was lamenting the cold kingdom of my bed.
+She had the same hair as when she was carried out to burial,
+the same eyes; her dress was burnt along her side,
+the fire had eaten into the beryl ring she always wore on her finger,
+and the water of Lethe had worn away the edges of her lips.
+She breathed out a living spirit and a voice; but
+her brittle hands cracked their knuckles at me:
+"Traitor, from whom no girl should ever hope for anything better,
+can sleep already have power over you?
+Have you already forgotten our stolen nights in the sleepless Subura,
+and my window-sill, worn smooth by our nightly tricks?
+How often I let down a rope through that window and hung from it for you,
+coming down hand over hand into your arms!
+
+**Analysis:**
+
+The poem opens with a philosophical statement, and a provocative one: *Sunt aliquid Manes*, "the spirits of the dead are something". Any Roman reader would have heard in it a contradiction of Lucretius and the Epicureans, for whom death was simply the end of everything. Propertius is about to prove them wrong with an experience of his own. Notice the emphatic word order: *Sunt* first, then *aliquid*, then *Manes*, and the denial in the second half of the line, *letum non omnia finit*.
+
+Then the vision, and it is here that Propertius shows his genius for the concrete detail. Cynthia is not an idealised ghost but a body that has been burnt: her dress is scorched on one side, the fire has eaten into the beryl ring she always wore, and the water of Lethe, which the dead drink to forget, has worn away her lips. The repetition *eosdem... eosdem*, "the same hair... the same eyes", makes the horror more intimate: she is exactly as he remembers her, except where the fire has touched her. And then the gesture, *pollicibus fragiles increpuere manus*: her brittle hands crack, or snap their fingers, at him, a gesture of anger or contempt, and the word *fragiles* makes it horribly physical: these are the hands of a corpse.
+
+The grammar is classic Propertius, and a good example of his compression. *Murmur ad extremae nuper humata uiae* means "recently buried by the murmur of the furthest stretch of the road": Roman tombs lined the roads out of the city, and the "murmur" is the noise of the traffic on it, a sad and slightly ironic place for a woman who loved the city's nightlife. *Cum mihi somnus ab exsequiis penderet amoris*: literally "when sleep was hanging over me from the funeral of my love", where *ab* means "after" and *amoris* stands for the beloved herself. *Quibus est elata capillos* is a relative clause with the antecedent *capillos* placed inside it, after the verb: "the same hair with which she was carried out". *Lateri*, a dative of place without a preposition, is poetic. *Beryllon* keeps its Greek accusative ending. And *sperande*, in Cynthia's first words, is a vocative gerundive: "you, who are to be hoped for", so *nec cuiquam melior sperande puellae* means "you, from whom no girl should ever hope for anything better". Then she accuses him of falling asleep so soon, and reminds him of their secret nights in the Subura, the noisy, "sleepless" district of Rome where she lived, and of the rope she used to climb down from her window into his arms. Grief, reproach, nostalgia and comedy, in eighteen lines: that is Propertius.
+
+---
+
+### Excerpt 2: Elegiae IV.8.49-70 -- Cynthia Returns
+
+**Source:** Propertius, *Elegiae*, Book IV, poem 8, lines 49-70, from *The Latin Library* (thelatinlibrary.com/prop4.html). The source prints *Lygdame,nil* without a space after the comma; the space has been restored.
+
+**Context:** The very next poem in the book, and the strangest pairing in Latin poetry: in IV.7 Cynthia is a ghost, in IV.8 she is gloriously alive, and the poem is pure comedy. Cynthia has gone out of town to the festival of Juno at Lanuvium, riding in a carriage with a rich rival. Propertius decides to console himself, and invites two girls, Phyllis and Teia, to a little dinner party on the Esquiline, with his slave Lygdamus serving the wine, an Egyptian flute player, Phyllis on the castanets, and a dwarf clapping along to the music. It is a disaster: the lamps keep going out, the table collapses, he keeps throwing the worst possible score at dice, and he cannot stop thinking about Cynthia. "They were singing to a deaf man, baring their breasts to a blind man: I was at the gates of Lanuvium." And then the door opens.
+
+**Latin Text:**
+
+> cum subito rauci sonuerunt cardine postes,
+> et leuia ad primos murmura facta Laris.
+> nec mora, cum totas resupinat Cynthia ualuas,
+> non operosa comis, sed furibunda decens.
+> pocula mi digitos inter cecidere remissos,
+> palluerantque ipso labra soluta mero.
+> fulminat illa oculis et quantum femina saeuit,
+> spectaclum capta nec minus urbe fuit.
+> Phyllidos iratos in uultum conicit unguis:
+> territa uicinas Teia clamat aquas.
+> lumina sopitos turbant elata Quiritis,
+> omnis et insana semita nocte sonat.
+> illas direptisque comis tunicisque solutis
+> excipit obscurae prima taberna uiae.
+> Cynthia gaudet in exuuiis uictrixque recurrit
+> et mea peruersa sauciat ora manu,
+> imponitque notam collo morsuque cruentat,
+> praecipueque oculos, qui meruere, ferit.
+> atque ubi iam nostris lassauit bracchia plagis,
+> Lygdamus ad plutei fulcra sinistra latens
+> eruitur, geniumque meum protractus adorat.
+> Lygdame, nil potui: tecum ego captus eram.
+
+**English Translation:**
+
+when suddenly the doorposts groaned on a creaking hinge,
+and faint murmurs were heard at the entrance of the house.
+In an instant Cynthia flings both folding doors wide open,
+her hair not done, but beautiful in her fury.
+The cup fell from between my slackened fingers,
+and my lips, loosened by the wine itself, went pale.
+Her eyes flash lightning, she rages as only a woman can,
+and the sight was no less than a city being sacked.
+She hurls her angry nails at Phyllis's face;
+Teia, terrified, shouts "Water!" to the neighbours.
+Lamps held high wake the sleeping citizens,
+and the whole street echoes with the madness of the night.
+The two girls, their hair torn and their tunics undone,
+find refuge in the first tavern of the dark street.
+Cynthia exults in her spoils and runs back in triumph,
+and slashes my face with the back of her hand,
+leaves her mark on my neck, draws blood with her teeth,
+and above all strikes my eyes, which deserved it.
+And when she had tired her arms beating me,
+Lygdamus, who was hiding behind the left leg of the couch,
+is dragged out, and, hauled forward, begs my guardian spirit to save him.
+Lygdamus, I could do nothing: I had been taken prisoner along with you.
+
+**Analysis:**
+
+This is Propertius in comic mode, and the comedy is built out of epic. Cynthia's entrance is a military assault: she throws the doors open (*resupinat*, "flings back", a vivid present), her eyes "flash lightning" (*fulminat*, a verb that belongs to Jupiter), and the scene is compared to *capta... urbe*, the sack of a city, the most tragic image in all of epic poetry. Then come the casualties: Phyllis's face, Teia's screams, the neighbours woken up, the two girls fleeing half-dressed to a tavern. And then the victor returns to deal with the real enemy: *Cynthia gaudet in exuuiis*, "Cynthia exults in her spoils", *exuuiae* being the spoils stripped from a defeated enemy, here the hair and clothes torn from her rivals. The whole passage is a mock-epic battle, and Propertius plays the part of the defeated city.
+
+The details are wonderfully precise. *Non operosa comis, sed furibunda decens*: she had not taken any trouble over her hair, but was beautiful in her fury, an oxymoron that sums up Cynthia. Teia does not scream "help" but *uicinas... clamat aquas*, "calls for water to the neighbours": the cry Romans used in case of fire, because fire was the emergency everyone would answer, a very practical piece of Roman street life. The punishment is lovingly catalogued: a backhand to the face (*peruersa... manu*), a bite on the neck, and above all blows to the eyes, *qui meruere*, "which deserved it", because they were the ones that looked at the other girls. And the last couplet turns the whole scene into a joke at the poet's expense: poor Lygdamus, hiding behind the couch, is dragged out and begs his master for protection, and the master can only answer *tecum ego captus eram*, "I had been taken prisoner along with you". The great lover is no more free than his slave.
+
+Grammatically, look at the tenses: Propertius switches between historic presents (*resupinat*, *fulminat*, *conicit*, *clamat*, *turbant*, *excipit*, *gaudet*, *recurrit*, *sauciat*, *ferit*), perfects (*sonuerunt*, *cecidere*, *fuit*, *meruere*, *lassauit*) and pluperfects (*palluerant*, *captus eram*), which give the scene its breathless, jerky rhythm. Note the archaic or poetic forms *cecidere* and *meruere* (for *ceciderunt*, *meruerunt*), the Greek genitive *Phyllidos*, the accusatives plural in *-is* (*unguis*, *Quiritis*), the syncopated *spectaclum* for *spectaculum*, and the ablatives absolute *direptisque comis tunicisque solutis*. And then, after the excerpt, the peace treaty: Cynthia dictates her terms, fumigates the whole house to purify it, changes the sheets, and the two of them make up. In the very next lines, the poem ends with them in bed.
+
+---
+
+## Legacy and Impact
+
+In antiquity Propertius was read, loved and imitated, especially by Ovid, whose own love elegies would be unthinkable without him. Martial wrote that Cynthia owed her fame to Propertius's poetry, but had given him no less fame in return. Then, for centuries, his difficulty and his damaged text kept him in the background. He was rediscovered by the humanists, and Petrarch read him, but he never became a school author like Virgil or Ovid: he was too hard.
+
+The modern world has been kinder. Goethe, writing his *Roman Elegies* in the 1790s, took the Roman elegists, and Propertius above all, as his models, and made the genre live again in German. And in 1919 the American poet Ezra Pound published *Homage to Sextus Propertius*, a free and inventive adaptation that turned Propertius into a modern poet resisting empire and official culture. Classicists were horrified. One professor of Latin wrote that if Mr. Pound were a professor of Latin, there would be nothing left for him but suicide. Pound was not, and did not; his *Homage* is now considered one of the landmarks of modernist poetry, and it made Propertius famous among readers who would never open a Latin dictionary.
+
+Today he is widely regarded as the most original of the Roman elegists, and in many ways the most modern: a poet of obsession and irony, who writes about love not as a pleasant pastime but as a kind of madness that takes over a whole life, and who laughs at himself even while he suffers.
+
+---
+
+## Final Rating
+
+**Tier: A (Very Difficult)**
+
+Propertius is high in almost every criterion. His mythological and Alexandrian allusions are the densest of any elegist; his syntax is compressed, abrupt and full of unannounced shifts of speaker, addressee and tone; his use of words and cases is bold; and his text is so damaged that some passages are uncertain even for experts. Compared with Tibullus, he is two full tiers harder: Tibullus drifts, Propertius leaps, and he expects you to leap with him. He stops short of S only because, unlike Horace in the *Odes*, his word order is not built as a deliberate puzzle in every line, and because his narrative poems, like the two excerpts here, carry you along with their energy. Upper A, then, and knocking on S's door.
+
+---

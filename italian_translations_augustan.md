@@ -1283,3 +1283,182 @@ La sua vera importanza è semplice e immensa. È l'unica donna della Roma classi
 Le poesie di Sulpicia sono brevi, complete e scritte con un lessico semplice, quasi senza mitologia e senza digressioni erudite: con tutti i quaranta versi davanti a sé, si può finire la sua opera intera, il che è un raro piacere. È questo che la spinge verso la D. Ma la sua sintassi è davvero compressa, con doppie negazioni, paragoni dentro paragoni, dativi astratti e parole decisive rimandate fino alla fine di una lunga frase, e verso per verso può essere più difficile di Tibullo. Quindi C, nella parte facile della fascia: l'esame più breve del progetto, ma non un lasciapassare.
 
 ---
+
+## SESTO PROPERZIO (c. 50 a.C. -- dopo il 16 a.C.)
+
+### Biografia *(italiano)*
+
+Se Tibullo è il sognatore dell'elegia romana, Properzio ne è la tempesta. È passionale, ossessivo, geloso, autocommiserativo, divertente, dotto, morboso, orgoglioso e del tutto imprevedibile, spesso tutto nella stessa poesia. Passò cinque anni a scrivere di una sola donna, Cinzia, e ne fece la donna più viva della poesia latina: la vediamo addormentata, ubriaca, furiosa, malata, bellissima, infedele, morta e, nella sua poesia più straordinaria, tornata dall'aldilà per fargli una scenata. È anche, per comune consenso, il più difficile degli elegiaci romani: un poeta così denso, così allusivo e così mal conservato che perfino i latinisti di professione discutono su che cosa dica in metà dei suoi versi. E vale ogni goccia di fatica.
+
+**L'umbro.** Sesto Properzio nacque intorno al 50 a.C., forse un po' dopo, ad Asisium, l'odierna Assisi, in Umbria: la stessa cittadina collinare che avrebbe poi dato al mondo san Francesco. Ne andava fiero, e chiama l'Umbria "la patria del Callimaco romano", cioè di se stesso. La sua famiglia apparteneva ai possidenti locali di un certo rango, ma le guerre civili la colpirono duramente. Il padre morì quando lui era giovane. Nel 41-40 a.C., durante la guerra di Perugia, quando Ottaviano assediò Lucio Antonio nella vicina Perusia, un parente di Properzio fu ucciso e lasciato insepolto sui colli etruschi, e la famiglia perse gran parte delle sue terre nelle confische che seguirono: "la triste pertica dell'agrimensore portò via le nostre ricchezze ben coltivate". Come Virgilio e Tibullo, crebbe sapendo esattamente quanto fosse costato il nuovo regime.
+
+**Niente avvocato.** La madre lo portò a Roma e si aspettava che facesse la cosa sensata: studiare diritto, parlare nel Foro, cominciare una carriera pubblica. Ci provò. Poi, come racconta nel suo ultimo libro, il dio Apollo in persona gli proibì di "tuonare parole nel Foro insensato" e gli disse di scrivere elegie, aggiungendo, gentilmente, che sarebbe sempre stato alla mercé di una ragazza. Apollo aveva ragione su entrambi i punti.
+
+**Cinzia.** La ragazza era Cinzia, ed è la prima parola del suo primo libro: *Cynthia prima suis miserum me cepit ocellis*, "Cinzia per prima mi catturò, povero me, con i suoi occhi". Secondo Apuleio il suo vero nome era Ostia; *Cynthia* è uno pseudonimo dotto, dal monte Cinto a Delo, il luogo di nascita di Apollo, dio della poesia. Sembra fosse una donna raffinata e indipendente del demi-monde, probabilmente più grande di lui, bella, spiritosa, lettrice e perfino autrice di poesie, e, a sentire lui, magnificamente impossibile. La relazione durò circa cinque anni, si ruppe più volte e finì definitivamente alla chiusura del libro III, dove Properzio le dà un amaro addio. Poi lei tornò nel libro IV, due volte, una delle quali come fantasma.
+
+**Arriva Mecenate.** Il suo primo libro, pubblicato intorno al 29-28 a.C. e noto semplicemente come *Cynthia* o *Monobiblos* (il "libro unico"), ebbe un successo immediato, e gli valse un invito nel circolo di Mecenate. I libri successivi sono dedicati a lui, e mostrano Properzio che cerca di restare se stesso all'interno della cultura ufficiale della Roma augustea. Quando Mecenate gli chiede un'epica, risponde con la *recusatio* più famosa dell'elegia: non può cantare le guerre di Cesare, perché la sua unica guerra si combatte a letto. Quando Augusto ritira una legge che avrebbe obbligato gli uomini del suo ceto a sposarsi, Properzio festeggia in versi, e aggiunge il verso più antiaugusteo dell'epoca: "nessun figlio del mio sangue sarà mai soldato". Se la cavò. È la misura di quanta libertà avessero ancora i poeti di Mecenate negli anni 20 a.C.
+
+**Il rivale di Orazio?** Orazio e Properzio appartenevano allo stesso circolo e non si nominano mai, il che, per due poeti così amanti di citare gli amici, è un silenzio che dice molto. Molti studiosi pensano che Orazio lo prendesse in giro in un'epistola del 19 a.C. circa, in cui descrive due poeti di Roma che si adulano spudoratamente alle letture pubbliche: "Me ne vado Alceo per suo voto; e lui che cos'è per il mio? Chi, se non Callimaco?" Properzio era l'unico poeta di Roma che si definisse il Callimaco romano. Se la frecciata era per lui, è uno dei migliori insulti letterari dell'antichità.
+
+**L'amico di Ovidio.** Ovidio, molto più giovane, fu suo amico e ammiratore, e lo ricordava mentre recitava al loro circolo le sue poesie d'amore (i suoi "fuochi", come dice Ovidio). Nell'elenco degli elegiaci romani di Ovidio, Properzio è il terzo, tra Tibullo e Ovidio stesso.
+
+**La morte, e un discendente.** La sua ultima poesia databile fu scritta nel 16 a.C.; dopo di che scompare, e non sappiamo quando morì. Ma la sua famiglia continuò a scrivere. Un secolo dopo Plinio il Giovane descrive la lettura pubblica di un certo Passenno Paolo, discendente di Properzio, che scriveva elegie nello stile di famiglia. Cominciò il suo primo componimento, come fanno i poeti, rivolgendosi a un amico tra il pubblico: *Prisce, iubes...*, "Prisco, tu mi ordini...". Al che Prisco, un illustre giurista seduto in prima fila, esclamò: "Io non ti ordino proprio niente!" Il pubblico scoppiò a ridere, e la lettura non si riprese più del tutto. Plinio aggiunge, per onestà, che Prisco era generalmente considerato un po' squilibrato.
+
+### Opere principali *(italiano)*
+
+- **Elegiae, libro I** (*Cynthia* o *Monobiblos*, c. 29-28 a.C.) -- ventidue elegie, quasi tutte su Cinzia: l'innamoramento, la gelosia, una notte passata davanti alla sua porta chiusa, il suo progetto di lasciarlo per un viaggio all'estero, e due componimenti finali sui morti della guerra di Perugia. [Completo]
+- **Elegiae, libro II** (c. 26-25 a.C.) -- il libro più lungo, e forse due libri fusi insieme nei manoscritti: altra Cinzia, la *recusatio* a Mecenate, la celebrazione della legge sul matrimonio ritirata e una celebre poesia sull'immagine dell'Amore come fanciullo alato. [Completo, ma il testo è in cattive condizioni]
+- **Elegiae, libro III** (c. 23-22 a.C.) -- un libro più vario, in cui Properzio si presenta come il Callimaco romano, scrive di politica, di denaro, di morte e della spedizione contro i Parti, e si chiude con l'addio a Cinzia. [Completo]
+- **Elegiae, libro IV** (c. 16 a.C.) -- un nuovo genere di poesia: accanto alle ultime poesie per Cinzia, una serie di elegie "romane" che spiegano le origini di culti, luoghi e nomi di Roma (il dio Vertumno, la traditrice Tarpea, Ercole sul sito di Roma, il tempio di Giove Feretrio, Apollo ad Azio), modellate sugli *Aitia* di Callimaco, e il discorso della nobildonna morta Cornelia dalla sua tomba, spesso chiamata la "regina delle elegie". [Completo]
+
+### Stile e difficoltà *(italiano)*
+
+Il modo migliore per capire lo stile di Properzio è confrontarlo con Tibullo. Tibullo evita la mitologia; Properzio non riesce a superare dieci versi senza. Quando Cinzia si addormenta, è come Arianna abbandonata a Nasso, come Andromeda liberata dal suo scoglio e come una Baccante crollata accanto a un fiume, tutto nei primi sei versi della poesia. Il suo modello non è Tibullo ma Callimaco, il poeta più dotto dell'Alessandria ellenistica, e riempie le sue poesie di miti rari, toponimi oscuri e allusioni mai spiegate, perché spiegarle rovinerebbe il piacere al lettore dotto. Per uno studente moderno sono una corsa a ostacoli. **Densità allusiva: ALTA.**
+
+Il suo latino è altrettanto impegnativo. Properzio comprime senza pietà: omette i connettivi, salta da un'idea all'altra senza preavviso, cambia destinatario a metà poesia e lascia che i discorsi comincino e finiscano senza dire chi parla. L'ordine delle parole è audace perfino per gli standard della poesia, l'uso dei casi forza la grammatica (un ablativo può essere insieme mezzo, causa, luogo e modo), usa le parole in sensi insoliti e ama i bruschi cambi di tono, dalla tragedia alla farsa e ritorno in un solo distico. Dove Tibullo scivola dolcemente da un'immagine all'altra, Properzio salta. **Complessità sintattica: ALTA; Figure retoriche: ALTE; Lessico: da MEDIO ad ALTO.**
+
+E poi c'è il testo. Properzio sopravvive in un piccolo numero di manoscritti tardomedievali, il più antico del XII secolo, ed è pieno di errori. Parole corrotte, versi mancanti, distici migrati da una poesia all'altra, e confini tra le poesie spesso incerti. Gli editori moderni sono in disaccordo su centinaia di lezioni, spostano i distici e dividono perfino il libro II in due. Il grande latinista A. E. Housman dedicò anni della sua vita a Properzio e non finì mai la sua edizione. Quindi, quando ci si blocca su Properzio, non è sempre colpa propria: a volte il latino è davvero guasto.
+
+Quanto è più difficile di Tibullo? Due fasce intere. Tibullo è una C, il poeta più accessibile dell'epoca; Properzio sta nella parte alta della A, accanto ai passi più difficili di Virgilio, e solo le *Odi* di Orazio sono chiaramente peggio.
+
+### Brano 1: Elegiae IV.7.1-18 -- Il fantasma di Cinzia
+
+**Fonte:** Properzio, *Elegiae*, libro IV, carme 7, versi 1-18, da *The Latin Library* (thelatinlibrary.com/prop4.html). Il testo scrive la *v* consonantica come *u* (*uisa*, *uestis*), ed è stato mantenuto così.
+
+**Contesto:** Anni dopo l'addio alla fine del libro III, Cinzia è morta, ed è stata sepolta da poco. Una notte, mentre Properzio giace sveglio nel suo letto freddo, lei gli appare: gli stessi capelli, gli stessi occhi, ma con la veste bruciacchiata dal rogo e le labbra consumate dall'acqua del Lete, il fiume dell'oltretomba. E non è venuta a perdonarlo. Nel resto della poesia lo accusa di aver trascurato il suo funerale, accusa i suoi schiavi di averla avvelenata, gli ordina di bruciare le poesie che ha scritto su di lei, gli dice quali ancelle premiare e quali punire, e infine annuncia che presto lo avrà di nuovo tutto per sé, negli Inferi: "Ora ti abbiano pure le altre; presto sarò io sola a tenerti." È una delle poesie più strane e potenti della letteratura latina, insieme poesia d'amore, storia di fantasmi e lite domestica. Questi sono i suoi primi diciotto versi.
+
+**Testo latino:**
+
+> Sunt aliquid Manes: letum non omnia finit,
+> luridaque euictos effugit umbra rogos.
+> Cynthia namque meo uisa est incumbere fulcro,
+> murmur ad extremae nuper humata uiae,
+> cum mihi somnus ab exsequiis penderet amoris,
+> et quererer lecti frigida regna mei.
+> eosdem habuit secum quibus est elata capillos,
+> eosdem oculos; lateri uestis adusta fuit,
+> et solitum digito beryllon adederat ignis,
+> summaque Lethaeus triuerat ora liquor.
+> spirantisque animos et uocem misit: at illi
+> pollicibus fragiles increpuere manus:
+> "perfide nec cuiquam melior sperande puellae,
+> in te iam uires somnus habere potest?
+> iamne tibi exciderant uigilacis furta Suburae
+> et mea nocturnis trita fenestra dolis?
+> per quam demisso quotiens tibi fune pependi,
+> alterna ueniens in tua colla manu!
+
+**Traduzione italiana** *(originale)*:
+
+Gli spiriti dei morti sono qualcosa: la morte non pone fine a tutto,
+e un'ombra livida sfugge al rogo che ha vinto il suo corpo.
+Cinzia infatti mi sembrò chinarsi sulla testiera del mio letto,
+Cinzia, sepolta da poco presso il frastuono all'estremità della strada,
+mentre, dopo il funerale del mio amore, il sonno mi pendeva sopra
+e io lamentavo il freddo regno del mio letto.
+Aveva gli stessi capelli con cui era stata portata alla sepoltura,
+gli stessi occhi; la veste era bruciata lungo il fianco,
+il fuoco aveva roso l'anello di berillo che portava sempre al dito,
+e l'acqua del Lete le aveva consumato l'orlo delle labbra.
+Esalò uno spirito vivo e una voce; ma
+le sue mani fragili mi schioccarono contro le dita:
+"Traditore, da cui nessuna ragazza dovrebbe mai sperare niente di meglio,
+può già il sonno avere potere su di te?
+Hai già dimenticato i nostri amori furtivi nella Suburra che non dorme mai,
+e il mio davanzale, consumato dai nostri inganni notturni?
+Quante volte, calata una fune da quella finestra, ci sono rimasta appesa per te,
+scendendo una mano dopo l'altra fino al tuo collo!
+
+**Analisi:**
+
+La poesia si apre con un'affermazione filosofica, e provocatoria: *Sunt aliquid Manes*, "gli spiriti dei morti sono qualcosa". Qualsiasi lettore romano vi avrebbe sentito una smentita di Lucrezio e degli epicurei, per i quali la morte era semplicemente la fine di tutto. Properzio sta per dimostrare che si sbagliavano con un'esperienza personale. Si noti l'ordine enfatico delle parole: prima *Sunt*, poi *aliquid*, poi *Manes*, e la negazione nella seconda metà del verso, *letum non omnia finit*.
+
+Poi la visione, ed è qui che Properzio mostra il suo genio per il dettaglio concreto. Cinzia non è un fantasma idealizzato, ma un corpo che è stato bruciato: la veste è bruciacchiata su un fianco, il fuoco ha roso l'anello di berillo che portava sempre, e l'acqua del Lete, che i morti bevono per dimenticare, le ha consumato le labbra. La ripetizione *eosdem... eosdem*, "gli stessi capelli... gli stessi occhi", rende l'orrore più intimo: è esattamente come lui la ricorda, tranne dove l'ha toccata il fuoco. E poi il gesto, *pollicibus fragiles increpuere manus*: le sue mani fragili schioccano le dita contro di lui, un gesto di rabbia o di disprezzo, e la parola *fragiles* lo rende orribilmente fisico: sono le mani di un cadavere.
+
+La grammatica è Properzio allo stato puro, e un buon esempio della sua compressione. *Murmur ad extremae nuper humata uiae* significa "sepolta da poco presso il frastuono dell'ultimo tratto della strada": le tombe romane fiancheggiavano le strade che uscivano dalla città, e il "frastuono" è il rumore del traffico, un luogo triste e un po' ironico per una donna che amava la vita notturna della città. *Cum mihi somnus ab exsequiis penderet amoris*: alla lettera "quando il sonno mi pendeva sopra dal funerale del mio amore", dove *ab* significa "dopo" e *amoris* sta per l'amata stessa. *Quibus est elata capillos* è una relativa con l'antecedente *capillos* collocato al suo interno, dopo il verbo: "gli stessi capelli con cui fu portata via". *Lateri*, dativo di luogo senza preposizione, è poetico. *Beryllon* conserva la desinenza greca dell'accusativo. E *sperande*, nelle prime parole di Cinzia, è un gerundivo al vocativo: "tu, che sei da sperare", quindi *nec cuiquam melior sperande puellae* significa "tu, da cui nessuna ragazza dovrebbe mai sperare niente di meglio". Poi lo accusa di essersi addormentato così presto, e gli ricorda le loro notti segrete nella Suburra, il quartiere rumoroso e "insonne" di Roma dove abitava lei, e la fune con cui si calava dalla finestra fino tra le sue braccia. Dolore, rimprovero, nostalgia e comicità, in diciotto versi: questo è Properzio.
+
+---
+
+### Brano 2: Elegiae IV.8.49-70 -- Il ritorno di Cinzia
+
+**Fonte:** Properzio, *Elegiae*, libro IV, carme 8, versi 49-70, da *The Latin Library* (thelatinlibrary.com/prop4.html). La fonte stampa *Lygdame,nil* senza spazio dopo la virgola; lo spazio è stato ripristinato.
+
+**Contesto:** La poesia immediatamente successiva nel libro, e l'accoppiata più strana della poesia latina: in IV.7 Cinzia è un fantasma, in IV.8 è gloriosamente viva, e la poesia è pura commedia. Cinzia è andata fuori città alla festa di Giunone a Lanuvio, in carrozza con un rivale ricco. Properzio decide di consolarsi e invita due ragazze, Fillide e Teia, a una cenetta sull'Esquilino, con il suo schiavo Ligdamo a servire il vino, un flautista egiziano, Fillide alle nacchere e un nano che batte le mani a tempo di musica. È un disastro: le lucerne continuano a spegnersi, la tavola crolla, ai dadi gli esce sempre il punteggio peggiore, e non riesce a smettere di pensare a Cinzia. "Cantavano a un sordo, scoprivano il seno a un cieco: io ero alle porte di Lanuvio." E poi la porta si apre.
+
+**Testo latino:**
+
+> cum subito rauci sonuerunt cardine postes,
+> et leuia ad primos murmura facta Laris.
+> nec mora, cum totas resupinat Cynthia ualuas,
+> non operosa comis, sed furibunda decens.
+> pocula mi digitos inter cecidere remissos,
+> palluerantque ipso labra soluta mero.
+> fulminat illa oculis et quantum femina saeuit,
+> spectaclum capta nec minus urbe fuit.
+> Phyllidos iratos in uultum conicit unguis:
+> territa uicinas Teia clamat aquas.
+> lumina sopitos turbant elata Quiritis,
+> omnis et insana semita nocte sonat.
+> illas direptisque comis tunicisque solutis
+> excipit obscurae prima taberna uiae.
+> Cynthia gaudet in exuuiis uictrixque recurrit
+> et mea peruersa sauciat ora manu,
+> imponitque notam collo morsuque cruentat,
+> praecipueque oculos, qui meruere, ferit.
+> atque ubi iam nostris lassauit bracchia plagis,
+> Lygdamus ad plutei fulcra sinistra latens
+> eruitur, geniumque meum protractus adorat.
+> Lygdame, nil potui: tecum ego captus eram.
+
+**Traduzione italiana** *(originale)*:
+
+quand'ecco che all'improvviso i battenti cigolarono sul cardine rauco,
+e leggeri mormorii si udirono all'ingresso della casa.
+In un attimo Cinzia spalanca entrambi i battenti della porta,
+senza essersi curata dei capelli, ma bellissima nella sua furia.
+La coppa mi cadde dalle dita allentate,
+e le labbra, sciolte dal vino stesso, impallidirono.
+Lancia fulmini con gli occhi e infuria come solo una donna sa fare,
+e lo spettacolo non fu da meno di una città messa a sacco.
+Scaglia le sue unghie furiose sul viso di Fillide;
+Teia, atterrita, grida ai vicini: "Acqua!"
+Le lucerne alzate svegliano i cittadini addormentati,
+e tutta la strada risuona della follia della notte.
+Le due ragazze, con i capelli strappati e le tuniche slacciate,
+trovano rifugio nella prima taverna della strada buia.
+Cinzia esulta tra le spoglie e torna di corsa, vittoriosa,
+e mi ferisce il viso con il dorso della mano,
+mi lascia il segno sul collo e mi fa sanguinare con un morso,
+e soprattutto colpisce gli occhi, che se lo meritavano.
+E quando ebbe stancato le braccia a picchiarmi,
+Ligdamo, che stava nascosto dietro la gamba sinistra del divano,
+viene stanato e, trascinato fuori, implora il mio genio di salvarlo.
+Ligdamo, non ho potuto fare niente: ero stato fatto prigioniero insieme a te.
+
+**Analisi:**
+
+È Properzio in chiave comica, e la comicità è costruita con l'epica. L'ingresso di Cinzia è un assalto militare: spalanca le porte (*resupinat*, "rovescia indietro", un presente vivace), i suoi occhi "lanciano fulmini" (*fulminat*, un verbo che appartiene a Giove), e la scena è paragonata a *capta... urbe*, il sacco di una città, l'immagine più tragica di tutta la poesia epica. Poi arrivano le vittime: il viso di Fillide, le urla di Teia, i vicini svegliati, le due ragazze che fuggono mezze svestite in una taverna. E poi la vincitrice torna a occuparsi del vero nemico: *Cynthia gaudet in exuuiis*, "Cinzia esulta tra le spoglie", dove le *exuuiae* sono le spoglie tolte al nemico vinto, qui i capelli e i vestiti strappati alle rivali. L'intero passo è una battaglia eroicomica, e Properzio fa la parte della città vinta.
+
+I dettagli sono meravigliosamente precisi. *Non operosa comis, sed furibunda decens*: non si era curata dei capelli, ma era bella nella sua furia, un ossimoro che riassume Cinzia. Teia non grida "aiuto" ma *uicinas... clamat aquas*, "chiama acqua ai vicini": il grido che i Romani usavano in caso d'incendio, perché il fuoco era l'emergenza a cui tutti accorrevano, un pezzo molto concreto di vita di strada romana. La punizione è elencata con amore: un manrovescio al viso (*peruersa... manu*), un morso sul collo e soprattutto colpi agli occhi, *qui meruere*, "che se lo meritavano", perché erano stati loro a guardare le altre ragazze. E l'ultimo distico trasforma tutta la scena in una battuta a spese del poeta: il povero Ligdamo, nascosto dietro il divano, viene trascinato fuori e implora protezione al padrone, e il padrone può solo rispondere *tecum ego captus eram*, "ero stato fatto prigioniero insieme a te". Il grande amante non è più libero del suo schiavo.
+
+Dal punto di vista grammaticale, si guardino i tempi: Properzio alterna presenti storici (*resupinat*, *fulminat*, *conicit*, *clamat*, *turbant*, *excipit*, *gaudet*, *recurrit*, *sauciat*, *ferit*), perfetti (*sonuerunt*, *cecidere*, *fuit*, *meruere*, *lassauit*) e piuccheperfetti (*palluerant*, *captus eram*), che danno alla scena il suo ritmo affannoso e a scatti. Si notino le forme arcaiche o poetiche *cecidere* e *meruere* (per *ceciderunt*, *meruerunt*), il genitivo greco *Phyllidos*, gli accusativi plurali in *-is* (*unguis*, *Quiritis*), la forma sincopata *spectaclum* per *spectaculum* e gli ablativi assoluti *direptisque comis tunicisque solutis*. E poi, dopo il brano, il trattato di pace: Cinzia detta le sue condizioni, fa fumigare tutta la casa per purificarla, cambia le lenzuola, e i due fanno pace. Nei versi immediatamente successivi, la poesia finisce con loro due a letto.
+
+---
+
+### Eredità e Impatto
+
+Nell'antichità Properzio fu letto, amato e imitato, soprattutto da Ovidio, le cui elegie d'amore sarebbero impensabili senza di lui. Marziale scrisse che Cinzia doveva la sua fama alla poesia di Properzio, ma che a lui ne aveva data non meno in cambio. Poi, per secoli, la sua difficoltà e il suo testo danneggiato lo tennero in secondo piano. Fu riscoperto dagli umanisti, e Petrarca lo lesse, ma non divenne mai un autore scolastico come Virgilio o Ovidio: era troppo difficile.
+
+Il mondo moderno è stato più generoso. Goethe, scrivendo le sue *Elegie romane* negli anni Novanta del Settecento, prese come modelli gli elegiaci romani, Properzio soprattutto, e fece rivivere il genere in tedesco. E nel 1919 il poeta americano Ezra Pound pubblicò *Homage to Sextus Propertius*, un adattamento libero e inventivo che trasformò Properzio in un poeta moderno in lotta contro l'impero e la cultura ufficiale. I classicisti inorridirono. Un professore di latino scrisse che, se il signor Pound fosse stato un professore di latino, non gli sarebbe rimasto altro che il suicidio. Pound non lo era, e non lo fece; il suo *Homage* è oggi considerato una delle pietre miliari della poesia modernista, e ha reso famoso Properzio tra lettori che non avrebbero mai aperto un vocabolario di latino.
+
+Oggi è considerato da molti il più originale degli elegiaci romani, e per molti versi il più moderno: un poeta dell'ossessione e dell'ironia, che scrive dell'amore non come di un piacevole passatempo, ma come di una sorta di follia che si impadronisce di un'intera vita, e che ride di se stesso anche mentre soffre.
+
+---
+
+### Valutazione finale *(italiano)*
+
+**Tier: A (Very Difficult)**
+
+Properzio è in alto in quasi tutti i criteri. Le sue allusioni mitologiche e alessandrine sono le più fitte di qualsiasi elegiaco; la sua sintassi è compressa, brusca e piena di cambi non annunciati di interlocutore, destinatario e tono; il suo uso delle parole e dei casi è audace; e il suo testo è così danneggiato che alcuni passi sono incerti perfino per gli esperti. Rispetto a Tibullo è più difficile di due fasce intere: Tibullo scivola, Properzio salta, e si aspetta che tu salti con lui. Si ferma prima della S solo perché, a differenza di Orazio nelle *Odi*, il suo ordine delle parole non è costruito come un enigma deliberato in ogni verso, e perché le sue poesie narrative, come i due brani qui riportati, ti trascinano con la loro energia. Fascia alta della A, dunque, e alle porte della S.
+
+---
