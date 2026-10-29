@@ -1175,3 +1175,123 @@ He deserves better. His anti-war elegy, written in the age of Augustus's triumph
 Tibullus is the most accessible of the Augustan poets. His vocabulary is pure and classical, his sentences are mostly short and clear, he uses almost no mythology, and his couplets are smooth and regular. He is still verse, with the normal poetic word order and the conventions of the elegiac genre, and his habit of drifting from one image to another by association means that the logic of a whole poem can be harder to follow than any single sentence in it. But he never plays games with the reader the way Horace does, and he never buries him under learned allusions the way Propertius will. A solid C: the right place to begin with Latin elegy, before Ovid, and long before Propertius.
 
 ---
+
+# SULPICIA (fl. late I century BC)
+
+## Biography
+
+Sulpicia is a small entry with an enormous distinction: she is almost certainly the only woman of classical Rome whose poetry has survived, and the only female elegist we know. Hundreds of Roman men wrote poetry about women; Sulpicia is the one woman whose own voice comes back to us. We have six short poems by her, about forty lines in all, tucked away in the third book of the collection that goes under the name of Tibullus. That is the whole of her surviving work, and very probably the whole of what she ever published. It is enough to show that she was a poet worth reading, and a woman worth knowing.
+
+**A girl from the best family in Rome.** Unlike most elegists, Sulpicia tells us exactly who she is, and in one poem signs herself, proudly, *Servi filia Sulpicia*, "Sulpicia, daughter of Servius". Her father was Servius Sulpicius Rufus, son of the great jurist of the same name who had been consul in 51 BC and a friend of Cicero (it was this grandfather who wrote Cicero one of the most famous letters of consolation in Latin when his daughter Tullia died). Her mother was Valeria, the sister of Messalla Corvinus, Tibullus's patron. Her father seems to have died early, and her uncle Messalla became her guardian. So Sulpicia grew up at the centre of the most brilliant literary circle in Augustan Rome, surrounded by poets, and she decided to become one herself.
+
+**The overprotective uncle.** Two of her poems are about a birthday, and they are the funniest pages she wrote. In the first she complains that her "hateful birthday" is coming, and that she is going to have to spend it in the boring countryside near Arretium (Arezzo), on her uncle's estate, with a cold river, and without Cerinthus. "What is sweeter than the city? Is a country villa a fit place for a girl?" And then, to Messalla directly: "You are far too anxious about me, uncle. Calm down. Journeys are not always well timed." In the second poem, the trip has been cancelled: "Have you heard? That dreary journey has been lifted from your girl's mind. Now she can be in Rome for your birthday." Every teenager who has ever been dragged to a relative's house on a holiday will recognise the tone.
+
+**Cerinthus.** The man she loves is called Cerinthus, a Greek pseudonym, as elegiac convention required, which may hide a pun on *kerinthos*, the Greek word for "bee-bread", the food bees make from pollen. Who he really was, nobody knows. Her poems to him run through the whole emotional range of elegy in a few lines: the triumphant declaration that love has finally arrived and she does not care who knows it (the first excerpt); jealousy, when Cerinthus apparently prefers a common slave girl "weighed down with her wool basket" to the daughter of Servius; illness, when she lies sick with fever and asks whether he even cares; and regret, when she apologises for having left him alone one night because she wanted to hide how much she felt (the second excerpt). In elegy the man speaks and the woman is spoken about. Sulpicia turns the genre round: she is the one who loves, suffers, burns and writes, and Cerinthus is the silent beloved.
+
+**A scandal, deliberately.** All of this was more daring than it looks. A Roman aristocratic woman was expected above all to have *pudicitia*, sexual modesty, and her reputation was her family's honour. Sulpicia announces in her very first poem that she is glad to have "sinned", and that she is tired of composing her face to protect her reputation. That is not the voice of a woman who expected her poems to stay in a drawer.
+
+**A cycle about her.** Just before her own six poems, the *Corpus Tibullianum* contains five more poems about Sulpicia and Cerinthus, written by someone else: a poet of Messalla's circle, perhaps even Tibullus himself, who tells the same love story from the outside, in a more conventional and polished style. Scholars call him the *amicus Sulpiciae*, "Sulpicia's friend". Reading the two side by side is the best way to see what is special about her: his poems are elegant; hers are alive.
+
+A word of honesty: a few modern scholars have argued that Sulpicia's poems were in fact written by a man, impersonating a woman. Most reject the idea, and the poems themselves, with their very personal details of family, birthdays and names, make it hard to believe. But because the question has been raised, it is fair to say "almost certainly" rather than "certainly".
+
+## Most Important Works
+
+- **Six elegies** (late I century BC), preserved as poems 13-18 of the third book of the *Corpus Tibullianum* (poems IV.7-12 in editions that divide the book in two): the declaration of love (13), the unwanted birthday in the country (14), the cancelled trip (15), the rival (16), the fever (17) and the apology (18). About forty lines in all, the shortest poems in this entire project and almost certainly all she wrote. [Complete]
+
+## Writing Style and Difficulty
+
+Sulpicia's poems are very short, and that is the best thing about them for a student: a whole poem can be translated in an afternoon, with all the satisfaction of having finished a complete work. They are written in elegiac couplets, with ordinary vocabulary, almost no mythology, and none of the long allusive digressions of Propertius. **Lexicon: LOW; Allusion density: LOW.**
+
+But "short" does not mean "simple". Sulpicia's Latin is famously compressed, and for a long time it was dismissed as clumsy: nineteenth-century scholars, assuming that a woman could not write as well as a man, called her style awkward and amateurish. Today most readers see the compression as deliberate. She packs a great deal into very few words, uses unusual constructions (double negatives, comparisons built inside comparisons, abstract nouns in the dative), and likes to delay the decisive word until the end of a long sentence. Her last poem is a single sentence of six lines in which the actual confession only arrives in the fifth line. Line for line, she can be harder than Tibullus. **Syntactic complexity: MEDIUM to HIGH; Stylistic figures: MEDIUM.**
+
+## Latin Excerpts
+
+### Excerpt 1: Corpus Tibullianum III.13 -- Love Has Come at Last
+
+**Source:** Sulpicia, *Corpus Tibullianum* III.13, complete, from *The Latin Library* (thelatinlibrary.com/tibullus3.html), where her poems are printed under the heading *Sulpiciae Elegidia*, "the little elegies of Sulpicia". The text writes consonantal *v* as *u* (*uenit*, *uelim*), which has been kept.
+
+**Context:** The first of Sulpicia's poems, and her manifesto. Love has finally arrived, and instead of hiding it, as a well-brought-up Roman girl should, she announces it to the world. The poem works like a prayer of thanksgiving: she prayed to Venus with her poems, Venus answered, and now Sulpicia pays her debt by telling everyone. Behind it stands the most famous poem by a woman in all of Greek literature, Sappho's prayer to Aphrodite, in which the goddess comes down from heaven to help the poet in love.
+
+**Latin Text:**
+
+> Tandem uenit amor, qualem texisse pudori
+> quam nudasse alicui sit mihi fama magis.
+> Exorata meis illum Cytherea Camenis
+> attulit in nostrum deposuitque sinum.
+> Exsoluit promissa Venus: mea gaudia narret,
+> dicetur si quis non habuisse sua.
+> Non ego signatis quicquam mandare tabellis,
+> ne legat id nemo quam meus ante, uelim,
+> sed peccasse iuuat, uultus componere famae
+> taedet: cum digno digna fuisse ferar.
+
+**English Translation:**
+
+At last love has come, and of such a kind that a rumour I had hidden it
+would bring me more shame than a rumour I had laid it bare to anyone.
+Won over by my Muses, the goddess of Cythera
+brought him to me and laid him in my arms.
+Venus has kept her promises: let my joys be told
+by anyone who is said to have had no joys of their own.
+I would not want to entrust anything to sealed tablets,
+so that no one could read it before my love does;
+no, I am glad to have sinned, and sick of composing my face
+for my reputation: let them say I was a worthy woman with a worthy man.
+
+**Analysis:**
+
+The first couplet is the most discussed sentence Sulpicia wrote, and a perfect illustration of her compression. *Qualem texisse pudori / quam nudasse alicui sit mihi fama magis*: literally, "such that the report of having covered it would be to me a cause of shame more than of having bared it to someone". The pieces are *qualem... sit*, a relative clause of result ("such that"); *pudori*, a dative of purpose, "a cause of shame"; and two perfect infinitives, *texisse* and *nudasse* (for *nudavisse*), compared with *magis... quam*. Put together, it means: hiding this love would be more shameful than revealing it. The images are physical: *tegere* is to cover, *nudare* is to strip naked. It is a startling way for a senator's niece to begin.
+
+The second couplet is the story of the prayer: *Cytherea* is Venus (from the island of Cythera, where she came ashore after her birth from the sea), and *Camenae* are the Italian Muses, so "my Muses" are Sulpicia's own poems. Venus was *exorata*, "won over by entreaty", and she brought Cerinthus *in nostrum... sinum*, into the poet's lap or embrace (with a poetic plural, *nostrum* for *meum*). The third couplet turns the prayer into a public thanksgiving: Venus has "paid off" her promises (*exsoluit*, the technical word for fulfilling a vow), so Sulpicia will publish her joy, and anyone who has none of their own can tell it for her. Notice the order: *mea gaudia narret, / dicetur si quis...*, with the *si* clause after the main verb and *si quis* split by *dicetur*.
+
+The fourth couplet is a famous puzzle. *Non ego signatis quicquam mandare tabellis, / ne legat id nemo quam meus ante, uelim*: "I would not want to entrust anything to sealed tablets, so that nobody might read it before my man". The double negative, *ne... nemo*, is the difficulty: she is refusing to write love letters on sealed wax tablets meant only for Cerinthus's eyes. She wants her poems to be read by everyone. And then the climax, in the last couplet: *peccasse iuuat*, "I am glad to have sinned", *uultus componere famae / taedet*, "I am sick of arranging my expression for the sake of my reputation", and finally *cum digno digna fuisse ferar*, a jussive subjunctive: "let me be spoken of as a worthy woman who was with a worthy man". The polyptoton *digno digna*, the same adjective in masculine and feminine side by side, places the two lovers on exactly the same level. In the language of elegy, where the poet is usually the slave of his mistress, this is a declaration of equality.
+
+---
+
+### Excerpt 2: Corpus Tibullianum III.18 -- The Apology
+
+**Source:** Sulpicia, *Corpus Tibullianum* III.18, complete, from *The Latin Library* (thelatinlibrary.com/tibullus3.html)
+
+**Context:** The last of Sulpicia's six poems. The night before, she left Cerinthus alone, probably at a party or a dinner, because she did not want him (or the other guests) to see how much she was in love. Now she regrets it, and writes to tell him so. The whole poem is a single sentence, built like a Roman oath: "may I no longer be... if I have ever done anything I regret more than this".
+
+**Latin Text:**
+
+> Ne tibi sim, mea lux, aeque iam feruida cura
+> ac uideor paucos ante fuisse dies,
+> si quicquam tota commisi stulta iuuenta
+> cuius me fatear paenituisse magis,
+> hesterna quam te solum quod nocte reliqui,
+> ardorem cupiens dissimulare meum.
+
+**English Translation:**
+
+May I no longer be, my light, as burning a passion for you
+as I seem to have been just a few days ago,
+if, in all my foolish youth, I have ever done anything
+that I would confess I regretted more
+than leaving you alone last night,
+because I wanted to hide my own desire.
+
+**Analysis:**
+
+This is Sulpicia's compression at its most extreme, and a superb exercise in following a Latin sentence to the end. The structure is an oath, or a curse on oneself: *Ne tibi sim... si quicquam commisi*, "may I not be... if I have done anything". The main clause comes first, a negative wish in the subjunctive (*ne... sim*), with a comparison inside it: *aeque... feruida cura / ac uideor... fuisse*, "as burning a passion (*cura*, literally 'care', the standard elegiac word for the beloved) as I seem to have been". Then the condition, *si quicquam... commisi*, then a relative clause of characteristic inside the condition, *cuius me fatear paenituisse magis*, built on the impersonal verb *paenitet*, which takes the accusative of the person who regrets (*me*) and the genitive of the thing regretted (*cuius*). And only then, in the fifth line, the second half of the comparison, *magis... quam*: what she regrets most is *quod te solum hesterna nocte reliqui*, "that I left you alone last night". The confession is held back until the very end of the sentence, exactly as she held back her feelings the night before.
+
+The final line gives the reason: *ardorem cupiens dissimulare meum*, "wanting to hide my passion". *Ardor*, "burning", picks up *feruida*, "boiling", from the first line, so the poem begins and ends in fire. Notice also the tender address *mea lux*, "my light", a common Roman endearment, and *stulta*, "foolish", attached to Sulpicia herself: she is the one who has been silly. Few poems in Latin say so much, so precisely, in six lines.
+
+---
+
+## Legacy and Impact
+
+For most of their history, Sulpicia's poems were read as part of Tibullus, and for a long time they were barely noticed. When nineteenth- and early twentieth-century scholars did notice them, they often treated them with condescension, as the charming but unskilled effusions of a young girl, whose Latin was too awkward to be the work of a real poet. In the last fifty years that view has been turned upside down. Sulpicia is now read as a sophisticated poet who knew the conventions of elegy perfectly and bent them to her own purpose, and her poems are among the most studied texts in the whole *Corpus Tibullianum*.
+
+Her real importance is simple and immense. She is the only woman of classical Rome whose poetry has survived in any quantity, and the only female love elegist we know. Other Roman women wrote: a later Sulpicia, in the time of Domitian, wrote love poems to her husband, of which two lines survive; a few letters attributed to Cornelia, the mother of the Gracchi, are quoted by Nepos; the speech of Hortensia against a tax on women survives only in a Greek paraphrase. Only in late antiquity do we have complete works by Latin-writing women: the prison diary of the martyr Perpetua, the travel journal of the pilgrim Egeria, and Proba's retelling of the Bible in lines borrowed from Virgil. In all the centuries of classical Latin poetry, Sulpicia's forty lines are the one place where a woman speaks for herself, about her own love, in her own words. They survived only because they were copied next to the poems of a man. That is reason enough to read every one of them.
+
+---
+
+## Final Rating
+
+**Tier: C (Manageable)**
+
+Sulpicia's poems are short, complete and written in plain vocabulary, with almost no mythology and no learned digressions: with all forty lines in front of you, you can finish her entire works, which is a rare pleasure. That is what pulls her towards D. But her syntax is genuinely compressed, with double negatives, comparisons inside comparisons, abstract datives and decisive words held back until the end of a long sentence, and line for line she can be harder than Tibullus. So C, at the easy end of it: the shortest exam in the project, but not a free pass.
+
+---

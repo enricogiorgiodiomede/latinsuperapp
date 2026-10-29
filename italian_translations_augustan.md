@@ -1165,3 +1165,121 @@ Meriterebbe di più. La sua elegia contro la guerra, scritta nell'età dei trion
 Tibullo è il più accessibile dei poeti augustei. Il suo lessico è puro e classico, le sue frasi sono per lo più brevi e chiare, quasi non usa la mitologia e i suoi distici sono levigati e regolari. Resta comunque poesia, con il normale ordine poetico delle parole e le convenzioni del genere elegiaco, e la sua abitudine di passare da un'immagine all'altra per associazione fa sì che la logica di un'intera poesia possa essere più difficile da seguire di qualsiasi singola frase al suo interno. Ma non gioca mai con il lettore come fa Orazio, e non lo seppellisce mai sotto allusioni erudite come farà Properzio. Una C solida: il punto giusto da cui cominciare con l'elegia latina, prima di Ovidio, e molto prima di Properzio.
 
 ---
+
+## SULPICIA (fl. fine del I secolo a.C.)
+
+### Biografia *(italiano)*
+
+Sulpicia è una voce breve con un primato enorme: è quasi certamente l'unica donna della Roma classica la cui poesia sia sopravvissuta, e l'unica elegiaca donna che conosciamo. Centinaia di uomini romani scrissero poesie sulle donne; Sulpicia è l'unica donna la cui voce ci giunga direttamente. Di lei abbiamo sei brevi componimenti, una quarantina di versi in tutto, nascosti nel terzo libro della raccolta che va sotto il nome di Tibullo. È tutta la sua opera superstite, e molto probabilmente tutto ciò che pubblicò. Basta a mostrare che era una poetessa che vale la pena leggere, e una donna che vale la pena conoscere.
+
+**Una ragazza della migliore famiglia di Roma.** A differenza della maggior parte degli elegiaci, Sulpicia ci dice esattamente chi è, e in una poesia si firma con orgoglio *Servi filia Sulpicia*, "Sulpicia, figlia di Servio". Suo padre era Servio Sulpicio Rufo, figlio del grande giurista omonimo che era stato console nel 51 a.C. e amico di Cicerone (fu proprio questo nonno a scrivere a Cicerone una delle più celebri lettere di consolazione della letteratura latina quando morì sua figlia Tullia). Sua madre era Valeria, sorella di Messalla Corvino, il patrono di Tibullo. Il padre sembra essere morto presto, e lo zio Messalla divenne il suo tutore. Così Sulpicia crebbe al centro del circolo letterario più brillante della Roma augustea, circondata da poeti, e decise di diventarlo anche lei.
+
+**Lo zio apprensivo.** Due delle sue poesie riguardano un compleanno, e sono le pagine più divertenti che abbia scritto. Nella prima si lamenta che sta per arrivare il suo "odioso compleanno", e che dovrà passarlo nella noiosa campagna vicino ad Arretium (Arezzo), nella tenuta dello zio, con un fiume gelido e senza Cerinto. "Che cosa c'è di più dolce della città? Una villa di campagna è forse un posto adatto a una ragazza?" E poi, rivolta direttamente a Messalla: "Sei fin troppo premuroso con me, zio. Calmati. I viaggi non sono sempre al momento giusto." Nella seconda poesia il viaggio è stato annullato: "Lo sai? Quel triste viaggio è stato tolto dai pensieri della tua ragazza. Ora può stare a Roma per il tuo compleanno." Chiunque sia mai stato trascinato da adolescente a casa di un parente in un giorno di festa riconoscerà il tono.
+
+**Cerinto.** L'uomo che ama si chiama Cerinto, uno pseudonimo greco, come voleva la convenzione elegiaca, che potrebbe nascondere un gioco di parole su *kerinthos*, la parola greca per il "pane d'api", il cibo che le api producono dal polline. Chi fosse davvero, nessuno lo sa. Le sue poesie per lui attraversano in pochi versi l'intera gamma emotiva dell'elegia: la dichiarazione trionfante che l'amore è finalmente arrivato e che a lei non importa chi lo sappia (il primo brano); la gelosia, quando Cerinto sembra preferire una comune schiava "carica del suo cesto di lana" alla figlia di Servio; la malattia, quando giace con la febbre e gli chiede se gli importi almeno qualcosa; e il rimpianto, quando si scusa per averlo lasciato solo una notte perché voleva nascondere quanto provava (il secondo brano). Nell'elegia parla l'uomo, e della donna si parla. Sulpicia rovescia il genere: è lei che ama, soffre, brucia e scrive, e Cerinto è l'amato silenzioso.
+
+**Uno scandalo, voluto.** Tutto questo era più audace di quanto sembri. Da una donna aristocratica romana ci si aspettava soprattutto la *pudicitia*, il pudore sessuale, e la sua reputazione era l'onore della famiglia. Sulpicia annuncia nella sua primissima poesia di essere contenta di aver "peccato", e di essere stanca di comporre il proprio volto per proteggere la propria reputazione. Non è la voce di una donna che si aspettava che le sue poesie restassero in un cassetto.
+
+**Un ciclo su di lei.** Subito prima dei suoi sei componimenti, il *Corpus Tibullianum* contiene altre cinque poesie su Sulpicia e Cerinto, scritte da qualcun altro: un poeta del circolo di Messalla, forse perfino Tibullo stesso, che racconta la stessa storia d'amore dall'esterno, in uno stile più convenzionale e levigato. Gli studiosi lo chiamano l'*amicus Sulpiciae*, "l'amico di Sulpicia". Leggere i due testi uno accanto all'altro è il modo migliore per vedere che cosa abbia di speciale lei: le poesie di lui sono eleganti; quelle di lei sono vive.
+
+Una parola di onestà: alcuni studiosi moderni hanno sostenuto che le poesie di Sulpicia siano in realtà state scritte da un uomo che si fingeva donna. La maggior parte respinge l'idea, e le poesie stesse, con i loro dettagli molto personali di famiglia, compleanni e nomi, la rendono difficile da credere. Ma poiché la questione è stata posta, è corretto dire "quasi certamente" e non "certamente".
+
+### Opere principali *(italiano)*
+
+- **Sei elegie** (fine del I secolo a.C.), conservate come componimenti 13-18 del terzo libro del *Corpus Tibullianum* (componimenti IV.7-12 nelle edizioni che dividono il libro in due): la dichiarazione d'amore (13), il compleanno non voluto in campagna (14), il viaggio annullato (15), la rivale (16), la febbre (17) e le scuse (18). Una quarantina di versi in tutto, i componimenti più brevi dell'intero progetto e quasi certamente tutto ciò che scrisse. [Complete]
+
+### Stile e difficoltà *(italiano)*
+
+Le poesie di Sulpicia sono brevissime, ed è la cosa migliore che abbiano per uno studente: un intero componimento si traduce in un pomeriggio, con tutta la soddisfazione di aver finito un'opera completa. Sono scritte in distici elegiaci, con un lessico comune, quasi nessuna mitologia e nessuna delle lunghe digressioni allusive di Properzio. **Lessico: BASSO; Densità allusiva: BASSA.**
+
+Ma "breve" non vuol dire "semplice". Il latino di Sulpicia è notoriamente compresso, e a lungo è stato liquidato come goffo: gli studiosi dell'Ottocento, convinti che una donna non potesse scrivere bene come un uomo, ne definirono lo stile maldestro e dilettantesco. Oggi la maggior parte dei lettori vede in quella compressione una scelta voluta. Concentra moltissimo in pochissime parole, usa costruzioni insolite (doppie negazioni, paragoni costruiti dentro altri paragoni, sostantivi astratti al dativo) e ama rimandare la parola decisiva fino alla fine di una lunga frase. La sua ultima poesia è un'unica frase di sei versi in cui la vera confessione arriva solo al quinto verso. Verso per verso, può essere più difficile di Tibullo. **Complessità sintattica: da MEDIA ad ALTA; Figure retoriche: MEDIE.**
+
+### Brano 1: Corpus Tibullianum III.13 -- Finalmente è arrivato l'amore
+
+**Fonte:** Sulpicia, *Corpus Tibullianum* III.13, completo, da *The Latin Library* (thelatinlibrary.com/tibullus3.html), dove i suoi componimenti sono stampati sotto il titolo *Sulpiciae Elegidia*, "le piccole elegie di Sulpicia". Il testo scrive la *v* consonantica come *u* (*uenit*, *uelim*), ed è stato mantenuto così.
+
+**Contesto:** La prima poesia di Sulpicia, e il suo manifesto. L'amore è finalmente arrivato, e invece di nasconderlo, come dovrebbe fare una brava ragazza romana, lei lo annuncia al mondo. La poesia funziona come una preghiera di ringraziamento: ha pregato Venere con le sue poesie, Venere ha risposto, e ora Sulpicia paga il suo debito raccontandolo a tutti. Alle sue spalle c'è la poesia femminile più famosa di tutta la letteratura greca, la preghiera di Saffo ad Afrodite, in cui la dea scende dal cielo per aiutare la poetessa innamorata.
+
+**Testo latino:**
+
+> Tandem uenit amor, qualem texisse pudori
+> quam nudasse alicui sit mihi fama magis.
+> Exorata meis illum Cytherea Camenis
+> attulit in nostrum deposuitque sinum.
+> Exsoluit promissa Venus: mea gaudia narret,
+> dicetur si quis non habuisse sua.
+> Non ego signatis quicquam mandare tabellis,
+> ne legat id nemo quam meus ante, uelim,
+> sed peccasse iuuat, uultus componere famae
+> taedet: cum digno digna fuisse ferar.
+
+**Traduzione italiana** *(originale)*:
+
+Finalmente è arrivato l'amore, e di tale natura che la voce di averlo nascosto
+mi farebbe più vergogna della voce di averlo messo a nudo davanti a qualcuno.
+Vinta dalle preghiere delle mie Muse, la dea di Citera
+me lo ha portato e me lo ha deposto in grembo.
+Venere ha mantenuto le sue promesse: racconti pure le mie gioie
+chiunque si dica che non ne ha avute di sue.
+Non vorrei affidare nulla a tavolette sigillate,
+perché nessuno lo legga prima del mio amore;
+no, sono contenta di aver peccato, e stanca di comporre il volto
+per la mia reputazione: si dica che sono stata una donna degna con un uomo degno.
+
+**Analisi:**
+
+Il primo distico è la frase più discussa che Sulpicia abbia scritto, e un'illustrazione perfetta della sua compressione. *Qualem texisse pudori / quam nudasse alicui sit mihi fama magis*: alla lettera, "tale che la voce di averlo coperto sarebbe per me motivo di vergogna più che di averlo messo a nudo davanti a qualcuno". I pezzi sono *qualem... sit*, una relativa consecutiva ("tale che"); *pudori*, un dativo di fine, "motivo di vergogna"; e due infiniti perfetti, *texisse* e *nudasse* (per *nudavisse*), confrontati con *magis... quam*. Messo tutto insieme significa: nascondere questo amore sarebbe più vergognoso che rivelarlo. Le immagini sono fisiche: *tegere* è coprire, *nudare* è denudare. È un modo sorprendente di cominciare per la nipote di un senatore.
+
+Il secondo distico è la storia della preghiera: *Cytherea* è Venere (dall'isola di Citera, dove approdò dopo essere nata dal mare), e le *Camenae* sono le Muse italiche, quindi "le mie Muse" sono le poesie di Sulpicia stessa. Venere è stata *exorata*, "vinta dalle preghiere", e ha portato Cerinto *in nostrum... sinum*, nel grembo o nell'abbraccio della poetessa (con un plurale poetico, *nostrum* per *meum*). Il terzo distico trasforma la preghiera in un ringraziamento pubblico: Venere ha "saldato" le sue promesse (*exsoluit*, il termine tecnico per sciogliere un voto), quindi Sulpicia renderà pubblica la sua gioia, e chi non ne ha di sue può raccontarla al posto suo. Si noti l'ordine: *mea gaudia narret, / dicetur si quis...*, con la proposizione introdotta da *si* dopo il verbo principale e *si quis* spezzato da *dicetur*.
+
+Il quarto distico è un celebre rompicapo. *Non ego signatis quicquam mandare tabellis, / ne legat id nemo quam meus ante, uelim*: "non vorrei affidare nulla a tavolette sigillate, perché nessuno lo legga prima del mio uomo". La doppia negazione, *ne... nemo*, è la difficoltà: si rifiuta di scrivere lettere d'amore su tavolette di cera sigillate destinate solo agli occhi di Cerinto. Vuole che le sue poesie le legga chiunque. E poi il culmine, nell'ultimo distico: *peccasse iuuat*, "sono contenta di aver peccato", *uultus componere famae / taedet*, "mi stanca atteggiare il volto per la mia reputazione", e infine *cum digno digna fuisse ferar*, un congiuntivo esortativo: "si dica di me che sono stata una donna degna con un uomo degno". Il poliptoto *digno digna*, lo stesso aggettivo al maschile e al femminile fianco a fianco, mette i due amanti esattamente sullo stesso piano. Nel linguaggio dell'elegia, dove il poeta di solito è schiavo della sua donna, è una dichiarazione di parità.
+
+---
+
+### Brano 2: Corpus Tibullianum III.18 -- Le scuse
+
+**Fonte:** Sulpicia, *Corpus Tibullianum* III.18, completo, da *The Latin Library* (thelatinlibrary.com/tibullus3.html)
+
+**Contesto:** L'ultima delle sei poesie di Sulpicia. La sera prima ha lasciato Cerinto da solo, probabilmente a una festa o a una cena, perché non voleva che lui (o gli altri ospiti) vedesse quanto era innamorata. Ora se ne pente, e glielo scrive. Tutta la poesia è un'unica frase, costruita come un giuramento romano: "che io non sia più... se ho mai fatto qualcosa di cui mi penta più di questo".
+
+**Testo latino:**
+
+> Ne tibi sim, mea lux, aeque iam feruida cura
+> ac uideor paucos ante fuisse dies,
+> si quicquam tota commisi stulta iuuenta
+> cuius me fatear paenituisse magis,
+> hesterna quam te solum quod nocte reliqui,
+> ardorem cupiens dissimulare meum.
+
+**Traduzione italiana** *(originale)*:
+
+Che io non sia più per te, luce mia, una passione così ardente
+come mi sembra di essere stata solo pochi giorni fa,
+se in tutta la mia sciocca giovinezza ho mai fatto qualcosa
+di cui confesserei di essermi pentita di più
+che di averti lasciato solo la notte scorsa,
+perché volevo nascondere il mio desiderio.
+
+**Analisi:**
+
+È la compressione di Sulpicia al suo estremo, e un ottimo esercizio per seguire una frase latina fino in fondo. La struttura è un giuramento, o una maledizione contro se stessi: *Ne tibi sim... si quicquam commisi*, "che io non sia... se ho fatto qualcosa". La principale viene per prima, un desiderio negativo al congiuntivo (*ne... sim*), con un paragone al suo interno: *aeque... feruida cura / ac uideor... fuisse*, "una passione così ardente (*cura*, alla lettera 'preoccupazione', la parola elegiaca tipica per la persona amata) come mi sembra di essere stata". Poi la condizione, *si quicquam... commisi*, poi una relativa caratterizzante dentro la condizione, *cuius me fatear paenituisse magis*, costruita sul verbo impersonale *paenitet*, che regge l'accusativo della persona che si pente (*me*) e il genitivo della cosa di cui si pente (*cuius*). E solo allora, al quinto verso, arriva la seconda metà del paragone, *magis... quam*: ciò di cui si pente di più è *quod te solum hesterna nocte reliqui*, "di averti lasciato solo la notte scorsa". La confessione viene trattenuta fino alla fine della frase, esattamente come lei aveva trattenuto i suoi sentimenti la sera prima.
+
+L'ultimo verso dà la ragione: *ardorem cupiens dissimulare meum*, "volendo nascondere la mia passione". *Ardor*, "ardore", riprende *feruida*, "bollente", del primo verso, così che la poesia comincia e finisce nel fuoco. Si notino anche il tenero appellativo *mea lux*, "luce mia", un vezzeggiativo romano comune, e *stulta*, "sciocca", riferito a Sulpicia stessa: è lei quella che è stata sciocca. Poche poesie latine dicono così tanto, con tanta precisione, in sei versi.
+
+---
+
+### Eredità e Impatto
+
+Per gran parte della loro storia le poesie di Sulpicia sono state lette come parte di Tibullo, e a lungo sono passate quasi inosservate. Quando gli studiosi dell'Ottocento e del primo Novecento le notarono, le trattarono spesso con condiscendenza, come le effusioni graziose ma inesperte di una ragazzina, il cui latino era troppo goffo per essere opera di una vera poetessa. Negli ultimi cinquant'anni questa visione è stata rovesciata. Oggi Sulpicia è letta come una poetessa raffinata che conosceva perfettamente le convenzioni dell'elegia e le piegava ai propri fini, e le sue poesie sono tra i testi più studiati dell'intero *Corpus Tibullianum*.
+
+La sua vera importanza è semplice e immensa. È l'unica donna della Roma classica la cui poesia sia sopravvissuta in quantità apprezzabile, e l'unica elegiaca donna che conosciamo. Altre donne romane scrissero: una Sulpicia più tarda, all'epoca di Domiziano, scrisse poesie d'amore per il marito, di cui sopravvivono due versi; alcune lettere attribuite a Cornelia, la madre dei Gracchi, sono citate da Nepote; il discorso di Ortensia contro una tassa sulle donne sopravvive solo in una parafrasi greca. Solo nella tarda antichità abbiamo opere complete di donne che scrivevano in latino: il diario dal carcere della martire Perpetua, il diario di viaggio della pellegrina Egeria, e il racconto della Bibbia di Proba composto con versi presi da Virgilio. In tutti i secoli della poesia latina classica, i quaranta versi di Sulpicia sono l'unico luogo in cui una donna parla per se stessa, del proprio amore, con le proprie parole. Sono sopravvissuti solo perché furono copiati accanto alle poesie di un uomo. È una ragione sufficiente per leggerli tutti.
+
+---
+
+### Valutazione finale *(italiano)*
+
+**Tier: C (Manageable)**
+
+Le poesie di Sulpicia sono brevi, complete e scritte con un lessico semplice, quasi senza mitologia e senza digressioni erudite: con tutti i quaranta versi davanti a sé, si può finire la sua opera intera, il che è un raro piacere. È questo che la spinge verso la D. Ma la sua sintassi è davvero compressa, con doppie negazioni, paragoni dentro paragoni, dativi astratti e parole decisive rimandate fino alla fine di una lunga frase, e verso per verso può essere più difficile di Tibullo. Quindi C, nella parte facile della fascia: l'esame più breve del progetto, ma non un lasciapassare.
+
+---
