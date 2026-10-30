@@ -1462,3 +1462,283 @@ Oggi è considerato da molti il più originale degli elegiaci romani, e per molt
 Properzio è in alto in quasi tutti i criteri. Le sue allusioni mitologiche e alessandrine sono le più fitte di qualsiasi elegiaco; la sua sintassi è compressa, brusca e piena di cambi non annunciati di interlocutore, destinatario e tono; il suo uso delle parole e dei casi è audace; e il suo testo è così danneggiato che alcuni passi sono incerti perfino per gli esperti. Rispetto a Tibullo è più difficile di due fasce intere: Tibullo scivola, Properzio salta, e si aspetta che tu salti con lui. Si ferma prima della S solo perché, a differenza di Orazio nelle *Odi*, il suo ordine delle parole non è costruito come un enigma deliberato in ogni verso, e perché le sue poesie narrative, come i due brani qui riportati, ti trascinano con la loro energia. Fascia alta della A, dunque, e alle porte della S.
 
 ---
+
+## PUBLIO OVIDIO NASONE -- OVIDIO (43 a.C. -- 17/18 d.C.)
+
+### Biografia *(italiano)*
+
+Ovidio è il più giovane dei grandi poeti augustei, l'unico nato dopo la morte di Cesare e l'unico che non conobbe le guerre civili da adulto. E si vede. Virgilio e Orazio avevano vissuto la fine della Repubblica e scrivevano della pace come di qualcosa conquistato a un prezzo terribile; Ovidio crebbe nella pace, la diede per scontata e la passò a divertirsi. Per vent'anni fu il poeta più alla moda di Roma: spiritoso, affascinante, prolifico, inesauribilmente inventivo, adorato dal pubblico e imitato da tutti. Poi, nell'8 d.C., all'apice della fama, Augusto lo mandò alla fine del mondo, e non tornò mai più. Poche vite letterarie hanno una svolta così netta a metà strada.
+
+**Nato l'anno in cui morì la Repubblica.** Publio Ovidio Nasone nacque il 20 marzo del 43 a.C. a Sulmo, l'odierna Sulmona, una cittadina tra i monti d'Abruzzo, "ricchissima di acque gelide", come la descrive. Nacque in un anno simbolico, e lo sapeva: era l'anno, dice, "in cui entrambi i consoli caddero per un uguale destino", cioè Irzio e Pansa, uccisi a Modena. La sua famiglia era antica e di rango equestre, benestante. Aveva un fratello maggiore di esattamente un anno, nato nello stesso giorno dell'anno, così che, come dice Ovidio, la famiglia celebrava un solo compleanno con due focacce; il fratello morì a vent'anni. *Naso* è un cognome di famiglia che significa "naso", e Ovidio lo usa di continuo per indicare se stesso, così che il poeta più alla moda di Roma passò la vita a chiamarsi, più o meno, "Nasone".
+
+**Il padre che voleva un avvocato.** Il padre mandò entrambi i ragazzi a Roma per formarsi nella retorica in vista di una carriera politica. Il fratello era un oratore nato; Ovidio era un poeta nato, e il padre si disperava. "Perché tenti uno studio inutile?", gli diceva. "Neanche Omero ha lasciato ricchezze." Ovidio cercò di obbedire. Abbandonò i versi e provò a scrivere in prosa, ma, nel verso più famoso della sua autobiografia, "qualunque cosa provassi a scrivere, mi usciva in versi". Seneca il Vecchio, che lo sentì declamare da giovane nelle scuole di retorica, lo conferma: già allora, dice, i discorsi in prosa di Ovidio "non potevano sembrare altro che poesia sciolta". Seneca racconta anche una storia meravigliosa sulla sua testardaggine. Una volta gli amici gli chiesero di togliere dalle sue poesie tre versi che giudicavano eccessivi; lui accettò, a condizione di poterne indicare tre esentati. Ciascuna parte scrisse in segreto i suoi tre versi su una tavoletta, e quando le tavolette furono aperte, i versi erano gli stessi. Ovidio diceva che un volto è più bello con un neo.
+
+**Niente carriera, grazie.** Cominciò la carriera che il padre voleva: ricoprì un paio di incarichi giudiziari minori, e avrebbe potuto candidarsi al Senato. Poi rifiutò. Non aveva il fisico né il temperamento per la vita pubblica, dice, e aveva paura dell'ambizione. Invece viaggiò, ad Atene, nelle città dell'Asia Minore e in Sicilia, con il poeta Macro, e tornò a Roma per non fare altro che scrivere.
+
+**L'uomo più alla moda di Roma.** E Roma lo amò. Cominciò a recitare in pubblico le sue poesie appena uscito dall'adolescenza, quando si era rasato la barba una o due volte, e le sue prime poesie d'amore, per un'amante di nome Corinna, lo resero famoso quasi da un giorno all'altro: tutta Roma, dice, cercava di indovinare chi fosse Corinna. Era in amicizia con Properzio, aveva sentito recitare Orazio, e aveva visto Virgilio, ma solo da lontano (*Vergilium vidi tantum*, "Virgilio l'ho soltanto visto"); Tibullo morì prima che potessero diventare amici. A trent'anni era il poeta di punta della nuova generazione, e la prima generazione di Romani che non aveva conosciuto altro che Augusto lo adorava. Le sue poesie si cantavano alle feste, si citavano nelle conversazioni e venivano perfino danzate nei teatri. Si sposò tre volte: i primi due matrimoni finirono presto, il terzo, con una donna di famiglia illustre, durò tutta la vita, e lei gli rimase fedele in tutto ciò che seguì. Ebbe una figlia e dei nipoti. Aveva una villa con giardini fuori Roma. Per vent'anni la sua vita fu, sotto ogni punto di vista, un successo.
+
+**Un carme e un errore.** Nell'8 d.C., a cinquant'anni, si trovava sull'isola d'Elba con un amico quando gli arrivò la notizia: Augusto in persona gli aveva ordinato di lasciare Roma e di andare a Tomi, una città greca sulla costa occidentale del Mar Nero, l'odierna Costanza in Romania, all'estremo confine dell'impero. Non ci fu né processo né decreto del Senato: fu una decisione personale dell'imperatore, e tecnicamente una *relegatio*, così che Ovidio conservò la cittadinanza e i beni. Ci dice lui stesso il motivo, in due parole: *carmen et error*, "un carme e un errore". Il carme era l'*Ars Amatoria*, pubblicata circa otto anni prima, un allegro manuale di seduzione che stonava parecchio con le leggi di Augusto sul matrimonio e sull'adulterio. L'errore non lo spiegò mai, salvo dire di aver visto qualcosa che non avrebbe dovuto vedere, e paragonarsi ad Atteone, distrutto per aver visto per caso la dea Diana nuda. Era quasi certamente legato allo scandalo intorno alla nipote di Augusto, Giulia, esiliata per adulterio quello stesso anno. Prima di partire, disperato, Ovidio bruciò la propria copia delle *Metamorfosi*, finite ma non ancora riviste. Per fortuna, come per Virgilio e l'*Eneide*, gli amici ne avevano già delle copie.
+
+**Alla fine del mondo.** Tomi era tutto ciò che Roma non era. Era fredda: Ovidio descrive il Danubio che gela così forte da poterci passare sopra con i carri, e il vino che gela così solido da conservare la forma della giara dopo che la giara si è rotta, tanto che lo si serviva non a coppe ma a pezzi. Era pericolosa: la città veniva regolarmente razziata dai Geti e dai Sarmati, cavalieri che attraversavano il fiume ghiacciato e scagliavano frecce avvelenate oltre le mura. E quasi nessuno parlava latino. Ovidio, il maestro della lingua latina, si ritrovò a essere lui il barbaro, incapace di farsi capire: *barbarus hic ego sum, quia non intellegor ulli*, "qui il barbaro sono io, perché nessuno mi capisce". Così imparò le lingue del luogo, il getico e il sarmatico, e alla fine scrisse una poesia in getico, in lode di Augusto, che recitò agli abitanti; loro ascoltarono, mormorarono la loro approvazione e scossero le faretre piene di frecce per applaudire.
+
+**Implorare il ritorno.** Per il resto della vita scrisse lettere in versi a Roma, alla moglie, agli amici, ad Augusto stesso, implorando di poter tornare, o almeno di essere trasferito in un luogo meno terribile. Augusto morì nel 14 d.C. senza cedere; neanche Tiberio cedette. Ovidio morì a Tomi nel 17 o nel 18 d.C., intorno ai sessant'anni, e lì fu sepolto. Oggi una sua statua si trova nella piazza principale di Costanza, rivolta verso il mare. E nel dicembre del 2017, con duemila anni di ritardo, il consiglio comunale di Roma ha approvato una mozione che revoca formalmente il suo esilio.
+
+### Opere principali *(italiano)*
+
+- **Amores** (*Amori*, c. 20 a.C., seconda edizione c. 1 a.C.) -- tre libri di elegie d'amore, per lo più su un'amante di nome Corinna. In origine erano cinque libri; Ovidio li ridusse a tre per la seconda edizione, e apre la raccolta con un piccolo epigramma in cui parlano i libri stessi: "Noi che un tempo eravamo i cinque libretti di Nasone, ora siamo tre: l'autore ha preferito quest'opera alla precedente. Anche se non provi alcun piacere a leggerci, almeno la pena sarà più leggera di due libri." Gli *Amores* prendono tutte le convenzioni dell'elegia romana, da Gallo, Tibullo e Properzio (l'amante schiavo, la porta chiusa, il rivale, il marito geloso, il soldato d'amore) e ci giocano: Ovidio è il primo elegiaco che chiaramente si diverte con il genere più di quanto ne soffra. In una poesia si lamenta di essere innamorato di due donne contemporaneamente; in un'altra fa la predica a un portinaio; in un'altra accompagna alla tomba un pappagallo con un'elegia funebre in piena regola. [Completi]
+- **Heroides** (*Eroidi*) -- lettere in distici elegiaci scritte dalle donne abbandonate della mitologia agli uomini che le hanno lasciate: Penelope a Ulisse, Didone a Enea, Arianna a Teseo, Medea a Giasone, Saffo a Faone e altre, più una serie successiva di lettere a coppie, di amanti e delle loro risposte. Ovidio sosteneva di aver inventato il genere. [Complete]
+- **Ars Amatoria** (*L'arte di amare*, c. 2 a.C. -- 1 d.C.) -- una parodia di poema didascalico, in tre libri di distici elegiaci: i libri I e II insegnano agli uomini come trovare una ragazza e come tenersela, e il libro III, aggiunto in seguito, insegna lo stesso alle donne. È scritta con tutto l'apparato di un serio manuale di istruzioni, come le *Georgiche* di Virgilio, ma il suo argomento è dove abbordare le donne a Roma (il teatro, le corse, i banchetti, perfino i tribunali), che cosa dire, come scrivere lettere, come rendere geloso il partner e come comportarsi quando si viene scoperti. È divertentissima, molto intelligente, e fu pubblicata mentre Augusto cercava di fare dell'adulterio un reato penale. Fu seguita dai **Remedia Amoris** (*Rimedi contro l'amore*), un poema su come disinnamorarsi, e dai **Medicamina Faciei Femineae** (*Cosmetici per il viso femminile*), di cui sopravvivono cento versi, con vere ricette di maschere per il viso. [Complete; i Medicamina frammentari]
+- **Metamorphoses** (*Metamorfosi*, c. 2-8 d.C.) -- il capolavoro di Ovidio, un'epica in quindici libri di esametri, circa 12.000 versi, che racconta circa duecentocinquanta miti di trasformazione, dalla creazione del mondo dal caos alla trasformazione di Giulio Cesare in stella. Non è un'unica storia, ma una catena continua di storie, ciascuna delle quali sfocia nella successiva, spesso raccontate da personaggi all'interno di altre storie, così che i racconti sono annidati gli uni negli altri. Gli dèi trasformano gli esseri umani in alberi, animali, pietre, uccelli, sorgenti e stelle, di solito per amore, gelosia, orgoglio o punizione. I temi sono l'instabilità di tutte le cose, il potere del desiderio, la crudeltà e il capriccio degli dèi, i pericoli del talento artistico (Aracne, Marsia) e il modo in cui i corpi cambiano mentre qualcosa dell'io sopravvive. E si chiude con l'orgogliosa profezia che Ovidio, grazie a questo poema, vivrà e sarà letto ovunque si estenda il potere di Roma. [Complete]
+- **Fasti** (*Il calendario*, c. 2-8 d.C.) -- un poema in distici elegiaci sul calendario romano, che spiega giorno per giorno le origini delle feste, dei riti e degli anniversari romani. Era progettato in dodici libri, uno per mese; ne furono scritti solo sei (da gennaio a giugno) prima che l'esilio lo interrompesse. [Incompleti -- 6 libri su 12]
+- **Tristia** (*Tristezze*, 9-12 d.C.) e **Epistulae ex Ponto** (*Lettere dal Ponto*, 12-16 d.C.) -- nove libri in tutto di elegie e lettere in versi scritte dall'esilio, che descrivono il viaggio, il freddo, i barbari e la sua solitudine, difendono la sua poesia e implorano il perdono. Il libro IV dei *Tristia* contiene la sua autobiografia in versi, la fonte di quasi tutto ciò che sappiamo della sua vita. [Complete]
+- **Ibis** -- un lungo poema di maledizione contro un nemico anonimo a Roma, nella tradizione di Callimaco, zeppo di oscure punizioni mitologiche. [Completo]
+- **Medea** -- una tragedia, lodata da Quintiliano e da Tacito come prova di ciò che Ovidio avrebbe potuto fare se avesse tenuto a freno il suo talento. [Perduta]
+
+### Stile e difficoltà *(italiano)*
+
+Ovidio è il più facile dei tre grandi poeti augustei, e non c'è partita. Il giudizio di Seneca il Vecchio sui suoi discorsi giovanili, "poesia sciolta", vale altrettanto bene al contrario: la poesia di Ovidio è quanto di più vicino ci sia in latino a una prosa scritta in versi. La sua sintassi è leggera, logica e trasparente. Le sue frasi seguono di solito l'ordine naturale del pensiero, le proposizioni sono brevi ed equilibrate, e i suoi distici contengono quasi sempre un'idea compiuta, con l'esametro che pone una questione e il pentametro che la rovescia o la completa. Dove Virgilio soppesa ogni parola e Orazio costruisce un mosaico, Ovidio semplicemente parla, benissimo e molto in fretta. Il suo esametro nelle *Metamorfosi* è il più scorrevole della lingua latina, pieno di dattili e quasi mai frenato da spondei pesanti. **Complessità sintattica: da BASSA a MEDIA.**
+
+Questo non significa che sia privo di trucchi, e sono proprio i trucchi a farne una B invece di una C. Si era formato nelle scuole di retorica, e si vede in ogni pagina: antitesi, paradossi, giochi di parole, giochi sui nomi, chiuse epigrammatiche e il gusto di ripetere una parola in una forma o in un senso leggermente diversi. La sua erudizione è enorme, e le *Metamorfosi* in particolare sono piene di rari nomi greci, patronimici, epiteti e allusioni a miti raccontati altrove, o mai raccontati. Allude continuamente a Virgilio, agli elegiaci e alla poesia greca, spesso per farne la parodia. Ed è ironico quasi ovunque, così che chi traduce deve sempre chiedersi se un verso sia serio o una battuta. Quintiliano, che lo ammirava, colse nel segno: Ovidio era "troppo innamorato del proprio ingegno", e non sapeva mai resistere a un'arguzia in più. **Lessico: MEDIO; Figure retoriche: da MEDIE ad ALTE; Densità allusiva: da MEDIA ad ALTA.**
+
+Il risultato è un poeta che resta molto leggibile. Dopo Virgilio e Orazio, Ovidio sembra quasi facile, ed è proprio per questo che vale la pena leggerlo: poiché il latino non è d'intralcio, si riesce davvero a seguire ciò che fa, a godersi l'arguzia e a capire le cose serie che dice sotto le battute, sull'amore, sul potere, sull'arte e su quanto tutto sia fragile.
+
+### Brano 1: Amores I.9.1-20 -- Ogni amante è un soldato
+
+**Fonte:** Ovidio, *Amores*, libro I, carme 9, versi 1-20, da *The Latin Library* (thelatinlibrary.com/ovid/ovid.amor1.shtml). La lineetta dopo *uterque* nella fonte è stata resa con due punti.
+
+**Contesto:** Uno dei grandi temi dell'elegia romana è la *militia amoris*, l'idea che l'amore sia una sorta di servizio militare. Tibullo e Properzio la usano come metafora di passaggio; Ovidio la prende e ci costruisce sopra un'intera poesia, una dimostrazione pseudofilosofica, rivolta a un amico di nome Attico, che l'amante e il soldato sono esattamente la stessa cosa. Punto per punto li confronta: l'età, il coraggio, le notti insonni, le lunghe marce, gli assedi e le spie. Alla fine della poesia conclude che un tempo era pigro, ma l'amore lo ha reso un uomo attivo, e chi vuole smettere di oziare dovrebbe innamorarsi. Questa è la prima metà del ragionamento. Non è esattamente una poesia sconosciuta, ma è la migliore dimostrazione possibile di quanto il latino di Ovidio sia costruito con chiarezza.
+
+**Testo latino:**
+
+> Militat omnis amans, et habet sua castra Cupido;
+> Attice, crede mihi, militat omnis amans.
+> quae bello est habilis, Veneri quoque convenit aetas.
+> turpe senex miles, turpe senilis amor.
+> quos petiere duces animos in milite forti,
+> hos petit in socio bella puella viro.
+> pervigilant ambo; terra requiescit uterque:
+> ille fores dominae servat, at ille ducis.
+> militis officium longa est via; mitte puellam,
+> strenuus exempto fine sequetur amans.
+> ibit in adversos montes duplicataque nimbo
+> flumina, congestas exteret ille nives,
+> nec freta pressurus tumidos causabitur Euros
+> aptaque verrendis sidera quaeret aquis.
+> quis nisi vel miles vel amans et frigora noctis
+> et denso mixtas perferet imbre nives?
+> mittitur infestos alter speculator in hostes;
+> in rivale oculos alter, ut hoste, tenet.
+> ille graves urbes, hic durae limen amicae
+> obsidet; hic portas frangit, at ille fores.
+
+**Traduzione italiana** *(originale)*:
+
+Ogni amante è un soldato, e Cupido ha un accampamento tutto suo:
+credimi, Attico, ogni amante è un soldato.
+L'età adatta alla guerra è adatta anche a Venere:
+è vergognoso un soldato vecchio, è vergognoso un amore senile.
+Lo spirito che i generali cercano in un soldato valoroso
+è quello che una bella ragazza cerca nell'uomo che divide il suo letto.
+Entrambi vegliano tutta la notte; entrambi riposano sulla nuda terra:
+l'uno fa la guardia alla porta della sua donna, l'altro a quella del generale.
+Il dovere del soldato è la lunga marcia; manda via la ragazza,
+e il suo amante la seguirà instancabile, fino in capo al mondo.
+Scalerà i monti che gli sbarrano la strada, attraverserà fiumi gonfi di pioggia,
+calpesterà la neve ammucchiata;
+prima di salpare non addurrà come scusa i venti d'oriente gonfi di tempesta,
+né aspetterà le stelle adatte a solcare le onde.
+Chi, se non un soldato o un amante, sopporterà il freddo della notte
+e la neve mista a pioggia fitta?
+L'uno viene mandato in avanscoperta contro il nemico ostile;
+l'altro tiene gli occhi puntati sul rivale, come su un nemico.
+L'uno assedia città potenti, l'altro la soglia
+di un'amante dal cuore duro; l'uno sfonda le porte della città, l'altro quelle di casa.
+
+**Analisi:**
+
+È l'illustrazione più chiara possibile della sintassi di Ovidio. Quasi ogni distico contiene un'idea compiuta, e quasi ogni idea è costruita su un parallelismo: soldato e amante, guerra e Venere, *ille* e *ille*, *alter* e *alter*, *hic* e *ille*. La poesia apre e chiude il suo primo distico con le stesse tre parole, *militat omnis amans*, una cornice che annuncia la tesi come il titolo di una lezione. Poi ogni distico aggiunge un punto di confronto, in un ordine così logico che uno studente può quasi prevedere il verso successivo: l'età (3-4), il coraggio (5-6), le notti insonni (7-8), le lunghe marce (9-14), la resistenza al freddo (15-16), lo spionaggio (17-18) e gli assedi (19-20).
+
+Si guardi come i parallelismi sono costruiti dentro la grammatica. Il verso 4 è un perfetto equilibrio: *turpe senex miles, turpe senilis amor*, lo stesso aggettivo due volte, con il verbo *est* omesso entrambe le volte. I versi 5-6 usano una coppia di correlativi, *quos... animos... hos*, "lo spirito che... questo stesso". Il verso 8 usa *ille... ille*, "l'uno... l'altro", con un solo verbo, *servat*, per entrambe le metà, e i genitivi *dominae* e *ducis* in posizioni corrispondenti. E l'ultimo distico è un piccolo capolavoro di simmetria: *ille graves urbes, hic durae limen amicae / obsidet; hic portas frangit, at ille fores*. Il verbo *obsidet* serve entrambi i soggetti, e la seconda metà inverte l'ordine di *ille* e *hic*, un chiasmo, chiudendo sulla parola più deludente di tutte: *fores*, la porta della casa di una ragazza, contro *portas*, le porte di una città.
+
+Ci sono alcune cose da tenere d'occhio. *Petiere* è la forma breve di *petiverunt*. *Exempto fine*, "tolto il limite", è un ablativo assoluto: "senza fine". *Pressurus*, participio futuro, significa "sul punto di premere il mare", cioè di navigare. *Causabitur* è un verbo deponente, "addurre a pretesto", da *causa*. E *verrendis... aquis*, "per le acque da solcare", usa un gerundivo al dativo: le stelle che i marinai aspettano sono quelle adatte al viaggio. Ma niente di tutto questo è d'intralcio. È proprio questo il punto: il latino è così chiaro che il lettore è libero di godersi la battuta, cioè che Ovidio applica le solenni virtù romane del soldato, disciplina, resistenza, coraggio, a un giovanotto che cerca di entrare in casa della sua ragazza.
+
+---
+
+### Brano 2: Ars Amatoria I.135-162 -- Una giornata alle corse
+
+**Fonte:** Ovidio, *Ars Amatoria*, libro I, versi 135-162, da *The Latin Library* (thelatinlibrary.com/ovid/ovid.artis1.shtml). The Latin Library scrive con la maiuscola la prima parola di ogni verso, ed è stato mantenuto così.
+
+**Contesto:** Nel primo libro dell'*Ars Amatoria*, Ovidio spiega ai suoi lettori maschi dove trovare una ragazza a Roma: nei portici e nei templi, nei teatri, ai trionfi, ai banchetti, nella località balneare di Baia, e qui, alle corse dei carri nel Circo Massimo. Il Circo è il posto perfetto, spiega, per una ragione semplicissima: a teatro uomini e donne sedevano in settori separati, ma al Circo sedevano insieme, stipati sulle stesse panche. Ciò che segue è una guida passo passo per approfittarne al meglio, scritta con la solennità di un manuale di agricoltura.
+
+**Testo latino:**
+
+> Nec te nobilium fugiat certamen equorum;
+> Multa capax populi commoda Circus habet.
+> Nil opus est digitis, per quos arcana loquaris,
+> Nec tibi per nutus accipienda nota est:
+> Proximus a domina, nullo prohibente, sedeto,
+> Iunge tuum lateri qua potes usque latus;
+> Et bene, quod cogit, si nolis, linea iungi,
+> Quod tibi tangenda est lege puella loci.
+> Hic tibi quaeratur socii sermonis origo,
+> Et moveant primos publica verba sonos.
+> Cuius equi veniant, facito, studiose, requiras:
+> Nec mora, quisquis erit, cui favet illa, fave.
+> At cum pompa frequens caelestibus ibit eburnis,
+> Tu Veneri dominae plaude favente manu;
+> Utque fit, in gremium pulvis si forte puellae
+> Deciderit, digitis excutiendus erit:
+> Etsi nullus erit pulvis, tamen excute nullum:
+> Quaelibet officio causa sit apta tuo.
+> Pallia si terra nimium demissa iacebunt,
+> Collige, et inmunda sedulus effer humo;
+> Protinus, officii pretium, patiente puella
+> Contingent oculis crura videnda tuis.
+> Respice praeterea, post vos quicumque sedebit,
+> Ne premat opposito mollia terga genu.
+> Parva leves capiunt animos: fuit utile multis
+> Pulvinum facili composuisse manu.
+> Profuit et tenui ventos movisse tabella,
+> Et cava sub tenerum scamna dedisse pedem.
+
+**Traduzione italiana** *(originale)*:
+
+E non perderti nemmeno le gare dei nobili cavalli:
+il Circo, capace di contenere una folla immensa, offre molti vantaggi.
+Non c'è bisogno delle dita per parlare in segreto,
+né devi cogliere un segnale dai suoi cenni del capo:
+siediti proprio accanto alla tua donna, nessuno te lo impedirà,
+e stringi il tuo fianco al suo fianco quanto più puoi;
+ed è una fortuna che la fila vi costringa a stare vicini, anche se non volessi,
+che per le regole del posto tu debba per forza toccare la ragazza.
+Qui cerca l'occasione per cominciare una conversazione amichevole,
+e siano le chiacchiere di tutti a produrre le tue prime parole.
+Fa' in modo di chiedere, con grande interesse, di chi siano i cavalli che arrivano,
+e senza un attimo di esitazione, chiunque sia quello per cui tifa lei, tifa per lui.
+E quando passa la folta processione degli dèi d'avorio,
+applaudi con mano entusiasta Venere, la tua signora;
+e se, come succede, un granello di polvere dovesse cadere
+in grembo alla ragazza, toglilo con le dita;
+e anche se non c'è polvere, togli via il niente:
+qualunque pretesto va bene per renderti utile.
+Se il suo mantello strascica troppo in basso per terra,
+raccoglilo e sollevalo con premura dal suolo sporco:
+subito, come ricompensa del tuo servizio, se la ragazza lo permette,
+i tuoi occhi riusciranno a vederle le gambe.
+Guarda inoltre chiunque sia seduto dietro di voi,
+perché non le prema il ginocchio contro la schiena delicata.
+Le piccole cose conquistano i cuori leggeri: a molti è stato utile
+sprimacciare un cuscino con mano abile.
+È servito anche farle aria con una sottile tavoletta,
+e infilare uno sgabello cavo sotto il suo piedino.
+
+**Analisi:**
+
+Questo brano è l'*Ars Amatoria* in miniatura: un poema didascalico, con tutta la grammatica dell'istruzione, applicato a un argomento del tutto frivolo. Si guardino i verbi. Ovidio usa tutte le forme di imperativo e di esortativo che il latino possiede: il congiuntivo esortativo negativo (*Nec te... fugiat*, "non lasciartela sfuggire"), l'imperativo futuro (*sedeto*, "siederai", *facito*, "fa' in modo"), l'imperativo semplice (*iunge*, *fave*, *plaude*, *excute*, *collige*, *effer*, *respice*), il congiuntivo esortativo (*quaeratur*, *moveant*, *sit*) e il gerundivo di obbligo (*accipienda... est*, *tangenda est*, *excutiendus erit*). È la lingua del manuale di agricoltura di Catone e delle *Georgiche* di Virgilio, usata per spiegare come sedersi accanto a una ragazza.
+
+La comicità sta nei dettagli, e il verso migliore del brano è uno dei più divertenti della letteratura latina: *Etsi nullus erit pulvis, tamen excute nullum*, "anche se non c'è polvere, togli via il niente". La parola *nullum*, usata come sostantivo, "il niente", trasforma l'intero distico in una battuta sui pretesti, e il verso successivo enuncia la morale con assoluta serietà: *Quaelibet officio causa sit apta tuo*, "qualunque motivo vada bene per il tuo servizio". Si noti anche come all'amante si dica di tifare per chiunque tifi lei (*quisquis erit, cui favet illa, fave*, con il gioco *favet... fave*), di applaudire Venere quando le statue degli dèi sfilano intorno alla pista prima delle corse, e di proteggerla dalle ginocchia di chi siede dietro. L'intero brano è un ritratto della vita sociale romana, il rumore, la folla, la polvere, i cuscini e gli sgabelli, visto con gli occhi di un giovanotto molto attento.
+
+Dal punto di vista grammaticale è tutto chiaro e lineare, con pochi punti da tenere d'occhio: *capax populi*, "capace di contenere il popolo", con un genitivo oggettivo; *Et bene, quod...*, "ed è una fortuna che...", un'espressione idiomatica; *linea*, la linea che segna i posti; la proposizione *si... deciderit*, un futuro anteriore, "se dovesse essere caduto"; *officii pretium*, in apposizione, "come prezzo del tuo servizio"; e *videnda*, un gerundivo usato quasi come aggettivo, "gambe da vedere". Si notino anche gli infiniti perfetti con *fuit utile* e *profuit* (*composuisse*, *movisse*, *dedisse*), che danno al consiglio l'aria di un'esperienza collaudata.
+
+---
+
+### Brano 3: Metamorphoses VIII.823-842 e 875-878 -- La fame di Erisittone
+
+**Fonte:** Ovidio, *Metamorphoses*, libro VIII, versi 823-842 e 875-878, da *The Latin Library* (thelatinlibrary.com/ovid/ovid.met8.shtml). La storia è raccontata da un personaggio, e la fonte apre il verso 823 con delle virgolette che si chiudono altrove; qui sono state omesse. La lineetta alla fine del verso 878 è stata resa con un punto.
+
+**Contesto:** Erisittone era un re della Tessaglia che disprezzava gli dèi. Prese a colpi d'ascia il bosco sacro di Cerere, la dea del grano, e abbatté una quercia antichissima, così sacra da essere coperta di offerte, uccidendo la ninfa che vi abitava. Cerere lo punì con la pena più crudele possibile per un'offesa alla dea del cibo: mandò Fames, la Fame in persona, dalle lande ghiacciate della Scizia, e la Fame gli entrò dentro con il fiato mentre dormiva. La storia è raccontata, nel libro VIII, dal dio fluviale Acheloo all'eroe Teseo. Questi versi descrivono ciò che succede dopo: il sogno, il risveglio e la fame che niente può colmare. Nei versi tra le due parti del brano Erisittone divora tutto il suo patrimonio e poi vende la propria figlia per comprare da mangiare; lei fugge cambiando forma, così lui la vende ancora e ancora. Gli ultimi quattro versi sono la fine della storia.
+
+**Testo latino:**
+
+> Lenis adhuc Somnus placidis Erysicthona pennis
+> mulcebat: petit ille dapes sub imagine somni,
+> oraque vana movet dentemque in dente fatigat,
+> exercetque cibo delusum guttur inani
+> proque epulis tenues nequiquam devorat auras;
+> ut vero est expulsa quies, furit ardor edendi
+> perque avidas fauces incensaque viscera regnat.
+> nec mora; quod pontus, quod terra, quod educat aer,
+> poscit et adpositis queritur ieiunia mensis
+> inque epulis epulas quaerit; quodque urbibus esse,
+> quodque satis poterat populo, non sufficit uni,
+> plusque cupit, quo plura suam demittit in alvum.
+> utque fretum recipit de tota flumina terra
+> nec satiatur aquis peregrinosque ebibit amnes,
+> utque rapax ignis non umquam alimenta recusat
+> innumerasque trabes cremat et, quo copia maior
+> est data, plura petit turbaque voracior ipsa est:
+> sic epulas omnes Erysicthonis ora profani
+> accipiunt poscuntque simul. cibus omnis in illo
+> causa cibi est, semperque locus fit inanis edendo.
+>
+> ...
+>
+> vis tamen illa mali postquam consumpserat omnem
+> materiam derantque gravi nova pabula morbo,
+> ipse suos artus lacerans divellere morsu
+> coepit et infelix minuendo corpus alebat.
+
+**Traduzione italiana** *(originale)*:
+
+Il Sonno leggero accarezzava ancora Erisittone con le sue ali placide:
+in sogno lui cerca di afferrare un banchetto,
+muove la bocca sul nulla, digrigna dente contro dente,
+affatica la gola ingannata da un cibo immaginario
+e al posto delle vivande divora, invano, l'aria sottile.
+Ma quando il riposo fu scacciato, una furiosa voglia di mangiare
+si impadronisce delle sue fauci avide e delle sue viscere in fiamme.
+Subito pretende tutto ciò che producono il mare, la terra e l'aria,
+si lamenta della fame con le tavole imbandite davanti,
+e nel mezzo di un banchetto cerca altri banchetti; ciò che sarebbe potuto bastare
+a intere città, bastare a un popolo intero, non basta a un uomo solo,
+e più ne manda giù nello stomaco, più ne vuole.
+E come il mare accoglie i fiumi di tutta la terra
+e non si sazia mai d'acqua, e beve corsi d'acqua venuti da terre lontane,
+e come il fuoco vorace non rifiuta mai il combustibile
+e brucia travi innumerevoli, e più gliene si dà
+più ne chiede, e diventa più famelico per la sua stessa abbondanza:
+così la bocca dell'empio Erisittone accoglie ogni banchetto
+e insieme ne chiede ancora. Ogni cibo, in lui,
+è causa di altro cibo, e mangiando fa sempre spazio vuoto.
+
+...
+
+Ma quando la violenza del suo male ebbe consumato tutta
+la sua sostanza, e non c'era più nuovo foraggio per la sua grave malattia,
+cominciò a straziarsi le membra e a strapparsele a morsi,
+e, infelice, nutriva il suo corpo consumandolo.
+
+**Analisi:**
+
+Sono le *Metamorfosi* nel loro aspetto più inquietante, e un buon esempio di come la chiarezza di Ovidio possa servire all'orrore quanto alla commedia. Prima viene il sogno, ed è uno scherzo crudele: Erisittone mangia nel sonno, muove la bocca vuota, digrigna i denti e inghiotte aria. Ogni verbo è fisico (*movet*, *fatigat*, *exercet*, *devorat*), e ogni oggetto è vuoto (*ora vana*, *cibo inani*, *tenues... auras*). Poi si sveglia, e la fame "regna" (*regnat*) nelle sue fauci e nelle sue viscere, come un tiranno.
+
+La parte centrale è costruita su due procedimenti che Ovidio ama. Il primo è il paradosso, espresso nella forma più epigrammatica possibile: *inque epulis epulas quaerit*, "nel mezzo dei banchetti cerca banchetti", con la stessa parola ripetuta in due casi (poliptoto); *plusque cupit, quo plura... demittit*, "e più ne vuole, quanto più ne manda giù", un correlativo con *quo* e un comparativo; e infine *cibus omnis in illo / causa cibi est, semperque locus fit inanis edendo*, "ogni cibo in lui è causa di cibo, e mangiando fa sempre spazio vuoto". Il secondo procedimento è la similitudine epica, e qui Ovidio ce ne dà due di fila, il mare che inghiotte tutti i fiumi del mondo e non è mai pieno, e il fuoco che brucia più forte quanta più legna gli si dà, entrambe introdotte da *utque*, "e come", e risolte da *sic*, "così". Sono prese dallo stile alto di Virgilio, e applicate a un uomo che non riesce a smettere di mangiare. Si noti anche il tricolon *quod pontus, quod terra, quod educat aer*, che passa in rassegna i tre elementi del mondo per mostrare che niente nel creato può saziarlo.
+
+Gli ultimi quattro versi sono la fine della storia, e il suo paradosso più celebre. Quando non resta più niente da mangiare, Erisittone comincia a mangiare se stesso: *ipse suos artus lacerans divellere morsu / coepit*, "cominciò a straziarsi le membra, strappandole a morsi". E l'ultimo verso è un perfetto epigramma ovidiano: *infelix minuendo corpus alebat*, "l'infelice nutriva il suo corpo diminuendolo". Il gerundio *minuendo*, "diminuendo", contro il verbo *alebat*, "nutriva", è una contraddizione in due parole. Dal punto di vista grammaticale il brano è lineare: si notino *Erysicthona*, un accusativo greco; *derant*, forma contratta di *deerant*; e i presenti storici del sogno (*petit*, *movet*, *fatigat*). La difficoltà non è la grammatica, ma la densità dell'arguzia, che non concede tregua nemmeno nei momenti più orribili. È questo, più delle trasformazioni stesse, il vero Ovidio.
+
+---
+
+### Eredità e Impatto
+
+Ovidio è uno degli esempi più chiari, in tutto questo progetto, di un autore che aveva tutte le ragioni per essere dimenticato. Era pagano, scriveva poesie che insegnavano l'adulterio, si prendeva gioco degli dèi ed era stato condannato dall'imperatore in persona. Eppure divenne uno degli autori più letti, copiati e imitati del Medioevo cristiano. Il XII e il XIII secolo sono stati perfino chiamati *aetas Ovidiana*, l'"età di Ovidio". Ciò che lo salvò fu la reinterpretazione. I lettori cristiani impararono a leggere le *Metamorfosi* come un'allegoria, in cui ogni mito nascondeva una verità morale o religiosa: Fetonte che cade dal cielo poteva essere letto come Lucifero, Piramo e Tisbe come Cristo e l'anima, e le trasformazioni stesse come immagini del peccato e della redenzione. Nel Trecento un enorme poema francese, l'*Ovide moralisé*, rinarrò ogni mito delle *Metamorfosi* con una morale cristiana annessa, e una versione latina fece lo stesso per le scuole. Perfino l'*Ars Amatoria* fu copiata, studiata e imitata nella letteratura cortese medievale. Un poeta pagano dell'amore e della trasformazione divenne, contro ogni pronostico, un maestro di morale.
+
+La sua influenza sul Rinascimento e sulla cultura occidentale nel suo insieme è quasi impossibile da esagerare, e viene soprattutto dai miti delle *Metamorfosi*, che divennero il manuale di mitologia classica dell'Europa. Pochi esempi tra centinaia:
+
+- **Dante** lo colloca tra i quattro grandi poeti dell'antichità nel Limbo, e nell'*Inferno* lo sfida direttamente, intimando a Ovidio di tacere, perché le sue trasformazioni dei dannati superano quelle di lui.
+- **Chaucer** e **Boccaccio** ne raccontarono di nuovo le storie, e le *Heroides* plasmarono la tradizione medievale e rinascimentale del lamento della donna abbandonata.
+- **Shakespeare** lo conosceva a fondo, probabilmente attraverso la traduzione inglese di Arthur Golding del 1567: la recita comica di *Piramo e Tisbe* nel *Sogno di una notte di mezza estate*, il poemetto *Venere e Adone* e la tragedia *Tito Andronico*, in cui una copia delle *Metamorfosi* viene portata in scena, vengono tutti da Ovidio, e un contemporaneo scrisse che "l'anima dolce e arguta di Ovidio vive nel melodioso Shakespeare dalla lingua di miele".
+- In pittura e scultura, le grandi tele mitologiche di **Tiziano** per Filippo II di Spagna, che lui chiamava le sue *poesie*, l'*Apollo e Dafne* del **Bernini** alla Galleria Borghese di Roma e innumerevoli opere di Botticelli, Correggio, Rubens e Velázquez sono illustrazioni delle *Metamorfosi*.
+- In musica, le primissime opere liriche, compreso l'*Orfeo* di **Monteverdi**, attinsero ai suoi miti, e così secoli di opera dopo di loro.
+- Nel mondo moderno, il mito di Pigmalione è diventato il *Pigmalione* di George Bernard Shaw e poi *My Fair Lady*; **Puškin**, esiliato anche lui sulle rive del Mar Nero, scrisse una poesia a Ovidio; e nel 1997 il poeta inglese **Ted Hughes** pubblicò *Tales from Ovid*, che divenne un bestseller.
+
+Eppure, come per Virgilio, la fama ha rimpicciolito l'uomo. Oggi la maggior parte di chi conosce il nome di Ovidio lo conosce come "quello delle *Metamorfosi*": il poeta delle persone che si trasformano in alberi e uccelli. È moltissimo, ma è ben lontano dall'essere tutto. Gli *Amores* sono le poesie d'amore più spiritose della letteratura latina; l'*Ars Amatoria* è uno dei poemi più divertenti mai scritti e il motivo per cui passò il resto della vita alla fine del mondo; i *Fasti* sono una guida unica alla religione romana; e i *Tristia* e le lettere dal Mar Nero sono tra le prime grandi opere della letteratura dell'esilio, scritte da un uomo che aveva perso tutto tranne la sua lingua, e che continuò a scrivere in quella lingua, splendidamente, fino alla fine.
+
+---
+
+### Valutazione finale *(italiano)*
+
+**Tier: B (Difficult)**
+
+Ovidio è il più facile dei tre grandi poeti augustei, e di gran lunga il più facile da apprezzare. La sua sintassi è leggera e logica, i suoi distici esprimono un concetto alla volta, i suoi esametri corrono veloci, e le sue frasi seguono l'ordine naturale del pensiero: la sua poesia è quanto di più vicino ci sia in latino a una prosa in versi. Ciò che ne fa una B invece di una C è tutto ciò che aggiunge sopra: arguzia retorica, paradossi e giochi di parole in ogni pagina, un costante strato di ironia, un'enorme riserva di nomi greci e di allusioni mitologiche, soprattutto nelle *Metamorfosi*, e un gusto per l'esibizione che, come disse Quintiliano, non riusciva mai a controllare. Così si colloca tra Tibullo e Properzio: più difficile del primo, molto più facile del secondo, e comunque molto leggibile. E proprio perché è leggibile, i suoi messaggi arrivano: ed è esattamente il motivo per cui merita di essere letto per molto più delle sole trasformazioni.
+
+---

@@ -1476,3 +1476,285 @@ Today he is widely regarded as the most original of the Roman elegists, and in m
 Propertius is high in almost every criterion. His mythological and Alexandrian allusions are the densest of any elegist; his syntax is compressed, abrupt and full of unannounced shifts of speaker, addressee and tone; his use of words and cases is bold; and his text is so damaged that some passages are uncertain even for experts. Compared with Tibullus, he is two full tiers harder: Tibullus drifts, Propertius leaps, and he expects you to leap with him. He stops short of S only because, unlike Horace in the *Odes*, his word order is not built as a deliberate puzzle in every line, and because his narrative poems, like the two excerpts here, carry you along with their energy. Upper A, then, and knocking on S's door.
 
 ---
+
+# PUBLIUS OVIDIUS NASO -- OVID (43 BC -- 17/18 AD)
+
+## Biography
+
+Ovid is the youngest of the great Augustan poets, the only one born after the death of Caesar, and the only one who never knew the civil wars as an adult. That shows. Virgil and Horace had lived through the end of the Republic and wrote about peace as something won at a terrible price; Ovid grew up in the peace, took it for granted, and spent it having fun. For twenty years he was the most fashionable poet in Rome: witty, charming, prolific, endlessly inventive, adored by the public and imitated by everyone. Then, in AD 8, at the height of his fame, Augustus sent him to the end of the world, and he never came back. Few lives in literature have such a sharp turn in the middle.
+
+**Born the year the Republic died.** Publius Ovidius Naso was born on 20 March 43 BC at Sulmo, modern Sulmona, a small town in the mountains of the Abruzzo, "rich in ice-cold streams", as he describes it. He was born in a symbolic year, and he knew it: it was the year, he says, "when both consuls fell by the same fate", that is, Hirtius and Pansa, killed at Mutina. His family was old and of equestrian rank, comfortably off. He had a brother exactly one year older, born on the same day of the year, so that, as Ovid puts it, the family celebrated a single birthday with two cakes; the brother died at twenty. *Naso* is a family cognomen meaning "nose", and Ovid uses it constantly to refer to himself, so that the most fashionable poet in Rome went through life calling himself, more or less, "Big Nose".
+
+**The father who wanted a lawyer.** His father sent both boys to Rome to be trained in rhetoric for a political career. The brother was a natural orator; Ovid was a natural poet, and his father despaired. "Why do you try a useless pursuit?", he would say. "Even Homer left no money." Ovid tried to obey. He gave up verse and attempted to write prose, but, in the most famous line of his autobiography, "whatever I tried to write came out as verse". The elder Seneca, who heard him declaim as a young man in the schools of rhetoric, confirms it: even then, he says, Ovid's prose speeches "seemed to be nothing other than poetry let loose". Seneca also tells a wonderful story about his stubbornness. His friends once asked him to remove three lines from his poems that they considered too much; he agreed, on condition that he could name three lines that were exempt. Each side wrote its three lines secretly on a tablet, and when the tablets were opened, the lines were the same. Ovid used to say that a face is more beautiful with a mole.
+
+**No career, thank you.** He began the career his father wanted: he held a couple of junior judicial posts, and was entitled to stand for the Senate. Then he refused. He did not have the body or the temperament for public life, he says, and he was afraid of ambition. Instead he travelled, to Athens, to the cities of Asia Minor and to Sicily, with the poet Macer, and came back to Rome to do nothing but write.
+
+**The most fashionable man in Rome.** And Rome loved him. He began to recite his poems in public when he was barely past adolescence, with his beard shaved for the first or second time, and his first love poems, about a mistress called Corinna, made him famous almost overnight: everyone in Rome, he says, was trying to guess who Corinna was. He was friendly with Propertius, had heard Horace recite, and had seen Virgil, but only from a distance (*Vergilium vidi tantum*, "I only saw Virgil"); Tibullus died before they could become friends. By the time he was thirty he was the leading poet of the new generation, and the first generation of Romans who had never known anything but Augustus adored him. His poems were sung at parties, quoted in conversation, and even performed as ballets in the theatres. He married three times: the first two marriages ended quickly, the third, to a woman from a distinguished family, lasted the rest of his life, and she stayed loyal to him through everything that followed. He had a daughter, and grandchildren. He had a villa with gardens outside Rome. For twenty years his life was, by any standard, a success.
+
+**A poem and a mistake.** In AD 8, at the age of fifty, he was on the island of Elba with a friend when the news reached him: Augustus had personally ordered him to leave Rome and go to Tomis, a Greek town on the western shore of the Black Sea, modern Constanța in Romania, at the very edge of the empire. There was no trial and no Senate decree: it was the emperor's own decision, and technically a *relegatio*, so Ovid kept his citizenship and his property. He tells us the reason himself, in two words: *carmen et error*, "a poem and a mistake". The poem was the *Ars Amatoria*, published some eight years earlier, a cheerful manual of seduction that sat very badly with Augustus's laws on marriage and adultery. The mistake he never explained, except to say that he had seen something he should not have seen, and to compare himself to Actaeon, who was destroyed for accidentally seeing the goddess Diana naked. It was almost certainly connected to the scandal around Augustus's granddaughter Julia, exiled for adultery that same year. Before leaving, in despair, Ovid burned his own copy of the *Metamorphoses*, which was finished but not yet revised. Fortunately, as with Virgil and the *Aeneid*, his friends already had copies.
+
+**At the end of the world.** Tomis was everything Rome was not. It was cold: Ovid describes the Danube freezing so hard that carts could drive across it, and wine freezing so solid that it kept the shape of the jar after the jar was broken, so that people were served it not by the cup but by the chunk. It was dangerous: the town was regularly raided by the Getae and Sarmatians, horsemen who rode across the frozen river and shot poisoned arrows over the walls. And almost nobody spoke Latin. Ovid, the master of the Latin language, found himself the barbarian, unable to make himself understood: *barbarus hic ego sum, quia non intellegor ulli*, "here I am the barbarian, because nobody understands me". So he learned the local languages, Getic and Sarmatian, and eventually wrote a poem in Getic, in praise of Augustus, which he recited to the townspeople; they listened, murmured their approval, and shook their quivers full of arrows in applause.
+
+**Begging to come home.** For the rest of his life he wrote letters in verse to Rome, to his wife, to his friends, to Augustus himself, begging to be allowed home, or at least to be moved somewhere less terrible. Augustus died in AD 14 without relenting; Tiberius did not relent either. Ovid died in Tomis in AD 17 or 18, around the age of sixty, and was buried there. Today a statue of him stands in the main square of Constanța, looking out towards the sea. And in December 2017, two thousand years late, the city council of Rome passed a motion formally revoking his banishment.
+
+## Most Important Works
+
+- **Amores** (*Love Poems*, c. 20 BC, second edition c. 1 BC) -- three books of love elegies, mostly about a mistress called Corinna. They originally made up five books; Ovid cut them down to three for the second edition, and opens the collection with a little epigram in which the books themselves speak: "We who were once Naso's five little books are now three: he preferred this to the old version. Even if you take no pleasure in reading us, at least the punishment will be two books lighter." The *Amores* take all the conventions of Roman elegy, from Gallus, Tibullus and Propertius (the lover as slave, the locked door, the rival, the jealous husband, the soldier of love) and play with them: Ovid is the first elegist who is clearly having more fun with the genre than he is suffering in it. In one poem he complains that he is in love with two women at once; in another he lectures a doorkeeper; in another he sends a parrot to its grave with a full funeral elegy. [Complete]
+- **Heroides** (*Heroines*) -- letters in elegiac couplets written by the abandoned women of mythology to the men who left them: Penelope to Ulysses, Dido to Aeneas, Ariadne to Theseus, Medea to Jason, Sappho to Phaon, and others, plus a later set of paired letters from lovers and their replies. Ovid claimed to have invented the genre. [Complete]
+- **Ars Amatoria** (*The Art of Love*, c. 2 BC -- AD 1) -- a parody of a didactic poem, in three books of elegiac couplets: Books I and II teach men how to find a girlfriend and how to keep her, and Book III, added afterwards, teaches women the same. It is written with the full apparatus of a serious instruction manual, like Virgil's *Georgics*, but its subject is where to pick up women in Rome (the theatre, the races, dinner parties, even the law courts), what to say, how to write letters, how to make your partner jealous, and how to behave when you are caught. It is very funny, very clever, and it was published while Augustus was trying to make adultery a criminal offence. It was followed by the **Remedia Amoris** (*Cures for Love*), a poem on how to fall out of love, and the **Medicamina Faciei Femineae** (*Cosmetics for the Female Face*), of which a hundred lines survive, with actual recipes for face packs. [Complete; the Medicamina fragmentary]
+- **Metamorphoses** (*Transformations*, c. AD 2-8) -- Ovid's masterpiece, an epic in fifteen books of hexameters, around 12,000 lines, telling some two hundred and fifty myths of transformation, from the creation of the world out of chaos to the transformation of Julius Caesar into a star. It is not a single story but a continuous chain of stories, each running into the next, often told by characters inside other stories, so that tales are nested inside tales. Gods turn humans into trees, animals, stones, birds, springs and stars, usually because of love, jealousy, pride or punishment. Its themes are the instability of everything, the power of desire, the cruelty and caprice of the gods, the dangers of artistic talent (Arachne, Marsyas), and the way bodies change while something of the self survives. And it ends with a proud prophecy that Ovid, through this poem, will live on and be read wherever Rome's power extends. [Complete]
+- **Fasti** (*The Calendar*, c. AD 2-8) -- a poem in elegiac couplets on the Roman calendar, explaining the origins of Roman festivals, rituals and anniversaries day by day. It was planned in twelve books, one for each month; only six (January to June) were written before the exile interrupted it. [Incomplete -- 6 of 12 books]
+- **Tristia** (*Sorrows*, AD 9-12) and **Epistulae ex Ponto** (*Letters from the Black Sea*, AD 12-16) -- nine books in all of elegies and verse letters written from exile, describing the journey, the cold, the barbarians and his loneliness, defending his poetry, and begging for pardon. Book IV of the *Tristia* contains his autobiography in verse, the source of most of what we know about his life. [Complete]
+- **Ibis** -- a long curse poem against an unnamed enemy in Rome, in the tradition of Callimachus, packed with obscure mythological punishments. [Complete]
+- **Medea** -- a tragedy, praised by Quintilian and Tacitus as proof of what Ovid could have done if he had controlled his talent. [Lost]
+
+## Writing Style and Difficulty
+
+Ovid is the easiest of the three great Augustan poets, and it is not close. The elder Seneca's verdict on his early speeches, "poetry let loose", works just as well in reverse: Ovid's poetry is the closest thing in Latin to prose written in verse. His syntax is light, logical and transparent. His sentences usually follow the natural order of thought, his clauses are short and balanced, and his couplets almost always contain a complete idea, with the hexameter making a point and the pentameter turning or completing it. Where Virgil weighs every word and Horace builds a mosaic, Ovid simply talks, beautifully and very fast. His hexameter in the *Metamorphoses* is the most fluent in Latin, full of dactyls and almost never held back by heavy spondees. **Syntactic complexity: LOW to MEDIUM.**
+
+That does not mean he is without tricks, and the tricks are what make him a B rather than a C. He was trained in the schools of rhetoric, and it shows on every page: antithesis, paradox, wordplay, puns on names, epigrammatic endings, and a love of repeating a word in a slightly different form or sense. His learning is enormous, and the *Metamorphoses* in particular is full of rare Greek names, patronymics, epithets and allusions to myths that are told elsewhere, or not at all. He alludes constantly to Virgil, to the elegists, and to Greek poetry, often in order to parody them. And he is ironic almost everywhere, so that the translator always has to ask whether a line is serious or a joke. Quintilian, who admired him, put his finger on the problem: Ovid was "too much in love with his own talent", and could never resist one more clever turn. **Lexicon: MEDIUM; Stylistic figures: MEDIUM to HIGH; Allusion density: MEDIUM to HIGH.**
+
+The result is a poet who is still very readable. After Virgil and Horace, Ovid feels almost easy, and that is exactly why he is worth reading: because the Latin does not stand in the way, you can actually follow what he is doing, enjoy the wit, and understand the serious things he says under the jokes, about love, about power, about art, and about how fragile everything is.
+
+## Latin Excerpts
+
+### Excerpt 1: Amores I.9.1-20 -- Every Lover Is a Soldier
+
+**Source:** Ovid, *Amores*, Book I, poem 9, lines 1-20, from *The Latin Library* (thelatinlibrary.com/ovid/ovid.amor1.shtml). The dash after *uterque* in the source has been printed as a colon.
+
+**Context:** One of the great themes of Roman elegy is the *militia amoris*, the idea that love is a kind of military service. Tibullus and Propertius use it as a metaphor in passing; Ovid takes it and builds a whole poem out of it, a mock-philosophical proof, addressed to a friend called Atticus, that the lover and the soldier are exactly the same thing. Point by point, he compares them: their age, their courage, their sleepless nights, their long marches, their sieges and their spies. At the end of the poem he concludes that he himself used to be lazy, but love has made him an active man, and anyone who wants to stop being idle should fall in love. This is the first half of the argument. It is not exactly an unknown poem, but it is the best possible demonstration of how clearly Ovid's Latin is built.
+
+**Latin Text:**
+
+> Militat omnis amans, et habet sua castra Cupido;
+> Attice, crede mihi, militat omnis amans.
+> quae bello est habilis, Veneri quoque convenit aetas.
+> turpe senex miles, turpe senilis amor.
+> quos petiere duces animos in milite forti,
+> hos petit in socio bella puella viro.
+> pervigilant ambo; terra requiescit uterque:
+> ille fores dominae servat, at ille ducis.
+> militis officium longa est via; mitte puellam,
+> strenuus exempto fine sequetur amans.
+> ibit in adversos montes duplicataque nimbo
+> flumina, congestas exteret ille nives,
+> nec freta pressurus tumidos causabitur Euros
+> aptaque verrendis sidera quaeret aquis.
+> quis nisi vel miles vel amans et frigora noctis
+> et denso mixtas perferet imbre nives?
+> mittitur infestos alter speculator in hostes;
+> in rivale oculos alter, ut hoste, tenet.
+> ille graves urbes, hic durae limen amicae
+> obsidet; hic portas frangit, at ille fores.
+
+**English Translation:**
+
+Every lover is a soldier, and Cupid has a camp of his own:
+believe me, Atticus, every lover is a soldier.
+The age that is fit for war is also suited to Venus:
+an old soldier is a disgrace, an old lover is a disgrace.
+The spirit that generals look for in a brave soldier
+is what a pretty girl looks for in the man who shares her bed.
+Both stay awake all night; both rest on the bare ground:
+one guards his mistress's door, the other his general's.
+A soldier's duty is the long march; send the girl away,
+and her lover will follow her tirelessly, to the ends of the earth.
+He will climb the mountains in his way, cross rivers swollen with rain,
+and tramp through the drifted snow;
+about to set sail, he will not plead the swollen east winds
+as an excuse, or wait for stars suited to skimming the waves.
+Who but a soldier or a lover will endure the cold of the night,
+and snow mixed with driving rain?
+One is sent out as a scout against the hostile enemy;
+the other keeps his eyes on his rival, as on an enemy.
+The one besieges mighty cities, the other the threshold
+of a hard-hearted mistress; one breaks down gates, the other doors.
+
+**Analysis:**
+
+This is the clearest possible illustration of Ovid's syntax. Almost every couplet contains one complete idea, and almost every idea is built on a parallel: soldier and lover, war and Venus, *ille* and *ille*, *alter* and *alter*, *hic* and *ille*. The poem opens and closes its first couplet on the same three words, *militat omnis amans*, a frame that announces the thesis like the title of a lecture. Then each couplet adds a point of comparison, in an order so logical that a student can almost predict the next line: age (3-4), courage (5-6), sleepless nights (7-8), long marches (9-14), endurance of cold (15-16), spying (17-18) and sieges (19-20).
+
+Look at how the parallels are built into the grammar. Line 4 is a perfect balance: *turpe senex miles, turpe senilis amor*, the same adjective twice, with the verb *est* left out both times. Lines 5-6 use a correlative pair, *quos... animos... hos*, "the spirit that... this same". Line 8 uses *ille... ille*, "the one... the other", with a single verb, *servat*, for both halves, and the genitives *dominae* and *ducis* placed in matching positions. And the last couplet is a small masterpiece of symmetry: *ille graves urbes, hic durae limen amicae / obsidet; hic portas frangit, at ille fores*. The verb *obsidet* serves both subjects, and the second half reverses the order of *ille* and *hic*, a chiasmus, ending on the most deflating word of all: *fores*, the door of a girl's house, against *portas*, the gates of a city.
+
+There are a few things to watch. *Petiere* is the short form of *petiverunt*. *Exempto fine*, "with the limit removed", is an ablative absolute: "without end". *Pressurus*, a future participle, means "about to press the sea", that is, to sail. *Causabitur* is a deponent verb, "to plead as an excuse", from *causa*. And *verrendis... aquis*, "for the waters that are to be swept", uses a gerundive in the dative: the stars that sailors wait for are the ones suited to the voyage. But none of this gets in the way. That is the point: the Latin is so clear that the reader is free to enjoy the joke, which is that Ovid is applying the solemn Roman virtues of the soldier, discipline, endurance, courage, to a young man trying to get into his girlfriend's house.
+
+---
+
+### Excerpt 2: Ars Amatoria I.135-162 -- A Day at the Races
+
+**Source:** Ovid, *Ars Amatoria*, Book I, lines 135-162, from *The Latin Library* (thelatinlibrary.com/ovid/ovid.artis1.shtml). The Latin Library capitalises the first word of every line, which has been kept.
+
+**Context:** In the first book of the *Ars Amatoria*, Ovid tells his male readers where in Rome they can find a girlfriend: in the porticoes and temples, in the theatres, at the triumphs, at dinner parties, at the seaside resort of Baiae, and here, at the chariot races in the Circus Maximus. The Circus is the perfect place, he explains, for one simple reason: in the theatre men and women sat in separate sections, but at the Circus they sat together, packed on the same benches. What follows is a step-by-step guide to making the most of it, written with the solemnity of a farming manual.
+
+**Latin Text:**
+
+> Nec te nobilium fugiat certamen equorum;
+> Multa capax populi commoda Circus habet.
+> Nil opus est digitis, per quos arcana loquaris,
+> Nec tibi per nutus accipienda nota est:
+> Proximus a domina, nullo prohibente, sedeto,
+> Iunge tuum lateri qua potes usque latus;
+> Et bene, quod cogit, si nolis, linea iungi,
+> Quod tibi tangenda est lege puella loci.
+> Hic tibi quaeratur socii sermonis origo,
+> Et moveant primos publica verba sonos.
+> Cuius equi veniant, facito, studiose, requiras:
+> Nec mora, quisquis erit, cui favet illa, fave.
+> At cum pompa frequens caelestibus ibit eburnis,
+> Tu Veneri dominae plaude favente manu;
+> Utque fit, in gremium pulvis si forte puellae
+> Deciderit, digitis excutiendus erit:
+> Etsi nullus erit pulvis, tamen excute nullum:
+> Quaelibet officio causa sit apta tuo.
+> Pallia si terra nimium demissa iacebunt,
+> Collige, et inmunda sedulus effer humo;
+> Protinus, officii pretium, patiente puella
+> Contingent oculis crura videnda tuis.
+> Respice praeterea, post vos quicumque sedebit,
+> Ne premat opposito mollia terga genu.
+> Parva leves capiunt animos: fuit utile multis
+> Pulvinum facili composuisse manu.
+> Profuit et tenui ventos movisse tabella,
+> Et cava sub tenerum scamna dedisse pedem.
+
+**English Translation:**
+
+Don't miss the races of the noble horses, either:
+the Circus, with room for a vast crowd, offers many advantages.
+There is no need for fingers to talk in secret,
+nor do you need to catch a signal from her nods:
+sit right next to your lady, nobody will stop you,
+and press your side against hers as close as you can;
+and it is a good thing that the seating line forces you together, even if you didn't want it,
+that by the rules of the place you simply have to touch the girl.
+Here look for a way to start a friendly conversation,
+and let small talk produce your first words.
+Make sure you ask, very keenly, whose horses are coming in,
+and without a moment's delay, whoever she supports, support him too.
+And when the crowded procession of ivory gods goes by,
+clap your hands enthusiastically for Lady Venus;
+and if, as happens, a speck of dust should fall
+on the girl's lap, you must brush it off with your fingers;
+and even if there is no dust, brush off the nothing:
+any excuse will do to be of service.
+If her cloak is trailing too low on the ground,
+gather it up and carefully lift it from the dirty earth:
+straight away, as the reward for your service, if the girl allows it,
+your eyes will get a glimpse of her legs.
+Keep an eye, besides, on whoever is sitting behind you,
+so that he doesn't press his knee into her soft back.
+Little things win light hearts: many have found it useful
+to plump up a cushion with a deft hand.
+It has helped, too, to fan her with a thin writing tablet,
+and to slip a hollow footstool under her dainty foot.
+
+**Analysis:**
+
+This passage is the *Ars Amatoria* in miniature: a didactic poem, with all the grammar of instruction, applied to a completely frivolous subject. Watch the verbs. Ovid uses every form of the imperative and the jussive that Latin possesses: the negative jussive subjunctive (*Nec te... fugiat*, "don't let it escape you"), the future imperative (*sedeto*, "you shall sit", *facito*, "see to it"), the ordinary imperative (*iunge*, *fave*, *plaude*, *excute*, *collige*, *effer*, *respice*), the jussive subjunctive (*quaeratur*, *moveant*, *sit*), and the gerundive of obligation (*accipienda... est*, *tangenda est*, *excutiendus erit*). It is the language of Cato's farming manual and of Virgil's *Georgics*, used to explain how to sit next to a girl.
+
+The comedy is in the details, and the best line in the passage is one of the funniest in Latin: *Etsi nullus erit pulvis, tamen excute nullum*, "even if there is no dust, brush off the nothing". The word *nullum*, used as a noun, "nothing", turns the whole couplet into a joke about pretexts, and the next line states the moral with perfect seriousness: *Quaelibet officio causa sit apta tuo*, "let any reason be good enough for your service". Notice also how the lover is told to support whichever team she supports (*quisquis erit, cui favet illa, fave*, with the play on *favet... fave*), to applaud Venus when the statues of the gods are paraded round the track before the races, and to protect her from the knees of the man behind. The whole passage is a portrait of Roman social life, the noise, the crowd, the dust, the cushions and the footstools, seen through the eyes of a very attentive young man.
+
+Grammatically, it is all clear and straightforward, with just a few points to watch: *capax populi*, "capable of holding the people", with an objective genitive; *Et bene, quod...*, "and it's a good thing that...", an idiom; *linea*, the line marking the seats; the conditional *si... deciderit*, a future perfect, "if it should have fallen"; *officii pretium*, in apposition, "as the price of your service"; and *videnda*, a gerundive used almost as an adjective, "legs to be seen". Note too the perfect infinitives with *fuit utile* and *profuit* (*composuisse*, *movisse*, *dedisse*), which give the advice the air of tried and tested experience.
+
+---
+
+### Excerpt 3: Metamorphoses VIII.823-842 and 875-878 -- The Hunger of Erysichthon
+
+**Source:** Ovid, *Metamorphoses*, Book VIII, lines 823-842 and 875-878, from *The Latin Library* (thelatinlibrary.com/ovid/ovid.met8.shtml). The story is told by a character, and the source opens line 823 with a quotation mark that is closed elsewhere; it has been left out here. The dash at the end of line 878 has been printed as a full stop.
+
+**Context:** Erysichthon was a king of Thessaly who despised the gods. He took an axe to the sacred grove of Ceres, the goddess of grain, and cut down an ancient oak so holy that it was hung with offerings, killing the nymph who lived inside it. Ceres punished him with the cruellest possible sentence for an offence against the goddess of food: she sent Fames, Hunger personified, from the frozen wastes of Scythia, and Hunger breathed herself into him as he slept. The story is told, in Book VIII, by the river-god Achelous, to the hero Theseus. These lines describe what happens next: the dream, the waking, and the hunger that nothing can fill. In the lines between the two parts of the excerpt, Erysichthon eats his way through his whole fortune and then sells his own daughter to buy food; she escapes by changing her shape, so he sells her again and again. The last four lines are the end of the story.
+
+**Latin Text:**
+
+> Lenis adhuc Somnus placidis Erysicthona pennis
+> mulcebat: petit ille dapes sub imagine somni,
+> oraque vana movet dentemque in dente fatigat,
+> exercetque cibo delusum guttur inani
+> proque epulis tenues nequiquam devorat auras;
+> ut vero est expulsa quies, furit ardor edendi
+> perque avidas fauces incensaque viscera regnat.
+> nec mora; quod pontus, quod terra, quod educat aer,
+> poscit et adpositis queritur ieiunia mensis
+> inque epulis epulas quaerit; quodque urbibus esse,
+> quodque satis poterat populo, non sufficit uni,
+> plusque cupit, quo plura suam demittit in alvum.
+> utque fretum recipit de tota flumina terra
+> nec satiatur aquis peregrinosque ebibit amnes,
+> utque rapax ignis non umquam alimenta recusat
+> innumerasque trabes cremat et, quo copia maior
+> est data, plura petit turbaque voracior ipsa est:
+> sic epulas omnes Erysicthonis ora profani
+> accipiunt poscuntque simul. cibus omnis in illo
+> causa cibi est, semperque locus fit inanis edendo.
+>
+> ...
+>
+> vis tamen illa mali postquam consumpserat omnem
+> materiam derantque gravi nova pabula morbo,
+> ipse suos artus lacerans divellere morsu
+> coepit et infelix minuendo corpus alebat.
+
+**English Translation:**
+
+Gentle Sleep was still soothing Erysichthon with his peaceful wings:
+in his dream he reaches for a banquet,
+moves his mouth on nothing, grinds tooth against tooth,
+works his throat, cheated by imaginary food,
+and instead of a feast devours, in vain, the thin air.
+But when rest had been driven away, a raging desire to eat
+takes over his greedy jaws and his burning entrails.
+At once he demands everything that the sea, the earth and the air produce,
+complains of hunger with the tables laid before him,
+and in the middle of a feast looks for more feasts; what could have been enough
+for whole cities, enough for an entire people, is not enough for one man,
+and the more he sends down into his belly, the more he wants.
+And as the sea receives the rivers of the whole earth
+and is never satisfied with water, and drinks up streams from distant lands,
+and as a greedy fire never refuses fuel
+and burns countless logs, and the more it is given
+the more it wants, and grows hungrier from its very abundance:
+so the mouth of impious Erysichthon receives every feast
+and demands more at the same time. All food, in him,
+is a cause for more food, and by eating he is always making empty space.
+
+...
+
+But when the violence of his disease had consumed all
+his substance, and there was no new fodder for his grievous sickness,
+he began to tear his own limbs apart with his teeth,
+and, wretched man, fed his body by consuming it.
+
+**Analysis:**
+
+This is the *Metamorphoses* at its most unsettling, and a good example of how Ovid's clarity can be used for horror as well as for comedy. The dream comes first, and it is a cruel joke: Erysichthon eats in his sleep, moves his empty mouth, grinds his teeth together and swallows air. Every verb is physical (*movet*, *fatigat*, *exercet*, *devorat*), and every object is empty (*ora vana*, *cibo inani*, *tenues... auras*). Then he wakes up, and the hunger "reigns" (*regnat*) in his jaws and entrails, like a tyrant.
+
+The central section is built on two devices Ovid loves. The first is paradox, stated in the most epigrammatic form possible: *inque epulis epulas quaerit*, "in the middle of feasts he looks for feasts", with the same word repeated in two cases (polyptoton); *plusque cupit, quo plura... demittit*, "and he wants more, the more he sends down", a correlative with *quo* and a comparative; and finally *cibus omnis in illo / causa cibi est, semperque locus fit inanis edendo*, "all food in him is the cause of food, and by eating he always makes empty space". The second device is the epic simile, and here Ovid gives us two in a row, the sea that swallows all the rivers of the world and is never full, and the fire that burns more fiercely the more wood you give it, each introduced by *utque*, "and as", and resolved by *sic*, "so". They are borrowed from the grand style of Virgil, and applied to a man who cannot stop eating. Notice also the tricolon *quod pontus, quod terra, quod educat aer*, which runs through the three elements of the world to show that nothing in creation can fill him.
+
+The last four lines are the end of the story, and its most famous paradox. When there is nothing left to eat, Erysichthon begins to eat himself: *ipse suos artus lacerans divellere morsu / coepit*, "he began to tear his own limbs apart, ripping them with his bite". And the final line is a perfect Ovidian epigram: *infelix minuendo corpus alebat*, "the wretched man fed his body by diminishing it". The gerund *minuendo*, "by diminishing", against the verb *alebat*, "he was feeding", is a contradiction in two words. Grammatically the passage is straightforward: note *Erysicthona*, a Greek accusative; *derant*, a contracted form of *deerant*; and the historic presents in the dream (*petit*, *movet*, *fatigat*). The difficulty is not the grammar but the density of wit, which never lets up even in the most horrible moments. That, more than the transformations themselves, is the real Ovid.
+
+---
+
+## Legacy and Impact
+
+Ovid is one of the clearest examples in this whole project of an author who had every reason to be forgotten. He was a pagan, he wrote poems that taught adultery, he mocked the gods, and he had been condemned by the emperor himself. And yet he became one of the most read, copied and imitated authors of the Christian Middle Ages. The twelfth and thirteenth centuries have even been called the *aetas Ovidiana*, the "age of Ovid". What saved him was reinterpretation. Christian readers learned to read the *Metamorphoses* as an allegory, in which each myth concealed a moral or religious truth: Phaethon falling from the sky could be read as Lucifer, Pyramus and Thisbe as Christ and the soul, and the transformations themselves as images of sin and redemption. In the fourteenth century a huge French poem, the *Ovide moralisé*, retold every myth in the *Metamorphoses* with a Christian moral attached, and a Latin version did the same for the schools. Even the *Ars Amatoria* was copied, studied and imitated, in the courtly love literature of the Middle Ages. A pagan poet of love and transformation became, against all odds, a moral teacher.
+
+His influence on the Renaissance and on Western culture as a whole is almost impossible to exaggerate, and it comes above all from the myths of the *Metamorphoses*, which became the standard handbook of classical mythology for Europe. A few examples among hundreds:
+
+- **Dante** places him among the four great poets of antiquity in Limbo, and in the *Inferno* challenges him directly, telling Ovid to be silent, because Dante's own transformations of sinners outdo his.
+- **Chaucer** and **Boccaccio** retold his stories, and the *Heroides* shaped the medieval and Renaissance tradition of the abandoned woman's lament.
+- **Shakespeare** knew him intimately, probably through Arthur Golding's English translation of 1567: the comic play of *Pyramus and Thisbe* in *A Midsummer Night's Dream*, the narrative poem *Venus and Adonis*, and the tragedy *Titus Andronicus*, in which a copy of the *Metamorphoses* is actually brought on stage, all come from Ovid, and a contemporary wrote that the "sweet witty soul of Ovid lives in mellifluous and honey-tongued Shakespeare".
+- In painting and sculpture, **Titian**'s great mythological canvases for Philip II of Spain, which he called his *poesie*, **Bernini**'s *Apollo and Daphne* in the Galleria Borghese in Rome, and countless works by Botticelli, Correggio, Rubens and Velázquez are illustrations of the *Metamorphoses*.
+- In music, the very first operas, including **Monteverdi**'s *Orfeo*, drew on his myths, and so did centuries of opera after them.
+- In the modern world, the myth of Pygmalion became George Bernard Shaw's *Pygmalion* and then *My Fair Lady*; **Pushkin**, himself exiled to the shores of the Black Sea, wrote a poem to Ovid; and in 1997 the English poet **Ted Hughes** published *Tales from Ovid*, which became a bestseller.
+
+And yet, as with Virgil, fame has narrowed the man. Today most people who know Ovid's name know him as "the Metamorphoses guy": the poet of people turning into trees and birds. That is a great deal, but it is far from all of him. The *Amores* are the wittiest love poems in Latin; the *Ars Amatoria* is one of the funniest poems ever written and the reason he spent the rest of his life at the end of the world; the *Fasti* are a unique guide to Roman religion; and the *Tristia* and the letters from the Black Sea are among the first great literature of exile, written by a man who had lost everything except his language, and who kept writing in it, beautifully, until the end.
+
+---
+
+## Final Rating
+
+**Tier: B (Difficult)**
+
+Ovid is the easiest of the three great Augustan poets, and much the easiest to enjoy. His syntax is light and logical, his couplets make one point at a time, his hexameters run fast, and his sentences follow the natural order of thought: his poetry is the closest Latin comes to prose in verse. What makes him a B rather than a C is everything he adds on top: rhetorical wit, paradox and wordplay on every page, a constant layer of irony, a huge stock of Greek names and mythological allusions, especially in the *Metamorphoses*, and a love of showing off that, as Quintilian said, he could never control. So he sits between Tibullus and Propertius: harder than the first, much easier than the second, and still very readable. And because he is readable, his messages come through: which is exactly why he deserves to be read for much more than the transformations.
+
+---
