@@ -1804,7 +1804,7 @@ L'influenza del vero Igino sopravvive soprattutto di seconda mano, attraverso gl
 
 ### Valutazione finale *(italiano)*
 
-**Tier: D (Buon esercizio)**
+**Tier: D (Good Exercise)**
 
 Le *Fabulae* sono quanto di più facile offra la prosa latina: frasi brevi, sintassi semplice, un lessico limitato e storie che la maggior parte dei lettori conosce già. Gli unici ostacoli sono i numerosi nomi mitologici greci e una manciata di forme non classiche (*Iovis* per *Iuppiter*) che uno studente non dovrebbe imitare. Come le *Res Gestae* di Augusto all'altro capo di questo capitolo, sono un perfetto testo di riscaldamento, e un modo piacevole per imparare insieme mitologia e grammatica. Un D netto.
 
@@ -1882,8 +1882,199 @@ Grazio ebbe pochissima influenza. È citato da Ovidio, forse imitato da Nemesian
 
 ### Valutazione finale *(italiano)*
 
-**Tier: B (Difficile)**
+**Tier: B (Difficult)**
 
 Grazio sopravvive in 541 versi, abbastanza per una valutazione onesta. Non è uno stilista raffinato, ma è una lettura difficile: un lessico tecnico denso su reti, armi, razze canine e rimedi veterinari, in gran parte raro o incerto; riferimenti geografici e mitologici eruditi; un esametro pesante e compresso a imitazione delle *Georgiche*; e un testo che sopravvive in un unico manoscritto danneggiato, con lacune e integrazioni degli editori. È più facile di Virgilio, perché c'è molta meno profondità e molta meno arte da sciogliere, ma decisamente più difficile di Tibullo o di Ovidio. Un B, e onesto.
+
+---
+
+## POMPEO TROGO (fl. fine I sec. a.C. -- inizio I sec. d.C.)
+
+### Biografia *(italiano)*
+
+Pompeo Trogo è il grande storico dell'età augustea che quasi nessuno ha letto, per il semplice motivo che nessuno può farlo: la sua opera è perduta. Ciò che abbiamo è un riassunto fatto secoli dopo da un certo Giustino, che avrà una sua voce in un'epoca successiva. Leggere Trogo è un po' come conoscere un film famoso attraverso la recensione sul giornale: la trama c'è, i giudizi ci sono, ma la voce del regista è in gran parte sparita. Eppure quello che sopravvive della sua vita, e delle sue idee, è sorprendentemente interessante.
+
+**Un gallo con un nome romano.** Trogo è l'unico storico romano che ci parli della propria famiglia, e lo fece, com'è tipico di lui, proprio alla fine del suo ultimo libro. Giustino lo riassume: i suoi antenati venivano dai Voconzi, un popolo gallico della Gallia Narbonense, nell'odierna Provenza, intorno a Vaison-la-Romaine. Suo nonno aveva ricevuto la cittadinanza romana da Pompeo Magno durante la guerra contro Sertorio in Spagna e, come si usava, aveva preso il nome del suo protettore: ecco perché un gallo si chiama *Pompeius*. Suo zio comandò squadroni di cavalleria sotto Pompeo nella guerra contro Mitridate, e suo padre servì sotto Giulio Cesare, come segretario per la corrispondenza e le ambascerie e custode del suo anello con il sigillo. In tre generazioni, quindi, la famiglia passò dalle tribù galliche all'ufficio privato dell'uomo più potente di Roma. Niente male per dei provinciali.
+
+**Uno storico che guardava lontano da Roma.** A Roma tutti scrivevano la storia di Roma. Livio, suo contemporaneo, la stava scrivendo dalla fondazione della città in 142 libri. Trogo decise di scrivere la storia di tutti gli altri. Le sue *Historiae Philippicae*, in 44 libri, partono da Nino, il leggendario primo re dell'Assiria, e passano per gli imperi dei Medi e dei Persiani, la Grecia, e soprattutto i Macedoni di Filippo e Alessandro (da qui il titolo, "Storie filippiche") e i regni ellenistici che vennero dopo. Roma compare soprattutto dall'esterno, come la potenza che alla fine li inghiotte tutti, e ha una narrazione propria solo verso la fine, nei libri sulle sue origini, sulla Gallia e sulla Spagna, dove l'opera si chiude con la conquista definitiva delle tribù spagnole da parte di Augusto. Una storia universale, scritta in latino da un gallo, in cui Roma è l'ultima arrivata: è l'idea più originale della storiografia augustea.
+
+**Una cattiva compagnia?** Trogo attinse molto agli storici greci, e uno di loro potrebbe essere stato Timagene di Alessandria, un greco brillante e dalla lingua tagliente che viveva a Roma e scrisse una storia dei re del mondo. Timagene aveva un famoso problema con Augusto: non riusciva a smettere di fare battute sull'imperatore e sulla sua famiglia. Augusto gli proibì l'accesso alla sua casa, e Timagene, per ripicca, bruciò pubblicamente i libri che aveva scritto sul regno di Augusto. Se Trogo lo abbia davvero usato è discusso, ma spiegherebbe perché la sua storia è così piena delle voci dei nemici di Roma.
+
+**L'uomo che odiava i discorsi inventati.** Gli storici antichi amavano mettere lunghi discorsi in bocca ai loro personaggi, in forma diretta, come se li avessero trascritti parola per parola. Livio e Sallustio ne riempirono le loro opere. Trogo lo considerava disonesto: Giustino ci racconta che rimproverava a Livio e Sallustio di aver oltrepassato i limiti della storia inserendo discorsi diretti e spacciando la propria eloquenza per quella dei personaggi. Così, quando Trogo inseriva un grande discorso, lo scriveva in forma indiretta. Giustino ne ammirò uno così tanto da copiarlo quasi per intero: è il discorso di Mitridate, re del Ponto, ai suoi soldati prima della guerra contro Roma, uno dei più lunghi passi di discorso indiretto della letteratura latina, e uno degli attacchi più violenti contro Roma mai scritti da un romano. È il brano scelto.
+
+**Anche esperto di animali.** Trogo scrisse anche un'opera sugli animali e sulle piante, oggi perduta, e Plinio il Vecchio lo cita più volte come autorità in zoologia. Storico degli imperi e naturalista: l'età augustea amava gli scrittori versatili.
+
+**Perduto, e salvato da un riassunto.** Tra il II e il IV secolo d.C. (la data è discussa), Giustino compose la sua *Epitome*, riducendo i 44 libri di Trogo a una raccolta di quelle che lui stesso chiama le parti più piacevoli e più istruttive, un piccolo "corpo di fiori". Fu un enorme successo, e uccise l'originale: una volta che i lettori ebbero la versione breve, nessuno si prese più la briga di copiare quella lunga. L'*Epitome* fu letta in tutte le scuole medievali e sopravvive in circa duecento manoscritti. Di Trogo stesso abbiamo solo il testo di Giustino, i *prologi* (brevi sommari del contenuto di ciascuno dei 44 libri, che forse risalgono all'edizione di Trogo) e qualche citazione. È il caso di distruzione per riassunto più riuscito della letteratura latina.
+
+### Opere principali *(italiano)*
+
+- **Historiae Philippicae** (*Storie filippiche*) -- una storia universale in 44 libri, dall'impero assiro all'età di Augusto, incentrata sulla Macedonia e sui regni ellenistici, con Roma trattata soprattutto dall'esterno. Sopravvive attraverso l'*Epitome* di Giustino e i *prologi*. [Perduta; riassunta]
+- **Sugli animali** (e forse sulle piante) -- un'opera di storia naturale citata da Plinio il Vecchio. [Perduta]
+
+### Stile e difficoltà *(italiano)*
+
+Qui bisogna essere onesti: ogni valutazione di Trogo è una valutazione di Giustino. Il latino che leggiamo è quello di Giustino, anche se spesso conserva le frasi di Trogo, soprattutto nei discorsi e nei commenti morali. Il risultato è una prosa narrativa chiara e leggibile: in gran parte classica per grammatica e lessico, con periodi lunghi ma ben costruiti, frequenti sentenze morali alla maniera di Sallustio e una predilezione per le antitesi e le chiuse ad effetto. Si insinua qualche tratto tardo, e la condensazione lascia a volte dei vuoti nella logica del racconto, ma nel complesso è più facile di Livio, e molto più facile di Sallustio. **Lessico: da BASSO a MEDIO; Complessità sintattica: MEDIA.**
+
+La vera sfida è quella che Trogo scelse da sé: il **discorso indiretto**. Quando un intero discorso è riferito in *oratio obliqua*, ogni verbo principale diventa un infinito, ogni verbo subordinato diventa un congiuntivo, ogni "io" diventa *se* o *sibi* e ogni "voi" diventa *illi* o *ipsi*, e il lettore deve ricostruire il discorso originale nella propria testa mentre traduce. È uno dei migliori esercizi di sintassi latina, e il discorso di Mitridate ne è l'esempio classico. **Figure retoriche: MEDIE; Densità di allusioni: MEDIA** (la storia di mezzo mondo antico, con i nomi che ne conseguono).
+
+### Brano: Giustino, Epitome 38.6.7-8 -- I figli della lupa
+
+**Fonte:** Giustino, *Epitome delle Storie filippiche di Pompeo Trogo*, 38.6.7-8, da *The Latin Library* (thelatinlibrary.com/justin/38.html). È stato rimosso il numero di paragrafo 8 all'interno del passo.
+
+**Contesto:** Nell'88 a.C. Mitridate VI, re del Ponto, sta per cominciare la sua prima guerra contro Roma. Raduna l'esercito e pronuncia un lungo discorso, che Trogo riferisce in forma indiretta e Giustino conserva quasi per intero. Mitridate ha appena elencato i re che Roma ha usato e poi tradito (Eumene di Pergamo, Massinissa di Numidia), e ora spiega perché i Romani odiano tutti i re: perché i loro re erano così imbarazzanti. Ogni lettore romano conosceva i sette re di Roma; Mitridate rovescia la fiera leggenda della città, un re alla volta.
+
+**Testo latino:**
+
+> Hanc illos omnibus regibus legem odiorum dixisse, scilicet quia ipsi tales reges habuerint, quorum etiam nominibus erubescant, aut pastores Aboriginum, aut aruspices Sabinorum, aut exules Corinthiorum, aut servos vernasque Tuscorum, aut, quod honoratissimum nomen fuit inter haec, Superbos; atque ut ipsi ferunt conditores suos lupae uberibus altos, sic omnem illum populum luporum animos inexplebiles sanguinis, atque imperii divitiarumque avidos ac ieiunos habere.
+
+**Traduzione italiana** *(originale)*:
+
+(Diceva che) avevano stabilito questa legge di odio contro tutti i re, evidentemente perché loro stessi avevano avuto re dei cui nomi dovevano perfino arrossire: o pastori degli Aborigeni, o aruspici dei Sabini, o esuli di Corinto, o schiavi e servi nati in casa degli Etruschi, oppure, il nome più onorevole fra questi, i Superbi; e come loro stessi raccontano che i loro fondatori furono allattati dalle mammelle di una lupa, così tutto quel popolo aveva animi di lupi, insaziabili di sangue, e avidi e affamati di potere e di ricchezze.
+
+**Analisi:**
+
+È un esempio perfetto di *oratio obliqua*. Nel passo non c'è nessun verbo di dire, perché l'*ait* che lo regge si trova diversi paragrafi prima: tutto dipende da quello. Così i verbi principali sono infiniti (*dixisse*, *habere*), con i soggetti in accusativo (*illos*, *omnem illum populum*), e i verbi delle subordinate sono al congiuntivo (*habuerint*, *erubescant*). Anche i pronomi seguono le regole: *illos* e *ipsi* sono i Romani, visti dal punto di vista di Mitridate. Per tradurlo bene, lo studente deve sottintendere "diceva che" e poi decidere quanto della costruzione indiretta mantenere in italiano. Una piccola trappola: *quod honoratissimum nomen fuit* è all'indicativo, perché è un commento del narratore, non parte del discorso di Mitridate.
+
+L'elenco dei re è un piccolo capolavoro di insulto, e ogni voce è un vero re di Roma descritto nel modo peggiore possibile. I "pastori degli Aborigeni" sono Romolo e Remo, allevati dai pastori; gli "aruspici dei Sabini" sono Numa Pompilio, il pio re sabino; gli "esuli di Corinto" sono Tarquinio Prisco, figlio di Demarato, un profugo corinzio; gli "schiavi degli Etruschi" sono Servio Tullio, che si diceva figlio di una schiava; e gli ultimi sono i Tarquini, il cui membro più famoso era chiamato *Superbus*. La frase si chiude poi con il simbolo più famoso di Roma, la lupa, e lo trasforma in un'accusa: un popolo cresciuto con il latte di lupa ha un'anima di lupo. Si noti la comparazione *ut... sic* e la chiusa *avidos ac ieiunos*, "avidi e digiuni", con i genitivi *imperii divitiarumque* che dipendono da entrambi gli aggettivi. Un gallo la cui famiglia doveva tutto a Pompeo e a Cesare affidò questo discorso al più grande nemico di Roma, e gli diede la sua prosa migliore: segno di notevole imparzialità, o di notevole coraggio.
+
+### Eredità e Impatto
+
+Attraverso Giustino, Trogo ebbe un'enorme influenza sul modo in cui il Medioevo e il Rinascimento videro la storia antica al di fuori di Roma. L'*Epitome* fu il manuale di riferimento per la storia degli Assiri, dei Persiani, dei Greci e dei Macedoni; fu letta da Orosio e da Agostino, citata per tutto il Medioevo e usata dagli scrittori del Rinascimento in cerca di belle storie ed esempi morali. Molti degli aneddoti più famosi su Alessandro Magno, gli Sciti, le Amazzoni o la fondazione di Marsiglia sono arrivati alla cultura europea attraverso questo libro. E il discorso di Mitridate, con la sua immagine di Roma come nazione di lupi, è stato citato da allora da chiunque volesse criticare un impero. L'ironia è che Trogo è famoso proprio grazie al libro che ha fatto sparire la sua opera.
+
+### Valutazione finale *(italiano)*
+
+**Tier: C (Manageable)**
+
+Ciò che leggiamo di Trogo è una prosa narrativa chiara e classica, filtrata e semplificata da Giustino, più facile di Livio o di Sallustio. Due cose la portano sopra il D: la condensazione, che a volte fa saltare il racconto o rende poco chiari i nessi, e i lunghi passi di discorso indiretto, ottimi ma impegnativi banchi di prova per la sintassi. Un C solido, e uno dei posti migliori per esercitarsi con l'*oratio obliqua*.
+
+---
+
+## MARCO MANILIO (fl. inizio I sec. d.C.)
+
+### Biografia *(italiano)*
+
+Manilio è l'ultimo autore dell'età augustea, e per certi versi il più strano. Scrisse il più lungo poema sull'astrologia giunto a noi dal mondo antico, un'opera di vera forza e di occasionale genialità; eppure nessuno scrittore antico lo nomina mai. Né Ovidio, che nomina tutti; né Quintiliano, che elenca i poeti latini; né Plinio. È un uomo che diceva di leggere il futuro nelle stelle, e non riuscì ad assicurarsi il proprio.
+
+**Un poeta senza biografia.** Non conosciamo con certezza neppure il suo nome: i manoscritti lo chiamano Manilius, Manlius o Mallius, e anche il prenome Marco non è sicuro. Tutto ciò che sappiamo viene dal poema stesso. Si rivolge a un imperatore, Cesare, come "principe della patria" e figlio di un dio; cita come evento recente il disastro di Varo, quando tre legioni furono distrutte in Germania nel 9 d.C. Scrisse quindi alla fine del regno di Augusto, e probabilmente finì il poema, o non riuscì a finirlo, sotto Tiberio. Alcuni studiosi, notando qualche espressione poco romana nel suo latino, hanno pensato che fosse uno straniero; altri che fosse un liberto, come Igino. Nessuno lo sa.
+
+**L'astrologia, la moda del momento.** Manilio scelse bene il suo argomento. L'astrologia era la grande moda intellettuale della prima età imperiale. Augusto, secondo Svetonio, pubblicò il proprio oroscopo e fece coniare monete con il segno del Capricorno, che considerava il suo segno fortunato; Manilio, puntualmente, ricorda il Capricorno che brilla sulla nascita di Augusto. Tiberio, l'imperatore successivo, ne era ancora più devoto: viveva a Capri con il suo astrologo personale, Trasillo. Un poema che dimostrava che le stelle governano ogni cosa, e che il potere dell'imperatore era scritto nel cielo, era esattamente ciò che il palazzo voleva sentirsi dire.
+
+**L'anti-Lucrezio.** Manilio è orgoglioso, e ce lo dice: è il primo, afferma, a portare la conoscenza del cielo nel canto latino. Il suo grande rivale è Lucrezio, che imita di continuo e contraddice su ogni punto. Lucrezio aveva insegnato che l'universo è fatto di atomi che si muovono a caso, e che gli dèi non intervengono; Manilio, stoico, insegna che l'universo è un unico corpo vivente governato dalla ragione divina, e che tutto, dalla caduta degli imperi al mestiere del vicino di casa, è deciso dal fato. Se Lucrezio voleva liberare gli uomini dalla paura degli dèi, Manilio vuole liberarli dall'ansia per il futuro, dicendo loro che tanto è già deciso. È il primo brano.
+
+**Gli oroscopi come commedia.** Le parti più divertenti del poema sono le descrizioni dei caratteri di chi nasce sotto ciascuna costellazione, che si leggono come una commedia romana di tipi. Chi nasce sotto l'Ariete diventa mercante di lana; sotto la Nave, marinaio; sotto l'Auriga, auriga del circo o acrobata a cavallo. E chi nasce sotto Orione sarà un faccendiere, che corre per la città all'alba, su ogni soglia, con la stessa unica parola di saluto per tutti, "l'amico di tutti". Ogni lettore a Roma doveva riconoscerci qualcuno.
+
+**Un cielo incompiuto.** Il poema ha cinque libri, circa 4.200 versi. Il libro I descrive l'universo e le costellazioni; i libri II e III l'apparato tecnico dell'astrologia, i segni e i loro rapporti, le case, le sorti e il calcolo del momento della nascita; il libro IV i caratteri dati dai segni dello zodiaco; il libro V le costellazioni che sorgono insieme allo zodiaco e le persone che producono. Manilio promette più volte di trattare i pianeti, essenziali per qualsiasi oroscopo, ma non lo fa mai. O il poema è incompiuto, o una sua parte è andata perduta. In entrambi i casi, l'astrologo ha finito il tempo.
+
+**Ritrovato, e curato da un poeta.** Manilio scomparve per gran parte del Medioevo, e fu ritrovato nel 1417 da Poggio Bracciolini, il grande cacciatore di manoscritti italiano, durante il Concilio di Costanza (lo stesso uomo che riscoprì Lucrezio). Il suo testo è così corrotto, e così tecnico, da essere diventato il grande banco di prova della critica testuale latina. Lo curarono Giuseppe Scaligero e Richard Bentley; e poi A. E. Housman, il poeta inglese di *A Shropshire Lad*, gli dedicò quasi trent'anni, pubblicando la sua edizione in cinque volumi dal 1903 al 1930. Housman non stimava molto Manilio come poeta, ma stimava ancora meno gli editori precedenti, e le sue prefazioni sono famose per alcuni degli insulti più feroci e divertenti della storia della filologia. Uno dei più miti: un editore senza giudizio, davanti a due manoscritti, è come un asino tra due fasci di fieno. Un poeta didascalico minore diventò così l'occasione di uno dei grandi capolavori della filologia, e l'oggetto della scortesia accademica meglio scritta della lingua inglese.
+
+### Opere principali *(italiano)*
+
+- **Astronomica** (scritti c. 9-20 d.C.) -- un poema didascalico in cinque libri di esametri sull'astronomia e l'astrologia: la struttura dell'universo e le costellazioni (I), lo zodiaco e il sistema tecnico dell'oroscopo (II e III), i caratteri e i destini dati dai segni dello zodiaco (IV), e le costellazioni che sorgono con i segni e chi nasce sotto di esse (V), con episodi mitologici come Andromeda e Perseo e passi filosofici sul fato e sulla ragione divina. Manca la promessa trattazione dei pianeti. [Conservati; probabilmente incompiuti]
+
+### Stile e difficoltà *(italiano)*
+
+Manilio è uno dei poeti più difficili della lingua latina, e il motivo è che cerca di fare due cose impossibili insieme. La prima è mettere la matematica in versi. Larghe parti dei libri II e III sono calcoli: gradi dei segni, divisioni del cerchio, tempi di levata delle costellazioni, tutto espresso in esametri, che non hanno spazio per i numeri. Manilio ama esibirsi trasformando "trenta gradi" in perifrasi come "tre volte dieci parti", e il lettore deve fare i conti e conoscere l'astrologia allo stesso tempo. **Lessico: ALTO** (astrologia tecnica, termini greci in veste latina); **Densità di allusioni: ALTA**.
+
+La seconda è essere brillante. Quando non conta, Manilio scrive filosofia, satira o mito, e qui è uno dei poeti più arguti dopo Ovidio: frasi brevi ed epigrammatiche, paradossi, antitesi, giochi di parole, chiasmi, una frase che si regge sull'ultima parola. È lo stile dell'età argentea in arrivo, con una generazione di anticipo. Aggiungete un lessico forzato a coprire un argomento per cui non era nato, una sintassi molto compressa, frequenti iperbati e un testo giunto in cattivi manoscritti ed emendato in centinaia di punti, e il risultato è, francamente, un incubo. **Complessità sintattica: MOLTO ALTA; Figure retoriche: ALTE.** I passi filosofici e mitologici sono quelli da cui uno studente dovrebbe cominciare; quelli tecnici sono solo per specialisti.
+
+### Brano 1: Astronomica 4.1-16 -- Perché sprechiamo la vita?
+
+**Fonte:** Manilio, *Astronomica* IV, vv. 1-16, da *The Latin Library* (thelatinlibrary.com/manilius4.html)
+
+**Contesto:** Il libro IV si apre con un proemio filosofico, prima della lunga descrizione dei caratteri dati dai segni dello zodiaco. È il passo in cui Manilio spiega perché l'astrologia dovrebbe portare serenità invece che paura: se tutto è già deciso dal fato, è inutile sprecare la vita nell'ansia e nell'avidità. Si legge come una predica stoica, e si chiude con uno dei versi più famosi della poesia latina.
+
+**Testo latino:**
+
+> Quid tam sollicitis vitam consumimus annis
+> torquemurque metu caecaque cupidine rerum
+> aeternisque senes curis, dum quaerimus, aevum
+> perdimus et nullo votorum fine beati
+> victuros agimus semper nec vivimus umquam,
+> pauperiorque bonis quisque est, quia plura requirit
+> nec quod habet numerat, tantum quod non habet optat,
+> cumque sibi parvos usus natura reposcat
+> materiam struimus magnae per vota ruinae
+> luxuriamque lucris emimus luxuque rapinas,
+> et summum census pretium est effundere censum?
+> solvite, mortales, animos curasque levate
+> totque supervacuis vitam deplete querellis.
+> fata regunt orbem, certa stant omnia lege
+> longaque per certos signantur tempora casus.
+> nascentes morimur, finisque ab origine pendet.
+
+**Traduzione italiana** *(originale)*:
+
+Perché consumiamo la vita in anni così inquieti,
+tormentati dalla paura e dalla cieca brama delle cose,
+e, invecchiati in affanni senza fine, perdiamo il tempo
+mentre lo cerchiamo, e, mai felici perché i nostri desideri non hanno fine,
+ci comportiamo sempre come chi sta per vivere, e non viviamo mai?
+Ognuno è più povero a causa delle sue ricchezze, perché vuole di più,
+e non conta ciò che ha, ma desidera solo ciò che non ha;
+e benché la natura chieda per sé solo piccoli bisogni,
+accumuliamo con i nostri desideri il materiale per un grande crollo,
+e con i guadagni compriamo il lusso, e con il lusso le rapine,
+e il premio più alto della ricchezza è sperperare la ricchezza?
+Liberate gli animi, mortali, alleviate gli affanni,
+e svuotate la vita da tanti inutili lamenti.
+Il fato governa il mondo, tutto è fissato da una legge sicura,
+e le lunghe età sono segnate da eventi sicuri.
+Nascendo moriamo, e la fine pende dall'inizio.
+
+**Analisi:**
+
+Tutta la prima parte è un'unica domanda retorica lunga undici versi, tenuta insieme da *-que* ed *et*, che lo studente deve seguire fino al punto interrogativo alla fine del v. 11. Manilio la riempie di paradossi alla maniera stoica: perdiamo il tempo mentre lo cerchiamo (*dum quaerimus, aevum / perdimus*); siamo sempre "in procinto di vivere" e non viviamo mai (*victuros agimus semper nec vivimus umquam*, dove *victuros* è il participio futuro di *vivo*, non di *vinco*: una trappola classica); ognuno è più povero a causa delle sue ricchezze; il valore più alto della ricchezza è sprecarla (*summum census pretium est effundere censum*, con la stessa parola, *census*, in due casi diversi ai due capi della frase). *Nullo votorum fine beati* è l'espressione più difficile: letteralmente "felici con nessuna fine dei desideri", cioè persone che potrebbero essere felici ma i cui desideri non finiscono mai; editori e traduttori ne discutono ancora.
+
+Poi il tono cambia: gli imperativi *solvite*, *levate*, *deplete* danno la cura, e i vv. 14-16 ne danno il motivo, in tre affermazioni brevi e assolute. L'ultimo verso è Manilio allo stato puro: *nascentes morimur*, "nascendo moriamo", due parole che contengono un'intera filosofia, e *finisque ab origine pendet*, "e la fine pende dall'inizio", dove l'immagine è quella di una catena: il momento della nascita, letto nelle stelle, contiene già il momento della morte. È insieme una consolazione e un pensiero piuttosto agghiacciante, ed è proprio questa l'ambiguità dell'astrologia.
+
+---
+
+### Brano 2: Astronomica 5.567-576 -- Perseo vede Andromeda
+
+**Fonte:** Manilio, *Astronomica* V, vv. 567-576, da *The Latin Library* (thelatinlibrary.com/manilius5.html)
+
+**Contesto:** Il libro V descrive le costellazioni che sorgono insieme ai segni dello zodiaco. Quando arriva ad Andromeda, Manilio non resiste a raccontarne la storia, che diventa l'episodio narrativo più lungo e più bello del poema. Andromeda, figlia di Cefeo e Cassiopea, è stata incatenata a uno scoglio come vittima per un mostro marino, per espiare la colpa dei genitori. Manilio l'ha appena descritta, bella anche nella sofferenza, con gli uccelli e le ninfe del mare che piangono per lei. Ora arriva l'eroe, in volo verso casa dopo aver ucciso Medusa.
+
+**Testo latino:**
+
+> tandem Gorgonei victorem Persea monstri
+> felix illa dies redeuntem ad litora duxit.
+> isque, ubi pendentem vidit de rupe puellam,
+> deriguit, facie quem non stupefecerat hostis,
+> vixque manu spolium tenuit, victorque Medusae
+> victus in Andromeda est. iam cautibus invidet ipsis
+> felicisque vocat, teneant quae membra, catenas;
+> et, postquam poenae causam cognovit ab ipsa,
+> destinat in thalamos per bellum vadere ponti,
+> altera si Gorgo veniat, non territus illa.
+
+**Traduzione italiana** *(originale)*:
+
+Finalmente quel giorno felice portò su quelle spiagge,
+di ritorno, Perseo, vincitore del mostro Gorgone.
+E lui, quando vide la fanciulla appesa allo scoglio,
+si irrigidì, lui che il volto della nemica non aveva impietrito,
+e a stento tenne in mano il trofeo: il vincitore di Medusa
+fu vinto da Andromeda. Ormai invidia perfino gli scogli,
+e chiama felici le catene, perché stringono le sue membra;
+e, dopo aver saputo da lei la causa del castigo,
+decide di raggiungere il letto nuziale attraverso una guerra con il mare,
+senza paura nemmeno se venisse un'altra Gorgone.
+
+**Analisi:**
+
+Questo è Manilio in versione ovidiana, ed è uno dei passi più arguti della poesia latina. Tutto il gioco ruota intorno alla pietra e all'impietrimento. Medusa trasformava in pietra chiunque la guardasse, ma non Perseo; ora basta uno sguardo a una ragazza per farlo irrigidire (*deriguit*, "divenne rigido"), "lui che il volto della nemica non aveva impietrito" (*facie quem non stupefecerat hostis*, con la relativa collocata prima del suo antecedente, una tipica inversione poetica). Il trofeo che riesce a stento a tenere in mano è la testa stessa di Medusa. Poi il famoso paradosso: *victorque Medusae / victus in Andromeda est*, "il vincitore di Medusa fu vinto in Andromeda", con la stessa radice (*victor... victus*) a cavallo del verso, una figura chiamata poliptoto.
+
+I versi successivi proseguono l'immagine. Perseo invidia gli scogli e chiama fortunate le catene (*felicis*, accusativo plurale in *-is*, forma arcaica per *felices*, concordato con *catenas*), perché possono toccarla: la relativa *teneant quae membra* ha il congiuntivo perché esprime il suo motivo, e *quae* è posposto dopo *teneant*. L'ultimo verso torna alla Gorgone: per lei ne affronterebbe una seconda (*altera si Gorgo veniat*, un congiuntivo ipotetico, con *illa* all'ablativo di causa). Grammaticalmente il passo non è difficile come i libri tecnici; ciò che lo rende impegnativo è l'ordine delle parole, lo stile pungente e la necessità di cogliere la battuta. Manilio ha scritto le pagine più noiose della poesia augustea, e alcune delle più intelligenti.
+
+### Eredità e Impatto
+
+Per quanto ne sappiamo, Manilio non ebbe quasi lettori nell'antichità, e nel Medioevo fu quasi perduto. La riscoperta da parte di Poggio nel 1417 ne fece un testo chiave per gli astrologi e gli astronomi del Rinascimento, e la prima edizione a stampa uscì intorno al 1473, curata dall'astronomo Regiomontano. Da allora la sua eredità appartiene soprattutto alla filologia: Scaligero, Bentley e Housman ne fecero il più famoso campo di battaglia della critica testuale, e l'edizione di Housman, con le sue prefazioni, si legge ancora oggi, un po' per il metodo e un po' per gli insulti. È anche una fonte importante per la storia dell'astrologia antica, e i suoi passi poetici, sul fato, sull'universo come dio vivente, sulla ragione umana che sale fino al cielo, influenzarono la scrittura stoica successiva. E un verso è sfuggito del tutto al poema: *nascentes morimur*, citato su meridiane, lapidi e raccolte di citazioni da persone che non hanno idea di chi l'abbia scritto.
+
+### Valutazione finale *(italiano)*
+
+**Tier: S (GOD PLEASE HELP)**
+
+Manilio è l'ultimo autore dell'età augustea, e uno dei più difficili in assoluto. L'astrologia tecnica trasformata in esametri, con numeri e calcoli travestiti da perifrasi poetiche; uno stile molto compresso e pungente, pieno di paradossi, iperbati e giochi di parole; un lessico spinto oltre i suoi limiti naturali; e un testo così corrotto che ci sono voluti Scaligero, Bentley e Housman per dargli un senso. I passi filosofici e mitologici sono difficili ma gratificanti; i libri tecnici sono una vera prova. Insieme a Orazio, è il picco di difficoltà di quest'epoca, e chiude l'età augustea con un S deciso.
 
 ---

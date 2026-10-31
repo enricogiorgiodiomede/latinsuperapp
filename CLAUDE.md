@@ -77,10 +77,10 @@ The project targets an intermediate Latin student audience (Liceo Scientifico le
 10. Publius Ovidius Naso -- Ovid (43 BC -- 17/18 AD) -- mainstream
 11. Gaius Julius Hyginus (c. 64 BC -- 17 AD) -- lesser known
 12. Grattius (fl. late I century BC) -- lesser known
+13. Pompeius Trogus (fl. late I century BC -- early I century AD) -- *Historiae Philippicae*, read through Justin's epitome -- lesser known (Justin gets his own entry in a later era)
+14. Marcus Manilius (fl. early I century AD) -- *Astronomica* -- lesser known, closes the era
 
-**Possible additions (later, not now):** Marcus Manilius (*Astronomica*), Pompeius Trogus (*Historiae Philippicae*, via Justin's epitome).
-
-**Notes:** Gallus survives in about ten lines (Qasr Ibrim papyrus), so expect a biography-heavy entry. Hyginus: the transmitted *Fabulae* and *De Astronomia* are probably by a later namesake; flag the attribution in the entry. Hyginus + Grattius as a paired entry is proposed, not yet decided.
+**Notes:** Gallus survives in about ten lines (Qasr Ibrim papyrus), so expect a biography-heavy entry. Hyginus: the transmitted *Fabulae* and *De Astronomia* are probably by a later namesake; flag the attribution in the entry. Hyginus and Grattius have separate entries.
 
 **Files:** `augustan_era_draft.md` (English, Latin + English only) and `italian_translations_augustan.md` (Italian mirror, no English translations).
 

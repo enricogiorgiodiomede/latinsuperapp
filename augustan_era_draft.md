@@ -1915,3 +1915,206 @@ Grattius had very little influence. He is mentioned by Ovid, imitated perhaps by
 Grattius survives in 541 lines, enough for a fair rating. He is not a subtle stylist, but he is a difficult read: dense technical vocabulary on nets, weapons, dog breeds and veterinary remedies, much of it rare or uncertain; learned geographical and mythological references; a heavy, compressed hexameter in imitation of the *Georgics*; and a text that survives in a single, damaged manuscript, with gaps and editorial supplements. He is easier than Virgil, because there is far less depth and far less art to unpack, but considerably harder than Tibullus or Ovid. A B, and an honest one.
 
 ---
+
+# POMPEIUS TROGUS (fl. late I century BC -- early I century AD)
+
+## Biography
+
+Pompeius Trogus is the great historian of the Augustan Age that almost nobody has read, for the simple reason that nobody can: his work is lost. What we have is a summary of it made centuries later by a man called Justin, who will get his own entry in a later era. Reading Trogus is a bit like reading a famous film through the review in a newspaper: the plot is there, the opinions are there, but the director's voice is mostly gone. And yet what survives of his life, and of his ideas, is surprisingly interesting.
+
+**A Gaul with a Roman name.** Trogus is the only Roman historian who tells us about his own family, and he did it, characteristically, at the very end of his last book. Justin summarises it: his ancestors came from the Vocontii, a Gallic people of Gallia Narbonensis, in what is now Provence, around Vaison-la-Romaine. His grandfather had received Roman citizenship from Pompey the Great during the war against Sertorius in Spain, and, as was the custom, took the name of his patron: that is why a Gaul is called *Pompeius*. His uncle commanded squadrons of cavalry under Pompey in the war against Mithridates, and his father served under Julius Caesar, as his secretary for letters and embassies, and keeper of his seal ring. So in three generations the family went from Gallic tribesmen to the private office of the most powerful man in Rome. Not bad for provincials.
+
+**A historian who looked away from Rome.** Everyone else in Rome wrote the history of Rome. Livy, his contemporary, was writing it from the foundation of the city in 142 books. Trogus decided to write the history of everybody else. His *Historiae Philippicae*, in 44 books, start with Ninus, the legendary first king of Assyria, and move through the empires of the Medes and the Persians, Greece, and above all the Macedonians of Philip and Alexander (hence the title, "Philippic Histories") and the Hellenistic kingdoms that came after them. Rome appears mostly from the outside, as the power that eventually swallows them all, and it gets its own narrative only near the end, in the books on its origins, on Gaul and on Spain, where the work ends with Augustus's final conquest of the Spanish tribes. A world history, written by a Gaul in Latin, in which Rome is the last arrival: it is the most original idea in Augustan historiography.
+
+**A bad influence?** Trogus drew heavily on Greek historians, and one of them may have been Timagenes of Alexandria, a brilliant and sharp-tongued Greek who lived at Rome and wrote a history of the world's kings. Timagenes had a famous problem with Augustus: he could not stop making jokes about the emperor and his family. Augustus banned him from his house, and Timagenes, out of spite, publicly burned the books he had written about Augustus's reign. Whether Trogus really used him is debated, but it would explain why his history is so full of the voices of Rome's enemies.
+
+**The man who hated invented speeches.** Ancient historians loved to put long speeches in the mouths of their characters, in direct speech, as if they had taken them down word for word. Livy and Sallust filled their works with them. Trogus thought this was dishonest: Justin tells us that he criticised Livy and Sallust because, by inserting direct speeches and passing off their own eloquence as that of their characters, they had gone beyond the proper limits of history. So when Trogus did include a great speech, he wrote it in indirect speech. Justin admired that one so much that he copied it out almost in full: it is the speech of Mithridates, king of Pontus, to his soldiers before his war against Rome, and it is one of the longest passages of indirect speech in Latin literature, and one of the most violent attacks on Rome ever written by a Roman. That is the excerpt.
+
+**Also an expert on animals.** Trogus also wrote a work on animals and plants, now lost, and Pliny the Elder quotes him several times as an authority on zoology. An historian of empires and a naturalist: the Augustan Age liked its writers versatile.
+
+**Lost, and saved by a summary.** Some time between the second and fourth centuries AD (the date is disputed), Justin produced his *Epitome*, cutting Trogus's 44 books down to a collection of what he himself calls the most pleasant and most instructive parts, a little "body of flowers". It was a huge success, and it killed the original: once readers had the short version, nobody bothered to copy the long one. The *Epitome* was read in every medieval school, and survives in some two hundred manuscripts. Of Trogus himself we have only Justin's text, the *prologi* (short summaries of the contents of each of the 44 books, which may go back to Trogus's own edition), and a few quotations. It is the most successful act of destruction-by-abridgement in Latin literature.
+
+## Most Important Works
+
+- **Historiae Philippicae** (*Philippic Histories*) -- a world history in 44 books, from the Assyrian empire to the age of Augustus, centred on Macedon and the Hellenistic kingdoms, with Rome treated mostly from the outside. Survives through Justin's *Epitome* and the *prologi*. [Lost; abridged]
+- **On Animals** (and possibly on plants) -- a work of natural history cited by Pliny the Elder. [Lost]
+
+## Writing Style and Difficulty
+
+Here we have to be honest: any rating of Trogus is a rating of Justin. The Latin we read is Justin's, though he often keeps Trogus's sentences, especially in the speeches and the moral comments. The result is clear, readable narrative prose: mostly classical in grammar and vocabulary, with long but well-built periods, frequent moralising sentences in the manner of Sallust, and a fondness for antithesis and neat endings. Some later features creep in, and the condensation sometimes leaves gaps in the logic of the story, but on the whole it is easier than Livy, and much easier than Sallust. **Lexicon: LOW to MEDIUM; Syntactic complexity: MEDIUM.**
+
+The real challenge is the one Trogus chose himself: **indirect speech**. When a whole speech is reported in *oratio obliqua*, every main verb becomes an infinitive, every subordinate verb becomes a subjunctive, every "I" becomes *se* or *sibi* and every "you" becomes *illi* or *ipsi*, and the reader has to rebuild the original speech in his head as he translates. It is one of the best exercises in Latin syntax, and the Mithridates speech is the classic example. **Stylistic figures: MEDIUM; Allusion density: MEDIUM** (the history of half the ancient world, with names to match).
+
+## Latin Excerpt
+
+### Excerpt: Justin, Epitome 38.6.7-8 -- The Sons of the She-Wolf
+
+**Source:** Justin, *Epitome of the Philippic Histories of Pompeius Trogus*, 38.6.7-8, from *The Latin Library* (thelatinlibrary.com/justin/38.html). Section number 8 inside the passage has been removed.
+
+**Context:** In 88 BC Mithridates VI, king of Pontus, is about to begin his first war against Rome. He gathers his army and makes a long speech, which Trogus reports in indirect speech and Justin preserves almost entire. Mithridates has just listed the kings that Rome has used and then betrayed (Eumenes of Pergamum, Masinissa of Numidia), and now he explains why the Romans hate all kings: because their own kings were so embarrassing. Every Roman reader knew the seven kings of Rome; Mithridates turns the proud legend of the city upside down, one king at a time.
+
+**Latin Text:**
+
+Hanc illos omnibus regibus legem odiorum dixisse, scilicet quia ipsi tales reges habuerint, quorum etiam nominibus erubescant, aut pastores Aboriginum, aut aruspices Sabinorum, aut exules Corinthiorum, aut servos vernasque Tuscorum, aut, quod honoratissimum nomen fuit inter haec, Superbos; atque ut ipsi ferunt conditores suos lupae uberibus altos, sic omnem illum populum luporum animos inexplebiles sanguinis, atque imperii divitiarumque avidos ac ieiunos habere.
+
+**English Translation:**
+
+(He said that) they had laid down this law of hatred against all kings, obviously because they themselves had had kings whose very names made them blush: either shepherds of the Aborigines, or soothsayers of the Sabines, or exiles from Corinth, or slaves and house-born servants of the Etruscans, or, the most honourable name among them, the Proud; and just as they themselves say that their founders were suckled at the teats of a she-wolf, so that whole people had the souls of wolves, insatiable for blood, and greedy and hungry for power and wealth.
+
+**Analysis:**
+
+This is a perfect example of *oratio obliqua*. There is no verb of saying in the passage, because the *ait* that governs it came several sections earlier: everything depends on it. So the main verbs are infinitives (*dixisse*, *habere*), with their subjects in the accusative (*illos*, *omnem illum populum*), and the verbs of the subordinate clauses are in the subjunctive (*habuerint*, *erubescant*). The pronouns follow the rules too: *illos* and *ipsi* are the Romans, seen from Mithridates' point of view. To translate it well, a student has to supply "he said that" and then decide how much of the indirect construction to keep in Italian or English. One small trap: *quod honoratissimum nomen fuit* is in the indicative, because it is a comment by the narrator, not part of Mithridates' speech.
+
+The list of kings is a little masterpiece of insult, and every item is a real Roman king described in the worst possible way. The "shepherds of the Aborigines" are Romulus and Remus, raised by shepherds; the "soothsayers of the Sabines" is Numa Pompilius, the pious Sabine king; the "exiles from Corinth" is Tarquinius Priscus, son of Demaratus, a Corinthian refugee; the "slaves of the Etruscans" is Servius Tullius, said to be the son of a slave woman; and the last are the Tarquins, whose most famous member was called *Superbus*, the Proud. The sentence then ends with the most famous symbol of Rome, the she-wolf, and turns it into an accusation: a people raised on wolf's milk has the soul of a wolf. Note the *ut... sic* comparison, and the ending, *avidos ac ieiunos*, "greedy and starving", with the genitives *imperii divitiarumque* depending on both adjectives. A Gaul whose family owed everything to Pompey and Caesar gave this speech to Rome's greatest enemy, and gave it his best prose: that is either remarkable fairness or remarkable courage.
+
+---
+
+## Legacy and Impact
+
+Through Justin, Trogus had an enormous influence on the way the Middle Ages and the Renaissance saw ancient history outside Rome. The *Epitome* was the standard handbook for the history of the Assyrians, the Persians, the Greeks and the Macedonians; it was read by Orosius and by Augustine, quoted throughout the Middle Ages, and used by Renaissance writers looking for good stories and moral examples. Many of the most famous anecdotes about Alexander the Great, the Scythians, the Amazons or the foundation of Marseille reached European culture through this book. And the speech of Mithridates, with its picture of Rome as a nation of wolves, has been quoted ever since by everyone who wanted to criticise an empire. The irony is that Trogus is famous through the very book that caused his work to disappear.
+
+---
+
+## Final Rating
+
+**Tier: C (Manageable)**
+
+What we read of Trogus is clear, classical narrative prose, filtered and simplified by Justin, and easier than Livy or Sallust. Two things lift it above a D: the condensation, which sometimes makes the story jump or the connections unclear, and the long passages of indirect speech, which are an excellent but demanding test of syntax. A solid C, and one of the best places to practise *oratio obliqua*.
+
+---
+
+# MARCUS MANILIUS (fl. early I century AD)
+
+## Biography
+
+Manilius is the last author of the Augustan Age, and in some ways the strangest. He wrote the longest surviving poem on astrology in the ancient world, a work of real power and occasional brilliance; and yet no ancient writer ever mentions him. Not Ovid, who mentions everybody; not Quintilian, who lists the Latin poets; not Pliny. He is a man who claimed to read the future in the stars, and could not secure his own.
+
+**A poet without a biography.** We do not even know his name for certain: the manuscripts call him Manilius, Manlius or Mallius, and the first name Marcus is not secure either. Everything we know comes from the poem itself. He addresses an emperor, Caesar, as the "prince of his country" and son of a god; he mentions the disaster of Varus, when three legions were destroyed in Germany in AD 9, as a recent event. So he wrote at the end of Augustus's reign, and probably finished the poem, or failed to finish it, under Tiberius. Some scholars, noting a few un-Roman turns in his Latin, have suggested he was a foreigner; others that he was a freedman, like Hyginus. Nobody knows.
+
+**Astrology, the fashion of the age.** Manilius chose his subject well. Astrology was the great intellectual fashion of the early Empire. Augustus, according to Suetonius, published his own horoscope and struck coins with the sign of Capricorn, which he considered his lucky sign; Manilius duly mentions Capricorn shining on the birth of Augustus. Tiberius, the next emperor, was even more devoted: he lived on Capri with his personal astrologer, Thrasyllus. A poem showing that the stars rule everything, and that the emperor's rule was written in the sky, was exactly what the palace wanted to hear.
+
+**The anti-Lucretius.** Manilius is proud, and he tells us so: he is the first, he says, to bring the knowledge of the heavens into Latin song. His great rival is Lucretius, whom he imitates constantly and contradicts on every point. Lucretius had taught that the universe is made of atoms moving by chance, and that the gods do not interfere; Manilius, a Stoic, teaches that the universe is a single living body governed by divine reason, and that everything, from the fall of empires to the job of the man next door, is decided by fate. If Lucretius wanted to free men from fear of the gods, Manilius wants to free them from anxiety about the future, by telling them that it is already decided anyway. That is the first excerpt.
+
+**Horoscopes as comedy.** The poem's most entertaining parts are the descriptions of the characters of people born under each constellation, which read like a Roman comedy of types. The man born under the Ram becomes a wool merchant; under the Ship, a sailor; under the Charioteer, a circus driver or a trick rider. And whoever is born under Orion will be a busybody, rushing around the city at dawn, all over everyone's doorstep, with the same single word of greeting for everybody, "the friend of all". Every reader in Rome must have recognised someone.
+
+**An unfinished heaven.** The poem has five books, about 4,200 lines. Book I describes the universe and the constellations; Books II and III the technical apparatus of astrology, the signs and their relations, the houses, the lots and the calculation of the moment of birth; Book IV the characters given by the signs of the zodiac; Book V the constellations that rise alongside the zodiac and the people they produce. Manilius promises more than once to treat the planets, which are essential to any horoscope, but never does. Either the poem is unfinished, or a part of it is lost. In both cases, the astrologer ran out of time.
+
+**Found again, and edited by a poet.** Manilius disappeared for most of the Middle Ages, and was found again in 1417 by Poggio Bracciolini, the great Italian manuscript hunter, during the Council of Constance (the same man who rediscovered Lucretius). His text is so corrupt, and so technical, that it became the great proving ground of Latin textual criticism. Joseph Scaliger and Richard Bentley edited him; and then A. E. Housman, the English poet of *A Shropshire Lad*, spent almost thirty years on him, publishing his edition in five volumes from 1903 to 1930. Housman did not think much of Manilius as a poet, but he thought even less of earlier editors, and his prefaces are famous for some of the most savage and funniest insults in the history of scholarship. One of the mildest: an editor with no judgment, faced with two manuscripts, is like a donkey between two bundles of hay. A minor didactic poet thus became the reason for one of the great masterpieces of philology, and the subject of the best-written scholarly rudeness in English.
+
+## Most Important Works
+
+- **Astronomica** (written c. AD 9-20) -- a didactic poem in five books of hexameters on astronomy and astrology: the structure of the universe and the constellations (I), the zodiac and the technical system of the horoscope (II and III), the characters and destinies given by the signs of the zodiac (IV), and the constellations rising with the signs and the people born under them (V), with mythological episodes such as Andromeda and Perseus, and philosophical passages on fate and divine reason. The promised treatment of the planets is missing. [Survives; probably incomplete]
+
+## Writing Style and Difficulty
+
+Manilius is one of the hardest poets in Latin, and the reason is that he tries to do two impossible things at once. The first is to put mathematics into verse. Large parts of Books II and III are calculations: degrees of the signs, divisions of the circle, the rising times of the constellations, all expressed in hexameters, which have no room for numbers. Manilius loves to show off by turning "thirty degrees" into periphrases like "three times ten parts", and the reader has to do the arithmetic and know the astrology at the same time. **Lexicon: HIGH** (technical astrology, Greek terms in Latin dress); **Allusion density: HIGH**.
+
+The second is to be brilliant. When Manilius is not counting, he is writing philosophy, satire or myth, and here he is one of the most pointed poets after Ovid: short, epigrammatic sentences, paradoxes, antitheses, plays on words, chiasmus, a sentence that turns on its last word. It is the style of the coming Silver Age, a generation early. Add a vocabulary stretched to cover a subject it was never made for, a very compressed syntax, frequent hyperbaton, and a text which survives in poor manuscripts and has been emended in hundreds of places, and the result is, frankly, a nightmare. **Syntactic complexity: VERY HIGH; Stylistic figures: HIGH.** The philosophical and mythological passages are where a student should start; the technical ones are for specialists only.
+
+## Latin Excerpts
+
+### Excerpt 1: Astronomica 4.1-16 -- Why Do We Waste Our Lives?
+
+**Source:** Manilius, *Astronomica* IV, lines 1-16, from *The Latin Library* (thelatinlibrary.com/manilius4.html)
+
+**Context:** Book IV opens with a philosophical prelude, before the long description of the characters given by the signs of the zodiac. It is the passage in which Manilius explains why astrology should bring peace of mind rather than fear: if everything is already decided by fate, it is pointless to waste our life in anxiety and greed. It reads like a Stoic sermon, and it ends with one of the most famous lines in Latin poetry.
+
+**Latin Text:**
+
+> Quid tam sollicitis vitam consumimus annis
+> torquemurque metu caecaque cupidine rerum
+> aeternisque senes curis, dum quaerimus, aevum
+> perdimus et nullo votorum fine beati
+> victuros agimus semper nec vivimus umquam,
+> pauperiorque bonis quisque est, quia plura requirit
+> nec quod habet numerat, tantum quod non habet optat,
+> cumque sibi parvos usus natura reposcat
+> materiam struimus magnae per vota ruinae
+> luxuriamque lucris emimus luxuque rapinas,
+> et summum census pretium est effundere censum?
+> solvite, mortales, animos curasque levate
+> totque supervacuis vitam deplete querellis.
+> fata regunt orbem, certa stant omnia lege
+> longaque per certos signantur tempora casus.
+> nascentes morimur, finisque ab origine pendet.
+
+**English Translation:**
+
+Why do we consume our lives in such anxious years,
+tormented by fear and by blind desire for things,
+and, grown old in endless worries, lose our time
+while we search for it, and, never happy, since our wishes have no end,
+we always behave as if about to live, and never live at all?
+Each man is the poorer for his riches, because he wants more,
+and does not count what he has, but only longs for what he has not;
+and though nature asks for herself only small needs,
+we pile up with our wishes the material for a great collapse,
+and with our profits we buy luxury, and with luxury, plunder,
+and the highest reward of wealth is to squander wealth?
+Free your minds, mortals, lighten your cares,
+and empty your life of so many useless complaints.
+The fates rule the world, all things stand fixed by a sure law,
+and the long ages are marked by sure events.
+As we are born, we die, and the end hangs from the beginning.
+
+**Analysis:**
+
+The whole first part is a single rhetorical question, eleven lines long, held together by *-que* and *et*, which a student has to follow to the question mark at the end of line 11. Manilius packs it with paradoxes in the Stoic manner: we lose time while we look for it (*dum quaerimus, aevum / perdimus*); we are always "about to live" and never live (*victuros agimus semper nec vivimus umquam*, with *victuros* the future participle of *vivo*, not of *vinco*: a classic trap); each man is poorer because of his riches; the greatest value of wealth is to waste it (*summum census pretium est effundere censum*, with the same word, *census*, in two different cases at the two ends of the sentence). *Nullo votorum fine beati* is the hardest phrase: literally "happy with no end of wishes", that is, people who could be happy but whose wishes never stop; editors and translators still argue about it.
+
+Then the tone changes: the imperatives *solvite*, *levate*, *deplete* give the cure, and lines 14-16 give the reason, in three short, absolute statements. The last line is pure Manilius: *nascentes morimur*, "we die as we are born", two words that contain a whole philosophy, and *finisque ab origine pendet*, "and the end hangs from the beginning", in which the image is of a chain: the moment of birth, read in the stars, already contains the moment of death. It is both a consolation and a rather chilling thought, and that is exactly the ambiguity of astrology.
+
+---
+
+### Excerpt 2: Astronomica 5.567-576 -- Perseus Sees Andromeda
+
+**Source:** Manilius, *Astronomica* V, lines 567-576, from *The Latin Library* (thelatinlibrary.com/manilius5.html)
+
+**Context:** Book V describes the constellations that rise alongside the signs of the zodiac. When he reaches Andromeda, Manilius cannot resist telling her story, and it becomes the longest and most beautiful narrative episode of the poem. Andromeda, daughter of Cepheus and Cassiope, has been chained to a rock as a sacrifice to a sea monster to atone for her parents' guilt. Manilius has just described her, beautiful even in her suffering, with the birds and the sea nymphs weeping for her. Now the hero arrives, flying home after killing Medusa.
+
+**Latin Text:**
+
+> tandem Gorgonei victorem Persea monstri
+> felix illa dies redeuntem ad litora duxit.
+> isque, ubi pendentem vidit de rupe puellam,
+> deriguit, facie quem non stupefecerat hostis,
+> vixque manu spolium tenuit, victorque Medusae
+> victus in Andromeda est. iam cautibus invidet ipsis
+> felicisque vocat, teneant quae membra, catenas;
+> et, postquam poenae causam cognovit ab ipsa,
+> destinat in thalamos per bellum vadere ponti,
+> altera si Gorgo veniat, non territus illa.
+
+**English Translation:**
+
+At last that happy day brought Perseus, the conqueror
+of the Gorgon monster, back to those shores.
+And when he saw the girl hanging from the rock,
+he froze, he whom the face of his enemy had not turned to stone,
+and he could hardly hold his trophy in his hand: the conqueror of Medusa
+was conquered by Andromeda. Now he envies the very rocks,
+and calls the chains happy, because they hold her limbs;
+and when he has learned from her the reason for her punishment,
+he resolves to make his way to the marriage bed through a war with the sea,
+not afraid even if a second Gorgon were to come.
+
+**Analysis:**
+
+This is Manilius in his Ovidian mode, and it is one of the wittiest passages in Latin poetry. The whole joke is about stone and petrification. Medusa turned to stone everyone who looked at her, but not Perseus; now one look at a girl makes him freeze (*deriguit*, "he grew stiff"), "he whom the face of the enemy had not stupefied" (*facie quem non stupefecerat hostis*, with the relative clause placed before its antecedent, a typical poetic inversion). The trophy he can hardly hold is the head of Medusa itself. Then the famous paradox: *victorque Medusae / victus in Andromeda est*, "the conqueror of Medusa was conquered in Andromeda", with the same root (*victor... victus*) set across the line break, a figure called polyptoton.
+
+The next lines continue the conceit. Perseus envies the rocks and calls the chains lucky (*felicis*, accusative plural in *-is*, the archaic form for *felices*, agreeing with *catenas*), because they get to touch her: the relative clause *teneant quae membra* has the subjunctive because it gives his reason, and *quae* is postponed after *teneant*. The final line returns to the Gorgon: he would face a second one for her (*altera si Gorgo veniat*, a hypothetical subjunctive, with *illa* in the ablative of cause). Grammatically, the passage is not as hard as the technical books; what makes it demanding is the word order, the pointed style, and the need to see the joke. Manilius wrote the dullest pages of Augustan poetry, and some of the cleverest.
+
+---
+
+## Legacy and Impact
+
+Manilius had almost no readers in antiquity, as far as we can tell, and was nearly lost in the Middle Ages. His rediscovery by Poggio in 1417 made him a key text for Renaissance astrologers and astronomers, and the first printed edition appeared around 1473, edited by the astronomer Regiomontanus. Since then his legacy has belonged above all to scholarship: Scaliger, Bentley and Housman made him the most famous battlefield of textual criticism, and Housman's edition, with its prefaces, is still read today, partly for the method and partly for the insults. He is also an important source for the history of ancient astrology, and his poetic passages, on fate, on the universe as a living god, on human reason climbing to the sky, influenced later Stoic writing. And one line has escaped from the poem entirely: *nascentes morimur*, quoted on sundials, gravestones and in books of quotations by people who have no idea who wrote it.
+
+---
+
+## Final Rating
+
+**Tier: S (GOD PLEASE HELP)**
+
+Manilius is the last author of the Augustan Age, and one of the hardest of all. Technical astrology turned into hexameters, with numbers and calculations disguised as poetic periphrasis; a highly compressed, pointed style full of paradox, hyperbaton and wordplay; a vocabulary stretched beyond its natural limits; and a text so corrupt that it took Scaliger, Bentley and Housman to make sense of it. The philosophical and mythological passages are difficult but rewarding; the technical books are a real ordeal. Alongside Horace, he is the peak of difficulty of this era, and he takes it to the end of the Augustan Age in a firm S.
+
+---
