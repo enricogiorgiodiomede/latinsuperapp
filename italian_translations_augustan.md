@@ -1742,3 +1742,148 @@ Eppure, come per Virgilio, la fama ha rimpicciolito l'uomo. Oggi la maggior part
 Ovidio è il più facile dei tre grandi poeti augustei, e di gran lunga il più facile da apprezzare. La sua sintassi è leggera e logica, i suoi distici esprimono un concetto alla volta, i suoi esametri corrono veloci, e le sue frasi seguono l'ordine naturale del pensiero: la sua poesia è quanto di più vicino ci sia in latino a una prosa in versi. Ciò che ne fa una B invece di una C è tutto ciò che aggiunge sopra: arguzia retorica, paradossi e giochi di parole in ogni pagina, un costante strato di ironia, un'enorme riserva di nomi greci e di allusioni mitologiche, soprattutto nelle *Metamorfosi*, e un gusto per l'esibizione che, come disse Quintiliano, non riusciva mai a controllare. Così si colloca tra Tibullo e Properzio: più difficile del primo, molto più facile del secondo, e comunque molto leggibile. E proprio perché è leggibile, i suoi messaggi arrivano: ed è esattamente il motivo per cui merita di essere letto per molto più delle sole trasformazioni.
 
 ---
+
+## GAIO GIULIO IGINO (64 a.C. ca. -- 17 d.C.)
+
+### Biografia *(italiano)*
+
+Igino è il bibliotecario dell'età augustea, e il tipo di autore più frustrante per un progetto come questo: un uomo le cui opere sono andate quasi tutte perdute, e il cui nome è legato a due libri che con ogni probabilità non ha scritto. Ma la sua vita è una bella storia, e i libri che circolano sotto il suo nome sono tra i manuali di mitologia più utili e più simpatici che l'antichità ci abbia lasciato.
+
+**Un ragazzo venuto da lontano.** Quasi tutto ciò che sappiamo del vero Igino viene da una breve voce delle *Vite dei grammatici* di Svetonio. Gaio Giulio Igino era un liberto di Augusto, cioè era stato schiavo della famiglia imperiale prima di essere liberato; il suo nome, Gaio Giulio, è semplicemente quello del suo ex padrone. Nessuno era d'accordo sulla sua origine: i più lo dicevano spagnolo, altri lo credevano di Alessandria, portato a Roma da ragazzo da Giulio Cesare dopo la presa della città nel 47 a.C. Un inizio adatto a un uomo che nessuno riesce davvero a inquadrare.
+
+**L'allievo di un'enciclopedia ambulante.** A Roma studiò con Alessandro di Mileto, un erudito greco così dotto che lo chiamavano *Polyhistor*, "Il Sapientone", e alcuni addirittura *Historia*, "la Storia" in persona. Igino divenne uno studioso dello stesso stampo: antiquario, grammatico e collezionista di notizie su qualunque cosa.
+
+**Il bibliotecario dell'imperatore.** Augusto lo mise a capo della Biblioteca Palatina, la grande biblioteca pubblica costruita accanto al tempio di Apollo sul Palatino, a due passi dalla casa dell'imperatore, con una sala per i libri greci e una per quelli latini. Era uno degli incarichi più prestigiosi a cui uno studioso potesse aspirare a Roma: immaginate di essere nominati direttori della biblioteca nazionale, e di avere il capo dello Stato come vicino di casa. Accanto a questo incarico insegnava, ed ebbe molti allievi.
+
+**L'uomo che correggeva Virgilio.** Igino scrisse un commento a Virgilio, uno dei primissimi, e non ebbe paura di criticarlo. Aulo Gellio racconta che Igino segnalava errori storici e geografici nell'*Eneide*, e che sosteneva di aver consultato una copia delle *Georgiche* proveniente "dalla casa e dalla famiglia di Virgilio" stesso, per risolvere una lezione controversa. Il primo critico del poeta più perfetto della lingua latina fu l'uomo che ne custodiva i libri.
+
+**Amico di Ovidio, e povero.** Svetonio aggiunge che Igino fu amicissimo di Ovidio e dello storico Clodio Licino, il quale raccontava che Igino morì poverissimo, e che lui stesso lo aveva mantenuto di tasca propria finché visse. Alcuni studiosi pensano che una delle lettere dall'esilio di Ovidio, indirizzata a un anonimo "custode e sacerdote degli uomini dotti" a Roma, a cui chiede di prendersi cura dei suoi libri, fosse scritta proprio a Igino: sarebbe stata esattamente la persona giusta. Il bibliotecario dell'imperatore, amico di poeti e maestro di molti, morì senza un soldo. Certe cose della vita accademica non cambiano mai.
+
+**I due libri con il suo nome.** Tutte le opere autentiche di Igino sono perdute. Sotto il nome di "Igino" sopravvivono due manuali: le **Fabulae**, una raccolta di brevi riassunti di miti greci, e il **De Astronomia**, una guida alle costellazioni e ai miti che le spiegano. Nessuno dei due sembra opera di un grande erudito augusteo. Il loro latino è semplice e talvolta decisamente sbagliato, e contengono errori che un uomo colto difficilmente avrebbe commesso: nelle *Fabulae*, per esempio, Deucalione e Pirra sopravvivono al diluvio rifugiandosi sull'Etna, in Sicilia, invece che sul Parnaso. La maggior parte degli studiosi pensa che siano stati scritti molto più tardi, probabilmente nel II secolo d.C., da un maestro di scuola o compilatore che si chiamava anch'egli Igino oppure ne prese in prestito il nome famoso, forse attingendo alle opere perdute del vero Igino. Insomma, sono "di Igino" nel senso in cui un manuale moderno può portare il nome di un celebre curatore morto da tempo.
+
+**Un manoscritto fatto a pezzi.** Le *Fabulae* sono andate più vicine alla scomparsa della maggior parte dei testi antichi. Sopravvissero in un unico manoscritto, scritto intorno al 900 in scrittura dell'Italia meridionale e conservato a Frisinga, in Baviera. Nel 1535 l'umanista tedesco Jacob Micyllus lo usò per stampare la prima edizione. E poi, compiuto a quanto pare il suo dovere, il manoscritto fu smontato e i suoi fogli di pergamena furono riutilizzati per rilegare altri libri. Oggi ne restano solo pochi frammenti, recuperati dalle legature di volumi conservati a Monaco e a Ratisbona. Per quasi tutto il testo delle *Fabulae*, l'unico testimone che ci resta è la prima edizione a stampa.
+
+### Opere principali *(italiano)*
+
+- **Opere perdute del vero Igino** -- un commento a Virgilio; libri sulle città d'Italia, sulle famiglie troiane da cui le gentes romane dicevano di discendere, sulla natura degli dèi, sull'agricoltura e sulle api (che Columella usava ancora come fonti una generazione dopo), sugli uomini illustri, e raccolte di esempi morali. [Perdute, salvo citazioni]
+- **Fabulae** (o **Genealogiae**) -- circa 270 brevissimi capitoli che raccontano miti greci, preceduti da genealogie degli dèi e seguiti da elenchi, che sono la parte più divertente: "quelli che furono allattati da animali", "i giovani più belli", "le donne che uccisero i mariti", "gli uomini che uccisero il padre", "le sette meraviglie del mondo", "gli inventori delle cose", "le più grandi amicizie". È, in pratica, un'enciclopedia antica della mitologia per studenti, e una delle nostre fonti più importanti per le trame di tragedie greche perdute. [Conservate, attraverso la prima edizione a stampa]
+- **De Astronomia** (detto anche *Poeticon Astronomicon*) -- quattro libri di astronomia sulle costellazioni: le loro forme, le loro stelle e soprattutto i miti che le spiegano, come la ninfa Callisto trasformata nell'Orsa Maggiore, o il motivo per cui lo Scorpione insegue Orione nel cielo. [Completo]
+- **De Munitionibus Castrorum** -- un manuale tecnico su come disporre un accampamento militare romano, attribuito a "Igino" nei manoscritti ma scritto in età imperiale da un agrimensore, e certamente non dal nostro bibliotecario. [Completo; spurio]
+
+### Stile e difficoltà *(italiano)*
+
+Il latino delle *Fabulae* è il più semplice di tutto questo capitolo, e forse dell'intero progetto. È un libro di scuola: frasi brevi, soggetto, verbo e complemento, un evento dopo l'altro, quasi senza ornamenti e senza alcuna pretesa di stile. La maggior parte dei capitoli segue lo stesso schema: "X, figlio di Y e di Z, fece questo; per questo motivo gli dèi fecero quello; perciò fu trasformato in quest'altro." Per uno studente che ha appena finito la grammatica è un primo testo ideale: i miti sono noti, le frasi sono corte, e ogni capitolo si traduce in pochi minuti. **Complessità sintattica: BASSA; Figure retoriche: BASSE.**
+
+Ci sono solo due trappole. La prima è che il latino non è sempre classico: il compilatore usa talvolta forme e costrutti che un attento scrittore augusteo avrebbe evitato, come *Iovis* al nominativo per "Giove" invece di *Iuppiter*, e a volte le frasi sono goffe o i fatti sbagliati. Uno studente non deve prendere tutto quello che trova in Igino come modello di buon latino. La seconda sono i nomi mitologici: centinaia di dèi, eroi, ninfe e mostri greci, spesso in forme greche, che il lettore deve riconoscere o cercare. **Lessico: da BASSO a MEDIO; Densità di allusioni: MEDIA, ma ogni mito viene spiegato.**
+
+### Brano: Fabulae 220 -- Cura
+
+**Fonte:** Igino, *Fabulae* 220, *Cura*, da *The Latin Library* (thelatinlibrary.com/hyginus/hyginus5.shtml)
+
+**Contesto:** La maggior parte dei capitoli delle *Fabulae* racconta miti che conosciamo anche da altre fonti. Questo è diverso: è una piccola favola allegorica che non sopravvive in nessun'altra opera della letteratura antica. Cura, cioè "la Preoccupazione" personificata, plasma il primo essere umano con l'argilla, e poi deve discutere con Giove e con la Terra su chi ne sia il proprietario. È lunga poche righe, è scritta nel latino più semplice, e ha avuto una fortuna straordinaria: il filosofo tedesco Martin Heidegger la citò per intero nel suo capolavoro *Essere e tempo* (1927), come prova che gli antichi avevano già compreso l'esistenza umana come qualcosa di fondamentalmente legato alla cura.
+
+**Testo latino:**
+
+> Cura cum quendam fluvium transiret, vidit cretosum lutum, sustulit cogitabunda et coepit fingere hominem. Dum deliberat secum quidnam fecisset, intervenit Iovis; rogat eum Cura, ut ei daret spiritum, quod facile ab Iove impetravit. Cui cum vellet Cura nomen suum imponere, Iovis prohibuit suumque nomen ei dandum esse dixit. Dum de nomine Cura et Iovis disceptarent, surrexit et Tellus suumque nomen ei imponi debere dicebat, quandoquidem corpus suum praebuisset. Sumpserunt Saturnum iudicem; quibus Saturnus aequus videtur iudicasse: "Tu, Iovis, quoniam spiritum dedisti, animam post mortem accipe; Tellus, quoniam corpus praebuit, corpus recipito. Cura quoniam prima eum finxit, quamdiu vixerit, Cura eum possideat; sed quoniam de nomine eius controversia est, homo vocetur, quoniam ex humo videtur esse factus."
+
+**Traduzione italiana** *(originale)*:
+
+Mentre Cura attraversava un fiume, vide del fango argilloso; soprappensiero, lo raccolse e cominciò a plasmare un essere umano. Mentre rifletteva tra sé su che cosa avesse fatto, sopraggiunse Giove. Cura gli chiese di dargli lo spirito, e da Giove lo ottenne facilmente. Quando Cura volle imporgli il proprio nome, Giove glielo proibì, e disse che doveva essergli dato il suo. Mentre Cura e Giove discutevano sul nome, si levò anche la Terra, e diceva che doveva essergli imposto il suo nome, dato che gli aveva offerto il proprio corpo. Presero come giudice Saturno, e Saturno, a quanto pare, giudicò con equità: "Tu, Giove, poiché hai dato lo spirito, ricevi l'anima dopo la morte; la Terra, poiché ha offerto il corpo, si riprenda il corpo. Poiché Cura per prima lo ha plasmato, finché vivrà lo possieda Cura; ma poiché sul suo nome c'è controversia, si chiami *homo*, poiché sembra fatto di *humus*, la terra."
+
+**Analisi:**
+
+Ecco le *Fabulae* al loro meglio, e qui c'è quasi tutta la grammatica di un primo anno di latino, nella forma più semplice possibile. Ci sono proposizioni con *cum* e il congiuntivo (*cum... transiret*, *cum vellet*); proposizioni con *dum*, una con il presente indicativo secondo l'uso classico (*dum deliberat*) e una, meno classicamente, con il congiuntivo (*dum... disceptarent*); un'interrogativa indiretta (*quidnam fecisset*); una completiva volitiva dopo *rogat* (*ut ei daret spiritum*); infinitive con il gerundivo (*suumque nomen ei dandum esse dixit*) e con *debere*; una causale con *quandoquidem*; e poi, nella sentenza di Saturno, tre tipi di comando uno dopo l'altro: un imperativo normale (*accipe*), un imperativo futuro (*recipito*) e congiuntivi esortativi (*possideat*, *vocetur*). È quasi un esercizio di grammatica in forma di racconto.
+
+Il brano mostra anche le stranezze del latino delle *Fabulae*. Giove è chiamato *Iovis* al nominativo per tre volte, una forma tarda e popolare al posto del classico *Iuppiter*, mentre l'ablativo *ab Iove* è regolare. Saturno si rivolge a Giove con il "tu" e poi parla della Terra in terza persona, pur rivolgendosi apparentemente a lei (*Tellus, quoniam corpus praebuit, corpus recipito*). E i tempi oscillano tra presente e passato (*rogat... impetravit*). Niente di tutto questo rende difficile il brano; ricorda soltanto che non siamo davanti a Cicerone.
+
+La favola in sé è un piccolo mito filosofico costruito su un gioco di parole. L'essere umano è un miscuglio di tre cose, lo spirito che viene dal cielo, il corpo che viene dalla terra e la cura ansiosa che lo plasma, e alla fine ogni parte torna al suo proprietario: l'anima a Giove, il corpo alla Terra, mentre Cura si tiene l'uomo *quamdiu vixerit*, "finché vivrà". E si chiama *homo* perché è fatto di *humus*, terra: un'etimologia a cui i grammatici antichi credevano davvero. Heidegger ci vide un'idea profonda, cioè che l'esistenza umana è definita dalla cura e dalla preoccupazione dall'inizio alla fine, e non fu il primo: Herder ne aveva fatto una poesia, e Goethe potrebbe averla avuta in mente per la figura della Cura nel *Faust*. Niente male per poche righe di un libro di scuola.
+
+### Eredità e Impatto
+
+L'influenza del vero Igino sopravvive soprattutto di seconda mano, attraverso gli studiosi successivi che usarono le sue opere perdute, e attraverso il suo posto nella storia della Biblioteca Palatina e della prima critica a Virgilio. I libri che portano il suo nome hanno avuto una vita molto più lunga. Le *Fabulae* divennero uno dei manuali di base della mitologia per il Medioevo e il Rinascimento, e restano indispensabili per gli studiosi moderni, perché molti dei loro riassunti conservano le trame di tragedie greche altrimenti perdute. Il *De Astronomia* fu uno dei primi testi scientifici classici a essere stampati, a Venezia nel 1482, con illustrazioni xilografiche delle costellazioni, e le sue immagini e i suoi miti influenzarono il modo in cui artisti e astronomi del Rinascimento disegnavano il cielo: molte figure dei vecchi atlanti celesti risalgono, attraverso di lui, a Igino. E la piccola favola di Cura, attraverso Herder, Goethe e Heidegger, ha fatto nella filosofia moderna una carriera che il suo anonimo compilatore non avrebbe mai potuto immaginare.
+
+### Valutazione finale *(italiano)*
+
+**Tier: D (Buon esercizio)**
+
+Le *Fabulae* sono quanto di più facile offra la prosa latina: frasi brevi, sintassi semplice, un lessico limitato e storie che la maggior parte dei lettori conosce già. Gli unici ostacoli sono i numerosi nomi mitologici greci e una manciata di forme non classiche (*Iovis* per *Iuppiter*) che uno studente non dovrebbe imitare. Come le *Res Gestae* di Augusto all'altro capo di questo capitolo, sono un perfetto testo di riscaldamento, e un modo piacevole per imparare insieme mitologia e grammatica. Un D netto.
+
+---
+
+## GRAZIO (fl. fine I sec. a.C.)
+
+### Biografia *(italiano)*
+
+Grazio è l'autore più misterioso di tutta l'età augustea, e forse dell'intero progetto. Della sua vita conosciamo un solo fatto, e viene da un unico verso di Ovidio. Tutto il resto dobbiamo ricavarlo dal suo poema.
+
+**Un verso di Ovidio.** In una delle sue ultime lettere dall'esilio, Ovidio elenca i poeti che scrivevano a Roma ai suoi tempi, un appello di nomi quasi tutti oggi perduti. In mezzo all'elenco c'è questo verso: *aptaque venanti Grattius arma daret*, "e Grazio darebbe al cacciatore le armi adatte". Tutto qui. Ci dice che Grazio era contemporaneo di Ovidio, che a Roma era conosciuto e che scriveva di caccia. Non ci dice quando nacque, dove visse né quando morì. Perfino il nome è incerto: manoscritti ed editori lo scrivono sia *Grattius* sia *Gratius*.
+
+**Un falisco?** Gli editori lo chiamano tradizionalmente *Grattius Faliscus*, "Grazio Falisco", e il soprannome viene dal suo stesso poema. In un passo sul lino migliore per fare le reti da caccia, contrappone il lino spagnolo di Saetabis a quello coltivato dai "nostri Falisci" (*nostris... Faliscis*). I Falisci erano il popolo di Falerii, l'odierna Civita Castellana, una cittadina a una cinquantina di chilometri a nord di Roma. Forse era di lì, o forse era solo orgoglioso del lino locale. In ogni caso, è l'unico dettaglio personale che si lascia sfuggire in 541 versi.
+
+**L'esperto di cani.** Se c'è una cosa che sappiamo di Grazio, è che amava i cani e ne sapeva moltissimo. Il suo poema elenca le razze da caccia del mondo conosciuto con l'entusiasmo di un giudice di un'esposizione canina moderna: i segugi persiani e medi, i cani gallici, i cani "petronii", i cani sicambri del Reno, il velocissimo levriero gallico che chiama *Vertraha* (una delle prime menzioni del levriero celtico, antenato del greyhound moderno), il cane umbro dal gran fiuto e senza coraggio, i famosi molossi della Grecia e, forse il ricordo più vivido, i cani della Britannia, brutti ma magnifici in combattimento (è il brano scelto). Spiega anche come allevarli, nutrirli, addestrarli e curarli dalla rogna e dalla rabbia, compreso il consiglio di portare un cane malato in una grotta vulcanica sulfurea della Sicilia, sacra a Vulcano.
+
+**Un poema che si interrompe a metà frase.** Il suo *Cynegetica* ("Sulla caccia") sopravvive in 541 esametri, e si interrompe nel mezzo di una frase sui cavalli. Probabilmente era più lungo, forse molto più lungo; non sappiamo se l'abbia mai finito. Ha attraversato il Medioevo in un unico manoscritto, copiato intorno all'800 in Francia e oggi a Vienna, che contiene anche un frammento di un poema sulla pesca attribuito a Ovidio. Il poeta napoletano Jacopo Sannazaro lo trovò in Francia all'inizio del Cinquecento e lo riportò in Italia, e fu stampato per la prima volta a Venezia nel 1534. Prima di allora, per circa sette secoli, l'unico poeta romano della caccia conosciuto al mondo era un nome in un elenco.
+
+### Opere principali *(italiano)*
+
+- **Cynegetica** (*Sulla caccia*, probabilmente fine I sec. a.C.) -- un poema didascalico in esametri, scritto a imitazione consapevole delle *Georgiche* di Virgilio. Si apre con un'invocazione a Diana, dea della caccia, e una breve storia delle origini della caccia, quando gli uomini impararono a usare la ragione e l'abilità invece della semplice forza. Descrive poi l'equipaggiamento del cacciatore: le reti e i diversi tipi di lino per farle, i lacci, la *formido* (una lunga corda con appese piume dai colori vivaci, usata per spaventare i cervi e spingerli verso le reti) e gli spiedi. La sezione più lunga è dedicata ai cani: le razze, i loro pregi e difetti, come sceglierli, farli riprodurre e allevarli, e come curarne le malattie. C'è una digressione morale contro il lusso e gli eccessi della tavola, e il testo conservato si interrompe durante una sezione sui cavalli. [Frammentario -- 541 versi, si interrompe]
+
+### Stile e difficoltà *(italiano)*
+
+Grazio non è un grande poeta, e nessuno ha mai sostenuto il contrario. Il suo modello sono evidentemente le *Georgiche*, e prende in prestito da Virgilio strutture, invocazioni solenni, digressioni e tono, ma senza la sua musica né la sua profondità. I suoi esametri sono corretti ma pesanti, i passaggi bruschi, e ha un debole per lo sfoggio di erudizione con oscuri riferimenti geografici e mitologici. Eppure non è facile.
+
+La prima difficoltà è l'**argomento**. Un poema sull'equipaggiamento da caccia e sull'allevamento dei cani è pieno di termini tecnici: tipi di lino e di tela, parti di reti e di lacci, tipi di spiedi, nomi di razze, sintomi di malattie ed erbe e rimedi usati per curarle. Molte di queste parole sono rare, alcune compaiono solo in Grazio, e il loro significato preciso è talvolta incerto anche per gli specialisti. **Lessico: ALTO.** La seconda è la **geografia**: i suoi cani vengono da tutto il mondo, e lui ne nomina le patrie con dotti aggettivi poetici, greci e latini, che presuppongono un lettore che sappia esattamente dove vivevano i Morini, i Sicambri, gli Atamani o gli Acarnani. **Densità di allusioni: da MEDIA ad ALTA.** La terza è il **testo**. Poiché sopravvive in un unico manoscritto, il *Cynegetica* è pieno di corruttele, lacune e lezioni dubbie; le edizioni moderne sono costellate di parentesi uncinate, dove gli editori hanno integrato parole mancanti, e di asterischi, dove sono caduti versi interi. **Complessità sintattica: da MEDIA ad ALTA; Figure retoriche: MEDIE.**
+
+### Brano: Cynegetica 171-181 -- I cani della Britannia
+
+**Fonte:** Grazio, *Cynegetica*, vv. 171-181, da *The Latin Library* (thelatinlibrary.com/grattius.html). La fonte scrive *Vmber* con la V maiuscola per *Umber*, e *mavors* con la m minuscola per il dio Marte; entrambe le grafie sono mantenute come stampate.
+
+**Contesto:** Nel mezzo del suo lungo catalogo di cani da caccia, Grazio ha appena descritto il segugio umbro, famoso per il fiuto, e ora rivolge l'attenzione all'estremo nord-ovest. I Morini erano un popolo gallico sulla costa della Manica, intorno all'odierna Boulogne, e al di là del loro mare pericoloso, soggetto alle maree, c'era la Britannia, che Cesare aveva invaso due volte appena una generazione prima. Il giudizio di Grazio sui cani britannici è una delle più antiche descrizioni di cani britannici nella letteratura. È anche un buon esempio del suo stile: una maniera virgiliana un po' pomposa applicata a un consiglio molto pratico.
+
+**Testo latino:**
+
+> at fugit adversos idem quos repperit hostis
+> Vmber: quanta fides, utinam, et sollertia naris,
+> tanta foret virtus et tantum vellet in armis!
+> quid, freta si Morinum dubio refluentia ponto
+> veneris atque ipsos libeat penetrare Britannos?
+> o quanta est merces et quantum impendia supra,
+> si non ad speciem mentiturosque decores
+> (parvis haec una est catulis iactura Britannis),
+> at magnum cum venit opus promendaque virtus
+> et vocat extremo praeceps discrimine mavors:
+> non tunc egregios tantum admirere Molossos,
+
+**Traduzione italiana** *(originale)*:
+
+Ma l'Umbro fugge davanti agli stessi nemici che ha scovato:
+oh, se avesse tanto coraggio, e tanta voglia di combattere,
+quanta è la sua fedeltà e la finezza del suo fiuto!
+E se tu giungessi agli stretti dei Morini, che rifluiscono su un mare incerto,
+e ti piacesse spingerti fino ai Britanni stessi?
+Oh, quanto grande è il guadagno, e quanto supera la spesa,
+purché tu non cerchi la bellezza e grazie ingannevoli
+(questo è l'unico difetto dei piccoli cani britanni);
+ma quando arriva un grande compito e bisogna mostrare coraggio,
+e Marte ti chiama a precipizio nel pericolo estremo,
+allora non ammireresti tanto i famosi Molossi,
+
+**Analisi:**
+
+Il brano si apre con un desiderio e un rimprovero. Il cane umbro è un segugio eccezionale ma un codardo: fugge davanti agli stessi animali che ha trovato. *Quanta fides... et sollertia naris, / tanta foret virtus*: una coppia correlativa, *quanta... tanta*, "quanto... tanto", con *utinam* e il congiuntivo imperfetto *foret* (per *esset*), che esprime un desiderio irrealizzabile nel presente: "magari avesse tanto coraggio quanto naso". *Sollertia naris*, "l'abilità della narice", è un bel tocco tecnico.
+
+Poi arriva il viaggio in Britannia, introdotto con uno svolazzo epico. *Freta... Morinum dubio refluentia ponto*, "gli stretti dei Morini, che rifluiscono su un mare incerto", è una descrizione in stile elevato delle maree della Manica, che avevano notoriamente colto di sorpresa la flotta di Cesare. *Morinum* è un genitivo plurale contratto (per *Morinorum*), e *veneris* è un congiuntivo perfetto nel periodo ipotetico. I cani britannici sono presentati con un giudizio franco, isolato tra parentesi: *parvis haec una est catulis iactura Britannis*, "questo è l'unico svantaggio dei piccoli cani britanni", cioè la loro scarsa bellezza (*speciem mentiturosque decores*, "l'aspetto e grazie che ti mentirebbero"). Ma, dice Grazio, quando comincia il lavoro vero, quando *mavors* (antico nome poetico di Marte, dio della guerra) ti chiama nel pericolo estremo, smetterai di ammirare i famosi Molossi, i giganteschi mastini dell'Epiro che erano i cani di lusso del mondo greco e romano. Si noti il congiuntivo potenziale *admirere* (per *admireris*), "ammireresti". La frase continua nei versi successivi, ma lì il testo ha una lacuna, ed è per questo che il brano termina con una virgola.
+
+La grammatica qui non è particolarmente difficile; ciò che rende impegnativo il passo è la compressione del pensiero, il dotto lessico geografico e lo stile un po' gonfio, come se Grazio stesse descrivendo una campagna militare invece di un viaggio per comprare un cane. È una piccola, vivida finestra sul mondo antico: i cacciatori romani, una generazione dopo Cesare, sapevano già che se volevi un cane davvero coraggioso dovevi andare in Britannia.
+
+### Eredità e Impatto
+
+Grazio ebbe pochissima influenza. È citato da Ovidio, forse imitato da Nemesiano, che scrisse un altro *Cynegetica* nel III secolo d.C., e poi dimenticato per settecento anni, finché Sannazaro non portò il suo manoscritto in Italia. Da allora è stato letto soprattutto da specialisti di poesia didascalica latina, da storici della caccia e da storici del cane, per i quali il suo catalogo di razze è una fonte preziosa. La sua importanza è quella di un raro sopravvissuto: un poeta minore dell'età augustea che mostra come fosse un normale, competente imitatore di Virgilio, e che ci ricorda quanti poeti simili dovevano scrivere a Roma, tutti perduti tranne lui, e tranne l'unico verso in cui Ovidio ricordò che Grazio avrebbe dato al cacciatore le sue armi.
+
+### Valutazione finale *(italiano)*
+
+**Tier: B (Difficile)**
+
+Grazio sopravvive in 541 versi, abbastanza per una valutazione onesta. Non è uno stilista raffinato, ma è una lettura difficile: un lessico tecnico denso su reti, armi, razze canine e rimedi veterinari, in gran parte raro o incerto; riferimenti geografici e mitologici eruditi; un esametro pesante e compresso a imitazione delle *Georgiche*; e un testo che sopravvive in un unico manoscritto danneggiato, con lacune e integrazioni degli editori. È più facile di Virgilio, perché c'è molta meno profondità e molta meno arte da sciogliere, ma decisamente più difficile di Tibullo o di Ovidio. Un B, e onesto.
+
+---

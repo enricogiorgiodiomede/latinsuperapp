@@ -1758,3 +1758,160 @@ And yet, as with Virgil, fame has narrowed the man. Today most people who know O
 Ovid is the easiest of the three great Augustan poets, and much the easiest to enjoy. His syntax is light and logical, his couplets make one point at a time, his hexameters run fast, and his sentences follow the natural order of thought: his poetry is the closest Latin comes to prose in verse. What makes him a B rather than a C is everything he adds on top: rhetorical wit, paradox and wordplay on every page, a constant layer of irony, a huge stock of Greek names and mythological allusions, especially in the *Metamorphoses*, and a love of showing off that, as Quintilian said, he could never control. So he sits between Tibullus and Propertius: harder than the first, much easier than the second, and still very readable. And because he is readable, his messages come through: which is exactly why he deserves to be read for much more than the transformations.
 
 ---
+
+# GAIUS JULIUS HYGINUS (c. 64 BC -- 17 AD)
+
+## Biography
+
+Hyginus is the librarian of the Augustan Age, and the most frustrating kind of author for a project like this one: a man whose own books are almost all lost, and whose name is attached to two books he very probably did not write. But his life is a good story, and the books that go under his name are among the most useful and most charming handbooks of mythology to survive from antiquity.
+
+**A boy brought from abroad.** Almost everything we know about the real Hyginus comes from a short entry in Suetonius's *Lives of the Grammarians*. Gaius Julius Hyginus was a freedman of Augustus, which means he had been a slave of the imperial family before being freed; his name, Gaius Julius, is simply the name of his former master. Nobody could agree where he came from: most said he was a Spaniard, but others thought he was from Alexandria, and that Julius Caesar had brought him to Rome as a boy after the capture of the city in 47 BC. It is a fitting start for a man nobody can quite pin down.
+
+**The pupil of a walking encyclopedia.** In Rome he studied with Alexander of Miletus, a Greek scholar so learned that people called him *Polyhistor*, "Know-It-All", and some simply called him *Historia*, "History" itself. Hyginus became a scholar in the same mould: an antiquarian, a grammarian and a collector of facts about everything.
+
+**The emperor's librarian.** Augustus put him in charge of the Palatine Library, the great public library built next to the temple of Apollo on the Palatine Hill, beside the emperor's own house, with one hall for Greek books and one for Latin. It was one of the most prestigious posts a scholar could hold in Rome: imagine being made director of the national library, and having the head of state as your neighbour. He combined it with teaching, and had many pupils.
+
+**The man who corrected Virgil.** Hyginus wrote a commentary on Virgil, one of the very first, and he was not afraid to criticise him. Aulus Gellius reports that Hyginus pointed out historical and geographical mistakes in the *Aeneid*, and that he claimed to have consulted a copy of the *Georgics* that came "from the house and family of Virgil" himself, in order to settle a disputed reading. The first critic of the most perfect poet in Latin was the man who looked after the books.
+
+**Ovid's friend, and a poor man.** Suetonius adds that Hyginus was a very close friend of Ovid, and of the historian Clodius Licinus, who recorded that Hyginus died very poor, and that Licinus had supported him out of his own pocket for as long as he lived. Some scholars think that one of Ovid's letters from exile, addressed to an unnamed "guardian and high priest of learned men" in Rome, asking him to look after his books, was written to Hyginus; it would be exactly the right person to ask. The librarian of the emperor, the friend of poets, the teacher of many, died penniless. Some things about academic life never change.
+
+**The two books with his name.** All of Hyginus's genuine works are lost. What survives under the name of "Hyginus" are two handbooks: the **Fabulae**, a collection of short summaries of Greek myths, and the **De Astronomia**, a guide to the constellations and the myths behind them. Neither sounds like the work of a great Augustan scholar. Their Latin is plain and sometimes plainly wrong, and they contain mistakes that a learned man would hardly make: in the *Fabulae*, for instance, Deucalion and Pyrrha survive the great flood by escaping to Mount Etna in Sicily, rather than to Mount Parnassus. Most scholars think they were written much later, probably in the second century AD, by a schoolmaster or compiler who either was also called Hyginus or borrowed the famous name, perhaps drawing on the real Hyginus's lost works. So the books are "Hyginus" in the way that a modern textbook might carry the name of a famous editor long dead.
+
+**A manuscript cut into pieces.** The *Fabulae* came even closer to disappearing than most ancient texts. They survived in a single manuscript, written around AD 900 in southern Italian script and kept at Freising in Bavaria. In 1535 the German humanist Jacob Micyllus used it to print the first edition. And then, its job apparently done, the manuscript was taken apart, and its parchment leaves were reused to bind other books. Today only a few scraps of it survive, recovered from the bindings of volumes in Munich and Regensburg. For almost everything in the *Fabulae*, the first printed edition is now our only witness.
+
+## Most Important Works
+
+- **Lost works of the real Hyginus** -- a commentary on Virgil; books on the cities of Italy, on the Trojan families from which Roman clans claimed descent, on the nature of the gods, on agriculture and on bees (which Columella still used as authorities a generation later), on famous men, and collections of moral examples. [Lost, apart from quotations]
+- **Fabulae** (or **Genealogiae**) -- around 270 very short chapters retelling Greek myths, preceded by genealogies of the gods, and followed by lists, which are the most entertaining part: "those who were nursed by animals", "the most beautiful young men", "women who killed their husbands", "men who killed their fathers", "the seven wonders of the world", "the inventors of things", "the greatest friendships". It is, in effect, an ancient encyclopedia of mythology for students, and one of our most important sources for the plots of lost Greek tragedies. [Survives, through the first printed edition]
+- **De Astronomia** (also called the *Poeticon Astronomicon*) -- four books on astronomy and the constellations: their shapes, their stars and above all the myths that explain them, such as how the Great Bear was once the nymph Callisto, or why the Scorpion chases Orion across the sky. [Complete]
+- **De Munitionibus Castrorum** -- a technical manual on how to lay out a Roman army camp, attributed to "Hyginus" in the manuscripts but written in the imperial period by a land surveyor, and certainly not by our librarian. [Complete; spurious]
+
+## Writing Style and Difficulty
+
+The Latin of the *Fabulae* is the simplest in this whole chapter, and possibly in the whole project. It is a schoolbook: short sentences, a subject, a verb and an object, one event after another, with almost no ornament and no attempt at style. Most chapters follow the same pattern: "X, son of Y and Z, did this; for this reason the gods did that; therefore he was turned into the other." For a student who has just finished the grammar, it is an ideal first text: the myths are familiar, the sentences are short, and every chapter can be finished in a few minutes. **Syntactic complexity: LOW; Stylistic figures: LOW.**
+
+There are only two catches. The first is that the Latin is not always classical: the compiler sometimes uses forms and constructions a careful Augustan writer would have avoided, such as *Iovis* as the nominative of "Jupiter" instead of *Iuppiter*, and occasionally the sentences are clumsy or the facts are wrong. A student should not take everything in Hyginus as a model of good Latin. The second is the mythological names: hundreds of Greek gods, heroes, nymphs and monsters, often in Greek forms, which the reader needs to recognise or look up. **Lexicon: LOW to MEDIUM; Allusion density: MEDIUM, but every myth is explained.**
+
+## Latin Excerpt
+
+### Excerpt: Fabulae 220 -- Cura
+
+**Source:** Hyginus, *Fabulae* 220, *Cura*, from *The Latin Library* (thelatinlibrary.com/hyginus/hyginus5.shtml)
+
+**Context:** Most chapters of the *Fabulae* retell myths that we know from other sources. This one is different: it is a little allegorical fable that survives nowhere else in ancient literature. Cura, "Care" or "Worry" personified, shapes the first human being out of clay, and then has to argue with Jupiter and Earth about who it belongs to. It is only a few lines long, it is written in the simplest Latin, and it has had an extraordinary afterlife: the German philosopher Martin Heidegger quoted it in full in his masterpiece *Being and Time* (1927), as evidence that the ancients already understood human existence as fundamentally a matter of care.
+
+**Latin Text:**
+
+Cura cum quendam fluvium transiret, vidit cretosum lutum, sustulit cogitabunda et coepit fingere hominem. Dum deliberat secum quidnam fecisset, intervenit Iovis; rogat eum Cura, ut ei daret spiritum, quod facile ab Iove impetravit. Cui cum vellet Cura nomen suum imponere, Iovis prohibuit suumque nomen ei dandum esse dixit. Dum de nomine Cura et Iovis disceptarent, surrexit et Tellus suumque nomen ei imponi debere dicebat, quandoquidem corpus suum praebuisset. Sumpserunt Saturnum iudicem; quibus Saturnus aequus videtur iudicasse: "Tu, Iovis, quoniam spiritum dedisti, animam post mortem accipe; Tellus, quoniam corpus praebuit, corpus recipito. Cura quoniam prima eum finxit, quamdiu vixerit, Cura eum possideat; sed quoniam de nomine eius controversia est, homo vocetur, quoniam ex humo videtur esse factus."
+
+**English Translation:**
+
+When Care was crossing a certain river, she saw some clayey mud; deep in thought, she picked it up and began to shape a human being. While she was wondering what she had made, Jupiter came along. Care asked him to give it breath, and she easily obtained this from Jupiter. When Care wanted to give it her own name, Jupiter forbade it, and said that his own name should be given to it. While Care and Jupiter were arguing about the name, Earth rose up too, and kept saying that it should be given her name, since she had provided her own body for it. They took Saturn as their judge, and Saturn, it seems, judged fairly: "You, Jupiter, since you gave it breath, shall receive its soul after death; Earth, since she provided its body, shall take back its body. Since Care was the first to shape it, let Care possess it for as long as it lives; but since there is a dispute about its name, let it be called *homo*, since it seems to be made from *humus*, the earth."
+
+**Analysis:**
+
+This is the *Fabulae* at their best, and almost all the grammar of a first-year Latin course is here, in the simplest possible form. There are *cum* clauses with the subjunctive (*cum... transiret*, *cum vellet*); *dum* clauses, one with the present indicative in the classical way (*dum deliberat*) and one, less classically, with the subjunctive (*dum... disceptarent*); an indirect question (*quidnam fecisset*); an indirect command after *rogat* (*ut ei daret spiritum*); indirect statements with a gerundive (*suumque nomen ei dandum esse dixit*) and with *debere*; a causal clause with *quandoquidem*; and then, in Saturn's verdict, three kinds of command one after the other: an ordinary imperative (*accipe*), a future imperative (*recipito*) and jussive subjunctives (*possideat*, *vocetur*). It is almost a grammar exercise in narrative form.
+
+It also shows the oddities of the *Fabulae*'s Latin. Jupiter is called *Iovis* in the nominative three times, a late and popular form for the classical *Iuppiter*, although the ablative *ab Iove* is normal. Saturn begins by addressing Jupiter as "you" and then talks about Earth in the third person while apparently speaking to her (*Tellus, quoniam corpus praebuit, corpus recipito*). And the tenses wander between present and past (*rogat... impetravit*). None of this makes the passage hard; it just reminds us that this is not Cicero.
+
+The fable itself is a small philosophical myth built on a pun. The human being is a mixture of three things, breath from the sky, a body from the earth, and the anxious care that shapes it, and each part goes back to its owner in the end: the soul to Jupiter, the body to Earth, while Care keeps the human being *quamdiu vixerit*, "for as long as it lives". And it is named *homo* because it is made from *humus*, earth: an etymology that ancient grammarians genuinely believed. Heidegger saw in it a profound idea, that human existence is defined by concern and worry from beginning to end, and he was not the first: Herder had turned it into a poem, and Goethe may have had it in mind for the figure of Care in *Faust*. Not bad for a few lines in a schoolbook.
+
+---
+
+## Legacy and Impact
+
+The real Hyginus's influence survives mostly at second hand, through the later scholars who used his lost works, and through his place in the story of the Palatine Library and of the first criticism of Virgil. The books that go under his name had a much longer life. The *Fabulae* became one of the basic handbooks of mythology for the Middle Ages and the Renaissance, and they remain indispensable for modern scholars, because many of their summaries preserve the plots of Greek tragedies that are otherwise lost. The *De Astronomia* was one of the first classical scientific texts to be printed, in Venice in 1482, with woodcut illustrations of the constellations, and its pictures and myths shaped the way Renaissance artists and astronomers drew the sky: many of the figures in old star atlases go back, through it, to Hyginus. And the little fable of Cura, through Herder, Goethe and Heidegger, has had a career in modern philosophy that its unknown compiler could never have imagined.
+
+---
+
+## Final Rating
+
+**Tier: D (Good Exercise)**
+
+The *Fabulae* are as easy as Latin prose gets: short sentences, simple syntax, a limited vocabulary and stories most readers already know. Their only obstacles are the many Greek mythological names and a handful of non-classical forms (*Iovis* for *Iuppiter*) that a student should not imitate. Like Augustus's *Res Gestae* at the other end of this chapter, they are a perfect warm-up text, and a pleasant way to learn mythology and grammar at the same time. A clear D.
+
+---
+
+# GRATTIUS (fl. late I century BC)
+
+## Biography
+
+Grattius is the most mysterious author in the whole Augustan Age, and possibly in this whole project. We know one fact about his life, and it comes from a single line of Ovid. Everything else we know, we have to read out of his poem.
+
+**One line in Ovid.** In one of his last letters from exile, Ovid lists the poets who were writing in Rome in his day, a roll-call of names, most of whom are now lost. In the middle of the list comes this line: *aptaque venanti Grattius arma daret*, "and Grattius would give the hunter the weapons he needs". That is all. It tells us that Grattius was a contemporary of Ovid, that he was known in Rome, and that he wrote about hunting. It does not tell us when he was born, where he lived or when he died. Even his name is uncertain: the manuscripts and editors spell it both *Grattius* and *Gratius*.
+
+**A Faliscan?** Editors traditionally call him *Grattius Faliscus*, "Grattius the Faliscan", and the nickname comes from his own poem. In a passage on the best flax for making hunting nets, he contrasts the Spanish flax of Saetabis with the flax grown by "our Faliscans" (*nostris... Faliscis*). The Falisci were the people of Falerii, modern Civita Castellana, a town about fifty kilometres north of Rome. So he may have been from there, or simply proud of the local linen. Either way, it is the only personal detail he lets slip in 541 lines.
+
+**The dog expert.** If there is one thing we do know about Grattius, it is that he loved dogs, and knew a great deal about them. His poem lists the hunting breeds of the known world with the enthusiasm of a modern dog-show judge: the Persian and Median hounds, the Gaulish dogs, the "Petronian" dogs, the Sycambrian dogs from the Rhine, the speedy Gaulish greyhound he calls the *Vertraha* (one of the earliest mentions of the Celtic sighthound, ancestor of the modern greyhound), the Umbrian dog with a great nose and no courage, the famous Molossian mastiffs from Greece, and, perhaps most memorably, the dogs of Britain, which are ugly but magnificent in a fight (that is the excerpt). He also explains how to breed them, feed them, train them and cure them of mange and rabies, including a recommendation to take a sick dog to a sulphurous volcanic cave in Sicily sacred to Vulcan.
+
+**A poem that stops mid-sentence.** His *Cynegetica* ("On Hunting") survives in 541 hexameters, and breaks off in the middle of a sentence about horses. It was probably longer, perhaps much longer; we do not know whether he ever finished it. It survived the Middle Ages in a single manuscript, copied around AD 800 in France and now in Vienna, which also contains a fragment of a poem on fishing attributed to Ovid. The Neapolitan poet Jacopo Sannazaro found it in France in the early 1500s and brought it back to Italy, and it was first printed in Venice in 1534. Before that, for some seven centuries, the only Roman hunting poet known to the world was a name in a list.
+
+## Most Important Works
+
+- **Cynegetica** (*On Hunting*, probably late I century BC) -- a didactic poem in hexameters, written in conscious imitation of Virgil's *Georgics*. It opens with an invocation to Diana, goddess of the hunt, and a brief history of how hunting began, when men learned to use reason and skill instead of bare strength. It then describes the hunter's equipment: nets and the different kinds of flax used to make them, snares, the *formido* (a long rope hung with brightly coloured feathers, used to frighten deer towards the nets), and spears. The longest section is on dogs: the breeds, their good and bad qualities, how to choose, breed and raise them, and how to treat their diseases. There is a moral digression against luxury and the excesses of the table, and the surviving text ends during a section on horses. [Fragmentary -- 541 lines, breaks off]
+
+## Writing Style and Difficulty
+
+Grattius is not a great poet, and nobody has ever claimed he was. His model is obviously the *Georgics*, and he borrows Virgil's structures, his solemn invocations, his digressions and his tone, but without Virgil's music or his depth. His hexameters are correct but heavy, his transitions are abrupt, and he has a weakness for showing off his learning with obscure geographical and mythological references. And yet he is not easy.
+
+The first difficulty is the **subject matter**. A poem on hunting equipment and dog breeding is full of technical terms: kinds of flax and linen, parts of nets and snares, types of spears, names of breeds, symptoms of diseases and the herbs and remedies used to cure them. Many of these words are rare, some appear only in Grattius, and their exact meaning is sometimes uncertain even to specialists. **Lexicon: HIGH.** The second is the **geography**: his dogs come from all over the world, and he names their homelands with learned poetic adjectives, Greek and Latin, that assume a reader who knows exactly where the Morini, the Sycambri, the Athamanes or the Acarnanians lived. **Allusion density: MEDIUM to HIGH.** The third is the **text**. Because it survives in a single manuscript, the *Cynegetica* is full of corruptions, gaps and doubtful readings; modern editions are dotted with angle brackets, where editors have supplied missing words, and with asterisks, where whole lines are lost. **Syntactic complexity: MEDIUM to HIGH; Stylistic figures: MEDIUM.**
+
+## Latin Excerpt
+
+### Excerpt: Cynegetica 171-181 -- The Dogs of Britain
+
+**Source:** Grattius, *Cynegetica*, lines 171-181, from *The Latin Library* (thelatinlibrary.com/grattius.html). The source writes *Vmber* with a capital V for *Umber*, and *mavors* with a small m for the god Mars; both are kept as printed.
+
+**Context:** In the middle of his long catalogue of hunting dogs, Grattius has just described the Umbrian hound, famous for its nose, and now he turns his attention to the far north-west. The Morini were a Gallic people on the coast of the Channel, around modern Boulogne, and beyond their dangerous, tidal sea lay Britain, which Caesar had invaded twice only a generation before. Grattius's verdict on the dogs of Britain is one of the earliest descriptions of British dogs in literature. It is also a good example of his style: a slightly pompous Virgilian manner applied to a very practical piece of advice.
+
+**Latin Text:**
+
+> at fugit adversos idem quos repperit hostis
+> Vmber: quanta fides, utinam, et sollertia naris,
+> tanta foret virtus et tantum vellet in armis!
+> quid, freta si Morinum dubio refluentia ponto
+> veneris atque ipsos libeat penetrare Britannos?
+> o quanta est merces et quantum impendia supra,
+> si non ad speciem mentiturosque decores
+> (parvis haec una est catulis iactura Britannis),
+> at magnum cum venit opus promendaque virtus
+> et vocat extremo praeceps discrimine mavors:
+> non tunc egregios tantum admirere Molossos,
+
+**English Translation:**
+
+But the Umbrian dog runs away from the very enemies it has tracked down:
+if only it had as much courage, and as much will to fight,
+as it has loyalty and keenness of scent!
+What if you came to the straits of the Morini, where the sea ebbs and flows uncertainly,
+and chose to go as far as the Britons themselves?
+Oh, how great the reward, how far beyond the cost,
+as long as you are not looking for good looks and deceptive charms
+(this is the one flaw of the little British dogs);
+but when a great task comes, and courage must be shown,
+and the War-god calls you headlong into the final danger,
+then you would not admire the famous Molossians so much,
+
+**Analysis:**
+
+The passage begins with a wish and a complaint. The Umbrian dog is a superb tracker, but a coward: it runs away from the very animals it has found. *Quanta fides... et sollertia naris, / tanta foret virtus*: a correlative pair, *quanta... tanta*, "as much... so much", with *utinam* and the imperfect subjunctive *foret* (for *esset*) expressing an unreal wish in the present: "if only it had as much courage as it has nose". *Sollertia naris*, "the skill of its nostril", is a nicely technical touch.
+
+Then comes the journey to Britain, introduced with an epic flourish. *Freta... Morinum dubio refluentia ponto*, "the straits of the Morini, flowing back and forth on an uncertain sea", is a high-style description of the tides of the English Channel, which had famously caught Caesar's fleet by surprise. *Morinum* is a contracted genitive plural (for *Morinorum*), and *veneris* is a perfect subjunctive in the condition. The British dogs themselves are introduced with a frank judgement, set apart in parentheses: *parvis haec una est catulis iactura Britannis*, "this is the one drawback of the little British dogs", namely their lack of looks (*speciem mentiturosque decores*, "appearance and charms that would lie to you"). But, says Grattius, when real work begins, when *mavors* (an old poetic name for Mars, the war-god) calls you into the final danger, you will stop admiring the famous Molossians, the giant mastiffs from Epirus that were the luxury dogs of the Greek and Roman world. Note the potential subjunctive *admirere* (for *admireris*), "you would admire". The sentence goes on in the next lines, but the text there has a gap, which is why the excerpt ends with a comma.
+
+The grammar here is not especially hard; what makes the passage demanding is the compression of the thought, the learned geographical vocabulary and the slightly overblown style, as if Grattius were describing a military campaign rather than a trip to buy a dog. It is a small, vivid window onto the ancient world: Roman hunters, a generation after Caesar, already knew that if you wanted a dog with real courage, you went to Britain.
+
+---
+
+## Legacy and Impact
+
+Grattius had very little influence. He is mentioned by Ovid, imitated perhaps by Nemesianus, who wrote another *Cynegetica* in the third century AD, and then forgotten for seven hundred years, until Sannazaro brought his manuscript to Italy. Since then he has been read mostly by specialists in Latin didactic poetry, by historians of hunting, and by historians of dogs, for whom his catalogue of breeds is a precious source. His importance is that of a rare survivor: a minor poet of the Augustan Age who shows what an ordinary, competent imitator of Virgil looked like, and who reminds us how many such poets must have been writing in Rome, all of them lost except for him, and except for the single line in which Ovid remembered that Grattius would give the hunter his weapons.
+
+---
+
+## Final Rating
+
+**Tier: B (Difficult)**
+
+Grattius survives in 541 lines, enough for a fair rating. He is not a subtle stylist, but he is a difficult read: dense technical vocabulary on nets, weapons, dog breeds and veterinary remedies, much of it rare or uncertain; learned geographical and mythological references; a heavy, compressed hexameter in imitation of the *Georgics*; and a text that survives in a single, damaged manuscript, with gaps and editorial supplements. He is easier than Virgil, because there is far less depth and far less art to unpack, but considerably harder than Tibullus or Ovid. A B, and an honest one.
+
+---
