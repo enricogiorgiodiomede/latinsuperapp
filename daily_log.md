@@ -1587,3 +1587,17 @@ Two commits in the evening, both on the **Augustan Era** draft: two new entries,
 **Augustan Era -- Sulpicia (22:50).** Entry added in both files with two complete poems, [Tib.] III.13 and III.18, provisional tier **C**. Latin checked against The Latin Library.
 
 **Progress:** App unchanged at **v1.16.7** (bank 587, verify 437/0); Sallust still at 41 of 70, with v1.16.8 (*Iug.* 17, 18, 19, 26, 29) waiting on the user's notes on v1.16.7. The Augustan Era draft now has Horace (S), Livy (B), Tibullus (C) and Sulpicia (C). Next in the agreed order is Propertius, then Ovid, Hyginus and Grattius. Still outstanding: the rest of Sallust, the translation re-read in *Pro Caelio* and *De Oratore*, and Catullus.
+
+---
+
+## 2026-10-30
+
+*(End-of-day log, 23:55.)*
+
+Two commits just after midnight, both continuing the **Augustan Era** draft: Propertius and Ovid, each with its Italian mirror. No app release today.
+
+**Augustan Era -- Propertius (00:05).** Full entry added to `augustan_era_draft.md` with two excerpts from Book IV of the *Elegiae* (IV.7.1-18 and IV.8.49-70), provisional tier **A**. Italian mirror in `italian_translations_augustan.md`. Latin checked against The Latin Library.
+
+**Augustan Era -- Ovid (01:12).** Full entry added in both files with three excerpts: *Amores* I.9.1-20, *Ars Amatoria* I.135-162, and *Metamorphoses* VIII.823-842 + 875-878. Provisional tier **B**. Latin checked against The Latin Library.
+
+**Progress:** App unchanged at **v1.16.7** (bank 587, verify 437/0); Sallust still at 41 of 70, with v1.16.8 (*Iug.* 17, 18, 19, 26, 29) waiting on the user's notes on v1.16.7. The Augustan Era draft now has Horace (S), Livy (B), Tibullus (C), Sulpicia (C), Propertius (A) and Ovid (B). Next in the agreed order are Hyginus and Grattius (pairing still undecided). Still outstanding: the rest of Sallust, the translation re-read in *Pro Caelio* and *De Oratore*, and Catullus.
