@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.16.8', date: '02/11/2026', time: '00:25', tz: 'CET',
+      v: '1.16.8', date: '02/11/2026', time: '00:23', tz: 'CET',
       en: {
         added: [
           'FIVE MORE EXCERPTS OF THE JUGURTHINE WAR. First Sallust\'s famous digression on Africa, written by a man who had governed it: a hard land without water or harbours, its hardy people who die of old age, the legend that the Numidians descend from Hercules\' army and still live in houses shaped like upturned boats, and the map of the coast from Egypt to the Atlantic.',
