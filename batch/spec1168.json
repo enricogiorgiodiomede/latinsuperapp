@@ -1,0 +1,8 @@
+{
+  "_comment": "v1.16.8 - Bellum Iugurthinum 17, 18, 19 (the African excursus), 26-27 (Cirta falls; Rome reacts), 29 (Bestia and Scaurus bought). 26 alone is only 80 words, so the excerpt runs on through 27 (two chapters, two paragraphs; sectionFiles in batch/marks1168.json). Sections from tools/xml_sections.js. Page quirks kept and explained: 18.11 Carthagine[m], 19.4 Hispania[m] (editorial brackets), 18.12 bellicose (editions bellicosi).",
+  "iug.17": ["sall.2", "Res postulare videtur Africae situm", "fides eius rei penes auctores erit."],
+  "iug.18": ["sall.2", "Africam initio habuere Gaetuli", "in gentem nomenque imperantium concessere."],
+  "iug.19": ["sall.2", "Postea Phoenices, alii multitudinis", "ad necessitudinem rei satis dictum."],
+  "iug.26": ["sall.2", "Ea postquam Cirtae audita sunt", "quae bello usui forent, decernuntur."],
+  "iug.29": ["sall.2", "Sed ubi Iugurtha per legatos", "In Numidia et exercitu nostro pax agitabatur."]
+}

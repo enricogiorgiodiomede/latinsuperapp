@@ -6,6 +6,39 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.16.8] - 2026-11-02
+
+**AFRICA, CIRTA, AND A BOUGHT PEACE.** Five excerpts of the *Bellum Iugurthinum* - the African excursus (17,
+18, 19), the fall of Cirta and Rome's reaction (26-27), and the consul and Scaurus bought (29). Sallust is at
+46 of 70 (Catilina 30, Iugurtha 16).
+
+### Added - Bellum Iugurthinum (5)
+| excerpt | what it is |
+|---|---|
+| 17 | the excursus opens: *res postulare videtur*, a landscape in verbless lists, the Punic books of Hiempsal II, *fides eius rei penes auctores erit* - by the first governor of Africa Nova |
+| 18 | origins: the lawless Gaetulians and Libyans, Hercules' army, upturned hulls and *mapalia*, Nomades and Mauri |
+| 19 | the coast from Egypt west, *de Carthagine silere melius*, and the map of the war - Rome, Jugurtha, and an unknown king, Bocchus |
+| 26-27 | Cirta surrenders trusting Rome's greatness; Adherbal *excruciatum necat*; Memmius, and the senate moved only by *delicti conscientia* |
+| 29 | *animus aeger avaritia*, Scaurus *in pravum abstractus*, the sham council *quasi per saturam*, thirty elephants and *parvo argenti pondere* |
+
+- **26 alone is 80 words, so the excerpt runs on through 27** (190 words, two chapters, two paragraphs), using the
+  `sectionFiles` option already in `tools/mark_sections.js`, so the numbers restart at 1 in chapter 27.
+- **The user's theses are in from the start**: *fides* failing (26), the senate moved only by fear (27), Scaurus's
+  refusal of chapter 15 undone (29), corruption as a disease (29 <-> Cat. 11); I re-read chapters 16, 20-25 and
+  27-28 before writing the "Where we are" paragraphs.
+- **Cross-references**: Iug. 17 <-> De Bello Gallico VI.11 (the same formula opening an ethnographic excursus),
+  both ways; Iug. 15 -> 29 and Iug. 14.20-25 -> 26-27 inside the Iugurtha.
+- **Page quirks**: 18.11 *Carthagine[m]* and 19.4 *Hispania[m]* (editorial brackets) kept; 18.12 *bellicose* where
+  the editions have *bellicosi*, and 18.7 *Numidas* where they have *Nomadas*, kept and explained; one override
+  in batch/marks1168.json for the page's *saevum* at 17.5. check_context asked for the proper names of the
+  Latin and a year in 18 and 19: added.
+
+Translation pass over the touched work: the five v1.16.7 Iugurtha excerpts re-read clause by clause, unchanged.
+
+Verification: **442 verbatim, 0 mismatched** (437 + 5); check_context, lint_register, lint_ablatives and
+lint_translations report 0 for 1.16.8, check_sections nothing new; check_numbering 168/0, check_verses 60/0;
+`lint_markdown` clean. Bank **592**. Cache-bust: `?v=229` -> `?v=230`.
+
 ## [1.16.7] - 2026-10-26
 
 **MICIPSA, HIEMPSAL, ADHERBAL, AND A BOUGHT SENATE.** Five excerpts of the *Bellum Iugurthinum* - 10, 12,

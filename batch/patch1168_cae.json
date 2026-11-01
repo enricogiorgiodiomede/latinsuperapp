@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(De Bello Gallico VI.11)",
+    "field": "analysis",
+    "find": "**Textual note:** the Latin Library prints *contra potentio rem",
+    "replace": "**The same formula in Sallust.** Caesar's opening, *non alienum esse videtur ... proponere*, is the standard way a Roman historian announced a digression on a foreign land, and Sallust uses it a few years later for Africa: *res postulare videtur Africae situm paucis exponere*, the subject seems to call for a brief account of Africa (Bellum Iugurthinum 17, in this app). Both present the excursus as something the material demands, and both promise to keep it short.\n\n**Textual note:** the Latin Library prints *contra potentio rem"
+  },
+  {
+    "cit": "(De Bello Gallico VI.11)",
+    "field": "analysisIt",
+    "find": "**Nota testuale:** The Latin Library stampa *contra potentio rem",
+    "replace": "**La stessa formula in Sallustio.** L'apertura di Cesare, *non alienum esse videtur ... proponere*, era il modo consueto con cui uno storico romano annunciava una digressione su una terra straniera, e Sallustio la usa pochi anni dopo per l'Africa: *res postulare videtur Africae situm paucis exponere*, l'argomento sembra richiedere un breve resoconto dell'Africa (Bellum Iugurthinum 17, in quest'app). Entrambi presentano l'excursus come qualcosa che la materia richiede, ed entrambi promettono di essere brevi.\n\n**Nota testuale:** The Latin Library stampa *contra potentio rem"
+  }
+]

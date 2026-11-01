@@ -12,6 +12,33 @@
 
   var VERSIONS = [
     {
+      v: '1.16.8', date: '02/11/2026', time: '00:25', tz: 'CET',
+      en: {
+        added: [
+          'FIVE MORE EXCERPTS OF THE JUGURTHINE WAR. First Sallust\'s famous digression on Africa, written by a man who had governed it: a hard land without water or harbours, its hardy people who die of old age, the legend that the Numidians descend from Hercules\' army and still live in houses shaped like upturned boats, and the map of the coast from Egypt to the Atlantic.',
+          'Then the story turns dark. Besieged in Cirta, Adherbal surrenders on the advice of Italian traders who trust in Rome\'s greatness; Jugurtha tortures him to death and massacres them. In Rome only a tribune, Memmius, stops the senate from burying the scandal - and when the army finally reaches Africa, the consul and the leader of the senate are bought, and the war ends in a peace paid for with thirty elephants and a little silver.'
+        ],
+        changed: [
+          'The new notes are linked to the passages that answer them, including Caesar\'s own digression on the Gauls and Germans, which opens with the same formula as Sallust\'s on Africa.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'ALTRI CINQUE BRANI DELLA GUERRA GIUGURTINA. Prima la celebre digressione di Sallustio sull\'Africa, scritta da un uomo che l\'aveva governata: una terra dura, senz\'acqua e senza porti, la sua gente resistente che muore di vecchiaia, la leggenda secondo cui i Numidi discendono dall\'esercito di Ercole e vivono ancora in case a forma di barche capovolte, e la carta della costa dall\'Egitto all\'Atlantico.',
+          'Poi la storia si fa cupa. Assediato a Cirta, Aderbale si arrende su consiglio di mercanti italici che confidano nella grandezza di Roma; Giugurta lo fa morire fra le torture e li massacra. A Roma solo un tribuno, Memmio, impedisce al senato di insabbiare lo scandalo - e quando l\'esercito arriva finalmente in Africa, il console e il capo del senato vengono comprati, e la guerra finisce con una pace pagata con trenta elefanti e un po\' d\'argento.'
+        ],
+        changed: [
+          'Le nuove note sono collegate ai passi che rispondono loro, fra cui la digressione di Cesare sui Galli e sui Germani, che si apre con la stessa formula di quella di Sallustio sull\'Africa.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.16.7', date: '26/10/2026', time: '16:28', tz: 'CET',
       en: {
         added: [

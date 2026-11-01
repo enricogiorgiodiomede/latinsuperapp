@@ -1,0 +1,86 @@
+[
+  {
+    "cit": "(Bellum Iugurthinum 17)",
+    "field": "analysis",
+    "find": "*Penes auctores*: in the hands of the authorities.",
+    "replace": "*Penes auctores*: in the hands of the authorities. *Oceani*: the Ocean, the Atlantic beyond the strait. *Catabathmon*: a Greek accusative, the Catabathmos, \"the descent\", on the borders of Egypt."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 17)",
+    "field": "analysisIt",
+    "find": "*Penes auctores*: nelle mani delle fonti.",
+    "replace": "*Penes auctores*: nelle mani delle fonti. *Oceani*: l'Oceano, l'Atlantico oltre lo stretto. *Catabathmon*: accusativo greco, il Catabatmo, \"la discesa\", ai confini dell'Egitto."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 18)",
+    "field": "analysis",
+    "find": "The second chapter of the African excursus (Bellum Iugurthinum 17).",
+    "replace": "The second chapter of the African excursus, which pauses the story in 116 BC (Bellum Iugurthinum 17)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 18)",
+    "field": "analysisIt",
+    "find": "Il secondo capitolo dell'excursus africano (Bellum Iugurthinum 17).",
+    "replace": "Il secondo capitolo dell'excursus africano, che sospende il racconto nel 116 a.C. (Bellum Iugurthinum 17)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 18)",
+    "field": "analysis",
+    "find": "*In gentem nomenque ... concessere*: passed into the race and name.",
+    "replace": "*In gentem nomenque ... concessere*: passed into the race and name. *Libyes, Persae, Hispani*: Libyans, Persians, Spaniards, with *Persarum* the genitive plural. *Intra Oceanum magis*: further towards the Ocean, the Atlantic side."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 18)",
+    "field": "analysisIt",
+    "find": "*In gentem nomenque ... concessere*: passarono nella stirpe e nel nome.",
+    "replace": "*In gentem nomenque ... concessere*: passarono nella stirpe e nel nome. *Libyes, Persae, Hispani*: Libi, Persiani, Spagnoli, con *Persarum* genitivo plurale. *Intra Oceanum magis*: più verso l'Oceano, il lato atlantico."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 19)",
+    "field": "analysis",
+    "find": "The last chapter of the African excursus (Bellum Iugurthinum 17 and 18).",
+    "replace": "The last chapter of the African excursus, which pauses the story in 116 BC (Bellum Iugurthinum 17 and 18)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 19)",
+    "field": "analysisIt",
+    "find": "L'ultimo capitolo dell'excursus africano (Bellum Iugurthinum 17 e 18).",
+    "replace": "L'ultimo capitolo dell'excursus africano, che sospende il racconto nel 116 a.C. (Bellum Iugurthinum 17 e 18)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 19)",
+    "field": "analysis",
+    "find": "*Ad necessitudinem rei*: for the needs of the subject.",
+    "replace": "*Ad necessitudinem rei*: for the needs of the subject. *Ad Catabathmon*: Greek accusative of *Catabathmos*. *Usque ad Mauretaniam*: as far as Mauretania, the country of the Moors."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 19)",
+    "field": "analysisIt",
+    "find": "*Ad necessitudinem rei*: per le necessità dell'argomento.",
+    "replace": "*Ad necessitudinem rei*: per le necessità dell'argomento. *Ad Catabathmon*: accusativo greco di *Catabathmos*. *Usque ad Mauretaniam*: fino alla Mauretania, il paese dei Mauri."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 26-27)",
+    "field": "analysis",
+    "find": "the consuls of 111 drew lots; Numidia went to Lucius Calpurnius Bestia.",
+    "replace": "the consuls of 111, Publius Scipio Nasica and Lucius Calpurnius Bestia, drew lots; Numidia went to Bestia, Italy to Scipio."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 26-27)",
+    "field": "analysisIt",
+    "find": "i consoli del 111 le tirano a sorte; la Numidia tocca a Lucio Calpurnio Bestia.",
+    "replace": "i consoli del 111, Publio Scipione Nasica e Lucio Calpurnio Bestia, le tirano a sorte; la Numidia tocca a Bestia, l'Italia a Scipione."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 26-27)",
+    "field": "analysis",
+    "find": "*Quae bello usui forent*: double dative, useful for the war.",
+    "replace": "*Quae bello usui forent*: double dative, useful for the war. *In Africam portaretur*: *in* with the accusative of motion, to be shipped to Africa."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 26-27)",
+    "field": "analysisIt",
+    "find": "*Quae bello usui forent*: doppio dativo, utili alla guerra.",
+    "replace": "*Quae bello usui forent*: doppio dativo, utili alla guerra. *In Africam portaretur*: *in* con l'accusativo di moto, da trasportare in Africa."
+  }
+]

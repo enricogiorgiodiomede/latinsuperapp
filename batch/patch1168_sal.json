@@ -1,0 +1,26 @@
+[
+  {
+    "cit": "(Bellum Iugurthinum 15)",
+    "field": "analysis",
+    "find": "he takes the money (chapter 29).",
+    "replace": "he takes the money (Bellum Iugurthinum 29)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 15)",
+    "field": "analysisIt",
+    "find": "prende il denaro (capitolo 29).",
+    "replace": "prende il denaro (Bellum Iugurthinum 29)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 14.20-25)",
+    "field": "analysis",
+    "find": "but the good name of Rome.",
+    "replace": "but the good name of Rome. Adherbal's own end came four years later at Cirta, tortured to death after a surrender the Italian traders had urged on him, trusting in the greatness of Rome (Bellum Iugurthinum 26-27)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 14.20-25)",
+    "field": "analysisIt",
+    "find": "ma il buon nome di Roma.",
+    "replace": "ma il buon nome di Roma. La fine di Aderbale arrivò quattro anni dopo a Cirta, ucciso fra le torture dopo una resa che i mercanti italici gli avevano consigliato, fidando nella grandezza di Roma (Bellum Iugurthinum 26-27)."
+  }
+]

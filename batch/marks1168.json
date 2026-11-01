@@ -1,0 +1,34 @@
+{
+  "_comment": "v1.16.8 - Iugurtha 17, 18, 19, 26-27, 29. Section files from tools/xml_sections.js. 26-27 spans two chapters: sectionFiles, numbers restart at 1 in 27. Translations carry their markers from batch/frags1168*.js.",
+  "(Bellum Iugurthinum 17)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.17.json",
+    "overrides": {
+      "5": "Mare saevum, importuosum"
+    }
+  },
+  "(Bellum Iugurthinum 18)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.18.json"
+  },
+  "(Bellum Iugurthinum 19)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.19.json"
+  },
+  "(Bellum Iugurthinum 29)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.29.json"
+  },
+  "(Bellum Iugurthinum 26-27)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sectionFiles": [
+      "phi0631.phi002.26.json",
+      "phi0631.phi002.27.json"
+    ]
+  }
+}
