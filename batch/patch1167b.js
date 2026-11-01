@@ -1,0 +1,66 @@
+// v1.16.7 follow-up: the user's notes on Iugurtha 10-15, folded into the five
+// analyses; 14.20-25 linked forward to the Tullianum note in Cat. 55.
+//   node batch/patch1167b.js
+//   node tools/patch_fields.js gaius-sallustius-crispus batch/patch1167b_sal.json
+const fs = require('fs');
+const path = require('path');
+const I = (n) => '(Bellum Iugurthinum ' + n + ')';
+const after = (cit, field, anchor, text) => ({ cit, field, find: anchor, replace: anchor + '\n\n' + text });
+
+const swap = (cit, field, find, replace) => ({ cit, field, find, replace });
+
+const sal = [
+// ---- correction in 12 (my error, caught re-reading chapter 11): Jugurtha, not
+// Hiempsal, proposed annulling five years of decrees; Hiempsal's retort was the insult.
+swap(I(12), 'analysis',
+`Hiempsal, the youngest and the fiercest, sat down on Adherbal's right so that Jugurtha could not take the place of honour in the middle, and then proposed that every decision of the last five years should be annulled - the years in which Micipsa, old and failing, had adopted Jugurtha. Jugurtha took the point, and from that moment he began to plot.`,
+`Hiempsal, the youngest and the fiercest, who despised Jugurtha's low birth on his mother's side, sat down on Adherbal's right so that Jugurtha could not take the place of honour in the middle, and had to be talked into moving. Then Jugurtha proposed that every decree of the last five years should be annulled, since in those years Micipsa had been too old to judge well; Hiempsal answered that he agreed, because that would include Jugurtha's own adoption, three years earlier. The remark went home, and from that moment Jugurtha began to plot.`),
+swap(I(12), 'analysisIt',
+`Iempsale, il più giovane e il più feroce, si sedette alla destra di Aderbale perché Giugurta non potesse prendere il posto d'onore al centro, e poi propose di annullare tutte le decisioni degli ultimi cinque anni - gli anni in cui Micipsa, vecchio e indebolito, aveva adottato Giugurta. Giugurta colse l'allusione, e da quel momento cominciò a tramare.`,
+`Iempsale, il più giovane e il più feroce, che disprezzava i bassi natali di Giugurta da parte di madre, si sedette alla destra di Aderbale perché Giugurta non potesse prendere il posto d'onore al centro, e dovette essere convinto a spostarsi. Poi Giugurta propose di annullare tutti i decreti degli ultimi cinque anni, perché in quegli anni Micipsa era stato troppo vecchio per giudicare bene; Iempsale rispose che era d'accordo, perché così si sarebbe annullata anche l'adozione di Giugurta, di tre anni prima. La battuta andò a segno, e da quel momento Giugurta cominciò a tramare.`),
+
+// ---- 10 ----
+after(I(10), 'analysis', `The king says friends cannot be bought; Rome is the place where they can.`,
+`**The advice, and why it stands.** Micipsa's message to the young man is plain: keep faith with your own people and those closest to you above all, and do not bind strangers to you at the expense of the ties you already have; do that and the kingdom will stand, fail and it will fall. The king is not warning him away from Rome as such - his whole policy was Roman friendship, and Adherbal will quote his instruction to treat the senators as kinsmen (Bellum Iugurthinum 14.1-6). What he warns against is the private bond bought at the cost of the public one, which is exactly Scipio's lesson (Bellum Iugurthinum 8). Jugurtha, who had already tasted what Rome could teach, will do the opposite, led by his ambition. And even if the king did not mean a word of it, the point stands: Sallust lets an insincere speaker state the truth that the rest of the book proves.`),
+after(I(10), 'analysisIt', `Il re dice che gli amici non si comprano; Roma è il luogo dove si comprano.`,
+`**Il consiglio, e perché resta valido.** Il messaggio di Micipsa al giovane è chiaro: mantieni la lealtà verso i tuoi e verso chi ti è più vicino prima di ogni altra cosa, e non legarti degli estranei a spese dei legami che hai già; fallo e il regno resterà in piedi, manca e crollerà. Il re non lo mette in guardia contro Roma in quanto tale - tutta la sua politica era l'amicizia romana, e Aderbale citerà la sua raccomandazione di considerare i senatori come parenti (Bellum Iugurthinum 14.1-6). Ciò da cui lo mette in guardia è il legame privato comprato a spese di quello pubblico, che è esattamente la lezione di Scipione (Bellum Iugurthinum 8). Giugurta, che aveva già assaggiato ciò che Roma poteva insegnare, farà il contrario, guidato dalla sua ambizione. E anche se il re non ne pensava una parola, il punto resta valido: Sallustio lascia che un oratore insincero enunci la verità che il resto del libro dimostra.`),
+
+// ---- 12 ----
+after(I(12), 'analysis', `does not make the crimes less his own.`,
+`**How fast it went wrong.** Things could not have escalated more quickly. Only a short time before, Micipsa had asked Jugurtha to keep faith with Hiempsal and Adherbal; at the first thing that went wrong, Jugurtha had Hiempsal killed by treachery. Did he read the king's insincerity as licence to do the opposite of everything he was told? Sallust's answer is that he did not need the excuse. When Micipsa finished speaking, Jugurtha replied respectfully *tametsi regem ficta locutum intellegebat et ipse longe aliter animo agitabat*, although he understood that the king had spoken insincerely and was himself turning over very different plans (11.1). His plans were already made; Hiempsal's retort about the adoption only fixed the moment, and Sallust says it sank deeper into Jugurtha's heart than anyone imagined (11.7). The fine portrait of chapter 6 lasts six chapters. That is how quickly ambition, once it has seen what can be bought, turns into crime.`),
+after(I(12), 'analysisIt', `non li rende meno suoi.`,
+`**Con che rapidità tutto andò storto.** Le cose non avrebbero potuto precipitare più in fretta. Poco tempo prima Micipsa aveva chiesto a Giugurta di restare leale verso Iempsale e Aderbale; alla prima cosa andata storta, Giugurta fece uccidere Iempsale con l'inganno. Interpretò l'insincerità del re come un permesso di fare il contrario di tutto ciò che gli era stato detto? La risposta di Sallustio è che non gli serviva un pretesto. Quando Micipsa ebbe finito di parlare, Giugurta rispose con rispetto *tametsi regem ficta locutum intellegebat et ipse longe aliter animo agitabat*, benché capisse che il re aveva parlato senza sincerità e lui stesso meditasse piani ben diversi (11.1). I suoi piani erano già fatti; la battuta di Iempsale sull'adozione fissò soltanto il momento, e Sallustio dice che quella parola scese nel cuore di Giugurta più a fondo di quanto chiunque immaginasse (11.7). Il bel ritratto del capitolo 6 dura sei capitoli. Ecco con quale rapidità l'ambizione, una volta che ha visto che cosa si può comprare, diventa delitto.`),
+
+// ---- 14.1-6 ----
+after(I('14.1-6'), 'analysis', `so that his defeat will be the clearer verdict on the senate.`,
+`**No money in a city where everything is for sale.** That is Adherbal's whole problem. Appealing to *fides* is the right move, the only honourable one, and it will not work; Jugurtha has money and will win. And the man Adherbal describes, *homo omnium quos terra sustinet sceleratissimus*, is the same young man whose portrait in chapter 6 was all virtue (Bellum Iugurthinum 6). The distance between the two descriptions is the measure of what happened in between.`),
+after(I('14.1-6'), 'analysisIt', `perché la sua sconfitta sia il verdetto più chiaro sul senato.`,
+`**Senza denaro in una città dove tutto è in vendita.** È tutto qui il problema di Aderbale. Appellarsi alla *fides* è la mossa giusta, l'unica onorevole, e non funzionerà; Giugurta ha il denaro e vincerà. E l'uomo che Aderbale descrive, *homo omnium quos terra sustinet sceleratissimus*, è lo stesso giovane il cui ritratto nel capitolo 6 era tutto virtù (Bellum Iugurthinum 6). La distanza fra le due descrizioni è la misura di ciò che è accaduto nel mezzo.`),
+
+// ---- 14.20-25 ----
+after(I('14.20-25'), 'analysis', `but the good name of Rome.`,
+`**Public friendship and private friendship.** Here is the danger Scipio named. A friendship with the Roman people as a whole cannot be bought; a friendship with individual senators can, and that is what Jugurtha is doing, one senator at a time - exactly what Adherbal fears. His defeat, then, is Rome's defeat too: the city gave in to corruption over justice and loyalty.
+
+**A prophecy, of a kind.** Adherbal's curse in section 21 reads, with hindsight, like a prophecy. Jugurtha did pay. But it took eight more years, and it did not come from a senate that suddenly cared. It came from the war that the scandal of these years finally forced on Rome, from Marius, the new man elected on a wave of anger against the nobility, and in the end from betrayal: in 105 BC Jugurtha's father-in-law Bocchus handed him over to Marius's quaestor Sulla. He walked in Marius's triumph in 104 and died in the Tullianum, the same cell where Catiline's accomplices were strangled (De Coniuratione Catilinae 55). The gods, if they cared, cared slowly.`),
+after(I('14.20-25'), 'analysisIt', `ma il buon nome di Roma.`,
+`**Amicizia pubblica e amicizia privata.** Ecco il pericolo che Scipione aveva indicato. L'amicizia con il popolo romano nel suo insieme non si può comprare; quella con i singoli senatori sì, ed è ciò che Giugurta sta facendo, un senatore alla volta - esattamente ciò che Aderbale teme. La sua sconfitta, dunque, è anche la sconfitta di Roma: la città cedette alla corruzione invece che alla giustizia e alla lealtà.
+
+**Una profezia, in un certo senso.** La maledizione di Aderbale al paragrafo 21 si legge, col senno di poi, come una profezia. Giugurta pagò davvero. Ma ci vollero altri otto anni, e il castigo non venne da un senato che all'improvviso si interessava alle cose umane. Venne dalla guerra che lo scandalo di quegli anni finì per imporre a Roma, da Mario, l'uomo nuovo eletto sull'onda della rabbia contro la nobiltà, e alla fine da un tradimento: nel 105 a.C. il suocero di Giugurta, Bocco, lo consegnò al questore di Mario, Silla. Sfilò nel trionfo di Mario nel 104 e morì nel Tulliano, la stessa cella in cui furono strangolati i complici di Catilina (De Coniuratione Catilinae 55). Gli dèi, se se ne curavano, se ne curavano con lentezza.`),
+
+// ---- 15 ----
+after(I(15), 'analysis', `It is the Iugurtha's version of the Catilina's *bonum publicum simulantes* (De Coniuratione Catilinae 38).`,
+`**Money against loyalty.** Adherbal needed twenty-five sections to be convincing, and he was; Jugurtha, through his envoys, needed a few lines, because he already had the money and the support. In a corrupt republic money counts for more than loyalty, and that is exactly what Sallust wants the reader to be indignant about. There is an irony in the cast as well. At this stage the only notable man who behaves reasonably is Scaurus, greedy as he is, and he refuses Jugurtha's offer. The irony does not last: when he goes to Africa with Bestia a few years later, he takes the money (chapter 29).`),
+after(I(15), 'analysisIt', `È la versione del Bellum Iugurthinum del *bonum publicum simulantes* del Catilina (De Coniuratione Catilinae 38).`,
+`**Il denaro contro la lealtà.** Ad Aderbale servirono venticinque paragrafi per essere convincente, e lo fu; a Giugurta, attraverso i suoi ambasciatori, bastarono poche righe, perché aveva già il denaro e gli appoggi. In una repubblica corrotta il denaro conta più della lealtà, ed è esattamente ciò di cui Sallustio vuole che il lettore si indigni. C'è un'ironia anche nei personaggi. A questo punto l'unico uomo di rilievo che si comporta in modo ragionevole è Scauro, avido com'è, e rifiuta l'offerta di Giugurta. L'ironia non dura: quando qualche anno dopo va in Africa con Bestia, prende il denaro (capitolo 29).`)
+];
+
+fs.writeFileSync(path.join(__dirname, 'patch1167b_sal.json'), JSON.stringify(sal, null, 2));
+let n = 0;
+for (const p of sal) {
+  const hits = fs.readdirSync(__dirname).filter(f => /^frags116\d.*\.js$/.test(f))
+    .filter(f => fs.readFileSync(path.join(__dirname, f), 'utf8').split(p.find).length === 2);
+  if (hits.length !== 1) { console.log('batch file not updated (' + hits.length + ' hits): ' + p.find.slice(0, 60)); continue; }
+  const f = path.join(__dirname, hits[0]);
+  fs.writeFileSync(f, fs.readFileSync(f, 'utf8').replace(p.find, () => p.replace)); n++;
+}
+console.log(sal.length + ' Sallust patches; ' + n + ' batch-file edits');

@@ -37,6 +37,26 @@ Verification: **437 verbatim, 0 mismatched** (432 + 5); check_context, lint_regi
 lint_translations report 0 for 1.16.7, check_sections nothing new; check_numbering 168/0, check_verses 60/0;
 `lint_markdown` clean. Bank **587**. Cache-bust: `?v=226` -> `?v=228` (227 for the release, 228 for the time fix).
 
+### Follow-up, 2026-11-02: the user's notes on Iugurtha 10-15
+
+The user's notes on this release are folded into the five analyses, English and Italian; no excerpt or
+translation changes.
+
+- **Iug. 10** - *The advice, and why it stands*: keep faith with your own before binding strangers - not "keep
+  away from Rome" (Micipsa's policy was Roman friendship), but the private bond against the public one.
+- **Iug. 12** - *How fast it went wrong*: the user's question (did Jugurtha read the king's insincerity as licence?)
+  answered from 11.1, *et ipse longe aliter animo agitabat*, and 11.7. **Correction of my own note**, caught
+  re-reading chapter 11: it was Jugurtha, not Hiempsal, who proposed annulling five years of decrees; Hiempsal's
+  retort - that would cancel Jugurtha's adoption - was the insult.
+- **Iug. 14.1-6** - *No money in a city where everything is for sale*, and the distance from the portrait of 6.
+- **Iug. 14.20-25** - *Public friendship and private friendship*; *A prophecy, of a kind*: Jugurtha did pay, eight
+  years later, through Marius and Bocchus's betrayal, and died in the Tullianum (linked to Cat. 55).
+- **Iug. 15** - *Money against loyalty*: twenty-five sections against a few lines, and Scaurus's refusal that does
+  not last (chapter 29).
+
+Verification: **437 verbatim, 0 mismatched**; check_context clean for 1.16.7; `lint_markdown` clean.
+Cache-bust: `?v=228` -> `?v=229`.
+
 ## [1.16.6] - 2026-10-26
 
 **THE IUGURTHA BEGINS.** Five excerpts of the *Bellum Iugurthinum* - 1, 4, 5, 6, 8: the preface, the subject, and

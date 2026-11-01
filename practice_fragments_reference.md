@@ -123,6 +123,8 @@ monstrous method; Sulla as the root of the corruption (5, 11, 37); Rome "very co
 
 **The user's notes on Iug. 1-8 (folded into v1.16.6) - carry forward:** blaming fortune as self-deception (1); Sallust's irony and his bluntest first person (4.9); the war bigger than the conspiracy as an emblem, *divina et humana* (5 <-> Cat. 15); corruption, not Jugurtha, as the book's enemy - but Jugurtha NOT innocent (his ambition, the murders of Hiempsal and Adherbal: write that in when 12 and 26 come); ambition turned upside down, Scipio's noble warning that fails, corruption reaching an allied kingdom; *Romae omnia venalia* returns at 35.10 (wire 8 <-> 35 when 35 is added). Corrections given: 8.1 phrases grow longer (my slip); 4.9 is not Sallust's only first person (Cat. 36.4, 3.3-4.5) but the bluntest.
 
+**The user's notes on Iug. 10-15 (folded into v1.16.7) - carry forward:** Micipsa's advice stands though insincere; Jugurtha's plans were his own (11.1) - the portrait of 6 lasts six chapters; Adherbal loses because he has no money - his defeat is Rome's; public vs private friendship (bought one senator at a time); Jugurtha does pay in the end (Bocchus, Sulla, triumph, Tullianum) - say so again at 113-114; Scaurus refuses here, is bought at 29 (write it in when 29 comes in v1.16.8). Corrections given: Micipsa did not warn against Rome as such; the "prophecy" of 14.21 is fulfilled late and through betrayal, not by a senate that cared.
+
 **FLAGS FOR LATER BATCHES.** Cat. 14.2 stays as printed (decided). Iug. 85.1-4, the opening of Marius's speech, was in the launch excerpt
 and is no longer in the bank - the user chose 85.10-17 + 85.29-37.
 

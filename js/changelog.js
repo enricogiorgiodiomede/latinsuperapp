@@ -19,6 +19,7 @@
           'Then Rome. The other cousin, Adherbal, driven out of his kingdom, pleads before the senate in two excerpts from one of the longest speeches in the book, warning that Jugurtha\'s money is working on the senators one by one. The senate\'s reply is bought, and the honest few are led by a man Sallust paints as a hypocrite.'
         ],
         changed: [
+          'The notes on Micipsa\'s speech, Hiempsal\'s murder, Adherbal\'s appeal and the senate\'s reply were deepened from a reader\'s comments: why the dying king\'s advice still stands, how quickly Jugurtha turned to murder, why an honest prince with no money was bound to lose, and how Jugurtha did pay in the end, eight years later. A factual slip in the note on Hiempsal\'s murder was also corrected.',
           'The new notes are linked both ways to the passages that answer them: Cicero on how rare true friendship is among politicians, and Sallust\'s own portrait of Cato, the man who preferred to be good rather than seem good.'
         ],
         deleted: [
@@ -31,6 +32,7 @@
           'Poi Roma. L\'altro cugino, Aderbale, cacciato dal regno, perora la sua causa davanti al senato in due brani di uno dei discorsi più lunghi del libro, avvertendo che il denaro di Giugurta sta lavorando i senatori uno per uno. La risposta del senato è comprata, e i pochi onesti sono guidati da un uomo che Sallustio dipinge come un ipocrita.'
         ],
         changed: [
+          'Le note sul discorso di Micipsa, l\'assassinio di Iempsale, l\'appello di Aderbale e la risposta del senato sono state approfondite a partire dai commenti di un lettore: perché il consiglio del re morente resta valido, con che rapidità Giugurta passò all\'omicidio, perché un principe onesto senza denaro era destinato a perdere, e come Giugurta alla fine pagò davvero, otto anni dopo. È stata anche corretta una svista nella nota sull\'assassinio di Iempsale.',
           'Le nuove note sono collegate in entrambe le direzioni ai passi che rispondono loro: Cicerone su quanto sia rara la vera amicizia fra i politici, e il ritratto che Sallustio fa di Catone, l\'uomo che preferiva essere buono piuttosto che sembrarlo.'
         ],
         deleted: [

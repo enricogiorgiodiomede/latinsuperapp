@@ -79,7 +79,7 @@ The full Italian translation pass is **DONE**.
    scheduled task (~23:51 local).
 2. **Cache-busting**: every JS/CSS include in the **7** HTML files carries `?v=N`. **Bump N**
    (`sed -i 's/?v=OLD/?v=NEW/g' index.html author.html practice.html practice-select.html version.html metre.html 404.html`)
-   whenever you change a JS/CSS file. **Currently `v=228`.** Bump it AFTER the last JS/CSS edit of the release, not before: in v1.15.0 the
+   whenever you change a JS/CSS file. **Currently `v=229`.** Bump it AFTER the last JS/CSS edit of the release, not before: in v1.15.0 the
    token moved first and js/changelog.js changed afterwards, so the preview browser cached a stale copy
    under the new token.
 3. **Practice fragment bank** (`js/fragments.js`), `PracticeBank.authors[slug]`:
@@ -643,7 +643,29 @@ Both `caesar_era_draft.md` (English) and `italian_translations_caesar.md` (Itali
 - Legacy includes Petrarch's 14th-century study of the *Codex Veronensis* and the Catullan model behind the *Canzoniere*.
 - Tier C (Manageable): polymetrics/epigrams D-to-C, carmina docta low B.
 
-**Next step (as of 2026-10-24): START THE AUGUSTAN ERA DRAFT.** The user has cleared this for the next chat. Confirm permission per CLAUDE.md before writing the first entry. Augustan Era authors: Cornelius Gallus, Livy, Virgil, Tibullus, Vitruvius, Propertius, Horace, Ovid (mainstream); Hyginus, Grattius (lesser known). Follow the same two-file structure: `augustan_era_draft.md` (English) + `italian_translations_augustan.md` (Italian). App flesh-out of Caesar's Age (Sallust *Iugurtha*, Catullus, translation re-reads) can continue in parallel or after.
+**Augustan Era draft state (COMPLETE, 2026-10-31):**
+
+| Entry | Tier | Status |
+|---|---|---|
+| Era Introduction | -- | Done |
+| Augustus | D | Done |
+| Vitruvius | C | Done |
+| Gaius Cornelius Gallus | NC | Done |
+| Virgil | A | Done |
+| Horace | S | Done |
+| Livy | B | Done |
+| Tibullus | C | Done |
+| Sulpicia | C | Done |
+| Propertius | A | Done |
+| Ovid | B | Done |
+| Hyginus | D | Done (2026-10-31) |
+| Grattius | B | Done (2026-10-31) |
+| Pompeius Trogus (via Justin) | C | Done (2026-10-31) |
+| Marcus Manilius | S | Done (2026-10-31) |
+
+Both `augustan_era_draft.md` (English) and `italian_translations_augustan.md` (Italian) are fully in sync; the order matches `CLAUDE.md`. Justin gets his own entry in a later era. Excerpt list per author: see `progress_notes.md`, Session 7.
+
+**Next step (as of 2026-10-31): START THE EARLY IMPERIAL ERA DRAFT** in a new chat. First propose the era introduction and the author list in chronological order (current list in `CLAUDE.md`: Seneca, Lucan, Petronius, Pliny the Elder, Quintilian, Statius, Martial, Pliny the Younger, Juvenal, Tacitus, Suetonius, Apuleius as mainstream; Velleius Paterculus, Valerius Maximus, Persius, Columella, Silius Italicus, Valerius Flaccus, Fronto, Gellius as lesser known), and wait for the user's changes and permission. Same two-file structure, English draft + Italian mirror (suggested names `early_imperial_era_draft.md` and `italian_translations_early_imperial.md`; confirm with the user and add them to `CLAUDE.md`). Workflow that worked for the Augustan Era: read The Latin Library through the built-in browser (`fetch` + DOMParser, `<br>` to newline), check every Latin block with a normalised `includes()` before committing, append via `_tmp_` files, test deletion before committing (the permission lapses between sessions), commit only the draft files; the user pushes. App flesh-out of Caesar's Age (Sallust *Iugurtha*, Catullus, translation re-reads) can continue in parallel or after.
 
 **Optional (Archaic bank)**: mirror new practice fragment Italians into `italian_translations_archaic.md`; or add more Plautus/Terence fragments (user deferred this decision).
 
