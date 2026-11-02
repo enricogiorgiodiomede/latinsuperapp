@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(Bellum Iugurthinum 17)",
+    "field": "analysis",
+    "find": "the healthiest people he knew (IV.187)",
+    "replace": "the healthiest people he knew (Herodotus IV.187)"
+  },
+  {
+    "cit": "(Bellum Iugurthinum 17)",
+    "field": "analysisIt",
+    "find": "il popolo più sano che conoscesse (IV.187)",
+    "replace": "il popolo più sano che conoscesse (Erodoto IV.187)"
+  }
+]

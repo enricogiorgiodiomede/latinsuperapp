@@ -39,6 +39,24 @@ Verification: **442 verbatim, 0 mismatched** (437 + 5); check_context, lint_regi
 lint_translations report 0 for 1.16.8, check_sections nothing new; check_numbering 168/0, check_verses 60/0;
 `lint_markdown` clean. Bank **592**. Cache-bust: `?v=229` -> `?v=231` (230 for the release, 231 for the time fix).
 
+### Follow-up, 2026-11-02: the user's notes on Iugurtha 17-29
+
+The user's notes on this release are folded into the five analyses, English and Italian; no excerpt or
+translation changes.
+
+- **Iug. 17** - *Dying of old age*: the Africans die by the sword or by wild beasts, not by disease (the user had
+  it the other way round); Herodotus IV.187; ancient life expectancy and the survivor of childhood.
+- **Iug. 18** - *Not only a Roman disease*: the general law of Cat. 2, and the Roman cause of Numidia's decline.
+- **Iug. 19** - *Why the map matters*: the territories the war and the corruption move across.
+- **Iug. 26-27** - *Memmius, one of the heroes*: *acer* and *infestus potentiae nobilitatis*; blocked by a bought
+  tribune (34), killed in 100 BC.
+- **Iug. 29** - *Two payments, one public and one secret*: the elephants and silver were the official surrender
+  price paid to the quaestor as treasurer, not a bribe to him (the user's reading, corrected); the bribes went to
+  Bestia and Scaurus; a bought peace does not last.
+
+Verification: **442 verbatim, 0 mismatched**; check_context clean for 1.16.8; `lint_markdown` clean.
+Cache-bust: `?v=231` -> `?v=232`.
+
 ## [1.16.7] - 2026-10-26
 
 **MICIPSA, HIEMPSAL, ADHERBAL, AND A BOUGHT SENATE.** Five excerpts of the *Bellum Iugurthinum* - 10, 12,

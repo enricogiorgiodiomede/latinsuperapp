@@ -125,6 +125,8 @@ monstrous method; Sulla as the root of the corruption (5, 11, 37); Rome "very co
 
 **The user's notes on Iug. 10-15 (folded into v1.16.7) - carry forward:** Micipsa's advice stands though insincere; Jugurtha's plans were his own (11.1) - the portrait of 6 lasts six chapters; Adherbal loses because he has no money - his defeat is Rome's; public vs private friendship (bought one senator at a time); Jugurtha does pay in the end (Bocchus, Sulla, triumph, Tullianum) - say so again at 113-114; Scaurus refuses here, is bought at 29 (write it in when 29 comes in v1.16.8). Corrections given: Micipsa did not warn against Rome as such; the "prophecy" of 14.21 is fulfilled late and through betrayal, not by a senate that cared.
 
+**The user's notes on Iug. 17-29 (folded into v1.16.8) - carry forward:** corruption as a general law (Cat. 2) but with a Roman cause in Numidia; the map as the frame of the war; Memmius as a hero (*acer*, hostile to the nobility) - for 31 and 34; a bought peace does not last. Corrections given: the Africans die by sword or beasts, NOT disease; the elephants/silver were the official surrender price paid to the quaestor as treasurer, the bribes went secretly to Bestia and Scaurus.
+
 **FLAGS FOR LATER BATCHES.** Cat. 14.2 stays as printed (decided). Iug. 85.1-4, the opening of Marius's speech, was in the launch excerpt
 and is no longer in the bank - the user chose 85.10-17 + 85.29-37.
 

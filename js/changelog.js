@@ -19,6 +19,7 @@
           'Then the story turns dark. Besieged in Cirta, Adherbal surrenders on the advice of Italian traders who trust in Rome\'s greatness; Jugurtha tortures him to death and massacres them. In Rome only a tribune, Memmius, stops the senate from burying the scandal - and when the army finally reaches Africa, the consul and the leader of the senate are bought, and the war ends in a peace paid for with thirty elephants and a little silver.'
         ],
         changed: [
+          'The notes on the African excursus, the fall of Cirta and the bought peace were deepened from a reader\'s comments: why Sallust\'s Africans die of old age, why corruption is not only Rome\'s disease, why the map matters for the war, Memmius as one of the book\'s heroes, and the difference between the small public price of the surrender and the large secret one.',
           'The new notes are linked to the passages that answer them, including Caesar\'s own digression on the Gauls and Germans, which opens with the same formula as Sallust\'s on Africa.'
         ],
         deleted: [
@@ -31,6 +32,7 @@
           'Poi la storia si fa cupa. Assediato a Cirta, Aderbale si arrende su consiglio di mercanti italici che confidano nella grandezza di Roma; Giugurta lo fa morire fra le torture e li massacra. A Roma solo un tribuno, Memmio, impedisce al senato di insabbiare lo scandalo - e quando l\'esercito arriva finalmente in Africa, il console e il capo del senato vengono comprati, e la guerra finisce con una pace pagata con trenta elefanti e un po\' d\'argento.'
         ],
         changed: [
+          'Le note sull\'excursus africano, sulla caduta di Cirta e sulla pace comprata sono state approfondite a partire dai commenti di un lettore: perché gli Africani di Sallustio muoiono di vecchiaia, perché la corruzione non è una malattia solo di Roma, perché la carta conta per la guerra, Memmio come uno degli eroi del libro, e la differenza fra il piccolo prezzo pubblico della resa e quello, grande, segreto.',
           'Le nuove note sono collegate ai passi che rispondono loro, fra cui la digressione di Cesare sui Galli e sui Germani, che si apre con la stessa formula di quella di Sallustio sull\'Africa.'
         ],
         deleted: [
