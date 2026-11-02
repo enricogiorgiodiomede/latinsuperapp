@@ -12,6 +12,33 @@
 
   var VERSIONS = [
     {
+      v: '1.16.9', date: '02/11/2026', time: '23:53', tz: 'CET',
+      en: {
+        added: [
+          'FIVE MORE EXCERPTS OF THE JUGURTHINE WAR. The tribune Memmius\'s great speech to the Roman people, in two excerpts: a few nobles have turned public office into plunder, slaves would not bear such masters, and the bond that holds the powerful together is friendship among good men but faction among bad - "to do whatever you like with impunity, that is to be a king".',
+          'Then three scenes of a city for sale. Jugurtha comes to Rome to testify, and a bribed tribune orders him to be silent; he has a rival murdered in Rome itself and leaves, looking back at "a city for sale, and soon to perish, if it finds a buyer"; and in Africa he buys a Roman army from within and sends it under the yoke.'
+        ],
+        changed: [
+          'The new notes are linked both ways to the passages that answer them: Catiline\'s own definition of friendship and Cicero\'s, Cato\'s speech against mercy, which uses the very same words as Memmius, and Caesar\'s account of Curio, who chose to die rather than survive his army in Africa.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'ALTRI CINQUE BRANI DELLA GUERRA GIUGURTINA. Il grande discorso del tribuno Memmio al popolo romano, in due brani: pochi nobili hanno trasformato le cariche pubbliche in bottino, nemmeno gli schiavi sopporterebbero padroni simili, e il legame che tiene uniti i potenti è amicizia fra i buoni ma fazione fra i malvagi - "fare impunemente ciò che si vuole, questo è essere re".',
+          'Poi tre scene di una città in vendita. Giugurta viene a Roma a testimoniare, e un tribuno corrotto gli ordina di tacere; fa assassinare un rivale nella città stessa e se ne va voltandosi a guardare "una città in vendita e destinata a perire presto, se troverà un compratore"; e in Africa compra dall\'interno un esercito romano e lo manda sotto il giogo.'
+        ],
+        changed: [
+          'Le nuove note sono collegate in entrambe le direzioni ai passi che rispondono loro: la definizione di amicizia di Catilina e quella di Cicerone, il discorso di Catone contro la clemenza, che usa le stesse identiche parole di Memmio, e il racconto di Cesare su Curione, che scelse di morire piuttosto che sopravvivere al suo esercito in Africa.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.16.8', date: '02/11/2026', time: '00:23', tz: 'CET',
       en: {
         added: [

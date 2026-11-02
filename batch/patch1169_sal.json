@@ -1,0 +1,50 @@
+[
+  {
+    "cit": "(De Coniuratione Catilinae 20.2-8)",
+    "field": "analysis",
+    "find": "which the second half (De Coniuratione Catilinae 20.9-17, the next excerpt) will push to its limit.",
+    "replace": "which the second half (De Coniuratione Catilinae 20.9-17, the next excerpt) will push to its limit. In the Iugurtha the tribune Memmius takes the same formula and turns it against the nobility: wanting, hating and fearing the same things is friendship among good men, but among bad men it is faction (Bellum Iugurthinum 31.9-16)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 20.2-8)",
+    "field": "analysisIt",
+    "find": "che la seconda metà (De Coniuratione Catilinae 20.9-17, il brano successivo) spingerà fino al limite.",
+    "replace": "che la seconda metà (De Coniuratione Catilinae 20.9-17, il brano successivo) spingerà fino al limite. Nel Bellum Iugurthinum il tribuno Memmio riprende la stessa formula e la rivolge contro la nobiltà: desiderare, odiare e temere le stesse cose è amicizia fra i buoni, ma fra i malvagi è fazione (Bellum Iugurthinum 31.9-16)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 52.7-12)",
+    "field": "analysis",
+    "find": "For all its words, his speech is a call to stop talking and act.",
+    "replace": "For all its words, his speech is a call to stop talking and act. Sallust gives the same words to the other side of Roman politics: the tribune Memmius warns the people not to go on *ignoscendo malis bonos perditum eatis*, to ruin the good by forgiving the bad (Bellum Iugurthinum 31.21-29)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 52.7-12)",
+    "field": "analysisIt",
+    "find": "il suo discorso è un invito a smettere di parlare e ad agire.",
+    "replace": "il suo discorso è un invito a smettere di parlare e ad agire. Sallustio dà le stesse parole all'altra parte della politica romana: il tribuno Memmio avverte il popolo di non andare *ignoscendo malis bonos perditum eatis*, a mandare in rovina i buoni perdonando i malvagi (Bellum Iugurthinum 31.21-29)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 26-27)",
+    "field": "analysis",
+    "find": "blocked by a tribune Jugurtha has bought (chapter 34)",
+    "replace": "blocked by a tribune Jugurtha has bought (Bellum Iugurthinum 33-34)"
+  },
+  {
+    "cit": "(Bellum Iugurthinum 26-27)",
+    "field": "analysisIt",
+    "find": "bloccata da un tribuno comprato da Giugurta (capitolo 34)",
+    "replace": "bloccata da un tribuno comprato da Giugurta (Bellum Iugurthinum 33-34)"
+  },
+  {
+    "cit": "(Bellum Iugurthinum 8)",
+    "field": "analysis",
+    "find": "against the many who preferred money (Bellum Iugurthinum 15).",
+    "replace": "against the many who preferred money (Bellum Iugurthinum 15). And the sentence returns in Jugurtha's own mouth, as he leaves Rome in 110 BC: *urbem venalem et mature perituram, si emptorem invenerit* (Bellum Iugurthinum 35)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 8)",
+    "field": "analysisIt",
+    "find": "contro i molti che preferivano il denaro (Bellum Iugurthinum 15).",
+    "replace": "contro i molti che preferivano il denaro (Bellum Iugurthinum 15). E la frase ritorna in bocca a Giugurta stesso, mentre lascia Roma nel 110 a.C.: *urbem venalem et mature perituram, si emptorem invenerit* (Bellum Iugurthinum 35)."
+  }
+]

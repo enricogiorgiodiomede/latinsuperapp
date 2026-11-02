@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(Bellum Iugurthinum 35)",
+    "field": "analysis",
+    "find": "Spurius Postumius Albinus, consul for 110, who persuades",
+    "replace": "Spurius Postumius Albinus, consul for 110 with Quintus Minucius Rufus (who drew Macedonia), who persuades"
+  },
+  {
+    "cit": "(Bellum Iugurthinum 35)",
+    "field": "analysisIt",
+    "find": "Spurio Postumio Albino, console per il 110, che convince",
+    "replace": "Spurio Postumio Albino, console per il 110 con Quinto Minucio Rufo (a cui toccò la Macedonia), che convince"
+  }
+]

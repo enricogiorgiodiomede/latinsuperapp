@@ -1,0 +1,33 @@
+{
+  "_comment": "v1.16.9 - Iugurtha 31.9-16, 31.21-29, 33-34, 35, 38. Section files from tools/xml_sections.js; 33-34 spans two chapters (sectionFiles). Translations carry their markers from batch/frags1169*.js.",
+  "(Bellum Iugurthinum 31.9-16)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.31.json",
+    "range": "9-16"
+  },
+  "(Bellum Iugurthinum 31.21-29)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.31.json",
+    "range": "21-29"
+  },
+  "(Bellum Iugurthinum 33-34)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sectionFiles": [
+      "phi0631.phi002.33.json",
+      "phi0631.phi002.34.json"
+    ]
+  },
+  "(Bellum Iugurthinum 35)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.35.json"
+  },
+  "(Bellum Iugurthinum 38)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.38.json"
+  }
+}

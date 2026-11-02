@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(De Amicitia 20)",
+    "field": "analysis",
+    "find": "which is friendship reduced to complicity (De Coniuratione Catilinae 20.2-8, in this app).",
+    "replace": "which is friendship reduced to complicity (De Coniuratione Catilinae 20.2-8, in this app). In the Iugurtha the tribune Memmius draws the line explicitly: the same bond, wanting, hating and fearing the same things, *inter bonos amicitia, inter malos factio est*, is friendship among good men and faction among bad (Bellum Iugurthinum 31.9-16, in this app)."
+  },
+  {
+    "cit": "(De Amicitia 20)",
+    "field": "analysisIt",
+    "find": "cioè l'amicizia ridotta a complicità (De Coniuratione Catilinae 20.2-8, in quest'app).",
+    "replace": "cioè l'amicizia ridotta a complicità (De Coniuratione Catilinae 20.2-8, in quest'app). Nel Bellum Iugurthinum il tribuno Memmio traccia esplicitamente il confine: lo stesso legame, desiderare, odiare e temere le stesse cose, *inter bonos amicitia, inter malos factio est*, è amicizia fra i buoni e fazione fra i malvagi (Bellum Iugurthinum 31.9-16, in quest'app)."
+  }
+]

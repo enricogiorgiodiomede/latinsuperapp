@@ -6,6 +6,36 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.16.9] - 2026-11-02
+
+**MEMMIUS, A BOUGHT TRIBUNE, A CITY FOR SALE, AND THE YOKE.** Five excerpts of the *Bellum Iugurthinum* -
+31.9-16, 31.21-29, 33-34, 35, 38. Sallust is at 51 of 70 (Catilina 30, Iugurtha 21).
+
+### Added - Bellum Iugurthinum (5)
+| excerpt | what it is |
+|---|---|
+| 31.9-16 | Memmius to the people: the treasury plundered, offices as plunder, *servi aere parati*, *eadem cupere, eadem odisse, eadem metuere* - *inter bonos amicitia, inter malos factio est* |
+| 31.21-29 | no mercy: *dominari illi volunt, vos liberi esse*, *res publica venalis fuit*, *impune quae libet facere, id est regem esse* |
+| 33-34 | Jugurtha in Rome in a suppliant's rags, the tribune Baebius bought, Memmius keeps the public pledge - and *vicit tamen impudentia* |
+| 35 | Massiva murdered in Rome, Bomilcar smuggled home, and *urbem venalem et mature perituram, si emptorem invenerit* |
+| 38 | Aulus at Suthul, the army bought from within, a night of panic, a chief centurion opens the rampart, and *sub iugum* |
+
+- **Memmius's speech (772 words) is taken as its two strongest stretches**, 198 and 218 words; **34 (67 words) runs
+  with 33** (two chapters, `sectionFiles`).
+- **The user's theses are in from the start**: Memmius as a hero against the nobility (31, 33-34); the tribunate
+  itself bought (33-34); Rome for sale, the sentence of 8 come full circle (35); the bribes reaching the soldiers (38).
+- **Cross-references, wired both ways**: Iug. 31.9-16 <-> Cat. 20.2-8 (*idem velle*) and De Amicitia 20; Iug.
+  31.21-29 <-> Cat. 52.7-12 (Memmius and Cato use the same words against mercy); Iug. 35 <-> 8; Iug. 38 <-> De
+  Bello Civili II.42 (Aulus's yoke against Curio's death). Iug. 26-27 now points to 33-34.
+- **Page quirks**: the quotes opening 31.21 and 31.25 and closing 31.29 removed with `fix`; 35.10's real
+  quotation kept; 31.29 *haut* kept.
+
+Translation pass over the touched work: the five v1.16.8 Iugurtha excerpts re-read clause by clause, unchanged.
+
+Verification: **447 verbatim, 0 mismatched** (442 + 5); check_context, lint_register, lint_ablatives and
+lint_translations report 0 for 1.16.9, check_sections nothing new; check_numbering 168/0, check_verses 60/0;
+`lint_markdown` clean. Bank **597**. Cache-bust: `?v=232` -> `?v=233`.
+
 ## [1.16.8] - 2026-11-02
 
 **AFRICA, CIRTA, AND A BOUGHT PEACE.** Five excerpts of the *Bellum Iugurthinum* - the African excursus (17,

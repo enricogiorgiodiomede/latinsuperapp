@@ -1,0 +1,8 @@
+{
+  "_comment": "v1.16.9 - Bellum Iugurthinum 31.9-16, 31.21-29, 33-34, 35, 38. Memmius's speech (31) is 772 words: its two strongest stretches. 34 alone is 67 words, so 33-34 (sectionFiles). Sections from tools/xml_sections.js.",
+  "iug.31a": ["sall.2", "Superioribus annis taciti indignabamini", "non audacissimos forent."],
+  "iug.31b": ["sall.2", "\"Atque ego tametsi viro", "haut saepe auxili egeas.\""],
+  "iug.33": ["sall.2", "Igitur Iugurtha contra decus regium", "quaestio exagitabat, animi augescunt."],
+  "iug.35": ["sall.2", "Erat ea tempestate Romae Numida", "si emptorem invenerit.\""],
+  "iug.38": ["sall.2", "At Iugurtha cognita vanitate", "sicuti regi libuerat, pax convenit."]
+}
