@@ -38,7 +38,7 @@ Jugurtha's), English and Italian.
 
 Verification: **452 verbatim, 0 mismatched** (447 + 5); check_context, lint_register, lint_ablatives and
 lint_translations report 0 for 1.16.10, check_sections nothing new; check_numbering 168/0, check_verses 60/0;
-`lint_markdown` clean. Bank **602**. Cache-bust: `?v=234` -> `?v=235`.
+`lint_markdown` clean. Bank **602**. Cache-bust: `?v=234` -> `?v=236` (235, then 236 for the release time).
 
 ## [1.16.9] - 2026-11-02
 

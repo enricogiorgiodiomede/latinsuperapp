@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.16.10', date: '04/11/2026', time: '00:00', tz: 'CET',
+      v: '1.16.10', date: '04/11/2026', time: '00:52', tz: 'CET',
       en: {
         added: [
           'FIVE MORE EXCERPTS OF THE JUGURTHINE WAR. Sallust stops the war to explain why Rome is like this: while Carthage stood, fear of the enemy kept the city united; once it fell, nobles and people each turned their rights into appetite and tore the state in two. Then the Gracchi, two nobles who tried to restore the people\'s freedom and were killed for it - "it is better to be beaten honourably than to overcome a wrong by evil means".',
