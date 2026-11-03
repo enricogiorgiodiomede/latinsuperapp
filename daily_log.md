@@ -1601,3 +1601,35 @@ Two commits just after midnight, both continuing the **Augustan Era** draft: Pro
 **Augustan Era -- Ovid (01:12).** Full entry added in both files with three excerpts: *Amores* I.9.1-20, *Ars Amatoria* I.135-162, and *Metamorphoses* VIII.823-842 + 875-878. Provisional tier **B**. Latin checked against The Latin Library.
 
 **Progress:** App unchanged at **v1.16.7** (bank 587, verify 437/0); Sallust still at 41 of 70, with v1.16.8 (*Iug.* 17, 18, 19, 26, 29) waiting on the user's notes on v1.16.7. The Augustan Era draft now has Horace (S), Livy (B), Tibullus (C), Sulpicia (C), Propertius (A) and Ovid (B). Next in the agreed order are Hyginus and Grattius (pairing still undecided). Still outstanding: the rest of Sallust, the translation re-read in *Pro Caelio* and *De Oratore*, and Catullus.
+
+---
+
+## 2026-10-31
+
+*(End-of-day log, 13:55.)*
+
+Two commits at midday, both on the **Augustan Era** draft: the four entries that close the era, each with its Italian mirror. With them **the Augustan Era is officially concluded**. No app release today.
+
+**Augustan Era -- Hyginus and Grattius (13:22, `a854fbd`).** Two separate entries, as the user asked, not a paired one. **Hyginus** (tier **D**): the freedman librarian of the Palatine, Virgil's first critic and Ovid's friend, who died poor; the transmitted *Fabulae* and *De Astronomia* flagged as probably by a later compiler. One excerpt: *Fabulae* 220, *Cura* (the fable Heidegger quotes in *Being and Time*). **Grattius** (tier **B**): known from a single line of Ovid; the *Cynegetica* (541 lines, breaks off) and its catalogue of dog breeds. One excerpt: *Cynegetica* 171-181, the dogs of Britain. Latin checked against The Latin Library.
+
+**Augustan Era -- Pompeius Trogus and Manilius (13:43, `71232f6`).** The two "possible additions", accepted by the user, at the end of the era: Trogus, then Manilius last. **Pompeius Trogus** (tier **C**): the Vocontian family, the *Historiae Philippicae* in 44 books read through Justin's *Epitome*, the dislike of invented direct speeches. One excerpt: Justin 38.6.7-8, from Mithridates' speech in *oratio obliqua* ("the souls of wolves"). Justin will get his own entry in a later era. **Manilius** (tier **S**): no ancient writer mentions him; the *Astronomica* as an anti-Lucretius; Poggio's rediscovery and Housman's edition. Two excerpts: *Astronomica* 4.1-16 (ending *nascentes morimur*) and 5.567-576 (Perseus sees Andromeda). Latin checked against The Latin Library. The same commit added Trogus and Manilius (13 and 14) to the Augustan list in `CLAUDE.md`, removed the old note about pairing Hyginus with Grattius, and set the Hyginus and Grattius tier labels in `italian_translations_augustan.md` back to English, as in the rest of the file.
+
+**Progress:** App unchanged at **v1.16.7** (bank 587, verify 437/0); Sallust still at 41 of 70, with v1.16.8 (*Iug.* 17, 18, 19, 26, 29) waiting on the user's notes on v1.16.7. **The Augustan Era draft is complete**: 14 entries plus the introduction, in `augustan_era_draft.md` and `italian_translations_augustan.md`. Next, in a new chat: the **Early Imperial Era** draft (introduction and author list first, then the entries). Still outstanding: the rest of Sallust, the translation re-read in *Pro Caelio* and *De Oratore*, and Catullus.
+
+---
+
+## 2026-11-02
+
+*(End-of-day log, 23:55.)*
+
+A full **Sallust** day on the app: two releases of the *Bellum Iugurthinum* (v1.16.8 just after midnight, v1.16.9 just before the next one) and two follow-ups that fold the user's notes into the previous batches. Five commits in all, ten new excerpts.
+
+**v1.16.7 follow-up -- the user's notes on *Iug.* 10-15 (00:06, `e453334`).** The notes went into the five analyses, in both languages: Micipsa's advice and why it stands (10); how fast it all went wrong, answered from 11.1 and 11.7 (12); no money in a city where everything is for sale (14.1-6); public and private friendship, and how Jugurtha did pay in the end, linked to *Cat.* 55 (14.20-25); money against loyalty, and Scaurus (15). One correction: in 12 it was Jugurtha, not Hiempsal, who proposed annulling five years of decrees. Cache `?v=229`.
+
+**v1.16.8 -- *Iug.* 17, 18, 19, 26-27, 29 (00:23, `367bc3d`).** The African excursus (17, 18, 19), the fall of Cirta with Memmius and the senate's fear (26-27, taken as two chapters because 26 alone is 80 words), and the consul Bestia with Scaurus bought (29). Cross-links both ways with *De Bello Gallico* VI.11, and inside the *Iugurtha* 15 -> 29 and 14.20-25 -> 26-27. Verify 442/0, bank 592, cache `?v=230`. A docs commit a few seconds later (`bb92520`) set the release time from the actual commit (02/11/2026, 00:23 CET) across the changelog and the page footers.
+
+**v1.16.8 follow-up -- the user's notes on *Iug.* 17-29 (23:40, `640f0fb`).** Folded into the five analyses, both languages: dying of old age, with Herodotus IV.187 (17); corruption not only a Roman disease (18); why the map matters (19); Memmius as one of the heroes (26-27); the public and the secret payment, and a bought peace that does not last (29). Cache `?v=232`.
+
+**v1.16.9 -- *Iug.* 31.9-16, 31.21-29, 33-34, 35, 38 (23:53, `6b39a7e`).** Memmius's speech in two excerpts (31.9-16, 31.21-29), the bought tribune who silences Jugurtha (33-34), Massiva's murder and *urbem venalem* (35), and Aulus's army sent under the yoke (38). Wired both ways with *Cat.* 20.2-8, *De Amicitia* 20, *Cat.* 52.7-12, *Iug.* 8 and *De Bello Civili* II.42. Verify 447/0, bank 597, cache `?v=233`.
+
+**Progress:** App at **v1.16.9** (bank 597, verify 447/0, cache `?v=233`). Sallust at **51 of 70** (Catilina complete at 30, Iugurtha 21 of 40); v1.16.9 waits on the user's notes, and next is v1.16.10 (*Iug.* 41, 42, 44, 51, 63). Still outstanding: the rest of Sallust, the translation re-read in *Pro Caelio* and *De Oratore*, Catullus, and the Early Imperial Era draft.
