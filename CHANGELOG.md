@@ -6,6 +6,40 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.16.10] - 2026-11-04
+
+**THE PARTIES, THE GRACCHI, A ROTTEN ARMY, THE MUTHUL, AND MARIUS.** Five excerpts of the *Bellum Iugurthinum* -
+41, 42, 44, 51, 63, all whole chapters. Sallust is at 56 of 70 (Catilina 30, Iugurtha 26).
+
+### Added - Bellum Iugurthinum (5)
+| excerpt | what it is |
+|---|---|
+| 41 | the digression on the parties: *metus hostilis* while Carthage stood, then *nobilitas dignitatem, populus libertatem in libidinem vertere*, the state torn in two, and civil strife *quasi permixtio terrae* |
+| 42 | the Gracchi: *vindicare plebem in libertatem*, killed by a guilty nobility - *bono vinci satius est quam malo more iniuriam vincere*, and a victory that bought more fear than power |
+| 44 | Metellus inherits Albinus's army: *praedator ex sociis et ipse praeda hostium*, no ramparts, no watches, the state's grain sold and bread bought by the day |
+| 51 | the Muthul: *facies totius negoti varia, incerta, foeda atque miserabilis*, *arma tela, equi viri, hostes atque cives permixti*, *fors omnia regere* |
+| 63 | Marius at Utica: the haruspex, the portrait, Arpinum *non Graeca facundia*, *nam postea ambitione praeceps datus est*, and the new man *quasi pollutus* |
+
+- **The user's theses are in from the start**: the nobility as the stronger and guiltier party, but both sides
+  to blame (41, and the partisan Mamilian court of 109 in its Where we are, as carried forward); the Gracchi as
+  nobles who preferred true glory (42); Metellus as the first Roman the book shows who cannot be bought (44, 51);
+  Marius as a type, the honest new man shut out by a closed nobility (63).
+- **Cross-references, wired both ways**: Iug. 41 <-> Cat. 10 (*metus hostilis*) and Cat. 38; Iug. 42 <-> In
+  Catilinam I.3 (Cicero's opposite view of the Gracchi); Iug. 44 <-> Cat. 5 (Catiline's endurance and its negative)
+  and Cat. 11 (the army's decline); Iug. 51 <-> Cat. 60 (the other battle) and Cat. 58.8-21 (*in armis omnia
+  sita*); Iug. 63 <-> Iug. 85.10-17 and In Pisonem XIX (Marius at Minturnae).
+- **Page quirks**: 44.1 *[ei]* kept as printed; 44.5 the page's *muniebatur* (Perseus *muniebantur*) given as a
+  section override; 63.4 the page's *facile*, not in Perseus, kept. `check_context` clears *Auli* in Iug. 38, a
+  name only since 44 glossed it.
+
+Translation pass over the touched work: the five v1.16.9 Iugurtha excerpts re-read clause by clause; one change,
+38.2 *ita delicta occultiora fuere* now "so the wrongdoing stayed better hidden" (indicative, and not only
+Jugurtha's), English and Italian.
+
+Verification: **452 verbatim, 0 mismatched** (447 + 5); check_context, lint_register, lint_ablatives and
+lint_translations report 0 for 1.16.10, check_sections nothing new; check_numbering 168/0, check_verses 60/0;
+`lint_markdown` clean. Bank **602**. Cache-bust: `?v=234` -> `?v=235`.
+
 ## [1.16.9] - 2026-11-02
 
 **MEMMIUS, A BOUGHT TRIBUNE, A CITY FOR SALE, AND THE YOKE.** Five excerpts of the *Bellum Iugurthinum* -

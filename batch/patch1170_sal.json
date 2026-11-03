@@ -1,0 +1,86 @@
+[
+  {
+    "cit": "(De Coniuratione Catilinae 5)",
+    "field": "analysis",
+    "find": "there the *sed* brings more praise, not the vice (Bellum Iugurthinum 6).",
+    "replace": "there the *sed* brings more praise, not the vice (Bellum Iugurthinum 6). And Catiline's endurance has an exact negative in the Iugurtha: the army Metellus inherited in Africa was *neque periculi neque laboris patiens*, able to bear neither danger nor toil (Bellum Iugurthinum 44)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 5)",
+    "field": "analysisIt",
+    "find": "lì il *sed* porta altra lode, non il vizio (Bellum Iugurthinum 6).",
+    "replace": "lì il *sed* porta altra lode, non il vizio (Bellum Iugurthinum 6). E la resistenza di Catilina ha un esatto negativo nel Bellum Iugurthinum: l'esercito che Metello ereditò in Africa era *neque periculi neque laboris patiens*, incapace di sopportare il pericolo e la fatica (Bellum Iugurthinum 44)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 10)",
+    "field": "analysis",
+    "find": "*Romae omnia venalia esse*, at Rome everything is for sale (Bellum Iugurthinum 8).",
+    "replace": "*Romae omnia venalia esse*, at Rome everything is for sale (Bellum Iugurthinum 8). And the Iugurtha states the theory behind this chapter in two words, *metus hostilis*: while Carthage stood, fear of the enemy kept Rome in good conduct; once the fear was gone, peace and plenty split the city into two parties (Bellum Iugurthinum 41)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 10)",
+    "field": "analysisIt",
+    "find": "*Romae omnia venalia esse*, a Roma tutto è in vendita (Bellum Iugurthinum 8).",
+    "replace": "*Romae omnia venalia esse*, a Roma tutto è in vendita (Bellum Iugurthinum 8). E il Bellum Iugurthinum enuncia in due parole la teoria che sta dietro questo capitolo, *metus hostilis*: finché Cartagine era in piedi, la paura del nemico manteneva Roma nelle buone pratiche; scomparsa la paura, la pace e l'abbondanza divisero la città in due partiti (Bellum Iugurthinum 41)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 11)",
+    "field": "analysis",
+    "find": "The two writers disagree about almost everything else, and here they say the same thing.",
+    "replace": "The two writers disagree about almost everything else, and here they say the same thing. The army's decline did not begin with Sulla: a generation earlier, in Africa, the consul Metellus took over an army that sold its own grain and bought its bread by the day (Bellum Iugurthinum 44)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 11)",
+    "field": "analysisIt",
+    "find": "I due scrittori sono in disaccordo su quasi tutto il resto, e qui dicono la stessa cosa.",
+    "replace": "I due scrittori sono in disaccordo su quasi tutto il resto, e qui dicono la stessa cosa. La decadenza dell'esercito non cominciò con Silla: una generazione prima, in Africa, il console Metello prese in consegna un esercito che vendeva il proprio grano e comprava il pane giorno per giorno (Bellum Iugurthinum 44)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 38)",
+    "field": "analysis",
+    "find": "the most visible one, not the only one.",
+    "replace": "the most visible one, not the only one. The Iugurtha traces that story to its start: after Carthage fell, the nobility turned its dignity and the people its liberty into licence, and the state between them was torn apart (Bellum Iugurthinum 41)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 38)",
+    "field": "analysisIt",
+    "find": "il più visibile, non l'unico.",
+    "replace": "il più visibile, non l'unico. Il Bellum Iugurthinum risale all'inizio di quella storia: caduta Cartagine, la nobiltà volse in arbitrio la propria dignità e il popolo la propria libertà, e lo stato che stava fra loro fu dilaniato (Bellum Iugurthinum 41)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 58.8-21)",
+    "field": "analysis",
+    "find": "corruption cannot be beaten that way, head on with swords.",
+    "replace": "corruption cannot be beaten that way, head on with swords. The argument that there is nowhere to run is a general's commonplace, and Sallust gives it to the honest Metellus too, in three words at the Muthul: *in armis omnia sita*, everything lay in their arms (Bellum Iugurthinum 51)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 58.8-21)",
+    "field": "analysisIt",
+    "find": "la corruzione non si sconfigge così, di petto, con le spade.",
+    "replace": "la corruzione non si sconfigge così, di petto, con le spade. L'argomento che non c'è via di fuga è un luogo comune dei generali, e Sallustio lo dà anche all'onesto Metello, in tre parole al Muthul: *in armis omnia sita*, tutto stava nelle armi (Bellum Iugurthinum 51)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 60)",
+    "field": "analysis",
+    "find": "and he shows it against a Roman army.",
+    "replace": "and he shows it against a Roman army. The Iugurtha's great battle, at the river Muthul, is written in the same style, with the historic infinitives given to Jugurtha going round his men and trying everything (Bellum Iugurthinum 51)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 60)",
+    "field": "analysisIt",
+    "find": "e la mostra contro un esercito romano.",
+    "replace": "e la mostra contro un esercito romano. La grande battaglia del Bellum Iugurthinum, presso il fiume Muthul, è scritta nello stesso stile, con gli infiniti storici affidati a Giugurta che gira fra i suoi e tenta ogni cosa (Bellum Iugurthinum 51)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 85.10-17)",
+    "field": "analysis",
+    "find": "the new men who now climbed by robbery (Bellum Iugurthinum 4).",
+    "replace": "the new men who now climbed by robbery (Bellum Iugurthinum 4). And Sallust had already drawn the man in his own portrait: trained on campaigns, not in Greek eloquence, and shut out of the consulship by a nobility that passed it from hand to hand (Bellum Iugurthinum 63)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 85.10-17)",
+    "field": "analysisIt",
+    "find": "gli uomini nuovi che ora salivano rubando (Bellum Iugurthinum 4).",
+    "replace": "gli uomini nuovi che ora salivano rubando (Bellum Iugurthinum 4). E Sallustio aveva già disegnato l'uomo nel proprio ritratto: formato nelle campagne militari, non nell'eloquenza greca, ed escluso dal consolato da una nobiltà che se lo passava di mano in mano (Bellum Iugurthinum 63)."
+  }
+]

@@ -32,7 +32,7 @@ against the numbered text so every excerpt opens and closes on a sentence.
 - **v1.16.7 (DONE, 5):** 10 · 12 · ★14.1-6 · ★14.20-25 · 15 (wired both ways: 10 <-> De Amicitia 64, 15 <-> Cat. 54; internal 6 -> 12, 8 -> 10, 14.20-25, 15; 14.24 *neu vivere* kept)
 - **v1.16.8 (DONE, 5):** ★17 · ★18 · ★19 (the African excursus) · 26-27 (26 is 80 words; runs on through Memmius) · 29 (wired both ways: 17 <-> DBG VI.11; internal 15 -> 29, 14.20-25 -> 26-27; 29 -> Cat. 11)
 - **v1.16.9 (DONE, 5):** 31.9-16 · 31.21-29 · 33-34 (34 is 67 words) · ★35 · 38 (wired both ways: 31.9-16 <-> Cat. 20.2-8 and De Amicitia 20, 31.21-29 <-> Cat. 52.7-12, 35 <-> 8, 38 <-> BC II.42)
-- v1.16.10: 41 · 42 · 44 · 51 · 63
+- **v1.16.10 (DONE, 5):** 41 · 42 (the digression on the parties) · 44 · 51 (the Muthul) · 63 (Marius) (wired both ways: 41 <-> Cat. 10 and Cat. 38, 42 <-> In Cat. I.3, 44 <-> Cat. 5 and Cat. 11, 51 <-> Cat. 60 and Cat. 58.8-21, 63 <-> Iug. 85.10-17 and In Pisonem XIX; 44.5 *muniebatur* is a section override)
 - v1.16.11: 64 · 67 · 72 · 73 · 79
 - v1.16.12: ★85.29-37 (the second Marius excerpt) · 86 · 91 · 93 · ★95-96 (Marius and Sulla)
 - v1.16.13: 101 · 102 · 113 · 114

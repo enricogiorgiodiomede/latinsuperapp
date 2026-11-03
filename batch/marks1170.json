@@ -1,0 +1,31 @@
+{
+  "_comment": "v1.16.10 - Iugurtha 41, 42, 44, 51, 63, whole chapters. Section files from tools/xml_sections.js.",
+  "(Bellum Iugurthinum 41)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.41.json"
+  },
+  "(Bellum Iugurthinum 42)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.42.json"
+  },
+  "(Bellum Iugurthinum 44)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.44.json",
+    "overrides": {
+      "5": "Sed neque muniebatur, neque more"
+    }
+  },
+  "(Bellum Iugurthinum 51)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.51.json"
+  },
+  "(Bellum Iugurthinum 63)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.63.json"
+  }
+}

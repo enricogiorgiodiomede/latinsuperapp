@@ -1,0 +1,26 @@
+[
+  {
+    "cit": "(In Catilinam I.3)",
+    "field": "analysis",
+    "find": "This paragraph is where the trap is set, in his own words.",
+    "replace": "This paragraph is where the trap is set, in his own words. Sallust saw the same killing from the other side: for him the Gracchi were nobles who put true glory before unjust power, beaten by worse means than their own, and the nobility's victory won it more fear than power (Bellum Iugurthinum 42, in this app)."
+  },
+  {
+    "cit": "(In Catilinam I.3)",
+    "field": "analysisIt",
+    "find": "È in questo paragrafo che la trappola viene armata, con parole sue.",
+    "replace": "È in questo paragrafo che la trappola viene armata, con parole sue. Sallustio vedeva la stessa uccisione dall'altra parte: per lui i Gracchi erano nobili che anteponevano la vera gloria al potere ingiusto, sconfitti con mezzi peggiori dei loro, e la vittoria della nobiltà le procurò più paura che potere (Bellum Iugurthinum 42, in quest'app)."
+  },
+  {
+    "cit": "(In Pisonem, ch. XIX)",
+    "field": "analysis",
+    "find": "because Cicero wanted to insult a man and disown the insult in the same breath.",
+    "replace": "because Cicero wanted to insult a man and disown the insult in the same breath. Marius was a fellow townsman of Cicero's from Arpinum, and Sallust's portrait of him as a young officer, honest, tireless and shut out of the consulship by the nobles, carries a warning in a parenthesis: later he was driven headlong by ambition (Bellum Iugurthinum 63, in this app)."
+  },
+  {
+    "cit": "(In Pisonem, ch. XIX)",
+    "field": "analysisIt",
+    "find": "perché Cicerone voleva insultare un uomo e rinnegare l'insulto con lo stesso fiato.",
+    "replace": "perché Cicerone voleva insultare un uomo e rinnegare l'insulto con lo stesso fiato. Mario era concittadino di Cicerone, di Arpino, e il ritratto che Sallustio fa di lui da giovane ufficiale, onesto, instancabile ed escluso dal consolato dai nobili, contiene un avvertimento in un inciso: in seguito fu trascinato a precipizio dall'ambizione (Bellum Iugurthinum 63, in quest'app)."
+  }
+]

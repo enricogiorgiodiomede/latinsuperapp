@@ -12,6 +12,35 @@
 
   var VERSIONS = [
     {
+      v: '1.16.10', date: '04/11/2026', time: '00:00', tz: 'CET',
+      en: {
+        added: [
+          'FIVE MORE EXCERPTS OF THE JUGURTHINE WAR. Sallust stops the war to explain why Rome is like this: while Carthage stood, fear of the enemy kept the city united; once it fell, nobles and people each turned their rights into appetite and tore the state in two. Then the Gracchi, two nobles who tried to restore the people\'s freedom and were killed for it - "it is better to be beaten honourably than to overcome a wrong by evil means".',
+          'Then the war again. The new consul Metellus finds an army that robs the allies and sells its own bread, and restores its discipline before he fights; the battle at the river Muthul, where chance ruled everything; and the portrait of Gaius Marius, the honest soldier from Arpinum shut out of the consulship by a nobility that treated a new man as if he were polluted.'
+        ],
+        changed: [
+          'The new notes are linked both ways to the passages that answer them: Cicero\'s praise of the man who killed Tiberius Gracchus, Sallust\'s own account of how Sulla\'s army learned luxury in Asia, the battle where Catiline died, Marius\'s speech about his scars, and Cicero on Marius hiding in the marshes at Minturnae.',
+          'One sentence in the translation of the army under the yoke was made more exact.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'ALTRI CINQUE BRANI DELLA GUERRA GIUGURTINA. Sallustio ferma la guerra per spiegare perché Roma sia così: finché Cartagine era in piedi, la paura del nemico teneva unita la città; caduta Cartagine, nobili e popolo trasformarono ciascuno i propri diritti in arbitrio e dilaniarono lo stato. Poi i Gracchi, due nobili che cercarono di restituire la libertà al popolo e per questo furono uccisi - "è meglio essere vinti onestamente che vincere un\'ingiustizia con mezzi malvagi".',
+          'Poi di nuovo la guerra. Il nuovo console Metello trova un esercito che deruba gli alleati e vende il proprio pane, e ne ristabilisce la disciplina prima di combattere; la battaglia presso il fiume Muthul, dove il caso governava ogni cosa; e il ritratto di Gaio Mario, il soldato onesto di Arpino escluso dal consolato da una nobiltà che trattava un uomo nuovo come se fosse contaminato.'
+        ],
+        changed: [
+          'Le nuove note sono collegate in entrambe le direzioni ai passi che rispondono loro: l\'elogio ciceroniano dell\'uomo che uccise Tiberio Gracco, il racconto dello stesso Sallustio su come l\'esercito di Silla imparò il lusso in Asia, la battaglia in cui morì Catilina, il discorso di Mario sulle sue cicatrici, e Cicerone su Mario nascosto nelle paludi di Minturno.',
+          'Una frase della traduzione dell\'esercito sotto il giogo è stata resa più esatta.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.16.9', date: '02/11/2026', time: '23:53', tz: 'CET',
       en: {
         added: [
