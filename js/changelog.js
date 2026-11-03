@@ -19,6 +19,7 @@
           'Then three scenes of a city for sale. Jugurtha comes to Rome to testify, and a bribed tribune orders him to be silent; he has a rival murdered in Rome itself and leaves, looking back at "a city for sale, and soon to perish, if it finds a buyer"; and in Africa he buys a Roman army from within and sends it under the yoke.'
         ],
         changed: [
+          'The notes on Memmius\'s speech, the bought tribune, Massiva\'s murder and the yoke were deepened from a reader\'s comments: how Sallust and Cicero agree that true friendship exists only among good men, why impunity has to be stopped at once, the one time Jugurtha\'s money failed, and how even the Roman army could be bought. One unclear sentence was rewritten after the reader asked what it meant.',
           'The new notes are linked both ways to the passages that answer them: Catiline\'s own definition of friendship and Cicero\'s, Cato\'s speech against mercy, which uses the very same words as Memmius, and Caesar\'s account of Curio, who chose to die rather than survive his army in Africa.'
         ],
         deleted: [
@@ -31,6 +32,7 @@
           'Poi tre scene di una città in vendita. Giugurta viene a Roma a testimoniare, e un tribuno corrotto gli ordina di tacere; fa assassinare un rivale nella città stessa e se ne va voltandosi a guardare "una città in vendita e destinata a perire presto, se troverà un compratore"; e in Africa compra dall\'interno un esercito romano e lo manda sotto il giogo.'
         ],
         changed: [
+          'Le note sul discorso di Memmio, sul tribuno comprato, sull\'assassinio di Massiva e sul giogo sono state approfondite a partire dai commenti di un lettore: come Sallustio e Cicerone concordino che la vera amicizia esiste solo fra i buoni, perché l\'impunità va fermata subito, l\'unica volta in cui il denaro di Giugurta fallì, e come perfino l\'esercito romano si potesse comprare. Una frase poco chiara è stata riscritta dopo che il lettore ne ha chiesto il significato.',
           'Le nuove note sono collegate in entrambe le direzioni ai passi che rispondono loro: la definizione di amicizia di Catilina e quella di Cicerone, il discorso di Catone contro la clemenza, che usa le stesse identiche parole di Memmio, e il racconto di Cesare su Curione, che scelse di morire piuttosto che sopravvivere al suo esercito in Africa.'
         ],
         deleted: [

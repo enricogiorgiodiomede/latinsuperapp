@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(De Amicitia 64)",
+    "field": "analysis",
+    "find": "(Bellum Iugurthinum 10, in this app).",
+    "replace": "(Bellum Iugurthinum 10, in this app). And Sallust's tribune Memmius draws the political consequence: the bond of shared interests is friendship only among good men; among the powerful it is faction (Bellum Iugurthinum 31.9-16, in this app)."
+  },
+  {
+    "cit": "(De Amicitia 64)",
+    "field": "analysisIt",
+    "find": "(Bellum Iugurthinum 10, in quest'app).",
+    "replace": "(Bellum Iugurthinum 10, in quest'app). E il tribuno Memmio di Sallustio ne trae la conseguenza politica: il legame degli interessi comuni è amicizia solo fra i buoni; fra i potenti è fazione (Bellum Iugurthinum 31.9-16, in quest'app)."
+  }
+]

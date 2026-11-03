@@ -36,6 +36,25 @@ Verification: **447 verbatim, 0 mismatched** (442 + 5); check_context, lint_regi
 lint_translations report 0 for 1.16.9, check_sections nothing new; check_numbering 168/0, check_verses 60/0;
 `lint_markdown` clean. Bank **597**. Cache-bust: `?v=232` -> `?v=233`.
 
+### Follow-up, 2026-11-04: the user's notes on Iugurtha 31-38
+
+The user's notes on this release are folded into the five analyses, English and Italian; no excerpt or
+translation changes.
+
+- **Iug. 31.9-16** - *Sallust and Cicero agree*: friendship only among good men (De Amicitia 18) and rare in
+  politics; **wired both ways with De Amicitia 64**.
+- **Iug. 31.21-29** - *Why it has to be stopped now*: *consuetudine iam pro nihilo*, the logic of impunity, and the
+  law failing - then the Mamilian court of 109, run *aspere violenterque* (40.5).
+- **Iug. 33-34** - *Memmius was right*: it happened in his own assembly; the guilty grow bolder.
+- **Iug. 35** - *The one time money fails*; and, at the user's question, the cryptic "Seventy years later,
+  Sallust's readers had watched the bidding" rewritten to say what it meant: the great men of the civil wars
+  bought armies, voters and courts, and the Republic did perish.
+- **Iug. 38** - *Even the army*: Sulla's army in Cat. 11, the bribed auxiliaries and the chief centurion, the
+  vain legate.
+
+Verification: **447 verbatim, 0 mismatched**; check_context clean for 1.16.9; `lint_markdown` clean.
+Cache-bust: `?v=233` -> `?v=234`.
+
 ## [1.16.8] - 2026-11-02
 
 **AFRICA, CIRTA, AND A BOUGHT PEACE.** Five excerpts of the *Bellum Iugurthinum* - the African excursus (17,

@@ -127,6 +127,8 @@ monstrous method; Sulla as the root of the corruption (5, 11, 37); Rome "very co
 
 **The user's notes on Iug. 17-29 (folded into v1.16.8) - carry forward:** corruption as a general law (Cat. 2) but with a Roman cause in Numidia; the map as the frame of the war; Memmius as a hero (*acer*, hostile to the nobility) - for 31 and 34; a bought peace does not last. Corrections given: the Africans die by sword or beasts, NOT disease; the elephants/silver were the official surrender price paid to the quaestor as treasurer, the bribes went secretly to Bestia and Scaurus.
 
+**The user's notes on Iug. 31-38 (folded into v1.16.9) - carry forward:** Sallust and Cicero agree on friendship among good men (DA 18, 64); impunity breeds more crime, and even the law fails at first; Memmius right, beaten by money; the one time money fails (35); even the army bought (38, with Cat. 11). When 41 comes (the factions digression) the Mamilian court of 109 and its partisan excess (40.5) belong in the Where we are. Lesson: avoid cryptic closing sentences - the user asked what "had watched the bidding" meant.
+
 **FLAGS FOR LATER BATCHES.** Cat. 14.2 stays as printed (decided). Iug. 85.1-4, the opening of Marius's speech, was in the launch excerpt
 and is no longer in the bank - the user chose 85.10-17 + 85.29-37.
 
