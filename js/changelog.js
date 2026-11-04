@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.16.11', date: '04/11/2026', time: '00:00', tz: 'CET',
+      v: '1.16.11', date: '04/11/2026', time: '12:42', tz: 'CET',
       en: {
         added: [
           'FIVE MORE EXCERPTS OF THE JUGURTHINE WAR. Marius asks his commander for leave to stand for the consulship, and the noble Metellus tells him he can stand when his own twenty-year-old son does; Marius never forgives him. Then a massacre at the town of Vaga on a feast day, where the Roman officers are killed at dinner and only their commander escapes; and a conspiracy against Jugurtha that fails because a man fell asleep with the letter on his pillow - after which the king never again had a quiet day or night.',
