@@ -19,6 +19,7 @@
           'Then the war again. The new consul Metellus finds an army that robs the allies and sells its own bread, and restores its discipline before he fights; the battle at the river Muthul, where chance ruled everything; and the portrait of Gaius Marius, the honest soldier from Arpinum shut out of the consulship by a nobility that treated a new man as if he were polluted.'
         ],
         changed: [
+          'The notes on the digression on the parties, the Gracchi, Metellus\'s army, the Muthul and Marius were deepened from a reader\'s comments: how Rome slid into an oligarchy, why the Gracchi show that honest men were edged out of politics, how the army\'s virtues turned into vices and how work cured them, the first battle Jugurtha could not buy his way out of, and the pattern of new men - Marius, Cicero and Sallust himself - held at arm\'s length by the nobility.',
           'The new notes are linked both ways to the passages that answer them: Cicero\'s praise of the man who killed Tiberius Gracchus, Sallust\'s own account of how Sulla\'s army learned luxury in Asia, the battle where Catiline died, Marius\'s speech about his scars, and Cicero on Marius hiding in the marshes at Minturnae.',
           'One sentence in the translation of the army under the yoke was made more exact.'
         ],
@@ -32,6 +33,7 @@
           'Poi di nuovo la guerra. Il nuovo console Metello trova un esercito che deruba gli alleati e vende il proprio pane, e ne ristabilisce la disciplina prima di combattere; la battaglia presso il fiume Muthul, dove il caso governava ogni cosa; e il ritratto di Gaio Mario, il soldato onesto di Arpino escluso dal consolato da una nobiltà che trattava un uomo nuovo come se fosse contaminato.'
         ],
         changed: [
+          'Le note sulla digressione sui partiti, sui Gracchi, sull\'esercito di Metello, sul Muthul e su Mario sono state approfondite a partire dai commenti di un lettore: come Roma scivolò in un\'oligarchia, perché i Gracchi mostrano che gli onesti venivano esclusi dalla politica, come le virtù dell\'esercito diventarono vizi e come il lavoro le guarì, la prima battaglia da cui Giugurta non poté uscire comprando, e lo schema degli uomini nuovi - Mario, Cicerone e lo stesso Sallustio - tenuti a distanza dalla nobiltà.',
           'Le nuove note sono collegate in entrambe le direzioni ai passi che rispondono loro: l\'elogio ciceroniano dell\'uomo che uccise Tiberio Gracco, il racconto dello stesso Sallustio su come l\'esercito di Silla imparò il lusso in Asia, la battaglia in cui morì Catilina, il discorso di Mario sulle sue cicatrici, e Cicerone su Mario nascosto nelle paludi di Minturno.',
           'Una frase della traduzione dell\'esercito sotto il giogo è stata resa più esatta.'
         ],

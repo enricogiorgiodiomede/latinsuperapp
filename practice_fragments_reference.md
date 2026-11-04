@@ -129,6 +129,8 @@ monstrous method; Sulla as the root of the corruption (5, 11, 37); Rome "very co
 
 **The user's notes on Iug. 31-38 (folded into v1.16.9) - carry forward:** Sallust and Cicero agree on friendship among good men (DA 18, 64); impunity breeds more crime, and even the law fails at first; Memmius right, beaten by money; the one time money fails (35); even the army bought (38, with Cat. 11). When 41 comes (the factions digression) the Mamilian court of 109 and its partisan excess (40.5) belong in the Where we are. Lesson: avoid cryptic closing sentences - the user asked what "had watched the bidding" meant.
 
+**The user's notes on Iug. 41-63 (folded into v1.16.10) - carry forward:** the extinction mechanism (Cat. 10) turned Rome into an oligarchy; both sides to blame, the nobility more; the Gracchi = "honest political participation is impossible" (Sallust's biography); the army's virtues turned into vices, and work cures them (44-45); the first battle Jugurtha cannot buy (51 - and he lost it, 52-53); the pattern of new men: Marius, Cicero, Sallust (first governor of Africa Nova), Catiline's *inquilinus* (Cat. 31). Corrections given: a new man was treated less as a danger than as a defilement (*quasi pollutus*, Cat. 23 *quasi pollui*); the barrier was *nobilitas*, not patrician birth. When 64 comes (Metellus's sneer at Marius), build on 63's pattern of new men rather than repeat it.
+
 **FLAGS FOR LATER BATCHES.** Cat. 14.2 stays as printed (decided). Iug. 85.1-4, the opening of Marius's speech, was in the launch excerpt
 and is no longer in the bank - the user chose 85.10-17 + 85.29-37.
 

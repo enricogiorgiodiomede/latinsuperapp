@@ -40,6 +40,27 @@ Verification: **452 verbatim, 0 mismatched** (447 + 5); check_context, lint_regi
 lint_translations report 0 for 1.16.10, check_sections nothing new; check_numbering 168/0, check_verses 60/0;
 `lint_markdown` clean. Bank **602**. Cache-bust: `?v=234` -> `?v=236` (235, then 236 for the release time).
 
+### Follow-up, 2026-11-04: the user's notes on Iugurtha 41-63
+
+The user's notes on this release are folded into the five analyses, English and Italian; no excerpt or
+translation changes.
+
+- **Iug. 41** - *The road to oligarchy*: the extinction mechanism of Cat. 10; section 7 as the description of an
+  oligarchy; both sides to blame, the stronger nobility more.
+- **Iug. 42** - *Honest men edged out*: the Gracchi as the case of "honest political participation is
+  impossible" (the line from Sallust's biography); and *ad inceptum redeo* as in Iug. 4, for the opposite reason -
+  there he had said too much, here he could never say enough. **Wired both ways with Iug. 4.**
+- **Iug. 44** - *Virtues turned into vices*: the army that should have been corrupted least; the moral low point
+  (the yoke of 38 the military one); the cure is work (ch. 45).
+- **Iug. 51** - *Brevity at its peak* and *The first real fight*: the first pitched battle Jugurtha cannot buy; and
+  he did not only nearly lose - Metellus won the battle (52-53), not the war.
+- **Iug. 63** - *A pattern of new men*: Marius, Cicero (Arpinum, consul 63) and Sallust (Amiternum, praetor, first
+  governor of Africa Nova in 46); Catiline's *inquilinus civis* in Cat. 31; the barrier was *nobilitas*, not patrician
+  birth. **Wired both ways with Cat. 23 (*quasi pollui*) and Cat. 31.4-9.**
+
+Verification: **452 verbatim, 0 mismatched**; check_context and lint_register clean; `lint_markdown` clean.
+Cache-bust: `?v=236` -> `?v=237`.
+
 ## [1.16.9] - 2026-11-02
 
 **MEMMIUS, A BOUGHT TRIBUNE, A CITY FOR SALE, AND THE YOKE.** Five excerpts of the *Bellum Iugurthinum* -
