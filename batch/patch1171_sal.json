@@ -1,0 +1,74 @@
+[
+  {
+    "cit": "(De Coniuratione Catilinae 15)",
+    "field": "analysis",
+    "find": "There the sacrilege belongs to a whole war, not to one man.",
+    "replace": "There the sacrilege belongs to a whole war, not to one man. And the Iugurtha paints Jugurtha after the plot of Bomilcar with the same symptoms - no quiet day or night, starting at every noise, changing his bed, driven by fear as if by madness - though there the cause is *formido*, fear, not conscience (Bellum Iugurthinum 71-72)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 15)",
+    "field": "analysisIt",
+    "find": "Lì il sacrilegio appartiene a un'intera guerra, non a un solo uomo.",
+    "replace": "Lì il sacrilegio appartiene a un'intera guerra, non a un solo uomo. E il Bellum Iugurthinum dipinge Giugurta, dopo la congiura di Bomilcare, con gli stessi sintomi - nessun giorno né notte tranquilli, il sussulto a ogni rumore, il letto cambiato ogni notte, la paura che lo agita come una follia - anche se lì la causa è la *formido*, la paura, non la coscienza (Bellum Iugurthinum 71-72)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 61)",
+    "field": "analysis",
+    "find": "in a war against your own people, nobody really wins.",
+    "replace": "in a war against your own people, nobody really wins. The Iugurtha has the opposite case: after the massacre at Vaga the one man who escaped untouched was the Roman commander, and Sallust calls him worthless and infamous for preferring a shameful life to a clean name (Bellum Iugurthinum 66-67)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 61)",
+    "field": "analysisIt",
+    "find": "in una guerra contro il proprio popolo, nessuno vince davvero.",
+    "replace": "in una guerra contro il proprio popolo, nessuno vince davvero. Il Bellum Iugurthinum ha il caso opposto: dopo il massacro di Vaga l'unico uomo che fuggì illeso fu il comandante romano, e Sallustio lo chiama spregevole e infame per aver preferito una vita vergognosa a un nome pulito (Bellum Iugurthinum 66-67)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 19)",
+    "field": "analysis",
+    "find": "The map ends where knowledge ends.",
+    "replace": "The map ends where knowledge ends. One name on the route, *Philaenon arae*, the Altars of the Philaeni, gets its own story later in the book (Bellum Iugurthinum 79)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 19)",
+    "field": "analysisIt",
+    "find": "La carta finisce dove finisce il sapere.",
+    "replace": "La carta finisce dove finisce il sapere. Un nome sul percorso, *Philaenon arae*, gli Altari dei Fileni, avrà una storia tutta sua più avanti nel libro (Bellum Iugurthinum 79)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 42)",
+    "field": "analysis",
+    "find": "time would run out before the material.",
+    "replace": "time would run out before the material. When he stops the war once more, for the Philaeni, he closes with *nunc ad rem redeo* (Bellum Iugurthinum 79)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 42)",
+    "field": "analysisIt",
+    "find": "gli mancherebbe il tempo prima della materia.",
+    "replace": "gli mancherebbe il tempo prima della materia. Quando ferma la guerra un'altra volta, per i Fileni, chiude con *nunc ad rem redeo* (Bellum Iugurthinum 79)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 44)",
+    "field": "analysis",
+    "find": "in a short time the army is fit to fight again (chapter 45).",
+    "replace": "in a short time the army is fit to fight again (chapter 45). The cure did not survive ambition: a year later Metellus's own legate Marius relaxed the discipline of the men under him to win their votes (Bellum Iugurthinum 64)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 44)",
+    "field": "analysisIt",
+    "find": "in breve tempo l'esercito è di nuovo in grado di combattere (capitolo 45).",
+    "replace": "in breve tempo l'esercito è di nuovo in grado di combattere (capitolo 45). La cura non sopravvisse all'ambizione: un anno dopo il legato dello stesso Metello, Mario, allentò la disciplina dei suoi uomini per guadagnarne i voti (Bellum Iugurthinum 64)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 63)",
+    "field": "analysis",
+    "find": "Catiline's jibe uses the older and narrower snobbery of the patricians.",
+    "replace": "Catiline's jibe uses the older and narrower snobbery of the patricians. Metellus's answer to Marius's request shows the nobles' snobbery from the inside (Bellum Iugurthinum 64), and the election of 107 shows how it was beaten (Bellum Iugurthinum 73)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 63)",
+    "field": "analysisIt",
+    "find": "la battuta di Catilina usa lo snobismo più antico e più ristretto dei patrizi.",
+    "replace": "la battuta di Catilina usa lo snobismo più antico e più ristretto dei patrizi. La risposta di Metello alla richiesta di Mario mostra lo snobismo dei nobili dall'interno (Bellum Iugurthinum 64), e l'elezione del 107 mostra come fu sconfitto (Bellum Iugurthinum 73)."
+  }
+]

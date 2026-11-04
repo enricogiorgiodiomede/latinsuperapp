@@ -12,6 +12,33 @@
 
   var VERSIONS = [
     {
+      v: '1.16.11', date: '04/11/2026', time: '00:00', tz: 'CET',
+      en: {
+        added: [
+          'FIVE MORE EXCERPTS OF THE JUGURTHINE WAR. Marius asks his commander for leave to stand for the consulship, and the noble Metellus tells him he can stand when his own twenty-year-old son does; Marius never forgives him. Then a massacre at the town of Vaga on a feast day, where the Roman officers are killed at dinner and only their commander escapes; and a conspiracy against Jugurtha that fails because a man fell asleep with the letter on his pillow - after which the king never again had a quiet day or night.',
+          'Then Marius is elected consul, the first new man in many years, and the people vote him the war over the senate\'s head; and Sallust stops for a legend: two Carthaginian brothers who let themselves be buried alive to fix their country\'s border.'
+        ],
+        changed: [
+          'The new notes are linked both ways to the passages that answer them: Catiline\'s sleepless guilty mind, Catiline found dead far from his own men, among the enemy, Cicero\'s Roman citizen flogged in Sicily, and Sallust\'s own map of the African coast, where the Altars of the Philaeni first appear.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'ALTRI CINQUE BRANI DELLA GUERRA GIUGURTINA. Mario chiede al suo comandante il congedo per candidarsi al consolato, e il nobile Metello gli risponde che potrà candidarsi quando lo farà suo figlio di vent\'anni; Mario non glielo perdonerà mai. Poi un massacro nella città di Vaga in un giorno di festa, dove gli ufficiali romani vengono uccisi a cena e solo il loro comandante si salva; e una congiura contro Giugurta che fallisce perché un uomo si addormentò con la lettera sul cuscino - dopo di che il re non ebbe più un giorno o una notte tranquilli.',
+          'Poi Mario viene eletto console, il primo uomo nuovo dopo molti anni, e il popolo gli affida la guerra scavalcando il senato; e Sallustio si ferma per una leggenda: due fratelli cartaginesi che si lasciarono seppellire vivi per fissare il confine della loro patria.'
+        ],
+        changed: [
+          'Le nuove note sono collegate in entrambe le direzioni ai passi che rispondono loro: la mente insonne e colpevole di Catilina, Catilina trovato morto lontano dai suoi, fra i nemici, il cittadino romano fustigato in Sicilia di Cicerone, e la carta della costa africana dello stesso Sallustio, dove compaiono per la prima volta gli Altari dei Fileni.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.16.10', date: '04/11/2026', time: '00:52', tz: 'CET',
       en: {
         added: [

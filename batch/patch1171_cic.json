@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(In Verrem II.5.162-163)",
+    "field": "analysis",
+    "find": "this passage doing duty as foreign policy nineteen centuries later.",
+    "replace": "this passage doing duty as foreign policy nineteen centuries later. The protection had a hard edge: Sallust tells of a Roman garrison commander at Vaga in Africa who was flogged and beheaded, *nam is civis ex Latio erat*, because he was only a Latin (Bellum Iugurthinum 66-67, in this app)."
+  },
+  {
+    "cit": "(In Verrem II.5.162-163)",
+    "field": "analysisIt",
+    "find": "questo passo che fa da politica estera diciannove secoli dopo.",
+    "replace": "questo passo che fa da politica estera diciannove secoli dopo. La protezione aveva un limite netto: Sallustio racconta di un comandante di presidio romano a Vaga, in Africa, che fu fustigato e decapitato, *nam is civis ex Latio erat*, perché era soltanto un latino (Bellum Iugurthinum 66-67, in quest'app)."
+  }
+]

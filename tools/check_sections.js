@@ -144,6 +144,12 @@ function endsClosed(s) {
 // closes it on a full stop, or divides one long Latin period into two. In
 // each case the text on either side of the marker is the same text.
 const CLEARED = {
+  // Read and cleared 2026-11-04, Iugurtha 64. The Latin Library puts a full
+  // stop inside 64.4 (`militabat. Annos natus`), where the editions run one
+  // sentence; both translations keep it as one, and the grammar note says so.
+  '(Bellum Iugurthinum 64)': {
+    why: 'the source splits 64.4 with a stray full stop before Annos; both translations read one sentence',
+    sig: 'english 4: holds 3 sentences, the Latin holds 4 | italian 4: holds 3 sentences, the Latin holds 4' },
   // Read and cleared 2026-09-16, Lucretius Book IV part 1. The Latin Library
   // prints a full stop at the end of v. 360 where the sense wants a comma, and
   // leaves v. 446 with no closing punctuation at all. Both notes say so.

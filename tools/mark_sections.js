@@ -101,7 +101,10 @@ function anchorsFor(spec, label) {
     // are numbered from 1 again, which is how editions cite them, and the
     // monotonic check below still holds because it compares positions in the
     // text and not the numbers.
-    all = [].concat(...spec.sectionFiles.map(f => fromCache(f, label)));
+    all = [].concat(...spec.sectionFiles.map(f => {
+      const ch = (f.match(/\.(\d+)\.json$/) || [])[1];
+      return fromCache(f, label).map(s => ({ ...s, ch }));
+    }));
   } else if (Array.isArray(spec.sections)) {
     all = spec.sections.map((a, i) => ({ n: String(i + 1), anchor: a }));
   } else {
@@ -114,8 +117,13 @@ function anchorsFor(spec, label) {
   // ventus`, the Latin Library `quod Corus ventus`, both real spellings of the
   // north-west wind. The override supplies the source's own wording; the
   // boundary still comes from the edition.
+  // With sectionFiles the numbers repeat, so an override can name its chapter
+  // as well, `"67.1"`; a bare number still applies wherever it matches.
   if (spec.overrides) {
-    all = all.map(s => (spec.overrides[s.n] ? { n: s.n, anchor: spec.overrides[s.n] } : s));
+    all = all.map(s => {
+      const o = (s.ch && spec.overrides[s.ch + '.' + s.n]) || spec.overrides[s.n];
+      return o ? { n: s.n, anchor: o } : s;
+    });
   }
   // An excerpt rarely runs to the end of a chapter, and the sections it stops
   // short of must be dropped explicitly - silently ignoring an anchor that does

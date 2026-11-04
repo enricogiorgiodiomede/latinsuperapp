@@ -1,0 +1,4 @@
+[
+  {"cit": "(Bellum Iugurthinum 79)", "field": "analysis", "find": "*Socordiane an casu*: indirect double question.", "replace": "*Socordiane an casu*: indirect double question. *Poeni ... Graeci*: Sallust's names for the two sides, the Carthaginians as Phoenicians by origin and the Cyrenaeans as Greek colonists."},
+  {"cit": "(Bellum Iugurthinum 79)", "field": "analysisIt", "find": "*Socordiane an casu*: interrogativa indiretta disgiuntiva.", "replace": "*Socordiane an casu*: interrogativa indiretta disgiuntiva. *Poeni ... Graeci*: i nomi che Sallustio dà alle due parti, i Cartaginesi come Fenici d'origine e quelli di Cirene come coloni greci."}
+]

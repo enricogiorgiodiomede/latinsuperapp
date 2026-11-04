@@ -1,0 +1,47 @@
+{
+  "_comment": "v1.16.11 - Iugurtha 64, 66-67, 71-72, 73, 79. Section files from tools/xml_sections.js; 66-67 and 71-72 span two chapters (sectionFiles). 73 ends before the damaged last sentence of 73.7.",
+  "(Bellum Iugurthinum 64)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.64.json",
+    "overrides": {
+      "2": "Itaque primum commotus"
+    }
+  },
+  "(Bellum Iugurthinum 66-67)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sectionFiles": [
+      "phi0631.phi002.66.json",
+      "phi0631.phi002.67.json"
+    ],
+    "overrides": {
+      "67.1": "Romani milites, improviso"
+    }
+  },
+  "(Bellum Iugurthinum 71-72)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sectionFiles": [
+      "phi0631.phi002.71.json",
+      "phi0631.phi002.72.json"
+    ],
+    "overrides": {
+      "71.1": "Sed cum eae",
+      "71.4": "Qui postquam allatas"
+    }
+  },
+  "(Bellum Iugurthinum 73)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.73.json"
+  },
+  "(Bellum Iugurthinum 79)": {
+    "author": "gaius-sallustius-crispus",
+    "work": "bellum-iugurthinum",
+    "sections": "phi0631.phi002.79.json",
+    "overrides": {
+      "8": "Sed cum Poeni"
+    }
+  }
+}

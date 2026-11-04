@@ -6,6 +6,41 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.16.11] - 2026-11-04
+
+**METELLUS'S SNEER, A MASSACRE AT VAGA, A LETTER ON A PILLOW, MARIUS ELECTED, AND THE PHILAENI.** Five
+excerpts of the *Bellum Iugurthinum* - 64, 66-67, 71-72, 73, 79. Sallust is at 61 of 70 (Catilina 30, Iugurtha 31).
+
+### Added - Bellum Iugurthinum (5)
+| excerpt | what it is |
+|---|---|
+| 64 | Marius asks for leave; Metellus, *contemptor animus et superbia, commune nobilitatis malum*, tells him to stand *cum filio suo*; Marius slanders him to the traders of Utica |
+| 66-67 | Jugurtha rebuilds his war; the feast-day massacre at Vaga, stones from the roofs, *iuxta boni malique ... inulti obtruncari*; Turpilius alone escapes, *improbus intestabilisque* |
+| 71-72 | Bomilcar's letter read on a sleeping man's pillow; Jugurtha kills the plotters and never again has a quiet day or night - *formidine quasi vecordia exagitari* |
+| 73 | Marius sent home; *imperatori nobilitas ... invidiae esse*, partisanship decides; craftsmen and farmers leave their work; a new man consul, and the war voted to him by the people |
+| 79 | the Altars of the Philaeni: a boundary race, a sandstorm, the Greeks cry foul, and two Carthaginians buried alive for their country |
+
+- **Two short chapters run with their neighbours**, as 26-27 and 33-34: 67 (105 words) with 66, 72 (78 words) with
+  71 (`sectionFiles`).
+- **The user's theses are in from the start**: the nobility's contempt as a class vice even in its best man (64);
+  Marius's ambition coming true (64, 73); the pattern of new men (64, 73); money turning against Jugurtha (71-72);
+  partisanship deciding, not merit (73); Carthaginians giving the virtue Rome has lost (79).
+- **Cross-references, wired both ways**: Iug. 71-72 <-> Cat. 15 (the sleepless mind); Iug. 66-67 <-> Cat. 61 and In
+  Verrem II.5.162-163 (flogged because he was only a Latin); Iug. 79 <-> Iug. 19 (*Philaenon arae*) and 42 (the
+  closing formula); internal 44 -> 64 (the discipline relaxed) and 63 -> 64, 73.
+- **Page quirks**, kept as printed and explained in the notes: 64.4 a stray full stop before *Annos*
+  (`check_sections` cleared); 67.1 *Arce ... fuga* (Perseus *arcem ... obsidebat ... fugam*); 71.5 *[ex perfugis]*;
+  73.3 *qua* for *quae*; 79.4 *attriveret* for *attriverant*. **73 stops before its damaged last sentence** (*Sed
+  paulo . . . decreverat*), which the note quotes and explains.
+- **`tools/mark_sections.js`**: with `sectionFiles`, an override can now name its chapter (`"67.1"`), since the
+  section numbers repeat; a bare number still works as before.
+
+Translation pass over the touched work: the five v1.16.10 Iugurtha excerpts re-read clause by clause, unchanged.
+
+Verification: **457 verbatim, 0 mismatched** (452 + 5); check_context, lint_register, lint_ablatives and
+lint_translations report 0 for 1.16.11, check_sections nothing new; check_numbering 168/0, check_verses 60/0;
+`lint_markdown` clean. Bank **607**. Cache-bust: `?v=237` -> `?v=238`.
+
 ## [1.16.10] - 2026-11-04
 
 **THE PARTIES, THE GRACCHI, A ROTTEN ARMY, THE MUTHUL, AND MARIUS.** Five excerpts of the *Bellum Iugurthinum* -

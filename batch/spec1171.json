@@ -1,0 +1,8 @@
+{
+  "_comment": "v1.16.11 - Bellum Iugurthinum 64, 66-67, 71-72, 73, 79. 67 (105 words) runs with 66 and 72 (78 words) with 71, as 26-27 and 33-34 (sectionFiles). 73 stops before its damaged last sentence (Sed paulo . . . decreverat). Sections from tools/xml_sections.js.",
+  "iug.64": ["sall.2", "Igitur ubi Marius haruspicis", "animo cupienti nihil satis festinatur."],
+  "iug.66": ["sall.2", "Interim Iugurtha, postquam omissa deditione", "improbus intestabilisque videtur."],
+  "iug.71": ["sall.2", "Sed cum eae litterae allatae", "ita formidine quasi vecordia exagitari."],
+  "iug.73": ["sall.2", "Igitur Metellus, ubi de casu Bomilcaris", "frequens Marium iussit."],
+  "iug.79": ["sall.2", "Sed quoniam in eas regiones", "Nunc ad rem redeo."]
+}
