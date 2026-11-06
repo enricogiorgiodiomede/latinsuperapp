@@ -1,0 +1,110 @@
+[
+  {
+    "cit": "(Bellum Iugurthinum 64)",
+    "field": "analysis",
+    "find": "The Republic's sickness reaches even its best men.",
+    "replace": "The Republic's sickness reaches even its best men.\n\n**Desire, anger and a joke.** Sallust gives Marius two motives, not one: *cupidine atque ira*, desire for the consulship and anger at Metellus. And the anger comes in two steps. First the lecture - not everything is for everyone, be content with your station - which tells a man with no consular ancestors, without quite saying it, that the consulship is not for him. Then, when Marius insisted, the joke about the twenty-year-old son; and it is the joke that set him on fire, *quae res Marium ... vehementer accenderat*. From then on he does whatever helps, *neque facto ullo neque dicto abstinere*, with no thought for the means. It is the same indifference Sallust gave Catiline, who cared nothing for the methods as long as he won himself the kingship, *neque id quibus modis adsequeretur ... quicquam pensi habebat* (De Coniuratione Catilinae 5). Marius is not Catiline, but on this point Sallust draws them with the same line. And Marius did not let the joke go. As consul he took the war away from Metellus, and in 100 BC, eight years after the sneer, he helped drive him into exile: revenge is a dish best served cold. When he finally spoke to the people as consul, the arrogance of the nobles was his theme (Bellum Iugurthinum 85.10-17)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 64)",
+    "field": "analysisIt",
+    "find": "La malattia della repubblica raggiunge anche i suoi uomini migliori.",
+    "replace": "La malattia della repubblica raggiunge anche i suoi uomini migliori.\n\n**Desiderio, ira e una battuta.** Sallustio dà a Mario due moventi, non uno: *cupidine atque ira*, il desiderio del consolato e l'ira contro Metello. E l'ira arriva in due tempi. Prima la lezione - non tutto è per tutti, accontentati della tua condizione - che dice a un uomo senza antenati consolari, senza dirlo del tutto, che il consolato non fa per lui. Poi, quando Mario insiste, la battuta sul figlio ventenne; ed è la battuta ad accenderlo, *quae res Marium ... vehementer accenderat*. Da quel momento fa tutto ciò che serve, *neque facto ullo neque dicto abstinere*, senza alcun riguardo per i mezzi. È la stessa indifferenza che Sallustio attribuiva a Catilina, a cui non importava nulla dei metodi pur di procurarsi il regno, *neque id quibus modis adsequeretur ... quicquam pensi habebat* (De Coniuratione Catilinae 5). Mario non è Catilina, ma su questo punto Sallustio li disegna con lo stesso tratto. E Mario non lasciò correre la battuta. Da console tolse la guerra a Metello, e nel 100 a.C., otto anni dopo il sarcasmo, contribuì a mandarlo in esilio: la vendetta è un piatto che va servito freddo. Quando finalmente parlò al popolo da console, la superbia dei nobili fu il suo tema (Bellum Iugurthinum 85.10-17)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 66-67)",
+    "field": "analysis",
+    "find": "among the bodies of the enemy (De Coniuratione Catilinae 61).",
+    "replace": "among the bodies of the enemy (De Coniuratione Catilinae 61).\n\n**Hospitality betrayed, a whole town in arms.** The massacre is shocking twice over. Morally, because it breaks *hospitium*, the bond between host and guest that the ancient world held sacred: the Roman officers were killed at the tables of the men who had invited them, on a holiday. And militarily, because the whole town turned on the garrison at once - the leading men planned it, the common people joined in, and the women and children fought from the roofs. Sallust's explanation includes a harsh judgement on a whole people: the Numidian crowd is *ingenio mobili, seditiosum atque discordiosum ... cupidum novarum rerum, quieti et otio adversum*, fickle, seditious and quarrelsome, eager for revolution, hostile to peace. Roman writers judged nations this way without embarrassment; the author of the Bellum Alexandrinum, very probably Hirtius, says that the Alexandrians, by nation and by nature, were the people best suited to treachery (Bellum Alexandrinum 7). And behind it all is the usual weapon: Jugurtha's money, tempting even the soldiers of the Roman garrisons."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 66-67)",
+    "field": "analysisIt",
+    "find": "fra i cadaveri dei nemici (De Coniuratione Catilinae 61).",
+    "replace": "fra i cadaveri dei nemici (De Coniuratione Catilinae 61).\n\n**L'ospitalità tradita, un'intera città in armi.** Il massacro è sconvolgente due volte. Sul piano morale, perché viola l'*hospitium*, il legame fra ospite e padrone di casa che il mondo antico considerava sacro: gli ufficiali romani furono uccisi alla tavola degli uomini che li avevano invitati, in un giorno di festa. E sul piano militare, perché l'intera città si rivoltò contro il presidio tutta insieme - i notabili lo organizzarono, il popolo si unì, e donne e bambini combatterono dai tetti. La spiegazione di Sallustio contiene un giudizio duro su un intero popolo: la folla numida è *ingenio mobili, seditiosum atque discordiosum ... cupidum novarum rerum, quieti et otio adversum*, volubile, sediziosa e litigiosa, avida di rivoluzioni, nemica della pace. Gli scrittori romani giudicavano così le nazioni senza alcun imbarazzo; l'autore del Bellum Alexandrinum, molto probabilmente Irzio, dice che gli Alessandrini, per stirpe e per natura, erano il popolo più incline al tradimento (Bellum Alexandrinum 7). E dietro a tutto c'è l'arma di sempre: il denaro di Giugurta, che tentava perfino i soldati dei presidi romani."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 71-72)",
+    "field": "analysis",
+    "find": "From here to the end of the book Jugurtha is a hunted man.",
+    "replace": "From here to the end of the book Jugurtha is a hunted man.\n\n**A scene from Plautus.** The story of the letter is pure comedy, and a Roman reader would have recognised the genre: a secret letter, a conspirator who falls asleep, a servant who reads what he should not, a race to the master, and a plotter who wakes up and swears he was just about to confess. Roman comedy ran on letters that reached the wrong hands; in the Bacchides the trickster slave Chrysalus wins his whole war with sealed tablets he calls his wooden horse (Bacchides, Act IV, Scene 9, vv. 925-945, in this app). And the plan very nearly worked, which is the real joke: Jugurtha came within one nap of being handed over to Rome by his own closest adviser, beaten by his own weapon - a bribe."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 71-72)",
+    "field": "analysisIt",
+    "find": "Da qui alla fine del libro Giugurta è un uomo braccato.",
+    "replace": "Da qui alla fine del libro Giugurta è un uomo braccato.\n\n**Una scena da Plauto.** La storia della lettera è pura commedia, e un lettore romano avrebbe riconosciuto il genere: una lettera segreta, un congiurato che si addormenta, un servitore che legge ciò che non dovrebbe, una corsa dal padrone, e un cospiratore che si sveglia e giura che stava proprio per confessare. La commedia romana viveva di lettere finite nelle mani sbagliate; nelle Bacchides lo schiavo imbroglione Crisalo vince tutta la sua guerra con delle tavolette sigillate che chiama il suo cavallo di legno (Bacchides, Act IV, Scene 9, vv. 925-945, in quest'app). E il piano ci andò vicinissimo, ed è questa la vera battuta: Giugurta fu a un pisolino dall'essere consegnato a Roma dal suo consigliere più vicino, battuto dalla sua stessa arma - una corruzione."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 73)",
+    "field": "analysis",
+    "find": "the disease Sallust had diagnosed in the digression on the parties.",
+    "replace": "the disease Sallust had diagnosed in the digression on the parties.\n\n**The tables turned.** The slander of chapter 64 did its work. And the reversal is complete: within a few years the quality that had kept new men out of the consulship becomes the one that lets a new man in, and the noble birth that had been Metellus's best asset becomes his handicap. It is not the nobility's first defeat in the book - the Mamilian law had already humbled it, *plebs nobilitate fusa* (chapter 65) - but it is the first time it loses the office it guarded most. The vote on the command opens the war's last phase: Marius's speech to the people follows (Bellum Iugurthinum 85.10-17), and under him the war ends with Jugurtha in chains. One thing should be clear, though: Sallust does not call the transfer a dangerous precedent here. That is hindsight, and Sallust's own Caesar had put the rule behind it in the Catilina: *omnia mala exempla ex rebus bonis orta sunt*, every bad precedent began from a good case (De Coniuratione Catilinae 51.20-31). Taking a command from a noble clique looked like justice in 107; in 88 the same device, used for Marius against Sulla, brought a Roman army to march on Rome."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 73)",
+    "field": "analysisIt",
+    "find": "la malattia che Sallustio aveva diagnosticato nella digressione sui partiti.",
+    "replace": "la malattia che Sallustio aveva diagnosticato nella digressione sui partiti.\n\n**Le parti rovesciate.** La calunnia del capitolo 64 ha fatto il suo lavoro. E il rovesciamento è completo: in pochi anni la qualità che teneva gli uomini nuovi fuori dal consolato diventa quella che ve ne fa entrare uno, e la nascita nobile che era stata la risorsa migliore di Metello diventa il suo svantaggio. Non è la prima sconfitta della nobiltà nel libro - la legge Mamilia l'aveva già umiliata, *plebs nobilitate fusa* (capitolo 65) - ma è la prima volta che perde la carica che custodiva di più. Il voto sul comando apre l'ultima fase della guerra: segue il discorso di Mario al popolo (Bellum Iugurthinum 85.10-17), e sotto di lui la guerra finisce con Giugurta in catene. Una cosa però va chiarita: qui Sallustio non chiama il passaggio di comando un precedente pericoloso. È il senno di poi, e il Cesare dello stesso Sallustio aveva enunciato la regola nel Catilina: *omnia mala exempla ex rebus bonis orta sunt*, ogni cattivo precedente è nato da un caso buono (De Coniuratione Catilinae 51.20-31). Togliere un comando a una consorteria nobiliare sembrava giustizia nel 107; nell'88 lo stesso espediente, usato per Mario contro Silla, portò un esercito romano a marciare su Roma."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 79)",
+    "field": "analysis",
+    "find": "he lets the reader set the story beside everything that came before it.",
+    "replace": "he lets the reader set the story beside everything that came before it.\n\n**A hidden moral.** The moral Sallust does not state is plain once the story is set beside the rest of the book. In a war where the leading men on both sides are corrupt - Jugurtha, who buys everyone, and the Roman senate with its bought consuls, tribunes and commanders - the one example of men who give their lives for their country comes from Carthage, the enemy whose destruction, in Sallust's own account, let corruption loose in Rome (Bellum Iugurthinum 41). Almost every major figure of the monograph has his flaw: Jugurtha his crimes, Scaurus his greed, Metellus his arrogance, Marius his ambition. Memmius, the tribune who stood up to the bought nobility, comes closest to a clean portrait, and even he appears only through one speech and one assembly. The Philaeni have no flaw because they have no story but this one: they are what virtue looks like when Sallust has to borrow it from abroad."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 79)",
+    "field": "analysisIt",
+    "find": "lascia che sia il lettore ad affiancare la storia a tutto ciò che è venuto prima.",
+    "replace": "lascia che sia il lettore ad affiancare la storia a tutto ciò che è venuto prima.\n\n**Una morale nascosta.** La morale che Sallustio non enuncia è chiara non appena si affianca la storia al resto del libro. In una guerra in cui gli uomini al vertice di entrambe le parti sono corrotti - Giugurta, che compra tutti, e il senato romano con i suoi consoli, tribuni e comandanti comprati - l'unico esempio di uomini che danno la vita per la patria viene da Cartagine, il nemico la cui distruzione, nel racconto dello stesso Sallustio, scatenò la corruzione a Roma (Bellum Iugurthinum 41). Quasi ogni figura importante della monografia ha il suo difetto: Giugurta i suoi delitti, Scauro la sua avidità, Metello la sua superbia, Mario la sua ambizione. Memmio, il tribuno che tenne testa alla nobiltà comprata, è quello che si avvicina di più a un ritratto senza macchia, e anche lui compare solo attraverso un discorso e un'assemblea. I Fileni non hanno difetti perché non hanno altra storia che questa: sono l'aspetto che la virtù assume quando Sallustio deve prenderla in prestito dall'estero."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 85.10-17)",
+    "field": "analysis",
+    "find": "and shut out of the consulship by a nobility that passed it from hand to hand (Bellum Iugurthinum 63).",
+    "replace": "and shut out of the consulship by a nobility that passed it from hand to hand (Bellum Iugurthinum 63).\n\n**The right order and the wrong one.** The heart of the attack is a matter of order. The nobles get the command first and learn the job afterwards: once elected consul, they start reading their ancestors' records and the Greek manuals - *praeposteri homines*, men who put last what should come first. Marius claims to have done it the right way round: he learned war *militando*, by serving in it, and only then asked for the command. It is not an empty boast. He had served at Numantia under Scipio Aemilianus as a young man, won the military tribunate on his record, and spent two years as Metellus's legate in this very war. Note that it was his service that taught him, not his class. His family was equestrian - wealthy, but with no senators in it - and that was exactly what kept the consulship closed to him.\n\n**The man behind the speech.** But the speech is also a performance. Marius presents himself as a man with nothing to hide: deeds against words, scars against masks, merit against birth. The reader of the earlier chapters knows better. Sallust has shown him driven by *cupido atque ira*, desire and anger, slandering his commander to the traders of Utica and loosening his soldiers' discipline to win their votes (Bellum Iugurthinum 64); he has shown the tribunes and the slander behind his election (Bellum Iugurthinum 73); and the portrait warned that *postea ambitione praeceps datus est*, later he was driven headlong by ambition (Bellum Iugurthinum 63). Everything Marius says about the nobles is true, and Sallust lets him say it brilliantly. What he leaves out about himself is the other half of the picture, and Sallust has made sure the reader already has it."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 85.10-17)",
+    "field": "analysisIt",
+    "find": "ed escluso dal consolato da una nobiltà che se lo passava di mano in mano (Bellum Iugurthinum 63).",
+    "replace": "ed escluso dal consolato da una nobiltà che se lo passava di mano in mano (Bellum Iugurthinum 63).\n\n**L'ordine giusto e quello sbagliato.** Il cuore dell'attacco è una questione di ordine. I nobili ottengono prima il comando e imparano il mestiere dopo: una volta eletti consoli, cominciano a leggere le memorie degli antenati e i manuali greci - *praeposteri homines*, uomini che mettono per ultimo ciò che dovrebbe venire per primo. Mario sostiene di aver fatto il contrario, nell'ordine giusto: ha imparato la guerra *militando*, facendola, e solo dopo ha chiesto il comando. Non è un vanto vuoto. Aveva servito a Numanzia sotto Scipione Emiliano da giovane, aveva ottenuto il tribunato militare grazie al suo stato di servizio, e aveva passato due anni come legato di Metello proprio in questa guerra. Si noti che a formarlo fu il servizio, non la classe. La sua famiglia era equestre - benestante, ma senza senatori - ed era proprio questo a tenergli chiuso il consolato.\n\n**L'uomo dietro il discorso.** Ma il discorso è anche una recita. Mario si presenta come un uomo che non ha nulla da nascondere: i fatti contro le parole, le cicatrici contro le maschere, il merito contro la nascita. Il lettore dei capitoli precedenti sa come stanno le cose. Sallustio lo ha mostrato spinto da *cupido atque ira*, dal desiderio e dall'ira, mentre calunniava il suo comandante presso i mercanti di Utica e allentava la disciplina dei soldati per guadagnarne i voti (Bellum Iugurthinum 64); ha mostrato i tribuni e la calunnia dietro la sua elezione (Bellum Iugurthinum 73); e il ritratto avvertiva che *postea ambitione praeceps datus est*, in seguito fu trascinato a precipizio dall'ambizione (Bellum Iugurthinum 63). Tutto ciò che Mario dice dei nobili è vero, e Sallustio gli lascia dirlo in modo brillante. Ciò che tace di se stesso è l'altra metà del quadro, e Sallustio ha fatto in modo che il lettore ce l'abbia già."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 5)",
+    "field": "analysis",
+    "find": "able to bear neither danger nor toil (Bellum Iugurthinum 44).",
+    "replace": "able to bear neither danger nor toil (Bellum Iugurthinum 44). And Sallust draws Marius, burning with desire and anger after Metellus's sneer, with the same indifference to the means: he held back from no word and no act, as long as it would win him favour (Bellum Iugurthinum 64)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 5)",
+    "field": "analysisIt",
+    "find": "incapace di sopportare il pericolo e la fatica (Bellum Iugurthinum 44).",
+    "replace": "incapace di sopportare il pericolo e la fatica (Bellum Iugurthinum 44). E Sallustio disegna Mario, acceso dal desiderio e dall'ira dopo il sarcasmo di Metello, con la stessa indifferenza per i mezzi: non si asteneva da nessuna parola né da nessun atto, purché gli procurasse favore (Bellum Iugurthinum 64)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 51.20-31)",
+    "field": "analysis",
+    "find": "since by his own account death would be a release, and life in chains is not.",
+    "replace": "since by his own account death would be a release, and life in chains is not. The Iugurtha shows one such precedent being born: in 107 BC the people took the African command from Metellus and gave it to Marius, and in 88 the same device, used against Sulla, ended with a Roman army marching on Rome (Bellum Iugurthinum 73)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 51.20-31)",
+    "field": "analysisIt",
+    "find": "perché a suo dire la morte sarebbe una liberazione, e la vita in catene no.",
+    "replace": "perché a suo dire la morte sarebbe una liberazione, e la vita in catene no. Il Bellum Iugurthinum mostra la nascita di uno di questi precedenti: nel 107 a.C. il popolo tolse il comando africano a Metello e lo diede a Mario, e nell'88 lo stesso espediente, usato contro Silla, finì con un esercito romano in marcia su Roma (Bellum Iugurthinum 73)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 41)",
+    "field": "analysis",
+    "find": "and so it carries the larger share.",
+    "replace": "and so it carries the larger share. And when Sallust needs an example of men who died for their country, he borrows it from Carthage itself (Bellum Iugurthinum 79)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 41)",
+    "field": "analysisIt",
+    "find": "e per questo porta la parte maggiore.",
+    "replace": "e per questo porta la parte maggiore. E quando Sallustio ha bisogno di un esempio di uomini morti per la patria, lo prende in prestito dalla stessa Cartagine (Bellum Iugurthinum 79)."
+  }
+]

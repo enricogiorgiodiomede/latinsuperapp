@@ -19,6 +19,7 @@
           'Then Marius is elected consul, the first new man in many years, and the people vote him the war over the senate\'s head; and Sallust stops for a legend: two Carthaginian brothers who let themselves be buried alive to fix their country\'s border.'
         ],
         changed: [
+          'The notes on Metellus\'s sneer, the massacre at Vaga, the letter on the pillow, Marius\'s election and the Philaeni were deepened from a reader\'s comments: the joke that turned Marius into Metellus\'s enemy, the sacred bond of hospitality broken at Vaga, the letter story as a scene from Roman comedy, the dangerous precedent of a command taken by popular vote, and the hidden moral of a book whose only patriots are Carthaginian. Marius\'s speech about his scars gained two paragraphs: the nobles who learn their job after getting it, and what the speech leaves out about Marius himself.',
           'The new notes are linked both ways to the passages that answer them: Catiline\'s sleepless guilty mind, Catiline found dead far from his own men, among the enemy, Cicero\'s Roman citizen flogged in Sicily, and Sallust\'s own map of the African coast, where the Altars of the Philaeni first appear.'
         ],
         deleted: [
@@ -31,6 +32,7 @@
           'Poi Mario viene eletto console, il primo uomo nuovo dopo molti anni, e il popolo gli affida la guerra scavalcando il senato; e Sallustio si ferma per una leggenda: due fratelli cartaginesi che si lasciarono seppellire vivi per fissare il confine della loro patria.'
         ],
         changed: [
+          'Le note sul sarcasmo di Metello, sul massacro di Vaga, sulla lettera sul cuscino, sull\'elezione di Mario e sui Fileni sono state approfondite a partire dai commenti di un lettore: la battuta che fece di Mario il nemico di Metello, il sacro vincolo dell\'ospitalità violato a Vaga, la storia della lettera come scena di commedia romana, il pericoloso precedente di un comando tolto con un voto popolare, e la morale nascosta di un libro i cui unici patrioti sono cartaginesi. Il discorso di Mario sulle sue cicatrici ha guadagnato due paragrafi: i nobili che imparano il mestiere dopo averlo ottenuto, e ciò che il discorso tace su Mario stesso.',
           'Le nuove note sono collegate in entrambe le direzioni ai passi che rispondono loro: la mente insonne e colpevole di Catilina, Catilina trovato morto lontano dai suoi, fra i nemici, il cittadino romano fustigato in Sicilia di Cicerone, e la carta della costa africana dello stesso Sallustio, dove compaiono per la prima volta gli Altari dei Fileni.'
         ],
         deleted: [

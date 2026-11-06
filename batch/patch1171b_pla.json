@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(Bacchides, Act IV, Scene 9, vv. 925-945)",
+    "field": "analysis",
+    "find": "deployed entirely for laughs.",
+    "replace": "deployed entirely for laughs. Sallust tells a story built on the same device, as history: a conspirator's letter left on a sleeping man's pillow, read by his servant and carried straight to the king (Bellum Iugurthinum 71-72, in this app)."
+  },
+  {
+    "cit": "(Bacchides, Act IV, Scene 9, vv. 925-945)",
+    "field": "analysisIt",
+    "find": "sfruttato interamente per far ridere.",
+    "replace": "sfruttato interamente per far ridere. Sallustio racconta una storia costruita sullo stesso espediente, ma come storia: la lettera di un congiurato lasciata sul cuscino di un uomo addormentato, letta dal suo servitore e portata dritta al re (Bellum Iugurthinum 71-72, in quest'app)."
+  }
+]

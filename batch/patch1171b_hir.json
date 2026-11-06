@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(Bellum Alexandrinum 7)",
+    "field": "analysis",
+    "find": "which is exactly why it is written with such confidence.",
+    "replace": "which is exactly why it is written with such confidence. Sallust passes a similar verdict on the Numidians of Vaga, who massacred a Roman garrison on a feast day: fickle, seditious, eager for revolution and hostile to peace (Bellum Iugurthinum 66-67, in this app)."
+  },
+  {
+    "cit": "(Bellum Alexandrinum 7)",
+    "field": "analysisIt",
+    "find": "ed è proprio per questo che è scritto con tanta sicurezza.",
+    "replace": "ed è proprio per questo che è scritto con tanta sicurezza. Sallustio pronuncia un verdetto simile sui Numidi di Vaga, che massacrarono un presidio romano in un giorno di festa: volubili, sediziosi, avidi di rivoluzioni e nemici della pace (Bellum Iugurthinum 66-67, in quest'app)."
+  }
+]

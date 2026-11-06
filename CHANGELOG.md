@@ -41,6 +41,29 @@ Verification: **457 verbatim, 0 mismatched** (452 + 5); check_context, lint_regi
 lint_translations report 0 for 1.16.11, check_sections nothing new; check_numbering 168/0, check_verses 60/0;
 `lint_markdown` clean. Bank **607**. Cache-bust: `?v=237` -> `?v=239` (238, then 239 for the release time).
 
+### Follow-up, 2026-11-06: the user's notes on Iugurtha 64-79, and Iug. 85.10-17
+
+The user's notes on this release are folded into the five analyses, English and Italian; no excerpt or
+translation changes.
+
+- **Iug. 64** - *Desire, anger and a joke*: two motives, the lecture and then the joke that set Marius on fire; no
+  scruple about the means, as Catiline in Cat. 5; the exile of Metellus in 100 BC. **Wired both ways with Cat. 5.**
+- **Iug. 66-67** - *Hospitality betrayed, a whole town in arms*: *hospitium* broken on a feast day; Sallust's
+  verdict on the Numidians beside the Bellum Alexandrinum's on the Alexandrians. **Wired both ways with BA 7.**
+- **Iug. 71-72** - *A scene from Plautus*: the letter story as comedy; Jugurtha nearly beaten by his own weapon.
+  **Wired both ways with Bacchides IV.9** (Chrysalus's sealed tablets as the wooden horse).
+- **Iug. 73** - *The tables turned*: the slander worked; not the nobility's first defeat (the Mamilian law) but its
+  first loss of the consulship; the precedent is hindsight, with Caesar's *omnia mala exempla* (Cat. 51.27).
+  **Wired both ways with Cat. 51.20-31 and Iug. 85.10-17.**
+- **Iug. 79** - *A hidden moral*: the one example of dying for one's country comes from Carthage; every major
+  figure has his flaw, Memmius coming closest to a clean portrait. **Wired both ways with Iug. 41.**
+- **Iug. 85.10-17** (the launch excerpt, rebuilt in v1.16.0) - two new paragraphs at the user's request: *The right
+  order and the wrong one* (*praeposteri homines*; Marius learned *militando*, from his service, not his class) and
+  *The man behind the speech* (the speech hides what chapters 63, 64 and 73 have shown). It now cites 64 and 73.
+
+Verification: **457 verbatim, 0 mismatched**; check_context unchanged at 156 (no new flags); lint_register and
+`lint_markdown` clean. Cache-bust: `?v=239` -> `?v=240`.
+
 ## [1.16.10] - 2026-11-04
 
 **THE PARTIES, THE GRACCHI, A ROTTEN ARMY, THE MUTHUL, AND MARIUS.** Five excerpts of the *Bellum Iugurthinum* -
