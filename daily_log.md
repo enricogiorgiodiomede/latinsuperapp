@@ -1633,3 +1633,21 @@ A full **Sallust** day on the app: two releases of the *Bellum Iugurthinum* (v1.
 **v1.16.9 -- *Iug.* 31.9-16, 31.21-29, 33-34, 35, 38 (23:53, `6b39a7e`).** Memmius's speech in two excerpts (31.9-16, 31.21-29), the bought tribune who silences Jugurtha (33-34), Massiva's murder and *urbem venalem* (35), and Aulus's army sent under the yoke (38). Wired both ways with *Cat.* 20.2-8, *De Amicitia* 20, *Cat.* 52.7-12, *Iug.* 8 and *De Bello Civili* II.42. Verify 447/0, bank 597, cache `?v=233`.
 
 **Progress:** App at **v1.16.9** (bank 597, verify 447/0, cache `?v=233`). Sallust at **51 of 70** (Catilina complete at 30, Iugurtha 21 of 40); v1.16.9 waits on the user's notes, and next is v1.16.10 (*Iug.* 41, 42, 44, 51, 63). Still outstanding: the rest of Sallust, the translation re-read in *Pro Caelio* and *De Oratore*, Catullus, and the Early Imperial Era draft.
+
+---
+
+## 2026-11-04
+
+*(End-of-day log, 23:55.)*
+
+Another **Sallust** day on the app, all on the *Bellum Iugurthinum*: two releases (v1.16.10 just after midnight, v1.16.11 at lunchtime), each preceded by a follow-up that folds the user's notes into the previous batch, plus the two docs commits that stamp the release times. Six commits, ten new excerpts.
+
+**v1.16.9 follow-up -- the user's notes on *Iug.* 31-38 (00:31, `7eced6b`).** Folded into the five analyses, in both languages: Sallust and Cicero on friendship among good men (31.9-16, now wired both ways with *De Amicitia* 64); impunity and the law failing (31.21-29); Memmius in the right and beaten by money (33-34); the one time money fails (35), with the cryptic closing sentence rewritten after the user's question; even the army bought (38). Cache `?v=234`.
+
+**v1.16.10 -- *Iug.* 41, 42, 44, 51, 63 (00:52, `532469f`).** The digression on the parties (41) and the Gracchi (42), Metellus's rotten army (44), the battle at the Muthul (51) and the portrait of Marius (63). Wired both ways with *Cat.* 5, 10, 11, 38, 58.8-21, 60, *Iug.* 85.10-17, *In Catilinam* I.3 and *In Pisonem* XIX; the *Iug.* 38.2 translation was made exact, and `tools/check_context.js` gained three lines. Verify 452/0, cache `?v=235`. A docs commit seconds later (`9250c05`) set the release time from the actual commit (04/11/2026, 00:52 CET).
+
+**v1.16.10 follow-up -- the user's notes on *Iug.* 41-63 (12:25, `5f7ff40`).** Folded into the five analyses: the road to oligarchy (41); honest men edged out, and *ad inceptum redeo* as in *Iug.* 4 (42); virtues turned into vices and the cure by work (44); brevity at its peak and the first battle Jugurtha cannot buy (51); the pattern of the new men (63). New links both ways: 42 <-> *Iug.* 4, 63 <-> *Cat.* 23 and *Cat.* 31.4-9. Verify 452/0, cache `?v=237`.
+
+**v1.16.11 -- *Iug.* 64, 66-67, 71-72, 73, 79 (12:42, `93d63ea`).** Metellus's sneer at Marius (64), the massacre at Vaga (66-67), the letter on the pillow and Jugurtha's sleepless fear (71-72), Marius elected consul (73) and the Philaeni (79). Wired both ways with *Cat.* 15, *Cat.* 61, *In Verrem* II.5.162-163, *Iug.* 19 and 42. **Tooling:** `tools/mark_sections.js` now accepts chapter-qualified overrides (e.g. "67.1") for `sectionFiles`, with a matching check in `tools/check_sections.js`. Verify 457/0, cache `?v=238`. The docs commit `27158e4` set the release time (04/11/2026, 12:42 CET).
+
+**Progress:** App at **v1.16.11** (verify 457/0, cache `?v=238`). Sallust at **61 of 70** (Catilina complete at 30, Iugurtha 31 of 40); v1.16.11 waits on the user's notes, and next is v1.16.12. Still outstanding: the last nine Sallust excerpts, the translation re-read in *Pro Caelio* and *De Oratore*, Catullus, and the Early Imperial Era draft.
