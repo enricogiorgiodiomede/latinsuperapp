@@ -34,7 +34,7 @@ against the numbered text so every excerpt opens and closes on a sentence.
 - **v1.16.9 (DONE, 5):** 31.9-16 · 31.21-29 · 33-34 (34 is 67 words) · ★35 · 38 (wired both ways: 31.9-16 <-> Cat. 20.2-8 and De Amicitia 20, 31.21-29 <-> Cat. 52.7-12, 35 <-> 8, 38 <-> BC II.42)
 - **v1.16.10 (DONE, 5):** 41 · 42 (the digression on the parties) · 44 · 51 (the Muthul) · 63 (Marius) (wired both ways: 41 <-> Cat. 10 and Cat. 38, 42 <-> In Cat. I.3, 44 <-> Cat. 5 and Cat. 11, 51 <-> Cat. 60 and Cat. 58.8-21, 63 <-> Iug. 85.10-17 and In Pisonem XIX; 44.5 *muniebatur* is a section override)
 - **v1.16.11 (DONE, 5):** 64 · 66-67 (67 is 105 words) · 71-72 (72 is 78 words) · 73 (stops before the damaged last sentence) · 79 (the Philaeni) (wired both ways: 71-72 <-> Cat. 15, 66-67 <-> Cat. 61 and In Verrem II.5.162-163, 79 <-> Iug. 19 and 42; internal 44 -> 64, 63 -> 64, 73; chapter-qualified overrides `"67.1"` in marks1171.json)
-- v1.16.12: ★85.29-37 (the second Marius excerpt) · 86 · 91 · 93 · ★95-96 (Marius and Sulla)
+- **v1.16.12 (DONE, 5):** ★85.29-37 (the second Marius excerpt) · 86 (117 words, alone) · 91 (Capsa) · 93 (the Ligurian) · ★95-96 (Sulla) (wired both ways: 85.29-37 <-> Pro Archia 14, Cat. 5, Iug. 4; 86 <-> BC I.7; 91 <-> DBG VIII.44 and Iug. 66-67; 93 <-> Iug. 1 and 63; 95-96 <-> Cat. 5, Cat. 11, Iug. 64; 85.10-17 -> 85.29-37)
 - v1.16.13: 101 · 102 · 113 · 114
 
 **SOURCE.** Latin from the Latin Library, `sall.1.html` (Catilina) and `sall.2.html` (Iugurtha), cached as

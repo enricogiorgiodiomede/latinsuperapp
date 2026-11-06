@@ -1,0 +1,8 @@
+{
+  "_comment": "v1.16.12 - Bellum Iugurthinum 85.29-37 (the second Marius excerpt), 86, 91, 93, 95-96. Sections from tools/xml_sections.js; 95-96 spans two chapters (sectionFiles).",
+  "iug.85b": ["sall.2", "Non possum fidei causa imagines", "quasi debitos a vobis repetit."],
+  "iug.86": ["sall.2", "Huiusce modi oratione habita", "audita animus tolerare nequiverat."],
+  "iug.91": ["sall.2", "Ceterum in itinere cottidie pecus", "neque beneficio neque metu coercitum."],
+  "iug.93": ["sall.2", "At Marius multis diebus", "ei negotio proximum diem constituit."],
+  "iug.95": ["sall.2", "Ceterum, dum ea res geritur", "Mario militibusque carissimus factus."]
+}

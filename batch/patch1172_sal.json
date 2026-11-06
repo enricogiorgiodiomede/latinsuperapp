@@ -1,0 +1,98 @@
+[
+  {
+    "cit": "(De Coniuratione Catilinae 5)",
+    "field": "analysis",
+    "find": "as long as it would win him favour (Bellum Iugurthinum 64).",
+    "replace": "as long as it would win him favour (Bellum Iugurthinum 64). Two more echoes in the Iugurtha: Marius's boast that he learned to bear winter and summer, hunger and toil is almost Catiline's list of endurance (Bellum Iugurthinum 85.29-37), and Sulla is given Catiline's gift, an unbelievable depth of mind for hiding his plans (Bellum Iugurthinum 95-96)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 5)",
+    "field": "analysisIt",
+    "find": "purché gli procurasse favore (Bellum Iugurthinum 64).",
+    "replace": "purché gli procurasse favore (Bellum Iugurthinum 64). Altri due echi nel Bellum Iugurthinum: il vanto di Mario di aver imparato a sopportare l'inverno e l'estate, la fame e la fatica è quasi l'elenco della resistenza di Catilina (Bellum Iugurthinum 85.29-37), e a Silla è dato il dono di Catilina, un'incredibile profondità d'ingegno nel nascondere i propri piani (Bellum Iugurthinum 95-96)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 11)",
+    "field": "analysis",
+    "find": "bought its bread by the day (Bellum Iugurthinum 44).",
+    "replace": "bought its bread by the day (Bellum Iugurthinum 44). Sallust's only full portrait of Sulla, as Marius's young quaestor in Africa, shows the same arts at their start: generous with money, making as many soldiers as possible his debtors (Bellum Iugurthinum 95-96)."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 11)",
+    "field": "analysisIt",
+    "find": "comprava il pane giorno per giorno (Bellum Iugurthinum 44).",
+    "replace": "comprava il pane giorno per giorno (Bellum Iugurthinum 44). L'unico ritratto completo di Silla in Sallustio, come giovane questore di Mario in Africa, mostra le stesse arti ai loro inizi: generoso di denaro, intento a rendersi debitori quanti più soldati possibile (Bellum Iugurthinum 95-96)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 1)",
+    "field": "analysis",
+    "find": "how much of that was fortune and how much his own choice.",
+    "replace": "how much of that was fortune and how much his own choice. The book's honest exception comes when Marius, stuck before a fortress, is saved by a Ligurian soldier hunting snails (Bellum Iugurthinum 93)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 1)",
+    "field": "analysisIt",
+    "find": "quanto di questo sia stato fortuna e quanto scelta sua.",
+    "replace": "quanto di questo sia stato fortuna e quanto scelta sua. L'eccezione onesta del libro arriva quando Mario, bloccato davanti a una fortezza, è salvato da un soldato ligure a caccia di lumache (Bellum Iugurthinum 93)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 4)",
+    "field": "analysis",
+    "find": "they have the masks, he has the deeds (Bellum Iugurthinum 85.10-17).",
+    "replace": "they have the masks, he has the deeds (Bellum Iugurthinum 85.10-17). In the second half of the speech he says it in five words, pointing to his scars: *hae sunt meae imagines*, these are my masks (Bellum Iugurthinum 85.29-37)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 4)",
+    "field": "analysisIt",
+    "find": "loro hanno le maschere, lui ha le imprese (Bellum Iugurthinum 85.10-17).",
+    "replace": "loro hanno le maschere, lui ha le imprese (Bellum Iugurthinum 85.10-17). Nella seconda metà del discorso lo dice in cinque parole, indicando le sue cicatrici: *hae sunt meae imagines*, queste sono le mie immagini (Bellum Iugurthinum 85.29-37)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 85.10-17)",
+    "field": "analysis",
+    "find": "and Sallust has made sure the reader already has it.",
+    "replace": "and Sallust has made sure the reader already has it. The second half of the speech, with the scars as ancestor masks, is in the next excerpt (Bellum Iugurthinum 85.29-37)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 85.10-17)",
+    "field": "analysisIt",
+    "find": "e Sallustio ha fatto in modo che il lettore ce l'abbia già.",
+    "replace": "e Sallustio ha fatto in modo che il lettore ce l'abbia già. La seconda metà del discorso, con le cicatrici come immagini degli antenati, è nel brano successivo (Bellum Iugurthinum 85.29-37)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 66-67)",
+    "field": "analysis",
+    "find": "tempting even the soldiers of the Roman garrisons.",
+    "replace": "tempting even the soldiers of the Roman garrisons. Sallust uses the same words, *mobile, infidum*, to excuse Marius's destruction of Capsa, a town that had already surrendered (Bellum Iugurthinum 91)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 66-67)",
+    "field": "analysisIt",
+    "find": "che tentava perfino i soldati dei presidi romani.",
+    "replace": "che tentava perfino i soldati dei presidi romani. Sallustio usa le stesse parole, *mobile, infidum*, per giustificare la distruzione di Capsa da parte di Mario, una città che si era già arresa (Bellum Iugurthinum 91)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 64)",
+    "field": "analysis",
+    "find": "the arrogance of the nobles was his theme (Bellum Iugurthinum 85.10-17).",
+    "replace": "the arrogance of the nobles was his theme (Bellum Iugurthinum 85.10-17). And when Sallust praises Marius's quaestor Sulla, he praises him for not doing what Marius had done here: damaging the reputation of his commander (Bellum Iugurthinum 95-96)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 64)",
+    "field": "analysisIt",
+    "find": "la superbia dei nobili fu il suo tema (Bellum Iugurthinum 85.10-17).",
+    "replace": "la superbia dei nobili fu il suo tema (Bellum Iugurthinum 85.10-17). E quando Sallustio loda Silla, il questore di Mario, lo loda proprio per non aver fatto ciò che Mario aveva fatto qui: danneggiare la reputazione del suo comandante (Bellum Iugurthinum 95-96)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 63)",
+    "field": "analysis",
+    "find": "and the election of 107 shows how it was beaten (Bellum Iugurthinum 73).",
+    "replace": "and the election of 107 shows how it was beaten (Bellum Iugurthinum 73). The soothsayer's advice to try his fortune is answered, two years later, in the oddest way: by a soldier hunting snails (Bellum Iugurthinum 93)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 63)",
+    "field": "analysisIt",
+    "find": "e l'elezione del 107 mostra come fu sconfitto (Bellum Iugurthinum 73).",
+    "replace": "e l'elezione del 107 mostra come fu sconfitto (Bellum Iugurthinum 73). Il consiglio dell'aruspice di mettere alla prova la fortuna trova risposta, due anni dopo, nel modo più strano: grazie a un soldato a caccia di lumache (Bellum Iugurthinum 93)."
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(Pro Archia 14)",
+    "field": "analysis",
+    "find": "but the memory of great deeds (Bellum Iugurthinum 4, in this app).",
+    "replace": "but the memory of great deeds (Bellum Iugurthinum 4, in this app). And Marius, Cicero's fellow townsman from Arpinum, gave the opposite answer to the same snobbery: he never learned Greek, since it had done nothing for the virtue of its teachers, and his scars were his masks (Bellum Iugurthinum 85.29-37, in this app)."
+  },
+  {
+    "cit": "(Pro Archia 14)",
+    "field": "analysisIt",
+    "find": "ma il ricordo delle grandi imprese (Bellum Iugurthinum 4, in quest'app).",
+    "replace": "ma il ricordo delle grandi imprese (Bellum Iugurthinum 4, in quest'app). E Mario, concittadino di Cicerone di Arpino, diede la risposta opposta allo stesso snobismo: non imparò mai il greco, perché non aveva giovato alla virtù di chi lo insegnava, e le sue cicatrici erano le sue maschere (Bellum Iugurthinum 85.29-37, in quest'app)."
+  }
+]

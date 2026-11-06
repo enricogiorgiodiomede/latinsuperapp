@@ -1,0 +1,4 @@
+[
+  {"cit": "(De Bello Civili I.7)", "field": "analysis", "find": "Marius had created sixty years earlier", "replace": "Marius had created nearly sixty years earlier"},
+  {"cit": "(De Bello Civili I.7)", "field": "analysisIt", "find": "Mario aveva creato sessant'anni prima", "replace": "Mario aveva creato quasi sessant'anni prima"}
+]

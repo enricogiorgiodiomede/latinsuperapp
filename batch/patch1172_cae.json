@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(De Bello Civili I.7)",
+    "field": "analysis",
+    "find": "which man in this story crossed a line first.",
+    "replace": "which man in this story crossed a line first. Behind the speech stands an army of a kind Marius had created nearly sixty years earlier, enrolling the propertyless poor who depended on their general for everything (Bellum Iugurthinum 86, in this app)."
+  },
+  {
+    "cit": "(De Bello Civili I.7)",
+    "field": "analysisIt",
+    "find": "quale dei due uomini abbia oltrepassato per primo un limite.",
+    "replace": "quale dei due uomini abbia oltrepassato per primo un limite. Dietro il discorso c'è un esercito del tipo che Mario aveva creato quasi sessant'anni prima, arruolando i poveri senza patrimonio che dipendevano in tutto dal loro generale (Bellum Iugurthinum 86, in quest'app)."
+  }
+]

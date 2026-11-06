@@ -12,6 +12,33 @@
 
   var VERSIONS = [
     {
+      v: '1.16.12', date: '06/11/2026', time: '00:00', tz: 'CET',
+      en: {
+        added: [
+          'FIVE MORE EXCERPTS OF THE JUGURTHINE WAR. The second half of Marius\'s speech - "these are my ancestor masks", he says of his scars - and the army he raised with it: volunteers from the poorest citizens, men with nothing to lose, for whom "everything that pays seems honourable". Then Marius\'s desert march on the town of Capsa, which surrendered and was burned anyway, and a fortress taken because a soldier gathering snails climbed higher than anyone thought possible.',
+          'And Sallust\'s portrait of the young Sulla, Marius\'s quaestor and future enemy: learned, pleasure-loving, eloquent, a master at hiding his plans, generous above all with money - and of what he did later, Sallust says he does not know whether he would be more ashamed or more sorry to speak.'
+        ],
+        changed: [
+          'The new notes are linked both ways to the passages that answer them: Cicero\'s defence of Greek literature in the Pro Archia, Caesar\'s speech to his soldiers before the Rubicon, the hands cut off at Uxellodunum in the Gallic War, Catiline\'s portrait, and the preface of the Jugurthine War on fortune and virtue.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'ALTRI CINQUE BRANI DELLA GUERRA GIUGURTINA. La seconda metà del discorso di Mario - "queste sono le mie immagini degli antenati", dice delle sue cicatrici - e l\'esercito che con esso arruolò: volontari fra i cittadini più poveri, uomini che non avevano nulla da perdere, per cui "tutto ciò che rende sembra onesto". Poi la marcia di Mario nel deserto contro la città di Capsa, che si arrese e fu bruciata comunque, e una fortezza presa perché un soldato che raccoglieva lumache salì più in alto di quanto chiunque credesse possibile.',
+          'E il ritratto che Sallustio fa del giovane Silla, questore di Mario e suo futuro nemico: colto, amante dei piaceri, eloquente, maestro nel nascondere i propri piani, generoso soprattutto di denaro - e di ciò che fece in seguito, Sallustio dice di non sapere se gli farebbe più vergogna o più pena parlarne.'
+        ],
+        changed: [
+          'Le nuove note sono collegate in entrambe le direzioni ai passi che rispondono loro: la difesa ciceroniana della letteratura greca nella Pro Archia, il discorso di Cesare ai soldati prima del Rubicone, le mani tagliate a Uxellodunum nella Guerra gallica, il ritratto di Catilina, e il proemio della Guerra giugurtina sulla fortuna e la virtù.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.16.11', date: '04/11/2026', time: '12:42', tz: 'CET',
       en: {
         added: [

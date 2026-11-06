@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(De Bello Gallico VIII.44)",
+    "field": "analysis",
+    "find": "has told you in advance why it was reasonable.",
+    "replace": "has told you in advance why it was reasonable. Sallust does the same for Marius at Capsa in 107 BC: he names the act as *contra ius belli*, against the law of war, and then explains why it was not greed or cruelty (Bellum Iugurthinum 91, in this app)."
+  },
+  {
+    "cit": "(De Bello Gallico VIII.44)",
+    "field": "analysisIt",
+    "find": "vi ha detto in anticipo perché fosse ragionevole.",
+    "replace": "vi ha detto in anticipo perché fosse ragionevole. Sallustio fa lo stesso per Mario a Capsa nel 107 a.C.: chiama l'atto *contra ius belli*, contro il diritto di guerra, e poi spiega perché non fu avidità né crudeltà (Bellum Iugurthinum 91, in quest'app)."
+  }
+]

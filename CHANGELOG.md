@@ -6,6 +6,37 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.16.12] - 2026-11-06
+
+**SCARS AS MASKS, THE MEN WITH NOTHING TO LOSE, CAPSA, A SNAIL-HUNTING SOLDIER, AND SULLA.** Five excerpts of the
+*Bellum Iugurthinum* - 85.29-37, 86, 91, 93, 95-96. Sallust is at 66 of 70 (Catilina 30, Iugurtha 36).
+
+### Added - Bellum Iugurthinum (5)
+| excerpt | what it is |
+|---|---|
+| 85.29-37 | the second half of Marius's speech: *hae sunt meae imagines*, no Greek, a soldier's curriculum, *dominum, non imperatorem*, honours claimed *quasi debitos* |
+| 86 | the *capite censi* enrolled, *non more maiorum*; to a man seeking power the neediest are the most useful, *omnia cum pretio honesta*; Metellus avoids his successor |
+| 91 | Capsa: water-skins from the cattle hides, three night marches, the gates seized - and the surrendered town burned, *contra ius belli*, with Sallust's excuse |
+| 93 | the fortress by the Muluccha: a Ligurian auxiliary gathering snails climbs to the top, *cupido difficilia faciendi*, and offers to lead the way |
+| 95-96 | Sulla's portrait: patrician of a faded house, *cupidus voluptatum sed gloriae cupidior*, *ad simulanda negotia altitudo ingeni incredibilis*, *fortior an felicior*, *pudeat an pigeat* - and how he won the soldiers |
+
+- **The user's notes are in from the start**: 85.29-37 builds on *the right order and the wrong one* and *the man
+  behind the speech* without repeating them; portraits as types (95-96); the soldiers bought by favours and
+  plunder (86, 96); Sallust not neutral, even when he excuses (91).
+- **Cross-references, wired both ways**: Iug. 85.29-37 <-> Pro Archia 14 (two new men from Arpinum, opposite
+  answers to the same snobbery), Cat. 5 and Iug. 4; Iug. 86 <-> De Bello Civili I.7; Iug. 91 <-> De Bello Gallico
+  VIII.44 (a historian excusing his general) and Iug. 66-67; Iug. 93 <-> Iug. 1 (fortune and virtue) and 63;
+  Iug. 95-96 <-> Cat. 5, Cat. 11 and Iug. 64 (the dig at Marius); Iug. 85.10-17 now points to its second half.
+- **Page quirks**, kept as printed and explained in the notes: 85.31 the speech's paragraph-opening quote removed
+  with `fix`; 85.37 *ipsa* (Perseus *ipse*); 93.3 *animum alio vertit* (Perseus *adorta*); 95.3 *[atque
+  doctissime]* and *luxuriose*. 86 (117 words) stands alone.
+
+Translation pass over the touched work: the five v1.16.11 Iugurtha excerpts re-read clause by clause, unchanged.
+
+Verification: **462 verbatim, 0 mismatched** (457 + 5); check_context, lint_register, lint_ablatives and
+lint_translations report 0 for 1.16.12, check_sections nothing new; check_numbering 168/0, check_verses 60/0;
+`lint_markdown` clean. Bank **612**. Cache-bust: `?v=240` -> `?v=241`.
+
 ## [1.16.11] - 2026-11-04
 
 **METELLUS'S SNEER, A MASSACRE AT VAGA, A LETTER ON A PILLOW, MARIUS ELECTED, AND THE PHILAENI.** Five

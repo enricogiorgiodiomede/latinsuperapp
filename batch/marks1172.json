@@ -1,0 +1,8 @@
+{
+  "_comment": "v1.16.12 - Iugurtha 85.29-37, 86, 91, 93, 95-96. Section files from tools/xml_sections.js; 95-96 spans two chapters (sectionFiles, chapter-qualified overrides).",
+  "(Bellum Iugurthinum 85.29-37)": { "author": "gaius-sallustius-crispus", "work": "bellum-iugurthinum", "sections": "phi0631.phi002.85.json", "range": "29-37", "overrides": { "31": "Non sunt composita" } },
+  "(Bellum Iugurthinum 86)": { "author": "gaius-sallustius-crispus", "work": "bellum-iugurthinum", "sections": "phi0631.phi002.86.json" },
+  "(Bellum Iugurthinum 91)": { "author": "gaius-sallustius-crispus", "work": "bellum-iugurthinum", "sections": "phi0631.phi002.91.json" },
+  "(Bellum Iugurthinum 93)": { "author": "gaius-sallustius-crispus", "work": "bellum-iugurthinum", "sections": "phi0631.phi002.93.json", "overrides": { "2": "Quae cum multos" } },
+  "(Bellum Iugurthinum 95-96)": { "author": "gaius-sallustius-crispus", "work": "bellum-iugurthinum", "sectionFiles": ["phi0631.phi002.95.json", "phi0631.phi002.96.json"], "overrides": { "95.4": "Atque illi felicissimo" } }
+}

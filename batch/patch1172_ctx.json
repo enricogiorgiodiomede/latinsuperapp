@@ -1,0 +1,7 @@
+[
+  {"cit": "(Bellum Iugurthinum 85.29-37)", "field": "analysis", "find": "*Doctoribus*: dative with *prodesse*.", "replace": "*Litteras Graecas*: Greek letters, Greek literature and learning. *Doctoribus*: dative with *prodesse*."},
+  {"cit": "(Bellum Iugurthinum 85.29-37)", "field": "analysisIt", "find": "*Doctoribus*: dativo con *prodesse*.", "replace": "*Litteras Graecas*: le lettere greche, la letteratura e la cultura greca. *Doctoribus*: dativo con *prodesse*."},
+  {"cit": "(Bellum Iugurthinum 86)", "field": "analysis", "find": "*Advehitur*: lands, historic present.", "replace": "*Uticam advehitur*: lands at Utica, the Roman base in Africa, historic present."},
+  {"cit": "(Bellum Iugurthinum 86)", "field": "analysisIt", "find": "*Advehitur*: approda, presente storico.", "replace": "*Uticam advehitur*: approda a Utica, la base romana in Africa, presente storico."},
+  {"cit": "(Bellum Iugurthinum 91)", "field": "italian", "find": "la città fu incendiata, i Numidi adulti uccisi, tutti gli altri venduti,", "replace": "la città fu incendiata, i Numidi adulti furono uccisi, tutti gli altri venduti,"}
+]
