@@ -35,7 +35,7 @@ Translation pass over the touched work: the five v1.16.11 Iugurtha excerpts re-r
 
 Verification: **462 verbatim, 0 mismatched** (457 + 5); check_context, lint_register, lint_ablatives and
 lint_translations report 0 for 1.16.12, check_sections nothing new; check_numbering 168/0, check_verses 60/0;
-`lint_markdown` clean. Bank **612**. Cache-bust: `?v=240` -> `?v=241`.
+`lint_markdown` clean. Bank **612**. Cache-bust: `?v=240` -> `?v=242` (241, then 242 for the release time).
 
 ## [1.16.11] - 2026-11-04
 

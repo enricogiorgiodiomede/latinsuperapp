@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.16.12', date: '06/11/2026', time: '00:00', tz: 'CET',
+      v: '1.16.12', date: '06/11/2026', time: '20:18', tz: 'CET',
       en: {
         added: [
           'FIVE MORE EXCERPTS OF THE JUGURTHINE WAR. The second half of Marius\'s speech - "these are my ancestor masks", he says of his scars - and the army he raised with it: volunteers from the poorest citizens, men with nothing to lose, for whom "everything that pays seems honourable". Then Marius\'s desert march on the town of Capsa, which surrendered and was burned anyway, and a fortress taken because a soldier gathering snails climbed higher than anyone thought possible.',
