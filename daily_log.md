@@ -1651,3 +1651,17 @@ Another **Sallust** day on the app, all on the *Bellum Iugurthinum*: two release
 **v1.16.11 -- *Iug.* 64, 66-67, 71-72, 73, 79 (12:42, `93d63ea`).** Metellus's sneer at Marius (64), the massacre at Vaga (66-67), the letter on the pillow and Jugurtha's sleepless fear (71-72), Marius elected consul (73) and the Philaeni (79). Wired both ways with *Cat.* 15, *Cat.* 61, *In Verrem* II.5.162-163, *Iug.* 19 and 42. **Tooling:** `tools/mark_sections.js` now accepts chapter-qualified overrides (e.g. "67.1") for `sectionFiles`, with a matching check in `tools/check_sections.js`. Verify 457/0, cache `?v=238`. The docs commit `27158e4` set the release time (04/11/2026, 12:42 CET).
 
 **Progress:** App at **v1.16.11** (verify 457/0, cache `?v=238`). Sallust at **61 of 70** (Catilina complete at 30, Iugurtha 31 of 40); v1.16.11 waits on the user's notes, and next is v1.16.12. Still outstanding: the last nine Sallust excerpts, the translation re-read in *Pro Caelio* and *De Oratore*, Catullus, and the Early Imperial Era draft.
+
+---
+
+## 2026-11-06
+
+*(End-of-day log, 23:55.)*
+
+An evening **Sallust** session on the *Bellum Iugurthinum*: the follow-up with the user's notes on the v1.16.11 batch, then v1.16.12 with five new excerpts, and the docs commit that stamps its release time. Three commits.
+
+**v1.16.11 follow-up -- the user's notes on *Iug.* 64-79 (20:05, `ccadb80`).** Folded into the five analyses: desire, anger and a joke (64), hospitality betrayed (66-67), a scene out of Plautus (71-72), the tables turned (73), a hidden moral (79). *Iug.* 85.10-17 also gained material on the right order and the wrong one, and on the man behind the speech. New links both ways: 64 <-> *Cat.* 5, 66-67 <-> *Bellum Alexandrinum* 7, 71-72 <-> *Bacchides* IV.9, 73 <-> *Cat.* 51.20-31 and *Iug.* 85.10-17, 79 <-> *Iug.* 41. Verify 457/0, cache `?v=240`.
+
+**v1.16.12 -- *Iug.* 85.29-37, 86, 91, 93, 95-96 (20:18, `4085b6c`).** Marius's scars as his ancestor masks (85.29-37), the enrolment of the *capite censi* (86), Capsa burned *contra ius belli* (91), the Ligurian and the snails (93) and the portrait of Sulla (95-96). Wired both ways with *Pro Archia* 14, *De Bello Civili* I.7, *De Bello Gallico* VIII.44, *Cat.* 5 and 11, and *Iug.* 1, 4, 63, 64, 66-67 and 85.10-17. Verify 462/0, cache `?v=241`. The docs commit `dfa4ee6` seconds later set the release time from the actual commit (06/11/2026, 20:18 CET), leaving the cache at `?v=242`.
+
+**Progress:** App at **v1.16.12** (verify 462/0, cache `?v=242`). Sallust at **66 of 70** (Catilina complete at 30, Iugurtha 36 of 40); v1.16.12 waits on the user's notes, and next is v1.16.13, the last batch (*Iug.* 101, 102, 113, 114). Still outstanding: the last four Sallust excerpts, the translation re-read in *Pro Caelio* and *De Oratore*, Catullus, and the Early Imperial Era draft.
