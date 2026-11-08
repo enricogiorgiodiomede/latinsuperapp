@@ -38,6 +38,24 @@ Verification: **466 verbatim, 0 mismatched** (462 + 4); check_context, lint_regi
 lint_translations report 0 for 1.16.13, check_sections nothing new; check_numbering 168/0, check_verses 60/0;
 `lint_markdown` clean. Bank **616**. Cache-bust: `?v=243` -> `?v=245` (244, then 245 for the release time).
 
+### Follow-up, 2026-11-08: the user's notes on Iugurtha 101-114 - the last of the Sallust expansion
+
+The user's notes on this release are folded into the four analyses, English and Italian; no excerpt or
+translation changes.
+
+- **Iug. 101** - *The two battles near Cirta*: the first saved by a dawn counter-attack, the second by Sulla's
+  return; the war decided by courage and discipline, the alliance of the kings starting to come apart.
+- **Iug. 102** - *Friends, not slaves - what Sulla meant* (*amicitia*, *socii et amici populi Romani*, Cicero's
+  "patronage rather than empire" in De Officiis II, and its limits: Carthage, Corinth, Numantia) and *Decided in
+  battle, ended by a sale*. **101 and 102 now cite each other.**
+- **Iug. 113** - *The seller sold*: the man who bought Rome sold like merchandise; Sulla learns the lesson.
+  **Wired both ways with Cat. 11.**
+- **Iug. 114** - *A dark ending*: the silence, and what every reader knew came next - 88, 87, 86, 83, Sulla's
+  dictatorship, then Caesar.
+
+Verification: **466 verbatim, 0 mismatched**; check_context unchanged at 156 (0 for 1.16.13); lint_register and
+`lint_markdown` clean. Cache-bust: `?v=245` -> `?v=246`.
+
 ## [1.16.12] - 2026-11-06
 
 **SCARS AS MASKS, THE MEN WITH NOTHING TO LOSE, CAPSA, A SNAIL-HUNTING SOLDIER, AND SULLA.** Five excerpts of the

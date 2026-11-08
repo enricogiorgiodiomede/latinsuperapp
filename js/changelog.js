@@ -19,6 +19,7 @@
           'And the book\'s last chapter: two Roman armies destroyed by the Gauls, Marius elected consul again in his absence, his triumph, and the final sentence - at that time the hope and strength of the state rested on him alone.'
         ],
         changed: [
+          'The notes on the last battle, Sulla\'s speech, Jugurtha\'s capture and the ending were deepened from a reader\'s comments: how the war was really decided in two battles near Cirta, what Rome\'s policy of "friends, not slaves" meant and where it stopped, the irony of the man who bought Rome being sold himself, and the dark silence of the last page.',
           'The new notes are linked both ways to the passages that answer them, among them the Tullianum where the Catilinarians were strangled and where Jugurtha died, Catiline\'s guilty face, the battlefield that ends the Catilina, and the preface that the last sentence of the Jugurthine War answers.'
         ],
         deleted: [
@@ -31,6 +32,7 @@
           'E l\'ultimo capitolo del libro: due eserciti romani annientati dai Galli, Mario rieletto console in sua assenza, il suo trionfo, e la frase finale - in quel tempo la speranza e la forza dello stato poggiavano su di lui solo.'
         ],
         changed: [
+          'Le note sull\'ultima battaglia, sul discorso di Silla, sulla cattura di Giugurta e sul finale sono state approfondite a partire dai commenti di un lettore: come la guerra fu davvero decisa in due battaglie presso Cirta, che cosa significava la politica romana degli "amici, non schiavi" e dove si fermava, l\'ironia dell\'uomo che aveva comprato Roma venduto a sua volta, e il silenzio cupo dell\'ultima pagina.',
           'Le nuove note sono collegate in entrambe le direzioni ai passi che rispondono loro, fra cui il Tulliano dove furono strangolati i catilinari e dove morì Giugurta, il volto colpevole di Catilina, il campo di battaglia che chiude il Catilina, e il proemio a cui risponde l\'ultima frase della Guerra giugurtina.'
         ],
         deleted: [
