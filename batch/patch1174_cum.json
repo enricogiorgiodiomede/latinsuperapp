@@ -1,0 +1,4 @@
+[
+  {"cit": "(De Coniuratione Catilinae 20.2-8)", "field": "analysis", "find": "*quom benevolentia et caritate*", "replace": "*cum benevolentia et caritate*"},
+  {"cit": "(De Coniuratione Catilinae 20.2-8)", "field": "analysisIt", "find": "*quom benevolentia et caritate*", "replace": "*cum benevolentia et caritate*"}
+]

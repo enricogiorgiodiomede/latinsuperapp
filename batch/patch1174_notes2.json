@@ -1,0 +1,4 @@
+[
+  {"cit": "(De Coniuratione Catilinae 3.3-4.5)", "field": "analysis", "find": "*servilibus officiis* stands in apposition to both, and the comma the page prints after it does not change that.", "replace": "*servilibus officiis* stands in apposition to both."},
+  {"cit": "(De Coniuratione Catilinae 3.3-4.5)", "field": "analysisIt", "find": "*servilibus officiis* è apposizione di entrambi, e la virgola che la pagina stampa dopo non cambia la cosa.", "replace": "*servilibus officiis* è apposizione di entrambi."}
+]

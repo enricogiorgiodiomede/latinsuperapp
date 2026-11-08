@@ -60,8 +60,12 @@ function sectionsOf(xml, ch) {
   const out = [];
   for (let k = 1; k < parts.length; k += 2) {
     // <del> is an editor's deletion (Catilina 54.6 <del>ad</del>sequebatur):
-    // dropped, so the text reads as the edition prints it.
+    // dropped, so the text reads as the edition prints it. <add> is an editor's
+    // addition and often sits INSIDE a word (Iugurtha 38.9 ten<add>er</add>et,
+    // Catilina 55.2 postulabant<add>ur</add>): keep its text, drop the tags with
+    // no space, or the word comes out split (v1.16.14).
     const t = parts[k + 1].replace(/<note[\s\S]*?<\/note>/g, '').replace(/<del>[\s\S]*?<\/del>/g, '')
+      .replace(/<\/?add>/g, '')
       .replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
     out.push({ n: parts[k], text: t });
   }

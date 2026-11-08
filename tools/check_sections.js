@@ -144,12 +144,31 @@ function endsClosed(s) {
 // closes it on a full stop, or divides one long Latin period into two. In
 // each case the text on either side of the marker is the same text.
 const CLEARED = {
-  // Read and cleared 2026-11-04, Iugurtha 64. The Latin Library puts a full
-  // stop inside 64.4 (`militabat. Annos natus`), where the editions run one
-  // sentence; both translations keep it as one, and the grammar note says so.
-  '(Bellum Iugurthinum 64)': {
-    why: 'the source splits 64.4 with a stray full stop before Annos; both translations read one sentence',
-    sig: 'english 4: holds 3 sentences, the Latin holds 4 | italian 4: holds 3 sentences, the Latin holds 4' },
+  // Read and cleared 2026-11-08, v1.16.14: Sallust now comes from Perseus
+  // (Ahlberg), which ends some sentences with a colon or semicolon, or splits
+  // them differently, where the translations - written against the Latin
+  // Library punctuation - end on a full stop. Same words, different stops.
+  '(De Coniuratione Catilinae 11)': {
+    why: 'Perseus punctuation (colon/semicolon or a different sentence split) against the translation full stop; the text either side of the marker is the same',
+    sig: 'english 5: ends on a full stop, the Latin ends mid-period | english 5: holds 2 sentences, the Latin holds 1 | italian 5: ends on a full stop, the Latin ends mid-period | italian 5: holds 2 sentences, the Latin holds 1' },
+  '(De Coniuratione Catilinae 20.9-17)': {
+    why: 'Perseus punctuation (colon/semicolon or a different sentence split) against the translation full stop; the text either side of the marker is the same',
+    sig: 'english 16: holds 2 sentences, the Latin holds 1 | italian 16: holds 2 sentences, the Latin holds 1' },
+  '(De Coniuratione Catilinae 55)': {
+    why: 'Perseus punctuation (colon/semicolon or a different sentence split) against the translation full stop; the text either side of the marker is the same',
+    sig: 'english 3: ends on a full stop, the Latin ends mid-period | english 3: holds 1 sentence, the Latin holds 0 | italian 3: ends on a full stop, the Latin ends mid-period | italian 3: holds 1 sentence, the Latin holds 0' },
+  '(De Coniuratione Catilinae 61)': {
+    why: 'Perseus punctuation (colon/semicolon or a different sentence split) against the translation full stop; the text either side of the marker is the same',
+    sig: 'english 7: holds 1 sentence, the Latin holds 2 | italian 7: holds 1 sentence, the Latin holds 2' },
+  '(Bellum Iugurthinum 71-72)': {
+    why: 'Perseus punctuation (colon/semicolon or a different sentence split) against the translation full stop; the text either side of the marker is the same',
+    sig: 'english 5: holds 1 sentence, the Latin holds 2 | italian 5: holds 1 sentence, the Latin holds 2' },
+  '(Bellum Iugurthinum 79)': {
+    why: 'Perseus punctuation (colon/semicolon or a different sentence split) against the translation full stop; the text either side of the marker is the same',
+    sig: 'english 5: holds 2 sentences, the Latin holds 3 | italian 5: holds 2 sentences, the Latin holds 3' },
+  '(Bellum Iugurthinum 85.29-37)': {
+    why: 'Perseus punctuation (colon/semicolon or a different sentence split) against the translation full stop; the text either side of the marker is the same',
+    sig: 'english 32: holds 2 sentences, the Latin holds 1 | italian 32: holds 2 sentences, the Latin holds 1' },
   // Read and cleared 2026-09-16, Lucretius Book IV part 1. The Latin Library
   // prints a full stop at the end of v. 360 where the sense wants a comma, and
   // leaves v. 446 with no closing punctuation at all. Both notes say so.

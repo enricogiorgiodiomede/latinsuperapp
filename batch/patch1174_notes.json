@@ -1,0 +1,590 @@
+[
+  {
+    "cit": "(De Coniuratione Catilinae 10)",
+    "field": "analysis",
+    "find": "**A note on the text.** The Latin Library prints *primo imperi, deinde pecuniae cupido crevit*, power first and then money. The manuscripts have the two the other way round. Editors swap them because the next chapter begins by saying that ambition came before greed, and the app follows its source; a school edition may print the manuscripts' order.",
+    "replace": "**A note on the text.** The app prints the manuscripts' order, *primo pecuniae, deinde imperi cupido crevit*, money first and then power, as Ahlberg's edition does. Some editors swap the two, because the next chapter begins by saying that ambition came before greed, so a school edition may print *primo imperi, deinde pecuniae*."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 10)",
+    "field": "analysisIt",
+    "find": "**Una nota sul testo.** La Latin Library stampa *primo imperi, deinde pecuniae cupido crevit*, prima il potere e poi il denaro. I manoscritti hanno i due termini nell'ordine inverso. Gli editori li scambiano perché il capitolo successivo comincia dicendo che l'ambizione venne prima dell'avidità, e l'app segue la sua fonte; un'edizione scolastica può stampare l'ordine dei manoscritti.",
+    "replace": "**Una nota sul testo.** L'app stampa l'ordine dei manoscritti, *primo pecuniae, deinde imperi cupido crevit*, prima il denaro e poi il potere, come fa l'edizione di Ahlberg. Alcuni editori scambiano i due termini, perché il capitolo successivo comincia dicendo che l'ambizione venne prima dell'avidità, e quindi un'edizione scolastica può stampare *primo imperi, deinde pecuniae*."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 11)",
+    "field": "analysis",
+    "find": "*semper infinita, insatiabilis est, neque copia neque inopia minuitur*",
+    "replace": "*semper infinita et insatiabilis est, neque copia neque inopia minuitur*"
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 11)",
+    "field": "analysisIt",
+    "find": "*semper infinita, insatiabilis est, neque copia neque inopia minuitur*",
+    "replace": "*semper infinita et insatiabilis est, neque copia neque inopia minuitur*"
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 11)",
+    "field": "analysis",
+    "find": "*semper infinita, insatiabilis* (section 3)",
+    "replace": "*semper infinita et insatiabilis* (section 3)"
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 11)",
+    "field": "analysisIt",
+    "find": "*semper infinita, insatiabilis* (paragrafo 3)",
+    "replace": "*semper infinita et insatiabilis* (paragrafo 3)"
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 14)",
+    "field": "analysis",
+    "find": "*Molles etiam et fluxi*: *etiam* is temporal, \"still\"; some editions read *aetate*, \"soft with youth\".",
+    "replace": "*Molles et aetate fluxi*: soft and, because of their age, pliable; *aetate* is an ablative of cause, and some texts read *etiam*, \"still\"."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 14)",
+    "field": "analysisIt",
+    "find": "*Molles etiam et fluxi*: *etiam* è temporale, \"ancora\"; alcune edizioni leggono *aetate*, \"molli per l'età\".",
+    "replace": "*Molles et aetate fluxi*: molli e, per l'età, malleabili; *aetate* è ablativo di causa, e alcuni testi leggono *etiam*, \"ancora\"."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 15)",
+    "field": "analysis",
+    "find": "**A note on the text.** The Latin Library prints the number 4 twice, before *Namque* and again before *Igitur*. The second is section 5 in every edition, and the app numbers it so in all three columns; the Latin words are untouched. The page also modernises three words a critical edition prints in the old spelling: *color* for *colos*, *exsanguis* for *exanguis*, *vultu* for *voltu*.",
+    "replace": "**A note on the spelling.** The Latin follows Ahlberg's edition, which keeps three old forms in this chapter: *colos* for *color*, *exanguis* for *exsanguis*, *voltu* for *vultu*."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 15)",
+    "field": "analysisIt",
+    "find": "**Una nota sul testo.** La Latin Library stampa il numero 4 due volte, prima di *Namque* e di nuovo prima di *Igitur*. Il secondo è il paragrafo 5 in tutte le edizioni, e l'app lo numera così in tutte e tre le colonne; le parole latine non sono toccate. La pagina modernizza inoltre tre parole che un'edizione critica stampa nella grafia antica: *color* per *colos*, *exsanguis* per *exanguis*, *vultu* per *voltu*.",
+    "replace": "**Una nota sulla grafia.** Il latino segue l'edizione di Ahlberg, che in questo capitolo conserva tre forme antiche: *colos* per *color*, *exanguis* per *exsanguis*, *voltu* per *vultu*."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 22)",
+    "field": "analysis",
+    "find": "**A note on the text.** One word is uncertain. The manuscripts give *dictitare*, \"they kept saying\", which does not sit easily in the sentence, and editors mark it with daggers (†) as probably corrupt. The Latin Library prints the daggers as plus signs, *+dictitare+*; the app prints them as daggers, and the change is declared on the excerpt. The translation takes the word as it stands, \"so they kept saying\".",
+    "replace": "**A note on the text.** One word is uncertain. The manuscripts give *dictitare*, \"they kept saying\", which does not sit easily in the sentence; some editors print it between daggers (†) as probably corrupt. Ahlberg, whose text the app prints, replaces it with *ita*, *atque eo ita fecisse*, \"and that he had done so for this reason\", and the translation follows him."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 22)",
+    "field": "analysisIt",
+    "find": "**Una nota sul testo.** Una parola è incerta. I manoscritti danno *dictitare*, \"ripetevano\", che non si inserisce bene nella frase, e gli editori la segnano con le croci (†) come probabilmente corrotta. La Latin Library stampa le croci come segni più, *+dictitare+*; l'app le stampa come croci, e la modifica è dichiarata sul brano. La traduzione prende la parola così com'è, \"così ripetevano\".",
+    "replace": "**Una nota sul testo.** Una parola è incerta. I manoscritti danno *dictitare*, \"ripetevano\", che non si inserisce bene nella frase; alcuni editori la stampano fra croci (†) come probabilmente corrotta. Ahlberg, di cui l'app stampa il testo, la sostituisce con *ita*, *atque eo ita fecisse*, \"e che lo aveva fatto per questo motivo\", e la traduzione segue lui."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 25)",
+    "field": "analysis",
+    "find": "*Conmiserat*: the page's spelling of *commiserat*, with the prefix unassimilated.",
+    "replace": "*Commiserat*: had committed."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 25)",
+    "field": "analysisIt",
+    "find": "*Conmiserat*: la grafia della pagina per *commiserat*, con il prefisso non assimilato.",
+    "replace": "*Commiserat*: aveva commesso."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 33)",
+    "field": "analysis",
+    "find": "*expers* takes the genitive *patriae* and, here, also the ablatives *fama atque fortunis*, a construction it allows.",
+    "replace": "*expers* takes the ablative here, *patria* and *fama atque fortunis*, a construction it allows beside the genitive."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 33)",
+    "field": "analysisIt",
+    "find": "*expers* regge il genitivo *patriae*, mentre *fama atque fortunis* sono ablativi, costruzione che *expers* ammette anch'essa.",
+    "replace": "*expers* regge qui l'ablativo, *patria* e *fama atque fortunis*, costruzione che ammette accanto al genitivo."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 51.20-31)",
+    "field": "analysis",
+    "find": "*Neglegeris*: perfect subjunctive in a *cum* clause; most editions print *neglexeris*, and the page's form comes from an old perfect *neglegi* that the ancient grammarians knew.",
+    "replace": "*Neglexeris*: perfect subjunctive in a *quom* clause; some texts print *neglegeris*, from an old perfect *neglegi* that the ancient grammarians knew."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 51.20-31)",
+    "field": "analysisIt",
+    "find": "*Neglegeris*: congiuntivo perfetto in una proposizione con *cum*; la maggior parte delle edizioni stampa *neglexeris*, e la forma della pagina viene da un antico perfetto *neglegi* che i grammatici antichi conoscevano.",
+    "replace": "*Neglexeris*: congiuntivo perfetto in una proposizione con *quom*; alcuni testi stampano *neglegeris*, da un antico perfetto *neglegi* che i grammatici antichi conoscevano."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 55)",
+    "field": "analysis",
+    "find": "**A note on the text.** The page prints *tresviros, quae supplicium postulabat, parare iubet*: he orders the triumvirs to prepare what the execution required, with *quae* a neuter plural and *supplicium* the subject of *postulabat*. Most modern editions read *quae ad supplicium postulabantur*, what was required for the execution. The sense is the same, and the app keeps the page.",
+    "replace": "**A note on the text.** The manuscripts are uncertain here. The app prints Ahlberg's *tresviros quae ad supplicium postulabantur parare iubet*, he orders the triumvirs to prepare what was required for the execution, with *ad* and the ending *-ur* supplied by the editor. Some texts print *quae supplicium postulabat*, what the execution required, with *supplicium* as the subject. The sense is the same."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 55)",
+    "field": "analysisIt",
+    "find": "**Una nota sul testo.** La pagina stampa *tresviros, quae supplicium postulabat, parare iubet*: ordina ai triumviri di preparare ciò che il supplizio richiedeva, con *quae* neutro plurale e *supplicium* soggetto di *postulabat*. La maggior parte delle edizioni moderne legge *quae ad supplicium postulabantur*, ciò che era richiesto per il supplizio. Il senso è lo stesso, e l'app conserva la pagina.",
+    "replace": "**Una nota sul testo.** Qui i manoscritti sono incerti. L'app stampa il testo di Ahlberg, *tresviros quae ad supplicium postulabantur parare iubet*, ordina ai triumviri di preparare ciò che era richiesto per il supplizio, con *ad* e la desinenza *-ur* integrati dall'editore. Alcuni testi stampano *quae supplicium postulabat*, ciò che il supplizio richiedeva, con *supplicium* come soggetto. Il senso è lo stesso."
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 58.8-21)",
+    "field": "analysis",
+    "find": "*nos pro patria, pro libertate, pro vita certamus, illis supervacaneum est pugnare pro potentia paucorum*",
+    "replace": "*nos pro patria, pro libertate, pro vita certamus, illis supervacuaneum est pugnare pro potentia paucorum*"
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 58.8-21)",
+    "field": "analysisIt",
+    "find": "*nos pro patria, pro libertate, pro vita certamus, illis supervacaneum est pugnare pro potentia paucorum*",
+    "replace": "*nos pro patria, pro libertate, pro vita certamus, illis supervacuaneum est pugnare pro potentia paucorum*"
+  },
+  {
+    "cit": "(Bellum Iugurthinum 1)",
+    "field": "analysis",
+    "find": "**A warning about spelling.** The page prints this book in modernised spelling - *libidine*, *cuiquam* - where the editions keep Sallust's archaic *lubidine* and *quoiquam*. The app follows its source, so the archaism of the Iugurtha shows less here than in the Catilina; it lives in the vocabulary and the syntax (*pessum datus*, *diffluxere*, *grassatur*), not in the spelling.",
+    "replace": "**Sallust's spelling.** The Latin follows Ahlberg's edition, which keeps Sallust's archaic spelling, *lubidine* for *libidine*, *quoiquam* for *cuiquam*, as a school edition does. The archaism lives in the vocabulary and the syntax too (*pessum datus*, *diffluxere*, *grassatur*)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 1)",
+    "field": "analysisIt",
+    "find": "**Un avvertimento sulla grafia.** La pagina stampa questo libro con la grafia modernizzata - *libidine*, *cuiquam* - dove le edizioni conservano gli arcaici *lubidine* e *quoiquam* di Sallustio. L'app segue la propria fonte, e quindi l'arcaismo del Bellum Iugurthinum si vede meno qui che nel Catilina; vive nel lessico e nella sintassi (*pessum datus*, *diffluxere*, *grassatur*), non nella grafia.",
+    "replace": "**La grafia di Sallustio.** Il latino segue l'edizione di Ahlberg, che conserva la grafia arcaica di Sallustio, *lubidine* per *libidine*, *quoiquam* per *cuiquam*, come fa un'edizione scolastica. L'arcaismo vive anche nel lessico e nella sintassi (*pessum datus*, *diffluxere*, *grassatur*)."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 4)",
+    "field": "analysis",
+    "find": "**A warning about spelling.** The page modernises this chapter heavily: *cuius*, *existimet*, *maxima*, *Maximum*, *vehementissime*, where the editions print Sallust's *quoius*, *existumet*, *maxuma*, *Maxumum*, *vehementissume*. The app follows its source, and a student comparing a school edition will find the same words in older dress. One difference is more than spelling: in section 4 the page prints *adeptus sum*, where the editions have *adeptus sim*, the subjunctive an indirect question requires. Read it as *sim*.",
+    "replace": "**Sallust's spelling.** The chapter is full of the archaic forms Sallust is known for, as Ahlberg's edition prints them: *quoius* for *cuius*, *existumet* for *existimet*, *maxuma* and *Maxumum* for *maxima* and *Maximum*, *vehementissume* for *vehementissime*. And in section 4 *adeptus sim* is a subjunctive, as an indirect question requires."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 4)",
+    "field": "analysisIt",
+    "find": "**Un avvertimento sulla grafia.** La pagina modernizza molto questo capitolo: *cuius*, *existimet*, *maxima*, *Maximum*, *vehementissime*, dove le edizioni stampano i sallustiani *quoius*, *existumet*, *maxuma*, *Maxumum*, *vehementissume*. L'app segue la propria fonte, e uno studente che la confronti con un'edizione scolastica troverà le stesse parole in una veste più antica. Una differenza è più che grafica: al paragrafo 4 la pagina stampa *adeptus sum*, dove le edizioni hanno *adeptus sim*, il congiuntivo richiesto da un'interrogativa indiretta. Va letto *sim*.",
+    "replace": "**La grafia di Sallustio.** Il capitolo è pieno delle forme arcaiche per cui Sallustio è noto, così come le stampa l'edizione di Ahlberg: *quoius* per *cuius*, *existumet* per *existimet*, *maxuma* e *Maxumum* per *maxima* e *Maximum*, *vehementissume* per *vehementissime*. E al paragrafo 4 *adeptus sim* è un congiuntivo, come richiede un'interrogativa indiretta."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 85.10-17)",
+    "field": "analysis",
+    "find": "**A warning about spelling.** The text printed here, from the Latin Library, modernises several forms in this chapter: *aegerrime*, *vestris*, *existimate*, *fortissimum*, *optimos*. A critical edition prints *aegerrume*, *vostris*, *existumate*, *fortissumum*, *optumos*, the old-fashioned spellings Sallust is famous for and which the excerpts of the Catilina in this app keep. If your school edition disagrees with this page on those words, that is why.",
+    "replace": "**Sallust's spelling.** The Latin follows Ahlberg's edition, with the old-fashioned spellings Sallust is famous for: *aegerrume*, *vostris*, *existumate*, *fortissumum*, *optumos*, where modern Latin writes *aegerrime*, *vestris*, *existimate*, *fortissimum*, *optimos*. A school edition prints the same old forms."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 85.10-17)",
+    "field": "analysisIt",
+    "find": "**Un avvertimento sulla grafia.** Il testo stampato qui, dalla Latin Library, modernizza in questo capitolo parecchie forme: *aegerrime*, *vestris*, *existimate*, *fortissimum*, *optimos*. Un'edizione critica stampa *aegerrume*, *vostris*, *existumate*, *fortissumum*, *optumos*, le grafie antiquate per cui Sallustio è famoso e che i brani del Catilina in questa app conservano. Se la vostra edizione scolastica non coincide con questa pagina su quelle parole, il motivo è questo.",
+    "replace": "**La grafia di Sallustio.** Il latino segue l'edizione di Ahlberg, con le grafie antiquate per cui Sallustio è famoso: *aegerrume*, *vostris*, *existumate*, *fortissumum*, *optumos*, dove il latino moderno scrive *aegerrime*, *vestris*, *existimate*, *fortissimum*, *optimos*. Un'edizione scolastica stampa le stesse forme antiche."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 6)",
+    "field": "analysis",
+    "find": " *[et]*: the brackets mark a word the editors suspect; kept as the source prints it.",
+    "replace": ""
+  },
+  {
+    "cit": "(Bellum Iugurthinum 6)",
+    "field": "analysisIt",
+    "find": " *[et]*: le parentesi segnano una parola che gli editori sospettano; conservata come la stampa la fonte.",
+    "replace": ""
+  },
+  {
+    "cit": "(Bellum Iugurthinum 14.20-25)",
+    "field": "analysis",
+    "find": "**A note on the text.** In section 24 the page prints *neu vivere contemptus viderer*, and I might not seem contemptible for living on; most editions read *neu iure contemptus viderer*, and I might not seem justly despised. The sense is close, and the app keeps the page.",
+    "replace": "**A note on the text.** In section 24 the manuscripts are divided. The app prints Ahlberg's *neu iure contemptus viderer*, and I might not seem justly despised; some texts read *neu vivere contemptus viderer*, and I might not seem contemptible for living on. The sense is close."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 14.20-25)",
+    "field": "analysisIt",
+    "find": "**Una nota sul testo.** Al paragrafo 24 la pagina stampa *neu vivere contemptus viderer*, e non sembrassi spregevole per continuare a vivere; la maggior parte delle edizioni legge *neu iure contemptus viderer*, e non sembrassi giustamente disprezzato. Il senso è vicino, e l'app conserva la pagina.",
+    "replace": "**Una nota sul testo.** Al paragrafo 24 i manoscritti si dividono. L'app stampa il testo di Ahlberg, *neu iure contemptus viderer*, e non sembrassi giustamente disprezzato; alcuni testi leggono *neu vivere contemptus viderer*, e non sembrassi spregevole per continuare a vivere. Il senso è vicino."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 18)",
+    "field": "analysis",
+    "find": "called themselves - in the editions - *Nomadas*, from the Greek *nomades*, wanderers, which is where the name of the *Numidae* comes from; the page prints *Numidas*, which keeps the sense but hides the pun.",
+    "replace": "called themselves *Nomadas*, from the Greek *nomades*, wanderers, which is where the name of the *Numidae* comes from - a pun some texts hide by printing *Numidas*."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 18)",
+    "field": "analysisIt",
+    "find": "chiamarono se stessi - nelle edizioni - *Nomadas*, dal greco *nomades*, i vaganti, da cui viene il nome dei *Numidae*; la pagina stampa *Numidas*, che conserva il senso ma nasconde il gioco di parole.",
+    "replace": "chiamarono se stessi *Nomadas*, dal greco *nomades*, i vaganti, da cui viene il nome dei *Numidae* - un gioco di parole che alcuni testi nascondono stampando *Numidas*."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 18)",
+    "field": "analysis",
+    "find": "**A note on the text.** In section 11 the page prints *proxima Carthagine[m]*, with an editor's bracket around a letter that should probably be deleted; the app keeps it as printed. In section 12 the page has *bellicose*, an adverb, where the editions print the adjective *bellicosi*, which the sentence needs: the Libyans were less warlike than the Gaetulians. The translation follows the sense.",
+    "replace": "**A note on the text.** In section 12 the app prints *bellicosi*, the adjective the sentence needs: the Libyans were less warlike than the Gaetulians. Some texts print the adverb *bellicose*."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 18)",
+    "field": "analysisIt",
+    "find": "**Una nota sul testo.** Al paragrafo 11 la pagina stampa *proxima Carthagine[m]*, con una parentesi dell'editore intorno a una lettera che probabilmente va espunta; l'app la conserva così. Al paragrafo 12 la pagina ha *bellicose*, un avverbio, dove le edizioni stampano l'aggettivo *bellicosi*, che la frase richiede: i Libi erano meno bellicosi dei Getuli. La traduzione segue il senso.",
+    "replace": "**Una nota sul testo.** Al paragrafo 12 l'app stampa *bellicosi*, l'aggettivo che la frase richiede: i Libi erano meno bellicosi dei Getuli. Alcuni testi stampano l'avverbio *bellicose*."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 19)",
+    "field": "analysis",
+    "find": "\n\n**A note on the text.** In section 4 the page prints *proximi Hispania[m]*, with an editor's bracket around a letter that should probably be deleted, as in chapter 18; the app keeps it as printed.",
+    "replace": ""
+  },
+  {
+    "cit": "(Bellum Iugurthinum 19)",
+    "field": "analysisIt",
+    "find": "\n\n**Una nota sul testo.** Al paragrafo 4 la pagina stampa *proximi Hispania[m]*, con una parentesi dell'editore intorno a una lettera che probabilmente va espunta, come nel capitolo 18; l'app la conserva così.",
+    "replace": ""
+  },
+  {
+    "cit": "(Bellum Iugurthinum 29)",
+    "field": "analysis",
+    "find": "*Relicua ... secreta transigit*: settles the rest in secret, *secreta* agreeing with *relicua*, the page's older spelling of *reliqua*.",
+    "replace": "*Reliqua ... secreta transigit*: settles the rest in secret, *secreta* agreeing with *reliqua*."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 29)",
+    "field": "analysisIt",
+    "find": "*Relicua ... secreta transigit*: sistema il resto in segreto, *secreta* concordato con *relicua*, la grafia più antica della pagina per *reliqua*.",
+    "replace": "*Reliqua ... secreta transigit*: sistema il resto in segreto, *secreta* concordato con *reliqua*."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 29)",
+    "field": "analysis",
+    "find": "*Pax agitabatur*: peace was kept, the page's singular.",
+    "replace": "*Pax agitabatur*: peace was kept."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 29)",
+    "field": "analysisIt",
+    "find": "*Pax agitabatur*: si stava in pace, il singolare della pagina.",
+    "replace": "*Pax agitabatur*: si stava in pace."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 31.21-29)",
+    "field": "analysis",
+    "find": " *Haut*: the page's spelling of *haud*.",
+    "replace": ""
+  },
+  {
+    "cit": "(Bellum Iugurthinum 31.21-29)",
+    "field": "analysisIt",
+    "find": " *Haut*: la grafia della pagina per *haud*.",
+    "replace": ""
+  },
+  {
+    "cit": "(Bellum Iugurthinum 42)",
+    "field": "analysis",
+    "find": "*In relicuum*: for the future, *relicuum* the page's spelling of *reliquum*.",
+    "replace": "*In reliquom*: for the future, *reliquom* the old spelling of *reliquum*."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 42)",
+    "field": "analysisIt",
+    "find": "*In relicuum*: per il futuro, *relicuum* grafia della pagina per *reliquum*.",
+    "replace": "*In reliquom*: per il futuro, *reliquom* grafia antica di *reliquum*."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 44)",
+    "field": "analysis",
+    "find": "*Exercitus [ei] traditus*: the page prints *ei* in square brackets, an editor's doubtful word; supply *est* with *traditus*.",
+    "replace": "*Exercitus ei traditur*: historic present, an army is handed over to him; the adjectives that follow describe it."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 44)",
+    "field": "analysisIt",
+    "find": "*Exercitus [ei] traditus*: la pagina stampa *ei* fra parentesi quadre, parola dubbia secondo l'editore; con *traditus* si sottintende *est*.",
+    "replace": "*Exercitus ei traditur*: presente storico, gli viene consegnato un esercito; gli aggettivi che seguono lo descrivono."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 44)",
+    "field": "analysis",
+    "find": "*Muniebatur*: impersonal passive, there was no fortifying.",
+    "replace": "*Neque muniebantur*: understand *castra*, the camps were not fortified."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 44)",
+    "field": "analysisIt",
+    "find": "*Muniebatur*: passivo impersonale, non si fortificava.",
+    "replace": "*Neque muniebantur*: sottinteso *castra*, gli accampamenti non venivano fortificati."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 51)",
+    "field": "analysis",
+    "find": "*Cum ... erat*: *cum* with the indicative, the page's *cum* where the Perseus text keeps the old *quom*.",
+    "replace": "*Quom ... erat*: *quom*, the old spelling of *cum*, with the indicative."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 51)",
+    "field": "analysisIt",
+    "find": "*Cum ... erat*: *cum* con l'indicativo, il *cum* della pagina dove il testo di Perseus conserva l'antico *quom*.",
+    "replace": "*Quom ... erat*: *quom*, grafia antica di *cum*, con l'indicativo."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 63)",
+    "field": "analysis",
+    "find": "*Ad quem capiendum*: gerundive of purpose, *capiundum* in the Perseus text.",
+    "replace": "*Ad quem capiundum*: gerundive of purpose, with the old ending *-undum*."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 63)",
+    "field": "analysisIt",
+    "find": "*Ad quem capiendum*: gerundivo finale, *capiundum* nel testo di Perseus.",
+    "replace": "*Ad quem capiundum*: gerundivo finale, con l'antica desinenza *-undum*."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 64)",
+    "field": "analysis",
+    "find": "*Annos natus circiter viginti*: about twenty years old; the page puts a full stop before *Annos*, read the two as one sentence.",
+    "replace": "*Annos natus circiter viginti*: about twenty years old."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 64)",
+    "field": "analysisIt",
+    "find": "*Annos natus circiter viginti*: di circa vent'anni; la pagina mette un punto prima di *Annos*, leggere le due frasi come una sola.",
+    "replace": "*Annos natus circiter viginti*: di circa vent'anni."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 66-67)",
+    "field": "analysis",
+    "find": "*Arce oppidi ... praesidium hostium, portae ante clausae fuga prohibebant*: the page's reading, with *fuga* ablative of separation, kept them from flight; the Perseus text reads *arcem ... obsidebat* and *fugam prohibebant*.",
+    "replace": "*Arcem oppidi ... praesidium hostium obsidebat*: an enemy guard was holding the citadel; *portae ante clausae fugam prohibebant*, the gates, shut beforehand, prevented flight. Some texts read *arce ... fuga*, with the guard and the gates as joint subjects."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 66-67)",
+    "field": "analysisIt",
+    "find": "*Arce oppidi ... praesidium hostium, portae ante clausae fuga prohibebant*: la lezione della pagina, con *fuga* ablativo di separazione, impedivano la fuga; il testo di Perseus legge *arcem ... obsidebat* e *fugam prohibebant*.",
+    "replace": "*Arcem oppidi ... praesidium hostium obsidebat*: un presidio nemico occupava la rocca; *portae ante clausae fugam prohibebant*, le porte chiuse in precedenza impedivano la fuga. Alcuni testi leggono *arce ... fuga*, con il presidio e le porte come soggetti insieme."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 71-72)",
+    "field": "analysis",
+    "find": "On the page the words *[ex perfugis]*, from deserters, stand in square brackets: an editor's sign that they are probably an intrusion, copied from the opening of chapter 73, where Metellus learns the story *ex perfugis*.",
+    "replace": "Some manuscripts add here *ex perfugis*, from deserters, probably copied from the opening of chapter 73, where Metellus learns the story that way; Ahlberg leaves the words out."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 71-72)",
+    "field": "analysisIt",
+    "find": "Nella pagina le parole *[ex perfugis]*, dai disertori, stanno fra parentesi quadre: il segno con cui un editore indica che sono probabilmente un'intrusione, copiata dall'inizio del capitolo 73, dove Metello viene a sapere la storia *ex perfugis*.",
+    "replace": "Alcuni manoscritti aggiungono qui *ex perfugis*, dai disertori, probabilmente copiato dall'inizio del capitolo 73, dove Metello viene a sapere la storia in quel modo; Ahlberg lascia fuori le parole."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 71-72)",
+    "field": "analysis",
+    "find": " *[ex perfugis]*: square brackets, words an editor thinks were added.",
+    "replace": ""
+  },
+  {
+    "cit": "(Bellum Iugurthinum 71-72)",
+    "field": "analysisIt",
+    "find": " *[ex perfugis]*: parentesi quadre, parole che un editore ritiene aggiunte.",
+    "replace": ""
+  },
+  {
+    "cit": "(Bellum Iugurthinum 73)",
+    "field": "analysis",
+    "find": " Here the page has a slip, *litteris, qua de Metello*, where the editions read *quae*; read it as *quae*.",
+    "replace": ""
+  },
+  {
+    "cit": "(Bellum Iugurthinum 73)",
+    "field": "analysisIt",
+    "find": " Qui la pagina ha una svista, *litteris, qua de Metello*, dove le edizioni leggono *quae*; va letto *quae*.",
+    "replace": ""
+  },
+  {
+    "cit": "(Bellum Iugurthinum 73)",
+    "field": "analysis",
+    "find": "the chapter's last sentence on the page, damaged and left out of this excerpt,",
+    "replace": "the chapter's last sentence, damaged in the manuscripts and left out of this excerpt,"
+  },
+  {
+    "cit": "(Bellum Iugurthinum 73)",
+    "field": "analysisIt",
+    "find": "l'ultima frase del capitolo nella pagina, danneggiata e lasciata fuori da questo brano,",
+    "replace": "l'ultima frase del capitolo, danneggiata nei manoscritti e lasciata fuori da questo brano,"
+  },
+  {
+    "cit": "(Bellum Iugurthinum 73)",
+    "field": "analysis",
+    "find": "*Litteris ... cognitis*: ablative absolute; *qua* is the page's slip for *quae*.",
+    "replace": "*Litteris ... cognitis*: ablative absolute."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 73)",
+    "field": "analysisIt",
+    "find": "*Litteris ... cognitis*: ablativo assoluto; *qua* è una svista della pagina per *quae*.",
+    "replace": "*Litteris ... cognitis*: ablativo assoluto."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 79)",
+    "field": "analysis",
+    "find": "*Per Leptitanorum negotia*: through the business of the people of Leptis; the editions spell it *Lepcitanorum*.",
+    "replace": "*Per Lepcitanorum negotia*: through the business of the people of Leptis, *Lepcitani* in Sallust's spelling."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 79)",
+    "field": "analysisIt",
+    "find": "*Per Leptitanorum negotia*: per gli affari degli abitanti di Leptis; le edizioni scrivono *Lepcitanorum*.",
+    "replace": "*Per Lepcitanorum negotia*: per gli affari degli abitanti di Leptis, *Lepcitani* nella grafia di Sallustio."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 79)",
+    "field": "analysis",
+    "find": "*Attriveret*: the page's slip for *attriverant*, had worn down; read it as the pluperfect.",
+    "replace": "*Adtriverant*: had worn down, pluperfect, with the prefix unassimilated."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 79)",
+    "field": "analysisIt",
+    "find": "*Attriveret*: svista della pagina per *attriverant*, avevano logorato; va letto come piuccheperfetto.",
+    "replace": "*Adtriverant*: avevano logorato, piuccheperfetto, con il prefisso non assimilato."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 85.29-37)",
+    "field": "analysis",
+    "find": "*Ipsa dissimilis moribus*: the page reads *ipsa*, agreeing with *nobilitas*; Perseus prints *ipse*.",
+    "replace": "*Ipse dissimilis moribus*: Ahlberg's reading, as if Marius were thinking of the noble as one man; many editions print *ipsa*, agreeing with *nobilitas*."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 85.29-37)",
+    "field": "analysisIt",
+    "find": "*Ipsa dissimilis moribus*: la pagina legge *ipsa*, concordato con *nobilitas*; Perseus stampa *ipse*.",
+    "replace": "*Ipse dissimilis moribus*: la lezione di Ahlberg, come se Mario pensasse al nobile come a un solo uomo; molte edizioni stampano *ipsa*, concordato con *nobilitas*."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 86)",
+    "field": "analysis",
+    "find": "*Uti libido cuiusque erat*: as each man wished; the page has *libido cuiusque* where Perseus prints *quoiusque lubido*.",
+    "replace": "*Uti quoiusque lubido erat*: as each man wished, with the old spellings *quoius* and *lubido*."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 86)",
+    "field": "analysisIt",
+    "find": "*Uti libido cuiusque erat*: come ciascuno voleva; la pagina ha *libido cuiusque* dove Perseus stampa *quoiusque lubido*.",
+    "replace": "*Uti quoiusque lubido erat*: come ciascuno voleva, con le grafie antiche *quoius* e *lubido*."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 93)",
+    "field": "analysis",
+    "find": "*Animum alio vertit*: the page's reading; Perseus prints *animum adorta*, attacked his mind.",
+    "replace": "*Animum adorta*: took hold of his mind, *adorta* (*est*) from *adorior*, to attack; some texts read *animum alio vertit*, turned his mind elsewhere."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 93)",
+    "field": "analysisIt",
+    "find": "*Animum alio vertit*: la lezione della pagina; Perseus stampa *animum adorta*, assalì il suo animo.",
+    "replace": "*Animum adorta*: si impadronì del suo animo, *adorta* (*est*) da *adorior*, assalire; alcuni testi leggono *animum alio vertit*, gli volse la mente altrove."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 95-96)",
+    "field": "analysis",
+    "find": " *[atque doctissime]*: square brackets on the page, words an editor considers added.",
+    "replace": ""
+  },
+  {
+    "cit": "(Bellum Iugurthinum 95-96)",
+    "field": "analysisIt",
+    "find": " *[atque doctissime]*: parentesi quadre nella pagina, parole che un editore ritiene aggiunte.",
+    "replace": ""
+  },
+  {
+    "cit": "(Bellum Iugurthinum 95-96)",
+    "field": "analysis",
+    "find": "*Otio luxuriose esse*: historic infinitive; Perseus prints *luxurioso*.",
+    "replace": "*Otio luxurioso esse*: historic infinitive, his leisure was luxurious."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 95-96)",
+    "field": "analysisIt",
+    "find": "*Otio luxuriose esse*: infinito storico; Perseus stampa *luxurioso*.",
+    "replace": "*Otio luxurioso esse*: infinito storico, il suo tempo libero era lussuoso."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 101)",
+    "field": "analysis",
+    "find": "*Ostentans*: the page's participle, where Perseus prints the historic infinitive *ostendere*.",
+    "replace": "*Simul ... ostendere*: historic infinitive, at the same time he displayed."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 101)",
+    "field": "analysisIt",
+    "find": "*Ostentans*: il participio della pagina, dove Perseus stampa l'infinito storico *ostendere*.",
+    "replace": "*Simul ... ostendere*: infinito storico, intanto mostrava."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 102)",
+    "field": "analysis",
+    "find": "*Imperi*: the page's reading, from the beginning of its empire; Perseus prints *inopi*, when it was poor.",
+    "replace": "*Iam a principio inopi*: from the very beginning, when it was poor, *inopi* agreeing with *populo Romano*; some texts read *imperi*, of its empire."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 102)",
+    "field": "analysisIt",
+    "find": "*Imperi*: la lezione della pagina, dall'inizio del suo impero; Perseus stampa *inopi*, quando era povero.",
+    "replace": "*Iam a principio inopi*: fin dall'inizio, quando era povero, *inopi* concordato con *populo Romano*; alcuni testi leggono *imperi*, del suo impero."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 102)",
+    "field": "analysis",
+    "find": "*Perpessus es[ses]*: the page brackets the ending, read *perpessus esses*.",
+    "replace": "*Perpessus esses*: pluperfect subjunctive, in the same unreal past."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 102)",
+    "field": "analysisIt",
+    "find": "*Perpessus es[ses]*: la pagina mette fra parentesi la desinenza, leggi *perpessus esses*.",
+    "replace": "*Perpessus esses*: congiuntivo piuccheperfetto, nello stesso irreale del passato."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 113)",
+    "field": "analysis",
+    "find": "*Vultu colore motu corporis*: the page's reading, ablatives of respect in asyndeton; Perseus prints *voltu et oculis*.",
+    "replace": "*Voltu et oculis*: in face and eyes, ablatives of respect; some texts read *vultu colore motu corporis*, in face, colour and movement."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 113)",
+    "field": "analysisIt",
+    "find": "*Vultu colore motu corporis*: la lezione della pagina, ablativi di limitazione in asindeto; Perseus stampa *voltu et oculis*.",
+    "replace": "*Voltu et oculis*: nel volto e negli occhi, ablativi di limitazione; alcuni testi leggono *vultu colore motu corporis*, nel volto, nel colorito e nei movimenti."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 113)",
+    "field": "analysis",
+    "find": "*vultu colore motu corporis pariter atque animo varius*, changing in face, colour and movement as much as in mind",
+    "replace": "*voltu et oculis pariter atque animo varius*, changing in face and eyes as much as in mind"
+  },
+  {
+    "cit": "(Bellum Iugurthinum 113)",
+    "field": "analysisIt",
+    "find": "*vultu colore motu corporis pariter atque animo varius*, mutando nel volto, nel colorito e nei movimenti non meno che nell'animo",
+    "replace": "*voltu et oculis pariter atque animo varius*, mutando nel volto e negli occhi non meno che nell'animo"
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 15)",
+    "field": "analysis",
+    "find": "Bocchus's face, colour and movements give away the struggle he will not put into words",
+    "replace": "Bocchus's face and eyes give away the struggle he will not put into words"
+  },
+  {
+    "cit": "(De Coniuratione Catilinae 15)",
+    "field": "analysisIt",
+    "find": "il volto, il colorito e i movimenti di Bocco tradiscono la lotta che non vuole mettere in parole",
+    "replace": "il volto e gli occhi di Bocco tradiscono la lotta che non vuole mettere in parole"
+  },
+  {
+    "cit": "(Bellum Iugurthinum 114)",
+    "field": "analysis",
+    "find": "*Cn. Manlio*: the page's reading; Perseus prints *M.*; the consul's name was Gnaeus Mallius Maximus.",
+    "replace": "*M. Manlio*: so the manuscripts and Ahlberg; the consul's real name was Gnaeus Mallius Maximus, and some editors correct the text to *Cn. Manlio*."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 114)",
+    "field": "analysisIt",
+    "find": "*Cn. Manlio*: la lezione della pagina; Perseus stampa *M.*; il nome del console era Gneo Mallio Massimo.",
+    "replace": "*M. Manlio*: così i manoscritti e Ahlberg; il vero nome del console era Gneo Mallio Massimo, e alcuni editori correggono il testo in *Cn. Manlio*."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 114)",
+    "field": "analysis",
+    "find": "*Illincque [et inde]*: the page's reading, with an editor's bracket; Perseus prints *illique et inde*; read it as \"from that time\".",
+    "replace": "*Illique et inde*: and they, from that time on, *illi* being the Romans."
+  },
+  {
+    "cit": "(Bellum Iugurthinum 114)",
+    "field": "analysisIt",
+    "find": "*Illincque [et inde]*: la lezione della pagina, con una parentesi dell'editore; Perseus stampa *illique et inde*; leggi \"da allora\".",
+    "replace": "*Illique et inde*: ed essi, da allora in poi, dove *illi* sono i Romani."
+  }
+]

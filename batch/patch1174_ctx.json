@@ -1,0 +1,4 @@
+[
+  {"cit": "(Bellum Iugurthinum 19)", "field": "analysis", "find": "**Grammar notes.** *Alii ... pars*:", "replace": "**Grammar notes.** *Lepcim*, *Lepcis*: Leptis, the Phoenician city, in Sallust's spelling. *Alii ... pars*:"},
+  {"cit": "(Bellum Iugurthinum 19)", "field": "analysisIt", "find": "**Note grammaticali.** *Alii ... pars*:", "replace": "**Note grammaticali.** *Lepcim*, *Lepcis*: Leptis, la città fenicia, nella grafia di Sallustio. *Alii ... pars*:"}
+]

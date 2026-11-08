@@ -37,7 +37,9 @@ against the numbered text so every excerpt opens and closes on a sentence.
 - **v1.16.12 (DONE, 5):** ★85.29-37 (the second Marius excerpt) · 86 (117 words, alone) · 91 (Capsa) · 93 (the Ligurian) · ★95-96 (Sulla) (wired both ways: 85.29-37 <-> Pro Archia 14, Cat. 5, Iug. 4; 86 <-> BC I.7; 91 <-> DBG VIII.44 and Iug. 66-67; 93 <-> Iug. 1 and 63; 95-96 <-> Cat. 5, Cat. 11, Iug. 64; 85.10-17 -> 85.29-37)
 - **v1.16.13 (DONE, 4) - THE IUGURTHA IS COMPLETE AT 40, SALLUST AT 70:** 101 · 102 · 113 · 114 (the ending, 84 words, alone on purpose) (wired both ways: 101 <-> Cat. 61 and Iug. 8; 102 <-> Iug. 26-27; 113 <-> Cat. 15 and Iug. 12; 114 <-> Cat. 55, Cat. 61, Iug. 5, 8, 63, 86; 95-96 -> 101, 102, 113)
 
-**SOURCE.** Latin from the Latin Library, `sall.1.html` (Catilina) and `sall.2.html` (Iugurtha), cached as
+**SOURCE (since v1.16.14).** Latin from PERSEUS, perseus-lat3 (Ahlberg, Teubner 1919), for both works: `node tools/xml_sections.js phi0631.phi00N <chapters>` for the sections, `node tools/perseus_page.js phi0631.phi00N` for the verify page, and `batch/perseus1174.js` shows how an excerpt is rebuilt (TRIM, EXTEND, EMEND for the Perseus typos, capitalised sentence openings, edge quotes dropped). The rest of this paragraph describes the Latin Library pages used before v1.16.14.
+
+**OLD SOURCE.** Latin from the Latin Library, `sall.1.html` (Catilina) and `sall.2.html` (Iugurtha), cached as
 `sall.1.txt` / `sall.2.txt`. Subsection boundaries and the typo diff from **Perseus `phi0631.phi001` /
 `phi0631.phi002`, edition `perseus-lat3`** (Ahlberg): `node tools/fetch_sections.js phi0631.phi002 85 perseus-lat3`.
 - **The Catilina page prints its subsection numbers as bare digits** (`[5] 1 L. Catilina ... est.4 Animus`).

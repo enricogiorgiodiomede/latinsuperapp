@@ -12,6 +12,33 @@
 
   var VERSIONS = [
     {
+      v: '1.16.14', date: '08/11/2026', time: '00:00', tz: 'CET',
+      en: {
+        added: [
+          'Nothing was added.'
+        ],
+        changed: [
+          'SALLUST IN HIS OWN SPELLING. All 70 excerpts of the Conspiracy of Catiline and the Jugurthine War now come from a critical edition with Sallust\'s old-fashioned spellings - maxumus, lubido, vortere, quom - the ones a school edition prints, instead of a modernised text. Where the edition reads a word differently, the translation and the notes follow it.',
+          'The notes on Sallust are now in order: every paragraph and cross-reference added after an excerpt was first published has been moved next to the part of the text it discusses, instead of sitting at the end.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'Non è stato aggiunto nulla.'
+        ],
+        changed: [
+          'SALLUSTIO NELLA SUA GRAFIA. Tutti i 70 brani della Congiura di Catilina e della Guerra giugurtina ora vengono da un\'edizione critica con le grafie antiquate di Sallustio - maxumus, lubido, vortere, quom - quelle che stampa un\'edizione scolastica, invece che da un testo modernizzato. Dove l\'edizione legge una parola in modo diverso, la traduzione e le note la seguono.',
+          'Le note su Sallustio ora sono in ordine: ogni paragrafo e ogni rimando aggiunto dopo la prima pubblicazione di un brano è stato spostato accanto alla parte del testo di cui parla, invece di stare alla fine.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.16.13', date: '08/11/2026', time: '01:31', tz: 'CET',
       en: {
         added: [

@@ -51,6 +51,12 @@ const bareFiles = barePages();
 // pages only, the mark is dropped from both sides before comparing; the batch
 // removes it from the excerpt with `fix`. sources.json `_paragraphQuotes`.
 const quoteFiles = new Set((cfg._paragraphQuotes || []).map(cacheName));
+// Pages built from Perseus XML (tools/perseus_page.js). The edition prints every
+// sentence in lower case except at a paragraph; the app capitalises sentence
+// openings for readers. Capitals are typesetting, like the punctuation spacing
+// normalise() already ignores, so on these pages only both sides are compared
+// in lower case: no two different sequences of letters can match by it.
+const caseFreeFiles = new Set((cfg._caseFree || []).map(cacheName));
 
 const flat = {};
 for (const files of Object.values(SRC)) {
@@ -61,6 +67,7 @@ for (const files of Object.values(SRC)) {
     const text = fs.readFileSync(p, 'utf8');
     flat[f] = normalise(verseFiles.has(f) ? verseText(text) : bareFiles.has(f) ? stripBareSections(text) : text);
     if (quoteFiles.has(f)) flat[f] = normalise(flat[f].split('"').join(' '));
+    if (caseFreeFiles.has(f)) flat[f] = flat[f].toLowerCase();
   }
 }
 if (!Object.keys(flat).length) {
@@ -110,6 +117,7 @@ for (const author of Object.values(AUTHORS)) {
       }
       let clean = normalise(raw.split('\n').map(l => l.replace(/^>\s?/, '')).join(' '));
       if (SRC[w.id].some(x => quoteFiles.has(x))) clean = normalise(clean.split('"').join(' '));
+      if (SRC[w.id].some(x => caseFreeFiles.has(x))) clean = clean.toLowerCase();
       const pieces = clean.split('[...]').map(s => s.trim()).filter(Boolean);
       const files = SRC[w.id].filter(x => flat[x]);
       const hit = files.some(x => {

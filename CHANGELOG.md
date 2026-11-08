@@ -6,6 +6,50 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.16.14] - 2026-11-08
+
+**SALLUST IN HIS OWN SPELLING, AND THE NOTES PUT IN ORDER.** Two jobs on the 70 Sallust excerpts, at the user's
+request: the Latin now comes from Perseus with Sallust's archaic spellings, and every paragraph or sentence added
+to a Sallust note after its release has been moved to where it belongs.
+
+### Changed - the Latin (job 2)
+- **Both monographs now come from Perseus** (perseus-lat3, Ahlberg's Teubner text, 1919), not the Latin Library,
+  whose Iugurtha modernised the spelling. The app now prints what a school edition prints: *maxumus*, *lubido*,
+  *vortere*, *quom*, *quoius*, *vostra*, *existumo*, *-undus*. All 70 excerpts rebuilt section by section from the
+  XML (`batch/perseus1174.js`), never retyped.
+- **New tool `tools/perseus_page.js`** builds a text page from the Perseus XML for `verify.js`; sources.json lists
+  it as `perseus/<work>`, `fetch_sources.js` skips that prefix, and `verify.js` compares these pages case-blind
+  (`_caseFree`), since Perseus prints sentences in lower case and the app capitalises them.
+  `tools/xml_sections.js` now keeps editorial `<add>` text joined to its word (*ten⟨er⟩et*, *postulabant⟨ur⟩*).
+- **Typos of the digitised text corrected with `emend`** on 19 excerpts (*neccessitudinem*, *postestas*, *quon*,
+  *victora*, *mulieries*, *malls*, *surit*, *Iurgurthae*, *maistas*, *popolus*, *dementia*, *ventus*, *Cracchus*,
+  *multitude*, *tribune*, *accident*, *necesariis*, plus *moram* and *agitabatur* in Iug. 29), so every other
+  character is still proved verbatim.
+- **Readings that differ from the Latin Library page**, translations adjusted where the sense changes: Cat. 10.3
+  *primo pecuniae, deinde imperi* (money first, then power); Cat. 22.2 *ita* for †*dictitare*†; Cat. 55.2 *quae ad
+  supplicium postulabantur*; Iug. 14.24 *neu iure contemptus*; Iug. 18.7 *Nomadas*; Iug. 35.10 *o urbem venalem*;
+  Iug. 63.4 no *facile*; Iug. 67.1 *arcem ... obsidebat ... fugam*; Iug. 71.5 no *[ex perfugis]*; Iug. 93.3 *animum
+  adorta*; Iug. 95.3 no *[atque doctissume]*; Iug. 101.6 *ostendere*; Iug. 102.6 *inopi*; Iug. 113.3 *voltu et
+  oculis*; Iug. 114.1 *M. Manlio*. Cat. 31.4-9 runs on to *incendium meum ruina restinguam*, which Perseus prints as
+  32.1. Unmatched speech quotes at excerpt edges dropped.
+- **Section boundaries now follow Perseus**: the translations' markers moved in 11 Catilina excerpts (3.5, 10.4,
+  13.5, 20.4, 20.10, 37.8, 38.3, 51.26, 55.3, 58.10, 58.14); Cat. 22 has three sections, not four. Seven harmless
+  punctuation flags (Perseus colon or semicolon against a translation full stop) cleared in `check_sections.js`.
+- **Notes**: every remark about "the page" - its modernised spellings, brackets, slips and readings - rewritten for
+  the new text (about 50 places, English and Italian), the "warning about spelling" paragraphs turned into
+  "Sallust's spelling", and 558 Latin words quoted in the notes respelled to match the excerpts
+  (`batch/respell1174.js`, only inside italics, never in a sentence about spelling or readings).
+
+### Changed - the order of the notes (job 1)
+- **78 paragraphs moved** in 63 Sallust notes, each to sit after the paragraph on the same part of the text instead
+  of piling up before the Grammar notes; **16 cross-reference sentences moved** into the paragraph they comment on,
+  including two in other authors' notes (De Bello Civili I.7, Pro Caelio 49-50). English and Italian keep the same
+  order. Nothing rewritten: every note has exactly the same words as before (checked).
+
+Verification: **466 verbatim, 0 mismatched**; check_context 156 and check_sections 141 to look at, both unchanged;
+lint_register, lint_ablatives, lint_markdown clean; check_numbering 168/0, check_verses 60/0. Bank **616**.
+Cache-bust: `?v=246` -> `?v=247`.
+
 ## [1.16.13] - 2026-11-08
 
 **THE END OF THE WAR, AND OF THE SALLUST EXPANSION.** Four excerpts of the *Bellum Iugurthinum* - 101, 102, 113,

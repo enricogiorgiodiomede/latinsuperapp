@@ -1,0 +1,6 @@
+[
+  {"cit": "(De Coniuratione Catilinae 22)", "field": "english", "find": "he revealed his plan; and that he did this, so they kept saying, so that they would be more loyal", "replace": "he revealed his plan; and that he did this so that they would be more loyal"},
+  {"cit": "(De Coniuratione Catilinae 22)", "field": "english", "find": "who had been punished. **4.** For my part,", "replace": "who had been punished. For my part,"},
+  {"cit": "(De Coniuratione Catilinae 22)", "field": "italian", "find": "rivelò il suo piano; e che, così ripetevano, lo fece perché fossero più fedeli", "replace": "rivelò il suo piano; e che lo fece perché fossero più fedeli"},
+  {"cit": "(De Coniuratione Catilinae 22)", "field": "italian", "find": "che erano stati puniti. **4.** Io, per la gravità", "replace": "che erano stati puniti. Io, per la gravità"}
+]

@@ -1,0 +1,140 @@
+
+=== (De Coniuratione Catilinae 1)  (0 real differences)
+
+=== (De Coniuratione Catilinae 3.3-4.5)  (0 real differences)
+
+=== (De Coniuratione Catilinae 5)  (0 real differences)
+
+=== (De Coniuratione Catilinae 7)  (0 real differences)
+
+=== (De Coniuratione Catilinae 9)  (0 real differences)
+
+=== (De Coniuratione Catilinae 10)  (0 real differences)
+
+=== (De Coniuratione Catilinae 11)  (0 real differences)
+
+=== (De Coniuratione Catilinae 12)  (0 real differences)
+
+=== (De Coniuratione Catilinae 13)  (0 real differences)
+
+=== (De Coniuratione Catilinae 14)  (0 real differences)
+
+=== (De Coniuratione Catilinae 15)  (0 real differences)
+
+=== (De Coniuratione Catilinae 20.2-8)  (0 real differences)
+
+=== (De Coniuratione Catilinae 20.9-17)  (0 real differences)
+
+=== (De Coniuratione Catilinae 22)  (0 real differences)
+
+=== (De Coniuratione Catilinae 23)  (0 real differences)
+
+=== (De Coniuratione Catilinae 25)  (0 real differences)
+
+=== (De Coniuratione Catilinae 31.4-9)  (0 real differences)
+
+=== (De Coniuratione Catilinae 33)  (0 real differences)
+
+=== (De Coniuratione Catilinae 35)  (0 real differences)
+
+=== (De Coniuratione Catilinae 37)  (0 real differences)
+
+=== (De Coniuratione Catilinae 38)  (0 real differences)
+
+=== (De Coniuratione Catilinae 51.1-8)  (0 real differences)
+
+=== (De Coniuratione Catilinae 51.20-31)  (0 real differences)
+
+=== (De Coniuratione Catilinae 52.7-12)  (0 real differences)
+
+=== (De Coniuratione Catilinae 52.19-23)  (0 real differences)
+
+=== (De Coniuratione Catilinae 54)  (0 real differences)
+
+=== (De Coniuratione Catilinae 55)  (0 real differences)
+
+=== (De Coniuratione Catilinae 58.8-21)  (0 real differences)
+
+=== (De Coniuratione Catilinae 60)  (0 real differences)
+
+=== (De Coniuratione Catilinae 61)  (0 real differences)
+
+=== (Bellum Iugurthinum 1)  (0 real differences)
+
+=== (Bellum Iugurthinum 4)  (0 real differences)
+
+=== (Bellum Iugurthinum 5)  (0 real differences)
+
+=== (Bellum Iugurthinum 6)  (0 real differences)
+
+=== (Bellum Iugurthinum 8)  (0 real differences)
+
+=== (Bellum Iugurthinum 10)  (0 real differences)
+
+=== (Bellum Iugurthinum 12)  (0 real differences)
+
+=== (Bellum Iugurthinum 14.1-6)  (0 real differences)
+
+=== (Bellum Iugurthinum 14.20-25)  (0 real differences)
+
+=== (Bellum Iugurthinum 15)  (0 real differences)
+
+=== (Bellum Iugurthinum 17)  (0 real differences)
+
+=== (Bellum Iugurthinum 18)  (0 real differences)
+
+=== (Bellum Iugurthinum 19)  (0 real differences)
+
+=== (Bellum Iugurthinum 26-27)  (0 real differences)
+
+=== (Bellum Iugurthinum 29)  (1 real differences)
+   OLD [agitabantur]  NEW [agitabatur]
+=== (Bellum Iugurthinum 31.9-16)  (0 real differences)
+
+=== (Bellum Iugurthinum 31.21-29)  (0 real differences)
+
+=== (Bellum Iugurthinum 33-34)  (0 real differences)
+
+=== (Bellum Iugurthinum 35)  (0 real differences)
+
+=== (Bellum Iugurthinum 38)  (0 real differences)
+
+=== (Bellum Iugurthinum 41)  (0 real differences)
+
+=== (Bellum Iugurthinum 42)  (0 real differences)
+
+=== (Bellum Iugurthinum 44)  (0 real differences)
+
+=== (Bellum Iugurthinum 51)  (0 real differences)
+
+=== (Bellum Iugurthinum 63)  (0 real differences)
+
+=== (Bellum Iugurthinum 64)  (0 real differences)
+
+=== (Bellum Iugurthinum 66-67)  (0 real differences)
+
+=== (Bellum Iugurthinum 71-72)  (0 real differences)
+
+=== (Bellum Iugurthinum 73)  (0 real differences)
+
+=== (Bellum Iugurthinum 79)  (0 real differences)
+
+=== (Bellum Iugurthinum 85.10-17)  (0 real differences)
+
+=== (Bellum Iugurthinum 85.29-37)  (0 real differences)
+
+=== (Bellum Iugurthinum 86)  (0 real differences)
+
+=== (Bellum Iugurthinum 91)  (0 real differences)
+
+=== (Bellum Iugurthinum 93)  (0 real differences)
+
+=== (Bellum Iugurthinum 95-96)  (0 real differences)
+
+=== (Bellum Iugurthinum 101)  (0 real differences)
+
+=== (Bellum Iugurthinum 102)  (0 real differences)
+
+=== (Bellum Iugurthinum 113)  (0 real differences)
+
+=== (Bellum Iugurthinum 114)  (0 real differences)

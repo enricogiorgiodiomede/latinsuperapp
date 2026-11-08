@@ -77,6 +77,9 @@ function get(url) {
     // Most Latin Library pages are <page>.shtml, but Terence is published as
     // ter.<play>.html, so a page may carry its own extension. One that does is
     // used as written; one that does not gets .shtml, as before.
+    // perseus/<work> pages are built from the PerseusDL XML by
+    // tools/perseus_page.js (Sallust, v1.16.14), not downloaded from here.
+    if (page.startsWith('perseus/')) { console.log('skipped ' + page + ' (build with tools/perseus_page.js)'); continue; }
     const hasExt = /\.s?html$/.test(page);
     const name = page.split('/').pop().replace(/\.s?html$/, '') + '.txt';
     const dest = path.join(CACHE, name);

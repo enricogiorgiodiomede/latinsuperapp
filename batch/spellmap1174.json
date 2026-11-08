@@ -1,0 +1,688 @@
+{
+ "(De Coniuratione Catilinae 1)": {
+  "map": {},
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 3.3-4.5)": {
+  "map": {
+   "cum": "quom",
+   "cuius": "quoius"
+  },
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 5)": {
+  "map": {
+   "cuiquam": "quoiquam",
+   "cuius": "quoius"
+  },
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 7)": {
+  "map": {
+   "arduus": "arduos"
+  },
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 9)": {
+  "map": {},
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 10)": {
+  "map": {},
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 11)": {
+  "map": {
+   "ignavus": "ignavos",
+   "accedebat": "adcedebat"
+  },
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 12)": {
+  "map": {},
+  "amb": [
+   "cum->cum/quom"
+  ]
+ },
+ "(De Coniuratione Catilinae 13)": {
+  "map": {},
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 14)": {
+  "map": {
+   "vacuus": "vacuos",
+   "cotidiano": "cottidiano",
+   "cuiusque": "quoiusque",
+   "cuiquam": "quoiquam"
+  },
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 15)": {
+  "map": {
+   "cuius": "quoius",
+   "color": "colos",
+   "exsanguis": "exanguis",
+   "vultuque": "voltuque"
+  },
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 20.2-8)": {
+  "map": {
+   "cum": "quom",
+   "vulgus": "volgus"
+  },
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 20.9-17)": {
+  "map": {
+   "cui": "quoi",
+   "exstruendo": "extruendo",
+   "cum": "quom"
+  },
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 22)": {
+  "map": {
+   "cum": "quom",
+   "exsecrationem": "execrationem",
+   "suum": "suom"
+  },
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 23)": {
+  "map": {
+   "cui": "quoi",
+   "novus": "novos"
+  },
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 25)": {
+  "map": {
+   "conmiserat": "commiserat"
+  },
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 31.4-9)": {
+  "map": {
+   "cuius": "quoius",
+   "cum": "quom"
+  },
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 33)": {
+  "map": {
+   "cuiquam": "quoiquam"
+  },
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 35)": {
+  "map": {
+   "cum": "quom"
+  },
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 37)": {
+  "map": {
+   "exspectabant": "expectabant"
+  },
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 38)": {
+  "map": {},
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 51.1-8)": {
+  "map": {
+   "novum": "novom",
+   "exsuperat": "exuperat"
+  },
+  "amb": [
+   "cum->cum/quom"
+  ]
+ },
+ "(De Coniuratione Catilinae 51.20-31)": {
+  "map": {
+   "exsilium": "exilium",
+   "cum": "quom",
+   "cuius": "quoius",
+   "novum": "novom"
+  },
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 52.7-12)": {
+  "map": {
+   "cuiuscumque": "quoiuscumque"
+  },
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 52.19-23)": {
+  "map": {},
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 54)": {
+  "map": {
+   "novum": "novom"
+  },
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 55)": {
+  "map": {},
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 58.8-21)": {
+  "map": {
+   "exsilio": "exilio",
+   "exspectare": "expectare"
+  },
+  "amb": [
+   "cum->quom/cum/quom/Quom/quom"
+  ]
+ },
+ "(De Coniuratione Catilinae 60)": {
+  "map": {
+   "exsequebatur": "exequebatur"
+  },
+  "amb": []
+ },
+ "(De Coniuratione Catilinae 61)": {
+  "map": {
+   "vivus": "vivos",
+   "ingenuus": "ingenuos"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 1)": {
+  "map": {
+   "cuiquam": "quoiquam",
+   "libidine": "lubidine"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 4)": {
+  "map": {
+   "cuius": "quoius",
+   "existimet": "existumet",
+   "imponant": "inponant",
+   "maxima": "maxuma",
+   "assequi": "adsequi",
+   "existimabunt": "existumabunt",
+   "maximum": "maxumum",
+   "vehementissime": "vehementissume"
+  },
+  "amb": [
+   "cum->quom/cum"
+  ]
+ },
+ "(Bellum Iugurthinum 5)": {
+  "map": {
+   "cognoscendum": "cognoscundum",
+   "maxime": "maxume",
+   "attriverat": "adtriverat",
+   "cui": "quoi",
+   "cuius": "quoius"
+  },
+  "amb": [
+   "dein->dehinc/Dein"
+  ]
+ },
+ "(Bellum Iugurthinum 6)": {
+  "map": {
+   "maxime": "maxume",
+   "corrumpendum": "corrumpundum",
+   "plurimum": "plurumum",
+   "minimum": "minumum",
+   "existimans": "existumans",
+   "transversos": "transvorsos"
+  },
+  "amb": [
+   "cum->cum/quom/cum"
+  ]
+ },
+ "(Bellum Iugurthinum 8)": {
+  "map": {
+   "maximam": "maxumam",
+   "reverti": "revorti"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 10)": {
+  "map": {
+   "parvum": "parvom",
+   "existimans": "existumans",
+   "novissime": "novissume",
+   "amicissimos": "amicissumos",
+   "difficillimum": "difficillumum",
+   "maximae": "maxumae"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 12)": {
+  "map": {
+   "proximus": "proxumus",
+   "impellitque": "inpellitque",
+   "irrupere": "inrupere",
+   "diversi": "divorsi",
+   "mulieris": "mulieres"
+  },
+  "amb": [
+   "cum->cum/quom"
+  ]
+ },
+ "(Bellum Iugurthinum 14.1-6)": {
+  "map": {
+   "existimarem": "existumarem",
+   "maximo": "maxumo",
+   "affinium": "adfinium",
+   "vestra": "vostra",
+   "sceleratissimus": "sceleratissumus",
+   "vestro": "vostro",
+   "maxime": "maxume",
+   "miserrimum": "miserrumum",
+   "vestram": "vostram",
+   "appetiverunt": "adpetiverunt",
+   "petenda": "petunda"
+  },
+  "amb": [
+   "cum->quom/cum"
+  ]
+ },
+ "(Bellum Iugurthinum 14.20-25)": {
+  "map": {
+   "transversos": "transvorsos",
+   "maxima": "maxuma",
+   "cui": "quoi",
+   "cuius": "quoius",
+   "impio": "inpio",
+   "immortalis": "inmortalis",
+   "impietatis": "inpietatis",
+   "carissime": "carissume",
+   "immaturo": "inmaturo",
+   "minime": "minume",
+   "tuum": "tuom",
+   "libet": "lubet",
+   "vestros": "vostros",
+   "vestrum": "vostrum"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 15)": {
+  "map": {
+   "loquendi": "loquundi",
+   "aequum": "aequom",
+   "subveniendum": "subveniundum",
+   "maxime": "maxume",
+   "impiger": "inpiger",
+   "impudentemque": "inpudentemque",
+   "libidine": "lubidine"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 17)": {
+  "map": {
+   "paucissimis": "paucissumis",
+   "saevum": "saevom",
+   "importuosum": "inportuosum",
+   "plurima": "pluruma",
+   "accesserint": "adcesserint",
+   "diversum": "divorsum"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 18)": {
+  "map": {
+   "cuiusquam": "quoiusquam",
+   "compositus": "conpositus",
+   "proximos": "proxumos",
+   "inversos": "invorsos",
+   "emendi": "emundi",
+   "accessere": "adcessere",
+   "proxima": "proxuma",
+   "finitimos": "finitumos",
+   "suum": "suom"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 19)": {
+  "map": {
+   "leptim": "lepcim",
+   "maritima": "marituma",
+   "leptis": "lepcis",
+   "versus": "vorsus",
+   "proximi": "proxumi",
+   "dein": "dehinc",
+   "novissime": "novissume"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 26-27)": {
+  "map": {
+   "adversaretur": "advorsaretur",
+   "cogendi": "cogundi",
+   "trahendo": "trahundo"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 29)": {
+  "map": {
+   "conversus": "convorsus",
+   "assumitur": "adsumitur",
+   "acerrime": "acerrume",
+   "impugnaverat": "inpugnaverat",
+   "pravum": "pravom",
+   "existimans": "existumans",
+   "maximam": "maxumam",
+   "cuius": "quoius",
+   "relicua": "reliqua"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 31.9-16)": {
+  "map": {
+   "maximas": "maxumas",
+   "vestra": "vostra",
+   "sceleratissimi": "sceleratissumi",
+   "nocentissimi": "nocentissumi",
+   "superbissimi": "superbissumi",
+   "pessime": "pessume",
+   "maxime": "maxume",
+   "vestram": "vostram",
+   "optimos": "optumos",
+   "audacissimos": "audacissumos"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 31.21-29)": {
+  "map": {
+   "flagitiosissimum": "flagitiosissumum",
+   "existimo": "existumo",
+   "sceleratissimis": "sceleratissumis",
+   "faciendi": "faciundi",
+   "cum": "quom",
+   "serviendum": "serviundum",
+   "diversis": "divorsis",
+   "impunitum": "inpunitum",
+   "acerrimo": "acerrumo",
+   "vestrum": "vostrum",
+   "relicuum": "reliquom",
+   "libet": "lubet",
+   "vestros": "vostros",
+   "ignoscendo": "ignoscundo",
+   "immemorem": "inmemorem",
+   "improbior": "inprobior",
+   "haut": "haud"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 33-34)": {
+  "map": {
+   "maxime": "maxume",
+   "cuius": "quoius",
+   "impudentia": "inpudentia",
+   "dicendi": "dicundi",
+   "vultu": "voltu"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 35)": {
+  "map": {
+   "adversus": "advorsus",
+   "proximo": "proxumo",
+   "gerendi": "gerundi",
+   "maxime": "maxume",
+   "animadvertit": "animadvortit",
+   "relicuos": "reliquos"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 38)": {
+  "map": {
+   "imperitia": "inperitia",
+   "improviso": "inproviso",
+   "irrupere": "inrupere",
+   "proximum": "proxumum",
+   "colloquio": "conloquio",
+   "libuerat": "lubuerat"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 41)": {
+  "map": {
+   "adversis": "advorsis",
+   "libidinem": "lubidinem",
+   "vertere": "vortere"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 42)": {
+  "map": {
+   "triumuirum": "triumvirum",
+   "deducendis": "deducundis",
+   "libidine": "lubidine",
+   "relicuum": "reliquom"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 44)": {
+  "map": {
+   "accedebat": "adcedebat",
+   "imminuerat": "inminuerat",
+   "cuique": "quoique",
+   "libebat": "lubebat"
+  },
+  "amb": [
+   "cum->quom/cum/cum"
+  ]
+ },
+ "(Bellum Iugurthinum 51)": {
+  "map": {
+   "adversum": "advorsum",
+   "collocat": "conlocat"
+  },
+  "amb": [
+   "cum->quom/cum"
+  ]
+ },
+ "(Bellum Iugurthinum 63)": {
+  "map": {
+   "saepissime": "saepissume",
+   "capiendum": "capiundum",
+   "libidinis": "lubidinis",
+   "faciendis": "faciundis",
+   "appetere": "adpetere"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 64)": {
+  "map": {
+   "petendi": "petundi",
+   "cui": "quoi",
+   "commotus": "conmotus",
+   "cupienda": "cupiunda",
+   "affectabat": "adfectabat",
+   "pessimis": "pessumis"
+  },
+  "amb": [
+   "cum->cum/quom"
+  ]
+ },
+ "(Bellum Iugurthinum 66-67)": {
+  "map": {
+   "affectare": "adfectare",
+   "communire": "conmunire",
+   "commercari": "conmercari",
+   "allicere": "adlicere",
+   "vulgus": "volgus",
+   "maxime": "maxume",
+   "adversum": "advorsum",
+   "compositis": "conpositis",
+   "improviso": "inproviso",
+   "potissimum": "potissumum",
+   "fortissimis": "fortissumis",
+   "infirmissimo": "infirmissumo",
+   "saevissimis": "saevissumis",
+   "improbus": "inprobus"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 71-72)": {
+  "map": {
+   "cum": "quom",
+   "allatae": "adlatae",
+   "novissimi": "novissumi",
+   "allatas": "adlatas",
+   "accedit": "adcedit",
+   "lacrimans": "lacrumans",
+   "cuiquam": "quoiquam"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 73)": {
+  "map": {
+   "vulgum": "volgum"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 79)": {
+  "map": {
+   "leptitanorum": "lepcitanorum",
+   "implere": "inplere",
+   "cum": "quom"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 85.10-17)": {
+  "map": {
+   "aegerrime": "aegerrume",
+   "vestris": "vostris",
+   "comparate": "conparate",
+   "novum": "novom",
+   "existimate": "existumate",
+   "existimo": "existumo",
+   "fortissimum": "fortissumum",
+   "generosissimum": "generosissumum",
+   "optimos": "optumos"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 85.29-37)": {
+  "map": {
+   "adverso": "advorso",
+   "plurimis": "plurumis",
+   "composita": "conposita",
+   "optima": "optuma",
+   "cum": "quom",
+   "vestri": "vostri",
+   "faciendo": "faciundo"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 86)": {
+  "map": {
+   "arrectos": "adrectos",
+   "cuiusque": "quoiusque",
+   "egentissimus": "egentissumus",
+   "opportunissimus": "opportunissumus",
+   "cui": "quoi"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 91)": {
+  "map": {
+   "maxima": "maxuma",
+   "proxima": "proxuma",
+   "occultissime": "occultissume",
+   "velocissimos": "velocissumos",
+   "improvisum": "inprovisum"
+  },
+  "amb": [
+   "cum->quom/cum/cum/cum"
+  ]
+ },
+ "(Bellum Iugurthinum 93)": {
+  "map": {
+   "aversum": "avorsum",
+   "advertit": "advortit",
+   "legendi": "legundi",
+   "faciendi": "faciundi",
+   "cuius": "quoius",
+   "cuiusque": "quoiusque",
+   "arrectus": "adrectus",
+   "velocissimos": "velocissumos",
+   "proximum": "proxumum"
+  },
+  "amb": [
+   "cum->cum/quom/quom/cum/cum"
+  ]
+ },
+ "(Bellum Iugurthinum 95-96)": {
+  "map": {
+   "optime": "optume",
+   "diligentissime": "diligentissume",
+   "maxime": "maxume",
+   "felicissimo": "felicissumo",
+   "sollertissimus": "sollertissumus",
+   "mutuum": "mutuom",
+   "plurimi": "plurumi",
+   "humillimis": "humillumis",
+   "cuiusquam": "quoiusquam",
+   "carissimus": "carissumus"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 101)": {
+  "map": {
+   "diversi": "divorsi",
+   "commutato": "conmutato",
+   "adversum": "advorsum",
+   "maxime": "maxume",
+   "affuerant": "adfuerant",
+   "plurimis": "plurumis",
+   "convertit": "convortit",
+   "impigre": "inpigre",
+   "avertitur": "avortitur",
+   "accurrit": "adcurrit",
+   "afflicti": "adflicti",
+   "vulneribus": "volneribus"
+  },
+  "amb": [
+   "cum->cum/cum/cum/quom"
+  ]
+ },
+ "(Bellum Iugurthinum 102)": {
+  "map": {
+   "fidissimos": "fidissumos",
+   "aversum": "avorsum",
+   "cuius": "quoius",
+   "optimum": "optumum",
+   "pessimo": "pessumo",
+   "commaculares": "conmaculares",
+   "sceleratissimum": "sceleratissumum",
+   "minimum": "minumum",
+   "cuiquam": "quoiquam",
+   "cui": "quoi",
+   "tuum": "tuom"
+  },
+  "amb": [
+   "cum->cum/quom/cum"
+  ]
+ },
+ "(Bellum Iugurthinum 113)": {
+  "map": {
+   "adversae": "advorsae",
+   "colloquium": "conloquium",
+   "proxima": "proxuma",
+   "colloquio": "conloquio",
+   "immutata": "inmutata",
+   "vultu": "voltu",
+   "facillimum": "facillumum",
+   "accedit": "adcedit"
+  },
+  "amb": []
+ },
+ "(Bellum Iugurthinum 114)": {
+  "map": {
+   "adversum": "advorsum"
+  },
+  "amb": []
+ }
+}
