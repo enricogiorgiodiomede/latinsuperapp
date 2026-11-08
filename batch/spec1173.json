@@ -1,0 +1,7 @@
+{
+  "_comment": "v1.16.13 - Bellum Iugurthinum 101, 102, 113, 114: the last release, closing the Iugurtha at 40 and Sallust at 70. 114 (84 words) is the book's ending and stands alone on purpose. Sections from tools/xml_sections.js.",
+  "iug.101": ["sall.2", "Igitur quarto denique die haud longe", "humus infecta sanguine."],
+  "iug.102": ["sall.2", "Post ea loci consul haud dubie", "donis corruperat."],
+  "iug.113": ["sall.2", "Haec Maurus secum ipse diu volvens", "ad Marium deductus est."],
+  "iug.114": ["sall.2", "Per idem tempus adversum Gallos", "in illo sitae."]
+}

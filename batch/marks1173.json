@@ -1,0 +1,7 @@
+{
+  "_comment": "v1.16.13 - Iugurtha 101, 102, 113, 114, whole chapters. Section files from tools/xml_sections.js.",
+  "(Bellum Iugurthinum 101)": { "author": "gaius-sallustius-crispus", "work": "bellum-iugurthinum", "sections": "phi0631.phi002.101.json", "overrides": { "2": "Sed quia diversi" } },
+  "(Bellum Iugurthinum 102)": { "author": "gaius-sallustius-crispus", "work": "bellum-iugurthinum", "sections": "phi0631.phi002.102.json", "overrides": { "4": "Itaque Sulla, cuius" } },
+  "(Bellum Iugurthinum 113)": { "author": "gaius-sallustius-crispus", "work": "bellum-iugurthinum", "sections": "phi0631.phi002.113.json" },
+  "(Bellum Iugurthinum 114)": { "author": "gaius-sallustius-crispus", "work": "bellum-iugurthinum", "sections": "phi0631.phi002.114.json" }
+}

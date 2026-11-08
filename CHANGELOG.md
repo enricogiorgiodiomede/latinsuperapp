@@ -6,6 +6,38 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.16.13] - 2026-11-08
+
+**THE END OF THE WAR, AND OF THE SALLUST EXPANSION.** Four excerpts of the *Bellum Iugurthinum* - 101, 102, 113,
+114 - close the Iugurtha at 40 and **Sallust at 70 (Catilina 30, Iugurtha 40), the same as Caesar**, as planned on
+11/10/2026 across v1.16.0-v1.16.13.
+
+### Added - Bellum Iugurthinum (4)
+| excerpt | what it is |
+|---|---|
+| 101 | the second battle near Cirta: Jugurtha's lie in the Latin he learned at Numantia, Sulla's flank charge, *sequi fugere, occidi capi*, and the field *humus infecta sanguine* |
+| 102 | Sulla to Bocchus: *amicos quam servos*, *numquam populum Romanum beneficiis victum esse*; Bocchus's answer, and Jugurtha's gifts to his advisers |
+| 113 | Bocchus between two buyers; the night when his face betrays him; the ambush, and *Iugurtha Sullae vinctus traditur* |
+| 114 | the ending: Arausio, *pro salute, non pro gloria*, Marius consul in his absence, the triumph, and *spes atque opes civitatis in illo sitae* |
+
+- **114 (84 words) stands alone on purpose**: it is the book's ending, and its brevity is the point.
+- **The user's theses close the book**: Jugurtha not innocent, taken by the method he taught everyone else (113);
+  the bought peace does not last, the bought war ends only when someone pays more (102, 113); the nobility's
+  *superbia* and *avaritia* still at work at Arausio (114); Sulla's portrait in action (101, 102, 113); the hope
+  of the state resting on one general, the end of the road that began with the *capite censi* (114, 86).
+- **Cross-references, wired both ways**: Iug. 101 <-> Cat. 61 and Iug. 8; Iug. 102 <-> Iug. 26-27; Iug. 113 <-> Cat.
+  15 and Iug. 12; Iug. 114 <-> Cat. 55 (Jugurtha in the Tullianum), Cat. 61, Iug. 5 (the bookend), 8, 63, 86;
+  Iug. 95-96 now points to 101, 102 and 113.
+- **Page quirks**, kept as printed and explained in the notes: 101.6 *ostentans* (Perseus *ostendere*); 102.6
+  *imperi* (Perseus *inopi*); 102.8 *perpessus es[ses]*; 113.3 *vultu colore motu corporis* (Perseus *voltu et
+  oculis*); 114.1 *Cn. Manlio* (Perseus *M.*); 114.2 *Illincque [et inde]* (Perseus *illique et inde*).
+
+Translation pass over the touched work: the five v1.16.12 Iugurtha excerpts re-read clause by clause, unchanged.
+
+Verification: **466 verbatim, 0 mismatched** (462 + 4); check_context, lint_register, lint_ablatives and
+lint_translations report 0 for 1.16.13, check_sections nothing new; check_numbering 168/0, check_verses 60/0;
+`lint_markdown` clean. Bank **616**. Cache-bust: `?v=243` -> `?v=244`.
+
 ## [1.16.12] - 2026-11-06
 
 **SCARS AS MASKS, THE MEN WITH NOTHING TO LOSE, CAPSA, A SNAIL-HUNTING SOLDIER, AND SULLA.** Five excerpts of the

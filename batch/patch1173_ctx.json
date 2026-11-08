@@ -1,0 +1,8 @@
+[
+  {"cit": "(Bellum Iugurthinum 101)", "field": "analysis", "find": "*Turmatim*: squadron by squadron", "replace": "*Mauros*: the Moors, Bocchus's people from Mauretania. *Turmatim*: squadron by squadron"},
+  {"cit": "(Bellum Iugurthinum 101)", "field": "analysisIt", "find": "*Turmatim*: squadrone per squadrone", "replace": "*Mauros*: i Mauri, il popolo di Bocco, della Mauretania. *Turmatim*: squadrone per squadrone"},
+  {"cit": "(Bellum Iugurthinum 102)", "field": "analysis", "find": "*Iure belli*: by the law of war.", "replace": "*Numidiae partem*: the part of Numidia. *Iure belli*: by the law of war."},
+  {"cit": "(Bellum Iugurthinum 102)", "field": "analysisIt", "find": "*Iure belli*: per diritto di guerra.", "replace": "*Numidiae partem*: la parte della Numidia. *Iure belli*: per diritto di guerra."},
+  {"cit": "(Bellum Iugurthinum 113)", "field": "analysis", "find": "*Haec ... volvens*: turning these things over.", "replace": "*Maurus*: the Moor, Bocchus. *Haec ... volvens*: turning these things over."},
+  {"cit": "(Bellum Iugurthinum 113)", "field": "analysisIt", "find": "*Haec ... volvens*: rimuginando queste cose.", "replace": "*Maurus*: il Mauro, Bocco. *Haec ... volvens*: rimuginando queste cose."}
+]

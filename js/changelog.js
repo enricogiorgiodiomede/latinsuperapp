@@ -12,6 +12,33 @@
 
   var VERSIONS = [
     {
+      v: '1.16.13', date: '08/11/2026', time: '00:00', tz: 'CET',
+      en: {
+        added: [
+          'THE LAST FOUR EXCERPTS OF THE JUGURTHINE WAR - AND SALLUST IS COMPLETE, WITH 70 EXCERPTS: 30 FROM THE CONSPIRACY OF CATILINE AND 40 FROM THE JUGURTHINE WAR. A last battle near Cirta, where Jugurtha shouts in the Latin he learned as a young man that Marius is dead; the young Sulla\'s speech to King Bocchus, all friendship on the surface and threat underneath; and the night Bocchus decides which of his two guests to betray, ending with Jugurtha handed over in chains.',
+          'And the book\'s last chapter: two Roman armies destroyed by the Gauls, Marius elected consul again in his absence, his triumph, and the final sentence - at that time the hope and strength of the state rested on him alone.'
+        ],
+        changed: [
+          'The new notes are linked both ways to the passages that answer them, among them the Tullianum where the Catilinarians were strangled and where Jugurtha died, Catiline\'s guilty face, the battlefield that ends the Catilina, and the preface that the last sentence of the Jugurthine War answers.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'GLI ULTIMI QUATTRO BRANI DELLA GUERRA GIUGURTINA - E SALLUSTIO È COMPLETO, CON 70 BRANI: 30 DALLA CONGIURA DI CATILINA E 40 DALLA GUERRA GIUGURTINA. Un\'ultima battaglia presso Cirta, dove Giugurta grida nel latino imparato da giovane che Mario è morto; il discorso del giovane Silla al re Bocco, tutto amicizia in superficie e minaccia sotto; e la notte in cui Bocco decide quale dei suoi due ospiti tradire, che finisce con Giugurta consegnato in catene.',
+          'E l\'ultimo capitolo del libro: due eserciti romani annientati dai Galli, Mario rieletto console in sua assenza, il suo trionfo, e la frase finale - in quel tempo la speranza e la forza dello stato poggiavano su di lui solo.'
+        ],
+        changed: [
+          'Le nuove note sono collegate in entrambe le direzioni ai passi che rispondono loro, fra cui il Tulliano dove furono strangolati i catilinari e dove morì Giugurta, il volto colpevole di Catilina, il campo di battaglia che chiude il Catilina, e il proemio a cui risponde l\'ultima frase della Guerra giugurtina.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.16.12', date: '06/11/2026', time: '20:18', tz: 'CET',
       en: {
         added: [
