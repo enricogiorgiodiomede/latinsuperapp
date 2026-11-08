@@ -19,6 +19,7 @@
           'And Sallust\'s portrait of the young Sulla, Marius\'s quaestor and future enemy: learned, pleasure-loving, eloquent, a master at hiding his plans, generous above all with money - and of what he did later, Sallust says he does not know whether he would be more ashamed or more sorry to speak.'
         ],
         changed: [
+          'The notes on Marius\'s scars, the army of the poor, Capsa, the snail-hunting soldier and Sulla were deepened from a reader\'s comments: how a noble family was founded by a new man, why Marius\'s jibe at soft commanders misses Metellus, how armies came to belong to their generals from Marius to Augustus, Machiavelli on fortune as a river that only the prepared can hold back, and Sulla as the Catiline who won.',
           'The new notes are linked both ways to the passages that answer them: Cicero\'s defence of Greek literature in the Pro Archia, Caesar\'s speech to his soldiers before the Rubicon, the hands cut off at Uxellodunum in the Gallic War, Catiline\'s portrait, and the preface of the Jugurthine War on fortune and virtue.'
         ],
         deleted: [
@@ -31,6 +32,7 @@
           'E il ritratto che Sallustio fa del giovane Silla, questore di Mario e suo futuro nemico: colto, amante dei piaceri, eloquente, maestro nel nascondere i propri piani, generoso soprattutto di denaro - e di ciò che fece in seguito, Sallustio dice di non sapere se gli farebbe più vergogna o più pena parlarne.'
         ],
         changed: [
+          'Le note sulle cicatrici di Mario, sull\'esercito dei poveri, su Capsa, sul soldato a caccia di lumache e su Silla sono state approfondite a partire dai commenti di un lettore: come una famiglia nobile veniva fondata da un uomo nuovo, perché la frecciata di Mario ai comandanti molli non colpisce Metello, come gli eserciti finirono per appartenere ai loro generali da Mario ad Augusto, Machiavelli sulla fortuna come un fiume che solo chi è preparato può contenere, e Silla come il Catilina che vinse.',
           'Le nuove note sono collegate in entrambe le direzioni ai passi che rispondono loro: la difesa ciceroniana della letteratura greca nella Pro Archia, il discorso di Cesare ai soldati prima del Rubicone, le mani tagliate a Uxellodunum nella Guerra gallica, il ritratto di Catilina, e il proemio della Guerra giugurtina sulla fortuna e la virtù.'
         ],
         deleted: [

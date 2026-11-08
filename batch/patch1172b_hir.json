@@ -1,0 +1,14 @@
+[
+  {
+    "cit": "(Bellum Alexandrinum 7)",
+    "field": "analysis",
+    "find": "eager for revolution and hostile to peace (Bellum Iugurthinum 66-67, in this app).",
+    "replace": "eager for revolution and hostile to peace (Bellum Iugurthinum 66-67, in this app). He uses the same words again to excuse the burning of Capsa, a Numidian town that had surrendered (Bellum Iugurthinum 91, in this app)."
+  },
+  {
+    "cit": "(Bellum Alexandrinum 7)",
+    "field": "analysisIt",
+    "find": "avidi di rivoluzioni e nemici della pace (Bellum Iugurthinum 66-67, in quest'app).",
+    "replace": "avidi di rivoluzioni e nemici della pace (Bellum Iugurthinum 66-67, in quest'app). Usa di nuovo le stesse parole per giustificare l'incendio di Capsa, una città numida che si era arresa (Bellum Iugurthinum 91, in quest'app)."
+  }
+]

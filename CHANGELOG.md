@@ -37,6 +37,26 @@ Verification: **462 verbatim, 0 mismatched** (457 + 5); check_context, lint_regi
 lint_translations report 0 for 1.16.12, check_sections nothing new; check_numbering 168/0, check_verses 60/0;
 `lint_markdown` clean. Bank **612**. Cache-bust: `?v=240` -> `?v=242` (241, then 242 for the release time).
 
+### Follow-up, 2026-11-08: the user's notes on Iugurtha 85.29-37 to 95-96
+
+The user's notes on this release are folded into the five analyses, English and Italian; no excerpt or
+translation changes.
+
+- **Iug. 85.29-37** - *Nobility earned, then inherited* (every plebeian noble house founded by a new man; the
+  forum road and the army road, Cicero and Marius; the right order spelled out in section 33) and *A jab that does
+  not land* (Marius's own loose discipline in 64; Metellus restored his army by prevention, not punishment, 44-45).
+- **Iug. 86** - *Armies of generals*: soldiers with nothing to go home to follow the man who pays them; Marius, Sulla,
+  Pompey, Caesar, Octavian.
+- **Iug. 91** - *Plunder forbidden, then shared*: control, not contradiction; the excuse on two legs, strategy and a
+  slander on a whole people. **Wired both ways with Bellum Alexandrinum 7.**
+- **Iug. 93** - *Mind first, then luck*: the chapter refines Iug. 1 rather than refuting it; Machiavelli, The
+  Prince 25, fortune as a river and the dykes built in quiet times (checked: the passage says exactly this).
+- **Iug. 95-96** - *Catiline, had he won*: the family likeness of the two portraits; *post dominationem L. Sullae*
+  (Cat. 5) and the memory of Sulla's victory (Cat. 37). **Wired both ways with Cat. 37.**
+
+Verification: **462 verbatim, 0 mismatched**; check_context unchanged at 156 (0 for 1.16.12); lint_register and
+`lint_markdown` clean. Cache-bust: `?v=242` -> `?v=243`.
+
 ## [1.16.11] - 2026-11-04
 
 **METELLUS'S SNEER, A MASSACRE AT VAGA, A LETTER ON A PILLOW, MARIUS ELECTED, AND THE PHILAENI.** Five
