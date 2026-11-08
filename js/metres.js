@@ -29,8 +29,9 @@
  * section may mention where the metre goes next, but there is no example and
  * no author entry for anybody the app does not yet carry.
  *
- * Every example verse is verbatim Latin: quoted from js/fragments.js, or from
- * the cached Latin Library page for Catullus 1, which is not an excerpt.
+ * Every example verse is verbatim Latin, quoted from js/fragments.js (until
+ * v1.17.0 one came from the cached Latin Library page for Catullus 1, which
+ * was not an excerpt then; it is now).
  * tools/check_metre_quotes.js strips the editorial marks back off and proves
  * each one against its source. Latin is never retyped, here either.
  */
@@ -271,16 +272,26 @@
       } }
     },
 
-    // Catullus is polymetric, and each of the three excerpts is a whole poem,
-    // so each has one answer.
+    // Catullus is polymetric, but every poem is in one metre from start to
+    // finish, so every excerpt has one answer. Since v1.17.0 the Liber is three
+    // works. The polymetra are hendecasyllables unless listed; the epigrams
+    // (69-116) are all elegiac couplets. The carmina docta mix (61 glyconic
+    // stanzas, 62 and 64 hexameters, 63 galliambics, 65-68 elegiacs), so each
+    // excerpt there is named.
     'gaius-valerius-catullus': {
-      'catullus-carmina': {
+      'catullus-polymetra': {
+        def: 'phalaecian-hendecasyllable',
         byCitation: {
-          '(Liber, Carmen 3)': 'phalaecian-hendecasyllable',
-          '(Liber, Carmen 101)': 'elegiac-couplets',
-          '(Liber, Carmen 64, vv.1-7)': 'dactylic-hexameter'
+          '(Carmen 8)': 'choliambic',
+          '(Carmen 11)': 'sapphic-stanza'
         }
-      }
+      },
+      'catullus-carmina-docta': {
+        byCitation: {
+          '(Carmen 64, vv. 1-7)': 'dactylic-hexameter'
+        }
+      },
+      'catullus-epigrammata': 'elegiac-couplets'
     }
   };
 
@@ -465,7 +476,7 @@
           where: 'Carmen 1, v. 1',
           gloss: 'The dedication that opens the collection',
           plain: 'Cui dono lepidum novum libellum',
-          source: 'catullus',
+          source: 'bank',
           marked: 'Cui dō|nō lĕpĭ|dūm nŏ|vūm lĭ|bēllŭm',
           pattern: '– – | – ⏑ ⏑ | – ⏑ | – ⏑ | – ×',
           notes: [
@@ -493,6 +504,162 @@
       ],
 
       after: 'The later Latin hendecasyllabists - Martial above all, then Statius and the younger Pliny - are not yet in this app. Their examples will be added here when they are.'
+    },
+
+    // v1.17.0, with Catullus 8. Catullus also uses it for 22 and 31, which
+    // join the bank in the next release.
+    'choliambic': {
+      name: 'Choliambic',
+      tagline: 'An iambic line that limps on its last step: the metre of insult, which Catullus turned on himself.',
+      scheme: '× – ⏑ – | × – ⏑ – | ⏑ – – ×',
+      schemeNote: 'Three iambic metra. The first syllable of each of the first two may be long or short; the last metron always runs short, long, long, and that long eleventh syllable, where an ordinary iambic line has a short, is the limp.',
+
+      origin: [
+        'The name is Greek and describes the effect: *choliambos* is a "lame iambic", and its other name, *scazon*, means "limping". It is an ordinary iambic trimeter, the line of Greek tragedy and comedy, with one thing changed at the very end.',
+        '**It was invented for abuse.** Hipponax of Ephesus, in the sixth century BC, was the great Greek poet of insult: beggars, quarrels, filthy jokes and savage attacks on named enemies. He made the line limp on purpose, so that it would sound like the opposite of the stately iambics of the stage, and the metre kept that association for as long as anyone wrote it.',
+        '**The Alexandrians revived it.** Callimachus, the neoterics\' great model, opened his book of *Iambi* by bringing Hipponax back from the dead to speak in his own metre. That is how it reached Rome: as a learned Greek form with a low, aggressive character.',
+        '**Catullus uses it eight times**, and not always for insult. Carmen 22 mocks a bad poet; Carmen 31 is a tender poem of homecoming to his villa at Sirmio; and Carmen 8, the example below, is a love poem in which the attack is turned on the poet himself.'
+      ],
+
+      build: [
+        '**Twelve positions, grouped in three iambic metra** of four syllables each: × – ⏑ –, × – ⏑ –, then the different last one.',
+        '**The first position of each of the first two metra is anceps**, long or short. Everything else in those two metra is fixed: short, long, then short, long.',
+        '**The last metron is the whole point: ⏑ – – ×.** In a normal iambic trimeter it would be ⏑ – ⏑ ×, so the eleventh syllable would be short. In the choliambic it is long. The rhythm, which has gone short-long, short-long all the way through, suddenly puts two longs side by side just before the end, and the line stumbles.',
+        '**The syllable before the limp is short**, almost without exception in Catullus. That matters: it keeps the iambic movement clean right up to the stumble, so the ear hears exactly where it happens.',
+        '**Catullus almost never resolves a long into two shorts here**, which keeps the line at a steady twelve syllables and makes the limp all the more audible.',
+        'Elision works as everywhere in Latin verse; there is none in the two lines below.'
+      ],
+
+      sound: [
+        '**It runs and then trips.** For ten syllables the line moves like ordinary iambic speech, the closest Latin verse gets to conversation. Then the two longs at the end brake it hard. Read several in a row and every line ends on the same heavy drag.',
+        '**That drag suits anger and it suits bitterness.** In invective it sounds like spitting out the last word. In Carmen 8 it sounds like a man trying to walk away and not managing: *destinatus obdura*, hold firm, and the line itself cannot stride.',
+        '**The final word carries the weight.** Because the stumble falls on the last three syllables, the word that fills them is heard more heavily than any other in the line: *ineptire*, *perditum ducas*, *obdura*. Catullus puts his key words there.'
+      ],
+
+      usedIntro: [
+        'Greek invective first, from Hipponax onwards; then the learned iambic poetry of Callimachus; then, in Latin, Catullus, and after him the epigrams of Martial, who uses it often.',
+        'Catullus is the only poet in the app who uses it, and both examples come from the same poem, its first line and its last.'
+      ],
+
+      examples: [
+        {
+          author: 'Gaius Valerius Catullus',
+          slug: 'gaius-valerius-catullus', era: 'caesar',
+          where: 'Carmen 8, v. 1',
+          gloss: 'The opening of the break-up poem: the poet tells himself to stop',
+          plain: 'Miser Catulle, desinas ineptire,',
+          source: 'bank',
+          marked: 'Mĭsēr Cătūl|lĕ, dēsĭnās | ĭnēptīrĕ,',
+          pattern: '⏑ – ⏑ – | ⏑ – ⏑ – | ⏑ – – ×',
+          notes: [
+            '**The model line.** Both anceps positions (the first and the fifth syllables) are short here, so the first ten syllables are a pure short-long, short-long run, and then *-ptire* lands on the two longs. You can hear the limp in the last word.',
+            '**Long by position counts.** The *e* of *Miser* is a short vowel, but the syllable *-ser* is closed by the *C* of *Catulle* and so is long; the same goes for *-tul-* and *-nep-*. The mark gives the value of the syllable, not of the vowel.',
+            '**The poem\'s first word is its verdict.** *Miser*, wretched, is the word Roman love poets use for the lover in pain, and the vocative *Catulle* shows that he is talking to himself. The metre of insult has been turned inwards.'
+          ]
+        },
+        {
+          author: 'Gaius Valerius Catullus',
+          slug: 'gaius-valerius-catullus', era: 'caesar',
+          where: 'Carmen 8, v. 19',
+          gloss: 'The last line of the same poem: hold firm',
+          plain: 'at tu, Catulle, destinatus obdura.',
+          source: 'bank',
+          marked: 'āt tū, Cătūl|lĕ, dēstĭnā|tŭs ōbdūrā.',
+          pattern: '– – ⏑ – | ⏑ – ⏑ – | ⏑ – – ×',
+          notes: [
+            '**The first anceps is long this time.** *At tu* is two long syllables, so the line opens with a firmer, heavier step than v. 1 did, which suits a command.',
+            '**Watch the join *-tus ob-*.** The *s* of *destinatus* runs on to the vowel of *obdura*, so *-tus* is an open syllable and counts short, exactly where the metre wants the short before the limp. Then *ob-* is closed by the *b* and *d* that follow, and *-du-* has a long vowel: the two longs of the stumble.',
+            '**The poem ends where it began.** Vv. 1 and 19 both address *Catulle* in the same position of the line. The repeated frame is what makes the poem read as a loop: he has argued with himself for nineteen lines and is back where he started, telling himself to hold firm.'
+          ]
+        }
+      ],
+
+      after: 'Martial, who wrote many choliambics, is not yet in this app. When he is added, his examples will be added here.'
+    },
+
+    // v1.17.0, with Catullus 11. Carmen 51, the other Sapphic poem, joins the
+    // bank in the next release.
+    'sapphic-stanza': {
+      name: 'Sapphic Stanza',
+      tagline: 'Three long lines and a short one that closes like a door: the stanza of Sappho, which Catullus used only twice.',
+      scheme: [
+        '– ⏑ | – × | – ⏑ ⏑ | – ⏑ | – ×',
+        '– ⏑ | – × | – ⏑ ⏑ | – ⏑ | – ×',
+        '– ⏑ | – × | – ⏑ ⏑ | – ⏑ | – ×',
+        '– ⏑ ⏑ | – ×'
+      ],
+      schemeNote: 'Three lesser Sapphics, eleven syllables each, then the five-syllable adonic. Catullus, like Sappho, lets the fourth syllable of the long line be short; Horace, a generation later, makes it always long.',
+
+      origin: [
+        '**It is named after Sappho**, the poetess of Lesbos (around 600 BC), the most admired lyric poet of the Greek world. The ancients said there were ten Muses, and the tenth was Sappho. She wrote in several metres, but this four-line stanza became so closely tied to her that it carries her name.',
+        '**Like the hendecasyllable, it is aeolic**: it fixes a pattern of syllables rather than counting time, so the long line is always eleven syllables and the short one always five. The two metres are relatives, and you can hear it: both run on a dactyl in the middle.',
+        '**For Catullus the stanza is a signature.** Lesbia, the name he gave the woman he loved, means "the woman of Lesbos", Sappho\'s island. He wrote only two poems in Sappho\'s stanza: Carmen 51, a translation of one of her most famous poems, about falling in love; and Carmen 11, the example here, his last message to Lesbia. Many readers think the two frame the whole story.',
+        '**Then Horace took it over.** About a quarter of his *Odes* are in Sapphics, and it was Horace, not Catullus, who fixed its Latin form. Horace is not in this app yet.'
+      ],
+
+      build: [
+        '**The long line, the lesser Sapphic, has eleven syllables in five feet**: a trochee (– ⏑), a second foot that is a trochee or a spondee (– ×), a dactyl (– ⏑ ⏑), and two more trochees, the last syllable anceps.',
+        '**The fourth syllable is the one that varies.** Sappho treats it as free; so does Catullus, who sometimes makes it short. Horace always makes it long, and later poets follow him. If you meet a short fourth syllable in a Latin Sapphic, you are probably reading Catullus.',
+        '**The dactyl is the hinge.** It always sits in the middle of the line, positions five to seven, and it is the only place the rhythm speeds up.',
+        '**The adonic closes the stanza**: a dactyl and a final two-syllable foot, – ⏑ ⏑ – ×, five syllables in all. It is the last five syllables of a hexameter, set on their own.',
+        '**The stanza is a unit, but Catullus does not always stop at its end.** His sentences can run from one stanza into the next, and in Carmen 11 the first sentence runs across four of them.',
+        '**Elision is allowed and audible.** The first line of Carmen 11, below, has one.'
+      ],
+
+      sound: [
+        '**Three times the same long line, then a short one that shuts it.** The ear learns the eleven-syllable shape quickly, so the arrival of the adonic is always felt as a full stop: *tunditur unda*, *aequora Nilus*, *ilia rumpens*.',
+        '**The long line has a lift in the middle.** It opens on firm trochees, quickens through the dactyl, then settles again. The effect is more measured than the hendecasyllable, which runs from end to end; the Sapphic has a shape, rising and falling.',
+        '**The adonic is where the sting goes.** Because it is short and comes last, a poet can save the decisive word for it. Carmen 11 does exactly that in its fourth stanza: the long build-up of the world\'s edges ends on *non bona dicta*, words that are not kind.'
+      ],
+
+      usedIntro: [
+        'Sappho first, and Greek lyric after her; then, in Latin, two poems by Catullus; then Horace, who made it one of the main forms of Roman lyric.',
+        'Catullus is the only poet in the app who uses it. The examples are the first line of Carmen 11 and the line and adonic that close its long opening sentence.'
+      ],
+
+      examples: [
+        {
+          author: 'Gaius Valerius Catullus',
+          slug: 'gaius-valerius-catullus', era: 'caesar',
+          where: 'Carmen 11, v. 1',
+          gloss: 'The opening of the farewell to Lesbia',
+          plain: 'Furi et Aureli comites Catulli,',
+          source: 'bank',
+          marked: 'Fūr(i) ĕt | Aurē|lī cŏmĭ|tēs Că|tūllī,',
+          pattern: '– ⏑ | – – | – ⏑ ⏑ | – ⏑ | – ×',
+          notes: [
+            '**An elision in the first two words.** *Furi et* is written as three syllables and read as two: the final *-i* of *Furi* disappears before *et*. Count it and the line has twelve syllables and does not scan.',
+            '**A long fourth syllable here**, the *-re-* of *Aureli*, which has a long vowel. The second foot is a spondee, the shape Horace would later make compulsory.',
+            '**The dactyl falls on *-li comi-***, in the middle of the line, and the two names fill the first half exactly. The line is an address, and it sounds like one: two names, then the title the poem gives them, *comites*, companions.'
+          ]
+        },
+        {
+          author: 'Gaius Valerius Catullus',
+          slug: 'gaius-valerius-catullus', era: 'caesar',
+          where: 'Carmen 11, vv. 15-16',
+          gloss: 'The end of the long first sentence: the message, and the adonic that judges it',
+          plain: [
+            'pauca nuntiate meae puellae',
+            'non bona dicta.'
+          ],
+          source: 'bank',
+          marked: [
+            'paucă | nūntĭ|ātĕ mĕ|ae pŭ|ēllae',
+            'nōn bŏnă | dīctă.'
+          ],
+          pattern: [
+            '– ⏑ | – ⏑ | – ⏑ ⏑ | – ⏑ | – ×',
+            '– ⏑ ⏑ | – ×'
+          ],
+          notes: [
+            '**A short fourth syllable: the Catullan licence.** *Nuntiate* scans *nūn-tĭ-ā-tĕ*, so the second foot is a trochee, *nun-ti*, where Horace would always have a spondee. This is the freedom Catullus takes from Sappho.',
+            '**Two diphthongs count as one long syllable each**: the *au* of *pauca* and the *ae* at the end of *meae* (which is *me-ae*, two syllables) and of *puellae*. Nothing needs to be marked on them: a diphthong is always long.',
+            '**Then the adonic shuts the door.** After sixteen lines of oceans, deserts and mountains, the stanza closes on five syllables: *non bona dicta*, words that are not kind. The shortest line in the stanza carries the bitterest phrase in the poem so far.'
+          ]
+        }
+      ],
+
+      after: 'Horace, who wrote more Sapphics than any other Roman poet, is not yet in this app. When he is added, his examples will be added here.'
     },
 
     'saturnian': {

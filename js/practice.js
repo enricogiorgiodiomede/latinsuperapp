@@ -344,6 +344,21 @@
       box.appendChild(desc);
     }
 
+    // v1.17.0: a content warning for the few excerpts that are sexually
+    // explicit (Catullus 16, 32, 36, 41). The user's call: a notice only -
+    // the text is not hidden and nothing is skipped, so a reader who wants to
+    // avoid these poems can simply move on to the next excerpt. It sits right
+    // above the Latin, below the title block, so it never runs under the
+    // version badge in the top-right corner.
+    if (frag.explicit) {
+      var warn = document.createElement('p');
+      warn.className = 'content-warning';
+      warn.setAttribute('role', 'note');
+      warn.innerHTML = '<strong>' + Markdown.escapeHtml(I18n.t('practice.explicitTitle')) + '</strong> ' +
+        Markdown.escapeHtml(I18n.t('practice.explicitText'));
+      box.appendChild(warn);
+    }
+
     var latin = document.createElement('div');
     latin.className = 'latin-text';
     latin.innerHTML = Markdown.render(frag.latin || '');

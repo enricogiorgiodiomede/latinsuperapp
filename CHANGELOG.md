@@ -6,6 +6,59 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.17.0] - 2026-11-08
+
+**THE CATULLUS EXPANSION BEGINS.** Release 1 of 8 (plan agreed with the user on 08/11/2026: 60 excerpts, 20 in
+each part of the *Liber*, 10 per release for the short poems and 5 for the carmina docta). Catullus becomes a
+chooser author with three works, and the first ten polymetra arrive.
+
+### Added - Polymetra (10)
+| excerpt | what it is |
+|---|---|
+| Carmen 1 | the dedication to Cornelius Nepos: *lepidum novum libellum*, the neoteric programme in adjectives |
+| Carmen 2, vv. 1-10 | Lesbia's sparrow, addressed like a god; vv. 11-13 (2b) not taken |
+| Carmen 3 | the sparrow's funeral (launch excerpt, rebuilt, keeps tag 1.0.0) |
+| Carmen 5 | *Vivamus, mea Lesbia*: the old men priced at a penny, the kisses as an account book |
+| Carmen 7 | as many kisses as Libyan sands: the hidden homage to Callimachus (Battus, Cyrene) |
+| Carmen 8 | *Miser Catulle*: the break-up, in choliambics |
+| Carmen 10 | caught boasting about Bithynia: Varus's girlfriend, the eight litter-bearers, Memmius |
+| Carmen 11 | the message to Lesbia carried to the ends of the earth, in Sapphics (55 BC) |
+| Carmen 13 | the dinner invitation: bring the dinner |
+| Carmen 16 | the manifesto: chaste poet, shameless verses (**explicit**, carries the new warning banner) |
+
+### Added - other
+- **Three works** replace the launch catch-all `catullus-carmina` (`batch/cat1700_migrate.js`):
+  `catullus-polymetra`, `catullus-carmina-docta`, `catullus-epigrammata`; Catullus now routes through
+  practice-select.html. The launch excerpts Carmen 101 and Carmen 64 vv. 1-7 move into their works with the new
+  citations and keep their notes until Releases 4 and 6 rebuild them.
+- **Content warning** (`explicit: true` on a fragment): a banner above the Latin in `js/practice.js`, strings
+  `practice.explicitTitle`/`practice.explicitText` in both languages, `.content-warning` in the stylesheet. A notice
+  only, by the user's choice: nothing is hidden or skipped. `apply_batch.js` copies the field.
+- **Metre pages: Choliambic and Sapphic Stanza**, English and Italian, two scanned examples each (Carmen 8 vv. 1
+  and 19; Carmen 11 v. 1 and vv. 15-16). `check_metre_quotes.js` knows their shapes, `check_metres.js` their names.
+  Sitemap regenerated (11 metre pages).
+- **Author page**: a new section "The Lexicon of Love: fides, foedus, amare, bene velle" in Writing Style (Italian:
+  "Il lessico dell'amore"), a biography paragraph on the affair as a broken *foedus*, and the tier text updated.
+- **Tools**: `tools/fetch_sections_catullus.js` (Perseus phi0472.phi001 split per poem) and
+  `tools/extract_poem.js` (cuts a poem or verse range from the Latin Library page, which has no line numbers, and
+  diffs every verse against Perseus). sources.json maps the three works to `catullus`.
+
+### Changed
+- **Lexicon bar 2.4 -> 3.0** (Challenging) in `js/ratings.js`; the tier stays C (Manageable). The user's call.
+- **Carmen 101's Latin** now comes verified from the page: v. 7 reads *prisco quae more parentum*, not the launch
+  text's *prout ea consuetudo*; the translations of vv. 5-9 corrected to match and their `--` dashes removed. The
+  three launch excerpts had never been checked: the old work had no sources.json entry.
+- **Cross-references to Catullus** added in place: Nepos *Praefatio 1-3* (Carmen 1), *De Rerum Natura I, vv.
+  21-43* (Carmen 10, Memmius), *Pro Caelio 33-34* (Carmen 5, the stern old men).
+- The hendecasyllable page's Carmen 1 example now quotes the bank instead of the cached page.
+- `apply_batch.js` sorts `(Carmen N, vv. a-b)` on poem then verse.
+
+Verification: **478 verbatim, 0 mismatched** (+12: the three launch excerpts are now checked too);
+check_numbering 177/0; check_verses 60/0; check_metres 0 failed; check_metre_quotes 37/0; check_context 0 to look at
+for 1.17.0; lint_register, lint_ablatives, lint_markdown clean; lint_translations 3 (old). check_sections 147 to look
+at (+6 Catullus: line-for-line markers against sentence blocks, the same artefact as the 59 Lucretius items).
+Bank **625**. Cache-bust: `?v=248` -> `?v=250`.
+
 ## [1.16.14] - 2026-11-08
 
 **SALLUST IN HIS OWN SPELLING, AND THE NOTES PUT IN ORDER.** Two jobs on the 70 Sallust excerpts, at the user's

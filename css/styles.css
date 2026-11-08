@@ -670,6 +670,19 @@ blockquote {
   line-height: 1.6;
 }
 
+/* v1.17.0: the content warning on an explicit excerpt (Catullus 16, 32, 36, 41). */
+.content-warning {
+  margin: 0 0 14px;
+  padding: 10px 14px;
+  border-left: 4px solid var(--deep-red);
+  border-radius: 6px;
+  background: #f6e3dc;
+  color: var(--ink);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.content-warning strong { color: var(--deep-red); }
+
 .fragment-counter {
   font-size: 0.78rem;
   text-transform: uppercase;

@@ -175,7 +175,17 @@ const SHAPE = {
   // fixed shape, eleven syllables, nothing substitutable except the base.
   'phalaecian-hendecasyllable': { feet: 5, allowed: [['× ×', S, TR, '⏑ –'], [D], [TR], [TR], CLOSE] },
   // a couplet: one hexameter, then one pentameter.
-  'elegiac-couplets': { lines: [HEX, PENT] }
+  'elegiac-couplets': { lines: [HEX, PENT] },
+  // v1.17.0. Choliambic: three iambic metra, the first two with an anceps
+  // first position, the last with its long-long close. Sapphic stanza: three
+  // lesser Sapphics and an adonic; an example quotes either the first line or
+  // a line and its adonic. Catullus, like Sappho, leaves the fourth syllable
+  // of the Sapphic free, which Horace later fixes as long.
+  'choliambic': { feet: 3, allowed: [['– – ⏑ –', '⏑ – ⏑ –'], ['– – ⏑ –', '⏑ – ⏑ –'], ['⏑ – – ×']] },
+  'sapphic-stanza': { lines: [
+    { feet: 5, allowed: [[TR], [S, TR], [D], [TR], CLOSE] },
+    { feet: 2, allowed: [[D], CLOSE] }
+  ] }
 };
 
 let checked = 0, bad = 0;

@@ -55,7 +55,12 @@ const WORDS = [
   [/hendecasyllab/i, 'phalaecian-hendecasyllable'],
   [/endecasillab/i, 'phalaecian-hendecasyllable'],
   [/elegiac couplet|elegiac distich/i, 'elegiac-couplets'],
-  [/distic[ih] elegiac/i, 'elegiac-couplets']
+  [/distic[ih] elegiac/i, 'elegiac-couplets'],
+  // v1.17.0, Catullus
+  [/choliamb|scazon|limping iambic/i, 'choliambic'],
+  [/coliamb|scazont|giambo zoppo/i, 'choliambic'],
+  [/sapphic stanza/i, 'sapphic-stanza'],
+  [/strofa saffica/i, 'sapphic-stanza']
 ];
 
 // Read and cleared: an analysis that names a metre the excerpt is not in, and

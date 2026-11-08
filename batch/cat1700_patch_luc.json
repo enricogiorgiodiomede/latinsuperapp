@@ -1,0 +1,8 @@
+[
+ {"cit": "(De Rerum Natura I, vv. 21-43)", "field": "analysis",
+  "find": "and peace in Rome needs men like Memmius to act.",
+  "replace": "and peace in Rome needs men like Memmius to act. Not everyone saw Memmius so kindly: Catullus, who went out to Bithynia on his staff in 57 BC, came home poor and called him a governor who did not care a hair for his men (Carmen 10, in this app)."},
+ {"cit": "(De Rerum Natura I, vv. 21-43)", "field": "analysisIt",
+  "find": "e la pace a Roma ha bisogno che uomini come Memmio agiscano.",
+  "replace": "e la pace a Roma ha bisogno che uomini come Memmio agiscano. Non tutti vedevano Memmio con tanta benevolenza: Catullo, che nel 57 a.C. andò in Bitinia nel suo seguito, tornò a casa povero e lo chiamò un governatore a cui dei suoi uomini non importava un pelo (carme 10, in quest'app)."}
+]

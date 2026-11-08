@@ -1,0 +1,4 @@
+[
+ {"cit": "(Carmen 11)", "field": "analysis", "find": "to the *Indi* at the eastern end of the world,", "replace": "to the farthest *Indos*, the Indians at the eastern end of the world,"},
+ {"cit": "(Carmen 11)", "field": "analysisIt", "find": "fra gli *Indi*, all'estremo oriente del mondo,", "replace": "fra gli *Indos* più lontani, gli Indiani all'estremo oriente del mondo,"}
+]

@@ -166,6 +166,118 @@
       after: 'Gli endecasillabisti latini successivi - Marziale soprattutto, poi Stazio e Plinio il Giovane - non sono ancora in questa app. I loro esempi compariranno qui quando ci saranno.'
     },
 
+    'choliambic': {
+      name: 'Coliambo',
+      tagline: "Un verso giambico che zoppica sull'ultimo passo: il metro dell'insulto, che Catullo rivolse contro se stesso.",
+      schemeNote: "Tre metri giambici. La prima sillaba di ciascuno dei primi due può essere lunga o breve; l'ultimo metro va sempre breve, lunga, lunga, e quell'undicesima sillaba lunga, dove un normale verso giambico ne ha una breve, è lo zoppicare.",
+
+      origin: [
+        'Il nome è greco e descrive l\'effetto: *choliambos* è un "giambo zoppo", e l\'altro suo nome, *scazonte*, vuol dire "che zoppica". È un normale trimetro giambico, il verso della tragedia e della commedia greche, con una sola cosa cambiata proprio alla fine.',
+        '**Fu inventato per l\'invettiva.** Ipponatte di Efeso, nel VI secolo a.C., fu il grande poeta greco dell\'insulto: mendicanti, liti, battute sconce e attacchi feroci contro nemici chiamati per nome. Fece zoppicare il verso di proposito, perché suonasse il contrario dei maestosi giambi della scena, e il metro conservò questa associazione finché qualcuno lo scrisse.',
+        '**Gli alessandrini lo ripresero.** Callimaco, il grande modello dei neoterici, aprì il suo libro di *Giambi* riportando in vita Ipponatte e facendolo parlare nel suo metro. È così che arrivò a Roma: come una dotta forma greca dal carattere basso e aggressivo.',
+        '**Catullo lo usa otto volte**, e non sempre per insultare. Il carme 22 deride un cattivo poeta; il carme 31 è una tenera poesia sul ritorno nella sua villa di Sirmione; e il carme 8, l\'esempio qui sotto, è una poesia d\'amore in cui l\'attacco è rivolto contro il poeta stesso.'
+      ],
+
+      build: [
+        '**Dodici posizioni, raggruppate in tre metri giambici** di quattro sillabe ciascuno: × – ⏑ –, × – ⏑ –, poi l\'ultimo, diverso.',
+        '**La prima posizione di ciascuno dei primi due metri è ancipite**, lunga o breve. Tutto il resto di quei due metri è fisso: breve, lunga, poi breve, lunga.',
+        '**Tutto sta nell\'ultimo metro: ⏑ – – ×.** In un normale trimetro giambico sarebbe ⏑ – ⏑ ×, e l\'undicesima sillaba sarebbe breve. Nel coliambo è lunga. Il ritmo, che è andato breve-lunga, breve-lunga per tutto il verso, all\'improvviso mette due lunghe una accanto all\'altra appena prima della fine, e il verso inciampa.',
+        '**La sillaba prima dello zoppicare è breve**, quasi senza eccezioni in Catullo. Questo conta: tiene pulito il movimento giambico fino all\'inciampo, così l\'orecchio sente esattamente dove avviene.',
+        '**Catullo qui non scioglie quasi mai una lunga in due brevi**, e questo tiene il verso fermo a dodici sillabe e rende lo zoppicare ancora più udibile.',
+        'L\'elisione funziona come ovunque nella poesia latina; nei due versi qui sotto non ce n\'è.'
+      ],
+
+      sound: [
+        '**Corre e poi inciampa.** Per dieci sillabe il verso si muove come un normale discorso giambico, la cosa più vicina alla conversazione che la poesia latina conosca. Poi le due lunghe finali lo frenano bruscamente. A leggerne parecchi di fila, ogni verso finisce con lo stesso trascinarsi pesante.',
+        '**Quel trascinarsi si addice alla rabbia e all\'amarezza.** Nell\'invettiva suona come sputare l\'ultima parola. Nel carme 8 suona come un uomo che cerca di andarsene e non ci riesce: *destinatus obdura*, tieni duro, e il verso stesso non riesce a fare il passo.',
+        '**L\'ultima parola porta il peso.** Poiché l\'inciampo cade sulle ultime tre sillabe, la parola che le riempie si sente più forte di ogni altra nel verso: *ineptire*, *perditum ducas*, *obdura*. Catullo ci mette le sue parole chiave.'
+      ],
+
+      usedIntro: [
+        'Prima l\'invettiva greca, da Ipponatte in poi; poi la dotta poesia giambica di Callimaco; poi, in latino, Catullo, e dopo di lui gli epigrammi di Marziale, che lo usa spesso.',
+        'Catullo è l\'unico poeta dell\'app che lo usa, ed entrambi gli esempi vengono dallo stesso carme, il suo primo verso e l\'ultimo.'
+      ],
+
+      examples: [
+        {
+          where: 'Carme 8, v. 1',
+          gloss: 'L\'inizio della poesia della rottura: il poeta si ordina di smettere',
+          notes: [
+            '**Il verso modello.** Entrambe le posizioni ancipiti (la prima e la quinta sillaba) qui sono brevi, così le prime dieci sillabe sono una corsa pura breve-lunga, breve-lunga, e poi *-ptire* atterra sulle due lunghe. Lo zoppicare si sente nell\'ultima parola.',
+            '**Conta anche la lunga per posizione.** La *e* di *Miser* è una vocale breve, ma la sillaba *-ser* è chiusa dalla *C* di *Catulle* ed è quindi lunga; lo stesso vale per *-tul-* e *-nep-*. Il segno indica il valore della sillaba, non della vocale.',
+            '**La prima parola del carme è il suo verdetto.** *Miser*, infelice, è la parola con cui i poeti d\'amore romani chiamano l\'innamorato che soffre, e il vocativo *Catulle* mostra che sta parlando a se stesso. Il metro dell\'insulto è stato rivolto verso l\'interno.'
+          ]
+        },
+        {
+          where: 'Carme 8, v. 19',
+          gloss: 'L\'ultimo verso dello stesso carme: tieni duro',
+          notes: [
+            '**Questa volta la prima ancipite è lunga.** *At tu* sono due sillabe lunghe, così il verso si apre con un passo più fermo e pesante del v. 1, adatto a un ordine.',
+            '**Guarda la giuntura *-tus ob-*.** La *s* di *destinatus* si lega alla vocale di *obdura*, così *-tus* è una sillaba aperta e conta breve, proprio dove il metro vuole la breve prima dello zoppicare. Poi *ob-* è chiusa dalla *b* e dalla *d* che seguono, e *-du-* ha una vocale lunga: le due lunghe dell\'inciampo.',
+            '**Il carme finisce dove era cominciato.** I vv. 1 e 19 si rivolgono entrambi a *Catulle* nella stessa posizione del verso. È la cornice ripetuta a far leggere il carme come un cerchio: ha discusso con se stesso per diciannove versi ed è tornato al punto di partenza, a ordinarsi di tenere duro.'
+          ]
+        }
+      ],
+
+      after: 'Marziale, che scrisse molti coliambi, non è ancora in questa app. Quando sarà aggiunto, i suoi esempi compariranno qui.'
+    },
+
+    'sapphic-stanza': {
+      name: 'Strofa Saffica',
+      tagline: 'Tre versi lunghi e uno corto che si chiude come una porta: la strofa di Saffo, che Catullo usò soltanto due volte.',
+      schemeNote: "Tre saffici minori, di undici sillabe ciascuno, poi l'adonio di cinque sillabe. Catullo, come Saffo, permette che la quarta sillaba del verso lungo sia breve; Orazio, una generazione dopo, la fa sempre lunga.",
+
+      origin: [
+        '**Prende il nome da Saffo**, la poetessa di Lesbo (intorno al 600 a.C.), la poetessa lirica più ammirata del mondo greco. Gli antichi dicevano che le Muse erano dieci, e la decima era Saffo. Scrisse in diversi metri, ma questa strofa di quattro versi si legò a lei così strettamente da portarne il nome.',
+        '**Come l\'endecasillabo, è eolica**: fissa uno schema di sillabe invece di contare il tempo, perciò il verso lungo ha sempre undici sillabe e quello corto sempre cinque. I due metri sono parenti, e si sente: entrambi corrono su un dattilo nel mezzo.',
+        '**Per Catullo la strofa è una firma.** Lesbia, il nome che diede alla donna che amava, significa "la donna di Lesbo", l\'isola di Saffo. Scrisse soltanto due carmi nella strofa di Saffo: il carme 51, la traduzione di una delle sue poesie più famose, sull\'innamoramento; e il carme 11, l\'esempio qui, il suo ultimo messaggio a Lesbia. Molti lettori pensano che i due facciano da cornice a tutta la storia.',
+        '**Poi la prese Orazio.** Circa un quarto delle sue *Odi* è in saffici, e fu Orazio, non Catullo, a fissarne la forma latina. Orazio non è ancora in questa app.'
+      ],
+
+      build: [
+        '**Il verso lungo, il saffico minore, ha undici sillabe in cinque piedi**: un trocheo (– ⏑), un secondo piede che è trocheo o spondeo (– ×), un dattilo (– ⏑ ⏑) e altri due trochei, l\'ultima sillaba ancipite.',
+        '**La quarta sillaba è quella che varia.** Saffo la tratta come libera; così fa Catullo, che a volte la fa breve. Orazio la fa sempre lunga, e i poeti successivi lo seguono. Se in un saffico latino trovi una quarta sillaba breve, probabilmente stai leggendo Catullo.',
+        '**Il dattilo è il cardine.** Sta sempre nel mezzo del verso, dalla quinta alla settima posizione, ed è l\'unico punto in cui il ritmo accelera.',
+        '**L\'adonio chiude la strofa**: un dattilo e un piede finale di due sillabe, – ⏑ ⏑ – ×, cinque sillabe in tutto. Sono le ultime cinque sillabe di un esametro, messe da sole.',
+        '**La strofa è un\'unità, ma Catullo non si ferma sempre alla sua fine.** Le sue frasi possono passare da una strofa all\'altra, e nel carme 11 la prima frase ne attraversa quattro.',
+        '**L\'elisione è ammessa e si sente.** Il primo verso del carme 11, qui sotto, ne ha una.'
+      ],
+
+      sound: [
+        '**Tre volte lo stesso verso lungo, poi uno corto che lo chiude.** L\'orecchio impara presto la forma di undici sillabe, così l\'arrivo dell\'adonio si sente sempre come un punto fermo: *tunditur unda*, *aequora Nilus*, *ilia rumpens*.',
+        '**Il verso lungo ha uno slancio nel mezzo.** Si apre su trochei fermi, accelera nel dattilo, poi si riassesta. L\'effetto è più misurato dell\'endecasillabo, che corre da un capo all\'altro; il saffico ha una forma, che sale e scende.',
+        '**L\'adonio è dove va il pungiglione.** Poiché è corto e viene per ultimo, il poeta può riservargli la parola decisiva. Il carme 11 fa proprio questo nella quarta strofa: il lungo accumulo dei confini del mondo finisce su *non bona dicta*, parole non gentili.'
+      ],
+
+      usedIntro: [
+        'Prima Saffo, e dopo di lei la lirica greca; poi, in latino, due carmi di Catullo; poi Orazio, che ne fece una delle forme principali della lirica romana.',
+        'Catullo è l\'unico poeta dell\'app che la usa. Gli esempi sono il primo verso del carme 11 e il verso e l\'adonio che chiudono la sua lunga frase d\'apertura.'
+      ],
+
+      examples: [
+        {
+          where: 'Carme 11, v. 1',
+          gloss: 'L\'inizio dell\'addio a Lesbia',
+          notes: [
+            '**Un\'elisione nelle prime due parole.** *Furi et* si scrive come tre sillabe e si legge come due: la *-i* finale di *Furi* sparisce davanti a *et*. A contarla il verso ha dodici sillabe e non torna.',
+            '**Qui la quarta sillaba è lunga**, il *-re-* di *Aureli*, che ha una vocale lunga. Il secondo piede è uno spondeo, la forma che Orazio renderà poi obbligatoria.',
+            '**Il dattilo cade su *-li comi-***, nel mezzo del verso, e i due nomi riempiono esattamente la prima metà. Il verso è un\'apostrofe, e suona come tale: due nomi, poi il titolo che il carme dà loro, *comites*, compagni.'
+          ]
+        },
+        {
+          where: 'Carme 11, vv. 15-16',
+          gloss: 'La fine della lunga prima frase: il messaggio, e l\'adonio che lo giudica',
+          notes: [
+            '**Una quarta sillaba breve: la licenza catulliana.** *Nuntiate* si scandisce *nūn-tĭ-ā-tĕ*, così il secondo piede è un trocheo, *nun-ti*, dove Orazio avrebbe sempre uno spondeo. È la libertà che Catullo prende da Saffo.',
+            '**Due dittonghi contano ciascuno come una sillaba lunga**: l\'*au* di *pauca* e l\'*ae* finale di *meae* (che è *me-ae*, due sillabe) e di *puellae*. Non c\'è bisogno di segnarli: un dittongo è sempre lungo.',
+            '**Poi l\'adonio chiude la porta.** Dopo sedici versi di oceani, deserti e montagne, la strofa si chiude su cinque sillabe: *non bona dicta*, parole non gentili. Il verso più corto della strofa porta la frase più amara del carme fin lì.'
+          ]
+        }
+      ],
+
+      after: 'Orazio, che scrisse più saffici di qualunque altro poeta romano, non è ancora in questa app. Quando sarà aggiunto, i suoi esempi compariranno qui.'
+    },
+
     'saturnian': {
       name: 'Saturnio',
       tagline: 'Il verso proprio di Roma, da prima che arrivassero i metri greci; e l\'unico che nessuno sia riuscito a spiegare.',

@@ -167,6 +167,9 @@ for (const item of incoming) {
     // last touched.
     emend: item.emend, version: item.version || VERSION
   });
+  // v1.17.0, Catullus: `explicit: true` puts a content warning on the card
+  // (js/practice.js). Set only when true, so no other fragment changes shape.
+  if (item.explicit) work.fragments[work.fragments.length - 1].explicit = true;
 }
 
 // Order the fragments of every touched speech by its first section number.
@@ -183,6 +186,11 @@ const romanToInt = (s) => {
   return n;
 };
 const firstSection = (f) => {
+  // Catullus (v1.17.0): "(Carmen 8)" or "(Carmen 64, vv. 50-70)" sorts on the
+  // POEM first and the verse second. The vv. rule below would put every part
+  // of a long poem on its verse alone, and Carmen 64 vv. 1-21 ahead of Carmen 8.
+  const cm = f.citation.match(/^\(Carmen (\d+)(?:, vv\. (\d+))?/);
+  if (cm) return parseInt(cm[1], 10) * 1000 + (cm[2] ? parseInt(cm[2], 10) : 0);
   // Poetry: `(De Rerum Natura II, vv. 646-659, 680)` sorts on its FIRST verse. The
   // plain-digits rule below would pick up the trailing 680 of a citation that
   // names an editor's transposed verse.

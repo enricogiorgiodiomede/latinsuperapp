@@ -142,7 +142,11 @@
       evaluation: 'praying', fragments: false
     },
     'gaius-valerius-catullus': {
-      lexicon: 2.4, syntax: 2.3, style: 2.7, density: 2.6,
+      // Lexicon raised from 2.4 to 3.0 in v1.17.0 (the user's call): the words
+      // look easy, but fides, foedus, pietas, amare against bene velle, venustas,
+      // lepos and nugae carry a private sense the love poems depend on. The
+      // tier stays Manageable: one Challenging criterion beside three Manageable.
+      lexicon: 3.0, syntax: 2.3, style: 2.7, density: 2.6,
       evaluation: 'manageable', fragments: false
     }
   };

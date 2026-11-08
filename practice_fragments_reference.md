@@ -9,6 +9,52 @@ Difficulty is varied on purpose within each text (some passages harder than othe
 
 ---
 
+## Gaius Valerius Catullus (`gaius-valerius-catullus`) - needsSelection, three works [v1.17.0, 2026-11-08]
+
+**THE PLAN (the user, 08/11/2026): 60 excerpts, Lucretius's count, 20 per part of the Liber**:
+`catullus-polymetra` (Carmina 1-60), `catullus-carmina-docta` (61-68), `catullus-epigrammata` (69-116).
+**10 per release for the short poems, 5 per release for the carmina docta**, a stop after each. Release order:
+polymetra I, II -> epigrams I, II -> docta I-IV (the run ends on Carmen 64). The three launch excerpts (3, 101,
+64 vv. 1-7) are rebuilt and COUNT; they keep tag 1.0.0. Version numbers are the user's to give.
+
+**SOURCE.** The Latin Library `catullus.shtml` (one page, Roman heading per poem, no line numbers), cut by poem
+and verse with `node tools/extract_poem.js <spec> <out>`; every verse checked against Perseus phi0472.phi001
+perseus-lat2 (`node tools/fetch_sections_catullus.js` -> `tools/.cache/sections/catullus.<poem>.json`).
+Translations line for line (first verse + every 5th), built by the batch file's own `mark()`; citations
+`(Carmen 8)`, `(Carmen 2, vv. 1-10)`, `(Carmen 64, vv. 1-21)`; apply_batch sorts on poem*1000+verse.
+**Explicit poems are IN** (the user: unfair to leave them out "because of one bad word or sensual image"): field
+`explicit: true` -> a warning banner above the Latin, nothing hidden (16; then 32, 36, 41; maybe 67).
+**Notes**: Where we are -> what the poem does -> the style (how he says it) -> the theme -> On the text (page vs
+Perseus readings) -> Grammar notes. The user's thesis to carry through every note: **the lexicon** - Catullus
+re-uses ordinary Roman words (fides, foedus, pietas, amare vs bene velle, Venus/venustas, lepos, sal, nugae,
+otium) with a private meaning; the author page has the section "The Lexicon of Love" (v1.17.0), Lexicon bar 3.0.
+
+| release | poems (the user's picks starred) | status |
+|---|---|---|
+| 1 polymetra | 1*, 2* (vv. 1-10), 3 (rebuilt), 5*, 7, 8*, 10, 11, 13, 16* (explicit) | **DONE v1.17.0** |
+| 2 polymetra | 22, 30, 31, 32* (explicit), 36* (explicit), 41* (explicit), 46, 49, 50, 51 | next |
+| 3 epigrams | 70, 72*, 73, 75*, 76*, 77, 79, 83, 84, 85* (odi et amo) | |
+| 4 epigrams | 86* (Quintia), 87*, 92, 93, 95* (Zmyrna), 96, 101 (rebuild), 107, 109*, 116 | |
+| 5 docta | 61 vv. 1-35, 61 vv. 204-228, 62 vv. 39-58, 63 vv. 1-26, 63 vv. 50-73 | |
+| 6 docta | 64 vv. 1-21 (rebuild of 1-7), 50-70, 132-153, 186-201, 215-237 | |
+| 7 docta | 64 vv. 238-253, 323-337, 384-408; 65 (whole); 66 vv. 1-14 | |
+| 8 docta | 66 vv. 39-50, 67, 68 vv. 1-24, 41-72, 89-104 | |
+
+Docta verse ranges are provisional: fix them against Perseus at the release. New metre pages, each in the release
+where the metre first appears: **choliambic + Sapphic stanza DONE v1.17.0**; greater asclepiad (30, R2); glyconic
+stanza (61, R5); galliambic (63, R5).
+
+**v1.17.0 notes on the text (page vs Perseus, all kept and explained):** 1.2 *arida* (fem. pumex) / arido; 1.6
+*cartis*; the page's dots after v. 6 and dash after v. 8; 2 the page splits 2b off (vv. 11-13 not taken); 3.7
+*ipsam* / ipsa; 3.15 no punctuation after *abstulistis*; 7.4 *lasarpiciferis*; 8.6 *cum* / tum (translated as
+*cum*); 10.8 *et quonam* / ecquonam; 10.21 *nec hic* / neque hic; 10.26 *Serapim*; 10.29-30 the page's `--`
+dashes; 11.5-6 *Arabesve*, *Sagas* / Arabasve, Sacas. **101.7 on the page is *prisco quae more parentum*** - the
+launch Latin (*prout ea consuetudo*) had never been verified (no sources.json entry); fixed with the translation.
+**Cross-links made both ways in v1.17.0:** 1 <-> Nepos Praefatio 1-3; 10 <-> DRN I vv. 21-43 (Memmius);
+5 <-> Pro Caelio 33-34 (the stern old men). One-way: 11 -> DBG IV.25 (no Britain paragraph there to anchor).
+
+---
+
 ## Gaius Sallustius Crispus (`gaius-sallustius-crispus`) - needsSelection, one work per monograph [v1.16.0, 2026-10-11]
 
 **THE PLAN (the user, 11/10/2026): 70 excerpts, the same count as Caesar - De Coniuratione Catilinae 30,

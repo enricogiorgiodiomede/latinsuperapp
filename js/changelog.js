@@ -12,6 +12,41 @@
 
   var VERSIONS = [
     {
+      v: '1.17.0', date: '08/11/2026', time: '00:00', tz: 'CET',
+      en: {
+        added: [
+          'CATULLUS, PART ONE OF EIGHT. Catullus is getting the full treatment: 60 excerpts, twenty from each part of his book. He now has three sections to choose from - the short poems, the long learned poems and the epigrams - and the first ten short poems are here: the dedication of the book, Lesbia\'s sparrow alive and dead, "let us live and love", the thousands of kisses, "poor Catullus, stop being a fool", the comic story of the litter-bearers he never had, the farewell to Lesbia sent to the ends of the earth, the dinner invitation where the guest brings the dinner, and his defence of shameless poetry.',
+          'A warning on explicit poems. A few of Catullus\'s poems are sexually explicit, and they are in the app because of what they say about poetry. They now carry a notice above the Latin, so you can skip them if you prefer.',
+          'Two new metre pages, both scanned on Catullus: the choliambic, the "limping" iambic of insult, and the Sapphic stanza, the metre of Sappho of Lesbos.',
+          'On Catullus\'s author page, a new section on his vocabulary of love: how he borrows fides, foedus, pietas, and the difference between amare and bene velle, to describe love as a pact.'
+        ],
+        changed: [
+          'Catullus\'s Lexicon bar is raised from 2.4 to 3.0: his words look easy but carry a private meaning. He stays Manageable overall.',
+          'The two older Catullus excerpts, the brother\'s grave and the voyage of the Argo, now sit in their sections; the Latin of the brother\'s grave was checked against the source and one line was corrected, with its translation.',
+          'The notes on Nepos\'s preface, Lucretius\'s address to Memmius and Cicero\'s stern ancestor in the Pro Caelio now point to the Catullus poems that answer them.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'CATULLO, PRIMA PARTE DI OTTO. Catullo avrà il trattamento completo: 60 brani, venti per ciascuna parte del suo libro. Ora ha tre sezioni fra cui scegliere - le poesie brevi, i lunghi carmi dotti e gli epigrammi - e arrivano le prime dieci poesie brevi: la dedica del libro, il passero di Lesbia vivo e morto, "viviamo e amiamo", le migliaia di baci, "povero Catullo, smettila di fare lo sciocco", la storia comica dei portatori di lettiga che non aveva, l\'addio a Lesbia mandato fino ai confini del mondo, l\'invito a cena in cui la cena la porta l\'ospite, e la sua difesa della poesia spudorata.',
+          'Un avviso sulle poesie esplicite. Alcune poesie di Catullo sono sessualmente esplicite, e sono nell\'app per ciò che dicono sulla poesia. Ora hanno un avviso sopra il latino, così puoi saltarle se preferisci.',
+          'Due nuove pagine di metrica, entrambe scandite su Catullo: il coliambo, il giambo "zoppo" dell\'insulto, e la strofa saffica, il metro di Saffo di Lesbo.',
+          'Nella pagina d\'autore di Catullo, una nuova sezione sul suo lessico dell\'amore: come prende in prestito fides, foedus, pietas, e la differenza fra amare e bene velle, per descrivere l\'amore come un patto.'
+        ],
+        changed: [
+          'La barra del Lessico di Catullo sale da 2,4 a 3,0: le sue parole sembrano facili ma hanno un significato privato. Nel complesso resta Affrontabile.',
+          'I due brani più vecchi di Catullo, la tomba del fratello e il viaggio della nave Argo, ora stanno nelle loro sezioni; il latino della tomba del fratello è stato controllato sulla fonte e un verso è stato corretto, insieme alla traduzione.',
+          'Le note sulla prefazione di Nepote, sull\'invocazione di Lucrezio a Memmio e sul severo antenato di Cicerone nella Pro Caelio ora rimandano alle poesie di Catullo che rispondono loro.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.16.14', date: '08/11/2026', time: '20:42', tz: 'CET',
       en: {
         added: [

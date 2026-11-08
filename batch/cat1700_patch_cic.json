@@ -1,0 +1,8 @@
+[
+ {"cit": "(Pro Caelio 33-34)", "field": "analysis",
+  "find": "against the *barbam horridam* of the ancestral masks.",
+  "replace": "against the *barbam horridam* of the ancestral masks. Catullus, who loved Clodia under the name Lesbia, takes the other side of the same quarrel: in Carmen 5 (in this app) he tells her to price the gossip of such stern old men, *senum severiorum*, at a single penny."},
+ {"cit": "(Pro Caelio 33-34)", "field": "analysisIt",
+  "find": "contro la barba ispida delle maschere degli antenati.",
+  "replace": "contro la barba ispida delle maschere degli antenati. Catullo, che amò Clodia con il nome di Lesbia, sta dall'altra parte della stessa contesa: nel carme 5 (in quest'app) le dice di stimare un soldo le chiacchiere di vecchi severi come questo, *senum severiorum*."}
+]

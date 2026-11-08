@@ -1,0 +1,8 @@
+[
+ {"cit": "(Carmen 11)", "field": "analysis",
+  "find": "ready to follow him anywhere: to India, to the Caspian, to Arabia, to the Parthians, to the Nile, across the Alps to the Rhine and Britain,",
+  "replace": "ready to follow him anywhere: to the *Indi* at the eastern end of the world, to the *Hyrcani* by the Caspian Sea, to the Arabs, the Sagae and the Parthians, to the Nile, across the Alps to the *Rhenus*, the Rhine, and to Britain,"},
+ {"cit": "(Carmen 11)", "field": "analysisIt",
+  "find": "pronti a seguirlo ovunque: in India, sul Caspio, in Arabia, fra i Parti, sul Nilo, oltre le Alpi fino al Reno e alla Britannia,",
+  "replace": "pronti a seguirlo ovunque: fra gli *Indi*, all'estremo oriente del mondo, fra gli *Hyrcani* sul mar Caspio, fra gli Arabi, i Saci e i Parti, sul Nilo, oltre le Alpi fino al *Rhenus*, il Reno, e in Britannia,"}
+]

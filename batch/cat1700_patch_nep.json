@@ -1,0 +1,8 @@
+[
+ {"cit": "(De Viris Illustribus, Praefatio 1-3)", "field": "analysis",
+  "find": "Catullus, another northerner, dedicated his own book of poems to Nepos.",
+  "replace": "Catullus, another northerner, dedicated his own book of poems to Nepos, teasing him for explaining the whole of history in three volumes (Carmen 1, in this app)."},
+ {"cit": "(De Viris Illustribus, Praefatio 1-3)", "field": "analysisIt",
+  "find": "Catullo, un altro settentrionale, dedicò a Nepote il proprio libro di poesie.",
+  "replace": "Catullo, un altro settentrionale, dedicò a Nepote il proprio libro di poesie, prendendolo in giro perché aveva spiegato tutta la storia in tre volumi (carme 1, in quest'app)."}
+]

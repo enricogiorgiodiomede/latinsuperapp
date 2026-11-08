@@ -1,0 +1,120 @@
+// v1.17.0 Catullus, part d: Carmina 13, 16 (16 carries the explicit banner).
+module.exports = [
+{
+  poem: 13,
+  title: 'A dinner invitation: bring the dinner',
+  titleIt: 'Un invito a cena: la cena portala tu',
+  description: 'Catullus invites his friend Fabullus to a splendid dinner, on one condition: that Fabullus brings the food, the wine, the girl and the jokes, because Catullus\'s purse is full of cobwebs. In return he offers a perfume so lovely that Fabullus will pray to become all nose.',
+  descriptionIt: 'Catullo invita l\'amico Fabullo a una cena splendida, a una condizione: che Fabullo porti il cibo, il vino, la ragazza e le battute, perché il borsellino di Catullo è pieno di ragnatele. In cambio gli offre un profumo così bello che Fabullo pregherà di diventare tutto naso.',
+  en: [
+    'You will dine well, my Fabullus, at my place,',
+    'in a few days, if the gods are kind to you,',
+    'if you bring with you a good, big',
+    'dinner, not forgetting a pretty girl',
+    'and wine and wit and every kind of laughter.',
+    'If you bring all this, I say, my charming friend,',
+    'you will dine well: because your Catullus\'s',
+    'purse is full of cobwebs.',
+    'But in return you will get love, neat,',
+    'or whatever is sweeter or more elegant still:',
+    'for I will give you a perfume that the Venuses',
+    'and Cupids gave my girl,',
+    'and when you smell it, you will ask the gods',
+    'to make you, Fabullus, all nose.'
+  ],
+  it: [
+    'Cenerai bene, mio Fabullo, da me,',
+    'fra pochi giorni, se gli dei ti assistono,',
+    'se porterai con te una buona e abbondante',
+    'cena, e non senza una bella ragazza',
+    'e vino e sale e ogni sorta di risate.',
+    'Se porterai tutto questo, ti dico, mio raffinato amico,',
+    'cenerai bene: perché il borsellino del tuo Catullo',
+    'è pieno di ragnatele.',
+    'In cambio però riceverai affetto puro,',
+    'o qualcosa di ancora più dolce o elegante:',
+    'ti darò infatti un profumo che alla mia ragazza',
+    'hanno donato le Veneri e gli Amorini,',
+    'e quando lo annuserai pregherai gli dei',
+    'di farti, Fabullo, tutto naso.'
+  ],
+  analysis: [
+    '**Where we are.** A poem for a friend, from the years when Catullus was in Rome, the 50s BC. **Fabullus** is one of a pair of close friends, with Veranius, who appear several times in the book; they served together on the staff of a Roman governor in Spain, and Catullus welcomes them home in other poems. Here Fabullus is invited to dinner. The Lesbia of the earlier poems is in the background, as *meae puellae* in v. 11, and is given the most charming role.',
+    '**What the poem does.** It sets up the invitation poem, a real Greek genre, and turns it upside down. The opening is generous: *Cenabis bene*, you will dine well. Then the conditions arrive one after another. If you bring the dinner, a good big one; and a pretty girl; and wine, and wit, and every kind of laughter. In other words, if you bring everything. Why? *Tui Catulli / plenus sacculus est aranearum*: your Catullus\'s purse is full of cobwebs. The second half (vv. 9-14) is what the host can offer in return, and it turns out to be priceless: *meros amores*, and a perfume that the gods of love gave his girl, so wonderful that Fabullus will beg the gods to turn him *totum ... nasum*, into one enormous nose.',
+    '**The model and the joke.** Greek poets wrote invitations to a modest dinner with a famous host: one by Philodemus, the Epicurean philosopher who lived in the house of Lucius Calpurnius Piso (the consul Cicero attacked in *In Pisonem*, in this app), invites Piso to a simple meal at his cottage and promises friendship and good talk instead of luxury. Catullus knew the genre and pushes it to absurdity. The modest host does not offer a modest dinner; he offers no dinner at all. The repetition of *cenabis bene* in v. 7, after the list of conditions, gives the joke away: you will dine well, yes, on your own food.',
+    '**The style: one word, two meanings.** Catullus loads his small words. *Sale* in v. 5 is salt, an ingredient of dinner, and also wit, the *sal* that, like *lepos*, is one of the neoteric words of value. *Meros amores* in v. 9 plays on wine: *merum* is wine drunk neat, unmixed with water, which no polite Roman did, so *meros amores* is love undiluted, love straight. *Venuste noster* in v. 6, my charming friend, uses *venustus*, the word of Carmen 3 (*hominum venustiorum*) and Carmen 10 (*invenustum*). And the cobwebs in the purse are a real image of poverty that became proverbial; the diminutive *sacculus*, a little bag, makes it smaller still.',
+    '**The theme: what a friend is worth.** Look at the economy of the poem. Fabullus brings everything that can be bought; Catullus gives what cannot. *Amores*, love or affection (in the plural it can mean friendship as well as passion), and *quid suavius elegantiusve*, something sweeter or more elegant. The perfume is the crowning gift because it is beyond price: not bought at a shop but given by *Veneres Cupidinesque*, the same Venuses and Cupids called on to mourn the sparrow in Carmen 3, to Catullus\'s girl. The point is that the friendship is the dinner. It is a theme that runs through the book: Catullus has little money, and measures people by their *lepos* and their loyalty, not by their purses.',
+    '**On the metre.** Phalaecian hendecasyllables. Notice how vv. 3-4 make the reader wait, line-end after *magnam*: a good, big... dinner. The enjambment builds up the joke before it lands.',
+    '**Grammar notes.** *Cenabis* is a future, and *si ... attuleris* a future perfect: "you will dine, if you have brought". *Di* = *dei*, the nominative plural. *Non sine* is a litotes, "not without", that is, with. *Venuste noster* is a vocative. *Plenus* takes the genitive: *plenus ... aranearum*, full of cobwebs. *Seu quid* = *sive aliquid*, "or anything". *Donarunt* is the syncopated perfect of *dono* (= *donaverunt*). In v. 13 the relative *quod* comes before the *cum* clause it belongs to: "and when you smell it". *Ut ... faciant* is an indirect command after *rogabis*, and *totum ... nasum* is a predicative accusative: "to make you all nose".'
+  ].join('\n\n'),
+  analysisIt: [
+    '**Dove siamo.** Un carme per un amico, degli anni in cui Catullo era a Roma, gli anni 50 a.C. **Fabullo** fa parte di una coppia di amici stretti, con Veranio, che compaiono più volte nel libro; avevano servito insieme nel seguito di un governatore romano in Spagna, e in altri carmi Catullo festeggia il loro ritorno. Qui Fabullo viene invitato a cena. La Lesbia dei carmi precedenti è sullo sfondo, come *meae puellae* al v. 11, e le spetta il ruolo più grazioso.',
+    '**Che cosa fa il carme.** Imposta il carme d\'invito, un vero genere greco, e lo capovolge. L\'inizio è generoso: *Cenabis bene*, cenerai bene. Poi le condizioni arrivano una dopo l\'altra. Se porti la cena, buona e abbondante; e una bella ragazza; e il vino, e lo spirito, e ogni sorta di risate. Cioè, se porti tutto. Perché? *Tui Catulli / plenus sacculus est aranearum*: il borsellino del tuo Catullo è pieno di ragnatele. La seconda metà (vv. 9-14) è ciò che il padrone di casa può offrire in cambio, e si rivela senza prezzo: *meros amores*, e un profumo che gli dei dell\'amore hanno donato alla sua ragazza, così meraviglioso che Fabullo supplicherà gli dei di trasformarlo *totum ... nasum*, in un unico, enorme naso.',
+    '**Il modello e lo scherzo.** I poeti greci scrivevano inviti a una cena modesta rivolti a un ospite illustre: uno di Filodemo, il filosofo epicureo che viveva in casa di Lucio Calpurnio Pisone (il console attaccato da Cicerone nell\'*In Pisonem*, in quest\'app), invita Pisone a un pasto semplice nella sua casetta e promette amicizia e buona conversazione al posto del lusso. Catullo conosceva il genere e lo spinge all\'assurdo. Il padrone di casa modesto non offre una cena modesta; non offre nessuna cena. La ripetizione di *cenabis bene* al v. 7, dopo l\'elenco delle condizioni, svela lo scherzo: cenerai bene, sì, con il tuo cibo.',
+    '**Lo stile: una parola, due significati.** Catullo carica di senso le sue parole piccole. *Sale* al v. 5 è il sale, un ingrediente della cena, e anche lo spirito, il *sal* che, come il *lepos*, è una delle parole di valore dei neoterici. *Meros amores* al v. 9 gioca con il vino: il *merum* è il vino bevuto puro, senza acqua, cosa che nessun romano educato faceva, quindi *meros amores* è l\'affetto non annacquato, l\'affetto puro. *Venuste noster* al v. 6, mio raffinato amico, usa *venustus*, la parola del carme 3 (*hominum venustiorum*) e del carme 10 (*invenustum*). E le ragnatele nel borsellino sono un\'immagine reale della povertà, diventata proverbiale; il diminutivo *sacculus*, una borsetta, la rimpicciolisce ancora.',
+    '**Il tema: quanto vale un amico.** Guarda l\'economia del carme. Fabullo porta tutto ciò che si può comprare; Catullo dà ciò che non si compra. *Amores*, amore o affetto (al plurale può indicare l\'amicizia oltre che la passione), e *quid suavius elegantiusve*, qualcosa di più dolce o più elegante. Il profumo è il dono supremo perché non ha prezzo: non è comprato in bottega, ma donato alla ragazza di Catullo dalle *Veneres Cupidinesque*, le stesse Veneri e gli stessi Amorini chiamati a piangere il passero nel carme 3. Il punto è che la cena è l\'amicizia. È un tema che attraversa il libro: Catullo ha pochi soldi, e misura le persone dal loro *lepos* e dalla loro lealtà, non dal loro borsellino.',
+    '**Sul metro.** Endecasillabi faleci. Nota come i vv. 3-4 facciano aspettare il lettore, con la fine del verso dopo *magnam*: una buona e abbondante... cena. L\'enjambement prepara lo scherzo prima che arrivi.',
+    '**Note grammaticali.** *Cenabis* è un futuro, e *si ... attuleris* un futuro anteriore: "cenerai, se avrai portato". *Di* = *dei*, nominativo plurale. *Non sine* è una litote, "non senza", cioè con. *Venuste noster* è un vocativo. *Plenus* regge il genitivo: *plenus ... aranearum*, pieno di ragnatele. *Seu quid* = *sive aliquid*, "o qualcosa". *Donarunt* è il perfetto sincopato di *dono* (= *donaverunt*). Al v. 13 il relativo *quod* precede la proposizione con *cum* a cui appartiene: "e quando lo annuserai". *Ut ... faciant* è una completiva volitiva dopo *rogabis*, e *totum ... nasum* è un accusativo predicativo: "di farti tutto naso".'
+  ].join('\n\n')
+},
+{
+  poem: 16,
+  explicit: true,
+  title: 'Chaste poet, shameless verses',
+  titleIt: 'Poeta casto, versi spudorati',
+  description: 'Two critics have read Catullus\'s kiss poems and decided he is not much of a man. He answers with the crudest threat in Latin, and in the middle of it states a principle that poets have quoted ever since: the poet must be decent, his poems need not be.',
+  descriptionIt: 'Due critici hanno letto le poesie dei baci di Catullo e hanno deciso che è poco uomo. Lui risponde con la minaccia più cruda del latino, e nel mezzo enuncia un principio che i poeti citano da allora: il poeta deve essere onesto, le sue poesie no.',
+  en: [
+    'I\'ll bugger you both and stuff your mouths,',
+    'Aurelius, you pervert, and Furius, you sissy,',
+    'since from my little verses you have decided,',
+    'because they are a bit soft, that I am not quite decent.',
+    'A proper poet ought to be chaste',
+    'himself; his little verses need not be at all;',
+    'in fact they only have wit and charm',
+    'if they are a bit soft and not quite decent,',
+    'and can stir up an itch,',
+    'I don\'t mean in boys, but in these hairy old men',
+    'who can\'t get their stiff loins moving.',
+    'And you, because you have read about my many thousands',
+    'of kisses, think me less of a man?',
+    'I\'ll bugger you both and stuff your mouths.'
+  ],
+  it: [
+    'Ve lo metterò nel culo e in bocca,',
+    'Aurelio pervertito e Furio effeminato,',
+    'voi che dai miei versetti mi avete giudicato,',
+    'perché sono un po\' languidi, poco pudico.',
+    'Il poeta devoto deve essere casto',
+    'lui, i suoi versetti non ne hanno nessun bisogno;',
+    'anzi, hanno sale e grazia soltanto',
+    'se sono un po\' languidi e poco pudichi,',
+    'e se sanno risvegliare un prurito,',
+    'non dico nei ragazzi, ma in questi vecchi pelosi',
+    'che non riescono a muovere i lombi irrigiditi.',
+    'E voi, perché avete letto di molte migliaia',
+    'di baci, mi credete poco uomo?',
+    'Ve lo metterò nel culo e in bocca.'
+  ],
+  analysis: [
+    '**A word before reading.** This is the most explicit poem in the app. The first and last line are a sexual threat, and the translation does not soften it, because the poem only makes sense if you see how crude the threat is. It is here because the lines in between are one of the most important statements about poetry that the Romans have left us.',
+    '**Where we are.** **Furius** and **Aurelius**, the two "companions" of Carmen 11, appear again, this time openly as enemies. They have read some of Catullus\'s love poems, the ones about *milia multa basiorum*, many thousands of kisses, which means Carmina 5 and 7 (both in this app), and they have drawn a conclusion: a man who writes such soft, sentimental verse must be soft himself, *parum pudicus*, not quite decent, and *male mas*, hardly a man. In Rome that was a serious insult. The poem, from the 50s BC like the kiss poems it defends, is Catullus\'s answer.',
+    '**What the poem does.** It is built in a ring. The first line and the last are the same threat, and the argument sits inside them. Vv. 1-4: the threat, the two names with two insults, and the charge they have made. Vv. 5-11: the reply, a real piece of literary theory. Vv. 12-13: the charge repeated as an indignant question. V. 14: the threat again, word for word. The structure is the joke: Catullus proves he is a real man by threatening, in the most aggressive terms Latin has, to treat them as Roman men treated those they dominated.',
+    '**The threat, explained.** Roman ideas of masculinity did not divide people by whom they desired but by who was active and who was passive. A free man was supposed to be the one who penetrates; to be penetrated was shameful for him. The two verbs of v. 1, *pedicare* (anal) and *irrumare* (oral), describe acts in which the speaker is the dominant one, and *pathicus* and *cinaedus* in v. 2 are insults for a man who takes the passive role (*cinaedus* was originally an effeminate dancer). So the threat is a statement of power, and in Roman invective it was almost a formula: it is not a description of what Catullus intends to do. Those who called him effeminate are told, in the crudest words available, who is the man here.',
+    '**The theory: the poet and the poem.** Vv. 5-6 are the heart of it: *nam castum esse decet pium poetam / ipsum, versiculos nihil necesse est*. The poet himself must be *castus*, chaste, and *pius*, dutiful, respectable; his verses do not need to be. Then vv. 7-11 go further: the verses only have *salem ac leporem*, salt and charm, if they are a bit soft and indecent, and can stir an itch, not in boys but in hairy old men who can barely move. That is: the purpose of light verse is to give pleasure, even to the stiff and the old, and a poem that is respectable is a poem that has failed. The idea had a long life. Ovid, defending himself to Augustus, wrote that his life was modest and only his Muse was playful; Martial said his page was naughty but his life was clean; the younger Pliny quoted Catullus\'s lines to excuse his own light verse. Every time a writer has said "do not confuse me with my characters", this poem is somewhere behind it.',
+    '**The theme: the words of Roman morality, turned round.** Look at the moral vocabulary: *castus*, chaste; *pius*, dutiful, the word for Aeneas; *pudicus*, modest; *mas*, a male, a real man. These are the words of the *mos maiorum*, the ancestral code. Catullus does not reject them: he keeps them for the man and refuses them to the poem. And on the other side stand the neoteric values, *sal* and *lepos*, wit and charm, together with *molliculus*, a little soft, a diminutive that turns an insult into a quality. The poem is about two scales of value, the moral and the aesthetic, and the claim that they measure different things. Note also the irony of the method: Catullus answers a charge of indecency with the most indecent poem in the book.',
+    '**A poem that was hidden.** For centuries most printed editions of Catullus left this poem out, or printed it with the first line removed, or with asterisks; school editions avoided it until well into the twentieth century. Today it is read as one of his key texts. Metre: Phalaecian hendecasyllables.',
+    '**Grammar notes.** *Pedicabo* and *irrumabo* are futures. *Pathice* and *cinaede* are Greek words in the vocative. *Putastis* is the syncopated perfect of *puto* (= *putavistis*), and it governs a double accusative: *me ... parum pudicum*, "considered me not decent enough". *Ex versiculis* means "on the basis of my verses". *Quod sunt molliculi* is a causal clause in the indicative, the reason as Catullus states it. *Decet* is impersonal and takes the accusative and infinitive: *castum esse decet pium poetam*, "it is right that the poet be chaste". With *versiculos nihil necesse est* the infinitive *esse castos* is understood. *Tum denique ... si*: "only then ... if". *Quod pruriat* is a relative clause of characteristic, "something to make one itch". *Male marem* uses *male* as a weakening adverb: "badly a man", hardly a man.'
+  ].join('\n\n'),
+  analysisIt: [
+    '**Una parola prima di leggere.** Questa è la poesia più esplicita dell\'app. Il primo e l\'ultimo verso sono una minaccia sessuale, e la traduzione non la addolcisce, perché il carme ha senso solo se si vede quanto è cruda la minaccia. È qui perché i versi che stanno in mezzo sono una delle affermazioni più importanti sulla poesia che i Romani ci abbiano lasciato.',
+    '**Dove siamo.** **Furio** e **Aurelio**, i due "compagni" del carme 11, ricompaiono, questa volta apertamente come nemici. Hanno letto alcune poesie d\'amore di Catullo, quelle sui *milia multa basiorum*, le molte migliaia di baci, cioè i carmi 5 e 7 (entrambi in quest\'app), e ne hanno tratto una conclusione: un uomo che scrive versi così languidi e sentimentali dev\'essere molle anche lui, *parum pudicus*, poco pudico, e *male mas*, poco uomo. A Roma era un insulto serio. Il carme, degli anni 50 a.C. come le poesie dei baci che difende, è la risposta di Catullo.',
+    '**Che cosa fa il carme.** È costruito ad anello. Il primo e l\'ultimo verso sono la stessa minaccia, e il ragionamento sta in mezzo. Vv. 1-4: la minaccia, i due nomi con due insulti e l\'accusa che hanno fatto. Vv. 5-11: la risposta, un vero pezzo di teoria letteraria. Vv. 12-13: l\'accusa ripetuta come domanda indignata. V. 14: di nuovo la minaccia, parola per parola. La struttura è lo scherzo: Catullo dimostra di essere un vero uomo minacciando, nei termini più aggressivi che il latino possieda, di trattarli come gli uomini romani trattavano coloro che dominavano.',
+    '**La minaccia, spiegata.** Le idee romane sulla virilità non dividevano le persone in base a chi desideravano, ma in base a chi era attivo e chi passivo. Un uomo libero doveva essere quello che penetra; essere penetrato era per lui vergognoso. I due verbi del v. 1, *pedicare* (anale) e *irrumare* (orale), descrivono atti in cui chi parla è quello dominante, e *pathicus* e *cinaedus* al v. 2 sono insulti per un uomo che assume il ruolo passivo (*cinaedus* in origine era un ballerino effeminato). La minaccia è quindi un\'affermazione di potere, e nell\'invettiva romana era quasi una formula: non descrive ciò che Catullo intende fare. A chi lo ha chiamato effeminato viene detto, con le parole più crude disponibili, chi è l\'uomo qui.',
+    '**La teoria: il poeta e la poesia.** I vv. 5-6 ne sono il cuore: *nam castum esse decet pium poetam / ipsum, versiculos nihil necesse est*. Il poeta stesso deve essere *castus*, casto, e *pius*, devoto, rispettabile; i suoi versi non ne hanno bisogno. Poi i vv. 7-11 vanno oltre: i versi hanno *salem ac leporem*, sale e grazia, solo se sono un po\' languidi e poco pudichi, e se sanno risvegliare un prurito, non nei ragazzi ma nei vecchi pelosi che si muovono a stento. Cioè: lo scopo della poesia leggera è dare piacere, anche ai rigidi e ai vecchi, e una poesia rispettabile è una poesia fallita. L\'idea ebbe lunga vita. Ovidio, difendendosi davanti ad Augusto, scrisse che la sua vita era morigerata e solo la sua Musa era giocosa; Marziale disse che la sua pagina era licenziosa ma la sua vita onesta; Plinio il Giovane citò i versi di Catullo per giustificare i propri versi leggeri. Ogni volta che uno scrittore ha detto "non confondetemi con i miei personaggi", questo carme è da qualche parte lì dietro.',
+    '**Il tema: le parole della morale romana, rovesciate.** Guarda il vocabolario morale: *castus*, casto; *pius*, devoto, la parola di Enea; *pudicus*, pudico; *mas*, maschio, un vero uomo. Sono le parole del *mos maiorum*, il codice degli antenati. Catullo non le rifiuta: le tiene per l\'uomo e le nega alla poesia. E dall\'altra parte stanno i valori neoterici, *sal* e *lepos*, spirito e grazia, insieme a *molliculus*, un po\' languido, un diminutivo che trasforma un insulto in una qualità. Il carme parla di due scale di valori, quella morale e quella estetica, e sostiene che misurano cose diverse. Nota anche l\'ironia del metodo: Catullo risponde a un\'accusa di indecenza con la poesia più indecente del libro.',
+    '**Una poesia nascosta.** Per secoli la maggior parte delle edizioni a stampa di Catullo ha omesso questo carme, o lo ha stampato senza il primo verso, o con degli asterischi; le edizioni scolastiche lo hanno evitato fino a Novecento inoltrato. Oggi è letto come uno dei suoi testi chiave. Metro: endecasillabi faleci.',
+    '**Note grammaticali.** *Pedicabo* e *irrumabo* sono futuri. *Pathice* e *cinaede* sono parole greche al vocativo. *Putastis* è il perfetto sincopato di *puto* (= *putavistis*), e regge un doppio accusativo: *me ... parum pudicum*, "mi avete giudicato poco pudico". *Ex versiculis* vuol dire "in base ai miei versi". *Quod sunt molliculi* è una causale all\'indicativo, la ragione come la presenta Catullo. *Decet* è impersonale e regge l\'accusativo con l\'infinito: *castum esse decet pium poetam*, "è giusto che il poeta sia casto". Con *versiculos nihil necesse est* si sottintende l\'infinito *esse castos*. *Tum denique ... si*: "solo allora ... se". *Quod pruriat* è una relativa impropria (caratterizzante), "qualcosa che provochi prurito". *Male marem* usa *male* come avverbio attenuativo: "malamente uomo", poco uomo.'
+  ].join('\n\n')
+}
+];
