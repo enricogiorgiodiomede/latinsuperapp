@@ -57,7 +57,7 @@ Verification: **478 verbatim, 0 mismatched** (+12: the three launch excerpts are
 check_numbering 177/0; check_verses 60/0; check_metres 0 failed; check_metre_quotes 37/0; check_context 0 to look at
 for 1.17.0; lint_register, lint_ablatives, lint_markdown clean; lint_translations 3 (old). check_sections 147 to look
 at (+6 Catullus: line-for-line markers against sentence blocks, the same artefact as the 59 Lucretius items).
-Bank **625**. Cache-bust: `?v=248` -> `?v=250`.
+Bank **625**. Cache-bust: `?v=248` -> `?v=251` (250, then 251 for the release time).
 
 ## [1.16.14] - 2026-11-08
 

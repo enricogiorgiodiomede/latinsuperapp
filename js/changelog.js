@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.17.0', date: '08/11/2026', time: '00:00', tz: 'CET',
+      v: '1.17.0', date: '08/11/2026', time: '23:23', tz: 'CET',
       en: {
         added: [
           'CATULLUS, PART ONE OF EIGHT. Catullus is getting the full treatment: 60 excerpts, twenty from each part of his book. He now has three sections to choose from - the short poems, the long learned poems and the epigrams - and the first ten short poems are here: the dedication of the book, Lesbia\'s sparrow alive and dead, "let us live and love", the thousands of kisses, "poor Catullus, stop being a fool", the comic story of the litter-bearers he never had, the farewell to Lesbia sent to the ends of the earth, the dinner invitation where the guest brings the dinner, and his defence of shameless poetry.',
