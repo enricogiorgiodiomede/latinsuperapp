@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.16.14', date: '08/11/2026', time: '00:00', tz: 'CET',
+      v: '1.16.14', date: '08/11/2026', time: '20:42', tz: 'CET',
       en: {
         added: [
           'Nothing was added.'

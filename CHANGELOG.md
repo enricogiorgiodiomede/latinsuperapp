@@ -48,7 +48,7 @@ to a Sallust note after its release has been moved to where it belongs.
 
 Verification: **466 verbatim, 0 mismatched**; check_context 156 and check_sections 141 to look at, both unchanged;
 lint_register, lint_ablatives, lint_markdown clean; check_numbering 168/0, check_verses 60/0. Bank **616**.
-Cache-bust: `?v=246` -> `?v=247`.
+Cache-bust: `?v=246` -> `?v=248` (247, then 248 for the release time).
 
 ## [1.16.13] - 2026-11-08
 
