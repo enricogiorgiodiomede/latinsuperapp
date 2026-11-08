@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.16.13', date: '08/11/2026', time: '00:00', tz: 'CET',
+      v: '1.16.13', date: '08/11/2026', time: '01:31', tz: 'CET',
       en: {
         added: [
           'THE LAST FOUR EXCERPTS OF THE JUGURTHINE WAR - AND SALLUST IS COMPLETE, WITH 70 EXCERPTS: 30 FROM THE CONSPIRACY OF CATILINE AND 40 FROM THE JUGURTHINE WAR. A last battle near Cirta, where Jugurtha shouts in the Latin he learned as a young man that Marius is dead; the young Sulla\'s speech to King Bocchus, all friendship on the surface and threat underneath; and the night Bocchus decides which of his two guests to betray, ending with Jugurtha handed over in chains.',
