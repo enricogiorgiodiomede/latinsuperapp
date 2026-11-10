@@ -568,7 +568,7 @@
           pattern: '– – ⏑ – | ⏑ – ⏑ – | ⏑ – – ×',
           notes: [
             '**The first anceps is long this time.** *At tu* is two long syllables, so the line opens with a firmer, heavier step than v. 1 did, which suits a command.',
-            '**Watch the join *-tus ob-*.** The *s* of *destinatus* runs on to the vowel of *obdura*, so *-tus* is an open syllable and counts short, exactly where the metre wants the short before the limp. Then *ob-* is closed by the *b* and *d* that follow, and *-du-* has a long vowel: the two longs of the stumble.',
+            '**Watch the join of the last two words.** The *s* of *destinatus* runs on to the vowel of *obdura*, so *-tus* is an open syllable and counts short, exactly where the metre wants the short before the limp. Then *ob-* is closed by the *b* and *d* that follow, and *-du-* has a long vowel: the two longs of the stumble.',
             '**The poem ends where it began.** Vv. 1 and 19 both address *Catulle* in the same position of the line. The repeated frame is what makes the poem read as a loop: he has argued with himself for nineteen lines and is back where he started, telling himself to hold firm.'
           ]
         }
@@ -630,7 +630,7 @@
           notes: [
             '**An elision in the first two words.** *Furi et* is written as three syllables and read as two: the final *-i* of *Furi* disappears before *et*. Count it and the line has twelve syllables and does not scan.',
             '**A long fourth syllable here**, the *-re-* of *Aureli*, which has a long vowel. The second foot is a spondee, the shape Horace would later make compulsory.',
-            '**The dactyl falls on *-li comi-***, in the middle of the line, and the two names fill the first half exactly. The line is an address, and it sounds like one: two names, then the title the poem gives them, *comites*, companions.'
+            '**The dactyl falls in the middle of the line**, on *-li comi-*, and the two names fill the first half exactly. The line is an address, and it sounds like one: two names, then the title the poem gives them, *comites*, companions.'
           ]
         },
         {

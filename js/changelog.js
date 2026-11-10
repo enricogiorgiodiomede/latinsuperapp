@@ -23,7 +23,9 @@
         changed: [
           'Catullus\'s Lexicon bar is raised from 2.4 to 3.0: his words look easy but carry a private meaning. He stays Manageable overall.',
           'The two older Catullus excerpts, the brother\'s grave and the voyage of the Argo, now sit in their sections; the Latin of the brother\'s grave was checked against the source and one line was corrected, with its translation.',
-          'The notes on Nepos\'s preface, Lucretius\'s address to Memmius and Cicero\'s stern ancestor in the Pro Caelio now point to the Catullus poems that answer them.'
+          'The notes on Nepos\'s preface, Lucretius\'s address to Memmius and Cicero\'s stern ancestor in the Pro Caelio now point to the Catullus poems that answer them.',
+          'The notes on the ten new Catullus poems were deepened from a reader\'s comments: why a poet of trifles prays for his book to last, why the sparrow gets a hymn and the girl a portrait so unlike Cicero\'s, how "let us live and love" differs from Horace\'s carpe diem and reached Tasso\'s Aminta, why the kisses must be uncountable, the circle Catullus cannot get out of in "poor Catullus", the slavery of love, the farewell where desire survives and esteem dies, the dinner where money measures nothing, and why the explicit manifesto only makes sense read whole - and why a work and its author should not be judged one by the other.',
+          'Cicero\'s portrait of Clodia as the "Medea of the Palatine" now points to Catullus\'s very different portrait of the same woman, and a few labels on the two new metre pages that showed stray asterisks were fixed.'
         ],
         deleted: [
           'Nothing was deleted.'
@@ -39,7 +41,9 @@
         changed: [
           'La barra del Lessico di Catullo sale da 2,4 a 3,0: le sue parole sembrano facili ma hanno un significato privato. Nel complesso resta Affrontabile.',
           'I due brani più vecchi di Catullo, la tomba del fratello e il viaggio della nave Argo, ora stanno nelle loro sezioni; il latino della tomba del fratello è stato controllato sulla fonte e un verso è stato corretto, insieme alla traduzione.',
-          'Le note sulla prefazione di Nepote, sull\'invocazione di Lucrezio a Memmio e sul severo antenato di Cicerone nella Pro Caelio ora rimandano alle poesie di Catullo che rispondono loro.'
+          'Le note sulla prefazione di Nepote, sull\'invocazione di Lucrezio a Memmio e sul severo antenato di Cicerone nella Pro Caelio ora rimandano alle poesie di Catullo che rispondono loro.',
+          'Le note sulle dieci nuove poesie di Catullo sono state approfondite a partire dai commenti di un lettore: perché un poeta di sciocchezze prega che il suo libro duri, perché il passero riceve un inno e la ragazza un ritratto così diverso da quello di Cicerone, in che cosa "viviamo e amiamo" differisce dal carpe diem di Orazio e come è arrivato all\'Aminta di Tasso, perché i baci devono essere impossibili da contare, il cerchio da cui Catullo non riesce a uscire in "povero Catullo", la schiavitù d\'amore, l\'addio in cui sopravvive il desiderio e muore la stima, la cena in cui il denaro non misura nulla, e perché il manifesto esplicito ha senso solo letto per intero - e perché un\'opera e il suo autore non vanno giudicati l\'una con l\'altro.',
+          'Il ritratto di Clodia come "Medea del Palatino" fatto da Cicerone ora rimanda al ritratto molto diverso che Catullo fa della stessa donna, e sono state corrette alcune etichette delle due nuove pagine di metrica che mostravano asterischi di troppo.'
         ],
         deleted: [
           'Non è stato eliminato nulla.'

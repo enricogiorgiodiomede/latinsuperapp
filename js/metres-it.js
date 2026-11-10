@@ -213,7 +213,7 @@
           gloss: 'L\'ultimo verso dello stesso carme: tieni duro',
           notes: [
             '**Questa volta la prima ancipite è lunga.** *At tu* sono due sillabe lunghe, così il verso si apre con un passo più fermo e pesante del v. 1, adatto a un ordine.',
-            '**Guarda la giuntura *-tus ob-*.** La *s* di *destinatus* si lega alla vocale di *obdura*, così *-tus* è una sillaba aperta e conta breve, proprio dove il metro vuole la breve prima dello zoppicare. Poi *ob-* è chiusa dalla *b* e dalla *d* che seguono, e *-du-* ha una vocale lunga: le due lunghe dell\'inciampo.',
+            '**Guarda la giuntura delle ultime due parole.** La *s* di *destinatus* si lega alla vocale di *obdura*, così *-tus* è una sillaba aperta e conta breve, proprio dove il metro vuole la breve prima dello zoppicare. Poi *ob-* è chiusa dalla *b* e dalla *d* che seguono, e *-du-* ha una vocale lunga: le due lunghe dell\'inciampo.',
             '**Il carme finisce dove era cominciato.** I vv. 1 e 19 si rivolgono entrambi a *Catulle* nella stessa posizione del verso. È la cornice ripetuta a far leggere il carme come un cerchio: ha discusso con se stesso per diciannove versi ed è tornato al punto di partenza, a ordinarsi di tenere duro.'
           ]
         }
@@ -261,7 +261,7 @@
           notes: [
             '**Un\'elisione nelle prime due parole.** *Furi et* si scrive come tre sillabe e si legge come due: la *-i* finale di *Furi* sparisce davanti a *et*. A contarla il verso ha dodici sillabe e non torna.',
             '**Qui la quarta sillaba è lunga**, il *-re-* di *Aureli*, che ha una vocale lunga. Il secondo piede è uno spondeo, la forma che Orazio renderà poi obbligatoria.',
-            '**Il dattilo cade su *-li comi-***, nel mezzo del verso, e i due nomi riempiono esattamente la prima metà. Il verso è un\'apostrofe, e suona come tale: due nomi, poi il titolo che il carme dà loro, *comites*, compagni.'
+            '**Il dattilo cade nel mezzo del verso**, su *-li comi-*, e i due nomi riempiono esattamente la prima metà. Il verso è un\'apostrofe, e suona come tale: due nomi, poi il titolo che il carme dà loro, *comites*, compagni.'
           ]
         },
         {

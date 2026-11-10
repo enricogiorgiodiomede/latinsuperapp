@@ -50,8 +50,29 @@ stanza (61, R5); galliambic (63, R5).
 *cum*); 10.8 *et quonam* / ecquonam; 10.21 *nec hic* / neque hic; 10.26 *Serapim*; 10.29-30 the page's `--`
 dashes; 11.5-6 *Arabesve*, *Sagas* / Arabasve, Sacas. **101.7 on the page is *prisco quae more parentum*** - the
 launch Latin (*prout ea consuetudo*) had never been verified (no sources.json entry); fixed with the translation.
+**THE USER'S THESES (notes on Release 1, 11/11/2026) - write them into later notes from the start, do not wait to be told:**
+- **Small subjects are worth as much as epic** if the craft is there: the prayer of Carmen 1 is a statement, the key to
+  all of Catullus; the sparrow hymn (3) proves it. Point back to 1 and 3 whenever he lavishes care on a trifle.
+- **Epic and colloquial language are the engine, not a contradiction**: the small words give intimacy, the grand ones
+  lift it. Expect it in 64 and 68 too.
+- **Lesbia's intimate portrait against Cicero's** (Pro Caelio 18 Medea, 62 quadrantaria): compare at every Lesbia poem.
+- **Huge numbers protect love from the evil eye** (5, 7): uncountable = uncursable.
+- **Learned allusion shows the refined poet**, not just the love poet with bad words (7, Callimachus).
+- **Servitium amoris** (8): Catullus as Lesbia's slave, taken up by Tibullus and Propertius; **against the mos maiorum's
+  self-control**. **Inner turmoil made into poetry**, anticipating Petrarch. Ring structure = he cannot let go.
+- **Love is a foedus kept by fides; sex is not love** (11). CORRECTION GIVEN: the user wrote that when the foedus
+  breaks "amare becomes simply bene velle"; Carmen 72 says the reverse - *amare magis, sed bene velle minus*: desire
+  stays, esteem dies. Write it the poem's way (and say so gently if it comes up). Also: Petrarch is ~14 centuries
+  after Catullus, not 1300 years.
+- **Money measures nothing; friendship has no price** (13).
+- **Don't judge the author entirely by the work, nor the work by the author** (16); the explicit poems must be read
+  whole or the message collapses. The user's own wording on 16: worth reading "if you decide that one bad word or
+  threat is not worth disregarding everything else".
+- Tone points they liked: comic misunderstanding from Plautus (10), the mosquito temperament, Horace + Falernian as the
+  calm foil; Tasso's Aminta (Act I chorus) translating Carmen 5 vv. 4-6; Carmen 58 (*glubit*) beside 11.
+
 **Cross-links made both ways in v1.17.0:** 1 <-> Nepos Praefatio 1-3; 10 <-> DRN I vv. 21-43 (Memmius);
-5 <-> Pro Caelio 33-34 (the stern old men). One-way: 11 -> DBG IV.25 (no Britain paragraph there to anchor).
+5 <-> Pro Caelio 33-34 (the stern old men); 2, 3 <-> Pro Caelio 18 (the Medea portrait; 3 also -> 62), added in the 11/11 follow-up. One-way: 11 -> DBG IV.25 (no Britain paragraph there to anchor).
 
 ---
 

@@ -59,6 +59,37 @@ for 1.17.0; lint_register, lint_ablatives, lint_markdown clean; lint_translation
 at (+6 Catullus: line-for-line markers against sentence blocks, the same artefact as the 59 Lucretius items).
 Bank **625**. Cache-bust: `?v=248` -> `?v=251` (250, then 251 for the release time).
 
+### Follow-up 2026-11-11 - the user's notes on Release 1
+Folded in place into all ten notes, English and Italian (`batch/cat1700_frags_[a-d].js`, then
+`batch/cat1700_sync.js`, which copies only `analysis`/`analysisIt` into the bank). New paragraphs and sentences:
+- **Carmen 1**: why praying for the book to last is not a contradiction (small poems can match epic in value, a key
+  for reading all of Catullus); the book was new for its variety of themes and metres and for its *labor limae*.
+- **Carmen 2**: the hymn point cut down to a pointer to Carmen 3; *Harder than it looks* (one sentence, *Passer* in
+  v. 1 waiting for *possem* in v. 9); *A different Lesbia* (against Cicero's Medea, *Pro Caelio 18*); *The sparrow
+  matters to Catullus too*.
+- **Carmen 3**: *Why a hymn for a sparrow?* (the full argument); *Two languages, one engine* (epic and colloquial
+  words need each other); *Another Lesbia* (Pro Caelio 18 and 62).
+- **Carmen 5**: carpe diem is calm and moderate, *Vivamus* urgent; *A poem built on opposites*; *The most famous
+  poem in the book*, with Tasso's *Aminta*, end of the Act I chorus, translating vv. 4-6.
+- **Carmen 7**: *Why so many?* (an uncountable number cannot be bewitched, as in Carmen 5); the Callimachus homage
+  shows a learned poet.
+- **Carmen 8**: jealousy; *The ring: back where he started*; *A slave of love, against the code of the ancestors*
+  (servitium amoris in Tibullus and Propertius; self-control and the mos maiorum); *Turmoil turned into poetry*
+  (Petrarch, some fourteen centuries later).
+- **Carmen 10**: *A scene straight from Plautus* (the braggart caught out, Miles Gloriosus); *Peak Catullus* (the
+  mosquito temperament; Horace would have written a satire and opened the Falernian).
+- **Carmen 11**: the hyperbaton of more than a dozen lines and the crash; Carmen 58 (*glubit magnanimi Remi
+  nepotes*); what the flower tells; the theme rewritten on *foedus*/*fides* and *amare* against *bene velle* (betrayal
+  keeps the desire and kills the esteem, Carmen 72); "On the text" now its own paragraph.
+- **Carmen 13**: *A poem built on a contrast: money measures nothing*.
+- **Carmen 16**: the threat proves the manliness in dispute; *Judge the work, judge the person: not one by the
+  other*; why cutting the first and last lines ruins the poem, and why it is worth reading whole.
+
+Also: *Pro Caelio 18* now points to Carmina 2 and 3. **Fix**: four bold spans on the new choliambic and Sapphic
+pages wrapped italics and leaked asterisks (`lint_markdown` had been run before the pages were written); rewritten.
+Verification: 478/0 verbatim; check_context 0 for 1.17.0 (155 bank-wide, unchanged); lint_markdown 0;
+check_metre_quotes 37/0; check_metres 0 failed. Cache-bust: `?v=251` -> `?v=252`.
+
 ## [1.16.14] - 2026-11-08
 
 **SALLUST IN HIS OWN SPELLING, AND THE NOTES PUT IN ORDER.** Two jobs on the 70 Sallust excerpts, at the user's

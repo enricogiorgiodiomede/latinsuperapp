@@ -1,0 +1,8 @@
+[
+ {"cit": "(Pro Caelio 18)", "field": "analysis",
+  "find": "and poisoning is the actual charge in this trial.",
+  "replace": "and poisoning is the actual charge in this trial. Catullus, who loved Clodia under the name Lesbia, paints the opposite portrait in the same years: a woman playing with her pet sparrow in her lap, and then crying over it when it dies (Carmina 2 and 3, in this app)."},
+ {"cit": "(Pro Caelio 18)", "field": "analysisIt",
+  "find": "e l'avvelenamento è l'accusa vera di questo processo.",
+  "replace": "e l'avvelenamento è l'accusa vera di questo processo. Catullo, che amò Clodia con il nome di Lesbia, dipinge negli stessi anni il ritratto opposto: una donna che gioca con il suo passero in grembo, e poi lo piange quando muore (carmi 2 e 3, in quest'app)."}
+]
