@@ -6,6 +6,46 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.17.1] - 2026-11-11
+
+**CATULLUS, RELEASE 2 OF 8: THE POLYMETRA ARE COMPLETE AT 20.** The second ten short poems, written with the
+user's theses from the Release 1 notes built in from the start (small subjects worth epic care; epic and colloquial
+words as one engine; Lesbia's portrait against Cicero's; love and friendship as a *foedus* kept by *fides*; *otium*
+and self-control; the man and the work judged apart).
+
+### Added - Polymetra (10)
+| excerpt | what it is |
+|---|---|
+| Carmen 22 | Suffenus: charming in life, a bumpkin on the page; luxury books against *labor limae*; the bag on our back |
+| Carmen 30 | to Alfenus, the friend who broke faith: *Fides* as a goddess; the only greater asclepiad poem |
+| Carmen 31 | home at Sirmio after Bithynia (56 BC): *ocelle* for a peninsula; the good *otium* |
+| Carmen 32 | to Ipsitilla (**explicit**): the tenderest words for the crudest request; a finite number against 5 and 7 |
+| Carmen 36 | Volusius's Annals into the fire (**explicit** frame): Lesbia's witty vow, a mock-hymn to Venus |
+| Carmen 41 | Ameana and her ten thousand (**explicit**): invective, a legal parody, Mamurra behind her |
+| Carmen 46 | spring, and time to leave Bithynia: *iam* four times, joy in the body |
+| Carmen 49 | to Cicero, best of advocates from the worst of poets: sincere or ironic |
+| Carmen 50 | to Calvus after an evening of verse: love's symptoms for a friend; paired with 51 |
+| Carmen 51 | Sappho translated, with the lost v. 8 marked [...] and the *otium* stanza |
+
+### Added - other
+- **Metre page: Greater Asclepiad** (English and Italian), scanned on Carmen 30 vv. 1 and 11; `check_metre_quotes.js`
+  knows its shape, `check_metres.js` its name; metre labels for 22 and 31 (choliambic), 30, 51 (Sapphic). Sitemap
+  regenerated (12 metre pages).
+- `tools/extract_poem.js` reads the page's misprinted heading for Carmen 49 (*IL.* for *XLIX.*).
+- `batch/cat1701_frags.js` builds an excerpt with a manuscript lacuna (Carmen 51: two pieces, `from` [1, 9], `nums`
+  with a null on the [...] line), and `batch/cat17_sync.js` copies notes from any Catullus builder into the bank.
+- **Declared normalisation**: Carmen 36 v. 12 *Vriosque* -> *Uriosque* (`emend`).
+
+### Changed
+- **Cross-references to the new poems**, added in place: *De Coniuratione Catilinae 10* (Carmen 51, *otium*),
+  *De Amicitia 64* (Carmen 30, the friend who deserts *in malis*), *Pro Caelio 1* (Carmen 49), *De Rerum Natura
+  III, vv. 152-160* (Carmen 51, Sappho's symptoms).
+
+Verification: **488 verbatim, 0 mismatched** (Carmen 51 in 2 pieces, Carmen 36 1 emended); check_numbering 187/0;
+check_verses 60/0; check_metres 196 labelled, 0 failed; check_metre_quotes 39/0; check_context 0 for 1.17.1 (155
+bank-wide); lint_register, lint_ablatives, lint_markdown clean; lint_translations 3 (old). check_sections 148 (+1,
+Carmen 36, the line-for-line artefact). Bank **635**. Cache-bust: `?v=252` -> `?v=253`.
+
 ## [1.17.0] - 2026-11-08
 
 **THE CATULLUS EXPANSION BEGINS.** Release 1 of 8 (plan agreed with the user on 08/11/2026: 60 excerpts, 20 in

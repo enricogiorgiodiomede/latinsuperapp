@@ -283,7 +283,11 @@
         def: 'phalaecian-hendecasyllable',
         byCitation: {
           '(Carmen 8)': 'choliambic',
-          '(Carmen 11)': 'sapphic-stanza'
+          '(Carmen 11)': 'sapphic-stanza',
+          '(Carmen 22)': 'choliambic',
+          '(Carmen 30)': 'greater-asclepiad',
+          '(Carmen 31)': 'choliambic',
+          '(Carmen 51)': 'sapphic-stanza'
         }
       },
       'catullus-carmina-docta': {
@@ -660,6 +664,74 @@
       ],
 
       after: 'Horace, who wrote more Sapphics than any other Roman poet, is not yet in this app. When he is added, his examples will be added here.'
+    },
+
+    // v1.17.1, with Catullus 30, his only poem in this metre.
+    'greater-asclepiad': {
+      name: 'Greater Asclepiad',
+      tagline: 'A long, slow line built on three choriambs: the rarest metre in Catullus, used once, for a friend who broke faith.',
+      scheme: '– – | – ⏑ ⏑ – | – ⏑ ⏑ – | – ⏑ ⏑ – | ⏑ ×',
+      schemeNote: 'Sixteen syllables, always the same: a spondee, three choriambs (– ⏑ ⏑ –), and a short close. Catullus, like Horace after him, keeps the opening spondee and allows no substitutions.',
+
+      origin: [
+        '**The name comes from Asclepiades of Samos**, a Greek epigrammatist of the early third century BC, one of the poets the Alexandrians admired. As with the Phalaecian, the metre is older than the man it is named after: the Lesbian poets Sappho and Alcaeus already used lines of this family around 600 BC.',
+        '**It belongs to the aeolic family**, like the hendecasyllable and the Sapphic: a fixed pattern of syllables, not a count of time, so every line has exactly sixteen syllables. Its building block is the *choriamb*, – ⏑ ⏑ –, a long, two shorts and a long. The "lesser" asclepiad has two choriambs; the "greater" has three.',
+        '**In Latin it is very rare before Horace.** Catullus uses it in a single poem, Carmen 30, and Horace later writes three of his *Odes* in it, among them the famous *Tu ne quaesieris* (Odes I.11), the poem that ends on *carpe diem*. Horace is not in this app yet.'
+      ],
+
+      build: [
+        '**It opens on a spondee**, two longs. In Greek the first two syllables could vary; Catullus and Horace both fix them as – –.',
+        '**Then three choriambs in a row**, – ⏑ ⏑ – – ⏑ ⏑ – – ⏑ ⏑ –. Each one ends on a long and the next begins on a long, so where two choriambs meet there are two longs side by side, a heavy stop in the middle of the line.',
+        '**Then a short close**, ⏑ ×: a short syllable and a final anceps.',
+        '**There are word-breaks at the joins.** Poets usually end a word after the first choriamb and after the second, so the line falls into clear sections; you can hear it pause.',
+        '**Elision is frequent in Catullus\' poem**, because the line is long and he packs it: the first example below has two.'
+      ],
+
+      sound: [
+        '**Slow and weighty.** Two longs at the start, two longs at each join, and a fixed shape that never varies: the line moves at a measured pace, more like a procession than a run. Compare the quick hendecasyllable, which races from end to end.',
+        '**The choriamb rises and falls.** Each one goes strong, light, light, strong, a small arch, and three of them in a row give the line a rocking, insistent quality, as if the same complaint were being repeated.',
+        '**It suits seriousness.** Catullus chose it for his reproach to Alfenus, a poem of hurt rather than anger, and its gravity is part of the meaning: this is not a quarrel, it is an accusation before the gods.'
+      ],
+
+      usedIntro: [
+        'Greek lyric first, then the Hellenistic epigrammatists; in Latin, one poem of Catullus and three odes of Horace.',
+        'Catullus is the only poet in the app who uses it, and both examples come from Carmen 30: the opening accusation and the closing appeal to Good Faith.'
+      ],
+
+      examples: [
+        {
+          author: 'Gaius Valerius Catullus',
+          slug: 'gaius-valerius-catullus', era: 'caesar',
+          where: 'Carmen 30, v. 1',
+          gloss: 'The opening: the friend named and accused',
+          plain: 'Alfene immemor atque unanimis false sodalibus,',
+          source: 'bank',
+          marked: 'Ālfē|n(e) īmmĕmŏr ā|tqu(e) ūnănĭmīs | fālsĕ sŏdā|lĭbŭs,',
+          pattern: '– – | – ⏑ ⏑ – | – ⏑ ⏑ – | – ⏑ ⏑ – | ⏑ ×',
+          notes: [
+            '**Two elisions.** *Alfene immemor* loses the final *-e* of *Alfene*, and *atque unanimis* loses the *-e* of *atque*: written as eighteen syllables, read as sixteen. Count them both and the line will not scan.',
+            '**The choriambs fall on the accusation.** *-n(e) immemor at-*, *-qu(e) unanimis*, *false soda-*: the three arches carry the three charges, forgetful, one heart with his friends, false. The metre lays the case out in order.',
+            '**A long by position, and one by nature.** The *im-* of *immemor* is long because of the double *m*, though its vowel is short; the *u-* of *unanimis* is long by nature (from *unus*). Both count the same in the line.'
+          ]
+        },
+        {
+          author: 'Gaius Valerius Catullus',
+          slug: 'gaius-valerius-catullus', era: 'caesar',
+          where: 'Carmen 30, v. 11',
+          gloss: 'The appeal: the gods remember, Good Faith remembers',
+          plain: 'si tu oblitus es, at di meminerunt, meminit Fides,',
+          source: 'bank',
+          marked: 'sī t(u) ōb|lītŭs ĕs, āt | dī mĕmĭnē|rūnt, mĕmĭnīt | Fĭdēs,',
+          pattern: '– – | – ⏑ ⏑ – | – ⏑ ⏑ – | – ⏑ ⏑ – | ⏑ ×',
+          notes: [
+            '**A monosyllable elided.** *Tu oblitus* is read as *t\'oblitus*: even a whole short word can disappear before a vowel. The *ob-* that follows is long because the prefix is closed by its *b*.',
+            '**The repetition rides the metre.** *Meminerunt, meminit*: the same verb twice, and the two forms fall into the second and third choriambs, so the line hammers on memory exactly where its rhythm is heaviest.',
+            '**The last word is the goddess.** *Fides*, Good Faith, takes the short close of the line, ⏑ ×, and ends it. In a poem about broken trust, the final position belongs to the power that will punish the breach.'
+          ]
+        }
+      ],
+
+      after: 'Horace, who used the greater asclepiad for three of his Odes, is not yet in this app. When he is added, his examples will be added here.'
     },
 
     'saturnian': {

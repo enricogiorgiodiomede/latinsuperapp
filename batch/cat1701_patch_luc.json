@@ -1,0 +1,14 @@
+[
+ {
+  "cit": "(De Rerum Natura III, vv. 152-160)",
+  "field": "analysis",
+  "find": "Catullus translated that poem into Latin in the same years Lucretius was writing.",
+  "replace": "Catullus translated that poem into Latin in the same years Lucretius was writing (Carmen 51, in this app)."
+ },
+ {
+  "cit": "(De Rerum Natura III, vv. 152-160)",
+  "field": "analysisIt",
+  "find": "Catullo tradusse quella poesia in latino negli stessi anni in cui Lucrezio scriveva.",
+  "replace": "Catullo tradusse quella poesia in latino negli stessi anni in cui Lucrezio scriveva (carme 51, in quest'app)."
+ }
+]

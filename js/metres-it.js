@@ -278,6 +278,60 @@
       after: 'Orazio, che scrisse più saffici di qualunque altro poeta romano, non è ancora in questa app. Quando sarà aggiunto, i suoi esempi compariranno qui.'
     },
 
+    'greater-asclepiad': {
+      name: 'Asclepiadeo Maggiore',
+      tagline: "Un verso lungo e lento costruito su tre coriambi: il metro più raro di Catullo, usato una volta sola, per un amico che aveva tradito la fiducia.",
+      schemeNote: "Sedici sillabe, sempre le stesse: uno spondeo, tre coriambi (– ⏑ ⏑ –) e una chiusa breve. Catullo, come dopo di lui Orazio, mantiene lo spondeo iniziale e non ammette sostituzioni.",
+
+      origin: [
+        '**Il nome viene da Asclepiade di Samo**, un epigrammista greco dell\'inizio del III secolo a.C., uno dei poeti ammirati dagli alessandrini. Come per il falecio, il metro è più antico dell\'uomo da cui prende il nome: i poeti di Lesbo, Saffo e Alceo, usavano già versi di questa famiglia intorno al 600 a.C.',
+        '**Appartiene alla famiglia eolica**, come l\'endecasillabo e il saffico: uno schema fisso di sillabe, non un conto del tempo, perciò ogni verso ha esattamente sedici sillabe. Il suo mattone è il *coriambo*, – ⏑ ⏑ –, una lunga, due brevi e una lunga. L\'asclepiadeo "minore" ha due coriambi; il "maggiore" ne ha tre.',
+        '**In latino è rarissimo prima di Orazio.** Catullo lo usa in un solo carme, il 30, e Orazio scriverà più tardi tre delle sue *Odi* in questo metro, fra cui la celebre *Tu ne quaesieris* (Odi I.11), la poesia che finisce con *carpe diem*. Orazio non è ancora in questa app.'
+      ],
+
+      build: [
+        '**Si apre con uno spondeo**, due lunghe. In greco le prime due sillabe potevano variare; Catullo e Orazio le fissano entrambi come – –.',
+        '**Poi tre coriambi di fila**, – ⏑ ⏑ – – ⏑ ⏑ – – ⏑ ⏑ –. Ciascuno finisce su una lunga e il successivo comincia con una lunga, così dove due coriambi si incontrano ci sono due lunghe una accanto all\'altra, un arresto pesante in mezzo al verso.',
+        '**Poi una chiusa breve**, ⏑ ×: una sillaba breve e un\'ancipite finale.',
+        '**Alle giunture cadono fine di parola.** Di solito i poeti chiudono una parola dopo il primo coriambo e dopo il secondo, così il verso si divide in sezioni chiare; lo si sente fermarsi.',
+        '**Nel carme di Catullo l\'elisione è frequente**, perché il verso è lungo e lui lo riempie: il primo esempio qui sotto ne ha due.'
+      ],
+
+      sound: [
+        '**Lento e pesante.** Due lunghe all\'inizio, due lunghe a ogni giuntura, e una forma fissa che non cambia mai: il verso procede con passo misurato, più simile a una processione che a una corsa. Confrontalo con l\'endecasillabo, rapido, che corre da un capo all\'altro.',
+        '**Il coriambo sale e scende.** Ognuno va forte, leggero, leggero, forte, un piccolo arco, e tre di fila danno al verso un andamento cullante e insistente, come se si ripetesse sempre lo stesso lamento.',
+        '**Si addice alla serietà.** Catullo lo scelse per il suo rimprovero ad Alfeno, una poesia di dolore più che di rabbia, e la sua gravità fa parte del significato: non è una lite, è un\'accusa davanti agli dei.'
+      ],
+
+      usedIntro: [
+        'Prima la lirica greca, poi gli epigrammisti ellenistici; in latino, un carme di Catullo e tre odi di Orazio.',
+        'Catullo è l\'unico poeta dell\'app che lo usa, ed entrambi gli esempi vengono dal carme 30: l\'accusa iniziale e l\'appello finale alla Buona Fede.'
+      ],
+
+      examples: [
+        {
+          where: 'Carme 30, v. 1',
+          gloss: 'L\'inizio: l\'amico nominato e accusato',
+          notes: [
+            '**Due elisioni.** *Alfene immemor* perde la *-e* finale di *Alfene*, e *atque unanimis* perde la *-e* di *atque*: scritto come diciotto sillabe, si legge come sedici. Contale entrambe e il verso non torna.',
+            '**I coriambi cadono sull\'accusa.** *-n(e) immemor at-*, *-qu(e) unanimis*, *false soda-*: i tre archi portano i tre capi d\'accusa, smemorato, un cuore solo con gli amici, falso. Il metro espone la causa in ordine.',
+            '**Una lunga per posizione e una per natura.** L\'*im-* di *immemor* è lungo per via della doppia *m*, anche se la vocale è breve; l\'*u-* di *unanimis* è lunga per natura (da *unus*). Nel verso contano allo stesso modo.'
+          ]
+        },
+        {
+          where: 'Carme 30, v. 11',
+          gloss: 'L\'appello: gli dei ricordano, la Buona Fede ricorda',
+          notes: [
+            '**Un monosillabo eliso.** *Tu oblitus* si legge *t\'oblitus*: perfino un\'intera parola breve può sparire davanti a una vocale. L\'*ob-* che segue è lungo perché il prefisso è chiuso dalla sua *b*.',
+            '**La ripetizione cavalca il metro.** *Meminerunt, meminit*: lo stesso verbo due volte, e le due forme cadono nel secondo e nel terzo coriambo, così il verso batte sulla memoria proprio dove il suo ritmo è più pesante.',
+            '**L\'ultima parola è la dea.** *Fides*, la Buona Fede, occupa la chiusa breve del verso, ⏑ ×, e lo conclude. In un carme sulla fiducia tradita, la posizione finale appartiene alla potenza che punirà il tradimento.'
+          ]
+        }
+      ],
+
+      after: 'Orazio, che usò l\'asclepiadeo maggiore per tre delle sue Odi, non è ancora in questa app. Quando sarà aggiunto, i suoi esempi compariranno qui.'
+    },
+
     'saturnian': {
       name: 'Saturnio',
       tagline: 'Il verso proprio di Roma, da prima che arrivassero i metri greci; e l\'unico che nessuno sia riuscito a spiegare.',

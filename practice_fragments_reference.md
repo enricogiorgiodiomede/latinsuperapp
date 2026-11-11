@@ -32,8 +32,8 @@ otium) with a private meaning; the author page has the section "The Lexicon of L
 | release | poems (the user's picks starred) | status |
 |---|---|---|
 | 1 polymetra | 1*, 2* (vv. 1-10), 3 (rebuilt), 5*, 7, 8*, 10, 11, 13, 16* (explicit) | **DONE v1.17.0** |
-| 2 polymetra | 22, 30, 31, 32* (explicit), 36* (explicit), 41* (explicit), 46, 49, 50, 51 | next |
-| 3 epigrams | 70, 72*, 73, 75*, 76*, 77, 79, 83, 84, 85* (odi et amo) | |
+| 2 polymetra | 22, 30, 31, 32* (explicit), 36* (explicit), 41* (explicit), 46, 49, 50, 51 | **DONE v1.17.1** (polymetra complete at 20) |
+| 3 epigrams | 70, 72*, 73, 75*, 76*, 77, 79, 83, 84, 85* (odi et amo) | next |
 | 4 epigrams | 86* (Quintia), 87*, 92, 93, 95* (Zmyrna), 96, 101 (rebuild), 107, 109*, 116 | |
 | 5 docta | 61 vv. 1-35, 61 vv. 204-228, 62 vv. 39-58, 63 vv. 1-26, 63 vv. 50-73 | |
 | 6 docta | 64 vv. 1-21 (rebuild of 1-7), 50-70, 132-153, 186-201, 215-237 | |
@@ -50,6 +50,14 @@ stanza (61, R5); galliambic (63, R5).
 *cum*); 10.8 *et quonam* / ecquonam; 10.21 *nec hic* / neque hic; 10.26 *Serapim*; 10.29-30 the page's `--`
 dashes; 11.5-6 *Arabesve*, *Sagas* / Arabasve, Sacas. **101.7 on the page is *prisco quae more parentum*** - the
 launch Latin (*prout ea consuetudo*) had never been verified (no sources.json entry); fixed with the translation.
+**v1.17.1 notes on the text:** 22.6 *cartae*; 22.7 *membranae* / membrana; 22.13 *scitius* / tritius (real variant);
+30.10 *aereas*; 31.5 *Thuniam*, *Bithunos*; 31.13 *gaudente* / gaudete; 32.1 *Ipsitilla* / Ipsithilla; 36 *carta*,
+*ustulanda*, ***Vriosque* emended to *Uriosque*** (declared); 46.3 *aureis* = auris (not "golden"); 46.11 *diuersae*,
+*varie* / variae; 49 heading misprinted *IL.* on the page (extract_poem.js alias); 51 v. 8 LOST: built as two pieces
+(1-7, 9-16) joined by [...], numbering resumes at 9. **Links made:** 30 <-> De Amicitia 64; 49 <-> Pro Caelio 1;
+51 <-> DRN III vv. 152-160 and Sallust Cat. 10 (otium); internal 22 -> 1, 10, 16, 36; 31 <-> 46 <-> 10, 101; 50 <-> 51;
+51 <-> 11 (*identidem*, the Sapphic frame); 32 -> 2, 3, 5, 7, 16; 36 -> 5, 22, 1; 41 -> 13, 16.
+
 **THE USER'S THESES (notes on Release 1, 11/11/2026) - write them into later notes from the start, do not wait to be told:**
 - **Small subjects are worth as much as epic** if the craft is there: the prayer of Carmen 1 is a statement, the key to
   all of Catullus; the sparrow hymn (3) proves it. Point back to 1 and 3 whenever he lavishes care on a trifle.

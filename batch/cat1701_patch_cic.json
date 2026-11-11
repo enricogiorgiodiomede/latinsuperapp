@@ -1,0 +1,26 @@
+[
+ {
+  "cit": "(De Amicitia 64)",
+  "field": "analysis",
+  "find": "because passing only one half of it is easy.",
+  "replace": "because passing only one half of it is easy. Catullus wrote a whole poem about a friend who failed the second half, deserting him *in malis*, in his troubles: Alfenus, whom he accuses before the goddess Fides herself (Carmen 30, in this app)."
+ },
+ {
+  "cit": "(De Amicitia 64)",
+  "field": "analysisIt",
+  "find": "perché superarne una metà sola è facile.",
+  "replace": "perché superarne una metà sola è facile. Catullo scrisse un'intera poesia su un amico che fallì la seconda metà, abbandonandolo *in malis*, nei suoi guai: Alfeno, che accusa davanti alla dea Fides in persona (carme 30, in quest'app)."
+ },
+ {
+  "cit": "(Pro Caelio 1)",
+  "field": "analysis",
+  "find": "and it is tempting but unprovable to give the speech the credit.",
+  "replace": "and it is tempting but unprovable to give the speech the credit. Catullus, who had loved her as Lesbia, left a short poem of thanks to Cicero, \"the best advocate of all\" from \"the worst poet of all\", which some readers date after this trial and read as ironic (Carmen 49, in this app)."
+ },
+ {
+  "cit": "(Pro Caelio 1)",
+  "field": "analysisIt",
+  "find": "ed è allettante ma indimostrabile attribuirne il merito al discorso.",
+  "replace": "ed è allettante ma indimostrabile attribuirne il merito al discorso. Catullo, che l'aveva amata come Lesbia, lasciò un breve carme di ringraziamento a Cicerone, \"il migliore di tutti gli avvocati\" da parte del \"peggiore di tutti i poeti\", che alcuni lettori datano dopo questo processo e leggono come ironico (carme 49, in quest'app)."
+ }
+]

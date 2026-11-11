@@ -60,7 +60,9 @@ const WORDS = [
   [/choliamb|scazon|limping iambic/i, 'choliambic'],
   [/coliamb|scazont|giambo zoppo/i, 'choliambic'],
   [/sapphic stanza/i, 'sapphic-stanza'],
-  [/strofa saffica/i, 'sapphic-stanza']
+  [/strofa saffica/i, 'sapphic-stanza'],
+  [/greater asclepiad/i, 'greater-asclepiad'],
+  [/asclepiadeo maggiore/i, 'greater-asclepiad']
 ];
 
 // Read and cleared: an analysis that names a metre the excerpt is not in, and

@@ -182,6 +182,8 @@ const SHAPE = {
   // a line and its adonic. Catullus, like Sappho, leaves the fourth syllable
   // of the Sapphic free, which Horace later fixes as long.
   'choliambic': { feet: 3, allowed: [['– – ⏑ –', '⏑ – ⏑ –'], ['– – ⏑ –', '⏑ – ⏑ –'], ['⏑ – – ×']] },
+  // v1.17.1: spondee, three choriambs, short close (Catullus 30).
+  'greater-asclepiad': { feet: 5, allowed: [[S], ['– ⏑ ⏑ –'], ['– ⏑ ⏑ –'], ['– ⏑ ⏑ –'], ['⏑ ×', '⏑ –', '⏑ ⏑']] },
   'sapphic-stanza': { lines: [
     { feet: 5, allowed: [[TR], [S, TR], [D], [TR], CLOSE] },
     { feet: 2, allowed: [[D], CLOSE] }

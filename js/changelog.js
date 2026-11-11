@@ -12,6 +12,33 @@
 
   var VERSIONS = [
     {
+      v: '1.17.1', date: '11/11/2026', time: '00:00', tz: 'CET',
+      en: {
+        added: [
+          'CATULLUS, PART TWO OF EIGHT: THE SHORT POEMS ARE COMPLETE, WITH 20. Ten more: the charming man who writes terrible poetry, the friend who broke faith, the joy of coming home to Sirmio and of leaving Bithynia in spring, the burning of a bad poet\'s Annals, a thank-you note to Cicero that may or may not be ironic, a sleepless night after an evening of verse with his friend Calvus, and his translation of Sappho\'s most famous poem, where Lesbia is named and a line is lost. Three more poems are explicit and carry the warning.',
+          'A new metre page: the greater asclepiad, the long, slow line Catullus used only once, for the friend who betrayed him.'
+        ],
+        changed: [
+          'The notes on Sallust\'s fall of Rome, Cicero\'s test of a true friend and his defence of Caelius, and Lucretius\'s symptoms of fear now point to the Catullus poems that answer them.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'CATULLO, SECONDA PARTE DI OTTO: LE POESIE BREVI SONO COMPLETE, CON 20. Altre dieci: l\'uomo affascinante che scrive poesie orribili, l\'amico che ha tradito la fiducia, la gioia di tornare a casa a Sirmione e di lasciare la Bitinia in primavera, il rogo degli Annali di un cattivo poeta, un biglietto di ringraziamento a Cicerone che forse è ironico e forse no, una notte insonne dopo una serata di versi con l\'amico Calvo, e la sua traduzione della poesia più famosa di Saffo, dove compare il nome di Lesbia e un verso è perduto. Altre tre poesie sono esplicite e hanno l\'avviso.',
+          'Una nuova pagina di metrica: l\'asclepiadeo maggiore, il verso lungo e lento che Catullo usò una sola volta, per l\'amico che lo aveva tradito.'
+        ],
+        changed: [
+          'Le note sulla caduta di Roma secondo Sallustio, sulla prova del vero amico e sulla difesa di Celio di Cicerone, e sui sintomi della paura di Lucrezio ora rimandano alle poesie di Catullo che rispondono loro.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.17.0', date: '08/11/2026', time: '23:23', tz: 'CET',
       en: {
         added: [

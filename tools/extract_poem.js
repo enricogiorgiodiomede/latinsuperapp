@@ -44,12 +44,17 @@ function toRoman(n) {
   return out;
 }
 const HEADING = /^[IVXLC]+b?\.(\s|$)/;
+// Headings the page misprints (v1.17.1): Carmen 49 is set as "IL." instead of
+// "XLIX.". The poem is the right one (the address to Cicero); only the numeral
+// is wrong, so the heading is looked up under the page's own spelling.
+const HEADING_ALIAS = { 'XLIX.': 'IL.' };
 
 function poemLines(page, poem) {
   const all = fs.readFileSync(path.join(CACHE, page + '.txt'), 'utf8').split('\n').map(l => l.trim());
   const m = String(poem).match(/^(\d+)(b?)$/);
   if (!m) throw new Error('bad poem number ' + poem);
-  const head = toRoman(parseInt(m[1], 10)) + m[2] + '.';
+  let head = toRoman(parseInt(m[1], 10)) + m[2] + '.';
+  if (HEADING_ALIAS[head]) head = HEADING_ALIAS[head];
   const at = all.findIndex(l => l === head || l.startsWith(head + ' '));
   if (at < 0) throw new Error('no heading ' + head + ' on ' + page);
   const out = [];

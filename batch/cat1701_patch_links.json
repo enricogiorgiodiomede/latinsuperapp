@@ -1,0 +1,8 @@
+[
+ {"cit": "(De Coniuratione Catilinae 10)", "field": "analysis",
+  "find": "moved from prehistory to the second century BC.",
+  "replace": "moved from prehistory to the second century BC. Catullus had already turned the same idea on himself: the last stanza of his version of Sappho warns that *otium*, idleness, has ruined kings and prosperous cities before now (Carmen 51, in this app)."},
+ {"cit": "(De Coniuratione Catilinae 10)", "field": "analysisIt",
+  "find": "spostato dalla preistoria al II secolo a.C.",
+  "replace": "spostato dalla preistoria al II secolo a.C. Catullo aveva già rivolto la stessa idea contro se stesso: l'ultima strofa della sua versione di Saffo avverte che l'*otium*, l'ozio, ha già mandato in rovina re e città felici (carme 51, in quest'app)."}
+]
