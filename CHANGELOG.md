@@ -44,7 +44,7 @@ and self-control; the man and the work judged apart).
 Verification: **488 verbatim, 0 mismatched** (Carmen 51 in 2 pieces, Carmen 36 1 emended); check_numbering 187/0;
 check_verses 60/0; check_metres 196 labelled, 0 failed; check_metre_quotes 39/0; check_context 0 for 1.17.1 (155
 bank-wide); lint_register, lint_ablatives, lint_markdown clean; lint_translations 3 (old). check_sections 148 (+1,
-Carmen 36, the line-for-line artefact). Bank **635**. Cache-bust: `?v=252` -> `?v=253`.
+Carmen 36, the line-for-line artefact). Bank **635**. Cache-bust: `?v=252` -> `?v=254` (253, then 254 for the release time).
 
 ## [1.17.0] - 2026-11-08
 

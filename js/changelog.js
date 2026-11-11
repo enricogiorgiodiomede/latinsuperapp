@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.17.1', date: '11/11/2026', time: '00:00', tz: 'CET',
+      v: '1.17.1', date: '11/11/2026', time: '01:14', tz: 'CET',
       en: {
         added: [
           'CATULLUS, PART TWO OF EIGHT: THE SHORT POEMS ARE COMPLETE, WITH 20. Ten more: the charming man who writes terrible poetry, the friend who broke faith, the joy of coming home to Sirmio and of leaving Bithynia in spring, the burning of a bad poet\'s Annals, a thank-you note to Cicero that may or may not be ironic, a sleepless night after an evening of verse with his friend Calvus, and his translation of Sappho\'s most famous poem, where Lesbia is named and a line is lost. Three more poems are explicit and carry the warning.',
