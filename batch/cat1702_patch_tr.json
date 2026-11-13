@@ -1,0 +1,26 @@
+[
+ {
+  "cit": "(Carmen 76)",
+  "field": "english",
+  "find": "this is your one salvation; this fight you must win;",
+  "replace": "this is your one salvation. This fight you must win;"
+ },
+ {
+  "cit": "(Carmen 76)",
+  "field": "italian",
+  "find": "questa è l'unica salvezza; questa battaglia devi vincerla;",
+  "replace": "questa è l'unica salvezza. Questa battaglia devi vincerla;"
+ },
+ {
+  "cit": "(Carmen 84)",
+  "field": "english",
+  "find": "and his uncle the freedman,\n> and his grandfather on his mother's side, and his grandmother.",
+  "replace": "and his uncle the freedman.\n> So his grandfather on his mother's side had spoken, and his grandmother."
+ },
+ {
+  "cit": "(Carmen 84)",
+  "field": "italian",
+  "find": "così lo zio liberto,\n> così il nonno materno, e la nonna.",
+  "replace": "così lo zio liberto.\n> Così aveva parlato il nonno materno, e la nonna."
+ }
+]

@@ -681,7 +681,7 @@
 
       usedIntro: [
         'Prima l\'epigramma e l\'iscrizione; poi, in latino, un genere intero: l\'elegia erotica di Gallo, Tibullo, Properzio e Ovidio, e dopo di quella la poesia dell\'esilio di Ovidio, il suo calendario e le sue lettere. Diventa il metro ordinario per tutto ciò che non è epica e non è lirica.',
-        'Un solo componimento di questa app è in distici, e difficilmente potrebbe essere migliore: il carme 101 di Catullo, scritto nel metro dell\'epitaffio, per una tomba che aveva attraversato il mondo per raggiungere.'
+        'In questa app i distici sono di Catullo: tutti i suoi epigrammi (carmi 69-116) sono in questo metro, dai due versi di *Odi et amo* (carme 85) alla lunga preghiera del carme 76. L\'esempio è quello difficilmente migliorabile: il carme 101, scritto nel metro dell\'epitaffio, per una tomba che aveva attraversato il mondo per raggiungere.'
       ],
 
       examples: [

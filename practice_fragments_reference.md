@@ -33,8 +33,8 @@ otium) with a private meaning; the author page has the section "The Lexicon of L
 |---|---|---|
 | 1 polymetra | 1*, 2* (vv. 1-10), 3 (rebuilt), 5*, 7, 8*, 10, 11, 13, 16* (explicit) | **DONE v1.17.0** |
 | 2 polymetra | 22, 30, 31, 32* (explicit), 36* (explicit), 41* (explicit), 46, 49, 50, 51 | **DONE v1.17.1** (polymetra complete at 20) |
-| 3 epigrams | 70, 72*, 73, 75*, 76*, 77, 79, 83, 84, 85* (odi et amo) | next |
-| 4 epigrams | 86* (Quintia), 87*, 92, 93, 95* (Zmyrna), 96, 101 (rebuild), 107, 109*, 116 | |
+| 3 epigrams | 70, 72*, 73, 75*, 76*, 77, 79, 83, 84, 85* (odi et amo) | **DONE v1.17.2** |
+| 4 epigrams | 86* (Quintia), 87*, 92, 93, 95* (Zmyrna), 96, 101 (rebuild), 107, 109*, 116 | next |
 | 5 docta | 61 vv. 1-35, 61 vv. 204-228, 62 vv. 39-58, 63 vv. 1-26, 63 vv. 50-73 | |
 | 6 docta | 64 vv. 1-21 (rebuild of 1-7), 50-70, 132-153, 186-201, 215-237 | |
 | 7 docta | 64 vv. 238-253, 323-337, 384-408; 65 (whole); 66 vv. 1-14 | |
@@ -78,6 +78,14 @@ launch Latin (*prout ea consuetudo*) had never been verified (no sources.json en
   threat is not worth disregarding everything else".
 - Tone points they liked: comic misunderstanding from Plautus (10), the mosquito temperament, Horace + Falernian as the
   calm foil; Tasso's Aminta (Act I chorus) translating Carmen 5 vv. 4-6; Carmen 58 (*glubit*) beside 11.
+
+**v1.17.2 (Release 3) record:** Rufus of 77 = Caelius (link Pro Caelio 1 both ways); 79 Lesbius = Clodius Pulcher (link
+Pro Caelio 32 both ways); 83 dated before 59 BC by the husband (Metellus Celer); 84 Arrius = Q. Arrius (Cicero, Brutus),
+Syria 55 BC; 76 v. 21 *torpor in artus* echoes 51; 85 = 14 words, 8 verbs. Release 4 should build on: 86 (Quintia vs
+Lesbia: beauty is more than parts - *venustas*), 87 (*fides in foedere*: write it as the climax of 72/75/76), 92 (= 83
+turned on Catullus), 93 (Caesar: link to DBG), 95 (Cinna's Zmyrna vs Volusius: link 36, 22), 96 (Calvus: link 50), 101
+(rebuild; brother; link 46, 31, 65 later), 107 (Lesbia returns: joy), 109 (*aeternum foedus amicitiae*), 116
+(Callimachus, Battiades: link 7, 65).
 
 **MORE THESES (the user's notes on Release 2, 13/11/2026) - carry them forward:**
 - **Personal, intimate themes are worth as much as epic** (31 + 46): Catullus as the first Latin poet whose personal

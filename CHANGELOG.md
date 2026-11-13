@@ -6,6 +6,42 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.17.2] - 2026-11-13
+
+**CATULLUS, RELEASE 3 OF 8: THE FIRST TEN EPIGRAMS.** The elegiac poems where the *foedus* thesis is spelled out:
+promises written on water, *amare* against *bene velle*, the prayer to be cured, and *odi et amo*. Written with the
+user's theses from both rounds of notes built in (love as a pact kept by *fides*; one failure reveals a character;
+the many faces of Lesbia; invective craft; weighing the evidence; turmoil made into poetry).
+
+### Added - Epigrammata (10)
+| excerpt | what it is |
+|---|---|
+| Carmen 70 | Lesbia's promise, written on the wind and running water (after Callimachus) |
+| Carmen 72 | *amare magis, sed bene velle minus*: the key text of the lexicon; love as a father's love |
+| Carmen 73 | everything is thankless: a friend's betrayal and the economy of gratitude |
+| Carmen 75 | neither able to wish her well nor to stop loving her: ruined by his own *officium* |
+| Carmen 76 | the prayer to be cured: *pietas*, *fides*, *foedus*; love as disease (Sappho's *torpor* again) |
+| Carmen 77 | Rufus, almost certainly Caelius, poison of their friendship |
+| Carmen 79 | "Lesbius" is *pulcer*: Clodius Pulcher and the incest rumour, as in Cicero |
+| Carmen 83 | she insults me in front of her husband (before 59 BC): *uritur et loquitur* |
+| Carmen 84 | Arrius and his aspirates: hypercorrection, social climbing, the Hionian Sea |
+| Carmen 85 | *Odi et amo*: fourteen words, eight verbs, ending on *excrucior* |
+
+### Changed
+- **Cross-references to the new poems**, added in place: *Pro Caelio 32* (Carmen 79) and *Pro Caelio 1* (Carmen 77).
+- **The elegiac couplets page** no longer says that one poem in the app is in elegiacs: it now points to the epigrams.
+
+Notes on the text (all real variants, kept and explained): 73.4 *prodest* (a supplement; Perseus repeats *taedet*); 75.3
+*optima*; 76.1 *siqua*, 76.3 *nec foedere nullo* (the manuscripts; editors *in ullo*), 76.10 word order, 76.21 *quae
+mihi* (Perseus *hei mihi*), 76.23 *contra me ut*; 77 *ei*, *heu heu*; 79 *pulcer*, *natorum suavia* (Perseus
+*notorum savia*); 84.1 *commoda* (Perseus *commode*), *affertur*. Two translation boundaries matched to the Latin full
+stops (76 v. 15, 84 v. 5).
+
+Verification: **498 verbatim, 0 mismatched**; check_numbering 197/0; check_verses 60/0; check_metres 206 labelled, 0
+failed; check_metre_quotes 39/0; check_context 0 for 1.17.2 (154 bank-wide, -1); lint_register, lint_ablatives,
+lint_markdown clean; lint_translations 3 (old); check_sections 148 (unchanged). Bank **645**. Cache-bust: `?v=255` ->
+`?v=256`.
+
 ## [1.17.1] - 2026-11-11
 
 **CATULLUS, RELEASE 2 OF 8: THE POLYMETRA ARE COMPLETE AT 20.** The second ten short poems, written with the

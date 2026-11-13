@@ -12,6 +12,31 @@
 
   var VERSIONS = [
     {
+      v: '1.17.2', date: '13/11/2026', time: '00:00', tz: 'CET',
+      en: {
+        added: [
+          'CATULLUS, PART THREE OF EIGHT: THE FIRST TEN EPIGRAMS. The short poems in couplets where the story of Lesbia turns: her promises written on the wind and water, the line that splits love in two ("to love more, but to wish well less"), a mind ruined by its own devotion, the prayer to the gods to be cured of love, and the two most famous lines in Latin, "I hate and I love". Also two betrayals by friends, a savage four-line attack on Lesbia\'s brother, an insult that proves she still burns, and a man who could not stop putting an H where it did not belong.'
+        ],
+        changed: [
+          'Cicero\'s slip about Clodia\'s "brother" and his defence of Caelius now point to the Catullus poems about the same two men, and the page on elegiac couplets now points to all of Catullus\'s epigrams.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'CATULLO, TERZA PARTE DI OTTO: I PRIMI DIECI EPIGRAMMI. Le poesie brevi in distici in cui la storia di Lesbia cambia direzione: le sue promesse scritte nel vento e nell\'acqua, il verso che divide in due l\'amore ("amare di più, ma voler bene di meno"), una mente rovinata dalla sua stessa devozione, la preghiera agli dei per guarire dall\'amore, e i due versi più famosi del latino, "odio e amo". E poi due tradimenti di amici, un feroce attacco di quattro versi al fratello di Lesbia, un insulto che dimostra che lei brucia ancora, e un uomo che non riusciva a smettere di mettere una H dove non andava.'
+        ],
+        changed: [
+          'Il lapsus di Cicerone sul "fratello" di Clodia e la sua difesa di Celio ora rimandano ai carmi di Catullo sugli stessi due uomini, e la pagina sul distico elegiaco ora rimanda a tutti gli epigrammi di Catullo.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.17.1', date: '11/11/2026', time: '01:14', tz: 'CET',
       en: {
         added: [

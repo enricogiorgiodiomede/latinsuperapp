@@ -1,0 +1,14 @@
+[
+ {"cit": "(Pro Caelio 32)", "field": "analysis",
+  "find": "makes the stumble habitual, which is to say makes the rumour common knowledge.",
+  "replace": "makes the stumble habitual, which is to say makes the rumour common knowledge. Catullus uses the same rumour in verse: his \"Lesbius\", who is *pulcer* and whom Lesbia prefers to him, is Clodius Pulcher (Carmen 79, in this app)."},
+ {"cit": "(Pro Caelio 32)", "field": "analysisIt",
+  "find": "rende quell'inciampo abituale, cioè rende la voce cosa risaputa.",
+  "replace": "rende quell'inciampo abituale, cioè rende la voce cosa risaputa. Catullo usa la stessa voce in versi: il suo \"Lesbio\", che è *pulcer* e che Lesbia gli preferisce, è Clodio Pulcro (carme 79, in quest'app)."},
+ {"cit": "(Pro Caelio 1)", "field": "analysis",
+  "find": "the letters he and Cicero exchanged in between are some of the liveliest in the whole correspondence.",
+  "replace": "the letters he and Cicero exchanged in between are some of the liveliest in the whole correspondence. Catullus, who had been his friend before Caelius took Clodia from him, called him the poison of his life and the plague of their friendship (Carmen 77, in this app)."},
+ {"cit": "(Pro Caelio 1)", "field": "analysisIt",
+  "find": "le lettere che lui e Cicerone si scambiarono nel frattempo sono fra le più vivaci di tutto l'epistolario.",
+  "replace": "le lettere che lui e Cicerone si scambiarono nel frattempo sono fra le più vivaci di tutto l'epistolario. Catullo, che gli era stato amico prima che Celio gli portasse via Clodia, lo chiamò veleno della sua vita e peste della loro amicizia (carme 77, in quest'app)."}
+]

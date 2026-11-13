@@ -1182,7 +1182,7 @@
 
       usedIntro: [
         'Epigram and inscription first; then, in Latin, an entire genre - the love elegy of Gallus, Tibullus, Propertius and Ovid, and after that Ovid\'s exile poetry, his calendar and his letters. It becomes the ordinary metre for anything that is not epic and not lyric.',
-        'One poem in this app is in elegiacs, and it could hardly be a better one: Catullus 101, written in the metre of the epitaph, for a grave he had travelled across the world to reach.'
+        'In this app the elegiacs are Catullus\'s: all his epigrams (Carmina 69-116) are in this metre, from the two lines of *Odi et amo* (Carmen 85) to the long prayer of Carmen 76. The example is the one that could hardly be bettered: Carmen 101, written in the metre of the epitaph, for a grave he had travelled across the world to reach.'
       ],
 
       examples: [
