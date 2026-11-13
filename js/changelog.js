@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.17.2', date: '13/11/2026', time: '00:00', tz: 'CET',
+      v: '1.17.2', date: '13/11/2026', time: '23:17', tz: 'CET',
       en: {
         added: [
           'CATULLUS, PART THREE OF EIGHT: THE FIRST TEN EPIGRAMS. The short poems in couplets where the story of Lesbia turns: her promises written on the wind and water, the line that splits love in two ("to love more, but to wish well less"), a mind ruined by its own devotion, the prayer to the gods to be cured of love, and the two most famous lines in Latin, "I hate and I love". Also two betrayals by friends, a savage four-line attack on Lesbia\'s brother, an insult that proves she still burns, and a man who could not stop putting an H where it did not belong.'

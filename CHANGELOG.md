@@ -39,8 +39,7 @@ stops (76 v. 15, 84 v. 5).
 
 Verification: **498 verbatim, 0 mismatched**; check_numbering 197/0; check_verses 60/0; check_metres 206 labelled, 0
 failed; check_metre_quotes 39/0; check_context 0 for 1.17.2 (154 bank-wide, -1); lint_register, lint_ablatives,
-lint_markdown clean; lint_translations 3 (old); check_sections 148 (unchanged). Bank **645**. Cache-bust: `?v=255` ->
-`?v=256`.
+lint_markdown clean; lint_translations 3 (old); check_sections 148 (unchanged). Bank **645**. Cache-bust: `?v=255` -> `?v=257` (256, then 257 for the release time).
 
 ## [1.17.1] - 2026-11-11
 
