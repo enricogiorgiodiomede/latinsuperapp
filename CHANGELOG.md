@@ -46,6 +46,30 @@ check_verses 60/0; check_metres 196 labelled, 0 failed; check_metre_quotes 39/0;
 bank-wide); lint_register, lint_ablatives, lint_markdown clean; lint_translations 3 (old). check_sections 148 (+1,
 Carmen 36, the line-for-line artefact). Bank **635**. Cache-bust: `?v=252` -> `?v=254` (253, then 254 for the release time).
 
+### Follow-up 2026-11-13 - the user's notes on Release 2
+Folded in place into all ten notes, English and Italian (`batch/cat1701_frags_[a-c].js`, then
+`batch/cat17_sync.js batch/cat1701_frags.js`):
+- **Carmen 22**: *A lesson for today, with a nuance* (fast fashion and churned-out videos; quality first, but sometimes
+  quantity, best of all both); the jab that becomes a reflection, faults seen only with others' help.
+- **Carmen 30**: *The irony, and what one failure tells you* (*iubebas*, again and again; one failure at the testing
+  moment can reveal character, against and alongside Carmen 16).
+- **Carmen 31**: the sweetness of familiarity and the safe place; those who have no home to return to.
+- **Carmen 32**: *The rhythm of the crash* (seven lines of build, one line of collapse, the last image explained);
+  *Why it is worth reading, not skimming*.
+- **Carmen 36**: Lesbia's active, teasing role and the ambiguity Catullus exploits; *Many Lesbias* (the facets across
+  2, 3, 5, 7, 36, 11; almost everything we know comes from Catullus and Cicero).
+- **Carmen 41**: *Short and sharp, like Martial* (and the sneering diminutive *turpiculo*); the irony of Mamurra's
+  spent fortune; *defututa* (prostitute or plain insult), the real target behind her, and why it is worth reading.
+- **Carmen 46**: *Companions, and the parting*; *The personal as a subject worth everything* (31 and 46 together;
+  Catullus as the first Latin poet whose personal poetry survives; his line to the elegists, Petrarch, Foscolo,
+  Leopardi). Worded so that he rejects long old-style epic, not epic as such (Carmen 64), and Lucilius comes first.
+- **Carmen 49**: *Weighing the evidence* (the hints and the style lean to irony; the gaps keep it open).
+- **Carmen 50**: *The portrait of Calvus* (the most vivid we have; a few fragments and Cicero's Brutus aside).
+- **Carmen 51**: *A Latin poet measuring himself against Sappho* (the refined poet; a preview of the carmina docta); the
+  pity of the lost v. 8; *A stanza added later?* (a hypothesis: the otium stanza added after the break-up).
+Verification: 488/0 verbatim; check_context 0 for 1.17.1; lint_markdown 0; check_metres 0 failed. Cache-bust:
+`?v=254` -> `?v=255`.
+
 ## [1.17.0] - 2026-11-08
 
 **THE CATULLUS EXPANSION BEGINS.** Release 1 of 8 (plan agreed with the user on 08/11/2026: 60 excerpts, 20 in

@@ -19,7 +19,8 @@
           'A new metre page: the greater asclepiad, the long, slow line Catullus used only once, for the friend who betrayed him.'
         ],
         changed: [
-          'The notes on Sallust\'s fall of Rome, Cicero\'s test of a true friend and his defence of Caelius, and Lucretius\'s symptoms of fear now point to the Catullus poems that answer them.'
+          'The notes on Sallust\'s fall of Rome, Cicero\'s test of a true friend and his defence of Caelius, and Lucretius\'s symptoms of fear now point to the Catullus poems that answer them.',
+          'The notes on the ten new Catullus poems were deepened from a reader\'s comments: quality against quantity in an age of fast fashion, what one betrayal says about a friend, the comfort of coming home, the comic timing of the explicit poems and why they are worth reading, the many faces of Lesbia, the art of the short insult, why Catullus\'s personal poetry leads all the way to Petrarch and Leopardi, the evidence for and against an ironic thank-you to Cicero, the only living portrait of his friend Calvus, and a Latin poet measuring himself against Sappho.'
         ],
         deleted: [
           'Nothing was deleted.'
@@ -31,7 +32,8 @@
           'Una nuova pagina di metrica: l\'asclepiadeo maggiore, il verso lungo e lento che Catullo usò una sola volta, per l\'amico che lo aveva tradito.'
         ],
         changed: [
-          'Le note sulla caduta di Roma secondo Sallustio, sulla prova del vero amico e sulla difesa di Celio di Cicerone, e sui sintomi della paura di Lucrezio ora rimandano alle poesie di Catullo che rispondono loro.'
+          'Le note sulla caduta di Roma secondo Sallustio, sulla prova del vero amico e sulla difesa di Celio di Cicerone, e sui sintomi della paura di Lucrezio ora rimandano alle poesie di Catullo che rispondono loro.',
+          'Le note sulle dieci nuove poesie di Catullo sono state approfondite a partire dai commenti di un lettore: qualità contro quantità nell\'epoca della moda usa e getta, che cosa dice di un amico un solo tradimento, il conforto di tornare a casa, i tempi comici delle poesie esplicite e perché vale la pena leggerle, i molti volti di Lesbia, l\'arte dell\'insulto breve, perché la poesia personale di Catullo arriva fino a Petrarca e Leopardi, gli indizi a favore e contro un ringraziamento ironico a Cicerone, l\'unico ritratto vivo del suo amico Calvo, e un poeta latino che si misura con Saffo.'
         ],
         deleted: [
           'Non è stato eliminato nulla.'

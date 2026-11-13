@@ -79,6 +79,23 @@ launch Latin (*prout ea consuetudo*) had never been verified (no sources.json en
 - Tone points they liked: comic misunderstanding from Plautus (10), the mosquito temperament, Horace + Falernian as the
   calm foil; Tasso's Aminta (Act I chorus) translating Carmen 5 vv. 4-6; Carmen 58 (*glubit*) beside 11.
 
+**MORE THESES (the user's notes on Release 2, 13/11/2026) - carry them forward:**
+- **Personal, intimate themes are worth as much as epic** (31 + 46): Catullus as the first Latin poet whose personal
+  poetry of love and friendship survives, and his legacy (elegists, Petrarch, Foscolo, Leopardi). CORRECTIONS GIVEN:
+  he rejects long old-style epic (Volusius), not epic as such (Carmen 64); Lucilius put his life into satire before
+  him; Calvus survives in a few fragments and Cicero's Brutus, so 50 is "the most vivid portrait", not the only one.
+- **One failure at the testing moment can reveal character** (30), alongside 16's "don't judge by one thing".
+- **Quality vs quantity, with a nuance** (22): usually quality, sometimes quantity, best both; modern analogies OK.
+- **The jab that turns into a reflection** (22): everyone a Suffenus; we see our faults through others.
+- **Home as familiarity and safety** (31); mention those without a home, gently.
+- **Explicit poems: explain the comic timing and say why they are worth reading** (32, 41) - every explicit poem's note
+  should end with why it should not be skipped.
+- **Many Lesbias**: track her facets poem by poem; almost all we know comes from Catullus and Cicero (36).
+- **Invective craft**: short and sharp like Martial; diminutives that sneer; the real target behind the named one (41).
+- **Irony vs sincerity**: weigh the evidence and admit the gaps (49).
+- **Catullus rivalling the Greeks** shows the refined poet and previews the carmina docta (51). The user's own
+  hypothesis: 51's otium stanza was added later, after the break-up - written in as "a hypothesis", not as fact.
+
 **Cross-links made both ways in v1.17.0:** 1 <-> Nepos Praefatio 1-3; 10 <-> DRN I vv. 21-43 (Memmius);
 5 <-> Pro Caelio 33-34 (the stern old men); 2, 3 <-> Pro Caelio 18 (the Medea portrait; 3 also -> 62), added in the 11/11 follow-up. One-way: 11 -> DBG IV.25 (no Britain paragraph there to anchor).
 
