@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.17.3', date: '15/11/2026', time: '00:00', tz: 'CET',
+      v: '1.17.3', date: '15/11/2026', time: '00:28', tz: 'CET',
       en: {
         added: [
           'CATULLUS, PART FOUR OF EIGHT: THE EPIGRAMS ARE COMPLETE, WITH 20. The last ten: Lesbia\'s beauty against a merely pretty rival, the faith he kept and she did not, an insult that proves love on both sides, a shrug at Julius Caesar, a friend\'s little poem nine years in the making against a rival\'s endless Annals, a consolation to his friend Calvus, the farewell at his brother\'s grave (rebuilt, with a new note), Lesbia\'s unhoped-for return, the prayer for an everlasting pact of holy friendship, and the last poem of the book, a declaration of war on an enemy who refused the gift of poetry.'

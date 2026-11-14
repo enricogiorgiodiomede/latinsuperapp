@@ -41,7 +41,7 @@ Notes on the text (all explained in the notes): 86 *pulcerrima*, *surripuit*; 87
 Verification: **507 verbatim, 0 mismatched** (95 in two pieces, 96 one and 116 two emendations); check_numbering
 206/0; check_verses 60/0; check_metres 215 labelled, 0 failed; check_metre_quotes 39/0; check_context 0 for 1.17.3
 (154 bank-wide); lint_register, lint_ablatives, lint_markdown clean; check_sections 149 (+1: the line-for-line artefact
-on 95 and 116, 107's boundary fixed). Bank **654**. Cache-bust: `?v=258` -> `?v=259`.
+on 95 and 116, 107's boundary fixed). Bank **654**. Cache-bust: `?v=258` -> `?v=260` (259, then 260 for the release time).
 
 ## [1.17.2] - 2026-11-13
 
