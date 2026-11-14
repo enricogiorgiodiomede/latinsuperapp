@@ -12,6 +12,31 @@
 
   var VERSIONS = [
     {
+      v: '1.17.3', date: '15/11/2026', time: '00:00', tz: 'CET',
+      en: {
+        added: [
+          'CATULLUS, PART FOUR OF EIGHT: THE EPIGRAMS ARE COMPLETE, WITH 20. The last ten: Lesbia\'s beauty against a merely pretty rival, the faith he kept and she did not, an insult that proves love on both sides, a shrug at Julius Caesar, a friend\'s little poem nine years in the making against a rival\'s endless Annals, a consolation to his friend Calvus, the farewell at his brother\'s grave (rebuilt, with a new note), Lesbia\'s unhoped-for return, the prayer for an everlasting pact of holy friendship, and the last poem of the book, a declaration of war on an enemy who refused the gift of poetry.'
+        ],
+        changed: [
+          'Caesar\'s bridge over the Rhine and Cicero\'s lament for Hortensius now point to the Catullus poems about the same two men. Two lines of the last poem, damaged in the source, are printed corrected and explained.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'CATULLO, QUARTA PARTE DI OTTO: GLI EPIGRAMMI SONO COMPLETI, CON 20. Gli ultimi dieci: la bellezza di Lesbia contro una rivale soltanto carina, la fede che lui ha mantenuto e lei no, un insulto che dimostra l\'amore da entrambe le parti, un\'alzata di spalle a Giulio Cesare, il piccolo poema di un amico costato nove anni contro gli Annali interminabili di un rivale, una consolazione all\'amico Calvo, l\'addio sulla tomba del fratello (ricostruito, con una nota nuova), il ritorno insperato di Lesbia, la preghiera per un patto eterno di santa amicizia, e l\'ultimo carme del libro, una dichiarazione di guerra a un nemico che aveva rifiutato il dono della poesia.'
+        ],
+        changed: [
+          'Il ponte di Cesare sul Reno e il compianto di Cicerone per Ortensio ora rimandano ai carmi di Catullo sugli stessi due uomini. Due versi dell\'ultimo carme, guasti nella fonte, sono stampati corretti e spiegati.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.17.2', date: '13/11/2026', time: '23:17', tz: 'CET',
       en: {
         added: [

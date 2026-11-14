@@ -34,8 +34,8 @@ otium) with a private meaning; the author page has the section "The Lexicon of L
 | 1 polymetra | 1*, 2* (vv. 1-10), 3 (rebuilt), 5*, 7, 8*, 10, 11, 13, 16* (explicit) | **DONE v1.17.0** |
 | 2 polymetra | 22, 30, 31, 32* (explicit), 36* (explicit), 41* (explicit), 46, 49, 50, 51 | **DONE v1.17.1** (polymetra complete at 20) |
 | 3 epigrams | 70, 72*, 73, 75*, 76*, 77, 79, 83, 84, 85* (odi et amo) | **DONE v1.17.2** |
-| 4 epigrams | 86* (Quintia), 87*, 92, 93, 95* (Zmyrna), 96, 101 (rebuild), 107, 109*, 116 | next |
-| 5 docta | 61 vv. 1-35, 61 vv. 204-228, 62 vv. 39-58, 63 vv. 1-26, 63 vv. 50-73 | |
+| 4 epigrams | 86* (Quintia), 87*, 92, 93, 95* (Zmyrna), 96, 101 (rebuild), 107, 109*, 116 | **DONE v1.17.3** (epigrams complete at 20) |
+| 5 docta | 61 vv. 1-35, 61 vv. 204-228, 62 vv. 39-58, 63 vv. 1-26, 63 vv. 50-73  next |
 | 6 docta | 64 vv. 1-21 (rebuild of 1-7), 50-70, 132-153, 186-201, 215-237 | |
 | 7 docta | 64 vv. 238-253, 323-337, 384-408; 65 (whole); 66 vv. 1-14 | |
 | 8 docta | 66 vv. 39-50, 67, 68 vv. 1-24, 41-72, 89-104 | |
@@ -78,6 +78,15 @@ launch Latin (*prout ea consuetudo*) had never been verified (no sources.json en
   threat is not worth disregarding everything else".
 - Tone points they liked: comic misunderstanding from Plautus (10), the mosquito temperament, Horace + Falernian as the
   calm foil; Tasso's Aminta (Act I chorus) translating Carmen 5 vv. 4-6; Carmen 58 (*glubit*) beside 11.
+
+**v1.17.3 (Release 4) record:** 95 built as vv. 1-8 in two pieces (lost v. 4); 95b (Antimachus couplet) is a
+separate heading on the page, quoted in the note, not in the Latin; 116 vv. 1-8 with two declared emends (v. 4 *mihi*,
+v. 7 *evitamus amictu*); 96 *Qvintiliae* normalised; 101 rebuilt via batch/cat1703_remove101.js. Links: 93 <-> DBG
+IV.17; 95 <-> Hortensius (Cicero, Brutus 6). THE CARMINA DOCTA ARE NEXT (Releases 5-8, 5 per release): new metre pages
+due - glyconic stanza (61) and galliambic (63); 64 vv. 1-7 is rebuilt as vv. 1-21 in Release 6 (remove the old one
+first, like 101). Theses for the docta: epic and colloquial as one engine (64), Catullus rivalling the Greeks (51 ->
+64, 66), the brother again in 65 and 68 (link 101), Lesbia's last appearance in 68 (*candida diva*), and the moral
+decline at the end of 64 (link Sallust Cat. 10).
 
 **THESES FROM THE NOTES ON RELEASE 3 (15/11/2026):** the user now states the amare/bene velle mechanism correctly
 (united inside an intact foedus, split when it breaks: desire stays, esteem turns to hate - that is *odi et amo*);

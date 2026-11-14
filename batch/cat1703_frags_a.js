@@ -1,0 +1,143 @@
+// v1.17.3 Catullus, part a: Carmina 86, 87, 92, 93.
+module.exports = [
+{
+  poem: 86,
+  title: `Quintia is beautiful, Lesbia is beauty`,
+  titleIt: `Quinzia è bella, Lesbia è la bellezza`,
+  description: `Many people call Quintia beautiful. Catullus grants that she is fair, tall and straight, but not beautiful: there is no charm in her, not a grain of wit. Lesbia is beautiful as a whole, and has stolen every grace from every other woman.`,
+  descriptionIt: `Molti dicono che Quinzia è bella. Catullo ammette che è bianca, alta e dritta, ma non bella: in lei non c'è grazia, nemmeno un granello di spirito. Lesbia è bella nell'insieme, e ha rubato ogni grazia a tutte le altre donne.`,
+  en: [
+    `Quintia is beautiful to many. To me she is fair, tall,`,
+    `straight-backed: I grant her these points, one by one.`,
+    `But "beautiful" as a whole I deny: for there is no charm,`,
+    `not a grain of salt in all that body.`,
+    `Lesbia is beautiful: she is lovely as a whole,`,
+    `and she alone has stolen all the graces from all women.`
+  ],
+  it: [
+    `Quinzia per molti è bella. Per me è bianca, alta,`,
+    `dritta: queste cose, una per una, gliele concedo.`,
+    `Ma che sia "bella" nell'insieme lo nego: perché non c'è grazia,`,
+    `non c'è un granello di sale in un corpo così grande.`,
+    `Lesbia è bella: è bellissima tutta intera,`,
+    `e da sola ha rubato a tutte le donne tutte le grazie.`
+  ],
+  analysis: [
+    `**Where we are.** One of the happy Lesbia poems, from the years when the affair was going well, probably the late 60s or the 50s BC. **Quintia** is otherwise unknown: a woman much admired in Rome, perhaps a real rival in beauty, perhaps just a name. The poem is a comparison, and it is also a small piece of aesthetic theory, the kind of argument about beauty that the neoterics enjoyed.`,
+    `**What the poem does.** It is a debate in three couplets. Vv. 1-2: the crowd says Quintia is *formosa*, beautiful, and Catullus concedes the parts: *candida*, fair-skinned; *longa*, tall; *recta*, straight. Vv. 3-4: but beauty as a whole, *totum illud formosa*, he denies, because she has no *venustas*, no charm, not a *mica salis*, a grain of salt, in all that big body. Vv. 5-6: Lesbia, on the other hand, *is* beautiful, *pulcerrima tota*, lovely as a whole, and she has stolen all the *Veneres*, all the graces, from all the other women.`,
+    `**The style: parts against the whole.** The argument turns on one distinction. You can list good features one by one (*singula*), and still not have beauty, which is something of the whole (*totum*, *tota*). The poem is built on that contrast: v. 2 *singula*, v. 3 *totum*, v. 5 *tota*. And the last line piles up words of totality: *omnibus una omnis*, from all women, she alone, all the graces. Quintia is assembled from parts; Lesbia is beautiful all at once. Notice also the size joke in v. 4: *in tam magno ... corpore*, in so large a body, there is not one grain of wit.`,
+    `**The theme: beauty is charm.** The key words are the ones the notes have been following since Carmen 1: *venustas*, charm, the quality of Venus; *sal*, salt, wit; and *Veneres*, the graces, plural, as in the sparrow poem (Carmen 3, in this app). For Catullus, real beauty is not a matter of correct proportions but of *venustas* and *sal*, the same qualities that make a poem good. It is the same scale he applied to a girl in Carmen 10 and to bad poets in Carmina 22 and 36 (all in this app): Quintia is like a poem with every line correct and no life in it. This is one of the brightest faces of Lesbia in the book, a woman whose charm is total, and it makes the darker poems around it all the more painful by contrast.`,
+    `**On the text.** The page spells *pulcerrima* for *pulcherrima* (as it spelled *pulcer* in Carmen 79) and *surripuit* for *subripuit*: the same words.`,
+    `**Grammar notes.** *Formosa est multis*: a dative of the person judging, "beautiful in the eyes of many". *Mihi candida, longa, recta est* continues the same construction. *Haec ... singula confiteor*: "these things one by one I admit". *Totum illud formosa nego*: an accusative of respect with an adjective used as a noun, "I deny that whole word 'beautiful'". *Nulla ... est ... mica salis*: "there is not a grain of salt". *Quae cum ... tota est, tum ... surripuit*: the correlation *cum ... tum*, "not only ... but also". *Omnibus* is a dative of separation with *surripuit*: "stole from all women".`
+  ].join('\n\n'),
+  analysisIt: [
+    `**Dove siamo.** Uno dei carmi felici per Lesbia, degli anni in cui la relazione andava bene, probabilmente la fine degli anni 60 o gli anni 50 a.C. **Quinzia** ci è altrimenti sconosciuta: una donna molto ammirata a Roma, forse una vera rivale in bellezza, forse solo un nome. Il carme è un paragone, ed è anche un piccolo pezzo di teoria estetica, il tipo di discussione sulla bellezza che piaceva ai neoterici.`,
+    `**Che cosa fa il carme.** È un dibattito in tre distici. Vv. 1-2: la folla dice che Quinzia è *formosa*, bella, e Catullo concede le parti: *candida*, di carnagione chiara; *longa*, alta; *recta*, dritta. Vv. 3-4: ma la bellezza nell'insieme, *totum illud formosa*, la nega, perché non ha *venustas*, nessuna grazia, nemmeno una *mica salis*, un granello di sale, in tutto quel corpo grande. Vv. 5-6: Lesbia invece *è* bella, *pulcerrima tota*, bellissima tutta intera, e ha rubato tutte le *Veneres*, tutte le grazie, a tutte le altre donne.`,
+    `**Lo stile: le parti contro il tutto.** Il ragionamento gira intorno a una distinzione. Si possono elencare i pregi uno per uno (*singula*), e non avere comunque la bellezza, che è qualcosa dell'insieme (*totum*, *tota*). Il carme è costruito su quel contrasto: v. 2 *singula*, v. 3 *totum*, v. 5 *tota*. E l'ultimo verso accumula parole di totalità: *omnibus una omnis*, a tutte le donne, lei sola, tutte le grazie. Quinzia è montata a pezzi; Lesbia è bella tutta in una volta. Nota anche lo scherzo sulla taglia al v. 4: *in tam magno ... corpore*, in un corpo così grande, non c'è un solo granello di spirito.`,
+    `**Il tema: la bellezza è grazia.** Le parole chiave sono quelle che le note seguono dal carme 1: *venustas*, la grazia, la qualità di Venere; *sal*, il sale, lo spirito; e *Veneres*, le grazie, al plurale, come nel carme del passero (carme 3, in quest'app). Per Catullo la vera bellezza non è una questione di proporzioni corrette ma di *venustas* e di *sal*, le stesse qualità che rendono buona una poesia. È la stessa scala che aveva applicato a una ragazza nel carme 10 e ai cattivi poeti nei carmi 22 e 36 (tutti in quest'app): Quinzia è come una poesia con ogni verso corretto e nessuna vita dentro. È uno dei volti più luminosi di Lesbia nel libro, una donna la cui grazia è totale, e rende per contrasto ancora più dolorosi i carmi più cupi che le stanno intorno.`,
+    `**Sul testo.** La pagina scrive *pulcerrima* per *pulcherrima* (come scriveva *pulcer* nel carme 79) e *surripuit* per *subripuit*: sono le stesse parole.`,
+    `**Note grammaticali.** *Formosa est multis*: un dativo di giudizio, "bella agli occhi di molti". *Mihi candida, longa, recta est* prosegue la stessa costruzione. *Haec ... singula confiteor*: "queste cose una per una le ammetto". *Totum illud formosa nego*: un aggettivo usato come nome, "nego tutta quella parola 'bella'". *Nulla ... est ... mica salis*: "non c'è un granello di sale". *Quae cum ... tota est, tum ... surripuit*: la correlazione *cum ... tum*, "non solo ... ma anche". *Omnibus* è un dativo di svantaggio con *surripuit*: "ha rubato a tutte".`
+  ].join('\n\n')
+},
+{
+  poem: 87,
+  title: `No faith ever as great as mine`,
+  titleIt: `Nessuna fede grande come la mia`,
+  description: `Four lines in which Catullus states, as plainly as a sworn oath, that no woman was ever loved as truly as Lesbia, and no pact was ever kept with such faith as his. The vocabulary of the whole love story, gathered into one epigram.`,
+  descriptionIt: `Quattro versi in cui Catullo afferma, con la nettezza di un giuramento, che nessuna donna fu mai amata così davvero come Lesbia, e che nessun patto fu mai mantenuto con una fede pari alla sua. Il vocabolario di tutta la storia d'amore, raccolto in un solo epigramma.`,
+  en: [
+    `No woman can say she has been loved so much,`,
+    `truly, as Lesbia has been loved by me.`,
+    `No faith in any pact was ever so great`,
+    `as the faith that has been found, on my side, in my love for you.`
+  ],
+  it: [
+    `Nessuna donna può dire di essere stata amata tanto,`,
+    `davvero, quanto Lesbia è stata amata da me.`,
+    `Nessuna fede fu mai così grande in alcun patto`,
+    `quanto quella che, da parte mia, si è trovata nell'amore per te.`
+  ],
+  analysis: [
+    `**Where we are.** After the betrayal, like Carmina 72, 75 and 76 (in this app), but in a different key. Here there is no complaint and no prayer, only a statement, made with the force of a public declaration: I loved her more truly than any woman was ever loved, and I kept faith more than anyone ever kept it. In the manuscripts this poem is joined to Carmen 75 and many scholars read the two together; it belongs to the same late years, the mid-50s BC.`,
+    `**What the poem does.** Two couplets, built in exactly the same way. Each opens with *nulla*, no, and each is a comparison: *nulla ... tantum ... quantum*, no woman loved so much as Lesbia by me; *nulla ... tanta ... quanta*, no faith so great as mine. The first couplet speaks of Lesbia in the third person; the second turns to her directly, *in amore tuo*, in my love for you. The switch from "she" to "you" is the moment the statement becomes an address, almost a reproach.`,
+    `**The style: an oath in perfect symmetry.** The parallelism is total, and the two elegiac couplets are mirror images: *nulla* and *nulla* at the start of each hexameter; *tantum* / *quantum* and *tanta* / *quanta*; *amatam* / *amata* in the first couplet and *amore* in the second. The form is that of a solemn declaration, the kind of absolute claim a man makes under oath. Nothing in it is decorated. Its power comes from the plainness and the balance, and from three words that carry the whole history of Catullus's love: *vere*, truly; *fides*, faith; *foedere*, pact.`,
+    `**The theme: the foedus named outright.** This is the clearest statement in the book of the idea the notes have followed through every Lesbia poem: love as a *foedus*, a sworn pact, kept by *fides*. After the descent of the epigrams (the doubt of 70, the split of 72, the trap of 75, the prayer of 76), Carmen 87 answers it by stating the one thing Catullus is sure of. He did his part. *Ex parte mea*, on my side: the phrase quietly says that the other side did not. And notice that he claims to have loved *vere*, truly, the word that in Carmen 11 (in this app) Lesbia's three hundred lovers lacked: *nullum amans vere*. Where she loved no one truly, he loved her truly. Carmen 109 (in this release) will name the pact again, in a prayer.`,
+    `**On the text.** The page prints *amata mea est*, "has been loved", in the third person, where Perseus has *amata mea es*, "you have been loved", which would make the whole poem an address to Lesbia; the page's reading keeps the switch to "you" for the last line. In v. 3 the page has *ullo fuit umquam foedere* where Perseus adds *in* (*unquam in foedere*); the line scans either way.`,
+    `**Grammar notes.** *Nulla potest mulier ... se dicere amatam*: an accusative and infinitive with *esse* understood, "can say that she has been loved". *Tantum ... quantum* and *tanta ... quanta* are correlative comparisons, "as much ... as" and "as great ... as". *A me* is the ablative of agent with the passive participle. *Nulla fides ullo ... foedere* uses *ullo* after a negative, "in any pact". *Reperta ... est* is a perfect passive, "has been found". *Ex parte mea*: "on my side, for my part".`
+  ].join('\n\n'),
+  analysisIt: [
+    `**Dove siamo.** Dopo il tradimento, come i carmi 72, 75 e 76 (in quest'app), ma in una tonalità diversa. Qui non c'è lamento né preghiera, solo un'affermazione, fatta con la forza di una dichiarazione pubblica: l'ho amata più davvero di quanto sia mai stata amata una donna, e ho mantenuto la fede più di chiunque altro. Nei manoscritti questo carme è unito al carme 75 e molti studiosi li leggono insieme; appartiene agli stessi anni finali, la metà degli anni 50 a.C.`,
+    `**Che cosa fa il carme.** Due distici, costruiti esattamente allo stesso modo. Ciascuno si apre con *nulla*, nessuna, e ciascuno è un paragone: *nulla ... tantum ... quantum*, nessuna donna amata tanto quanto Lesbia da me; *nulla ... tanta ... quanta*, nessuna fede così grande come la mia. Il primo distico parla di Lesbia in terza persona; il secondo si rivolge direttamente a lei, *in amore tuo*, nell'amore per te. Il passaggio da "lei" a "tu" è il momento in cui l'affermazione diventa un discorso diretto, quasi un rimprovero.`,
+    `**Lo stile: un giuramento in perfetta simmetria.** Il parallelismo è totale, e i due distici elegiaci sono l'uno lo specchio dell'altro: *nulla* e *nulla* all'inizio di ogni esametro; *tantum* / *quantum* e *tanta* / *quanta*; *amatam* / *amata* nel primo distico e *amore* nel secondo. La forma è quella di una dichiarazione solenne, il tipo di affermazione assoluta che un uomo fa sotto giuramento. Niente è decorato. La sua forza viene dalla semplicità e dall'equilibrio, e da tre parole che portano tutta la storia dell'amore di Catullo: *vere*, davvero; *fides*, fede; *foedere*, patto.`,
+    `**Il tema: il foedus nominato apertamente.** È l'enunciazione più chiara del libro dell'idea che le note hanno seguito in ogni carme per Lesbia: l'amore come *foedus*, un patto giurato, mantenuto dalla *fides*. Dopo la discesa degli epigrammi (il dubbio del 70, la separazione del 72, la trappola del 75, la preghiera del 76), il carme 87 risponde affermando l'unica cosa di cui Catullo è sicuro. Lui ha fatto la sua parte. *Ex parte mea*, da parte mia: l'espressione dice in silenzio che l'altra parte non l'ha fatta. E nota che dichiara di aver amato *vere*, davvero, la parola che nel carme 11 (in quest'app) mancava ai trecento amanti di Lesbia: *nullum amans vere*. Dove lei non amava davvero nessuno, lui l'ha amata davvero. Il carme 109 (in questa versione) nominerà di nuovo il patto, in una preghiera.`,
+    `**Sul testo.** La pagina stampa *amata mea est*, "è stata amata", in terza persona, dove Perseus ha *amata mea es*, "sei stata amata", che farebbe di tutto il carme un discorso a Lesbia; la lezione della pagina conserva il passaggio al "tu" per l'ultimo verso. Al v. 3 la pagina ha *ullo fuit umquam foedere* dove Perseus aggiunge *in* (*unquam in foedere*); il verso torna in entrambi i casi.`,
+    `**Note grammaticali.** *Nulla potest mulier ... se dicere amatam*: un accusativo con l'infinito con *esse* sottinteso, "può dire di essere stata amata". *Tantum ... quantum* e *tanta ... quanta* sono comparative correlative, "tanto ... quanto" e "così grande ... come". *A me* è l'ablativo d'agente con il participio passivo. *Nulla fides ullo ... foedere* usa *ullo* dopo una negazione, "in alcun patto". *Reperta ... est* è un perfetto passivo, "si è trovata". *Ex parte mea*: "da parte mia".`
+  ].join('\n\n')
+},
+{
+  poem: 92,
+  title: `She curses me, so she loves me`,
+  titleIt: `Mi maledice, quindi mi ama`,
+  description: `Lesbia never stops speaking ill of Catullus, so she must love him. How does he know? Because he does exactly the same: he curses her all the time, and he would die if he does not love her.`,
+  descriptionIt: `Lesbia non smette mai di parlare male di Catullo, quindi deve amarlo. Come fa a saperlo? Perché lui fa esattamente lo stesso: la maledice di continuo, e che possa morire se non la ama.`,
+  en: [
+    `Lesbia always says bad things about me and is never silent`,
+    `about me: may I die if Lesbia does not love me.`,
+    `How do I know? Because I have the same signs: I curse her`,
+    `all the time, but may I die if I do not love her.`
+  ],
+  it: [
+    `Lesbia dice sempre male di me e non sta mai zitta`,
+    `su di me: che io muoia se Lesbia non mi ama.`,
+    `Da che cosa lo capisco? Perché i miei segni sono gli stessi: la maledico`,
+    `di continuo, ma che io muoia se non la amo.`
+  ],
+  analysis: [
+    `**Where we are.** The companion of Carmen 83 (in this app), where Lesbia insulted Catullus in front of her husband and he read the insults as a sign that she still burned. Here the same argument returns, but turned round: the proof that she loves him is that he behaves in the same way. There is no husband in this poem, and no date; it belongs to the stormy middle of the affair.`,
+    `**What the poem does.** Two couplets with the same shape. The first: Lesbia always speaks badly of me and never stops talking about me, *dispeream nisi amat*, may I die if she does not love me. The second: how do I know? *Quia sunt totidem mea*, because my signs are just the same: I curse her constantly, *dispeream nisi amo*, may I die if I do not love her. The two couplets end on almost the same words, *nisi amat* and *nisi amo*, she loves and I love, so that the poem closes by making the two lovers mirror images of each other.`,
+    `**The style: an oath in everyday speech.** *Dispeream nisi*, "may I perish if not", is a colloquial oath, the kind of thing a Roman said in conversation to insist on something, like "I'll be damned if". Using it twice makes the poem sound like talk, not like literature. And the argument is set out as a mock proof: a claim, a question (*quo signo?*, by what sign?), and an answer drawn from the speaker's own case. The comedy and the truth are in the conclusion: his evidence that she loves him is that he cannot stop cursing her and cannot stop loving her.`,
+    `**The theme: love and hate as one feeling.** In Carmen 83 the reading of Lesbia's insults might have been self-deception, a lover clinging to hope. Here Catullus gives the evidence that persuades him: himself. He knows from the inside that cursing someone and loving them can go together, because that is exactly his state. It is a lighter, almost playful version of what Carmen 85 (in this app) puts in its starkest form, *odi et amo*. And it may be the most hopeful reading of the whole quarrel: if both of them insult each other because both still burn, then the love is mutual, even in its worst moments. Whether it is true, the poem cannot tell us. It shows how a lover thinks.`,
+    `**On the text.** The page prints *umquam* and *assidue* for Perseus's *unquam* and *adsidue*: spelling only.`,
+    `**Grammar notes.** *Dicit ... male* + dative (*mi* = *mihi*): "speaks ill of me". *Dispeream nisi amat* is a wish in the subjunctive with a condition: "may I perish if she does not love me". *Quo signo?* is an ablative of means, "by what sign?". *Totidem mea* means "the same number of mine", that is, my signs are just as many and of the same kind. *Deprecor* here means "I curse, I pray against". *Assidue* is an adverb, "constantly".`
+  ].join('\n\n'),
+  analysisIt: [
+    `**Dove siamo.** Il compagno del carme 83 (in quest'app), dove Lesbia insultava Catullo davanti al marito e lui leggeva gli insulti come il segno che lei bruciava ancora. Qui torna lo stesso ragionamento, ma capovolto: la prova che lei lo ama è che lui si comporta allo stesso modo. In questo carme non c'è il marito, e non c'è una data; appartiene al centro burrascoso della relazione.`,
+    `**Che cosa fa il carme.** Due distici con la stessa forma. Il primo: Lesbia parla sempre male di me e non smette mai di parlare di me, *dispeream nisi amat*, che io muoia se non mi ama. Il secondo: come lo so? *Quia sunt totidem mea*, perché i miei segni sono gli stessi: la maledico di continuo, *dispeream nisi amo*, che io muoia se non la amo. I due distici finiscono quasi con le stesse parole, *nisi amat* e *nisi amo*, lei ama e io amo, così che il carme si chiude facendo dei due amanti l'uno lo specchio dell'altra.`,
+    `**Lo stile: un giuramento nella lingua di tutti i giorni.** *Dispeream nisi*, "che io muoia se non", è un giuramento colloquiale, il tipo di cosa che un romano diceva in una conversazione per insistere su qualcosa, come "che mi venga un colpo se". Usarlo due volte fa suonare il carme come un discorso parlato, non come letteratura. E il ragionamento è presentato come una finta dimostrazione: un'affermazione, una domanda (*quo signo?*, da quale segno?), e una risposta tratta dal caso di chi parla. La comicità e la verità stanno nella conclusione: la sua prova che lei lo ama è che lui non riesce a smettere di maledirla e non riesce a smettere di amarla.`,
+    `**Il tema: amore e odio come un solo sentimento.** Nel carme 83 la lettura degli insulti di Lesbia poteva essere un autoinganno, un innamorato che si aggrappa alla speranza. Qui Catullo porta la prova che lo convince: se stesso. Sa dall'interno che maledire qualcuno e amarlo possono andare insieme, perché è esattamente il suo stato. È una versione più leggera, quasi giocosa, di ciò che il carme 85 (in quest'app) dice nella forma più nuda, *odi et amo*. E forse è la lettura più speranzosa di tutta la lite: se si insultano entrambi perché entrambi bruciano ancora, allora l'amore è reciproco, anche nei momenti peggiori. Se sia vero, il carme non può dircelo. Mostra come ragiona un innamorato.`,
+    `**Sul testo.** La pagina stampa *umquam* e *assidue* per *unquam* e *adsidue* di Perseus: solo grafia.`,
+    `**Note grammaticali.** *Dicit ... male* + dativo (*mi* = *mihi*): "parla male di me". *Dispeream nisi amat* è un augurio al congiuntivo con una condizione: "che io muoia se non mi ama". *Quo signo?* è un ablativo di mezzo, "da quale segno?". *Totidem mea* vuol dire "altrettanti i miei", cioè i miei segni sono altrettanti e dello stesso tipo. *Deprecor* qui vuol dire "maledico, prego contro". *Assidue* è un avverbio, "di continuo".`
+  ].join('\n\n')
+},
+{
+  poem: 93,
+  title: `I do not care whether you are white or black, Caesar`,
+  titleIt: `Non mi importa se sei bianco o nero, Cesare`,
+  description: `Two lines to the most powerful man in Rome: Catullus has no great wish to please Julius Caesar, and does not even care to know whether he is a white man or a black one. The proud indifference of a poet.`,
+  descriptionIt: `Due versi all'uomo più potente di Roma: Catullo non ha nessuna gran voglia di piacere a Giulio Cesare, e non gli interessa nemmeno sapere se sia un uomo bianco o nero. L'orgogliosa indifferenza di un poeta.`,
+  en: [
+    `I am not very keen, Caesar, to want to please you,`,
+    `or to know whether you are a white man or a black one.`
+  ],
+  it: [
+    `Non ci tengo troppo, Cesare, a volerti piacere,`,
+    `né a sapere se tu sia un uomo bianco o nero.`
+  ],
+  analysis: [
+    `**Where we are.** A single couplet addressed to **Julius Caesar** (100-44 BC), in the mid-50s BC, when Caesar was conquering Gaul and becoming the most powerful man in the Roman world (his *Gallic War* is in this app; the bridge over the Rhine in 55 BC, *De Bello Gallico IV.17*, belongs to exactly these years). Catullus's family knew Caesar: according to the biographer Suetonius, Caesar stayed with Catullus's father in Verona. Catullus attacked Caesar more than once, especially for his crony Mamurra (the "bankrupt from Formiae" of Carmen 41, in this app).`,
+    `**What the poem does.** It says, in two lines, that Catullus does not care. *Nil nimium studeo*: I have no great eagerness to want to please you. *Nec scire utrum sis albus an ater homo*: nor to know whether you are a white or a black man. "White or black" was a Roman proverb for complete indifference: not to know whether someone is white or black is not to know the first thing about them, and not to want to. The poem refuses Caesar both the poet's flattery and even his attention.`,
+    `**The style: a snub in two lines.** The power of the couplet is its tone. It is not an attack; it is a shrug. *Nil nimium*, "not too much", is understatement, and the double infinitive *studeo ... velle placere*, I am eager to want to please, makes the eagerness even more remote: not even the wish to wish. The proverb in v. 2 lands with mock solemnity, as if Catullus had considered the question and found it beneath him. In a society where everyone sought the favour of the great, and where Caesar was buying support across Rome with money from Gaul, this is an act of defiance, made with the lightest possible touch.`,
+    `**The theme: the independence of the poet.** Many poets of the next generation would write for Augustus and his circle; Catullus will not even pretend to care. It fits the neoteric creed the notes have followed: the personal is worth more than the public, a friend's dinner more than a general's triumph (Carmina 13 and 46, in this app). The story has a famous epilogue. Suetonius tells that Caesar admitted Catullus's verses about Mamurra had branded him for ever, yet when Catullus apologised, Caesar invited him to dinner that same day and kept up his friendship with the poet's father. Whether this poem came before or after that reconciliation, we do not know.`,
+    `**On the text.** The page and Perseus agree word for word. Metre: one elegiac couplet.`,
+    `**Grammar notes.** *Nil nimium studeo*: *nil* is an adverbial accusative, "not at all", and *nimium* "too much". *Studeo* takes the infinitive *velle*, which in turn takes *placere* + dative (*tibi*): "I am eager to want to please you". *Scire* also depends on *studeo*. *Utrum sis albus an ater* is an indirect double question, so its verb is in the subjunctive.`
+  ].join('\n\n'),
+  analysisIt: [
+    `**Dove siamo.** Un solo distico rivolto a **Giulio Cesare** (100-44 a.C.), a metà degli anni 50 a.C., quando Cesare stava conquistando la Gallia e diventando l'uomo più potente del mondo romano (il suo *De Bello Gallico* è in quest'app; il ponte sul Reno del 55 a.C., *De Bello Gallico IV.17*, appartiene proprio a questi anni). La famiglia di Catullo conosceva Cesare: secondo il biografo Svetonio, Cesare fu ospite del padre di Catullo a Verona. Catullo attaccò Cesare più di una volta, soprattutto per il suo compare Mamurra (il "bancarottiere di Formia" del carme 41, in quest'app).`,
+    `**Che cosa fa il carme.** Dice, in due versi, che a Catullo non importa. *Nil nimium studeo*: non ho nessuna gran voglia di volerti piacere. *Nec scire utrum sis albus an ater homo*: né di sapere se tu sia un uomo bianco o nero. "Bianco o nero" era un proverbio romano per l'indifferenza totale: non sapere se qualcuno è bianco o nero vuol dire non sapere la prima cosa su di lui, e non volerla sapere. Il carme nega a Cesare sia l'adulazione del poeta sia perfino la sua attenzione.`,
+    `**Lo stile: uno sgarbo in due versi.** La forza del distico è il tono. Non è un attacco; è un'alzata di spalle. *Nil nimium*, "non troppo", è un'attenuazione, e il doppio infinito *studeo ... velle placere*, ho voglia di voler piacere, rende la voglia ancora più lontana: nemmeno il desiderio di desiderare. Il proverbio del v. 2 arriva con finta solennità, come se Catullo avesse considerato la questione e l'avesse trovata indegna di sé. In una società in cui tutti cercavano il favore dei potenti, e in cui Cesare comprava appoggi in tutta Roma con il denaro della Gallia, è un atto di sfida, fatto con il tocco più leggero possibile.`,
+    `**Il tema: l'indipendenza del poeta.** Molti poeti della generazione successiva scriveranno per Augusto e la sua cerchia; Catullo non finge nemmeno che gli importi. Si accorda con il credo neoterico che le note hanno seguito: il personale vale più del pubblico, la cena di un amico più del trionfo di un generale (carmi 13 e 46, in quest'app). La storia ha un epilogo famoso. Svetonio racconta che Cesare ammise che i versi di Catullo su Mamurra gli avevano impresso un marchio perpetuo, eppure, quando Catullo si scusò, Cesare lo invitò a cena quello stesso giorno e mantenne l'amicizia con il padre del poeta. Se questo carme venga prima o dopo quella riconciliazione, non lo sappiamo.`,
+    `**Sul testo.** La pagina e Perseus concordano parola per parola. Metro: un solo distico elegiaco.`,
+    `**Note grammaticali.** *Nil nimium studeo*: *nil* è un accusativo avverbiale, "per niente", e *nimium* "troppo". *Studeo* regge l'infinito *velle*, che a sua volta regge *placere* + dativo (*tibi*): "ho voglia di volerti piacere". Anche *scire* dipende da *studeo*. *Utrum sis albus an ater* è un'interrogativa indiretta disgiuntiva, quindi ha il verbo al congiuntivo.`
+  ].join('\n\n')
+}
+];

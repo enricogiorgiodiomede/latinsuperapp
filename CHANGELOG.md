@@ -6,6 +6,43 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.17.3] - 2026-11-15
+
+**CATULLUS, RELEASE 4 OF 8: THE EPIGRAMS ARE COMPLETE AT 20.** The last ten epigrams, and with them the second of
+the three parts of the *Liber*. They answer the descent of Release 3: the *foedus* named outright (87, 109), the one
+bright moment of Lesbia's return (107), and the book's last word, a declaration of war on Gellius (116).
+
+### Added - Epigrammata (10)
+| excerpt | what it is |
+|---|---|
+| Carmen 86 | Quintia is beautiful, Lesbia is beauty: *venustas* and *sal* against correct parts |
+| Carmen 87 | no faith ever as great as mine: *fides*, *foedus*, *vere* in perfect symmetry |
+| Carmen 92 | she curses me, so she loves me: Carmen 83 turned on Catullus himself |
+| Carmen 93 | to Caesar: white or black, I do not care (Suetonius on the reconciliation) |
+| Carmen 95, vv. 1-8 | Cinna's *Zmyrna*, nine years in the making, against Volusius (lost v. 4 marked [...]) |
+| Carmen 96 | to Calvus, on the death of Quintilia: a consolation in a "perhaps" |
+| Carmen 101 | the brother's grave: rebuilt from the launch excerpt (keeps tag 1.0.0), full new note |
+| Carmen 107 | you came back, unhoped for: a day for the whitest mark |
+| Carmen 109 | *aeternum hoc sanctae foedus amicitiae*: the ideal, named at last |
+| Carmen 116, vv. 1-8 | the last poem: Callimachus offered to Gellius, refused, and war |
+
+### Changed
+- **Declared corrections**: Carmen 96 *Qvintiliae* -> *Quintiliae* (spelling); Carmen 116 v. 4 *mihi* restored (the
+  page drops it and the line will not scan; from Perseus) and v. 7 the manuscripts' corrupt *evitabimus amitha*
+  (*amitha* is not a word) -> *evitamus amictu* (Perseus and the standard editions).
+- **Carmen 101** rebuilt through `batch/cat1703_remove101.js` (launch fragment saved to `batch/cat1703_old101.json`).
+- **Cross-references to the new poems**, added in place: *De Bello Gallico IV.17* (Carmen 93) and Hortensius's
+  *Brutus 6* (Carmen 95).
+
+Notes on the text (all explained in the notes): 86 *pulcerrima*, *surripuit*; 87 *amata mea est* (Perseus *es*), no
+*in* before *foedere*; 95 v. 4 lost, the Antimachus couplet printed apart as XCVb (quoted in the note), *pervoluent*;
+96 *acceptumque*; 101 the page's punctuation; 107 *si quicquam ... optigit* (the manuscripts), *hac est optandus*.
+
+Verification: **507 verbatim, 0 mismatched** (95 in two pieces, 96 one and 116 two emendations); check_numbering
+206/0; check_verses 60/0; check_metres 215 labelled, 0 failed; check_metre_quotes 39/0; check_context 0 for 1.17.3
+(154 bank-wide); lint_register, lint_ablatives, lint_markdown clean; check_sections 149 (+1: the line-for-line artefact
+on 95 and 116, 107's boundary fixed). Bank **654**. Cache-bust: `?v=258` -> `?v=259`.
+
 ## [1.17.2] - 2026-11-13
 
 **CATULLUS, RELEASE 3 OF 8: THE FIRST TEN EPIGRAMS.** The elegiac poems where the *foedus* thesis is spelled out:

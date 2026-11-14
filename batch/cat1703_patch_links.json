@@ -1,0 +1,8 @@
+[
+ {"cit": "(De Bello Gallico IV.17)", "field": "analysis",
+  "find": "It took ten days, the army walked over, stayed eighteen days, and Caesar then demolished it.",
+  "replace": "It took ten days, the army walked over, stayed eighteen days, and Caesar then demolished it. Not everyone in Rome was impressed: in the same years Catullus told Caesar, in a single couplet, that he did not care to know whether he was a white man or a black one (Carmen 93, in this app)."},
+ {"cit": "(De Bello Gallico IV.17)", "field": "analysisIt",
+  "find": "Ci vollero dieci giorni, l'esercito passò a piedi, rimase diciotto giorni, e Cesare poi lo demolì.",
+  "replace": "Ci vollero dieci giorni, l'esercito passò a piedi, rimase diciotto giorni, e Cesare poi lo demolì. Non tutti a Roma ne erano colpiti: negli stessi anni Catullo disse a Cesare, in un solo distico, che non gli importava sapere se fosse un uomo bianco o nero (carme 93, in quest'app)."}
+]

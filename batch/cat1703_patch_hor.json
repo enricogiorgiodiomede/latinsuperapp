@@ -1,0 +1,8 @@
+[
+ {"cit": "(Cicero, Brutus 6)", "field": "analysis",
+  "find": "This is also the closest we can get to Hortensius, through the most famous pair of eyes that ever watched him speak.",
+  "replace": "This is also the closest we can get to Hortensius, through the most famous pair of eyes that ever watched him speak. He also wrote light verse, and he may be the Hortensius whom Catullus mocks for turning out lines by the hundred thousand (Carmen 95, in this app)."},
+ {"cit": "(Cicero, Brutus 6)", "field": "analysisIt",
+  "find": "Questo è anche il punto più vicino a cui possiamo arrivare a Ortensio, attraverso il più celebre paio di occhi che lo abbia mai visto parlare.",
+  "replace": "Questo è anche il punto più vicino a cui possiamo arrivare a Ortensio, attraverso il più celebre paio di occhi che lo abbia mai visto parlare. Scriveva anche versi leggeri, e potrebbe essere l'Ortensio che Catullo deride per sfornare versi a centinaia di migliaia (carme 95, in quest'app)."}
+]

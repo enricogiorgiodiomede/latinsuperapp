@@ -1,0 +1,14 @@
+[
+ {
+  "cit": "(Carmen 107)",
+  "field": "english",
+  "find": "> **1.** If ever anything came to someone who longed and wished for it\n> without hoping, that is truly welcome to the heart.\n> And so this is welcome to me too, dearer than gold:\n> that you give yourself back, Lesbia, to me who longed for you.\n> **5.** You give yourself back to me, longing and without hope; you bring yourself\n> back to us of your own accord. O day to be marked with a whiter stone!\n> Who lives happier than I alone? Or who will be able to name\n> anyone more to be envied than this life of mine?",
+  "replace": "> **1.** If ever anything came to someone longing and wishing for it\n> without hope, that is truly welcome to the heart.\n> So this is welcome to me too, dearer than gold:\n> that you give yourself back, Lesbia, to me who longed for you.\n> **5.** You give yourself back to me, longing and hopeless; you yourself bring yourself\n> back to us. O day for a whiter mark!\n> Who lives happier than I alone, or who could say\n> that anyone is more to be envied in this life?"
+ },
+ {
+  "cit": "(Carmen 107)",
+  "field": "italian",
+  "find": "> **1.** Se mai a qualcuno che desiderava e bramava qualcosa è capitato di averla\n> senza sperarci, questo è davvero gradito all'animo.\n> Perciò anche a me questo è gradito, più caro dell'oro:\n> che tu ritorni, Lesbia, da me che ti desideravo.\n> **5.** Ritorni da me che ti desideravo e non ci speravo, tu stessa\n> ti riporti a noi. O giorno da segnare con un segno più bianco!\n> Chi vive più felice di me solo? O chi potrà nominare\n> qualcuno più da invidiare, con una vita come questa?",
+  "replace": "> **1.** Se mai a qualcuno che desiderava e bramava qualcosa è capitato di averla\n> senza sperarci, questo è davvero gradito all'animo.\n> Perciò anche a me questo è gradito, più caro dell'oro:\n> che tu ritorni, Lesbia, da me che ti desideravo.\n> **5.** Ritorni da me che ti desideravo e non ci speravo, tu stessa\n> ti riporti a noi. O giorno da segnare con un segno più bianco!\n> Chi vive più felice di me solo, o chi potrà dire\n> che c'è qualcuno più da invidiare in questa vita?"
+ }
+]
