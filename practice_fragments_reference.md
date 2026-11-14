@@ -79,6 +79,17 @@ launch Latin (*prout ea consuetudo*) had never been verified (no sources.json en
 - Tone points they liked: comic misunderstanding from Plautus (10), the mosquito temperament, Horace + Falernian as the
   calm foil; Tasso's Aminta (Act I chorus) translating Carmen 5 vv. 4-6; Carmen 58 (*glubit*) beside 11.
 
+**THESES FROM THE NOTES ON RELEASE 3 (15/11/2026):** the user now states the amare/bene velle mechanism correctly
+(united inside an intact foedus, split when it breaks: desire stays, esteem turns to hate - that is *odi et amo*);
+promises made in passion are the passion's, not the person's (70, "not a rule about women"); the epigrams read in order
+are a DESCENT, darker poem by poem, culminating in 76 (the gloomiest poem) - say so where it applies; 75 = self-blame,
+76 = innocence claimed (contrast them); military vocabulary in 76; betrayal from inside a friendship (77) vs failure in
+need (30) vs turning hostile (73); Cicero and Catullus share an enemy in Clodius (79); 83 read both ways (right: both
+burn; wrong: love's self-deception); 84 is comic relief, no lesson (vs 22). External references the user asked for,
+CHECKED and added: Virgil Ecl. 3.93 *latet anguis in herba* (77), Ariosto OF canto XXIII (83), Petrarch RVF 134 *Pace
+non trovo* (85), Lucretius DRN IV 1058-1078 (76, both ways). For Release 4: 87 and 109 should be written as the
+answer to this descent (the foedus named outright); 107 (Lesbia returns) as the one bright moment after it.
+
 **v1.17.2 (Release 3) record:** Rufus of 77 = Caelius (link Pro Caelio 1 both ways); 79 Lesbius = Clodius Pulcher (link
 Pro Caelio 32 both ways); 83 dated before 59 BC by the husband (Metellus Celer); 84 Arrius = Q. Arrius (Cicero, Brutus),
 Syria 55 BC; 76 v. 21 *torpor in artus* echoes 51; 85 = 14 words, 8 verbs. Release 4 should build on: 86 (Quintia vs

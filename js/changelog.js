@@ -18,7 +18,8 @@
           'CATULLUS, PART THREE OF EIGHT: THE FIRST TEN EPIGRAMS. The short poems in couplets where the story of Lesbia turns: her promises written on the wind and water, the line that splits love in two ("to love more, but to wish well less"), a mind ruined by its own devotion, the prayer to the gods to be cured of love, and the two most famous lines in Latin, "I hate and I love". Also two betrayals by friends, a savage four-line attack on Lesbia\'s brother, an insult that proves she still burns, and a man who could not stop putting an H where it did not belong.'
         ],
         changed: [
-          'Cicero\'s slip about Clodia\'s "brother" and his defence of Caelius now point to the Catullus poems about the same two men, and the page on elegiac couplets now points to all of Catullus\'s epigrams.'
+          'Cicero\'s slip about Clodia\'s "brother" and his defence of Caelius now point to the Catullus poems about the same two men, and the page on elegiac couplets now points to all of Catullus\'s epigrams.',
+          'The notes on the ten new epigrams were deepened from a reader\'s comments: why a lover\'s promise made in passion does not last, how desire and esteem stay together while the pact holds and split when it breaks, the descent of these poems into darkness and the battle of the prayer to be cured, the snake in the grass, a shared enemy for Catullus and Cicero, a lover\'s logic set beside Ariosto\'s Orlando, a comic break from the gloom, and why "I hate and I love" became a cliché, with Petrarch\'s sonnet of opposites. Lucretius\'s description of love as a disease now points to Catullus\'s prayer.'
         ],
         deleted: [
           'Nothing was deleted.'
@@ -29,7 +30,8 @@
           'CATULLO, TERZA PARTE DI OTTO: I PRIMI DIECI EPIGRAMMI. Le poesie brevi in distici in cui la storia di Lesbia cambia direzione: le sue promesse scritte nel vento e nell\'acqua, il verso che divide in due l\'amore ("amare di più, ma voler bene di meno"), una mente rovinata dalla sua stessa devozione, la preghiera agli dei per guarire dall\'amore, e i due versi più famosi del latino, "odio e amo". E poi due tradimenti di amici, un feroce attacco di quattro versi al fratello di Lesbia, un insulto che dimostra che lei brucia ancora, e un uomo che non riusciva a smettere di mettere una H dove non andava.'
         ],
         changed: [
-          'Il lapsus di Cicerone sul "fratello" di Clodia e la sua difesa di Celio ora rimandano ai carmi di Catullo sugli stessi due uomini, e la pagina sul distico elegiaco ora rimanda a tutti gli epigrammi di Catullo.'
+          'Il lapsus di Cicerone sul "fratello" di Clodia e la sua difesa di Celio ora rimandano ai carmi di Catullo sugli stessi due uomini, e la pagina sul distico elegiaco ora rimanda a tutti gli epigrammi di Catullo.',
+          'Le note sui dieci nuovi epigrammi sono state approfondite a partire dai commenti di un lettore: perché la promessa di un\'amante fatta nella passione non dura, come desiderio e stima restano insieme finché il patto regge e si separano quando si rompe, la discesa nel buio di queste poesie e la battaglia della preghiera per guarire, il serpente nell\'erba, un nemico comune a Catullo e Cicerone, la logica dell\'innamorato accanto all\'Orlando di Ariosto, una pausa comica dal buio, e perché "odio e amo" è diventato un luogo comune, con il sonetto degli opposti di Petrarca. La descrizione dell\'amore come malattia di Lucrezio ora rimanda alla preghiera di Catullo.'
         ],
         deleted: [
           'Non è stato eliminato nulla.'

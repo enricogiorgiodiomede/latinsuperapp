@@ -41,6 +41,30 @@ Verification: **498 verbatim, 0 mismatched**; check_numbering 197/0; check_verse
 failed; check_metre_quotes 39/0; check_context 0 for 1.17.2 (154 bank-wide, -1); lint_register, lint_ablatives,
 lint_markdown clean; lint_translations 3 (old); check_sections 148 (unchanged). Bank **645**. Cache-bust: `?v=255` -> `?v=257` (256, then 257 for the release time).
 
+### Follow-up 2026-11-15 - the user's notes on Release 3
+Folded in place into all ten notes, English and Italian (`batch/cat1702_frags_[a-c].js`, then
+`batch/cat17_sync.js batch/cat1702_frags.js`). External references checked before adding them:
+- **Carmen 70**: the compression that Martial will push to its limit; *Not a rule about women* (promises made in
+  passion; the first cracks noticed at once).
+- **Carmen 72**: *Together, then apart* (amare and bene velle united inside the foedus, split when it breaks; why he
+  cannot let go, Carmen 8; why it ends in *odi et amo*; the Jupiter promise of 70 broken).
+- **Carmen 73**: *A dark, almost nihilistic poem* (the friend turned enemy, unlike Alfenus).
+- **Carmen 75**: *Two culprits* (her fault and his own misplaced devotion; the darkening sequence).
+- **Carmen 76**: *A crescendo, and a battle* (innocence claimed outright, unlike 75; the vocabulary of war; help "at
+  the very point of death"); love as disease linked to Lucretius *De Rerum Natura IV, vv. 1058-1078* (*ulcus*); no
+  memory of the good days, unlike 8; the gloomiest poem in the book.
+- **Carmen 77**: the snake of *subrepsti*, with Virgil *Eclogues* 3.93 *latet anguis in herba*; betrayal from inside a
+  friendship in good times; the hyperbole as a measure of pain; the order of the book.
+- **Carmen 79**: *A common enemy, and a hidden name* (Cicero and Catullus against Clodius; the code as game and as
+  prudence; the savage last line).
+- **Carmen 83**: *If he is right, and if he is not* (both burning; or love's self-deception), with Ariosto's
+  *Orlando Furioso* canto XXIII (Orlando's excuses about Medoro).
+- **Carmen 84**: *A break from the gloom* (a comedy in twelve lines; unlike Suffenus, no lesson).
+- **Carmen 85**: *The natural conclusion* (bene velle turned to hate, love persisting; the opposites side by side);
+  Petrarch's *Pace non trovo* (*Canzoniere* 134); *Why it is a cliché*; the first poem to try reading aloud in metre.
+Also: *De Rerum Natura IV, vv. 1058-1078* now points to Carmen 76. Verification: 498/0 verbatim; check_context 0 for
+1.17.2 (154 bank-wide); lint_markdown 0. Cache-bust: `?v=257` -> `?v=258`.
+
 ## [1.17.1] - 2026-11-11
 
 **CATULLUS, RELEASE 2 OF 8: THE POLYMETRA ARE COMPLETE AT 20.** The second ten short poems, written with the
