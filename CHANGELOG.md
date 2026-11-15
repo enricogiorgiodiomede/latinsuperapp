@@ -43,6 +43,16 @@ Verification: **507 verbatim, 0 mismatched** (95 in two pieces, 96 one and 116 t
 (154 bank-wide); lint_register, lint_ablatives, lint_markdown clean; check_sections 149 (+1: the line-for-line artefact
 on 95 and 116, 107's boundary fixed). Bank **654**. Cache-bust: `?v=258` -> `?v=260` (259, then 260 for the release time).
 
+### Follow-up 2026-11-15 - the user's notes on Release 4
+One new paragraph in each of the ten notes (two in 116), English and Italian, next to the paragraph on the same theme:
+*Beauty from within* (86: Quintia a statue, Lesbia an ideal); *Political words, a private soul* (87); *Both love,
+neither wishes well* (92); *Freedom, and the recusatio* (93: no excuse needed, unlike the Augustan poets); *Polish, not
+size, and an irony of history* (95: the labor limae taken further by Virgil and Horace; the lost Zmyrna; Volusius from
+cacata carta to mackerel); *A perhaps, and a test passed* (96); *No "perhaps" here* (101: duty, and the Roman rite used
+in earnest); *Hope, the last to fade* (107); *Under the protection of Fides* (109: the treaty tablets on the Capitol);
+*A war in miniature* and *Who arranged the book?* (116). Verification: 507/0 verbatim; check_context 0 for 1.17.3;
+lint_markdown 0; check_metres 0 failed. Cache-bust: `?v=260` -> `?v=261`.
+
 ## [1.17.2] - 2026-11-13
 
 **CATULLUS, RELEASE 3 OF 8: THE FIRST TEN EPIGRAMS.** The elegiac poems where the *foedus* thesis is spelled out:

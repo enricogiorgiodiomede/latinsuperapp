@@ -79,6 +79,14 @@ launch Latin (*prout ea consuetudo*) had never been verified (no sources.json en
 - Tone points they liked: comic misunderstanding from Plautus (10), the mosquito temperament, Horace + Falernian as the
   calm foil; Tasso's Aminta (Act I chorus) translating Carmen 5 vv. 4-6; Carmen 58 (*glubit*) beside 11.
 
+**THESES FROM THE NOTES ON RELEASE 4 (15/11/2026):** beauty is a whole and comes from within (*venustas*, *mica salis* =
+wit, quickness of mind); Catullus borrows political words (*fides*, *foedus*) to give private love a soul - no
+contradiction with keeping politics out; his freedom vs the Augustan *recusatio*; the labor limae as the real point
+(not anti-epic), pushed further by Virgil and Horace; "perhaps" as room for hope (96) vs no hope (101); friendship tested
+and passed (96); Catullus not wholly cut off from Rome - he uses the Roman RITE in earnest (101); hope dies last (107);
+the Fides temple and treaties (109); 116 as a war in miniature, and the book's order probably not his own. The user
+gave no corrections to make this round. NEXT: the carmina docta - the user says "next are the learned poems".
+
 **v1.17.3 (Release 4) record:** 95 built as vv. 1-8 in two pieces (lost v. 4); 95b (Antimachus couplet) is a
 separate heading on the page, quoted in the note, not in the Latin; 116 vv. 1-8 with two declared emends (v. 4 *mihi*,
 v. 7 *evitamus amictu*); 96 *Qvintiliae* normalised; 101 rebuilt via batch/cat1703_remove101.js. Links: 93 <-> DBG
