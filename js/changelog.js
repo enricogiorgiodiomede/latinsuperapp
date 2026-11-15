@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.17.4', date: '15/11/2026', time: '00:00', tz: 'CET',
+      v: '1.17.4', date: '15/11/2026', time: '22:38', tz: 'CET',
       en: {
         added: [
           'CATULLUS, PART FIVE OF EIGHT: THE FIRST LEARNED POEMS. Catullus the learned poet, in his long Greek-style pieces: the wedding song for Manlius Torquatus, from the call to the god of marriage to the wish for a baby smiling at his father; a singing match between girls and boys, the flower that fades once plucked against the vine that needs its elm; and the Attis, the young Greek who castrates himself in a frenzy for the goddess Cybele and wakes at dawn to mourn his homeland and the man he was.',

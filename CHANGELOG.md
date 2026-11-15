@@ -42,7 +42,7 @@ Notes on the text (all explained in the notes): 61 *Iunia* / Vinia, *roscido* / 
 Verification: **512 verbatim, 0 mismatched** (two emendations in 63); check_numbering 211/0; check_verses 60/0;
 check_metres 220 labelled, 0 failed; check_metre_quotes 50/0; check_context 0 for 1.17.4 (1 cleared); lint_register,
 lint_ablatives, lint_markdown clean; check_sections 154 (the five new excerpts show the usual line-for-line artefact).
-Bank **659**. Cache-bust: `?v=261` -> `?v=262`.
+Bank **659**. Cache-bust: `?v=261` -> `?v=263` (262, then 263 for the release time, 15/11/2026 22:38 CET).
 
 ## [1.17.3] - 2026-11-15
 
