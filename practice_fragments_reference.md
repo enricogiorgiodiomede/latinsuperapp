@@ -87,6 +87,20 @@ and passed (96); Catullus not wholly cut off from Rome - he uses the Roman RITE 
 the Fides temple and treaties (109); 116 as a war in miniature, and the book's order probably not his own. The user
 gave no corrections to make this round. NEXT: the carmina docta - the user says "next are the learned poems".
 
+**THESES FROM THE NOTES ON RELEASE 5 (16/11/2026), folded into v1.17.4:** the wedding (61) has everything Catullus's
+love lacked - lawful, blessed by gods and families, lasting (fides/foedus) - and shows his ideal of love even read after
+the break; tenderness is a defining trait of his love poetry, even when he rivals the Greeks; the docta are dense with
+Greek allusion but short lines (glyconics) keep the syntax simple, while the hexameter (62, 64) adds interlocked word
+order - comment on TRANSLATION DIFFICULTY in each docta note; the general case ends well, Catullus's own badly (62 vs
+11); furor = danger of impulsive, irreversible acts (63), with its two faces (madness / divine inspiration); Attis's
+identity erased; Attis as an allegory of Catullus and Lesbia (as a reading) and the *servitium amoris* of Tibullus and
+Propertius; Catullus likes rare metres and rare versions of myth. External reference CHECKED and added: Virgil Ecl. 3
+v. 111 *claudite iam rivos, pueri* (echo of 61 *claudite ostia*). CORRECTIONS GIVEN: the flower of 11 is *tactus*
+(touched by the plough), not trampled - trampling is Sappho's hyacinth; the date of 61 relative to the break is
+uncertain, so the "jealousy" is written as a hypothesis. For Release 6 (64): carry the translation-difficulty remark,
+the epic + colloquial engine, Ariadne abandoned = the broken foedus (*perfide*, *immemor*, the forgotten promises - link
+70, 72, 76, 87, 30), furor again (Ariadne's), and the moral decline at the end of 64 (link Sallust Cat. 10).
+
 **v1.17.4 (Release 5) record:** ranges fixed against Perseus: 61b is vv. 211-235 (the last five stanzas, so the
 excerpt ends on *exercete iuventam*); **62 is cut by PAGE line** - the page prints two asterisk rows after v. 32, so its
 lines 41-60 are vv. 39-58 (`from: 39` in the builder); 61 and 63 align with Perseus. Declared emends: 63 v. 5 *de

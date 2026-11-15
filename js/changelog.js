@@ -19,7 +19,8 @@
           'Two new metre pages: the glyconic stanza, the dancing rhythm of the Greek wedding song, and the galliambic, the racing metre of Cybele\'s priests, used in Latin for one poem only.'
         ],
         changed: [
-          'The note on Catullus\'s farewell to Lesbia now points to the flower of the wedding song, the note on his brother\'s grave to the Attis, and Lucretius\'s procession of the Great Mother to the poem about one of her priests.'
+          'The note on Catullus\'s farewell to Lesbia now points to the flower of the wedding song, the note on his brother\'s grave to the Attis, and Lucretius\'s procession of the Great Mother to the poem about one of her priests.',
+          'The notes on the five new excerpts were deepened from a reader\'s comments: everything the wedding had that Catullus\'s own love lacked, why short lines make dense learning easier to translate, tenderness as a mark of his poetry, an echo of the wedding song\'s last words in Virgil, the happy and the unhappy ending of the same flower, the danger of acting in a frenzy, the two faces of the word furor, and the lover as a slave to his mistress, the theme the elegists of the next generation would make their own.'
         ],
         deleted: [
           'Nothing was deleted.'
@@ -31,7 +32,8 @@
           'Due nuove pagine di metrica: la strofa gliconea, il ritmo danzante del canto nuziale greco, e il galliambo, il metro concitato dei sacerdoti di Cibele, usato in latino per un solo carme.'
         ],
         changed: [
-          'La nota sull\'addio di Catullo a Lesbia ora rimanda al fiore del canto nuziale, quella sulla tomba del fratello all\'Attis, e la processione della Grande Madre di Lucrezio al carme su uno dei suoi sacerdoti.'
+          'La nota sull\'addio di Catullo a Lesbia ora rimanda al fiore del canto nuziale, quella sulla tomba del fratello all\'Attis, e la processione della Grande Madre di Lucrezio al carme su uno dei suoi sacerdoti.',
+          'Le note sui cinque nuovi estratti sono state approfondite a partire dai commenti di un lettore: tutto ciò che le nozze avevano e che all\'amore di Catullo mancava, perché i versi brevi rendono più facile tradurre una dottrina densa, la tenerezza come tratto della sua poesia, un\'eco delle ultime parole del canto nuziale in Virgilio, il finale felice e quello infelice dello stesso fiore, il pericolo di agire nella frenesia, i due volti della parola furor, e l\'amante schiavo della sua padrona, il tema che gli elegiaci della generazione successiva faranno proprio.'
         ],
         deleted: [
           'Non è stato eliminato nulla.'

@@ -44,6 +44,21 @@ check_metres 220 labelled, 0 failed; check_metre_quotes 50/0; check_context 0 fo
 lint_ablatives, lint_markdown clean; check_sections 154 (the five new excerpts show the usual line-for-line artefact).
 Bank **659**. Cache-bust: `?v=261` -> `?v=263` (262, then 263 for the release time, 15/11/2026 22:38 CET).
 
+### Follow-up 2026-11-16 - the user's notes on Release 5
+New paragraphs, English and Italian, each next to the paragraph on the same theme (inserted with
+`batch/cat1704_frags_{a,b}.js`, copied into the bank with `batch/cat17_sync.js`): 61 vv. 1-35 *Dense, but short*
+(short lines, little room for hyperbaton; the one long sentence, vv. 16-25) and *What Catullus could not have* (the
+lawful, blessed, lasting marriage vs a secret affair; the pang as a hypothesis, since the dating is uncertain); 61 vv.
+211-235 *Tenderness, even in competition* and *An echo in Virgil* (*claudite iam rivos, pueri; sat prata biberunt*,
+Eclogues 3 v. 111, checked); 62 *A longer line, a little more work* (interlocked word order, vv. 43 and 51) and *Two
+endings* (the general case ends well, Catullus's badly; the flower of 11 is *tactus*, touched, not trampled - the
+trampling is Sappho's); 63 vv. 1-26 *A metre saved by one poem* (and Catullus's Attis as a Greek exile, against Ovid's
+Phrygian boy in the Fasti), *A slave to a mistress: the elegists' theme* (the Attis-Catullus allegory as a reading;
+Tibullus II.4 v. 1 and Propertius I.1 v. 7, checked) and *The lesson: furor*; 63 vv. 50-73 *Furor: two faces of one
+word* (madness and divine inspiration; the closing prayer vv. 92-93 quoted from the page, *tuos*). Verification:
+512/0 verbatim; check_context 0 for 1.17.4; check_metres 0 failed; lint_markdown, lint_register, lint_ablatives clean.
+Cache-bust: `?v=263` -> `?v=264`.
+
 ## [1.17.3] - 2026-11-15
 
 **CATULLUS, RELEASE 4 OF 8: THE EPIGRAMS ARE COMPLETE AT 20.** The last ten epigrams, and with them the second of
