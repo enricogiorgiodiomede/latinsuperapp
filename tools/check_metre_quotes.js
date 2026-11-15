@@ -150,6 +150,9 @@ function footsOf(pattern) {
 
 const D = '– ⏑ ⏑', S = '– –', TR = '– ⏑', L = '–', CLOSE = ['– ×', '– –', '– ⏑'];
 const HEX = { feet: 6, allowed: [[D, S], [D, S], [D, S], [D, S], [D, S], CLOSE] };
+const BASE = ['– ⏑', '– –', '⏑ –'], CHORIAMB = '– ⏑ ⏑ –';
+const GLYC = { feet: 3, allowed: [BASE, [CHORIAMB], ['⏑ ×', '⏑ –', '⏑ ⏑']] };
+const PHER = { feet: 3, allowed: [BASE, [CHORIAMB], ['×', '–', '⏑']] };
 // The elegiac pentameter is two half-lines of two-and-a-half feet, and the
 // caesura between them falls on a foot boundary rather than inside a foot, so
 // it is easier to enumerate the four legal lines outright than to describe them
@@ -187,7 +190,15 @@ const SHAPE = {
   'sapphic-stanza': { lines: [
     { feet: 5, allowed: [[TR], [S, TR], [D], [TR], CLOSE] },
     { feet: 2, allowed: [[D], CLOSE] }
-  ] }
+  ] },
+  // v1.17.4. Glyconic stanza (Catullus 61): four glyconics, base +
+  // choriamb + short and anceps, then a pherecratean, which drops the last
+  // syllable. An example quotes a whole stanza or its four glyconics.
+  'glyconic-stanza': { lines: [GLYC, GLYC, GLYC, GLYC, PHER] },
+  // Galliambic (Catullus 63): two halves of eight in the basic form, split by
+  // the bar at the break. Resolved or contracted lines are not shape-checked,
+  // so only basic-form lines are quoted as examples.
+  'galliambic': { feet: 2, allowed: [['⏑ ⏑ – ⏑ – ⏑ – –'], ['⏑ ⏑ – ⏑ ⏑ ⏑ ⏑ ×']] }
 };
 
 let checked = 0, bad = 0;

@@ -12,6 +12,33 @@
 
   var VERSIONS = [
     {
+      v: '1.17.4', date: '15/11/2026', time: '00:00', tz: 'CET',
+      en: {
+        added: [
+          'CATULLUS, PART FIVE OF EIGHT: THE FIRST LEARNED POEMS. Catullus the learned poet, in his long Greek-style pieces: the wedding song for Manlius Torquatus, from the call to the god of marriage to the wish for a baby smiling at his father; a singing match between girls and boys, the flower that fades once plucked against the vine that needs its elm; and the Attis, the young Greek who castrates himself in a frenzy for the goddess Cybele and wakes at dawn to mourn his homeland and the man he was.',
+          'Two new metre pages: the glyconic stanza, the dancing rhythm of the Greek wedding song, and the galliambic, the racing metre of Cybele\'s priests, used in Latin for one poem only.'
+        ],
+        changed: [
+          'The note on Catullus\'s farewell to Lesbia now points to the flower of the wedding song, the note on his brother\'s grave to the Attis, and Lucretius\'s procession of the Great Mother to the poem about one of her priests.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'CATULLO, QUINTA PARTE DI OTTO: I PRIMI CARMI DOTTI. Catullo poeta dotto, nei suoi lunghi componimenti di stile greco: il canto nuziale per Manlio Torquato, dall\'invocazione al dio delle nozze all\'augurio di un bambino che sorride al padre; una gara di canto tra ragazze e ragazzi, il fiore che sfiorisce una volta colto contro la vite che ha bisogno del suo olmo; e l\'Attis, il giovane greco che si evira in un accesso di furore per la dea Cibele e all\'alba si sveglia a piangere la patria e l\'uomo che era.',
+          'Due nuove pagine di metrica: la strofa gliconea, il ritmo danzante del canto nuziale greco, e il galliambo, il metro concitato dei sacerdoti di Cibele, usato in latino per un solo carme.'
+        ],
+        changed: [
+          'La nota sull\'addio di Catullo a Lesbia ora rimanda al fiore del canto nuziale, quella sulla tomba del fratello all\'Attis, e la processione della Grande Madre di Lucrezio al carme su uno dei suoi sacerdoti.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.17.3', date: '15/11/2026', time: '00:28', tz: 'CET',
       en: {
         added: [

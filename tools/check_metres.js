@@ -62,7 +62,11 @@ const WORDS = [
   [/sapphic stanza/i, 'sapphic-stanza'],
   [/strofa saffica/i, 'sapphic-stanza'],
   [/greater asclepiad/i, 'greater-asclepiad'],
-  [/asclepiadeo maggiore/i, 'greater-asclepiad']
+  [/asclepiadeo maggiore/i, 'greater-asclepiad'],
+  // v1.17.4, Catullus 61 and 63
+  [/glyconic stanza|glyconics?\b/i, 'glyconic-stanza'],
+  [/strof[ae] glicone|gliconei\b/i, 'glyconic-stanza'],
+  [/galliamb/i, 'galliambic']   // the same stem in Italian (galliambo)
 ];
 
 // Read and cleared: an analysis that names a metre the excerpt is not in, and

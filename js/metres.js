@@ -292,6 +292,11 @@
       },
       'catullus-carmina-docta': {
         byCitation: {
+          '(Carmen 61, vv. 1-35)': 'glyconic-stanza',
+          '(Carmen 61, vv. 211-235)': 'glyconic-stanza',
+          '(Carmen 62, vv. 39-58)': 'dactylic-hexameter',
+          '(Carmen 63, vv. 1-26)': 'galliambic',
+          '(Carmen 63, vv. 50-73)': 'galliambic',
           '(Carmen 64, vv. 1-7)': 'dactylic-hexameter'
         }
       },
@@ -732,6 +737,184 @@
       ],
 
       after: 'Horace, who used the greater asclepiad for three of his Odes, is not yet in this app. When he is added, his examples will be added here.'
+    },
+
+    // v1.17.4, with Catullus 61, the wedding song for Manlius Torquatus.
+    'glyconic-stanza': {
+      name: 'Glyconic Stanza',
+      tagline: 'Four short, quick lines and a shorter one to close: the dancing stanza of the Greek wedding song, which Catullus brought to Rome.',
+      scheme: [
+        '× × | – ⏑ ⏑ – | ⏑ ×',
+        '× × | – ⏑ ⏑ – | ⏑ ×',
+        '× × | – ⏑ ⏑ – | ⏑ ×',
+        '× × | – ⏑ ⏑ – | ⏑ ×',
+        '× × | – ⏑ ⏑ – | ×'
+      ],
+      schemeNote: 'Four glyconics of eight syllables, then a pherecratean of seven. Each line has the same core, a choriamb (– ⏑ ⏑ –), after a free two-syllable "base"; the pherecratean is a glyconic with its last syllable cut off.',
+
+      origin: [
+        '**The glyconic is named after Glycon**, a Greek poet about whom we know nothing else. The line itself is much older than any name: it is one of the basic lines of the aeolic family, the metres of Sappho and Alcaeus, and Greek choral and wedding songs are full of it.',
+        '**It is the metre of the wedding.** Greek *hymenaioi*, the songs sung as the bride was led to her new home, were written in glyconics and pherecrateans, and Sappho\'s wedding songs, now in fragments, used lines of the same family. A Greek or Roman reader who heard this rhythm thought of torches, flutes and the cry *Hymen Hymenaee*.',
+        '**Catullus uses glyconics in two poems.** Carmen 34, a short hymn to Diana, has stanzas of three glyconics and a pherecratean; Carmen 61, the long wedding song for Manlius Torquatus, which is in this app and gives both examples here, has the five-line stanza on this page, forty-seven of them, 235 lines in the standard numbering.',
+        '**After him, Horace and Seneca.** Horace uses glyconics in some of the asclepiad stanzas of the *Odes*, and Seneca uses them in the choruses of his tragedies. Neither is in this app yet.'
+      ],
+
+      build: [
+        '**The core is a choriamb**, – ⏑ ⏑ –, a long, two shorts and a long, the same building block as in the asclepiad. In the glyconic it sits in the middle of the line, positions three to six.',
+        '**Before it comes the "base"**: two syllables, which in Greek could be almost anything. Catullus in Carmen 61 mostly uses a trochee (– ⏑) or a spondee (– –), sometimes an iamb (⏑ –).',
+        '**After it, a short syllable and a final anceps**, ⏑ ×. So a glyconic is base + choriamb + ⏑ ×, eight syllables in all.',
+        '**The pherecratean drops the last syllable**: base + choriamb + ×, seven syllables. It closes every stanza, and because it is one syllable shorter, it lands with a little bump, like a dancer\'s final step.',
+        '**The stanza is a unit of sense.** Catullus nearly always ends a sentence or a clause with the pherecratean, so each stanza is a small complete picture.',
+        '**Elision is allowed**, and the first example below has two.'
+      ],
+
+      sound: [
+        '**Quick and light.** Eight syllables are over almost as soon as they begin, and the choriamb in the middle gives each line a little leap: long, short-short, long. Read a stanza aloud and you hear a song with a steady beat, not a speech.',
+        '**The pherecratean is the stamp.** The short last line arrives a syllable early and closes the stanza with a firm long, which is why the ritual cry *o Hymen Hymenaee* fits it so well: it sounds like the moment the whole crowd joins in.',
+        '**It can carry tenderness.** The same rhythm that dances in the invocation slows into the picture of the baby Torquatus in vv. 216-219: the beat does not change, but the small soft words make it sound like a lullaby.'
+      ],
+
+      usedIntro: [
+        'Greek lyric and the Greek wedding song first; in Latin, two poems of Catullus; then Horace and Seneca.',
+        'Catullus is the only poet in the app who uses it, and both examples come from Carmen 61: a whole stanza of the invocation, and the four glyconics of the baby Torquatus.'
+      ],
+
+      examples: [
+        {
+          author: 'Gaius Valerius Catullus',
+          slug: 'gaius-valerius-catullus', era: 'caesar',
+          where: 'Carmen 61, vv. 11-15',
+          gloss: 'A whole stanza: Hymen told to sing, dance and shake the torch',
+          plain: [
+            'excitusque hilari die,',
+            'nuptialia concinens',
+            'voce carmina tinnula,',
+            'pelle humum pedibus, manu',
+            'pineam quate taedam.'
+          ],
+          source: 'bank',
+          marked: [
+            'ēxcĭ|tūsqu(e) hĭlărī | dĭē,',
+            'nūptĭ|ālĭă cōn|cĭnēns',
+            'vōcĕ | cārmĭnă tīn|nŭlă,',
+            'pēll(e) hŭ|mūm pĕdĭbūs, | mănū',
+            'pīnĕ|ām quătĕ tae|dām.'
+          ],
+          pattern: [
+            '– ⏑ | – ⏑ ⏑ – | ⏑ ×',
+            '– ⏑ | – ⏑ ⏑ – | ⏑ ×',
+            '– ⏑ | – ⏑ ⏑ – | ⏑ ×',
+            '– ⏑ | – ⏑ ⏑ – | ⏑ ×',
+            '– ⏑ | – ⏑ ⏑ – | ×'
+          ],
+          notes: [
+            '**Four glyconics and a pherecratean**, and every base here is a trochee, – ⏑: *ex-ci*, *nup-ti*, *vo-ce*, *pel-l(e) hu*, *pi-ne*. That regularity is what makes the stanza sound like a march.',
+            '**Two elisions, both before an h.** *Excitusqu(e) hilari* and *pell(e) humum*: an *h* does not stop elision, so the final *-e* disappears in both. Note also that the *-tus* of *excitus* and the *-mum* of *humum* are long by position, closed by the next consonant, though their vowels are short.',
+            '**The pherecratean carries the action.** After four lines of preparation, the stanza ends on the gesture itself, *pineam quate taedam*, shake the pine torch, seven syllables that close on a long.'
+          ]
+        },
+        {
+          author: 'Gaius Valerius Catullus',
+          slug: 'gaius-valerius-catullus', era: 'caesar',
+          where: 'Carmen 61, vv. 216-219',
+          gloss: 'The baby Torquatus: four glyconics',
+          plain: [
+            'Torquatus volo parvulus',
+            'matris e gremio suae',
+            'porrigens teneras manus',
+            'dulce rideat ad patrem'
+          ],
+          source: 'bank',
+          marked: [
+            'Tōrquā|tūs vŏlŏ pār|vŭlŭs',
+            'mātrĭs | ē grĕmĭō | sŭae',
+            'pōrrĭ|gēns tĕnĕrās | mănūs',
+            'dūlcĕ | rīdĕăt ād | pătrēm'
+          ],
+          pattern: [
+            '– – | – ⏑ ⏑ – | ⏑ ×',
+            '– ⏑ | – ⏑ ⏑ – | ⏑ ×',
+            '– ⏑ | – ⏑ ⏑ – | ⏑ ×',
+            '– ⏑ | – ⏑ ⏑ – | ⏑ ×'
+          ],
+          notes: [
+            '**A spondee opens the stanza.** *Tor-qua-* gives the base two longs, the only heavy base in these examples, and it falls on the family name: the line begins with the weight of the Torquati and ends on *parvulus*, the little one.',
+            '**A short final o.** *Volo* is scanned *vŏlŏ*, with its last vowel short, as often in the everyday language Catullus loves; it has to be, to fill the two shorts of the choriamb.',
+            '**The choriambs carry the picture.** *E gremio*, from the lap; *-gens teneras*, tender; *rideat ad*, smile at: the leaping middle of each line holds the words that make the scene. The stanza then closes on *semihiante labello*, the half-open little lips, a pherecratean that needs a slurred syllable to scan and is left out here for that reason.'
+          ]
+        }
+      ],
+
+      after: 'Horace and Seneca, who both used glyconics, are not yet in this app. When they are added, their examples will be added here.'
+    },
+
+    // v1.17.4, with Catullus 63, the Attis, the only complete Latin poem in it.
+    'galliambic': {
+      name: 'Galliambic',
+      tagline: 'The metre of the castrated priests of Cybele: a line that races, stumbles and races again, used in Latin for one poem only.',
+      scheme: '⏑ ⏑ – ⏑ – ⏑ – – | ⏑ ⏑ – ⏑ ⏑ ⏑ ⏑ ×',
+      schemeNote: 'Two halves of eight syllables each, divided by a fixed break; on this page the bar marks that break, not a foot. This is the basic form; Catullus often turns a long into two shorts, so many lines have more syllables than this, and now and then he does the reverse.',
+
+      origin: [
+        '**It is named after the Galli**, the priests of Cybele, the Great Mother of Phrygia, who castrated themselves in her service and worshipped her with drums, cymbals and wild dancing. The metre was felt to be theirs: the rhythm of the ecstatic procession.',
+        '**Hellenistic poets used it for hymns to Cybele.** Only scraps of their Greek galliambics survive, quoted by ancient writers on metre; one pair of lines may be by Callimachus.',
+        '**In Latin there is one complete poem in it: Catullus 63, the Attis**, which is in this app and gives both examples here. A few lines by other poets survive, among them Maecenas, the friend of Augustus, but nothing else whole. Catullus chose the metre because it is the sound of the cult his poem is about.'
+      ],
+
+      build: [
+        '**The line has two halves**, divided by a break that always falls at the end of a word, after the eighth syllable of the basic form.',
+        '**The first half** is ⏑ ⏑ – ⏑ – ⏑ – –: it starts light, finds its footing, and ends on two longs, a heavy stop.',
+        '**The second half** is ⏑ ⏑ – ⏑ ⏑ ⏑ ⏑ ×: it starts the same way, but after the first long it collapses into a run of four short syllables before the final anceps. That run is the signature of the metre.',
+        '**The scheme comes from the ionic foot**, ⏑ ⏑ – –, two shorts and two longs, with two of its positions swapped (the technical word is *anaclasis*); you do not need the theory to hear it, but it explains why every half starts on two shorts.',
+        '**Longs are often resolved.** Catullus frequently writes two short syllables where the scheme has one long, especially in the second half, so a line can grow longer than sixteen syllables and the rush of shorts longer still. Now and then he does the opposite and contracts two shorts into one long: the last line of Attis\'s lament, *iam iam dolet quod egi*, opens on two longs. Both examples below are in the basic form, without resolutions, so that the pattern is easy to see.',
+        '**Elision is allowed**: the second example has two.'
+      ],
+
+      sound: [
+        '**Speed and frenzy.** Read the second half of any line aloud: four or more shorts in a row, *celeri rate maria*, and the voice runs, almost trips, before it lands. It is the sound of a drum beaten faster and faster.',
+        '**The two halves answer each other.** The first half ends heavy, on two longs; the second ends light, on the run of shorts. Every line rises and breaks, like a wave or a dancer\'s leap.',
+        '**The same rhythm can weep.** In the first half of Carmen 63 the metre is the frenzy of the rites; in Attis\'s lament at dawn, the same rush of shorts sounds like sobbing. The metre does not change; the meaning of the speed does.'
+      ],
+
+      usedIntro: [
+        'Hellenistic Greek hymns to Cybele first, now nearly all lost; in Latin, one complete poem, Catullus 63.',
+        'Catullus is the only poet in the app who uses it. The examples are the first line of the Attis and the first line of her lament.'
+      ],
+
+      examples: [
+        {
+          author: 'Gaius Valerius Catullus',
+          slug: 'gaius-valerius-catullus', era: 'caesar',
+          where: 'Carmen 63, v. 1',
+          gloss: 'The opening: Attis carried across the sea',
+          plain: 'Super alta vectus Attis celeri rate maria,',
+          source: 'bank',
+          marked: 'Sŭpĕr āltă vēctŭs Āttīs | cĕlĕrī rătĕ mărĭă,',
+          pattern: '⏑ ⏑ – ⏑ – ⏑ – – | ⏑ ⏑ – ⏑ ⏑ ⏑ ⏑ ×',
+          notes: [
+            '**The basic form exactly**, sixteen syllables, eight and eight, with the break after *Attis*. The name of the hero takes the two heavy longs that close the first half.',
+            '**Then the run.** *Celeri rate maria*: after the long *-ri* of *celeri*, five short syllables in a row (the last one counts as the anceps). The words say "in a swift ship over the seas", and the rhythm is the swift ship.',
+            '**Long by position.** The *al-* of *alta*, the *vec-* of *vectus* and the *At-* of *Attis* are long because two consonants follow; the *-tis* of *Attis* is long because the next word begins with a consonant. The vowels themselves are short.'
+          ]
+        },
+        {
+          author: 'Gaius Valerius Catullus',
+          slug: 'gaius-valerius-catullus', era: 'caesar',
+          where: 'Carmen 63, v. 50',
+          gloss: 'The lament begins: two halves that echo each other',
+          plain: '\'patria o mei creatrix, patria o mea genetrix,',
+          source: 'bank',
+          marked: '\'pătrĭ(a) ō mĕī crĕātrīx, | pătrĭ(a) ō mĕă gĕnĕtrīx,',
+          pattern: '⏑ ⏑ – ⏑ – ⏑ – – | ⏑ ⏑ – ⏑ ⏑ ⏑ ⏑ ×',
+          notes: [
+            '**The two halves start with the same words**, *patria o*, and the metre lets them: both halves open ⏑ ⏑ –. The difference is in how they end: *mei creatrix* closes on two longs, *mea genetrix* runs out on four shorts.',
+            '**Two elisions.** *Patri(a) o* twice: the final *-a* of *patria* is swallowed by the *o* that follows, so each *patria o* counts three syllables, not four.',
+            '**Short before tr.** The *pa-* of *patria* and the *-ne-* of *genetrix* stay short although a mute and a liquid follow (*t* + *r*): Latin poets may treat that pair as one consonant. The first half ends on *-trix*, long because of its *x*.'
+          ]
+        }
+      ],
+
+      after: 'No other poet in this app wrote galliambics, and Carmen 63 is the only complete Latin poem in the metre: this page will most likely stay with Catullus alone.'
     },
 
     'saturnian': {

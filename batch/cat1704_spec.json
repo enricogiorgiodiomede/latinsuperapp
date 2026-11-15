@@ -1,0 +1,8 @@
+{
+  "_note": "62 is cut by PAGE line: the page prints two asterisk rows after v. 32 where editions have one lacuna, so page lines 41-60 are vv. 39-58 (the builder numbers them from 39).",
+  "cat.61a": ["catullus", "61", 1, 35],
+  "cat.61b": ["catullus", "61", 211, 235],
+  "cat.62": ["catullus", "62", 41, 60],
+  "cat.63a": ["catullus", "63", 1, 26],
+  "cat.63b": ["catullus", "63", 50, 73]
+}

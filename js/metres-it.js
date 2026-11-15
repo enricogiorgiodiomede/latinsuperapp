@@ -332,6 +332,117 @@
       after: 'Orazio, che usò l\'asclepiadeo maggiore per tre delle sue Odi, non è ancora in questa app. Quando sarà aggiunto, i suoi esempi compariranno qui.'
     },
 
+    'glyconic-stanza': {
+      name: 'Strofa Gliconea',
+      tagline: "Quattro versi brevi e rapidi e uno ancora più breve a chiudere: la strofa danzante del canto nuziale greco, che Catullo portò a Roma.",
+      schemeNote: "Quattro gliconei di otto sillabe, poi un ferecrateo di sette. Ogni verso ha lo stesso nucleo, un coriambo (– ⏑ ⏑ –), dopo una \"base\" libera di due sillabe; il ferecrateo è un gliconeo a cui manca l'ultima sillaba.",
+
+      origin: [
+        '**Il gliconeo prende il nome da Glicone**, un poeta greco di cui non sappiamo nient\'altro. Il verso in sé è molto più antico di qualunque nome: è uno dei versi fondamentali della famiglia eolica, i metri di Saffo e Alceo, e i canti corali e nuziali greci ne sono pieni.',
+        '**È il metro delle nozze.** Gli *imenei* greci, i canti intonati mentre la sposa veniva condotta alla nuova casa, erano scritti in gliconei e ferecratei, e i canti nuziali di Saffo, oggi in frammenti, usavano versi della stessa famiglia. Un lettore greco o romano che sentiva questo ritmo pensava a torce, flauti e al grido *Hymen Hymenaee*.',
+        '**Catullo usa i gliconei in due carmi.** Il carme 34, un breve inno a Diana, ha strofe di tre gliconei e un ferecrateo; il carme 61, il lungo canto nuziale per Manlio Torquato, che è in quest\'app e fornisce entrambi gli esempi, ha la strofa di cinque versi di questa pagina, quarantasette strofe, 235 versi nella numerazione corrente.',
+        '**Dopo di lui, Orazio e Seneca.** Orazio usa i gliconei in alcune delle strofe asclepiadee delle *Odi*, e Seneca li usa nei cori delle sue tragedie. Nessuno dei due è ancora in quest\'app.'
+      ],
+
+      build: [
+        '**Il nucleo è un coriambo**, – ⏑ ⏑ –, una lunga, due brevi e una lunga, lo stesso mattone dell\'asclepiadeo. Nel gliconeo sta al centro del verso, dalla terza alla sesta posizione.',
+        '**Prima viene la "base"**: due sillabe, che in greco potevano essere quasi qualunque cosa. Catullo nel carme 61 usa per lo più un trocheo (– ⏑) o uno spondeo (– –), a volte un giambo (⏑ –).',
+        '**Dopo, una sillaba breve e un\'ancipite finale**, ⏑ ×. Dunque un gliconeo è base + coriambo + ⏑ ×, otto sillabe in tutto.',
+        '**Il ferecrateo toglie l\'ultima sillaba**: base + coriambo + ×, sette sillabe. Chiude ogni strofa, e poiché è più corto di una sillaba, atterra con un piccolo colpo, come il passo finale di un ballerino.',
+        '**La strofa è un\'unità di senso.** Catullo quasi sempre chiude una frase o una proposizione con il ferecrateo, così ogni strofa è un piccolo quadro completo.',
+        '**L\'elisione è ammessa**, e il primo esempio qui sotto ne ha due.'
+      ],
+
+      sound: [
+        '**Rapido e leggero.** Otto sillabe finiscono quasi appena cominciate, e il coriambo al centro dà a ogni verso un piccolo salto: lunga, breve-breve, lunga. Leggi una strofa ad alta voce e senti una canzone con un battito regolare, non un discorso.',
+        '**Il ferecrateo è il timbro.** L\'ultimo verso, breve, arriva una sillaba prima e chiude la strofa su una lunga ferma, ed è per questo che il grido rituale *o Hymen Hymenaee* vi si adatta così bene: suona come il momento in cui tutta la folla si unisce al canto.',
+        '**Può portare tenerezza.** Lo stesso ritmo che danza nell\'invocazione rallenta nel quadro del piccolo Torquato ai vv. 216-219: il battito non cambia, ma le parole piccole e morbide lo fanno suonare come una ninna nanna.'
+      ],
+
+      usedIntro: [
+        'Prima la lirica greca e il canto nuziale greco; in latino, due carmi di Catullo; poi Orazio e Seneca.',
+        'Catullo è l\'unico poeta dell\'app che lo usa, ed entrambi gli esempi vengono dal carme 61: un\'intera strofa dell\'invocazione e i quattro gliconei del piccolo Torquato.'
+      ],
+
+      examples: [
+        {
+          where: 'Carme 61, vv. 11-15',
+          gloss: 'Un\'intera strofa: a Imene si chiede di cantare, danzare e agitare la torcia',
+          notes: [
+            '**Quattro gliconei e un ferecrateo**, e ogni base qui è un trocheo, – ⏑: *ex-ci*, *nup-ti*, *vo-ce*, *pel-l(e) hu*, *pi-ne*. È questa regolarità che fa suonare la strofa come una marcia.',
+            '**Due elisioni, entrambe davanti a una h.** *Excitusqu(e) hilari* e *pell(e) humum*: la *h* non impedisce l\'elisione, così la *-e* finale sparisce in tutti e due i casi. Nota anche che il *-tus* di *excitus* e il *-mum* di *humum* sono lunghi per posizione, chiusi dalla consonante seguente, anche se le loro vocali sono brevi.',
+            '**Il ferecrateo porta l\'azione.** Dopo quattro versi di preparativi, la strofa finisce sul gesto stesso, *pineam quate taedam*, agita la torcia di pino, sette sillabe che chiudono su una lunga.'
+          ]
+        },
+        {
+          where: 'Carme 61, vv. 216-219',
+          gloss: 'Il piccolo Torquato: quattro gliconei',
+          notes: [
+            '**Uno spondeo apre la strofa.** *Tor-qua-* dà alla base due lunghe, l\'unica base pesante in questi esempi, e cade sul nome di famiglia: il verso comincia con il peso dei Torquati e finisce su *parvulus*, il piccolino.',
+            '**Una o finale breve.** *Volo* si scandisce *vŏlŏ*, con l\'ultima vocale breve, come spesso nella lingua di tutti i giorni che Catullo ama; deve esserlo, per riempire le due brevi del coriambo.',
+            '**I coriambi portano il quadro.** *E gremio*, dal grembo; *-gens teneras*, tenere; *rideat ad*, sorrida a: il centro saltellante di ogni verso contiene le parole che fanno la scena. La strofa si chiude poi su *semihiante labello*, le labbruzze socchiuse, un ferecrateo che per tornare richiede una sillaba fusa, e per questo è lasciato fuori qui.'
+          ]
+        }
+      ],
+
+      after: 'Orazio e Seneca, che usarono entrambi i gliconei, non sono ancora in questa app. Quando saranno aggiunti, i loro esempi compariranno qui.'
+    },
+
+    'galliambic': {
+      name: 'Galliambo',
+      tagline: "Il metro dei sacerdoti eunuchi di Cibele: un verso che corre, inciampa e corre di nuovo, usato in latino per un solo carme.",
+      schemeNote: "Due metà di otto sillabe ciascuna, divise da una pausa fissa; in questa pagina la barra segna quella pausa, non un piede. Questa è la forma di base; Catullo spesso scioglie una lunga in due brevi, così molti versi hanno più sillabe di così, e ogni tanto fa il contrario.",
+
+      origin: [
+        '**Prende il nome dai Galli**, i sacerdoti di Cibele, la Grande Madre della Frigia, che si eviravano al suo servizio e la veneravano con timpani, cembali e danze sfrenate. Il metro era sentito come il loro: il ritmo della processione estatica.',
+        '**I poeti ellenistici lo usavano negli inni a Cibele.** Dei loro galliambi greci sopravvivono solo frammenti, citati dagli antichi trattatisti di metrica; una coppia di versi potrebbe essere di Callimaco.',
+        '**In latino c\'è un solo carme completo in questo metro: il 63 di Catullo, l\'Attis**, che è in quest\'app e fornisce entrambi gli esempi. Sopravvivono pochi versi di altri poeti, fra cui Mecenate, l\'amico di Augusto, ma nient\'altro di intero. Catullo scelse il metro perché è il suono del culto di cui parla il suo carme.'
+      ],
+
+      build: [
+        '**Il verso ha due metà**, divise da una pausa che cade sempre alla fine di una parola, dopo l\'ottava sillaba della forma di base.',
+        '**La prima metà** è ⏑ ⏑ – ⏑ – ⏑ – –: comincia leggera, trova l\'appoggio e finisce su due lunghe, un arresto pesante.',
+        '**La seconda metà** è ⏑ ⏑ – ⏑ ⏑ ⏑ ⏑ ×: comincia allo stesso modo, ma dopo la prima lunga crolla in una corsa di quattro sillabe brevi prima dell\'ancipite finale. Quella corsa è la firma del metro.',
+        '**Lo schema viene dal piede ionico**, ⏑ ⏑ – –, due brevi e due lunghe, con due posizioni scambiate (il termine tecnico è *anaclasi*); non serve la teoria per sentirlo, ma spiega perché ogni metà comincia con due brevi.',
+        '**Le lunghe sono spesso sciolte.** Catullo scrive spesso due sillabe brevi dove lo schema ha una lunga, soprattutto nella seconda metà, così un verso può superare le sedici sillabe e la corsa delle brevi allungarsi ancora. Ogni tanto fa il contrario e contrae due brevi in una lunga: l\'ultimo verso del lamento di Attis, *iam iam dolet quod egi*, si apre su due lunghe. Entrambi gli esempi qui sotto sono nella forma di base, senza soluzioni, perché lo schema si veda bene.',
+        '**L\'elisione è ammessa**: il secondo esempio ne ha due.'
+      ],
+
+      sound: [
+        '**Velocità e frenesia.** Leggi ad alta voce la seconda metà di un verso qualsiasi: quattro o più brevi di fila, *celeri rate maria*, e la voce corre, quasi inciampa, prima di posarsi. È il suono di un timpano battuto sempre più in fretta.',
+        '**Le due metà si rispondono.** La prima finisce pesante, su due lunghe; la seconda finisce leggera, sulla corsa delle brevi. Ogni verso sale e si spezza, come un\'onda o il salto di un danzatore.',
+        '**Lo stesso ritmo può piangere.** Nella prima metà del carme 63 il metro è la frenesia dei riti; nel lamento di Attis all\'alba, la stessa corsa di brevi suona come un singhiozzo. Il metro non cambia; cambia il senso della velocità.'
+      ],
+
+      usedIntro: [
+        'Prima gli inni greci ellenistici a Cibele, oggi quasi tutti perduti; in latino, un solo carme completo, il 63 di Catullo.',
+        'Catullo è l\'unico poeta dell\'app che lo usa. Gli esempi sono il primo verso dell\'Attis e il primo verso del suo lamento.'
+      ],
+
+      examples: [
+        {
+          where: 'Carme 63, v. 1',
+          gloss: 'L\'inizio: Attis portato oltre il mare',
+          notes: [
+            '**Esattamente la forma di base**, sedici sillabe, otto e otto, con la pausa dopo *Attis*. Il nome dell\'eroe prende le due lunghe pesanti che chiudono la prima metà.',
+            '**Poi la corsa.** *Celeri rate maria*: dopo il *-ri* lungo di *celeri*, cinque sillabe brevi di fila (l\'ultima vale come ancipite). Le parole dicono "su una nave veloce per i mari", e il ritmo è la nave veloce.',
+            '**Lunghe per posizione.** L\'*al-* di *alta*, il *vec-* di *vectus* e l\'*At-* di *Attis* sono lunghi perché seguono due consonanti; il *-tis* di *Attis* è lungo perché la parola successiva comincia per consonante. Le vocali in sé sono brevi.'
+          ]
+        },
+        {
+          where: 'Carme 63, v. 50',
+          gloss: 'Comincia il lamento: due metà che si fanno eco',
+          notes: [
+            '**Le due metà cominciano con le stesse parole**, *patria o*, e il metro lo permette: entrambe si aprono con ⏑ ⏑ –. La differenza è nel modo in cui finiscono: *mei creatrix* chiude su due lunghe, *mea genetrix* si esaurisce su quattro brevi.',
+            '**Due elisioni.** *Patri(a) o* due volte: la *-a* finale di *patria* è inghiottita dalla *o* che segue, così ogni *patria o* conta tre sillabe, non quattro.',
+            '**Breve davanti a tr.** Il *pa-* di *patria* e il *-ne-* di *genetrix* restano brevi anche se seguono una muta e una liquida (*t* + *r*): i poeti latini possono trattare quella coppia come una sola consonante. La prima metà finisce su *-trix*, lungo per la sua *x*.'
+          ]
+        }
+      ],
+
+      after: 'Nessun altro poeta di questa app scrisse galliambi, e il carme 63 è l\'unico carme latino completo in questo metro: con ogni probabilità questa pagina resterà al solo Catullo.'
+    },
+
     'saturnian': {
       name: 'Saturnio',
       tagline: 'Il verso proprio di Roma, da prima che arrivassero i metri greci; e l\'unico che nessuno sia riuscito a spiegare.',

@@ -35,14 +35,14 @@ otium) with a private meaning; the author page has the section "The Lexicon of L
 | 2 polymetra | 22, 30, 31, 32* (explicit), 36* (explicit), 41* (explicit), 46, 49, 50, 51 | **DONE v1.17.1** (polymetra complete at 20) |
 | 3 epigrams | 70, 72*, 73, 75*, 76*, 77, 79, 83, 84, 85* (odi et amo) | **DONE v1.17.2** |
 | 4 epigrams | 86* (Quintia), 87*, 92, 93, 95* (Zmyrna), 96, 101 (rebuild), 107, 109*, 116 | **DONE v1.17.3** (epigrams complete at 20) |
-| 5 docta | 61 vv. 1-35, 61 vv. 204-228, 62 vv. 39-58, 63 vv. 1-26, 63 vv. 50-73  next |
+| 5 docta | 61 vv. 1-35, 61 vv. 211-235, 62 vv. 39-58, 63 vv. 1-26, 63 vv. 50-73 | **DONE v1.17.4** (docta 6 of 20) |
 | 6 docta | 64 vv. 1-21 (rebuild of 1-7), 50-70, 132-153, 186-201, 215-237 | |
 | 7 docta | 64 vv. 238-253, 323-337, 384-408; 65 (whole); 66 vv. 1-14 | |
 | 8 docta | 66 vv. 39-50, 67, 68 vv. 1-24, 41-72, 89-104 | |
 
 Docta verse ranges are provisional: fix them against Perseus at the release. New metre pages, each in the release
 where the metre first appears: **choliambic + Sapphic stanza DONE v1.17.0**; greater asclepiad (30, R2); glyconic
-stanza (61, R5); galliambic (63, R5).
+stanza + galliambic **DONE v1.17.4**.
 
 **v1.17.0 notes on the text (page vs Perseus, all kept and explained):** 1.2 *arida* (fem. pumex) / arido; 1.6
 *cartis*; the page's dots after v. 6 and dash after v. 8; 2 the page splits 2b off (vv. 11-13 not taken); 3.7
@@ -86,6 +86,22 @@ contradiction with keeping politics out; his freedom vs the Augustan *recusatio*
 and passed (96); Catullus not wholly cut off from Rome - he uses the Roman RITE in earnest (101); hope dies last (107);
 the Fides temple and treaties (109); 116 as a war in miniature, and the book's order probably not his own. The user
 gave no corrections to make this round. NEXT: the carmina docta - the user says "next are the learned poems".
+
+**v1.17.4 (Release 5) record:** ranges fixed against Perseus: 61b is vv. 211-235 (the last five stanzas, so the
+excerpt ends on *exercete iuventam*); **62 is cut by PAGE line** - the page prints two asterisk rows after v. 32, so its
+lines 41-60 are vv. 39-58 (`from: 39` in the builder); 61 and 63 align with Perseus. Declared emends: 63 v. 5 *de
+volsit* -> *devolsit* (Perseus *devolvit*), v. 60 *gyminasiis* -> *gymnasiis*. Text notes: 61 *Iunia* / Vinia,
+*roscido* / rosido, *lubet*, *approbet*, *assiduo*; 62 *coluere* / accoluere; 63 *typanum tuum, Cybebe* / typanum,
+tubam Cybelles, *Cybebes* / Cybelles, *a* / ah, *figurast* / figurae est. Links: 62 <-> 11 (flower and plough, the
+roles reversed; 11 backlinked); 61 -> 109, 76 (the foedus he never had), 2/3 (diminutives), 50 (*lusimus*); 63 -> Pro
+Caelio 1 (Megalesia; one way) and <-> DRN II vv. 646-659 (both ways); 63b <-> 101 (*vectus* over the sea; both ways),
+-> 31, 46 (home), 8 (too late). Attis's gender: masc. *vectus* v. 1 -> fem. *citata* v. 8; in the lament masc. when
+remembering (*miser* v. 51), fem. in the frenzy (*furibunda* v. 54); *ego* x15 in vv. 51-71 counting *egone*. The
+Attis-as-lover reading is given AS A READING (*era* = Cybele in 63, = Lesbia in 68 v. 136). Metre pages:
+glyconic-stanza (61 vv. 11-15 and 216-219; the closing *semihiante labello* is left out, it needs a slurred syllable)
+and galliambic (63 vv. 1 and 50; basic-form lines only, since check_metre_quotes has no shape for resolved lines).
+batch/cat17_sync.js now also syncs translations, titles and descriptions. NEXT: Release 6 = Carmen 64 (remove the
+launch vv. 1-7 first, like 101).
 
 **v1.17.3 (Release 4) record:** 95 built as vv. 1-8 in two pieces (lost v. 4); 95b (Antimachus couplet) is a
 separate heading on the page, quoted in the note, not in the Latin; 116 vv. 1-8 with two declared emends (v. 4 *mihi*,

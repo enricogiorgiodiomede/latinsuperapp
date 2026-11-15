@@ -6,6 +6,44 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.17.4] - 2026-11-15
+
+**CATULLUS, RELEASE 5 OF 8: THE FIRST CARMINA DOCTA.** Five excerpts from the learned poems, five per release from
+now on: the two wedding songs (61, 62) and the Attis (63). Two new metre pages. *Carmina docta* now 6 of 20; the
+*Liber* is at **46 of 60**.
+
+### Added - Carmina docta (5)
+| excerpt | what it is |
+|---|---|
+| Carmen 61, vv. 1-35 | the invocation of Hymen: Helicon, the saffron veil, Junia like Venus, the bride bound like ivy |
+| Carmen 61, vv. 211-235 | the end: *Torquatus volo parvulus*, Penelope and Telemachus, *claudite ostia* |
+| Carmen 62, vv. 39-58 | girls against boys: the plucked flower and the vine married to the elm (page lines 41-60) |
+| Carmen 63, vv. 1-26 | the Attis: the self-castration, the switch to the feminine at *citata*, the song to the Gallae |
+| Carmen 63, vv. 50-73 | Attis wakes: *patria o mei creatrix*, *ego* fifteen times, *iam iam dolet quod egi* |
+
+### Added - metre pages
+- **Glyconic stanza** (`glyconic-stanza`): four glyconics and a pherecratean; examples 61 vv. 11-15 and vv. 216-219.
+- **Galliambic** (`galliambic`): two halves of eight in the basic form; examples 63 v. 1 and v. 50.
+- `tools/check_metre_quotes.js` SHAPE entries (GLYC, PHER, galliambic halves); `tools/check_metres.js` WORDS for both
+  (EN/IT); ASSIGN for all five excerpts; `sitemap.xml` rebuilt (+2 URLs).
+
+### Changed
+- **Declared corrections** in Carmen 63: v. 5 *de volsit* -> *devolsit* (the page splits the word; Perseus *devolvit*),
+  v. 60 *gyminasiis* -> *gymnasiis* (misprint).
+- **Cross-references, added in place**: Carmen 11 (the flower, now -> 62), Carmen 101 (*vectus* over the sea, -> 63),
+  DRN II vv. 646-659, 680 (Cybele's procession, -> 63).
+- `batch/cat17_sync.js` also syncs translations, titles and descriptions; `tools/check_context.js` clears *Idae* on
+  63 vv. 50-73 (Mount Ida is named in the nominative).
+
+Notes on the text (all explained in the notes): 61 *Iunia* / Vinia, *roscido* / rosido, *lubet*, *approbet*,
+*assiduo*; 62 *coluere* / accoluere, and the page's two asterisk rows after v. 32 (so page lines 41-60 = vv. 39-58);
+63 *typanum tuum, Cybebe* / typanum, tubam Cybelles, *Cybebes*, *a* / ah, *figurast*, *tetuli*.
+
+Verification: **512 verbatim, 0 mismatched** (two emendations in 63); check_numbering 211/0; check_verses 60/0;
+check_metres 220 labelled, 0 failed; check_metre_quotes 50/0; check_context 0 for 1.17.4 (1 cleared); lint_register,
+lint_ablatives, lint_markdown clean; check_sections 154 (the five new excerpts show the usual line-for-line artefact).
+Bank **659**. Cache-bust: `?v=261` -> `?v=262`.
+
 ## [1.17.3] - 2026-11-15
 
 **CATULLUS, RELEASE 4 OF 8: THE EPIGRAMS ARE COMPLETE AT 20.** The last ten epigrams, and with them the second of

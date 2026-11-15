@@ -194,7 +194,11 @@ const CLEARED = {
   '(De Bello Gallico VIII.4) | name | Arare': 1,
   // VIII.41's closing note is ABOUT what happens two chapters later, and
   // quotes it: the tunnels cut the veins of the spring and it dried up.
-  '(De Bello Gallico VIII.41) | ref | De Bello Gallico VIII.43': 1
+  '(De Bello Gallico VIII.41) | ref | De Bello Gallico VIII.43': 1,
+  // The genitive *Idae* is Mount Ida, which the analysis names twice in the
+  // nominative ("green Mount Ida", "the snow of Ida"); the pass compares the
+  // inflected form.
+  '(Carmen 63, vv. 50-73) | name | Idae': 1
 };
 
 let checked = 0, flagged = 0, cleared = 0;
