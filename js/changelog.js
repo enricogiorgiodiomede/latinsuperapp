@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.17.5', date: '16/11/2026', time: '00:00', tz: 'CET',
+      v: '1.17.5', date: '16/11/2026', time: '01:02', tz: 'CET',
       en: {
         added: [
           'CATULLUS, PART SIX OF EIGHT: THE MINI-EPIC. Five excerpts from Carmen 64, his longest poem: the first ship ever built sailing for the golden fleece, and a hero who falls in love with a sea goddess; then the story embroidered on their wedding bed, Ariadne waking alone on an island to watch Theseus sail away, her lament against the man who broke his promise of marriage, her curse, and the farewell of Theseus\'s old father, with the black sails and the white.'

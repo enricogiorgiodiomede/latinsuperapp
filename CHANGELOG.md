@@ -39,7 +39,7 @@ neque*; *metuere* (manuscripts) kept against Perseus's *meminere*, *dessem*; *qu
 Verification: **516 verbatim, 0 mismatched**; check_numbering 215/0; check_verses 60/0; check_metres 224 labelled, 0
 failed; check_metre_quotes 50/0 (the hexameter page's Carmen 64 examples still match the rebuilt excerpt); check_context
 0 for 1.17.5; lint_register, lint_ablatives, lint_markdown clean; check_sections 158 (the line-for-line artefact on the
-new excerpts; the one real slip, v. 135's *a!*, fixed). Bank **663**. Cache-bust: `?v=264` -> `?v=265`.
+new excerpts; the one real slip, v. 135's *a!*, fixed). Bank **663**. Cache-bust: `?v=264` -> `?v=266` (265, then 266 for the release time, 16/11/2026 01:02 CET).
 
 ## [1.17.4] - 2026-11-15
 
