@@ -1731,3 +1731,21 @@ A two-part **Catullus** day: just after midnight the user's notes on Release 3 a
 **v1.17.4 -- Catullus release 5: the first *carmina docta* (22:38, `1f5b456`).** Five excerpts from the learned poems: Carmen 61 vv. 1-35 and 211-235 (the wedding song for Manlius Torquatus), Carmen 62 vv. 39-58 (the flower and the vine), Carmen 63 vv. 1-26 and 50-73 (the Attis). **Metres:** two new metre pages, the glyconic stanza and the galliambic, in English and Italian, with checker shapes and words (`js/metres.js`, `js/metres-it.js`, the three metre checkers updated, three new sitemap URLs). Declared emends in 63 (*devolsit*, *gymnasiis*). **Backlinks** from Carmen 11, Carmen 101 and *DRN* II vv. 646-659. *Carmina docta* now 6 of 20, the Liber 46 of 60. Cache `?v=262`. The docs commit `97b7f55` seconds later set the release time (15/11/2026, 22:38 CET).
 
 **Progress:** App at **v1.17.4** (bank 659). **Catullus** is at release 5 of 8: polymetra and epigrams complete at 20 each, *carmina docta* at 6 of 20; next come the user's notes on Release 5, then Release 6 (Carmen 64). Still outstanding: the rest of the *carmina docta*, the translation re-read in *Pro Caelio* and *De Oratore*, the note reorder for other authors, and the Early Imperial Era draft.
+
+---
+
+## 2026-11-16
+
+*(End-of-day log, 23:55.)*
+
+A two-release day for Catullus, with the *carmina docta* moving from 6 to 15 of 20 and the Liber reaching 55 of 60.
+
+**v1.17.4 follow-up -- the user's notes on Catullus Release 5 (00:42, `fd1253d`).** New paragraphs in all five *carmina docta* notes, English and Italian, placed in line: what the wedding had that Catullus's love lacked, short lines and translation difficulty, tenderness, the Virgil *Ecl.* 3 v. 111 echo, the two endings of the flower (11 vs 62), the hexameter's word order, a metre saved by one poem, *furor* as a lesson and its two faces, and the Attis read as allegory beside Tibullus and Propertius. Cache `?v=264`.
+
+**v1.17.5 -- Catullus release 6: Carmen 64, the opening and Ariadne (01:02, `4f15824`).** Five excerpts from the mini-epic: vv. 1-21 (rebuilt from the launch excerpt vv. 1-7, keeping tag 1.0.0), 50-70, 132-153, 186-201 and 215-237. Ranges after v. 23 are cut by page line, since the page prints a v. 23b. Declared emends at vv. 16, 142 and 153. Every note carries a translation-difficulty paragraph. **Backlinks** from *Pro Caelio* 18, Carmen 30 and Carmen 70. Built from new `batch/cat1705_*` files; `js/metres.js` and `tools/check_context.js` touched. *Carmina docta* 10 of 20, Liber 50 of 60, cache `?v=265`. The docs commit `1436bb5` seconds later set the release time (16/11/2026, 01:02 CET).
+
+**v1.17.5 follow-up -- the user's notes on Release 6 (23:36, `f797432`).** Restores the missing article in Carmen 64 v. 1 (EN "The pines", IT "I pini"). New paragraphs in all five Carmen 64 notes, both languages: figures of speech and the pine-for-ship metonymy (Ovid, Tasso), the golden age and the innocent first ship, the Callimachean poet, Ariadne's stages, the frame left waiting, broken promises as Catullus's central theme, Ariadne as his mirror, Ariosto, her many endings, and the innocent father set against Romeo and Juliet. Cache `?v=267`.
+
+**v1.17.6 -- Catullus release 7: the end of Carmen 64, Carmen 65, the Lock of Berenice (23:53, `9562845`).** Five excerpts: 64 vv. 238-253 (the sail, Aegeus, Bacchus), 323-337 (the Parcae's song) and 384-408 (the epilogue); Carmen 65 whole (v. 9 lost, so in two pieces); 66 vv. 1-14. Carmen 64 again cut by page line (the page adds v. 23b and an asterisk row, and lacks v. 378). Declared emend at 64 v. 395. **Backlinks** from Sallust *Cat.* 10 and 15, Carmina 101 and 116, and the Hortensius entry. Built from new `batch/cat1706_*` files, with `js/metres.js` updated. *Carmina docta* 15 of 20, Liber 55 of 60, cache `?v=268`. The docs commit `0f7b6be` seconds later set the release time (16/11/2026, 23:53 CET).
+
+**Progress:** App at **v1.17.6**. **Catullus** is at release 7 of 8: polymetra and epigrams complete at 20 each, *carmina docta* at 15 of 20; next come the user's notes on Release 7, then Release 8, the last (66 vv. 39-50, 67, and three passages of 68). Still outstanding: the translation re-read in *Pro Caelio* and *De Oratore*, the note reorder for other authors, and the Early Imperial Era draft.
