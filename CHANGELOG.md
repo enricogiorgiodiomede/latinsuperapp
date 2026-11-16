@@ -41,6 +41,26 @@ failed; check_metre_quotes 50/0 (the hexameter page's Carmen 64 examples still m
 0 for 1.17.5; lint_register, lint_ablatives, lint_markdown clean; check_sections 158 (the line-for-line artefact on the
 new excerpts; the one real slip, v. 135's *a!*, fixed). Bank **663**. Cache-bust: `?v=264` -> `?v=266` (265, then 266 for the release time, 16/11/2026 01:02 CET).
 
+### Follow-up 2026-11-16 - the user's notes on Release 6
+- **Fix**: v. 1 of 64 vv. 1-21 lacked its article: EN "The pines born ...", IT "I pini nati ...".
+- **New paragraphs**, English and Italian, next to the paragraph on the same theme (inserted into
+  `batch/cat1705_frags_{a,b}.js`, copied with `batch/cat17_sync.js`):
+  - 64 vv. 1-21: *Figures in twenty-one lines, and a famous pine* (Ovid Met. I vv. 94-95, Tasso, *Aminta* Act I chorus
+    *o guerra o merce ... il pino*, both checked; the three-line brevity), *The Callimachean poet, at full stretch*,
+    *A golden age, lost* (the user's reading of the innocent first ship, set against the tradition in which the
+    first ship is already part of the fall).
+  - 64 vv. 50-70: *Shock, then lament, then anger*; *A story that keeps the wedding waiting* (vv. 50-264);
+    *One theme, many variations* (61 ends well, 62 debates, 64 abandons).
+  - 64 vv. 132-153: *Catullus in Ariadne's place* (85; the unburied soul, Aen. VI); *Ingratitude, and a cautionary
+    lesson* (Ariosto, OF XXIII: Angelica never promised, Theseus did); Dido overshadowing Ariadne (one sentence).
+  - 64 vv. 186-201: *A prayer that becomes a prophecy*; *Why we feel for her*; *Many endings* (Od. XI vv. 321-325,
+    Hesiod Theog. vv. 947-949, Bacchus at vv. 251-264).
+  - 64 vv. 215-237: *The innocent who pays* - the scapegoat reading weighed: Romeo and Juliet fits the strict sense
+    (the prologue: *with their death bury their parents' strife*, checked), Aegeus only half (innocent, but his death
+    reconciles nothing; closer to a curse on a house).
+- Verification: 516/0 verbatim; check_context 0 for 1.17.5; check_metres 0 failed; lint_markdown, lint_register,
+  lint_ablatives clean. Cache-bust: `?v=266` -> `?v=267`.
+
 ## [1.17.4] - 2026-11-15
 
 **CATULLUS, RELEASE 5 OF 8: THE FIRST CARMINA DOCTA.** Five excerpts from the learned poems, five per release from

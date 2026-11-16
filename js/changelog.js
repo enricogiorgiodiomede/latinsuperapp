@@ -19,7 +19,8 @@
         ],
         changed: [
           'The opening of Carmen 64, the app\'s first Catullus excerpt, is rebuilt and extended from seven lines to twenty-one, with a new note.',
-          'Cicero\'s "Palatine Medea", the poem to the friend who broke faith, and the epigram about a lover\'s promises written on the wind now point to Carmen 64, where the same words return in a myth.'
+          'Cicero\'s "Palatine Medea", the poem to the friend who broke faith, and the epigram about a lover\'s promises written on the wind now point to Carmen 64, where the same words return in a myth.',
+          'The notes on Carmen 64 were deepened from a reader\'s comments: the figures of speech packed into the opening and the famous "pine" for a ship, from Ovid to Tasso, a golden age where the first ship brought wonder, Catullus as a fully Callimachean poet, a story that keeps the wedding waiting for two hundred lines, Ariadne\'s journey from shock to revenge, the broken promise as the theme of his whole work, Ariadne as Catullus\'s mirror, a lesson set beside Ariosto\'s Orlando, why her lament still moves readers and the different endings of her myth, and an innocent father who pays for his son\'s betrayal, weighed against Romeo and Juliet. A missing article in the translation of the opening line was restored.'
         ],
         deleted: [
           'Nothing was deleted.'
@@ -31,7 +32,8 @@
         ],
         changed: [
           'L\'inizio del carme 64, il primo estratto di Catullo dell\'app, è ricostruito ed esteso da sette versi a ventuno, con una nota nuova.',
-          'La "Medea del Palatino" di Cicerone, il carme all\'amico che ha tradito la fiducia e l\'epigramma sulle promesse di un\'amante scritte nel vento ora rimandano al carme 64, dove le stesse parole tornano in un mito.'
+          'La "Medea del Palatino" di Cicerone, il carme all\'amico che ha tradito la fiducia e l\'epigramma sulle promesse di un\'amante scritte nel vento ora rimandano al carme 64, dove le stesse parole tornano in un mito.',
+          'Le note sul carme 64 sono state approfondite a partire dai commenti di un lettore: le figure retoriche concentrate nell\'inizio e il famoso "pino" per la nave, da Ovidio a Tasso, un\'età dell\'oro in cui la prima nave portava meraviglia, Catullo poeta callimacheo fino in fondo, una storia che fa aspettare le nozze per duecento versi, il percorso di Arianna dallo shock alla vendetta, la promessa tradita come tema di tutta la sua opera, Arianna come specchio di Catullo, una lezione accanto all\'Orlando di Ariosto, perché il suo lamento commuove ancora e i diversi finali del suo mito, e un padre innocente che paga per il tradimento del figlio, messo a confronto con Romeo e Giulietta. È stato ripristinato un articolo mancante nella traduzione del primo verso.'
         ],
         deleted: [
           'Non è stato eliminato nulla.'

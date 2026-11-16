@@ -101,6 +101,21 @@ uncertain, so the "jealousy" is written as a hypothesis. For Release 6 (64): car
 the epic + colloquial engine, Ariadne abandoned = the broken foedus (*perfide*, *immemor*, the forgotten promises - link
 70, 72, 76, 87, 30), furor again (Ariadne's), and the moral decline at the end of 64 (link Sallust Cat. 10).
 
+**THESES FROM THE NOTES ON RELEASE 6 (16/11/2026), folded into v1.17.5:** count the FIGURES OF SPEECH in docta passages
+(anaphora, metonymy, hyperbaton, brevity) - the user likes them named; pine = ship metonymy, Ovid Met. I 94-95 and
+Tasso's Aminta chorus (CHECKED, used); the first ship innocent, a golden age now lost (the decline comes from men's use
+of it - write the epilogue in Release 7 as the answer: lost golden age, gods no longer come; link Sallust Cat. 10 and
+64a); Catullus definitively Callimachean in 64; Ariadne's stages shock -> lament -> anger -> curse; the frame left
+hanging ~215 lines; broken promises are THE recurrent theme across all three parts, explored in variations (61 well,
+62 debate, 64 abandonment); Ariadne = Catullus/Lesbia mirror, roles reversed, her fate worse (unburied); ingratitude;
+cautionary lesson + Ariosto OF XXIII (CORRECTION GIVEN: Angelica never promised Orlando anything; Theseus did);
+Dido overshadowed Ariadne; the prayer becomes a prophecy; readers sympathise with Ariadne - a reason to read Catullus
+beyond the clichés; Ariadne's many endings (Od. XI 321-325, Hesiod Theog. 947-949; Catullus's Bacchus vv. 251-264 -
+USE IN RELEASE 7); 64e the most tender scene, the innocent who pays. The user's professor's "scapegoat" reading with
+Romeo and Juliet: CHECKED and NUANCED - R&J fits the strict sense (death that ends the feud, prologue checked); Aegeus
+only half (innocent, but his death heals nothing; closer to a curse on a house). For Release 7: write Aegeus's death
+(vv. 238-253) as the curse fulfilled and the innocent who pays; Bacchus's arrival as Ariadne's happier ending.
+
 **v1.17.5 (Release 6) record:** Carmen 64 is cut by PAGE line after v. 23: the page prints v. 23b (*progenies, salvete
 iter...*, preserved by an ancient commentary on Virgil) as its own line, so page line N = v. N-1 (Perseus labels it
 "23b"); spec batch/cat1705_spec.json, `from` in the builder. **Release 7 must do the same** (64 vv. 238-253 = page
