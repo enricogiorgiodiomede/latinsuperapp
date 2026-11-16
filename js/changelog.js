@@ -12,6 +12,33 @@
 
   var VERSIONS = [
     {
+      v: '1.17.5', date: '16/11/2026', time: '00:00', tz: 'CET',
+      en: {
+        added: [
+          'CATULLUS, PART SIX OF EIGHT: THE MINI-EPIC. Five excerpts from Carmen 64, his longest poem: the first ship ever built sailing for the golden fleece, and a hero who falls in love with a sea goddess; then the story embroidered on their wedding bed, Ariadne waking alone on an island to watch Theseus sail away, her lament against the man who broke his promise of marriage, her curse, and the farewell of Theseus\'s old father, with the black sails and the white.'
+        ],
+        changed: [
+          'The opening of Carmen 64, the app\'s first Catullus excerpt, is rebuilt and extended from seven lines to twenty-one, with a new note.',
+          'Cicero\'s "Palatine Medea", the poem to the friend who broke faith, and the epigram about a lover\'s promises written on the wind now point to Carmen 64, where the same words return in a myth.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'CATULLO, SESTA PARTE DI OTTO: IL PICCOLO POEMA EPICO. Cinque estratti dal carme 64, il suo carme più lungo: la prima nave mai costruita che salpa per il vello d\'oro, e un eroe che si innamora di una dea del mare; poi la storia ricamata sul loro letto nuziale, Arianna che si sveglia sola su un\'isola e guarda Teseo allontanarsi, il suo lamento contro l\'uomo che ha tradito la promessa di nozze, la sua maledizione, e l\'addio del vecchio padre di Teseo, con le vele nere e le vele bianche.'
+        ],
+        changed: [
+          'L\'inizio del carme 64, il primo estratto di Catullo dell\'app, è ricostruito ed esteso da sette versi a ventuno, con una nota nuova.',
+          'La "Medea del Palatino" di Cicerone, il carme all\'amico che ha tradito la fiducia e l\'epigramma sulle promesse di un\'amante scritte nel vento ora rimandano al carme 64, dove le stesse parole tornano in un mito.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.17.4', date: '15/11/2026', time: '22:38', tz: 'CET',
       en: {
         added: [

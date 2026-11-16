@@ -6,6 +6,41 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.17.5] - 2026-11-16
+
+**CATULLUS, RELEASE 6 OF 8: CARMEN 64, THE OPENING AND ARIADNE.** Five excerpts from the mini-epic, written with the
+user's Release 5 theses built in (a translation-difficulty paragraph in every note; the broken foedus; furor).
+*Carmina docta* now 10 of 20; the *Liber* is at **50 of 60**.
+
+### Added - Carmina docta (5, one of them a rebuild)
+| excerpt | what it is |
+|---|---|
+| Carmen 64, vv. 1-21 | the Argo and the Nereids, Peleus and Thetis: **rebuilt** from the launch vv. 1-7 (keeps tag 1.0.0), new note (Euripides/Ennius *Medea*, Pro Caelio 18) |
+| Carmen 64, vv. 50-70 | the coverlet: Ariadne on Dia watching Theseus sail, *immemor*, *irrita ... promissa* |
+| Carmen 64, vv. 132-153 | the lament, part 1: *perfide*, Carmen 70 reversed, the brother she gave up, Virgil's Dido (Aen. IV 305, 316, 366) |
+| Carmen 64, vv. 186-201 | the lament, end: the Eumenides, *caelestum fidem*, *quali ... tali mente* |
+| Carmen 64, vv. 215-237 | Aegeus's farewell: the black sails and the white, *memori ... corde* |
+
+### Changed
+- **Ranges by page line**: the page prints v. 23b (*progenies, salvete iter...*) as its own line, so after v. 23 page
+  line N = v. N-1 (spec in `batch/cat1705_spec.json`, `from` in the builder).
+- **Declared corrections**: v. 16 *atque alia* -> *siqua alia* (a word lost on the page; Perseus's reading), v. 142
+  *aereii* -> *aerii*, v. 153 *iniacta* -> *iniecta* (misprints).
+- **The launch excerpt** removed with `batch/cat1705_remove64.js` (saved to `batch/cat1705_old64.json`) before the
+  rebuild; ASSIGN updated for all five (dactylic hexameter).
+- **Cross-references, added in place**: Pro Caelio 18 (the Ennian *Medea*, -> 64 vv. 1-21), Carmen 30 (*immemor*,
+  *irrita* words on the wind, -> 64), Carmen 70 (a lover's promises, -> 64 vv. 132-153).
+- `tools/check_context.js` clears *Diae* on 64 vv. 50-70 (Dia is named in the nominative).
+
+Notes on the text (all explained in the notes): *Aeetaeos*, *incanuit*; *utpote ... quae tum*, *alludebant*, *sed
+neque*; *metuere* (manuscripts) kept against Perseus's *meminere*, *dessem*; *querellas*, *vae misera*; *longa* (Perseus
+*longe*), *Erecthei*, *annuit*.
+
+Verification: **516 verbatim, 0 mismatched**; check_numbering 215/0; check_verses 60/0; check_metres 224 labelled, 0
+failed; check_metre_quotes 50/0 (the hexameter page's Carmen 64 examples still match the rebuilt excerpt); check_context
+0 for 1.17.5; lint_register, lint_ablatives, lint_markdown clean; check_sections 158 (the line-for-line artefact on the
+new excerpts; the one real slip, v. 135's *a!*, fixed). Bank **663**. Cache-bust: `?v=264` -> `?v=265`.
+
 ## [1.17.4] - 2026-11-15
 
 **CATULLUS, RELEASE 5 OF 8: THE FIRST CARMINA DOCTA.** Five excerpts from the learned poems, five per release from

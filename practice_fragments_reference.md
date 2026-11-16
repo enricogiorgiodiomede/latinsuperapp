@@ -36,7 +36,7 @@ otium) with a private meaning; the author page has the section "The Lexicon of L
 | 3 epigrams | 70, 72*, 73, 75*, 76*, 77, 79, 83, 84, 85* (odi et amo) | **DONE v1.17.2** |
 | 4 epigrams | 86* (Quintia), 87*, 92, 93, 95* (Zmyrna), 96, 101 (rebuild), 107, 109*, 116 | **DONE v1.17.3** (epigrams complete at 20) |
 | 5 docta | 61 vv. 1-35, 61 vv. 211-235, 62 vv. 39-58, 63 vv. 1-26, 63 vv. 50-73 | **DONE v1.17.4** (docta 6 of 20) |
-| 6 docta | 64 vv. 1-21 (rebuild of 1-7), 50-70, 132-153, 186-201, 215-237 | |
+| 6 docta | 64 vv. 1-21 (rebuild of 1-7), 50-70, 132-153, 186-201, 215-237 | **DONE v1.17.5** (docta 10 of 20) |
 | 7 docta | 64 vv. 238-253, 323-337, 384-408; 65 (whole); 66 vv. 1-14 | |
 | 8 docta | 66 vv. 39-50, 67, 68 vv. 1-24, 41-72, 89-104 | |
 
@@ -100,6 +100,22 @@ v. 111 *claudite iam rivos, pueri* (echo of 61 *claudite ostia*). CORRECTIONS GI
 uncertain, so the "jealousy" is written as a hypothesis. For Release 6 (64): carry the translation-difficulty remark,
 the epic + colloquial engine, Ariadne abandoned = the broken foedus (*perfide*, *immemor*, the forgotten promises - link
 70, 72, 76, 87, 30), furor again (Ariadne's), and the moral decline at the end of 64 (link Sallust Cat. 10).
+
+**v1.17.5 (Release 6) record:** Carmen 64 is cut by PAGE line after v. 23: the page prints v. 23b (*progenies, salvete
+iter...*, preserved by an ancient commentary on Virgil) as its own line, so page line N = v. N-1 (Perseus labels it
+"23b"); spec batch/cat1705_spec.json, `from` in the builder. **Release 7 must do the same** (64 vv. 238-253 = page
+239-254, 323-337 = page 324-338, 384-408 = page 385-409; check against Perseus before writing). The launch vv. 1-7 was
+removed by batch/cat1705_remove64.js and rebuilt as vv. 1-21 with tag 1.0.0. Declared emends: v. 16 *atque alia* ->
+*siqua alia* (Perseus), v. 142 *aereii* -> *aerii*, v. 153 *iniacta* -> *iniecta*. Kept page readings: v. 148
+*metuere* (manuscripts; Perseus *meminere*), v. 151 *dessem*, v. 196 *vae misera*, v. 215 *longa* (Perseus *longe*).
+Every note has a **Translating it** paragraph (the user's R5 request). Links: 64a <-> Pro Caelio 18 (Ennius's *Medea*
+opening, Clodia the "Palatine Medea"; both ways); 64b/64c/64d <-> 30 (*immemor*, *irrita* on the winds, *Fides*; 30
+backlinked), 64c <-> 70 (the verdict on promises reversed; 70 backlinked), 64c -> 76 (*neglecto numine divum* vs 76's
+oath), 101 (burial), 8 (*miser*); 64b/64d -> 63 (furor); 64e -> 61 (father and son), 101. The Ariadne-as-Catullus
+reading is given AS A READING. Saved for Release 7: Aegeus's death from the citadel and the sails (vv. 238-253: write
+the curse fulfilled, *immemor* punished by *immemor*), Bacchus finding Ariadne, the Parcae's refrain, the epilogue
+(link Sallust Cat. 10 and the "world where gods and mortals met" of 64a), and Virgil's Dido (Aen. IV 316 *per conubia
+nostra, per inceptos hymenaeos* echoes 64 v. 141) - checked, USED in 64 vv. 132-153 (*An heir in Virgil*).
 
 **v1.17.4 (Release 5) record:** ranges fixed against Perseus: 61b is vv. 211-235 (the last five stanzas, so the
 excerpt ends on *exercete iuventam*); **62 is cut by PAGE line** - the page prints two asterisk rows after v. 32, so its

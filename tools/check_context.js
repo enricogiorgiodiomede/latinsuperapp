@@ -198,7 +198,9 @@ const CLEARED = {
   // The genitive *Idae* is Mount Ida, which the analysis names twice in the
   // nominative ("green Mount Ida", "the snow of Ida"); the pass compares the
   // inflected form.
-  '(Carmen 63, vv. 50-73) | name | Idae': 1
+  '(Carmen 63, vv. 50-73) | name | Idae': 1,
+  // Likewise the genitive *Diae*: the analysis names the island as Dia (Naxos).
+  '(Carmen 64, vv. 50-70) | name | Diae': 1
 };
 
 let checked = 0, flagged = 0, cleared = 0;
