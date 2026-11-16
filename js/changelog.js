@@ -12,6 +12,31 @@
 
   var VERSIONS = [
     {
+      v: '1.17.6', date: '16/11/2026', time: '00:00', tz: 'CET',
+      en: {
+        added: [
+          'CATULLUS, PART SEVEN OF EIGHT: THE END OF THE MINI-EPIC, AND A LETTER IN GRIEF. The last three excerpts of Carmen 64: the forgotten sail and the old father\'s death, with the god Bacchus arriving for Ariadne; the Fates spinning and singing at the wedding, "run, spindles"; and the epilogue, where crime drives the gods from the earth. Then Carmen 65, a letter to the orator Hortalus written in mourning for Catullus\'s brother, and the opening of Carmen 66, his translation of Callimachus\'s poem on the lock of hair that became a constellation.'
+        ],
+        changed: [
+          'Sallust\'s fall of Rome and his portrait of Catiline, the poem at the brother\'s grave, the last poem of the book and Cicero\'s lament for Hortensius now point to the new poems.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'CATULLO, SETTIMA PARTE DI OTTO: LA FINE DEL PICCOLO POEMA EPICO, E UNA LETTERA NEL LUTTO. Gli ultimi tre estratti del carme 64: la vela dimenticata e la morte del vecchio padre, con il dio Bacco che arriva per Arianna; le Parche che filano e cantano alle nozze, "correte, fusi"; e l\'epilogo, dove il delitto caccia gli dei dalla terra. Poi il carme 65, una lettera all\'oratore Ortalo scritta nel lutto per il fratello di Catullo, e l\'inizio del carme 66, la sua traduzione del carme di Callimaco sulla ciocca di capelli diventata costellazione.'
+        ],
+        changed: [
+          'La caduta di Roma e il ritratto di Catilina di Sallustio, il carme sulla tomba del fratello, l\'ultimo carme del libro e il compianto di Cicerone per Ortensio ora rimandano ai nuovi carmi.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.17.5', date: '16/11/2026', time: '01:02', tz: 'CET',
       en: {
         added: [

@@ -301,7 +301,12 @@
           '(Carmen 64, vv. 50-70)': 'dactylic-hexameter',
           '(Carmen 64, vv. 132-153)': 'dactylic-hexameter',
           '(Carmen 64, vv. 186-201)': 'dactylic-hexameter',
-          '(Carmen 64, vv. 215-237)': 'dactylic-hexameter'
+          '(Carmen 64, vv. 215-237)': 'dactylic-hexameter',
+          '(Carmen 64, vv. 238-253)': 'dactylic-hexameter',
+          '(Carmen 64, vv. 323-337)': 'dactylic-hexameter',
+          '(Carmen 64, vv. 384-408)': 'dactylic-hexameter',
+          '(Carmen 65)': 'elegiac-couplets',
+          '(Carmen 66, vv. 1-14)': 'elegiac-couplets'
         }
       },
       'catullus-epigrammata': 'elegiac-couplets'

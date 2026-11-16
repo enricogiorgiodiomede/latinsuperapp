@@ -37,7 +37,7 @@ otium) with a private meaning; the author page has the section "The Lexicon of L
 | 4 epigrams | 86* (Quintia), 87*, 92, 93, 95* (Zmyrna), 96, 101 (rebuild), 107, 109*, 116 | **DONE v1.17.3** (epigrams complete at 20) |
 | 5 docta | 61 vv. 1-35, 61 vv. 211-235, 62 vv. 39-58, 63 vv. 1-26, 63 vv. 50-73 | **DONE v1.17.4** (docta 6 of 20) |
 | 6 docta | 64 vv. 1-21 (rebuild of 1-7), 50-70, 132-153, 186-201, 215-237 | **DONE v1.17.5** (docta 10 of 20) |
-| 7 docta | 64 vv. 238-253, 323-337, 384-408; 65 (whole); 66 vv. 1-14 | |
+| 7 docta | 64 vv. 238-253, 323-337, 384-408; 65 (whole); 66 vv. 1-14 | **DONE v1.17.6** (docta 15 of 20) |
 | 8 docta | 66 vv. 39-50, 67, 68 vv. 1-24, 41-72, 89-104 | |
 
 Docta verse ranges are provisional: fix them against Perseus at the release. New metre pages, each in the release
@@ -115,6 +115,21 @@ USE IN RELEASE 7); 64e the most tender scene, the innocent who pays. The user's 
 Romeo and Juliet: CHECKED and NUANCED - R&J fits the strict sense (death that ends the feud, prologue checked); Aegeus
 only half (innocent, but his death heals nothing; closer to a curse on a house). For Release 7: write Aegeus's death
 (vv. 238-253) as the curse fulfilled and the innocent who pays; Bacchus's arrival as Ariadne's happier ending.
+
+**v1.17.6 (Release 7) record:** the R6 guess for the Carmen 64 page lines was wrong for the Parcae: the page also
+prints a row of asterisks after v. 253 (+2 from there) but has NO line where Perseus prints v. 378 (back to +1 in the
+epilogue). Real ranges: vv. 238-253 = page 239-254, vv. 323-337 = page 325-339, vv. 384-408 = page 385-409. Always
+locate a passage by its TEXT on the page before trusting an offset. Carmen 65: v. 9 lost, built as two pieces like 51
+(keys cat.65a/b, fromPieces [1, 10], nums with null). Emend: 64 v. 395 *Amarunsia* -> *Rhamnusia*. Kept: 64 v. 243
+*infecti* (Perseus *inflati*; it matches *infecta lintea* v. 225), v. 404 *penates* (Perseus *parentes*); 65 v. 1
+*confectum*; 66 v. 7 *limine*, v. 9 *multis ... dearum*. Links made: 64h <-> Sallust Cat. 10 (*miscere omnia* /
+*permixta*) and Cat. 15 (Catiline's son / vv. 401-402), both backlinked; 64g -> Virgil Ecl. 4 vv. 46-47 (Parcae's
+*currite*), Iliad XVIII 432-434 (Thetis unwilling); 64h -> Aratus's Justice; 65 <-> 101 and Hortensius (Cicero, Brutus
+6), both backlinked; 65/66 <-> 116 (*carmina Battiadae*; 116 backlinked); 65 -> 30, 70, 64 (the winds: here Catullus
+KEEPS his word); 66 -> 51 (translation as rivalry), Livius Andronicus's Odusia. Release 8 = 66 vv. 39-50 (*Invita, o
+regina*; Virgil Aen. VI 460 echoes it - check), 67 (the door; check whether it needs the explicit banner), 68 vv.
+1-24, 41-72, 89-104 (the brother again, Lesbia as *candida diva*, Allius). Check 66, 67, 68 page/Perseus alignment
+by text first.
 
 **v1.17.5 (Release 6) record:** Carmen 64 is cut by PAGE line after v. 23: the page prints v. 23b (*progenies, salvete
 iter...*, preserved by an ancient commentary on Virgil) as its own line, so page line N = v. N-1 (Perseus labels it

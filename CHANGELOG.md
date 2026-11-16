@@ -6,6 +6,41 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.17.6] - 2026-11-16
+
+**CATULLUS, RELEASE 7 OF 8: THE END OF CARMEN 64, CARMEN 65, AND THE LOCK OF BERENICE.** Five excerpts, written with
+the user's Release 5-6 theses built in (a *Translating it* paragraph and the figures of speech named in every note;
+Aegeus as the innocent who pays; Bacchus as Ariadne's happier ending; the epilogue as the lost golden age).
+*Carmina docta* now 15 of 20; the *Liber* is at **55 of 60**.
+
+### Added - Carmina docta (5)
+| excerpt | what it is |
+|---|---|
+| Carmen 64, vv. 238-253 | the forgotten sail, Aegeus's death, *qualem ... luctum ... talem*; Bacchus arrives for Ariadne |
+| Carmen 64, vv. 323-337 | the Parcae's song: the refrain *currite ... fusi* (Virgil Ecl. 4 vv. 46-47), *nullus amor tali ... foedere* |
+| Carmen 64, vv. 384-408 | the epilogue: the gods leave a world of crime (Aratus's Justice; Sallust Cat. 10 and 15) |
+| Carmen 65 | to Hortalus: one 24-line sentence broken by a parenthesis of grief; v. 9 lost, built in two pieces; the apple |
+| Carmen 66, vv. 1-14 | the Lock of Berenice: Conon, Endymion, the wedding night in the language of war |
+
+### Changed
+- **Carmen 64 by page line**: the page prints v. 23b and a row of asterisks after v. 253, but has no line where
+  Perseus prints v. 378, so vv. 238-253 = page 239-254, vv. 323-337 = page 325-339, vv. 384-408 = page 385-409
+  (recorded in `batch/cat1706_spec.json`).
+- **Carmen 65**: v. 9 is lost; two pieces (1-8, 10-24) joined by [...], numbering resumes at 10, as for Carmen 51.
+- **Declared correction**: 64 v. 395 *Amarunsia* (not a word) -> *Rhamnusia* (Perseus).
+- **Cross-references, added in place**: Sallust *Cat.* 10 (-> 64 epilogue) and 15 (Catiline's son -> 64 vv. 401-402),
+  Carmen 101 and the Hortensius entry (-> 65), Carmen 116 (*carmina Battiadae*, -> 65 and 66).
+- ASSIGN: 64 dactylic hexameter; 65 and 66 elegiac couplets.
+
+Notes on the text (all explained in the notes): 64 *infecti* (Perseus *inflati*) kept, *aereum*, *luctum*; *penates*
+(Perseus *parentes*) kept; 65 *confectum* (Perseus *defectum*), *Ortale*, the question mark in v. 11; 66 *multis
+... dearum* (Perseus *cunctis ... deorum*), *limine* (Perseus *lumine*), *Beroniceo*.
+
+Verification: **521 verbatim, 0 mismatched**; check_numbering 220/0; check_verses 60/0; check_metres 229 labelled, 0
+failed; check_metre_quotes 50/0; check_context 0 for 1.17.6 (153 bank-wide, unchanged); lint_register, lint_ablatives,
+lint_markdown clean; check_sections 162 (the line-for-line artefact on the new excerpts; 65's v. 14 full stop fixed to
+follow the Latin's dash). Bank **668**. Cache-bust: `?v=267` -> `?v=268`.
+
 ## [1.17.5] - 2026-11-16
 
 **CATULLUS, RELEASE 6 OF 8: CARMEN 64, THE OPENING AND ARIADNE.** Five excerpts from the mini-epic, written with the
