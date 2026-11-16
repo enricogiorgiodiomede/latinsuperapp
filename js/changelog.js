@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.17.6', date: '16/11/2026', time: '00:00', tz: 'CET',
+      v: '1.17.6', date: '16/11/2026', time: '23:53', tz: 'CET',
       en: {
         added: [
           'CATULLUS, PART SEVEN OF EIGHT: THE END OF THE MINI-EPIC, AND A LETTER IN GRIEF. The last three excerpts of Carmen 64: the forgotten sail and the old father\'s death, with the god Bacchus arriving for Ariadne; the Fates spinning and singing at the wedding, "run, spindles"; and the epilogue, where crime drives the gods from the earth. Then Carmen 65, a letter to the orator Hortalus written in mourning for Catullus\'s brother, and the opening of Carmen 66, his translation of Callimachus\'s poem on the lock of hair that became a constellation.'

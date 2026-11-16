@@ -39,7 +39,7 @@ Notes on the text (all explained in the notes): 64 *infecti* (Perseus *inflati*)
 Verification: **521 verbatim, 0 mismatched**; check_numbering 220/0; check_verses 60/0; check_metres 229 labelled, 0
 failed; check_metre_quotes 50/0; check_context 0 for 1.17.6 (153 bank-wide, unchanged); lint_register, lint_ablatives,
 lint_markdown clean; check_sections 162 (the line-for-line artefact on the new excerpts; 65's v. 14 full stop fixed to
-follow the Latin's dash). Bank **668**. Cache-bust: `?v=267` -> `?v=268`.
+follow the Latin's dash). Bank **668**. Cache-bust: `?v=267` -> `?v=269` (268, then 269 for the release time, 16/11/2026 23:53 CET).
 
 ## [1.17.5] - 2026-11-16
 
