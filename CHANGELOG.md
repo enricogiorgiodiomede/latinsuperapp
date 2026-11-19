@@ -6,6 +6,38 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [1.17.7] - 2026-11-19
+
+**CATULLUS, RELEASE 8 OF 8: THE LIBER IS COMPLETE AT 60.** The last five *carmina docta*, written with every recorded
+thesis built in (a *Translating it* paragraph, figures named and periphrases decoded in every note). *Carmina docta*
+**20 of 20**; polymetra 20, epigrams 20: **Catullus 60, the plan finished.**
+
+### Added - Carmina docta (5)
+| excerpt | what it is |
+|---|---|
+| Carmen 66, vv. 39-50 | *invita, o regina*: mock-epic (Athos, the Chalybes); Virgil Aen. VI 460; Pope's *Rape of the Lock* |
+| Carmen 67 | the gossiping door of Verona: **explicit banner**; *fides* in a comic key; Brescia and the Cidneo |
+| Carmen 68, vv. 1-24 | the letter to Manius: shipwreck, *dulcem amaritiem* (Sappho), *multa satis lusi*, the brother |
+| Carmen 68, vv. 41-72 | thanks to Allius: Muses, the double simile, Lesbia on the threshold (v. 47 lost, two pieces) |
+| Carmen 68, vv. 89-104 | Troy, *commune sepulcrum*: the lament repeated word for word; the close of the run |
+
+### Changed
+- **Carmen 68 numbering**: Perseus prints vv. 41-160 as a separate poem numbered from 1 (`catullus.68a.json`, offset
+  40); the app keeps the standard continuous numbering. V. 47 lost: two pieces (41-46, 48-72) joined by [...].
+- **Declared corrections**: 68 v. 56, a stray full stop mid-sentence (*cessarent. tristique*) removed; 68 v. 101
+  *simul* restored from Perseus (the page drops it and the line will not scan).
+- **Cross-references, added in place**: Carmen 101 (-> 68); Carmen 65's note now says both parts of 68 are in the app,
+  and glosses *Musarum ... fetus*.
+- ASSIGN: all five elegiac couplets.
+
+Notes on the text (explained in the notes): 66 *iuventus*, *stringere*; 67 v. 12 corrupt, *gnato*, *ut quaerendum*,
+*Cycneae ... speculae*; 68 *Mani* (Perseus *Manli*), *torruerit*, *prona*, *ei*, *Graecae*.
+
+Verification: **526 verbatim, 0 mismatched**; check_numbering 225/0; check_verses 60/0; check_metres 234 labelled, 0
+failed; check_metre_quotes 50/0; check_context 0 for 1.17.7 (153 bank-wide); lint_register, lint_ablatives,
+lint_markdown clean; check_sections: the line-for-line artefact only (67 v. 21 and 68 vv. 19-20, 89 aligned to the
+Latin's sentence breaks). Bank **673**. Cache-bust: `?v=270` -> `?v=271`.
+
 ## [1.17.6] - 2026-11-16
 
 **CATULLUS, RELEASE 7 OF 8: THE END OF CARMEN 64, CARMEN 65, AND THE LOCK OF BERENICE.** Five excerpts, written with

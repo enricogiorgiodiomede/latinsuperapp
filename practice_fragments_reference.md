@@ -38,7 +38,7 @@ otium) with a private meaning; the author page has the section "The Lexicon of L
 | 5 docta | 61 vv. 1-35, 61 vv. 211-235, 62 vv. 39-58, 63 vv. 1-26, 63 vv. 50-73 | **DONE v1.17.4** (docta 6 of 20) |
 | 6 docta | 64 vv. 1-21 (rebuild of 1-7), 50-70, 132-153, 186-201, 215-237 | **DONE v1.17.5** (docta 10 of 20) |
 | 7 docta | 64 vv. 238-253, 323-337, 384-408; 65 (whole); 66 vv. 1-14 | **DONE v1.17.6** (docta 15 of 20) |
-| 8 docta | 66 vv. 39-50, 67, 68 vv. 1-24, 41-72, 89-104 | |
+| 8 docta | 66 vv. 39-50, 67, 68 vv. 1-24, 41-72, 89-104 | **DONE v1.17.7** (docta complete at 20: CATULLUS COMPLETE AT 60) |
 
 Docta verse ranges are provisional: fix them against Perseus at the release. New metre pages, each in the release
 where the metre first appears: **choliambic + Sapphic stanza DONE v1.17.0**; greater asclepiad (30, R2); glyconic
@@ -115,6 +115,16 @@ USE IN RELEASE 7); 64e the most tender scene, the innocent who pays. The user's 
 Romeo and Juliet: CHECKED and NUANCED - R&J fits the strict sense (death that ends the feud, prologue checked); Aegeus
 only half (innocent, but his death heals nothing; closer to a curse on a house). For Release 7: write Aegeus's death
 (vv. 238-253) as the curse fulfilled and the innocent who pays; Bacchus's arrival as Ariadne's happier ending.
+
+**v1.17.7 (Release 8, the last) record:** CATULLUS COMPLETE AT 60. Carmen 68: Perseus prints vv. 41-160 as a
+separate poem numbered 1-120 (offset 40; the app keeps standard numbering); v. 47 lost, built in two pieces. Emends:
+68 v. 56 stray full stop removed, v. 101 *simul* restored. Carmen 67 carries the explicit banner (impotence, the
+father in his son's bed, v. 30's crude metaphor) and its note says why it is worth reading (Verona, Brescia, gossip;
+the comic mirror of 61-64; *fides* in a comic key). Links: 66b -> Aeneid VI 460 and Pope's Rape of the Lock (both
+checked); 67 -> 64 epilogue (the father's crime), 76/87/109 (*fides*); 68a -> 65, 101, 50, 61 (*lusi*), Sappho's
+*glukupikron*; 68b -> 61 (the bride lifted over the threshold, vv. 159-161 of 61, not in the app) and 63 (*era*, v. 136),
+30 (*officium*); 68c -> 101 (backlinked), the close of the whole run. The user's notes on Release 8 may still come: fold
+them into v1.17.7 as usual.
 
 **THESES FROM THE NOTES ON RELEASE 7 (19/11/2026), folded into v1.17.6:** inverted fates and poetic justice
 (Theseus falls, Ariadne saved); the jolt from broken promises (Ariadne) to the perfect pact (Parcae), with 61 and 87;

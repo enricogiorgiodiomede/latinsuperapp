@@ -12,6 +12,31 @@
 
   var VERSIONS = [
     {
+      v: '1.17.7', date: '19/11/2026', time: '00:00', tz: 'CET',
+      en: {
+        added: [
+          'CATULLUS, PART EIGHT OF EIGHT: THE LIBER IS COMPLETE, WITH 60. The last five: the lock of Berenice swearing it left the queen\'s head against its will (a line Virgil gave to Aeneas); a gossiping front door in Verona that tells everything it has seen (explicit, with the warning); and three passages from Carmen 68, the letter to a friend from a brother in mourning, the thanks to Allius with Lesbia stepping on the threshold of a borrowed house, and Troy, the common grave, where the brother lies.'
+        ],
+        changed: [
+          'The poem at the brother\'s grave and the letter to Hortalus now point to Carmen 68.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'CATULLO, OTTAVA PARTE DI OTTO: IL LIBER È COMPLETO, CON 60. Gli ultimi cinque: la chioma di Berenice che giura di aver lasciato il capo della regina contro voglia (un verso che Virgilio diede a Enea); una porta di casa pettegola a Verona che racconta tutto ciò che ha visto (esplicito, con l\'avviso); e tre passi dal carme 68, la lettera a un amico da un fratello in lutto, il ringraziamento ad Allio con Lesbia che posa il piede sulla soglia di una casa prestata, e Troia, sepolcro comune, dove giace il fratello.'
+        ],
+        changed: [
+          'Il carme sulla tomba del fratello e la lettera a Ortalo ora rimandano al carme 68.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.17.6', date: '16/11/2026', time: '23:53', tz: 'CET',
       en: {
         added: [
