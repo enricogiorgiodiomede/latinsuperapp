@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '1.17.7', date: '19/11/2026', time: '00:00', tz: 'CET',
+      v: '1.17.7', date: '19/11/2026', time: '02:39', tz: 'CET',
       en: {
         added: [
           'CATULLUS, PART EIGHT OF EIGHT: THE LIBER IS COMPLETE, WITH 60. The last five: the lock of Berenice swearing it left the queen\'s head against its will (a line Virgil gave to Aeneas); a gossiping front door in Verona that tells everything it has seen (explicit, with the warning); and three passages from Carmen 68, the letter to a friend from a brother in mourning, the thanks to Allius with Lesbia stepping on the threshold of a borrowed house, and Troy, the common grave, where the brother lies.'

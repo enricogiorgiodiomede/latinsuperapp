@@ -36,7 +36,7 @@ Notes on the text (explained in the notes): 66 *iuventus*, *stringere*; 67 v. 12
 Verification: **526 verbatim, 0 mismatched**; check_numbering 225/0; check_verses 60/0; check_metres 234 labelled, 0
 failed; check_metre_quotes 50/0; check_context 0 for 1.17.7 (153 bank-wide); lint_register, lint_ablatives,
 lint_markdown clean; check_sections: the line-for-line artefact only (67 v. 21 and 68 vv. 19-20, 89 aligned to the
-Latin's sentence breaks). Bank **673**. Cache-bust: `?v=270` -> `?v=271`.
+Latin's sentence breaks). Bank **673**. Cache-bust: `?v=270` -> `?v=272` (271, then 272 for the release time, 19/11/2026 02:39 CET).
 
 ## [1.17.6] - 2026-11-16
 
