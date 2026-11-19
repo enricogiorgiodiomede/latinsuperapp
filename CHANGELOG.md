@@ -41,6 +41,22 @@ failed; check_metre_quotes 50/0; check_context 0 for 1.17.6 (153 bank-wide, unch
 lint_markdown clean; check_sections 162 (the line-for-line artefact on the new excerpts; 65's v. 14 full stop fixed to
 follow the Latin's dash). Bank **668**. Cache-bust: `?v=267` -> `?v=269` (268, then 269 for the release time, 16/11/2026 23:53 CET).
 
+### Follow-up 2026-11-19 - the user's notes on Release 7
+New paragraphs, English and Italian, next to the paragraph on the same theme (`batch/cat1706_frags_{a,b}.js`, copied
+with `batch/cat17_sync.js`):
+- 64 vv. 238-253: *Two fates, inverted* (peripeteia and poetic justice; the poem shows Bacchus arriving, not the
+  marriage, which the existing paragraph already says).
+- 64 vv. 323-337: *From broken promises to a perfect pact* (jarring and relieving; with 61 and 87).
+- 64 vv. 384-408: *No ships needed* (corruption without ships; brevitas; the one hint, *cupida de mente*, -> Sallust
+  Cat. 10's *avaritia*) and *Hard to understand, not just to translate* (every periphrasis and rare name decoded).
+- 65: *Not an anacoluthon, and not exactly a hyperbaton* (a period with a parenthesis; the real hyperbaton of v. 7;
+  Ciceronian for an orator) and *A letter that introduces a poem* (65 as 66's prelude; 68 may be another case; 116 as
+  its mirror).
+- 66: *Dense, then compressed* and *Vertere: translation as art* (Livius Andronicus, Plautus's *vortit barbare*; the
+  speaking lock is Callimachus's own device, from the dedicatory epigram).
+- Verification: 521/0 verbatim; check_context 0 for 1.17.6; check_metres 0 failed; lint_markdown, lint_register,
+  lint_ablatives clean. Cache-bust: `?v=269` -> `?v=270`.
+
 ## [1.17.5] - 2026-11-16
 
 **CATULLUS, RELEASE 6 OF 8: CARMEN 64, THE OPENING AND ARIADNE.** Five excerpts from the mini-epic, written with the

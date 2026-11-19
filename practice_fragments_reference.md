@@ -116,6 +116,18 @@ Romeo and Juliet: CHECKED and NUANCED - R&J fits the strict sense (death that en
 only half (innocent, but his death heals nothing; closer to a curse on a house). For Release 7: write Aegeus's death
 (vv. 238-253) as the curse fulfilled and the innocent who pays; Bacchus's arrival as Ariadne's happier ending.
 
+**THESES FROM THE NOTES ON RELEASE 7 (19/11/2026), folded into v1.17.6:** inverted fates and poetic justice
+(Theseus falls, Ariadne saved); the jolt from broken promises (Ariadne) to the perfect pact (Parcae), with 61 and 87;
+corruption needed no ships, only lost values - the most sacred ones; Catullus's brevitas leaves the cause unsaid
+(but *cupida de mente*); the docta are HARD TO UNDERSTAND, not only to translate, because of periphrasis and rare
+names - decode them in the note; 65 as one Ciceronian period, learned references suited to Hortensius; 65 as 66's
+prelude and as the mirror of 116; *vertere* from Livius Andronicus on. CORRECTIONS GIVEN: Torquatus's wedding is
+Carmen 61, not 81; Catullus shows Bacchus arriving, not the marriage; 65 is a period with a parenthesis, not "a
+massive hyperbaton" (and not an anacoluthon, as the user first thought); 65 is the clearest prelude-poem but 68 may be
+another (68a/68b); the speaking lock is Callimachus's device, not Catullus's adaptation. For Release 8 (the last):
+decode every periphrasis; say whether 68 vv. 1-40 is a covering letter; carry the brother (65, 101), Lesbia as
+*candida diva* and *era* (63's *era*), and close the whole Catullus run.
+
 **v1.17.6 (Release 7) record:** the R6 guess for the Carmen 64 page lines was wrong for the Parcae: the page also
 prints a row of asterisks after v. 253 (+2 from there) but has NO line where Perseus prints v. 378 (back to +1 in the
 epilogue). Real ranges: vv. 238-253 = page 239-254, vv. 323-337 = page 325-339, vv. 384-408 = page 385-409. Always
