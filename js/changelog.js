@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '2.0.0', date: '20/11/2026', time: '00:00', tz: 'CET',
+      v: '2.0.0', date: '20/11/2026', time: '15:50', tz: 'CET',
       en: {
         added: [
           'A NEW ERA OPENS: AUGUSTUS\' AGE, THE GOLDEN AGE OF LATIN LITERATURE. This is the biggest update the app has ever had. The age of Augustus is the moment Latin literature reaches its peak, in style and in themes alike: Rome stops translating Greece and sets out to equal it, and for once it arguably does. Fourteen new authors arrive at once, each with a full profile, biography, works, style, legacy and difficulty chart, from the Res Gestae that Augustus had carved on bronze to the stars of Manilius.',
