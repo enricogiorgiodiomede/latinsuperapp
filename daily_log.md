@@ -1749,3 +1749,17 @@ A two-release day for Catullus, with the *carmina docta* moving from 6 to 15 of 
 **v1.17.6 -- Catullus release 7: the end of Carmen 64, Carmen 65, the Lock of Berenice (23:53, `9562845`).** Five excerpts: 64 vv. 238-253 (the sail, Aegeus, Bacchus), 323-337 (the Parcae's song) and 384-408 (the epilogue); Carmen 65 whole (v. 9 lost, so in two pieces); 66 vv. 1-14. Carmen 64 again cut by page line (the page adds v. 23b and an asterisk row, and lacks v. 378). Declared emend at 64 v. 395. **Backlinks** from Sallust *Cat.* 10 and 15, Carmina 101 and 116, and the Hortensius entry. Built from new `batch/cat1706_*` files, with `js/metres.js` updated. *Carmina docta* 15 of 20, Liber 55 of 60, cache `?v=268`. The docs commit `0f7b6be` seconds later set the release time (16/11/2026, 23:53 CET).
 
 **Progress:** App at **v1.17.6**. **Catullus** is at release 7 of 8: polymetra and epigrams complete at 20 each, *carmina docta* at 15 of 20; next come the user's notes on Release 7, then Release 8, the last (66 vv. 39-50, 67, and three passages of 68). Still outstanding: the translation re-read in *Pro Caelio* and *De Oratore*, the note reorder for other authors, and the Early Imperial Era draft.
+
+---
+
+## 2026-11-19
+
+*(End-of-day log, 23:55.)*
+
+The night Catullus was finished: the user's notes on Release 7 went in, and Release 8 brought the Liber to 60 of 60.
+
+**v1.17.6 follow-up -- the user's notes on Catullus Release 7 (02:20, `4d1be79`).** New paragraphs in all five notes, English and Italian, placed in line: the inverted fates of Theseus and Ariadne, the jolt from broken promises to the Parcae's perfect pact, a corruption that needed no ships, the rare names and periphrases of the epilogue decoded, Carmen 65 as one Ciceronian period and as the prelude to 66, and *vertere* from Livius Andronicus to Callimachus's speaking lock. Built from new `batch/cat1706_frags_a.js` / `_b.js`; `practice_fragments_reference.md` updated. Cache `?v=270`.
+
+**v1.17.7 -- Catullus release 8: the Liber complete at 60 (02:39, `8a782ae`).** The last five *carmina docta*: 66 vv. 39-50 (*invita, o regina*), 67 whole (the gossiping door, with an explicit banner), and three passages of 68 - vv. 1-24 (the letter), vv. 41-72 (Allius and Lesbia on the threshold; v. 47 is lost, so two pieces) and vv. 89-104 (Troy and the brother). Carmen 68 keeps the standard numbering although Perseus restarts at v. 41. Declared emends at 68 vv. 56 and 101. **Backlinks** from Carmina 101 and 65. Built from new `batch/cat1707_*` files (frags, passages, spec), with `js/metres.js` and `PROGRESS.md` updated. Catullus now stands at 60 of 60: polymetra 20, epigrams 20, docta 20. Cache `?v=271`. The docs commit `1b63aef` seconds later set the release time (19/11/2026, 02:39 CET).
+
+**Progress:** App at **v1.17.7**. **Catullus is complete** at 60 excerpts (polymetra, epigrams and *carmina docta* at 20 each). Next job is the user's call: the translation re-read in *Pro Caelio* and *De Oratore*, the note reorder for other authors, Varro (deferred), and the Early Imperial Era draft.
