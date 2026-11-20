@@ -119,7 +119,12 @@
     'livius-andronicus': 1, 'gnaeus-naevius': 1, 'quintus-ennius': 1,
     'titus-maccius-plautus': 1, 'publius-terentius-afer': 1, 'marcus-porcius-cato': 1, 'gaius-lucilius': 1,
     'marcus-tullius-cicero': 1, 'gaius-julius-caesar': 1, 'titus-lucretius-carus': 1,
-    'gaius-sallustius-crispus': 1, 'gaius-valerius-catullus': 1
+    'gaius-sallustius-crispus': 1, 'gaius-valerius-catullus': 1,
+    // Augustus' Age: the CLAUDE.md classification (v2.0.0). Sulpicia, Hyginus,
+    // Grattius, Trogus and Manilius are the lesser-known five.
+    'augustus': 1, 'marcus-vitruvius-pollio': 1, 'gaius-cornelius-gallus': 1,
+    'publius-vergilius-maro': 1, 'quintus-horatius-flaccus': 1, 'titus-livius': 1,
+    'albius-tibullus': 1, 'sextus-propertius': 1, 'publius-ovidius-naso': 1
   };
 
   function buildCard(eraId, author) {

@@ -12,6 +12,41 @@
 
   var VERSIONS = [
     {
+      v: '2.0.0', date: '20/11/2026', time: '00:00', tz: 'CET',
+      en: {
+        added: [
+          'A NEW ERA OPENS: AUGUSTUS\' AGE, THE GOLDEN AGE OF LATIN LITERATURE. This is the biggest update the app has ever had. The age of Augustus is the moment Latin literature reaches its peak, in style and in themes alike: Rome stops translating Greece and sets out to equal it, and for once it arguably does. Fourteen new authors arrive at once, each with a full profile, biography, works, style, legacy and difficulty chart, from the Res Gestae that Augustus had carved on bronze to the stars of Manilius.',
+          'THE GIANTS: Virgil, the poet of the Aeneid, who asked for it to be burned; Horace, who turned Greek lyric into Latin and taught Europe to "seize the day"; Ovid, the most fashionable poet in Rome until Augustus sent him to the edge of the world; Livy, who told Rome\'s whole story from its foundation in 142 books.',
+          'THE LOVERS: Tibullus, Propertius and Sulpicia, the poets of love elegy, the era\'s counter-culture, who refused careers, war and marriage to be "slaves" to a mistress, in a city passing laws against adultery. Sulpicia is the only woman of classical Rome whose poetry survives in any quantity, and she signs it proudly.',
+          'AND THE REST OF THE AGE: Augustus himself, opening the era with his own account of his life; Vitruvius, the architect who gave us the Vitruvian Man; Gallus, the founder of love elegy, down to about ten lines on a papyrus found in the sand of Nubia; Hyginus and his myths; Grattius and his hunting dogs; Pompeius Trogus, the historian who looked away from Rome; and Manilius, who put the whole sky into verse.',
+          '29 NEW EXCERPTS TO TRANSLATE, two or three per author, all with Italian and English translations and notes: Augustus raising a private army at nineteen, Archimedes running naked through Syracuse shouting "Eureka!", Corydon in love under the midday sun, the golden mean, a ghost at Propertius\'s bed, Ovid on why every lover is a soldier, the hunger of Erysichthon, and more. The poets are set out verse by verse, and every verse excerpt carries its metre.'
+        ],
+        changed: [
+          'Augustus\' Age is no longer "coming soon" in the menu and on the home page: the era introduction now opens it, with the What\'s New scroll beside it as for the other eras.',
+          'The practice bank grows to 702 excerpts across three eras.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'SI APRE UNA NUOVA EPOCA: L\'ETÀ AUGUSTEA, L\'ETÀ DELL\'ORO DELLA LETTERATURA LATINA. È il più grande aggiornamento che l\'app abbia mai avuto. L\'età di Augusto è il momento in cui la letteratura latina tocca il suo vertice, nello stile come nei temi: Roma smette di tradurre la Grecia e si propone di eguagliarla, e per una volta forse ci riesce. Arrivano insieme quattordici nuovi autori, ognuno con un profilo completo, biografia, opere, stile, eredità e grafico della difficoltà, dalle Res Gestae che Augusto fece incidere sul bronzo alle stelle di Manilio.',
+          'I GIGANTI: Virgilio, il poeta dell\'Eneide, che chiese di bruciarla; Orazio, che trasformò la lirica greca in latino e insegnò all\'Europa a "cogliere l\'attimo"; Ovidio, il poeta più alla moda di Roma finché Augusto non lo mandò ai confini del mondo; Livio, che raccontò l\'intera storia di Roma dalla fondazione in 142 libri.',
+          'GLI INNAMORATI: Tibullo, Properzio e Sulpicia, i poeti dell\'elegia d\'amore, la controcultura dell\'epoca, che rifiutarono carriera, guerra e matrimonio per essere "schiavi" di un\'amante, in una città che approvava leggi contro l\'adulterio. Sulpicia è l\'unica donna della Roma classica di cui sopravviva un corpus di poesie, e le firma con orgoglio.',
+          'E IL RESTO DELL\'EPOCA: Augusto in persona, che apre l\'età con il racconto della propria vita; Vitruvio, l\'architetto che ci ha dato l\'uomo vitruviano; Gallo, il fondatore dell\'elegia d\'amore, ridotto a una decina di versi su un papiro trovato nella sabbia della Nubia; Igino e i suoi miti; Grazio e i suoi cani da caccia; Pompeo Trogo, lo storico che guardò lontano da Roma; e Manilio, che mise in versi il cielo intero.',
+          '29 NUOVI ESTRATTI DA TRADURRE, due o tre per autore, tutti con traduzione italiana e inglese e note: Augusto che arruola un esercito privato a diciannove anni, Archimede che corre nudo per Siracusa gridando "Eureka!", Coridone innamorato sotto il sole di mezzogiorno, l\'aurea mediocritas, un fantasma al letto di Properzio, Ovidio sul perché ogni amante è un soldato, la fame di Erisittone, e altro ancora. I poeti sono presentati verso per verso, e ogni estratto in versi riporta il suo metro.'
+        ],
+        changed: [
+          'L\'età augustea non è più "non disponibile" nel menu e nella pagina iniziale: ora si apre con l\'introduzione all\'epoca, con accanto la pergamena delle novità, come per le altre epoche.',
+          'La raccolta di esercizi sale a 702 estratti in tre epoche.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '1.17.7', date: '19/11/2026', time: '02:39', tz: 'CET',
       en: {
         added: [

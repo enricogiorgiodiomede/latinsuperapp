@@ -72,8 +72,22 @@ function get(url) {
   const only = args.filter(a => !a.startsWith('--'));
   const pages = only.length ? only : pagesFromConfig();
 
+  // v2.0.0: a page named in sources.json `_external` is fetched from its own
+  // full URL (LacusCurtius, Living Poets) and cached under its key, so the rest
+  // of the pipeline treats it like any Latin Library page.
+  const EXTERNAL = JSON.parse(fs.readFileSync(path.join(__dirname, 'sources.json'), 'utf8'))._external || {};
   fs.mkdirSync(CACHE, { recursive: true });
   for (const page of pages) {
+    if (EXTERNAL[page]) {
+      const dest = path.join(CACHE, page + '.txt');
+      if (!force && fs.existsSync(dest)) { console.log('cached  ' + page + '.txt'); continue; }
+      try {
+        const text = stripHtml(await get(EXTERNAL[page]));
+        fs.writeFileSync(dest, text);
+        console.log('fetched ' + (page + '.txt').padEnd(18) + text.length + ' chars (external)');
+      } catch (e) { console.log('FAILED  ' + (page + '.txt').padEnd(18) + e.message); }
+      continue;
+    }
     // Most Latin Library pages are <page>.shtml, but Terence is published as
     // ter.<play>.html, so a page may carry its own extension. One that does is
     // used as written; one that does not gets .shtml, as before.

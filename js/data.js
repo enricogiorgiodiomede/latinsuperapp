@@ -10,17 +10,17 @@
  * Each era's markdown file is the single source of truth. When served over http
  * we fetch() it live; when the page is opened from disk (file://) fetch is
  * blocked, so we fall back to the embedded copy in js/content.js
- * (window.__ARCHAIC_MD__ / window.__CAESAR_MD__).
+ * (window.__ARCHAIC_MD__ / window.__CAESAR_MD__ / window.__AUGUSTAN_MD__).
  */
 (function (global) {
   'use strict';
 
-  // --- The five eras, in display order. Archaic + Caesar have content today.
+  // --- The five eras, in display order. Archaic, Caesar and Augustus have content today.
   // `nameKey` resolves to the localized display name via I18n at call time. ---
   var ERAS = [
     { id: 'archaic', nameKey: 'era.archaic', available: true },
     { id: 'caesar', nameKey: 'era.caesar', available: true },
-    { id: 'augustus', nameKey: 'era.augustus', available: false },
+    { id: 'augustus', nameKey: 'era.augustus', available: true },
     { id: 'early-imperial', nameKey: 'era.earlyImperial', available: false },
     { id: 'late-imperial', nameKey: 'era.lateImperial', available: false }
   ];
@@ -66,6 +66,29 @@
         'titus-lucretius-carus': ['titus-lucretius-carus.jpg'],
         'gaius-sallustius-crispus': ['gaius-sallustius-crispus.jpg'],
         'gaius-valerius-catullus': ['gaius-valerius-catullus.jpg']
+      }
+    },
+    augustus: {
+      mdFile: 'augustan_era_draft.md',
+      imageDir: 'images_augustus/',
+      embeddedKey: '__AUGUSTAN_MD__',
+      imageLookup: {
+        'augustus': ['augustus.jpg'],
+        'marcus-vitruvius-pollio': ['marcus-vitruvius-pollio.jpg'],
+        'gaius-cornelius-gallus': ['cornelius-gallus.jpg'],
+        'publius-vergilius-maro': ['publius-vergilius-maro.jpg'],
+        'quintus-horatius-flaccus': ['quintus-horatius-flaccus.jpg'],
+        'titus-livius': ['titus-livius.jpg'],
+        'albius-tibullus': ['albius-tibullus.jpg'],
+        // Sulpicia, Grattius and Hyginus are shown through stand-ins (a Pompeii
+        // fresco, an anonymous bust, his namesake the pope): see IMAGE_NOTE.
+        'sulpicia': ['sulpicia.jpg'],
+        'sextus-propertius': ['sextus-propertius.jpg'],
+        'publius-ovidius-naso': ['publius-ovidius-naso.jpg'],
+        'gaius-julius-hyginus': ['gaius-julius-hyginus.jpg'],
+        'grattius': ['grattius.jpg'],
+        'pompeius-trogus': ['pompeius-trogus.jpg'],
+        'marcus-manilius': ['marcus-manilius.jpg']
       }
     }
   };
@@ -147,9 +170,11 @@
     return s.replace(/\s*--\s*/g, '-');
   }
 
-  // Pull a "(dates)" parenthetical out of a heading line, if present.
+  // Pull a "(dates)" parenthetical out of a heading line, if present. A
+  // floruit with no digit in it ("fl. late I century BC", Sulpicia, Grattius,
+  // Trogus, Manilius) counts too, or those authors would show no dates at all.
   function datesFromText(text) {
-    var m = text.match(/\(([^)]*\d[^)]*)\)/);
+    var m = text.match(/\(([^)]*\d[^)]*)\)/) || text.match(/\((fl\.[^)]*)\)/);
     return m ? normalizeDateDash(m[1].trim()) : '';
   }
 
@@ -270,7 +295,33 @@
     'aulus-hirtius': 'Aulo Irzio',
     'titus-lucretius-carus': 'Tito Lucrezio Caro',
     'gaius-sallustius-crispus': 'Gaio Sallustio Crispo',
-    'gaius-valerius-catullus': 'Gaio Valerio Catullo'
+    'gaius-valerius-catullus': 'Gaio Valerio Catullo',
+    // Augustus' Age
+    'augustus': 'Augusto',
+    'marcus-vitruvius-pollio': 'Marco Vitruvio Pollione - Vitruvio',
+    'gaius-cornelius-gallus': 'Gaio Cornelio Gallo',
+    'publius-vergilius-maro': 'Publio Virgilio Marone - Virgilio',
+    'quintus-horatius-flaccus': 'Quinto Orazio Flacco - Orazio',
+    'titus-livius': 'Tito Livio - Livio',
+    'albius-tibullus': 'Albio Tibullo',
+    'sulpicia': 'Sulpicia',
+    'sextus-propertius': 'Sesto Properzio',
+    'publius-ovidius-naso': 'Publio Ovidio Nasone - Ovidio',
+    'gaius-julius-hyginus': 'Gaio Giulio Igino',
+    'grattius': 'Grazio',
+    'pompeius-trogus': 'Pompeo Trogo',
+    'marcus-manilius': 'Marco Manilio'
+  };
+
+  // Italian dates where the English carries words, not just numbers (a
+  // floruit, "or", "after"): localizeDates only swaps BC/AD.
+  var AUTHOR_DATES_IT = {
+    'titus-livius': '64 o 59 a.C.-17 d.C.',
+    'sulpicia': 'fl. fine del I sec. a.C.',
+    'sextus-propertius': 'c. 50-dopo il 16 a.C.',
+    'grattius': 'fl. fine del I sec. a.C.',
+    'pompeius-trogus': 'fl. fine del I sec. a.C.-inizio del I sec. d.C.',
+    'marcus-manilius': 'fl. inizio del I sec. d.C.'
   };
 
   // Optional caption shown beside an author's portrait (EN + IT), noting when the
@@ -290,6 +341,10 @@
   var NOTE_NO_BUST = {
     en: 'The portrait is entirely fictional - it is likely that no accurate bust or sculpture of him exists.',
     it: 'Il ritratto è del tutto immaginario: probabilmente non esiste alcun busto o scultura fedele di lui.'
+  };
+  var NOTE_ILLUSTRATION = {
+    en: 'The portrait is entirely fictional - it is an illustration. No likeness of him made from life is known to survive, and the illustration is nicer than a guess in marble.',
+    it: 'Il ritratto è del tutto immaginario: è un\'illustrazione. Non si conosce alcun ritratto di lui fatto dal vero, e l\'illustrazione è più bella di un busto tirato a indovinare.'
   };
   var IMAGE_NOTE = {
     // Archaic Era - invented likenesses (no ancient bust survives).
@@ -321,6 +376,37 @@
       notLikeness: true,
       en: 'The portrait shown is Pythagoras, not Figulus - no accurate likeness of Nigidius Figulus survives. He is shown here because he tried to revive the Pythagorean tradition in Rome.',
       it: 'Il ritratto raffigura Pitagora, non Figulo - non sopravvive alcuna immagine fedele di Nigidio Figulo. È mostrato qui perché cercò di far rivivere a Roma la tradizione pitagorica.'
+    },
+    // Augustus' Age (the user's notes, v2.0.0). Augustus (the Prima Porta type)
+    // and Gallus are real ancient sculptures and carry no note. The seven below
+    // are illustrations, chosen because they are nicer, and for several of them
+    // no ancient likeness exists anyway.
+    'marcus-vitruvius-pollio': NOTE_ILLUSTRATION,
+    'publius-vergilius-maro': NOTE_ILLUSTRATION,
+    'quintus-horatius-flaccus': NOTE_ILLUSTRATION,
+    'titus-livius': NOTE_ILLUSTRATION,
+    'albius-tibullus': NOTE_ILLUSTRATION,
+    'sextus-propertius': NOTE_ILLUSTRATION,
+    'publius-ovidius-naso': NOTE_ILLUSTRATION,
+    'sulpicia': {
+      notLikeness: true,
+      en: 'The portrait is not Sulpicia: it is the Pompeii fresco of a young woman with a writing tablet and stylus, the traditional image of a Roman poetess. No likeness of Sulpicia survives.',
+      it: 'Il ritratto non è Sulpicia: è l\'affresco di Pompei della giovane donna con tavolette e stilo, l\'immagine tradizionale della poetessa romana. Di Sulpicia non sopravvive alcun ritratto.'
+    },
+    'gaius-julius-hyginus': {
+      notLikeness: true,
+      en: 'The portrait shows Pope Hyginus, bishop of Rome in the 2nd century AD, not the Augustan scholar: no likeness of Gaius Julius Hyginus survives, so his namesake stands in for him (from a 19th-century series of papal portraits).',
+      it: 'Il ritratto raffigura papa Igino, vescovo di Roma nel II secolo d.C., non l\'erudito augusteo: non sopravvive alcuna immagine di Gaio Giulio Igino, e al suo posto compare l\'omonimo (da una serie ottocentesca di ritratti dei papi).'
+    },
+    'grattius': {
+      notLikeness: true,
+      en: 'The portrait is not Grattius: it is an anonymous Roman marble head, shown to stand in for him. No likeness of Grattius survives, and we know almost nothing about the man.',
+      it: 'Il ritratto non è Grazio: è una testa romana in marmo di un anonimo, che lo rappresenta in sua vece. Di Grazio non sopravvive alcun ritratto, e dell\'uomo non sappiamo quasi nulla.'
+    },
+    'pompeius-trogus': NOTE_NO_BUST,
+    'marcus-manilius': {
+      en: 'The portrait is a Renaissance invention: the figure labelled "M. Manlius Romanus" in a corner of Albrecht Dürer\'s star chart of 1515. No ancient likeness of Manilius survives.',
+      it: 'Il ritratto è un\'invenzione rinascimentale: la figura con la scritta "M. Manlius Romanus" in un angolo della carta celeste di Albrecht Dürer del 1515. Di Manilio non sopravvive alcun ritratto antico.'
     }
   };
 
@@ -343,7 +429,7 @@
     };
     return Object.assign({}, a, {
       name: AUTHOR_NAMES_IT[a.slug] || a.name,
-      dates: localizeDates(a.dates),
+      dates: AUTHOR_DATES_IT[a.slug] || localizeDates(a.dates),
       imageNote: (IMAGE_NOTE[a.slug] && IMAGE_NOTE[a.slug].it) || a.imageNote,
       biography: pick('biography'),
       works: pick('works'),

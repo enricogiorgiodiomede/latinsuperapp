@@ -22,7 +22,8 @@ var OUT = 'js/content.js';
 // One entry per era: the source file and the global the app looks for.
 var ERAS = [
   { key: '__ARCHAIC_MD__', src: 'archaic_era_draft.md' },
-  { key: '__CAESAR_MD__', src: 'caesar_era_draft.md' }
+  { key: '__CAESAR_MD__', src: 'caesar_era_draft.md' },
+  { key: '__AUGUSTAN_MD__', src: 'augustan_era_draft.md' }
 ];
 
 var out = '';

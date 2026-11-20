@@ -6,6 +6,71 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [2.0.0] - 2026-11-20
+
+**AUGUSTUS' AGE IS LIVE: THE THIRD ERA, AND THE BIGGEST RELEASE SO FAR.** The Golden Age of Latin literature goes
+from "coming soon" to fourteen authors with full profiles, portraits, difficulty charts and **29 practice excerpts**,
+all taken from `augustan_era_draft.md` and `italian_translations_augustan.md` (complete since 31/10/2026).
+Bank 673 -> **702**. Cache `?v=274`.
+
+### Added - authors (draft order: Augustus opens the era, Gallus before Virgil)
+| author | tier (app evaluation) | excerpts | works |
+|---|---|---|---|
+| Augustus | D (Good Exercise) | 2 | Res Gestae 1-3, 20-21 |
+| Vitruvius | C (Manageable) | 3 | De Architectura I.3.1-2, III.1.2-3, IX praef. 9-10 |
+| Gallus | NC (Not Assessable) | 1 | fr. 2, the Qasr Ibrim papyrus |
+| Virgil | A (Very Difficult) | 3 | Bucolica 2 vv. 6-18, Georgica IV vv. 1-24, Aeneis III vv. 655-665 (chooser) |
+| Horace | S (Start Praying) | 3 | Carmina II.10, Epodi 10, Sermones I.5 vv. 1-26 (chooser) |
+| Livy | B (Difficult) | 3 | AUC XXV.31.4-11, XXXIX.8.3-8, CXX (Seneca, Suas. 6.17, 6.22) |
+| Tibullus | C | 2 | Elegiae I.3 vv. 1-10 + 53-58, I.10 vv. 1-14 |
+| Sulpicia | C | 2 | Corpus Tibullianum III.13, III.18 |
+| Propertius | A | 2 | Elegiae IV.7 vv. 1-18, IV.8 vv. 49-70 |
+| Ovid | B | 3 | Amores I.9 vv. 1-20, Ars I vv. 135-162, Met. VIII vv. 823-842 + 875-878 (chooser) |
+| Hyginus | D | 1 | Fabulae 220 (Cura) |
+| Grattius | B | 1 | Cynegetica vv. 171-181 |
+| Pompeius Trogus | C | 1 | Justin, Epitome XXXVIII.6.7-8 |
+| Manilius | S | 2 | Astronomica IV vv. 1-16, V vv. 567-576 |
+
+### Added - wiring
+- `js/data.js`: era `augustus` available; `ERA_CONFIG.augustus` (images_augustus/, `__AUGUSTAN_MD__`); Italian names;
+  `AUTHOR_DATES_IT` for dates that carry words; `datesFromText` accepts a floruit with no digit ("fl. late I century BC").
+- Portrait notes (the user's classification): Augustus and Gallus are real sculptures (no note); Vitruvius, Virgil,
+  Horace, Livy, Tibullus, Propertius, Ovid get `NOTE_ILLUSTRATION`; Sulpicia (the Pompeii "Sappho" fresco), Grattius
+  (an anonymous marble head) and Hyginus (Pope Hyginus, his namesake) are `notLikeness`; Trogus `NOTE_NO_BUST`;
+  Manilius is Dürer's "M. Manlius Romanus" (star chart, 1515).
+- Images: Augustus cropped to head and shoulders (490x540); Manilius cropped to the figure; large files resized to
+  640 px wide; `sextus-propertius.jpeg` -> `.jpg`. **Hyginus has no image yet**: the watermarked stock picture was
+  not used, and Wikimedia Commons (public-domain copy, Artaud de Montor) rate-limited the download; the card shows
+  the placeholder until `images_augustus/gaius-julius-hyginus.jpg` is added.
+- `js/ratings.js`: 13 bar sets from the draft's per-criterion notes; Gallus Not Assessable. `js/home.js` MAINSTREAM:
+  the nine mainstream authors of CLAUDE.md.
+- `build_content.js` / `build_content_it.js`: Augustan key and anchors (the Italian file calls Grattius *Grazio*).
+- `js/metres.js` ASSIGN: hexameter (Virgil, Sermones, Met., Grattius, Manilius), elegiac couplets (Gallus, Tibullus,
+  Sulpicia, Propertius, Amores, Ars), Sapphic stanza (Carmina II.10). **Epodi 10 unlabelled**: the first iambic
+  strophe has no page yet.
+- `js/version-list.js` reads every live era (it had archaic and caesar hard-coded). Sitemap rebuilt: 65 URLs.
+
+### Added - tooling
+- `batch/aug200_parse.js` + `batch/aug200_build.js`: the 29 excerpts straight from the two draft files, verse
+  line-for-line (first verse + every fifth, `[...]` at a gap with the count resuming), prose by `[n]` paragraph.
+- `tools/sources.json`: 20 Augustan work ids (prefixed where two authors would share one) and an `_external` map for
+  pages outside the Latin Library; `tools/fetch_sources.js` fetches those; `tools/strip.js`: `VERSE_PAGE` covers the
+  Augustan verse pages, and a bare `&nbsp` (no semicolon, the Tibullus pages) is now read as a space.
+
+### Declared corrections (each explained in an "About the text" paragraph, EN + IT)
+- Vitruvius I.3.1-2: comma restored in *aedificatio, gnomonice*; *turrimque* -> *turriumque*; *distrtbutio venustatis*
+  -> *distributio; venustatis*. Vitruvius III.1.2-3: *vertices* -> *verticem*, *ReIiqua* -> *Reliqua*,
+  *conlocantum* -> *conlocatum*. Epodi 10: *ilics* -> *ilices*, full stop after *ruperit*.
+- Typesetting: Georgica IV dashes -> brackets; Amores I.9 dash -> colon; Propertius *Lygdame,nil*; Met. VIII the
+  narrator's opening quote and closing dash; Justin's bare section number 8. Vitruvius IX keeps Krohn's lower-case
+  sentence openings (LacusCurtius), as the Livy excerpts keep their page's.
+- **Gallus fr. 2 is not machine-verified**: Living Poets prints its apparatus inline in the text. Checked by hand.
+
+### Verification
+- verify 554/0 (28 of 29 new; Gallus by hand); check_verses 74/0; check_numbering 244/0; check_metres 0 failed;
+  check_metre_quotes 50/0; lint_markdown, lint_register, lint_ablatives 0; lint_translations: 1 look (Sulpicia III.13
+  IT, natural length); check_context: 16 name prompts for 2.0.0 (translation names the place; backlog item).
+
 ## [1.17.7] - 2026-11-19
 
 **CATULLUS, RELEASE 8 OF 8: THE LIBER IS COMPLETE AT 60.** The last five *carmina docta*, written with every recorded

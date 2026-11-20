@@ -46,6 +46,29 @@ var ERAS = [
       { slug: 'gaius-sallustius-crispus', re: /gaio sallustio crispo/i },
       { slug: 'gaius-valerius-catullus', re: /gaio valerio catullo/i }
     ]
+  },
+  {
+    // Author headings are "## NAME (dates)" here; the anchors are anchored at
+    // the start of the heading so that a name quoted inside an excerpt title
+    // ("Brano: Gallo fr. 2") cannot start an author's span by mistake.
+    id: 'augustus',
+    src: 'italian_translations_augustan.md',
+    anchors: [
+      { slug: 'augustus', re: /^augusto\b/i },
+      { slug: 'marcus-vitruvius-pollio', re: /^marco vitruvio pollione/i },
+      { slug: 'gaius-cornelius-gallus', re: /^gaio cornelio gallo/i },
+      { slug: 'publius-vergilius-maro', re: /^publio virgilio marone/i },
+      { slug: 'quintus-horatius-flaccus', re: /^quinto orazio flacco/i },
+      { slug: 'titus-livius', re: /^tito livio/i },
+      { slug: 'albius-tibullus', re: /^albio tibullo/i },
+      { slug: 'sulpicia', re: /^sulpicia\b/i },
+      { slug: 'sextus-propertius', re: /^sesto properzio/i },
+      { slug: 'publius-ovidius-naso', re: /^publio ovidio nasone/i },
+      { slug: 'gaius-julius-hyginus', re: /^gaio giulio igino/i },
+      { slug: 'grattius', re: /^grazio\b/i },
+      { slug: 'pompeius-trogus', re: /^pompeo trogo/i },
+      { slug: 'marcus-manilius', re: /^marco manilio/i }
+    ]
   }
 ];
 

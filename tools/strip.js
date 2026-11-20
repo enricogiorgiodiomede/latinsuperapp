@@ -11,7 +11,9 @@ function stripHtml(html) {
     // everything else welded the two words together, so break the line first.
     .replace(/<br\s*\/?>/gi, '\n')
     .replace(/<[^>]*>/g, '')
-    .replace(/&nbsp;/g, ' ')
+    // The Tibullus pages indent every pentameter with a bare "&nbsp" (no
+    // semicolon), which browsers forgive; accept it too (v2.0.0).
+    .replace(/&nbsp;?/g, ' ')
     .replace(/&amp;/g, '&')
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
@@ -115,7 +117,9 @@ function cacheName(page) {
 // never contains a digit, so a trailing number is always the page's and never
 // the poet's. Returns one entry per verse: { n, text }, where n is the printed
 // number where there is one and null otherwise.
-const VERSE_PAGE = /^lucretius\//;
+// v2.0.0: the Augustan poets' pages use the same convention (Virgil, Horace,
+// Tibullus and Sulpicia, Propertius, Ovid, Grattius, Manilius).
+const VERSE_PAGE = /^(lucretius\/|vergil\/|horace\/|ovid\/|tibullus\d|prop\d|grattius|manilius\d)/;
 function verseLines(text) {
   const out = [];
   for (const raw of text.split('\n')) {

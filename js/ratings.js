@@ -148,6 +148,71 @@
       // tier stays Manageable: one Challenging criterion beside three Manageable.
       lexicon: 3.0, syntax: 2.3, style: 2.7, density: 2.6,
       evaluation: 'manageable', fragments: false
+    },
+
+    // --- Augustus' Age (44 BC - AD 14), v2.0.0 ---
+    // Tiers from the finalized era draft (augustan_era_draft.md, Final Rating);
+    // the bars follow its per-criterion notes (LOW ~1.5, MEDIUM ~2.4, HIGH ~3.3,
+    // VERY HIGH ~3.8), with density read as allusion density plus how packed
+    // the meaning is. Gallus survives in about ten lines: Not Assessable.
+    'augustus': {
+      // Plain first-person prose; the load is institutional vocabulary, Roman
+      // numbers and the history the Res Gestae leaves unsaid.
+      lexicon: 2.4, syntax: 1.4, style: 1.3, density: 2.2,
+      evaluation: 'good-exercise', fragments: false
+    },
+    'marcus-vitruvius-pollio': {
+      lexicon: 3.3, syntax: 2.4, style: 1.5, density: 2.0,
+      evaluation: 'manageable', fragments: false
+    },
+    'gaius-cornelius-gallus': { evaluation: 'not-assessable' },
+    'publius-vergilius-maro': {
+      lexicon: 2.9, syntax: 3.4, style: 3.4, density: 3.4,
+      evaluation: 'very-difficult', fragments: false
+    },
+    'quintus-horatius-flaccus': {
+      lexicon: 3.4, syntax: 3.7, style: 3.6, density: 3.6,
+      evaluation: 'praying', fragments: false
+    },
+    'titus-livius': {
+      lexicon: 2.4, syntax: 2.9, style: 2.5, density: 2.1,
+      evaluation: 'difficult', fragments: false
+    },
+    'albius-tibullus': {
+      lexicon: 1.9, syntax: 2.4, style: 2.4, density: 1.6,
+      evaluation: 'manageable', fragments: false
+    },
+    'sulpicia': {
+      // Six short poems, probably her whole output: rated, not scaled down.
+      // Plain words, knotted syntax.
+      lexicon: 1.5, syntax: 2.9, style: 2.4, density: 1.7,
+      evaluation: 'manageable', fragments: false
+    },
+    'sextus-propertius': {
+      lexicon: 2.9, syntax: 3.4, style: 3.4, density: 3.5,
+      evaluation: 'very-difficult', fragments: false
+    },
+    'publius-ovidius-naso': {
+      lexicon: 2.4, syntax: 2.1, style: 2.9, density: 2.9,
+      evaluation: 'difficult', fragments: false
+    },
+    'gaius-julius-hyginus': {
+      // The Fabulae explain every myth they mention, in schoolroom prose.
+      lexicon: 1.9, syntax: 1.4, style: 1.3, density: 2.2,
+      evaluation: 'good-exercise', fragments: false
+    },
+    'grattius': {
+      lexicon: 3.4, syntax: 2.9, style: 2.4, density: 2.9,
+      evaluation: 'difficult', fragments: false
+    },
+    'pompeius-trogus': {
+      // Read through Justin's epitome, which is what a reader actually meets.
+      lexicon: 1.9, syntax: 2.4, style: 2.4, density: 2.3,
+      evaluation: 'manageable', fragments: false
+    },
+    'marcus-manilius': {
+      lexicon: 3.5, syntax: 3.9, style: 3.4, density: 3.5,
+      evaluation: 'praying', fragments: false
     }
   };
 

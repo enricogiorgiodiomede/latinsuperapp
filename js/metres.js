@@ -315,7 +315,27 @@
         }
       },
       'catullus-epigrammata': 'elegiac-couplets'
-    }
+    },
+
+    // AUGUSTUS' AGE (v2.0.0). Gallus's papyrus is in elegiac couplets, even
+    // with its gaps. Horace's Epode 10 is left unlabelled for now: it is in the
+    // first iambic strophe (trimeter + dimeter), which has no page yet.
+    'gaius-cornelius-gallus': 'elegiac-couplets',
+    'publius-vergilius-maro': 'dactylic-hexameter',
+    'quintus-horatius-flaccus': {
+      'horace-carmina': 'sapphic-stanza',
+      'horace-sermones': 'dactylic-hexameter'
+    },
+    'albius-tibullus': 'elegiac-couplets',
+    'sulpicia': 'elegiac-couplets',
+    'sextus-propertius': 'elegiac-couplets',
+    'publius-ovidius-naso': {
+      'amores': 'elegiac-couplets',
+      'ars-amatoria': 'elegiac-couplets',
+      'metamorphoses': 'dactylic-hexameter'
+    },
+    'grattius': 'dactylic-hexameter',
+    'marcus-manilius': 'dactylic-hexameter'
   };
 
   /* ==================================================================

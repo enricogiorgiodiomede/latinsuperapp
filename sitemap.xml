@@ -8,6 +8,9 @@
     <loc>https://latinsuperapp.com/index.html?era=caesar</loc>
   </url>
   <url>
+    <loc>https://latinsuperapp.com/index.html?era=augustus</loc>
+  </url>
+  <url>
     <loc>https://latinsuperapp.com/author.html?era=archaic&amp;id=livius-andronicus</loc>
   </url>
   <url>
@@ -96,6 +99,57 @@
   </url>
   <url>
     <loc>https://latinsuperapp.com/practice-select.html?era=caesar&amp;id=gaius-valerius-catullus</loc>
+  </url>
+  <url>
+    <loc>https://latinsuperapp.com/author.html?era=augustus&amp;id=augustus</loc>
+  </url>
+  <url>
+    <loc>https://latinsuperapp.com/author.html?era=augustus&amp;id=marcus-vitruvius-pollio</loc>
+  </url>
+  <url>
+    <loc>https://latinsuperapp.com/author.html?era=augustus&amp;id=gaius-cornelius-gallus</loc>
+  </url>
+  <url>
+    <loc>https://latinsuperapp.com/author.html?era=augustus&amp;id=publius-vergilius-maro</loc>
+  </url>
+  <url>
+    <loc>https://latinsuperapp.com/practice-select.html?era=augustus&amp;id=publius-vergilius-maro</loc>
+  </url>
+  <url>
+    <loc>https://latinsuperapp.com/author.html?era=augustus&amp;id=quintus-horatius-flaccus</loc>
+  </url>
+  <url>
+    <loc>https://latinsuperapp.com/practice-select.html?era=augustus&amp;id=quintus-horatius-flaccus</loc>
+  </url>
+  <url>
+    <loc>https://latinsuperapp.com/author.html?era=augustus&amp;id=titus-livius</loc>
+  </url>
+  <url>
+    <loc>https://latinsuperapp.com/author.html?era=augustus&amp;id=albius-tibullus</loc>
+  </url>
+  <url>
+    <loc>https://latinsuperapp.com/author.html?era=augustus&amp;id=sulpicia</loc>
+  </url>
+  <url>
+    <loc>https://latinsuperapp.com/author.html?era=augustus&amp;id=sextus-propertius</loc>
+  </url>
+  <url>
+    <loc>https://latinsuperapp.com/author.html?era=augustus&amp;id=publius-ovidius-naso</loc>
+  </url>
+  <url>
+    <loc>https://latinsuperapp.com/practice-select.html?era=augustus&amp;id=publius-ovidius-naso</loc>
+  </url>
+  <url>
+    <loc>https://latinsuperapp.com/author.html?era=augustus&amp;id=gaius-julius-hyginus</loc>
+  </url>
+  <url>
+    <loc>https://latinsuperapp.com/author.html?era=augustus&amp;id=grattius</loc>
+  </url>
+  <url>
+    <loc>https://latinsuperapp.com/author.html?era=augustus&amp;id=pompeius-trogus</loc>
+  </url>
+  <url>
+    <loc>https://latinsuperapp.com/author.html?era=augustus&amp;id=marcus-manilius</loc>
   </url>
   <url>
     <loc>https://latinsuperapp.com/metre.html</loc>

@@ -8,26 +8,32 @@ Repo: `github.com/enricogiorgiodiomede/latinsuperapp` (branch `main`).
 
 ---
 
-## >>> NEXT MAIN JOB (set by the user, 2026-11-20): THE AUGUSTAN ERA <<<
+## >>> THE AUGUSTAN ERA IS LIVE (v2.0.0, 2026-11-20); NEXT: TOP IT UP <<<
 
-**Where the app stands:** v1.17.7 (cache `?v=273`), bank 673, verify 526/0. Caesar's Age fleshed out: Caesar 70,
-Hirtius 45, Lucretius 60, Sallust 70, Catullus **60 (closed in v1.17.7, all user notes folded)**.
+**Where the app stands:** v2.0.0 (cache `?v=274`), bank 702, verify 554/0. Three eras live. Augustus' Age published
+with 14 authors and the draft's 29 excerpts (built by `batch/aug200_build.js` from the two draft files; details in
+CHANGELOG.md [2.0.0] and practice_fragments_reference.md, "AUGUSTUS' AGE").
+
+**Still open from the launch:**
+- **Hyginus has no portrait yet**: the stock picture in `images_augustus/gaius-julius-hyginius.jpg` is a watermarked
+  Alamy preview of Pope Hyginus and must NOT be committed. The public-domain copy is Wikimedia Commons
+  `File:Pope_Hyginus.jpg` (Artaud de Montor, 432x597); save it as `images_augustus/gaius-julius-hyginus.jpg`. The
+  caption (`notLikeness`, "his namesake the pope") is already in js/data.js.
+- **Gallus fr. 2 is checked by hand only** (Living Poets prints the apparatus inline); fragment-only author, so the
+  user proofreads it.
+- Horace's Epode 10 has no metre label: the first iambic strophe needs its own metre page.
+- check_context: 16 name prompts on the new excerpts (names given in the translations, not the notes).
 
 **The plan, in the user's order:**
-1. **Publish the Augustan Era** in the app (today the home page shows "Augustus' Age (soon)"). The draft is complete
-   since 2026-10-31: `augustan_era_draft.md` + `italian_translations_augustan.md`, era introduction + 14 authors (tier
-   table further down, excerpt list in `progress_notes.md`, "Session 7 Summary"). Portraits are in `images_augustus/`
-   (14 files, not yet tracked by git). `build_content.js` / `build_content_it.js` only embed the Archaic and Caesar
-   drafts: they need an Augustan key, plus the era wiring in `js/data.js` / `js/home.js`, ratings, the era intro in the
-   home page's left column (What's New scroll on the right), and a sitemap rebuild.
-2. **Then top it up** with practice excerpts, as Caesar's Age was (batches with a stop after each; the verse pipeline
-   of Catullus/Lucretius for the poets, the prose pipeline of Caesar/Sallust for Livy, Vitruvius, Augustus).
+1. ~~Publish the Augustan Era~~ **DONE v2.0.0.**
+2. **Top it up** with practice excerpts, as Caesar's Age was (batches with a stop after each; the Catullus/Lucretius
+   verse pipeline for the poets, the Caesar/Sallust prose pipeline for Livy, Vitruvius, Augustus). Propose counts
+   per author first and wait for the user.
 3. **Alongside:** the two owed jobs - reorder other authors' older notes so additions sit next to the paragraph on the
    same text; re-read the 15 older Pro Caelio / De Oratore translations.
 4. **Later:** extend Varro (11) and Nepos (8).
 
-**Not started.** CLAUDE.md: ask permission before starting a new era. First step next session: propose the publishing
-plan and the top-up counts, and wait for the user. The version number is the user's to give.
+The version number is the user's to give.
 
 ---
 

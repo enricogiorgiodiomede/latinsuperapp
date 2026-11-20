@@ -78,10 +78,11 @@
     return out;
   })();
 
-  // Author display names + era come from LatinData (async, both live eras).
-  Promise.all([LatinData.getAuthors('archaic'), LatinData.getAuthors('caesar')]).then(function (res) {
+  // Author display names + era come from LatinData (async, every live era).
+  var LIVE_ERAS = ['archaic', 'caesar', 'augustus'];
+  Promise.all(LIVE_ERAS.map(function (id) { return LatinData.getAuthors(id); })).then(function (res) {
     var map = {};
-    [['archaic', res[0]], ['caesar', res[1]]].forEach(function (pair) {
+    LIVE_ERAS.map(function (id, i) { return [id, res[i]]; }).forEach(function (pair) {
       (pair[1] || []).forEach(function (au) { map[au.slug] = { era: pair[0], name: au.name }; });
     });
     render(map);

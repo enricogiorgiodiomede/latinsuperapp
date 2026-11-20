@@ -9,6 +9,44 @@ Difficulty is varied on purpose within each text (some passages harder than othe
 
 ---
 
+# AUGUSTUS' AGE [v2.0.0, 2026-11-20]
+
+The launch bank is the 29 excerpts of `augustan_era_draft.md`, moved into the app unchanged in substance by
+`batch/aug200_build.js` (reads both draft files through `batch/aug200_parse.js`; refuses to run if any Augustan author
+already exists). Rebuild from a pre-2.0.0 bank only. Verse is line-for-line from the start (first verse + every
+fifth); a `...` gap in the draft becomes `[...]` and the count resumes at the next `from` entry. Work ids are
+prefixed where two authors would share one in `tools/sources.json` (`tibullus-elegiae`, `propertius-elegiae`,
+`horace-*`). Choosers (needsSelection): Virgil, Horace, Ovid.
+
+| author (slug) | work id(s) | excerpts | source page |
+|---|---|---|---|
+| Augustus (`augustus`) | res-gestae | RG 1-3, 20-21 | augustus/resgestae.html |
+| Vitruvius (`marcus-vitruvius-pollio`) | de-architectura | I.3.1-2, III.1.2-3, IX praef. 9-10 | vitruvius1/3.html; IX from LacusCurtius (`_external`) |
+| Gallus (`gaius-cornelius-gallus`) | gallus-fragmenta | fr. 2, vv. 1-9 | Living Poets (`_external`, NOT in verify: inline apparatus) |
+| Virgil (`publius-vergilius-maro`) | bucolica, georgica, aeneis | Ecl. 2 vv. 6-18; G. IV 1-24; Aen. III 655-665 | vergil/ec2, geo4, aen3 |
+| Horace (`quintus-horatius-flaccus`) | horace-carmina, -epodi, -sermones | C. II.10; Epod. 10; S. I.5 vv. 1-26 | horace/carm2, ep, serm1 |
+| Livy (`titus-livius`) | ab-urbe-condita | XXV.31.4-11; XXXIX.8.3-8; CXX (Sen. Suas. 6.17 + 6.22, two pieces) | livy/liv.25, liv.39, seneca.suasoriae.html |
+| Tibullus (`albius-tibullus`) | tibullus-elegiae | I.3 vv. 1-10 + 53-58; I.10 vv. 1-14 | tibullus1.html |
+| Sulpicia (`sulpicia`) | sulpiciae-elegidia | [Tib.] III.13, III.18 | tibullus3.html |
+| Propertius (`sextus-propertius`) | propertius-elegiae | IV.7 vv. 1-18; IV.8 vv. 49-70 | prop4.html |
+| Ovid (`publius-ovidius-naso`) | amores, ars-amatoria, metamorphoses | Am. I.9 1-20; Ars I 135-162; Met. VIII 823-842 + 875-878 | ovid/ovid.amor1, artis1, met8 |
+| Hyginus (`gaius-julius-hyginus`) | fabulae | Fab. 220 | hyginus/hyginus5 |
+| Grattius (`grattius`) | cynegetica | vv. 171-181 | grattius.html |
+| Trogus (`pompeius-trogus`) | justin-epitome | Justin XXXVIII.6.7-8 | justin/38.html |
+| Manilius (`marcus-manilius`) | astronomica | IV 1-16; V 567-576 | manilius4.html, manilius5.html |
+
+**Page quirks found by verify.js** (all declared with `emend` and an "About the text" paragraph, EN + IT): the
+Latin Library's Vitruvius is full of OCR slips (*turrimque*, *distrtbutio*, *vertices*, *ReIiqua*, *conlocantum*);
+Epodes page has *ilics* and no stop after *ruperit*; dashes for brackets/colons (Georgica IV, Amores I.9); Met. VIII
+carries the narrator's opening quote and a closing dash; Justin prints a bare section number mid-sentence. The
+Tibullus pages indent pentameters with a bare `&nbsp` (strip.js now reads it). Krohn (LacusCurtius) prints sentence
+openings in lower case: kept. Horace's Epodes are `horace/ep`, not `epodes`.
+
+**Top-up (next job):** propose counts per author to the user first, then batches with a stop after each, as for
+Caesar's Age.
+
+---
+
 ## Gaius Valerius Catullus (`gaius-valerius-catullus`) - needsSelection, three works [v1.17.0, 2026-11-08]
 
 **THE PLAN (the user, 08/11/2026): 60 excerpts, Lucretius's count, 20 per part of the Liber**:
