@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '2.1.0', date: '20/11/2026', time: '00:00', tz: 'CET',
+      v: '2.1.0', date: '20/11/2026', time: '23:30', tz: 'CET',
       en: {
         added: [
           'VIRGIL OFFICIALLY BEGINS. The greatest poet of the Golden Age gets the full treatment, one hundred excerpts across the Eclogues, the Georgics and the Aeneid, arriving release by release. Part one opens at the very beginning, with the first poem Virgil ever published.',
