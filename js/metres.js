@@ -318,12 +318,14 @@
     },
 
     // AUGUSTUS' AGE (v2.0.0). Gallus's papyrus is in elegiac couplets, even
-    // with its gaps. Horace's Epode 10 is left unlabelled for now: it is in the
-    // first iambic strophe (trimeter + dimeter), which has no page yet.
+    // with its gaps. Horace's Epode 10 got its page (iambic-strophe) in the
+    // same-day follow-up.
     'gaius-cornelius-gallus': 'elegiac-couplets',
     'publius-vergilius-maro': 'dactylic-hexameter',
     'quintus-horatius-flaccus': {
       'horace-carmina': 'sapphic-stanza',
+      // Epodes 1-10: trimeter + dimeter (the user, v2.0.0 follow-up).
+      'horace-epodi': 'iambic-strophe',
       'horace-sermones': 'dactylic-hexameter'
     },
     'albius-tibullus': 'elegiac-couplets',
@@ -365,7 +367,7 @@
         '**The important thing about it is that it counts time, not stress.** English metre is built on which syllables you hit harder; Greek and Latin metre is built on how long each syllable takes to say. A syllable is *long* if it has a long vowel or a diphthong, or if its vowel is followed by two consonants; otherwise it is *short*. A long counts as two shorts, exactly, and the whole system is arithmetic.',
         '**Latin did not take to it easily.** Latin has more long syllables than Greek and a heavy word accent that pulls against the metrical pattern, so the early results sound forced. What Rome had instead was the *Saturnian*, the native Italic verse, which nobody has fully explained even now: Livius Andronicus used it for his translation of the Odyssey and Naevius for his Punic War, and both of those are in this app.',
         '**Then Ennius, some time around 180 BC, wrote the Annales in hexameters and ended the argument.** He did it as a deliberate programme, announcing that Homer\'s soul had passed into him, and he dropped the Saturnian so completely that Naevius\' epic came to look antique within one generation. Every Latin epic after him is in hexameters, and so is every didactic poem, every satire from Lucilius onwards, and eventually all of pastoral.',
-        'From there the story is one of polishing. Lucilius makes it carry conversation, Lucretius makes it carry argument, Catullus and the neoterics make it carry Alexandrian ornament - and after the authors in this app, it goes on to become the metre of the *Aeneid*, of the *Metamorphoses* and of the Satires of Horace. Those poets are not in the app yet; when they are, they will be added here.'
+        'From there the story is one of polishing. Lucilius makes it carry conversation, Lucretius makes it carry argument, Catullus and the neoterics make it carry Alexandrian ornament - and after the authors in this app, it goes on to become the metre of the *Aeneid*, of the *Metamorphoses* and of the Satires of Horace. Virgil, Ovid and Horace have been in the app since v2.0.0; their examples will be added to this page.'
       ],
 
       build: [
@@ -620,6 +622,80 @@
       after: 'Martial, who wrote many choliambics, is not yet in this app. When he is added, his examples will be added here.'
     },
 
+    // v2.0.0 follow-up, with Horace's Epode 10 (the user named the metre).
+    // The first ten Epodes are all in it.
+    'iambic-strophe': {
+      name: 'Iambic Strophe',
+      tagline: 'A long iambic line and a short one that snaps shut behind it: the metre Horace borrowed from Archilochus for his Epodes.',
+      scheme: [
+        '× – ⏑ – | × – ⏑ – | × – ⏑ ×',
+        '× – ⏑ – | × – ⏑ ×'
+      ],
+      schemeNote: 'An iambic trimeter (three iambic metra, twelve syllables) followed by an iambic dimeter (two metra, eight syllables). The first syllable of each metron is anceps, long or short; the rest of the metron is fixed.',
+
+      origin: [
+        '**It comes from Archilochus of Paros**, the seventh-century BC soldier-poet whom the Greeks remembered as the inventor of the *iambus*, the poetry of attack. Legend said his verses were so savage that Lycambes, who had broken off Archilochus\' engagement to his daughter, hanged himself together with his daughters. The Greeks also credited him with the epode: a long line paired with a shorter one, repeated through the poem.',
+        '**That pairing is what "epode" means.** The Greek *epodos* is the "after-song", the short line sung after the long one; the name passed from the line to the poems built of such couplets. Horace himself called his book *Iambi*; later readers named it after its metre.',
+        '**Horace brought it to Rome.** In the Epistles (I.19.23-25) he boasts that he was the first to show Latium the iambics of Paros, following "the rhythms and the spirit of Archilochus, not his subject matter". The *Epodes* came out around 30 BC, his first great book of verse, and Epodes 1 to 10 are all in this strophe, including *Beatus ille* (Epode 2), the famous praise of country life that turns out, in the last four lines, to be spoken by a moneylender.',
+        '**Epode 10 is Archilochus\' own kind of poem.** It is an anti-*propempticon*, a send-off that wishes the traveller a shipwreck, and a Greek papyrus poem of the same kind, the so-called Strasbourg Epode, cursing a former friend to wash up naked on a foreign shore, is attributed to Archilochus or to Hipponax. Horace aims the curse at Mevius, a bad poet.'
+      ],
+
+      build: [
+        '**Two lines, always in the same order.** First an iambic trimeter: three metra of four syllables, × – ⏑ –, the last one ending on an anceps. Then an iambic dimeter: the same thing with only two metra.',
+        '**The anceps positions are the first of every metron**, the first, fifth and ninth syllables of the long line and the first and fifth of the short one. Horace fills them with long or short syllables as the words allow; everything else is fixed, short-long.',
+        '**Horace occasionally resolves a long into two shorts**, which adds a syllable to the line, but far less freely than the comic poets did with their senarii. The four lines quoted here have none, so each is exactly twelve or eight syllables.',
+        '**The trimeter usually has its caesura after the fifth syllable**, inside the second metron: *Mala soluta | navis*, *o quantus instat | navitis*. It gives the long line a pause just before its middle.',
+        '**The couplet is the unit of sense.** A sentence very often runs over the trimeter and closes at the end of the dimeter, so the short line is where the thought lands.',
+        'Elision works as everywhere in Latin verse; there is none in the lines below.'
+      ],
+
+      sound: [
+        '**Long, then short: statement and sting.** The trimeter has room to set something up; the dimeter, a third shorter, arrives before the ear expects the line to end, and clips the thought off. Read a few couplets aloud and you hear a regular jab.',
+        '**It is the most speech-like of the lyric metres.** Iambic rhythm is the rhythm of Greek and Latin dialogue (Aristotle said people speak iambics without noticing), so these poems sound like a voice talking, and in the *Epodes* the voice is usually angry, mocking or disgusted.',
+        '**The short line is where Horace puts the target.** In Epode 10 the first dimeter is *ferens olentem Mevium*, "carrying the stinking Mevius": the name, and the insult, fall exactly where the couplet snaps shut.'
+      ],
+
+      usedIntro: [
+        'Archilochus first, in Greek; then Horace, who made it the metre of the first ten *Epodes*. After him the iambic dimeter on its own had a long second life: the hymns of Saint Ambrose, in the fourth century AD, are written in stanzas of four dimeters, and so is much of the Latin hymnody of the Middle Ages.',
+        'Horace is the only poet in the app who uses it, and both examples come from Epode 10: its first couplet and the one at its emotional peak.'
+      ],
+
+      examples: [
+        {
+          author: 'Quintus Horatius Flaccus',
+          slug: 'quintus-horatius-flaccus', era: 'augustus',
+          where: 'Epodi 10, vv. 1-2',
+          gloss: 'The opening: the ship sails with Mevius on board, and a bad omen',
+          plain: ['Mala soluta navis exit alite', 'ferens olentem Mevium.'],
+          source: 'bank',
+          marked: ['Mălā sŏlū|tă nāvĭs ēx|ĭt ālĭtĕ', 'fĕrēns ŏlēn|tēm Mēvĭŭm.'],
+          pattern: ['⏑ – ⏑ – | ⏑ – ⏑ – | ⏑ – ⏑ ×', '⏑ – ⏑ – | – – ⏑ ×'],
+          notes: [
+            '**The trimeter is pure iambs.** All three anceps positions are short, so the line runs short-long six times over: the lightest form the line can take, for a poem that starts as if it were an ordinary farewell.',
+            '**Long by position counts.** The *e* of *exit* is short by nature, but the syllable *ex-* is closed by the *x*, which is two consonants (*cs*), and so it is long; the same goes for *-rens* and *-len-*. *Navis exit* is different: the *s* moves across to the next word\'s vowel, *na-vi-sex-it*, and *-vi-* stays open and short. The marks give the value of the syllable, not of the vowel.',
+            '**In the dimeter the second anceps is long**: *-tem*, closed by the *M* of *Mevium*. That one heavy syllable just before the name slows the line down onto its target, and *olentem Mevium* closes the couplet like a door slammed in his face.'
+          ]
+        },
+        {
+          author: 'Quintus Horatius Flaccus',
+          slug: 'quintus-horatius-flaccus', era: 'augustus',
+          where: 'Epodi 10, vv. 15-16',
+          gloss: 'The storm breaks: the sweat and the yellow pallor of the crew',
+          plain: ['o quantus instat navitis sudor tuis', 'tibique pallor luteus'],
+          source: 'bank',
+          marked: ['ō quāntŭs īn|stāt nāvĭtīs | sūdōr tŭīs', 'tĭbīquĕ pāl|lōr lūtĕŭs'],
+          pattern: ['– – ⏑ – | – – ⏑ – | – – ⏑ ×', '⏑ – ⏑ – | – – ⏑ ×'],
+          notes: [
+            '**Now every anceps is long.** *O*, *-stat*, *su-*: the three free positions of the trimeter are all heavy, against the all-short line that opened the poem. The same twelve positions, and the line feels twice as slow, which is what Horace wants at the moment he gloats over the storm.',
+            '**Watch the joins between words.** *Instat navitis*: the *t* closes *-stat* against the *n* that follows, so it is long. *Navitis sudor*: likewise, *-tis* is closed by the *s* of *sudor*. *Quantus instat* goes the other way: the *s* of *quantus* moves across to *instat*, and *-tus* is open and short.',
+            '**The dimeter keeps a long anceps too**, *-lor* before *luteus*, closed by the *l* that follows. *Pallor luteus*, a sickly yellow pallor, is the second detail of fear in two lines, and it takes the place of honour at the end of the couplet.'
+          ]
+        }
+      ],
+
+      after: 'Horace also wrote the later *Epodes* in other iambic and dactylic combinations, and the seventeenth entirely in trimeters. Those poems are not in the app yet; if they are added, their metres will get pages of their own.'
+    },
+
     // v1.17.0, with Catullus 11. Carmen 51, the other Sapphic poem, joins the
     // bank in the next release.
     'sapphic-stanza': {
@@ -637,7 +713,7 @@
         '**It is named after Sappho**, the poetess of Lesbos (around 600 BC), the most admired lyric poet of the Greek world. The ancients said there were ten Muses, and the tenth was Sappho. She wrote in several metres, but this four-line stanza became so closely tied to her that it carries her name.',
         '**Like the hendecasyllable, it is aeolic**: it fixes a pattern of syllables rather than counting time, so the long line is always eleven syllables and the short one always five. The two metres are relatives, and you can hear it: both run on a dactyl in the middle.',
         '**For Catullus the stanza is a signature.** Lesbia, the name he gave the woman he loved, means "the woman of Lesbos", Sappho\'s island. He wrote only two poems in Sappho\'s stanza: Carmen 51, a translation of one of her most famous poems, about falling in love; and Carmen 11, the example here, his last message to Lesbia. Many readers think the two frame the whole story.',
-        '**Then Horace took it over.** About a quarter of his *Odes* are in Sapphics, and it was Horace, not Catullus, who fixed its Latin form. Horace is not in this app yet.'
+        '**Then Horace took it over.** About a quarter of his *Odes* are in Sapphics, and it was Horace, not Catullus, who fixed its Latin form. Horace has been in the app since v2.0.0, and one of his excerpts is a Sapphic ode, *Carmina* II.10.'
       ],
 
       build: [
@@ -702,7 +778,7 @@
         }
       ],
 
-      after: 'Horace, who wrote more Sapphics than any other Roman poet, is not yet in this app. When he is added, his examples will be added here.'
+      after: 'Horace, who wrote more Sapphics than any other Roman poet, has been in the app since v2.0.0, and his Sapphic ode *Carmina* II.10 is among the excerpts. Examples from his Sapphics will be added to this page.'
     },
 
     // v1.17.1, with Catullus 30, his only poem in this metre.
@@ -715,7 +791,7 @@
       origin: [
         '**The name comes from Asclepiades of Samos**, a Greek epigrammatist of the early third century BC, one of the poets the Alexandrians admired. As with the Phalaecian, the metre is older than the man it is named after: the Lesbian poets Sappho and Alcaeus already used lines of this family around 600 BC.',
         '**It belongs to the aeolic family**, like the hendecasyllable and the Sapphic: a fixed pattern of syllables, not a count of time, so every line has exactly sixteen syllables. Its building block is the *choriamb*, – ⏑ ⏑ –, a long, two shorts and a long. The "lesser" asclepiad has two choriambs; the "greater" has three.',
-        '**In Latin it is very rare before Horace.** Catullus uses it in a single poem, Carmen 30, and Horace later writes three of his *Odes* in it, among them the famous *Tu ne quaesieris* (Odes I.11), the poem that ends on *carpe diem*. Horace is not in this app yet.'
+        '**In Latin it is very rare before Horace.** Catullus uses it in a single poem, Carmen 30, and Horace later writes three of his *Odes* in it, among them the famous *Tu ne quaesieris* (Odes I.11), the poem that ends on *carpe diem*. Horace has been in the app since v2.0.0, but none of these three odes is among his excerpts yet.'
       ],
 
       build: [
@@ -770,7 +846,7 @@
         }
       ],
 
-      after: 'Horace, who used the greater asclepiad for three of his Odes, is not yet in this app. When he is added, his examples will be added here.'
+      after: 'Horace, who used the greater asclepiad for three of his Odes, has been in the app since v2.0.0, but none of those odes is among his excerpts yet. When one is added, its examples will be added here.'
     },
 
     // v1.17.4, with Catullus 61, the wedding song for Manlius Torquatus.
@@ -790,7 +866,7 @@
         '**The glyconic is named after Glycon**, a Greek poet about whom we know nothing else. The line itself is much older than any name: it is one of the basic lines of the aeolic family, the metres of Sappho and Alcaeus, and Greek choral and wedding songs are full of it.',
         '**It is the metre of the wedding.** Greek *hymenaioi*, the songs sung as the bride was led to her new home, were written in glyconics and pherecrateans, and Sappho\'s wedding songs, now in fragments, used lines of the same family. A Greek or Roman reader who heard this rhythm thought of torches, flutes and the cry *Hymen Hymenaee*.',
         '**Catullus uses glyconics in two poems.** Carmen 34, a short hymn to Diana, has stanzas of three glyconics and a pherecratean; Carmen 61, the long wedding song for Manlius Torquatus, which is in this app and gives both examples here, has the five-line stanza on this page, forty-seven of them, 235 lines in the standard numbering.',
-        '**After him, Horace and Seneca.** Horace uses glyconics in some of the asclepiad stanzas of the *Odes*, and Seneca uses them in the choruses of his tragedies. Neither is in this app yet.'
+        '**After him, Horace and Seneca.** Horace uses glyconics in some of the asclepiad stanzas of the *Odes*, and Seneca uses them in the choruses of his tragedies. Horace has been in the app since v2.0.0, though not yet with an ode in glyconics; Seneca is not in it yet.'
       ],
 
       build: [
@@ -879,7 +955,7 @@
         }
       ],
 
-      after: 'Horace and Seneca, who both used glyconics, are not yet in this app. When they are added, their examples will be added here.'
+      after: 'Neither Horace nor Seneca has a glyconic excerpt in the app yet (Horace has been in it since v2.0.0, Seneca not). When they do, their examples will be added here.'
     },
 
     // v1.17.4, with Catullus 63, the Attis, the only complete Latin poem in it.
@@ -1376,7 +1452,7 @@
         '**The name comes from the Greek word** *elegos*, whose original meaning is lost and which was associated early with lament and with the flute. That association has stuck: "elegy" in English still means a poem of mourning. In Greek and Latin it means a poem in this metre, and the subject can be anything at all.',
         '**It is very old and it was never only for grief.** The seventh-century Greek elegists - Archilochus, Mimnermus, Tyrtaeus, Solon - use the couplet for war songs, political argument, drinking poems and advice. Lament is one use among many.',
         '**Its other native home is the inscription.** The couplet is the standard metre of the Greek and then the Latin verse epitaph, short enough to cut into stone and closed enough to sound final. That is directly relevant to the example below: Catullus 101 is a poem written in the shape of a grave inscription and spoken at a grave.',
-        '**In Latin it arrives with the epigram and then takes over a genre.** Catullus uses it for everything from poem 65 onwards, including the epigrams and the longer letters; and then Cornelius Gallus, Tibullus, Propertius and Ovid build Roman love elegy on it, a body of poetry with no real Greek equivalent. None of those four is in this app yet.',
+        '**In Latin it arrives with the epigram and then takes over a genre.** Catullus uses it for everything from poem 65 onwards, including the epigrams and the longer letters; and then Cornelius Gallus, Tibullus, Propertius and Ovid build Roman love elegy on it, a body of poetry with no real Greek equivalent. All four have been in the app since v2.0.0, together with Sulpicia.',
         '**Ovid tells the best story about the shape.** At the start of the *Amores* he says he was setting out to write epic in hexameters, and Cupid stole one foot from every second line - so the poem came out in elegiacs and turned into love poetry against his will. It is a joke about metre, and it explains the couplet better than a diagram: the second line is the first line with something taken out of it.'
       ],
 
@@ -1431,7 +1507,7 @@
         }
       ],
 
-      after: 'The Roman elegists who made this metre their own - Gallus, Tibullus, Propertius and Ovid - are not in this app yet. When they are added, their examples will be added here.'
+      after: 'The Roman elegists who made this metre their own - Gallus, Tibullus, Propertius and Ovid, with Sulpicia - have been in the app since v2.0.0. Their examples will be added to this page.'
     },
 
     'trochaic-septenarius': {

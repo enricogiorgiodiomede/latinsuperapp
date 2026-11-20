@@ -153,6 +153,8 @@ const HEX = { feet: 6, allowed: [[D, S], [D, S], [D, S], [D, S], [D, S], CLOSE] 
 const BASE = ['– ⏑', '– –', '⏑ –'], CHORIAMB = '– ⏑ ⏑ –';
 const GLYC = { feet: 3, allowed: [BASE, [CHORIAMB], ['⏑ ×', '⏑ –', '⏑ ⏑']] };
 const PHER = { feet: 3, allowed: [BASE, [CHORIAMB], ['×', '–', '⏑']] };
+// An iambic metron with its anceps either way; the closing one ends on ×.
+const IAMB = ['⏑ – ⏑ –', '– – ⏑ –'], IAMB_END = ['⏑ – ⏑ ×', '– – ⏑ ×'];
 // The elegiac pentameter is two half-lines of two-and-a-half feet, and the
 // caesura between them falls on a foot boundary rather than inside a foot, so
 // it is easier to enumerate the four legal lines outright than to describe them
@@ -198,7 +200,15 @@ const SHAPE = {
   // Galliambic (Catullus 63): two halves of eight in the basic form, split by
   // the bar at the break. Resolved or contracted lines are not shape-checked,
   // so only basic-form lines are quoted as examples.
-  'galliambic': { feet: 2, allowed: [['⏑ ⏑ – ⏑ – ⏑ – –'], ['⏑ ⏑ – ⏑ ⏑ ⏑ ⏑ ×']] }
+  'galliambic': { feet: 2, allowed: [['⏑ ⏑ – ⏑ – ⏑ – –'], ['⏑ ⏑ – ⏑ ⏑ ⏑ ⏑ ×']] },
+  // v2.0.0 follow-up. Iambic strophe (Horace, Epodes 1-10): a trimeter and a
+  // dimeter, each metron × – ⏑ – with the last ending on an anceps. An example
+  // quotes the whole couplet. Resolved lines are not shape-checked, so only
+  // unresolved ones are quoted.
+  'iambic-strophe': { lines: [
+    { feet: 3, allowed: [IAMB, IAMB, IAMB_END] },
+    { feet: 2, allowed: [IAMB, IAMB_END] }
+  ] }
 };
 
 let checked = 0, bad = 0;

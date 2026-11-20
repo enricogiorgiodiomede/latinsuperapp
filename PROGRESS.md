@@ -14,15 +14,13 @@ Repo: `github.com/enricogiorgiodiomede/latinsuperapp` (branch `main`).
 with 14 authors and the draft's 29 excerpts (built by `batch/aug200_build.js` from the two draft files; details in
 CHANGELOG.md [2.0.0] and practice_fragments_reference.md, "AUGUSTUS' AGE").
 
-**Still open from the launch:**
-- **Hyginus has no portrait yet**: the stock picture in `images_augustus/gaius-julius-hyginius.jpg` is a watermarked
-  Alamy preview of Pope Hyginus and must NOT be committed. The public-domain copy is Wikimedia Commons
-  `File:Pope_Hyginus.jpg` (Artaud de Montor, 432x597); save it as `images_augustus/gaius-julius-hyginus.jpg`. The
-  caption (`notLikeness`, "his namesake the pope") is already in js/data.js.
-- **Gallus fr. 2 is checked by hand only** (Living Poets prints the apparatus inline); fragment-only author, so the
-  user proofreads it.
-- Horace's Epode 10 has no metre label: the first iambic strophe needs its own metre page.
-- check_context: 16 name prompts on the new excerpts (names given in the translations, not the notes).
+**Launch loose ends, closed in the same-day follow-up (cache `?v=275`):** Hyginus's portrait added (a clean copy
+of the Pope Hyginus medallion; the Alamy file in images_augustus/ must still never be committed); Gallus fr. 2
+proofread by the user against Wikipedia, no change; Epode 10 labelled, with a new `iambic-strophe` metre page.
+
+**Still open:** the metre pages for the hexameter, Sapphic stanza and elegiac couplet now say Horace, Virgil, Ovid and
+the elegists are in the app, but have no Augustan scanned examples yet. check_context: 16 name prompts on the new
+excerpts. The 29 launch notes are the draft's analyses, not yet in the later house shape.
 
 **The plan, in the user's order:**
 1. ~~Publish the Augustan Era~~ **DONE v2.0.0.**

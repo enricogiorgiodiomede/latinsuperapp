@@ -8,6 +8,18 @@ no build step and no dependencies.
 
 ## [2.0.0] - 2026-11-20
 
+### Follow-up (same day, no version bump, cache `?v=275`)
+- **Hyginus portrait added**: the user found a clean (no watermark) copy of the Pope Hyginus medallion; cropped to the
+  square inside the circle (198 px) as `images_augustus/gaius-julius-hyginus.jpg`. The Alamy file stays uncommitted.
+- **Gallus fr. 2 proofread by the user** against the lines on Wikipedia: they match, no change.
+- **New metre page `iambic-strophe`** (EN + IT), named by the user: trimeter + dimeter, Archilochus -> Horace,
+  Epodes 1-10; examples Epode 10 vv. 1-2 (all ancipites short) and vv. 15-16 (all long). ASSIGN `horace-epodi`;
+  `check_metre_quotes.js` SHAPE `iambic-strophe` (IAMB / IAMB_END). check_metre_quotes 54/0, check_metres 253/253.
+- **Stale metre-page lines fixed** (`batch/aug200_metre_stale.js`, 9 EN + 9 IT): hexameter, Sapphic, greater
+  asclepiad, glyconic and elegiac pages no longer say Horace or the elegists are "not in this app yet". Their
+  scanned examples are still to be added.
+- Sitemap 66 URLs.
+
 **AUGUSTUS' AGE IS LIVE: THE THIRD ERA, AND THE BIGGEST RELEASE SO FAR.** The Golden Age of Latin literature goes
 from "coming soon" to fourteen authors with full profiles, portraits, difficulty charts and **29 practice excerpts**,
 all taken from `augustan_era_draft.md` and `italian_translations_augustan.md` (complete since 31/10/2026).

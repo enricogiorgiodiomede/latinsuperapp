@@ -23,7 +23,10 @@
         ],
         changed: [
           'Augustus\' Age is no longer "coming soon" in the menu and on the home page: the era introduction now opens it, with the What\'s New scroll beside it as for the other eras.',
-          'The practice bank grows to 702 excerpts across three eras.'
+          'The practice bank grows to 702 excerpts across three eras.',
+          'Hyginus now has his portrait: a clean copy of the papal medallion of his namesake, Pope Hyginus.',
+          'A new metre page, the Iambic Strophe (iambic trimeter + iambic dimeter), the metre Horace took from Archilochus for his Epodes, with two couplets of Epode 10 scanned; Epode 10 now links to it.',
+          'The metre pages no longer say that Horace and the elegists are "not in this app yet".'
         ],
         deleted: [
           'Nothing was deleted.'
@@ -39,7 +42,10 @@
         ],
         changed: [
           'L\'età augustea non è più "non disponibile" nel menu e nella pagina iniziale: ora si apre con l\'introduzione all\'epoca, con accanto la pergamena delle novità, come per le altre epoche.',
-          'La raccolta di esercizi sale a 702 estratti in tre epoche.'
+          'La raccolta di esercizi sale a 702 estratti in tre epoche.',
+          'Igino ha ora il suo ritratto: una copia pulita del medaglione papale del suo omonimo, papa Igino.',
+          'Una nuova pagina dei metri, la Strofe Giambica (trimetro giambico + dimetro giambico), il metro che Orazio prese da Archiloco per i suoi Epodi, con due distici dell\'Epodo 10 scanditi; l\'Epodo 10 ora vi rimanda.',
+          'Le pagine dei metri non dicono più che Orazio e gli elegiaci "non sono ancora in questa app".'
         ],
         deleted: [
           'Non è stato eliminato nulla.'

@@ -25,7 +25,7 @@
         '**La cosa importante è che misura il tempo, non l\'accento.** La metrica inglese si fonda su quali sillabe si battono più forte; quella greca e latina si fonda su quanto tempo occorre a pronunciare ciascuna sillaba. Una sillaba è *lunga* se ha una vocale lunga o un dittongo, oppure se la sua vocale è seguita da due consonanti; altrimenti è *breve*. Una lunga vale esattamente due brevi, e tutto il sistema è aritmetica.',
         '**Il latino non vi si è adattato facilmente.** Il latino ha più sillabe lunghe del greco e un accento di parola forte che tira contro lo schema metrico, perciò i primi risultati suonano forzati. Roma aveva invece il *saturnio*, il verso italico nativo, che nessuno ha ancora spiegato del tutto: Livio Andronico lo usò per la sua traduzione dell\'Odissea e Nevio per la sua guerra punica, e sono entrambi in questa app.',
         '**Poi Ennio, intorno al 180 a.C., scrisse gli Annales in esametri e chiuse la questione.** Lo fece come programma deliberato, annunciando che l\'anima di Omero era passata in lui, e abbandonò il saturnio così completamente che il poema di Nevio parve antiquato nel giro di una generazione. Ogni epica latina dopo di lui è in esametri, e così ogni poema didascalico, ogni satira da Lucilio in poi e infine tutta la poesia bucolica.',
-        'Da lì la storia è una storia di rifinitura. Lucilio gli fa portare la conversazione, Lucrezio il ragionamento, Catullo e i neoterici l\'ornamento alessandrino; e dopo gli autori di questa app diventa il metro dell\'*Eneide*, delle *Metamorfosi* e delle Satire di Orazio. Quei poeti non sono ancora nell\'app: quando ci saranno, verranno aggiunti qui.'
+        'Da lì la storia è una storia di rifinitura. Lucilio gli fa portare la conversazione, Lucrezio il ragionamento, Catullo e i neoterici l\'ornamento alessandrino; e dopo gli autori di questa app diventa il metro dell\'*Eneide*, delle *Metamorfosi* e delle Satire di Orazio. Virgilio, Ovidio e Orazio sono nell\'app dalla v2.0.0; i loro esempi verranno aggiunti a questa pagina.'
       ],
 
       build: [
@@ -222,6 +222,62 @@
       after: 'Marziale, che scrisse molti coliambi, non è ancora in questa app. Quando sarà aggiunto, i suoi esempi compariranno qui.'
     },
 
+    'iambic-strophe': {
+      name: 'Strofe Giambica',
+      tagline: "Un lungo verso giambico e uno breve che gli si chiude dietro di scatto: il metro che Orazio prese da Archiloco per i suoi Epodi.",
+      schemeNote: "Un trimetro giambico (tre metri giambici, dodici sillabe) seguito da un dimetro giambico (due metri, otto sillabe). La prima sillaba di ogni metro è ancipite, lunga o breve; il resto del metro è fisso.",
+
+      origin: [
+        '**Viene da Archiloco di Paro**, il poeta-soldato del VII secolo a.C. che i Greci ricordavano come l\'inventore del *giambo*, la poesia dell\'attacco. Secondo la leggenda i suoi versi furono così feroci che Licambe, che aveva rotto il fidanzamento di Archiloco con sua figlia, si impiccò insieme alle figlie. I Greci gli attribuivano anche l\'epodo: un verso lungo accoppiato a uno più breve, ripetuto per tutta la poesia.',
+        '**È proprio questo che significa "epodo".** Il greco *epodos* è il "canto che segue", il verso breve cantato dopo quello lungo; il nome passò dal verso alle poesie costruite con questi distici. Orazio chiamava il suo libro *Iambi*; i lettori successivi lo chiamarono dal suo metro.',
+        '**Fu Orazio a portarlo a Roma.** Nelle Epistole (I.19.23-25) si vanta di essere stato il primo a mostrare al Lazio i giambi di Paro, seguendo "i ritmi e lo spirito di Archiloco, non i suoi argomenti". Gli *Epodi* uscirono intorno al 30 a.C., il suo primo grande libro di versi, e gli Epodi dall\'1 al 10 sono tutti in questa strofe, compreso *Beatus ille* (Epodo 2), il celebre elogio della vita di campagna che negli ultimi quattro versi si rivela pronunciato da un usuraio.',
+        '**L\'Epodo 10 è un tipo di poesia di Archiloco.** È un anti-*propemptikon*, un saluto di partenza che augura al viaggiatore il naufragio, e una poesia greca su papiro dello stesso genere, il cosiddetto Epodo di Strasburgo, che maledice un ex amico augurandogli di finire nudo su una spiaggia straniera, è attribuita ad Archiloco o a Ipponatte. Orazio rivolge la maledizione a Mevio, un cattivo poeta.'
+      ],
+
+      build: [
+        '**Due versi, sempre nello stesso ordine.** Prima un trimetro giambico: tre metri di quattro sillabe, × – ⏑ –, l\'ultimo dei quali finisce su un\'ancipite. Poi un dimetro giambico: la stessa cosa con due metri soltanto.',
+        '**Le posizioni ancipiti sono la prima di ogni metro**, cioè la prima, la quinta e la nona sillaba del verso lungo e la prima e la quinta di quello breve. Orazio le riempie con sillabe lunghe o brevi come le parole permettono; tutto il resto è fisso, breve-lunga.',
+        '**Orazio a volte scioglie una lunga in due brevi**, e il verso guadagna una sillaba, ma con molta meno libertà dei comici nei loro senari. I quattro versi citati qui non ne hanno, quindi ognuno ha esattamente dodici o otto sillabe.',
+        '**Il trimetro ha di solito la cesura dopo la quinta sillaba**, dentro il secondo metro: *Mala soluta | navis*, *o quantus instat | navitis*. Dà al verso lungo una pausa appena prima della metà.',
+        '**L\'unità di senso è il distico.** Molto spesso una frase scavalca il trimetro e si chiude alla fine del dimetro, così il verso breve è il punto in cui il pensiero atterra.',
+        'L\'elisione funziona come ovunque nella poesia latina; nei versi qui sotto non ce n\'è.'
+      ],
+
+      sound: [
+        '**Lungo, poi breve: affermazione e puntura.** Il trimetro ha spazio per preparare qualcosa; il dimetro, più corto di un terzo, arriva prima che l\'orecchio si aspetti la fine del verso e tronca il pensiero. Leggete ad alta voce qualche distico e sentirete un colpo regolare.',
+        '**È il più vicino al parlato tra i metri lirici.** Il ritmo giambico è il ritmo del dialogo greco e latino (Aristotele diceva che si parla in giambi senza accorgersene), così queste poesie suonano come una voce che parla, e negli *Epodi* quella voce è di solito arrabbiata, beffarda o disgustata.',
+        '**Il verso breve è dove Orazio mette il bersaglio.** Nell\'Epodo 10 il primo dimetro è *ferens olentem Mevium*, "che porta il puzzolente Mevio": il nome, e l\'insulto, cadono esattamente dove il distico si chiude di scatto.'
+      ],
+
+      usedIntro: [
+        'Prima Archiloco, in greco; poi Orazio, che ne fece il metro dei primi dieci *Epodi*. Dopo di lui il solo dimetro giambico ebbe una lunga seconda vita: gli inni di sant\'Ambrogio, nel IV secolo d.C., sono scritti in strofe di quattro dimetri, e così buona parte dell\'innografia latina medievale.',
+        'Orazio è l\'unico poeta dell\'app che lo usa, ed entrambi gli esempi vengono dall\'Epodo 10: il suo primo distico e quello del momento culminante.'
+      ],
+
+      examples: [
+        {
+          where: 'Epodi 10, vv. 1-2',
+          gloss: 'L\'inizio: la nave salpa con Mevio a bordo, e un cattivo presagio',
+          notes: [
+            '**Il trimetro è fatto di giambi puri.** Tutte e tre le posizioni ancipiti sono brevi, così il verso va breve-lunga sei volte di fila: la forma più leggera che il verso possa prendere, per una poesia che comincia come un normale saluto.',
+            '**Conta anche la lunga per posizione.** La *e* di *exit* è breve per natura, ma la sillaba *ex-* è chiusa dalla *x*, che vale due consonanti (*cs*), ed è quindi lunga; lo stesso vale per *-rens* e *-len-*. *Navis exit* è diverso: la *s* passa alla vocale della parola seguente, *na-vi-sex-it*, e *-vi-* resta aperta e breve. Il segno indica il valore della sillaba, non della vocale.',
+            '**Nel dimetro la seconda ancipite è lunga**: *-tem*, chiusa dalla *M* di *Mevium*. Quell\'unica sillaba pesante subito prima del nome rallenta il verso sul suo bersaglio, e *olentem Mevium* chiude il distico come una porta sbattuta in faccia.'
+          ]
+        },
+        {
+          where: 'Epodi 10, vv. 15-16',
+          gloss: 'Scoppia la tempesta: il sudore e il pallore giallastro dell\'equipaggio',
+          notes: [
+            '**Ora ogni ancipite è lunga.** *O*, *-stat*, *su-*: le tre posizioni libere del trimetro sono tutte pesanti, contro il verso tutto di brevi che apriva la poesia. Le stesse dodici posizioni, e il verso sembra due volte più lento, che è ciò che Orazio vuole nel momento in cui gode della tempesta.',
+            '**Guardate le giunture tra le parole.** *Instat navitis*: la *t* chiude *-stat* contro la *n* che segue, quindi è lunga. *Navitis sudor*: allo stesso modo, *-tis* è chiusa dalla *s* di *sudor*. *Quantus instat* va nella direzione opposta: la *s* di *quantus* passa a *instat*, e *-tus* è aperta e breve.',
+            '**Anche il dimetro tiene un\'ancipite lunga**, *-lor* davanti a *luteus*, chiusa dalla *l* che segue. *Pallor luteus*, un pallore giallastro e malato, è il secondo segno di paura in due versi, e occupa il posto d\'onore alla fine del distico.'
+          ]
+        }
+      ],
+
+      after: 'Orazio scrisse gli *Epodi* successivi in altre combinazioni giambiche e dattiliche, e il diciassettesimo tutto in trimetri. Quelle poesie non sono ancora nell\'app; se verranno aggiunte, i loro metri avranno pagine proprie.'
+    },
+
     'sapphic-stanza': {
       name: 'Strofa Saffica',
       tagline: 'Tre versi lunghi e uno corto che si chiude come una porta: la strofa di Saffo, che Catullo usò soltanto due volte.',
@@ -231,7 +287,7 @@
         '**Prende il nome da Saffo**, la poetessa di Lesbo (intorno al 600 a.C.), la poetessa lirica più ammirata del mondo greco. Gli antichi dicevano che le Muse erano dieci, e la decima era Saffo. Scrisse in diversi metri, ma questa strofa di quattro versi si legò a lei così strettamente da portarne il nome.',
         '**Come l\'endecasillabo, è eolica**: fissa uno schema di sillabe invece di contare il tempo, perciò il verso lungo ha sempre undici sillabe e quello corto sempre cinque. I due metri sono parenti, e si sente: entrambi corrono su un dattilo nel mezzo.',
         '**Per Catullo la strofa è una firma.** Lesbia, il nome che diede alla donna che amava, significa "la donna di Lesbo", l\'isola di Saffo. Scrisse soltanto due carmi nella strofa di Saffo: il carme 51, la traduzione di una delle sue poesie più famose, sull\'innamoramento; e il carme 11, l\'esempio qui, il suo ultimo messaggio a Lesbia. Molti lettori pensano che i due facciano da cornice a tutta la storia.',
-        '**Poi la prese Orazio.** Circa un quarto delle sue *Odi* è in saffici, e fu Orazio, non Catullo, a fissarne la forma latina. Orazio non è ancora in questa app.'
+        '**Poi la prese Orazio.** Circa un quarto delle sue *Odi* è in saffici, e fu Orazio, non Catullo, a fissarne la forma latina. Orazio è nell\'app dalla v2.0.0, e uno dei suoi estratti è un\'ode saffica, *Carmina* II.10.'
       ],
 
       build: [
@@ -275,7 +331,7 @@
         }
       ],
 
-      after: 'Orazio, che scrisse più saffici di qualunque altro poeta romano, non è ancora in questa app. Quando sarà aggiunto, i suoi esempi compariranno qui.'
+      after: 'Orazio, che scrisse più saffici di qualunque altro poeta romano, è nell\'app dalla v2.0.0, e la sua ode saffica *Carmina* II.10 è fra gli estratti. Gli esempi dalle sue strofe saffiche verranno aggiunti a questa pagina.'
     },
 
     'greater-asclepiad': {
@@ -286,7 +342,7 @@
       origin: [
         '**Il nome viene da Asclepiade di Samo**, un epigrammista greco dell\'inizio del III secolo a.C., uno dei poeti ammirati dagli alessandrini. Come per il falecio, il metro è più antico dell\'uomo da cui prende il nome: i poeti di Lesbo, Saffo e Alceo, usavano già versi di questa famiglia intorno al 600 a.C.',
         '**Appartiene alla famiglia eolica**, come l\'endecasillabo e il saffico: uno schema fisso di sillabe, non un conto del tempo, perciò ogni verso ha esattamente sedici sillabe. Il suo mattone è il *coriambo*, – ⏑ ⏑ –, una lunga, due brevi e una lunga. L\'asclepiadeo "minore" ha due coriambi; il "maggiore" ne ha tre.',
-        '**In latino è rarissimo prima di Orazio.** Catullo lo usa in un solo carme, il 30, e Orazio scriverà più tardi tre delle sue *Odi* in questo metro, fra cui la celebre *Tu ne quaesieris* (Odi I.11), la poesia che finisce con *carpe diem*. Orazio non è ancora in questa app.'
+        '**In latino è rarissimo prima di Orazio.** Catullo lo usa in un solo carme, il 30, e Orazio scriverà più tardi tre delle sue *Odi* in questo metro, fra cui la celebre *Tu ne quaesieris* (Odi I.11), la poesia che finisce con *carpe diem*. Orazio è nell\'app dalla v2.0.0, ma nessuna di queste tre odi è ancora fra i suoi estratti.'
       ],
 
       build: [
@@ -329,7 +385,7 @@
         }
       ],
 
-      after: 'Orazio, che usò l\'asclepiadeo maggiore per tre delle sue Odi, non è ancora in questa app. Quando sarà aggiunto, i suoi esempi compariranno qui.'
+      after: 'Orazio, che usò l\'asclepiadeo maggiore per tre delle sue Odi, è nell\'app dalla v2.0.0, ma nessuna di quelle odi è ancora fra i suoi estratti. Quando ne sarà aggiunta una, i suoi esempi compariranno qui.'
     },
 
     'glyconic-stanza': {
@@ -341,7 +397,7 @@
         '**Il gliconeo prende il nome da Glicone**, un poeta greco di cui non sappiamo nient\'altro. Il verso in sé è molto più antico di qualunque nome: è uno dei versi fondamentali della famiglia eolica, i metri di Saffo e Alceo, e i canti corali e nuziali greci ne sono pieni.',
         '**È il metro delle nozze.** Gli *imenei* greci, i canti intonati mentre la sposa veniva condotta alla nuova casa, erano scritti in gliconei e ferecratei, e i canti nuziali di Saffo, oggi in frammenti, usavano versi della stessa famiglia. Un lettore greco o romano che sentiva questo ritmo pensava a torce, flauti e al grido *Hymen Hymenaee*.',
         '**Catullo usa i gliconei in due carmi.** Il carme 34, un breve inno a Diana, ha strofe di tre gliconei e un ferecrateo; il carme 61, il lungo canto nuziale per Manlio Torquato, che è in quest\'app e fornisce entrambi gli esempi, ha la strofa di cinque versi di questa pagina, quarantasette strofe, 235 versi nella numerazione corrente.',
-        '**Dopo di lui, Orazio e Seneca.** Orazio usa i gliconei in alcune delle strofe asclepiadee delle *Odi*, e Seneca li usa nei cori delle sue tragedie. Nessuno dei due è ancora in quest\'app.'
+        '**Dopo di lui, Orazio e Seneca.** Orazio usa i gliconei in alcune delle strofe asclepiadee delle *Odi*, e Seneca li usa nei cori delle sue tragedie. Orazio è nell\'app dalla v2.0.0, ma non ancora con un\'ode in gliconei; Seneca non c\'è ancora.'
       ],
 
       build: [
@@ -385,7 +441,7 @@
         }
       ],
 
-      after: 'Orazio e Seneca, che usarono entrambi i gliconei, non sono ancora in questa app. Quando saranno aggiunti, i loro esempi compariranno qui.'
+      after: 'Né Orazio né Seneca hanno ancora un estratto in gliconei nell\'app (Orazio c\'è dalla v2.0.0, Seneca no). Quando lo avranno, i loro esempi compariranno qui.'
     },
 
     'galliambic': {
@@ -769,7 +825,7 @@
         '**Il nome viene dalla parola greca** *elegos*, il cui significato originario è perduto e che fu associata presto al lamento e al flauto. L\'associazione è rimasta: "elegia" in italiano indica ancora un componimento di lutto. In greco e in latino indica un componimento in questo metro, e l\'argomento può essere qualunque cosa.',
         '**È antichissimo e non fu mai solo del dolore.** Gli elegiaci greci del VII secolo - Archiloco, Mimnermo, Tirteo, Solone - usano il distico per canti di guerra, argomentazioni politiche, poesie da simposio e consigli. Il lamento è un impiego fra i tanti.',
         '**L\'altra sua sede propria è l\'iscrizione.** Il distico è il metro standard dell\'epitaffio in versi, greco e poi latino: abbastanza breve da incidersi nella pietra e abbastanza chiuso da suonare definitivo. La cosa riguarda direttamente l\'esempio qui sotto: il carme 101 di Catullo è una poesia scritta nella forma di un\'iscrizione tombale e pronunciata davanti a una tomba.',
-        '**In latino arriva con l\'epigramma e poi si prende un genere intero.** Catullo lo usa per tutto dal carme 65 in avanti, epigrammi e lettere lunghe comprese; e poi Cornelio Gallo, Tibullo, Properzio e Ovidio vi costruiscono sopra l\'elegia erotica romana, un corpo di poesia senza un vero equivalente greco. Nessuno di quei quattro è ancora in questa app.',
+        '**In latino arriva con l\'epigramma e poi si prende un genere intero.** Catullo lo usa per tutto dal carme 65 in avanti, epigrammi e lettere lunghe comprese; e poi Cornelio Gallo, Tibullo, Properzio e Ovidio vi costruiscono sopra l\'elegia erotica romana, un corpo di poesia senza un vero equivalente greco. Tutti e quattro sono nell\'app dalla v2.0.0, insieme a Sulpicia.',
         '**La storia migliore sulla forma la racconta Ovidio.** All\'inizio degli *Amores* dice che stava per scrivere un\'epica in esametri e che Cupido gli rubò un piede da ogni secondo verso: così il poema venne fuori in distici e si trasformò in poesia d\'amore contro la sua volontà. È una battuta sul metro, e spiega il distico meglio di uno schema: il secondo verso è il primo con dentro qualcosa in meno.'
       ],
 
@@ -809,7 +865,7 @@
         }
       ],
 
-      after: 'Gli elegiaci romani che fecero proprio questo metro - Gallo, Tibullo, Properzio e Ovidio - non sono ancora in questa app. Quando verranno aggiunti, i loro esempi compariranno qui.'
+      after: 'Gli elegiaci romani che fecero proprio questo metro - Gallo, Tibullo, Properzio e Ovidio, con Sulpicia - sono nell\'app dalla v2.0.0. I loro esempi verranno aggiunti a questa pagina.'
     },
 
     'trochaic-septenarius': {
