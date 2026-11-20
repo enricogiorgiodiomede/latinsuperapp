@@ -8,6 +8,29 @@ Repo: `github.com/enricogiorgiodiomede/latinsuperapp` (branch `main`).
 
 ---
 
+## >>> NEXT MAIN JOB (set by the user, 2026-11-20): THE AUGUSTAN ERA <<<
+
+**Where the app stands:** v1.17.7 (cache `?v=273`), bank 673, verify 526/0. Caesar's Age fleshed out: Caesar 70,
+Hirtius 45, Lucretius 60, Sallust 70, Catullus **60 (closed in v1.17.7, all user notes folded)**.
+
+**The plan, in the user's order:**
+1. **Publish the Augustan Era** in the app (today the home page shows "Augustus' Age (soon)"). The draft is complete
+   since 2026-10-31: `augustan_era_draft.md` + `italian_translations_augustan.md`, era introduction + 14 authors (tier
+   table further down, excerpt list in `progress_notes.md`, "Session 7 Summary"). Portraits are in `images_augustus/`
+   (14 files, not yet tracked by git). `build_content.js` / `build_content_it.js` only embed the Archaic and Caesar
+   drafts: they need an Augustan key, plus the era wiring in `js/data.js` / `js/home.js`, ratings, the era intro in the
+   home page's left column (What's New scroll on the right), and a sitemap rebuild.
+2. **Then top it up** with practice excerpts, as Caesar's Age was (batches with a stop after each; the verse pipeline
+   of Catullus/Lucretius for the poets, the prose pipeline of Caesar/Sallust for Livy, Vitruvius, Augustus).
+3. **Alongside:** the two owed jobs - reorder other authors' older notes so additions sit next to the paragraph on the
+   same text; re-read the 15 older Pro Caelio / De Oratore translations.
+4. **Later:** extend Varro (11) and Nepos (8).
+
+**Not started.** CLAUDE.md: ask permission before starting a new era. First step next session: propose the publishing
+plan and the top-up counts, and wait for the user. The version number is the user's to give.
+
+---
+
 ## What the project is
 
 A static, **no-build web app** (plain HTML/CSS/vanilla JS, no frameworks) for exploring Roman
