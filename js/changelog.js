@@ -12,6 +12,39 @@
 
   var VERSIONS = [
     {
+      v: '2.1.0', date: '20/11/2026', time: '00:00', tz: 'CET',
+      en: {
+        added: [
+          'VIRGIL OFFICIALLY BEGINS. The greatest poet of the Golden Age gets the full treatment, one hundred excerpts across the Eclogues, the Georgics and the Aeneid, arriving release by release. Part one opens at the very beginning, with the first poem Virgil ever published.',
+          'ECLOGUE 1, THE WHOLE POEM, in four excerpts: Tityrus singing in the shade while Meliboeus is driven from his land after the civil wars; a slave\'s first sight of Rome and the freedom he bought there; the young god who saved one farm, and a blessing for the lucky old man who keeps it; and Meliboeus\'s farewell to his goats, answered by one last evening\'s welcome.',
+          'ECLOGUE 2: the opening of Corydon\'s love song now starts at line 1, and its ending arrives: "Corydon, Corydon, what madness has seized you!"',
+          'ECLOGUE 3: two shepherds trading insults, a stolen goat, a heifer and a pair of carved cups put up as stakes, and a neighbour, Palaemon, sitting down on the spring grass to judge their singing contest.'
+        ],
+        changed: [
+          'Virgil now has his own nested chooser: pick the Eclogues, the Georgics or the Aeneid, then the poem or the book.',
+          'The two earlier Virgil excerpts, the bees of Georgics IV and the Cyclops of Aeneid III, have shorter introductions and much fuller notes, in the same shape as the new ones.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'COMINCIA UFFICIALMENTE VIRGILIO. Il più grande poeta dell\'età dell\'oro riceve il trattamento completo, cento estratti tra Bucoliche, Georgiche ed Eneide, in arrivo un aggiornamento dopo l\'altro. La prima parte comincia dal principio, con il primo carme che Virgilio abbia mai pubblicato.',
+          'L\'EGLOGA 1, IL CARME INTERO, in quattro estratti: Titiro che canta all\'ombra mentre Melibeo viene cacciato dalla sua terra dopo le guerre civili; la prima volta di uno schiavo a Roma e la libertà che vi comprò; il giovane dio che salvò un podere, e una benedizione per il vecchio fortunato che lo conserva; e l\'addio di Melibeo alle sue capre, a cui risponde l\'ospitalità di un\'ultima sera.',
+          'L\'EGLOGA 2: l\'inizio del canto d\'amore di Coridone ora parte dal verso 1, e arriva la sua fine: "Coridone, Coridone, quale follia ti ha preso!"',
+          'L\'EGLOGA 3: due pastori che si scambiano insulti, un caprone rubato, una giovenca e un paio di coppe intagliate messe in palio, e un vicino, Palemone, che si siede sull\'erba di primavera per giudicare la loro gara di canto.'
+        ],
+        changed: [
+          'Virgilio ha ora un suo menu a più livelli: si sceglie Bucoliche, Georgiche o Eneide, poi il carme o il libro.',
+          'I due estratti di Virgilio già presenti, le api del IV libro delle Georgiche e il Ciclope del III dell\'Eneide, hanno introduzioni più brevi e note molto più complete, con la stessa forma di quelle nuove.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '2.0.0', date: '20/11/2026', time: '15:50', tz: 'CET',
       en: {
         added: [

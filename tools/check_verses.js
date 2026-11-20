@@ -31,7 +31,7 @@
 'use strict';
 const fs = require('fs');
 const path = require('path');
-const { verseLines, VERSE_PAGE, cacheName } = require('./strip');
+const { verseLines, VERSE_PAGE, cacheName, applySpeakerTags } = require('./strip');
 
 const REPO = path.join(__dirname, '..');
 const CACHE = path.join(__dirname, '.cache');
@@ -47,7 +47,7 @@ function linesOf(page) {
   if (!pageLines[page]) {
     const file = path.join(CACHE, cacheName(page));
     if (!fs.existsSync(file)) throw new Error('no cached page ' + page + ' - run fetch_sources.js');
-    pageLines[page] = verseLines(fs.readFileSync(file, 'utf8')).filter(v => !v.lacuna).map(v => v.text);
+    pageLines[page] = verseLines(applySpeakerTags(fs.readFileSync(file, 'utf8'), file)).filter(v => !v.lacuna).map(v => v.text);
   }
   return pageLines[page];
 }

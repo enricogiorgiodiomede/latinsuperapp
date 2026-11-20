@@ -106,6 +106,48 @@ function barePages() {
 // the cache name. fetch_sources.js always wrote it this way; verify.js and
 // check_verses.js did not strip it, which went unnoticed only because no work
 // id pointed at such a page before Sallust.
+// SPEAKER TAGS (v2.1.0). Virgil's dialogue eclogues name the speaker on the
+// Latin Library page in two ways: glued to the verse ("MeliboeusTityre, tu
+// patulae", "Tityrus Hic tamen") or on a line of its own ("Menalcas", then the
+// verse). Both become a short tag in front of the verse, "ME. Tityre, tu
+// patulae", the way the Terence pages print their speakers ("SI.", "SO."), so a
+// label line is not counted as a verse and the excerpt can show who is talking.
+// Which names, and which tags, is set per page in sources.json _speakerTags.
+// A name only counts as a label when an UPPER-CASE letter follows it, so a verse
+// that begins with the name as a word, "Tityrus hinc aberat", is left alone.
+// Applied when a page is READ (extract_verse, verify, check_verses); the cache
+// itself stays as the site prints it.
+let _tagCfg = null;
+function speakerTagsFor(file) {
+  if (_tagCfg === null) {
+    const cfg = JSON.parse(require('fs').readFileSync(require('path').join(__dirname, 'sources.json'), 'utf8'));
+    _tagCfg = {};
+    for (const [page, tags] of Object.entries(cfg._speakerTags || {})) {
+      if (typeof tags === 'object') _tagCfg[cacheName(page)] = tags;
+    }
+  }
+  return _tagCfg[require('path').basename(file)] || null;
+}
+function applySpeakerTags(text, file) {
+  const tags = speakerTagsFor(file);
+  if (!tags) return text;
+  const names = Object.keys(tags);
+  const out = [];
+  let pending = null;
+  for (const raw of text.split('\n')) {
+    const t = raw.trim();
+    if (names.indexOf(t) >= 0) { pending = tags[t]; continue; }
+    let line = raw;
+    for (const n of names) {
+      const m = t.match(new RegExp('^' + n + '\\s*(?=[A-Z])'));
+      if (m) { line = tags[n] + ' ' + t.slice(m[0].length); break; }
+    }
+    if (pending && t) { line = pending + ' ' + line.trim(); pending = null; }
+    out.push(line);
+  }
+  return out.join('\n');
+}
+
 function cacheName(page) {
   return page.split('/').pop().replace(/\.s?html$/, '') + '.txt';
 }
@@ -137,6 +179,6 @@ function verseText(text) {
 }
 
 module.exports = {
-  stripHtml: stripHtml, normalise: normalise, verseLines: verseLines, verseText: verseText, VERSE_PAGE: VERSE_PAGE,
+  stripHtml: stripHtml, normalise: normalise, applySpeakerTags: applySpeakerTags, verseLines: verseLines, verseText: verseText, VERSE_PAGE: VERSE_PAGE,
   stripBareSections: stripBareSections, markBareSections: markBareSections, barePages: barePages, cacheName: cacheName
 };

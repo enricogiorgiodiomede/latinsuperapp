@@ -20,7 +20,7 @@
 'use strict';
 const fs = require('fs');
 const path = require('path');
-const { normalise, verseText, VERSE_PAGE, stripBareSections, barePages, cacheName } = require('./strip');
+const { normalise, verseText, VERSE_PAGE, stripBareSections, barePages, cacheName, applySpeakerTags } = require('./strip');
 
 const REPO = path.join(__dirname, '..');
 const CACHE = path.join(__dirname, '.cache');
@@ -64,7 +64,7 @@ for (const files of Object.values(SRC)) {
     if (flat[f]) continue;
     const p = path.join(CACHE, f);
     if (!fs.existsSync(p)) continue;
-    const text = fs.readFileSync(p, 'utf8');
+    const text = applySpeakerTags(fs.readFileSync(p, 'utf8'), p);
     flat[f] = normalise(verseFiles.has(f) ? verseText(text) : bareFiles.has(f) ? stripBareSections(text) : text);
     if (quoteFiles.has(f)) flat[f] = normalise(flat[f].split('"').join(' '));
     if (caseFreeFiles.has(f)) flat[f] = flat[f].toLowerCase();

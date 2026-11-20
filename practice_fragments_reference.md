@@ -45,6 +45,38 @@ openings in lower case: kept. Horace's Epodes are `horace/ep`, not `epodes`.
 **Top-up (next job):** propose counts per author to the user first, then batches with a stop after each, as for
 Caesar's Age.
 
+## Virgil (`publius-vergilius-maro`) - THE TOP-UP TO 100 [v2.1.0-, from 2026-11-20]
+
+**The plan (the user, 20/11/2026):** Bucolica 30, Georgica 30, Aeneid 40 = 100, the three launch excerpts included,
+over 13 releases of ~7-10 with a stop after each. Full list of ranges: the plan file
+`C:\Users\enric\.claude\plans\now-let-s-plan-the-breezy-dragonfly.md`. **The Aeneid books are covered unevenly on
+purpose** (the user): V, VIII, X and XI are not bad, just less noteworthy than I, II, IV, VI, IX and XII; say so once
+in the What's New of the first Aeneid release. **The user's notes on Virgil are a DEFERRED job** (they are starting
+to study him): fold them in place when they arrive.
+
+**Structure (v2.1.0):** groups `bucolica` / `georgica` / `aeneis`; works `bucolica-1..10` ("Eclogue N" / "Egloga N"),
+`georgica-i..iv`, `aeneis-i..xii` ("Book N" / "Libro N"); empty works stay hidden. Citations `(Bucolica 1, vv. 1-18)`,
+`(Georgica IV, vv. 1-24)`, `(Aeneis III, vv. 655-665)`.
+
+**How a Virgil batch is built:** spec `{key: ["ec1"|"geo4"|"aen3", from, to]}` -> `node tools/extract_verse.js`
+(numbers every verse by Perseus, diffs every verse; differences are variants unless a word is broken) -> part files
+`batch/verg21NN_frags_x.js` (backticks; `{work, key, from, citation, en:[...], it:[...], title.., emend?, version?}`)
+-> builder `batch/verg2100_frags.js` pattern -> `node tools/apply_batch.js <passages> <builder> <version>
+--author=publius-vergilius-maro`. Speaker tags: add the poem's names to `sources.json` `_speakerTags` before
+extracting (Ecl. 5 Menalcas/Mopsus, Ecl. 7 Meliboeus/Corydon/Thyrsis, Ecl. 9 Lycidas/Moeris: check each page). Use
+`emend`, never `fix`, for whitespace: check_verses compares lines exactly and puts back emends only. Notes: Where we
+are -> what the passage does -> style (figures named; link to the three styles where it helps) -> theme ->
+Translating it -> On the text -> Grammar notes. Descriptions ~250 characters.
+
+**v2.1.0 record (Release 1, Ecl. 1-3):** Ecl. 1 vv. 1-18, 19-39, 40-63, 64-83 (the whole poem); Ecl. 2 vv. 1-18
+(rebuilt from the launch 6-18, keeps 2.0.0) and 56-73; Ecl. 3 vv. 1-15, 16-31, 44-59. Emends: Ecl. 1.17 doubled
+space, 1.18 *Tityre, nobis*; Ecl. 2.59 *inmisi*; Ecl. 3.9 and 3.54 dashes -> brackets. Perseus prints the
+interpolated Ecl. 1.17a (from Ecl. 9.15) as v. 18; the fetcher drops it (DROP table) so Ecl. 1 has the standard 83.
+Cross-links written in: Ecl. 2 <-> Aen. III (*informis*), Ecl. 1 <-> Ecl. 2 (evening closes), Ecl. 1 -> Georg. II.458
+(*O fortunatos*, coming in R5), Ecl. 3 -> Livius Andronicus (*Camena*). Launch excerpts Georg. IV 1-24 and Aen. III
+655-665 re-noted and re-described (the user's request), translations re-read: no change needed. **Next: R2 = Ecl. 3
+vv. 84-99, 100-111; Ecl. 4 (3); Ecl. 5 (4).**
+
 ---
 
 ## Gaius Valerius Catullus (`gaius-valerius-catullus`) - needsSelection, three works [v1.17.0, 2026-11-08]

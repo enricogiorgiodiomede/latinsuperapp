@@ -1,10 +1,13 @@
 /*
- * fetch_sections_perseus_verse.js - verse numbers for Lucretius, De Rerum
- * Natura, from the Perseus TEI edition (canonical-latinLit phi0550.phi001,
- * perseus-lat1), where every line is <l n="..."> inside a book div.
+ * fetch_sections_perseus_verse.js - verse numbers from the Perseus TEI editions,
+ * where every line is <l n="..."> inside a book (or poem) div. Lucretius, De
+ * Rerum Natura (phi0550.phi001, perseus-lat1), and since v2.1.0 Virgil: the
+ * Eclogues (phi0690.phi001, one div per POEM), Georgics (phi002) and Aeneid
+ * (phi003), all perseus-lat2.
  *
- *   node tools/fetch_sections_perseus_verse.js           # fetch (if not cached) and split the six books
- *   node tools/fetch_sections_perseus_verse.js --force   # re-download the XML
+ *   node tools/fetch_sections_perseus_verse.js              # every work in WORKS
+ *   node tools/fetch_sections_perseus_verse.js ecl aen      # only these
+ *   node tools/fetch_sections_perseus_verse.js --force      # re-download the XML
  *
  * Why this exists. The Latin Library prints a number only every five verses and
  * reorders a passage (Book I vv. 50-61 after v. 135), so counting lines on its
@@ -22,16 +25,23 @@
  *   <gap reason="lost"/>  a lost line - kept as an empty line flagged `gap`.
  *   <milestone/>          Loeb card numbers - ignored.
  *
- * Output: tools/.cache/sections/drn.<book>.json = { urn, source, lines: [{ n, text, del?, gap? }] }
+ * Output: tools/.cache/sections/<prefix>.<n>.json = { urn, source, lines: [{ n, text, del?, gap? }] }
+ * with prefix drn, ecl, georg or aen. extract_verse.js maps a Latin Library page
+ * to its file (lucretius3 -> drn.3, ec2 -> ecl.2, geo4 -> georg.4, aen3 -> aen.3).
  */
 'use strict';
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const URL = 'https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/master/data/phi0550/phi001/phi0550.phi001.perseus-lat1.xml';
+const BASE = 'https://raw.githubusercontent.com/PerseusDL/canonical-latinLit/master/data/';
+const WORKS = {
+  drn: { urn: 'phi0550.phi001.perseus-lat1', path: 'phi0550/phi001/phi0550.phi001.perseus-lat1.xml', xml: 'perseus-drn.xml' },
+  ecl: { urn: 'phi0690.phi001.perseus-lat2', path: 'phi0690/phi001/phi0690.phi001.perseus-lat2.xml', xml: 'perseus-verg-phi001.xml' },
+  georg: { urn: 'phi0690.phi002.perseus-lat2', path: 'phi0690/phi002/phi0690.phi002.perseus-lat2.xml', xml: 'perseus-verg-phi002.xml' },
+  aen: { urn: 'phi0690.phi003.perseus-lat2', path: 'phi0690/phi003/phi0690.phi003.perseus-lat2.xml', xml: 'perseus-verg-phi003.xml' }
+};
 const CACHE = path.join(__dirname, '.cache', 'sections');
-const XML = path.join(CACHE, 'perseus-drn.xml');
 
 function get(url) {
   return new Promise((resolve, reject) => {
@@ -56,18 +66,35 @@ function lineText(xml) {
     .trim();
 }
 
-async function main() {
-  fs.mkdirSync(CACHE, { recursive: true });
-  if (!fs.existsSync(XML) || process.argv.includes('--force')) {
-    fs.writeFileSync(XML, await get(URL), 'utf8');
+// Lines the Perseus file prints that the standard numbering leaves out. Ecl.
+// 1.17a, "saepe sinistra cava praedixit ab ilice cornix", is copied in from
+// Ecl. 9.15 in some manuscripts; Perseus numbers it 18 and so runs one ahead
+// for the rest of the poem, while every modern citation (and the Latin Library)
+// has 83 verses, "Urbem quam dicunt Romam" at 19. Dropped, and the rest
+// renumbered, so the app cites Ecl. 1 the way readers' books do.
+const DROP = { 'ecl.1': ['saepe sinistra cava praedixit ab ilice cornix.'] };
+
+// A book or poem div, whichever order its attributes come in (the Aeneid file
+// puts n= first).
+const DIV = /<div\b(?=[^>]*\btype="textpart")(?=[^>]*\bsubtype="(?:book|poem)")[^>]*\bn="(\d+)"[^>]*>/g;
+
+async function split(prefix) {
+  const w = WORKS[prefix];
+  const xmlFile = path.join(CACHE, w.xml);
+  if (!fs.existsSync(xmlFile) || process.argv.includes('--force')) {
+    fs.writeFileSync(xmlFile, await get(BASE + w.path), 'utf8');
   }
-  const src = fs.readFileSync(XML, 'utf8');
-  const books = src.split(/<div type="textpart" subtype="book" n="/).slice(1);
+  const src = fs.readFileSync(xmlFile, 'utf8');
+  const marks = [];
+  let d;
+  DIV.lastIndex = 0;
+  while ((d = DIV.exec(src))) marks.push({ n: d[1], at: d.index });
   let total = 0;
-  for (const chunk of books) {
-    const book = chunk.match(/^(\d+)"/)[1];
+  marks.forEach((mk, i) => {
+    const chunk = src.slice(mk.at, i + 1 < marks.length ? marks[i + 1].at : src.length);
     const lines = [];
-    const re = /<l n="([^"]+)">([\s\S]*?)<\/l>/g;
+    // Virgil's lines carry other attributes too (<l n="1" rend="indent">).
+    const re = /<l n="([^"]+)"[^>]*>([\s\S]*?)<\/l>/g;
     let m;
     while ((m = re.exec(chunk))) {
       const entry = { n: m[1], text: lineText(m[2]) };
@@ -75,12 +102,30 @@ async function main() {
       if (/<gap\b/.test(m[2])) entry.gap = true;
       lines.push(entry);
     }
-    fs.writeFileSync(path.join(CACHE, 'drn.' + book + '.json'),
-      JSON.stringify({ urn: 'urn:cts:latinLit:phi0550.phi001.perseus-lat1:' + book, source: URL, lines }, null, 2), 'utf8');
-    console.log('book ' + book + ': ' + lines.length + ' lines, last n=' + lines[lines.length - 1].n);
+    for (const text of (DROP[prefix + '.' + mk.n] || [])) {
+      const at = lines.findIndex(l => l.text === text);
+      if (at < 0) throw new Error(prefix + '.' + mk.n + ': DROP line not found: ' + text);
+      lines.splice(at, 1);
+      for (let k = at; k < lines.length; k++) {
+        if (/^\d+$/.test(lines[k].n)) lines[k].n = String(parseInt(lines[k].n, 10) - 1);
+      }
+      console.log(prefix + '.' + mk.n + ': dropped the interpolated line at ' + (at + 1) + ', renumbered after it');
+    }
+    fs.writeFileSync(path.join(CACHE, prefix + '.' + mk.n + '.json'),
+      JSON.stringify({ urn: 'urn:cts:latinLit:' + w.urn + ':' + mk.n, source: BASE + w.path, lines }, null, 2), 'utf8');
+    console.log(prefix + '.' + mk.n + ': ' + lines.length + ' lines, last n=' + (lines.length ? lines[lines.length - 1].n : '-'));
     total += lines.length;
+  });
+  console.log(total + ' lines -> tools/.cache/sections/' + prefix + '.<n>.json');
+}
+
+async function main() {
+  fs.mkdirSync(CACHE, { recursive: true });
+  const want = process.argv.slice(2).filter(a => !a.startsWith('--'));
+  for (const prefix of (want.length ? want : Object.keys(WORKS))) {
+    if (!WORKS[prefix]) throw new Error('unknown work ' + prefix + ' (known: ' + Object.keys(WORKS).join(', ') + ')');
+    await split(prefix);
   }
-  console.log(total + ' lines -> tools/.cache/sections/drn.<book>.json');
 }
 
 main().catch((e) => { console.error(e.message); process.exit(1); });

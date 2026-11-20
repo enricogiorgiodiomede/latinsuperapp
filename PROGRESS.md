@@ -8,31 +8,19 @@ Repo: `github.com/enricogiorgiodiomede/latinsuperapp` (branch `main`).
 
 ---
 
-## >>> THE AUGUSTAN ERA IS LIVE (v2.0.0, 2026-11-20); NEXT: TOP IT UP <<<
+## >>> THE MAIN JOB (the user, 2026-11-20): VIRGIL TO 100 <<<
 
-**Where the app stands:** v2.0.0 (cache `?v=274`), bank 702, verify 554/0. Three eras live. Augustus' Age published
-with 14 authors and the draft's 29 excerpts (built by `batch/aug200_build.js` from the two draft files; details in
-CHANGELOG.md [2.0.0] and practice_fragments_reference.md, "AUGUSTUS' AGE").
+**Where the app stands:** v2.1.0 (cache `?v=277`), bank 710, verify 562/0. Augustus' Age live since v2.0.0.
+**Virgil: Release 1 of 13 done** (Eclogues 1-3; Virgil restructured into nested choosers per eclogue and per book).
+The plan, with every verse range and the release table: `C:Usersenric.claudeplans
+ow-let-s-plan-the-breezy-dragonfly.md`;
+the running record: practice_fragments_reference.md, "Virgil". **Next: R2** (Ecl. 3 vv. 84-99, 100-111; Ecl. 4 whole in
+3; Ecl. 5 in 4). Version numbers are the user's.
 
-**Launch loose ends, closed in the same-day follow-up (cache `?v=275`):** Hyginus's portrait added (a clean copy
-of the Pope Hyginus medallion; the Alamy file in images_augustus/ must still never be committed); Gallus fr. 2
-proofread by the user against Wikipedia, no change; Epode 10 labelled, with a new `iambic-strophe` metre page.
-
-**Still open:** the metre pages for the hexameter, Sapphic stanza and elegiac couplet now say Horace, Virgil, Ovid and
-the elegists are in the app, but have no Augustan scanned examples yet. check_context: 16 name prompts on the new
-excerpts. The 29 launch notes are the draft's analyses, not yet in the later house shape.
-
-**The plan, in the user's order:**
-1. ~~Publish the Augustan Era~~ **DONE v2.0.0.**
-2. **Top it up** with practice excerpts, as Caesar's Age was (batches with a stop after each; the Catullus/Lucretius
-   verse pipeline for the poets, the Caesar/Sallust prose pipeline for Livy, Vitruvius, Augustus). Propose counts
-   per author first and wait for the user.
-3. **Alongside:** the two owed jobs - reorder other authors' older notes so additions sit next to the paragraph on the
-   same text; re-read the 15 older Pro Caelio / De Oratore translations.
-4. **Later:** extend Varro (11) and Nepos (8).
-
-The version number is the user's to give.
-
+**Deferred, on the list:** the user's notes on the Virgil excerpts (they are starting to study Virgil; fold in when
+sent). Scanned Augustan examples on the hexameter, Sapphic and elegiac metre pages. The other Augustan authors'
+top-ups after Virgil. The two older owed jobs: reorder other authors' notes; re-read 15 Pro Caelio / De Oratore
+translations. Later: Varro and Nepos.
 ---
 
 ## What the project is

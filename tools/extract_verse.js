@@ -28,19 +28,32 @@
 'use strict';
 const fs = require('fs');
 const path = require('path');
-const { verseLines } = require('./strip');
+const { verseLines, applySpeakerTags } = require('./strip');
 
 const [specFile, outFile] = process.argv.slice(2);
 if (!specFile || !outFile) throw new Error('usage: extract_verse.js <spec.json> <out.json>');
 
 const CACHE = path.join(__dirname, '.cache');
-const FOOTER = new Set(['Lucretius', 'The Latin Library', 'The Classics Page']);
+const FOOTER = new Set(['Lucretius', 'Vergil', 'The Latin Library', 'The Classics Page']);
+
+// Which Perseus file numbers a page (v2.1.0: Virgil joins Lucretius). The files
+// are written by fetch_sections_perseus_verse.js.
+function edition(page) {
+  const map = [[/^lucretius(\d+)$/, 'drn'], [/^ec(\d+)$/, 'ecl'], [/^geo(\d+)$/, 'georg'], [/^aen(\d+)$/, 'aen']];
+  for (const [re, prefix] of map) {
+    const m = page.match(re);
+    if (m) return prefix + '.' + m[1];
+  }
+  throw new Error('no Perseus edition known for page ' + page);
+}
 
 function fold(w) {
   return w.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
     .replace(/[^a-z]/g, '').replace(/j/g, 'i').replace(/v/g, 'u');
 }
-const foldLine = (s) => s.split(/\s+/).map(fold).filter(Boolean);
+// The Perseus text names no speaker, so a speaker tag ("ME. ", strip.js
+// applySpeakerTags) is left out of the word check.
+const foldLine = (s) => s.replace(/^[A-Z]{2}\. /, '').split(/\s+/).map(fold).filter(Boolean);
 
 // Number the verses of one cached page.
 //
@@ -55,10 +68,15 @@ const foldLine = (s) => s.split(/\s+/).map(fold).filter(Boolean);
 // printed numbers are then compared with the result and every disagreement is
 // reported as a misprint on the page.
 function numbered(page, ed) {
-  const all = verseLines(fs.readFileSync(path.join(CACHE, page + '.txt'), 'utf8'));
-  // The page opens with a site heading and a LIBER title, and closes with the
-  // site footer; none of those are verses.
-  const start = all.findIndex(v => v.text && /LIBER/.test(v.text)) + 1;
+  const lastN = Math.max(...ed.filter(l => /^\d+$/.test(l.n)).map(l => parseInt(l.n, 10)));
+  const file = path.join(CACHE, page + '.txt');
+  const all = verseLines(applySpeakerTags(fs.readFileSync(file, 'utf8'), file));
+  // The page opens with a site heading and a title, and closes with the site
+  // footer; none of those are verses. Lucretius's title has LIBER; Virgil's
+  // pages print theirs TWICE ("P. VERGILI MARONIS ECLOGA SECVNDA"), so the body
+  // starts after the last title line among the first few.
+  let start = 0;
+  all.slice(0, 6).forEach((v, i) => { if (v.text && /LIBER|MARONIS/.test(v.text)) start = i + 1; });
   const body = all.slice(start).filter(v => v.lacuna || !FOOTER.has(v.text));
   const byText = new Map();
   for (const l of ed) {
@@ -85,6 +103,10 @@ function numbered(page, ed) {
       for (let k = i; k < j; k++) nums[k] = before + (k - i) + 1;
     } else if (before === null && after !== null && i === 0) {
       for (let k = i; k < j; k++) nums[k] = after - (j - k);
+    } else if (before !== null && after === null && j === body.length && before + (j - i) === lastN) {
+      // A run at the END of the page fills it only if it lands exactly on the
+      // edition's last verse (v2.1.0: Ecl. 2.73 ends on a variant, Alexin).
+      for (let k = i; k < j; k++) nums[k] = before + (k - i) + 1;
     }
     i = j;
   }
@@ -107,8 +129,7 @@ for (const [key, entry] of Object.entries(spec)) {
   if (key.startsWith('_')) continue;
   const [page, from, to] = entry;
   if (!fs.existsSync(path.join(CACHE, page + '.txt'))) { out[key] = 'ERR no cached page ' + page; bad++; continue; }
-  const book = page.match(/(\d+)$/)[1];
-  const edFile = path.join(CACHE, 'sections', 'drn.' + book + '.json');
+  const edFile = path.join(CACHE, 'sections', edition(page) + '.json');
   if (!fs.existsSync(edFile)) { out[key] = 'ERR no Perseus file - run fetch_sections_perseus_verse.js'; bad++; continue; }
   const ed = JSON.parse(fs.readFileSync(edFile, 'utf8')).lines;
   if (!pages[page]) {

@@ -6,6 +6,46 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [2.1.0] - 2026-11-20
+
+**VIRGIL, RELEASE 1 OF 13: THE TOP-UP BEGINS (Eclogues 1-3).** First step of the plan to bring Virgil to 100
+(Bucolica 30, Georgica 30, Aeneid 40). 8 new excerpts + Ecl. 2 rebuilt; bank 702 -> **710**. Cache `?v=277`.
+
+### Added - Bucolica (8 new + 1 rebuilt)
+| excerpt | what it is |
+|---|---|
+| Ecl. 1 vv. 1-18 | *Tityre, tu patulae*: Tityrus at ease, Meliboeus in exile; the humble style |
+| Ecl. 1 vv. 19-39 | Rome seen by a slave; *Libertas*; Galatea and Amaryllis |
+| Ecl. 1 vv. 40-63 | the *iuvenis* (Octavian); *fortunate senex*; the *adynata* |
+| Ecl. 1 vv. 64-83 | exile to Africa, Scythia, Britain; *impius miles*; the evening close |
+| Ecl. 2 vv. 1-18 | **rebuilt** from the launch vv. 6-18 (keeps 2.0.0): the narrator's frame added; Theocritus *Id.* 11 |
+| Ecl. 2 vv. 56-73 | *Corydon, Corydon, quae te dementia cepit*; the cure is work |
+| Ecl. 3 vv. 1-15 | *cuium pecus* (Numitorius's parody); Theocritus *Id.* 4 and 5; aposiopesis |
+| Ecl. 3 vv. 16-31 | the stolen goat; *stridenti stipula* (Milton's "scrannel pipes"); the heifer staked |
+| Ecl. 3 vv. 44-59 | Alcimedon's cups with Orpheus; Palaemon judges; *amant alterna Camenae* |
+
+### Changed
+- **Virgil restructured** (`batch/verg2100_restructure.js`): three chooser groups on the Caesar pattern, one work per
+  eclogue (`bucolica-1..10`) and per book (`georgica-i..iv`, `aeneis-i..xii`). Georg. IV 1-24 -> `georgica-iv`, Aen.
+  III 655-665 -> `aeneis-iii` (both 2.0.0). `sources.json`: one key per eclogue/book.
+- **The user's two jobs on the launch excerpts**: Georg. IV 1-24 and Aen. III 655-665 get short new descriptions,
+  and their old long contexts are folded into new notes in the house shape (`batch/verg2100_old.js`,
+  `batch/verg2100_sync.js`; Latin and translations untouched). Ecl. 2 got the same in its rebuild (Theocritus,
+  Pollio's Alexander, *informis*). Translation fix: Ecl. 2 v. 16 *quamvis ... esses* "however fair you **were**".
+- **Tooling**: `fetch_sections_perseus_verse.js` now splits Virgil's Perseus editions too (phi0690.phi001/002/003),
+  dropping the interpolated Ecl. 1.17a so the numbering is the standard one (83 verses). `extract_verse.js` maps any
+  page to its edition, reads Virgil's doubled page title and footer, and numbers a final verse with a variant.
+  **Speaker tags**: `sources.json` `_speakerTags` + `strip.js` `applySpeakerTags` turn the page's speaker names
+  (glued to the verse in Ecl. 1, on their own line in Ecl. 3) into Terence-style tags (ME., TI., DA., PA.) when a
+  page is read by `extract_verse`, `verify` and `check_verses`.
+- **Declared corrections**: Ecl. 1 v. 18 space (*Tityre, nobis*) and a doubled space in v. 17; Ecl. 2 v. 59
+  *inmissi* -> *inmisi*; Ecl. 3 vv. 9 and 54 dashes -> round brackets.
+
+### Verification
+- verify 562/0; check_verses 82/0; check_numbering 252/0; check_metres 261/261; check_metre_quotes 54/0; lint_markdown,
+  lint_register, lint_ablatives 0; check_context 2 prompts (false positives: *Musam*, *Aspice*); check_sections lists
+  the new excerpts with the known line-for-line artefact.
+
 ## [2.0.0] - 2026-11-20
 
 ### Follow-up (same day, no version bump, cache `?v=275`)

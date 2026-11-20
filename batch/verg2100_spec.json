@@ -1,0 +1,13 @@
+{
+  "ecl.1.1": ["ec1", 1, 18],
+  "ecl.1.19": ["ec1", 19, 39],
+  "ecl.1.40": ["ec1", 40, 63],
+  "ecl.1.64": ["ec1", 64, 83],
+  "ecl.2.1": ["ec2", 1, 18],
+  "ecl.2.56": ["ec2", 56, 73],
+  "ecl.3.1": ["ec3", 1, 15],
+  "ecl.3.16": ["ec3", 16, 31],
+  "ecl.3.44": ["ec3", 44, 59],
+  "_regression_lucretius": "drn.1.62 checks the patched extractor still reads Lucretius",
+  "drn.1.62": ["lucretius1", 62, 79]
+}
