@@ -18,7 +18,8 @@
           'CATULLUS, PART EIGHT OF EIGHT: THE LIBER IS COMPLETE, WITH 60. The last five: the lock of Berenice swearing it left the queen\'s head against its will (a line Virgil gave to Aeneas); a gossiping front door in Verona that tells everything it has seen (explicit, with the warning); and three passages from Carmen 68, the letter to a friend from a brother in mourning, the thanks to Allius with Lesbia stepping on the threshold of a borrowed house, and Troy, the common grave, where the brother lies.'
         ],
         changed: [
-          'The poem at the brother\'s grave and the letter to Hortalus now point to Carmen 68.'
+          'The poem at the brother\'s grave and the letter to Hortalus now point to Carmen 68.',
+          'The notes on the last five excerpts were deepened from a reader\'s comments: why the lock protests and Lucretius on the double edge of iron, the rapid-fire dialogue of the door and why a gossip poem counts as learned, three letters about poetry and a grief that heals slowly, friendship as a debt turned into a test (with Cicero\'s De Amicitia), why Catullus could forgive Lesbia in Carmen 68 and not later, the open wound of the brother and Carmen 68 as a synthesis of all Catullus, and Foscolo\'s sonnet on his own brother beside Carmina 101 and 68. One sentence on Troy and the brother\'s death was made clearer.'
         ],
         deleted: [
           'Nothing was deleted.'
@@ -29,7 +30,8 @@
           'CATULLO, OTTAVA PARTE DI OTTO: IL LIBER È COMPLETO, CON 60. Gli ultimi cinque: la chioma di Berenice che giura di aver lasciato il capo della regina contro voglia (un verso che Virgilio diede a Enea); una porta di casa pettegola a Verona che racconta tutto ciò che ha visto (esplicito, con l\'avviso); e tre passi dal carme 68, la lettera a un amico da un fratello in lutto, il ringraziamento ad Allio con Lesbia che posa il piede sulla soglia di una casa prestata, e Troia, sepolcro comune, dove giace il fratello.'
         ],
         changed: [
-          'Il carme sulla tomba del fratello e la lettera a Ortalo ora rimandano al carme 68.'
+          'Il carme sulla tomba del fratello e la lettera a Ortalo ora rimandano al carme 68.',
+          'Le note sugli ultimi cinque estratti sono state approfondite a partire dai commenti di un lettore: perché la chioma protesta e Lucrezio sul doppio volto del ferro, il dialogo serrato della porta e perché un carme di pettegolezzi conta come dotto, tre lettere sulla poesia e un dolore che guarisce lentamente, l\'amicizia come debito trasformato in prova (con il De Amicitia di Cicerone), perché Catullo poteva perdonare Lesbia nel carme 68 e non più tardi, la ferita aperta del fratello e il carme 68 come sintesi di tutto Catullo, e il sonetto di Foscolo sul proprio fratello accanto ai carmi 101 e 68. Una frase su Troia e la morte del fratello è stata resa più chiara.'
         ],
         deleted: [
           'Non è stato eliminato nulla.'

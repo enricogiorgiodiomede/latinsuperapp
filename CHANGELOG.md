@@ -38,6 +38,25 @@ failed; check_metre_quotes 50/0; check_context 0 for 1.17.7 (153 bank-wide); lin
 lint_markdown clean; check_sections: the line-for-line artefact only (67 v. 21 and 68 vv. 19-20, 89 aligned to the
 Latin's sentence breaks). Bank **673**. Cache-bust: `?v=270` -> `?v=272` (271, then 272 for the release time, 19/11/2026 02:39 CET).
 
+### Follow-up 2026-11-20 - the user's notes on Release 8 (the last)
+- **Fix**: 68 vv. 89-104 said "a war over a broken marriage killed his brother", which reads as if the brother died in
+  the Trojan War. Rewritten: Troy became a grave through a war over an adulteress, and the brother, dead there
+  centuries later and not in any war, lies in that ground; the place, not the fighting, joins the stories.
+- **New paragraphs**, English and Italian, next to the paragraph on the same theme:
+  - 66 vv. 39-50: *Why the lock protests* (it speaks from the sky, cut to pay the vow, longing for the queen's head)
+    and *Iron, in Lucretius and in the lock* (DRN V, about vv. 1281-1307, iron for the plough and for war; not in the
+    app, cited without a link).
+  - 67: *A rapid-fire dialogue* (Carmen 10's snatches vs a full dialogue; Horace's *Sermones*) and *Learned in
+    manner, and a blameless door* (Carmen 16's rule; adultery comes in with people, not doors).
+  - 68 vv. 1-24: *Grief that heals slowly* and *Three letters about poetry* (116, 65, 68).
+  - 68 vv. 41-72: *Putting up with her* (68 belongs to the affair's middle years, 11/72/76/85 to the end; *era* and
+    63) and *A debt, and a test* (Roman *officium*; Cicero, De Amicitia 79, in the app).
+  - 68 vv. 89-104: *An open wound* (68 as a synthesis) and *Foscolo, the other way round*.
+- **Foscolo in Carmen 101**: *An echo in Foscolo* (*In morte del fratello Giovanni*, 1803; *di gente in gente* = *multas
+  per gentes*; checked, quoting only the stable opening, since the last tercet varies between printed versions).
+- Verification: 526/0 verbatim; check_context 0 for 1.17.7 (153 bank-wide, unchanged); check_metres 0 failed;
+  lint_markdown, lint_register, lint_ablatives clean. Cache-bust: `?v=272` -> `?v=273`.
+
 ## [1.17.6] - 2026-11-16
 
 **CATULLUS, RELEASE 7 OF 8: THE END OF CARMEN 64, CARMEN 65, AND THE LOCK OF BERENICE.** Five excerpts, written with

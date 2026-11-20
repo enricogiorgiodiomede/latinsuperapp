@@ -123,8 +123,17 @@ father in his son's bed, v. 30's crude metaphor) and its note says why it is wor
 the comic mirror of 61-64; *fides* in a comic key). Links: 66b -> Aeneid VI 460 and Pope's Rape of the Lock (both
 checked); 67 -> 64 epilogue (the father's crime), 76/87/109 (*fides*); 68a -> 65, 101, 50, 61 (*lusi*), Sappho's
 *glukupikron*; 68b -> 61 (the bride lifted over the threshold, vv. 159-161 of 61, not in the app) and 63 (*era*, v. 136),
-30 (*officium*); 68c -> 101 (backlinked), the close of the whole run. The user's notes on Release 8 may still come: fold
-them into v1.17.7 as usual.
+30 (*officium*); 68c -> 101 (backlinked), the close of the whole run.
+
+**THESES FROM THE NOTES ON RELEASE 8 (20/11/2026), folded into v1.17.7 - THE LAST CATULLUS NOTES:** explain the
+dramatic situation when an excerpt starts mid-speech (the lock's protest needed it); Lucretius V on iron as the serious
+twin of the lock's curse; 67's rapid-fire dialogue -> Horace's Sermones, learned in manner not subject, Carmen 16's
+rule, the blameless door; three letters about poetry (116, 65, 68); grief heals slowly; friendship as debt turned into
+a test (Cicero, De Amicitia 79); Lesbia's furta tolerated in 68 because 68 is earlier than the break (the user saw a
+contradiction); *era* confirms the 63 reading (as a reading); 68 as a synthesis and the fitting end; Foscolo's *In morte
+del fratello Giovanni* with 101 (and, reversed, 68). CORRECTION OWED BY ME AND GIVEN: my sentence "a war over a broken
+marriage killed his brother" was misleading (the brother did not die in the Trojan War) - rewritten. Nuances given:
+Carmen 10 already has quick exchanges, but 67 is the only full dialogue. CATULLUS IS CLOSED.
 
 **THESES FROM THE NOTES ON RELEASE 7 (19/11/2026), folded into v1.17.6:** inverted fates and poetic justice
 (Theseus falls, Ariadne saved); the jolt from broken promises (Ariadne) to the perfect pact (Parcae), with 61 and 87;
