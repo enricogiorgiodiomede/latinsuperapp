@@ -20,6 +20,17 @@ no build step and no dependencies.
   scanned examples are still to be added.
 - Sitemap 66 URLs.
 
+### Follow-up 2 (same day, no version bump, cache `?v=276`)
+- **Virgil: "The Three Styles: Virgil's Wheel"** (the user's request), a `###` inside Writing Style in
+  `augustan_era_draft.md` and a bold line in `italian_translations_augustan.md` (a heading there would switch
+  `build_content_it.js` out of the style section). Servius's preface to the *Bucolics* (*tres enim sunt characteres,
+  humilis, medius, grandiloquus*); the *ille ego* lines; Spenser; John of Garland's *rota Vergilii* (described
+  without its item list, which could not be confirmed); style is not difficulty (the *Georgics* are middle style but
+  the hardest); Dante (Inf. I.85-87, DVE II.4, Inf. XXXII.1, Par. I.70-71, *comedìa* at Inf. XVI.128, XXI.2), with the
+  canticles-as-three-registers reading framed as an interpretation.
+- Plan for the Virgil top-up to 100 agreed (R1-R13); recorded in PROGRESS.md and the reference sheet as releases
+  land.
+
 **AUGUSTUS' AGE IS LIVE: THE THIRD ERA, AND THE BIGGEST RELEASE SO FAR.** The Golden Age of Latin literature goes
 from "coming soon" to fourteen authors with full profiles, portraits, difficulty charts and **29 practice excerpts**,
 all taken from `augustan_era_draft.md` and `italian_translations_augustan.md` (complete since 31/10/2026).

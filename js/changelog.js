@@ -26,7 +26,8 @@
           'The practice bank grows to 702 excerpts across three eras.',
           'Hyginus now has his portrait: a clean copy of the papal medallion of his namesake, Pope Hyginus.',
           'A new metre page, the Iambic Strophe (iambic trimeter + iambic dimeter), the metre Horace took from Archilochus for his Epodes, with two couplets of Epode 10 scanned; Epode 10 now links to it.',
-          'The metre pages no longer say that Horace and the elegists are "not in this app yet".'
+          'The metre pages no longer say that Horace and the elegists are "not in this app yet".',
+          'Virgil\'s page has a new section, "The Three Styles: Virgil\'s Wheel": the ancient idea that his three works are written in the three styles, humble, middle and grand, the medieval wheel that drew it, why the middle style is not the middle difficulty, and how Dante\'s Comedy can be read as the same climb, from the low register of the Inferno to the sublime of the Paradiso.'
         ],
         deleted: [
           'Nothing was deleted.'
@@ -45,7 +46,8 @@
           'La raccolta di esercizi sale a 702 estratti in tre epoche.',
           'Igino ha ora il suo ritratto: una copia pulita del medaglione papale del suo omonimo, papa Igino.',
           'Una nuova pagina dei metri, la Strofe Giambica (trimetro giambico + dimetro giambico), il metro che Orazio prese da Archiloco per i suoi Epodi, con due distici dell\'Epodo 10 scanditi; l\'Epodo 10 ora vi rimanda.',
-          'Le pagine dei metri non dicono più che Orazio e gli elegiaci "non sono ancora in questa app".'
+          'Le pagine dei metri non dicono più che Orazio e gli elegiaci "non sono ancora in questa app".',
+          'La pagina di Virgilio ha una nuova sezione, "Tre stili: la ruota di Virgilio": l\'idea antica che le sue tre opere siano scritte nei tre stili, umile, medio e sublime, la ruota medievale che la disegnò, perché lo stile medio non è la difficoltà media, e come la Commedia di Dante si possa leggere come la stessa salita, dal registro basso dell\'Inferno al sublime del Paradiso.'
         ],
         deleted: [
           'Non è stato eliminato nulla.'
