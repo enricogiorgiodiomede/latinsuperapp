@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '2.1.1', date: '23/11/2026', time: '00:00', tz: 'CET',
+      v: '2.1.1', date: '23/11/2026', time: '02:00', tz: 'CET',
       en: {
         added: [
           'VIRGIL, PART TWO: THE ECLOGUES REACH THEIR HEART. Nine new excerpts, and Eclogues 1 to 5 are now in the app.',
