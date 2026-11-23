@@ -10,12 +10,12 @@ Repo: `github.com/enricogiorgiodiomede/latinsuperapp` (branch `main`).
 
 ## >>> THE MAIN JOB (the user, 2026-11-20): VIRGIL TO 100 <<<
 
-**Where the app stands:** v2.1.0 (cache `?v=277`), bank 710, verify 562/0. Augustus' Age live since v2.0.0.
-**Virgil: Release 1 of 13 done** (Eclogues 1-3; Virgil restructured into nested choosers per eclogue and per book).
+**Where the app stands:** v2.1.1 (cache `?v=279`), bank 719, verify 571/0. Augustus' Age live since v2.0.0.
+**Virgil: Releases 1-2 of 13 done** (Eclogues 1-5, Bucolica 18 of 30; nested choosers per eclogue and per book).
 The plan, with every verse range and the release table: `C:Usersenric.claudeplans
 ow-let-s-plan-the-breezy-dragonfly.md`;
-the running record: practice_fragments_reference.md, "Virgil". **Next: R2** (Ecl. 3 vv. 84-99, 100-111; Ecl. 4 whole in
-3; Ecl. 5 in 4). Version numbers are the user's.
+the running record: practice_fragments_reference.md, "Virgil". **Next: R3** (Ecl. 6-10, 12 excerpts: Bucolica
+complete at 30). Version numbers are the user's.
 
 **Deferred, on the list:** the user's notes on the Virgil excerpts (they are starting to study Virgil; fold in when
 sent). Scanned Augustan examples on the hexameter, Sapphic and elegiac metre pages. The other Augustan authors'

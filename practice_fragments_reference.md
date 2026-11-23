@@ -91,6 +91,15 @@ Tasso's Erminia among the shepherds (*Ger. lib.* VII, back in XIX) for short-liv
 never replace the heifer; Palaemon's verdict (vv. 108-111) still speaks of the heifer. **For R2:** Ecl. 3's verdict
 (both deserve the heifer: a draw, which fits the "fought for pride" reading); Ecl. 5's pipe quoting Ecl. 2 and 3.
 
+**v2.1.1 record (Release 2, 23/11/2026):** Ecl. 3 vv. 84-99, 100-111; Ecl. 4 vv. 1-17, 18-39, 40-63 (the whole poem);
+Ecl. 5 vv. 1-19, 20-44, 56-80, 81-90. Bucolica 18 of 30. Speaker tags added for ec5. Emends: dashes -> brackets at
+Ecl. 3.93, 3.102, 3.104, 4.48; Ecl. 5.79 *Vt* -> *Ut*. Ecl. 5's page writes consonantal v as u (kept). Cross-links
+written in: Horace Epode 10 (Mevius), Dante Inf. VII.84 (*latet anguis*), Pascoli *Myricae*, Catullus 64 vv. 323-337
+(the Fates' refrain) and 384-408 (the lost golden age), Dante Purg. XXII (Statius), Lucretius V.8, Georg. I.154 and
+I.145, Theocritus *Id.* 1 and 7, Ecl. 1's *otia* and young god. **Next: R3 = Ecl. 6 (1-12, 64-73), Ecl. 7 (1-20,
+61-70), Ecl. 8 (37-50, 64-80), Ecl. 9 whole (1-25, 26-50, 51-67), Ecl. 10 (1-15, 50-69, 70-77): Bucolica complete at
+30.** Speaker tags to add first: Ecl. 7 and Ecl. 9 (check the pages).
+
 ---
 
 ## Gaius Valerius Catullus (`gaius-valerius-catullus`) - needsSelection, three works [v1.17.0, 2026-11-08]

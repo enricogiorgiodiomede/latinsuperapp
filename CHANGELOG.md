@@ -6,6 +6,34 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [2.1.1] - 2026-11-23
+
+**VIRGIL, RELEASE 2 OF 13 (end of Ecl. 3, Ecl. 4, Ecl. 5).** 9 new excerpts; bank 710 -> **719**; Bucolica 18 of 30.
+Cache `?v=279`. Notes written with the user's Release 1 theses from the start.
+
+### Added - Bucolica (9)
+| excerpt | what it is |
+|---|---|
+| Ecl. 3 vv. 84-99 | the contest: Pollio, Bavius and Mevius (Horace's Epode 10), *latet anguis in herba* (Dante, Inf. VII.84) |
+| Ecl. 3 vv. 100-111 | the two riddles (Servius: Caelius's grave; the hyacinth's AI), Palaemon's draw, *sat prata biberunt* |
+| Ecl. 4 vv. 1-17 | *paulo maiora canamus* (Pascoli's *Myricae*), the Sibyl, Justice returns; the child (Antony and Octavia? Pollio?) |
+| Ecl. 4 vv. 18-39 | the golden age grows with the child; the second Argo and Achilles; Catullus 64's lost age reversed |
+| Ecl. 4 vv. 40-63 | the Fates' *currite* (Catullus 64), *incipe, parve puer*; Constantine and Dante (Purg. XXII); *qui non risere parenti* |
+| Ecl. 5 vv. 1-19 | Menalcas and Mopsus: courtesy, no contest; Theocritus *Id.* 1 |
+| Ecl. 5 vv. 20-44 | Daphnis's death: pathetic fallacy, the land dies (Georg. I.154), Caesar in Servius |
+| Ecl. 5 vv. 56-80 | the apotheosis (25 lines answering 25), *deus, deus ille* (Lucretius V.8), *otia* (Ecl. 1), *Divus Iulius* |
+| Ecl. 5 vv. 81-90 | the gifts: the pipe that taught Ecl. 2 and 3 (self-quotation, *sphragis*), Lycidas's crook (Theocritus *Id.* 7) |
+
+### Changed
+- `sources.json` `_speakerTags`: Ecl. 5 (Menalcas ME., Mopsus MO.).
+- Declared corrections: dashes -> round brackets at Ecl. 3.93, 3.102, 3.104, 4.48; Ecl. 5.79 *Vt* -> *Ut* (the page
+  writes consonantal v as u throughout Ecl. 5, kept). Variants kept and explained: Ecl. 4.62 *qui non risere parenti*
+  (Perseus *cui ... parentes*), Ecl. 4.52 *laetantur*, 4.55 *vincat*, Ecl. 5.28 *silvaque*.
+
+### Verification
+- verify 571/0 (9/9 new); check_verses 91/0; check_numbering 261/0; check_metres 270/270; lint_markdown,
+  lint_register, lint_ablatives 0; check_context 0 for 2.1.1 (names glossed in the notes).
+
 ## [2.1.0] - 2026-11-20
 
 **VIRGIL, RELEASE 1 OF 13: THE TOP-UP BEGINS (Eclogues 1-3).** First step of the plan to bring Virgil to 100

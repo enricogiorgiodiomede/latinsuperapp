@@ -12,6 +12,37 @@
 
   var VERSIONS = [
     {
+      v: '2.1.1', date: '23/11/2026', time: '00:00', tz: 'CET',
+      en: {
+        added: [
+          'VIRGIL, PART TWO: THE ECLOGUES REACH THEIR HEART. Nine new excerpts, and Eclogues 1 to 5 are now in the app.',
+          'THE END OF ECLOGUE 3: the singing contest in full swing, with praise for Virgil\'s patron Pollio, a curse on two bad poets and the famous warning "latet anguis in herba", a snake lies hidden in the grass; then two riddles nobody has ever solved for certain, and a judge who declares a draw.',
+          'ECLOGUE 4, THE WHOLE POEM, in three excerpts: the most famous of the Eclogues, the prophecy of a child and a new golden age written as the civil wars seemed to end, which the Middle Ages read as a prophecy of Christ and Dante made into the moment a poet became a Christian. It ends on a baby\'s first smile.',
+          'ECLOGUE 5, in four excerpts: two friends, not rivals, sing the death of the shepherd Daphnis and his rise to heaven as a god, read by the ancients as Julius Caesar; then they exchange gifts, and Virgil signs his work with the pipe that "taught" him Eclogues 2 and 3.'
+        ],
+        changed: [
+          'Virgil\'s Eclogues chooser now offers Eclogues 1 to 5.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'VIRGILIO, SECONDA PARTE: LE BUCOLICHE ARRIVANO AL LORO CUORE. Nove nuovi estratti, e le Egloghe dalla 1 alla 5 sono ora nell\'app.',
+          'LA FINE DELL\'EGLOGA 3: la gara di canto nel vivo, con le lodi del patrono di Virgilio, Pollione, una maledizione per due cattivi poeti e il celebre avvertimento "latet anguis in herba", una serpe si nasconde nell\'erba; poi due indovinelli che nessuno ha mai risolto con certezza, e un giudice che dichiara il pareggio.',
+          'L\'EGLOGA 4, IL CARME INTERO, in tre estratti: la più famosa delle Bucoliche, la profezia di un bambino e di una nuova età dell\'oro scritta quando le guerre civili sembravano finite, che il Medioevo lesse come una profezia di Cristo e Dante fece diventare il momento in cui un poeta si fece cristiano. Finisce sul primo sorriso di un bambino.',
+          'L\'EGLOGA 5, in quattro estratti: due amici, non rivali, cantano la morte del pastore Dafni e la sua ascesa al cielo come dio, letta dagli antichi come Giulio Cesare; poi si scambiano doni, e Virgilio firma la sua opera con il flauto che gli "insegnò" le Egloghe 2 e 3.'
+        ],
+        changed: [
+          'Il menu delle Bucoliche di Virgilio offre ora le Egloghe dalla 1 alla 5.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '2.1.0', date: '20/11/2026', time: '23:30', tz: 'CET',
       en: {
         added: [

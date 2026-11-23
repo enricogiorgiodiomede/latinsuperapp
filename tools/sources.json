@@ -108,7 +108,8 @@
   "_speakerTagsNote": "v2.1.0. In the dialogue eclogues the page names the speaker glued to the verse or on its own line; strip.js applySpeakerTags turns each into a tag in front of the verse, like the Terence pages (SI., SO.). Set per page; a name counts only when an upper-case letter follows it.",
   "_speakerTags": {
     "vergil/ec1": { "Meliboeus": "ME.", "Tityrus": "TI." },
-    "vergil/ec3": { "Menalcas": "ME.", "Damoetas": "DA.", "Palaemon": "PA." }
+    "vergil/ec3": { "Menalcas": "ME.", "Damoetas": "DA.", "Palaemon": "PA." },
+    "vergil/ec5": { "Menalcas": "ME.", "Mopsus": "MO." }
   },
   "bucolica-1": ["vergil/ec1"],
   "bucolica-2": ["vergil/ec2"],
