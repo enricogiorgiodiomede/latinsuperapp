@@ -41,6 +41,21 @@ no build step and no dependencies.
 - **Declared corrections**: Ecl. 1 v. 18 space (*Tityre, nobis*) and a doubled space in v. 17; Ecl. 2 v. 59
   *inmissi* -> *inmisi*; Ecl. 3 vv. 9 and 54 dashes -> round brackets.
 
+### Follow-up (2026-11-23, no version bump, cache `?v=278`)
+- **The user's notes on Release 1 folded in place** (EN + IT) in all nine new excerpts, via the part files and
+  `batch/verg2100_sync_notes.js` (analysis only; Latin, translations and versions untouched). New paragraphs:
+  Ecl. 1.1 *Tityrus before, Meliboeus after?* (with the evidence: the *Lives* vs Eclogue 9) and the Mantuan setting,
+  the goat image, *nos* for all the dispossessed; Ecl. 1.19 Rome measured by a shepherd, Galatea like Catullus and
+  Lesbia, the Mantua/Rome allegory as a statement, the open question of Amaryllis's fruit; Ecl. 1.40 *An Epicurean
+  peace, granted from above* (Siro), the Theocritean bees (*Id.* 1.1, 7); Ecl. 1.64 Virgil's own verdict and the
+  *Georgics* as an answer, *An open ending* with Tasso's Erminia (*Ger. lib.* VII, XIX); Ecl. 2.1 *Love as madness*
+  (Ecl. 10's Gallus; Ariosto, *Furioso* XXIII); Ecl. 2.56 *A madman who sees his own madness* (*omnia vincit amor*
+  vs Georg. I.145-146 *labor omnia vicit*); Ecl. 3.1 *How fast it escalates*; Ecl. 3.16 *Who attacks, who strikes*;
+  Ecl. 3.44 *Coincidences, and the wrong reasons to sing* (the heifer stays the stake: vv. 108-111).
+- Checked and nuanced: whether Virgil kept his farm is uncertain (ancient *Lives* say yes, Ecl. 9 suggests not), so
+  "Tityrus before, Meliboeus after" is given as a reading; the *Georgics* "as an answer" to ruined farming is given as
+  a common reading. verify 562/0, check_verses 82/0, check_numbering 252/0, lint_markdown 0.
+
 ### Verification
 - verify 562/0; check_verses 82/0; check_numbering 252/0; check_metres 261/261; check_metre_quotes 54/0; lint_markdown,
   lint_register, lint_ablatives 0; check_context 2 prompts (false positives: *Musam*, *Aspice*); check_sections lists

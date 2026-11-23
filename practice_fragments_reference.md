@@ -77,6 +77,20 @@ Cross-links written in: Ecl. 2 <-> Aen. III (*informis*), Ecl. 1 <-> Ecl. 2 (eve
 655-665 re-noted and re-described (the user's request), translations re-read: no change needed. **Next: R2 = Ecl. 3
 vv. 84-99, 100-111; Ecl. 4 (3); Ecl. 5 (4).**
 
+**THE USER'S THESES FROM THE NOTES ON RELEASE 1 (23/11/2026), folded into v2.1.0 - write them into every later
+Virgil note from the start:** the civil wars' anguish runs under every eclogue (the idyll is an escape history keeps
+breaking into); Tityrus = Virgil before the loss, Meliboeus = Virgil after (a READING: the *Lives* say he got the
+farm back, Ecl. 9 suggests not); the Eclogues as an Epicurean refuge (Siro, "living unnoticed"), but peace now has
+to be GRANTED by power, which is politics; love as madness, often unrequited, comic in Ecl. 2 and tragic in Ecl. 10
+(Gallus); *omnia vincit amor* (Ecl. 10) vs *labor omnia vicit* (Georg. I.145-146): work as the cure; the *Georgics*
+as an answer to farming ruined by the confiscations (a common reading); Virgil leaves things OPEN for the reader
+(Meliboeus's answer, Amaryllis's fruit) - say so where it happens; bucolic does not mean peaceful; Ecl. 3: escalation
+is the comedy, and the contest is fought for pride, not for song. Cross-references they like and that were checked:
+Tasso's Erminia among the shepherds (*Ger. lib.* VII, back in XIX) for short-lived pastoral peace; Ariosto's Orlando
+(*Furioso* XXIII, the shepherd who tells him the story) for love's madness. A correction given: in Ecl. 3 the cups
+never replace the heifer; Palaemon's verdict (vv. 108-111) still speaks of the heifer. **For R2:** Ecl. 3's verdict
+(both deserve the heifer: a draw, which fits the "fought for pride" reading); Ecl. 5's pipe quoting Ecl. 2 and 3.
+
 ---
 
 ## Gaius Valerius Catullus (`gaius-valerius-catullus`) - needsSelection, three works [v1.17.0, 2026-11-08]

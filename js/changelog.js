@@ -22,7 +22,8 @@
         ],
         changed: [
           'Virgil now has his own nested chooser: pick the Eclogues, the Georgics or the Aeneid, then the poem or the book.',
-          'The two earlier Virgil excerpts, the bees of Georgics IV and the Cyclops of Aeneid III, have shorter introductions and much fuller notes, in the same shape as the new ones.'
+          'The two earlier Virgil excerpts, the bees of Georgics IV and the Cyclops of Aeneid III, have shorter introductions and much fuller notes, in the same shape as the new ones.',
+          'The notes on all nine new Eclogue excerpts were deepened from a reader\'s comments: the anguish of the civil wars under the idyll, Tityrus as Virgil before the loss and Meliboeus after, an Epicurean peace that now has to be granted from above, the open ending of Eclogue 1 and Tasso\'s Erminia among the shepherds, love as madness from Corydon to Ariosto\'s Orlando, work as the cure for love, and how quickly a quarrel between two shepherds turns into a singing contest fought for pride.'
         ],
         deleted: [
           'Nothing was deleted.'
@@ -37,7 +38,8 @@
         ],
         changed: [
           'Virgilio ha ora un suo menu a più livelli: si sceglie Bucoliche, Georgiche o Eneide, poi il carme o il libro.',
-          'I due estratti di Virgilio già presenti, le api del IV libro delle Georgiche e il Ciclope del III dell\'Eneide, hanno introduzioni più brevi e note molto più complete, con la stessa forma di quelle nuove.'
+          'I due estratti di Virgilio già presenti, le api del IV libro delle Georgiche e il Ciclope del III dell\'Eneide, hanno introduzioni più brevi e note molto più complete, con la stessa forma di quelle nuove.',
+          'Le note su tutti e nove i nuovi estratti delle Bucoliche sono state approfondite a partire dai commenti di un lettore: l\'angoscia delle guerre civili sotto l\'idillio, Titiro come Virgilio prima della perdita e Melibeo dopo, una pace epicurea che ora deve essere concessa dall\'alto, il finale aperto dell\'Egloga 1 ed Erminia tra i pastori del Tasso, l\'amore come follia da Coridone all\'Orlando dell\'Ariosto, il lavoro come cura dell\'amore, e la velocità con cui una lite tra due pastori diventa una gara di canto combattuta per orgoglio.'
         ],
         deleted: [
           'Non è stato eliminato nulla.'
