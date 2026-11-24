@@ -137,6 +137,17 @@ Cinna's death; Callimachus's Heraclitus epigram; Pliny NH on the wolf; Gallus's 
 10.64) vs *labor omnia vicit*; Propertius I.18, Ariosto XIX/XXIII; Ecl. 1's *umbra* and Ecl. 10's; Ecl. 3.111 and
 Catullus 61's *lusimus satis*. **Next: R4 = Georgics I.**
 
+**ADVANCED SETTINGS (v2.1.3 follow-up, 24/11/2026, the user's request): metre marks and readings on verse excerpts.**
+Live on all 30 Eclogue excerpts. Every NEW Virgil hexameter excerpt (Georgics, Aeneid) can get it too: fetch the
+matching hypotactic pages (georgics1.., aeneid1.. - check the names in hypotactic.com/latin/authors.html), extend
+`tools/build_scansion.js` beyond `bucolica-N` (work id -> page name), run it, settle every reported verse with a rule
+in js/scansion.js or an OVERRIDE with its reason, then `--write`. The menu appears by itself once every verse of an
+excerpt has codes. A verse whose Latin changes later (an emend) drops out of the menu until the data is rebuilt, so
+REBUILD the data after any emend on a scanned excerpt. Found on the first run: Ecl. 5.57 lacked *-que* (now mended).
+The user's spec: accentual reading = the ictus (first long of each foot) in capitals with an accent, e.g. a-VÉ-na,
+pa-tu-LÉ; quantitative = long syllables with a doubled vowel, a-vee-naa; ecclesiastical ae/oe = e; synaloephas
+shown in both.
+
 ---
 
 ## Gaius Valerius Catullus (`gaius-valerius-catullus`) - needsSelection, three works [v1.17.0, 2026-11-08]

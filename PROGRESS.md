@@ -10,7 +10,7 @@ Repo: `github.com/enricogiorgiodiomede/latinsuperapp` (branch `main`).
 
 ## >>> THE MAIN JOB (the user, 2026-11-20): VIRGIL TO 100 <<<
 
-**Where the app stands:** v2.1.3 (cache `?v=283`), bank 737, verify 589/0. Augustus' Age live since v2.0.0.
+**Where the app stands:** v2.1.3 (cache `?v=284`), bank 737, verify 589/0. Augustus' Age live since v2.0.0. **Advanced settings** (metre marks + accentual/quantitative readings) live on all 30 Eclogue excerpts: js/advanced.js, js/scansion.js, js/scansion-data.js (built by tools/build_scansion.js, checked against hypotactic.com).
 **Virgil: Releases 1, 2, 3 and 7 done** (Eclogues 1-10: **the Bucolica complete at 30** in v2.1.3; Georgics IV's Aristaeus/Orpheus/signature brought forward in v2.1.2 for the user's class).
 The plan, with every verse range and the release table: `C:\Users\enric\.claude\plans\now-let-s-plan-the-breezy-dragonfly.md`;
 the running record: practice_fragments_reference.md, "Virgil". **Next: R4** (Georgics I). Version numbers are the user's.

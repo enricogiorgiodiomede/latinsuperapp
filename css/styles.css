@@ -765,6 +765,139 @@ blockquote {
 
 .latin-text em { color: var(--ink-soft); font-size: 0.92em; }
 
+/* ---- Advanced settings (js/advanced.js): metre marks and readings ---------- */
+.adv-row {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin: -4px 0 8px;
+}
+.adv-toggle { font-size: 0.88rem; padding: 6px 12px; }
+.adv-row.is-open .adv-caret { display: inline-block; transform: rotate(180deg); }
+.adv-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  z-index: 30;
+  width: min(360px, calc(100vw - 32px));
+  background: var(--parchment);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  box-shadow: var(--shadow-lift);
+  padding: 10px 14px 12px;
+  font-family: var(--font-ui);
+}
+.adv-menu[hidden] { display: none; }
+.adv-group + .adv-group { border-top: 1px solid var(--line); margin-top: 8px; padding-top: 8px; }
+.adv-group-title {
+  margin: 2px 0 6px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: var(--deep-red);
+}
+.adv-item {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 5px 4px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.adv-item:hover { background: var(--stone); }
+.adv-item input { margin-top: 3px; accent-color: var(--deep-red); flex: none; }
+.adv-item-name { display: block; font-weight: 600; font-size: 0.92rem; color: var(--ink); }
+.adv-item-hint { display: block; font-size: 0.8rem; color: var(--ink-soft); line-height: 1.35; }
+
+.sc-legend {
+  margin: -10px 0 18px;
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}
+.sc-legend[hidden] { display: none; }
+.sc-tag { font-size: 0.85em; color: var(--ink-soft); }
+
+/* syllables and feet */
+.latin-text.sc-syl-on { line-height: 2.5; }
+.latin-text.sc-syl-on .sc-line { white-space: normal; }
+.sc-syl { position: relative; }
+.sc-syl-on .sc-syl.q-L::before,
+.sc-syl-on .sc-syl.q-S::before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -1.05em;
+  text-align: center;
+  font-family: var(--font-ui);
+  font-size: 0.85em;
+  line-height: 1;
+  color: var(--deep-red);
+  pointer-events: none;
+}
+.sc-syl-on .sc-syl.q-L::before { content: '–'; font-weight: 700; }
+.sc-syl-on .sc-syl.q-S::before { content: '˘'; font-size: 0.9em; top: -1.05em; }
+.sc-syl-on .sc-syl.q-E { color: var(--gray); }
+.sc-syl-on .sc-syl.ft-D { background: rgba(58, 90, 120, 0.13); }
+.sc-syl-on .sc-syl.ft-S { background: rgba(184, 137, 59, 0.22); }
+.sc-syl-on .sc-syl.ft-F { background: rgba(110, 99, 88, 0.14); }
+.sc-syl-on .sc-syl.ft-start { border-left: 1px dashed rgba(43, 38, 34, 0.5); padding-left: 2px; }
+
+/* caesurae */
+.sc-caes { display: none; }
+.sc-caes-on .sc-caes {
+  display: inline-block;
+  margin: 0 0.2em;
+  transform: scaleY(1.25);
+  font-family: var(--font-ui);
+  font-weight: 700;
+  color: #6b3fa0;
+  cursor: help;
+}
+.sc-caes-on .sc-caes.is-main { color: #5a2a8f; font-size: 1.05em; }
+
+/* synaloephas */
+.sc-tie { display: none; }
+.sc-syn-on .sc-syl.syn { color: #c0262d; font-weight: 600; }
+.sc-syn-on .sc-tie { display: inline; color: #c0262d; font-weight: 700; margin: 0 -0.05em; }
+
+/* the readings */
+.reading-panel {
+  background: var(--parchment);
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--gold);
+  border-radius: 0 10px 10px 0;
+  padding: 12px 18px 14px;
+  margin: -6px 0 18px;
+}
+.reading-panel h3 {
+  margin: 0 0 4px;
+  font-size: 1rem;
+  color: var(--deep-red);
+}
+.reading-note {
+  margin: 0 0 10px;
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+}
+.reading-text {
+  font-family: var(--font-serif);
+  font-size: 1.12rem;
+  line-height: 1.75;
+  overflow-wrap: anywhere;
+}
+.rd-ictus { color: var(--deep-red); font-weight: 700; }
+.rd-long { color: var(--blue); font-weight: 600; }
+.rd-elided { color: #c0262d; }
+
+@media (max-width: 640px) {
+  .adv-row { justify-content: flex-start; }
+  .adv-menu { left: 0; right: 0; width: auto; }
+  .reading-text { font-size: 1rem; }
+}
+
 .practice-label {
   display: block;
   font-weight: 600;

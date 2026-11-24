@@ -39,6 +39,23 @@ Virgil leaving things open, the snake, self-quotation as a signature, the centra
   Ecl. 10.61 *aut* (Perseus *ut*), and the page's old spellings (*saluos*, *saeuos*, *tuos*, *tuom*, *litis*,
   *fontis*, *frondis*). The page writes consonantal v as u throughout Ecl. 6-10 (kept).
 
+### Follow-up (2026-11-24, no version bump, cache `?v=284`): Advanced settings for verse excerpts
+- **New "Advanced settings" menu** on every Eclogue excerpt (all 30, 533 verses), in `js/advanced.js` (hooked from
+  `js/practice.js`, which calls it for every excerpt; it shows only where every verse has scansion data). METRE: syllable
+  quantities (– / ˘ above each syllable, dactyls blue, spondees gold, last foot grey, a dashed line opening each
+  foot), caesurae (‖ main, | secondary: penthemimeral, trochaic of the 3rd foot, trihemimeral, hephthemimeral,
+  bucolic diaeresis; no caesura after a monosyllabic preposition or inside a synaloepha), synaloephas in red with
+  a tie. The three switches are remembered (localStorage `latinapp_adv`). READING: accentual (ictus on the first
+  long of each foot, capitals + acute) and quantitative (long syllables with a doubled vowel; the last syllable
+  counts long) panels below the Latin; ecclesiastical ae/oe = e; consonantal u written v; elided syllables struck
+  through and tied. EN + IT strings `adv.*` in `js/i18n.js`; CSS in `css/styles.css` ("Advanced settings").
+- **`js/scansion.js`** (engine: syllables, consonantal i/u, muta cum liquida, synaloepha, position, feet,
+  caesurae, readings) and **`js/scansion-data.js`** (GENERATED: one code per syllable, L/S/E) by
+  **`tools/build_scansion.js`**, which cross-checks every verse against the scanned Eclogues at hypotactic.com
+  (syllable counts word by word, position/diphthong never short, codes make a hexameter). 533/533 agree.
+- **Ecl. 5.57 mended**: *sub pedibus uidet* -> *sub pedibusque uidet* (Perseus; the page dropped *-que*, and the
+  verse does not scan without it). Declared emend; the note's "On the text" now says so (EN + IT).
+
 ### Verification
 - verify 589/0 (12/12 new); check_verses 109/0; check_numbering 279/0; check_metres 288/288; lint_markdown,
   lint_register, lint_ablatives 0; check_context 0 for 2.1.3; lint_translations: only the 4 older flags.

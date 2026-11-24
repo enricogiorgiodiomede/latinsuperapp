@@ -20,10 +20,12 @@
           'ECLOGUE 7: the second singing contest, told from memory by the man who watched it, and this time with a winner: "From that day on, Corydon is Corydon for us."',
           'ECLOGUE 8: two songs in borrowed voices. A goatherd remembers the first time he saw the girl now marrying another man ("ut vidi, ut perii"), and a woman works a love spell to bring her Daphnis home from the city.',
           'ECLOGUE 9, WHOLE: the darkest poem of the book. An old shepherd walks to town with a gift for the soldier who took his farm, songs prove useless "among the weapons of Mars", and the poem ends without the song it promised.',
-          'ECLOGUE 10: Gallus dying of love in Arcadia, "Omnia vincit Amor", and the last eight lines of the book, where the poet stands up from the shade and sends his goats home under the evening star.'
+          'ECLOGUE 10: Gallus dying of love in Arcadia, "Omnia vincit Amor", and the last eight lines of the book, where the poet stands up from the shade and sends his goats home under the evening star.',
+          'NEW: ADVANCED SETTINGS FOR POETRY, starting with all thirty excerpts of the Eclogues. A button above the Latin opens two groups. METRE marks every long and short syllable with its foot (dactyls and spondees in two colours), the main and secondary caesuras, and the synaloephas in red. READING opens the passage split into syllables, in an accentual reading with the beat of the verse in capitals (a-VÉ-na) and in a quantitative reading with every long syllable doubled (a-vee-naa), both in the ecclesiastical pronunciation.'
         ],
         changed: [
-          'Eclogues 6, 7, 8, 9 and 10 each have their own page in the Eclogues menu: the Bucolica now has thirty excerpts across all ten poems.'
+          'Eclogues 6, 7, 8, 9 and 10 each have their own page in the Eclogues menu: the Bucolica now has thirty excerpts across all ten poems.',
+          'Eclogue 5, v. 57: the source page had dropped the "-que" of "sub pedibusque", which the metre needs. It is now restored.'
         ],
         deleted: [
           'Nothing was deleted.'
@@ -36,10 +38,12 @@
           'EGLOGA 7: la seconda gara di canto, raccontata a memoria da chi vi assistette, e questa volta con un vincitore: "Da quel giorno Coridone è per noi Coridone."',
           'EGLOGA 8: due canti con voci prestate. Un capraio ricorda la prima volta che vide la ragazza che ora sposa un altro ("ut vidi, ut perii"), e una donna compie un incantesimo d\'amore per riportare a casa dalla città il suo Dafni.',
           'EGLOGA 9, INTERA: il carme più cupo del libro. Un vecchio pastore va in città con un dono per il soldato che gli ha preso il podere, i canti si rivelano inutili "tra le armi di Marte", e il carme finisce senza il canto che aveva promesso.',
-          'EGLOGA 10: Gallo che muore d\'amore in Arcadia, "Omnia vincit Amor", e gli ultimi otto versi del libro, dove il poeta si alza dall\'ombra e manda a casa le capre sotto la stella della sera.'
+          'EGLOGA 10: Gallo che muore d\'amore in Arcadia, "Omnia vincit Amor", e gli ultimi otto versi del libro, dove il poeta si alza dall\'ombra e manda a casa le capre sotto la stella della sera.',
+          'NOVITÀ: IMPOSTAZIONI AVANZATE PER LA POESIA, a cominciare da tutti i trenta estratti delle Bucoliche. Un pulsante sopra il latino apre due gruppi. METRICA segna ogni sillaba lunga e breve con il suo piede (dattili e spondei in due colori), le cesure principali e secondarie, e le sinalefi in rosso. LETTURA apre il passo diviso in sillabe, in una lettura accentuativa con il battito del verso in maiuscolo (a-VÉ-na) e in una lettura quantitativa con ogni sillaba lunga raddoppiata (a-vee-naa), entrambe nella pronuncia ecclesiastica.'
         ],
         changed: [
-          'Le Egloghe 6, 7, 8, 9 e 10 hanno ciascuna la propria pagina nel menu delle Bucoliche: le Bucoliche hanno ora trenta estratti in tutti e dieci i carmi.'
+          'Le Egloghe 6, 7, 8, 9 e 10 hanno ciascuna la propria pagina nel menu delle Bucoliche: le Bucoliche hanno ora trenta estratti in tutti e dieci i carmi.',
+          'Egloga 5, v. 57: la pagina di origine aveva perso il "-que" di "sub pedibusque", che il metro richiede. Ora è ripristinato.'
         ],
         deleted: [
           'Non è stato eliminato nulla.'

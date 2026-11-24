@@ -363,6 +363,9 @@
     latin.className = 'latin-text';
     latin.innerHTML = Markdown.render(frag.latin || '');
     box.appendChild(latin);
+    // Advanced settings (metre marks and readings): only where every verse has
+    // scansion data (js/scansion-data.js); otherwise this does nothing.
+    if (window.AdvancedSettings) AdvancedSettings.attach({ frag: frag, slug: slug, workId: workId, latin: latin });
 
     if (frag.source) {
       var src = document.createElement('p');
