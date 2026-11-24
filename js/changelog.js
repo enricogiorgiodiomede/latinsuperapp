@@ -21,7 +21,8 @@
           'ECLOGUE 5, in four excerpts: two friends, not rivals, sing the death of the shepherd Daphnis and his rise to heaven as a god, read by the ancients as Julius Caesar; then they exchange gifts, and Virgil signs his work with the pipe that "taught" him Eclogues 2 and 3.'
         ],
         changed: [
-          'Virgil\'s Eclogues chooser now offers Eclogues 1 to 5.'
+          'Virgil\'s Eclogues chooser now offers Eclogues 1 to 5.',
+          'The notes on the end of Eclogue 3 were deepened from a reader\'s comments: Virgil\'s gratitude to Pollio, the snake hidden by the word order and killed again in Eclogue 4, two riddles nobody answers and a contest that goes full circle, and Palaemon\'s closing line as a homage to the end of Catullus 61.'
         ],
         deleted: [
           'Nothing was deleted.'
@@ -35,7 +36,8 @@
           'L\'EGLOGA 5, in quattro estratti: due amici, non rivali, cantano la morte del pastore Dafni e la sua ascesa al cielo come dio, letta dagli antichi come Giulio Cesare; poi si scambiano doni, e Virgilio firma la sua opera con il flauto che gli "insegnò" le Egloghe 2 e 3.'
         ],
         changed: [
-          'Il menu delle Bucoliche di Virgilio offre ora le Egloghe dalla 1 alla 5.'
+          'Il menu delle Bucoliche di Virgilio offre ora le Egloghe dalla 1 alla 5.',
+          'Le note sulla fine dell\'Egloga 3 sono state approfondite a partire dai commenti di un lettore: la gratitudine di Virgilio verso Pollione, la serpe nascosta dall\'ordine delle parole e uccisa di nuovo nell\'Egloga 4, due indovinelli a cui nessuno risponde e una gara che torna al punto di partenza, e il verso finale di Palemone come omaggio alla chiusa del carme 61 di Catullo.'
         ],
         deleted: [
           'Non è stato eliminato nulla.'

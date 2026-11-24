@@ -30,6 +30,15 @@ Cache `?v=279`. Notes written with the user's Release 1 theses from the start.
   writes consonantal v as u throughout Ecl. 5, kept). Variants kept and explained: Ecl. 4.62 *qui non risere parenti*
   (Perseus *cui ... parentes*), Ecl. 4.52 *laetantur*, 4.55 *vincat*, Ecl. 5.28 *silvaque*.
 
+### Follow-up (2026-11-24, no version bump, cache `?v=280`)
+- **The user's notes on the two Eclogue 3 excerpts folded in place** (EN + IT; `batch/verg2101_sync_notes.js`,
+  analysis only). Ecl. 3.84-99: the snake hidden by the word order, *callida iunctura* (Horace, *AP* 47-48, given
+  with the nuance that Horace means a joining of words, here it is placement); *A poet's thanks, and a snake that
+  returns* (Pollio three times in five lines, the farm in the *Lives*, Ecl. 4 and 8; *occidet et serpens*, Ecl. 1 and
+  9). Ecl. 3.100-111: the closing line as literal and metaphor, echoing Catullus 61 *claudite ostia ... lusimus satis*
+  (vv. 231-232 in the app's numbering); *Two riddles, no answers, no winner*; *Full circle*. The user's notes on
+  Ecl. 4 and 5 are deferred (they had no time). verify 571/0, check_context 0.
+
 ### Verification
 - verify 571/0 (9/9 new); check_verses 91/0; check_numbering 261/0; check_metres 270/270; lint_markdown,
   lint_register, lint_ablatives 0; check_context 0 for 2.1.1 (names glossed in the notes).

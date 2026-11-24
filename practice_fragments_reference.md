@@ -100,6 +100,13 @@ I.145, Theocritus *Id.* 1 and 7, Ecl. 1's *otia* and young god. **Next: R3 = Ecl
 61-70), Ecl. 8 (37-50, 64-80), Ecl. 9 whole (1-25, 26-50, 51-67), Ecl. 10 (1-15, 50-69, 70-77): Bucolica complete at
 30.** Speaker tags to add first: Ecl. 7 and Ecl. 9 (check the pages).
 
+**THE USER'S NOTES ON RELEASE 2 (24/11/2026), folded into v2.1.1 for Ecl. 3 only:** Virgil's gratitude to Pollio
+(immortality in verse as the poet's only lasting reward; Ecl. 4, also Ecl. 8); the snake hidden by word order and
+killed in Ecl. 4 (an idyll less safe than it looks: Ecl. 1, Ecl. 9); the tie as full circle (they learned nothing, the
+reader got fine poetry; shepherds are master poets); unanswered riddles make the tie; Palaemon's last line literal and
+metaphorical, echoing Catullus 61's close (*claudite ostia ... lusimus satis*, app vv. 231-232). **Their notes on
+Ecl. 4 and Ecl. 5 are OWED for later** (they wanted to do Ecl. 4 especially).
+
 ---
 
 ## Gaius Valerius Catullus (`gaius-valerius-catullus`) - needsSelection, three works [v1.17.0, 2026-11-08]
