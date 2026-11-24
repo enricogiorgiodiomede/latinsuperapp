@@ -111,7 +111,8 @@
     });
     items.sort(function (a, b) {
       return a.authorName.localeCompare(b.authorName) ||
-             a.subject.localeCompare(b.subject) ||
+             // numeric: "Eclogue 10" after "Eclogue 9", not before "Eclogue 6"
+             a.subject.localeCompare(b.subject, undefined, { numeric: true }) ||
              (a.ord - b.ord);
     });
 

@@ -122,6 +122,21 @@ snake), Ecl. 2.69 (*dementia*), Georg. I (*labor omnia vicit*), Aen. VI.306-308 
 (Procne / Philomela), Ecl. 1.1 and Ecl. 5.86-87 (self-quotation), Res Gestae (*volentes per populos*), Catullus 68
 (*lusi*). **The plan resumes at R3 (Ecl. 6-10)**; R7's list is now DONE, so later Georgics releases skip it.
 
+**v2.1.3 record (Release 3, 24/11/2026): THE BUCOLICA COMPLETE AT 30.** Ecl. 6 vv. 1-12, 64-73; Ecl. 7 vv. 1-20,
+61-70; Ecl. 8 vv. 37-50, 64-84 (extended from the planned 64-80 so it ends on the refrain, not mid-sentence); Ecl. 9
+vv. 1-25, 26-50, 51-67 (whole); Ecl. 10 vv. 1-15, 50-69, 70-77. Speaker tags added for ec7 (ME./CO./TH.) and ec9
+(LY./MO.). Emends: Ecl. 7.5 *repondere* -> *respondere*; Ecl. 8.70 *caminibus* -> *carminibus*, *Vlixi* -> *Ulixi*;
+Ecl. 9.39 *Galarea* -> *Galatea*. Kept: Ecl. 10.12 *Aonie*, Ecl. 10.61 *aut* (Perseus *ut*), old spellings. Two
+check_context fixes worth remembering: a lower-case *Ad familiares* is not recognised as a work name (cite *Ad
+Familiares*, or drop the numeral), and a bare `(I.18)` needs the author in front (`Propertius I.18`). Cross-links
+written in: Callimachus's *Aetia* prologue; Ecl. 1.2 and Ecl. 5.40 self-quoted (signature); Hesiod's *Theogony*
+initiation; Georg. IV.510 (Orpheus); Sannazaro's *Arcadia*; Ecl. 3's draw vs Ecl. 7's winner; Theocritus *Id.* 1, 2,
+3, 11; *Iliad* XVI and Catullus 64 (born of rocks); Ecl. 3.93's cold snake in Ecl. 8.71; *carmina* = charms vs
+*carmina ... tela inter Martia* (Ecl. 9.12); Ecl. 1.73 *insere ... piros* in Ecl. 9.50; the *sidus Iulium*; Helvius
+Cinna's death; Callimachus's Heraclitus epigram; Pliny NH on the wolf; Gallus's fall in 26 BC; *labores* (Ecl.
+10.64) vs *labor omnia vicit*; Propertius I.18, Ariosto XIX/XXIII; Ecl. 1's *umbra* and Ecl. 10's; Ecl. 3.111 and
+Catullus 61's *lusimus satis*. **Next: R4 = Georgics I.**
+
 ---
 
 ## Gaius Valerius Catullus (`gaius-valerius-catullus`) - needsSelection, three works [v1.17.0, 2026-11-08]

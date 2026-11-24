@@ -6,6 +6,43 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [2.1.3] - 2026-11-24
+
+**VIRGIL, RELEASE 3 OF 13 (Eclogues 6-10): THE BUCOLICA COMPLETE AT 30.** 12 new excerpts; bank 725 -> **737**;
+every eclogue now has its own work in the nested chooser. Cache `?v=283`. Notes written with the user's theses from
+the start (civil-war anguish, Tityrus before / Meliboeus after as a reading, love as madness, *amor* vs *labor*,
+Virgil leaving things open, the snake, self-quotation as a signature, the central eclogues rising above pastoral).
+
+### Added - Bucolica (12)
+| excerpt | what it is |
+|---|---|
+| Ecl. 6 vv. 1-12 | the *recusatio* (Callimachus's *Aetia* prologue), *deductum carmen*, Apollo calls Virgil Tityrus (Ecl. 1.2 self-quoted); Varus |
+| Ecl. 6 vv. 64-73 | Gallus on Helicon (Hesiod's *Theogony*), Linus and Hesiod's reed, the Grynean grove (Euphorion); Orpheus link |
+| Ecl. 7 vv. 1-20 | Meliboeus's frame, *Arcades ambo*, Arcadia meets the Mincius (Sannazaro), *posthabui ... seria ludo* |
+| Ecl. 7 vv. 61-70 | the last quatrains, *Corydon Corydon est*: a winner with no reasons given (vs Ecl. 3's draw) |
+| Ecl. 8 vv. 37-50 | Damon: *ut vidi, ut perii* (Theocritus *Id.* 2 and 11), Love born of rocks, Medea; the refrain (Catullus 64) |
+| Ecl. 8 vv. 64-84 | Alphesiboeus's spell (Theocritus *Id.* 2): *carmina* = charms, the snake (Ecl. 3.93), *Daphnis* / *daphne* |
+| Ecl. 9 vv. 1-25 | *Haec mea sunt; veteres migrate coloni*, doves and the eagle, the broken beeches, Ecl. 5.40 self-quoted |
+| Ecl. 9 vv. 26-50 | Varus and *superet modo Mantua*, Varius and Cinna, the *anser* pun, Galatea, the *sidus Iulium*, Ecl. 1.73 echoed |
+| Ecl. 9 vv. 51-67 | *omnia fert aetas*, the wolf (Pliny, Plato), Bianor's tomb, the song postponed |
+| Ecl. 10 vv. 1-15 | Arethusa, Lycoris = Cytheris, the nymphs' absence (Theocritus *Id.* 1), Gallus as Daphnis; *laborem* ... *Amor* |
+| Ecl. 10 vv. 50-69 | *Omnia vincit Amor* vs *labor omnia vicit*; *Amores* as Gallus's book; Propertius I.18, Ariosto XIX and XXIII |
+| Ecl. 10 vv. 70-77 | *Surgamus*: the basket (*texit*), the heavy shade, *frugibus* pointing to the Georgics; Ecl. 1 and Catullus 61 |
+
+### Changed
+- `sources.json` `_speakerTags`: Ecl. 7 (Meliboeus ME., Corydon CO., Thyrsis TH.) and Ecl. 9 (Lycidas LY., Moeris MO.).
+- Ecl. 8's spell runs to v. 84 (planned 64-80) so that it ends on the refrain, not mid-sentence.
+- `js/version-list.js`: the What's New list sorts its subjects numerically, so Eclogue 10 follows Eclogue 9 instead of
+  coming before Eclogue 6.
+- Declared corrections: Ecl. 7.5 *repondere* -> *respondere*; Ecl. 8.70 *caminibus* -> *carminibus* and *Vlixi* ->
+  *Ulixi*; Ecl. 9.39 *Galarea* -> *Galatea*. Variants kept and explained: Ecl. 10.12 *Aonie* (Perseus *Aoniae*),
+  Ecl. 10.61 *aut* (Perseus *ut*), and the page's old spellings (*saluos*, *saeuos*, *tuos*, *tuom*, *litis*,
+  *fontis*, *frondis*). The page writes consonantal v as u throughout Ecl. 6-10 (kept).
+
+### Verification
+- verify 589/0 (12/12 new); check_verses 109/0; check_numbering 279/0; check_metres 288/288; lint_markdown,
+  lint_register, lint_ablatives 0; check_context 0 for 2.1.3; lint_translations: only the 4 older flags.
+
 ## [2.1.2] - 2026-11-24
 
 **VIRGIL, "RELEASE 7" BROUGHT FORWARD (the user needs it for class): Georgics IV, Aristaeus, Orpheus and Eurydice,

@@ -109,7 +109,9 @@
   "_speakerTags": {
     "vergil/ec1": { "Meliboeus": "ME.", "Tityrus": "TI." },
     "vergil/ec3": { "Menalcas": "ME.", "Damoetas": "DA.", "Palaemon": "PA." },
-    "vergil/ec5": { "Menalcas": "ME.", "Mopsus": "MO." }
+    "vergil/ec5": { "Menalcas": "ME.", "Mopsus": "MO." },
+    "vergil/ec7": { "Meliboeus": "ME.", "Corydon": "CO.", "Thyrsis": "TH." },
+    "vergil/ec9": { "Lycidas": "LY.", "Moeris": "MO." }
   },
   "bucolica-1": ["vergil/ec1"],
   "bucolica-2": ["vergil/ec2"],

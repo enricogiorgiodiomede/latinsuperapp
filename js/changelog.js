@@ -12,6 +12,41 @@
 
   var VERSIONS = [
     {
+      v: '2.1.3', date: '24/11/2026', time: '00:00', tz: 'CET',
+      en: {
+        added: [
+          'VIRGIL: THE ECLOGUES ARE COMPLETE. Twelve new excerpts from Eclogues 6 to 10 bring the Bucolica to thirty, with every one of the ten poems now in the app.',
+          'ECLOGUE 6: Apollo tugs the poet\'s ear and sends him back to the slender song of shepherds, and the old satyr Silenus sings the world from its beginning to a living poet, Gallus, who is handed the reed of Hesiod on Mount Helicon.',
+          'ECLOGUE 7: the second singing contest, told from memory by the man who watched it, and this time with a winner: "From that day on, Corydon is Corydon for us."',
+          'ECLOGUE 8: two songs in borrowed voices. A goatherd remembers the first time he saw the girl now marrying another man ("ut vidi, ut perii"), and a woman works a love spell to bring her Daphnis home from the city.',
+          'ECLOGUE 9, WHOLE: the darkest poem of the book. An old shepherd walks to town with a gift for the soldier who took his farm, songs prove useless "among the weapons of Mars", and the poem ends without the song it promised.',
+          'ECLOGUE 10: Gallus dying of love in Arcadia, "Omnia vincit Amor", and the last eight lines of the book, where the poet stands up from the shade and sends his goats home under the evening star.'
+        ],
+        changed: [
+          'Eclogues 6, 7, 8, 9 and 10 each have their own page in the Eclogues menu: the Bucolica now has thirty excerpts across all ten poems.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'VIRGILIO: LE BUCOLICHE SONO COMPLETE. Dodici nuovi estratti dalle Egloghe 6-10 portano le Bucoliche a trenta, con tutti e dieci i carmi ora nell\'app.',
+          'EGLOGA 6: Apollo tira l\'orecchio al poeta e lo rimanda al canto sottile dei pastori, e il vecchio satiro Sileno canta il mondo dalle origini fino a un poeta vivente, Gallo, che riceve sull\'Elicona la canna di Esiodo.',
+          'EGLOGA 7: la seconda gara di canto, raccontata a memoria da chi vi assistette, e questa volta con un vincitore: "Da quel giorno Coridone è per noi Coridone."',
+          'EGLOGA 8: due canti con voci prestate. Un capraio ricorda la prima volta che vide la ragazza che ora sposa un altro ("ut vidi, ut perii"), e una donna compie un incantesimo d\'amore per riportare a casa dalla città il suo Dafni.',
+          'EGLOGA 9, INTERA: il carme più cupo del libro. Un vecchio pastore va in città con un dono per il soldato che gli ha preso il podere, i canti si rivelano inutili "tra le armi di Marte", e il carme finisce senza il canto che aveva promesso.',
+          'EGLOGA 10: Gallo che muore d\'amore in Arcadia, "Omnia vincit Amor", e gli ultimi otto versi del libro, dove il poeta si alza dall\'ombra e manda a casa le capre sotto la stella della sera.'
+        ],
+        changed: [
+          'Le Egloghe 6, 7, 8, 9 e 10 hanno ciascuna la propria pagina nel menu delle Bucoliche: le Bucoliche hanno ora trenta estratti in tutti e dieci i carmi.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '2.1.2', date: '24/11/2026', time: '02:45', tz: 'CET',
       en: {
         added: [
