@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '2.1.3', date: '24/11/2026', time: '00:00', tz: 'CET',
+      v: '2.1.3', date: '24/11/2026', time: '13:25', tz: 'CET',
       en: {
         added: [
           'VIRGIL: THE ECLOGUES ARE COMPLETE. Twelve new excerpts from Eclogues 6 to 10 bring the Bucolica to thirty, with every one of the ten poems now in the app.',
