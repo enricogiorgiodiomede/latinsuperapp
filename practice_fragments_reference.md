@@ -105,7 +105,14 @@ I.145, Theocritus *Id.* 1 and 7, Ecl. 1's *otia* and young god. **Next: R3 = Ecl
 killed in Ecl. 4 (an idyll less safe than it looks: Ecl. 1, Ecl. 9); the tie as full circle (they learned nothing, the
 reader got fine poetry; shepherds are master poets); unanswered riddles make the tie; Palaemon's last line literal and
 metaphorical, echoing Catullus 61's close (*claudite ostia ... lusimus satis*, app vv. 231-232). **Their notes on
-Ecl. 4 and Ecl. 5 are OWED for later** (they wanted to do Ecl. 4 especially).
+Ecl. 4 and Ecl. 5** arrived 24/11/2026 and are folded into v2.1.2's follow-up. Theses to reuse: the central eclogues
+(4, 6, and 5 less so) rise above pastoral, with false modesty (*paulo*); the great year + Hesiod's ages, humanity
+redeemable; ships/trade end the golden age (Argo, Catullus 64); the golden age perhaps a metaphor for long peace;
+Virgil's boast as the surprise of a modest poet; the circle humble -> high -> tender; friendship as an Epicurean
+good; Daphnis = Caesar, the protector's death -> turmoil -> confiscations; the protector watching from heaven ->
+Augustus's peace; self-quotation as an authorship mark and a handover. Corrections given gently: the harmony of gods
+and mortals is in Catullus 64's OPENING (Thetis marrying Peleus) and its loss in the epilogue; the Virgin as the last
+to leave is Aratus; Octavian cannot be the newborn *puer*; Menalcas answers point by point, not word for word.
 
 **v2.1.2 record ("Release 7" brought forward, 24/11/2026; the user needed it for class):** Georgica IV vv. 315-332,
 453-466, 467-484, 485-506, 507-527, 559-566 (Book IV now 7, Georgica 7 of 30). No emends; Proteus's speech keeps the

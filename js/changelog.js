@@ -21,7 +21,8 @@
           'THE SIGNATURE OF THE GEORGICS: the only place in all his poetry where Virgil names himself, living quietly in Naples while Caesar wins wars in the East, and closing the poem with the first line of the Eclogues.'
         ],
         changed: [
-          'Book IV of the Georgics now has seven excerpts.'
+          'Book IV of the Georgics now has seven excerpts.',
+          'The notes on Eclogues 4 and 5 were deepened from a reader\'s comments: false modesty and the "great year" with Hesiod\'s ages, why ships and trade end last, the hope of 40 BC, Virgil\'s surprising boast and the circle back to a baby\'s smile; friendship as an Epicurean good, Daphnis read as Caesar, a protector who watches over the land for ever, and the pipe as a signature and a handover.'
         ],
         deleted: [
           'Nothing was deleted.'
@@ -35,7 +36,8 @@
           'LA FIRMA DELLE GEORGICHE: l\'unico punto di tutta la sua poesia in cui Virgilio si nomina, mentre vive in quiete a Napoli e Cesare vince guerre in Oriente, e chiude il poema con il primo verso delle Bucoliche.'
         ],
         changed: [
-          'Il libro IV delle Georgiche ha ora sette estratti.'
+          'Il libro IV delle Georgiche ha ora sette estratti.',
+          'Le note sulle Egloghe 4 e 5 sono state approfondite a partire dai commenti di un lettore: la falsa modestia e il "grande anno" con le età di Esiodo, perché le navi e il commercio finiscono per ultimi, la speranza del 40 a.C., il vanto sorprendente di Virgilio e il ritorno al sorriso di un bambino; l\'amicizia come bene epicureo, Dafni letto come Cesare, un protettore che veglia per sempre sulla terra, e il flauto come firma e passaggio di consegne.'
         ],
         deleted: [
           'Non è stato eliminato nulla.'

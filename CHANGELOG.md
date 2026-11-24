@@ -22,6 +22,16 @@ Eclogues, Georgics I-III and the bees) are still to come, in their order. Cache 
 | Georg. IV vv. 507-527 | the nightingale (Philomela, Procne's sister) and the *durus arator*; *Eurydicen vox ipsa* |
 | Georg. IV vv. 559-566 | the *sphragis*: *Vergilium me*, Parthenope, *ignobile otium*, Ecl. 1.1 quoted; Atella 29 BC; the epitaph |
 
+### Follow-up (2026-11-24, no version bump, cache `?v=282`)
+- **The user's owed notes on Eclogues 4 and 5 folded in place** (EN + IT) into the seven v2.1.1 excerpts via
+  `batch/verg2101_sync_notes.js` (analysis only). Ecl. 4: *False modesty, and the central eclogues*; *The great year
+  and the ages of man* (Stoic cycles, Hesiod's five ages, Catullus 64 vv. 1-21 and 384-408, Aratus's Justice); *What
+  the golden age brings, and why the ships go last* (the Argo, self-sufficiency); *A child, and the hope of 40 BC*
+  (Octavian at 23 as a hope, not the baby; Brundisium); *Destiny, a boast, and a circle* (metaphor reading, the new
+  innocent generation). Ecl. 5: *Friendship, the Epicurean good*; *Daphnis and Caesar* (funeral mourning, the chain to
+  the confiscations, Ecl. 10's Gallus); *From grief to joy, and a protector for ever* (point by point, not word for
+  word); *A signature, a handover and a date* (Georg. IV 559-566, relative dating). Nothing owed now on Ecl. 1-5.
+
 ### Verification
 - verify 577/0 (6/6 new); check_verses 97/0; check_numbering 267/0; check_metres 276/276; lint_markdown,
   lint_register, lint_ablatives 0; check_context 0 for 2.1.2.
