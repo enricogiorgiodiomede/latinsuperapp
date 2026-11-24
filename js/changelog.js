@@ -12,6 +12,37 @@
 
   var VERSIONS = [
     {
+      v: '2.1.2', date: '24/11/2026', time: '00:00', tz: 'CET',
+      en: {
+        added: [
+          'VIRGIL, A LEAP FORWARD: ORPHEUS AND EURYDICE. The end of the Georgics arrives ahead of schedule, six excerpts from Book IV, with the rest of the Eclogues and the first three books to follow.',
+          'ARISTAEUS AND HIS BEES: the beekeeper who loses everything and reproaches his mother, the nymph Cyrene, like Achilles on the shore of Troy.',
+          'ORPHEUS AND EURYDICE, IN FOUR EXCERPTS: Eurydice killed by a snake hidden in the grass while running from Aristaeus; Orpheus going down alive among the dead, his song stopping Hell itself; the moment he looks back on the threshold of the light, and Eurydice\'s only words; and his death, his severed head still calling her name as the river carries it away.',
+          'THE SIGNATURE OF THE GEORGICS: the only place in all his poetry where Virgil names himself, living quietly in Naples while Caesar wins wars in the East, and closing the poem with the first line of the Eclogues.'
+        ],
+        changed: [
+          'Book IV of the Georgics now has seven excerpts.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'VIRGILIO, UN BALZO IN AVANTI: ORFEO ED EURIDICE. La fine delle Georgiche arriva in anticipo, sei estratti dal libro IV, mentre il resto delle Bucoliche e i primi tre libri seguiranno.',
+          'ARISTEO E LE SUE API: l\'apicoltore che perde tutto e rimprovera la madre, la ninfa Cirene, come Achille sulla spiaggia di Troia.',
+          'ORFEO ED EURIDICE, IN QUATTRO ESTRATTI: Euridice uccisa da una serpe nascosta nell\'erba mentre fugge da Aristeo; Orfeo che scende vivo tra i morti, con un canto che ferma l\'Inferno stesso; il momento in cui si volta sulla soglia della luce, e le uniche parole di Euridice; e la sua morte, con la testa mozzata che chiama ancora il suo nome mentre il fiume la porta via.',
+          'LA FIRMA DELLE GEORGICHE: l\'unico punto di tutta la sua poesia in cui Virgilio si nomina, mentre vive in quiete a Napoli e Cesare vince guerre in Oriente, e chiude il poema con il primo verso delle Bucoliche.'
+        ],
+        changed: [
+          'Il libro IV delle Georgiche ha ora sette estratti.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '2.1.1', date: '23/11/2026', time: '02:00', tz: 'CET',
       en: {
         added: [

@@ -107,6 +107,14 @@ reader got fine poetry; shepherds are master poets); unanswered riddles make the
 metaphorical, echoing Catullus 61's close (*claudite ostia ... lusimus satis*, app vv. 231-232). **Their notes on
 Ecl. 4 and Ecl. 5 are OWED for later** (they wanted to do Ecl. 4 especially).
 
+**v2.1.2 record ("Release 7" brought forward, 24/11/2026; the user needed it for class):** Georgica IV vv. 315-332,
+453-466, 467-484, 485-506, 507-527, 559-566 (Book IV now 7, Georgica 7 of 30). No emends; Proteus's speech keeps the
+page's quotation marks (v. 453 to v. 527). Translation trap recorded in the note: vv. 500-502, it is EURYDICE who
+never sees Orpheus again (*neque illum ... vidit*). Cross-links: Catullus 64 (story within a story), Ecl. 3.93 (the
+snake), Ecl. 2.69 (*dementia*), Georg. I (*labor omnia vicit*), Aen. VI.306-308 (repeated lines), Georg. IV.15
+(Procne / Philomela), Ecl. 1.1 and Ecl. 5.86-87 (self-quotation), Res Gestae (*volentes per populos*), Catullus 68
+(*lusi*). **The plan resumes at R3 (Ecl. 6-10)**; R7's list is now DONE, so later Georgics releases skip it.
+
 ---
 
 ## Gaius Valerius Catullus (`gaius-valerius-catullus`) - needsSelection, three works [v1.17.0, 2026-11-08]

@@ -6,6 +6,26 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [2.1.2] - 2026-11-24
+
+**VIRGIL, "RELEASE 7" BROUGHT FORWARD (the user needs it for class): Georgics IV, Aristaeus, Orpheus and Eurydice,
+the signature.** 6 new excerpts; bank 719 -> **725**; Georgica 7 of 30 (all in Book IV). R3-R6 (the rest of the
+Eclogues, Georgics I-III and the bees) are still to come, in their order. Cache `?v=281`.
+
+### Added - Georgica IV (6)
+| excerpt | what it is |
+|---|---|
+| Georg. IV vv. 315-332 | Aristaeus's complaint to Cyrene (Achilles and Thetis, *Iliad* I); the *bugonia*; the frame story |
+| Georg. IV vv. 453-466 | Proteus: Eurydice and the snake in the grass (Ecl. 3.93); *te ... te ... te* |
+| Georg. IV vv. 467-484 | the descent; the bird simile and the dead (reused in *Aen.* VI.306-308); Hell stands still |
+| Georg. IV vv. 485-506 | *respexit*; *dementia*, *furor*, *omnis effusus labor*; Eurydice's only words; Ovid *Met.* X, Gluck |
+| Georg. IV vv. 507-527 | the nightingale (Philomela, Procne's sister) and the *durus arator*; *Eurydicen vox ipsa* |
+| Georg. IV vv. 559-566 | the *sphragis*: *Vergilium me*, Parthenope, *ignobile otium*, Ecl. 1.1 quoted; Atella 29 BC; the epitaph |
+
+### Verification
+- verify 577/0 (6/6 new); check_verses 97/0; check_numbering 267/0; check_metres 276/276; lint_markdown,
+  lint_register, lint_ablatives 0; check_context 0 for 2.1.2.
+
 ## [2.1.1] - 2026-11-23
 
 **VIRGIL, RELEASE 2 OF 13 (end of Ecl. 3, Ecl. 4, Ecl. 5).** 9 new excerpts; bank 710 -> **719**; Bucolica 18 of 30.
