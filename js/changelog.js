@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '2.1.2', date: '24/11/2026', time: '00:00', tz: 'CET',
+      v: '2.1.2', date: '24/11/2026', time: '02:45', tz: 'CET',
       en: {
         added: [
           'VIRGIL, A LEAP FORWARD: ORPHEUS AND EURYDICE. The end of the Georgics arrives ahead of schedule, six excerpts from Book IV, with the rest of the Eclogues and the first three books to follow.',
