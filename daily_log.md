@@ -1785,3 +1785,16 @@ A landmark day: Catullus was closed out, the Augustan Era went live as v2.0.0, a
 **v2.1.0 -- Virgil release 1, the top-up begins (23:30, `cebef95`).** First of 13 releases taking Virgil to 100 excerpts: Eclogue 1 whole in four excerpts, Eclogue 2 vv. 1-18 (rebuilt from the launch 6-18) and 56-73, Eclogue 3 vv. 1-15, 16-31 and 44-59; bank 702 -> 710, verify 562/0. Virgil restructured into **nested choosers**, one work per eclogue and per book of the Georgics and the Aeneid (`batch/verg2100_restructure.js`). The launch excerpts Georgics IV 1-24 and Aeneid III 655-665 get short descriptions and full notes. Tooling: Perseus verse numbering for Virgil (Ecl. 1.17a dropped), page-to-edition mapping in `tools/extract_verse.js`, and speaker tags (`_speakerTags` in `sources.json`, `applySpeakerTags` in `strip.js`) read by extract_verse, verify and check_verses. Declared corrections at Ecl. 1.17-18, 2.59 *inmisi*, 3.9 and 3.54. Cache `?v=277`. The docs commit `0ba2681` set the release time (20/11/2026, 23:30 CET).
 
 **Progress:** App at **v2.1.0**, with three eras live and the bank at 710. **Catullus is closed**; the **Augustan Era** is published with all portraits in. The Virgil top-up is at release 1 of 13 (Eclogues 1-3 begun); release 2 (end of Eclogue 3, Eclogues 4 and 5) is next.
+
+---
+
+## 2026-11-23
+*(End-of-day log, 23:55.)*
+
+A short night session on the Virgil top-up: the user's notes on release 1 were folded in, then release 2 went out.
+
+**v2.1.0 follow-up -- the user's notes on Virgil release 1 (01:33, `72e9753`).** The user's theses were written in place, in English and Italian, across all nine new Eclogue notes: the civil wars beneath the idyll, Tityrus before and Meliboeus after (offered as a reading), an Epicurean peace granted from above, the open ending and Tasso's Erminia, love as madness (Ecl. 10, Ariosto), work as the cure (Georg. I.145), the escalation of Eclogue 3 and a contest fought for pride. Analysis only: Latin, translations and versions untouched. Applied by new `batch/verg2100_sync_notes.js`; reference sheet updated. Cache `?v=278`.
+
+**v2.1.1 -- Virgil release 2, end of Eclogue 3 and Eclogues 4-5 (02:00, `c159a87`).** Nine new excerpts: Eclogue 3 vv. 84-99 (*latet anguis in herba*) and 100-111 (the riddles and Palaemon's draw); Eclogue 4 whole (vv. 1-17, 18-39, 40-63); Eclogue 5 vv. 1-19, 20-44, 56-80 and 81-90 (Daphnis's death and apotheosis, and the pipe that taught Eclogues 2 and 3). Bank 710 -> 719, verify 571/0. The notes carry the user's release 1 theses from the start. Speaker tags added for Eclogue 5 in `tools/sources.json`; dashed asides rendered as brackets and *Vt* -> *Ut* declared. Built from `batch/verg2101_*` files; `PROGRESS.md` and the reference sheet updated. Cache `?v=279`. The docs commit `72a745c` set the release time (23/11/2026, 02:00 CET).
+
+**Progress:** App at **v2.1.1**, bank 719. The Virgil top-up is at release 2 of 13, with the Bucolica at 18 of 30 excerpts; release 3 (Eclogues 6-10) is next.
