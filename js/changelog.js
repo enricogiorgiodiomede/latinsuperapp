@@ -25,7 +25,8 @@
         ],
         changed: [
           'Eclogues 6, 7, 8, 9 and 10 each have their own page in the Eclogues menu: the Bucolica now has thirty excerpts across all ten poems.',
-          'Eclogue 5, v. 57: the source page had dropped the "-que" of "sub pedibusque", which the metre needs. It is now restored.'
+          'Eclogue 5, v. 57: the source page had dropped the "-que" of "sub pedibusque", which the metre needs. It is now restored.',
+          'Eclogues 6 and 7, richer notes: how Virgil turns Thalia, the Muse of comedy, into the Muse of pastoral; why Apollo calling the poet "Tityrus" suggests Virgil kept his land; why Gallus is praised even above Varus, and what we lost of his poetry; Arcadia as Virgil\'s own invention, from Mantua to Poussin; why Thyrsis probably lost; and what "Corydon is Corydon" really means.'
         ],
         deleted: [
           'Nothing was deleted.'
@@ -43,7 +44,8 @@
         ],
         changed: [
           'Le Egloghe 6, 7, 8, 9 e 10 hanno ciascuna la propria pagina nel menu delle Bucoliche: le Bucoliche hanno ora trenta estratti in tutti e dieci i carmi.',
-          'Egloga 5, v. 57: la pagina di origine aveva perso il "-que" di "sub pedibusque", che il metro richiede. Ora è ripristinato.'
+          'Egloga 5, v. 57: la pagina di origine aveva perso il "-que" di "sub pedibusque", che il metro richiede. Ora è ripristinato.',
+          'Egloghe 6 e 7, note più ricche: come Virgilio fa di Talia, la Musa della commedia, la Musa della pastorale; perché Apollo che chiama il poeta "Titiro" suggerisce che Virgilio conservò la sua terra; perché Gallo è lodato persino più di Varo, e che cosa abbiamo perso della sua poesia; l\'Arcadia come invenzione di Virgilio, da Mantova a Poussin; perché Tirsi probabilmente perse; e che cosa significa davvero "Coridone è Coridone".'
         ],
         deleted: [
           'Non è stato eliminato nulla.'

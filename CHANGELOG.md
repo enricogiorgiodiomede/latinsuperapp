@@ -56,6 +56,23 @@ Virgil leaving things open, the snake, self-quotation as a signature, the centra
 - **Ecl. 5.57 mended**: *sub pedibus uidet* -> *sub pedibusque uidet* (Perseus; the page dropped *-que*, and the
   verse does not scan without it). Declared emend; the note's "On the text" now says so (EN + IT).
 
+### Follow-up (2026-11-25, no version bump, cache `?v=285`): the user's notes on Eclogues 6 and 7
+- Folded in place, EN + IT, into the four excerpts (analysis only; Latin, translations and scansion untouched;
+  synced by `batch/verg2103_sync_notes.js`). **Ecl. 6.1-12:** Thalia, Muse of comedy, consecrated as the Muse of
+  pastoral (her name = the *tenuis*/*humilis* style); Apollo's "Tityrus" + the same shepherds across the book ->
+  Virgil kept his land (Ecl. 6 probably after Ecl. 9); the recusatio refuses kings and battles only, so Silenus's
+  Lucretian cosmogony is no contradiction (pastoral rising above pastoral, unlike Ecl. 4); the dedication as Varus's
+  celebration. **Ecl. 6.64-73:** new paragraph "Why so much praise": Gallus above the dedicatee, the land debt
+  repaid in immortality, the closest friend until the fall, the lost poetry (ten lines; the Grynean poem), Servius's
+  *laudes Galli* (doubted). **Ecl. 7.1-20:** Corydon = the Corydon of Ecl. 2 (Alexis, v. 55); Meliboeus perhaps
+  the exile of Ecl. 1 remembering (left open); Arcadia as a fusion of Greece, Mantua and Sicily (Hybla, v. 37), a
+  refuge from the civil wars, unlike Theocritus's real Sicily; its afterlife (Sannazaro, Tasso's *Aminta*, Poussin,
+  the Arcadia academy of 1690); pleasure vs duty, nearly tragic in the *Aminta*. **Ecl. 7.61-70:** Corydon's myths
+  explained by *brevitas*; Thyrsis blunter, and his roughness and irreverence (Priapus, vv. 33-36) as the likeliest
+  reason he loses; what the poem leaves out compared with Ecl. 3 (prizes, friends or rivals, quatrains); "Corydon
+  Corydon" answering Ecl. 2.69's *Corydon, Corydon, quae te dementia cepit!*
+- One factual fix on the way: Arcadia is in the Peloponnese, not "central Greece".
+
 ### Verification
 - verify 589/0 (12/12 new); check_verses 109/0; check_numbering 279/0; check_metres 288/288; lint_markdown,
   lint_register, lint_ablatives 0; check_context 0 for 2.1.3; lint_translations: only the 4 older flags.

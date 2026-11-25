@@ -10,13 +10,14 @@ Repo: `github.com/enricogiorgiodiomede/latinsuperapp` (branch `main`).
 
 ## >>> THE MAIN JOB (the user, 2026-11-20): VIRGIL TO 100 <<<
 
-**Where the app stands:** v2.1.3 (cache `?v=284`), bank 737, verify 589/0. Augustus' Age live since v2.0.0. **Advanced settings** (metre marks + accentual/quantitative readings) live on all 30 Eclogue excerpts: js/advanced.js, js/scansion.js, js/scansion-data.js (built by tools/build_scansion.js, checked against hypotactic.com).
+**Where the app stands:** v2.1.3 (cache `?v=285`; the user's notes on Ecl. 6-7 folded in on 25/11), bank 737, verify 589/0. Augustus' Age live since v2.0.0. **Advanced settings** (metre marks + accentual/quantitative readings) live on all 30 Eclogue excerpts: js/advanced.js, js/scansion.js, js/scansion-data.js (built by tools/build_scansion.js, checked against hypotactic.com).
 **Virgil: Releases 1, 2, 3 and 7 done** (Eclogues 1-10: **the Bucolica complete at 30** in v2.1.3; Georgics IV's Aristaeus/Orpheus/signature brought forward in v2.1.2 for the user's class).
 The plan, with every verse range and the release table: `C:\Users\enric\.claude\plans\now-let-s-plan-the-breezy-dragonfly.md`;
 the running record: practice_fragments_reference.md, "Virgil". **Next: R4** (Georgics I). Version numbers are the user's.
 
 **Deferred, on the list:** the user's notes on the Virgil excerpts (they are starting to study Virgil; fold in when
-sent). Scanned Augustan examples on the hexameter, Sapphic and elegiac metre pages. The other Augustan authors'
+sent; Ecl. 8, 9, 10 still unreviewed). **Eclogues 2, 6, 7 and 8 need at least one more excerpt each** (the user,
+25/11: "undercooked" at two), to do with the notes top-up; ask first. Scanned Augustan examples on the hexameter, Sapphic and elegiac metre pages. The other Augustan authors'
 top-ups after Virgil. The two older owed jobs: reorder other authors' notes; re-read 15 Pro Caelio / De Oratore
 translations. Later: Varro and Nepos.
 ---

@@ -137,6 +137,28 @@ Cinna's death; Callimachus's Heraclitus epigram; Pliny NH on the wolf; Gallus's 
 10.64) vs *labor omnia vicit*; Propertius I.18, Ariosto XIX/XXIII; Ecl. 1's *umbra* and Ecl. 10's; Ecl. 3.111 and
 Catullus 61's *lusimus satis*. **Next: R4 = Georgics I.**
 
+**The user's notes on R3, Ecl. 6 and 7 (25/11/2026), folded in place as a v2.1.3 follow-up (cache ?v=285, via
+`batch/verg2103_sync_notes.js`, which copies analysis/description from the part files into the bank).** THESES to
+reuse from now on: the shepherds KEEP THEIR IDENTITY from poem to poem (Menalcas 3 = 5 = 9; Corydon 2 = 7, proved by
+Alexis at Ecl. 7.55; Meliboeus 7 perhaps the exile of Ecl. 1 remembering - left open); Apollo calling the poet
+"Tityrus" (Ecl. 6.4) -> Virgil = the Tityrus of Ecl. 1 and probably KEPT his land (this NUANCES the older "Tityrus
+before / Meliboeus after" reading, which Ecl. 9's notes still carry - the user has not reviewed Ecl. 8-10 yet; ask
+before harmonising); Thalia, Muse of comedy, consecrated as the Muse of pastoral, her name = the tenuis/humilis
+style, a BOLD move; the recusatio refuses kings and battles only, so the Lucretian cosmogony is no contradiction
+(Ecl. 6 rises above pastoral while staying pastoral, Ecl. 4 barely pastoral); a dedication = the nearest thing to
+a celebration (Varus; Pollio in Ecl. 4); Gallus = Virgil's closest friend and helper in the confiscations, repaid
+with immortality, praised above Varus, his poetry lost after the fall ("better than nothing"); friendship as an
+Epicurean good; ARCADIA as Virgil's great contribution, a fusion of Greece, Mantua (Mincius) and Sicily (Hybla, Ecl.
+7.37), an ideal refuge from the civil wars, unlike Theocritus's realistic Sicily; its afterlife: Sannazaro, Tasso's
+*Aminta* (otium vs duty nearly tragic), the 17th century (Poussin, Accademia dell'Arcadia 1690); Virgil's *brevitas*
+explains his own myths; Thyrsis loses for roughness and irreverence (Priapus, vv. 33-36); what Ecl. 7 leaves out
+vs Ecl. 3 (prizes, friends/rivals, in medias res, quatrains vs couplets); "Corydon Corydon" answers Ecl. 2.69.
+
+**OWED, LATER (the user, 25/11/2026): Eclogues 2, 6, 7 and 8 are "undercooked" at two excerpts each; give each AT
+LEAST ONE MORE excerpt.** Do it together with the notes top-up (the user's notes on Ecl. 8, 9, 10 are still to
+come). That takes the Bucolica from 30 to at least 34 (the plan's 100 becomes at least 104 unless the user says
+otherwise). New excerpts there also need scansion data (Advanced settings) before they show the menu. Ask first.
+
 **ADVANCED SETTINGS (v2.1.3 follow-up, 24/11/2026, the user's request): metre marks and readings on verse excerpts.**
 Live on all 30 Eclogue excerpts. Every NEW Virgil hexameter excerpt (Georgics, Aeneid) can get it too: fetch the
 matching hypotactic pages (georgics1.., aeneid1.. - check the names in hypotactic.com/latin/authors.html), extend
