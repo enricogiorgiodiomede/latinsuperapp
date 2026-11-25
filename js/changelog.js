@@ -12,6 +12,47 @@
 
   var VERSIONS = [
     {
+      v: '2.1.4', date: '25/11/2026', time: '00:00', tz: 'CET',
+      en: {
+        added: [
+          'VIRGIL: THE GEORGICS BEGIN FOR REAL. Seven new excerpts take you through the whole of Book I, from the first line to the last, and the Georgics now have fourteen.',
+          'THE PROEM: "What makes the crops glad", the whole poem planned in four lines for Maecenas, then every god of the countryside called in, from the Sun and the Moon to Pan and Silvanus.',
+          'OCTAVIAN AMONG THE GODS: the last god of the invocation is a living man. Will he rule the land, the sea or a new star, while the Scorpion politely pulls in its claws to make room?',
+          'VERE NOVO: the farmer\'s year begins, the ox groaning at the plough, the map of what every land gives, and the stones of Deucalion from which a hard race was born.',
+          'LABOR OMNIA VICIT: why farming is hard. Jupiter ended the golden age on purpose, so that need would teach us every art. Toil conquered everything.',
+          'THE STORM: a year of work washed away in an afternoon, winds fighting like armies over a ripe field, and Jupiter\'s thunderbolt on the mountains.',
+          'THE SIGNS AT CAESAR\'S DEATH AND PHILIPPI: the sun veils its face, Etna erupts, cattle speak; then Roman fights Roman twice on the same plains, a future farmer ploughs up rusty spears and giant bones, and the book ends on a chariot out of control.',
+          'ADVANCED SETTINGS NOW WORK ON THE GEORGICS TOO: syllables and feet, caesuras, synaloephas and both readings on all fourteen Georgics excerpts, Book IV\'s Orpheus and Eurydice included.'
+        ],
+        changed: [
+          'Georgics, Book I now has its own page in the Georgics menu, before Book IV.',
+          'The scansion learnt new rules on the way: Greek "eu" as in Eurydice and Euphrates, "periuria" and "obiectam", "fluviorum" read in three syllables, and caesuras that fall inside a synaloepha.'
+        ],
+        deleted: [
+          'Nothing was deleted.'
+        ]
+      },
+      it: {
+        added: [
+          'VIRGILIO: LE GEORGICHE COMINCIANO DAVVERO. Sette nuovi estratti attraversano tutto il libro I, dal primo verso all\'ultimo, e le Georgiche ora ne hanno quattordici.',
+          'IL PROEMIO: "Che cosa rende liete le messi", tutto il poema progettato in quattro versi per Mecenate, poi l\'invocazione a ogni dio della campagna, dal Sole e dalla Luna fino a Pan e a Silvano.',
+          'OTTAVIANO TRA GLI DÈI: l\'ultimo dio dell\'invocazione è un uomo vivente. Regnerà sulla terra, sul mare o su un nuovo astro, mentre lo Scorpione ritrae educatamente le chele per fargli posto?',
+          'VERE NOVO: comincia l\'anno del contadino, il bue che geme sotto l\'aratro, la mappa di ciò che ogni terra produce, e le pietre di Deucalione da cui nacque una stirpe dura.',
+          'LABOR OMNIA VICIT: perché coltivare è faticoso. Giove pose fine all\'età dell\'oro di proposito, perché il bisogno ci insegnasse ogni arte. La fatica vinse ogni cosa.',
+          'LA TEMPESTA: un anno di lavoro spazzato via in un pomeriggio, venti che combattono come eserciti su un campo maturo, e il fulmine di Giove sui monti.',
+          'I SEGNI ALLA MORTE DI CESARE E FILIPPI: il sole si vela il volto, l\'Etna erutta, le bestie parlano; poi Romani contro Romani due volte nelle stesse pianure, un contadino del futuro dissotterra lance arrugginite e ossa gigantesche, e il libro finisce su un carro fuori controllo.',
+          'LE IMPOSTAZIONI AVANZATE ORA FUNZIONANO ANCHE SULLE GEORGICHE: sillabe e piedi, cesure, sinalefi ed entrambe le letture su tutti i quattordici estratti delle Georgiche, compresi Orfeo ed Euridice del libro IV.'
+        ],
+        changed: [
+          'Il libro I delle Georgiche ha ora la sua pagina nel menu delle Georgiche, prima del libro IV.',
+          'La scansione ha imparato nuove regole strada facendo: l\'"eu" greco di Euridice ed Eufrate, "periuria" e "obiectam", "fluviorum" letto in tre sillabe, e le cesure che cadono dentro una sinalefe.'
+        ],
+        deleted: [
+          'Non è stato eliminato nulla.'
+        ]
+      }
+    },
+    {
       v: '2.1.3', date: '24/11/2026', time: '13:25', tz: 'CET',
       en: {
         added: [

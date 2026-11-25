@@ -154,6 +154,19 @@ Epicurean good; ARCADIA as Virgil's great contribution, a fusion of Greece, Mant
 explains his own myths; Thyrsis loses for roughness and irreverence (Priapus, vv. 33-36); what Ecl. 7 leaves out
 vs Ecl. 3 (prizes, friends/rivals, in medias res, quatrains vs couplets); "Corydon Corydon" answers Ecl. 2.69.
 
+**v2.1.4 record (Release 4, 25/11/2026): GEORGICS I, 7.** vv. 1-23, 24-42, 43-70 (plan 43-63: v. 63 ends on *ergo age,
+terrae*), 118-146 (plan 121-146: v. 121 opens mid-sentence), 311-334, 463-488, 489-514 (the book's end). Georgica 14
+(I 7, IV 7). Emend: I.55 *inussa* -> *iniussa*. Kept: *ac prius* (I.50), *lammina* (I.143), *Atho* (I.332); Perseus
+brackets I.135 (kept, said in the note). check_context: the u-spelt vocative *Siluane* needed naming in "On the text"
+(the tool does not fold u/v in names). Cross-links written in: Varro RR I.1 (twelve gods) and the Menippean *quid
+vesper serus vehat* (Georg. I.461); Lucretius V.925-944 (*durum genus*), V.1448-1457 (*usus ... paulatim*),
+V.1218-1240 and VI.387-399 (thunder); Hesiod WD; Ecl. 1's *iuvenis* and the confiscations; Ecl. 4 (golden age);
+Ecl. 5 (Daphnis = Caesar), Ecl. 9 (*Caesaris astrum*), Ecl. 10 (*omnia vincit Amor*); Res Gestae 2 (*vici bis
+acie*); Tibullus I.10 (swords); Isaiah 2:4 reversed; Georg. IV.559-566 (the Euphrates, closing the circle);
+Theocritus *Id.* 7 (Athos and Rhodope). **Advanced settings extended to all 14 Georgics excerpts** (see ADVANCED
+SETTINGS below: geo1..geo4 pages, new rules, 2 OVERRIDES, the elision-caesura fallback). **Next: R5 = Georgics II
+(136-157, 158-176, 323-345, 458-474, 475-494, 513-540) + III (1-22, 242-263, 349-370)**; fetch geo2, geo3 first.
+
 **OWED, LATER (the user, 25/11/2026): Eclogues 2, 6, 7 and 8 are "undercooked" at two excerpts each; give each AT
 LEAST ONE MORE excerpt.** Do it together with the notes top-up (the user's notes on Ecl. 8, 9, 10 are still to
 come). That takes the Bucolica from 30 to at least 34 (the plan's 100 becomes at least 104 unless the user says
@@ -165,7 +178,12 @@ matching hypotactic pages (georgics1.., aeneid1.. - check the names in hypotacti
 `tools/build_scansion.js` beyond `bucolica-N` (work id -> page name), run it, settle every reported verse with a rule
 in js/scansion.js or an OVERRIDE with its reason, then `--write`. The menu appears by itself once every verse of an
 excerpt has codes. A verse whose Latin changes later (an emend) drops out of the menu until the data is rebuilt, so
-REBUILD the data after any emend on a scanned excerpt. Found on the first run: Ecl. 5.57 lacked *-que* (now mended).
+REBUILD the data after any emend on a scanned excerpt. Found on the first run: Ecl. 5.57 lacked *-que* (now mended). **Georgics (v2.1.4):** hypotactic names the books `geo1`..`geo4` (listed in its authors.html, "georgics" block);
+Book IV's text there LACKS v. 563 (*Illo Vergilium*), so that verse is an OVERRIDE, and so is I.332 (*Atho aut*,
+correptio without a hiatus flag). The builder now accepts a short long-syllable when hypotactic flags *semihiatus*.
+Caesura fallback: if no main pause falls at a clean word end, a word end inside a synaloepha right after the
+penthemimeral/trochaic/hephthemimeral position counts (the mark sits after the elided word). Scan of all 833
+verses: every line has a main caesura.
 The user's spec: accentual reading = the ictus (first long of each foot) in capitals with an accent, e.g. a-VÉ-na,
 pa-tu-LÉ; quantitative = long syllables with a doubled vowel, a-vee-naa; ecclesiastical ae/oe = e; synaloephas
 shown in both.

@@ -19,20 +19,31 @@
 (function (root) {
   'use strict';
 
-  var VOWELS = 'aeiouy';
+  var VOWELS = 'aeiouyëïü'; // a diaeresis marks a separate vowel (aëria)
   var MUTE = { b: 1, c: 1, d: 1, g: 1, p: 1, t: 1, ch: 1, ph: 1, th: 1, f: 1 };
   var LIQUID = { l: 1, r: 1 };
 
   // Words whose initial i + vowel is a VOWEL (Greek names), not a consonant.
   var INITIAL_I_VOWEL = /^(iol|iul|iacch|ion|ia$)/;
+  // Greek words whose i between vowels is a VOWEL (A-che-lo-i-a, Pe-ne-i-a, Ple-i-a-des), v2.1.4.
+  var GREEK_I = /^(acheloi|penei|rhodopei|pleia)/;
+  // A prefix + consonantal i: per-iu-ri-a, con-iu-gi-um, ob-iec-tam (v2.1.4 adds per and -iec).
+  var PREFIX_I = /^(con|in|ad|ab|ob|sub|dis|per)i(u|ec)/;
+  // Compounds of luo / ruo, where u after l/r stays a vowel: di-lu-it, pro-lu-it, e-ru-e (v2.1.4).
+  var LU_COMPOUND = /^(di|pro|ab|e|ob|sub)[lr]u[aeio]/;
   // Words where u after l/r before a vowel is a vowel (vo-lu-it), not v.
   var LU_VOWEL = /^(uol|vol|mal|nol|mer|col|al|val|dol|tim|hor)u(i|it|isti|imus|istis|erunt|ere|eram|erat|isse|isset|issem)$/;
   // ae / oe that are NOT diphthongs.
-  var NOT_DIPH = /^(poe[mt]|coe[gio]|phaeth|danae|pasipha[eë]|aeri[aeou])/;
+  var NOT_DIPH = /^(poe[mt]|coe[gior]|phaeth|danae|pasipha[eë]|aeri[aeiou])/;
   // Words where eu / ui is one syllable.
-  var EU_DIPH = /^(heu|eheu|ceu|neu|seu|orpheus|peleus|theseus|nereus|tereus|prometheus)$/;
+  var EU_DIPH = /^(heu|eheu|ceu|neu|seu|orpheus|orpheu|peleus|theseus|nereus|tereus|prometheus)$/;
+  // Greek eu at the start of a word is one syllable (Eu-ry-di-ce, Eu-phra-tes, Eu-me-ni-des),
+  // but not in the forms of is / eo (e-um, e-unt, e-un-dem); also Deu-ca-li-on (v2.1.4).
+  var EU_NOT_INITIAL = /^eu(m|n[dt][a-z]*)$/;
+  var EU_INNER = /^deucal/;
   // Synizesis: two vowels read as one syllable in these words: [word, index of the first vowel].
-  var SYNIZ = [[/^dein/, 1], [/^proin/, 2], [/^deer/, 1], [/^orphe[io]$/, 4], [/^reic/, 1], [/^scio$/, 2], [/^eod/, 0]];
+  var SYNIZ = [[/^dein/, 1], [/^proin/, 2], [/^deer/, 1], [/^orphe[io]$/, 4], [/^reic/, 1], [/^scio$/, 2], [/^eodemque$/, 0], [/^fluuior|^fluvior/, 4]];
+  // (eodem is e-o-dem in Georg. I.483, but eo-dem-que in Ecl. 8.81; fluviorum is flu-vio-rum.)
   var UI_DIPH = /^(cui|huic)$/;
   // Monosyllabic prepositions never take a caesura after them (they lean on their noun).
   var PROCLITIC = { a: 1, ab: 1, ad: 1, de: 1, e: 1, ex: 1, in: 1, per: 1, pro: 1, sub: 1 };
@@ -63,8 +74,8 @@
           var cons = false;
           if (c === 'i') {
             if (i === 0 && nextIsV && !INITIAL_I_VOWEL.test(lw)) cons = true;
-            else if (prevIsV && nextIsV) cons = true;
-            else if (i > 0 && nextIsV && /^(con|in|ad|ab|ob|sub|dis)iu/.test(lw.slice(0, i + 2)) && lw.slice(0, i).length >= 2) cons = true;
+            else if (prevIsV && nextIsV && !GREEK_I.test(lw)) cons = true;
+            else if (i > 0 && nextIsV && PREFIX_I.test(lw) && i === PREFIX_I.exec(lw)[1].length) cons = true;
           } else {
             if (nx === 'u') {
               // "uu": initial -> v+u; followed by a vowel -> u+v; else -> v+u after l/r or a vowel
@@ -72,8 +83,8 @@
               else cons = i === 0 || prevIsV || (pv && /[lr]/.test(lw.charAt(i - 1))); // uultus, seruus
             } else if (i === 0 && nextIsV) cons = true;
             else if (prevIsV && nextIsV) cons = true;
-            else if (nextIsV && /[lr]/.test(lw.charAt(i - 1)) && isVowelChar(lw.charAt(i - 2)) && !LU_VOWEL.test(lw)) cons = true; // sil-va, ar-va; not flu-ant, me-ru-it
-            else if (nextIsV && /^(con|in|ad|sub|ob)$/.test(lw.slice(0, i))) cons = true; // con-vivia, ad-vena, in-vitus
+            else if (nextIsV && /[lr]/.test(lw.charAt(i - 1)) && isVowelChar(lw.charAt(i - 2)) && (!LU_VOWEL.test(lw) || /^[uv]oluere$/.test(lw)) && !LU_COMPOUND.test(lw)) cons = true; // sil-va, ar-va, vol-ve-re; not flu-ant, me-ru-it, di-lu-it
+            else if (nextIsV && /^(con|in|ad|sub|ob|quam|circum)$/.test(lw.slice(0, i))) cons = true; // con-vivia, ad-vena, in-vitus, quam-vis
           }
           if (cons) {
             var heavy = c === 'i' && prevIsV && i > 0;
@@ -86,7 +97,7 @@
         var two = c + nx;
         if ((two === 'ae' || two === 'oe') && !NOT_DIPH.test(lw)) { out.push({ t: 'V', s: i, e: i + 2, diph: two }); i += 2; continue; }
         if (two === 'au' && !isVowelChar(nx2)) { out.push({ t: 'V', s: i, e: i + 2, diph: two }); i += 2; continue; }
-        if (two === 'eu' && EU_DIPH.test(lw)) { out.push({ t: 'V', s: i, e: i + 2, diph: two }); i += 2; continue; }
+        if (two === 'eu' && (EU_DIPH.test(lw) || (i === 0 && !EU_NOT_INITIAL.test(lw) && !isVowelChar(nx2)) || (i === 1 && EU_INNER.test(lw)))) { out.push({ t: 'V', s: i, e: i + 2, diph: two }); i += 2; continue; }
         if (two === 'ui' && UI_DIPH.test(lw)) { out.push({ t: 'V', s: i, e: i + 2, diph: two }); i += 2; continue; }
         out.push({ t: 'V', s: i, e: i + 1 });
         i++;
@@ -96,7 +107,7 @@
       if (c === 'h') { out.push({ t: 'H', s: i, e: i + 1, w: 0 }); i++; continue; }
       if (c === 'q' && nx === 'u') { out.push({ t: 'C', s: i, e: i + 2, w: 1, q: 'qu' }); i += 2; continue; }
       if (c === 'g' && nx === 'u' && lw.charAt(i - 1) === 'n' && isVowelChar(nx2)) { out.push({ t: 'C', s: i, e: i + 2, w: 1, q: 'gu' }); i += 2; continue; }
-      if (c === 's' && nx === 'u' && /^su(av|ad|esc|et)/.test(lw.slice(i)) && (i === 0 || /^(in|con|man|per|as)$/.test(lw.slice(0, i)))) { out.push({ t: 'C', s: i, e: i + 1, w: 1 }); out.push({ t: 'C', s: i + 1, e: i + 2, w: 1, cons: 'u' }); i += 2; continue; }
+      if (c === 's' && nx === 'u' && /^su(av|ad|esc|et)/.test(lw.slice(i)) && (i === 0 || /^(in|con|man|per|as|ad)$/.test(lw.slice(0, i)))) { out.push({ t: 'C', s: i, e: i + 1, w: 1 }); out.push({ t: 'C', s: i + 1, e: i + 2, w: 1, cons: 'u' }); i += 2; continue; }
       if ((c === 'c' || c === 'p' || c === 't' || c === 'r' || c === 'k') && nx === 'h') { out.push({ t: 'C', s: i, e: i + 2, w: 1, dg: c + 'h' }); i += 2; continue; }
       out.push({ t: 'C', s: i, e: i + 1, w: (c === 'x' || c === 'z') ? 2 : 1 });
       i++;
@@ -277,6 +288,19 @@
     var troch = feet[2].type === 'D' && wordEndAfter(feet[2].sylls[1]);
     var buc = wordEndAfter(feet[3].sylls[feet[3].sylls.length - 1]);
     var main = penth ? 'penth' : troch ? 'troch' : hepth ? 'hepth' : null;
+    // No main pause at a clean word end? Elision does not cancel a caesura: accept a
+    // word end swallowed by a synaloepha right after the position (cursum | atque,
+    // Georg. I.40), but only as a fallback, so that no secondary pause is invented.
+    if (!main) {
+      var inElision = function (g) {
+        var nx = sylls[g + 1];
+        return !!nx && nx.last && codes.charAt(g + 1) === 'E' && !PROCLITIC[parsed.words[nx.wi].word.toLowerCase()];
+      };
+      // the mark goes after the elided syllable, the real end of the word
+      if (inElision(long3)) { mark(long3 + 1, 'penth', true); main = 'penth'; }
+      else if (feet[2].type === 'D' && inElision(feet[2].sylls[1])) { mark(feet[2].sylls[1] + 1, 'troch', true); main = 'troch'; }
+      else if (inElision(long4)) { mark(long4 + 1, 'hepth', true); main = 'hepth'; }
+    }
     if (penth) mark(long3, 'penth', main === 'penth');
     if (troch) mark(feet[2].sylls[1], 'troch', main === 'troch');
     if (tri) mark(long2, 'tri', false);

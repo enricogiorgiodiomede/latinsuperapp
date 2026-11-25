@@ -6,6 +6,49 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 with simple date-based entries. The app is plain HTML/CSS/vanilla JavaScript with
 no build step and no dependencies.
 
+## [2.1.4] - 2026-11-25
+
+**VIRGIL, RELEASE 4 OF 13: GEORGICS I.** 7 new excerpts; bank 737 -> **744**; Georgica 7 -> **14** (Book I 7,
+Book IV 7). Advanced settings extended to every Georgics excerpt. Cache `?v=286`.
+
+### Added - Georgica I (7)
+| excerpt | what it is |
+|---|---|
+| vv. 1-23 | the proem: the plan in four lines, Maecenas, the litany of country gods (vs Varro RR I.1's twelve gods) |
+| vv. 24-42 | Octavian as the last god: land, sea or a new star (the Scorpion's claws = Libra), *ignaros viae* |
+| vv. 43-70 | *Vere novo*; each land's gifts; Deucalion's stones and the *durum genus* (Lucretius V.925-944) |
+| vv. 118-146 | the theodicy of labour, *labor omnia vicit improbus* (Hesiod; Lucretius V.1448-1457; Ecl. 10's *amor*) |
+| vv. 311-334 | the storm, *boum labores* washed away; Jupiter's bolt vs Lucretius V.1218-1240 and VI.387-399 |
+| vv. 463-488 | the portents at Caesar's death (Varro's *quid vesper serus vehat*; the *sidus Iulium*, Ecl. 9) |
+| vv. 489-514 | Philippi, the future ploughman, the prayer, Laomedon, sickles into swords (Tibullus I.10; Res Gestae 2), the runaway chariot |
+
+- Ranges adjusted from the plan so each excerpt holds whole sentences: 43-63 -> **43-70** (v. 63 ends on *ergo
+  age, terrae*), 121-146 -> **118-146** (v. 121 opens on the tail of a sentence).
+- **Emend:** Georg. I.55 *inussa* -> *iniussa* (not a word; every edition has *iniussa*). Kept as variants or
+  spellings: *ac prius* (I.50, Perseus *at*), *lammina* (I.143), *Atho* (I.332), *vulgo*, *apparere*, *sepulcris*.
+  Perseus brackets I.135 as suspect; kept, and said so in the note.
+- Notes written with the user's theses from the start: the civil wars under the idyll, peace granted by power,
+  *amor* vs *labor*, the *Georgics* as an answer to ruined farming, Virgil leaving things open (the chariot), the
+  three styles (the middle style opens in vv. 1-23).
+
+### Changed - Advanced settings on the Georgics
+- `tools/build_scansion.js` maps `georgica-i..iv` to hypotactic's `geo1..geo4` (empty works skipped) and now
+  accepts a long syllable left short in a *semihiatus* (*Rhodopeiae arces*, IV.461). Two verses hand-settled in
+  OVERRIDES with reasons: I.332 (*Atho aut*, correptio) and IV.563 (*Illo Vergilium...*, missing from hypotactic's
+  text). **833/833** verses agree (533 Eclogues + 300 Georgics); the Eclogue data is unchanged.
+- `js/scansion.js` rules added: ë/ï/ü are vowels (*aëria*); Greek intervocalic i is a vowel (*Acheloia*, *Peneia*,
+  *Rhodopeiae*, *Pleiadas*); prefix + consonantal i in *per-iuria* and *-iec-* (*obiectam*); *luo/ruo* compounds keep
+  u vocalic (*diluit*, *proluit*, *erue*), while *uoluere* is *vol-ve-re*; *quam-vis*; *ad-suesce*; initial Greek
+  *eu* (*Eurydice*, *Euphrates*, *Eumenides*) and *Deucalion*, *Orpheu*; *coercet* and *aerii* without diphthong;
+  synizesis *fluviorum*; *eodem* synizesis narrowed to *eodemque* (Ecl. 8.81; Georg. I.483 has e-o-dem).
+- Caesurae: when a line has no main pause at a clean word end, a word end swallowed by a synaloepha right after
+  the position counts (*cursum atque* I.40, *caeruleosque implexae* IV.482), the mark set after the elided word;
+  5 lines, all now with a main caesura (701 penthemimeral, 100 trochaic, 32 hephthemimeral).
+
+### Verification
+- verify 596/0 (7/7 new); check_verses 116/0; check_numbering 286/0; check_metres 295/295; lint_markdown,
+  lint_register, lint_ablatives 0; check_context 0 for 2.1.4; lint_translations: only the 4 older flags.
+
 ## [2.1.3] - 2026-11-24
 
 **VIRGIL, RELEASE 3 OF 13 (Eclogues 6-10): THE BUCOLICA COMPLETE AT 30.** 12 new excerpts; bank 725 -> **737**;
