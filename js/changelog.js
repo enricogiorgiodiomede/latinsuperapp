@@ -12,7 +12,7 @@
 
   var VERSIONS = [
     {
-      v: '2.1.4', date: '25/11/2026', time: '00:00', tz: 'CET',
+      v: '2.1.4', date: '25/11/2026', time: '16:15', tz: 'CET',
       en: {
         added: [
           'VIRGIL: THE GEORGICS BEGIN FOR REAL. Seven new excerpts take you through the whole of Book I, from the first line to the last, and the Georgics now have fourteen.',
