@@ -45,6 +45,11 @@ Book IV 7). Advanced settings extended to every Georgics excerpt. Cache `?v=286`
   the position counts (*cursum atque* I.40, *caeruleosque implexae* IV.482), the mark set after the elided word;
   5 lines, all now with a main caesura (701 penthemimeral, 100 trochaic, 32 hephthemimeral).
 
+### Follow-up (2026-11-28, no version bump, cache `?v=287`): caesuras in the readings
+- Both reading panels (accentual and quantitative) now mark the caesurae computed for the Latin: ‖ main, | secondary,
+  with the same hover names, after the word (and before the tie when the pause falls in a synaloepha).
+  `renderReading` in `js/advanced.js`; `.rd-caes` in `css/styles.css`; both reading notes (EN + IT) say where to pause.
+
 ### Verification
 - verify 596/0 (7/7 new); check_verses 116/0; check_numbering 286/0; check_metres 295/295; lint_markdown,
   lint_register, lint_ablatives 0; check_context 0 for 2.1.4; lint_translations: only the 4 older flags.

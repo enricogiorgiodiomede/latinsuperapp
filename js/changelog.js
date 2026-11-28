@@ -26,7 +26,8 @@
         ],
         changed: [
           'Georgics, Book I now has its own page in the Georgics menu, before Book IV.',
-          'The scansion learnt new rules on the way: Greek "eu" as in Eurydice and Euphrates, "periuria" and "obiectam", "fluviorum" read in three syllables, and caesuras that fall inside a synaloepha.'
+          'The scansion learnt new rules on the way: Greek "eu" as in Eurydice and Euphrates, "periuria" and "obiectam", "fluviorum" read in three syllables, and caesuras that fall inside a synaloepha.',
+          'Both readings, accentual and quantitative, now show the caesuras too: ‖ for the main pause and | for the secondary ones, so you know where to breathe when you read aloud.'
         ],
         deleted: [
           'Nothing was deleted.'
@@ -45,7 +46,8 @@
         ],
         changed: [
           'Il libro I delle Georgiche ha ora la sua pagina nel menu delle Georgiche, prima del libro IV.',
-          'La scansione ha imparato nuove regole strada facendo: l\'"eu" greco di Euridice ed Eufrate, "periuria" e "obiectam", "fluviorum" letto in tre sillabe, e le cesure che cadono dentro una sinalefe.'
+          'La scansione ha imparato nuove regole strada facendo: l\'"eu" greco di Euridice ed Eufrate, "periuria" e "obiectam", "fluviorum" letto in tre sillabe, e le cesure che cadono dentro una sinalefe.',
+          'Entrambe le letture, accentuativa e quantitativa, ora mostrano anche le cesure: ‖ per la pausa principale e | per quelle secondarie, così si sa dove prendere fiato leggendo ad alta voce.'
         ],
         deleted: [
           'Non è stato eliminato nulla.'

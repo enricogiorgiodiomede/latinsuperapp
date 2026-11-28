@@ -124,15 +124,23 @@
   // ---- the two readings ------------------------------------------------------------
   function renderReading(v, kind) {
     var fi = footIndex(v);
+    var caesAfter = {};
+    v.caes.forEach(function (c) { caesAfter[c.after] = c; });
     var out = '';
     var g = 0;
-    var tie = false;
+    var tie = false, caes = null;
     v.parsed.tokens.forEach(function (tok) {
       if (tok.sep != null) {
-        // keep the punctuation, drop quotes and brackets, and tie a synaloepha
-        var sep = tok.sep.replace(/["“”()]/g, '');
-        if (tie) { sep = sep.replace(/\s+/g, '') + '‿'; tie = false; }
-        out += esc(sep);
+        // keep the punctuation, drop quotes and brackets, mark a caesura (v2.1.4
+        // follow-up: the pauses belong to the reading too) and tie a synaloepha
+        var sep = esc(tok.sep.replace(/["“”()]/g, ''));
+        if (caes) {
+          sep = sep.replace(/\s*$/, '') + ' <span class="rd-caes' + (caes.main ? ' is-main' : '') + '" title="' +
+            esc(t('adv.caes.' + caes.kind)) + '">' + (caes.main ? '‖' : '|') + '</span>' + (tie ? '' : ' ');
+          caes = null;
+        }
+        if (tie) { sep = sep.replace(/\s+$/, '') + '‿'; tie = false; }
+        out += sep;
         return;
       }
       var w = tok.word;
@@ -150,6 +158,7 @@
           txt = code === 'L' ? '<span class="rd-long">' + esc(global.Scansion.longText(p)) + '</span>' : esc(p.pre + p.v + p.post);
         }
         parts.push(txt);
+        if (k === tok.sylls.length - 1 && caesAfter[g]) caes = caesAfter[g];
         g++;
       });
       out += parts.join('-');

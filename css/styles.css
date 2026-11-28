@@ -891,6 +891,8 @@ blockquote {
 .rd-ictus { color: var(--deep-red); font-weight: 700; }
 .rd-long { color: var(--blue); font-weight: 600; }
 .rd-elided { color: #c0262d; }
+.rd-caes { font-family: var(--font-ui); font-weight: 700; color: #6b3fa0; cursor: help; }
+.rd-caes.is-main { color: #5a2a8f; }
 
 @media (max-width: 640px) {
   .adv-row { justify-content: flex-start; }
